@@ -16,10 +16,14 @@ const daskam = d01;
       .pill{display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);padding:8px 10px;border-radius:999px;color:var(--muted);font-size:13px}
       .pill a{color:var(--text)}
       h1{font-size:22px;margin:14px 0 6px}
-      .carousel{margin-top:16px; display:flex; gap:14px; overflow-x:auto; padding: 4px 2px 12px; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch}
+      .carousel{margin-top:12px; display:flex; gap:14px; overflow-x:auto; padding: 6px 2px 14px; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch}
       .carousel::-webkit-scrollbar{height:8px}
       .carousel::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14); border-radius:999px}
-      .stanza{flex: 0 0 min(92vw, 820px); scroll-snap-align:start; background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden}
+      .stanza{flex: 0 0 min(92vw, 820px); scroll-snap-align:start; background:var(--card);border:1px solid rgba(255,255,255,.10);border-radius:18px;overflow:hidden; box-shadow: 0 10px 40px rgba(0,0,0,.25)}
+      .progress{margin-top:10px; display:flex; align-items:center; justify-content:space-between; gap:12px; color:var(--muted)}
+      .dots{display:flex; gap:6px; flex-wrap:wrap}
+      .dot{width:7px; height:7px; border-radius:999px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.10)}
+      .dot.active{background:rgba(200,162,74,.9); border-color:rgba(200,162,74,.7)}
       .img{aspect-ratio: 16/9; background: rgba(200,162,74,.08); display:flex;align-items:center;justify-content:center;color:var(--muted); position:relative}
       .img button{all:unset; cursor:pointer; display:block; width:100%; height:100%}
       .img img{width:100%;height:100%;object-fit:cover;display:block}
@@ -47,14 +51,23 @@ const daskam = d01;
       <div class="top">
         <a href="/">← All Daskams</a>
         <div class="pill">
-          <span>English:</span>
-          <a href="#" data-enmode="translation">Translation</a>
+          <span>Stanza:</span>
+          <a href="#" data-stanzalang="sa">Sanskrit</a>
           <span style="opacity:.5">|</span>
-          <a href="#" data-enmode="meaning">Meaning</a>
+          <a href="#" data-stanzalang="en">English</a>
         </div>
       </div>
 
       <h1>Daskam {daskam.id}</h1>
+
+      <div class="progress">
+        <div id="cardCount">Sloka 1 / {daskam.stanzas.length}</div>
+        <div class="dots" aria-label="Progress">
+          {daskam.stanzas.map((s, i) => (
+            <span class={`dot ${i === 0 ? 'active' : ''}`} data-dot={i} aria-label={`Sloka ${s.n}`}></span>
+          ))}
+        </div>
+      </div>
 
       <div class="carousel" aria-label="Slokas">
       {daskam.stanzas.map((s, idx) => (
@@ -66,21 +79,9 @@ const daskam = d01;
             <span class="zoomHint">Tap to zoom</span>
           </div>
           <div class="content">
-            <div class="label">Sanskrit (Stanza {s.n})</div>
-            <div class="sa">{s.sanskrit}</div>
-
-            <div class="label">English</div>
-            <p class="para en-block en-translation">{s.translation_en || s.meaning_en}</p>
-            <p class="para en-block en-meaning" style="display:none">{s.meaning_en}</p>
-
-            <details style="margin-top:10px">
-              <summary style="cursor:pointer;color:var(--muted)">Word-by-word (optional)</summary>
-              <ul class="gloss">
-                {s.gloss_en.map((g) => (
-                  <li><span style="color:var(--text)">{g.sa}</span> — {g.en}</li>
-                ))}
-              </ul>
-            </details>
+            <div class="label">Stanza {s.n}</div>
+            <div class="sa stanza-block stanza-sa">{s.sanskrit}</div>
+            <div class="sa stanza-block stanza-en" style="display:none">{s.stanza_roman || 'English stanza coming soon.'}</div>
 
             <div class="label">Commentary</div>
             <p class="para">{s.commentary_en}</p>
@@ -99,25 +100,49 @@ const daskam = d01;
       </dialog>
 
       <script>
-        // English switcher (Translation vs Meaning)
-        const setEnMode = (mode) => {
-          const showMeaning = mode === 'meaning';
-          document.querySelectorAll('.en-translation').forEach(el => el.style.display = showMeaning ? 'none' : 'block');
-          document.querySelectorAll('.en-meaning').forEach(el => el.style.display = showMeaning ? 'block' : 'none');
-          document.querySelectorAll('[data-enmode]').forEach(a => {
-            const active = a.dataset.enmode === mode;
+        // Stanza language switcher (Sanskrit vs English stanza)
+        const setStanzaLang = (lang) => {
+          const showEn = lang === 'en';
+          document.querySelectorAll('.stanza-sa').forEach(el => el.style.display = showEn ? 'none' : 'block');
+          document.querySelectorAll('.stanza-en').forEach(el => el.style.display = showEn ? 'block' : 'none');
+          document.querySelectorAll('[data-stanzalang]').forEach(a => {
+            const active = a.dataset.stanzalang === lang;
             a.style.color = active ? 'var(--text)' : 'var(--muted)';
           });
-          try { localStorage.setItem('na_en_mode', mode); } catch {}
+          try { localStorage.setItem('na_stanza_lang', lang); } catch {}
         };
-        const initialMode = (new URLSearchParams(window.location.search).get('en') || localStorage.getItem('na_en_mode') || 'translation');
-        setEnMode(initialMode);
-        document.querySelectorAll('[data-enmode]').forEach(a => {
+        const initialLang = (new URLSearchParams(window.location.search).get('stanza') || localStorage.getItem('na_stanza_lang') || 'sa');
+        setStanzaLang(initialLang);
+        document.querySelectorAll('[data-stanzalang]').forEach(a => {
           a.addEventListener('click', (e) => {
             e.preventDefault();
-            setEnMode(a.dataset.enmode);
+            setStanzaLang(a.dataset.stanzalang);
           });
         });
+
+        // Progress indicator for swipe cards
+        const carousel = document.querySelector('.carousel');
+        const dots = Array.from(document.querySelectorAll('[data-dot]'));
+        const countEl = document.getElementById('cardCount');
+        const cards = Array.from(document.querySelectorAll('section.stanza'));
+        const setActive = (idx) => {
+          dots.forEach((d,i)=>d.classList.toggle('active', i===idx));
+          if (countEl) countEl.textContent = `Sloka ${idx+1} / ${cards.length}`;
+        };
+        if (cards.length) {
+          const io = new IntersectionObserver((entries) => {
+            // choose the most visible card
+            let best = null;
+            for (const e of entries) {
+              if (!best || e.intersectionRatio > best.intersectionRatio) best = e;
+            }
+            if (best && best.isIntersecting) {
+              const idx = cards.indexOf(best.target);
+              if (idx >= 0) setActive(idx);
+            }
+          }, { root: carousel, threshold: [0.6, 0.75, 0.9] });
+          cards.forEach(c => io.observe(c));
+        }
 
         window.__na_openImg = (src, alt) => {
           const dlg = document.getElementById('imgModal');
