@@ -33,6 +33,8 @@ const isTa = lang === 'ta';
       .content{padding:14px 14px 16px}
       .sa{white-space:pre-wrap;font-size:18px;line-height:1.55}
       .label{margin-top:12px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+      .lang-block{display:block}
+      .lang-ta{display:none}
       .para{margin:6px 0 0;line-height:1.6}
       .gloss{margin:8px 0 0;padding-left:16px;color:var(--muted)}
       .gloss li{margin:4px 0}
@@ -44,14 +46,13 @@ const isTa = lang === 'ta';
         <a href="/">← All Daskams</a>
         <div class="pill">
           <span>Language:</span>
-          <a href={`?lang=en`}>EN</a>
+          <a data-lang-link="en" href="?lang=en">EN</a>
           <span style="opacity:.5">|</span>
-          <a href={`?lang=ta`}>TA</a>
+          <a data-lang-link="ta" href="?lang=ta">TA</a>
         </div>
       </div>
 
       <h1>Daskam {daskam.id}</h1>
-      <p style="margin:0;color:var(--muted)">Sanskrit always shown. English meaning + your commentary. Tamil toggle scaffold.</p>
 
       {daskam.stanzas.map((s) => (
         <section class="stanza">
@@ -73,20 +74,12 @@ const isTa = lang === 'ta';
             </ul>
 
             <div class="label">Meaning</div>
-            {!isTa ? (
-              <p class="para">{s.meaning_en}</p>
-            ) : (
-              <p class="para" style="color:var(--muted)">{s.tamil.meaning_ta || 'Tamil coming soon.'}</p>
-            )}
+            <p class="para lang-block lang-en">{s.meaning_en}</p>
+            <p class="para lang-block lang-ta" style="color:var(--muted)">{s.tamil.meaning_ta || 'Tamil coming soon.'}</p>
 
             <div class="label">Commentary</div>
-            {!isTa ? (
-              <p class="para">{s.commentary_en}</p>
-            ) : (
-              <p class="para" style="color:var(--muted)">{s.tamil.commentary_ta || 'Tamil commentary coming soon.'}</p>
-            )}
-
-            <p style="margin:14px 0 0;font-size:12px;color:var(--muted)">Source: <a href={daskam.source.sanskrit_english} target="_blank" rel="noreferrer">narayaneeyam-firststep.org</a></p>
+            <p class="para lang-block lang-en">{s.commentary_en}</p>
+            <p class="para lang-block lang-ta" style="color:var(--muted)">{s.tamil.commentary_ta || 'Tamil commentary coming soon.'}</p>
           </div>
         </section>
       ))}
@@ -102,6 +95,22 @@ const isTa = lang === 'ta';
       </dialog>
 
       <script>
+        // language toggle for static builds (query params are not available at build time)
+        const setLang = (lang) => {
+          const showTa = lang === 'ta';
+          document.querySelectorAll('.lang-en').forEach(el => el.style.display = showTa ? 'none' : 'block');
+          document.querySelectorAll('.lang-ta').forEach(el => el.style.display = showTa ? 'block' : 'none');
+          // update the toggle links
+          document.querySelectorAll('[data-lang-link]')?.forEach(a => {
+            const l = a.getAttribute('data-lang-link');
+            const url = new URL(window.location.href);
+            url.searchParams.set('lang', l);
+            a.setAttribute('href', url.pathname + url.search);
+          });
+        };
+        const params = new URLSearchParams(window.location.search);
+        setLang(params.get('lang') || 'en');
+
         window.__na_openImg = (src, alt) => {
           const dlg = document.getElementById('imgModal');
           const img = document.getElementById('imgModalImg');
