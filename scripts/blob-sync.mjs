@@ -34,6 +34,7 @@ async function uploadOnce(key, buf, contentType) {
     access: 'public',
     contentType,
     token,
+    allowOverwrite: true,
   });
   return res.url;
 }
