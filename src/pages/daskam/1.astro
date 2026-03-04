@@ -22,19 +22,44 @@ const daskam = d01;
       .dot.active{background:rgba(200,162,74,.9); border-color:rgba(200,162,74,.7)}
 
       /* stacked swipe cards */
-      .stack{margin-top:12px; position:relative; height:min(82vh, 800px);}
-      .stanza{position:absolute; inset:0; background:var(--card);border:1px solid rgba(255,255,255,.10);border-radius:18px;overflow-y:auto;overflow-x:hidden; box-shadow: 0 18px 60px rgba(0,0,0,.35); will-change: transform; touch-action: pan-y;}
+      .stack-wrap{margin-top:12px; position:relative;}
+      .stack{position:relative; height:min(82vh, 800px);}
+      .stanza{position:absolute; inset:0; display:flex; flex-direction:column; background:var(--card);border:1px solid rgba(255,255,255,.10);border-radius:18px;overflow:hidden; box-shadow: 0 18px 60px rgba(0,0,0,.35); will-change: transform; touch-action: pan-y;}
       .stanza[data-depth="1"]{transform: translateY(8px) scale(0.985); opacity:0.98}
       .stanza[data-depth="2"]{transform: translateY(16px) scale(0.97); opacity:0.96}
       .stanza[data-depth="3"]{transform: translateY(24px) scale(0.955); opacity:0.94}
       .stanza.hidden{display:none}
-      .stanza.dragging{transition:none !important; cursor:grabbing; overflow:hidden}
+      .stanza.dragging{transition:none !important; cursor:grabbing}
       .stanza.animate{transition: transform 220ms ease, opacity 220ms ease}
       .hint{margin-top:8px; font-size:12px; color:var(--muted)}
-      .img{width:100%; aspect-ratio:16/9; background: rgba(200,162,74,.08); display:flex;align-items:center;justify-content:center;color:var(--muted); position:relative; flex-shrink:0}
+      .img{width:100%; flex-shrink:0; aspect-ratio:16/9; background: rgba(200,162,74,.08); position:relative; overflow:hidden}
       .img button{all:unset; cursor:pointer; display:block; width:100%; height:100%}
       .img img{width:100%;height:100%;object-fit:cover;display:block}
       .zoomHint{position:absolute; right:10px; bottom:10px; font-size:12px; color:rgba(232,234,242,.92); background:rgba(0,0,0,.35); padding:6px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.18); backdrop-filter: blur(6px)}
+      .content{padding:14px 14px 20px; overflow-y:auto; flex:1; min-height:0}
+      .sa{white-space:pre-wrap;font-size:18px;line-height:1.55}
+      .label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+      .label+.label{margin-top:12px}
+      .content .label:not(:first-child){margin-top:14px}
+      .para{margin:6px 0 0;line-height:1.6}
+
+      /* nav arrows */
+      .nav-arrow{position:absolute; top:50%; transform:translateY(-50%); z-index:200; background:rgba(200,162,74,.15); border:1px solid rgba(200,162,74,.3); color:var(--accent); width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; font-size:20px; transition: background .15s, opacity .15s; backdrop-filter:blur(6px)}
+      .nav-arrow:hover{background:rgba(200,162,74,.3)}
+      .nav-arrow:disabled{opacity:.25; cursor:default; pointer-events:none}
+      .nav-arrow.prev{left:-56px}
+      .nav-arrow.next{right:-56px}
+      /* on narrower screens, overlay arrows on the card edges */
+      @media(max-width:980px){
+        .nav-arrow.prev{left:8px}
+        .nav-arrow.next{right:8px}
+        .nav-arrow{background:rgba(0,0,0,.5); border-color:rgba(255,255,255,.15)}
+        .nav-arrow:hover{background:rgba(0,0,0,.7)}
+      }
+      @media(max-width:480px){
+        .nav-arrow{width:36px; height:36px; font-size:16px}
+      }
+
       dialog{border:none; padding:0; background:transparent; max-width:min(96vw, 980px)}
       dialog::backdrop{background:rgba(0,0,0,.72)}
       .modal{background:rgba(18,20,28,.98); border:1px solid rgba(255,255,255,.12); border-radius:16px; overflow:hidden}
@@ -42,12 +67,8 @@ const daskam = d01;
       .modalTop{display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px 12px; color:var(--muted)}
       .modalTop strong{color:var(--text); font-weight:600}
       .closeBtn{all:unset; cursor:pointer; padding:6px 10px; border-radius:10px; border:1px solid rgba(255,255,255,.14)}
-      .content{padding:14px 14px 16px}
-      .sa{white-space:pre-wrap;font-size:18px;line-height:1.55}
-      .label{margin-top:12px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
       .lang-block{display:block}
       .lang-ta{display:none}
-      .para{margin:6px 0 0;line-height:1.6}
       .gloss{margin:8px 0 0;padding-left:16px;color:var(--muted)}
       .gloss li{margin:4px 0}
       details{border-top:1px solid rgba(255,255,255,.08); padding-top:10px}
@@ -75,27 +96,33 @@ const daskam = d01;
           ))}
         </div>
       </div>
-      <div class="hint">Swipe the top card left or right to move to the next sloka.</div>
+      <div class="hint">Swipe or use arrows to navigate between slokas.</div>
 
-      <div class="stack" id="stack" aria-label="Slokas">
-      {daskam.stanzas.map((s, idx) => (
-        <section class="stanza" data-index={idx} data-depth={idx} aria-label={`Sloka ${s.n}`}>
-          <div class="img">
-            <button type="button" data-fullsrc={s.image.src} data-alt={s.image.alt} onclick="window.__na_openImg?.(this.dataset.fullsrc, this.dataset.alt)">
-              <img src={s.image.src} alt={s.image.alt} onerror="this.remove();" />
-            </button>
-            <span class="zoomHint">Tap to zoom</span>
-          </div>
-          <div class="content">
-            <div class="label">Stanza {s.n}</div>
-            <div class="sa stanza-block stanza-sa">{s.sanskrit}</div>
-            <div class="sa stanza-block stanza-en" style="display:none">{s.stanza_roman || 'English stanza coming soon.'}</div>
+      <div class="stack-wrap">
+        <button class="nav-arrow prev" id="prevBtn" type="button" disabled aria-label="Previous sloka">&#8592;</button>
+        <button class="nav-arrow next" id="nextBtn" type="button" aria-label="Next sloka">&#8594;</button>
 
-            <div class="label">Commentary</div>
-            <p class="para">{s.commentary_en}</p>
-          </div>
-        </section>
-      ))}
+        <div class="stack" id="stack" aria-label="Slokas">
+        {daskam.stanzas.map((s, idx) => (
+          <section class="stanza" data-index={idx} data-depth={idx} aria-label={`Sloka ${s.n}`}>
+            <div class="img">
+              <button type="button" data-fullsrc={s.image.src} data-alt={s.image.alt} onclick="window.__na_openImg?.(this.dataset.fullsrc, this.dataset.alt)">
+                <img src={s.image.src} alt={s.image.alt} onerror="this.remove();" />
+              </button>
+              <span class="zoomHint">Tap to zoom</span>
+            </div>
+            <div class="content">
+              <div class="label">Stanza {s.n}</div>
+              <div class="sa stanza-block stanza-sa">{s.sanskrit}</div>
+              <div class="sa stanza-block stanza-en" style="display:none">{s.stanza_roman || 'English stanza coming soon.'}</div>
+
+              <div class="label">Commentary</div>
+              <p class="para">{s.commentary_en}</p>
+            </div>
+          </section>
+        ))}
+        </div>
+      </div>
 
       <dialog id="imgModal">
         <div class="modal">
@@ -132,6 +159,8 @@ const daskam = d01;
         const dots = Array.from(document.querySelectorAll('[data-dot]'));
         const countEl = document.getElementById('cardCount');
         const cards = Array.from(document.querySelectorAll('#stack > section.stanza'));
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
         let current = 0;
 
         const updateStack = () => {
@@ -146,15 +175,58 @@ const daskam = d01;
             c.style.zIndex = String(100 - depth);
             c.dataset.depth = String(Math.min(depth, 3));
             if (depth > 3) c.style.opacity = '0'; else c.style.opacity = '';
-            // reset transform for top card
-            if (depth === 0) c.classList.add('top'); else c.classList.remove('top');
+            if (depth === 0) { c.classList.add('top'); c.scrollTop = 0; }
+            else c.classList.remove('top');
           }
           dots.forEach((d,i)=>d.classList.toggle('active', i===current));
           if (countEl) countEl.textContent = `Sloka ${current+1} / ${cards.length}`;
+          prevBtn.disabled = current === 0;
+          nextBtn.disabled = current === cards.length - 1;
+        };
+
+        const goNext = () => {
+          if (current >= cards.length - 1) return;
+          const card = cards[current];
+          card.classList.add('animate');
+          card.style.transform = `translateX(${-(window.innerWidth + 200)}px) rotate(-12deg)`;
+          card.style.opacity = '0';
+          setTimeout(() => {
+            card.style.transform = '';
+            card.style.opacity = '';
+            current++;
+            updateStack();
+          }, 240);
+        };
+
+        const goPrev = () => {
+          if (current <= 0) return;
+          current--;
+          const card = cards[current];
+          card.classList.remove('hidden');
+          card.style.zIndex = '100';
+          card.style.transform = `translateX(${-(window.innerWidth + 200)}px) rotate(-12deg)`;
+          card.style.opacity = '0';
+          // force reflow then animate in
+          card.offsetHeight;
+          card.classList.add('animate');
+          card.style.transform = '';
+          card.style.opacity = '';
+          setTimeout(() => updateStack(), 240);
         };
 
         updateStack();
 
+        // arrow buttons
+        prevBtn.addEventListener('click', goPrev);
+        nextBtn.addEventListener('click', goNext);
+
+        // keyboard arrows
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'ArrowLeft') goPrev();
+          else if (e.key === 'ArrowRight') goNext();
+        });
+
+        // swipe logic
         const topCard = () => cards[current];
         let startX=0, startY=0, dx=0, dragging=false, decided=false, isHorizontal=false;
 
@@ -175,7 +247,6 @@ const daskam = d01;
           const p = e.touches ? e.touches[0] : e;
           const mx = p.clientX - startX;
           const my = p.clientY - startY;
-          // decide direction once after 8px movement
           if (!decided && (Math.abs(mx) > 8 || Math.abs(my) > 8)) {
             decided = true;
             isHorizontal = Math.abs(mx) > Math.abs(my);
@@ -197,21 +268,18 @@ const daskam = d01;
           card.classList.add('animate');
           const threshold = Math.min(120, window.innerWidth * 0.25);
           if (Math.abs(dx) > threshold) {
-            const dir = dx > 0 ? 1 : -1;
-            card.style.transform = `translateX(${dir * (window.innerWidth + 200)}px) rotate(${dir*18}deg)`;
-            card.style.opacity = '0';
-            setTimeout(() => {
+            if (dx < 0 && current < cards.length - 1) {
+              goNext();
+            } else if (dx > 0 && current > 0) {
+              goPrev();
+            } else {
               card.style.transform = '';
-              card.style.opacity = '';
-              current = Math.min(cards.length-1, current + 1);
-              updateStack();
-            }, 240);
+            }
           } else {
             card.style.transform = '';
           }
         };
 
-        // bind events to stack (top card only responds)
         const stack = document.getElementById('stack');
         stack.addEventListener('pointerdown', onDown);
         window.addEventListener('pointermove', onMove, { passive: true });
@@ -228,7 +296,6 @@ const daskam = d01;
           dlg.showModal();
         };
         document.getElementById('imgModal')?.addEventListener('click', (e) => {
-          // click outside modal content closes
           if (e.target?.id === 'imgModal') e.target.close();
         });
       </script>
