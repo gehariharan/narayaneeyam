@@ -20,6 +20,20 @@ pnpm-debug.log*
 # private reference images (do not publish)
 private_refs/
 
+# intake (raw) + local tools
+intake/
+intake-ui/
+INTAKE.md
+
+# generated local master images (kept in Blob; don't commit)
+public/images/*.png
+public/images/*.jpg
+public/images/*.jpeg
+public/images/*.webp
+
+# local scripts (optional)
+scripts/ingest-intake-d1.py
+
 # macOS-specific files
 .DS_Store
 

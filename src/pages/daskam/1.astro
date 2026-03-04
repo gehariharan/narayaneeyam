@@ -1,10 +1,8 @@
 ---
 import d01 from '../../content/daskam01.json';
 const daskam = d01;
-const lang = Astro.url.searchParams.get('lang') ?? 'en';
-const isTa = lang === 'ta';
 ---
-<html lang={isTa ? 'ta' : 'en'}>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -44,12 +42,7 @@ const isTa = lang === 'ta';
     <div class="wrap">
       <div class="top">
         <a href="/">← All Daskams</a>
-        <div class="pill">
-          <span>Language:</span>
-          <a data-lang-link="en" href="?lang=en">EN</a>
-          <span style="opacity:.5">|</span>
-          <a data-lang-link="ta" href="?lang=ta">TA</a>
-        </div>
+        <!-- language toggle disabled for now -->
       </div>
 
       <h1>Daskam {daskam.id}</h1>
@@ -95,21 +88,9 @@ const isTa = lang === 'ta';
       </dialog>
 
       <script>
-        // language toggle for static builds (query params are not available at build time)
-        const setLang = (lang) => {
-          const showTa = lang === 'ta';
-          document.querySelectorAll('.lang-en').forEach(el => el.style.display = showTa ? 'none' : 'block');
-          document.querySelectorAll('.lang-ta').forEach(el => el.style.display = showTa ? 'block' : 'none');
-          // update the toggle links
-          document.querySelectorAll('[data-lang-link]')?.forEach(a => {
-            const l = a.getAttribute('data-lang-link');
-            const url = new URL(window.location.href);
-            url.searchParams.set('lang', l);
-            a.setAttribute('href', url.pathname + url.search);
-          });
-        };
-        const params = new URLSearchParams(window.location.search);
-        setLang(params.get('lang') || 'en');
+        // Tamil disabled for now; always show English blocks
+        document.querySelectorAll('.lang-en').forEach(el => el.style.display = 'block');
+        document.querySelectorAll('.lang-ta').forEach(el => el.style.display = 'none');
 
         window.__na_openImg = (src, alt) => {
           const dlg = document.getElementById('imgModal');
