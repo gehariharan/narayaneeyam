@@ -32,9 +32,12 @@ const daskam = d01;
       .title{font-size:18px;font-weight:700;margin:0}
       .sep{color:rgba(255,255,255,.15)}
       .sloka-count{font-size:13px;color:var(--muted);white-space:nowrap}
-      .dots-row{display:flex;gap:6px;justify-content:center;margin-top:6px}
+      .dots-row{display:flex;gap:6px;align-items:center;justify-content:center;margin-top:6px}
       .dot{width:6px;height:6px;border-radius:999px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.10)}
       .dot.active{background:rgba(200,162,74,.9);border-color:rgba(200,162,74,.7)}
+      .dot-arrow{all:unset;cursor:pointer;color:var(--muted);font-size:16px;padding:2px 6px;line-height:1;transition:color .15s}
+      .dot-arrow:hover{color:var(--accent)}
+      .dot-arrow:disabled{opacity:.25;cursor:default}
       .lang-sw{display:inline-flex;gap:2px;align-items:center;font-size:13px;color:var(--muted);margin-left:auto}
       .lang-sw a{color:var(--muted);padding:2px 6px;border-radius:6px;text-decoration:none;font-weight:600}
       .lang-sw a.active{color:var(--text);background:rgba(255,255,255,.08)}
@@ -42,7 +45,7 @@ const daskam = d01;
       /* stacked swipe cards */
       .stack-wrap{margin-top:12px; position:relative;}
       .stack{position:relative; height:min(82vh, 800px);}
-      .stanza{position:absolute; inset:0; display:flex; flex-direction:column; background:var(--card);border:1px solid rgba(255,255,255,.10);border-radius:18px;overflow:hidden; box-shadow: 0 18px 60px rgba(0,0,0,.35); will-change: transform; touch-action: pan-y;}
+      .stanza{position:absolute; inset:0; display:flex; flex-direction:column; background:var(--card);border:1px solid rgba(255,255,255,.10);border-radius:18px;overflow:hidden; box-shadow: 0 18px 60px rgba(0,0,0,.35); will-change: transform; touch-action: none;}
       .stanza[data-depth="1"]{transform: translateY(8px) scale(0.985); opacity:0.98}
       .stanza[data-depth="2"]{transform: translateY(16px) scale(0.97); opacity:0.96}
       .stanza[data-depth="3"]{transform: translateY(24px) scale(0.955); opacity:0.94}
@@ -61,27 +64,20 @@ const daskam = d01;
       .content .label:not(:first-child){margin-top:14px}
       .para{margin:6px 0 0;line-height:1.6}
 
-      /* nav arrows */
-      .nav-arrow{position:absolute; top:50%; transform:translateY(-50%); z-index:200; background:rgba(200,162,74,.15); border:1px solid rgba(200,162,74,.3); color:var(--accent); width:44px; height:44px; border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; font-size:20px; transition: background .15s, opacity .15s; backdrop-filter:blur(6px)}
+      /* nav arrows on card (desktop only) */
+      .nav-arrow{position:absolute; top:50%; transform:translateY(-50%); z-index:200; background:rgba(200,162,74,.15); border:1px solid rgba(200,162,74,.3); color:var(--accent); width:44px; height:44px; border-radius:50%; display:none; align-items:center; justify-content:center; cursor:pointer; font-size:20px; transition: background .15s, opacity .15s; backdrop-filter:blur(6px)}
       .nav-arrow:hover{background:rgba(200,162,74,.3)}
       .nav-arrow:disabled{opacity:.25; cursor:default; pointer-events:none}
       .nav-arrow.prev{left:-56px}
       .nav-arrow.next{right:-56px}
-      /* on narrower screens, overlay arrows on the card edges */
-      @media(max-width:980px){
+      @media(min-width:641px){
+        .nav-arrow{display:flex}
+      }
+      @media(max-width:980px) and (min-width:641px){
         .nav-arrow.prev{left:8px}
         .nav-arrow.next{right:8px}
         .nav-arrow{background:rgba(0,0,0,.5); border-color:rgba(255,255,255,.15)}
         .nav-arrow:hover{background:rgba(0,0,0,.7)}
-      }
-      /* hide arrows on mobile, show swipe hint instead */
-      @media(max-width:640px){
-        .nav-arrow{display:none}
-        .sub-desktop{display:none}
-        .sub-mobile{display:block}
-      }
-      @media(min-width:641px){
-        .sub-mobile{display:none}
       }
 
       dialog{border:none; padding:0; background:transparent; max-width:min(96vw, 980px)}
@@ -111,12 +107,12 @@ const daskam = d01;
           <a href="#" data-stanzalang="en">EN</a>
         </div>
       </div>
-      <div class="sub sub-desktop">Use arrows or keyboard ←→ to navigate.</div>
-      <div class="sub sub-mobile">Swipe the cards to read the slokas.</div>
       <div class="dots-row" aria-label="Progress">
+        <button class="dot-arrow" id="dotPrev" type="button" disabled aria-label="Previous">&#8592;</button>
         {daskam.stanzas.map((s, i) => (
           <span class={`dot ${i === 0 ? 'active' : ''}`} data-dot={i} aria-label={`Sloka ${s.n}`}></span>
         ))}
+        <button class="dot-arrow" id="dotNext" type="button" aria-label="Next">&#8594;</button>
       </div>
 
       <div class="stack-wrap">
@@ -156,7 +152,7 @@ const daskam = d01;
       </dialog>
 
       <script>
-        // Stanza language switcher (Sanskrit vs English stanza)
+        // Stanza language switcher
         const setStanzaLang = (lang) => {
           const showEn = lang === 'en';
           document.querySelectorAll('.stanza-sa').forEach(el => el.style.display = showEn ? 'none' : 'block');
@@ -169,150 +165,183 @@ const daskam = d01;
         const initialLang = (new URLSearchParams(window.location.search).get('stanza') || localStorage.getItem('na_stanza_lang') || 'sa');
         setStanzaLang(initialLang);
         document.querySelectorAll('[data-stanzalang]').forEach(a => {
-          a.addEventListener('click', (e) => {
-            e.preventDefault();
-            setStanzaLang(a.dataset.stanzalang);
-          });
+          a.addEventListener('click', (e) => { e.preventDefault(); setStanzaLang(a.dataset.stanzalang); });
         });
 
-        // Stacked swipe cards logic
+        // Card navigation
         const dots = Array.from(document.querySelectorAll('[data-dot]'));
         const countEl = document.getElementById('cardCount');
         const cards = Array.from(document.querySelectorAll('#stack > section.stanza'));
         const prevBtn = document.getElementById('prevBtn');
         const nextBtn = document.getElementById('nextBtn');
+        const dotPrev = document.getElementById('dotPrev');
+        const dotNext = document.getElementById('dotNext');
+        const stack = document.getElementById('stack');
         let current = 0;
+        let busy = false;
 
         const updateStack = () => {
           for (let i = 0; i < cards.length; i++) {
             const depth = i - current;
             const c = cards[i];
-            if (depth < 0) {
-              c.classList.add('hidden');
-              continue;
-            }
+            c.classList.remove('animate', 'dragging', 'top');
+            c.style.transform = '';
+            c.style.opacity = '';
+            if (depth < 0) { c.classList.add('hidden'); continue; }
             c.classList.remove('hidden');
             c.style.zIndex = String(100 - depth);
             c.dataset.depth = String(Math.min(depth, 3));
-            if (depth > 3) c.style.opacity = '0'; else c.style.opacity = '';
+            if (depth > 3) c.style.opacity = '0';
             if (depth === 0) { c.classList.add('top'); c.scrollTop = 0; }
-            else c.classList.remove('top');
           }
-          dots.forEach((d,i)=>d.classList.toggle('active', i===current));
+          dots.forEach((d,i) => d.classList.toggle('active', i === current));
           if (countEl) countEl.textContent = `Sloka ${current+1} / ${cards.length}`;
-          prevBtn.disabled = current === 0;
-          nextBtn.disabled = current === cards.length - 1;
+          const atStart = current === 0;
+          const atEnd = current === cards.length - 1;
+          prevBtn.disabled = atStart;
+          nextBtn.disabled = atEnd;
+          dotPrev.disabled = atStart;
+          dotNext.disabled = atEnd;
         };
 
         const goNext = () => {
-          if (current >= cards.length - 1) return;
+          if (busy || current >= cards.length - 1) return;
+          busy = true;
           const card = cards[current];
           card.classList.add('animate');
           card.style.transform = `translateX(${-(window.innerWidth + 200)}px) rotate(-12deg)`;
           card.style.opacity = '0';
-          setTimeout(() => {
-            card.style.transform = '';
-            card.style.opacity = '';
-            current++;
-            updateStack();
-          }, 240);
+          setTimeout(() => { current++; updateStack(); busy = false; }, 260);
         };
 
         const goPrev = () => {
-          if (current <= 0) return;
+          if (busy || current <= 0) return;
+          busy = true;
           current--;
           const card = cards[current];
           card.classList.remove('hidden');
           card.style.zIndex = '100';
-          card.style.transform = `translateX(${-(window.innerWidth + 200)}px) rotate(-12deg)`;
+          card.style.transform = `translateX(${window.innerWidth + 200}px) rotate(12deg)`;
           card.style.opacity = '0';
-          // force reflow then animate in
-          card.offsetHeight;
+          card.offsetHeight; // force reflow
           card.classList.add('animate');
           card.style.transform = '';
           card.style.opacity = '';
-          setTimeout(() => updateStack(), 240);
+          setTimeout(() => { updateStack(); busy = false; }, 260);
         };
 
         updateStack();
 
-        // arrow buttons
+        // all arrow buttons
         prevBtn.addEventListener('click', goPrev);
         nextBtn.addEventListener('click', goNext);
+        dotPrev.addEventListener('click', goPrev);
+        dotNext.addEventListener('click', goNext);
 
-        // keyboard arrows
+        // keyboard
         document.addEventListener('keydown', (e) => {
           if (e.key === 'ArrowLeft') goPrev();
           else if (e.key === 'ArrowRight') goNext();
         });
 
         // swipe logic
-        const topCard = () => cards[current];
-        let startX=0, startY=0, dx=0, dragging=false, decided=false, isHorizontal=false;
+        let startX = 0, startY = 0, dx = 0;
+        let dragging = false, decided = false, isHorizontal = false;
 
-        const onDown = (e) => {
-          const card = topCard();
+        // Use touch events for reliable mobile swipe across the whole card
+        let lastTouchY = 0;
+        stack.addEventListener('touchstart', (e) => {
+          if (busy) return;
+          const card = cards[current];
           if (!card) return;
-          dragging = true; decided = false; isHorizontal = false;
+          dragging = true; decided = false; isHorizontal = false; dx = 0;
           card.classList.remove('animate');
-          const p = e.touches ? e.touches[0] : e;
-          startX = p.clientX; startY = p.clientY;
-          dx = 0;
+          startX = e.touches[0].clientX;
+          startY = e.touches[0].clientY;
+          lastTouchY = startY;
+        }, { passive: true });
+
+        stack.addEventListener('touchmove', (e) => {
+          if (!dragging || busy) return;
+          const card = cards[current];
+          if (!card) return;
+          const tx = e.touches[0].clientX;
+          const ty = e.touches[0].clientY;
+          const mx = tx - startX;
+          const my = ty - startY;
+          if (!decided && (Math.abs(mx) > 10 || Math.abs(my) > 10)) {
+            decided = true;
+            isHorizontal = Math.abs(mx) > Math.abs(my);
+            if (isHorizontal) card.classList.add('dragging');
+          }
+          if (isHorizontal) {
+            if (e.cancelable) e.preventDefault();
+            dx = mx;
+            card.style.transform = `translateX(${dx}px) rotate(${Math.max(-8, Math.min(8, dx / 22))}deg)`;
+          } else {
+            // manually scroll the content area
+            const content = card.querySelector('.content');
+            if (content) content.scrollTop += lastTouchY - ty;
+          }
+          lastTouchY = ty;
+        }, { passive: false });
+
+        const endSwipe = () => {
+          if (!dragging) return;
+          dragging = false;
+          const card = cards[current];
+          if (!card) return;
+          card.classList.remove('dragging');
+          if (!isHorizontal) { card.style.transform = ''; return; }
+          const threshold = Math.min(80, window.innerWidth * 0.2);
+          if (dx < -threshold && current < cards.length - 1) {
+            card.style.transform = '';
+            goNext();
+          } else if (dx > threshold && current > 0) {
+            card.style.transform = '';
+            goPrev();
+          } else {
+            card.classList.add('animate');
+            card.style.transform = '';
+          }
         };
 
-        const onMove = (e) => {
-          if (!dragging) return;
-          const card = topCard();
+        stack.addEventListener('touchend', endSwipe);
+        stack.addEventListener('touchcancel', endSwipe);
+
+        // Pointer events for desktop mouse drag
+        stack.addEventListener('pointerdown', (e) => {
+          if (busy || e.pointerType === 'touch') return;
+          const card = cards[current];
           if (!card) return;
-          const p = e.touches ? e.touches[0] : e;
-          const mx = p.clientX - startX;
-          const my = p.clientY - startY;
-          if (!decided && (Math.abs(mx) > 8 || Math.abs(my) > 8)) {
+          dragging = true; decided = false; isHorizontal = false; dx = 0;
+          card.classList.remove('animate');
+          startX = e.clientX; startY = e.clientY;
+        });
+        window.addEventListener('pointermove', (e) => {
+          if (!dragging || busy || e.pointerType === 'touch') return;
+          const card = cards[current];
+          if (!card) return;
+          const mx = e.clientX - startX;
+          const my = e.clientY - startY;
+          if (!decided && (Math.abs(mx) > 10 || Math.abs(my) > 10)) {
             decided = true;
             isHorizontal = Math.abs(mx) > Math.abs(my);
             if (isHorizontal) card.classList.add('dragging');
           }
           if (!isHorizontal) return;
           dx = mx;
-          const rot = Math.max(-12, Math.min(12, dx / 18));
-          card.style.transform = `translateX(${dx}px) rotate(${rot}deg)`;
-        };
+          card.style.transform = `translateX(${dx}px) rotate(${Math.max(-8, Math.min(8, dx / 22))}deg)`;
+        }, { passive: true });
+        window.addEventListener('pointerup', (e) => { if (e.pointerType !== 'touch') endSwipe(); });
+        window.addEventListener('pointercancel', (e) => { if (e.pointerType !== 'touch') endSwipe(); });
 
-        const onUp = () => {
-          if (!dragging) return;
-          dragging = false;
-          const card = topCard();
-          if (!card) return;
-          card.classList.remove('dragging');
-          if (!isHorizontal) { card.style.transform = ''; return; }
-          card.classList.add('animate');
-          const threshold = Math.min(120, window.innerWidth * 0.25);
-          if (Math.abs(dx) > threshold) {
-            if (dx < 0 && current < cards.length - 1) {
-              goNext();
-            } else if (dx > 0 && current > 0) {
-              goPrev();
-            } else {
-              card.style.transform = '';
-            }
-          } else {
-            card.style.transform = '';
-          }
-        };
-
-        const stack = document.getElementById('stack');
-        stack.addEventListener('pointerdown', onDown);
-        window.addEventListener('pointermove', onMove, { passive: true });
-        window.addEventListener('pointerup', onUp);
-        window.addEventListener('pointercancel', onUp);
-
+        // image zoom modal
         window.__na_openImg = (src, alt) => {
           const dlg = document.getElementById('imgModal');
-          const img = document.getElementById('imgModalImg');
-          const title = document.getElementById('imgModalTitle');
-          img.src = src;
-          img.alt = alt || '';
-          title.textContent = alt || 'Image';
+          document.getElementById('imgModalImg').src = src;
+          document.getElementById('imgModalImg').alt = alt || '';
+          document.getElementById('imgModalTitle').textContent = alt || 'Image';
           dlg.showModal();
         };
         document.getElementById('imgModal')?.addEventListener('click', (e) => {
