@@ -12,14 +12,17 @@ const daskam = d01;
       body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto; background:var(--bg); color:var(--text);}
       .wrap{max-width:860px;margin:0 auto;padding:18px 16px 60px;}
       a{color:var(--accent);text-decoration:none}
-      .top{display:flex;align-items:center;justify-content:space-between;gap:12px;}
-      .pill{display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);padding:8px 10px;border-radius:999px;color:var(--muted);font-size:13px}
-      .pill a{color:var(--text)}
-      h1{font-size:22px;margin:14px 0 6px}
-      .progress{margin-top:10px; display:flex; align-items:center; justify-content:space-between; gap:12px; color:var(--muted)}
-      .dots{display:flex; gap:6px; flex-wrap:wrap}
-      .dot{width:7px; height:7px; border-radius:999px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.10)}
-      .dot.active{background:rgba(200,162,74,.9); border-color:rgba(200,162,74,.7)}
+      .header{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+      .back{font-size:20px;color:var(--muted);text-decoration:none;line-height:1}
+      .title{font-size:18px;font-weight:700;margin:0}
+      .sep{color:rgba(255,255,255,.15)}
+      .sloka-count{font-size:13px;color:var(--muted);white-space:nowrap}
+      .dots-row{display:flex;gap:6px;justify-content:center;margin-top:6px}
+      .dot{width:6px;height:6px;border-radius:999px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.10)}
+      .dot.active{background:rgba(200,162,74,.9);border-color:rgba(200,162,74,.7)}
+      .lang-sw{display:inline-flex;gap:2px;align-items:center;font-size:13px;color:var(--muted);margin-left:auto}
+      .lang-sw a{color:var(--muted);padding:2px 6px;border-radius:6px;text-decoration:none;font-weight:600}
+      .lang-sw a.active{color:var(--text);background:rgba(255,255,255,.08)}
 
       /* stacked swipe cards */
       .stack-wrap{margin-top:12px; position:relative;}
@@ -31,7 +34,7 @@ const daskam = d01;
       .stanza.hidden{display:none}
       .stanza.dragging{transition:none !important; cursor:grabbing}
       .stanza.animate{transition: transform 220ms ease, opacity 220ms ease}
-      .hint{margin-top:8px; font-size:12px; color:var(--muted)}
+      .sub{margin-top:4px;font-size:12px;color:var(--muted)}
       .img{width:100%; flex-shrink:0; aspect-ratio:16/9; background: rgba(200,162,74,.08); position:relative; overflow:hidden}
       .img button{all:unset; cursor:pointer; display:block; width:100%; height:100%}
       .img img{width:100%;height:100%;object-fit:cover;display:block}
@@ -56,8 +59,14 @@ const daskam = d01;
         .nav-arrow{background:rgba(0,0,0,.5); border-color:rgba(255,255,255,.15)}
         .nav-arrow:hover{background:rgba(0,0,0,.7)}
       }
-      @media(max-width:480px){
-        .nav-arrow{width:36px; height:36px; font-size:16px}
+      /* hide arrows on mobile, show swipe hint instead */
+      @media(max-width:640px){
+        .nav-arrow{display:none}
+        .sub-desktop{display:none}
+        .sub-mobile{display:block}
+      }
+      @media(min-width:641px){
+        .sub-mobile{display:none}
       }
 
       dialog{border:none; padding:0; background:transparent; max-width:min(96vw, 980px)}
@@ -76,27 +85,24 @@ const daskam = d01;
   </head>
   <body>
     <div class="wrap">
-      <div class="top">
-        <a href="/">← All Daskams</a>
-        <div class="pill">
-          <span>Stanza:</span>
-          <a href="#" data-stanzalang="sa">Sanskrit</a>
-          <span style="opacity:.5">|</span>
-          <a href="#" data-stanzalang="en">English</a>
+      <div class="header">
+        <a href="/" class="back" aria-label="All Daskams">←</a>
+        <h1 class="title">Daskam {daskam.id}</h1>
+        <span class="sep">·</span>
+        <span class="sloka-count" id="cardCount">Sloka 1 / {daskam.stanzas.length}</span>
+        <div class="lang-sw">
+          <a href="#" data-stanzalang="sa" class="active">SA</a>
+          <span style="opacity:.4">|</span>
+          <a href="#" data-stanzalang="en">EN</a>
         </div>
       </div>
-
-      <h1>Daskam {daskam.id}</h1>
-
-      <div class="progress">
-        <div id="cardCount">Sloka 1 / {daskam.stanzas.length}</div>
-        <div class="dots" aria-label="Progress">
-          {daskam.stanzas.map((s, i) => (
-            <span class={`dot ${i === 0 ? 'active' : ''}`} data-dot={i} aria-label={`Sloka ${s.n}`}></span>
-          ))}
-        </div>
+      <div class="sub sub-desktop">Use arrows or keyboard ←→ to navigate.</div>
+      <div class="sub sub-mobile">Swipe the cards to read the slokas.</div>
+      <div class="dots-row" aria-label="Progress">
+        {daskam.stanzas.map((s, i) => (
+          <span class={`dot ${i === 0 ? 'active' : ''}`} data-dot={i} aria-label={`Sloka ${s.n}`}></span>
+        ))}
       </div>
-      <div class="hint">Swipe or use arrows to navigate between slokas.</div>
 
       <div class="stack-wrap">
         <button class="nav-arrow prev" id="prevBtn" type="button" disabled aria-label="Previous sloka">&#8592;</button>
@@ -141,8 +147,7 @@ const daskam = d01;
           document.querySelectorAll('.stanza-sa').forEach(el => el.style.display = showEn ? 'none' : 'block');
           document.querySelectorAll('.stanza-en').forEach(el => el.style.display = showEn ? 'block' : 'none');
           document.querySelectorAll('[data-stanzalang]').forEach(a => {
-            const active = a.dataset.stanzalang === lang;
-            a.style.color = active ? 'var(--text)' : 'var(--muted)';
+            a.classList.toggle('active', a.dataset.stanzalang === lang);
           });
           try { localStorage.setItem('na_stanza_lang', lang); } catch {}
         };
