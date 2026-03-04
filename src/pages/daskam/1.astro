@@ -16,14 +16,21 @@ const daskam = d01;
       .pill{display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);padding:8px 10px;border-radius:999px;color:var(--muted);font-size:13px}
       .pill a{color:var(--text)}
       h1{font-size:22px;margin:14px 0 6px}
-      .carousel{margin-top:12px; display:flex; gap:14px; overflow-x:auto; padding: 6px 2px 14px; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch}
-      .carousel::-webkit-scrollbar{height:8px}
-      .carousel::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14); border-radius:999px}
-      .stanza{flex: 0 0 min(92vw, 820px); scroll-snap-align:start; background:var(--card);border:1px solid rgba(255,255,255,.10);border-radius:18px;overflow:hidden; box-shadow: 0 10px 40px rgba(0,0,0,.25)}
       .progress{margin-top:10px; display:flex; align-items:center; justify-content:space-between; gap:12px; color:var(--muted)}
       .dots{display:flex; gap:6px; flex-wrap:wrap}
       .dot{width:7px; height:7px; border-radius:999px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.10)}
       .dot.active{background:rgba(200,162,74,.9); border-color:rgba(200,162,74,.7)}
+
+      /* stacked swipe cards */
+      .stack{margin-top:12px; position:relative; height:min(78vh, 760px);}
+      .stanza{position:absolute; inset:0; background:var(--card);border:1px solid rgba(255,255,255,.10);border-radius:18px;overflow:hidden; box-shadow: 0 18px 60px rgba(0,0,0,.35); will-change: transform; touch-action: none;}
+      .stanza[data-depth="1"]{transform: translateY(8px) scale(0.985); opacity:0.98}
+      .stanza[data-depth="2"]{transform: translateY(16px) scale(0.97); opacity:0.96}
+      .stanza[data-depth="3"]{transform: translateY(24px) scale(0.955); opacity:0.94}
+      .stanza.hidden{display:none}
+      .stanza.dragging{transition:none !important; cursor:grabbing}
+      .stanza.animate{transition: transform 220ms ease, opacity 220ms ease}
+      .hint{margin-top:8px; font-size:12px; color:var(--muted)}
       .img{aspect-ratio: 16/9; background: rgba(200,162,74,.08); display:flex;align-items:center;justify-content:center;color:var(--muted); position:relative}
       .img button{all:unset; cursor:pointer; display:block; width:100%; height:100%}
       .img img{width:100%;height:100%;object-fit:cover;display:block}
@@ -68,10 +75,11 @@ const daskam = d01;
           ))}
         </div>
       </div>
+      <div class="hint">Swipe the top card left or right to move to the next sloka.</div>
 
-      <div class="carousel" aria-label="Slokas">
+      <div class="stack" id="stack" aria-label="Slokas">
       {daskam.stanzas.map((s, idx) => (
-        <section class="stanza" aria-label={`Sloka ${s.n}`}>
+        <section class="stanza" data-index={idx} data-depth={idx} aria-label={`Sloka ${s.n}`}>
           <div class="img">
             <button type="button" data-fullsrc={s.image.src} data-alt={s.image.alt} onclick="window.__na_openImg?.(this.dataset.fullsrc, this.dataset.alt)">
               <img src={s.image.src} alt={s.image.alt} onerror="this.remove(); this.parentElement.parentElement.textContent='Image pending (to be generated)';" />
@@ -120,29 +128,91 @@ const daskam = d01;
           });
         });
 
-        // Progress indicator for swipe cards
-        const carousel = document.querySelector('.carousel');
+        // Stacked swipe cards logic
         const dots = Array.from(document.querySelectorAll('[data-dot]'));
         const countEl = document.getElementById('cardCount');
-        const cards = Array.from(document.querySelectorAll('section.stanza'));
-        const setActive = (idx) => {
-          dots.forEach((d,i)=>d.classList.toggle('active', i===idx));
-          if (countEl) countEl.textContent = `Sloka ${idx+1} / ${cards.length}`;
+        const cards = Array.from(document.querySelectorAll('#stack > section.stanza'));
+        let current = 0;
+
+        const updateStack = () => {
+          for (let i = 0; i < cards.length; i++) {
+            const depth = i - current;
+            const c = cards[i];
+            if (depth < 0) {
+              c.classList.add('hidden');
+              continue;
+            }
+            c.classList.remove('hidden');
+            c.style.zIndex = String(100 - depth);
+            c.dataset.depth = String(Math.min(depth, 3));
+            if (depth > 3) c.style.opacity = '0'; else c.style.opacity = '';
+            // reset transform for top card
+            if (depth === 0) c.classList.add('top'); else c.classList.remove('top');
+          }
+          dots.forEach((d,i)=>d.classList.toggle('active', i===current));
+          if (countEl) countEl.textContent = `Sloka ${current+1} / ${cards.length}`;
         };
-        if (cards.length) {
-          const io = new IntersectionObserver((entries) => {
-            // choose the most visible card
-            let best = null;
-            for (const e of entries) {
-              if (!best || e.intersectionRatio > best.intersectionRatio) best = e;
-            }
-            if (best && best.isIntersecting) {
-              const idx = cards.indexOf(best.target);
-              if (idx >= 0) setActive(idx);
-            }
-          }, { root: carousel, threshold: [0.6, 0.75, 0.9] });
-          cards.forEach(c => io.observe(c));
-        }
+
+        updateStack();
+
+        const topCard = () => cards[current];
+        let startX=0, startY=0, dx=0, dy=0, dragging=false;
+
+        const onDown = (e) => {
+          const card = topCard();
+          if (!card) return;
+          dragging = true;
+          card.classList.add('dragging');
+          card.classList.remove('animate');
+          const p = e.touches ? e.touches[0] : e;
+          startX = p.clientX; startY = p.clientY;
+          dx = 0; dy = 0;
+        };
+
+        const onMove = (e) => {
+          if (!dragging) return;
+          const card = topCard();
+          if (!card) return;
+          const p = e.touches ? e.touches[0] : e;
+          dx = p.clientX - startX;
+          dy = p.clientY - startY;
+          const rot = Math.max(-12, Math.min(12, dx / 18));
+          card.style.transform = `translate(${dx}px, ${dy}px) rotate(${rot}deg)`;
+        };
+
+        const onUp = () => {
+          if (!dragging) return;
+          dragging = false;
+          const card = topCard();
+          if (!card) return;
+          card.classList.remove('dragging');
+          card.classList.add('animate');
+          const threshold = Math.min(120, window.innerWidth * 0.25);
+          if (Math.abs(dx) > threshold) {
+            const dir = dx > 0 ? 1 : -1;
+            card.style.transform = `translate(${dir* (window.innerWidth + 200)}px, ${dy}px) rotate(${dir*18}deg)`;
+            card.style.opacity = '0';
+            setTimeout(() => {
+              card.style.transform = '';
+              card.style.opacity = '';
+              current = Math.min(cards.length-1, current + 1);
+              updateStack();
+            }, 240);
+          } else {
+            card.style.transform = '';
+          }
+        };
+
+        // bind events to stack (top card only responds)
+        const stack = document.getElementById('stack');
+        stack.addEventListener('pointerdown', onDown);
+        window.addEventListener('pointermove', onMove, { passive: true });
+        window.addEventListener('pointerup', onUp);
+        window.addEventListener('pointercancel', onUp);
+        // touch fallback
+        stack.addEventListener('touchstart', onDown, { passive: true });
+        stack.addEventListener('touchmove', onMove, { passive: true });
+        stack.addEventListener('touchend', onUp);
 
         window.__na_openImg = (src, alt) => {
           const dlg = document.getElementById('imgModal');
