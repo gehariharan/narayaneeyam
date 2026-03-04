@@ -19,8 +19,17 @@ const isTa = lang === 'ta';
       .pill a{color:var(--text)}
       h1{font-size:22px;margin:14px 0 6px}
       .stanza{margin-top:16px;background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden}
-      .img{aspect-ratio: 16/9; background: rgba(200,162,74,.08); display:flex;align-items:center;justify-content:center;color:var(--muted)}
+      .img{aspect-ratio: 16/9; background: rgba(200,162,74,.08); display:flex;align-items:center;justify-content:center;color:var(--muted); position:relative}
+      .img button{all:unset; cursor:pointer; display:block; width:100%; height:100%}
       .img img{width:100%;height:100%;object-fit:cover;display:block}
+      .zoomHint{position:absolute; right:10px; bottom:10px; font-size:12px; color:rgba(232,234,242,.92); background:rgba(0,0,0,.35); padding:6px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.18); backdrop-filter: blur(6px)}
+      dialog{border:none; padding:0; background:transparent; max-width:min(96vw, 980px)}
+      dialog::backdrop{background:rgba(0,0,0,.72)}
+      .modal{background:rgba(18,20,28,.98); border:1px solid rgba(255,255,255,.12); border-radius:16px; overflow:hidden}
+      .modal img{display:block; width:100%; height:auto; background:#0b0c10}
+      .modalTop{display:flex; align-items:center; justify-content:space-between; gap:10px; padding:10px 12px; color:var(--muted)}
+      .modalTop strong{color:var(--text); font-weight:600}
+      .closeBtn{all:unset; cursor:pointer; padding:6px 10px; border-radius:10px; border:1px solid rgba(255,255,255,.14)}
       .content{padding:14px 14px 16px}
       .sa{white-space:pre-wrap;font-size:18px;line-height:1.55}
       .label{margin-top:12px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
@@ -47,8 +56,10 @@ const isTa = lang === 'ta';
       {daskam.stanzas.map((s) => (
         <section class="stanza">
           <div class="img">
-            {/* placeholder until images are generated */}
-            <img src={s.image.src} alt={s.image.alt} onerror="this.remove(); this.parentElement.textContent='Image pending (to be generated)';" />
+            <button type="button" data-fullsrc={s.image.src} data-alt={s.image.alt} onclick="window.__na_openImg?.(this.dataset.fullsrc, this.dataset.alt)">
+              <img src={s.image.src} alt={s.image.alt} onerror="this.remove(); this.parentElement.parentElement.textContent='Image pending (to be generated)';" />
+            </button>
+            <span class="zoomHint">Tap to zoom</span>
           </div>
           <div class="content">
             <div class="label">Sanskrit (Stanza {s.n})</div>
@@ -79,6 +90,33 @@ const isTa = lang === 'ta';
           </div>
         </section>
       ))}
+
+      <dialog id="imgModal">
+        <div class="modal">
+          <div class="modalTop">
+            <strong id="imgModalTitle">Image</strong>
+            <button class="closeBtn" type="button" onclick="document.getElementById('imgModal').close()">Close</button>
+          </div>
+          <img id="imgModalImg" alt="" />
+        </div>
+      </dialog>
+
+      <script>
+        window.__na_openImg = (src, alt) => {
+          const dlg = document.getElementById('imgModal');
+          const img = document.getElementById('imgModalImg');
+          const title = document.getElementById('imgModalTitle');
+          img.src = src;
+          img.alt = alt || '';
+          title.textContent = alt || 'Image';
+          dlg.showModal();
+        };
+        document.getElementById('imgModal')?.addEventListener('click', (e) => {
+          // click outside modal content closes
+          if (e.target?.id === 'imgModal') e.target.close();
+        });
+      </script>
+
     </div>
   </body>
 </html>
