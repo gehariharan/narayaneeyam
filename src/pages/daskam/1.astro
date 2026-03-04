@@ -16,7 +16,10 @@ const daskam = d01;
       .pill{display:inline-flex;gap:8px;align-items:center;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);padding:8px 10px;border-radius:999px;color:var(--muted);font-size:13px}
       .pill a{color:var(--text)}
       h1{font-size:22px;margin:14px 0 6px}
-      .stanza{margin-top:16px;background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden}
+      .carousel{margin-top:16px; display:flex; gap:14px; overflow-x:auto; padding: 4px 2px 12px; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch}
+      .carousel::-webkit-scrollbar{height:8px}
+      .carousel::-webkit-scrollbar-thumb{background:rgba(255,255,255,.14); border-radius:999px}
+      .stanza{flex: 0 0 min(92vw, 820px); scroll-snap-align:start; background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:18px;overflow:hidden}
       .img{aspect-ratio: 16/9; background: rgba(200,162,74,.08); display:flex;align-items:center;justify-content:center;color:var(--muted); position:relative}
       .img button{all:unset; cursor:pointer; display:block; width:100%; height:100%}
       .img img{width:100%;height:100%;object-fit:cover;display:block}
@@ -36,19 +39,26 @@ const daskam = d01;
       .para{margin:6px 0 0;line-height:1.6}
       .gloss{margin:8px 0 0;padding-left:16px;color:var(--muted)}
       .gloss li{margin:4px 0}
+      details{border-top:1px solid rgba(255,255,255,.08); padding-top:10px}
     </style>
   </head>
   <body>
     <div class="wrap">
       <div class="top">
         <a href="/">← All Daskams</a>
-        <!-- language toggle disabled for now -->
+        <div class="pill">
+          <span>English:</span>
+          <a href="#" data-enmode="translation">Translation</a>
+          <span style="opacity:.5">|</span>
+          <a href="#" data-enmode="meaning">Meaning</a>
+        </div>
       </div>
 
       <h1>Daskam {daskam.id}</h1>
 
-      {daskam.stanzas.map((s) => (
-        <section class="stanza">
+      <div class="carousel" aria-label="Slokas">
+      {daskam.stanzas.map((s, idx) => (
+        <section class="stanza" aria-label={`Sloka ${s.n}`}>
           <div class="img">
             <button type="button" data-fullsrc={s.image.src} data-alt={s.image.alt} onclick="window.__na_openImg?.(this.dataset.fullsrc, this.dataset.alt)">
               <img src={s.image.src} alt={s.image.alt} onerror="this.remove(); this.parentElement.parentElement.textContent='Image pending (to be generated)';" />
@@ -59,20 +69,21 @@ const daskam = d01;
             <div class="label">Sanskrit (Stanza {s.n})</div>
             <div class="sa">{s.sanskrit}</div>
 
-            <div class="label">Word-by-word (English)</div>
-            <ul class="gloss">
-              {s.gloss_en.map((g) => (
-                <li><span style="color:var(--text)">{g.sa}</span> — {g.en}</li>
-              ))}
-            </ul>
+            <div class="label">English</div>
+            <p class="para en-block en-translation">{s.translation_en || s.meaning_en}</p>
+            <p class="para en-block en-meaning" style="display:none">{s.meaning_en}</p>
 
-            <div class="label">Meaning</div>
-            <p class="para lang-block lang-en">{s.meaning_en}</p>
-            <p class="para lang-block lang-ta" style="color:var(--muted)">{s.tamil.meaning_ta || 'Tamil coming soon.'}</p>
+            <details style="margin-top:10px">
+              <summary style="cursor:pointer;color:var(--muted)">Word-by-word (optional)</summary>
+              <ul class="gloss">
+                {s.gloss_en.map((g) => (
+                  <li><span style="color:var(--text)">{g.sa}</span> — {g.en}</li>
+                ))}
+              </ul>
+            </details>
 
             <div class="label">Commentary</div>
-            <p class="para lang-block lang-en">{s.commentary_en}</p>
-            <p class="para lang-block lang-ta" style="color:var(--muted)">{s.tamil.commentary_ta || 'Tamil commentary coming soon.'}</p>
+            <p class="para">{s.commentary_en}</p>
           </div>
         </section>
       ))}
@@ -88,9 +99,25 @@ const daskam = d01;
       </dialog>
 
       <script>
-        // Tamil disabled for now; always show English blocks
-        document.querySelectorAll('.lang-en').forEach(el => el.style.display = 'block');
-        document.querySelectorAll('.lang-ta').forEach(el => el.style.display = 'none');
+        // English switcher (Translation vs Meaning)
+        const setEnMode = (mode) => {
+          const showMeaning = mode === 'meaning';
+          document.querySelectorAll('.en-translation').forEach(el => el.style.display = showMeaning ? 'none' : 'block');
+          document.querySelectorAll('.en-meaning').forEach(el => el.style.display = showMeaning ? 'block' : 'none');
+          document.querySelectorAll('[data-enmode]').forEach(a => {
+            const active = a.dataset.enmode === mode;
+            a.style.color = active ? 'var(--text)' : 'var(--muted)';
+          });
+          try { localStorage.setItem('na_en_mode', mode); } catch {}
+        };
+        const initialMode = (new URLSearchParams(window.location.search).get('en') || localStorage.getItem('na_en_mode') || 'translation');
+        setEnMode(initialMode);
+        document.querySelectorAll('[data-enmode]').forEach(a => {
+          a.addEventListener('click', (e) => {
+            e.preventDefault();
+            setEnMode(a.dataset.enmode);
+          });
+        });
 
         window.__na_openImg = (src, alt) => {
           const dlg = document.getElementById('imgModal');
