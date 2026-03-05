@@ -23,7 +23,10 @@ async function fetchText(url: string): Promise<string> {
   html = html.replace(/<[^>]+>/g, '');
   html = html.replace(/\n{3,}/g, '\n\n');
   // Decode HTML entities
+  html = html.replace(/&nbsp;/g, ' ');
   html = html.replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
+  html = html.replace(/&#(\d+);/g, (_, n) => String.fromCharCode(parseInt(n, 10)));
+  html = html.replace(/<!--[\s\S]*?-->/g, ''); // strip HTML comments
   return html;
 }
 
