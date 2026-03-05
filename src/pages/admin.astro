@@ -318,19 +318,33 @@ export const prerender = false;
         const s = currentDaskam.stanzas[currentSlokaIdx];
         if (!s) return;
         const container = $('#slokaEditor');
+        // Per-sloka text edit lock (default locked)
+        if (typeof s._textUnlocked !== 'boolean') s._textUnlocked = false;
+
         container.innerHTML = `
           <div class="form-group">
+            <label style="display:flex;align-items:center;justify-content:space-between;gap:10px">
+              <span>Verses</span>
+              <button class="btn btn-outline btn-sm" id="toggleTextLock" type="button">${s._textUnlocked ? 'Lock text' : 'Unlock text edits'}</button>
+            </label>
+            <div style="font-size:12px;color:var(--muted);margin:-2px 0 10px">
+              Scraped by default. Unlock only if you need to fix typos/format.
+            </div>
+          </div>
+
+          <div class="form-group">
             <label>Sanskrit (Devanagari)</label>
-            <textarea class="readonly-field" readonly id="f_sanskrit">${esc(s.sanskrit || '')}</textarea>
+            <textarea class="${s._textUnlocked ? 'tall' : 'readonly-field'}" ${s._textUnlocked ? '' : 'readonly'} id="f_sanskrit">${esc(s.sanskrit || '')}</textarea>
           </div>
           <div class="form-group">
             <label>Roman Transliteration (IAST)</label>
-            <textarea class="readonly-field" readonly id="f_roman">${esc(s.stanza_roman || '')}</textarea>
+            <textarea class="${s._textUnlocked ? 'tall' : 'readonly-field'}" ${s._textUnlocked ? '' : 'readonly'} id="f_roman">${esc(s.stanza_roman || '')}</textarea>
           </div>
           <div class="form-group">
             <label>English Translation</label>
-            <textarea class="readonly-field" readonly id="f_translation">${esc(s.translation_en || '')}</textarea>
+            <textarea class="${s._textUnlocked ? 'tall' : 'readonly-field'}" ${s._textUnlocked ? '' : 'readonly'} id="f_translation">${esc(s.translation_en || '')}</textarea>
           </div>
+
           <div class="form-group">
             <label>Commentary</label>
             <textarea class="tall" id="f_commentary">${esc(s.commentary_en || '')}</textarea>
@@ -420,6 +434,15 @@ export const prerender = false;
           dirty = true;
         });
 
+        // Text lock toggle
+        $('#toggleTextLock')?.addEventListener('click', () => {
+          saveCurrentSlokaToMemory();
+          const s2 = currentDaskam.stanzas[currentSlokaIdx];
+          s2._textUnlocked = !s2._textUnlocked;
+          dirty = true;
+          renderSloka();
+        });
+
         // Image generation button
         $('#genImageBtn').addEventListener('click', () => generateImage());
 
@@ -494,6 +517,13 @@ export const prerender = false;
         if (!currentDaskam) return;
         const s = currentDaskam.stanzas[currentSlokaIdx];
         if (!s) return;
+
+        // If unlocked, allow overriding scraped verse text
+        if (s._textUnlocked) {
+          s.sanskrit = $('#f_sanskrit')?.value || s.sanskrit;
+          s.stanza_roman = $('#f_roman')?.value || s.stanza_roman;
+          s.translation_en = $('#f_translation')?.value || s.translation_en;
+        }
 
         s.commentary_en = $('#f_commentary')?.value || s.commentary_en;
         // meaning is scraped/auto; keep as-is
