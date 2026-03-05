@@ -1,0 +1,724 @@
+---
+export const prerender = false;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Narayaneeyam — Admin</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <style>
+      :root{--bg:#0b0c10;--card:#12141c;--text:#e8eaf2;--muted:#a7adc2;--accent:#c8a24a;--danger:#e25555;--success:#4caf50;--border:rgba(255,255,255,.10)}
+      *{box-sizing:border-box}
+      body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto;background:var(--bg);color:var(--text)}
+      button{font-family:inherit}
+      .wrap{max-width:960px;margin:0 auto;padding:20px 16px 60px}
+
+      /* PIN screen */
+      #pinScreen{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:80vh;gap:16px}
+      #pinScreen h1{font-size:22px;margin:0}
+      #pinScreen input{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px 16px;color:var(--text);font-size:16px;text-align:center;width:200px;letter-spacing:4px;outline:none}
+      #pinScreen input:focus{border-color:var(--accent)}
+      .pin-btn{background:var(--accent);color:#0b0c10;border:none;border-radius:10px;padding:10px 28px;font-size:14px;font-weight:700;cursor:pointer}
+      .pin-btn:hover{opacity:.9}
+      .pin-error{color:var(--danger);font-size:13px;min-height:18px}
+
+      /* Dashboard */
+      #dashboard{display:none}
+      .dash-header{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+      .dash-header h1{font-size:22px;margin:0}
+      .btn{border:none;border-radius:10px;padding:8px 18px;font-size:13px;font-weight:600;cursor:pointer;transition:opacity .15s}
+      .btn:hover{opacity:.85}
+      .btn-primary{background:var(--accent);color:#0b0c10}
+      .btn-outline{background:transparent;border:1px solid var(--border);color:var(--text)}
+      .btn-danger{background:var(--danger);color:#fff}
+      .btn-sm{padding:6px 12px;font-size:12px}
+      .badge{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;text-transform:uppercase;letter-spacing:.04em}
+      .badge-published{background:rgba(76,175,80,.18);color:var(--success)}
+      .badge-draft{background:rgba(200,162,74,.15);color:var(--accent)}
+
+      .daskam-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+      .daskam-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px;cursor:pointer;transition:border-color .15s}
+      .daskam-card:hover{border-color:rgba(200,162,74,.35)}
+      .daskam-card h3{margin:0 0 6px;font-size:16px}
+      .daskam-card .meta{font-size:12px;color:var(--muted);display:flex;gap:10px;align-items:center;margin-top:8px}
+
+      /* Editor */
+      #editor{display:none}
+      .editor-header{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+      .editor-header h2{margin:0;font-size:20px}
+      .tab-bar{display:flex;gap:4px;overflow-x:auto;padding:4px 0;margin-bottom:16px}
+      .tab{all:unset;cursor:pointer;padding:6px 14px;border-radius:8px;font-size:13px;font-weight:600;color:var(--muted);white-space:nowrap;transition:background .15s,color .15s}
+      .tab:hover{background:rgba(255,255,255,.06)}
+      .tab.active{background:rgba(200,162,74,.15);color:var(--accent)}
+
+      .form-group{margin-bottom:16px}
+      .form-group label{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+      .form-group textarea,.form-group input[type="text"]{width:100%;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 12px;color:var(--text);font-size:14px;font-family:inherit;resize:vertical;outline:none}
+      .form-group textarea:focus,.form-group input[type="text"]:focus{border-color:var(--accent)}
+      .form-group textarea{min-height:80px}
+      .form-group textarea.tall{min-height:140px}
+      .readonly-field{background:rgba(255,255,255,.03) !important;color:var(--muted) !important;cursor:default}
+
+      /* Glossary editor */
+      .gloss-list{display:flex;flex-direction:column;gap:6px}
+      .gloss-row{display:flex;gap:8px;align-items:center}
+      .gloss-row input{flex:1}
+      .gloss-remove{all:unset;cursor:pointer;color:var(--danger);font-size:16px;padding:0 4px}
+      .add-btn{all:unset;cursor:pointer;color:var(--accent);font-size:13px;font-weight:600;padding:4px 0}
+      .add-btn:hover{text-decoration:underline}
+
+      /* Scene brief */
+      .scene-section{background:rgba(255,255,255,.02);border:1px solid var(--border);border-radius:10px;padding:14px;margin-top:8px}
+      .list-editor{display:flex;flex-direction:column;gap:4px}
+      .list-editor .item-row{display:flex;gap:6px;align-items:start}
+      .list-editor textarea{flex:1;min-height:40px}
+
+      /* Image section */
+      .image-section{display:flex;gap:16px;align-items:start;flex-wrap:wrap}
+      .image-preview{width:280px;aspect-ratio:16/9;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;flex-shrink:0}
+      .image-preview img{width:100%;height:100%;object-fit:cover;display:block}
+      .image-preview .placeholder{display:flex;align-items:center;justify-content:center;width:100%;height:100%;color:var(--muted);font-size:13px}
+      .image-actions{display:flex;flex-direction:column;gap:8px}
+
+      /* Status bar */
+      .status-bar{position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--border);padding:10px 16px;display:flex;align-items:center;justify-content:center;gap:12px;z-index:100}
+      .status-msg{font-size:13px;color:var(--muted);min-width:100px}
+
+      /* Toast */
+      .toast{position:fixed;top:20px;right:20px;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:12px 18px;font-size:13px;z-index:999;opacity:0;transform:translateY(-10px);transition:opacity .2s,transform .2s;pointer-events:none}
+      .toast.show{opacity:1;transform:translateY(0)}
+      .toast.success{border-color:rgba(76,175,80,.4);color:var(--success)}
+      .toast.error{border-color:rgba(226,85,85,.4);color:var(--danger)}
+
+      /* Loading spinner */
+      .spinner{display:inline-block;width:16px;height:16px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .6s linear infinite}
+      @keyframes spin{to{transform:rotate(360deg)}}
+
+      /* Create modal */
+      .overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;z-index:200;display:none}
+      .overlay.show{display:flex}
+      .overlay-box{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:24px;max-width:400px;width:90%}
+      .overlay-box h3{margin:0 0 12px}
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <!-- PIN Screen -->
+      <div id="pinScreen">
+        <h1>Narayaneeyam Admin</h1>
+        <input id="pinInput" type="password" placeholder="PIN" maxlength="20" autocomplete="off" />
+        <button class="pin-btn" id="pinSubmit" type="button">Enter</button>
+        <div class="pin-error" id="pinError"></div>
+      </div>
+
+      <!-- Dashboard -->
+      <div id="dashboard">
+        <div class="dash-header">
+          <h1>Dashboard</h1>
+          <div style="display:flex;gap:8px">
+            <button class="btn btn-primary" id="createBtn" type="button">+ New Daskam</button>
+            <button class="btn btn-outline" id="logoutBtn" type="button">Logout</button>
+          </div>
+        </div>
+        <div class="daskam-grid" id="daskamGrid"></div>
+      </div>
+
+      <!-- Editor -->
+      <div id="editor">
+        <div class="editor-header">
+          <button class="btn btn-outline btn-sm" id="backToDash" type="button">&larr; Back</button>
+          <h2 id="editorTitle">Daskam</h2>
+          <span class="badge" id="editorBadge"></span>
+        </div>
+        <div class="tab-bar" id="tabBar"></div>
+        <div id="slokaEditor"></div>
+        <div class="status-bar">
+          <button class="btn btn-primary" id="saveBtn" type="button">Save Draft</button>
+          <button class="btn btn-outline" id="publishBtn" type="button">Publish</button>
+          <span class="status-msg" id="statusMsg"></span>
+        </div>
+      </div>
+
+      <!-- Create modal -->
+      <div class="overlay" id="createModal">
+        <div class="overlay-box">
+          <h3>Create New Daskam</h3>
+          <div class="form-group">
+            <label>Daskam Number</label>
+            <input type="text" id="newDaskamNum" placeholder="e.g. 2" />
+          </div>
+          <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:16px">
+            <button class="btn btn-outline" id="cancelCreate" type="button">Cancel</button>
+            <button class="btn btn-primary" id="confirmCreate" type="button">Create &amp; Scrape</button>
+          </div>
+          <div class="pin-error" id="createError" style="margin-top:8px"></div>
+        </div>
+      </div>
+
+      <!-- Publish confirm modal -->
+      <div class="overlay" id="publishModal">
+        <div class="overlay-box">
+          <h3>Publish Daskam?</h3>
+          <p style="color:var(--muted);font-size:14px;margin:0 0 16px">This will trigger a site rebuild. The daskam will appear on the public site once the build completes.</p>
+          <div style="display:flex;gap:8px;justify-content:flex-end">
+            <button class="btn btn-outline" id="cancelPublish" type="button">Cancel</button>
+            <button class="btn btn-primary" id="confirmPublish" type="button">Publish</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Toast -->
+      <div class="toast" id="toast"></div>
+    </div>
+
+    <script>
+      // ======================= State =======================
+      let daskamList = [];
+      let currentDaskam = null; // full DaskamData being edited
+      let currentSlokaIdx = 0;
+      let dirty = false;
+
+      // ======================= Helpers =======================
+      const $ = (sel) => document.querySelector(sel);
+      const $$ = (sel) => document.querySelectorAll(sel);
+
+      async function api(url, opts = {}) {
+        const res = await fetch(url, {
+          headers: { 'Content-Type': 'application/json', ...opts.headers },
+          ...opts,
+        });
+        const data = await res.json().catch(() => null);
+        if (!res.ok) throw new Error(data?.error || `HTTP ${res.status}`);
+        return data;
+      }
+
+      function toast(msg, type = 'success') {
+        const el = $('#toast');
+        el.textContent = msg;
+        el.className = `toast ${type} show`;
+        setTimeout(() => el.classList.remove('show'), 3000);
+      }
+
+      // ======================= Auth =======================
+      async function login(pin) {
+        try {
+          await api('/api/auth', { method: 'POST', body: JSON.stringify({ pin }) });
+          showDashboard();
+        } catch (e) {
+          $('#pinError').textContent = e.message;
+        }
+      }
+
+      async function logout() {
+        await api('/api/auth', { method: 'DELETE' }).catch(() => {});
+        showPin();
+      }
+
+      // ======================= Views =======================
+      function showPin() {
+        $('#pinScreen').style.display = 'flex';
+        $('#dashboard').style.display = 'none';
+        $('#editor').style.display = 'none';
+        $('#pinInput').value = '';
+        $('#pinError').textContent = '';
+        $('#pinInput').focus();
+      }
+
+      async function showDashboard() {
+        $('#pinScreen').style.display = 'none';
+        $('#dashboard').style.display = 'block';
+        $('#editor').style.display = 'none';
+        await loadDaskamList();
+      }
+
+      function showEditor() {
+        $('#pinScreen').style.display = 'none';
+        $('#dashboard').style.display = 'none';
+        $('#editor').style.display = 'block';
+      }
+
+      // ======================= Dashboard =======================
+      async function loadDaskamList() {
+        try {
+          daskamList = await api('/api/daskams');
+          renderDaskamGrid();
+        } catch (e) {
+          if (e.message.includes('Unauthorized') || e.message.includes('401')) {
+            showPin();
+          } else {
+            toast(e.message, 'error');
+          }
+        }
+      }
+
+      function renderDaskamGrid() {
+        const grid = $('#daskamGrid');
+        if (daskamList.length === 0) {
+          grid.innerHTML = '<p style="color:var(--muted)">No daskams yet. Click "+ New Daskam" to get started.</p>';
+          return;
+        }
+        grid.innerHTML = daskamList.map(d => `
+          <div class="daskam-card" data-id="${d.id}">
+            <h3>${esc(d.title)}</h3>
+            <p style="font-size:13px;color:var(--muted);margin:4px 0 0">${esc(d.description || '')}</p>
+            <div class="meta">
+              <span class="badge badge-${d.status}">${d.status}</span>
+              <span>${d.slokaCount} slokas</span>
+            </div>
+          </div>
+        `).join('');
+
+        grid.querySelectorAll('.daskam-card').forEach(card => {
+          card.addEventListener('click', () => openEditor(parseInt(card.dataset.id)));
+        });
+      }
+
+      function esc(s) {
+        const d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+      }
+
+      // ======================= Editor =======================
+      async function openEditor(id) {
+        try {
+          currentDaskam = await api(`/api/daskam/${id}`);
+          currentSlokaIdx = 0;
+          dirty = false;
+          const entry = daskamList.find(d => d.id === id);
+          $('#editorTitle').textContent = currentDaskam.title;
+          const badge = $('#editorBadge');
+          badge.textContent = entry?.status || 'draft';
+          badge.className = `badge badge-${entry?.status || 'draft'}`;
+          renderTabs();
+          renderSloka();
+          showEditor();
+        } catch (e) {
+          toast(e.message, 'error');
+        }
+      }
+
+      function renderTabs() {
+        const bar = $('#tabBar');
+        bar.innerHTML = currentDaskam.stanzas.map((s, i) => `
+          <button class="tab ${i === currentSlokaIdx ? 'active' : ''}" data-idx="${i}">Sloka ${s.n}</button>
+        `).join('');
+        bar.querySelectorAll('.tab').forEach(tab => {
+          tab.addEventListener('click', () => {
+            saveCurrentSlokaToMemory();
+            currentSlokaIdx = parseInt(tab.dataset.idx);
+            renderTabs();
+            renderSloka();
+          });
+        });
+      }
+
+      function renderSloka() {
+        const s = currentDaskam.stanzas[currentSlokaIdx];
+        if (!s) return;
+        const container = $('#slokaEditor');
+        container.innerHTML = `
+          <div class="form-group">
+            <label>Sanskrit (Devanagari)</label>
+            <textarea class="readonly-field" readonly id="f_sanskrit">${esc(s.sanskrit || '')}</textarea>
+          </div>
+          <div class="form-group">
+            <label>Roman Transliteration (IAST)</label>
+            <textarea class="readonly-field" readonly id="f_roman">${esc(s.stanza_roman || '')}</textarea>
+          </div>
+          <div class="form-group">
+            <label>English Translation</label>
+            <textarea class="readonly-field" readonly id="f_translation">${esc(s.translation_en || '')}</textarea>
+          </div>
+          <div class="form-group">
+            <label>Commentary</label>
+            <textarea class="tall" id="f_commentary">${esc(s.commentary_en || '')}</textarea>
+          </div>
+          <div class="form-group">
+            <label>Meaning</label>
+            <textarea class="tall" id="f_meaning">${esc(s.meaning_en || '')}</textarea>
+          </div>
+
+          <div class="form-group">
+            <label>Glossary</label>
+            <div class="gloss-list" id="glossList"></div>
+            <button class="add-btn" id="addGloss" type="button">+ Add entry</button>
+          </div>
+
+          <div class="form-group">
+            <label>Scene Brief</label>
+            <div class="scene-section">
+              <div class="form-group">
+                <label>Mode</label>
+                <input type="text" id="f_sb_mode" value="${esc(s.scene_brief?.mode || '')}" />
+              </div>
+              <div class="form-group">
+                <label>Must Show</label>
+                <div class="list-editor" id="mustShowList"></div>
+                <button class="add-btn" id="addMustShow" type="button">+ Add item</button>
+              </div>
+              <div class="form-group">
+                <label>Composition</label>
+                <input type="text" id="f_sb_composition" value="${esc(s.scene_brief?.composition || '')}" />
+              </div>
+              <div class="form-group">
+                <label>Tone</label>
+                <input type="text" id="f_sb_tone" value="${esc(s.scene_brief?.tone || '')}" />
+              </div>
+              <div class="form-group">
+                <label>Avoid</label>
+                <div class="list-editor" id="avoidList"></div>
+                <button class="add-btn" id="addAvoid" type="button">+ Add item</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Image</label>
+            <div class="image-section">
+              <div class="image-preview" id="imgPreview">
+                ${s.image?.src ? `<img src="${esc(s.image.src)}" alt="${esc(s.image.alt || '')}" />` : '<div class="placeholder">No image</div>'}
+              </div>
+              <div class="image-actions">
+                <button class="btn btn-primary btn-sm" id="genImageBtn" type="button">Generate with DALL-E</button>
+                <label class="btn btn-outline btn-sm" style="cursor:pointer">
+                  Upload custom
+                  <input type="file" accept="image/*" id="uploadImageInput" style="display:none" />
+                </label>
+              </div>
+            </div>
+          </div>
+        `;
+
+        // Render glossary
+        renderGlossList(s.gloss_en || []);
+        $('#addGloss').addEventListener('click', () => {
+          const list = getGlossList();
+          list.push({ sa: '', en: '' });
+          renderGlossList(list);
+          dirty = true;
+        });
+
+        // Render must_show list
+        renderStringList('mustShowList', s.scene_brief?.must_show || []);
+        $('#addMustShow').addEventListener('click', () => {
+          const list = getStringList('mustShowList');
+          list.push('');
+          renderStringList('mustShowList', list);
+          dirty = true;
+        });
+
+        // Render avoid list
+        renderStringList('avoidList', s.scene_brief?.avoid || []);
+        $('#addAvoid').addEventListener('click', () => {
+          const list = getStringList('avoidList');
+          list.push('');
+          renderStringList('avoidList', list);
+          dirty = true;
+        });
+
+        // Image generation button
+        $('#genImageBtn').addEventListener('click', () => generateImage());
+
+        // Image upload
+        $('#uploadImageInput').addEventListener('change', (e) => {
+          const file = e.target.files[0];
+          if (file) uploadImage(file);
+        });
+
+        // Mark dirty on edits
+        container.querySelectorAll('textarea:not(.readonly-field), input[type="text"]').forEach(el => {
+          el.addEventListener('input', () => { dirty = true; });
+        });
+      }
+
+      function renderGlossList(items) {
+        const el = $('#glossList');
+        el.innerHTML = items.map((g, i) => `
+          <div class="gloss-row">
+            <input type="text" placeholder="Sanskrit" value="${esc(g.sa || '')}" data-gloss-sa="${i}" />
+            <input type="text" placeholder="English" value="${esc(g.en || '')}" data-gloss-en="${i}" />
+            <button class="gloss-remove" type="button" data-gloss-rm="${i}">&times;</button>
+          </div>
+        `).join('');
+        el.querySelectorAll('.gloss-remove').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const list = getGlossList();
+            list.splice(parseInt(btn.dataset.glossRm), 1);
+            renderGlossList(list);
+            dirty = true;
+          });
+        });
+        el.querySelectorAll('input').forEach(inp => {
+          inp.addEventListener('input', () => { dirty = true; });
+        });
+      }
+
+      function getGlossList() {
+        const rows = $$('#glossList .gloss-row');
+        return Array.from(rows).map(row => ({
+          sa: row.querySelector('[data-gloss-sa]')?.value || '',
+          en: row.querySelector('[data-gloss-en]')?.value || '',
+        }));
+      }
+
+      function renderStringList(containerId, items) {
+        const el = $(`#${containerId}`);
+        el.innerHTML = items.map((item, i) => `
+          <div class="item-row">
+            <textarea data-list-item="${i}">${esc(item)}</textarea>
+            <button class="gloss-remove" type="button" data-list-rm="${i}">&times;</button>
+          </div>
+        `).join('');
+        el.querySelectorAll('[data-list-rm]').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const list = getStringList(containerId);
+            list.splice(parseInt(btn.dataset.listRm), 1);
+            renderStringList(containerId, list);
+            dirty = true;
+          });
+        });
+        el.querySelectorAll('textarea').forEach(t => {
+          t.addEventListener('input', () => { dirty = true; });
+        });
+      }
+
+      function getStringList(containerId) {
+        return Array.from($$(`#${containerId} [data-list-item]`)).map(t => t.value);
+      }
+
+      function saveCurrentSlokaToMemory() {
+        if (!currentDaskam) return;
+        const s = currentDaskam.stanzas[currentSlokaIdx];
+        if (!s) return;
+
+        s.commentary_en = $('#f_commentary')?.value || s.commentary_en;
+        s.meaning_en = $('#f_meaning')?.value || s.meaning_en;
+        s.gloss_en = getGlossList();
+
+        if (!s.scene_brief) s.scene_brief = { mode: '', must_show: [], composition: '', tone: '', avoid: [] };
+        s.scene_brief.mode = $('#f_sb_mode')?.value || '';
+        s.scene_brief.must_show = getStringList('mustShowList').filter(Boolean);
+        s.scene_brief.composition = $('#f_sb_composition')?.value || '';
+        s.scene_brief.tone = $('#f_sb_tone')?.value || '';
+        s.scene_brief.avoid = getStringList('avoidList').filter(Boolean);
+      }
+
+      // ======================= Save / Publish =======================
+      async function saveDraft() {
+        saveCurrentSlokaToMemory();
+        $('#statusMsg').innerHTML = '<span class="spinner"></span> Saving...';
+        try {
+          await api(`/api/daskam/${currentDaskam.id}`, {
+            method: 'POST',
+            body: JSON.stringify(currentDaskam),
+          });
+          dirty = false;
+          $('#statusMsg').textContent = 'Saved';
+          toast('Draft saved');
+        } catch (e) {
+          $('#statusMsg').textContent = '';
+          toast(e.message, 'error');
+        }
+      }
+
+      async function publishDaskam() {
+        saveCurrentSlokaToMemory();
+        // Save first
+        try {
+          await api(`/api/daskam/${currentDaskam.id}`, {
+            method: 'POST',
+            body: JSON.stringify(currentDaskam),
+          });
+        } catch (e) {
+          toast('Save failed: ' + e.message, 'error');
+          return;
+        }
+
+        try {
+          const res = await api(`/api/daskam/${currentDaskam.id}/publish`, { method: 'POST' });
+          toast(res.deployTriggered ? 'Published! Deploy triggered.' : 'Published! (No deploy hook configured)');
+          $('#editorBadge').textContent = 'published';
+          $('#editorBadge').className = 'badge badge-published';
+        } catch (e) {
+          toast(e.message, 'error');
+        }
+      }
+
+      // ======================= Image Generation =======================
+      async function generateImage() {
+        const btn = $('#genImageBtn');
+        btn.disabled = true;
+        btn.textContent = 'Generating...';
+        saveCurrentSlokaToMemory();
+        try {
+          const res = await api(`/api/daskam/${currentDaskam.id}/generate-image`, {
+            method: 'POST',
+            body: JSON.stringify({ slokaIndex: currentSlokaIdx }),
+          });
+          const s = currentDaskam.stanzas[currentSlokaIdx];
+          s.image = { src: res.webUrl, alt: s.image?.alt || `Daskam ${currentDaskam.id} Sloka ${s.n}` };
+          dirty = true;
+          const preview = $('#imgPreview');
+          preview.innerHTML = `<img src="${esc(res.webUrl)}" alt="" />`;
+          toast('Image generated');
+        } catch (e) {
+          toast(e.message, 'error');
+        } finally {
+          btn.disabled = false;
+          btn.textContent = 'Generate with DALL-E';
+        }
+      }
+
+      async function uploadImage(file) {
+        const formData = new FormData();
+        formData.append('image', file);
+        formData.append('slokaIndex', String(currentSlokaIdx));
+
+        try {
+          const res = await fetch(`/api/daskam/${currentDaskam.id}/upload-image`, {
+            method: 'POST',
+            body: formData,
+          });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || 'Upload failed');
+          const s = currentDaskam.stanzas[currentSlokaIdx];
+          s.image = { src: data.webUrl, alt: s.image?.alt || `Daskam ${currentDaskam.id} Sloka ${s.n}` };
+          dirty = true;
+          const preview = $('#imgPreview');
+          preview.innerHTML = `<img src="${esc(data.webUrl)}" alt="" />`;
+          toast('Image uploaded');
+        } catch (e) {
+          toast(e.message, 'error');
+        }
+      }
+
+      // ======================= Create New Daskam =======================
+      async function createDaskam(num) {
+        $('#createError').textContent = '';
+        const confirmBtn = $('#confirmCreate');
+        confirmBtn.disabled = true;
+        confirmBtn.textContent = 'Scraping...';
+
+        try {
+          // Scrape source content
+          let scrapedStanzas;
+          try {
+            scrapedStanzas = await api(`/api/scrape-source/${num}`);
+          } catch {
+            // Scrape failed — create empty skeleton
+            scrapedStanzas = Array.from({ length: 10 }, (_, i) => ({
+              n: i + 1,
+              sanskrit: '',
+              stanza_roman: '',
+              translation_en: '',
+            }));
+          }
+
+          const daskamData = {
+            id: num,
+            title: `Daskam ${num}`,
+            source: { sanskrit_english: `https://narayaneeyam-firststep.org/dashaka${num}` },
+            stanzas: scrapedStanzas.map((sc, i) => ({
+              n: sc.n || i + 1,
+              sanskrit: sc.sanskrit || '',
+              gloss_en: [],
+              meaning_en: '',
+              commentary_en: '',
+              translation_en: sc.translation_en || '',
+              translation_source: sc.translation_source || '',
+              stanza_roman: sc.stanza_roman || '',
+              stanza_roman_source: sc.stanza_roman_source || '',
+              image: { alt: `Daskam ${num} Sloka ${sc.n || i + 1}`, src: '' },
+              tamil: { meaning_ta: '', commentary_ta: '' },
+              characters: ['krishna'],
+              scene_brief: { mode: '', must_show: [], composition: '', tone: '', avoid: [] },
+            })),
+          };
+
+          await api(`/api/daskam/${num}`, {
+            method: 'POST',
+            body: JSON.stringify(daskamData),
+          });
+
+          $('#createModal').classList.remove('show');
+          toast(`Daskam ${num} created`);
+          await showDashboard();
+        } catch (e) {
+          $('#createError').textContent = e.message;
+        } finally {
+          confirmBtn.disabled = false;
+          confirmBtn.textContent = 'Create & Scrape';
+        }
+      }
+
+      // ======================= Event Listeners =======================
+      // PIN
+      $('#pinSubmit').addEventListener('click', () => login($('#pinInput').value));
+      $('#pinInput').addEventListener('keydown', (e) => { if (e.key === 'Enter') login($('#pinInput').value); });
+
+      // Logout
+      $('#logoutBtn').addEventListener('click', logout);
+
+      // Back to dashboard
+      $('#backToDash').addEventListener('click', () => {
+        if (dirty && !confirm('You have unsaved changes. Discard?')) return;
+        currentDaskam = null;
+        showDashboard();
+      });
+
+      // Save / Publish
+      $('#saveBtn').addEventListener('click', saveDraft);
+      $('#publishBtn').addEventListener('click', () => {
+        saveCurrentSlokaToMemory();
+        $('#publishModal').classList.add('show');
+      });
+      $('#confirmPublish').addEventListener('click', () => {
+        $('#publishModal').classList.remove('show');
+        publishDaskam();
+      });
+      $('#cancelPublish').addEventListener('click', () => $('#publishModal').classList.remove('show'));
+
+      // Create
+      $('#createBtn').addEventListener('click', () => {
+        $('#newDaskamNum').value = '';
+        $('#createError').textContent = '';
+        $('#createModal').classList.add('show');
+        $('#newDaskamNum').focus();
+      });
+      $('#cancelCreate').addEventListener('click', () => $('#createModal').classList.remove('show'));
+      $('#confirmCreate').addEventListener('click', () => {
+        const num = parseInt($('#newDaskamNum').value, 10);
+        if (isNaN(num) || num < 1 || num > 100) {
+          $('#createError').textContent = 'Enter a valid daskam number (1-100)';
+          return;
+        }
+        if (daskamList.find(d => d.id === num)) {
+          $('#createError').textContent = `Daskam ${num} already exists`;
+          return;
+        }
+        createDaskam(num);
+      });
+
+      // Keyboard shortcut: Ctrl+S to save
+      document.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey || e.metaKey) && e.key === 's' && currentDaskam) {
+          e.preventDefault();
+          saveDraft();
+        }
+      });
+
+      // ======================= Init =======================
+      // Try to load dashboard (if already authenticated via cookie)
+      (async () => {
+        try {
+          await api('/api/daskams');
+          showDashboard();
+        } catch {
+          showPin();
+        }
+      })();
+    </script>
+  </body>
+</html>

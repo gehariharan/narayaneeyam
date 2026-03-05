@@ -1,6 +1,15 @@
 ---
-import d01 from '../../content/daskam01.json';
-const daskam = d01;
+import { getPublishedDaskamIds, getDaskamContent } from '../../lib/get-content';
+import type { DaskamData } from '../../lib/types';
+
+export async function getStaticPaths() {
+  const daskams = await getPublishedDaskamIds();
+  return daskams.map(d => ({ params: { id: String(d.id) } }));
+}
+
+const { id } = Astro.params;
+const daskam = await getDaskamContent(parseInt(id!, 10)) as DaskamData;
+if (!daskam) return Astro.redirect('/');
 ---
 <html lang="en">
   <head>
@@ -97,9 +106,9 @@ const daskam = d01;
   <body>
     <div class="wrap">
       <div class="header">
-        <a href="/" class="back" aria-label="All Daskams">←</a>
+        <a href="/" class="back" aria-label="All Daskams">&#8592;</a>
         <h1 class="title">Daskam {daskam.id}</h1>
-        <span class="sep">·</span>
+        <span class="sep">&middot;</span>
         <span class="sloka-count" id="cardCount">Sloka 1 / {daskam.stanzas.length}</span>
         <div class="lang-sw">
           <a href="#" data-stanzalang="sa" class="active">SA</a>

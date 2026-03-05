@@ -1,5 +1,8 @@
 ---
+import { getPublishedDaskamIds } from '../lib/get-content';
+
 const title = 'Narayaneeyam';
+const daskams = await getPublishedDaskamIds();
 ---
 <html lang="en">
   <head>
@@ -43,10 +46,12 @@ const title = 'Narayaneeyam';
       <p>The Sanskrit devotional poem by Melpathur Narayana Bhattathiri — with original verses, commentary, and devotional mural artwork.</p>
 
       <div class="grid">
-        <a class="card" href="/daskam/1">
-          <h2>Daskam 1</h2>
-          <p>Brahma-tattva and the blessing of Guruvayur.</p>
-        </a>
+        {daskams.map(d => (
+          <a class="card" href={`/daskam/${d.id}`}>
+            <h2>{d.title}</h2>
+            <p>{d.description}</p>
+          </a>
+        ))}
       </div>
     </div>
   </body>
