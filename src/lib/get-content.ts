@@ -1,9 +1,19 @@
+import d01Local from '../content/daskam01.json';
 import type { DaskamData, DaskamIndex } from './types';
 
 /**
  * Build-time content fetcher: tries Vercel Blob first, falls back to local JSON.
  * Used by getStaticPaths() and page rendering.
  */
+
+// Local content always available as baseline
+const LOCAL_DASKAMS: Record<number, DaskamData> = {
+  1: d01Local as unknown as DaskamData,
+};
+
+const LOCAL_INDEX = [
+  { id: 1, title: 'Daskam 1', description: 'Brahma-tattva and the blessing of Guruvayur.' },
+];
 
 async function tryBlobContent(): Promise<{ index: DaskamIndex; getDaskam: (id: number) => Promise<DaskamData | null> } | null> {
   const token = import.meta.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_READ_WRITE_TOKEN;
@@ -23,18 +33,14 @@ async function tryBlobContent(): Promise<{ index: DaskamIndex; getDaskam: (id: n
 export async function getPublishedDaskamIds(): Promise<Array<{ id: number; title: string; description: string }>> {
   const blob = await tryBlobContent();
   if (blob) {
-    return blob.index.daskams
+    const blobEntries = blob.index.daskams
       .filter(d => d.status === 'published')
       .map(d => ({ id: d.id, title: d.title, description: d.description }));
+    if (blobEntries.length > 0) return blobEntries;
   }
 
-  // Fallback: local JSON files
-  try {
-    const d01 = (await import('../content/daskam01.json')).default;
-    return [{ id: d01.id, title: d01.title, description: 'Brahma-tattva and the blessing of Guruvayur.' }];
-  } catch {
-    return [];
-  }
+  // Fallback: local content
+  return LOCAL_INDEX;
 }
 
 /** Get daskam content by ID */
@@ -45,13 +51,6 @@ export async function getDaskamContent(id: number): Promise<DaskamData | null> {
     if (data) return data;
   }
 
-  // Fallback: local JSON
-  try {
-    if (id === 1) {
-      return (await import('../content/daskam01.json')).default as unknown as DaskamData;
-    }
-    return null;
-  } catch {
-    return null;
-  }
+  // Fallback: local content
+  return LOCAL_DASKAMS[id] || null;
 }
