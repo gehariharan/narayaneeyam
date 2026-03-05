@@ -4,16 +4,18 @@ export interface GlossEntry {
 }
 
 export interface SceneBrief {
-  mode: string;
-  must_show: string[];
-  composition: string;
-  tone: string;
-  avoid: string[];
+  mode?: string;
+  must_show?: string[];
+  composition?: string;
+  tone?: string;
+  avoid?: string[];
 }
 
 export interface StanzaImage {
   alt: string;
   src: string;
+  /** Optional: previously used images (for easy rollback in admin) */
+  alts?: string[];
 }
 
 export interface Tamil {
@@ -34,7 +36,7 @@ export interface Stanza {
   image: StanzaImage;
   tamil: Tamil;
   characters: string[];
-  scene_brief: SceneBrief;
+  scene_brief?: SceneBrief;
 }
 
 export interface DaskamData {

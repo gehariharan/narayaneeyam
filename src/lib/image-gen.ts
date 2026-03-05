@@ -39,7 +39,7 @@ interface StanzaLike {
   n: number;
   commentary_en: string;
   characters?: string[];
-  scene_brief: SceneBrief;
+  scene_brief?: SceneBrief;
 }
 
 /** Build character visual description for prompt */
@@ -64,7 +64,13 @@ export function promptForStanza(s: StanzaLike, daskamId: number): string {
   const negatives = (style.negative as string[]).map((x: string) => `- ${x}`).join('\n');
   const characterIds = s.characters || ['krishna'];
 
-  const brief = s.scene_brief;
+  const brief: SceneBrief = s.scene_brief || {
+    mode: 'teaching-illustration',
+    must_show: ['A clear symbolic teaching illustration matching the sloka meaning'],
+    composition: '16:9; simple; central focus; no readable text',
+    tone: 'serene, devotional',
+    avoid: ['readable text', 'modern logos'],
+  };
   const briefText = brief
     ? [
         `Scene brief mode: ${brief.mode || ''}`,

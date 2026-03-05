@@ -336,43 +336,47 @@ export const prerender = false;
             <textarea class="tall" id="f_commentary">${esc(s.commentary_en || '')}</textarea>
           </div>
           <div class="form-group">
-            <label>Meaning</label>
-            <textarea class="tall" id="f_meaning">${esc(s.meaning_en || '')}</textarea>
+            <label>Meaning (auto)</label>
+            <textarea class="readonly-field" readonly id="f_meaning">${esc(s.meaning_en || '')}</textarea>
           </div>
 
-          <div class="form-group">
-            <label>Glossary</label>
-            <div class="gloss-list" id="glossList"></div>
-            <button class="add-btn" id="addGloss" type="button">+ Add entry</button>
-          </div>
+          <details class="scene-section" style="margin-top:12px">
+            <summary style="cursor:pointer;color:var(--muted);font-weight:700">Advanced (optional)</summary>
 
-          <div class="form-group">
-            <label>Scene Brief</label>
-            <div class="scene-section">
-              <div class="form-group">
-                <label>Mode</label>
-                <input type="text" id="f_sb_mode" value="${esc(s.scene_brief?.mode || '')}" />
-              </div>
-              <div class="form-group">
-                <label>Must Show</label>
-                <div class="list-editor" id="mustShowList"></div>
-                <button class="add-btn" id="addMustShow" type="button">+ Add item</button>
-              </div>
-              <div class="form-group">
-                <label>Composition</label>
-                <input type="text" id="f_sb_composition" value="${esc(s.scene_brief?.composition || '')}" />
-              </div>
-              <div class="form-group">
-                <label>Tone</label>
-                <input type="text" id="f_sb_tone" value="${esc(s.scene_brief?.tone || '')}" />
-              </div>
-              <div class="form-group">
-                <label>Avoid</label>
-                <div class="list-editor" id="avoidList"></div>
-                <button class="add-btn" id="addAvoid" type="button">+ Add item</button>
+            <div class="form-group" style="margin-top:12px">
+              <label>Glossary</label>
+              <div class="gloss-list" id="glossList"></div>
+              <button class="add-btn" id="addGloss" type="button">+ Add entry</button>
+            </div>
+
+            <div class="form-group">
+              <label>Scene Brief (optional override)</label>
+              <div class="scene-section">
+                <div class="form-group">
+                  <label>Mode</label>
+                  <input type="text" id="f_sb_mode" value="${esc(s.scene_brief?.mode || '')}" />
+                </div>
+                <div class="form-group">
+                  <label>Must Show</label>
+                  <div class="list-editor" id="mustShowList"></div>
+                  <button class="add-btn" id="addMustShow" type="button">+ Add item</button>
+                </div>
+                <div class="form-group">
+                  <label>Composition</label>
+                  <input type="text" id="f_sb_composition" value="${esc(s.scene_brief?.composition || '')}" />
+                </div>
+                <div class="form-group">
+                  <label>Tone</label>
+                  <input type="text" id="f_sb_tone" value="${esc(s.scene_brief?.tone || '')}" />
+                </div>
+                <div class="form-group">
+                  <label>Avoid</label>
+                  <div class="list-editor" id="avoidList"></div>
+                  <button class="add-btn" id="addAvoid" type="button">+ Add item</button>
+                </div>
               </div>
             </div>
-          </div>
+          </details>
 
           <div class="form-group">
             <label>Image</label>
@@ -391,27 +395,25 @@ export const prerender = false;
           </div>
         `;
 
-        // Render glossary
+        // Render glossary + scene brief editors (advanced)
         renderGlossList(s.gloss_en || []);
-        $('#addGloss').addEventListener('click', () => {
+        $('#addGloss')?.addEventListener('click', () => {
           const list = getGlossList();
           list.push({ sa: '', en: '' });
           renderGlossList(list);
           dirty = true;
         });
 
-        // Render must_show list
         renderStringList('mustShowList', s.scene_brief?.must_show || []);
-        $('#addMustShow').addEventListener('click', () => {
+        $('#addMustShow')?.addEventListener('click', () => {
           const list = getStringList('mustShowList');
           list.push('');
           renderStringList('mustShowList', list);
           dirty = true;
         });
 
-        // Render avoid list
         renderStringList('avoidList', s.scene_brief?.avoid || []);
-        $('#addAvoid').addEventListener('click', () => {
+        $('#addAvoid')?.addEventListener('click', () => {
           const list = getStringList('avoidList');
           list.push('');
           renderStringList('avoidList', list);
@@ -494,7 +496,8 @@ export const prerender = false;
         if (!s) return;
 
         s.commentary_en = $('#f_commentary')?.value || s.commentary_en;
-        s.meaning_en = $('#f_meaning')?.value || s.meaning_en;
+        // meaning is scraped/auto; keep as-is
+        // advanced (optional overrides)
         s.gloss_en = getGlossList();
 
         if (!s.scene_brief) s.scene_brief = { mode: '', must_show: [], composition: '', tone: '', avoid: [] };
