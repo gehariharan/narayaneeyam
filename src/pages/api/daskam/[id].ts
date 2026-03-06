@@ -40,10 +40,17 @@ export const POST: APIRoute = async ({ params, request }) => {
     return new Response(JSON.stringify({ error: 'Invalid data' }), { status: 400 });
   }
 
-  data.id = id;
-  await saveDaskam(id, data);
-
-  return new Response(JSON.stringify({ ok: true }), {
-    headers: { 'Content-Type': 'application/json' },
-  });
+  try {
+    data.id = id;
+    await saveDaskam(id, data);
+    return new Response(JSON.stringify({ ok: true }), {
+      headers: { 'Content-Type': 'application/json' },
+    });
+  } catch (e: any) {
+    console.error('saveDaskam failed', { id, error: e?.message || e });
+    return new Response(JSON.stringify({ error: e?.message || 'Save failed' }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' },
+    });
+  }
 };

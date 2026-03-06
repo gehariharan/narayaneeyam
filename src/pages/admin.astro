@@ -260,8 +260,13 @@ export const prerender = false;
         }
         grid.innerHTML = daskamList.map(d => `
           <div class="daskam-card" data-id="${d.id}">
-            <h3>${esc(d.title)}</h3>
-            <p style="font-size:13px;color:var(--muted);margin:4px 0 0">${esc(d.description || '')}</p>
+            <div style="display:flex;align-items:start;justify-content:space-between;gap:10px">
+              <div>
+                <h3 style="margin:0 0 6px">${esc(d.title)}</h3>
+                <p style="font-size:13px;color:var(--muted);margin:0">${esc(d.description || '')}</p>
+              </div>
+              ${d.status === 'draft' ? `<button class="btn btn-danger btn-sm" data-del="${d.id}" type="button">Delete</button>` : ''}
+            </div>
             <div class="meta">
               <span class="badge badge-${d.status}">${d.status}</span>
               <span>${d.slokaCount} slokas</span>
@@ -270,7 +275,25 @@ export const prerender = false;
         `).join('');
 
         grid.querySelectorAll('.daskam-card').forEach(card => {
-          card.addEventListener('click', () => openEditor(parseInt(card.dataset.id)));
+          card.addEventListener('click', (e) => {
+            if (e.target && e.target.dataset && e.target.dataset.del) return;
+            openEditor(parseInt(card.dataset.id));
+          });
+        });
+
+        grid.querySelectorAll('[data-del]').forEach(btn => {
+          btn.addEventListener('click', async (e) => {
+            e.stopPropagation();
+            const id = parseInt(btn.dataset.del, 10);
+            if (!confirm(`Delete draft daskam ${id}? This cannot be undone.`)) return;
+            try {
+              await api(`/api/daskam/${id}/delete`, { method: 'POST' });
+              toast(`Deleted daskam ${id}`);
+              await showDashboard();
+            } catch (err) {
+              toast(err.message, 'error');
+            }
+          });
         });
       }
 

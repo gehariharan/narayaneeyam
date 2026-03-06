@@ -20,6 +20,10 @@ export const GET: APIRoute = async ({ params, request }) => {
       headers: { 'Content-Type': 'application/json' },
     });
   } catch (e: any) {
-    return new Response(JSON.stringify({ error: e.message || 'Scrape failed' }), { status: 500 });
+    console.error('scrapeAll failed', { num, error: e?.message || e });
+    return new Response(JSON.stringify({ error: e?.message || 'Scrape failed' }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' },
+    });
   }
 };
