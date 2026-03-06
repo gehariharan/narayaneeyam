@@ -125,12 +125,14 @@ export async function uploadToBlob(
       access: 'public',
       contentType: 'image/png',
       addRandomSuffix: false,
+      allowOverwrite: true,
       token,
     }),
     put(`${prefix}/web/${baseName}.webp`, webWebp, {
       access: 'public',
       contentType: 'image/webp',
       addRandomSuffix: false,
+      allowOverwrite: true,
       token,
     }),
   ]);

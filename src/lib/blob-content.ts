@@ -36,6 +36,7 @@ export async function saveIndex(index: DaskamIndex): Promise<void> {
     access: 'public',
     contentType: 'application/json',
     addRandomSuffix: false,
+    allowOverwrite: true,
     token,
   });
 }
@@ -54,6 +55,7 @@ export async function saveDaskam(id: number, data: DaskamData): Promise<void> {
     access: 'public',
     contentType: 'application/json',
     addRandomSuffix: false,
+    allowOverwrite: true,
     token,
   });
 
