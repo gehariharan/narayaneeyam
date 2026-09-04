@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://narayaneeyam.local/schemas/daskam.schema.json",
+  "title": "Canonical daskam content",
+  "type": "object",
+  "required": ["schema_version", "id", "slug", "title", "description", "editorial_status", "source", "stanzas"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "id": { "type": "integer", "minimum": 1 },
+    "slug": { "type": "string", "pattern": "^d[0-9]{3}$" },
+    "title": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "editorial_status": { "enum": ["draft", "needs-review", "approved"] },
+    "source": { "type": "object" },
+    "stanzas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["n", "sanskrit", "stanza_roman", "translation_en", "commentary_en", "review_status"],
+        "properties": {
+          "n": { "type": "integer", "minimum": 1 },
+          "sanskrit": { "type": "string" },
+          "stanza_roman": { "type": "string" },
+          "translation_en": { "type": "string" },
+          "commentary_en": { "type": "string" },
+          "review_status": { "enum": ["draft", "needs-review", "approved"] }
+        }
+      }
+    }
+  }
+}

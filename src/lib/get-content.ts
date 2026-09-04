@@ -1,56 +1,60 @@
-import d01Local from '../content/daskam01.json';
-import type { DaskamData, DaskamIndex } from './types';
+import type { DaskamData, StanzaImage } from './types';
 
-/**
- * Build-time content fetcher: tries Vercel Blob first, falls back to local JSON.
- * Used by getStaticPaths() and page rendering.
- */
-
-// Local content always available as baseline
-const LOCAL_DASKAMS: Record<number, DaskamData> = {
-  1: d01Local as unknown as DaskamData,
+type JsonModule<T> = { default: T };
+type CanonicalDaskam = Omit<DaskamData, 'stanzas'> & {
+  stanzas: Array<Omit<DaskamData['stanzas'][number], 'image'>>;
+};
+type ApprovedOrientation = {
+  status: string;
+  preview_path: string | null;
+};
+type ApprovalManifest = {
+  daskam_id: number;
+  stanzas: Array<{
+    n: number;
+    alt: string;
+    landscape: ApprovedOrientation;
+    portrait: ApprovedOrientation;
+  }>;
 };
 
-const LOCAL_INDEX = [
-  { id: 1, title: 'Daskam 1', description: 'Brahma-tattva and the blessing of Guruvayur.' },
-];
+const contentModules = import.meta.glob<JsonModule<CanonicalDaskam>>('../../content/daskams/d*.json', { eager: true });
+const approvalModules = import.meta.glob<JsonModule<ApprovalManifest>>('../../art/approved/d*.json', { eager: true });
 
-async function tryBlobContent(): Promise<{ index: DaskamIndex; getDaskam: (id: number) => Promise<DaskamData | null> } | null> {
-  const token = import.meta.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_READ_WRITE_TOKEN;
-  if (!token) return null;
+const contents = Object.values(contentModules).map((module) => module.default);
+const approvals = new Map(Object.values(approvalModules).map((module) => [module.default.daskam_id, module.default]));
 
-  try {
-    const { getIndex, getDaskam } = await import('./blob-content');
-    const index = await getIndex();
-    if (index.daskams.length === 0) return null;
-    return { index, getDaskam };
-  } catch {
-    return null;
-  }
+const isAvailable = (asset: ApprovedOrientation) =>
+  Boolean(asset?.preview_path && !['missing', 'planned', 'rejected'].includes(asset.status));
+
+const mergeLocalArtwork = (content: CanonicalDaskam): DaskamData => {
+  const manifest = approvals.get(content.id);
+  const byStanza = new Map(manifest?.stanzas.map((item) => [item.n, item]) ?? []);
+  return {
+    ...content,
+    stanzas: content.stanzas.map((stanza) => {
+      const approved = byStanza.get(stanza.n);
+      const landscapeSrc = approved && isAvailable(approved.landscape)
+        ? approved.landscape.preview_path!
+        : '/images/placeholder-landscape.svg';
+      const image: StanzaImage = {
+        alt: approved?.alt ?? `Narayaneeyam Daskam ${content.id}, stanza ${stanza.n}`,
+        landscape: { src: landscapeSrc },
+      };
+      if (approved && isAvailable(approved.portrait)) image.portrait = { src: approved.portrait.preview_path! };
+      return { ...stanza, image };
+    }),
+  };
+};
+
+const localDaskams = new Map(contents.map((content) => [content.id, mergeLocalArtwork(content)]));
+
+export function getAvailableDaskamIds() {
+  return [...localDaskams.values()]
+    .sort((a, b) => a.id - b.id)
+    .map((daskam) => ({ id: daskam.id, title: daskam.title, description: daskam.description }));
 }
 
-/** Get all published daskam IDs and metadata for static path generation */
-export async function getPublishedDaskamIds(): Promise<Array<{ id: number; title: string; description: string }>> {
-  const blob = await tryBlobContent();
-  if (blob) {
-    const blobEntries = blob.index.daskams
-      .filter(d => d.status === 'published')
-      .map(d => ({ id: d.id, title: d.title, description: d.description }));
-    if (blobEntries.length > 0) return blobEntries;
-  }
-
-  // Fallback: local content
-  return LOCAL_INDEX;
-}
-
-/** Get daskam content by ID */
-export async function getDaskamContent(id: number): Promise<DaskamData | null> {
-  const blob = await tryBlobContent();
-  if (blob) {
-    const data = await blob.getDaskam(id);
-    if (data) return data;
-  }
-
-  // Fallback: local content
-  return LOCAL_DASKAMS[id] || null;
+export function getDaskamContent(id: number): DaskamData | null {
+  return localDaskams.get(id) ?? null;
 }

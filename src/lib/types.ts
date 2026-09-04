@@ -13,9 +13,8 @@ export interface SceneBrief {
 
 export interface StanzaImage {
   alt: string;
-  src: string;
-  /** Optional: previously used images (for easy rollback in admin) */
-  alts?: string[];
+  landscape: { src: string };
+  portrait?: { src: string };
 }
 
 export interface Tamil {
@@ -35,27 +34,16 @@ export interface Stanza {
   stanza_roman_source?: string;
   image: StanzaImage;
   tamil: Tamil;
-  characters: string[];
-  scene_brief?: SceneBrief;
+  review_status?: string;
 }
 
 export interface DaskamData {
+  schema_version?: number;
   id: number;
-  title: string;
-  source: { sanskrit_english: string };
-  stanzas: Stanza[];
-}
-
-export interface DaskamIndexEntry {
-  id: number;
+  slug?: string;
   title: string;
   description: string;
-  status: 'draft' | 'published';
-  slokaCount: number;
-  updatedAt: string;
-}
-
-export interface DaskamIndex {
-  version: number;
-  daskams: DaskamIndexEntry[];
+  editorial_status?: string;
+  source: { sanskrit_english: string };
+  stanzas: Stanza[];
 }

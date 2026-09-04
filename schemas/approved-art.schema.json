@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://narayaneeyam.local/schemas/approved-art.schema.json",
+  "title": "Approved local artwork manifest",
+  "type": "object",
+  "required": ["schema_version", "daskam_id", "updated_at", "stanzas"],
+  "$defs": {
+    "asset": {
+      "type": "object",
+      "required": ["status", "master_path", "preview_path", "sha256"],
+      "properties": {
+        "status": { "enum": ["missing", "planned", "approved-legacy", "approved", "rejected"] },
+        "master_path": { "type": ["string", "null"] },
+        "preview_path": { "type": ["string", "null"] },
+        "sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": { "const": 1 },
+    "daskam_id": { "type": "integer", "minimum": 1 },
+    "updated_at": { "type": "string", "format": "date-time" },
+    "stanzas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["n", "concept_id", "alt", "landscape", "portrait"],
+        "properties": {
+          "n": { "type": "integer", "minimum": 1 },
+          "concept_id": { "type": "string" },
+          "alt": { "type": "string", "minLength": 1 },
+          "landscape": { "$ref": "#/$defs/asset" },
+          "portrait": { "$ref": "#/$defs/asset" }
+        }
+      }
+    }
+  }
+}

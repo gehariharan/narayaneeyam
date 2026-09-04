@@ -19,17 +19,19 @@ pnpm-debug.log*
 
 # private reference images (do not publish)
 private_refs/
+references/
 
 # intake (raw) + local tools
 intake/
 intake-ui/
 INTAKE.md
 
-# generated local master images (kept in Blob; don't commit)
-public/images/*.png
-public/images/*.jpg
-public/images/*.jpeg
-public/images/*.webp
+# local image studio: prompts, candidates, masters, and reproducible previews
+artifacts/
+public/images/d*/
+
+# disposable visual-review output
+.lavish/
 
 # local scripts (optional)
 scripts/ingest-intake-d1.py

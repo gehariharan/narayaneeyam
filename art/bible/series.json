@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "name": "Narayaneeyam temple-mural series",
+  "style": {
+    "name": "Temple-mural devotional digital painting",
+    "description": "South Indian temple mural-inspired devotional digital painting; warm golds and deep maroons; sacred, serene mood; intricate but not busy; clean silhouettes; mobile-friendly composition; no text; no watermark; no logos.",
+    "composition": {
+      "aspect": "orientation-specific",
+      "targets": [
+        "16:9 landscape",
+        "4:5 portrait"
+      ],
+      "notes": "Clear focal point; avoid clutter; keep background symbolic and soft. Recompose each concept for both frames."
+    }
+  },
+  "global_avoid": [
+    "no readable text",
+    "no captions",
+    "no watermark",
+    "no signature",
+    "no extra fingers",
+    "no distorted hands",
+    "avoid photorealistic uncanny valley"
+  ],
+  "orientations": {
+    "landscape": {
+      "aspect_ratio": "16:9",
+      "role": "desktop, web, presentations, and book spreads"
+    },
+    "portrait": {
+      "aspect_ratio": "4:5",
+      "role": "mobile, downloadable pages, covers, and portrait book pages"
+    }
+  },
+  "pairing_rule": "Every approved concept requires separately composed landscape and portrait masters. Never satisfy one orientation by cropping the other."
+}

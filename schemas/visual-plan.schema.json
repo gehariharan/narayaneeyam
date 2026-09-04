@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://narayaneeyam.local/schemas/visual-plan.schema.json",
+  "title": "Daskam visual plan",
+  "type": "object",
+  "required": ["schema_version", "daskam_id", "slug", "continuity", "stanzas"],
+  "$defs": {
+    "orientation": {
+      "type": "object",
+      "required": ["aspect_ratio", "composition_role", "composition_override"],
+      "properties": {
+        "aspect_ratio": { "enum": ["16:9", "4:5"] },
+        "composition_role": { "type": "string", "minLength": 1 },
+        "composition_override": { "type": "string", "minLength": 1 }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": { "const": 1 },
+    "daskam_id": { "type": "integer", "minimum": 1 },
+    "slug": { "type": "string", "pattern": "^d[0-9]{3}$" },
+    "continuity": { "type": "object" },
+    "stanzas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["n", "concept_id", "characters", "scene_brief", "alt", "orientations"],
+        "properties": {
+          "n": { "type": "integer", "minimum": 1 },
+          "concept_id": { "type": "string", "pattern": "^d[0-9]{3}-s[0-9]{3}$" },
+          "characters": { "type": "array", "items": { "type": "string" } },
+          "scene_brief": { "type": "object" },
+          "alt": { "type": "string", "minLength": 1 },
+          "orientations": {
+            "type": "object",
+            "required": ["landscape", "portrait"],
+            "properties": {
+              "landscape": { "$ref": "#/$defs/orientation" },
+              "portrait": { "$ref": "#/$defs/orientation" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

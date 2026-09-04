@@ -7,18 +7,16 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "intake": "node intake-ui/server.mjs"
+    "check": "astro check",
+    "scrape": "node scripts/scrape-daskam.mjs",
+    "studio:validate": "node scripts/validate-studio.mjs",
+    "prompt:build": "node scripts/build-prompt.mjs",
+    "art:approve": "node scripts/approve-art.mjs",
+    "preview:sync": "node scripts/sync-preview-assets.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
-    "@astrojs/vercel": "^9.0.4",
-    "@vercel/blob": "^2.3.0",
-    "@vite-pwa/astro": "^1.2.0",
     "astro": "^5.17.1",
-    "dotenv": "^17.3.1",
-    "express": "^5.2.1",
-    "multer": "^2.1.0",
-    "openai": "^6.25.0",
     "sharp": "^0.34.5",
     "typescript": "^5.9.3"
   }

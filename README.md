@@ -1,43 +1,51 @@
-# Astro Starter Kit: Minimal
+# Narayaneeyam
+
+An offline-first editorial and image-production studio for a Narayaneeyam coffee-table book and downloadable digital edition. The project combines sourced verses and commentary with consistent temple-mural-inspired artwork.
+
+The current milestone is content quality. There is no image-generation API, admin panel, cloud image store, or deployment requirement. Codex ImageGen is used interactively; masters and candidates stay local until a durable shared store is chosen.
+
+## Start here
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
+npm run studio:validate
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+See [STUDIO.md](STUDIO.md) for the complete production workflow.
 
-## 🚀 Project Structure
+## Paired artwork contract
 
-Inside of your Astro project, you'll see the following folders and files:
+Every stanza is planned and approved as a pair:
+
+- landscape 16:9 for desktop, spreads, and presentations
+- portrait 4:5 for mobile, downloads, covers, and portrait pages
+
+These are separate compositions of one concept, not crops. Shared identity is recorded with `concept_id` in both the plan and approval manifest.
+
+## Useful commands
+
+```sh
+npm run studio:validate
+npm run studio:validate -- --strict
+npm run prompt:build -- --daskam=1 --sloka=1 --orientation=landscape
+npm run prompt:build -- --daskam=1 --sloka=1 --orientation=portrait
+npm run art:approve -- --daskam=1 --sloka=1 --orientation=portrait --file=artifacts/path/to/candidate.png
+npm run preview:sync
+npm run check
+npm run build
+```
+
+## Repository layout
 
 ```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+content/                 canonical content and source provenance
+art/bible/               series and recurring-character continuity
+art/plans/               stanza concepts and paired compositions
+art/approved/            explicit approvals, local paths, and checksums
+artifacts/               prompts, candidates, and masters (local/ignored)
+public/images/           generated preview derivatives (local/ignored)
+schemas/                 versioned contracts for content, plans, and approvals
+src/                     small Astro proof-reading interface
+scripts/                 offline acquisition, prompt, validation, and preview tools
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
