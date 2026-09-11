@@ -4,7 +4,7 @@ This repository is an offline-first editorial and art studio. The website is a l
 
 ## Non-negotiable workflow
 
-- Do not add OpenAI API calls, image-generation endpoints, an admin panel, Vercel Blob, or another remote store unless the user explicitly reopens that decision.
+- Do not add OpenAI API calls, image-generation endpoints, an admin panel, Vercel Blob, or another remote store. OneDrive is permitted only as the non-destructive mirror documented in `STUDIO.md`; local files remain authoritative.
 - Generate artwork through Codex ImageGen in the working session. Save results under `artifacts/`; never put generated masters directly in `public/`.
 - Read `STUDIO.md`, `art/bible/series.json`, the relevant character bible, and `art/plans/dNNN.json` before generating.
 - Keep source text, editorial text, visual plans, candidates, and approvals separate. Never silently rewrite sourced Sanskrit, transliteration, or translations.
@@ -31,6 +31,8 @@ npm run prompt:build -- --daskam=1 --sloka=1 --orientation=landscape
 npm run prompt:build -- --daskam=1 --sloka=1 --orientation=portrait
 npm run art:approve -- --daskam=1 --sloka=1 --orientation=portrait --file=artifacts/path/to/candidate.png
 npm run preview:sync
+npm run storage:sync -- --dry-run
+npm run storage:sync
 npm run build
 ```
 

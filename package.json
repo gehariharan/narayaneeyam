@@ -9,10 +9,22 @@
     "astro": "astro",
     "check": "astro check",
     "scrape": "node scripts/scrape-daskam.mjs",
+    "postscrape": "npm run studio:auto-sync",
+    "facebook:intake": "node scripts/import-facebook-capture.mjs",
+    "postfacebook:intake": "npm run studio:auto-sync",
+    "facebook:graph": "node --env-file-if-exists=.env.facebook scripts/facebook-graph-intake.mjs",
+    "postfacebook:graph": "npm run studio:auto-sync",
     "studio:validate": "node scripts/validate-studio.mjs",
+    "poststudio:validate": "npm run studio:auto-sync",
     "prompt:build": "node scripts/build-prompt.mjs",
+    "postprompt:build": "npm run studio:auto-sync",
     "art:approve": "node scripts/approve-art.mjs",
-    "preview:sync": "node scripts/sync-preview-assets.mjs"
+    "postart:approve": "npm run studio:auto-sync",
+    "preview:sync": "node scripts/sync-preview-assets.mjs",
+    "postpreview:sync": "npm run studio:auto-sync",
+    "storage:sync": "node scripts/sync-onedrive.mjs",
+    "studio:auto-sync": "node scripts/sync-onedrive.mjs",
+    "postbuild": "npm run studio:auto-sync"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
