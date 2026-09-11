@@ -141,13 +141,13 @@ npm run facebook:export -- --source "C:\path\to\facebook-export\this_profile's_a
 ```
 
 The command creates one folder per photo post under `intake/facebook-export/`.
-Daskam posts use a `dNNN-<timestamp>` folder; unrelated media posts are retained
-under `_other/`. Each folder contains:
+Daskam posts use simple `D001`, `D002`, and similar folder names; unrelated
+media posts are retained under `_other/`. Each folder contains:
 
 - `post-caption.txt` with repaired UTF-8 text from the exported post
-- `media/001.jpg`, `media/002.jpg`, and so on in the exact
+- `001.jpg`, `002.jpg`, and so on directly in the folder, in the exact
   `attachments[].data[]` order recorded by Facebook
-- matching `captions/001.txt`, `captions/002.txt`, and so on
+- `photo-captions.txt` containing every image caption in the same numbered order
 - `post.json` with original URIs, timestamps, filenames, sizes, and SHA-256
 
 The original export JSON files are copied unchanged into `_source-metadata/`,

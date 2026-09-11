@@ -28,7 +28,7 @@ if (values.help || !values.source) {
 
 Options:
   --source <path>  Facebook export directory containing profile_posts_*.json.
-  --output <path>  Override intake/facebook-export/<export-name>.
+  --output <path>  Override intake/facebook-export/<export-name>-by-daskam.
   --help           Show this help.`);
   process.exit(values.help ? 0 : 1);
 }
@@ -38,7 +38,11 @@ const exportRoot = findExportRoot(sourcePostsRoot);
 const outputRoot = path.resolve(
   root,
   values.output ??
-    path.join('intake', 'facebook-export', sanitizeSegment(path.basename(exportRoot))),
+    path.join(
+      'intake',
+      'facebook-export',
+      `${sanitizeSegment(path.basename(exportRoot))}-by-daskam`,
+    ),
 );
 
 await assertDirectory(sourcePostsRoot);
@@ -82,34 +86,33 @@ for (const [postIndex, post] of mediaPosts.entries()) {
     ? `unknown-${String(postIndex + 1).padStart(3, '0')}`
     : timestamp.toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
   const baseFolder = daskam
-    ? `d${String(daskam).padStart(3, '0')}-${timestampSlug}`
-    : path.join('_other', `post-${String(postIndex + 1).padStart(3, '0')}-${timestampSlug}`);
+    ? `D${String(daskam).padStart(3, '0')}`
+    : path.join('_other', `POST${String(postIndex + 1).padStart(3, '0')}-${timestampSlug}`);
   const relativeFolder = uniqueFolder(baseFolder);
   const postRoot = path.join(outputRoot, ...relativeFolder.split('/'));
-  const mediaRoot = path.join(postRoot, 'media');
-  const captionsRoot = path.join(postRoot, 'captions');
-  await mkdir(mediaRoot, { recursive: true });
-  await mkdir(captionsRoot, { recursive: true });
+  await mkdir(postRoot, { recursive: true });
 
   await writeFile(path.join(postRoot, 'post-caption.txt'), caption, 'utf8');
   const mediaEntries = [];
+  const mergedCaptions = [];
   for (const [mediaIndex, item] of collectMedia(post).entries()) {
     const sourceFile = await resolveExportFile(exportRoot, sourcePostsRoot, item.media.uri);
     const extension = path.extname(sourceFile).toLowerCase() || '.bin';
     const sequence = String(mediaIndex + 1).padStart(3, '0');
     const destinationName = `${sequence}${extension}`;
-    const destination = path.join(mediaRoot, destinationName);
+    const destination = path.join(postRoot, destinationName);
     const description = decodeFacebookText(item.media.description ?? '');
 
     await copyFile(sourceFile, destination);
-    await writeFile(path.join(captionsRoot, `${sequence}.txt`), description, 'utf8');
+    mergedCaptions.push(
+      `## ${destinationName}\n\n${description || '(No photo caption in export)'}`,
+    );
 
     const fileStat = await stat(destination);
     const fileHash = await sha256File(destination);
     mediaEntries.push({
       order: mediaIndex + 1,
-      local_path: `media/${destinationName}`,
-      caption_path: `captions/${sequence}.txt`,
+      local_path: destinationName,
       caption: description,
       original_uri: item.media.uri,
       original_filename: path.basename(item.media.uri),
@@ -122,6 +125,11 @@ for (const [postIndex, post] of mediaPosts.entries()) {
     mediaCount++;
     totalBytes += fileStat.size;
   }
+  await writeFile(
+    path.join(postRoot, 'photo-captions.txt'),
+    `${mergedCaptions.join('\n\n')}\n`,
+    'utf8',
+  );
 
   const normalizedPost = {
     schema_version: 1,
@@ -175,7 +183,7 @@ const manifest = {
   source_posts_directory: sourcePostsRoot,
   organized_at: new Date().toISOString(),
   ordering_contract:
-    'Media file prefixes follow attachments[].data[] order from the Facebook export.',
+    'Media file prefixes follow attachments[].data[] order from the Facebook export. Photo captions appear in the same sequence in photo-captions.txt.',
   preservation_contract:
     'Source export files are copied, never moved or modified. Decoded captions are derivatives; original JSON is preserved under _source-metadata.',
   post_count: organizedPosts.length,

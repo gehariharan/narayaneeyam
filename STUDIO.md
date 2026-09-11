@@ -80,8 +80,9 @@ intake manifests, logs, or OneDrive.
 
 When an official Facebook export is available, prefer `facebook:export` over
 Graph API or browser capture. The organizer copies each multi-photo post into a
-separate Daskam/timestamp folder and prefixes media numerically using the
-exported `attachments[].data[]` order. It preserves the original JSON unchanged
-under `_source-metadata/`, stores repaired captions only as derivatives, keeps
-non-Daskam media posts under `_other/`, and never modifies the downloaded
-export.
+simple `D001`, `D002`, and similar folder, placing numerically prefixed media
+directly inside it using the exported `attachments[].data[]` order. Image
+captions are merged into one ordered `photo-captions.txt`. It preserves the
+original JSON unchanged under `_source-metadata/`, stores repaired captions
+only as derivatives, keeps non-Daskam media posts under `_other/`, and never
+modifies the downloaded export.
