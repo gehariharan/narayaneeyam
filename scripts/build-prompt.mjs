@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
+import { access, mkdir, readdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 
@@ -32,8 +32,17 @@ if (!stanza || !visual || !approval) throw new Error(`No complete studio record 
 const characterBibles = await Promise.all((visual.characters ?? []).map((id) => readJson('art', 'bible', 'characters', id, 'character.json')));
 const companion = orientation === 'landscape' ? approval.portrait : approval.landscape;
 const references = new Set(characterBibles.flatMap((character) => character.local_reference_paths ?? []));
+for (const reference of visual.reference_paths ?? []) references.add(reference);
 if (companion?.master_path && companion.status !== 'missing') references.add(companion.master_path);
-const refList = [...references];
+const refList = [];
+for (const reference of references) {
+  try {
+    await access(path.resolve(root, reference));
+    refList.push(reference);
+  } catch {
+    console.warn(`Skipping missing reference: ${reference}`);
+  }
+}
 
 const outputDir = path.join(root, 'artifacts', daskamSlug, stanzaSlug, 'prompts');
 await mkdir(outputDir, { recursive: true });
@@ -86,6 +95,7 @@ ${characterBibles.map((character) => `### ${character.display} (${character.id})
 ${refList.length ? refList.map((item) => `- ${item}`).join('\n') : '- No approved local reference yet; establish continuity before batch production.'}
 
 Reference images guide character identity, palette, and material language. Do not copy their framing. Recompose specifically for ${orientation} ${spec.aspect_ratio}.
+${visual.reference_guidance ? `\nReference guidance: ${visual.reference_guidance}\n` : ''}
 `;
 
 await writeFile(outputPath, prompt, { encoding: 'utf8', flag: 'wx' });
