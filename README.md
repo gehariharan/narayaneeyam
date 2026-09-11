@@ -131,6 +131,28 @@ Use `pages_read_user_content` as well only if visitor-authored Page content is
 required. Never put an access token in a command argument, committed file,
 capture JSON, or OneDrive mirror.
 
+### Facebook export organization
+
+The official Facebook JSON export is the preferred bulk source when available.
+Organize its `posts` directory without modifying the downloaded export:
+
+```powershell
+npm run facebook:export -- --source "C:\path\to\facebook-export\this_profile's_activity_across_facebook\posts"
+```
+
+The command creates one folder per photo post under `intake/facebook-export/`.
+Daskam posts use a `dNNN-<timestamp>` folder; unrelated media posts are retained
+under `_other/`. Each folder contains:
+
+- `post-caption.txt` with repaired UTF-8 text from the exported post
+- `media/001.jpg`, `media/002.jpg`, and so on in the exact
+  `attachments[].data[]` order recorded by Facebook
+- matching `captions/001.txt`, `captions/002.txt`, and so on
+- `post.json` with original URIs, timestamps, filenames, sizes, and SHA-256
+
+The original export JSON files are copied unchanged into `_source-metadata/`,
+and the organized intake is automatically mirrored to OneDrive.
+
 ## Repository layout
 
 ```text

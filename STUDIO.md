@@ -77,3 +77,11 @@ their image attachments in raw `intake/facebook-graph/`. Start with a
 three-post request, then use `--all --download` only after permissions and Page
 selection are confirmed. Tokens must never be written into the repository,
 intake manifests, logs, or OneDrive.
+
+When an official Facebook export is available, prefer `facebook:export` over
+Graph API or browser capture. The organizer copies each multi-photo post into a
+separate Daskam/timestamp folder and prefixes media numerically using the
+exported `attachments[].data[]` order. It preserves the original JSON unchanged
+under `_source-metadata/`, stores repaired captions only as derivatives, keeps
+non-Daskam media posts under `_other/`, and never modifies the downloaded
+export.

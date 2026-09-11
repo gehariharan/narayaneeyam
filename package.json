@@ -14,6 +14,8 @@
     "postfacebook:intake": "npm run studio:auto-sync",
     "facebook:graph": "node --env-file-if-exists=.env.facebook scripts/facebook-graph-intake.mjs",
     "postfacebook:graph": "npm run studio:auto-sync",
+    "facebook:export": "node scripts/organize-facebook-export.mjs",
+    "postfacebook:export": "npm run studio:auto-sync",
     "studio:validate": "node scripts/validate-studio.mjs",
     "poststudio:validate": "npm run studio:auto-sync",
     "prompt:build": "node scripts/build-prompt.mjs",
