@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "daskam_id": 38,
+  "retrieved_at": "2026-09-04T05:16:31.441Z",
+  "updated_at": "2026-09-04T05:30:00.000Z",
+  "status": "needs-human-verification",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-38-in-sanskrit/",
+      "note": "Ten Devanagari stanzas retrieved after the prototype scraper returned none."
+    },
+    {
+      "role": "romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-38-in-english/",
+      "note": "Ten IAST stanzas retrieved after the prototype scraper returned only one malformed block."
+    },
+    {
+      "role": "translation",
+      "url": "https://vignanam.org/meaning/english/narayaniyam-dashaka-38.html",
+      "note": "Automated import returned ten translations; spelling and interpretation still require editorial review."
+    },
+    {
+      "role": "commentary",
+      "path": "content/sources/d038/COMMENTRY.txt",
+      "sha256": "453979f1beb0e1e1b41fd5a511f85406c1fd05d6396d0c8146653721759af5c2",
+      "note": "Original user-supplied file preserved byte-for-byte. Canonical commentary is lightly copy-edited and remains needs-review."
+    }
+  ]
+}

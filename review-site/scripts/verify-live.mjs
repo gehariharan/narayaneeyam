@@ -3,7 +3,7 @@ import crypto from 'node:crypto';
 const origin='https://gehariharan.com';
 const base=origin+'/narayaneeyam';
 const data=JSON.parse(await fs.readFile('artifacts/review-site/data.json'));
-for(const suffix of ['/','/d001','/d002']){
+for(const suffix of ['/',...data.chapters.map(c=>'/d'+String(c.id).padStart(3,'0'))]){
  const res=await fetch(base+suffix);if(!res.ok)throw Error(`${suffix}: ${res.status}`);
  const html=await res.text();if(suffix!=='/'&&(html.match(/class="sloka"/g)||[]).length!==10)throw Error('Expected ten rows');
  console.log(`${suffix}: ${res.status}`);
@@ -12,7 +12,7 @@ const blog=await fetch(origin);if(!blog.ok)throw Error('Blog not reachable');con
 const queue=Object.entries(data.assets);let count=0;
 await Promise.all(Array.from({length:5},async()=>{while(queue.length){const [key,meta]=queue.shift();const response=await fetch(base+'/'+key);if(!response.ok)throw Error('Missing '+key);const sha=crypto.createHash('sha256').update(Buffer.from(await response.arrayBuffer())).digest('hex');if(sha!==meta.sha256)throw Error('Hash mismatch '+key);count++;}}));
 console.log(`Verified ${count} live image hashes.`);
-const body={daskam:2,sloka:1,message:'Deployment verification — automated feedback persistence test.',revision:data.revision,website:''};
+const body={daskam:data.chapters.at(-1).id,sloka:1,message:'Deployment verification — automated feedback persistence test.',revision:data.revision,website:''};
 const res=await fetch(base+'/api/feedback',{method:'POST',headers:{'content-type':'application/json',origin},body:JSON.stringify(body)});
 const saved=await res.json();if(res.status!==201)throw Error(JSON.stringify(saved));
 await fs.writeFile('artifacts/review-site/live-verification.json',JSON.stringify({checkedAt:new Date().toISOString(),images:count,feedbackId:saved.id},null,2));

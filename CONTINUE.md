@@ -23,12 +23,12 @@ They explicitly chose **open access, no passphrase**. Do not reintroduce a login
 - Dasakam 2: https://gehariharan.com/narayaneeyam/d002
 - Worker: `narayaneeyam-review`; account `d9967c9f63e9aa7685c005a62a00443c`.
 - Routes: exact `gehariharan.com/narayaneeyam` plus `gehariharan.com/narayaneeyam/*`.
-- Dedicated R2 bucket: `narayaneeyam` (60 WebP review images).
+- Dedicated R2 bucket: `narayaneeyam` (90 WebP review images).
 - Dedicated D1: `narayaneeyam-feedback`, ID `c3eabf56-d31e-4b44-a6b6-eff98fc9054c`.
-- Current shipped Worker version: `66868b4b-be39-4ee4-a83e-a8d17ce05eab`.
+- Current shipped Worker version: `47914e0a-7df9-47c9-aacf-b31ed02efa7c`.
 - Existing `gehariharan-blog` Worker, blog media bucket and database are separate.
 
-Both chapters have ten rows with three images each. On phones (650px or narrower),
+All three chapters (1, 2 and 38) have ten rows with three images each. On phones (650px or narrower),
 images stack vertically at full width with no horizontal scrolling; desktop keeps
 three columns. Mobile navigation targets and feedback fields are touch-friendly. Compact UI labels are
 Reference / Traditional mural / Detailed painting. Filenames, versions,
@@ -105,7 +105,7 @@ pilots; all ten D002 traditional alternatives have since been generated.
 The OneDrive intake was flattened to `intake/D001`, `intake/D002`, etc.; export
 wrapper folders were removed and the prior export retained in
 `intake/_archive-facebook-export-v1`. Captions-only `D005-X` style names remain.
-Only D001/D002 currently have canonical chapter content/plans.
+D001/D002/D038 now have canonical chapter content/plans.
 
 Inventory: `art/batches/reference-murals-v001.json` and `.md`: 37 folders with
 560 numbered reference images, approximately 358 provisional stanza concepts,
@@ -124,6 +124,7 @@ them through a blanket intake sync. `scripts/sync-handoff.py` excludes them.
 npm ci --ignore-scripts
 node review-site/scripts/build.mjs
 node review-site/scripts/test.mjs
+python review-site/scripts/test-migrations.py
 node scripts/validate-studio.mjs
 ```
 
@@ -137,6 +138,7 @@ To deploy after an authorised change:
 ```sh
 node review-site/scripts/build.mjs
 node review-site/scripts/test.mjs
+python review-site/scripts/test-migrations.py
 node review-site/scripts/upload.mjs
 wrangler deploy --dry-run --config review-site/wrangler.jsonc
 wrangler deploy --config review-site/wrangler.jsonc
@@ -149,8 +151,8 @@ the existing bucket/database or run initial provisioning again.
 `node review-site/scripts/verify-live.mjs` verifies page responses and image
 hashes but **also submits one labelled test feedback record**. It writes exact
 verification/cleanup SQL under `artifacts/review-site/`; remove only that test
-after checking persistence. Tests during this handoff passed for all 60 images,
-the two chapter pages, index, blog homepage and live feedback acceptance.
+after checking persistence. Tests during this handoff passed for all 90 images,
+the chapter pages, index, blog homepage and live feedback acceptance.
 
 ## Feedback and next task
 
@@ -183,3 +185,27 @@ changed destination files under `_history/handoff-TIMESTAMP/`, and never deletes
 remote extras. It copies locally; the final OneDrive command uploads to cloud.
 Do not run two OneDrive clients concurrently. Keep handoff manifests and local
 feedback exports out of Git; they are in gitignored `artifacts/`.
+
+## Dasakam 38 follow-up
+
+The earlier Jarvis artwork was D038, not D040. Imported files remain intact under
+`artifacts/imports/jarvis-d038-v001/`, with source SHA-256 verification. The user
+then authorised review and matte/detailed comparison production, delegating the
+character-continuity decision. Family sheet c002 was accepted for identity with
+infant age adaptation; its glossy rendering was not adopted for the matte set.
+
+Ten imported selected landscapes are preserved as detailed v001. Ten new
+traditional candidates are v002, with S002-S004 corrected to v003 to reduce
+modelling and glow. Selection/checksums: `art/batches/d038-comparison-v001.json`.
+Review findings: `art/batches/d038-review-v001.md`. All prompts and rejected
+versions are preserved. The imported all-missing approval manifest is unchanged;
+there are no new approved stanza masters. The earlier first portrait candidate
+is preserved but is not an approved companion.
+
+Public review URL: https://gehariharan.com/narayaneeyam/d038
+Outputs use `intake/D038/outputs/d38001-landscape-v001.png` onward.
+
+D1 migration `0002_feedback_all_dasakams.sql` is applied in production. It
+preserves existing rows and replaces the original D001/D002-only database
+constraint. The Worker still accepts feedback only for bundled chapter/sloka
+pairs. A private pre-migration SQL backup is preserved under `artifacts/review-site/`.

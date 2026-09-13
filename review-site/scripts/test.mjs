@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import { renderChapter } from '../views.mjs';
+import { renderChapter, renderIndex, chapterSlug } from '../views.mjs';
 // Test source import with the generated data replaced so Node requires no JSON import attribute.
 const data=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/data.json',import.meta.url)));
 const source=(await fs.readFile(new URL('../worker.mjs',import.meta.url),'utf8')).replace("import data from '../artifacts/review-site/data.json';",`const data=${JSON.stringify(data)};`).replace("from './views.mjs'",`from '${new URL('../views.mjs',import.meta.url).href}'`);
@@ -20,4 +20,15 @@ assert.equal((await feedback(req(good),{...env,FEEDBACK_LIMIT:{limit:async()=>({
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/api/feedback'),env)).status,405);
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/media/not-allowed.webp'),env)).status,404);
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
-console.log('Passed: compact 20-row layout, local assets, unchanged commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
+console.log('Passed: compact 30-row layout, local assets, unchanged commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
+
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,38]);
+const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
+for(const c of data.chapters){
+ const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
+ assert.equal(response.status,200);const html=await response.text();
+ for(const next of data.chapters)assert.ok(html.includes('/narayaneeyam/'+chapterSlug(next.id)));
+}
+assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/d0038'),env)).status,404);
+assert.equal((await feedback(req({...good,daskam:38}),env)).status,201);assert.equal(written.args[1],38);assert.equal(JSON.parse(written.args[8]).length,2);
+console.log('Passed: D038 routing, chapter navigation, generated-only D038 feedback.');

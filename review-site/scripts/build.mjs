@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import sharp from 'sharp';
-import { renderIndex, renderChapter } from '../views.mjs';
+import { renderIndex, renderChapter, chapterSlug } from '../views.mjs';
 
 const root = path.resolve(import.meta.dirname, '../..');
 const dest = path.join(root, 'artifacts/review-site');
@@ -44,9 +44,29 @@ for (const id of [1, 2]) {
   chapter.representative = chapter.rows[0].images[1].key;
   chapters.push(chapter);
 }
+const importedSelection = JSON.parse(await fs.readFile(path.join(root, 'art/batches/d038-comparison-v001.json')));
+{
+  const id=38,d=chapterSlug(id);
+  const content=JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
+  const plan=JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
+  const chapter={id,title:'Dasakam 38',description:content.description,rows:[]};
+  for(const stanza of content.stanzas){
+    const n=stanza.n,s=String(n).padStart(3,'0');
+    const selected=importedSelection.rows.find(r=>r.n===n);
+    if(!selected)throw new Error(`Missing D038 selection ${n}`);
+    const images=[];
+    for(const role of ['reference','matte','glossy']){
+      const item=selected[role];
+      images.push({role,label:role,version:item.version,key:await asset(item.file,`${d}-s${s}-${role}`)});
+    }
+    chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:stanza.commentary_en||stanza.meaning_en||'',commentarySource:stanza.commentary_source||'',translation:stanza.translation_en||'',translationSource:stanza.translation_source||'',editorialStatus:stanza.review_status||'needs-review',images});
+  }
+  chapter.representative=chapter.rows[2].images[1].key;
+  chapters.push(chapter);
+}
 const dataset = { revision: crypto.createHash('sha256').update(JSON.stringify(chapters)).digest('hex').slice(0, 16), chapters, assets };
 await fs.writeFile(path.join(dest, 'data.json'), JSON.stringify(dataset));
 await fs.writeFile(path.join(dest, 'asset-provenance.json'), JSON.stringify(provenance, null, 2));
 await fs.writeFile(path.join(dest, 'index.html'), renderIndex(dataset, './', false));
-for (const chapter of chapters) await fs.writeFile(path.join(dest, `d00${chapter.id}.html`), renderChapter(chapter, dataset.revision, './', false));
+for (const chapter of chapters) await fs.writeFile(path.join(dest, `${chapterSlug(chapter.id)}.html`), renderChapter(chapter, dataset.revision, './', false, chapters));
 console.log(`Built ${chapters.length} chapters, ${chapters.reduce((n,c)=>n+c.rows.length,0)} rows and ${Object.keys(assets).length} distinct review images.`);

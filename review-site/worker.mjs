@@ -1,5 +1,5 @@
 import data from '../artifacts/review-site/data.json';
-import {renderIndex, renderChapter} from './views.mjs';
+import {renderIndex, renderChapter, chapterSlug} from './views.mjs';
 const BASE='/narayaneeyam';
 const headers={'X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin','X-Frame-Options':'DENY','Content-Security-Policy':"default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'"};
 const json=(body,status=200)=>Response.json(body,{status,headers:{...headers,'Cache-Control':'no-store'}});
@@ -42,7 +42,7 @@ export default {async fetch(request,env){
  }
  let body;
  if(key==='')body=renderIndex(data);
- else{const chapter=data.chapters.find(c=>key===`d00${c.id}`||key===`d00${c.id}/`);if(chapter)body=renderChapter(chapter,data.revision);}
+ else{const chapter=data.chapters.find(c=>key===chapterSlug(c.id)||key===`${chapterSlug(c.id)}/`);if(chapter)body=renderChapter(chapter,data.revision,undefined,true,data.chapters);}
  if(!body)return new Response('Not found',{status:404,headers});
  return new Response(request.method==='HEAD'?null:body,{headers:{...headers,'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-cache'}});
  }catch(error){console.error('Review request failed',error?.name);return json({error:'The service is temporarily unavailable. Please retry.'},503);}

@@ -11,13 +11,14 @@ No image generation runs in the website. No artwork is approved by publishing it
 ```sh
 node review-site/scripts/build.mjs
 node review-site/scripts/test.mjs
+python review-site/scripts/test-migrations.py
 node review-site/scripts/upload.mjs
 wrangler d1 migrations apply narayaneeyam-feedback --remote --config review-site/wrangler.jsonc
 wrangler deploy --dry-run --config review-site/wrangler.jsonc
 wrangler deploy --config review-site/wrangler.jsonc
 ```
 
-Build creates a standalone three-page HTML review under `artifacts/review-site/`
+Build creates a standalone index and chapter HTML reviews under `artifacts/review-site/`
 and WebP derivatives from an explicit list of local images. Originals remain
 unchanged. Each chapter compares source references with traditional murals and
 detailed painting candidates; the build manifest records the exact versions.
@@ -56,3 +57,20 @@ wrangler d1 export narayaneeyam-feedback --remote --config review-site/wrangler.
 
 To withdraw the review site, remove only its two Worker routes or deploy a
 maintenance response. Do not delete the R2 bucket or feedback database.
+
+## Dasakam 38
+
+D038 is imported from Jarvis with its original sourced content, plans, references
+and selected detailed candidates. The traditional variants were generated in
+Codex and visually reviewed with D001 rendering anchors. Exact versions and
+checksums are in `art/batches/d038-comparison-v001.json`; findings are in
+`art/batches/d038-review-v001.md`. These remain candidates. The comparison has
+ten rows, three images per row, and the same mobile stack and feedback form.
+
+`node review-site/scripts/upload.mjs --daskam=38` uploads only D038 derivatives.
+Chapter links and Worker routing use three-digit slugs (`d038`, not `d0038`).
+
+D1 migration `0002_feedback_all_dasakams.sql` is applied in production. It
+preserves existing rows and replaces the original D001/D002-only database
+constraint. The Worker still accepts feedback only for bundled chapter/sloka
+pairs. A private pre-migration SQL backup is preserved under `artifacts/review-site/`.
