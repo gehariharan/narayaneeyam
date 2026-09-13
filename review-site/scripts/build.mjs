@@ -44,16 +44,16 @@ for (const id of [1, 2]) {
   chapter.representative = chapter.rows[0].images[1].key;
   chapters.push(chapter);
 }
-const importedSelection = JSON.parse(await fs.readFile(path.join(root, 'art/batches/d038-comparison-v001.json')));
-{
-  const id=38,d=chapterSlug(id);
+for (const id of [38,96]) {
+  const d=chapterSlug(id);
+  const importedSelection = JSON.parse(await fs.readFile(path.join(root, `art/batches/${d}-comparison-v001.json`)));
   const content=JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
   const plan=JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
-  const chapter={id,title:'Dasakam 38',description:content.description,rows:[]};
-  for(const stanza of content.stanzas){
+  const chapter={id,title:`Dasakam ${id}`,description:importedSelection.description||content.description,rows:[]};
+  for(const stanza of content.stanzas.filter(s=>importedSelection.rows.some(r=>r.n===s.n))){
     const n=stanza.n,s=String(n).padStart(3,'0');
     const selected=importedSelection.rows.find(r=>r.n===n);
-    if(!selected)throw new Error(`Missing D038 selection ${n}`);
+    if(!selected)throw new Error(`Missing ${d} selection ${n}`);
     const images=[];
     for(const role of ['reference','matte','glossy']){
       const item=selected[role];
@@ -61,7 +61,7 @@ const importedSelection = JSON.parse(await fs.readFile(path.join(root, 'art/batc
     }
     chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:stanza.commentary_en||stanza.meaning_en||'',commentarySource:stanza.commentary_source||'',translation:stanza.translation_en||'',translationSource:stanza.translation_source||'',editorialStatus:stanza.review_status||'needs-review',images});
   }
-  chapter.representative=chapter.rows[2].images[1].key;
+  chapter.representative=(chapter.rows[2]||chapter.rows[0]).images[1].key;
   chapters.push(chapter);
 }
 const dataset = { revision: crypto.createHash('sha256').update(JSON.stringify(chapters)).digest('hex').slice(0, 16), chapters, assets };

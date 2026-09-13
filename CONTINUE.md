@@ -23,9 +23,9 @@ They explicitly chose **open access, no passphrase**. Do not reintroduce a login
 - Dasakam 2: https://gehariharan.com/narayaneeyam/d002
 - Worker: `narayaneeyam-review`; account `d9967c9f63e9aa7685c005a62a00443c`.
 - Routes: exact `gehariharan.com/narayaneeyam` plus `gehariharan.com/narayaneeyam/*`.
-- Dedicated R2 bucket: `narayaneeyam` (90 WebP review images).
+- Dedicated R2 bucket: `narayaneeyam` (93 WebP review images).
 - Dedicated D1: `narayaneeyam-feedback`, ID `c3eabf56-d31e-4b44-a6b6-eff98fc9054c`.
-- Current shipped Worker version: `47914e0a-7df9-47c9-aacf-b31ed02efa7c`.
+- Current shipped Worker version: `62cf8786-e26a-41b9-a1b4-d12de0e689ab`.
 - Existing `gehariharan-blog` Worker, blog media bucket and database are separate.
 
 All three chapters (1, 2 and 38) have ten rows with three images each. On phones (650px or narrower),
@@ -209,3 +209,14 @@ D1 migration `0002_feedback_all_dasakams.sql` is applied in production. It
 preserves existing rows and replaces the original D001/D002-only database
 constraint. The Worker still accepts feedback only for bundled chapter/sloka
 pairs. A private pre-migration SQL backup is preserved under `artifacts/review-site/`.
+
+## Dasakam 96 trial
+
+D091 had captions but no photos. The user chose D096 to try next; all ten photos
+and captions are present. A one-sloka trial (S004: three yogic paths) is now
+available at https://gehariharan.com/narayaneeyam/d096. The page deliberately
+contains one row, not a completed ten-sloka chapter. Two new landscape candidates
+are v001 traditional and v002 detailed; see `art/batches/d096-comparison-v001.json`
+and `art/batches/d096-review-v001.md`. All ten original captions are preserved,
+but only S004 is normalized/planned. No Sanskrit or literal translation was
+invented. Nine more scenes and all portrait/approval work remain pending.

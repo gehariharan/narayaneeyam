@@ -74,3 +74,7 @@ D1 migration `0002_feedback_all_dasakams.sql` is applied in production. It
 preserves existing rows and replaces the original D001/D002-only database
 constraint. The Worker still accepts feedback only for bundled chapter/sloka
 pairs. A private pre-migration SQL backup is preserved under `artifacts/review-site/`.
+
+D096 is a one-row S004 trial with two new style candidates and its source photo.
+The build uses explicit row selections, and live checks allow partial chapters.
+Upload just the trial derivatives with `--daskam=96`.
