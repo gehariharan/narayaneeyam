@@ -28,7 +28,7 @@ if (values.help || !values.source) {
 
 Options:
   --source <path>  Facebook export directory containing profile_posts_*.json.
-  --output <path>  Override intake/facebook-export/<export-name>-by-daskam.
+  --output <path>  Override intake (destination must not already exist).
   --help           Show this help.`);
   process.exit(values.help ? 0 : 1);
 }
@@ -37,12 +37,7 @@ const sourcePostsRoot = path.resolve(root, values.source);
 const exportRoot = findExportRoot(sourcePostsRoot);
 const outputRoot = path.resolve(
   root,
-  values.output ??
-    path.join(
-      'intake',
-      'facebook-export',
-      `${sanitizeSegment(path.basename(exportRoot))}-by-daskam`,
-    ),
+  values.output ?? 'intake',
 );
 
 await assertDirectory(sourcePostsRoot);
@@ -301,10 +296,6 @@ function uniqueFolder(baseFolder) {
   }
   usedFolders.add(candidate);
   return candidate;
-}
-
-function sanitizeSegment(value) {
-  return value.replace(/[<>:"/\\|?*\u0000-\u001F]/g, '-').replace(/[. ]+$/g, '');
 }
 
 function naturalCompare(left, right) {

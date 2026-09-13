@@ -1,0 +1,183 @@
+# Continue Narayaneeyam studio
+
+Read this first, then `AGENTS.md`, `STUDIO.md`, and `review-site/README.md`.
+This handoff covers work completed on 2026-09-13. Do not regenerate completed
+artwork or recreate Cloudflare resources just because a new checkout lacks assets.
+
+## Current user intent
+
+The user is reviewing Narayaneeyam artwork and commentary before producing the
+remaining chapters. They want source reference, traditional mural and detailed
+painting compared side by side, with easy feedback. Their latest instruction is
+to ship this state, sync OneDrive/GitHub and continue with a remote agent.
+
+The user explicitly authorised the public review site, a dedicated R2 bucket,
+D1 feedback, Wrangler deployment and GitHub push. This overrides the earlier
+no-remote-store rule for the review site only. Local files remain authoritative.
+They explicitly chose **open access, no passphrase**. Do not reintroduce a login.
+
+## Shipped site
+
+- Index: https://gehariharan.com/narayaneeyam/
+- Dasakam 1: https://gehariharan.com/narayaneeyam/d001
+- Dasakam 2: https://gehariharan.com/narayaneeyam/d002
+- Worker: `narayaneeyam-review`; account `d9967c9f63e9aa7685c005a62a00443c`.
+- Routes: exact `gehariharan.com/narayaneeyam` plus `gehariharan.com/narayaneeyam/*`.
+- Dedicated R2 bucket: `narayaneeyam` (60 WebP review images).
+- Dedicated D1: `narayaneeyam-feedback`, ID `c3eabf56-d31e-4b44-a6b6-eff98fc9054c`.
+- Current shipped Worker version: `1d7090c6-5a55-4d51-967a-981ddc802d90`.
+- Existing `gehariharan-blog` Worker, blog media bucket and database are separate.
+
+Both chapters have ten rows with three images each. Compact UI labels are
+Reference / Traditional mural / Detailed painting. Filenames, versions,
+provenance notes and repeated explanatory text are hidden. Commentary is
+unchanged. Each row has a small feedback link opening only a textbox and Submit.
+Server records chapter, sloka, dataset revision and generated-image snapshots.
+There is no public feedback listing. D1 uses prepared writes, validation,
+same-origin checks, a honeypot and an edge rate limiter.
+
+The user initially deferred the compact UI, then explicitly asked a subagent to
+implement it. That work is now complete and deployed. Do not follow the obsolete
+deferred-status sentence in `artifacts/review-site/compact-layout-prompt.md`.
+
+## Git and large assets
+
+Repository: https://github.com/gehariharan/narayaneeyam — branch `main`.
+Code, content JSON, bibles, plans and candidate-selection records are in Git.
+PNG masters/candidates, raw reference intake and generated HTML/WebP files are
+gitignored and backed up in OneDrive. A Git clone alone cannot build the review
+dataset. R2 is a publishing derivative store, not the authoritative asset source.
+
+OneDrive folder: `Pictures/Narayaneeyam Studio/`.
+On this machine: `/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/`.
+Local repo: `/home/gehariharan/narayaneeyam`.
+
+For a remote machine, hydrate/copy `artifacts/` and `intake/` from that OneDrive
+studio into the clone before building. Preserve paths and check the latest
+`handoff-sync-*.json` checksum manifest in the OneDrive studio root. Do not copy
+OAuth tokens, browser profiles or Wrangler credentials into Git/OneDrive; the
+remote machine needs its own authorised login or existing credentials.
+
+## Artwork state
+
+- D001: ten exact legacy approved landscape PNGs recovered from the earlier
+  deployment; hashes match `art/approved/d001.json`. Preserved at
+  `artifacts/d001/sNNN/landscape/master.png`.
+- D001: ten new detailed-painting alternatives, plus eight QC revisions.
+  Selected v001 for S001/S005, v002 for all other stanzas. Selection and hashes:
+  `art/batches/d001-detailed-comparison-v001.json`.
+  QC report: `artifacts/d001/detailed-comparison-v001.json`.
+- D002: ten earlier detailed/glossy candidates, ten traditional/matte alternatives,
+  and preserved QC revisions. Review build maps these explicitly in
+  `review-site/scripts/build.mjs`. Original reference images are `001.jpg`–`010.jpg`.
+- New comparison PNG layout: `intake/D001/outputs/d1001-landscape-v001.png` and
+  `intake/D002/outputs/d2001-landscape-v003.png`, etc. Version suffixes matter.
+  Older comparison filenames in parent folders remain historical copies.
+- Guruvayurappan and Lakshmi character sheets are explicitly user-approved.
+  Bibles and hashes are in `art/bible/characters/`; anchors in `artifacts/characters/`.
+- New stanza images are **comparison candidates, not approved masters**.
+  No new stanza approvals were inferred from permission to generate or publish.
+- Portrait companions remain ungenerated. Every final concept still needs an
+  independently composed 4:5 portrait anchored to its approved first orientation.
+
+QC corrected several clipped crowns/feathers, D001 S010 central feet, and a
+currency symbol/disconnected hand in D001 S002. Visual QC is not a guarantee of
+perfect anatomy. Small/occluded hands and symbolic background figures still
+need editorial review. D001 S010 retains some peripheral figure cropping.
+
+## Style direction
+
+The user found D002 too photorealistic/glossy compared with D001 S002–S010.
+The traditional style uses flat matte colour, strong outlines, shallow space,
+restrained shading and patterned ochre gold. D001 S004/S008 are style anchors;
+approved character sheets anchor identity separately. Do not let their glossy
+rendering dictate the traditional variant. The detailed variants were explicitly
+requested as comparison alternatives, not as a replacement series direction.
+
+Findings: `artifacts/d002/style-review-v001.md` and
+`artifacts/d002/matte-comparison-v001.md`. The latter originally covered two
+pilots; all ten D002 traditional alternatives have since been generated.
+
+## Intake and remaining chapters
+
+The OneDrive intake was flattened to `intake/D001`, `intake/D002`, etc.; export
+wrapper folders were removed and the prior export retained in
+`intake/_archive-facebook-export-v1`. Captions-only `D005-X` style names remain.
+Only D001/D002 currently have canonical chapter content/plans.
+
+Inventory: `art/batches/reference-murals-v001.json` and `.md`: 37 folders with
+560 numbered reference images, approximately 358 provisional stanza concepts,
+and 144 images needing mapping. Multiple references can belong to one stanza.
+Do not blindly generate one scene per numbered reference file. D038/D097 need
+visual mapping. Other ages/avatars/recurring figures need appropriate approved
+character references before scaling.
+
+Three source files remain intentionally local-only: `intake/D002/011.jpg`,
+`012.jpg`, `013.jpg`. They were removed in OneDrive earlier. Do not reupload
+them through a blanket intake sync. `scripts/sync-handoff.py` excludes them.
+
+## Resume and verify
+
+```sh
+npm ci --ignore-scripts
+node review-site/scripts/build.mjs
+node review-site/scripts/test.mjs
+node scripts/validate-studio.mjs
+```
+
+`studio:validate` has existing editorial/incomplete-pair warnings. Do not treat
+them as completed approvals. Avoid routine npm lifecycle hooks until storage
+target is configured: `npm run build` and other studio commands auto-sync.
+Direct Node scripts are useful during setup.
+
+To deploy after an authorised change:
+
+```sh
+node review-site/scripts/build.mjs
+node review-site/scripts/test.mjs
+node review-site/scripts/upload.mjs
+wrangler deploy --dry-run --config review-site/wrangler.jsonc
+wrangler deploy --config review-site/wrangler.jsonc
+```
+
+Upload assets before deploying a new manifest. Existing keys are content-hashed.
+`--d001-detailed` limits the upload script to D001 alternatives. Don't recreate
+the existing bucket/database or run initial provisioning again.
+
+`node review-site/scripts/verify-live.mjs` verifies page responses and image
+hashes but **also submits one labelled test feedback record**. It writes exact
+verification/cleanup SQL under `artifacts/review-site/`; remove only that test
+after checking persistence. Tests during this handoff passed for all 60 images,
+the two chapter pages, index, blog homepage and live feedback acceptance.
+
+## Feedback and next task
+
+The user plans to test the live site. Start the next session by reading new
+feedback and asking only for unresolved artistic choices. Query via Wrangler:
+
+```sh
+wrangler d1 execute narayaneeyam-feedback --remote --config review-site/wrangler.jsonc --command "SELECT * FROM feedback WHERE status='open' ORDER BY created_at" --json
+```
+
+Feedback must be associated with its stored image snapshot, not merely whichever
+candidate is newest. Make revisions as new versions, inspect anatomy/style,
+update the review selection, upload new derivatives, then deploy. Explicit user
+approval is still required before updating `art/approved/`.
+
+Generate art only through the session's Codex ImageGen tool. No OpenAI API calls
+or web generation endpoint. If unavailable on the remote agent, do not silently
+substitute an API or a different generator.
+
+## OneDrive handoff sync
+
+```sh
+python scripts/sync-handoff.py --target '/path/to/OneDrive/Pictures/Narayaneeyam Studio'
+python scripts/sync-handoff.py --target '/path/to/OneDrive/Pictures/Narayaneeyam Studio' --apply
+onedrive --sync --upload-only --no-remote-delete --single-directory 'Pictures/Narayaneeyam Studio'
+```
+
+The helper mirrors git-visible code plus studio data, hashes copies, preserves
+changed destination files under `_history/handoff-TIMESTAMP/`, and never deletes
+remote extras. It copies locally; the final OneDrive command uploads to cloud.
+Do not run two OneDrive clients concurrently. Keep handoff manifests and local
+feedback exports out of Git; they are in gitignored `artifacts/`.

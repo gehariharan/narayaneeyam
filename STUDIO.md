@@ -1,5 +1,11 @@
 # Narayaneeyam editorial and art studio
 
+User-authorised public review exception (2026-09-13): publish the comparison
+collection at `gehariharan.com/narayaneeyam`, using the dedicated `narayaneeyam`
+R2 bucket for web derivatives and `narayaneeyam-feedback` D1 database for row
+feedback. The user explicitly chose open access with no passphrase. Local files
+and approval manifests remain authoritative. See `review-site/README.md`.
+
 The immediate product is the content collection itself: a carefully sourced Narayaneeyam edition with a coherent temple-mural visual narrative. The Astro site is only a lightweight local proof reader. Hosting, donations, and the final storefront can be decided after the material is strong.
 
 ## The unit of work
@@ -80,9 +86,56 @@ intake manifests, logs, or OneDrive.
 
 When an official Facebook export is available, prefer `facebook:export` over
 Graph API or browser capture. The organizer copies each multi-photo post into a
-simple `D001`, `D002`, and similar folder, placing numerically prefixed media
+simple `intake/D001`, `intake/D002`, and similar folder, placing numerically prefixed media
 directly inside it using the exported `attachments[].data[]` order. Image
 captions are merged into one ordered `photo-captions.txt`. It preserves the
 original JSON unchanged under `_source-metadata/`, stores repaired captions
 only as derivatives, keeps non-Daskam media posts under `_other/`, and never
 modifies the downloaded export.
+
+The OneDrive comparison layout is `Pictures/Narayaneeyam Studio/intake/DNNN/`,
+with no export-name folders between intake and the daskam. Keep existing `-X`
+suffixes for chapters that have captions but no source photos. Versioned mural
+comparison copies sit beside the numbered reference images; authoritative
+generated candidates and masters stay under local `artifacts/`. The earlier
+organized export is preserved under `intake/_archive-facebook-export-v1/`.
+Historical retrieval manifests and submitted prompts retain their original paths;
+the layout migration record under `artifacts/` maps those paths to the current ones.
+The export importer requires a new output directory and refuses to overwrite
+existing intake; use `--output` for subsequent exports before reviewing a merge.
+
+## Mural output format
+
+New mural outputs use PNG. Landscape compositions are native 16:9 and portrait
+compositions are native 4:5. Request the highest available native resolution,
+record the actual dimensions, and never crop or upscale to claim a print master.
+
+Comparison copies in `intake/DNNN/` use `mural-s001-landscape-v001.png` and
+`mural-s001-portrait-v001.png`, with three-digit stanza and version numbers.
+Increment the version whenever an image changes. Approval is recorded in the
+approval manifest; do not infer it from the comparison filename. Existing legacy
+and pilot filenames remain intact as historical outputs.
+
+Keep authoritative candidates at `artifacts/dNNN/sNNN/<orientation>/candidate-vVVV.png`
+and approved masters at the corresponding versioned `master-vVVV.png` path.
+Save the submitted prompt, reference paths, actual dimensions, and SHA-256 with
+each candidate. Copy comparison images into the same daskam folder in the local
+OneDrive mirror and upload non-destructively.
+
+Batch inventories live under `art/batches/`. Caption numbers can identify several
+references for one stanza; a numbered image filename alone does not establish a
+stanza mapping. Unmapped reference images need visual review before generation.
+
+## D002 output layout and matte style correction
+
+The user-selected comparison layout is `intake/D002/outputs/d2001-landscape-v001.png`,
+`d2002-landscape-v001.png`, and onward: daskam number followed by three-digit stanza.
+Keep orientation and version suffixes to preserve independent compositions and revisions.
+Existing comparison files remain historical references; authoritative candidates remain under `artifacts/`.
+
+The D002 review found substantial drift toward glossy devotional illustration.
+Preserve the generated set for comparison. Regenerate using the flat, matte D001
+painting style, with D001 S004/S008 as rendering references and approved character
+sheets used for identity only. Avoid glossy skin, reflective gold, silk sheen and
+cinematic lighting. Findings: `artifacts/d002/style-review-v001.md`; correction
+comparison record: `artifacts/d002/matte-comparison-v001.md`.

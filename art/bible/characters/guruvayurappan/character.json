@@ -37,8 +37,15 @@
     "make jewelry slightly more intricate"
   ],
   "local_reference_paths": [
-    "artifacts/d001/s001/landscape/approved.webp",
-    "artifacts/d001/s001/landscape/master.png"
+    "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
   ],
-  "note": "Temporary legacy anchors. Replace with an explicitly approved character sheet before scaling production."
+  "note": "Dedicated character sheet approved by the user. Narrative ages and distinct avatars require appropriate character references.",
+  "approved_reference": {
+    "status": "approved",
+    "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+    "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+    "approved_at": "2026-09-12T05:11:15.418698+00:00",
+    "approval_basis": "User explicitly approved the character sheet: yes gi ahead",
+    "scope": "Youthful Guruvayurappan identity, face, crown, ornaments, clothing, and mural style. Scripture-specific arm counts and poses follow each scene plan."
+  }
 }

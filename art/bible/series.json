@@ -3,7 +3,7 @@
   "name": "Narayaneeyam temple-mural series",
   "style": {
     "name": "Temple-mural devotional digital painting",
-    "description": "South Indian temple mural-inspired devotional digital painting; warm golds and deep maroons; sacred, serene mood; intricate but not busy; clean silhouettes; mobile-friendly composition; no text; no watermark; no logos.",
+    "description": "South Indian temple mural-inspired painting: firm dark drawn contours, broad matte mineral-like colour fields, shallow decorative space, simplified cloth and hair, restrained facial modelling, earthy ochres, deep maroons and muted blue. Gold is painted ochre ornament, without metallic reflections. Apply the same painting treatment to deities, devotees and backgrounds. No text, watermark or logos.",
     "composition": {
       "aspect": "orientation-specific",
       "targets": [
@@ -11,7 +11,12 @@
         "4:5 portrait"
       ],
       "notes": "Clear focal point; avoid clutter; keep background symbolic and soft. Recompose each concept for both frames."
-    }
+    },
+    "rendering_reference_paths": [
+      "artifacts/d001/s004/landscape/master.png",
+      "artifacts/d001/s008/landscape/master.png"
+    ],
+    "reference_roles": "D001 images anchor painting style. Approved character sheets anchor identity and iconography only; do not reproduce their glossy shading."
   },
   "global_avoid": [
     "no readable text",
@@ -20,7 +25,13 @@
     "no signature",
     "no extra fingers",
     "no distorted hands",
-    "avoid photorealistic uncanny valley"
+    "avoid photorealistic uncanny valley",
+    "no glossy skin or lips",
+    "no reflective gold or silk sheen",
+    "no photorealistic facial modelling",
+    "no cinematic beams or volumetric lighting",
+    "no realistic floor reflections",
+    "no texture overlay used as a substitute for flat mural drawing"
   ],
   "orientations": {
     "landscape": {

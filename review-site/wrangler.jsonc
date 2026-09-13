@@ -1,0 +1,15 @@
+{
+  "name": "narayaneeyam-review",
+  "main": "worker.mjs",
+  "account_id": "d9967c9f63e9aa7685c005a62a00443c",
+  "compatibility_date": "2026-09-12",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "gehariharan.com/narayaneeyam", "zone_name": "gehariharan.com" },
+    { "pattern": "gehariharan.com/narayaneeyam/*", "zone_name": "gehariharan.com" }
+  ],
+  "r2_buckets": [{ "binding": "ART", "bucket_name": "narayaneeyam" }],
+  "d1_databases": [{ "binding": "DB", "database_name": "narayaneeyam-feedback", "database_id": "c3eabf56-d31e-4b44-a6b6-eff98fc9054c", "migrations_dir": "migrations" }],
+  "ratelimits": [{ "name": "FEEDBACK_LIMIT", "namespace_id": "200201", "simple": { "limit": 10, "period": 60 } }]
+}
