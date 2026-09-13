@@ -25,10 +25,12 @@ They explicitly chose **open access, no passphrase**. Do not reintroduce a login
 - Routes: exact `gehariharan.com/narayaneeyam` plus `gehariharan.com/narayaneeyam/*`.
 - Dedicated R2 bucket: `narayaneeyam` (60 WebP review images).
 - Dedicated D1: `narayaneeyam-feedback`, ID `c3eabf56-d31e-4b44-a6b6-eff98fc9054c`.
-- Current shipped Worker version: `1d7090c6-5a55-4d51-967a-981ddc802d90`.
+- Current shipped Worker version: `66868b4b-be39-4ee4-a83e-a8d17ce05eab`.
 - Existing `gehariharan-blog` Worker, blog media bucket and database are separate.
 
-Both chapters have ten rows with three images each. Compact UI labels are
+Both chapters have ten rows with three images each. On phones (650px or narrower),
+images stack vertically at full width with no horizontal scrolling; desktop keeps
+three columns. Mobile navigation targets and feedback fields are touch-friendly. Compact UI labels are
 Reference / Traditional mural / Detailed painting. Filenames, versions,
 provenance notes and repeated explanatory text are hidden. Commentary is
 unchanged. Each row has a small feedback link opening only a textbox and Submit.
