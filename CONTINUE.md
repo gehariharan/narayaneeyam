@@ -23,9 +23,9 @@ They explicitly chose **open access, no passphrase**. Do not reintroduce a login
 - Dasakam 2: https://gehariharan.com/narayaneeyam/d002
 - Worker: `narayaneeyam-review`; account `d9967c9f63e9aa7685c005a62a00443c`.
 - Routes: exact `gehariharan.com/narayaneeyam` plus `gehariharan.com/narayaneeyam/*`.
-- Dedicated R2 bucket: `narayaneeyam` (93 WebP review images).
+- Dedicated R2 bucket: `narayaneeyam` (120 WebP review images).
 - Dedicated D1: `narayaneeyam-feedback`, ID `c3eabf56-d31e-4b44-a6b6-eff98fc9054c`.
-- Current shipped Worker version: `62cf8786-e26a-41b9-a1b4-d12de0e689ab`.
+- Current shipped Worker version: `7d701905-550d-4783-8429-98d6025c0575`.
 - Existing `gehariharan-blog` Worker, blog media bucket and database are separate.
 
 All three chapters (1, 2 and 38) have ten rows with three images each. On phones (650px or narrower),
@@ -253,3 +253,20 @@ No Cloudflare deployment was made for this incomplete batch. Once all ten rows
 are complete, apply artifacts/d096/pending-review-site.patch, build/test, upload
 D096, deploy, verify live hashes and feedback, then sync OneDrive/GitHub.
 Artwork remains unapproved; portrait companions await approved first orientations.
+
+## D096 complete comparison — current state
+
+Resumed ImageGen succeeded: all ten D096 slokas now have Traditional mural and
+Detailed painting landscape candidates. Full selection uses
+art/batches/d096-comparison-v002.json. S001–S003 traditional v003, all other
+traditional v001, all detailed v002. Original S004 trial unchanged.
+The site now uses 40 comparison rows and 120 images across D001/D002/D038/D096.
+The earlier generation-limit checkpoint above is historical.
+
+User requested palette/border consistency feedback. Read
+art/batches/series-color-border-review-v001.md and the updated series bible.
+Palette is close; D038/D096 frames differ from the full-bleed D001/D002 baseline.
+Future versioned framing correction remains a review finding, not an assertion
+that the comparison candidates are final approved art. S009 discarded coins
+rather than an empty pouch are also recorded for editorial review.
+Portrait companions and explicit approvals remain pending.

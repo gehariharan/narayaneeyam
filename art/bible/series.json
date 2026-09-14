@@ -16,7 +16,13 @@
       "artifacts/d001/s004/landscape/master.png",
       "artifacts/d001/s008/landscape/master.png"
     ],
-    "reference_roles": "D001 images anchor painting style. Approved character sheets anchor identity and iconography only; do not reproduce their glossy shading."
+    "reference_roles": "D001 images anchor painting style. Approved character sheets anchor identity and iconography only; do not reproduce their glossy shading.",
+    "frame_continuity": {
+      "target": "Full-bleed composition without a separate decorative outer border, following D001/D002 rendering references.",
+      "palette": "Earth ochre, deep maroon, warm cream, muted foliage green and established blue deity skin. Change light and local color to suit the scene without changing the series palette.",
+      "review_rule": "Compare frame treatment, border width, ornament density and palette against D001 and D002 before batch acceptance. D038/D096 framed candidates are documented exceptions, not new default style anchors.",
+      "existing_candidates": "Preserve existing files and approvals. Any framing correction requires a new ImageGen candidate; never crop the existing art to disguise the mismatch."
+    }
   },
   "global_avoid": [
     "no readable text",

@@ -78,3 +78,8 @@ pairs. A private pre-migration SQL backup is preserved under `artifacts/review-s
 D096 is a one-row S004 trial with two new style candidates and its source photo.
 The build uses explicit row selections, and live checks allow partial chapters.
 Upload just the trial derivatives with `--daskam=96`.
+
+D096 full comparison now uses `art/batches/d096-comparison-v002.json`: ten rows,
+with the original S004 trial preserved. Upload its derivatives using
+`node review-site/scripts/upload.mjs --daskam=96`. Palette/border findings are
+recorded in `art/batches/series-color-border-review-v001.md`.

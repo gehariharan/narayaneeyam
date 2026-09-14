@@ -46,7 +46,7 @@ for (const id of [1, 2]) {
 }
 for (const id of [38,96]) {
   const d=chapterSlug(id);
-  const importedSelection = JSON.parse(await fs.readFile(path.join(root, `art/batches/${d}-comparison-v001.json`)));
+  const importedSelection = JSON.parse(await fs.readFile(path.join(root, `art/batches/${d}-comparison-${id===96?"v002":"v001"}.json`)));
   const content=JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
   const plan=JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
   const chapter={id,title:`Dasakam ${id}`,description:importedSelection.description||content.description,rows:[]};

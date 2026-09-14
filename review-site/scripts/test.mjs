@@ -20,7 +20,7 @@ assert.equal((await feedback(req(good),{...env,FEEDBACK_LIMIT:{limit:async()=>({
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/api/feedback'),env)).status,405);
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/media/not-allowed.webp'),env)).status,404);
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
-console.log('Passed: compact 31-row layout, local assets, unchanged commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
+console.log('Passed: compact 40-row layout, local assets, unchanged commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
 assert.deepEqual(data.chapters.map(c=>c.id),[1,2,38,96]);
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
@@ -33,4 +33,10 @@ assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneey
 assert.equal((await feedback(req({...good,daskam:38}),env)).status,201);assert.equal(written.args[1],38);assert.equal(JSON.parse(written.args[8]).length,2);
 console.log('Passed: D038 routing, chapter navigation, generated-only D038 feedback.');
 
-assert.equal((await feedback(req({...good,daskam:96,sloka:4}),env)).status,201);assert.equal((await feedback(req({...good,daskam:96,sloka:1}),env)).status,400);
+assert.equal((await feedback(req({...good,daskam:96,sloka:4}),env)).status,201);assert.equal((await feedback(req({...good,daskam:96,sloka:11}),env)).status,400);
+
+const full96=data.chapters.find(c=>c.id===96);assert.deepEqual(full96.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const originalPilot=JSON.parse(await fs.readFile(new URL('../../art/batches/d096-comparison-v001.json',import.meta.url)));
+const provenance=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
+for(const role of ['matte','glossy']){const old=originalPilot.rows[0][role];assert.equal(provenance.find(p=>p.key===full96.rows.find(r=>r.n===4).images.find(i=>i.role===role).key).sourceHash,old.sha256);}
+console.log('Passed: all ten D096 slokas and unchanged S004 pilot image hashes.');

@@ -49,3 +49,19 @@ Generation stopped on an ImageGen usage limit (HTTP 429; reported reset in
 The v002 inventory is a work-in-progress selection; the website still uses
 the complete S004 pilot v001 selection. No incomplete image references were
 published. Portraits and approvals remain pending.
+
+## Completion after resumed generation
+
+The seven pending images completed in the resumed session. Both styles are
+now present for all ten slokas. S007–S010 faces, limb connections and framing
+were visually inspected; no obvious extra limbs or malformed faces found.
+S008 heart emblem reads as symbolism, not a wound. S010 retains the palace,
+Urvashi and king turning toward the Lord. S009 includes visible discarded
+coins rather than the planned empty pouch; this reads as relinquished wealth
+but is an editorial deviation to review, not exact fulfillment of that detail.
+
+Palette is close to D001/D002 in the traditional versions. Borders are not
+yet uniform: D096 traditional has a four-sided frame; detailed generally has
+top/bottom bands; D001/D002 sampled works are full-bleed. See
+art/batches/series-color-border-review-v001.md. These are comparison candidates,
+not final series approval. Existing S004 trial is unchanged.
