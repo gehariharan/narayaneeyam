@@ -220,3 +220,36 @@ are v001 traditional and v002 detailed; see `art/batches/d096-comparison-v001.js
 and `art/batches/d096-review-v001.md`. All ten original captions are preserved,
 but only S004 is normalized/planned. No Sanskrit or literal translation was
 invented. Nine more scenes and all portrait/approval work remain pending.
+
+## D096 remainder — generation limit checkpoint
+
+The user requested the remaining nine slokas in both comparison styles.
+Local generation completed selected Traditional mural and Detailed painting
+landscapes for S001–S006 (S004 is the unchanged original trial), plus Traditional
+mural for S007. S001–S003 Traditional selections are v003: earlier v001 images
+were too glossy and are preserved. Other selections use matte v001 / detailed v002.
+
+Seven images remain: S007 detailed v002; S008, S009, S010 matte v001 and detailed
+v002. ImageGen returned HTTP 429 usage limit with resets_in_seconds=509489
+on 2026-09-13. Do not switch to API generation.
+
+Full plan/content: art/plans/d096.json and content/daskams/d096.json.
+Candidate inventory: art/batches/d096-comparison-v002.json; missing image entries
+are marked pending-generation. Exact prepared prompts are in
+artifacts/d096/sNNN/prompts/. Outputs and metadata are under artifacts/d096/;
+comparison copies are intake/D096/outputs/d96NNN-landscape-vVVV.png.
+All are mirrored to OneDrive; image binaries remain gitignored.
+
+For remaining matte images use D001 S004 landscape/master.png as first style
+anchor, and D096 S004 landscape/candidate-v001.png as second identity anchor.
+For detailed images use the approved Guruvayurappan character sheet and D096
+S004 candidate-v002.png. Read bibles, plan and images before generating.
+Save exact request records before each call. Never overwrite candidates.
+After generation, inspect anatomy, faces, style, symbolism and unwanted text;
+run python artifacts/d096/register-full-pass.py to register available files.
+
+The public site remains the S004 trial: four chapters, 31 rows, 93 images.
+No Cloudflare deployment was made for this incomplete batch. Once all ten rows
+are complete, apply artifacts/d096/pending-review-site.patch, build/test, upload
+D096, deploy, verify live hashes and feedback, then sync OneDrive/GitHub.
+Artwork remains unapproved; portrait companions await approved first orientations.
