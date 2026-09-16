@@ -1,0 +1,56 @@
+name: Deploy review site
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: narayaneeyam-review-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: review-production
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: d9967c9f63e9aa7685c005a62a00443c
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Require Cloudflare credential
+        run: test -n "$CLOUDFLARE_API_TOKEN" || { echo 'Missing CLOUDFLARE_API_TOKEN repository or review-production environment secret.' >&2; exit 1; }
+
+      - name: Download immutable review bundle
+        run: |
+          tag="review-bundle-${GITHUB_SHA}"
+          gh release download "$tag" --pattern review-site-bundle.zip --pattern review-site-bundle.zip.sha256
+          sha256sum --check review-site-bundle.zip.sha256
+          mkdir -p artifacts/review-site
+          unzip -q review-site-bundle.zip -d artifacts/review-site
+
+      - name: Install test and deployment tools
+        run: |
+          npm ci --ignore-scripts
+          npm install --no-save --ignore-scripts wrangler@4.80.0
+          echo "$PWD/node_modules/.bin" >> "$GITHUB_PATH"
+
+      - name: Verify bundled review dataset
+        run: node review-site/scripts/test.mjs
+
+      - name: Upload manifest-listed review images
+        run: node review-site/scripts/upload.mjs
+
+      - name: Deploy review Worker
+        uses: cloudflare/wrangler-action@v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: d9967c9f63e9aa7685c005a62a00443c
+          wranglerVersion: "4.80.0"
+          command: deploy --config review-site/wrangler.jsonc
+
+      - name: Verify live matte-only pages
+        run: node review-site/scripts/verify-live-pages.mjs

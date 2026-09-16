@@ -8,6 +8,16 @@ No image generation runs in the website. No artwork is approved by publishing it
 
 ## Build and publish
 
+Production deployment may run through the manual GitHub Actions workflow
+`.github/workflows/deploy-review.yml`. It requires the repository or
+`review-production` environment secret `CLOUDFLARE_API_TOKEN`, scoped to account
+`d9967c9f63e9aa7685c005a62a00443c` with Workers Scripts, Workers Routes, and R2
+write permissions. The workflow downloads a checksum-pinned review-only release
+bundle for its exact commit, tests it, uploads only manifest-listed WebPs, deploys
+the Worker, and performs read-only live verification. Raw intake, masters,
+candidates, prompts, and feedback exports must never be included in that bundle.
+
+For local deployment:
 ```sh
 node review-site/scripts/build.mjs
 node review-site/scripts/test.mjs
