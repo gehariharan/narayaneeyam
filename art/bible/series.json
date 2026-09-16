@@ -2,7 +2,7 @@
   "schema_version": 1,
   "name": "Narayaneeyam temple-mural series",
   "style": {
-    "name": "Temple-mural devotional digital painting",
+    "name": "Traditional matte temple-mural devotional painting",
     "description": "South Indian temple mural-inspired painting: firm dark drawn contours, broad matte mineral-like colour fields, shallow decorative space, simplified cloth and hair, restrained facial modelling, earthy ochres, deep maroons and muted blue. Gold is painted ochre ornament, without metallic reflections. Apply the same painting treatment to deities, devotees and backgrounds. No text, watermark or logos.",
     "composition": {
       "aspect": "orientation-specific",
@@ -22,6 +22,30 @@
       "palette": "Earth ochre, deep maroon, warm cream, muted foliage green and established blue deity skin. Change light and local color to suit the scene without changing the series palette.",
       "review_rule": "Compare frame treatment, border width, ornament density and palette against D001 and D002 before batch acceptance. D038/D096 framed candidates are documented exceptions, not new default style anchors.",
       "existing_candidates": "Preserve existing files and approvals. Any framing correction requires a new ImageGen candidate; never crop the existing art to disguise the mismatch."
+    },
+    "production_model": {
+      "active_variant": "traditional-matte",
+      "retired_variants": [
+        "detailed-painting",
+        "glossy-mural"
+      ],
+      "rule": "Generate and publish only the traditional matte mural variant. Preserve historical detailed/glossy candidates as archive records but never use them as production anchors."
+    },
+    "palette_contract": {
+      "basis": "Measured from the selected D001/D002 rendering anchors and refined as a stable series contract.",
+      "dominant": [
+        "burnt sienna #843c0c",
+        "earth ochre #b46c0c",
+        "deep maroon #6c240c",
+        "warm cream #e4c68c",
+        "muted olive #54543c",
+        "dark brown contour #3c2418"
+      ],
+      "reserved": [
+        "deep indigo-blue is reserved for the established deity skin family",
+        "painted ochre replaces metallic gold"
+      ],
+      "review_rule": "Compare each candidate against D001 S004, D001 S008, its approved character references, and the preceding accepted scene. Reject glossy highlights, unrelated teal/purple drift, neon blue, metallic gold, or a dominant palette outside the core mineral family unless the chapter plan explicitly requires a restrained local accent."
     }
   },
   "global_avoid": [
@@ -49,5 +73,12 @@
       "role": "mobile, downloadable pages, covers, and portrait book pages"
     }
   },
-  "pairing_rule": "Every approved concept requires separately composed landscape and portrait masters. Never satisfy one orientation by cropping the other."
+  "pairing_rule": "Every approved concept requires separately composed landscape and portrait masters. Never satisfy one orientation by cropping the other.",
+  "content_policy": {
+    "review_commentary_sources": [
+      "Facebook photo captions preserved under intake/DNNN/photo-captions.txt or content/sources/dNNN/photo-captions.txt",
+      "user-supplied Google Drive commentary documents preserved under content/sources"
+    ],
+    "review_site_rule": "Show only commentary with explicit provenance to one of the vetted sources. Do not substitute Vignanam or other web commentary/translation in the review page."
+  }
 }

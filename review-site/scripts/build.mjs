@@ -20,7 +20,14 @@ async function asset(source, label) {
   provenance.push({ source, sourceHash, key });
   return key;
 }
-const detailedSelection = JSON.parse(await fs.readFile(path.join(root, 'art/batches/d001-detailed-comparison-v001.json')));
+function vettedCommentary(stanza, daskam) {
+  const source = stanza.commentary_source || '';
+  const chapter = String(daskam).padStart(3, '0');
+  const allowed = new RegExp(`^(?:intake/D${chapter}/photo-captions\\.txt|content/sources/d${chapter}/(?:photo-captions\\.txt|COMMENTRY\\.txt))#\\d+$`).test(source);
+  if (!allowed) throw new Error(`Unvetted commentary source for D${String(daskam).padStart(3, '0')} S${String(stanza.n).padStart(3, '0')}: ${source || '(missing)'}`);
+  if (!stanza.commentary_en) throw new Error(`Missing vetted commentary text for D${chapter} S${String(stanza.n).padStart(3, '0')}`);
+  return stanza.commentary_en;
+}
 const chapters = [];
 for (const id of [1, 2]) {
   const d = `d${String(id).padStart(3, '0')}`;
@@ -31,22 +38,23 @@ for (const id of [1, 2]) {
     const n = stanza.n, s = String(n).padStart(3, '0');
     const ref = `intake/D00${id}/${s}.jpg`;
     const matteV = [1, 6, 9].includes(n) ? 3 : 2;
-    const glossyV = [1, 6, 9].includes(n) ? 2 : 1;
     const matte = id === 1 ? `artifacts/d001/s${s}/landscape/master.png` : `artifacts/d002/s${s}/landscape/candidate-v00${matteV}.png`;
-    const glossy = id === 2 ? `artifacts/d002/s${s}/landscape/candidate-v00${glossyV}.png` : detailedSelection.candidates.find(c => c.n === n).file;
     const images = [
       { role: 'reference', label: 'Original reference', version: `${s}.jpg`, key: await asset(ref, `${d}-s${s}-reference`) },
-      { role: 'matte', label: id === 1 ? 'Recovered mural' : 'Matte mural', version: id === 1 ? 'approved legacy' : `v00${matteV}`, key: await asset(matte, `${d}-s${s}-matte`) },
-      { role: 'glossy', label: 'Glossy mural', version: id === 2 ? `v00${glossyV}` : detailedSelection.candidates.find(c => c.n === n).version, key: glossy ? await asset(glossy, `${d}-s${s}-glossy`) : null }
+      { role: 'matte', label: 'Traditional matte mural', version: id === 1 ? 'approved legacy' : `v00${matteV}`, key: await asset(matte, `${d}-s${s}-matte`) }
     ];
-    chapter.rows.push({ n, title: plan.stanzas.find(x => x.n === n)?.alt || `Sloka ${s}`, commentary: stanza.commentary_en || stanza.meaning_en || '', commentarySource: stanza.commentary_source || '', translation: stanza.translation_en || '', translationSource: stanza.translation_source || '', editorialStatus: stanza.review_status || 'needs-review', images });
+    chapter.rows.push({ n, title: plan.stanzas.find(x => x.n === n)?.alt || `Sloka ${s}`, commentary: vettedCommentary(stanza, id), commentarySource: stanza.commentary_source, editorialStatus: stanza.review_status || 'needs-review', images });
   }
   chapter.representative = chapter.rows[0].images[1].key;
   chapters.push(chapter);
 }
-for (const id of [38,96]) {
+for (const { id, selectionFile } of [
+  { id: 3, selectionFile: 'd003-traditional-v001.json' },
+  { id: 38, selectionFile: 'd038-comparison-v002.json' },
+  { id: 96, selectionFile: 'd096-comparison-v003.json' }
+]) {
   const d=chapterSlug(id);
-  const importedSelection = JSON.parse(await fs.readFile(path.join(root, `art/batches/${d}-comparison-${id===96?"v002":"v001"}.json`)));
+  const importedSelection = JSON.parse(await fs.readFile(path.join(root, `art/batches/${selectionFile}`)));
   const content=JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
   const plan=JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
   const chapter={id,title:`Dasakam ${id}`,description:importedSelection.description||content.description,rows:[]};
@@ -55,11 +63,11 @@ for (const id of [38,96]) {
     const selected=importedSelection.rows.find(r=>r.n===n);
     if(!selected)throw new Error(`Missing ${d} selection ${n}`);
     const images=[];
-    for(const role of ['reference','matte','glossy']){
+    for(const role of ['reference','matte']){
       const item=selected[role];
       images.push({role,label:role,version:item.version,key:await asset(item.file,`${d}-s${s}-${role}`)});
     }
-    chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:stanza.commentary_en||stanza.meaning_en||'',commentarySource:stanza.commentary_source||'',translation:stanza.translation_en||'',translationSource:stanza.translation_source||'',editorialStatus:stanza.review_status||'needs-review',images});
+    chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,editorialStatus:stanza.review_status||'needs-review',images});
   }
   chapter.representative=(chapter.rows[2]||chapter.rows[0]).images[1].key;
   chapters.push(chapter);

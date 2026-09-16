@@ -20,14 +20,16 @@ wrangler deploy --config review-site/wrangler.jsonc
 
 Build creates a standalone index and chapter HTML reviews under `artifacts/review-site/`
 and WebP derivatives from an explicit list of local images. Originals remain
-unchanged. Each chapter compares source references with traditional murals and
-detailed painting candidates; the build manifest records the exact versions.
-Commentary is copied verbatim from the content JSON. The compact pages label the
-columns Reference, Traditional mural and Detailed painting, with no filenames or
-editorial metadata shown. A small Leave feedback link opens a text box and Submit
-button below each image row.
+unchanged. Each chapter compares a source reference with one traditional matte mural
+candidate; the build manifest records the exact versions. Detailed/glossy
+candidates are retained only as historical files and are not published. Commentary
+is copied verbatim from content JSON only when its source is an allowlisted Facebook
+photo-caption file or a user-supplied Google Drive commentary file. The pages label
+the columns Reference and Traditional matte mural, with no filenames or editorial
+metadata shown. A small Leave feedback link opens a text box and Submit button below
+each image row.
 
-Only the two `/narayaneeyam` routes are attached. The existing blog Worker and
+Only the `/narayaneeyam` route family is attached. The existing blog Worker and
 its media bucket and database are not modified. R2 remains private; the review
 Worker serves only image keys explicitly present in its bundled data manifest.
 It does not expose raw intake folders, provenance files or generated masters.
@@ -58,14 +60,23 @@ wrangler d1 export narayaneeyam-feedback --remote --config review-site/wrangler.
 To withdraw the review site, remove only its two Worker routes or deploy a
 maintenance response. Do not delete the R2 bucket or feedback database.
 
+## Dasakam 3
+
+D003 contains exactly ten cleaned Facebook photo-caption rows and ten new
+traditional matte, full-bleed landscape candidates. Exact selected versions and
+checksums are in `art/batches/d003-traditional-v001.json`. All remain
+`needs-review`; publishing does not approve them, and no portrait companions were
+created.
+
 ## Dasakam 38
 
-D038 is imported from Jarvis with its original sourced content, plans, references
-and selected detailed candidates. The traditional variants were generated in
-Codex and visually reviewed with D001 rendering anchors. Exact versions and
-checksums are in `art/batches/d038-comparison-v001.json`; findings are in
-`art/batches/d038-review-v001.md`. These remain candidates. The comparison has
-ten rows, three images per row, and the same mobile stack and feedback form.
+D038 is imported from Jarvis with its original sourced content, plans, and
+references. The traditional matte style was independently recomposed as borderless
+landscapes for all ten slokas and visually reviewed. Exact selected versions and
+checksums are in `art/batches/d038-comparison-v002.json`; findings are in
+`art/batches/d038-review-v002.md`. These remain candidates. The comparison has
+ten rows, two images per row, and the same mobile stack and feedback form.
+
 
 `node review-site/scripts/upload.mjs --daskam=38` uploads only D038 derivatives.
 Chapter links and Worker routing use three-digit slugs (`d038`, not `d0038`).
@@ -75,11 +86,10 @@ preserves existing rows and replaces the original D001/D002-only database
 constraint. The Worker still accepts feedback only for bundled chapter/sloka
 pairs. A private pre-migration SQL backup is preserved under `artifacts/review-site/`.
 
-D096 is a one-row S004 trial with two new style candidates and its source photo.
-The build uses explicit row selections, and live checks allow partial chapters.
-Upload just the trial derivatives with `--daskam=96`.
+D096 matte review now uses `art/batches/d096-comparison-v003.json`: the
+traditional style was independently recomposed as borderless landscapes for all ten rows.
+The selected candidates are documented in `art/batches/d096-review-v003.md`.
+Upload its derivatives using
 
-D096 full comparison now uses `art/batches/d096-comparison-v002.json`: ten rows,
-with the original S004 trial preserved. Upload its derivatives using
 `node review-site/scripts/upload.mjs --daskam=96`. Palette/border findings are
 recorded in `art/batches/series-color-border-review-v001.md`.

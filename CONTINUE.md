@@ -4,6 +4,24 @@ Read this first, then `AGENTS.md`, `STUDIO.md`, and `review-site/README.md`.
 This handoff covers work completed on 2026-09-13. Do not regenerate completed
 artwork or recreate Cloudflare resources just because a new checkout lacks assets.
 
+## 2026-09-15 current direction (supersedes historical comparison notes below)
+
+- Publish only Reference + Traditional matte mural. Detailed/glossy candidates are
+  preserved as history but removed from active production and review.
+- Review commentary must come only from vetted Facebook photo captions or supplied
+  Google Drive documents. The build rejects any row without an allowlisted source.
+- D001, D002, D038, and D096 use matte-only two-column review rows. D003 adds ten
+  new matte, full-bleed landscape candidates and remains `needs-review`.
+- D003 uses exactly ten cleaned images/captions. D004 is hydrated locally with only
+  images 001-010 plus provenance; live OneDrive still contains stale 011-015, which
+  must not be imported or generated.
+- No D003 approval manifest exists, no portrait companions were made, and no user
+  approval was inferred.
+- Local build/test passes with five chapters, 50 rows, and 100 review images. Public
+  deployment still needs the isolated Cloudflare account login; never use the global
+  Xaurum account for this Worker.
+
+Everything below is historical context where it conflicts with this section.
 ## Current user intent
 
 The user is reviewing Narayaneeyam artwork and commentary before producing the
@@ -270,3 +288,19 @@ Future versioned framing correction remains a review finding, not an assertion
 that the comparison candidates are final approved art. S009 discarded coins
 rather than an empty pouch are also recorded for editorial review.
 Portrait companions and explicit approvals remain pending.
+
+## D038 and D096 borderless landscape correction
+
+The user requested a complete borderless correction pass for both comparison
+styles across all ten slokas in D038 and D096. Forty independently composed
+landscape candidates were generated and visually inspected. Intermediate and
+rejected revisions remain preserved under `artifacts/`; no portrait was created
+and no approval manifest was changed.
+
+The authoritative selections and SHA-256 checksums are
+`art/batches/d038-comparison-v002.json` and
+`art/batches/d096-comparison-v003.json`. Review notes are
+`art/batches/d038-review-v002.md` and `art/batches/d096-review-v003.md`.
+The review-site build now consumes these manifests. D096 S009 was specifically
+regenerated until both selected candidates showed an empty open pouch and large
+broken-pot shards with no coins or coin-like objects.

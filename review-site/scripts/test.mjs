@@ -5,8 +5,8 @@ import { renderChapter, renderIndex, chapterSlug } from '../views.mjs';
 const data=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/data.json',import.meta.url)));
 const source=(await fs.readFile(new URL('../worker.mjs',import.meta.url),'utf8')).replace("import data from '../artifacts/review-site/data.json';",`const data=${JSON.stringify(data)};`).replace("from './views.mjs'",`from '${new URL('../views.mjs',import.meta.url).href}'`);
 const {feedback,default:worker}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
-for(const c of data.chapters){const html=renderChapter(c,data.revision);assert.equal((html.match(/class="sloka"/g)||[]).length,c.rows.length);assert.equal((html.match(/<figure>/g)||[]).length,c.rows.length*3);assert.equal((html.match(/data-feedback action/g)||[]).length,c.rows.length);assert.equal((html.match(/class="commentary"/g)||[]).length,c.rows.length);assert.ok(!html.includes('<select'));assert.ok(!html.includes('Editorial review pending'));assert.ok(!html.includes('<footer'));assert.ok(!html.includes('name="name"'));assert.ok(html.includes('Traditional mural'));assert.ok(html.includes('Detailed painting'));assert.ok(!html.includes('<small>'));for(const r of c.rows)assert.ok(html.includes(r.commentary.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')));for(const r of c.rows)for(const i of r.images)if(i.key)await fs.access(new URL('../../artifacts/review-site/'+i.key,import.meta.url));}
-assert.equal(data.chapters[1].rows.flatMap(r=>r.images).filter(i=>i.key).length,30);
+for(const c of data.chapters){const html=renderChapter(c,data.revision);assert.equal((html.match(/class="sloka"/g)||[]).length,c.rows.length);assert.equal((html.match(/<figure>/g)||[]).length,c.rows.length*2);assert.equal((html.match(/data-feedback action/g)||[]).length,c.rows.length);assert.equal((html.match(/class="commentary"/g)||[]).length,c.rows.length);assert.ok(!html.includes('<select'));assert.ok(!html.includes('Editorial review pending'));assert.ok(!html.includes('<footer'));assert.ok(!html.includes('name="name"'));assert.ok(html.includes('Traditional matte mural'));assert.ok(!html.includes('Detailed painting'));assert.ok(!html.includes('Glossy mural'));assert.ok(!html.includes('<small>'));for(const r of c.rows)assert.ok(html.includes(r.commentary.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')));for(const r of c.rows)for(const i of r.images)if(i.key)await fs.access(new URL('../../artifacts/review-site/'+i.key,import.meta.url));}
+assert.equal(data.chapters[1].rows.flatMap(r=>r.images).filter(i=>i.key).length,20);
 let written;const env={FEEDBACK_LIMIT:{limit:async()=>({success:true})},DB:{prepare:sql=>({bind:(...args)=>({run:async()=>{written={sql,args}}})})}};
 const good={daskam:2,sloka:1,message:'Check the hand.',revision:data.revision,website:''};
 const req=(body,origin='https://gehariharan.com')=>new Request('https://gehariharan.com/narayaneeyam/api/feedback',{method:'POST',headers:{'content-type':'application/json',origin},body:JSON.stringify(body)});
@@ -20,23 +20,29 @@ assert.equal((await feedback(req(good),{...env,FEEDBACK_LIMIT:{limit:async()=>({
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/api/feedback'),env)).status,405);
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/media/not-allowed.webp'),env)).status,404);
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
-console.log('Passed: compact 40-row layout, local assets, unchanged commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
+console.log('Passed: compact 50-row two-column layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,38,96]);
-const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,38,96]);
+const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
  assert.equal(response.status,200);const html=await response.text();
  for(const next of data.chapters)assert.ok(html.includes('/narayaneeyam/'+chapterSlug(next.id)));
 }
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/d0038'),env)).status,404);
-assert.equal((await feedback(req({...good,daskam:38}),env)).status,201);assert.equal(written.args[1],38);assert.equal(JSON.parse(written.args[8]).length,2);
+assert.equal((await feedback(req({...good,daskam:38}),env)).status,201);assert.equal(written.args[1],38);assert.equal(JSON.parse(written.args[8]).length,1);
 console.log('Passed: D038 routing, chapter navigation, generated-only D038 feedback.');
 
 assert.equal((await feedback(req({...good,daskam:96,sloka:4}),env)).status,201);assert.equal((await feedback(req({...good,daskam:96,sloka:11}),env)).status,400);
 
 const full96=data.chapters.find(c=>c.id===96);assert.deepEqual(full96.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
-const originalPilot=JSON.parse(await fs.readFile(new URL('../../art/batches/d096-comparison-v001.json',import.meta.url)));
 const provenance=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
-for(const role of ['matte','glossy']){const old=originalPilot.rows[0][role];assert.equal(provenance.find(p=>p.key===full96.rows.find(r=>r.n===4).images.find(i=>i.role===role).key).sourceHash,old.sha256);}
-console.log('Passed: all ten D096 slokas and unchanged S004 pilot image hashes.');
+const borderless96=JSON.parse(await fs.readFile(new URL('../../art/batches/d096-comparison-v003.json',import.meta.url)));
+for(const row of full96.rows)for(const role of ['matte']){const selected=borderless96.rows.find(r=>r.n===row.n)[role];assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected.sha256);}
+console.log('Passed: all ten D096 slokas use the selected borderless candidate hashes.');
+
+const full3=data.chapters.find(c=>c.id===3);assert.deepEqual(full3.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const selected3=JSON.parse(await fs.readFile(new URL('../../art/batches/d003-traditional-v001.json',import.meta.url)));
+for(const row of full3.rows){assert.equal(row.images.length,2);assert.equal(row.commentarySource,`content/sources/d003/photo-captions.txt#${String(row.n).padStart(3,'0')}`);const selected=selected3.rows.find(r=>r.n===row.n);for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);}
+assert.equal((await feedback(req({...good,daskam:3,sloka:10}),env)).status,201);
+console.log('Passed: D003 contains exactly ten vetted-caption rows and selected reference/matte hashes.');

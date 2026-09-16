@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "daskam_id": 3,
+  "status": "needs-human-verification",
+  "sources": [
+    {
+      "role": "commentary",
+      "path": "content/sources/d003/photo-captions.txt",
+      "sha256": "64b2fc5351da3254020ab180f0a6dd7d69aaf4e3c04de69ed1616a6511f311e1",
+      "note": "Copied verbatim from the cleaned Facebook intake. Only entries 001 through 010 are canonical sloka commentary."
+    },
+    {
+      "role": "source-post",
+      "path": "intake/D003/post.json",
+      "note": "Facebook export metadata retained with original media ordering and checksums."
+    },
+    {
+      "role": "supplementary-google-drive",
+      "urls": [
+        "https://drive.google.com/file/d/1nmKYlFXWEfAc5FYP-jcvvGKsf68qTF1H/view",
+        "https://drive.google.com/file/d/18d6ZaRFnK6AejRQLxs1W0tsE9hMSmxu1/view"
+      ],
+      "note": "Links supplied in the Facebook post caption. Not yet imported as canonical Sanskrit or translation."
+    }
+  ]
+}
