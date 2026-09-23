@@ -41,6 +41,7 @@ for (const fileName of files) {
   const planPath = path.join(root, 'art', 'plans', `${slug}.json`);
   const approvalPath = path.join(root, 'art', 'approved', `${slug}.json`);
   const provenancePath = path.join(root, 'content', 'sources', slug, 'provenance.json');
+  const referenceInventoryPath = path.join(root, 'art', 'references', `${slug}.json`);
 
   if (!Number.isInteger(content.id) || !Array.isArray(content.stanzas)) {
     errors.push(`${fileName}: requires numeric id and stanzas array`);
@@ -53,6 +54,22 @@ for (const fileName of files) {
   try { plan = await readJson(planPath); } catch { errors.push(`${slug}: missing or invalid art plan`); }
   try { approval = await readJson(approvalPath); } catch { errors.push(`${slug}: missing or invalid approval manifest`); }
   if (!plan || !approval) continue;
+
+  if (await exists(referenceInventoryPath)) {
+    try {
+      const inventory = await readJson(referenceInventoryPath);
+      for (const reference of inventory.images ?? []) {
+        const referenceLabel = `${label(content.id, reference.stanza)} reference`;
+        const referencePath = path.resolve(root, reference.path);
+        if (!(await exists(referencePath))) { errors.push(`${referenceLabel}: missing ${reference.path}`); continue; }
+        if (reference.sha256 && await sha256(referencePath) !== reference.sha256) errors.push(`${referenceLabel}: SHA-256 does not match`);
+        const meta = await sharp(referencePath).metadata();
+        if (meta.width !== reference.width || meta.height !== reference.height) errors.push(`${referenceLabel}: dimensions differ from inventory`);
+      }
+    } catch (error) {
+      errors.push(`${slug}: invalid reference inventory (${error.message})`);
+    }
+  }
 
   const planByStanza = new Map(plan.stanzas?.map((item) => [item.n, item]) ?? []);
   const approvalByStanza = new Map(approval.stanzas?.map((item) => [item.n, item]) ?? []);
@@ -74,6 +91,13 @@ for (const fileName of files) {
     if (!visual.scene_brief?.must_show?.length) errors.push(`${itemLabel}: scene brief has no must_show requirements`);
     if (visual.scene_brief?.must_show?.some((item) => /matching the (sloka|stanza) meaning/i.test(item))) {
       warnings.push(`${itemLabel}: scene brief is still generic`);
+    }
+    for (const character of visual.characters ?? []) {
+      const bible = path.join(root, 'art', 'bible', 'characters', character, 'character.json');
+      if (!(await exists(bible))) errors.push(`${itemLabel}: character bible is missing for ${character}`);
+    }
+    for (const reference of visual.reference_paths ?? []) {
+      if (!(await exists(path.resolve(root, reference)))) errors.push(`${itemLabel}: reference image is missing at ${reference}`);
     }
 
     for (const [orientation, expectedRatio] of [['landscape', 16 / 9], ['portrait', 4 / 5]]) {
