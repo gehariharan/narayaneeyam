@@ -9,7 +9,7 @@ const root = path.resolve(import.meta.dirname, '../..');
 const source = path.join(root, 'artifacts/review-site');
 const { stdout: head } = await run('git', ['rev-parse', 'HEAD'], { cwd: root });
 const commit = head.trim();
-const { stdout: status } = await run('git', ['status', '--porcelain'], { cwd: root });
+const { stdout: status } = await run('git', ['status', '--porcelain', '--untracked-files=no'], { cwd: root });
 if (status.trim()) throw new Error('Commit the review source before packaging its exact GitHub Actions revision.');
 
 const data = JSON.parse(await fs.readFile(path.join(source, 'data.json'), 'utf8'));

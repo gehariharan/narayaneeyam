@@ -58,7 +58,7 @@ for (const { id, selectionFile } of [
   const importedSelection = JSON.parse(await fs.readFile(path.join(root, `art/batches/${selectionFile}`)));
   const content=JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
   const plan=JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
-  const chapter={id,title:`Dasakam ${id}`,description:importedSelection.description||content.description,rows:[]};
+  const chapter={id,title:`Dasakam ${id}`,description:content.description||importedSelection.description||'',rows:[]};
   for(const stanza of content.stanzas.filter(s=>importedSelection.rows.some(r=>r.n===s.n))){
     const n=stanza.n,s=String(n).padStart(3,'0');
     const selected=importedSelection.rows.find(r=>r.n===n);
