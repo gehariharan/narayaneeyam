@@ -11,8 +11,10 @@ No image generation runs in the website. No artwork is approved by publishing it
 Production deployment may run through the manual GitHub Actions workflow
 `.github/workflows/deploy-review.yml`. It requires the repository or
 `review-production` environment secret `CLOUDFLARE_API_TOKEN`, scoped to account
-`d9967c9f63e9aa7685c005a62a00443c` with Workers Scripts and Workers Routes
-write permissions. Upload the manifest-listed WebPs to R2 locally with Wrangler
+`d9967c9f63e9aa7685c005a62a00443c` with Editor access to the existing
+`narayaneeyam-review` Worker. Its routes are already attached; Actions uploads
+and deploys a Worker version without changing those routes. Upload the
+manifest-listed WebPs to R2 locally with Wrangler
 before dispatching the workflow. Actions downloads a checksum-pinned review-only
 release bundle for its exact commit, checks it, deploys only the Worker, and performs
 read-only live verification. Raw intake, masters,
@@ -30,8 +32,10 @@ wrangler deploy --config review-site/wrangler.jsonc
 ```
 
 The local upload can use an R2-only token. The separate GitHub Actions secret
-`CLOUDFLARE_API_TOKEN` belongs in the `review-production` environment and must
-have Worker deployment permissions. The personal blog repository is a separate
+`CLOUDFLARE_API_TOKEN` belongs in the `review-production` environment and needs
+Editor access to the existing Worker. Changing the route configuration later
+also requires Zone > Workers Routes > Write for `gehariharan.com`. The personal
+blog repository is a separate
 Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, commit and push the review source, build the

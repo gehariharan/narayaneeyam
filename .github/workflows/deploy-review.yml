@@ -35,19 +35,17 @@ jobs:
       - name: Install test and deployment tools
         run: |
           npm ci --ignore-scripts
-          npm install --no-save --ignore-scripts wrangler@4.80.0
+          npm install --no-save --ignore-scripts wrangler@4.136.3
           echo "$PWD/node_modules/.bin" >> "$GITHUB_PATH"
 
       - name: Verify bundled review dataset
         run: node review-site/scripts/test.mjs
 
-      - name: Deploy review Worker
-        uses: cloudflare/wrangler-action@v4
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: d9967c9f63e9aa7685c005a62a00443c
-          wranglerVersion: "4.80.0"
-          command: deploy --config review-site/wrangler.jsonc
+      - name: Upload review Worker version
+        run: npx wrangler versions upload --config review-site/wrangler.jsonc --tag "review-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+
+      - name: Deploy review Worker version on existing routes
+        run: npx wrangler versions deploy --config review-site/wrangler.jsonc --version-tag "review-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" --yes
 
       - name: Verify live matte-only pages
         run: node review-site/scripts/verify-live-pages.mjs
