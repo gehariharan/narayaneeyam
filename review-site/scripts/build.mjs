@@ -50,6 +50,7 @@ for (const id of [1, 2]) {
 }
 for (const { id, selectionFile } of [
   { id: 3, selectionFile: 'd003-traditional-v001.json' },
+  { id: 4, selectionFile: 'd004-comparison-v001.json' },
   { id: 38, selectionFile: 'd038-comparison-v002.json' },
   { id: 96, selectionFile: 'd096-comparison-v003.json' }
 ]) {
@@ -65,6 +66,8 @@ for (const { id, selectionFile } of [
     const images=[];
     for(const role of ['reference','matte']){
       const item=selected[role];
+      const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
+      if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} ${role}`);
       images.push({role,label:role,version:item.version,key:await asset(item.file,`${d}-s${s}-${role}`)});
     }
     chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,editorialStatus:stanza.review_status||'needs-review',images});

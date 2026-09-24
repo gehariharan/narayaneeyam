@@ -41,9 +41,6 @@ jobs:
       - name: Verify bundled review dataset
         run: node review-site/scripts/test.mjs
 
-      - name: Upload manifest-listed review images
-        run: node review-site/scripts/upload.mjs
-
       - name: Deploy review Worker
         uses: cloudflare/wrangler-action@v4
         with:

@@ -20,9 +20,9 @@ assert.equal((await feedback(req(good),{...env,FEEDBACK_LIMIT:{limit:async()=>({
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/api/feedback'),env)).status,405);
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/media/not-allowed.webp'),env)).status,404);
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
-console.log('Passed: compact 50-row two-column layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
+console.log('Passed: compact 65-row two-column layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,38,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,38,96]);
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);

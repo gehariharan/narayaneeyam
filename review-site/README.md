@@ -11,10 +11,11 @@ No image generation runs in the website. No artwork is approved by publishing it
 Production deployment may run through the manual GitHub Actions workflow
 `.github/workflows/deploy-review.yml`. It requires the repository or
 `review-production` environment secret `CLOUDFLARE_API_TOKEN`, scoped to account
-`d9967c9f63e9aa7685c005a62a00443c` with Workers Scripts, Workers Routes, and R2
-write permissions. The workflow downloads a checksum-pinned review-only release
-bundle for its exact commit, tests it, uploads only manifest-listed WebPs, deploys
-the Worker, and performs read-only live verification. Raw intake, masters,
+`d9967c9f63e9aa7685c005a62a00443c` with Workers Scripts and Workers Routes
+write permissions. Upload the manifest-listed WebPs to R2 locally with Wrangler
+before dispatching the workflow. Actions downloads a checksum-pinned review-only
+release bundle for its exact commit, checks it, deploys only the Worker, and performs
+read-only live verification. Raw intake, masters,
 candidates, prompts, and feedback exports must never be included in that bundle.
 
 For local deployment:
@@ -27,6 +28,31 @@ wrangler d1 migrations apply narayaneeyam-feedback --remote --config review-site
 wrangler deploy --dry-run --config review-site/wrangler.jsonc
 wrangler deploy --config review-site/wrangler.jsonc
 ```
+
+The local upload can use an R2-only token. The separate GitHub Actions secret
+`CLOUDFLARE_API_TOKEN` belongs in the `review-production` environment and must
+have Worker deployment permissions. The personal blog repository is a separate
+Worker and is not part of this deployment path.
+
+For a GitHub Actions deployment, commit and push the review source, build the
+review bundle locally, and upload its media to R2 first. Then package and release
+the exact commit before dispatching the workflow:
+
+```sh
+node review-site/scripts/build.mjs
+node review-site/scripts/upload.mjs
+node review-site/scripts/package-release.mjs
+sha=$(git rev-parse HEAD)
+gh release create "review-bundle-$sha" \
+  "artifacts/review-releases/$sha/review-site-bundle.zip" \
+  "artifacts/review-releases/$sha/review-site-bundle.zip.sha256" \
+  --target "$sha" --title "Review bundle $sha"
+gh workflow run deploy-review.yml --ref "review-bundle-$sha"
+```
+
+The release bundle contains only rendered review HTML, the review data and
+provenance manifests, and WebP derivatives. The Worker deployment uses a separate
+GitHub environment secret; GitHub Actions does not upload to R2.
 
 Build creates a standalone index and chapter HTML reviews under `artifacts/review-site/`
 and WebP derivatives from an explicit list of local images. Originals remain
@@ -77,6 +103,16 @@ traditional matte, full-bleed landscape candidates. Exact selected versions and
 checksums are in `art/batches/d003-traditional-v001.json`. All remain
 `needs-review`; publishing does not approve them, and no portrait companions were
 created.
+
+## Dasakam 4
+
+D004 has 15 rows. Commentary is copied verbatim from
+`intake/D004/photo-captions.txt`; `content/daskams/d004.json` stores the same text
+with a source pointer for each row. The chosen landscape candidates and source
+checksums are pinned in `art/batches/d004-comparison-v001.json`. All remain
+`needs-review`, and portraits are paused. For a local deployment, upload only
+its new WebP derivatives with `node review-site/scripts/upload.mjs --daskam=4`
+before deploying the Worker.
 
 ## Dasakam 38
 
