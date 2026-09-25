@@ -41,6 +41,9 @@ jobs:
       - name: Verify bundled review dataset
         run: node review-site/scripts/test.mjs
 
+      - name: Upload D001 review images to R2
+        run: node review-site/scripts/upload.mjs --daskam=1
+
       - name: Upload review Worker version
         run: npx wrangler versions upload --config review-site/wrangler.jsonc --tag "review-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
 

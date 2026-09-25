@@ -11,14 +11,14 @@ No image generation runs in the website. No artwork is approved by publishing it
 Production deployment may run through the manual GitHub Actions workflow
 `.github/workflows/deploy-review.yml`. It requires the repository or
 `review-production` environment secret `CLOUDFLARE_API_TOKEN`, scoped to account
-`d9967c9f63e9aa7685c005a62a00443c` with Editor access to the existing
-`narayaneeyam-review` Worker. Its routes are already attached; Actions uploads
-and deploys a Worker version without changing those routes. Upload the
-manifest-listed WebPs to R2 locally with Wrangler
-before dispatching the workflow. Actions downloads a checksum-pinned review-only
-release bundle for its exact commit, checks it, deploys only the Worker, and performs
-read-only live verification. Raw intake, masters,
-candidates, prompts, and feedback exports must never be included in that bundle.
+`d9967c9f63e9aa7685c005a62a00443c` with access to write objects in the
+`narayaneeyam` R2 bucket and Editor access to the existing `narayaneeyam-review`
+Worker. Its routes are already attached; Actions uploads review WebPs to R2 and
+deploys a Worker version without changing those routes. For the D001 regeneration,
+the workflow uploads the D001 image selection from the checksum-pinned review-only
+release bundle before deploying the Worker. Actions performs read-only live
+verification after deployment. Raw intake, masters, candidates, prompts, and
+feedback exports must never be included in that bundle.
 
 For local deployment:
 ```sh
@@ -99,6 +99,16 @@ wrangler d1 export narayaneeyam-feedback --remote --config review-site/wrangler.
 
 To withdraw the review site, remove only its two Worker routes or deploy a
 maintenance response. Do not delete the R2 bucket or feedback database.
+
+## Dasakam 1
+
+D001 landscape regeneration is staged as a ten-row review set in
+`art/batches/d001-comparison-v001.json`. It uses new, versioned candidate
+masters and their source references; the existing `approved-legacy` masters and
+`art/approved/d001.json` remain unchanged. The candidates remain `needs-review`
+and are shown on the public review page without approval. The batch manifest can
+be repointed to the preserved legacy masters for a later rollback; content-addressed
+R2 objects are not deleted. Portraits remain paused.
 
 ## Dasakam 3
 

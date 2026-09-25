@@ -29,7 +29,7 @@ function vettedCommentary(stanza, daskam) {
   return stanza.commentary_en;
 }
 const chapters = [];
-for (const id of [1, 2]) {
+for (const id of [2]) {
   const d = `d${String(id).padStart(3, '0')}`;
   const content = JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
   const plan = JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
@@ -49,6 +49,7 @@ for (const id of [1, 2]) {
   chapters.push(chapter);
 }
 for (const { id, selectionFile } of [
+  { id: 1, selectionFile: 'd001-comparison-v001.json' },
   { id: 3, selectionFile: 'd003-traditional-v001.json' },
   { id: 4, selectionFile: 'd004-comparison-v001.json' },
   { id: 38, selectionFile: 'd038-comparison-v002.json' },
@@ -75,6 +76,7 @@ for (const { id, selectionFile } of [
   chapter.representative=(chapter.rows[2]||chapter.rows[0]).images[1].key;
   chapters.push(chapter);
 }
+chapters.sort((a, b) => a.id - b.id);
 const dataset = { revision: crypto.createHash('sha256').update(JSON.stringify(chapters)).digest('hex').slice(0, 16), chapters, assets };
 await fs.writeFile(path.join(dest, 'data.json'), JSON.stringify(dataset));
 await fs.writeFile(path.join(dest, 'asset-provenance.json'), JSON.stringify(provenance, null, 2));
