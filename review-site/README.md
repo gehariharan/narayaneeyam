@@ -128,6 +128,16 @@ checksums are pinned in `art/batches/d004-comparison-v001.json`. All remain
 its new WebP derivatives with `node review-site/scripts/upload.mjs --daskam=4`
 before deploying the Worker.
 
+## Dasakam 5
+
+D005 has ten landscape review rows and thirteen candidate images. The comparison
+is pinned in `art/batches/d005-comparison-v001.json`; S001, S007, and S010 show
+both their v001 and v002 candidates. All generated art remains `needs-review`.
+The page explicitly marks the D005 Sanskrit transcription for source review and
+notes that romanization and English translation are not yet available. Upload its
+WebP derivatives with `node review-site/scripts/upload.mjs --daskam=5` before
+deploying the Worker.
+
 ## Dasakam 38
 
 D038 is imported from Jarvis with its original sourced content, plans, and

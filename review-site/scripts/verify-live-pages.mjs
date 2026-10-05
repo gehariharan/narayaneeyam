@@ -15,14 +15,15 @@ async function fetchText(path) {
 }
 
 const index = await fetchText('/');
-for (const id of ['d001', 'd002', 'd003', 'd004', 'd038', 'd096']) assert.ok(index.includes(`/narayaneeyam/${id}`));
+for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd038', 'd096']) assert.ok(index.includes(`/narayaneeyam/${id}`));
 
-for (const id of ['d001', 'd002', 'd003', 'd004', 'd038', 'd096']) {
+for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd038', 'd096']) {
   const html = await fetchText(`/${id}`);
-  assert.ok(html.includes('Traditional matte mural'));
+  assert.ok(html.includes('Traditional matte mural') || id === 'd005' && html.includes('Landscape candidate v002'));
   assert.ok(!html.includes('Detailed painting'));
   assert.ok(!html.includes('Glossy mural'));
-  assert.equal((html.match(/<figure>/g) || []).length, id === 'd004' ? 30 : 20);
+  assert.equal((html.match(/<figure>/g) || []).length, id === 'd004' ? 30 : id === 'd005' ? 23 : 20);
+  if (id === 'd005') assert.ok(html.includes('transliteration and English translation are not yet available'));
 }
 
-console.log('Verified live: six chapters including fifteen D004 rows, Reference + Traditional matte mural only.');
+console.log('Verified live: seven chapters including D005 ten-row, thirteen-candidate review and D004 fifteen-row comparison.');

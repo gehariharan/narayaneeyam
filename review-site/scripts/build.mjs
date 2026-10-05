@@ -52,6 +52,7 @@ for (const { id, selectionFile } of [
   { id: 1, selectionFile: 'd001-comparison-v001.json' },
   { id: 3, selectionFile: 'd003-traditional-v001.json' },
   { id: 4, selectionFile: 'd004-comparison-v001.json' },
+  { id: 5, selectionFile: 'd005-comparison-v001.json' },
   { id: 38, selectionFile: 'd038-comparison-v002.json' },
   { id: 96, selectionFile: 'd096-comparison-v003.json' }
 ]) {
@@ -59,7 +60,7 @@ for (const { id, selectionFile } of [
   const importedSelection = JSON.parse(await fs.readFile(path.join(root, `art/batches/${selectionFile}`)));
   const content=JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
   const plan=JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
-  const chapter={id,title:`Dasakam ${id}`,description:content.description||importedSelection.description||'',rows:[]};
+  const chapter={id,title:`Dasakam ${id}`,description:content.description||importedSelection.description||'',reviewNotice:importedSelection.review_notice||'',rows:[]};
   for(const stanza of content.stanzas.filter(s=>importedSelection.rows.some(r=>r.n===s.n))){
     const n=stanza.n,s=String(n).padStart(3,'0');
     const selected=importedSelection.rows.find(r=>r.n===n);
@@ -69,7 +70,13 @@ for (const { id, selectionFile } of [
       const item=selected[role];
       const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
       if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} ${role}`);
-      images.push({role,label:role,version:item.version,key:await asset(item.file,`${d}-s${s}-${role}`)});
+      const mediaLabel=id===5?`${d}-s${s}-${role}-${item.version||'selected'}`:`${d}-s${s}-${role}`;
+      images.push({role,label:role,displayLabel:item.displayLabel,version:item.version,key:await asset(item.file,mediaLabel)});
+    }
+    for(const item of selected.alternates||[]){
+      const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
+      if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} alternate ${item.version||''}`);
+      images.push({role:'alternate',label:item.label||'Alternate candidate',displayLabel:item.displayLabel||item.label,version:item.version,key:await asset(item.file,`${d}-s${s}-alternate-${item.version||'candidate'}`)});
     }
     chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,editorialStatus:stanza.review_status||'needs-review',images});
   }
