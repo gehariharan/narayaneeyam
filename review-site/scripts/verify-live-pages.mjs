@@ -22,7 +22,7 @@ for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd006', 'd038', 'd096'
   assert.ok(html.includes('Traditional matte mural') || ['d005', 'd006'].includes(id) && html.includes('Landscape candidate'));
   assert.ok(!html.includes('Detailed painting'));
   assert.ok(!html.includes('Glossy mural'));
-  assert.equal((html.match(/<figure>/g) || []).length, id === 'd004' ? 30 : id === 'd005' ? 23 : id === 'd006' ? 21 : 20);
+  assert.equal((html.match(/<figure>/g) || []).length, id === 'd004' ? 30 : id === 'd005' ? 23 : id === 'd006' ? 23 : 20);
   if (id === 'd005') assert.ok(html.includes('transliteration and English translation are not yet available'));
   if (id === 'd006') assert.ok(html.includes('All artwork is unapproved landscape candidate material'));
 }

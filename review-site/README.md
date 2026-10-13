@@ -140,11 +140,12 @@ deploying the Worker.
 
 ## Dasakam 6
 
-D006 has ten landscape review rows with eleven unapproved candidates. S001 shows
-v002 as the lead candidate and preserves v001 as an alternate. The supplied
-commentary is shown verbatim; Sanskrit, romanization, and commentary remain
-editorial review material, and English translations are not yet available.
-Portraits remain paused. Upload its WebP derivatives with
+D006 has ten landscape review rows with thirteen unapproved candidates. S001
+shows v004 as the lead candidate and preserves v001 and v002 for comparison.
+S007 shows v002 with v001 as an alternate; v002 adds the missing Adharma/back
+mapping. The supplied commentary is shown verbatim; Sanskrit, romanization, and
+commentary remain editorial review material, and English translations are not
+yet available. Portraits remain paused. Upload its WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=6` before deploying the Worker.
 
 ## Dasakam 38

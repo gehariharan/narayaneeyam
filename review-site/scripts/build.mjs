@@ -53,7 +53,7 @@ for (const { id, selectionFile } of [
   { id: 3, selectionFile: 'd003-traditional-v001.json' },
   { id: 4, selectionFile: 'd004-comparison-v001.json' },
   { id: 5, selectionFile: 'd005-comparison-v001.json' },
-  { id: 6, selectionFile: 'd006-comparison-v001.json' },
+  { id: 6, selectionFile: 'd006-comparison-v002.json' },
   { id: 38, selectionFile: 'd038-comparison-v002.json' },
   { id: 96, selectionFile: 'd096-comparison-v003.json' }
 ]) {

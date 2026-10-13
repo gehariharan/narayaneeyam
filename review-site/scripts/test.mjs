@@ -65,17 +65,17 @@ assert.equal(JSON.parse(written.args[8]).length,2);
 console.log('Passed: D005 has ten rows, thirteen candidate images, pinned source/candidate hashes, clear incomplete-source notice, and candidate-version feedback snapshots.');
 
 const full6=data.chapters.find(c=>c.id===6);assert.deepEqual(full6.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
-assert.equal(full6.rows.reduce((sum,r)=>sum+r.images.length,0),21);
+assert.equal(full6.rows.reduce((sum,r)=>sum+r.images.length,0),23);
 assert.ok(full6.reviewNotice.includes('All artwork is unapproved landscape candidate material'));
 assert.ok(full6.reviewNotice.includes('English translations are not yet available'));
 for(const row of full6.rows){
  assert.equal(row.commentarySource,`intake/D006/photo-captions.txt#${String(row.n).padStart(3,'0')}`);
  assert.equal(row.images.filter(i=>i.role==='reference').length,1);
  assert.ok(row.images.some(i=>i.role==='matte'));
- assert.equal(row.images.filter(i=>i.role==='alternate').length,row.n===1?1:0);
+ assert.equal(row.images.filter(i=>i.role==='alternate').length,row.n===1?2:row.n===7?1:0);
 }
-const selected6=JSON.parse(await fs.readFile(new URL('../../art/batches/d006-comparison-v001.json',import.meta.url)));
+const selected6=JSON.parse(await fs.readFile(new URL('../../art/batches/d006-comparison-v002.json',import.meta.url)));
 for(const row of full6.rows){const selected=selected6.rows.find(r=>r.n===row.n);for(const item of [selected.reference,selected.matte,...(selected.alternates||[])])assert.equal(provenance.find(p=>p.source===item.file).sourceHash,item.sha256);}
 assert.equal((await feedback(req({...good,daskam:6,sloka:1}),env)).status,201);
-assert.equal(JSON.parse(written.args[8]).length,2);
-console.log('Passed: D006 has ten rows, eleven unapproved landscape candidates, pinned reference/candidate hashes, editorial status notice, and version-specific feedback snapshots.');
+assert.equal(JSON.parse(written.args[8]).length,3);
+console.log('Passed: D006 has ten rows, thirteen unapproved landscape candidates, pinned reference/candidate hashes, editorial status notice, and version-specific feedback snapshots.');
