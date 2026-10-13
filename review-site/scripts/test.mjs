@@ -20,9 +20,9 @@ assert.equal((await feedback(req(good),{...env,FEEDBACK_LIMIT:{limit:async()=>({
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/api/feedback'),env)).status,405);
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/media/not-allowed.webp'),env)).status,404);
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
-console.log('Passed: 75-row comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
+console.log('Passed: 85-row comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,38,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,38,96]);
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
@@ -63,3 +63,19 @@ for(const row of full5.rows){const selected=selected5.rows.find(r=>r.n===row.n);
 assert.equal((await feedback(req({...good,daskam:5,sloka:1}),env)).status,201);
 assert.equal(JSON.parse(written.args[8]).length,2);
 console.log('Passed: D005 has ten rows, thirteen candidate images, pinned source/candidate hashes, clear incomplete-source notice, and candidate-version feedback snapshots.');
+
+const full6=data.chapters.find(c=>c.id===6);assert.deepEqual(full6.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+assert.equal(full6.rows.reduce((sum,r)=>sum+r.images.length,0),21);
+assert.ok(full6.reviewNotice.includes('All artwork is unapproved landscape candidate material'));
+assert.ok(full6.reviewNotice.includes('English translations are not yet available'));
+for(const row of full6.rows){
+ assert.equal(row.commentarySource,`intake/D006/photo-captions.txt#${String(row.n).padStart(3,'0')}`);
+ assert.equal(row.images.filter(i=>i.role==='reference').length,1);
+ assert.ok(row.images.some(i=>i.role==='matte'));
+ assert.equal(row.images.filter(i=>i.role==='alternate').length,row.n===1?1:0);
+}
+const selected6=JSON.parse(await fs.readFile(new URL('../../art/batches/d006-comparison-v001.json',import.meta.url)));
+for(const row of full6.rows){const selected=selected6.rows.find(r=>r.n===row.n);for(const item of [selected.reference,selected.matte,...(selected.alternates||[])])assert.equal(provenance.find(p=>p.source===item.file).sourceHash,item.sha256);}
+assert.equal((await feedback(req({...good,daskam:6,sloka:1}),env)).status,201);
+assert.equal(JSON.parse(written.args[8]).length,2);
+console.log('Passed: D006 has ten rows, eleven unapproved landscape candidates, pinned reference/candidate hashes, editorial status notice, and version-specific feedback snapshots.');
