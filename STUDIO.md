@@ -5,6 +5,9 @@ collection at `gehariharan.com/narayaneeyam`, using the dedicated `narayaneeyam`
 R2 bucket for web derivatives and `narayaneeyam-feedback` D1 database for row
 feedback. The user explicitly chose open access with no passphrase. Local files
 and approval manifests remain authoritative. See `review-site/README.md`.
+Always publish a chapter's review batch to this site when preparing it for the
+user's review. Publishing exposes unapproved candidates as review material; it
+does not approve them or change the local approval manifest.
 
 The immediate product is the content collection itself: a carefully sourced Narayaneeyam edition with a coherent temple-mural visual narrative. The Astro site is only a lightweight local proof reader. Hosting, donations, and the final storefront can be decided after the material is strong.
 

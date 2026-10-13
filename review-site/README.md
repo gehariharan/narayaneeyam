@@ -138,6 +138,15 @@ notes that romanization and English translation are not yet available. Upload it
 WebP derivatives with `node review-site/scripts/upload.mjs --daskam=5` before
 deploying the Worker.
 
+## Dasakam 6
+
+D006 has ten landscape review rows with eleven unapproved candidates. S001 shows
+v002 as the lead candidate and preserves v001 as an alternate. The supplied
+commentary is shown verbatim; Sanskrit, romanization, and commentary remain
+editorial review material, and English translations are not yet available.
+Portraits remain paused. Upload its WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=6` before deploying the Worker.
+
 ## Dasakam 38
 
 D038 is imported from Jarvis with its original sourced content, plans, and

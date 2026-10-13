@@ -15,15 +15,16 @@ async function fetchText(path) {
 }
 
 const index = await fetchText('/');
-for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd038', 'd096']) assert.ok(index.includes(`/narayaneeyam/${id}`));
+for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd006', 'd038', 'd096']) assert.ok(index.includes(`/narayaneeyam/${id}`));
 
-for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd038', 'd096']) {
+for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd006', 'd038', 'd096']) {
   const html = await fetchText(`/${id}`);
-  assert.ok(html.includes('Traditional matte mural') || id === 'd005' && html.includes('Landscape candidate v002'));
+  assert.ok(html.includes('Traditional matte mural') || ['d005', 'd006'].includes(id) && html.includes('Landscape candidate'));
   assert.ok(!html.includes('Detailed painting'));
   assert.ok(!html.includes('Glossy mural'));
-  assert.equal((html.match(/<figure>/g) || []).length, id === 'd004' ? 30 : id === 'd005' ? 23 : 20);
+  assert.equal((html.match(/<figure>/g) || []).length, id === 'd004' ? 30 : id === 'd005' ? 23 : id === 'd006' ? 21 : 20);
   if (id === 'd005') assert.ok(html.includes('transliteration and English translation are not yet available'));
+  if (id === 'd006') assert.ok(html.includes('All artwork is unapproved landscape candidate material'));
 }
 
-console.log('Verified live: seven chapters including D005 ten-row, thirteen-candidate review and D004 fifteen-row comparison.');
+console.log('Verified live: eight chapters including D005 and D006 candidate reviews and D004 fifteen-row comparison.');
