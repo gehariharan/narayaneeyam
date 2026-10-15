@@ -173,3 +173,7 @@ Upload its derivatives using
 
 `node review-site/scripts/upload.mjs --daskam=96`. Palette/border findings are
 recorded in `art/batches/series-color-border-review-v001.md`.
+
+## Dasakam 7
+
+D007 contains ten landscape review candidates matched to its ten supplied collages and verbatim Google Drive commentary entries. Brahma’s approved continuity shows four heads total, with three visible faces in a front view and the fourth facing behind. Each scene remains unapproved; portraits are paused. Upload its WebP derivatives with `node review-site/scripts/upload.mjs --daskam=7` before deploying the Worker.
