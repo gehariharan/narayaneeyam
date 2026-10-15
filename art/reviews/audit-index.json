@@ -1,0 +1,1457 @@
+{
+  "schema_version": 1,
+  "source_reports": [
+    "art/reviews/audits/d001-d003/report.md",
+    "art/reviews/audits/d004-d005/report.md",
+    "art/reviews/audits/d006-d007/report.md"
+  ],
+  "coverage": {
+    "published": 81,
+    "published_leads": 75,
+    "published_alternates": 6,
+    "unpublished": 5,
+    "total_inspected": 86,
+    "missing_published": 0,
+    "unaudited_chapters": [
+      38,
+      96
+    ]
+  },
+  "images": [
+    {
+      "chapter": 1,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v003",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s001/landscape/candidate-v003.png",
+      "sha256": "6af6fdb4224845a9e6b4fd5f5b5be304a47f8889a9023d559470166e65abf041",
+      "published_key": "media/d001-s001-matte-134ff1906e9cafa8.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 0
+    },
+    {
+      "chapter": 1,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s002/landscape/candidate-v002.png",
+      "sha256": "d4dfb079e362a72744b61550fc4b057f8c74d7b2c36718df306edfe7b49c5afa",
+      "published_key": "media/d001-s002-matte-184331824f4e672c.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 1
+    },
+    {
+      "chapter": 1,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s003/landscape/candidate-v001.png",
+      "sha256": "adc1f28c2ce39fccc8a4c479f82ade2f12e9396b5bbcdce52f1cb6bbfe413b24",
+      "published_key": "media/d001-s003-matte-61a2b0dd7b1a9855.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 2
+    },
+    {
+      "chapter": 1,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s004/landscape/candidate-v001.png",
+      "sha256": "d947a8120217dfb227ff4422a6bd10c2ae87ef4e25a4714e6eb7cbb06869bacc",
+      "published_key": "media/d001-s004-matte-a7d8defd344bdc9c.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 3
+    },
+    {
+      "chapter": 1,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s005/landscape/candidate-v002.png",
+      "sha256": "8c9d81b63ebea37864fd67aa0df34b8682a6b8fb070e8039179f2781a9cbeca6",
+      "published_key": "media/d001-s005-matte-023fe8208f24a96a.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 4
+    },
+    {
+      "chapter": 1,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s006/landscape/candidate-v001.png",
+      "sha256": "bec1b40c7729d6181005e414ff024602f6255faca5d26f4f1410cc510b8616e6",
+      "published_key": "media/d001-s006-matte-3aed93ec42696201.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 5
+    },
+    {
+      "chapter": 1,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s007/landscape/candidate-v002.png",
+      "sha256": "499410063c1bfda33730aea623644bb39c3a8480377511ffa9304a8079bb5bef",
+      "published_key": "media/d001-s007-matte-e9f0c49eb8813639.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 6
+    },
+    {
+      "chapter": 1,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s008/landscape/candidate-v001.png",
+      "sha256": "3a651c10157339446b315edb1d4eeccf45cf7e099020f3ff9595db931c782493",
+      "published_key": "media/d001-s008-matte-bdd938fae12da0b9.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 7
+    },
+    {
+      "chapter": 1,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s009/landscape/candidate-v001.png",
+      "sha256": "c226c6cf69c0dc77095d2bf623b4150c7ccda01ca950c5c603086c398287f963",
+      "published_key": "media/d001-s009-matte-e4ef1894ebf01667.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 8
+    },
+    {
+      "chapter": 1,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s010/landscape/candidate-v001.png",
+      "sha256": "4e3045b814974ed98a8d60abe7c71a9a9aa6c3969d9f1a9af489912472fdd3d8",
+      "published_key": "media/d001-s010-matte-72f3c6eabeb01026.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 9
+    },
+    {
+      "chapter": 2,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v003",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s001/landscape/candidate-v003.png",
+      "sha256": "6b3112486e82d2da654834639a4ce64463526e81884d7928775e451faa82d3f7",
+      "published_key": "media/d002-s001-matte-c26bbf148bebe9f0.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 10
+    },
+    {
+      "chapter": 2,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s002/landscape/candidate-v002.png",
+      "sha256": "fd96ce18beb97574018634451c3edf4c6e31ed9d495d70f19a845dee1b7e8f16",
+      "published_key": "media/d002-s002-matte-502734a08ea6aa36.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 11
+    },
+    {
+      "chapter": 2,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s003/landscape/candidate-v002.png",
+      "sha256": "a1ffa5e76b14cb2ddc92997cbf58d97d0311e5ad83ca31170badfae7137920b5",
+      "published_key": "media/d002-s003-matte-961bf0a3957180e5.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 12
+    },
+    {
+      "chapter": 2,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s004/landscape/candidate-v002.png",
+      "sha256": "3c2acce7192ef202d2b4e37cc586036f53994cb9f93c9b0f3c2b76b378eb3fb0",
+      "published_key": "media/d002-s004-matte-befa8cb5e68a6a3d.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 13
+    },
+    {
+      "chapter": 2,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s005/landscape/candidate-v002.png",
+      "sha256": "92fed2fcaffa7fdec7ecf37877a9df7447c6042d6352f8218c93d32623f33571",
+      "published_key": "media/d002-s005-matte-ade301a0ddbb28d6.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 14
+    },
+    {
+      "chapter": 2,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v003",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s006/landscape/candidate-v003.png",
+      "sha256": "a9ef627a045a930a58eadd4e687074d019c7f304f704ded58a35729d4061199d",
+      "published_key": "media/d002-s006-matte-26180d3646b3045f.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 15
+    },
+    {
+      "chapter": 2,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s007/landscape/candidate-v002.png",
+      "sha256": "505419e44cf16a74895bb6f7113241c02719cc78775272205b5f93dfde2523e5",
+      "published_key": "media/d002-s007-matte-fe4743f1a5c49d38.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 16
+    },
+    {
+      "chapter": 2,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s008/landscape/candidate-v002.png",
+      "sha256": "be2ffc730af2a2f1ceb9f1f49ac8b9266e95e36eecc5f4a85177e89b714748c7",
+      "published_key": "media/d002-s008-matte-96f5bb22770a6250.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 17
+    },
+    {
+      "chapter": 2,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v003",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s009/landscape/candidate-v003.png",
+      "sha256": "767a4a54e3c3c3f05695f4efb3375550047ca479c7b3c1426b27fb2321017afc",
+      "published_key": "media/d002-s009-matte-934b93861d520ad5.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 18
+    },
+    {
+      "chapter": 2,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s010/landscape/candidate-v002.png",
+      "sha256": "05e4567f31f5bdc9c51723139096b7aa9789b8d595a5132640b04d487b55a6ee",
+      "published_key": "media/d002-s010-matte-ee3503fb65b253a6.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 19
+    },
+    {
+      "chapter": 3,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s001/landscape/candidate-v001.png",
+      "sha256": "eb300e5ffb2375e38add7ac6e0132c327807ba18de1cf37a5d24f6060c27fa44",
+      "published_key": "media/d003-s001-matte-e9102979166c435d.webp",
+      "outcome": "uncertain",
+      "finding_ids": [
+        "F-D003-IDENTITY-01"
+      ],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 20
+    },
+    {
+      "chapter": 3,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s002/landscape/candidate-v001.png",
+      "sha256": "c7c07c4ff03924f8abad697142a9a5a94505e6b0ffac7454e99deb2eeaee4be4",
+      "published_key": "media/d003-s002-matte-441c03ca591d4542.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 21
+    },
+    {
+      "chapter": 3,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s003/landscape/candidate-v002.png",
+      "sha256": "3a60547831c792c407f1e1d50b6c7e73a15e6f5a31dbae3efdef07fe8f7aee1e",
+      "published_key": "media/d003-s003-matte-fe83d6d5d5f9439b.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 22
+    },
+    {
+      "chapter": 3,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s004/landscape/candidate-v002.png",
+      "sha256": "4e097aa9ad7bc80299ed552dd37333842809d1dbddffd544a308a35ab161e610",
+      "published_key": "media/d003-s004-matte-f07c4809fc9a0d21.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 23
+    },
+    {
+      "chapter": 3,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s005/landscape/candidate-v001.png",
+      "sha256": "ce6023aec96a3df8c4f66bc7854756bbd384de9b574c757db013816cdba594e1",
+      "published_key": "media/d003-s005-matte-d52cee0f2a88ba39.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 24
+    },
+    {
+      "chapter": 3,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s006/landscape/candidate-v001.png",
+      "sha256": "d1cfe631c4726095fc37f352f8183732cf61d5122a12a682dbfe97371f9a4c76",
+      "published_key": "media/d003-s006-matte-c8ccffbb6d71c96c.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 25
+    },
+    {
+      "chapter": 3,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s007/landscape/candidate-v001.png",
+      "sha256": "a0328a26595887317b6c361051996ee09cfad7b4fe86314f6e10e0a87e55f5cc",
+      "published_key": "media/d003-s007-matte-98b7ced1343c8c26.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 26
+    },
+    {
+      "chapter": 3,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s008/landscape/candidate-v001.png",
+      "sha256": "78133d2bd5058060cb04766d25c7ae3fac7b4fb85c2245e9182005d68c9171bb",
+      "published_key": "media/d003-s008-matte-11b31d69a1b9a987.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 27
+    },
+    {
+      "chapter": 3,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s009/landscape/candidate-v001.png",
+      "sha256": "661a01c58abee19e8c3551755aa71530efa7be797cd65fd6fa01bfdce7b029ab",
+      "published_key": "media/d003-s009-matte-3ebee20a5e4e14d5.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 28
+    },
+    {
+      "chapter": 3,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s010/landscape/candidate-v001.png",
+      "sha256": "215892799eb8c40737bb1ab184aef19c84d944e8bf6782675d1995701135ec67",
+      "published_key": "media/d003-s010-matte-ae30b44082d29c6f.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d001-d003/findings.json",
+      "record_index": 29
+    },
+    {
+      "chapter": 4,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s001/landscape/candidate-v001.png",
+      "sha256": "e6a22097e7c3222c9449e0803c98eb0d37a566a18af7d8fb67b14aaedcf6c871",
+      "published_key": "media/d004-s001-matte-85af47ccf4730d14.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 0
+    },
+    {
+      "chapter": 4,
+      "sloka": 2,
+      "role": "alternate",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s002/landscape/candidate-v001.png",
+      "sha256": "593e331ae5fadec6310c814deeab8d7d76a5f4351cdd6c3f68cf5cc78729f9e1",
+      "published_key": null,
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 1
+    },
+    {
+      "chapter": 4,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s002/landscape/candidate-v002.png",
+      "sha256": "c1be91ead45d20d5e4a1257368891b6f1f0848fef9145042b624310c7509ac93",
+      "published_key": "media/d004-s002-matte-33fb662ea2db83c2.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 2
+    },
+    {
+      "chapter": 4,
+      "sloka": 3,
+      "role": "alternate",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s003/landscape/candidate-v001.png",
+      "sha256": "1cd75f8ca4ee2be122db6934014f3527c219f63783ea030ca7cfb618d374e303",
+      "published_key": null,
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 3
+    },
+    {
+      "chapter": 4,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s003/landscape/candidate-v002.png",
+      "sha256": "8ea4f57d29abf725b4851693c56a0ea476e63949c340168a1d01547f64fd6efc",
+      "published_key": "media/d004-s003-matte-26732717e3e50e9d.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 4
+    },
+    {
+      "chapter": 4,
+      "sloka": 4,
+      "role": "alternate",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s004/landscape/candidate-v001.png",
+      "sha256": "587048ce71b50526f6afb980fa47ae0aa2c34f2f61d37cbddc9a77b701a13d82",
+      "published_key": null,
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 5
+    },
+    {
+      "chapter": 4,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s004/landscape/candidate-v002.png",
+      "sha256": "3995de77d11610879df50195e37104e5703569bb977956c1be6822978a807769",
+      "published_key": "media/d004-s004-matte-62e5b4ebe1ce9292.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 6
+    },
+    {
+      "chapter": 4,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s005/landscape/candidate-v001.png",
+      "sha256": "2af8f369c348f872abcce5c76c583a64cd7424f5bb5eabbf1c32dcd53b0faa50",
+      "published_key": "media/d004-s005-matte-ef1392f17219c39d.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 7
+    },
+    {
+      "chapter": 4,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s006/landscape/candidate-v001.png",
+      "sha256": "412440457a4e849c42ae6c17ba4254549f9b76b91c6d7e4db795b8e288615f91",
+      "published_key": "media/d004-s006-matte-8bc14e1e4b7454fa.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 8
+    },
+    {
+      "chapter": 4,
+      "sloka": 7,
+      "role": "alternate",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s007/landscape/candidate-v001.png",
+      "sha256": "b64ceb9d2a193083ea9c12b9e0623fd6ce3e897f45e3cd30cc91e69c8ecb1a4a",
+      "published_key": null,
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "D004-S007-v001-F01"
+      ],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 9
+    },
+    {
+      "chapter": 4,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s007/landscape/candidate-v002.png",
+      "sha256": "d43c464710bcd8322f1a12ad503f881800042407403b1643d95f8b9d7909c079",
+      "published_key": "media/d004-s007-matte-23df69fd8ca5b8ac.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 10
+    },
+    {
+      "chapter": 4,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s008/landscape/candidate-v001.png",
+      "sha256": "b343d0b2c3a49be5154e047e39ee179510740f4499e6a042466709e02b43a93b",
+      "published_key": "media/d004-s008-matte-87272724af271c5a.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 11
+    },
+    {
+      "chapter": 4,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s009/landscape/candidate-v001.png",
+      "sha256": "ebe9f5229897acc7ecd5f6a9013dbdb8a13c3fefc157c0e16e289be6a1be265a",
+      "published_key": "media/d004-s009-matte-2948c51169619072.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 12
+    },
+    {
+      "chapter": 4,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s010/landscape/candidate-v001.png",
+      "sha256": "9f465a1863b20fb1f01a3f598c25b3bd55d63c5cb15336761fee9e2605eee0f4",
+      "published_key": "media/d004-s010-matte-cc1f22d00cd77b4e.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 13
+    },
+    {
+      "chapter": 4,
+      "sloka": 11,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s011/landscape/candidate-v001.png",
+      "sha256": "57daca880371b0a16a5d349e2e331d305ebb60c4817764c264c5f8efa5b3e98e",
+      "published_key": "media/d004-s011-matte-70e978d16ea2b6ec.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 14
+    },
+    {
+      "chapter": 4,
+      "sloka": 12,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s012/landscape/candidate-v001.png",
+      "sha256": "a7444d537a762aa56e90211f0daed50c5a10837bb32238907e5d7eba2c1d2296",
+      "published_key": "media/d004-s012-matte-e27485276f7a2071.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "D004-S012-v001-F01"
+      ],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 15
+    },
+    {
+      "chapter": 4,
+      "sloka": 13,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s013/landscape/candidate-v001.png",
+      "sha256": "b596ae62219d53502d60bdf1f79b2708da5e86c012f84ff268f89036d0b91566",
+      "published_key": "media/d004-s013-matte-2d7703779b3310c5.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 16
+    },
+    {
+      "chapter": 4,
+      "sloka": 14,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s014/landscape/candidate-v001.png",
+      "sha256": "501d9edc9a0a87319d7f2fe344b684366e2e956427189816f5891c95ae779998",
+      "published_key": "media/d004-s014-matte-6b45c234ba74940d.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 17
+    },
+    {
+      "chapter": 4,
+      "sloka": 15,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d004/s015/landscape/candidate-v001.png",
+      "sha256": "836a1f93271523d0916441119ad86ba9d52fb99161b472048c0682c6526fe6d4",
+      "published_key": "media/d004-s015-matte-be76d71d938ccb69.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 18
+    },
+    {
+      "chapter": 5,
+      "sloka": 1,
+      "role": "alternate",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s001/landscape/candidate-v001.png",
+      "sha256": "62db779c4bd55c68eab795240b86ee40a9d3c6e72c71c1d10112bc3aa77aa534",
+      "published_key": "media/d005-s001-alternate-v001-da419fb0e2d89cec.webp",
+      "outcome": "uncertain",
+      "finding_ids": [
+        "D005-S001-v001-U01"
+      ],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 19
+    },
+    {
+      "chapter": 5,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s001/landscape/candidate-v002.png",
+      "sha256": "e02e098b170a5e529fe31d7e6c57e9c5ae384962752223fc10872c5d03a9cb27",
+      "published_key": "media/d005-s001-matte-v002-252b492ee3a2d9bc.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 20
+    },
+    {
+      "chapter": 5,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s002/landscape/candidate-v001.png",
+      "sha256": "3593f7bc082a4648665b62c9f0e9937dfcf764086a251166f076ca30df7d761b",
+      "published_key": "media/d005-s002-matte-v001-f1bdf209a01ad53a.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 21
+    },
+    {
+      "chapter": 5,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s003/landscape/candidate-v001.png",
+      "sha256": "6ff39ec7a7bb06a16499c735ec066df44bc87ab725363f86be6403bc792fe108",
+      "published_key": "media/d005-s003-matte-v001-df9fb18b57b56ec0.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 22
+    },
+    {
+      "chapter": 5,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s004/landscape/candidate-v001.png",
+      "sha256": "b9609e9d3b75c569956c7e8ca31246b04aae963e5d7411d7fd5ff6e26512d877",
+      "published_key": "media/d005-s004-matte-v001-55653443ecca39ea.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 23
+    },
+    {
+      "chapter": 5,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s005/landscape/candidate-v001.png",
+      "sha256": "a3fad00cd3701e9b85b77963b617dc913d171e5d3d3a26902d5be1372931562c",
+      "published_key": "media/d005-s005-matte-v001-f16b3b6e0a15dc66.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 24
+    },
+    {
+      "chapter": 5,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s006/landscape/candidate-v001.png",
+      "sha256": "a6137397bd043330dc0fb26acc0e673ec9c134bdcc7144e87d6119695dd4f5ce",
+      "published_key": "media/d005-s006-matte-v001-ef87e392fca512d0.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 25
+    },
+    {
+      "chapter": 5,
+      "sloka": 7,
+      "role": "alternate",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s007/landscape/candidate-v001.png",
+      "sha256": "077a776e56d492517391ced4db28fef6dfc8428bf596bb90b27957d0b07a5f59",
+      "published_key": "media/d005-s007-alternate-v001-dfd8d4a5dac90e2e.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "D005-S007-v001-F01"
+      ],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 26
+    },
+    {
+      "chapter": 5,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s007/landscape/candidate-v002.png",
+      "sha256": "1979b61dc646f6de1a80da1f470bd22aa662f1bf1a43b0b0e8b3b07752bb592f",
+      "published_key": "media/d005-s007-matte-v002-64a6c1277f23816c.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "D005-S007-v002-F01"
+      ],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 27
+    },
+    {
+      "chapter": 5,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s008/landscape/candidate-v001.png",
+      "sha256": "04abf787d6563725eb7932b9034274c2b8e463c5e48ceae0060ed2810ac65d39",
+      "published_key": "media/d005-s008-matte-v001-662aa0fd27980f1d.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "D005-S008-v001-F01"
+      ],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 28
+    },
+    {
+      "chapter": 5,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s009/landscape/candidate-v001.png",
+      "sha256": "94489def093de0529d349bad440f0c8e233e00b4c998f2869ae504b14dfa2372",
+      "published_key": "media/d005-s009-matte-v001-e101175a5c11977a.webp",
+      "outcome": "pass",
+      "finding_ids": [],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 29
+    },
+    {
+      "chapter": 5,
+      "sloka": 10,
+      "role": "alternate",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s010/landscape/candidate-v001.png",
+      "sha256": "4a4e8b8442d54b6d5732a3d6b925f17ad936f63b4beec1ab4226d93d7400fc53",
+      "published_key": "media/d005-s010-alternate-v001-217bede781a2b018.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "D005-S010-v001-F01",
+        "D005-S010-v001-U01"
+      ],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 30
+    },
+    {
+      "chapter": 5,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d005/s010/landscape/candidate-v002.png",
+      "sha256": "2137336cca2c9559bc473cbbe8b321f0d95fa8493eac3a1f7667d11676a04c07",
+      "published_key": "media/d005-s010-matte-v002-77d7e4b29b260ccb.webp",
+      "outcome": "uncertain",
+      "finding_ids": [
+        "D005-S010-v002-U01"
+      ],
+      "evidence": "art/reviews/audits/d004-d005/findings.json",
+      "record_index": 31
+    },
+    {
+      "chapter": 6,
+      "sloka": 1,
+      "role": "unpublished inspected candidate",
+      "version": "v003",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s001/landscape/candidate-v003.png",
+      "sha256": "fb20a8f66131c841f6127cb6ae6892841274e0efad7adba8ddbd70c8302c4ef7",
+      "published_key": null,
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 0
+    },
+    {
+      "chapter": 6,
+      "sloka": 1,
+      "role": "alternate",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s001/landscape/candidate-v001.png",
+      "sha256": "31e32684b9707d9602b52b729eca2b2fc4537908a96c80076a73fe684729699d",
+      "published_key": "media/d006-s001-alternate-v001-8536e25f5d08b9e6.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 1
+    },
+    {
+      "chapter": 6,
+      "sloka": 1,
+      "role": "alternate",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s001/landscape/candidate-v002.png",
+      "sha256": "7d0d2216916dd292ac7f78b8a52821ff755024e741423d6fe0081c9dda098057",
+      "published_key": "media/d006-s001-alternate-v002-574bea6b36f3b1c9.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 2
+    },
+    {
+      "chapter": 6,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v004",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s001/landscape/candidate-v004.png",
+      "sha256": "f1a368475020a236572a816a022b6ba4315d07552647694c13b031ff9dfdaf5f",
+      "published_key": "media/d006-s001-matte-a540115f30054bdb.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 3
+    },
+    {
+      "chapter": 6,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s002/landscape/candidate-v001.png",
+      "sha256": "e0abe1326516c2907e1e520662c147a526cacf5775a3eb0154ba42f82c3b5fc7",
+      "published_key": "media/d006-s002-matte-235d5b22015076cc.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 4
+    },
+    {
+      "chapter": 6,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s003/landscape/candidate-v001.png",
+      "sha256": "dea7f5766f7e7dd03f24b3363a2b02f0ade4fd40d0e57813c202ec114b614c1f",
+      "published_key": "media/d006-s003-matte-2a036499feec8459.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 5
+    },
+    {
+      "chapter": 6,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s004/landscape/candidate-v001.png",
+      "sha256": "81e36de0a7d18f650d45ab4955847d07c20dab89ba56726b342166096ec37014",
+      "published_key": "media/d006-s004-matte-3dc30b517436a747.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 6
+    },
+    {
+      "chapter": 6,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s005/landscape/candidate-v001.png",
+      "sha256": "c88d6e401aaeb1435303e13bcb83b49cdc412a104c8398b004aae72b32d584ef",
+      "published_key": "media/d006-s005-matte-76edc94b38983f98.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 7
+    },
+    {
+      "chapter": 6,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s006/landscape/candidate-v001.png",
+      "sha256": "590cfb45f18f4ced02493cf335d1f8effa6552183f24076087e71bb42371f3d7",
+      "published_key": "media/d006-s006-matte-8d6003d6af3ed10e.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 8
+    },
+    {
+      "chapter": 6,
+      "sloka": 7,
+      "role": "alternate",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s007/landscape/candidate-v001.png",
+      "sha256": "31c7607662f9eaffe22b73ae04531a1c7838d91cb0db44a84130a0b59855300a",
+      "published_key": "media/d006-s007-alternate-v001-ac279b7059baf331.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01",
+        "F-D006-S007-V001-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 9
+    },
+    {
+      "chapter": 6,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v002",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s007/landscape/candidate-v002.png",
+      "sha256": "ca8e9e939f32da26877be02efc2f8b3ef2db80d52df9b84d8ae013e71a7c5376",
+      "published_key": "media/d006-s007-matte-0ff73a59e9878515.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 10
+    },
+    {
+      "chapter": 6,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s008/landscape/candidate-v001.png",
+      "sha256": "a28aa0349248895d9ef83e1d4c999af94eeaae2d08eb2ab7477feffe5527ef81",
+      "published_key": "media/d006-s008-matte-41fa8f1e47753d7d.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01",
+        "F-D006-S008-DETAIL-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 11
+    },
+    {
+      "chapter": 6,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s009/landscape/candidate-v001.png",
+      "sha256": "e36e50f06047ef29ab6b3f5597583f2f2d17d63fbde8468453e87bcab4d7e793",
+      "published_key": "media/d006-s009-matte-85bdc085166265f3.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 12
+    },
+    {
+      "chapter": 6,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s010/landscape/candidate-v001.png",
+      "sha256": "d8c3114fa7f89384fa5bd870f0a7de7b2daddb80ddb0093b9534639189874682",
+      "published_key": "media/d006-s010-matte-e7674dee8a91300c.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 13
+    },
+    {
+      "chapter": 7,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s001/landscape/candidate-v001.png",
+      "sha256": "94da5960cf2b333fab832ac88d6734c0a736903c855beb906a1774d2cfd5ba82",
+      "published_key": "media/d007-s001-matte-0859573b738fd29b.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 14
+    },
+    {
+      "chapter": 7,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s002/landscape/candidate-v001.png",
+      "sha256": "520e02b7d00ea0c8db878c16d1e69b5bcdb15bd88cecd0caa6a3a2e14d4bfdf4",
+      "published_key": "media/d007-s002-matte-062e9cec326b8efc.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 15
+    },
+    {
+      "chapter": 7,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s003/landscape/candidate-v001.png",
+      "sha256": "b11525af86623e8162cab0d7f1963ee2752c96c373c4829e0fda95315aeba46e",
+      "published_key": "media/d007-s003-matte-689c1e10558bdd21.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 16
+    },
+    {
+      "chapter": 7,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s004/landscape/candidate-v001.png",
+      "sha256": "64b481c946d659bf1d109c82ac43a2a203fee9e5d30d9bd450b82e8c8e2c6ae7",
+      "published_key": "media/d007-s004-matte-5290aa67bca16991.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01",
+        "F-D007-S004-SCALE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 17
+    },
+    {
+      "chapter": 7,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s005/landscape/candidate-v001.png",
+      "sha256": "597f8ba4eb1a45c4b54957aaee7dbdbbee51f1c332513b4f374e8d5c5ce71b08",
+      "published_key": "media/d007-s005-matte-2495cbe05989b984.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 18
+    },
+    {
+      "chapter": 7,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s006/landscape/candidate-v001.png",
+      "sha256": "19971c908511245d657ca723c85f38777d9e2faf1fcc0de4cbaf1de3877d309e",
+      "published_key": "media/d007-s006-matte-3174d7741eb886b1.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 19
+    },
+    {
+      "chapter": 7,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s007/landscape/candidate-v001.png",
+      "sha256": "303465757803bf06c858ce3eee5a7c3782ed7982b6904a2e0c8a10e7f0208c32",
+      "published_key": "media/d007-s007-matte-a11baef04f6a2dc3.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 20
+    },
+    {
+      "chapter": 7,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s008/landscape/candidate-v001.png",
+      "sha256": "92ff90700f0b4b38dcacb1fae6a46868435f2a9496c6caa986bd2ed00c2e365f",
+      "published_key": "media/d007-s008-matte-ad6ba45cdbdda5cc.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 21
+    },
+    {
+      "chapter": 7,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s009/landscape/candidate-v001.png",
+      "sha256": "4ece42b55b6a659be52e2dfd4b22fe4ce0a0d3ab3cd52910af87366bcfd17056",
+      "published_key": "media/d007-s009-matte-ea568c4325ef3524.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 22
+    },
+    {
+      "chapter": 7,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v001",
+      "source": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s010/landscape/candidate-v001.png",
+      "sha256": "32559d3587b7bef9ceb7a432973c57e6973c865e41237dadc32b7ccb3419669e",
+      "published_key": "media/d007-s010-matte-22fcdf950e6ae939.webp",
+      "outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ],
+      "evidence": "art/reviews/audits/d006-d007/findings.json",
+      "record_index": 23
+    }
+  ],
+  "findings": [
+    {
+      "id": "F-D002-STYLE-01",
+      "chapter": 2,
+      "category": "series-style",
+      "severity": "medium",
+      "confidence": "high",
+      "affected_images": [
+        "D002-S001",
+        "D002-S002",
+        "D002-S003",
+        "D002-S004",
+        "D002-S005",
+        "D002-S006",
+        "D002-S007",
+        "D002-S008",
+        "D002-S009",
+        "D002-S010"
+      ],
+      "observed": "All ten published D002 candidates use substantially more dimensional face/skin and cloth modelling, reflective-looking gold highlights, and polished depth/lighting than the locked flat matte mineral temple-mural treatment. The mismatch is visible across deity and devotee subjects, rather than isolated to a single iconographic subject. This agrees with the existing D002 style review, but was freshly confirmed image-by-image in this audit.",
+      "expected_basis": "STUDIO.md and art/bible/series.json call for coherent matte mineral-pigment murals; art/plans/d002.json excludes glossy skin, reflective gold/silk sheen and cinematic rays.",
+      "location": "Whole image in each affected record; no single bounding box.",
+      "repair_direction": "Keep identities, scene content and valid iconography, but flatten modelling across both deities and people: firm painted contours, matte mineral colour fields, shallow stylised space, patterned rather than reflective gold, and less cinematic lighting."
+    },
+    {
+      "id": "F-D003-IDENTITY-01",
+      "chapter": 3,
+      "sloka": 1,
+      "category": "possible-same-person-duplication",
+      "severity": "low",
+      "confidence": "low",
+      "affected_images": [
+        "D003-S001"
+      ],
+      "outcome_effect": "uncertain",
+      "observed": "The front seated listener near x\u22480.30,y\u22480.64 and the storyteller near x\u22480.61,y\u22480.61 share several Bhattathiri continuity cues together: dark tied-back hair, dark beard, vertical tilak, cream dhoti and deep-maroon shoulder cloth. They may be distinct devotees rendered with a repeated template, or may read as Bhattathiri appearing twice within one scene.",
+      "expected_basis": "D003 S001 plan calls for one storyteller and permits Bhattathiri to appear quietly among listeners; the Bhattathiri continuity bible requires a consistent face, beard, tilak and clothing across depictions.",
+      "location": {
+        "normalized_bbox_listener": [
+          0.2,
+          0.34,
+          0.41,
+          0.98
+        ],
+        "normalized_bbox_storyteller": [
+          0.5,
+          0.31,
+          0.72,
+          0.98
+        ]
+      },
+      "repair_direction": "If they are intended as separate people, differentiate the storyteller from Bhattathiri in face, hair, tilak or garment palette. Otherwise keep only one Bhattathiri in the gathering. Do not infer a defect from shared palette alone."
+    },
+    {
+      "id": "D004-S007-v001-F01",
+      "kind": "factual-defect",
+      "category": "cropped-principal-figure",
+      "severity": "moderate",
+      "confidence": "high",
+      "subject": "Guruvayurappan murti",
+      "location": "upper-right, bbox [0.62,0.00,0.26,0.72]",
+      "observed": "The composition cuts off the murti crown at the top edge; the crown is not complete in frame.",
+      "basis": "D004 S007 scene brief calls for the complete Lord in the sanctum; continuity rules prohibit cropping crown, hands, or feet.",
+      "repair": "Recompose with the full murti inside safe margins; preserve the separate candidate as historical."
+    },
+    {
+      "id": "D004-S012-v001-F01",
+      "kind": "factual-defect",
+      "category": "character-anatomy-contract",
+      "severity": "moderate",
+      "confidence": "high",
+      "subject": "Small Brahma figure in the upper-right celestial pavilion",
+      "location": "upper-right, bbox [0.79,0.03,0.18,0.48]",
+      "observed": "The identifiable three-faced creator is shown with only two visible arms; the torso is unobstructed and no other pair is present.",
+      "basis": "Brahma character bible requires exactly four arms and hands, all distinct and visibly attached; the same bible allows three visible faces from a frontal view.",
+      "repair": "Remove the incidental Brahma motif or recompose it with four distinct attached arms and hands."
+    },
+    {
+      "id": "D005-S001-v001-U01",
+      "kind": "uncertain-judgment",
+      "category": "attribute-grip-clarity",
+      "severity": "low",
+      "confidence": "low",
+      "subject": "Lower hand and mace, viewer-right of seated Lord",
+      "location": "lower-right side of the deity, bbox [0.48,0.42,0.08,0.25]",
+      "observed": "A close view shows the lower hand touching the mace finial/top, but the hand does not read as a clear grip on the handle. The remaining three attributes are visibly held.",
+      "basis": "This four-armed depiction should keep any shown attributes legibly associated with distinct hands; the D005 S001 plan itself does not prescribe the mace.",
+      "repair": "If the mace is intended as held, clarify the grip; otherwise remove or reposition it as a deliberate nearby symbol."
+    },
+    {
+      "id": "D005-S007-v001-F01",
+      "kind": "factual-defect",
+      "category": "composition-style",
+      "severity": "low",
+      "confidence": "high",
+      "subject": "Decorative outer frame around the symbolic bands",
+      "location": "entire perimeter, bbox [0.00,0.00,1.00,1.00]",
+      "observed": "A separate floral ornamental border encloses the image.",
+      "basis": "Series bible specifies full-bleed composition without a separate decorative outer border.",
+      "repair": "Recompose the symbolic bands full-bleed, without a perimeter frame."
+    },
+    {
+      "id": "D005-S007-v002-F01",
+      "kind": "factual-defect",
+      "category": "composition-style",
+      "severity": "low",
+      "confidence": "high",
+      "subject": "Decorative outer frame around the symbolic bands",
+      "location": "entire perimeter, bbox [0.00,0.00,1.00,1.00]",
+      "observed": "A separate repeating floral/lotus frame encloses the image.",
+      "basis": "Series bible specifies full-bleed composition without a separate decorative outer border.",
+      "repair": "Recompose the symbolic bands full-bleed, without a perimeter frame."
+    },
+    {
+      "id": "D005-S008-v001-F01",
+      "kind": "factual-defect",
+      "category": "composition-style",
+      "severity": "low",
+      "confidence": "high",
+      "subject": "Floral and geometric outer frame",
+      "location": "entire perimeter, bbox [0.00,0.00,1.00,1.00]",
+      "observed": "A thick separate decorative border frames the elemental streams.",
+      "basis": "Series bible specifies full-bleed composition without a separate decorative outer border.",
+      "repair": "Recompose the elemental streams full-bleed, without the decorative perimeter."
+    },
+    {
+      "id": "D005-S010-v001-F01",
+      "kind": "factual-defect",
+      "category": "composition-style",
+      "severity": "low",
+      "confidence": "high",
+      "subject": "Thin ornamental outer frame",
+      "location": "entire perimeter, bbox [0.00,0.00,1.00,1.00]",
+      "observed": "A distinct patterned border surrounds the Virat composition.",
+      "basis": "Series bible specifies full-bleed composition without a separate decorative outer border.",
+      "repair": "Remove the separate perimeter frame while retaining the cosmic egg and tiered form."
+    },
+    {
+      "id": "D005-S010-v001-U01",
+      "kind": "uncertain-judgment",
+      "category": "small-figure-anatomy",
+      "severity": "low",
+      "confidence": "low",
+      "subject": "Miniature inhabitants depicted within the fourteen world-bands",
+      "location": "central world-bands, approximately bbox [0.34,0.18,0.32,0.55]",
+      "observed": "The tiny inhabitants are visible as scene motifs but too small to clear hands, feet, and body attachment reliably at native review size; no defect was confirmed.",
+      "basis": "The stanza plan explicitly requires fourteen bands and an integrated Virat world form; tiny realm inhabitants are secondary and do not set the Virat limb count.",
+      "repair": "For publication-level anatomy clearance, omit or enlarge the miniature people so their bodies can be inspected."
+    },
+    {
+      "id": "D005-S010-v002-U01",
+      "kind": "uncertain-judgment",
+      "category": "small-figure-anatomy",
+      "severity": "low",
+      "confidence": "low",
+      "subject": "Miniature inhabitants depicted within the fourteen world-bands",
+      "location": "central world-bands, approximately bbox [0.34,0.18,0.32,0.55]",
+      "observed": "The tiny inhabitants are visible as scene motifs but too small to clear hands, feet, and body attachment reliably at native review size; no defect was confirmed.",
+      "basis": "The stanza plan explicitly requires fourteen bands and an integrated Virat world form; tiny realm inhabitants are secondary and do not set the Virat limb count.",
+      "repair": "For publication-level anatomy clearance, omit or enlarge the miniature people so their bodies can be inspected."
+    },
+    {
+      "id": "F-D006-STYLE-01",
+      "chapter": 6,
+      "scope": "all inspected published D006 versions",
+      "category": "style",
+      "severity": "moderate",
+      "confidence": "high",
+      "confidence_value": 0.9,
+      "subject_location": "global image treatment; normalized bbox [0,0,1,1]",
+      "observed": "The set has dense engraved/granular texture and high-contrast bright gold ornament highlights compared with the series bible\u2019s broad matte mineral fields and painted ochre. Several scenes also use heavy architectural framing, whereas the bible calls for full-bleed composition. This is rendering drift, not an anatomy defect.",
+      "expected_basis": "art/bible/series.json style description and frame_continuity: firm contours, broad matte fields, painted ochre instead of metallic gold, full bleed.",
+      "repair_direction": "If this batch is brought to production, regenerate affected scenes with the D001 matte references and explicitly suppress reflective gold, texture overlays, and heavy outer frames."
+    },
+    {
+      "id": "F-D006-S007-V001-01",
+      "chapter": 6,
+      "sloka": 7,
+      "category": "scene fidelity",
+      "severity": "moderate",
+      "confidence": "high",
+      "confidence_value": 0.9,
+      "subject_location": "Virat garment/back, central figure; bbox [0.38,0.36,0.24,0.48]",
+      "observed": "The visible alternate v001 lacks a clear Adharma/back mapping called for by the scene plan; the selected v002 adds a dark patterned back-facing shawl. Anatomy in v001 is otherwise coherent.",
+      "expected_basis": "art/plans/d006.json S007 scene brief requires Adharma mapped to the back and an opaque twilight garment.",
+      "repair_direction": "Keep v002 selected; v001 should remain visibly marked as the superseded scene-incomplete alternate."
+    },
+    {
+      "id": "F-D006-S008-DETAIL-01",
+      "chapter": 6,
+      "sloka": 8,
+      "category": "inspection limitation",
+      "severity": "low",
+      "confidence": "high",
+      "confidence_value": 0.95,
+      "subject_location": "four small human groups surrounding Virat; distributed, approx bbox [0.02,0.17,0.96,0.72]",
+      "observed": "At full image size, group figures are small; gross two-arm silhouettes and separation are visible, but fingers and some shoulder-to-wrist details are too small to clear individually. No extra or fused limb is evident at this resolution.",
+      "expected_basis": "art/plans/d006.json S008: four equally dignified ordinary-human groups with two arms each.",
+      "repair_direction": "For future publication approval, inspect a higher-resolution crop of each group; do not infer a pass for finger anatomy from the full-frame view."
+    },
+    {
+      "id": "F-D007-STYLE-01",
+      "chapter": 7,
+      "scope": "all inspected published D007 versions",
+      "category": "style",
+      "severity": "moderate",
+      "confidence": "high",
+      "confidence_value": 0.95,
+      "subject_location": "global image treatment; normalized bbox [0,0,1,1]",
+      "observed": "Across the D007 set, dense surface texture and bright raised/reflective-looking gold ornament depart from the series bible\u2019s matte mineral fields and painted ochre. This matches the existing D007 review note that rendering is more ornate and textured than the D001 anchors; this audit freshly observed the same issue.",
+      "expected_basis": "art/bible/series.json style/global_avoid; art/plans/d007.json scenes explicitly avoid glossy surfaces and metallic reflections.",
+      "repair_direction": "Regenerate candidates against D001 S004/S008 matte rendering references, requesting broad flat color fields and nonreflective ochre ornament."
+    },
+    {
+      "id": "F-D007-S004-SCALE-01",
+      "chapter": 7,
+      "sloka": 4,
+      "category": "inspection limitation",
+      "severity": "low",
+      "confidence": "high",
+      "confidence_value": 0.95,
+      "subject_location": "Brahma in lower-left foreground; bbox approx [0.01,0.78,0.09,0.20]",
+      "observed": "Brahma is deliberately very small in the wide landscape. The three visible heads are distinguishable, but the arms/hands are too small to verify four-arm anatomy at image resolution. No defect is asserted.",
+      "expected_basis": "art/plans/d007.json S004 requires a four-armed Brahma with three front-visible faces from four heads total.",
+      "repair_direction": "For approval review, inspect a readable crop or revise framing to make the witness large enough for arm verification."
+    }
+  ]
+}

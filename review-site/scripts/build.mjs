@@ -2,6 +2,8 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import sharp from 'sharp';
+import { loadSelections } from '../selections.mjs';
+import { validateSelections, reviewFor, validateBundle } from '../image-review.mjs';
 import { renderIndex, renderChapter, chapterSlug } from '../views.mjs';
 
 const root = path.resolve(import.meta.dirname, '../..');
@@ -29,37 +31,11 @@ function vettedCommentary(stanza, daskam) {
   return stanza.commentary_en;
 }
 const chapters = [];
-for (const id of [2]) {
-  const d = `d${String(id).padStart(3, '0')}`;
-  const content = JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
-  const plan = JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
-  const chapter = { id, title: `Dasakam ${id}`, description: content.description || '', rows: [] };
-  for (const stanza of content.stanzas) {
-    const n = stanza.n, s = String(n).padStart(3, '0');
-    const ref = `intake/D00${id}/${s}.jpg`;
-    const matteV = [1, 6, 9].includes(n) ? 3 : 2;
-    const matte = id === 1 ? `artifacts/d001/s${s}/landscape/master.png` : `artifacts/d002/s${s}/landscape/candidate-v00${matteV}.png`;
-    const images = [
-      { role: 'reference', label: 'Original reference', version: `${s}.jpg`, key: await asset(ref, `${d}-s${s}-reference`) },
-      { role: 'matte', label: 'Traditional matte mural', version: id === 1 ? 'approved legacy' : `v00${matteV}`, key: await asset(matte, `${d}-s${s}-matte`) }
-    ];
-    chapter.rows.push({ n, title: plan.stanzas.find(x => x.n === n)?.alt || `Sloka ${s}`, commentary: vettedCommentary(stanza, id), commentarySource: stanza.commentary_source, editorialStatus: stanza.review_status || 'needs-review', images });
-  }
-  chapter.representative = chapter.rows[0].images[1].key;
-  chapters.push(chapter);
-}
-for (const { id, selectionFile } of [
-  { id: 1, selectionFile: 'd001-comparison-v001.json' },
-  { id: 3, selectionFile: 'd003-traditional-v001.json' },
-  { id: 4, selectionFile: 'd004-comparison-v001.json' },
-  { id: 5, selectionFile: 'd005-comparison-v001.json' },
-  { id: 6, selectionFile: 'd006-comparison-v002.json' },
-  { id: 7, selectionFile: 'd007-comparison-v001.json' },
-  { id: 38, selectionFile: 'd038-comparison-v002.json' },
-  { id: 96, selectionFile: 'd096-comparison-v003.json' }
-]) {
-  const d=chapterSlug(id);
-  const importedSelection = JSON.parse(await fs.readFile(path.join(root, `art/batches/${selectionFile}`)));
+const batches = await loadSelections(root);
+const validation = await validateSelections(root, batches);
+for (const importedSelection of batches) {
+  const id = importedSelection.daskam_id;
+  const d = chapterSlug(id);
   const content=JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
   const plan=JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
   const chapter={id,title:`Dasakam ${id}`,description:content.description||importedSelection.description||'',reviewNotice:importedSelection.review_notice||'',rows:[]};
@@ -73,16 +49,18 @@ for (const { id, selectionFile } of [
       const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
       if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} ${role}`);
       const mediaLabel=id===5?`${d}-s${s}-${role}-${item.version||'selected'}`:`${d}-s${s}-${role}`;
-      images.push({role,label:role,displayLabel:item.displayLabel,version:item.version,key:await asset(item.file,mediaLabel)});
+      const review = role === 'reference' ? null : reviewFor(validation, { ...item, chapter:id, sloka:n, role });
+      images.push({role,label:role,displayLabel:item.displayLabel,version:item.version,key:await asset(item.file,mediaLabel), ...(review ? {inspectionStatus:review.status,inspectionLabel:review.label} : {})});
     }
     for(const item of selected.alternates||[]){
       const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
       if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} alternate ${item.version||''}`);
-      images.push({role:'alternate',label:item.label||'Alternate candidate',displayLabel:item.displayLabel||item.label,version:item.version,key:await asset(item.file,`${d}-s${s}-alternate-${item.version||'candidate'}`)});
+      const review = reviewFor(validation, { ...item, chapter:id, sloka:n, role:'alternate' });
+      images.push({inspectionStatus:review.status,inspectionLabel:review.label,role:'alternate',label:item.label||'Alternate candidate',displayLabel:item.displayLabel||item.label,version:item.version,key:await asset(item.file,`${d}-s${s}-alternate-${item.version||'candidate'}`)});
     }
     chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,editorialStatus:stanza.review_status||'needs-review',images});
   }
-  chapter.representative=(chapter.rows[2]||chapter.rows[0]).images[1].key;
+  chapter.representative=(id === 2 ? chapter.rows[0] : (chapter.rows[2]||chapter.rows[0])).images[1].key;
   chapters.push(chapter);
 }
 chapters.sort((a, b) => a.id - b.id);
@@ -91,4 +69,5 @@ await fs.writeFile(path.join(dest, 'data.json'), JSON.stringify(dataset));
 await fs.writeFile(path.join(dest, 'asset-provenance.json'), JSON.stringify(provenance, null, 2));
 await fs.writeFile(path.join(dest, 'index.html'), renderIndex(dataset, './', false));
 for (const chapter of chapters) await fs.writeFile(path.join(dest, `${chapterSlug(chapter.id)}.html`), renderChapter(chapter, dataset.revision, './', false, chapters));
+await validateBundle(root, dest);
 console.log(`Built ${chapters.length} chapters, ${chapters.reduce((n,c)=>n+c.rows.length,0)} rows and ${Object.keys(assets).length} distinct review images.`);

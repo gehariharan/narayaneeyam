@@ -1,7 +1,10 @@
+import { validateBundle } from '../image-review.mjs';
+import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import { renderChapter, renderIndex, chapterSlug } from '../views.mjs';
 // Test source import with the generated data replaced so Node requires no JSON import attribute.
+await validateBundle(fileURLToPath(new URL('../..',import.meta.url)), fileURLToPath(new URL('../../artifacts/review-site',import.meta.url)));
 const data=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/data.json',import.meta.url)));
 const source=(await fs.readFile(new URL('../worker.mjs',import.meta.url),'utf8')).replace("import data from '../artifacts/review-site/data.json';",`const data=${JSON.stringify(data)};`).replace("from './views.mjs'",`from '${new URL('../views.mjs',import.meta.url).href}'`);
 const {feedback,default:worker}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));

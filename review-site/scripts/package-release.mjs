@@ -1,3 +1,4 @@
+import { validateBundle } from '../image-review.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
@@ -12,6 +13,7 @@ const commit = head.trim();
 const { stdout: status } = await run('git', ['status', '--porcelain', '--untracked-files=no'], { cwd: root });
 if (status.trim()) throw new Error('Commit the review source before packaging its exact GitHub Actions revision.');
 
+await validateBundle(root, source);
 const data = JSON.parse(await fs.readFile(path.join(source, 'data.json'), 'utf8'));
 const files = ['data.json', 'asset-provenance.json', 'index.html'];
 for (const chapter of data.chapters) files.push(`d${String(chapter.id).padStart(3, '0')}.html`);
