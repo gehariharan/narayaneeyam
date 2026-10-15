@@ -1,0 +1,711 @@
+{
+  "audit": "D006/D007 published landscape candidates and visible alternates",
+  "audit_date": "2026-10-15",
+  "source_read_only_root": "/home/gehariharan/Projects/narayaneeyam",
+  "summary": {
+    "expected_versions": 23,
+    "inspected_versions": 24,
+    "missing_versions": 0,
+    "source_hash_matches": 23,
+    "manifest_matches": 23,
+    "deployed_provenance_matches": 23,
+    "live_selection_matches": 23,
+    "outcomes": {
+      "pass": 0,
+      "needs-fix": 24,
+      "uncertain": 0
+    },
+    "chapter_counts": {
+      "D006": {
+        "expected": 13,
+        "inspected": 13,
+        "missing": 0,
+        "url": "https://gehariharan.com/narayaneeyam/d006"
+      },
+      "D007": {
+        "expected": 10,
+        "inspected": 10,
+        "missing": 0,
+        "url": "https://gehariharan.com/narayaneeyam/d007"
+      }
+    },
+    "deployed_release": {
+      "repository": "gehariharan/narayaneeyam",
+      "tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "commit": "2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "bundle_sha256": "022c82668884db7dad4bd45eb9fdf9da7b367145b362fcf6a2f34e3babe88d80",
+      "asset": "review-site-bundle.zip"
+    },
+    "total_generated_versions_inspected": 24,
+    "expected_published_versions": 23,
+    "inspected_published_versions": 23,
+    "inspected_unpublished_versions": 1
+  },
+  "findings": {
+    "F-D006-STYLE-01": {
+      "chapter": 6,
+      "scope": "all inspected published D006 versions",
+      "category": "style",
+      "severity": "moderate",
+      "confidence": "high",
+      "confidence_value": 0.9,
+      "subject_location": "global image treatment; normalized bbox [0,0,1,1]",
+      "observed": "The set has dense engraved/granular texture and high-contrast bright gold ornament highlights compared with the series bible\u2019s broad matte mineral fields and painted ochre. Several scenes also use heavy architectural framing, whereas the bible calls for full-bleed composition. This is rendering drift, not an anatomy defect.",
+      "expected_basis": "art/bible/series.json style description and frame_continuity: firm contours, broad matte fields, painted ochre instead of metallic gold, full bleed.",
+      "repair_direction": "If this batch is brought to production, regenerate affected scenes with the D001 matte references and explicitly suppress reflective gold, texture overlays, and heavy outer frames."
+    },
+    "F-D006-S007-V001-01": {
+      "chapter": 6,
+      "sloka": 7,
+      "category": "scene fidelity",
+      "severity": "moderate",
+      "confidence": "high",
+      "confidence_value": 0.9,
+      "subject_location": "Virat garment/back, central figure; bbox [0.38,0.36,0.24,0.48]",
+      "observed": "The visible alternate v001 lacks a clear Adharma/back mapping called for by the scene plan; the selected v002 adds a dark patterned back-facing shawl. Anatomy in v001 is otherwise coherent.",
+      "expected_basis": "art/plans/d006.json S007 scene brief requires Adharma mapped to the back and an opaque twilight garment.",
+      "repair_direction": "Keep v002 selected; v001 should remain visibly marked as the superseded scene-incomplete alternate."
+    },
+    "F-D006-S008-DETAIL-01": {
+      "chapter": 6,
+      "sloka": 8,
+      "category": "inspection limitation",
+      "severity": "low",
+      "confidence": "high",
+      "confidence_value": 0.95,
+      "subject_location": "four small human groups surrounding Virat; distributed, approx bbox [0.02,0.17,0.96,0.72]",
+      "observed": "At full image size, group figures are small; gross two-arm silhouettes and separation are visible, but fingers and some shoulder-to-wrist details are too small to clear individually. No extra or fused limb is evident at this resolution.",
+      "expected_basis": "art/plans/d006.json S008: four equally dignified ordinary-human groups with two arms each.",
+      "repair_direction": "For future publication approval, inspect a higher-resolution crop of each group; do not infer a pass for finger anatomy from the full-frame view."
+    },
+    "F-D007-STYLE-01": {
+      "chapter": 7,
+      "scope": "all inspected published D007 versions",
+      "category": "style",
+      "severity": "moderate",
+      "confidence": "high",
+      "confidence_value": 0.95,
+      "subject_location": "global image treatment; normalized bbox [0,0,1,1]",
+      "observed": "Across the D007 set, dense surface texture and bright raised/reflective-looking gold ornament depart from the series bible\u2019s matte mineral fields and painted ochre. This matches the existing D007 review note that rendering is more ornate and textured than the D001 anchors; this audit freshly observed the same issue.",
+      "expected_basis": "art/bible/series.json style/global_avoid; art/plans/d007.json scenes explicitly avoid glossy surfaces and metallic reflections.",
+      "repair_direction": "Regenerate candidates against D001 S004/S008 matte rendering references, requesting broad flat color fields and nonreflective ochre ornament."
+    },
+    "F-D007-S004-SCALE-01": {
+      "chapter": 7,
+      "sloka": 4,
+      "category": "inspection limitation",
+      "severity": "low",
+      "confidence": "high",
+      "confidence_value": 0.95,
+      "subject_location": "Brahma in lower-left foreground; bbox approx [0.01,0.78,0.09,0.20]",
+      "observed": "Brahma is deliberately very small in the wide landscape. The three visible heads are distinguishable, but the arms/hands are too small to verify four-arm anatomy at image resolution. No defect is asserted.",
+      "expected_basis": "art/plans/d007.json S004 requires a four-armed Brahma with three front-visible faces from four heads total.",
+      "repair_direction": "For approval review, inspect a readable crop or revise framing to make the witness large enough for arm verification."
+    }
+  },
+  "images": [
+    {
+      "chapter": 6,
+      "sloka": 1,
+      "role": "unpublished inspected candidate",
+      "version": "v003",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s001/landscape/candidate-v003.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/d006/s001/landscape/candidate-v003.png",
+      "sha256": "fb20a8f66131c841f6127cb6ae6892841274e0efad7adba8ddbd70c8302c4ef7",
+      "manifest_sha256": null,
+      "deployed_provenance_sha256": null,
+      "source_hash_matches_manifest_and_deployed_provenance": null,
+      "published_key": null,
+      "published_url": null,
+      "live_selection_verified": false,
+      "live_selection_basis": "Not present in d006-comparison-v002.json, deployed release data.json/provenance, or live D006 page. This version is not a published lead or visible alternate.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 1,
+      "role": "alternate",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s001/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s001/landscape/candidate-v001.png",
+      "sha256": "31e32684b9707d9602b52b729eca2b2fc4537908a96c80076a73fe684729699d",
+      "manifest_sha256": "31e32684b9707d9602b52b729eca2b2fc4537908a96c80076a73fe684729699d",
+      "deployed_provenance_sha256": "31e32684b9707d9602b52b729eca2b2fc4537908a96c80076a73fe684729699d",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s001-alternate-v001-8536e25f5d08b9e6.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s001-alternate-v001-8536e25f5d08b9e6.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s001-alternate-v001-8536e25f5d08b9e6.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 1,
+      "role": "alternate",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s001/landscape/candidate-v002.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s001/landscape/candidate-v002.png",
+      "sha256": "7d0d2216916dd292ac7f78b8a52821ff755024e741423d6fe0081c9dda098057",
+      "manifest_sha256": "7d0d2216916dd292ac7f78b8a52821ff755024e741423d6fe0081c9dda098057",
+      "deployed_provenance_sha256": "7d0d2216916dd292ac7f78b8a52821ff755024e741423d6fe0081c9dda098057",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s001-alternate-v002-574bea6b36f3b1c9.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s001-alternate-v002-574bea6b36f3b1c9.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s001-alternate-v002-574bea6b36f3b1c9.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v004",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s001/landscape/candidate-v004.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s001/landscape/candidate-v004.png",
+      "sha256": "f1a368475020a236572a816a022b6ba4315d07552647694c13b031ff9dfdaf5f",
+      "manifest_sha256": "f1a368475020a236572a816a022b6ba4315d07552647694c13b031ff9dfdaf5f",
+      "deployed_provenance_sha256": "f1a368475020a236572a816a022b6ba4315d07552647694c13b031ff9dfdaf5f",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s001-matte-a540115f30054bdb.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s001-matte-a540115f30054bdb.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s001-matte-a540115f30054bdb.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s002/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s002/landscape/candidate-v001.png",
+      "sha256": "e0abe1326516c2907e1e520662c147a526cacf5775a3eb0154ba42f82c3b5fc7",
+      "manifest_sha256": "e0abe1326516c2907e1e520662c147a526cacf5775a3eb0154ba42f82c3b5fc7",
+      "deployed_provenance_sha256": "e0abe1326516c2907e1e520662c147a526cacf5775a3eb0154ba42f82c3b5fc7",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s002-matte-235d5b22015076cc.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s002-matte-235d5b22015076cc.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s002-matte-235d5b22015076cc.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 940
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s003/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s003/landscape/candidate-v001.png",
+      "sha256": "dea7f5766f7e7dd03f24b3363a2b02f0ade4fd40d0e57813c202ec114b614c1f",
+      "manifest_sha256": "dea7f5766f7e7dd03f24b3363a2b02f0ade4fd40d0e57813c202ec114b614c1f",
+      "deployed_provenance_sha256": "dea7f5766f7e7dd03f24b3363a2b02f0ade4fd40d0e57813c202ec114b614c1f",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s003-matte-2a036499feec8459.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s003-matte-2a036499feec8459.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s003-matte-2a036499feec8459.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s004/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s004/landscape/candidate-v001.png",
+      "sha256": "81e36de0a7d18f650d45ab4955847d07c20dab89ba56726b342166096ec37014",
+      "manifest_sha256": "81e36de0a7d18f650d45ab4955847d07c20dab89ba56726b342166096ec37014",
+      "deployed_provenance_sha256": "81e36de0a7d18f650d45ab4955847d07c20dab89ba56726b342166096ec37014",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s004-matte-3dc30b517436a747.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s004-matte-3dc30b517436a747.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s004-matte-3dc30b517436a747.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s005/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s005/landscape/candidate-v001.png",
+      "sha256": "c88d6e401aaeb1435303e13bcb83b49cdc412a104c8398b004aae72b32d584ef",
+      "manifest_sha256": "c88d6e401aaeb1435303e13bcb83b49cdc412a104c8398b004aae72b32d584ef",
+      "deployed_provenance_sha256": "c88d6e401aaeb1435303e13bcb83b49cdc412a104c8398b004aae72b32d584ef",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s005-matte-76edc94b38983f98.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s005-matte-76edc94b38983f98.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s005-matte-76edc94b38983f98.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s006/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s006/landscape/candidate-v001.png",
+      "sha256": "590cfb45f18f4ced02493cf335d1f8effa6552183f24076087e71bb42371f3d7",
+      "manifest_sha256": "590cfb45f18f4ced02493cf335d1f8effa6552183f24076087e71bb42371f3d7",
+      "deployed_provenance_sha256": "590cfb45f18f4ced02493cf335d1f8effa6552183f24076087e71bb42371f3d7",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s006-matte-8d6003d6af3ed10e.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s006-matte-8d6003d6af3ed10e.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s006-matte-8d6003d6af3ed10e.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 940
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 7,
+      "role": "alternate",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s007/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s007/landscape/candidate-v001.png",
+      "sha256": "31c7607662f9eaffe22b73ae04531a1c7838d91cb0db44a84130a0b59855300a",
+      "manifest_sha256": "31c7607662f9eaffe22b73ae04531a1c7838d91cb0db44a84130a0b59855300a",
+      "deployed_provenance_sha256": "31c7607662f9eaffe22b73ae04531a1c7838d91cb0db44a84130a0b59855300a",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s007-alternate-v001-ac279b7059baf331.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s007-alternate-v001-ac279b7059baf331.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s007-alternate-v001-ac279b7059baf331.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01",
+        "F-D006-S007-V001-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s007/landscape/candidate-v002.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s007/landscape/candidate-v002.png",
+      "sha256": "ca8e9e939f32da26877be02efc2f8b3ef2db80d52df9b84d8ae013e71a7c5376",
+      "manifest_sha256": "ca8e9e939f32da26877be02efc2f8b3ef2db80d52df9b84d8ae013e71a7c5376",
+      "deployed_provenance_sha256": "ca8e9e939f32da26877be02efc2f8b3ef2db80d52df9b84d8ae013e71a7c5376",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s007-matte-0ff73a59e9878515.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s007-matte-0ff73a59e9878515.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s007-matte-0ff73a59e9878515.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu/Guruvayurappan: four attached arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s008/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s008/landscape/candidate-v001.png",
+      "sha256": "a28aa0349248895d9ef83e1d4c999af94eeaae2d08eb2ab7477feffe5527ef81",
+      "manifest_sha256": "a28aa0349248895d9ef83e1d4c999af94eeaae2d08eb2ab7477feffe5527ef81",
+      "deployed_provenance_sha256": "a28aa0349248895d9ef83e1d4c999af94eeaae2d08eb2ab7477feffe5527ef81",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s008-matte-41fa8f1e47753d7d.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s008-matte-41fa8f1e47753d7d.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s008-matte-41fa8f1e47753d7d.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu: four arms; ordinary humans: two arms each",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01",
+        "F-D006-S008-DETAIL-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s009/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s009/landscape/candidate-v001.png",
+      "sha256": "e36e50f06047ef29ab6b3f5597583f2f2d17d63fbde8468453e87bcab4d7e793",
+      "manifest_sha256": "e36e50f06047ef29ab6b3f5597583f2f2d17d63fbde8468453e87bcab4d7e793",
+      "deployed_provenance_sha256": "e36e50f06047ef29ab6b3f5597583f2f2d17d63fbde8468453e87bcab4d7e793",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s009-matte-85bdc085166265f3.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s009-matte-85bdc085166265f3.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s009-matte-85bdc085166265f3.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu: four arms; one Bhattathiri: two arms, joined hands",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 6,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d006/s010/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d006/s010/landscape/candidate-v001.png",
+      "sha256": "d8c3114fa7f89384fa5bd870f0a7de7b2daddb80ddb0093b9534639189874682",
+      "manifest_sha256": "d8c3114fa7f89384fa5bd870f0a7de7b2daddb80ddb0093b9534639189874682",
+      "deployed_provenance_sha256": "d8c3114fa7f89384fa5bd870f0a7de7b2daddb80ddb0093b9534639189874682",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d006-s010-matte-e7674dee8a91300c.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d006-s010-matte-e7674dee8a91300c.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d006-s010-matte-e7674dee8a91300c.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu: four arms; one Bhattathiri: two arms, joined hands",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D006-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s001/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s001/landscape/candidate-v001.png",
+      "sha256": "94da5960cf2b333fab832ac88d6734c0a736903c855beb906a1774d2cfd5ba82",
+      "manifest_sha256": "94da5960cf2b333fab832ac88d6734c0a736903c855beb906a1774d2cfd5ba82",
+      "deployed_provenance_sha256": "94da5960cf2b333fab832ac88d6734c0a736903c855beb906a1774d2cfd5ba82",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s001-matte-0859573b738fd29b.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s001-matte-0859573b738fd29b.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s001-matte-0859573b738fd29b.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Brahma: four total heads, three front-visible faces, four arms; Vishnu four arms; Lakshmi and attendants two arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s002/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s002/landscape/candidate-v001.png",
+      "sha256": "520e02b7d00ea0c8db878c16d1e69b5bcdb15bd88cecd0caa6a3a2e14d4bfdf4",
+      "manifest_sha256": "520e02b7d00ea0c8db878c16d1e69b5bcdb15bd88cecd0caa6a3a2e14d4bfdf4",
+      "deployed_provenance_sha256": "520e02b7d00ea0c8db878c16d1e69b5bcdb15bd88cecd0caa6a3a2e14d4bfdf4",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s002-matte-062e9cec326b8efc.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s002-matte-062e9cec326b8efc.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s002-matte-062e9cec326b8efc.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Brahma: four total heads, three front-visible faces, four arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s003/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s003/landscape/candidate-v001.png",
+      "sha256": "b11525af86623e8162cab0d7f1963ee2752c96c373c4829e0fda95315aeba46e",
+      "manifest_sha256": "b11525af86623e8162cab0d7f1963ee2752c96c373c4829e0fda95315aeba46e",
+      "deployed_provenance_sha256": "b11525af86623e8162cab0d7f1963ee2752c96c373c4829e0fda95315aeba46e",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s003-matte-689c1e10558bdd21.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s003-matte-689c1e10558bdd21.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s003-matte-689c1e10558bdd21.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Brahma: four total heads, three front-visible faces, four arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s004/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s004/landscape/candidate-v001.png",
+      "sha256": "64b481c946d659bf1d109c82ac43a2a203fee9e5d30d9bd450b82e8c8e2c6ae7",
+      "manifest_sha256": "64b481c946d659bf1d109c82ac43a2a203fee9e5d30d9bd450b82e8c8e2c6ae7",
+      "deployed_provenance_sha256": "64b481c946d659bf1d109c82ac43a2a203fee9e5d30d9bd450b82e8c8e2c6ae7",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s004-matte-5290aa67bca16991.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s004-matte-5290aa67bca16991.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s004-matte-5290aa67bca16991.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Brahma: four total heads, three front-visible faces, four arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01",
+        "F-D007-S004-SCALE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s005/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s005/landscape/candidate-v001.png",
+      "sha256": "597f8ba4eb1a45c4b54957aaee7dbdbbee51f1c332513b4f374e8d5c5ce71b08",
+      "manifest_sha256": "597f8ba4eb1a45c4b54957aaee7dbdbbee51f1c332513b4f374e8d5c5ce71b08",
+      "deployed_provenance_sha256": "597f8ba4eb1a45c4b54957aaee7dbdbbee51f1c332513b4f374e8d5c5ce71b08",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s005-matte-2495cbe05989b984.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s005-matte-2495cbe05989b984.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s005-matte-2495cbe05989b984.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "two four-armed divine residents",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s006/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s006/landscape/candidate-v001.png",
+      "sha256": "19971c908511245d657ca723c85f38777d9e2faf1fcc0de4cbaf1de3877d309e",
+      "manifest_sha256": "19971c908511245d657ca723c85f38777d9e2faf1fcc0de4cbaf1de3877d309e",
+      "deployed_provenance_sha256": "19971c908511245d657ca723c85f38777d9e2faf1fcc0de4cbaf1de3877d309e",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s006-matte-3174d7741eb886b1.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s006-matte-3174d7741eb886b1.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s006-matte-3174d7741eb886b1.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Lakshmi and attendants: two arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s007/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s007/landscape/candidate-v001.png",
+      "sha256": "303465757803bf06c858ce3eee5a7c3782ed7982b6904a2e0c8a10e7f0208c32",
+      "manifest_sha256": "303465757803bf06c858ce3eee5a7c3782ed7982b6904a2e0c8a10e7f0208c32",
+      "deployed_provenance_sha256": "303465757803bf06c858ce3eee5a7c3782ed7982b6904a2e0c8a10e7f0208c32",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s007-matte-a11baef04f6a2dc3.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s007-matte-a11baef04f6a2dc3.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s007-matte-a11baef04f6a2dc3.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Brahma and Vishnu: four arms each",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s008/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s008/landscape/candidate-v001.png",
+      "sha256": "92ff90700f0b4b38dcacb1fae6a46868435f2a9496c6caa986bd2ed00c2e365f",
+      "manifest_sha256": "92ff90700f0b4b38dcacb1fae6a46868435f2a9496c6caa986bd2ed00c2e365f",
+      "deployed_provenance_sha256": "92ff90700f0b4b38dcacb1fae6a46868435f2a9496c6caa986bd2ed00c2e365f",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s008-matte-ad6ba45cdbdda5cc.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s008-matte-ad6ba45cdbdda5cc.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s008-matte-ad6ba45cdbdda5cc.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Vishnu: exactly four arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s009/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s009/landscape/candidate-v001.png",
+      "sha256": "4ece42b55b6a659be52e2dfd4b22fe4ce0a0d3ab3cd52910af87366bcfd17056",
+      "manifest_sha256": "4ece42b55b6a659be52e2dfd4b22fe4ce0a0d3ab3cd52910af87366bcfd17056",
+      "deployed_provenance_sha256": "4ece42b55b6a659be52e2dfd4b22fe4ce0a0d3ab3cd52910af87366bcfd17056",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s009-matte-ea568c4325ef3524.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s009-matte-ea568c4325ef3524.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s009-matte-ea568c4325ef3524.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Brahma: four total heads, three front-visible faces, four arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ]
+    },
+    {
+      "chapter": 7,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d007/s010/landscape/candidate-v001.png",
+      "inspection_copy_path": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/3/narayaneeyam/artifacts/audit-inspection/artifacts/d007/s010/landscape/candidate-v001.png",
+      "sha256": "32559d3587b7bef9ceb7a432973c57e6973c865e41237dadc32b7ccb3419669e",
+      "manifest_sha256": "32559d3587b7bef9ceb7a432973c57e6973c865e41237dadc32b7ccb3419669e",
+      "deployed_provenance_sha256": "32559d3587b7bef9ceb7a432973c57e6973c865e41237dadc32b7ccb3419669e",
+      "source_hash_matches_manifest_and_deployed_provenance": true,
+      "published_key": "media/d007-s010-matte-22fcdf950e6ae939.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d007-s010-matte-22fcdf950e6ae939.webp",
+      "live_selection_verified": true,
+      "live_selection_basis": "chrome-devtools-axi live page alt label and version matched key media/d007-s010-matte-22fcdf950e6ae939.webp; deployed release data.json and asset-provenance.json map this key to the same source path and SHA-256.",
+      "image_dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "expected_anatomy_basis": "Brahma: four total heads, three front-visible faces, four arms",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D007-STYLE-01"
+      ]
+    }
+  ]
+}

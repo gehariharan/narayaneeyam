@@ -1,0 +1,18 @@
+commands:
+  prepare: npm ci --ignore-scripts
+  test: npm test
+
+test:
+  instructions: |
+    Run npm test for the bounded image-review evidence and publication-consumer checks.
+    For changed generated image selections, read STUDIO.md and art/reviews/README.md.
+    Open every selected lead and visible alternate individually at native resolution;
+    inspect close views of ambiguous limbs, faces, overlaps and miniature figures.
+    Read the scene plan, series bible and relevant character rules before judging anatomy.
+    Record real reviewer observations, evidence and findings for the exact source SHA-256
+    in art/reviews/visual-reviews.json. Uncertain or needs-fix is not a pass. Never invent
+    visual inspection evidence, infer it from deterministic tests, or change art approval.
+    The exact historical inventory remains review material and is not a cleared final set.
+    npm run art:review:validate checks metadata without ignored originals. When originals
+    are present, node review-site/scripts/build.mjs checks actual source bytes. Before
+    publication, npm run art:review:validate -- --bundle checks the exact bundle too.

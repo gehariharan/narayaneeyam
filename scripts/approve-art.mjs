@@ -1,8 +1,9 @@
 import { createHash } from 'node:crypto';
-import { copyFile, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import sharp from 'sharp';
+import { sha256, validateApprovalCandidate } from '../review-site/image-review.mjs';
 
 const args = Object.fromEntries(process.argv.slice(2).map((arg) => {
   const match = arg.match(/^--([^=]+)=(.+)$/);
@@ -25,13 +26,22 @@ const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
 const record = manifest.stanzas.find((item) => item.n === stanzaNumber);
 if (!record) throw new Error(`No approval record for ${slug}/${stanzaSlug}`);
 
-const metadata = await sharp(candidate).metadata();
+const candidateBytes = await readFile(candidate);
+const metadata = await sharp(candidateBytes).metadata();
 if (!metadata.width || !metadata.height || !metadata.format) throw new Error('Candidate is not a readable raster image');
 const expected = orientation === 'landscape' ? 16 / 9 : 4 / 5;
 const actual = metadata.width / metadata.height;
 if (Math.abs(actual - expected) > 0.035) {
   throw new Error(`${orientation} candidate is ${metadata.width}x${metadata.height}; expected ${orientation === 'landscape' ? '16:9' : '4:5'} without cropping`);
 }
+
+// Explicit art approval still requires visual clearance, even for a historical candidate.
+const candidateVersion = path.basename(candidate).match(/-v(\d+)\./)?.[1];
+if (!candidateVersion) throw new Error('Visual clearance requires a versioned candidate filename.');
+await validateApprovalCandidate(root, {
+  chapter: daskamId, sloka: stanzaNumber, file: path.relative(root, candidate).replaceAll('\\', '/'),
+  version: `v${candidateVersion}`, sha256: sha256(candidateBytes)
+});
 
 const masterDir = path.join(root, 'artifacts', slug, stanzaSlug, orientation);
 await mkdir(masterDir, { recursive: true });
@@ -43,7 +53,7 @@ const versions = prior
 const version = Math.max(0, ...versions) + 1;
 const extension = metadata.format === 'jpeg' ? 'jpg' : metadata.format;
 const destination = path.join(masterDir, `master-v${String(version).padStart(3, '0')}.${extension}`);
-await copyFile(candidate, destination);
+await writeFile(destination, candidateBytes, { flag: 'wx' });
 const hash = createHash('sha256').update(await readFile(destination)).digest('hex');
 
 record[orientation] = {

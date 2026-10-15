@@ -26,7 +26,9 @@
     "postpreview:sync": "npm run studio:auto-sync",
     "storage:sync": "node scripts/sync-onedrive.mjs",
     "studio:auto-sync": "node scripts/sync-onedrive.mjs",
-    "postbuild": "npm run studio:auto-sync"
+    "postbuild": "npm run studio:auto-sync",
+    "art:review:validate": "node scripts/validate-image-reviews.mjs",
+    "test": "node --test tests/*.test.mjs && node scripts/validate-image-reviews.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",

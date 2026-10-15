@@ -38,9 +38,11 @@ also requires Zone > Workers Routes > Write for `gehariharan.com`. The personal
 blog repository is a separate
 Worker and is not part of this deployment path.
 
-For a GitHub Actions deployment, commit and push the review source, build the
-review bundle locally, and upload its media to R2 first. Then package and release
-the exact commit before dispatching the workflow:
+For a GitHub Actions deployment, validate and ship the source through no-mistakes,
+then build and package the exact commit. The current workflow uploads D001, D005,
+D006 and D007 media from the release; other newly prepared chapter derivatives
+need their chapter-scoped local upload before deployment. Then release the bundle
+and dispatch the workflow:
 
 ```sh
 node review-site/scripts/build.mjs
@@ -56,12 +58,22 @@ gh workflow run deploy-review.yml --ref "review-bundle-$sha"
 
 The release bundle contains only rendered review HTML, the review data and
 provenance manifests, and WebP derivatives. The Worker deployment uses a separate
-GitHub environment secret; GitHub Actions does not upload to R2.
+GitHub environment secret; GitHub Actions uploads the four chapter groups listed above to R2.
 
 Build creates a standalone index and chapter HTML reviews under `artifacts/review-site/`
 and WebP derivatives from an explicit list of local images. Originals remain
 unchanged. Each chapter compares a source reference with one traditional matte mural
-candidate; the build manifest records the exact versions. Detailed/glossy
+candidate; the build manifest records the exact versions. Every generated lead
+and visible alternate is checked against the version-bound
+visual review evidence before building, packaging or uploading. See
+[the inspection procedure](../art/reviews/README.md). The exact frozen historical
+collection remains visible as historical review material, including unresolved
+defects and uncertainties; it is not a cleared final set. All new/revised
+selections must have passing inspection evidence. Run `npm test`,
+`npm run art:review:validate`, and (after building)
+`npm run art:review:validate -- --bundle` before publication.
+
+Detailed/glossy
 candidates are retained only as historical files and are not published. Commentary
 is copied verbatim from content JSON only when its source is an allowlisted Facebook
 photo-caption file or a user-supplied Google Drive commentary file. The pages label

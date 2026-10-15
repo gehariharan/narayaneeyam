@@ -1,0 +1,824 @@
+{
+  "schema_version": 1,
+  "audit_scope": "D001, D002 and D003 currently published generated landscape candidates only; references excluded; no published alternates were displayed.",
+  "inspected_at": "2026-10-15",
+  "published_review_url": "https://gehariharan.com/narayaneeyam",
+  "release": {
+    "tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+    "bundle_sha256": "022c82668884db7dad4bd45eb9fdf9da7b367145b362fcf6a2f34e3babe88d80",
+    "dataset_revision": "af9bed7652551848"
+  },
+  "counts": {
+    "expected_published_generated": 30,
+    "inspected": 30,
+    "missing": 0,
+    "displayed_alternates_expected": 0,
+    "displayed_alternates_inspected": 0,
+    "pass": 19,
+    "needs_fix": 10,
+    "uncertain": 1,
+    "by_chapter": {
+      "D001": 10,
+      "D002": 10,
+      "D003": 10
+    }
+  },
+  "findings": [
+    {
+      "id": "F-D002-STYLE-01",
+      "chapter": 2,
+      "category": "series-style",
+      "severity": "medium",
+      "confidence": "high",
+      "affected_images": [
+        "D002-S001",
+        "D002-S002",
+        "D002-S003",
+        "D002-S004",
+        "D002-S005",
+        "D002-S006",
+        "D002-S007",
+        "D002-S008",
+        "D002-S009",
+        "D002-S010"
+      ],
+      "observed": "All ten published D002 candidates use substantially more dimensional face/skin and cloth modelling, reflective-looking gold highlights, and polished depth/lighting than the locked flat matte mineral temple-mural treatment. The mismatch is visible across deity and devotee subjects, rather than isolated to a single iconographic subject. This agrees with the existing D002 style review, but was freshly confirmed image-by-image in this audit.",
+      "expected_basis": "STUDIO.md and art/bible/series.json call for coherent matte mineral-pigment murals; art/plans/d002.json excludes glossy skin, reflective gold/silk sheen and cinematic rays.",
+      "location": "Whole image in each affected record; no single bounding box.",
+      "repair_direction": "Keep identities, scene content and valid iconography, but flatten modelling across both deities and people: firm painted contours, matte mineral colour fields, shallow stylised space, patterned rather than reflective gold, and less cinematic lighting."
+    },
+    {
+      "id": "F-D003-IDENTITY-01",
+      "chapter": 3,
+      "sloka": 1,
+      "category": "possible-same-person-duplication",
+      "severity": "low",
+      "confidence": "low",
+      "affected_images": [
+        "D003-S001"
+      ],
+      "outcome_effect": "uncertain",
+      "observed": "The front seated listener near x≈0.30,y≈0.64 and the storyteller near x≈0.61,y≈0.61 share several Bhattathiri continuity cues together: dark tied-back hair, dark beard, vertical tilak, cream dhoti and deep-maroon shoulder cloth. They may be distinct devotees rendered with a repeated template, or may read as Bhattathiri appearing twice within one scene.",
+      "expected_basis": "D003 S001 plan calls for one storyteller and permits Bhattathiri to appear quietly among listeners; the Bhattathiri continuity bible requires a consistent face, beard, tilak and clothing across depictions.",
+      "location": {
+        "normalized_bbox_listener": [
+          0.2,
+          0.34,
+          0.41,
+          0.98
+        ],
+        "normalized_bbox_storyteller": [
+          0.5,
+          0.31,
+          0.72,
+          0.98
+        ]
+      },
+      "repair_direction": "If they are intended as separate people, differentiate the storyteller from Bhattathiri in face, hair, tilak or garment palette. Otherwise keep only one Bhattathiri in the gathering. Do not infer a defect from shared palette alone."
+    }
+  ],
+  "images": [
+    {
+      "image_id": "D001-S001",
+      "chapter": 1,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v003",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s001/landscape/candidate-v003.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s001-v003.png",
+      "source_sha256": "6af6fdb4224845a9e6b4fd5f5b5be304a47f8889a9023d559470166e65abf041",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s001-matte-134ff1906e9cafa8.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s001-matte-134ff1906e9cafa8.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Full pale two-armed Guruvayurappan murti and normally proportioned human worshippers; plan prescribes frontal two-arm pose.",
+      "inspection_notes": "Pale temple murti is an intentional D001 S001 reference exception; human worshippers are distinct."
+    },
+    {
+      "image_id": "D001-S002",
+      "chapter": 1,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s002/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s002-v002.png",
+      "source_sha256": "d4dfb079e362a72744b61550fc4b057f8c74d7b2c36718df306edfe7b49c5afa",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s002-matte-184331824f4e672c.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s002-matte-184331824f4e672c.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Guruvayurappan and each human are two-armed; plan explicitly calls for three separate, individually readable human focal figures.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D001-S003",
+      "chapter": 1,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s003/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s003-v001.png",
+      "source_sha256": "adc1f28c2ce39fccc8a4c479f82ade2f12e9396b5bbcdce52f1cb6bbfe413b24",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s003-matte-61a2b0dd7b1a9855.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s003-matte-61a2b0dd7b1a9855.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Guruvayurappan and visible devotees follow ordinary two-arm anatomy; symbolic sattva wave is not a body.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D001-S004",
+      "chapter": 1,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s004/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s004-v001.png",
+      "source_sha256": "d947a8120217dfb227ff4422a6bd10c2ae87ef4e25a4714e6eb7cbb06869bacc",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s004-matte-a7d8defd344bdc9c.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s004-matte-a7d8defd344bdc9c.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Guruvayurappan is a complete two-armed form; pearl-like liberated souls are symbolic, not extra bodies.",
+      "inspection_notes": "Pearl figures are repeated symbolic souls, not duplicate people."
+    },
+    {
+      "image_id": "D001-S005",
+      "chapter": 1,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s005/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s005-v002.png",
+      "source_sha256": "8c9d81b63ebea37864fd67aa0df34b8682a6b8fb070e8039179f2781a9cbeca6",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s005-matte-023fe8208f24a96a.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s005-matte-023fe8208f24a96a.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "One complete two-armed Guruvayurappan form; plan explicitly forbids duplicate deity forms.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D001-S006",
+      "chapter": 1,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s006/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s006-v001.png",
+      "source_sha256": "bec1b40c7729d6181005e414ff024602f6255faca5d26f4f1410cc510b8616e6",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s006-matte-3aed93ec42696201.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s006-matte-3aed93ec42696201.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Guruvayurappan and human devotee are two-armed; Lakshmi is a small separate shrine motif.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D001-S007",
+      "chapter": 1,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s007/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s007-v002.png",
+      "source_sha256": "499410063c1bfda33730aea623644bb39c3a8480377511ffa9304a8079bb5bef",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s007-matte-e9f0c49eb8813639.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s007-matte-e9f0c49eb8813639.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Guruvayurappan and the single devotee have two attached arms; created-world figures are distinct secondary people.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D001-S008",
+      "chapter": 1,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s008/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s008-v001.png",
+      "source_sha256": "3a651c10157339446b315edb1d4eeccf45cf7e099020f3ff9595db931c782493",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s008-matte-bdd938fae12da0b9.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s008-matte-bdd938fae12da0b9.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Guruvayurappan and approaching people have ordinary two-arm anatomy; distant wish-tree seekers are separate people.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D001-S009",
+      "chapter": 1,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s009/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s009-v001.png",
+      "source_sha256": "c226c6cf69c0dc77095d2bf623b4150c7ccda01ca950c5c603086c398287f963",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s009-matte-e4ef1894ebf01667.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s009-matte-e4ef1894ebf01667.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Guruvayurappan and the few devotees are two-armed; concentric world symbols are not additional deities.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D001-S010",
+      "chapter": 1,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d001/s010/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d001/s010-v001.png",
+      "source_sha256": "4e3045b814974ed98a8d60abe7c71a9a9aa6c3969d9f1a9af489912472fdd3d8",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d001-s010-matte-72f3c6eabeb01026.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d001-s010-matte-72f3c6eabeb01026.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Guruvayurappan is shown with two arms; Lakshmi at the chest and sages in border medallions are intentional symbolic/divine depictions.",
+      "inspection_notes": "Several divine vignette figures are intentional iconographic/cosmic depictions."
+    },
+    {
+      "image_id": "D002-S001",
+      "chapter": 2,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v003",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s001/landscape/candidate-v003.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s001-v003.png",
+      "source_sha256": "6b3112486e82d2da654834639a4ce64463526e81884d7928775e451faa82d3f7",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s001-matte-c26bbf148bebe9f0.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s001-matte-c26bbf148bebe9f0.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Guruvayurappan has the planned two-arm frontal pose; no extra limbs are prescribed.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D002-S002",
+      "chapter": 2,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s002/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s002-v002.png",
+      "source_sha256": "fd96ce18beb97574018634451c3edf4c6e31ed9d495d70f19a845dee1b7e8f16",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s002-matte-502734a08ea6aa36.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s002-matte-502734a08ea6aa36.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Guruvayurappan is explicitly four-armed with conch, discus, mace and lotus, all separately held; the human devotee has two arms.",
+      "inspection_notes": "Four arms are prescribed by D002 S002 and visibly carry four separate attributes."
+    },
+    {
+      "image_id": "D002-S003",
+      "chapter": 2,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s003/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s003-v002.png",
+      "source_sha256": "a1ffa5e76b14cb2ddc92997cbf58d97d0311e5ad83ca31170badfae7137920b5",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s003-matte-961bf0a3957180e5.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s003-matte-961bf0a3957180e5.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Guruvayurappan and visible devotees have two arms; celestial beings are separate figures.",
+      "inspection_notes": "Similar celestial figures form an intentional group; no copied face/body artifact is clear at usable resolution."
+    },
+    {
+      "image_id": "D002-S004",
+      "chapter": 2,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s004/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s004-v002.png",
+      "source_sha256": "3c2acce7192ef202d2b4e37cc586036f53994cb9f93c9b0f3c2b76b378eb3fb0",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s004-matte-befa8cb5e68a6a3d.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s004-matte-befa8cb5e68a6a3d.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Guruvayurappan and Lakshmi are each two-armed; Lakshmi holds a lotus naturally.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D002-S005",
+      "chapter": 2,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s005/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s005-v002.png",
+      "source_sha256": "92fed2fcaffa7fdec7ecf37877a9df7447c6042d6352f8218c93d32623f33571",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s005-matte-ade301a0ddbb28d6.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s005-matte-ade301a0ddbb28d6.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Guruvayurappan, Lakshmi and human worshippers/musicians have two arms; cymbals and mridangam are hand-held instruments.",
+      "inspection_notes": "Crowd and musicians were inspected closely around hands/instruments; no fused ownership or extra limbs clear."
+    },
+    {
+      "image_id": "D002-S006",
+      "chapter": 2,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v003",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s006/landscape/candidate-v003.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s006-v003.png",
+      "source_sha256": "a9ef627a045a930a58eadd4e687074d019c7f304f704ded58a35729d4061199d",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s006-matte-26180d3646b3045f.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s006-matte-26180d3646b3045f.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Guruvayurappan and human storyteller/listeners are two-armed; narration is one scene, not a multi-limb deity form.",
+      "inspection_notes": "The storyteller’s extended forearm is long in gesture but remains attached and plausibly proportioned on close view."
+    },
+    {
+      "image_id": "D002-S007",
+      "chapter": 2,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s007/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s007-v002.png",
+      "source_sha256": "505419e44cf16a74895bb6f7113241c02719cc78775272205b5f93dfde2523e5",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s007-matte-fe4743f1a5c49d38.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s007-matte-fe4743f1a5c49d38.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Lord and ordinary people are two-armed; the multiple side paths are symbolic, not duplicate people.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D002-S008",
+      "chapter": 2,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s008/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s008-v002.png",
+      "source_sha256": "be2ffc730af2a2f1ceb9f1f49ac8b9266e95e36eecc5f4a85177e89b714748c7",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s008-matte-96f5bb22770a6250.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s008-matte-96f5bb22770a6250.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Lord and ordinary workers/seeker/devotee figures have two arms; cosmic geometry is symbolic.",
+      "inspection_notes": "Food offering, seated seeker and background figures were inspected closely; overlap resolves into separate people."
+    },
+    {
+      "image_id": "D002-S009",
+      "chapter": 2,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v003",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s009/landscape/candidate-v003.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s009-v003.png",
+      "source_sha256": "767a4a54e3c3c3f05695f4efb3375550047ca479c7b3c1426b27fb2321017afc",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s009-matte-934b93861d520ad5.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s009-matte-934b93861d520ad5.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Lord and each seeker are two-armed; ritual and reasoning vignettes are intentional distinct figures.",
+      "inspection_notes": "Hands around manuscript/polished vessel were inspected closely; object and hands resolve into one coherent task."
+    },
+    {
+      "image_id": "D002-S010",
+      "chapter": 2,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d002/s010/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d002/s010-v002.png",
+      "source_sha256": "05e4567f31f5bdc9c51723139096b7aa9789b8d595a5132640b04d487b55a6ee",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d002-s010-matte-ee3503fb65b253a6.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d002-s010-matte-ee3503fb65b253a6.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "needs-fix",
+      "finding_ids": [
+        "F-D002-STYLE-01"
+      ],
+      "expected_anatomy_basis": "Lord, devotee and figures in story vignettes are two-armed; embedded appearances are symbolic story echoes, not accidental duplicates.",
+      "inspection_notes": "Repeated small narrative vignettes are intentional story imagery, not one person duplicated accidentally."
+    },
+    {
+      "image_id": "D003-S001",
+      "chapter": 3,
+      "sloka": 1,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s001/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s001-v001.png",
+      "source_sha256": "eb300e5ffb2375e38add7ac6e0132c327807ba18de1cf37a5d24f6060c27fa44",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s001-matte-e9102979166c435d.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s001-matte-e9102979166c435d.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "uncertain",
+      "finding_ids": [
+        "F-D003-IDENTITY-01"
+      ],
+      "expected_anatomy_basis": "Guruvayurappan and listeners/storyteller are two-armed; plan permits Bhattathiri among listeners but calls for one storyteller.",
+      "inspection_notes": "Close view of crowded listeners shows distinct arm ownership. Possible second Bhattathiri identity is uncertain; see F-D003-IDENTITY-01."
+    },
+    {
+      "image_id": "D003-S002",
+      "chapter": 3,
+      "sloka": 2,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s002/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s002-v001.png",
+      "source_sha256": "c7c07c4ff03924f8abad697142a9a5a94505e6b0ffac7454e99deb2eeaee4be4",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s002-matte-441c03ca591d4542.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s002-matte-441c03ca591d4542.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Bhattathiri and Guruvayurappan have two arms; Bhattathiri is supported, with one hand steadying and the other reaching in prayer.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D003-S003",
+      "chapter": 3,
+      "sloka": 3,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s003/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s003-v002.png",
+      "source_sha256": "3a60547831c792c407f1e1d50b6c7e73a15e6f5a31dbae3efdef07fe8f7aee1e",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s003-matte-fe83d6d5d5f9439b.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s003-matte-fe83d6d5d5f9439b.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Bhattathiri, devotees and Guruvayurappan have two arms; walking devotees must read as distinct people.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D003-S004",
+      "chapter": 3,
+      "sloka": 4,
+      "role": "lead",
+      "version": "v002",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s004/landscape/candidate-v002.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s004-v002.png",
+      "source_sha256": "4e097aa9ad7bc80299ed552dd37333842809d1dbddffd544a308a35ab161e610",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s004-matte-f07c4809fc9a0d21.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s004-matte-f07c4809fc9a0d21.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Narada, two sages, Bhattathiri and Guruvayurappan have two arms; sages must remain distinct identities.",
+      "inspection_notes": "Narada and both sages are visibly distinct; no accidental Bhattathiri copy is apparent in the selected version."
+    },
+    {
+      "image_id": "D003-S005",
+      "chapter": 3,
+      "sloka": 5,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s005/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s005-v001.png",
+      "source_sha256": "ce6023aec96a3df8c4f66bc7854756bbd384de9b574c757db013816cdba594e1",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s005-matte-d52cee0f2a88ba39.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s005-matte-d52cee0f2a88ba39.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Bhattathiri and Guruvayurappan have two arms; flame and sage silhouette are symbolic motifs.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D003-S006",
+      "chapter": 3,
+      "sloka": 6,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s006/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s006-v001.png",
+      "source_sha256": "d1cfe631c4726095fc37f352f8183732cf61d5122a12a682dbfe97371f9a4c76",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s006-matte-c8ccffbb6d71c96c.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s006-matte-c8ccffbb6d71c96c.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "All people have two arms; plan explicitly allows up to three connected sequential depictions of Bhattathiri in one path.",
+      "inspection_notes": "Three connected Bhattathiri echoes are intentional per plan; background sages are visually distinct secondary figures."
+    },
+    {
+      "image_id": "D003-S007",
+      "chapter": 3,
+      "sloka": 7,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s007/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s007-v001.png",
+      "source_sha256": "a0328a26595887317b6c361051996ee09cfad7b4fe86314f6e10e0a87e55f5cc",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s007-matte-98b7ced1343c8c26.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s007-matte-98b7ced1343c8c26.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "One coherent two-armed Bhattathiri carries flowers with both hands; no disembodied hand/foot symbols or second body.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D003-S008",
+      "chapter": 3,
+      "sloka": 8,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s008/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s008-v001.png",
+      "source_sha256": "78133d2bd5058060cb04766d25c7ae3fac7b4fb85c2245e9182005d68c9171bb",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s008-matte-11b31d69a1b9a987.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s008-matte-11b31d69a1b9a987.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Bhattathiri and Guruvayurappan have two arms; tears/horripilation are restrained effects, not extra limbs.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D003-S009",
+      "chapter": 3,
+      "sloka": 9,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s009/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s009-v001.png",
+      "source_sha256": "661a01c58abee19e8c3551755aa71530efa7be797cd65fd6fa01bfdce7b029ab",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s009-matte-3ebee20a5e4e14d5.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s009-matte-3ebee20a5e4e14d5.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Bhattathiri, townspeople and Guruvayurappan have two arms; townspeople are distinct secondary people.",
+      "inspection_notes": "Inspected individually at 1672×941; no clear unintended extra/elongated/disconnected limb, fused body, duplicated named person, malformed face, text or watermark was observed."
+    },
+    {
+      "image_id": "D003-S010",
+      "chapter": 3,
+      "sloka": 10,
+      "role": "lead",
+      "version": "v001",
+      "local_source_path": "/home/gehariharan/Projects/narayaneeyam/artifacts/d003/s010/landscape/candidate-v001.png",
+      "local_inspection_copy": "/home/gehariharan/.treehouse/narayaneeyam-9a4f64/1/narayaneeyam/.audit-images/d003/s010-v001.png",
+      "source_sha256": "215892799eb8c40737bb1ab184aef19c84d944e8bf6782675d1995701135ec67",
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "published_key": "media/d003-s010-matte-ae30b44082d29c6f.webp",
+      "published_url": "https://gehariharan.com/narayaneeyam/media/d003-s010-matte-ae30b44082d29c6f.webp",
+      "deployed_release_tag": "review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16ee",
+      "deployed_dataset_revision": "af9bed7652551848",
+      "verified_live_selection_match": true,
+      "verification_basis": "Live chapter DOM image URL was observed with chrome-devtools-axi; its published key matches this exact named release data.json row and dNNN.html, and release asset-provenance.json maps the key to this source path and SHA-256.",
+      "visual_outcome": "pass",
+      "finding_ids": [],
+      "expected_anatomy_basis": "Bhattathiri and Guruvayurappan have two arms; full prostration is a single coherent body, with attributes nearby.",
+      "inspection_notes": "Long forward reach is consistent with prostration; close view shows one coherent torso, arms and legs."
+    }
+  ]
+}

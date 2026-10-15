@@ -1,9 +1,11 @@
+import { validateBundle } from '../image-review.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 const run=promisify(execFile);
 const root=path.resolve(import.meta.dirname,'../..');
+await validateBundle(root, path.join(root,'artifacts/review-site'));
 const data=JSON.parse(await fs.readFile(path.join(root,'artifacts/review-site/data.json')));
 const chapterArg=process.argv.find(a=>a.startsWith('--daskam='));
 const chapterId=chapterArg?Number(chapterArg.split('=')[1]):null;
