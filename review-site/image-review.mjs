@@ -9,7 +9,17 @@ const nonempty = value => typeof value === 'string' && value.trim().length > 0;
 const hash = value => typeof value === 'string' && /^[a-f0-9]{64}$/.test(value);
 const identity = image => JSON.stringify([image.chapter, image.sloka, image.role, image.file, image.version, image.sha256]);
 const slot = image => `${image.chapter}/${image.sloka}/${image.role}/${image.version}`;
-const historicalLabel = 'Historical review material — not cleared for final publication; known findings or inspection limits may remain.';
+const historical = 'Historical review material — not cleared for final publication.';
+const unauditedLabel = `${historical} Unreviewed: no commissioned visual audit covers this exact version.`;
+const firstSentence = text => String(text || '').split(/(?<=\.)\s/)[0];
+function auditLabel(audit, findings) {
+  const notes = audit.finding_ids.map(id => {
+    const finding = findings.get(id);
+    if (!finding) throw new Error(`Unknown audit finding ${id}`);
+    return `${finding.category}: ${firstSentence(finding.observed)}`;
+  });
+  return `${historical} Commissioned audit outcome for this exact version: ${audit.outcome}.${notes.length ? ` Findings: ${notes.join(' ')}` : ''}`;
+}
 const inspectedLabel = 'Visually inspected candidate — not art approval.';
 function localPath(root, file) {
   if (!nonempty(file) || path.isAbsolute(file) || file.includes('\\') || file.split('/').includes('..')) throw new Error(`Invalid review path: ${file}`);
@@ -18,12 +28,27 @@ function localPath(root, file) {
 async function readJson(root, file) { return JSON.parse(await fs.readFile(localPath(root, file), 'utf8')); }
 
 // This validates recorded evidence and byte bindings. It cannot determine visual correctness.
-export async function validateSelections(root, batches, { final = false } = {}) {
+export async function validateSelections(root, batches, options) {
   batches ??= await loadSelections(root);
-  const historical = await readJson(root, 'art/reviews/historical-selection.json');
+  return validateImages(root, selectedImages(batches), options);
+}
+
+// Approval clears exact candidate bytes; its lead/alternate display role is irrelevant.
+export async function validateApprovalCandidate(root, candidate) {
+  const { reviews } = await readJson(root, 'art/reviews/visual-reviews.json');
+  const exact = review => ['chapter', 'sloka', 'file', 'version', 'sha256'].every(key => review[key] === candidate[key]);
+  const roles = ['matte', 'alternate'].filter(role => Array.isArray(reviews) && reviews.some(review => review.role === role && exact(review)));
+  return validateImages(root, (roles.length ? roles : ['matte']).map(role => ({ ...candidate, role })), { final: true });
+}
+
+async function validateImages(root, images, { final = false } = {}) {
+  const frozen = await readJson(root, 'art/reviews/historical-selection.json');
   const records = await readJson(root, 'art/reviews/visual-reviews.json');
-  if (historical.schema_version !== 1 || !Array.isArray(historical.images) || records.schema_version !== 1 || !Array.isArray(records.reviews)) throw new Error('Invalid image review collection');
-  const legacy = new Set(historical.images.map(identity));
+  const audits = await readJson(root, 'art/reviews/audit-index.json');
+  if (frozen.schema_version !== 1 || !Array.isArray(frozen.images) || records.schema_version !== 1 || !Array.isArray(records.reviews) || audits.schema_version !== 1 || !Array.isArray(audits.images) || !Array.isArray(audits.findings)) throw new Error('Invalid image review collection');
+  const legacy = new Set(frozen.images.map(identity));
+  const auditFindings = new Map(audits.findings.map(finding => [finding.id, finding]));
+  const audited = new Map(audits.images.map(audit => [identity({ ...audit, role: audit.role === 'lead' ? 'matte' : audit.role, file: null }), audit]));
   const reviews = new Map();
   for (const review of records.reviews) {
     const key = identity(review);
@@ -31,14 +56,15 @@ export async function validateSelections(root, batches, { final = false } = {}) 
     reviews.set(key, review);
   }
   const results = new Map(), seen = new Set();
-  for (const image of selectedImages(batches)) {
+  for (const image of images) {
     const key = identity(image), where = slot(image);
     if (!Number.isInteger(image.chapter) || image.chapter < 1 || !Number.isInteger(image.sloka) || image.sloka < 1 || !nonempty(image.version) || !hash(image.sha256)) throw new Error(`Invalid selected image: ${where}`);
     localPath(root, image.file);
     if (seen.has(where)) throw new Error(`Duplicate selected image: ${where}`);
     seen.add(where);
     if (!final && legacy.has(key)) {
-      results.set(key, { status: 'historical', label: historicalLabel });
+      const audit = audited.get(identity({ ...image, file: null }));
+      results.set(key, { status: 'historical', label: audit ? auditLabel(audit, auditFindings) : unauditedLabel });
       continue;
     }
     if (final && sha256(await fs.readFile(localPath(root, image.file))) !== image.sha256) throw new Error(`Selection checksum mismatch for final clearance: ${where}`);
@@ -72,7 +98,7 @@ export async function validateSelections(root, batches, { final = false } = {}) 
     }
     results.set(key, { status: 'inspected', label: inspectedLabel });
   }
-  return { images: selectedImages(batches), results };
+  return { images, results };
 }
 export function reviewFor(validation, image) { return validation.results.get(identity(image)); }
 

@@ -3,7 +3,7 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import sharp from 'sharp';
-import { sha256, validateSelections } from '../review-site/image-review.mjs';
+import { sha256, validateApprovalCandidate } from '../review-site/image-review.mjs';
 
 const args = Object.fromEntries(process.argv.slice(2).map((arg) => {
   const match = arg.match(/^--([^=]+)=(.+)$/);
@@ -38,10 +38,10 @@ if (Math.abs(actual - expected) > 0.035) {
 // Explicit art approval still requires visual clearance, even for a historical candidate.
 const candidateVersion = path.basename(candidate).match(/-v(\d+)\./)?.[1];
 if (!candidateVersion) throw new Error('Visual clearance requires a versioned candidate filename.');
-await validateSelections(root, [{ daskam_id: daskamId, rows: [{ n: stanzaNumber, matte: {
-  file: path.relative(root, candidate).replaceAll('\\', '/'), version: `v${candidateVersion}`,
-  sha256: sha256(candidateBytes)
-} }] }], { final: true });
+await validateApprovalCandidate(root, {
+  chapter: daskamId, sloka: stanzaNumber, file: path.relative(root, candidate).replaceAll('\\', '/'),
+  version: `v${candidateVersion}`, sha256: sha256(candidateBytes)
+});
 
 const masterDir = path.join(root, 'artifacts', slug, stanzaSlug, orientation);
 await mkdir(masterDir, { recursive: true });

@@ -8,7 +8,7 @@ import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 import { validateSelections, validateBundle, reviewFor, reviewChecks, sha256 } from '../review-site/image-review.mjs';
-import { selectionFiles } from '../review-site/selections.mjs';
+import { loadSelections, selectedImages, selectionFiles } from '../review-site/selections.mjs';
 import { renderChapter } from '../review-site/views.mjs';
 
 async function fixture(t) {
@@ -25,6 +25,7 @@ async function fixture(t) {
   const row = { n: 1, matte: image, alternates: [] };
   const batch = { daskam_id: 1, rows: [row] };
   await write('art/reviews/historical-selection.json', { schema_version: 1, images: [] });
+  await write('art/reviews/audit-index.json', { schema_version: 1, images: [], findings: [] });
   const contracts = [];
   for (const [file, data] of [
     ['art/plans/d001.json', { stanzas: [{ n: 1, characters: ['brahma'], scene_brief: 'Brahma with exactly four attached arms and three visible faces.' }] }],
@@ -186,4 +187,70 @@ test('art approval consumes strict clearance before writing a master or changing
   await fs.writeFile(path.join(f.root, f.image.file), await sharp(bytes).negate().png().toBuffer());
   await assert.rejects(approve(), /Missing or stale visual inspection/);
   await assert.rejects(fs.access(path.join(f.root, 'artifacts/d001/s001/landscape/master-v002.png')));
+});
+
+test('historical labels disclose the exact-version audit outcome and findings, or read as unreviewed', async t => {
+  const f = await fixture(t);
+  await f.write('art/reviews/historical-selection.json', { schema_version: 1, images: [f.image] });
+  await f.save([]);
+  const audit = { chapter: 1, sloka: 1, role: 'lead', version: f.image.version, sha256: f.image.sha256, outcome: 'needs-fix', finding_ids: ['F1'] };
+  const finding = { id: 'F1', category: 'character-anatomy-contract', observed: 'Brahma shows only two visible arms. Further detail.' };
+  await f.write('art/reviews/audit-index.json', { schema_version: 1, images: [audit], findings: [finding] });
+  const state = reviewFor(await validateSelections(f.root, [f.batch]), f.image);
+  assert.equal(state.status, 'historical');
+  assert.match(state.label, /not cleared for final publication.*outcome for this exact version: needs-fix\. Findings: character-anatomy-contract: Brahma shows only two visible arms\.$/);
+  const image = f.data.chapters[0].rows[0].images[0];
+  await f.bundle();
+  await assert.rejects(validateBundle(f.root, f.directory), /bundled review label/);
+  Object.assign(image, { inspectionStatus: state.status, inspectionLabel: state.label });
+  await f.bundle();
+  await validateBundle(f.root, f.directory);
+  assert.ok(renderChapter(f.data.chapters[0], 'fixture').includes('needs-fix. Findings: character-anatomy-contract: Brahma shows only two visible arms.'));
+  for (const stale of [{ sha256: sha256('other bytes') }, { version: 'v001' }, { role: 'alternate' }]) {
+    await f.write('art/reviews/audit-index.json', { schema_version: 1, images: [{ ...audit, ...stale }], findings: [finding] });
+    assert.match(reviewFor(await validateSelections(f.root, [f.batch]), f.image).label, /Unreviewed: no commissioned visual audit/);
+  }
+  await f.write('art/reviews/audit-index.json', { schema_version: 1, images: [audit], findings: [] });
+  await assert.rejects(validateSelections(f.root, [f.batch]), /Unknown audit finding F1/);
+  await f.write('art/reviews/audit-index.json', { schema_version: 1, images: [audit], findings: [finding] });
+  await assert.rejects(validateSelections(f.root, [f.batch], { final: true }), /Missing or stale/);
+});
+
+test('repository historical labels match the preserved audits', async () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batches = await loadSelections(root);
+  const validation = await validateSelections(root, batches);
+  const label = (chapter, sloka, role = 'matte') => reviewFor(validation, selectedImages(batches).find(image => image.chapter === chapter && image.sloka === sloka && image.role === role)).label;
+  assert.match(label(4, 12), /needs-fix\. Findings: character-anatomy-contract:/);
+  assert.match(label(5, 7), /needs-fix\. Findings: composition-style:/);
+  assert.match(label(3, 1), /uncertain\. Findings: possible-same-person-duplication:/);
+  assert.match(label(1, 1), /outcome for this exact version: pass\.$/);
+  assert.match(label(38, 1), /Unreviewed/);
+  assert.match(label(96, 1), /Unreviewed/);
+  const labels = [...validation.results.values()].map(item => item.label);
+  assert.equal(labels.filter(text => /Unreviewed/.test(text)).length, 20);
+  assert.ok(labels.every(text => text.includes('not cleared for final publication')));
+});
+
+test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
+  const f = await fixture(t);
+  const bytes = await sharp({ create: { width: 64, height: 36, channels: 3, background: '#b46c0c' } }).png().toBuffer();
+  await fs.writeFile(path.join(f.root, f.image.file), bytes);
+  f.image.sha256 = f.review.sha256 = sha256(bytes);
+  await f.write('art/approved/d001.json', { daskam_id: 1, stanzas: [{ n: 1, landscape: { status: 'planned' } }] });
+  const alternate = { ...f.review, role: 'alternate' };
+  const run = promisify(execFile);
+  const script = fileURLToPath(new URL('../scripts/approve-art.mjs', import.meta.url));
+  const approve = () => run(process.execPath, [script, '--daskam=1', '--sloka=1', '--orientation=landscape', `--file=${f.image.file}`], { cwd: f.root });
+  await f.save([{ ...alternate, outcome: 'needs-fix' }]);
+  await assert.rejects(approve(), /Unresolved defects or uncertainty/);
+  await f.save([f.review, { ...alternate, outcome: 'uncertain' }]);
+  await assert.rejects(approve(), /Unresolved defects or uncertainty/);
+  await f.save([{ ...alternate, version: 'v001' }]);
+  await assert.rejects(approve(), /Missing or stale visual inspection/);
+  await f.save([alternate]);
+  await approve();
+  const approved = JSON.parse(await fs.readFile(path.join(f.root, 'art/approved/d001.json'), 'utf8'));
+  assert.equal(approved.stanzas[0].landscape.status, 'approved');
+  assert.equal(approved.stanzas[0].landscape.sha256, sha256(bytes));
 });

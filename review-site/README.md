@@ -49,11 +49,11 @@ node review-site/scripts/build.mjs
 node review-site/scripts/upload.mjs
 node review-site/scripts/package-release.mjs
 sha=$(git rev-parse HEAD)
-gh-axi release create "review-bundle-$sha" \
+gh release create "review-bundle-$sha" \
   "artifacts/review-releases/$sha/review-site-bundle.zip" \
   "artifacts/review-releases/$sha/review-site-bundle.zip.sha256" \
   --target "$sha" --title "Review bundle $sha"
-gh-axi workflow run deploy-review.yml --ref "review-bundle-$sha"
+gh workflow run deploy-review.yml --ref "review-bundle-$sha"
 ```
 
 The release bundle contains only rendered review HTML, the review data and

@@ -90,7 +90,12 @@ already present in release `review-bundle-2f7a5eb5efb6a631b31d5a5e144ecc38d1ea16
 (dataset `af9bed7652551848`). It includes each path, full hash, version, stanza
 and lead/alternate role. This preserves the live comparison collection; it is not
 a reviewed-final-set list. Do not extend it to exempt new or revised images.
-All historical selections display that status, including known-defect alternates.
+Every historical selection, including known-defect alternates, stays visible and
+displays the commissioned audit outcome recorded in `audit-index.json` for its
+exact chapter, stanza, role, version and hash, with each finding's category and
+observation (uncertainties and inspection limits included). A historical
+selection without such a record, such as D038/D096, reads as unreviewed. Labels
+disclose findings; they never clear an image.
 
 `npm run art:review:validate -- --final` is strict: historical entries receive no
 exemption. With originals available locally, every selection must have current
@@ -98,7 +103,9 @@ passing inspection evidence and matching actual source bytes. The
 current set deliberately fails this check. `art:approve` uses this strict rule
 for its exact candidate, computes its actual hash, and refuses before creating a
 master or changing the approval manifest if clearance is absent, stale or
-unresolved. Explicit user approval remains separately required to invoke it.
+unresolved. Approval matches a review of those exact candidate bytes whether it
+was recorded for a lead or a visible alternate; every such review must pass.
+Explicit user approval remains separately required to invoke it.
 Nothing in this review process grants art approval.
 
 The three commissioned audits are preserved verbatim under `audits/` and

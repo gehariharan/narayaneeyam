@@ -45,8 +45,8 @@ inspection records; the builder, release packager, uploader and deployment tests
 reject missing, stale or unresolved evidence. Automated checks prove completeness
 and hash binding, never visual correctness.
 
-The exact frozen historical comparison inventory remains available with explicit
-historical labels, including known-defect candidates; it is not a cleared final
+The exact frozen historical comparison inventory remains available, each image labelled
+with its exact-version audit outcome and findings, or as unreviewed; it is not a cleared final
 set. `npm run art:review:validate -- --final` rejects unreviewed, stale, needs-fix
 and uncertain records without any historical exemption. The D001–D007 audit
 reports and coverage are preserved under `art/reviews/`; D038/D096 were outside
