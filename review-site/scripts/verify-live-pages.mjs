@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 const base = 'https://gehariharan.com/narayaneeyam';
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-async function fetchText(path, marker = '/narayaneeyam/d004') {
+async function fetchText(path, marker = '/narayaneeyam/d007') {
   let last;
   for (let attempt = 1; attempt <= 6; attempt++) {
     const response = await fetch(`${base}${path}`, { redirect: 'follow', cache: 'no-store' });
@@ -19,7 +19,7 @@ for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd006', 'd007', 'd038'
 
 for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd006', 'd007', 'd038', 'd096']) {
   const html = await fetchText(`/${id}`, id === 'd006' ? 'Landscape candidate v004' : id === 'd007' ? 'Landscape candidate v001' : '/narayaneeyam/d004');
-  assert.ok(html.includes('Traditional matte mural') || ['d005', 'd006'].includes(id) && html.includes('Landscape candidate'));
+  assert.ok(html.includes('Traditional matte mural') || ['d005', 'd006', 'd007'].includes(id) && html.includes('Landscape candidate'));
   assert.ok(!html.includes('Detailed painting'));
   assert.ok(!html.includes('Glossy mural'));
   assert.equal((html.match(/<figure>/g) || []).length, id === 'd004' ? 30 : id === 'd005' ? 23 : id === 'd006' ? 23 : id === 'd007' ? 20 : 20);
@@ -28,7 +28,10 @@ for (const id of ['d001', 'd002', 'd003', 'd004', 'd005', 'd006', 'd007', 'd038'
     assert.ok(html.includes('All artwork is unapproved landscape candidate material'));
     assert.ok(html.includes('S007 v002 adds the omitted Adharma/back mapping'));
   }
-  if (id === 'd007') assert.ok(html.includes('All artwork is unapproved landscape candidate material'));
+  if (id === 'd007') {
+    assert.ok(html.includes('All artwork is unapproved landscape candidate material'));
+    assert.equal((html.match(/<figcaption>Landscape candidate v001<\/figcaption>/g) || []).length, 10);
+  }
 }
 
 console.log('Verified live: nine chapters including D005-D007 candidate reviews and D004 fifteen-row comparison.');
