@@ -30,11 +30,13 @@ npm run studio:validate
 npm run studio:validate -- --strict
 npm run prompt:build -- --daskam=1 --sloka=1 --orientation=landscape
 npm run prompt:build -- --daskam=1 --sloka=1 --orientation=portrait
+npm run art:review:validate
 npm run art:approve -- --daskam=1 --sloka=1 --orientation=portrait --file=artifacts/path/to/candidate.png
 npm run preview:sync
 npm run storage:sync -- --dry-run
 npm run storage:sync
 npm run check
+npm test
 npm run build
 ```
 
