@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "brahma",
+  "display": "Brahma",
+  "aliases": [
+    "Dhata",
+    "Hiranyagarbha",
+    "Kamala-born"
+  ],
+  "review_status": "approved",
+  "depiction_rules": {
+    "default_mode": "four-faced-creator",
+    "allowed_modes": [
+      "four-faced-creator",
+      "meditating-creator",
+      "devotional-witness"
+    ],
+    "notes": "D007 source collages are iconographic references only. This continuity sheet is a candidate and requires explicit user approval before full chapter scene production."
+  },
+  "visual_bible": {
+    "age": "mature divine sage, calm and dignified",
+    "faces": "Exactly four heads total, arranged around the head. In a front-facing view show three distinct faces; the fourth faces away behind the central head and is not seen from the front.",
+    "skin": "warm muted rose-ochre mineral pigment",
+    "hair": "dark hair, restrained ascetic arrangement, short white or grey beard kept consistent",
+    "crown": "modest ochre crown or sacred head ornament, not oversized",
+    "clothing": "warm cream and muted saffron robes with simple painted ochre borders",
+    "jewelry": "restrained sacred ornaments; sacred thread",
+    "seat": "lotus seat when seated",
+    "attributes": "four arms only; use a restrained lotus, water pot, prayer beads, and palm-leaf scripture as iconographic attributes, each held in one distinct hand",
+    "body_proportions": "natural compact adult proportions; shoulders, torso and limbs remain fully connected and visible",
+    "palette": "rose-ochre, warm cream, muted saffron and dark brown contours, painted matte"
+  },
+  "anatomy_contract": {
+    "heads_total": 4,
+    "faces_visible_from_front": 3,
+    "arms": 4,
+    "hands": 4,
+    "rule": "All four heads are present, with three faces visible from the front and the rear-facing fourth head hidden. All four arms and hands must be distinct and visibly attached. No duplicated features or extra limbs."
+  },
+  "never": [
+    "no more or fewer than four heads or arms",
+    "no merged faces or duplicated facial features",
+    "no extra hands or fingers",
+    "no exaggerated body proportions",
+    "no modern objects",
+    "no readable text or manuscript writing",
+    "no metallic shine, gloss, photorealism or cinematic lighting"
+  ],
+  "local_reference_paths": [
+    "artifacts/characters/brahma/character-sheet-candidate-v003.png"
+  ],
+  "source_reference_paths": [
+    "intake/D007/001.jpg",
+    "intake/D007/002.jpg"
+  ],
+  "note": "User approved this continuity on 2026-10-15 and clarified that the fourth face is turned behind; candidate v003 applies that direction.",
+  "approved_reference": {
+    "status": "approved",
+    "path": "artifacts/characters/brahma/character-sheet-candidate-v003.png",
+    "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+    "approved_at": "2026-10-15",
+    "approval_basis": "User replied Yes to approval of the Brahma character continuity and specified that only three faces show because the fourth head is in the back.",
+    "scope": "Brahma identity, four total heads with three visible from a frontal view, exactly four arms, cream/saffron clothing and matte mural style."
+  }
+}
