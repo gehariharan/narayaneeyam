@@ -6,15 +6,27 @@ import { chapterSlug, escapeHtml } from '../views.mjs';
 const defaultBase = 'https://gehariharan.com/narayaneeyam';
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-async function fetchText(base, path, marker, fetchImpl, retryDelayMs) {
+async function fetchVerified(base, path, verify, fetchImpl, retryDelayMs) {
   let last;
   for (let attempt = 1; attempt <= 6; attempt++) {
     const response = await fetchImpl(`${base}${path}`, { redirect: 'follow', cache: 'no-store' });
-    last = { status: response.status, text: await response.text() };
-    if (last.status === 200 && last.text.includes(marker)) return last.text;
+    last = { status: response.status, text: await response.text(), error: undefined };
+    if (last.status === 200) {
+      try {
+        verify(last.text);
+        return;
+      } catch (error) {
+        if (!(error instanceof assert.AssertionError)) throw error;
+        last.error = error;
+      }
+    }
     await pause(attempt * retryDelayMs);
   }
-  throw new Error(`Live verification did not converge for ${path}: HTTP ${last?.status}`);
+  throw new Error(`Live verification did not converge for ${path}: HTTP ${last?.status}${last?.error ? ` (${last.error.message})` : ''}`);
+}
+
+function verifyIndex(html, chapters) {
+  for (const chapter of chapters) assert.ok(html.includes(`/narayaneeyam/${chapterSlug(chapter.id)}`), `Live index is missing ${chapterSlug(chapter.id)}`);
 }
 
 function verifyChapter(html, chapter) {
@@ -63,14 +75,8 @@ export async function verifyLivePages(data, {
 } = {}) {
   assert.ok(Array.isArray(data?.chapters) && data.chapters.length > 0, 'Release data has no chapters');
   const chapters = data.chapters;
-  const index = await fetchText(base, '/', `/narayaneeyam/${chapterSlug(chapters[0].id)}`, fetchImpl, retryDelayMs);
-  for (const chapter of chapters) assert.ok(index.includes(`/narayaneeyam/${chapterSlug(chapter.id)}`), `Live index is missing ${chapterSlug(chapter.id)}`);
-
-  for (const chapter of chapters) {
-    const id = chapterSlug(chapter.id);
-    const html = await fetchText(base, `/${id}`, `/narayaneeyam/${chapterSlug(chapters[0].id)}`, fetchImpl, retryDelayMs);
-    verifyChapter(html, chapter);
-  }
+  await fetchVerified(base, '/', html => verifyIndex(html, chapters), fetchImpl, retryDelayMs);
+  for (const chapter of chapters) await fetchVerified(base, `/${chapterSlug(chapter.id)}`, html => verifyChapter(html, chapter), fetchImpl, retryDelayMs);
 
   console.log(`Verified live: ${chapters.length} chapters, ${chapters.reduce((n, c) => n + c.rows.length, 0)} release-mapped rows, selected image versions and feedback forms.`);
 }

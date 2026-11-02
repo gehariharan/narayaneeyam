@@ -101,10 +101,11 @@ assert.equal((await feedback(req({...good,daskam:8,sloka:13}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:8,sloka:14}),env)).status,400);
 console.log('Passed: D008 has thirteen caption-mapped rows, one pinned reference and one unapproved landscape candidate each, and stanza-bounded feedback.');
 
-async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {} } = {}) {
+async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {}, staleResponses = {} } = {}) {
  const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);
  for(const chapter of fixtureData.chapters)if(!missingRoutes.includes(chapter.id)){const route=`/narayaneeyam/${chapterSlug(chapter.id)}`;pages.set(route,pageOverrides[chapter.id]??renderChapter(chapter,fixtureData.revision,'/narayaneeyam/',true,fixtureData.chapters));}
- const server=createServer((req,res)=>{const html=pages.get(req.url);res.statusCode=html?200:404;res.end(html||'not found');});
+ const stale=new Map(Object.entries(staleResponses).map(([route,responses])=>[route,[...responses]]));
+ const server=createServer((req,res)=>{const html=stale.get(req.url)?.shift()??pages.get(req.url);res.statusCode=html?200:404;res.end(html||'not found');});
  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
  try { await callback(`http://127.0.0.1:${server.address().port}/narayaneeyam`); }
  finally { await new Promise((resolve,reject)=>server.close(error=>error?reject(error):resolve())); }
@@ -114,6 +115,9 @@ await withLiveFixture(data,async base=>verifyLivePages(data,{base,retryDelayMs:0
 const stalePage6=renderChapter(data.chapters.find(c=>c.id===6),data.revision,'/narayaneeyam/',true,data.chapters).replace('Landscape candidate v006','Landscape candidate v004');
 await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/missing selected matte version v006/),{pageOverrides:{6:stalePage6}});
 await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for \/d008: HTTP 404/),{missingRoutes:[8]});
+const previousData={...data,chapters:data.chapters.filter(c=>c.id!==8)};
+await withLiveFixture(data,async base=>verifyLivePages(data,{base,retryDelayMs:0}),{staleResponses:{'/narayaneeyam/':[renderIndex(previousData),renderIndex(previousData)],'/narayaneeyam/d006':[stalePage6,stalePage6,stalePage6]}});
+await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for \/: HTTP 200 \(Live index is missing d008\)/),{staleResponses:{'/narayaneeyam/':Array(6).fill(renderIndex(previousData))}});
 const stalePage8=renderChapter(data.chapters.find(c=>c.id===8),data.revision,'/narayaneeyam/',true,data.chapters).replace('Landscape candidate v004','Landscape candidate v002');
 await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/missing selected matte version v004/),{pageOverrides:{8:stalePage8}});
 const extended=structuredClone(data);const d009=structuredClone(extended.chapters.find(c=>c.id===8));d009.id=9;d009.title='Fixture D009';extended.chapters.push(d009);
