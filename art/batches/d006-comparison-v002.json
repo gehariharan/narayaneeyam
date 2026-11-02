@@ -2,8 +2,8 @@
   "schema_version": 1,
   "daskam_id": 6,
   "review_status": "needs-review",
-  "description": "D006 landscape candidates compared with supplied intake references. All generated images are unapproved review candidates.",
-  "review_notice": "All artwork is unapproved landscape candidate material. S001 v004 revises the body proportions; earlier versions remain available for comparison. S007 v002 adds the omitted Adharma/back mapping and clarifies the verse symbols. Portraits are paused. Sanskrit, romanization, and commentary still need editorial review; English translations are not yet available.",
+  "description": "D006 landscape candidates compared with supplied intake references. All generated images are unapproved review candidates. Updated for the selected older Bhattathiri revision batch; all new artwork remains unapproved.",
+  "review_notice": "Bhattathiri revision candidates are version-pinned, visually inspected and unapproved. Existing candidate history is preserved; superseded defect versions are not active selections.",
   "rows": [
     {
       "n": 1,
@@ -15,11 +15,12 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d006/s001/landscape/candidate-v004.png",
-        "sha256": "f1a368475020a236572a816a022b6ba4315d07552647694c13b031ff9dfdaf5f",
-        "version": "v004",
-        "label": "Landscape candidate v004",
-        "displayLabel": "Landscape candidate v004"
+        "file": "artifacts/d006/s001/landscape/candidate-v006.png",
+        "sha256": "674fd4dcb11c485794ccaf9ee4e7f9a1483b13d7e0aa593db5cdb9f71287e9d1",
+        "version": "v006",
+        "label": "Landscape candidate v006",
+        "displayLabel": "Landscape candidate v006",
+        "status": "visually-inspected-unapproved"
       },
       "alternates": [
         {
@@ -182,11 +183,12 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d006/s009/landscape/candidate-v001.png",
-        "sha256": "e36e50f06047ef29ab6b3f5597583f2f2d17d63fbde8468453e87bcab4d7e793",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001"
+        "file": "artifacts/d006/s009/landscape/candidate-v002.png",
+        "sha256": "2f3a54aeef4502f82670e9903f1e944b4903739fb28620dcbb657435e1afebb5",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
+        "status": "visually-inspected-unapproved"
       },
       "alternates": []
     },
@@ -200,13 +202,20 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d006/s010/landscape/candidate-v001.png",
-        "sha256": "d8c3114fa7f89384fa5bd870f0a7de7b2daddb80ddb0093b9534639189874682",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001"
+        "file": "artifacts/d006/s010/landscape/candidate-v002.png",
+        "sha256": "f8f20cd0eb88664207bd65a79c08848efa7508d37eb0ad493e1a97d3b9f8e1d9",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
+        "status": "visually-inspected-unapproved"
       },
       "alternates": []
     }
-  ]
+  ],
+  "revision_batch": {
+    "id": "bhattathiri-older-reference-v001",
+    "character_reference": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+    "status": "unapproved",
+    "candidate_count": 3
+  }
 }

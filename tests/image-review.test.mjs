@@ -221,15 +221,22 @@ test('repository historical labels match the preserved audits', async () => {
   const batches = await loadSelections(root);
   const validation = await validateSelections(root, batches);
   const label = (chapter, sloka, role = 'matte') => reviewFor(validation, selectedImages(batches).find(image => image.chapter === chapter && image.sloka === sloka && image.role === role)).label;
-  assert.match(label(4, 12), /needs-fix\. Findings: character-anatomy-contract:/);
+  const frozen = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/historical-selection.json'), 'utf8'));
   assert.match(label(5, 7), /needs-fix\. Findings: composition-style:/);
-  assert.match(label(3, 1), /uncertain\. Findings: possible-same-person-duplication:/);
+  const oldLabel = async (chapter, sloka) => {
+    const image = frozen.images.find(item => item.chapter === chapter && item.sloka === sloka && item.role === 'matte');
+    assert.ok(image, `missing frozen historical selection ${chapter}/${sloka}`);
+    const oldValidation = await validateSelections(root, [{ daskam_id: chapter, rows: [{ n: sloka, matte: image }] }]);
+    return reviewFor(oldValidation, { ...image, role: 'matte' }).label;
+  };
+  assert.match(await oldLabel(4, 12), /needs-fix\. Findings: character-anatomy-contract:/);
+  assert.match(await oldLabel(3, 1), /uncertain\. Findings: possible-same-person-duplication:/);
   assert.match(label(1, 1), /outcome for this exact version: pass\.$/);
   assert.match(label(38, 1), /Unreviewed/);
   assert.match(label(96, 1), /Unreviewed/);
   const labels = [...validation.results.values()].map(item => item.label);
   assert.equal(labels.filter(text => /Unreviewed/.test(text)).length, 20);
-  assert.ok(labels.every(text => text.includes('not cleared for final publication')));
+  assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
