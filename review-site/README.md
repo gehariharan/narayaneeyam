@@ -189,3 +189,15 @@ recorded in `art/batches/series-color-border-review-v001.md`.
 ## Dasakam 7
 
 D007 contains ten landscape review candidates matched to its ten supplied collages and verbatim Google Drive commentary entries. Brahma’s approved continuity shows four heads total, with three visible faces in a front view and the fourth facing behind. Each scene remains unapproved; portraits are paused. Upload its WebP derivatives with `node review-site/scripts/upload.mjs --daskam=7` before deploying the Worker.
+
+## Dasakam 8
+
+D008 contains thirteen landscape comparison rows, each matched to its numbered
+intake reference and supplied caption. The selected leads are independently
+composed candidates in `art/batches/d008-comparison-v001.json`; all thirteen
+have checksum-bound individual visual inspection records. Superseded trials
+remain in local artifacts and the internal review inventory, but are not part
+of the published comparison. The candidates remain unapproved, translations
+are absent, and portrait compositions are paused. Upload only D008's WebP
+derivatives with `node review-site/scripts/upload.mjs --daskam=8` before the
+serialized public deployment.
