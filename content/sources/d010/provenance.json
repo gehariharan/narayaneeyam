@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "daskam_id": 10,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-02",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-10-in-sanskrit/amp/",
+      "retrieval_note": "Devanagari stanzas 10-1 through 10-10 transcribed from the Stotra Nidhi Hindi/Sanskrit page; source page ends with 10-10. Needs human source and editorial comparison."
+    },
+    {
+      "role": "romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-10-in-english/",
+      "retrieval_note": "IAST stanzas 10-1 through 10-10 transcribed from the Stotra Nidhi English page; source orthography is retained, including visible page hyphenation. Needs human source and editorial comparison."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired"
+    },
+    {
+      "role": "commentary",
+      "url": "https://drive.google.com/file/d/1nRKos_RIyiRUCUm7V4Lw2uK-9o46C6II/view?usp=drive_web",
+      "local_path": "intake/D010/photo-captions.txt",
+      "status": "user-supplied Google Drive commentary; preserved verbatim, not treated as translation"
+    }
+  ],
+  "intake_manifest": "content/sources/d010/intake-manifest.json",
+  "commentary_sha256": "e549a2ae297443a135e3a08af5e6b06a7ef7e20495ba32d3988c79f6f45aa67c",
+  "note": "Canonical Sanskrit and IAST are transcribed from the cited Stotra Nidhi chapter sources. English translation is absent and human editorial review is pending. Supplied caption sections are user-provided commentary, not translation; no external translation was substituted."
+}

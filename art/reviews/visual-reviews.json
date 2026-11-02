@@ -2644,6 +2644,883 @@
       },
       "findings": [],
       "outcome": "pass"
+    },
+    {
+      "chapter": 10,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d010/s004/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "5fe295122446ed9bbc0b88d67d678bab4210172e2634bcae4d5cbaa26f1917b4",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma follows the four-head/four-arm character convention; S004 permits one Rudra form with one head and two attached arms. No ordinary humans are in this scene.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s004-landscape-v004-review-v002.md",
+          "sha256": "c3c6b0e52b61effa621d1bbbf4012027f09a25ad79b5ea81362026611621a1c7"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "One Brahma has four connected arms and three front faces; one newly born Rudra emerges from his brow with one head and two attached arms."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Brahma and Rudra remain distinct; visible arm and shoulder connections are natural, with no extra or detached limbs."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma’s three faces and the single crying Rudra face are distinct and visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly one Brahma and one Rudra; no duplicated figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, text-like marks, signature, logo or watermark was observed during full and close inspection."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The birth moment appears without unplanned Rudra attributes, objects, text or borders. Broad matte fields and clear framing match the mural direction."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/004.jpg",
+        "sha256": "2433610c46de95cf49e59675840524c3a80f2ec73dc4af89966a050e3c22cc94",
+        "caption_path": "intake/D010/photo-captions.txt#004",
+        "caption_section_sha256": "fb7f297d827856a588bc618dec19a51c634b6297754b7271f652eeaf017b5219",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
+    },
+    {
+      "chapter": 10,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d010/s001/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "c1aa762ec661248a91dc2bc80838edd2b5caa6a5dd43df34b9516a96ad659560",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma follows his four-head/four-arm convention; ordinary humans and the depicted celestial beings have one head and two arms each under the stanza contract.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s001-landscape-v002-review-v002.md",
+          "sha256": "57f466a530ac6cad502a6d4a12f19496b2969b459d553775cd56162823c14e61"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Three ordinary humans and three celestials are visibly separate; each has two connected arms and natural proportions. Brahma has three front-visible faces and four attached arms. Close views checked the humans and Brahma."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Shoulders, elbows, hips and legs remain naturally connected for the ordinary figures and celestials; Brahma follows his four-arm contract."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The adult man, adult woman and child have distinct faces; the three celestials and Brahma faces are individually visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One adult woman, one adult man, one child, one tree, one deer, one bird, three distinct celestials and one Brahma; no duplicated or fused person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, text-like marks, signature, logo or watermark was observed during full and close inspection."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The representative creation tableau is open and legible; broad matte fields and contours align with the D003 S002 native v002 anchor. No writing or text-like manuscript marks."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/001.jpg",
+        "sha256": "7b80058ec7071870f7b92a4cf58c9fb87718fb855c509c05c41cb9eb22714dcd",
+        "caption_path": "intake/D010/photo-captions.txt#001",
+        "caption_section_sha256": "78a29628bd593a8059da45a04718599b1a34a6a8e6c05fccc5284ee4c37be4f8",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
+    },
+    {
+      "chapter": 10,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d010/s002/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "33821426c5dcd87e8d89160d22ef68d03e057bbbf7026270847851ae91ad8e62",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:30:38Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Brahma uses the approved four-head/four-arm scene mode; five nonhuman symbolic shapes are required by the plan.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s002-landscape-v002-review-v002.md",
+          "sha256": "b2a6c4e67972c69a8d8d638050fe7d7def4e38f69de995209289a48441029cd0"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "One Brahma has four attached arms; five symbolic forms are nonhuman and do not require limb checks."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Brahma arm and shoulder attachments are connected; the five symbols remain separate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma has three distinct front-visible faces; symbols contain no extra people or faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Brahma and five distinct abstract forms; no duplicated or fused person."
+        },
+        "text_artifacts": {
+          "status": "needs-fix",
+          "observations": "Visible horizontal text-like marks appear on an open book; no book is called for by the scene."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The image contains an unplanned open book with text-like marks, contrary to the scene and no-text contract."
+        }
+      },
+      "findings": [
+        {
+          "id": "D010-S002-BOOK-MARKS-V002",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Visible horizontal text-like marks appear on the open book held by Brahma.",
+          "repair": "Generate a fresh version with all hands empty and no book, manuscript or writing surface."
+        }
+      ]
+    },
+    {
+      "chapter": 10,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d010/s003/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "66cc0ecca741f7c1f15444f039b6a0417d005946cf7f70ba41b76d7333249f14",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma follows the four-head/four-arm convention. The four Kumaras are ordinary youthful sages, each with one head and two arms under this scene contract.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s003-landscape-v003-review-v002.md",
+          "sha256": "dde596fcc7a9bf11f6824027bececb1e5799a1d5f5fc1245964df60c2153411c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Exactly four Kumaras each have one head, two connected arms and visible legs; Brahma has four attached arms and three front-visible faces. Close view checked the sages."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All four sage bodies are separate, naturally proportioned, with distinct shoulder, hip and limb connections."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All four youthful sage faces are individually visible and distinct in the close view; Brahma has three clear front faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly Sanaka, Sananda, Sanatana and Sanatkumara plus Brahma; the four sages do not repeat or fuse."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, text-like marks, signature, logo or watermark was observed during full and close inspection."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The four Kumaras attend Brahma in a quiet mural setting. No book-writing, extra person or scene artifact appears; palette and contours match the actual flat-matte style anchor."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/003.jpg",
+        "sha256": "14713d4447f081a89b9a8ad1b8d451eaf5fbb4c28875aef6320a2685ee5adb9f",
+        "caption_path": "intake/D010/photo-captions.txt#003",
+        "caption_section_sha256": "19e9f67c8938542010573788a0e979f46b1ed0ce610a3c87c6d92705fb56e857",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
+    },
+    {
+      "chapter": 10,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d010/s005/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "e1d3334753b8b03e3e5cce51eab93c0781c37d68d7b93f88b13fc2f30e26e930",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "S005 explicitly intends eleven Rudra forms: one primary and ten manifestations; each form has one head and two connected arms. Brahma retains the four-head/four-arm continuity.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s005-landscape-v004-review-v002.md",
+          "sha256": "f38e5268d6207609ba03f7f25800555c9acf15a8c82bacc7eb1ccafceafefc28"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Exactly eleven intentional Rudra forms (one primary plus five on each side) have one head and two connected arms each; Brahma has four connected arms. Close views checked both groups."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All eleven forms remain separated with visible natural arm and leg connections; no fused bodies."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The primary Rudra and ten smaller faces are distinct; Brahma has three front-visible faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Eleven Rudra appearances are intentional under the scene contract, arranged as one primary plus five on either side; no accidental extra form."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, text-like marks, signature, logo or watermark was observed during full and close inspection."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Exactly eleven niches and eleven paired lotus marks accompany the forms. No extra Rudra attributes, text or signature; broad matte mural style and full framing pass."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/005.jpg",
+        "sha256": "e75eef4c8312a23f9a48b45527f532ad0883cce943e4ba6cb6c2eaab1f557a7f",
+        "caption_path": "intake/D010/photo-captions.txt#005",
+        "caption_section_sha256": "d8036da7c04c993dcaf2952260bd02c3fa4a0d7770ebefc596ae5b70c6c8f82d",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
+    },
+    {
+      "chapter": 10,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d010/s006/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "8f0fa3bafe60269c5bab7c230f9ae3db6f1978e691c3097c6676c4fb2eb7e0ae",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Each Rudra manifestation is a distinct one-headed, two-armed deity under the S006 contract; Brahma uses the approved four-head/four-arm mode.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s006-landscape-v002-review-v002.md",
+          "sha256": "fd08dedd937a0ce248e7eeef0965082deea0f9c9c68abfde688a276e229bf438"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Exactly four Rudra appearances (one primary and three world-zone forms) each have one head and two attached arms; Brahma has four attached arms and three faces. Close views checked each form."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All four Rudra bodies and Brahma’s arms show natural shoulder, hip and limb connections."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The primary and three smaller Rudra faces are individually visible; Brahma’s three front faces are distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The four appearances are intentional manifestations under S006 and are separated across peaceful world zones; no accidental duplicate person or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, text-like marks, signature, logo or watermark was observed during full and close inspection."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Brahma gently restrains the receptive primary Rudra. No weapons, skulls, fire, animal hide or other forbidden attributes; matte mural style and framing pass."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/006.jpg",
+        "sha256": "de921745294ce0075f157c6bcc806b21ab952a538ddc68bd173a289386954caf",
+        "caption_path": "intake/D010/photo-captions.txt#006",
+        "caption_section_sha256": "29e7caa528bdfc2b6096a2f484fed3a0bc1774ee31c968542fadf86b1651010a",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
+    },
+    {
+      "chapter": 10,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d010/s008/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "378b77577f94351167bfa1d7ccd1c6bd9d3894edc65118e8e458e8b451e1808f",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Saraswati and the two sages are ordinary two-armed figures; Brahma uses the approved four-headed/four-armed mode.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s008-landscape-v001-review-v002.md",
+          "sha256": "368c236a5569b6d637fb599d4e85bd2accb1cda5632ae5bdcc6205885dde3a87"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Exactly four people: Saraswati has two connected arms; Sanaka and Daksha each have two; Brahma has four connected arms. Close views checked hands, feet and attachments."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All four figures remain distinct with natural shoulder, arm, hip and leg connections."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Saraswati, Sanaka and Daksha each have a clear face; Brahma has three distinct front-visible faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Saraswati, one Brahma and exactly two distinct sons; no extra person, fused or repeated figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, text-like marks, signature, logo or watermark was observed during full and close inspection."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Saraswati remains dignified and separate; Brahma turns inward while the two sons counsel from a respectful distance. No ungrounded instrument or mount; quiet matte mural framing passes."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/008.jpg",
+        "sha256": "3b46ea19a0e4526c2faae9cecb893a92d80614b8a994d2f12df2d1e6324b0372",
+        "caption_path": "intake/D010/photo-captions.txt#008",
+        "caption_section_sha256": "ad3c48e884a8fbb572bd5d00d084209d0124ede9d39c550b02d8127913593253",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
+    },
+    {
+      "chapter": 10,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d010/s009/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "961f3c5bca8b755935c62f191944347cd1969ac9e385c1abe7bbdac65a93ea12",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The three sages are ordinary two-armed figures; Brahma uses the approved four-headed/four-armed mode.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s009-landscape-v001-review-v002.md",
+          "sha256": "aa8a8ff17edb853b9333bd02fc40f90c2500fce32cf2d6d41cbcaf723c194a11"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Exactly four people: Brahma has four connected arms and three front-visible faces; each of three sages has two connected arms. Close views checked all."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Shoulder, elbow, hip and leg attachments are natural; no fused or distorted bodies."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma and all three listeners have visible, distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly one Brahma and three distinct sages; no duplicate or fused person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, text-like marks, signature, logo or watermark was observed during full and close inspection."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Four abstract streams, three sages and closed blank learning bundles are visible. No text-like marks, extra figures or artifacts; the matte mural scene is fully framed."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/009.jpg",
+        "sha256": "863d6e1454a512bc4293acf15a39da18dee7cfb1a4d7e8a95454a832f133594d",
+        "caption_path": "intake/D010/photo-captions.txt#009",
+        "caption_section_sha256": "06da2615b8ecfeb5a5b6d4adfd0752ce6a439939bf8ff6c6ccd7f1eac03c9d63",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
+    },
+    {
+      "chapter": 10,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d010/s010/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "cea1f73bd653ee8986107f73f4c7ee9ac3d550656775a24ef922875784ec57a5",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Manu, Shataroopa and Bhattathiri are ordinary two-armed people; Brahma and Guruvayurappan use their explicit four-arm contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s010-landscape-v001-review-v001.md",
+          "sha256": "31656e4c43f17bc845cfabf6464c2bffb28d368af4703bb679ebcf8f36fdca44"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Exactly five named people: Manu, Shataroopa and Bhattathiri each have two connected arms; Bhattathiri’s two joined hands and both forearms connect cleanly. Brahma and Guruvayurappan have four connected arms under their deity contracts. Close inspection checked visible hands, feet and attachments."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Manu, Shataroopa and Bhattathiri have natural human scale and connected shoulder, elbow, wrist, hip and leg proportions; Bhattathiri’s limbs are not elongated. Brahma and Guruvayurappan follow their deity contracts."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Bhattathiri has the lined clean-shaven face, shaved head with small tuft and ash marks of the older reference; Manu and Shataroopa are distinct; Brahma and Guruvayurappan match their references."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Brahma, one first-human pair and one commentary prayer pair; exactly five distinct people with no fusion or duplication."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, text-like marks, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Creation on the right and subordinate prayer on the left share a continuous matte mural landscape. No extra people; framing and character continuity pass."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/010.jpg",
+        "sha256": "8560fe0e94f9409fc2cf09be0dea73ec75fd056f3e7b3d88667117a6984b9c71",
+        "caption_path": "intake/D010/photo-captions.txt#010",
+        "caption_section_sha256": "161efe28df0d940cf633036d997eeec689a35f7f088b78fb027000de4dd6ba07",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
+    },
+    {
+      "chapter": 10,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d010/s007/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "40c095b31f5eecd776f9e464500b92fa18d31d64ae6d2275bd1fe58fd3382b12",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Each of the ten sages is an ordinary two-armed person; Brahma follows the approved four-head/four-arm character contract.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s007-landscape-v004-review-v001.md",
+          "sha256": "75a8d44f52117de4da1754b04ee3883582ad90291b7948f6eb9db1a2521caaa7"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Exactly ten sages and Brahma. Each sage has two connected arms and visible feet; Brahma has four connected arms. Close views checked hands, shoulders, legs and feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All ten sage bodies are complete, naturally proportioned and spaced in separate non-overlapping rows."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Ten adult male bearded sage faces are individually distinct; Brahma’s three front faces are clear."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly one Brahma and ten distinct sages. No extra, repeated or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No props, text, text-like marks, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Two separated rows of five attend to Brahma in the planned matte mural style; every figure is fully within frame."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/007.jpg",
+        "sha256": "dd670b0191e1a0f841297a3250adf52a2e016e7c0c92444900662f418e521ee4",
+        "caption_path": "intake/D010/photo-captions.txt#007",
+        "caption_section_sha256": "56901cd9fc6408052501b8055406ebbf38099024d7efbe6ea34bd441b4e0b088",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
+    },
+    {
+      "chapter": 10,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d010/s002/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "149ec34990df6308b41f7c5b824f4ae0a9a7360d6d390fc8a6d14c71aa1c9416",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-02T09:39:54Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma follows the approved four-head/four-arm contract; five nonhuman abstract symbols do not represent people.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d010.json",
+          "sha256": "650caf2c89a125d01b1a613a7801174a86f44a3d3e86dfca4f7b8aafbfebe7e4"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d010.json",
+          "sha256": "bcd9178183ec7aff0da01ad30c9cf27438b2abfed3d3eed18fda3c3c9b274db4"
+        },
+        {
+          "path": "content/sources/d010/intake-manifest.json",
+          "sha256": "a539eb74e316d5296046987d09f246d09c167a8b031d030a6a44b1abaaf33cdf"
+        },
+        {
+          "path": "content/sources/d010/reference-map.json",
+          "sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d010-s002-landscape-v003-review-v001.md",
+          "sha256": "0f6b3c1378bdfb06adfccf6eec82dc4d4a435d3d8eb853d030353a90cf1dc0c0"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Brahma has four connected arms and empty separate hands; five symbols are abstract and contain no people."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Brahma shoulder and arm attachments appear clear and proportionate, without extra or detached limbs."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Three distinct front-visible Brahma faces; no faces in the five symbolic forms."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly one Brahma and five separate nonhuman symbols; no duplicate or fused person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No books, writing, text-like marks, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Five planned symbols remain distinct around meditating Brahma; matte mural style and full framing pass."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D010/002.jpg",
+        "sha256": "2ef9e825e773ed01721f3b12317df2eb4dd051869d71aea3680492b0c494e071",
+        "caption_path": "intake/D010/photo-captions.txt#002",
+        "caption_section_sha256": "354b84f826cd7acbc141750d1c8945ff88674f1aa1189c284e29423fd3f01274",
+        "reference_map_path": "content/sources/d010/reference-map.json",
+        "reference_map_sha256": "52f86e9921d765a12afee1daf0bbfc92f7e89ec082d18c943d2d20f9bc340b0e"
+      }
     }
   ]
 }
