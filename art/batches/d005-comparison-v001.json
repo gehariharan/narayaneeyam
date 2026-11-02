@@ -2,8 +2,8 @@
   "schema_version": 1,
   "daskam_id": 5,
   "review_status": "needs-review",
-  "description": "D005 landscape candidates compared with supplied intake references. All generated images are unapproved review candidates.",
-  "review_notice": "Art only: all images are unapproved candidates. The Sanskrit transcription still needs source review; transliteration and English translation are not yet available.",
+  "description": "D005 landscape candidates compared with supplied intake references. All generated images are unapproved review candidates. Updated for the selected older Bhattathiri revision batch; all new artwork remains unapproved.",
+  "review_notice": "Bhattathiri revision candidates are version-pinned, visually inspected and unapproved. Existing candidate history is preserved; superseded defect versions are not active selections.",
   "rows": [
     {
       "n": 1,
@@ -173,21 +173,29 @@
         "version": "source"
       },
       "matte": {
-        "file": "artifacts/d005/s010/landscape/candidate-v002.png",
-        "sha256": "2137336cca2c9559bc473cbbe8b321f0d95fa8493eac3a1f7667d11676a04c07",
-        "version": "v002",
-        "label": "Landscape candidate v002",
-        "displayLabel": "Landscape candidate v002"
+        "file": "artifacts/d005/s010/landscape/candidate-v003.png",
+        "sha256": "3f56bea0231ef37384d23cfa6f820ec5ba707baec6a6e84595c09c497b22d3c1",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003",
+        "status": "visually-inspected-unapproved"
       },
       "alternates": [
         {
-          "file": "artifacts/d005/s010/landscape/candidate-v001.png",
-          "sha256": "4a4e8b8442d54b6d5732a3d6b925f17ad936f63b4beec1ab4226d93d7400fc53",
-          "version": "v001",
-          "label": "Landscape candidate v001",
-          "displayLabel": "Landscape candidate v001"
+          "file": "artifacts/d005/s010/landscape/candidate-v005.png",
+          "sha256": "133c93b0c3b956599eed3e501cfe3ca8ae709ac45f3fff5a736dd083fcd39c6b",
+          "version": "v005",
+          "label": "Landscape alternate v005",
+          "displayLabel": "Landscape alternate v005",
+          "status": "visually-inspected-unapproved"
         }
       ]
     }
-  ]
+  ],
+  "revision_batch": {
+    "id": "bhattathiri-older-reference-v001",
+    "character_reference": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+    "status": "unapproved",
+    "candidate_count": 2
+  }
 }
