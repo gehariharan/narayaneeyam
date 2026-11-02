@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "daskam_id": 9,
-  "review_scope": "Every generated candidate version in artifacts/d009/s*/landscape was inspected individually. Only checksum-passing selected leads are published; defective trials remain preserved locally and are excluded.",
+  "review_scope": "Every D009 landscape candidate was re-inspected individually against the final plan. Selected leads were opened at native resolution with close crops; excluded trials were re-examined for their defect only. Selected leads that need fixes are not cleared; excluded trials stay excluded.",
   "lead_versions": {
     "1": "v001",
     "2": "v001",
@@ -22,18 +22,20 @@
       "sha256": "e7e25fe273dea7758f8225f155d1da35f2809a5e1660bb36a83cccbf157d260d",
       "visual_review": "pass",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s005-landscape-v001-review-v003.md"
     },
     {
       "stanza": 1,
       "candidate_version": "v001",
       "file": "artifacts/d009/s001/landscape/candidate-v001.png",
       "sha256": "afc30ead5c43da0b6f1d09cd063358651819f10b170e3bccdd396b69e496b979",
-      "visual_review": "pass",
+      "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "The lotus stem emerges from a ring in Narayana's dhoti at the hip, gripped by his lower viewer-right hand, instead of being rooted at his navel as the final plan requires. The mace is held together with the lotus in Narayana's lower viewer-left hand; the plan places the mace in the lower viewer-right hand.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s001-landscape-v001-review-v002.md"
     },
     {
       "stanza": 1,
@@ -42,8 +44,9 @@
       "sha256": "0b3e0fb98107c9539c571139c2d5095839ddf3f32b597cb217eb52334b87c63d",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "Narayana has an extra lower hand resting on the thigh in addition to the four planned attribute-bearing hands, making the visible arm/hand count exceed four.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "The lotus stem is not rooted at Narayana's navel; it rises behind the mace hand from the dhoti at the hip. The previously recorded extra fifth Narayana hand was not found: four hands hold the discus, lotus, conch and mace.",
+      "review_method": "individual-reduced-overview-with-native-crops",
+      "evidence": "art/reviews/d009-s001-landscape-v002-review-v002.md"
     },
     {
       "stanza": 2,
@@ -52,8 +55,9 @@
       "sha256": "d96243c60f31a9c350f1faffadeba997c237ac39fd4193104794f668125ecdbf",
       "visual_review": "pass",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s002-landscape-v001-review-v002.md"
     },
     {
       "stanza": 3,
@@ -62,8 +66,9 @@
       "sha256": "07714be127ce3b8922345e072bcdbdc517cbba1300cb5ef166acaca6fae0b9ff",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "The lower feet fall outside the frame.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "The lower foot's toes meet the bottom frame edge, and the lotus flower is cut by the top edge.",
+      "review_method": "individual-reduced-overview-with-native-crops",
+      "evidence": "art/reviews/d009-s003-landscape-v001-review-v002.md"
     },
     {
       "stanza": 3,
@@ -72,8 +77,9 @@
       "sha256": "3b2eda5f335a3786762f5cb6db403302e0aa91578c109866611b677c874ee524",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "The upper lotus is cropped at the frame edge.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "The upper lotus is cut by the top frame edge.",
+      "review_method": "individual-reduced-overview",
+      "evidence": "art/reviews/d009-s003-landscape-v002-review-v002.md"
     },
     {
       "stanza": 3,
@@ -82,8 +88,9 @@
       "sha256": "1baad9dc9e1712da79a5fe5cc8a5f7a7c4fa09eb632eaec4526b43fe570c1a52",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "The lotus still meets/crops the upper frame edge.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "The lotus is cut by the top frame edge, and diagonal light shafts in the water conflict with the no-cinematic-light rule.",
+      "review_method": "individual-reduced-overview",
+      "evidence": "art/reviews/d009-s003-landscape-v003-review-v002.md"
     },
     {
       "stanza": 3,
@@ -92,8 +99,9 @@
       "sha256": "68df20789e1910c2e90f080d7c24b8513202da55ab9af1532c3c7a80e0188e39",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "The lotus petals touch the upper frame edge, leaving no safe margin.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "The lotus petals touch the top frame edge, leaving no safe margin.",
+      "review_method": "individual-reduced-overview",
+      "evidence": "art/reviews/d009-s003-landscape-v004-review-v002.md"
     },
     {
       "stanza": 3,
@@ -102,8 +110,9 @@
       "sha256": "909a46e846b025f9a6da2ec78d893bcd28770c85e473795be074f6c875761b96",
       "visual_review": "pass",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s003-landscape-v005-review-v002.md"
     },
     {
       "stanza": 4,
@@ -112,8 +121,9 @@
       "sha256": "52fcaa8fb0c9f9a349d4fba34b97680c33afb1c1de312ab984bbc50af641a66c",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "Brahma has an additional joined pair of hands in his lap beyond the four planned attribute arms (six arms visible).",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Brahma has six arms: book, water pot, lotus and beads in four hands, plus an additional joined pair in the lap.",
+      "review_method": "individual-reduced-overview-with-native-crops",
+      "evidence": "art/reviews/d009-s004-landscape-v001-review-v002.md"
     },
     {
       "stanza": 4,
@@ -122,8 +132,9 @@
       "sha256": "8038d0a3d0581d491e0de5ce6dccdcc22afb9eae2b50045259774fdaa45c55e3",
       "visual_review": "pass",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s004-landscape-v002-review-v002.md"
     },
     {
       "stanza": 6,
@@ -132,8 +143,9 @@
       "sha256": "b9fc78c70596f883d6f89a09b4ba587b47e8ee987d1500f07a85051204ada287",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "Narayana’s hand-side mapping conflicts with the source-grounded final plan; the serpent hood count/framing also requires the later corrected version.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Narayana's lower viewer-left hand holds the lotus and his lower viewer-right hand the mace, the reverse of the final plan; the central hood also touches the top frame edge.",
+      "review_method": "individual-reduced-overview-with-native-crops",
+      "evidence": "art/reviews/d009-s006-landscape-v001-review-v002.md"
     },
     {
       "stanza": 6,
@@ -142,18 +154,20 @@
       "sha256": "44abf107f0578ea5f7f2021683a60b2ceca7cea3d0e9864c5de037c98c550911",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "The Adishesha hood fan is clipped at the top edge.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Narayana has a fifth hand: on the viewer-left, one upper arm forks into a forearm gripping the mace and a second forearm resting on the bolster. The previously recorded hood clipping was not reproduced; the central hood meets the painted lintel, not the frame edge.",
+      "review_method": "individual-reduced-overview-with-native-crops",
+      "evidence": "art/reviews/d009-s006-landscape-v002-review-v002.md"
     },
     {
       "stanza": 6,
       "candidate_version": "v003",
       "file": "artifacts/d009/s006/landscape/candidate-v003.png",
       "sha256": "d3a5941f6ea2873ccec4a7028683aaaf67e96f28698220a5829f963f9101cfd7",
-      "visual_review": "pass",
+      "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Narayana's lower viewer-left hand rests open on the bolster and does not grip the mace, which stands free; the final plan requires that hand to hold the mace with a clear grip. Likeness note: Bhattathiri shows short side and back scalp hair with a curl behind the ear, while the selected older reference shows a largely shaved scalp with only a small tuft.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s006-landscape-v003-review-v002.md"
     },
     {
       "stanza": 7,
@@ -162,18 +176,20 @@
       "sha256": "6f3581ec7feb1e0264d921761148f3b73d10a696edaf6d4b47d2d3510e6096ad",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "Narayana’s lower-hand gestures are on the wrong viewer sides under the source-grounded final plan.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Brahma's upper hands hold a lotus and a water pot instead of the planned empty supplication gesture. The previously recorded wrong Narayana lower-hand sides were not reproduced: assurance is lower viewer-left and the open knee hand is lower viewer-right, as the final plan requires.",
+      "review_method": "individual-reduced-overview-with-native-crops",
+      "evidence": "art/reviews/d009-s007-landscape-v001-review-v002.md"
     },
     {
       "stanza": 7,
       "candidate_version": "v002",
       "file": "artifacts/d009/s007/landscape/candidate-v002.png",
       "sha256": "27da0513205427a8be54e003e7d6f25a681e98ea45522678b53c33872838d58d",
-      "visual_review": "needs-fix",
+      "visual_review": "uncertain",
       "approval_status": "unapproved",
-      "finding": "The lower-hand mapping remains wrong under the final source-grounded plan.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "The previously recorded wrong lower-hand mapping was not reproduced: Narayana's lower viewer-left hand is raised in assurance and the lower viewer-right rests on the knee. The full rubric was not re-run, so this trial is unresolved and stays excluded.",
+      "review_method": "individual-reduced-overview-with-native-crops",
+      "evidence": "art/reviews/d009-s007-landscape-v002-review-v002.md"
     },
     {
       "stanza": 7,
@@ -182,8 +198,9 @@
       "sha256": "1faf71ffce22463f93763cf3632523eb57d1ab3607011ade2f7dbdae49be8967",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "The lower-hand mapping remains wrong under the final source-grounded plan.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Narayana's raised assurance hand is lower viewer-right and the open resting hand lower viewer-left, the reverse of the final plan.",
+      "review_method": "individual-reduced-overview",
+      "evidence": "art/reviews/d009-s007-landscape-v003-review-v002.md"
     },
     {
       "stanza": 7,
@@ -192,8 +209,9 @@
       "sha256": "4c47d320f908111a788f08846687c4f7dbf6bc83dd806569de32c321dfe03245",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "The Adishesha hood fan is clipped at the top edge.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Narayana's lower-hand gestures are reversed relative to the final plan, and the hood fan meets the top frame edge.",
+      "review_method": "individual-reduced-overview",
+      "evidence": "art/reviews/d009-s007-landscape-v004-review-v002.md"
     },
     {
       "stanza": 7,
@@ -202,18 +220,20 @@
       "sha256": "59fac6044286932cb506dd283b89f4fc87f41c3227f6ec1b97a78a5e239dfa69",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "Brahma’s upper hands hold attributes instead of the planned empty supplication gesture.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Brahma's upper hands hold a book and a lotus instead of the planned empty supplication gesture, and Narayana's lower-hand gestures are reversed relative to the final plan.",
+      "review_method": "individual-reduced-overview",
+      "evidence": "art/reviews/d009-s007-landscape-v005-review-v002.md"
     },
     {
       "stanza": 7,
       "candidate_version": "v006",
       "file": "artifacts/d009/s007/landscape/candidate-v006.png",
       "sha256": "84f4993560d38ddec35612edf042826c41299fbd3839f0f05e47caf00336ca76",
-      "visual_review": "needs-fix",
+      "visual_review": "uncertain",
       "approval_status": "unapproved",
-      "finding": "Narayana’s assurance and open knee-hand gestures are reversed relative to the corrected final plan.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "The previously recorded reversed assurance and knee hands were not reproduced: assurance is lower viewer-left and the open hand rests on the lower viewer-right knee, as the final plan requires. The full rubric was not re-run, so this trial is unresolved and stays excluded.",
+      "review_method": "individual-reduced-overview-with-native-crops",
+      "evidence": "art/reviews/d009-s007-landscape-v006-review-v002.md"
     },
     {
       "stanza": 7,
@@ -222,8 +242,9 @@
       "sha256": "2d55db4f65fc534058a7a585adc3f36fce296b3df63f98fcc97dc06b9442f202",
       "visual_review": "pass",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s007-landscape-v007-review-v002.md"
     },
     {
       "stanza": 8,
@@ -232,8 +253,9 @@
       "sha256": "1f4811e2669457f0462de5f0e28bc8cd996f7580cb2c944defe43a2244ab9d2c",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "Narayana’s hand-side placement is wrong and Brahma’s lower hands hold objects instead of resting in the planned lap gesture.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Narayana's blessing hand is lower viewer-left and his open palm lower viewer-right, the reverse of the final plan; Brahma's lower hands hold a water pot and a lotus instead of resting in his lap.",
+      "review_method": "individual-reduced-overview",
+      "evidence": "art/reviews/d009-s008-landscape-v001-review-v002.md"
     },
     {
       "stanza": 8,
@@ -242,8 +264,9 @@
       "sha256": "efeedd66ef9d8729aa43ff04a1595a8f20a9aa6b86ca6b72daa89085fb9b6742",
       "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "The deity gestures match the corrected plan, but Narayana’s feet are cropped at the bottom edge.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Narayana's feet meet the bottom frame edge with no safe margin.",
+      "review_method": "individual-reduced-overview-with-native-crops",
+      "evidence": "art/reviews/d009-s008-landscape-v002-review-v002.md"
     },
     {
       "stanza": 8,
@@ -252,8 +275,9 @@
       "sha256": "84da69a242990e840f6ef81c3d3c02ddd1a03484e42daab51b23aa1e54b40340",
       "visual_review": "pass",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s008-landscape-v003-review-v002.md"
     },
     {
       "stanza": 9,
@@ -262,18 +286,20 @@
       "sha256": "15e197b0467f11b5c924c96288d39aa960734da2dd0a7b7f698d69b9c7182952",
       "visual_review": "pass",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s009-landscape-v001-review-v002.md"
     },
     {
       "stanza": 10,
       "candidate_version": "v001",
       "file": "artifacts/d009/s010/landscape/candidate-v001.png",
       "sha256": "04e554910ca0d83ca23de1fd53eaa1b125a82ed2d9d2e246963915128e79e0e6",
-      "visual_review": "pass",
+      "visual_review": "needs-fix",
       "approval_status": "unapproved",
-      "finding": "Selected landscape lead passed the final scene contract and visual checks; artwork remains unapproved.",
-      "review_method": "individual native-resolution visual inspection"
+      "finding": "Narayana's lower viewer-right (his left) hand opens downward toward the viewer rather than toward Bhattathiri, as the final plan requires. Likeness note: Bhattathiri shows short side and back scalp hair, while the selected older reference shows a largely shaved scalp with only a small tuft.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s010-landscape-v001-review-v002.md"
     }
   ]
 }
