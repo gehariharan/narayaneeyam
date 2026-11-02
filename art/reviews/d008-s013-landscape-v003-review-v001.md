@@ -1,17 +1,19 @@
 # D008 S013 v003 visual inspection
 
 - Reviewer: Codex
-- Inspected: 2026-11-02T06:21:38Z
+- Inspected: 2026-11-02T06:50:44Z
 - Method: individual native-resolution visual inspection
 - Candidate: `artifacts/d008/s013/landscape/candidate-v003.png`
 - SHA-256: `dff4f6d151d9e275191a8a4dc469b04e85e12632c8eeb6693bee0537be92f819`
+- Final Bhattathiri character contract SHA-256: `85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535`
+- Selected older-reference SHA-256: `ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3`
 - Dimensions: 1672x941
 - Scene: Bhattathiri prays to Guruvayurappan, who acknowledges the request.
 - Anatomy basis: Exactly two people appear: the older Bhattathiri and four-armed Guruvayurappan. The devotee has ordinary human anatomy; the pillar ornament is abstract rather than another person.
 
 ## Findings
 
-The candidate was inspected individually at native resolution for connected limb and hand anatomy, ordinary feet and proportions, faces, accidental duplicate or fused figures, text and generation artifacts, story fidelity, matte palette, frame treatment and safe margins. Exactly two people appear: the older Bhattathiri and four-armed Guruvayurappan. The devotee has ordinary human anatomy; the pillar ornament is abstract rather than another person. The scene reads as: Bhattathiri prays to Guruvayurappan, who acknowledges the request. Broad painted fields and dark contours follow the D001 matte anchors and D003 flat mural pilot. No readable text, signature, watermark or outer frame was observed. No unresolved defect or uncertainty was observed in this selected lead.
+The candidate was re-inspected individually at native resolution against the selected older-reference identity and the D008 composition reference. The final character contract names the same older-reference SHA-256 that was previously compared with this candidate. Connected limb and hand anatomy, ordinary feet and proportions, faces, accidental duplicate or fused figures, text and generation artifacts, story fidelity, matte palette, frame treatment and safe margins were checked. Exactly two people appear: the older Bhattathiri and four-armed Guruvayurappan. The devotee has ordinary human anatomy; the pillar ornament is abstract rather than another person. The scene reads as: Bhattathiri prays to Guruvayurappan, who acknowledges the request. Broad painted fields and dark contours follow the D001 matte anchors and D003 flat mural pilot. No readable text, signature, watermark or outer frame was observed. No unresolved defect or uncertainty was observed in this selected lead.
 
 ## Review limits
 
