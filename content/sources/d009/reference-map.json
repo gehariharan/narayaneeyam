@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "daskam_id": 9,
+  "source_manifest": "content/sources/d009/intake-manifest.json",
+  "caption_path": "content/sources/d009/photo-captions.txt",
+  "mapping_rule": "Ordinal image/caption numbering was checked against each canonical stanza and the visible reference. Each reference remains visual guidance only; semantic mismatches and montage content are recorded per row.",
+  "images": [
+    {
+      "stanza": 1,
+      "path": "intake/D009/001.jpg",
+      "width": 784,
+      "height": 1168,
+      "sha256": "21e6a0893665cd3bedff3760419343bc33b956eb913c322ed5d71862052dbcd4",
+      "caption_path": "content/sources/d009/photo-captions.txt#001",
+      "caption_sha256": "64a941a2ade91a8d238f0161d0430ed92a7641896e777148aef0fabe65ddbe55",
+      "semantic_match": "001.jpg and caption #1 show Brahma seated on the navel lotus, turning outward; they support the ordinal match. The reference's polished cosmic treatment and hand details are not instructions."
+    },
+    {
+      "stanza": 2,
+      "path": "intake/D009/002.jpg",
+      "width": 1402,
+      "height": 1122,
+      "sha256": "c42f80c8790422b0041acc9236bfde2638ae43593690432abf04364a7269412b",
+      "caption_path": "content/sources/d009/photo-captions.txt#002",
+      "caption_sha256": "419a2cffa7fa3dbbc876477043c96ab259642fb38c2cd166f4ca2cf8cafa6923",
+      "semantic_match": "002.jpg and caption #2 show Brahma on a lotus over causal waves with a visible stem; the unshown source is explicit in the canonical stanza and will remain absent."
+    },
+    {
+      "stanza": 3,
+      "path": "intake/D009/003.jpg",
+      "width": 1600,
+      "height": 1600,
+      "sha256": "8e5d72af9384da5ea70d583412c7babb59ba0cbe36778a11415103f414b92215",
+      "caption_path": "content/sources/d009/photo-captions.txt#003",
+      "caption_sha256": "b457115d391821377e6e633595542d0c931c67a29d5c5c7563311a9317c9ce70",
+      "semantic_match": "003.jpg is a two-part lotus/Brahma montage and does not clearly depict the descent through a hollow stem. It is mapped ordinally but supplies only lotus and Brahma iconographic cues; the new scene follows the canonical stanza and caption #3."
+    },
+    {
+      "stanza": 4,
+      "path": "intake/D009/004.jpg",
+      "width": 1600,
+      "height": 1402,
+      "sha256": "aadc833699549823804e12eb482e7d3389fb84d4932109620265dd125a6f9cf9",
+      "caption_path": "content/sources/d009/photo-captions.txt#004",
+      "caption_sha256": "70c142d806db102cb7e95ec6dc65d9b6d8e5e4ae0f2c44ccc0e6306d7f949e31",
+      "semantic_match": "004.jpg juxtaposes a searching landscape and a meditating Brahma. It supports the lotus/meditation motifs but its split composition and second depiction are not to be repeated."
+    },
+    {
+      "stanza": 5,
+      "path": "intake/D009/005.jpg",
+      "width": 736,
+      "height": 1044,
+      "sha256": "095b07632fadd53fad5f10e025e2de6955eb74b7abadea87b4951fab6c4ffc1e",
+      "caption_path": "content/sources/d009/photo-captions.txt#005",
+      "caption_sha256": "7b743b23a6dd0b9d3a68eb9df62351ee4ac7dca59bd2017ae28415f13d66525b",
+      "semantic_match": "005.jpg shows Brahma meditating with a small reclining Narayana and additional tiny worshippers. Ordinal caption #5 matches the vision, but the extra figures are not in the stanza and will be omitted."
+    },
+    {
+      "stanza": 6,
+      "path": "intake/D009/006.jpg",
+      "width": 1200,
+      "height": 800,
+      "sha256": "70840ca4bfbe2cdf935751576b2ea7519b3c382f1a09b9447a8184b2fdcaebdc",
+      "caption_path": "content/sources/d009/photo-captions.txt#006",
+      "caption_sha256": "6373f9a07c3af9e9de4c2db97fea99e31db1feb911cf73878cc7eb6c30626e4e",
+      "semantic_match": "006.jpg depicts Narayana reclining with Lakshmi and a small lotus-born figure; the supplied caption #6 instead names Bhattathiri worshipping the jeweled form. This is a content mismatch. Keep the canonical/caption subject and omit Lakshmi and the unrelated small Brahma."
+    },
+    {
+      "stanza": 7,
+      "path": "intake/D009/007.jpg",
+      "width": 1200,
+      "height": 675,
+      "sha256": "2d36529ce440caa42296d0bcd51a6dd5888396f5b64041d5c88832a723b7e04a",
+      "caption_path": "content/sources/d009/photo-captions.txt#007",
+      "caption_sha256": "e71c383d1ec6174c256c5f4e4b5dd6108af64f0a633960bca3bd2cff331c0245",
+      "semantic_match": "007.jpg and caption #7 show the two principal figures in a praise/teaching encounter; the paper-like marks in the reference are not to be reproduced."
+    },
+    {
+      "stanza": 8,
+      "path": "intake/D009/008.jpg",
+      "width": 1600,
+      "height": 1210,
+      "sha256": "f293dee4728ebc64579ebe9ac0d1c59c2b1cd695378e3ea2fe88a2f59323226d",
+      "caption_path": "content/sources/d009/photo-captions.txt#008",
+      "caption_sha256": "b8502a9fa6db2a3050009c7432f8fbf69d8fddd6fa5f87915e2928f5ae747c29",
+      "semantic_match": "008.jpg is a two-panel collage of deity and Brahma imagery. Its subject cues match caption #8, but the new scene is one continuous moment with one Brahma and one Lord."
+    },
+    {
+      "stanza": 9,
+      "path": "intake/D009/009.jpg",
+      "width": 1600,
+      "height": 1236,
+      "sha256": "ee78ed75d0ed4f9936ccd38f64afb31eeeb4dcb6336f76085d02d89452d1e4a9",
+      "caption_path": "content/sources/d009/photo-captions.txt#009",
+      "caption_sha256": "4ecb6c8f9abe35cf08110dfd5cc8d8b7c9d9ffc5eb7e0eac063ebb7833d9a9be",
+      "semantic_match": "009.jpg is another montage, including lotus-born Brahma and cosmic imagery; it supports the lotus/tapas cues but does not clearly show the stanza's wind and water action. The new plan follows the caption and stanza, without copying collage panels."
+    },
+    {
+      "stanza": 10,
+      "path": "intake/D009/010.jpg",
+      "width": 1600,
+      "height": 1600,
+      "sha256": "77fc54afafdb9b91cb50faee72f50141ee85a5140b7a46aab349baf20e8e2cd7",
+      "caption_path": "content/sources/d009/photo-captions.txt#010",
+      "caption_sha256": "b23ff3bb63a9291198d3cb05540fe2912afff74d7731731952ffbc4eb5431c0d",
+      "semantic_match": "010.jpg is a complex cosmic collage with repeated Brahma imagery. Caption #10 matches creation and Bhattathiri's plea, but the duplicate figures and planetary montage are excluded; the plan uses one figure of each named character and symbolic world-bands."
+    }
+  ]
+}
