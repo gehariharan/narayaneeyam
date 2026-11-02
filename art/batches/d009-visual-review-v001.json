@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "daskam_id": 9,
-  "review_scope": "Every D009 landscape candidate was re-inspected individually against the final plan. Selected leads were opened at native resolution with close crops; excluded trials were re-examined for their defect only. Selected leads that need fixes are not cleared; excluded trials stay excluded. Firstmate gate repairs for S001, S002, S006 and S010 were imported as new versions and inspected individually; S001 and S010 have no passing candidate and are withheld.",
+  "review_scope": "Every D009 landscape candidate was re-inspected individually against the final plan. Selected leads were opened at native resolution with close crops; excluded trials were re-examined for their defect only. Selected leads that need fixes are not cleared; excluded trials stay excluded. Firstmate gate repairs for S001, S002, S006 and S010 were imported as new versions and inspected individually; S001 and S010 have no passing candidate (including the S001 v012 and S010 v004 gate repairs); their rows publish the source reference only.",
   "lead_versions": {
     "1": null,
     "2": "v002",
@@ -344,6 +344,28 @@
       "finding": "Brahma shows four visible faces instead of three frontal faces with the fourth turned behind. Only two world bands appear; the plan requires three. Narayana's lower open hand is not clearly directed toward Bhattathiri, and Bhattathiri lacks the central forehead mark.",
       "review_method": "individual-native-resolution",
       "evidence": "art/reviews/d009-s010-landscape-v002-review-v001.md"
+    },
+    {
+      "stanza": 1,
+      "candidate_version": "v004",
+      "file": "artifacts/d009/s001/landscape/candidate-v004.png",
+      "sha256": "54a16af4a099b583df11d875a71051ff42cd3e9a0577edd85782ad8f36a22b84",
+      "visual_review": "needs-fix",
+      "approval_status": "unapproved",
+      "finding": "Narayana's lower viewer-right (mace) arm is elongated to roughly three times the length of his other forearms, stretching across the whole abdomen. Narayana's abdomen is stretched so that the navel and stem root lie beyond the waist ornament, where the hips should be.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s001-landscape-v004-review-v001.md"
+    },
+    {
+      "stanza": 10,
+      "candidate_version": "v003",
+      "file": "artifacts/d009/s010/landscape/candidate-v003.png",
+      "sha256": "6a71c03c76f6346f8a7d791bfaaf405d9f8c7d14acfb67068a2dbbeb90e387e6",
+      "visual_review": "needs-fix",
+      "approval_status": "unapproved",
+      "finding": "Narayana has five hands; on the viewer-left, one arm forks into a raised blessing hand and a hand reaching toward Bhattathiri.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s010-landscape-v003-review-v001.md"
     }
   ]
 }

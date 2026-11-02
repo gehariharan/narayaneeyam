@@ -46,6 +46,7 @@ for (const importedSelection of batches) {
     const images=[];
     for(const role of ['reference','matte']){
       const item=selected[role];
+      if(!item)continue;
       const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
       if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} ${role}`);
       const mediaLabel=id===5?`${d}-s${s}-${role}-${item.version||'selected'}`:`${d}-s${s}-${role}`;

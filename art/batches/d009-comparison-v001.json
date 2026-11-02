@@ -2,10 +2,24 @@
   "schema_version": 1,
   "daskam_id": 9,
   "review_status": "needs-review",
-  "visual_review_status": "8/10 D009 stanzas published with checksum-bound passing landscape leads (S002 v002 and S006 v004 imported from Firstmate gate repairs); S001 and S010 are withheld because no candidate passes; failed trials remain excluded; human art approval pending",
-  "description": "D009 landscape candidates paired with their numbered source references. Eight stanzas have passing leads; S001 and S010 are withheld as NOT CLEARED. All generated art remains unapproved.",
-  "review_notice": "Each published D009 landscape lead was inspected individually for stanza fidelity, deity anatomy, Bhattathiri's ordinary two-armed anatomy and likeness, hands and feet, faces, accidental duplicates, frame safety, text-like marks and flat matte style. S001 and S010 are withheld: no candidate yet passes. Candidates are unapproved; only explicit artwork approval may update the approval manifest. English translation remains absent and editorial review is pending. Portraits remain paused.",
+  "visual_review_status": "All ten D009 stanzas listed; eight show checksum-bound passing landscape leads (S002 v002 and S006 v004 imported from Firstmate gate repairs). S001 and S010 show only their source reference because every candidate, including the S001 v012 and S010 v004 gate repairs, needs fixes; human art approval pending",
+  "description": "D009 landscape candidates paired with their numbered source references. Eight stanzas have passing leads; S001 and S010 have no cleared generated image yet. All generated art remains unapproved.",
+  "review_notice": "Each published D009 landscape lead was inspected individually for stanza fidelity, deity anatomy, Bhattathiri's ordinary two-armed anatomy and likeness, hands and feet, faces, accidental duplicates, frame safety, text-like marks and flat matte style. S001 and S010 show only the source reference: no generated candidate has passed yet. Candidates are unapproved; only explicit artwork approval may update the approval manifest. English translation remains absent and editorial review is pending. Portraits remain paused.",
   "rows": [
+    {
+      "n": 1,
+      "concept_id": "d009-s001",
+      "scene": "Brahma turns in wonder on the navel lotus",
+      "reference": {
+        "file": "intake/D009/001.jpg",
+        "sha256": "21e6a0893665cd3bedff3760419343bc33b956eb913c322ed5d71862052dbcd4",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "alternates": [],
+      "matte_status": "No cleared landscape lead: candidates v001, v002, v003, v004 all need fixes; only the source reference is published."
+    },
     {
       "n": 2,
       "concept_id": "d009-s002",
@@ -165,6 +179,20 @@
         "displayLabel": "Landscape candidate v001"
       },
       "alternates": []
+    },
+    {
+      "n": 10,
+      "concept_id": "d009-s010",
+      "scene": "Brahma begins creation as Bhattathiri seeks grace",
+      "reference": {
+        "file": "intake/D009/010.jpg",
+        "sha256": "77fc54afafdb9b91cb50faee72f50141ee85a5140b7a46aab349baf20e8e2cd7",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "alternates": [],
+      "matte_status": "No cleared landscape lead: candidates v001, v002, v003 all need fixes; only the source reference is published."
     }
   ],
   "revision_batch": {
@@ -182,72 +210,5 @@
     },
     "visual_review_report": "art/reviews/visual-reviews.json",
     "source_map": "content/sources/d009/reference-map.json"
-  },
-  "withheld_rows": [
-    {
-      "n": 1,
-      "concept_id": "d009-s001",
-      "scene": "Brahma turns in wonder on the navel lotus",
-      "reference": {
-        "file": "intake/D009/001.jpg",
-        "sha256": "21e6a0893665cd3bedff3760419343bc33b956eb913c322ed5d71862052dbcd4",
-        "version": "source",
-        "label": "Original reference",
-        "displayLabel": "Original reference"
-      },
-      "uncleared_candidates": [
-        {
-          "file": "artifacts/d009/s001/landscape/candidate-v001.png",
-          "sha256": "afc30ead5c43da0b6f1d09cd063358651819f10b170e3bccdd396b69e496b979",
-          "version": "v001",
-          "label": "Landscape candidate v001",
-          "displayLabel": "Landscape candidate v001"
-        },
-        {
-          "file": "artifacts/d009/s001/landscape/candidate-v002.png",
-          "sha256": "0b3e0fb98107c9539c571139c2d5095839ddf3f32b597cb217eb52334b87c63d",
-          "version": "v002",
-          "label": "Landscape candidate v002",
-          "displayLabel": "Landscape candidate v002"
-        },
-        {
-          "file": "artifacts/d009/s001/landscape/candidate-v003.png",
-          "sha256": "e01e42b6d69021a9ea61b1e5540862935fabb92c3a8878eca139a471f406b69c",
-          "version": "v003",
-          "label": "Landscape candidate v003",
-          "displayLabel": "Landscape candidate v003"
-        }
-      ],
-      "reason": "No D009 candidate for this stanza passes visual review; the stanza is withheld from publication until a corrected candidate passes."
-    },
-    {
-      "n": 10,
-      "concept_id": "d009-s010",
-      "scene": "Brahma begins creation as Bhattathiri seeks grace",
-      "reference": {
-        "file": "intake/D009/010.jpg",
-        "sha256": "77fc54afafdb9b91cb50faee72f50141ee85a5140b7a46aab349baf20e8e2cd7",
-        "version": "source",
-        "label": "Original reference",
-        "displayLabel": "Original reference"
-      },
-      "uncleared_candidates": [
-        {
-          "file": "artifacts/d009/s010/landscape/candidate-v001.png",
-          "sha256": "04e554910ca0d83ca23de1fd53eaa1b125a82ed2d9d2e246963915128e79e0e6",
-          "version": "v001",
-          "label": "Landscape candidate v001",
-          "displayLabel": "Landscape candidate v001"
-        },
-        {
-          "file": "artifacts/d009/s010/landscape/candidate-v002.png",
-          "sha256": "54bb73d12ba2e0e6b45521720e26d3bdbdab1e81ed89286de8b2f61208680d76",
-          "version": "v002",
-          "label": "Landscape candidate v002",
-          "displayLabel": "Landscape candidate v002"
-        }
-      ],
-      "reason": "No D009 candidate for this stanza passes visual review; the stanza is withheld from publication until a corrected candidate passes."
-    }
-  ]
+  }
 }

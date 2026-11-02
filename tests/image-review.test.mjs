@@ -80,6 +80,20 @@ test('every selected alternate needs independent evidence, and cannot vanish fro
   await f.save([f.review, { ...f.review, ...alternate }]);
   await assert.rejects(validateBundle(f.root, f.directory), /omits selected images or visible alternates/);
 });
+test('a stanza without a cleared lead stays listed but publishes no generated image', async t => {
+  const f = await fixture(t);
+  const uncleared = { ...f.image, sloka: 2, file: 'artifacts/d001/s002/landscape/candidate-v001.png', version: 'v001', sha256: sha256('defective bytes') };
+  await f.save([f.review, { ...f.review, ...uncleared, outcome: 'needs-fix', findings: ['Five hands on a four-armed deity.'] }]);
+  f.batch.rows.push({ n: 2, alternates: [] });
+  await f.write(`art/batches/${selectionFiles[0]}`, f.batch);
+  const batches = await loadSelections(f.root);
+  assert.deepEqual(batches[0].rows.map(row => row.n), [1, 2]);
+  assert.deepEqual(selectedImages(batches).map(image => image.sloka), [1]);
+  assert.equal((await validateBundle(f.root, f.directory)).images.length, 1);
+  f.batch.rows[1].matte = { file: uncleared.file, version: uncleared.version, sha256: uncleared.sha256 };
+  await f.write(`art/batches/${selectionFiles[0]}`, f.batch);
+  await assert.rejects(validateBundle(f.root, f.directory), /Unresolved defects or uncertainty: 1\/2\/matte\/v001/);
+});
 test('changing selected bytes or version invalidates prior review; stale bundle hashes fail', async t => {
   const f = await fixture(t);
   f.image.sha256 = sha256('revised bytes');
