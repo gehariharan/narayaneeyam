@@ -6,10 +6,10 @@ import { chapterSlug, escapeHtml } from '../views.mjs';
 const defaultBase = 'https://gehariharan.com/narayaneeyam';
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-async function fetchVerified(base, path, verify, fetchImpl, retryDelayMs) {
+async function fetchVerified(base, path, verify, retryDelayMs) {
   let last;
   for (let attempt = 1; attempt <= 6; attempt++) {
-    const response = await fetchImpl(`${base}${path}`, { redirect: 'follow', cache: 'no-store' });
+    const response = await fetch(`${base}${path}`, { redirect: 'follow', cache: 'no-store' });
     last = { status: response.status, text: await response.text(), error: undefined };
     if (last.status === 200) {
       try {
@@ -69,14 +69,13 @@ function verifyChapter(html, chapter) {
 }
 
 export async function verifyLivePages(data, {
-  base = process.env.NARAYANEEYAM_REVIEW_BASE_URL || defaultBase,
-  fetchImpl = fetch,
+  base = defaultBase,
   retryDelayMs = 5000,
 } = {}) {
   assert.ok(Array.isArray(data?.chapters) && data.chapters.length > 0, 'Release data has no chapters');
   const chapters = data.chapters;
-  await fetchVerified(base, '/', html => verifyIndex(html, chapters), fetchImpl, retryDelayMs);
-  for (const chapter of chapters) await fetchVerified(base, `/${chapterSlug(chapter.id)}`, html => verifyChapter(html, chapter), fetchImpl, retryDelayMs);
+  await fetchVerified(base, '/', html => verifyIndex(html, chapters), retryDelayMs);
+  for (const chapter of chapters) await fetchVerified(base, `/${chapterSlug(chapter.id)}`, html => verifyChapter(html, chapter), retryDelayMs);
 
   console.log(`Verified live: ${chapters.length} chapters, ${chapters.reduce((n, c) => n + c.rows.length, 0)} release-mapped rows, selected image versions and feedback forms.`);
 }
