@@ -1268,11 +1268,11 @@
       "file": "artifacts/d004/s012/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "bd16f8b6c4d09121957092ce19b57186ddeb475f04dd6f24e9b7a75788256834",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-02T05:53:32Z",
+      "reviewer": "Claude (no-mistakes review fix round)",
+      "inspected_at": "2026-11-02T07:00:53Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Bhattathiri is an ordinary two-armed human. Any multiple forms or deity limbs explicitly required by this scene plan are intentional and remain distinct.",
+      "anatomy_basis": "Bhattathiri is an ordinary two-armed human kneeling in anjali. Guruvayurappan stands with two visible attached arms (raised abhaya hand, lowered hand). Adishesha is one serpent whose nine hood necks all descend into the same continuous coiled body.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -1292,39 +1292,39 @@
         },
         {
           "path": "art/bible/characters/adishesha/character.json",
-          "sha256": "5f4ee2872cd6a6b8ae448e744935def53e5e9339d6e7d465880956b8fc1c6ee8"
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/bhattathiri-revision-v001.md",
-          "sha256": "b7b47f1305ffcb3cea7e9fd9fd2914ed93559a6967bb33f685d4f515a134c78c"
+          "path": "art/reviews/d004-s012-landscape-v002-adishesha-review-v001.md",
+          "sha256": "0612545a7d08008711cc622fa6e508687b9c1f7bddbb6aeb2f57cdcb0ce21aa8"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "inspected individually at original 1672x941 resolution; no malformed faces, disconnected normal-human limbs, fused bodies, or unintended duplicates observed. Intentional deity anatomy is assessed under the scene-specific contract. Visible hands, feet and limbs were checked at native resolution."
+          "observations": "Bhattathiri's two hands are joined in anjali with distinct fingers; his folded legs read as one kneeling pose. Guruvayurappan's raised abhaya hand and lowered hand each have five distinct fingers; both bare feet stand on the lotus pedestal and are fully in frame."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Visible shoulders, hips and limb attachments remain connected and proportionate; the intended symbolic deity anatomy is documented in the scene contract."
+          "observations": "Both figures' shoulders and limbs attach coherently with ordinary proportions. All nine Adishesha hood necks connect into the single coiled body; no floating or detached coil."
         },
         "faces": {
           "status": "pass",
-          "observations": "clean-shaven older Bhattathiri follows the selected reference direction."
+          "observations": "Bhattathiri and Guruvayurappan faces are distinct, legible and unobscured; Adishesha's heads are calm and watchful without aggressive fangs."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Serene many-hooded Adishesha releases stylized ochre fire as the blue Lord protects Bhattathiri. The incidental Brahma motif is omitted; Shesha\u2019s multiple hoods are intentional and clearly separated. Bhattathiri has ordinary two-arm anatomy. Planned sequential echoes and divine multiplicity are intentional where noted; no accidental duplicated human body or fused figures observed."
+          "observations": "Exactly two figures plus one serpent. Adishesha's multiple hoods are the intentional many-hooded form and remain clearly separated; no accidental duplicate or fused body."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "no readable text, caption, signature, logo, or watermark observed."
+          "observations": "No readable text, caption, signature, logo, watermark or outer border observed."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Serene many-hooded Adishesha releases stylized ochre fire as the blue Lord protects Bhattathiri. The incidental Brahma motif is omitted; Shesha\u2019s multiple hoods are intentional and clearly separated. Bhattathiri has ordinary two-arm anatomy. Matte mineral fields and framing were checked against the series and scene plan."
+          "observations": "Matches the D004 S012 refuge-amid-dissolution plan: stylized ochre fire, reverent nonthreatening serpent, distant temple and cosmic sky. Flat matte mural fields; satisfies the revised Adishesha never-list (no attack posture, no detached coils, faces unobscured)."
         }
       },
       "findings": []
@@ -1572,7 +1572,7 @@
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Virat\u2019s many heads, arms and fourteen horizontal world-bands form an ordered intentional divine anatomy; the small Bhattathiri at lower left has exactly two arms in prayer. No border or readable text. Planned sequential echoes and divine multiplicity are intentional where noted; no accidental duplicated human body or fused figures observed."
+          "observations": "Virat’s many heads, arms and fourteen horizontal world-bands form an ordered intentional divine anatomy; the small Bhattathiri at lower left has exactly two arms in prayer. No border or readable text. Planned sequential echoes and divine multiplicity are intentional where noted; no accidental duplicated human body or fused figures observed."
         },
         "text_artifacts": {
           "status": "pass",
@@ -1580,7 +1580,7 @@
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Virat\u2019s many heads, arms and fourteen horizontal world-bands form an ordered intentional divine anatomy; the small Bhattathiri at lower left has exactly two arms in prayer. No border or readable text. Matte mineral fields and framing were checked against the series and scene plan."
+          "observations": "Virat’s many heads, arms and fourteen horizontal world-bands form an ordered intentional divine anatomy; the small Bhattathiri at lower left has exactly two arms in prayer. No border or readable text. Matte mineral fields and framing were checked against the series and scene plan."
         }
       },
       "findings": []
@@ -1760,7 +1760,7 @@
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "One older Bhattathiri with joined hands and two arms faces the distinct four-armed Virat. Mountains, rivers, trees and restrained cycle wheel are present; the Virat\u2019s attributes remain separate. No text or watermark. Planned sequential echoes and divine multiplicity are intentional where noted; no accidental duplicated human body or fused figures observed."
+          "observations": "One older Bhattathiri with joined hands and two arms faces the distinct four-armed Virat. Mountains, rivers, trees and restrained cycle wheel are present; the Virat’s attributes remain separate. No text or watermark. Planned sequential echoes and divine multiplicity are intentional where noted; no accidental duplicated human body or fused figures observed."
         },
         "text_artifacts": {
           "status": "pass",
@@ -1768,7 +1768,7 @@
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "One older Bhattathiri with joined hands and two arms faces the distinct four-armed Virat. Mountains, rivers, trees and restrained cycle wheel are present; the Virat\u2019s attributes remain separate. No text or watermark. Matte mineral fields and framing were checked against the series and scene plan."
+          "observations": "One older Bhattathiri with joined hands and two arms faces the distinct four-armed Virat. Mountains, rivers, trees and restrained cycle wheel are present; the Virat’s attributes remain separate. No text or watermark. Matte mineral fields and framing were checked against the series and scene plan."
         }
       },
       "findings": []
@@ -1836,6 +1836,814 @@
         }
       },
       "findings": []
+    },
+    {
+      "chapter": 8,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d008/s001/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "acc249ec5284b6da390aaaf0c653f51d0c24d07488d0bf44b0251764e96439c7",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:21:38Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Brahma has four heads total, three distinct forward faces and the fourth turned behind, with four connected arms; Bhagavan has four attached arms. The bundle is closed and blank.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s001-landscape-v004-review-v001.md",
+          "sha256": "18e98a65a1027296367a7f78d9e4cc6e1ea8cd248cf443f1357fafa7d1cc0f26"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Brahma has four heads total, three distinct forward faces and the fourth turned behind, with four connected arms; Bhagavan has four attached arms. The bundle is closed and blank. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Brahma has four heads total, three distinct forward faces and the fourth turned behind, with four connected arms; Bhagavan has four attached arms. The bundle is closed and blank."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. The Brahma Kalpa opens with Brahma receiving the Vedic bundle from Bhagavan. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d008/s002/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "4b945d6c45053c9da8ba441e911836701ea6aa1e03470bf941a66037e6c61819",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:21:38Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Brahma’s four heads and four arms are distinct and connected; the closed bundle has no page marks or writing.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s002-landscape-v003-review-v001.md",
+          "sha256": "488d9133792de311d6bb6bb7027146d59ee9d834318f745b49e68b582ada9323"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Brahma’s four heads and four arms are distinct and connected; the closed bundle has no page marks or writing. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Brahma’s four heads and four arms are distinct and connected; the closed bundle has no page marks or writing."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. Brahma’s day and night define the recurring creation cycle. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d008/s003/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "bb0fd298f6df47988953086b54e04ce01da316dbdbf33b9d6db2308a88571224",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:21:38Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "The creation gesture is legible. Brahma’s four heads and four arms remain distinct, with connected shoulders and hands.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s003-landscape-v003-review-v001.md",
+          "sha256": "4740ddf776a49db4a203ec95bf94e7509ee00622b07c792e0713b9fb3f5ce250"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. The creation gesture is legible. Brahma’s four heads and four arms remain distinct, with connected shoulders and hands. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. The creation gesture is legible. Brahma’s four heads and four arms remain distinct, with connected shoulders and hands."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. Brahma resumes creation at the start of each day. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d008/s004/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "3255d302158e24c5fab6d23092ddda3b2dda324c4c1062242bcfeea452eca875",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:21:38Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Brahma’s four heads and four arms remain anatomically distinct in the night scene; no extra person or detached limb is visible.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s004-landscape-v003-review-v001.md",
+          "sha256": "13f8cde631252052b4243fc796d03ba6c4bde2b1dbc7ab36b1861f7099c5ed78"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Brahma’s four heads and four arms remain anatomically distinct in the night scene; no extra person or detached limb is visible. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Brahma’s four heads and four arms remain anatomically distinct in the night scene; no extra person or detached limb is visible."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. Brahma’s long night closes the day of creation. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d008/s005/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "e21494ead17546a1b39df54a6797f8741f51ed32996bc7b2a8ce67016535577e",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:21:38Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "The dissolution scene retains the planned figures and symbolic waters; visible deity anatomy is connected and the composition contains no accidental duplicate people.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s005-landscape-v003-review-v001.md",
+          "sha256": "7ff15c195fa68bb7f8294d34980d001386d187003ba2730cce1cf1fc87810524"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. The dissolution scene retains the planned figures and symbolic waters; visible deity anatomy is connected and the composition contains no accidental duplicate people. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. The dissolution scene retains the planned figures and symbolic waters; visible deity anatomy is connected and the composition contains no accidental duplicate people."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. The created worlds dissolve into Bhagavan before the cosmic night. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d008/s006/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "b1e409c045279ca49c76bb26ea2ebe9dcb4591d1ff26067228b1f2bbdd721de5",
+      "reviewer": "Claude (no-mistakes review fix round)",
+      "inspected_at": "2026-11-02T07:00:53Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Narayana has exactly four attached arms: raised discus hand, conch hand, lower hand on the mace and lower hand holding a lotus. Adishesha is one connected couching serpent with a symmetric seven-hood canopy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s006-landscape-v003-review-v002.md",
+          "sha256": "6f20b7ff8def5f74704122087a1edcbf876c3ec3a4604406e8e84b46c37c4283"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Four arms with distinct hands: discus, conch, mace and lotus, one per hand. Both feet are visible at the right end of the couch, with ordinary toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All four arms attach at the shoulders; the reclining body is proportionate along the diagonal. The serpent coil, tail and hood necks are one continuous body."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Narayana's serene closed-eye face is fully clear under the hood canopy; the seven serpent heads are calm and matched."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Narayana and one Adishesha; no duplicate or fused body or limb."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, watermark or outer border observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the plan: diagonal reclining body, full coil and canopy legible, open causal water. Flat matte mural palette; satisfies the cosmic-reclining-couch mode and never-list."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d008/s007/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "6819dd8ea6499f55a01df803d9bc22233d3bad6bdc8e78878c922974d6a0c1af",
+      "reviewer": "Claude (no-mistakes review fix round)",
+      "inspected_at": "2026-11-02T07:00:53Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Narayana has exactly four attached arms: raised discus hand, raised conch hand, lower hand on the mace and lower hand holding a lotus on the thigh. Adishesha is one connected couch with a symmetric seven-hood canopy. The time-wheel on the horizon is a separate symbol with no body or arm.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s007-landscape-v003-review-v002.md",
+          "sha256": "d6f3152b16367fddad4d5a46ee9cd81d6eb010ce1f30c0e54a70cd8a950cb278"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Four distinct hands holding discus, conch, mace and lotus; both feet visible at the couch's right end with ordinary toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All four arms attach coherently at the shoulders; reclining proportions are natural. The serpent body is one continuous coil."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Narayana's sleeping face is clear under the canopy; the serpent heads are calm and matched."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Narayana and one Adishesha; the floating lamps are small lights, not figures; no duplicate or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, watermark or outer border observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the plan: quiet nocturnal scene, small gold time-wheel apart on the horizon, merged beings as tiny lights. Flat matte mural palette; satisfies the cosmic-reclining-couch mode and never-list."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d008/s008/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "797eeced6e93e4018c76ae02c18e5dd61e78dd18ba0204c2ec6b56841df4a6ef",
+      "reviewer": "Claude (no-mistakes review fix round)",
+      "inspected_at": "2026-11-02T07:00:53Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Narayana, now with open eyes, has exactly four attached arms: raised discus hand, raised conch hand, lower hand holding a lotus beside the bolster, and lower hand on the mace. Adishesha is one connected couch with a symmetric seven-hood canopy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s008-landscape-v003-review-v002.md",
+          "sha256": "86810936a1419be55dd97707a1dbe43cc15c908e1edf25a00670916143ac58dc"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Four distinct hands holding discus, conch, lotus and mace; both feet visible at the couch's right end with ordinary toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All four arms attach coherently at the shoulders; reclining proportions are natural. The serpent body is one continuous coil."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Narayana's awakening open-eyed face is clear under the canopy; the serpent heads are calm and matched."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Narayana and one Adishesha; Kala Shakti appears only as a wheel, not a figure; no duplicate or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, watermark or outer border observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the plan: subtle awakening, golden wheel approaching from open sky, still ocean, no rays. Flat matte mural palette; satisfies the cosmic-reclining-couch mode and never-list."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d008/s009/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "0112313efc1a5cd5c398cc17dd786417c8425e01e794a5289a8e2a9c949d5992",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:21:38Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Narayana has four attached arms; the small world motifs remain symbolic and do not read as duplicate people.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s009-landscape-v003-review-v001.md",
+          "sha256": "02488ffe35c6fae201664c3f4f3a5c39ea1e423d2a013f2c91a3b2769dc00ad2"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Narayana has four attached arms; the small world motifs remain symbolic and do not read as duplicate people. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Narayana has four attached arms; the small world motifs remain symbolic and do not read as duplicate people."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. Bhagavan sees the subtle worlds and casts a glance over them. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d008/s010/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "ee19a3e0e6fb0cbbbb773161cf53b9b8e31eee52d8e0ff358140b7c7bb11c678",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:21:38Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Narayana’s torso and four arms remain connected; one stem runs from the navel to a single closed lotus bud.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s010-landscape-v003-review-v001.md",
+          "sha256": "09a75b33c1a11e8498dab67a9435de3169f00c556c680bd0ec7301596f2b3694"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Narayana’s torso and four arms remain connected; one stem runs from the navel to a single closed lotus bud. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Narayana’s torso and four arms remain connected; one stem runs from the navel to a single closed lotus bud."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. A closed lotus bud emerges on one stem from Bhagavan’s navel. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 11,
+      "role": "matte",
+      "file": "artifacts/d008/s011/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "1e28446586f6590411950a1f9fb93e06a963d12d35c646741d20fca446cd9080",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:21:38Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Narayana has four attached arms; one closed lotus bud sits on a single stem. No extra people or written marks are visible.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s011-landscape-v002-review-v001.md",
+          "sha256": "cd5632a4ef07308d474fce8054bc21d7383cb6bc41f7b79e95b8ebc525335da3"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Narayana has four attached arms; one closed lotus bud sits on a single stem. No extra people or written marks are visible. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Narayana has four attached arms; one closed lotus bud sits on a single stem. No extra people or written marks are visible."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. The lotus bud rises and dispels surrounding darkness. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 12,
+      "role": "matte",
+      "file": "artifacts/d008/s012/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "543c06450d3a01d3fcd434939a1fc7ff2e2d57bad660615a812c9a0ed2160da9",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:21:38Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Brahma has four heads total, three visible front faces and the fourth turned behind, and four arms; Narayana has four arms. The bundle is closed and blank.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s012-landscape-v004-review-v001.md",
+          "sha256": "15eb4d2769b7bb37feaa97ae8f497f60ffbb944d96f8493c52ffa2da2b2687f8"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Brahma has four heads total, three visible front faces and the fourth turned behind, and four arms; Narayana has four arms. The bundle is closed and blank. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Brahma has four heads total, three visible front faces and the fourth turned behind, and four arms; Narayana has four arms. The bundle is closed and blank."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. Brahma emerges from the lotus with the next creation. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
+    },
+    {
+      "chapter": 8,
+      "sloka": 13,
+      "role": "matte",
+      "file": "artifacts/d008/s013/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "dff4f6d151d9e275191a8a4dc469b04e85e12632c8eeb6693bee0537be92f819",
+      "reviewer": "Codex",
+      "inspected_at": "2026-11-02T06:50:44Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Exactly two people appear: the older Bhattathiri and four-armed Guruvayurappan. The devotee has ordinary human anatomy; the pillar ornament is abstract rather than another person.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d008.json",
+          "sha256": "44a4cd97befc0a550a2bebc45a249182d3e77902579fb018ef9aad3d94982b0c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d008-s013-landscape-v003-review-v001.md",
+          "sha256": "3ba4211311f0fb8ccda1bb84bf4bb47045579038aff6a650e06c427877f2afe5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Exactly two people appear: the older Bhattathiri and four-armed Guruvayurappan. The devotee has ordinary human anatomy; the pillar ornament is abstract rather than another person. Hands and visible feet are distinct; no extra or malformed limb was observed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Exactly two people appear: the older Bhattathiri and four-armed Guruvayurappan. The devotee has ordinary human anatomy; the pillar ornament is abstract rather than another person."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. Bhattathiri prays to Guruvayurappan, who acknowledges the request. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+        }
+      },
+      "findings": [],
+      "outcome": "pass"
     }
   ]
 }

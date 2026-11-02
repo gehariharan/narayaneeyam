@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "daskam_id": 8,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-02",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-8-in-sanskrit/",
+      "retrieval_note": "Devanagari stanzas 8-1 through 8-13 transcribed from Stotra Nidhi; page ends with 8-13. Needs human source and editorial comparison."
+    },
+    {
+      "role": "romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-8-in-english/",
+      "retrieval_note": "IAST stanzas 8-1 through 8-13 transcribed from Stotra Nidhi English page; transliteration may contain site-specific spelling. Needs review."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired"
+    },
+    {
+      "role": "commentary",
+      "url": "https://drive.google.com/file/d/1U8P4yiKmBUv8iZqGHNIhjk9R52Y80ChK/view?usp=drive_web",
+      "local_path": "intake/D008/photo-captions.txt",
+      "status": "user-supplied commentary; preserved verbatim, not treated as translation"
+    }
+  ],
+  "intake_manifest": "content/sources/d008/intake-manifest.json",
+  "intake_manifest_sha256": "24baa09020c275e43e50c568824bd1ae7c5cab01f86e6dc001ecc99409139e2c",
+  "commentary_sha256": "4b03ab830e53744f7160e32610e70332114a15192f92e686068b6e01da5b7800",
+  "note": "The original Drive intake contains English commentary/captions, not Sanskrit, IAST, or a canonical English translation. Caption numbering aligns ordinally to the 13 canonical slokas. Original files are preserved under intake/D008 and copied verbatim here."
+}

@@ -2,20 +2,37 @@
   "schema_version": 1,
   "id": "adishesha",
   "display": "Adishesha",
-  "aliases": ["Shesha", "Ananta"],
+  "aliases": [
+    "Shesha",
+    "Ananta"
+  ],
   "depiction_rules": {
     "default_mode": "protective-canopy",
-    "allowed_modes": ["protective-canopy"],
-    "notes": "Form a protective canopy above Vasudeva and infant Krishna during the storm. The posture must feel sheltering and reverent, never predatory."
+    "allowed_modes": [
+      "protective-canopy",
+      "cosmic-reclining-couch"
+    ],
+    "notes": "Protective-canopy remains the D038 mode above Vasudeva and infant Krishna. For source-grounded Narayaneeyam D008 scenes 6–8, use cosmic-reclining-couch: one large coherent serpent body forms a stable couch beneath Narayana, with an odd-numbered symmetrical hood fan protecting him from above. This is a chapter-specific iconographic mode, not an aggressive or predatory posture."
   },
   "visual_bible": {
     "body": "large ivory-white serpent body with restrained deep-blue patterning",
     "hoods": "an odd-numbered fan of many symmetrical cobra hoods, centered over the child",
     "eyes": "calm and watchful",
     "jewels": "small warm gemstones on the hoods casting gentle path-light",
-    "movement": "smooth protective arc through storm and river spray"
+    "movement": "smooth protective arc through storm and river spray",
+    "cosmic_reclining_couch": "One continuous ivory-white serpent body with restrained deep-blue patterning coils into a stable low couch beneath Narayana; the upper body rises naturally into an odd-numbered symmetrical hood canopy above him. Every coil and hood remains visibly connected to the same serpent; calm, protective, and reverent."
   },
-  "never": ["no aggressive fangs", "no attack posture", "no chaotic mismatched heads", "no monstrous horror scale", "do not obscure the faces of Vasudeva or Krishna"],
-  "local_reference_paths": ["artifacts/d038/references/s010.jpg"],
-  "note": "Use the reference for story placement only; generate an original temple-mural interpretation."
+  "never": [
+    "no aggressive fangs",
+    "no attack posture",
+    "no chaotic mismatched heads",
+    "no monstrous horror scale",
+    "do not obscure the faces of Vasudeva or Krishna",
+    "do not obscure the face of Narayana",
+    "no detached coils or disconnected hood cluster"
+  ],
+  "local_reference_paths": [
+    "artifacts/d038/references/s010.jpg"
+  ],
+  "note": "Use D038 S010 for protective-canopy story placement only. D008 scenes 6–8 require the distinct source-grounded cosmic-reclining-couch mode described above; generate an original temple-mural interpretation."
 }
