@@ -27,7 +27,7 @@ assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneey
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
 console.log('Passed: 95-row comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,38,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,10,38,96]);
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
@@ -100,6 +100,21 @@ for(const row of full8.rows){
 assert.equal((await feedback(req({...good,daskam:8,sloka:13}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
 assert.equal((await feedback(req({...good,daskam:8,sloka:14}),env)).status,400);
 console.log('Passed: D008 has thirteen caption-mapped rows, one pinned reference and one unapproved landscape candidate each, and stanza-bounded feedback.');
+
+const full10=data.chapters.find(c=>c.id===10);assert.deepEqual(full10.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content10=JSON.parse(await fs.readFile(new URL('../../content/daskams/d010.json',import.meta.url)));
+const selected10=JSON.parse(await fs.readFile(new URL('../../art/batches/d010-comparison-v001.json',import.meta.url)));
+for(const row of full10.rows){
+ assert.equal(row.commentarySource,`intake/D010/photo-captions.txt#${String(row.n).padStart(3,'0')}`);
+ assert.equal(row.commentary,content10.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected10.rows.find(r=>r.n===row.n);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.match(selected.matte.file,/^artifacts\/d010\/s\d{3}\/landscape\//);
+}
+assert.equal((await feedback(req({...good,daskam:10,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:10,sloka:11}),env)).status,400);
+console.log('Passed: D010 has ten caption-mapped rows, one pinned reference and one unapproved landscape candidate each, and stanza-bounded feedback.');
 
 async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {}, staleResponses = {} } = {}) {
  const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);
