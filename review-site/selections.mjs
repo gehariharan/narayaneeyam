@@ -15,7 +15,7 @@ export async function loadSelections(root) {
 }
 export function selectedImages(batches) {
   return batches.flatMap(batch => batch.rows.flatMap(row => [
-    ...(row.matte ? [{ ...row.matte, chapter: batch.daskam_id, sloka: row.n, role: 'matte' }] : []),
+    { ...row.matte, chapter: batch.daskam_id, sloka: row.n, role: 'matte' },
     ...(row.alternates || []).map(item => ({ ...item, chapter: batch.daskam_id, sloka: row.n, role: 'alternate' }))
   ]));
 }

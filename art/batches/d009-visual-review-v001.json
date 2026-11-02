@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "daskam_id": 9,
-  "review_scope": "Every D009 landscape candidate was re-inspected individually against the final plan. Selected leads were opened at native resolution with close crops; excluded trials were re-examined for their defect only. Selected leads that need fixes are not cleared; excluded trials stay excluded. Firstmate gate repairs for S001, S002, S006 and S010 were imported as new versions and inspected individually; S001 and S010 have no passing candidate (including the S001 v012 and S010 v004 gate repairs); their rows publish the source reference only.",
+  "review_scope": "Every D009 landscape candidate was re-inspected individually against the final plan. Selected leads were opened at native resolution with close crops; excluded trials were re-examined for their defect only. Selected leads that need fixes are not cleared; excluded trials stay excluded. Firstmate gate repairs for S001, S002, S006 and S010 were imported as new versions and inspected individually; S001 and S010 have no passing candidate (including the S001 v012/v017 and S010 v004/v006 gate repairs); D009 cannot publish until passing native corrections are reviewed.",
   "lead_versions": {
     "1": null,
     "2": "v002",
@@ -366,6 +366,28 @@
       "finding": "Narayana has five hands; on the viewer-left, one arm forks into a raised blessing hand and a hand reaching toward Bhattathiri.",
       "review_method": "individual-native-resolution",
       "evidence": "art/reviews/d009-s010-landscape-v003-review-v001.md"
+    },
+    {
+      "stanza": 1,
+      "candidate_version": "v005",
+      "file": "artifacts/d009/s001/landscape/candidate-v005.png",
+      "sha256": "88a6562b5e2894b604604495f3bcb83741a5a98b28ba2bae3d42c36b8f2559da",
+      "visual_review": "needs-fix",
+      "approval_status": "unapproved",
+      "finding": "The lotus stem enters a ring on the yellow dhoti over the hip, beyond the waist ornament, instead of rising from Narayana's navel on the exposed abdomen. On the viewer-right, the mace forearm and the conch forearm meet in one mass with only one visible upper arm; a separate attachment for the mace arm cannot be confirmed.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s001-landscape-v005-review-v001.md"
+    },
+    {
+      "stanza": 10,
+      "candidate_version": "v004",
+      "file": "artifacts/d009/s010/landscape/candidate-v004.png",
+      "sha256": "1c5f05cd458fd2af006d16f87f1f1b94ca5c522dc1175bef1718cd74a30341b5",
+      "visual_review": "needs-fix",
+      "approval_status": "unapproved",
+      "finding": "Narayana's and Brahma's attributes are mirrored relative to the plan's hand sides: Narayana's discus and conch and his blessing and open hands are swapped, and Brahma's lotus/pot and beads/bundle are swapped. The plan's 'lower left open toward Bhattathiri' conflicts with Bhattathiri sitting at the viewer's left; a composition or plan decision is needed.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s010-landscape-v004-review-v001.md"
     }
   ]
 }
