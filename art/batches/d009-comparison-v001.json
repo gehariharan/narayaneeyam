@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 9,
   "review_status": "needs-review",
-  "visual_review_status": "INCOMPLETE: 8/10 D009 landscape leads pass checksum-bound review (S002 v002 and S006 v004 imported from Firstmate gate repairs). S001 and S010 have no passing candidate after the S001 v017 and S010 v006 repairs, so D009 cannot publish until native corrections pass; human art approval pending",
-  "description": "D009 landscape candidates paired with their numbered source references. S001 and S010 still need a passing generated lead. All generated art remains unapproved.",
-  "review_notice": "Each published D009 landscape lead was inspected individually for stanza fidelity, deity anatomy, Bhattathiri's ordinary two-armed anatomy and likeness, hands and feet, faces, accidental duplicates, frame safety, text-like marks and flat matte style. S001 and S010 still need a passing generated lead. Candidates are unapproved; only explicit artwork approval may update the approval manifest. English translation remains absent and editorial review is pending. Portraits remain paused.",
+  "visual_review_status": "INCOMPLETE: 9/10 D009 landscape leads pass checksum-bound review (S002 v002, S006 v004 and S010 v004 imported from Firstmate gate repairs). S001 has no passing candidate (latest S001 v005: stem ring on the dhoti, merged conch/mace arms), so D009 cannot publish until a native correction passes; human art approval pending",
+  "description": "D009 landscape candidates paired with their numbered source references. S001 still needs a passing generated lead. All generated art remains unapproved.",
+  "review_notice": "Each published D009 landscape lead was inspected individually for stanza fidelity, deity anatomy, Bhattathiri's ordinary two-armed anatomy and likeness, hands and feet, faces, accidental duplicates, frame safety, text-like marks and flat matte style. S001 still needs a passing generated lead. Candidates are unapproved; only explicit artwork approval may update the approval manifest. English translation remains absent and editorial review is pending. Portraits remain paused.",
   "rows": [
     {
       "n": 1,
@@ -18,7 +18,7 @@
         "displayLabel": "Original reference"
       },
       "alternates": [],
-      "matte_status": "No cleared landscape lead: candidates v001, v002, v003, v004, v005 all need fixes. A passing native correction is required before D009 can publish."
+      "matte_status": "No cleared landscape lead: candidates v001–v005 all need fixes. A passing native correction is required before D009 can publish."
     },
     {
       "n": 2,
@@ -191,8 +191,14 @@
         "label": "Original reference",
         "displayLabel": "Original reference"
       },
-      "alternates": [],
-      "matte_status": "No cleared landscape lead: candidates v001, v002, v003, v004 all need fixes. A passing native correction is required before D009 can publish."
+      "matte": {
+        "file": "artifacts/d009/s010/landscape/candidate-v004.png",
+        "sha256": "1c5f05cd458fd2af006d16f87f1f1b94ca5c522dc1175bef1718cd74a30341b5",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
+      },
+      "alternates": []
     }
   ],
   "revision_batch": {
