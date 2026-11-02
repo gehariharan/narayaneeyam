@@ -201,3 +201,14 @@ of the published comparison. The candidates remain unapproved, translations
 are absent, and portrait compositions are paused. Upload only D008's WebP
 derivatives with `node review-site/scripts/upload.mjs --daskam=8` before the
 serialized public deployment.
+
+## Dasakam 10
+
+D010 contains ten landscape comparison rows, each matched to its numbered
+intake reference and supplied commentary section. The selected leads are
+independently composed candidates in `art/batches/d010-comparison-v001.json`;
+all ten have checksum-bound individual visual inspection records. The
+candidates remain unapproved, translations are absent, and portrait
+compositions are paused. Upload only D010's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=10` before the serialized public
+deployment.
