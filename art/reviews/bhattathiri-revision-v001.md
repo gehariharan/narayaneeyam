@@ -296,10 +296,11 @@ Each listed image was opened individually at its native 1672 × 941 resolution. 
 - SHA-256: `674fd4dcb11c485794ccaf9ee4e7f9a1483b13d7e0aa593db5cdb9f71287e9d1`
 - Dimensions: 1672 × 941
 - Result: pass, unapproved
-- Composition and scene: visual composition follows the supplied scene contract.
-- Identity: older selected identity is not applicable to this composite image.
-- Anatomy: no unintended anatomy issue observed.
-- Rendering/text: v002 uses broad matte fields and painted ochre with restrained contours; compared with v001 it removes the metallic glints and dense engraved surface treatment flagged in the fix request. No readable text or watermark observed.
+- Composition and scene: requested composite confirmed against `candidate-v001.png` and `candidate-v002.png`. The environment matches candidate v001: starry sky with galaxies and planets, ochre clouds, mountains and temple islands around the ocean, and the ordered subterranean bands with serpents, palaces and separate seated inhabitants. The v002 floral backdrop and flat colour stripes are absent. The central Bhagavan/Krishna follows candidate v002: youthful blue face, peacock-feather crown, halo, garlands, yellow dhoti and maroon-red drape.
+- Item mapping: matches candidate v002 with exactly four arms — upper viewer-left discus, upper viewer-right conch, lower viewer-left pink lotus, lower viewer-right hanging ochre mace. The candidate v001 raised blessing hand is absent; no fifth arm or leftover limb observed. Crown, attributes and both feet are fully in frame.
+- Identity: no Bhattathiri figure appears in this scene; the deity identity follows the approved Guruvayurappan sheet via candidate v002.
+- Anatomy: inspected at native resolution; deity anatomy is the intended four-armed form. Lower-band inhabitants are fewer than in candidate v001 but remain separate two-armed figures with attached limbs.
+- Rendering/text: broad matte mineral fields and ochre in place of reflective gold carry across deity and background; no glossy photo-like surfaces observed. No readable text or watermark observed.
 
 ## D006 S009 — matte v002
 
