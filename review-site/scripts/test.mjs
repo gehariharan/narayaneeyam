@@ -3,6 +3,8 @@ import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import { renderChapter, renderIndex, chapterSlug } from '../views.mjs';
+import { createServer } from 'node:http';
+import { verifyLivePages } from './verify-live-pages.mjs';
 // Test source import with the generated data replaced so Node requires no JSON import attribute.
 await validateBundle(fileURLToPath(new URL('../..',import.meta.url)), fileURLToPath(new URL('../../artifacts/review-site',import.meta.url)));
 const data=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/data.json',import.meta.url)));
@@ -98,3 +100,22 @@ for(const row of full8.rows){
 assert.equal((await feedback(req({...good,daskam:8,sloka:13}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
 assert.equal((await feedback(req({...good,daskam:8,sloka:14}),env)).status,400);
 console.log('Passed: D008 has thirteen caption-mapped rows, one pinned reference and one unapproved landscape candidate each, and stanza-bounded feedback.');
+
+async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {} } = {}) {
+ const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);
+ for(const chapter of fixtureData.chapters)if(!missingRoutes.includes(chapter.id)){const route=`/narayaneeyam/${chapterSlug(chapter.id)}`;pages.set(route,pageOverrides[chapter.id]??renderChapter(chapter,fixtureData.revision,'/narayaneeyam/',true,fixtureData.chapters));}
+ const server=createServer((req,res)=>{const html=pages.get(req.url);res.statusCode=html?200:404;res.end(html||'not found');});
+ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+ try { await callback(`http://127.0.0.1:${server.address().port}/narayaneeyam`); }
+ finally { await new Promise((resolve,reject)=>server.close(error=>error?reject(error):resolve())); }
+}
+
+await withLiveFixture(data,async base=>verifyLivePages(data,{base,retryDelayMs:0}));
+const stalePage6=renderChapter(data.chapters.find(c=>c.id===6),data.revision,'/narayaneeyam/',true,data.chapters).replace('Landscape candidate v006','Landscape candidate v004');
+await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/missing selected matte version v006/),{pageOverrides:{6:stalePage6}});
+await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for \/d008: HTTP 404/),{missingRoutes:[8]});
+const stalePage8=renderChapter(data.chapters.find(c=>c.id===8),data.revision,'/narayaneeyam/',true,data.chapters).replace('Landscape candidate v004','Landscape candidate v002');
+await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/missing selected matte version v004/),{pageOverrides:{8:stalePage8}});
+const extended=structuredClone(data);const d009=structuredClone(extended.chapters.find(c=>c.id===8));d009.id=9;d009.title='Fixture D009';extended.chapters.push(d009);
+await withLiveFixture(extended,async base=>verifyLivePages(extended,{base,retryDelayMs:0}));
+console.log('Passed: live verifier checks current bundled data over HTTP, rejects stale D006 and missing D008 route/selection, and follows additional selected chapters.');
