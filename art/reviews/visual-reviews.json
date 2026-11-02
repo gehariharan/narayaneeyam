@@ -3815,9 +3815,9 @@
       "version": "v001",
       "sha256": "d96243c60f31a9c350f1faffadeba997c237ac39fd4193104794f668125ecdbf",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-02T09:40:11Z",
+      "inspected_at": "2026-11-02T10:24:35Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
+      "outcome": "needs-fix",
       "anatomy_basis": "Brahma is intentionally four-headed and four-armed. Narayana is absent, as the plan requires. No ordinary humans appear.",
       "contracts": [
         {
@@ -3839,8 +3839,8 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d009-s002-landscape-v001-review-v002.md",
-          "sha256": "884461a4d55fa81a96b73a38f30744b158c8b9cca02bc976e1abc1b375c74355"
+          "path": "art/reviews/d009-s002-landscape-v001-review-v003.md",
+          "sha256": "f313ad4c9c29588a16018b375e57f65caab89fd79e29561ebab76985b5bc4a71"
         }
       ],
       "checks": {
@@ -3865,11 +3865,13 @@
           "observations": "At a 4x crop, the open book pages carry faint horizontal ruled strokes but no glyphs or letterforms. There is no caption, signature, logo, watermark or outer border."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "A solitary Brahma on a large open lotus over heaving causal waves; the long stem descends into empty water and its source stays unseen. Brahma faces the viewer rather than visibly gazing down the stem. Broad matte fields, firm contours, small painted stars and a full-bleed frame."
+          "status": "needs-fix",
+          "observations": "The plan's must_show requires Brahma looking over the ocean and down the single supporting stem. Brahma faces the viewer and does not gaze down the stem. The rest of the scene (solitary lotus, unseen source, matte style) matches the plan."
         }
       },
-      "findings": []
+      "findings": [
+        "Brahma faces the viewer instead of looking down the supporting stem, as the stanza 2 must_show requires."
+      ]
     },
     {
       "chapter": 9,
@@ -4143,7 +4145,7 @@
       "version": "v005",
       "sha256": "909a46e846b025f9a6da2ec78d893bcd28770c85e473795be074f6c875761b96",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-02T09:40:11Z",
+      "inspected_at": "2026-11-02T10:24:35Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Brahma is intentionally four-headed and four-armed. No ordinary humans appear.",
@@ -4167,8 +4169,8 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d009-s003-landscape-v005-review-v002.md",
-          "sha256": "20815d23a2618a84b66407fe15b8ede8802d7b98ccd8b205ca2572bd6565472f"
+          "path": "art/reviews/d009-s003-landscape-v005-review-v003.md",
+          "sha256": "1c6c62ccbffe776ebbadd476f5c9ad26024d28cde39098c51ba118c6a35e2b84"
         }
       ],
       "checks": {
@@ -4194,7 +4196,7 @@
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "One continuous curved stem runs from the full lotus at upper left, inside the frame with a top margin, down under the water to lower right; Brahma descends within its broad open passage. He looks toward the viewer rather than up at the flower. Flat ochre sky with scroll clouds and matte blue water."
+          "observations": "One continuous curved stem runs from the full lotus at upper left, inside the frame with a top margin, down under the water to lower right; Brahma descends within its broad open passage. Accepted variance (Firstmate decision): the plan's 'upward view to the unreachable flower' is a composition/camera requirement, met by the flower placed high above the descending figure, and does not require Brahma himself to look up. He looks toward the viewer. Flat ochre sky with scroll clouds and matte blue water."
         }
       },
       "findings": []
@@ -5409,6 +5411,294 @@
       "findings": [
         "Narayana's lower viewer-right (his left) hand opens downward toward the viewer rather than toward Bhattathiri, as the final plan requires.",
         "Likeness note: Bhattathiri shows short side and back scalp hair, while the selected older reference shows a largely shaved scalp with only a small tuft."
+      ]
+    },
+    {
+      "chapter": 9,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d009/s001/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "e01e42b6d69021a9ea61b1e5540862935fabb92c3a8878eca139a471f406b69c",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-02T10:24:35Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Brahma is intentionally four-headed and four-armed and Narayana four-armed. Adishesha appears as the seven-hood serpent couch. No ordinary humans appear.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d009.json",
+          "sha256": "576efd5f106e78d1f7f24cdf379912a3620034ecb825891c9f6384231f564e3e"
+        },
+        {
+          "path": "content/daskams/d009.json",
+          "sha256": "1f2b4c6111792635c5fde1df453d68d0f13122212cc49f233682c2f243e3c6f3"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d009-s001-landscape-v003-review-v001.md",
+          "sha256": "f30cd9e182bfce2c5dd94458c452ef8ed7f2fafb0998c2b928989cc877e5d5e9"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "needs-fix",
+          "observations": "Narayana's upper viewer-left hand balances the discus and the upper viewer-right hand holds the conch. On the viewer-left, the lower hand holds both the lotus and the top of the mace shaft. A second hand grips the same mace lower down, and at 2.2x it shows no forearm: it emerges from under the red cloth with no visible arm. No lower viewer-right hand is visible. Brahma has four attached arms holding a book, water pot, lotus and beads."
+        },
+        "attachment_proportions": {
+          "status": "needs-fix",
+          "observations": "The lower mace-gripping hand is not visibly attached to any arm. The lotus stem now touches exposed blue skin just above the belt, but it meets the belly to the viewer-right of the drawn navel mark, not at it."
+        },
+        "faces": {
+          "status": "needs-fix",
+          "observations": "Brahma shows four visible faces side by side (one profile at viewer-left, the central frontal face and two profiles at viewer-right) instead of three frontal faces with the fourth turned behind, as the Brahma contract and plan require."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Brahma, one Narayana and one serpent; no ordinary people or duplicate figures."
+        },
+        "text_artifacts": {
+          "status": "not-assessed",
+          "observations": "Not assessed; the candidate is withheld for the defects recorded under findings."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The plan requires the mace in the lower viewer-right hand and the stem rooted at the navel; neither holds. Broad matte fields and scroll clouds match the series style."
+        }
+      },
+      "findings": [
+        "Brahma shows four visible faces instead of three frontal faces with the fourth turned behind.",
+        "A hand gripping the mace has no visible arm; the lotus and the mace top share the lower viewer-left hand, and no lower viewer-right hand holds the mace.",
+        "The lotus stem meets the belly beside the navel mark rather than at it."
+      ]
+    },
+    {
+      "chapter": 9,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d009/s002/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "2429dc59c356e65a6f9ed47ba6501df9ff26a3502e897a51f9418c84be1569d5",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-02T10:24:35Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma is intentionally four-headed and four-armed. Narayana is absent, as the plan requires. No ordinary humans appear.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d009.json",
+          "sha256": "576efd5f106e78d1f7f24cdf379912a3620034ecb825891c9f6384231f564e3e"
+        },
+        {
+          "path": "content/daskams/d009.json",
+          "sha256": "1f2b4c6111792635c5fde1df453d68d0f13122212cc49f233682c2f243e3c6f3"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d009-s002-landscape-v002-review-v001.md",
+          "sha256": "6159198ad661bf7401fa3a4b12918c5b96d2672c5b77653237a83afabb00bcd2"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Four empty open hands: the upper pair stretched outward at shoulder height and the lower pair resting palm-up beside the knees. Each hand has readable fingers. One foot with toes rests in the lap; no extra hand."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The upper arms attach at the shoulders with armlets. Each lower arm shows its own upper-arm segment and armlet emerging behind the upper arm, with a continuous elbow and forearm. Proportions are natural for a seated figure."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Three distinct bearded faces show from the front (a viewer-left profile, the central face and a viewer-right profile); the fourth head is seen from behind as crown and grey hair only. The central face's eyes look down and to the viewer-left, along the stem's descent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Brahma alone on one lotus; no Narayana, other beings or fused forms."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No book, text, pseudo-writing, signature, logo, watermark or border."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "One open lotus sways over heaving waves; one continuous stem curves down-left into empty water and its source stays unseen. Brahma's lowered gaze follows the stem, satisfying the must_show. Matte navy sky with painted stars, scroll clouds and stylised wave crests; full-bleed frame."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 9,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d009/s006/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "a9a961572d1fc1faf2f70c2528b139ab74bdae03c3fb260ba40012264dedf4e0",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-02T10:24:35Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Bhattathiri is an ordinary older human and must have exactly two natural arms. Narayana is intentionally four-armed; Adishesha is in the cosmic-reclining-couch mode. Brahma does not appear.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d009.json",
+          "sha256": "576efd5f106e78d1f7f24cdf379912a3620034ecb825891c9f6384231f564e3e"
+        },
+        {
+          "path": "content/daskams/d009.json",
+          "sha256": "1f2b4c6111792635c5fde1df453d68d0f13122212cc49f233682c2f243e3c6f3"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d009-s006-landscape-v004-review-v001.md",
+          "sha256": "399a477da2591f95b3644542dd08be6c6cec7158f5c8cf03e93540f5d8e9e6ea"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Bhattathiri has exactly two arms with ash stripes on the viewer-left upper arm and forearm; both hands meet in anjali with readable fingers. One bare foot with five toes shows at the dhoti hem. Narayana has four arms: upper viewer-left balances the discus, upper viewer-right holds the conch, lower viewer-right holds the lotus, and at 1.5x the lower viewer-left fingers wrap around the upright mace shaft. One of Narayana's feet is visible at right."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Bhattathiri's shoulder, elbow and wrists connect naturally with slender older proportions. Narayana's mace arm runs continuously from the shoulder to the gripping hand. Adishesha is one continuous banded coil forming a low couch, with five symmetrical hoods rising behind Narayana; the hood necks pass behind him, occluded but continuous."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Bhattathiri matches the selected older reference: a lined, clean-shaven oval face, dark upturned eyes, three white ash stripes, a red central forehead dot, a small cheek mark, a shaved crown and a small dark tuft. Short grey stubble shading shows on the side of the scalp, with a small curl behind the ear; this is a minor likeness variance, not a defect. Narayana has one serene face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Bhattathiri appears once and Narayana once, with one serpent. There is no Lakshmi, no other worshipper and no three-view repetition."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, pseudo-writing, signature, logo, watermark or border; only the painted foliage motifs."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "A wide worship scene with Bhattathiri at left, smaller than the divine vision but readable. The Lord has blue-lily skin, a painted ochre crown with peacock feather, a yellow garment, a gold waist ornament and a single red Kaustubha jewel. The central hood keeps a top margin. The ochre ground and foliage motifs are flat, broad matte fields with firm contours. The image is 1671×941, one pixel narrower than the 1672×941 series candidates."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 9,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d009/s010/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "54bb73d12ba2e0e6b45521720e26d3bdbdab1e81ed89286de8b2f61208680d76",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-02T10:24:35Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Bhattathiri is an ordinary older human and must have exactly two natural arms. Brahma is intentionally four-headed and four-armed and Narayana four-armed.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d009.json",
+          "sha256": "576efd5f106e78d1f7f24cdf379912a3620034ecb825891c9f6384231f564e3e"
+        },
+        {
+          "path": "content/daskams/d009.json",
+          "sha256": "1f2b4c6111792635c5fde1df453d68d0f13122212cc49f233682c2f243e3c6f3"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d009-s010-landscape-v002-review-v001.md",
+          "sha256": "f1b2af8e1304452032ab50d8cb5b6e7d090168e27782a2e4b9a3ec9e18aa67f6"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Bhattathiri has two arms joined in anjali. Brahma has four arms holding a lotus, water pot, beads and closed bundle. Narayana has four arms: upper viewer-left discus, upper viewer-right conch, lower viewer-left raised in blessing, lower viewer-right open at the waist."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms attach at the shoulders with natural proportions."
+        },
+        "faces": {
+          "status": "needs-fix",
+          "observations": "Brahma shows four visible faces side by side (a viewer-left profile, the central face and two viewer-right profiles) instead of three frontal faces with the fourth turned behind. Bhattathiri has a lined, clean-shaven older face with ash stripes and a dark tuft, but no central forehead mark."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Brahma, Bhattathiri and Narayana each appear once; the bands hold no people."
+        },
+        "text_artifacts": {
+          "status": "not-assessed",
+          "observations": "Not assessed; the candidate is withheld for the defects recorded under findings."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "Narayana's lower viewer-right hand opens at his waist with the fingers angled down-left; it is not clearly directed toward Bhattathiri. Only sky and earth bands are shown; the third world band of the plan is missing."
+        }
+      },
+      "findings": [
+        "Brahma shows four visible faces instead of three frontal faces with the fourth turned behind.",
+        "Only two world bands appear; the plan requires three.",
+        "Narayana's lower open hand is not clearly directed toward Bhattathiri, and Bhattathiri lacks the central forehead mark."
       ]
     }
   ]
