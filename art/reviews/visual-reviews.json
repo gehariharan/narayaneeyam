@@ -1268,11 +1268,11 @@
       "file": "artifacts/d004/s012/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "bd16f8b6c4d09121957092ce19b57186ddeb475f04dd6f24e9b7a75788256834",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-02T05:53:32Z",
+      "reviewer": "Claude (no-mistakes review fix round)",
+      "inspected_at": "2026-11-02T07:00:53Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Bhattathiri is an ordinary two-armed human. Any multiple forms or deity limbs explicitly required by this scene plan are intentional and remain distinct.",
+      "anatomy_basis": "Bhattathiri is an ordinary two-armed human kneeling in anjali. Guruvayurappan stands with two visible attached arms (raised abhaya hand, lowered hand). Adishesha is one serpent whose nine hood necks all descend into the same continuous coiled body.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -1292,39 +1292,39 @@
         },
         {
           "path": "art/bible/characters/adishesha/character.json",
-          "sha256": "7f259e9855fde33c6c37ad703acc7b3af62efdf9c36e853fc9b71d64bcb7227c"
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/bhattathiri-revision-v001.md",
-          "sha256": "b7b47f1305ffcb3cea7e9fd9fd2914ed93559a6967bb33f685d4f515a134c78c"
+          "path": "art/reviews/d004-s012-landscape-v002-adishesha-review-v001.md",
+          "sha256": "0612545a7d08008711cc622fa6e508687b9c1f7bddbb6aeb2f57cdcb0ce21aa8"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "inspected individually at original 1672x941 resolution; no malformed faces, disconnected normal-human limbs, fused bodies, or unintended duplicates observed. Intentional deity anatomy is assessed under the scene-specific contract. Visible hands, feet and limbs were checked at native resolution."
+          "observations": "Bhattathiri's two hands are joined in anjali with distinct fingers; his folded legs read as one kneeling pose. Guruvayurappan's raised abhaya hand and lowered hand each have five distinct fingers; both bare feet stand on the lotus pedestal and are fully in frame."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Visible shoulders, hips and limb attachments remain connected and proportionate; the intended symbolic deity anatomy is documented in the scene contract."
+          "observations": "Both figures' shoulders and limbs attach coherently with ordinary proportions. All nine Adishesha hood necks connect into the single coiled body; no floating or detached coil."
         },
         "faces": {
           "status": "pass",
-          "observations": "clean-shaven older Bhattathiri follows the selected reference direction."
+          "observations": "Bhattathiri and Guruvayurappan faces are distinct, legible and unobscured; Adishesha's heads are calm and watchful without aggressive fangs."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Serene many-hooded Adishesha releases stylized ochre fire as the blue Lord protects Bhattathiri. The incidental Brahma motif is omitted; Shesha’s multiple hoods are intentional and clearly separated. Bhattathiri has ordinary two-arm anatomy. Planned sequential echoes and divine multiplicity are intentional where noted; no accidental duplicated human body or fused figures observed."
+          "observations": "Exactly two figures plus one serpent. Adishesha's multiple hoods are the intentional many-hooded form and remain clearly separated; no accidental duplicate or fused body."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "no readable text, caption, signature, logo, or watermark observed."
+          "observations": "No readable text, caption, signature, logo, watermark or outer border observed."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Serene many-hooded Adishesha releases stylized ochre fire as the blue Lord protects Bhattathiri. The incidental Brahma motif is omitted; Shesha’s multiple hoods are intentional and clearly separated. Bhattathiri has ordinary two-arm anatomy. Matte mineral fields and framing were checked against the series and scene plan."
+          "observations": "Matches the D004 S012 refuge-amid-dissolution plan: stylized ochre fire, reverent nonthreatening serpent, distant temple and cosmic sky. Flat matte mural fields; satisfies the revised Adishesha never-list (no attack posture, no detached coils, faces unobscured)."
         }
       },
       "findings": []
@@ -2152,10 +2152,10 @@
       "file": "artifacts/d008/s006/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "b1e409c045279ca49c76bb26ea2ebe9dcb4591d1ff26067228b1f2bbdd721de5",
-      "reviewer": "Codex",
-      "inspected_at": "2026-11-02T06:21:38Z",
+      "reviewer": "Claude (no-mistakes review fix round)",
+      "inspected_at": "2026-11-02T07:00:53Z",
       "method": "individual-native-resolution",
-      "anatomy_basis": "Narayana has four attached arms. Adishesha reads as one connected couching serpent body with a symmetric seven-hood canopy.",
+      "anatomy_basis": "Narayana has exactly four attached arms: raised discus hand, conch hand, lower hand on the mace and lower hand holding a lotus. Adishesha is one connected couching serpent with a symmetric seven-hood canopy.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -2171,39 +2171,39 @@
         },
         {
           "path": "art/bible/characters/adishesha/character.json",
-          "sha256": "7f259e9855fde33c6c37ad703acc7b3af62efdf9c36e853fc9b71d64bcb7227c"
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d008-s006-landscape-v003-review-v001.md",
-          "sha256": "9aa53e76582d09855ded3adc488339f51c05d48594f07a2cf7e0cf0dc91a162b"
+          "path": "art/reviews/d008-s006-landscape-v003-review-v002.md",
+          "sha256": "6f20b7ff8def5f74704122087a1edcbf876c3ec3a4604406e8e84b46c37c4283"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Pass. Narayana has four attached arms. Adishesha reads as one connected couching serpent body with a symmetric seven-hood canopy. Hands and visible feet are distinct; no extra or malformed limb was observed."
+          "observations": "Four arms with distinct hands: discus, conch, mace and lotus, one per hand. Both feet are visible at the right end of the couch, with ordinary toes."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Narayana has four attached arms. Adishesha reads as one connected couching serpent body with a symmetric seven-hood canopy."
+          "observations": "All four arms attach at the shoulders; the reclining body is proportionate along the diagonal. The serpent coil, tail and hood necks are one continuous body."
         },
         "faces": {
           "status": "pass",
-          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+          "observations": "Narayana's serene closed-eye face is fully clear under the hood canopy; the seven serpent heads are calm and matched."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+          "observations": "One Narayana and one Adishesha; no duplicate or fused body or limb."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+          "observations": "No readable text, caption, signature, logo, watermark or outer border observed."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Pass. Bhagavan rests in yoga nidra on Adishesha over causal waters. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+          "observations": "Matches the plan: diagonal reclining body, full coil and canopy legible, open causal water. Flat matte mural palette; satisfies the cosmic-reclining-couch mode and never-list."
         }
       },
       "findings": [],
@@ -2216,10 +2216,10 @@
       "file": "artifacts/d008/s007/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "6819dd8ea6499f55a01df803d9bc22233d3bad6bdc8e78878c922974d6a0c1af",
-      "reviewer": "Codex",
-      "inspected_at": "2026-11-02T06:21:38Z",
+      "reviewer": "Claude (no-mistakes review fix round)",
+      "inspected_at": "2026-11-02T07:00:53Z",
       "method": "individual-native-resolution",
-      "anatomy_basis": "Narayana has four attached arms on the coherent Adishesha couch; the time symbol is separate and legible, with no extra support arm.",
+      "anatomy_basis": "Narayana has exactly four attached arms: raised discus hand, raised conch hand, lower hand on the mace and lower hand holding a lotus on the thigh. Adishesha is one connected couch with a symmetric seven-hood canopy. The time-wheel on the horizon is a separate symbol with no body or arm.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -2235,39 +2235,39 @@
         },
         {
           "path": "art/bible/characters/adishesha/character.json",
-          "sha256": "7f259e9855fde33c6c37ad703acc7b3af62efdf9c36e853fc9b71d64bcb7227c"
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d008-s007-landscape-v003-review-v001.md",
-          "sha256": "84a07029c5fb916076c8123ef461d01d48da4f39c1cf548d9217b8a1922cf8ed"
+          "path": "art/reviews/d008-s007-landscape-v003-review-v002.md",
+          "sha256": "d6f3152b16367fddad4d5a46ee9cd81d6eb010ce1f30c0e54a70cd8a950cb278"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Pass. Narayana has four attached arms on the coherent Adishesha couch; the time symbol is separate and legible, with no extra support arm. Hands and visible feet are distinct; no extra or malformed limb was observed."
+          "observations": "Four distinct hands holding discus, conch, mace and lotus; both feet visible at the couch's right end with ordinary toes."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. Narayana has four attached arms on the coherent Adishesha couch; the time symbol is separate and legible, with no extra support arm."
+          "observations": "All four arms attach coherently at the shoulders; reclining proportions are natural. The serpent body is one continuous coil."
         },
         "faces": {
           "status": "pass",
-          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+          "observations": "Narayana's sleeping face is clear under the canopy; the serpent heads are calm and matched."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+          "observations": "One Narayana and one Adishesha; the floating lamps are small lights, not figures; no duplicate or fused body."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+          "observations": "No readable text, caption, signature, logo, watermark or outer border observed."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Pass. Time is directed to wake Bhagavan at pralaya’s end. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+          "observations": "Matches the plan: quiet nocturnal scene, small gold time-wheel apart on the horizon, merged beings as tiny lights. Flat matte mural palette; satisfies the cosmic-reclining-couch mode and never-list."
         }
       },
       "findings": [],
@@ -2280,10 +2280,10 @@
       "file": "artifacts/d008/s008/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "797eeced6e93e4018c76ae02c18e5dd61e78dd18ba0204c2ec6b56841df4a6ef",
-      "reviewer": "Codex",
-      "inspected_at": "2026-11-02T06:21:38Z",
+      "reviewer": "Claude (no-mistakes review fix round)",
+      "inspected_at": "2026-11-02T07:00:53Z",
       "method": "individual-native-resolution",
-      "anatomy_basis": "The awakening action is clear. Narayana has four connected arms and Adishesha remains one connected body with a symmetric seven-hood canopy.",
+      "anatomy_basis": "Narayana, now with open eyes, has exactly four attached arms: raised discus hand, raised conch hand, lower hand holding a lotus beside the bolster, and lower hand on the mace. Adishesha is one connected couch with a symmetric seven-hood canopy.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -2299,39 +2299,39 @@
         },
         {
           "path": "art/bible/characters/adishesha/character.json",
-          "sha256": "7f259e9855fde33c6c37ad703acc7b3af62efdf9c36e853fc9b71d64bcb7227c"
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d008-s008-landscape-v003-review-v001.md",
-          "sha256": "c9d4c71d6c38a998301572af85b369cd4f902a986cd9afdfcee0cd898bc193f6"
+          "path": "art/reviews/d008-s008-landscape-v003-review-v002.md",
+          "sha256": "86810936a1419be55dd97707a1dbe43cc15c908e1edf25a00670916143ac58dc"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Pass. The awakening action is clear. Narayana has four connected arms and Adishesha remains one connected body with a symmetric seven-hood canopy. Hands and visible feet are distinct; no extra or malformed limb was observed."
+          "observations": "Four distinct hands holding discus, conch, lotus and mace; both feet visible at the couch's right end with ordinary toes."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Pass. Visible shoulders, torso, limbs and objects attach coherently; no floating or fused body part was observed. The awakening action is clear. Narayana has four connected arms and Adishesha remains one connected body with a symmetric seven-hood canopy."
+          "observations": "All four arms attach coherently at the shoulders; reclining proportions are natural. The serpent body is one continuous coil."
         },
         "faces": {
           "status": "pass",
-          "observations": "Pass. Faces are distinct and legible at native resolution; no malformed or duplicated face was observed."
+          "observations": "Narayana's awakening open-eyed face is clear under the canopy; the serpent heads are calm and matched."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Pass. Scene figures remain separate and consistent with the stanza; no accidental duplicate or fused people were observed."
+          "observations": "One Narayana and one Adishesha; Kala Shakti appears only as a wheel, not a figure; no duplicate or fused body."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "Pass. No readable text, caption, signature, logo or watermark was observed."
+          "observations": "No readable text, caption, signature, logo, watermark or outer border observed."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Pass. Kala Shakti awakens Bhagavan. Full-bleed matte mural treatment follows the specified palette and rendering references; no outer border was observed."
+          "observations": "Matches the plan: subtle awakening, golden wheel approaching from open sky, still ocean, no rays. Flat matte mural palette; satisfies the cosmic-reclining-couch mode and never-list."
         }
       },
       "findings": [],
