@@ -22,15 +22,18 @@ const [series, content, plan, approvals] = await Promise.all([
   readJson('art', 'bible', 'series.json'),
   readJson('content', 'daskams', `${daskamSlug}.json`),
   readJson('art', 'plans', `${daskamSlug}.json`),
-  readJson('art', 'approved', `${daskamSlug}.json`),
+  readJson('art', 'approved', `${daskamSlug}.json`).catch((error) => {
+    if (error.code === 'ENOENT') return { stanzas: [] };
+    throw error;
+  }),
 ]);
 const stanza = content.stanzas.find((item) => item.n === stanzaNumber);
 const visual = plan.stanzas.find((item) => item.n === stanzaNumber);
 const approval = approvals.stanzas.find((item) => item.n === stanzaNumber);
-if (!stanza || !visual || !approval) throw new Error(`No complete studio record for ${daskamSlug}/${stanzaSlug}`);
+if (!stanza || !visual) throw new Error(`No complete content and visual plan for ${daskamSlug}/${stanzaSlug}`);
 
 const characterBibles = await Promise.all((visual.characters ?? []).map((id) => readJson('art', 'bible', 'characters', id, 'character.json')));
-const companion = orientation === 'landscape' ? approval.portrait : approval.landscape;
+const companion = approval ? (orientation === 'landscape' ? approval.portrait : approval.landscape) : undefined;
 const references = new Set(characterBibles.flatMap((character) => character.local_reference_paths ?? []));
 for (const reference of visual.reference_paths ?? []) references.add(reference);
 if (companion?.master_path && companion.status !== 'missing') references.add(companion.master_path);
