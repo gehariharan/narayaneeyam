@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "daskam_id": 9,
-  "review_scope": "Every D009 landscape candidate was re-inspected individually against the final plan. Selected leads were opened at native resolution with close crops; excluded trials were re-examined for their defect only. Selected leads that need fixes are not cleared; excluded trials stay excluded. Firstmate gate repairs for S001, S002, S006 and S010 were imported as new versions and inspected individually; S010 v004 (repair attempt 6) passes under the clarified viewer/canvas plan; S001 has no passing candidate (including the v012 and v017 gate repairs), so D009 cannot publish until a passing native correction is reviewed.",
+  "review_scope": "Every D009 landscape candidate was inspected individually against the final plan. All ten stanzas have a passing selected lead (S001 v006 and S010 v005 from the final native repairs); every failed trial remains recorded and excluded.",
   "lead_versions": {
-    "1": null,
+    "1": "v006",
     "2": "v002",
     "3": "v005",
     "4": "v002",
@@ -12,7 +12,7 @@
     "7": "v007",
     "8": "v003",
     "9": "v001",
-    "10": "v004"
+    "10": "v005"
   },
   "reviews": [
     {
@@ -24,7 +24,7 @@
       "approval_status": "unapproved",
       "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
       "review_method": "individual-native-resolution",
-      "evidence": "art/reviews/d009-s005-landscape-v001-review-v004.md"
+      "evidence": "art/reviews/d009-s005-landscape-v001-review-v005.md"
     },
     {
       "stanza": 1,
@@ -112,7 +112,7 @@
       "approval_status": "unapproved",
       "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
       "review_method": "individual-native-resolution",
-      "evidence": "art/reviews/d009-s003-landscape-v005-review-v004.md"
+      "evidence": "art/reviews/d009-s003-landscape-v005-review-v005.md"
     },
     {
       "stanza": 4,
@@ -134,7 +134,7 @@
       "approval_status": "unapproved",
       "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
       "review_method": "individual-native-resolution",
-      "evidence": "art/reviews/d009-s004-landscape-v002-review-v003.md"
+      "evidence": "art/reviews/d009-s004-landscape-v002-review-v004.md"
     },
     {
       "stanza": 6,
@@ -244,7 +244,7 @@
       "approval_status": "unapproved",
       "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
       "review_method": "individual-native-resolution",
-      "evidence": "art/reviews/d009-s007-landscape-v007-review-v003.md"
+      "evidence": "art/reviews/d009-s007-landscape-v007-review-v004.md"
     },
     {
       "stanza": 8,
@@ -277,7 +277,7 @@
       "approval_status": "unapproved",
       "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
       "review_method": "individual-native-resolution",
-      "evidence": "art/reviews/d009-s008-landscape-v003-review-v003.md"
+      "evidence": "art/reviews/d009-s008-landscape-v003-review-v004.md"
     },
     {
       "stanza": 9,
@@ -288,7 +288,7 @@
       "approval_status": "unapproved",
       "finding": "Selected landscape lead passed the final scene contract and visual re-inspection; artwork remains unapproved.",
       "review_method": "individual-native-resolution",
-      "evidence": "art/reviews/d009-s009-landscape-v001-review-v003.md"
+      "evidence": "art/reviews/d009-s009-landscape-v001-review-v004.md"
     },
     {
       "stanza": 10,
@@ -321,7 +321,7 @@
       "approval_status": "unapproved",
       "finding": "Imported gate repair passed the final scene contract and individual visual inspection; artwork remains unapproved.",
       "review_method": "individual-native-resolution",
-      "evidence": "art/reviews/d009-s002-landscape-v002-review-v002.md"
+      "evidence": "art/reviews/d009-s002-landscape-v002-review-v003.md"
     },
     {
       "stanza": 6,
@@ -332,7 +332,7 @@
       "approval_status": "unapproved",
       "finding": "Imported gate repair passed the final scene contract and individual visual inspection; artwork remains unapproved.",
       "review_method": "individual-native-resolution",
-      "evidence": "art/reviews/d009-s006-landscape-v004-review-v002.md"
+      "evidence": "art/reviews/d009-s006-landscape-v004-review-v003.md"
     },
     {
       "stanza": 10,
@@ -383,11 +383,33 @@
       "candidate_version": "v004",
       "file": "artifacts/d009/s010/landscape/candidate-v004.png",
       "sha256": "1c5f05cd458fd2af006d16f87f1f1b94ca5c522dc1175bef1718cd74a30341b5",
+      "visual_review": "needs-fix",
+      "approval_status": "unapproved",
+      "finding": "Under the final anatomical plan, both deities' attributes are mirrored and Bhattathiri is at canvas left instead of canvas right; superseded by v005.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s010-landscape-v004-review-v003.md"
+    },
+    {
+      "stanza": 1,
+      "candidate_version": "v006",
+      "file": "artifacts/d009/s001/landscape/candidate-v006.png",
+      "sha256": "07c852aa7322f6aaf0a2cf25ff9bdf8f71922503d92b9ae9e28bce9915ebcbe7",
       "visual_review": "pass",
       "approval_status": "unapproved",
-      "finding": "Passed individual re-inspection against the final viewer/canvas hand mapping; artwork remains unapproved.",
+      "finding": "Imported native repair passed individual visual inspection against the final plan; artwork remains unapproved.",
       "review_method": "individual-native-resolution",
-      "evidence": "art/reviews/d009-s010-landscape-v004-review-v002.md"
+      "evidence": "art/reviews/d009-s001-landscape-v006-review-v001.md"
+    },
+    {
+      "stanza": 10,
+      "candidate_version": "v005",
+      "file": "artifacts/d009/s010/landscape/candidate-v005.png",
+      "sha256": "95dcf00d6c767a8af58070777ce63d6a92f8f99b2acbccab37d3e5ce8f66ce3f",
+      "visual_review": "pass",
+      "approval_status": "unapproved",
+      "finding": "Imported native repair passed individual visual inspection against the final plan; artwork remains unapproved.",
+      "review_method": "individual-native-resolution",
+      "evidence": "art/reviews/d009-s010-landscape-v005-review-v001.md"
     }
   ]
 }
