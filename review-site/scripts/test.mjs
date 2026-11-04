@@ -27,7 +27,7 @@ assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneey
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
 console.log('Passed: 95-row comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,10,38,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,38,96]);
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
@@ -101,6 +101,21 @@ assert.equal((await feedback(req({...good,daskam:8,sloka:13}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:8,sloka:14}),env)).status,400);
 console.log('Passed: D008 has thirteen caption-mapped rows, one pinned reference and one unapproved landscape candidate each, and stanza-bounded feedback.');
 
+const full9=data.chapters.find(c=>c.id===9);assert.deepEqual(full9.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content9=JSON.parse(await fs.readFile(new URL('../../content/daskams/d009.json',import.meta.url)));
+const selected9=JSON.parse(await fs.readFile(new URL('../../art/batches/d009-comparison-v001.json',import.meta.url)));
+for(const row of full9.rows){
+ assert.equal(row.commentarySource,`intake/D009/photo-captions.txt#${String(row.n).padStart(3,'0')}`);
+ assert.equal(row.commentary,content9.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected9.rows.find(r=>r.n===row.n);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.match(selected.matte.file,/^artifacts\/d009\/s\d{3}\/landscape\//);
+}
+assert.equal((await feedback(req({...good,daskam:9,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:9,sloka:11}),env)).status,400);
+console.log('Passed: D009 has ten caption-mapped rows, one pinned reference and one unapproved landscape candidate each, and stanza-bounded feedback.');
+
 const full10=data.chapters.find(c=>c.id===10);assert.deepEqual(full10.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content10=JSON.parse(await fs.readFile(new URL('../../content/daskams/d010.json',import.meta.url)));
 const selected10=JSON.parse(await fs.readFile(new URL('../../art/batches/d010-comparison-v001.json',import.meta.url)));
@@ -135,6 +150,6 @@ await withLiveFixture(data,async base=>verifyLivePages(data,{base,retryDelayMs:0
 await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for \/: HTTP 200 \(Live index is missing d008\)/),{staleResponses:{'/narayaneeyam/':Array(6).fill(renderIndex(previousData))}});
 const stalePage8=renderChapter(data.chapters.find(c=>c.id===8),data.revision,'/narayaneeyam/',true,data.chapters).replace('Landscape candidate v004','Landscape candidate v002');
 await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/missing selected matte version v004/),{pageOverrides:{8:stalePage8}});
-const extended=structuredClone(data);const d009=structuredClone(extended.chapters.find(c=>c.id===8));d009.id=9;d009.title='Fixture D009';extended.chapters.push(d009);
+const extended=structuredClone(data);const d011=structuredClone(extended.chapters.find(c=>c.id===8));d011.id=11;d011.title='Fixture D011';extended.chapters.push(d011);
 await withLiveFixture(extended,async base=>verifyLivePages(extended,{base,retryDelayMs:0}));
 console.log('Passed: live verifier checks current bundled data over HTTP, rejects stale D006 and missing D008 route/selection, and follows additional selected chapters.');
