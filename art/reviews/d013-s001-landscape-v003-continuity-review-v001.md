@@ -7,6 +7,8 @@
 - Nārada continuity contract SHA-256: `841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806`.
 - S002 comparison: `artifacts/d013/s002/landscape/candidate-v003.png` — SHA-256 `d975021f856663c955253dedc1566c233c9aa19b9529746a6f13b59e919dff60`.
 - Disposition: needs-fix for recurring-character identity continuity; superseded by v004; no master approval.
+- Original inspection preserved: reviewer Codex (Firstmate-managed production session) at 2026-11-05T10:21:38.403Z recorded pass in `art/reviews/d013-s001-landscape-v003-review-v001.md` (SHA-256 `4c3a3738d07075e598ebd0262cddb3a4af553e9d82804cdf74e3f673800038b8`); that report stays linked as evidence.
+- Resolution: superseded by the selected S001 v004 `d783b95231051bb98d13bc691831d46db6138a13d08214c49b6b5b07e889ba8f`, a mature bearded Nārada (`art/reviews/d013-s001-landscape-v004-review-v001.md`).
 
 ## Observed mismatch
 

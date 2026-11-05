@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001, D003,
-D005 through D011, and D013 media from the release using the existing
+D005 through D013 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Then release the bundle
 and dispatch the workflow:
@@ -237,13 +237,29 @@ are paused. Upload only D011's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=11` before any serialized Worker
 deployment.
 
+## Dasakam 12
+
+D012 contains ten landscape comparison rows matched to the ten numbered intake
+references. Each selected lead has an exact checksum-bound managed visual
+review. Failed earlier versions, including the needs-fix S002 v003, S007 v004
+and v005, S008 v004 and S009 v003, remain preserved and are not comparison
+alternates.
+The Sanskrit source and supplied commentary are source-mapped; unattributed
+draft English translations are present for editorial review only and are not
+shown on the review site, the candidates remain unapproved, and portraits are
+paused.
+Upload only D012's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=12` before the serialized Worker
+deployment.
+
 ## Dasakam 13
 
 D013 contains ten landscape comparison rows matched to the ten numbered intake
 references. Each selected lead in `art/batches/d013-comparison-v001.json` has
 an individual checksum-bound visual review, and
-`art/reviews/d013-landscape-final-coverage-v001.md` records the all-ten
-full-frame pass with its open questions. Superseded versions remain preserved
+`art/reviews/d013-landscape-final-coverage-v002.md` records the all-ten
+full-frame pass and its limits. Superseded versions, including the needs-fix
+S001 v003, S003 v005 and v006, S004 v002 and S008 v002, remain preserved
 locally and are not comparison alternates. The Sanskrit and supplied
 commentary are source-mapped, English translations remain absent, the
 candidates remain unapproved, and portraits are paused. Upload only D013's

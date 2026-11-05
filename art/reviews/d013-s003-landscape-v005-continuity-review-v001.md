@@ -7,6 +7,8 @@
 - Frozen Varaha reference: `artifacts/d012/characters/varaha/character-reference-v001.png` — SHA-256 `d594a675db1d199aacd0b0d0f139a3448595049fd49fc03294f6b051085cf301`.
 - Varaha continuity contract SHA-256: `76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3`.
 - Disposition: needs-fix for recurring-character identity continuity; superseded by v006; no master approval.
+- Original inspection preserved: reviewer Codex (Firstmate-managed production session) at 2026-11-05T10:21:38.403Z recorded pass in `art/reviews/d013-s003-landscape-v005-review-v001.md` (SHA-256 `d5d9b5cdb93d4c00c620d70836925e7f7b75d55ccc98c0b0af1fbd644724dcb5`); that report stays linked as evidence.
+- Resolution: v006 `dc15e732c95a656a2630c4c87291ec63dc932d63dc07d301b172c09d045997d9` corrected the boar head but added a third tusk; the selected S003 v007 `c663ec84d541f5789bf66db9d81766f7440a7a6a2379dd54baa2c825c05faf54` has the boar head with exactly two tusks (`art/reviews/d013-s003-landscape-v007-review-v001.md`).
 
 ## Observed mismatch
 
