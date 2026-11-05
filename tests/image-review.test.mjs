@@ -259,7 +259,8 @@ test('repository historical labels match the preserved audits', async () => {
 
 test('D014 selection binds ten source/candidate pairs and renders as a landscape review chapter', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
-  const batch = JSON.parse(await fs.readFile(path.join(root, 'art/batches/d014-comparison-v001.json'), 'utf8'));
+  const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd014-comparison-v001.json');
+  const validation = await validateSelections(root, [batch]);
   const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d014.json'), 'utf8'));
   const plan = JSON.parse(await fs.readFile(path.join(root, 'art/plans/d014.json'), 'utf8'));
   assert.equal(batch.review_status, 'needs-review');
@@ -271,13 +272,16 @@ test('D014 selection binds ten source/candidate pairs and renders as a landscape
     assert.equal(selected.reference.sha256, sha256(await fs.readFile(path.join(root, selected.reference.file))));
     assert.equal(selected.matte.sha256, sha256(await fs.readFile(path.join(root, selected.matte.file))));
     assert.deepEqual(selected.alternates, []);
+    const review = reviewFor(validation, { ...selected.matte, chapter: 14, sloka: selected.n, role: 'matte' });
+    assert.equal(review.status, 'inspected');
+    assert.ok(review.label.includes('not art approval'));
     rows.push({
       n: selected.n,
       title: plan.stanzas.find(item => item.n === selected.n).alt,
       commentary: stanza.commentary_en,
       images: [
         { role: 'reference', label: 'reference', displayLabel: 'Original reference', key: `media/d014-s${selected.n}-reference.webp` },
-        { role: 'matte', label: 'matte', displayLabel: `Landscape candidate ${selected.matte.version}`, version: selected.matte.version, key: `media/d014-s${selected.n}-matte.webp`, inspectionStatus: 'inspected', inspectionLabel: 'Visually inspected candidate; not art approval' }
+        { role: 'matte', label: 'matte', displayLabel: `Landscape candidate ${selected.matte.version}`, version: selected.matte.version, key: `media/d014-s${selected.n}-matte.webp`, inspectionStatus: review.status, inspectionLabel: review.label }
       ]
     });
   }
