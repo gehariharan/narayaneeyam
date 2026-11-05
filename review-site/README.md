@@ -242,8 +242,10 @@ deployment.
 D012 contains ten landscape comparison rows matched to the ten numbered intake
 references. Each selected lead has an exact checksum-bound visual review;
 failed earlier versions remain preserved and are not comparison alternates.
-The Sanskrit source and supplied commentary are source-mapped; translations
-remain absent, the candidates remain unapproved, and portraits are paused.
+The Sanskrit source and supplied commentary are source-mapped; unattributed
+draft English translations are present for editorial review only and are not
+shown on the review site, the candidates remain unapproved, and portraits are
+paused.
 Upload only D012's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=12` before the serialized Worker
 deployment.
