@@ -2,8 +2,8 @@
   "schema_version": 1,
   "daskam_id": 12,
   "review_status": "needs-review",
-  "visual_review_status": "All ten selected raws have a fresh managed full-frame and detail review bound to their exact hashes. S001, S003, S004, S005, S006 and S010 pass; S002, S007, S008 and S009 are needs-fix with open findings. Portraits paused; no art approval.",
-  "description": "Ten D012 landscape candidates paired with ten verified intake references. The selected S004 and S010 versions are corrected native raws. Historic review evidence is retained alongside a fresh managed review of every selected raw; four selected raws have open needs-fix findings. Artwork remains unapproved.",
+  "visual_review_status": "All ten selected raws have a fresh managed full-frame and detail review bound to their exact hashes, and all ten pass. S002 v004, S007 v005, S008 v005 and S009 v005 are native repairs that replace needs-fix versions retained as history. Portraits paused; no art approval.",
+  "description": "Ten D012 landscape candidates paired with ten verified intake references. The selected S004 and S010 versions are corrected native raws. Historic review evidence is retained alongside a fresh managed review of every selected raw; the needs-fix versions of S002, S007, S008 and S009 remain preserved history. Artwork remains unapproved.",
   "review_notice": "Earlier pass labels are historical. Each selected raw's current record cites its managed review, which compares the exact raw hash, full frame plus relevant anatomy and scene details, against the canonical stanza, intake, plan, series and character references. Open findings stay open until a corrected raw is reviewed. Portraits remain paused. This comparison batch does not grant art approval.",
   "rows": [
     {
@@ -38,13 +38,18 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d012/s002/landscape/candidate-v003.png",
-        "sha256": "40652ba1c353025b477660033fb20df983a3f87d96db35be56e6300be970c5f2",
-        "version": "v003",
-        "label": "Landscape candidate v003",
-        "displayLabel": "Landscape candidate v003"
+        "file": "artifacts/d012/s002/landscape/candidate-v004.png",
+        "sha256": "0e9d708a086730e5c961bb23fdabcda0856fc92debd7e752333fe0deeacd2dae",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
       },
-      "alternates": []
+      "alternates": [],
+      "history": {
+        "previous_selected_version": "v003",
+        "previous_sha256": "40652ba1c353025b477660033fb20df983a3f87d96db35be56e6300be970c5f2",
+        "status": "retained as needs-fix history for the figurative disembodied-feet motif (D012-S002-V003-FIGURATIVE-FEET-MOTIF)"
+      }
     },
     {
       "n": 3,
@@ -145,13 +150,18 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d012/s007/landscape/candidate-v004.png",
-        "sha256": "79f8a2c631b5d5a750298cf7bff5dfd9ba1b1511cb1f208d69d734b390de7381",
-        "version": "v004",
-        "label": "Landscape candidate v004",
-        "displayLabel": "Landscape candidate v004"
+        "file": "artifacts/d012/s007/landscape/candidate-v005.png",
+        "sha256": "93dcb4ed96c40b82f43f0fc1fd3e568bf71768424cd899ba10cfddc7e3eb5696",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005"
       },
-      "alternates": []
+      "alternates": [],
+      "history": {
+        "previous_selected_version": "v004",
+        "previous_sha256": "79f8a2c631b5d5a750298cf7bff5dfd9ba1b1511cb1f208d69d734b390de7381",
+        "status": "retained as needs-fix history for smooth fur, gentle face and unbroken clouds (D012-S007-V004-*)"
+      }
     },
     {
       "n": 8,
@@ -165,13 +175,18 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d012/s008/landscape/candidate-v004.png",
-        "sha256": "a000d4bee3b57a7b5a7f79be606479adefd3160519235af11e8d3fa5571f7625",
-        "version": "v004",
-        "label": "Landscape candidate v004",
-        "displayLabel": "Landscape candidate v004"
+        "file": "artifacts/d012/s008/landscape/candidate-v005.png",
+        "sha256": "ccfcde3931348fb756b0a9d583448fef9f859ff7a95598cba9a4df9516cd73c2",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005"
       },
-      "alternates": []
+      "alternates": [],
+      "history": {
+        "previous_selected_version": "v004",
+        "previous_sha256": "a000d4bee3b57a7b5a7f79be606479adefd3160519235af11e8d3fa5571f7625",
+        "status": "retained as needs-fix history for the rightmost inhabitant's extra forked arm (D012-S008-V004-INHABITANT-EXTRA-ARM)"
+      }
     },
     {
       "n": 9,
@@ -185,13 +200,18 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d012/s009/landscape/candidate-v003.png",
-        "sha256": "6dc404bd19ef437b21afce03ca842ffd95601c76c87fd2b6ede05998a470206a",
-        "version": "v003",
-        "label": "Landscape candidate v003",
-        "displayLabel": "Landscape candidate v003"
+        "file": "artifacts/d012/s009/landscape/candidate-v005.png",
+        "sha256": "462449699bba4c4a1b0be0c857d4921ced81e904643f94d4e29af1de83ba986c",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005"
       },
-      "alternates": []
+      "alternates": [],
+      "history": {
+        "previous_selected_version": "v003",
+        "previous_sha256": "6dc404bd19ef437b21afce03ca842ffd95601c76c87fd2b6ede05998a470206a",
+        "status": "retained as needs-fix history for the snout-rooted tusk and surface setting (D012-S009-V003-*); native repair v004 f36bffe6… failed separately and remains external history"
+      }
     },
     {
       "n": 10,

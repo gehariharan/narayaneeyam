@@ -241,8 +241,8 @@ deployment.
 
 D012 contains ten landscape comparison rows matched to the ten numbered intake
 references. Each selected lead has an exact checksum-bound managed visual
-review; S002, S007, S008 and S009 currently have open needs-fix findings.
-Failed earlier versions remain preserved and are not comparison alternates.
+review. Failed earlier versions, including the needs-fix S002 v003, S007 v004,
+S008 v004 and S009 v003, remain preserved and are not comparison alternates.
 The Sanskrit source and supplied commentary are source-mapped; unattributed
 draft English translations are present for editorial review only and are not
 shown on the review site, the candidates remain unapproved, and portraits are

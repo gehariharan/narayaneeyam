@@ -7897,6 +7897,278 @@
         }
       },
       "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d012/s002/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "0e9d708a086730e5c961bb23fdabcda0856fc92debd7e752333fe0deeacd2dae",
+      "reviewer": "Claude (no-mistakes managed fix-review phase)",
+      "inspected_at": "2026-11-05T11:38:50Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma has the planned four-head/four-arm deity form (three faces visible). Manu is an ordinary human with two natural arms. Varaha does not appear in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "content/daskams/d012.json",
+          "sha256": "55f9a97f0f6a9392727cbaeba1af126dc4e78a15a16d26a353243c3e8d5545b0"
+        },
+        {
+          "path": "content/sources/d012/photo-captions.txt",
+          "sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s002-landscape-v004-managed-review-v001.md",
+          "sha256": "e019a7f65358b2bd43dd524dc8cffcc692c04f9428113a19ac7117d94b86aa57"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Crop s002v4-manu: Manu's two hands meet in anjali, and one bare foot shows under his robe. Crop s002v4-brahma: Brahma's hands hold the water pot (upper right), lotus (upper left) and beads (lower left); the lower right hand reaches toward the small lotus. Crossed legs rest on the lotus seat."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Each of Brahma's four arms joins at the shoulders with armbands; the reaching lower right arm comes from the right shoulder under the upper arm. Manu has one natural arm pair with ordinary proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Three crowned, white-bearded Brahma faces (two profiles and one frontal), all with lowered contemplative eyes; no fourth is visible. Manu has one elder profile face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Brahma and one Manu; no extra sages, child avatar, duplicate or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, pseudo-script, signature or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Crop s002v4-motif-2x: the Lord's-feet motif is now a small closed lotus with a soft glow, with no feet, toes or figure, so it is subtle and non-figurative as the plan requires. This resolves the v003 finding. Matches stanza 12-2: Manu petitions; Brahma, seated on the lotus, contemplates; the submerged Earth is suggested below calm water. Matte ochre mural palette; the intake 002 composition is not copied."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d012/s007/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "93dcb4ed96c40b82f43f0fc1fd3e568bf71768424cd899ba10cfddc7e3eb5696",
+      "reviewer": "Claude (no-mistakes managed fix-review phase)",
+      "inspected_at": "2026-11-05T11:39:00Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha is one natural boar. The three sages are ordinary humans with two arms. Brahma is not depicted in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "content/daskams/d012.json",
+          "sha256": "55f9a97f0f6a9392727cbaeba1af126dc4e78a15a16d26a353243c3e8d5545b0"
+        },
+        {
+          "path": "content/sources/d012/photo-captions.txt",
+          "sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s007-landscape-v005-managed-review-v001.md",
+          "sha256": "35ecd69e33c8e9c16037b61574a60ba750ed431c97ffca25a96c34086859908c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Four boar legs with anklets and cloven hooves. Each sage shows two joined hands and two bare feet (crop s007v5-clouds-top)."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Natural connected quadruped. Two tusks at the mouth corners; the tail attaches at the rump and is raised. The bristle crest grows from the back without detaching."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Crop s007v5-eye-snout-2.5x: one boar head in near profile. A single eye is clearly visible under a lowered, furrowed brow, rolled toward the upper left where the sages stand; the snout points down. The expression is intense, not smiling. The sages' three faces are distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One boar and three sages; no extra boar face, limb or fused form."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text or marks."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Crop s007v5-bristles: reddish-dark bristles visibly stand along the spine and shoulders. Crop s007v5-clouds-top: the clouds at upper right split into hooked tongues around the descent, and the sages remain above, untouched. This resolves the v004 findings for stanza 12-7. Matte palette; the intake 007's weapon-bearing humanoid is not copied."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d012/s008/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "ccfcde3931348fb756b0a9d583448fef9f859ff7a95598cba9a4df9516cd73c2",
+      "reviewer": "Claude (no-mistakes managed fix-review phase)",
+      "inspected_at": "2026-11-05T11:39:16Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha is one natural boar. The three Rasatala inhabitants are ordinary humanoids with two natural arms each. The crocodiles and whale are natural animals.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "content/daskams/d012.json",
+          "sha256": "55f9a97f0f6a9392727cbaeba1af126dc4e78a15a16d26a353243c3e8d5545b0"
+        },
+        {
+          "path": "content/sources/d012/photo-captions.txt",
+          "sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s008-landscape-v005-managed-review-v001.md",
+          "sha256": "2de9c8a264587edc90171c426d2526676f90f6395ac57be2d5dd7bef60d09e24"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Crop s008v5-right-figure-3x: the rightmost inhabitant has exactly two hands, one raised palm-out on the left and one splayed low on the right, each on a single continuous arm. Crops s008v5-middle-figure-3x and s008v5-left-figure-3x: each has one raised hand and one at the chest. The boar's four hooved legs are intact."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "No forked or duplicated forearm on any inhabitant; each arm runs shoulder\u2013armband\u2013elbow\u2013wrist\u2013hand. The boar, crocodiles and whale attach naturally."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Three distinct frightened inhabitant faces; one boar head with an open mouth and two tusks; natural crocodile and whale heads."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No duplicated limb or figure; the animals are distinct and separated."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text or marks."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 12-8: Varaha roars among circling crocodiles and a whale, and the denizens of Rasatala tremble; no asura fight. This resolves the v004 extra-arm finding; the rest of the composition is unchanged from v004."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d012/s009/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "462449699bba4c4a1b0be0c857d4921ced81e904643f94d4e29af1de83ba986c",
+      "reviewer": "Claude (no-mistakes managed fix-review phase)",
+      "inspected_at": "2026-11-05T11:39:24Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha is one natural boar with two tusks. A single faint asura bust is background only, with no weapon or action.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "content/daskams/d012.json",
+          "sha256": "55f9a97f0f6a9392727cbaeba1af126dc4e78a15a16d26a353243c3e8d5545b0"
+        },
+        {
+          "path": "content/sources/d012/photo-captions.txt",
+          "sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s009-landscape-v005-managed-review-v001.md",
+          "sha256": "067037115704a8bc4779dc5e5f911a53e06e5d14be63795605cbe1a75f3c4261"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Four legs with anklets and cloven hooves in a swimming stride; no humanoid limbs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Crop s009v5-tusk-root-3x: the Earth-bearing tusk emerges from under the nostril disc at the lower-lip line and curves upward, matching the near tusk at the mouth corner. It no longer grows from the snout rim. The snout bridge is smooth."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One boar head with one eye, ears, crown, forehead mark and a gentle smile. Crop s009v5-asura-3x: a single bearded, horned asura head and shoulders, dim and distant."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One boar and one Earth, which touches only the tip of a single tusk; one asura silhouette."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text or marks."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 12-9 and the plan: underwater at Rasatala's edge, Earth on one tusk tip, playful effortless lift, and a subdued distant asura with no combat, injury or weapon. This resolves both v003 findings. Matte mural palette."
+        }
+      },
+      "findings": []
     }
   ]
 }
