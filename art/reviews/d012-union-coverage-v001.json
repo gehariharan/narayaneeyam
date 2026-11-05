@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "reviewer": "Claude (no-mistakes managed review-fix, audit-review-board)",
+  "inspected_at": "2026-11-05T12:36:39Z",
+  "scope": "D012 files merged into this branch from origin/main fde952c10f3d78dfbbe3bc99d445be59288dde40 (PR13). Each file is byte-identical to that commit. D012 image hashes were already managed-reviewed in PR13 and were not re-inspected here.",
+  "method": "Compared each blob with fde952c, parsed every JSON file, checked cross-file sha256 bindings, and read the content and source files.",
+  "files": [
+    {
+      "path": "art/batches/d012-comparison-v001.json",
+      "sha256": "32b542f5e6e101e70b91161a1e6f363e08121ad3c41b24a3c783589d5b33dd6e",
+      "identical_to_origin_main": true,
+      "observation": "Ten S001-S010 landscape matte selections, including S007 v006; every selected sha256 resolves to a passing chapter-12 record in art/reviews/visual-reviews.json (validated by scripts/validate-image-reviews.mjs)."
+    },
+    {
+      "path": "art/bible/characters/varaha/character.json",
+      "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3",
+      "identical_to_origin_main": true,
+      "observation": "Draft Varaha identity bible; its sha256 matches the contract binding in every D012 Varaha review record."
+    },
+    {
+      "path": "art/plans/d012.json",
+      "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7",
+      "identical_to_origin_main": true,
+      "observation": "Ten stanzas with character lists matching the batch rows; its sha256 matches the plan contract binding in all eighteen chapter-12 review records."
+    },
+    {
+      "path": "art/reviews/d012-corrected-verification-plan-v001.json",
+      "sha256": "466c742fc0451166ccd3c4bede362acbe3d5f1a383455f249b54a159ee603355",
+      "identical_to_origin_main": true,
+      "observation": "Historical PR13 verification plan; all 25 path/sha256 pairs whose paths exist in the repository match current bytes (12 cite local-only artifacts)."
+    },
+    {
+      "path": "art/reviews/d012-s001-landscape-v001-review-v001.md",
+      "sha256": "e604fa9071a0b30d54b6e695f2429d45c1a388d3443486b60ab393d1b5bba70a",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s001-landscape-v003-managed-review-v001.md",
+      "sha256": "a23feaeb46687dccb65791d9615470317c363b8165984ab6d5cf2bae57309bf8",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s001-landscape-v003-review-v001.md",
+      "sha256": "0899b724cc8e762f223e38f7b9b07994dfc1d3ea2b8645da2c05446a5be03f03",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s002-landscape-v003-managed-review-v001.md",
+      "sha256": "e69fff9a0db38fd1f671f73a9ce44b10d5c40ec915bd5708aed926d2f64ff1cc",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s002-landscape-v003-review-v001.md",
+      "sha256": "7b3ae2aac944b1c56bd9098400708dc0e4f21ca3d3e8a1c58303f2f0193c4d36",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s002-landscape-v004-managed-review-v001.md",
+      "sha256": "e019a7f65358b2bd43dd524dc8cffcc692c04f9428113a19ac7117d94b86aa57",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s003-landscape-v007-managed-review-v001.md",
+      "sha256": "dccf90f6391487a4c6024c6ed8db8f32eed355418bd879e1a6fc6696ac123727",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s003-landscape-v007-review-v001.md",
+      "sha256": "6fde5ce9b4f3c71a64e74255d265a9202d9a0e68dc7ef1b706d777e6f2e8ef7e",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s004-landscape-v004-review-v001.md",
+      "sha256": "98bef61f8f006a925be7dc8608d02800148a45944d70b27358e0886c3e225528",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s004-landscape-v004-review-v002.md",
+      "sha256": "752cadd543620ea988969613670fd609388d67c77837df494928d0b228c8c5df",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s004-landscape-v006-managed-review-v001.md",
+      "sha256": "f68b208de3e4d06e80a1fe99515d6a149439309e46825b183478543beffd8174",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s004-landscape-v006-preliminary-review-v001.md",
+      "sha256": "11b813dee7f5600296602bbcabea21550b49c6273750f363b3a00642577ca0d6",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s005-landscape-v003-managed-review-v001.md",
+      "sha256": "085893a54292a830154b3a1181e28cfe244cbc96c855183438e2d875767a6794",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s005-landscape-v003-review-v001.md",
+      "sha256": "24f7a3443253258b19b3cd6080e766dd816857377d0948071d9a4d628eb86167",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s006-landscape-v002-managed-review-v001.md",
+      "sha256": "6c4f1f05cca1c707fa295f4a6374ed05394d11a6f71140b1484ca5333c40c7a8",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s006-landscape-v002-review-v001.md",
+      "sha256": "6e87ee75772cd07579f2ef6180f240f32ad9a09e6689eda1798af488b9386abf",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s007-landscape-v004-managed-review-v001.md",
+      "sha256": "220874dbc22b349a18a5bf95f1d72d2c044a8d21a28bf6c1bd93467d4dc163d3",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s007-landscape-v004-review-v001.md",
+      "sha256": "dc2137f9ae116a9306be4b490be22b9f6ee1d2946eb73a44cc544791d7172331",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s007-landscape-v005-managed-review-v001.md",
+      "sha256": "35ecd69e33c8e9c16037b61574a60ba750ed431c97ffca25a96c34086859908c",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s007-landscape-v005-managed-review-v002.md",
+      "sha256": "1e01c63bd02df761e1c764d6e0cc6ff73ee7246a95ec6d7183f09ee3e58f2087",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s007-landscape-v006-managed-review-v001.md",
+      "sha256": "0c1edc3410afb679b29f81efe7142d4aac91de12419ae7eb0d9438bdb4b02520",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s008-landscape-v004-managed-review-v001.md",
+      "sha256": "9cd4a3706361d2d4717f45614a9636db4953be2747c0c68d09e790521ebcc976",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s008-landscape-v004-review-v001.md",
+      "sha256": "103f6ea8bbb12a2a4e10f27f5a23a8f7b50a844e2e7ebc326f0b09430adc2502",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s008-landscape-v005-managed-review-v001.md",
+      "sha256": "2de9c8a264587edc90171c426d2526676f90f6395ac57be2d5dd7bef60d09e24",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s009-landscape-v003-managed-review-v001.md",
+      "sha256": "4ba23b5b6092a886113c99afd764ec694a4712733ff765e5551a89e6d665360e",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s009-landscape-v003-review-v001.md",
+      "sha256": "7a81a57b8c944d017edf5d80c6dfa025651a8fae302e09f7fc0167d7e3b35c0f",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s009-landscape-v005-managed-review-v001.md",
+      "sha256": "067037115704a8bc4779dc5e5f911a53e06e5d14be63795605cbe1a75f3c4261",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s010-landscape-v003-review-v001.md",
+      "sha256": "0e497dadda8c0e16e20f41d34f815603fe4628b278e4f0cf67f7a7cd9bbb7540",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s010-landscape-v003-review-v002.md",
+      "sha256": "d14252fd148ca4f59b521e943a45f5a87f3a60d73f32b727e7ce0f03319e47ed",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s010-landscape-v004-managed-review-v001.md",
+      "sha256": "3e934b9c75be081bdcbdeecda52876fdfcf796f3a3f797e542e87190d24e28d0",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-s010-landscape-v004-review-v001.md",
+      "sha256": "d8db54e83841c9bb02eb5c261412adb38bdc928cd704c32293711f274727731b",
+      "identical_to_origin_main": true,
+      "observation": "Review evidence cited by a chapter-12 visual review record; its sha256 matches the binding."
+    },
+    {
+      "path": "art/reviews/d012-varaha-reference-v001.md",
+      "sha256": "49cf143e75380c2f8d899b3c52387951e3de1d7a3fe64c32caab6e9454899110",
+      "identical_to_origin_main": true,
+      "observation": "Historical inspection of the local-only Varaha reference image; it records no art approval."
+    },
+    {
+      "path": "content/daskams/d012.json",
+      "sha256": "55f9a97f0f6a9392727cbaeba1af126dc4e78a15a16d26a353243c3e8d5545b0",
+      "identical_to_origin_main": true,
+      "observation": "Ten stanzas, each with a vetted intake/D012/photo-captions.txt#NNN commentary source and non-empty commentary_en."
+    },
+    {
+      "path": "content/sources/d012/intake-source.json",
+      "sha256": "08055c712e3c29da33b5c1187910ffcb9c6720875ed552e310df90daead05dbe",
+      "identical_to_origin_main": true,
+      "observation": "Original Drive metadata; its sha256 equals provenance.json sha256_original_source_metadata."
+    },
+    {
+      "path": "content/sources/d012/photo-captions.txt",
+      "sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+      "identical_to_origin_main": true,
+      "observation": "Verbatim commentary captions; its sha256 equals the caption_sha256 recorded in intake-source.json and provenance.json."
+    },
+    {
+      "path": "content/sources/d012/provenance.json",
+      "sha256": "9b5ba4f13321603288a2bef285bf94898293ec89cebae6ed72fd3b53a5e64bbd",
+      "identical_to_origin_main": true,
+      "observation": "Source provenance for D012. Its reference_inventory path art/references/d012.json is absent here and in origin/main, so that gap is inherited and was not changed."
+    },
+    {
+      "path": "review-site/selections.mjs",
+      "sha256": "a9a5ab8d54b45b973061d54047894a5170043c9ae9ec9bd19f357ff0f065d6ed",
+      "identical_to_origin_main": true,
+      "observation": "Adds only d012-comparison-v001.json to selectionFiles, between d011 and d038."
+    }
+  ]
+}
