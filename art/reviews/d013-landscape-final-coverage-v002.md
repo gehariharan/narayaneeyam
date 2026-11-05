@@ -23,7 +23,7 @@
 
 - S001 v004: shin-deep shallow-water meeting; Hiraṇyākṣa shades his eyes searching; mature, bearded, topknotted Nārada with veena speaks with an open palm; two arms each; no weapon. Nārada matches S002. Limit: sky is ochre rather than blue.
 - S002 v003: bearded Nārada with veena points the way; unarmed Hiraṇyākṣa lunges; one quadruped Varaha with pig-nose disc and short tusks rises from the waves with one seated Bhūdevī at the tusk; no globe. Pass.
-- S003 v007: quadruped Varaha with pig-nose disc, upright ears and exactly two mouth-rooted tusks; the near tusk supports Bhūdevī at the waist as she steps into the water; Hiraṇyākṣa unarmed. No third tusk. Limit: the support tusk is lengthened by mural convention.
+- S003 v007: quadruped Varaha with pig-nose disc, upright ears and exactly two mouth-rooted tusks; the near tusk supports Bhūdevī at the waist as she steps into the water; Hiraṇyākṣa unarmed. No third tusk. Limit: the near support tusk is lengthened by mural convention and drawn as one crescent passing under the mouth corner, with no distinct socket.
 - S004 v003: two-mace duel with each fighter holding one mace in both hands; three watching deities; Brahmā with three visible faces and exactly four hands holding scripture, kamandalu, lotus and rosary; the v002 empty fifth hand is gone. Pass.
 - S005 v002: Varaha's fallen mace lies in the water; a single discus is raised; Hiraṇyākṣa's own mace is raised and clearly separate; two arms each. Pass.
 - S006 v002: one trident snapped mid-air; Varaha holds one discus and makes a fist; Hiraṇyākṣa throws a bare-fist punch; faint palaces in mist for the fading māyā; two arms each. Pass.
