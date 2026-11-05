@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001, D003,
-and D005 through D009 media from the release using the existing
+and D005 through D011 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Then release the bundle
 and dispatch the workflow:
@@ -59,7 +59,7 @@ gh workflow run deploy-review.yml --ref "review-bundle-$sha"
 
 The release bundle contains only rendered review HTML, the review data and
 provenance manifests, and WebP derivatives. The Worker deployment uses a separate
-GitHub environment secret; GitHub Actions uploads the four chapter groups listed above to R2.
+GitHub environment secret; GitHub Actions uploads the chapters listed above to R2.
 
 Build creates a standalone index and chapter HTML reviews under `artifacts/review-site/`
 and WebP derivatives from an explicit list of local images. Originals remain
