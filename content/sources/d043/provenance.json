@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "daskam": 43,
+  "source_materials": [
+    {
+      "type": "canonical-sanskrit",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-43-in-sanskrit/",
+      "retrieved_at": "2026-11-05",
+      "title": "Narayaneeyam Dasakam 43 — nārāyaṇīyaṃ tricatvāriṃśadaśakam (43) – tṛṇāvartavadha",
+      "text_format": "Devanagari Sanskrit copied stanza-by-stanza; publisher spelling and stanza numbering preserved."
+    },
+    {
+      "type": "romanization",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-43-in-english/",
+      "retrieved_at": "2026-11-05",
+      "text_format": "Publisher IAST text copied stanza-by-stanza."
+    },
+    {
+      "type": "user-supplied-commentary-and-reference-captions",
+      "source_manifest": "intake/D043/source.json",
+      "source_manifest_sha256": "be401e481d8452695a5f2aa2e6a617b6ac50e034e8c3d63561d2025327e8b37d",
+      "caption_file": "intake/D043/photo-captions.txt",
+      "caption_sha256": "bb68f6390a576e47aee6cef134a277407369510fca3076ac1ffc7cd1a0ee24b1",
+      "note": "Original supplied English captions preserved verbatim and treated as commentary/reference metadata, not as the Sanskrit verse or an English translation."
+    }
+  ],
+  "editorial_note": "No English verse translation was present in the local D043 source bundle or the retrieved Stotra Nidhi Sanskrit/IAST pages. translation_en remains blank; do not infer or insert a translation without an explicitly sourced text.",
+  "reference_images": [
+    {
+      "stanza": 1,
+      "path": "intake/D043/001.jpg",
+      "sha256": "78a934c179011a962e5d5a13a80d0700bd7a8bb2aeda04824a6e4cabf193c375"
+    },
+    {
+      "stanza": 2,
+      "path": "intake/D043/002.jpg",
+      "sha256": "2babcedf8544985086ff90839aef506e00dbca7f2e8c2e5295d0b78c903ddf56"
+    },
+    {
+      "stanza": 3,
+      "path": "intake/D043/003.jpg",
+      "sha256": "cbf240c01a9af777d0e4c660be99f262b898f81ca9a6e03329bfc3d64eb2123d"
+    },
+    {
+      "stanza": 4,
+      "path": "intake/D043/004.jpg",
+      "sha256": "acfaec0b22752fd65c1280db50b24e5e28be907e37085a322ce2fd6dedcffeba"
+    },
+    {
+      "stanza": 5,
+      "path": "intake/D043/005.jpg",
+      "sha256": "087fa13cf1239e8984028a955955b6af8fcc8b3f14d9c5d6f84a467747632098"
+    },
+    {
+      "stanza": 6,
+      "path": "intake/D043/006.jpg",
+      "sha256": "7992a68ffd4661ae36cab15ab4f23e0d71ce48b0751d9866cc678b3466c2d384"
+    },
+    {
+      "stanza": 7,
+      "path": "intake/D043/007.jpg",
+      "sha256": "9771ca8f8840c77c66869dcf007c31a0c16640cf91f2a1fd5ab45f8ae8468dc4"
+    },
+    {
+      "stanza": 8,
+      "path": "intake/D043/008.jpg",
+      "sha256": "c7a935fbe4d54ec50a307be34f86d75c9a03eb533e4cb853ccd61ec6c49608f2"
+    },
+    {
+      "stanza": 9,
+      "path": "intake/D043/009.jpg",
+      "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f"
+    },
+    {
+      "stanza": 10,
+      "path": "intake/D043/010.jpg",
+      "sha256": "a72b0898ad49d959575138e70567f2ba179c3ac5ea85cc9b8d9f1ba69dc3a129"
+    }
+  ],
+  "shared_reference_assets": [
+    {
+      "path": "artifacts/d043/references/shared/bhattathiri-older-reference-candidate-v001.png",
+      "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+      "role": "older Bhattathiri identity candidate; not approved master"
+    },
+    {
+      "path": "artifacts/d043/references/shared/guruvayurappan-approved-v001.png",
+      "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+      "role": "approved Guruvayurappan identity reference"
+    },
+    {
+      "path": "artifacts/d043/references/shared/style-d001-s004.png",
+      "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+      "role": "style only"
+    },
+    {
+      "path": "artifacts/d043/references/shared/style-d001-s008.png",
+      "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+      "role": "style only"
+    },
+    {
+      "path": "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+      "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+      "role": "provisional shared infant identity anchor; independent exact-version pass; not a master or scene-art approval"
+    },
+    {
+      "path": "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.prompt.txt",
+      "sha256": "d40aa912630b0d93faf3c7526ac8698654278ce9e61de3e7df2b404bdc1492ec",
+      "role": "exact prompt for provisional infant anchor v004"
+    },
+    {
+      "path": "artifacts/d043/references/shared/nandagopan-yashoda-adult-cues-from-d043-s009.jpg",
+      "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+      "role": "shared provisional Nandagopan/Yashoda identity cue from D043 S009; not rendering/staging or an approved master"
+    }
+  ],
+  "shared_identity_handoffs": [
+    {
+      "path": "/home/gehariharan/firstmate-images/data/d044-production/shared-supporting-cast-handoff.json",
+      "sha256": "284a1043d1dd63dd4dada9266b6be13a20102b253eb2f4d386912977d943ecb7",
+      "copied_to": "artifacts/d043/references/proofs/shared-supporting-cast-handoff.json"
+    },
+    {
+      "path": "artifacts/d043/references/proofs/infant-krishna-v004/review-v004.json",
+      "sha256": "f2129ba16afdd7e187728401dd752e6076d607950436ffba27440e6730c0f1f5",
+      "verdict": "pass for provisional working identity only"
+    }
+  ]
+}

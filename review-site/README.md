@@ -310,3 +310,7 @@ not cleared, 126 individually inspected).
 The managed D014 review passed all ten leads, including the S005 v003, S008 v008
 and S010 v003 repairs; earlier failed versions remain recorded as history. These
 totals must be recalculated if the base advances.
+
+## Dasakam 43
+
+D043 contains ten source-mapped landscape candidates in `art/batches/d043-comparison-v001.json`. Each row binds its numbered intake reference and selected native candidate version by SHA-256. Producer reviews are recorded locally; the independent managed review remains required before visual clearance. Candidates remain unapproved, portraits are paused, and English translations are absent.
