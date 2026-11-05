@@ -13463,6 +13463,293 @@
           "viewed_at": "2026-11-05T23:12:59Z"
         }
       ]
+    },
+    {
+      "chapter": 43,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d043/s005/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "efcd3735e482b5d7dd50d031fb0326c4f857db2ee6a5e3e21c6e68e972583720",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:48:24Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Four adult gopas including Nanda, one adult woman (Yashoda), one small adult demon (Trinavarta) and one two-armed infant Krishna. One cow.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d043.json",
+          "sha256": "f86515f6420d37a991d823c801f00454d89a602a17c4ae625e99c4a0d2d3a456"
+        },
+        {
+          "path": "content/daskams/d043.json",
+          "sha256": "8fa8b37a3317d9b56a1bf4383df1552a92fdd0be6e27f1a66d9a75eda62ae6ef"
+        },
+        {
+          "path": "content/sources/d043/reference-map.json",
+          "sha256": "a4c477c49a09ed96a8c3baaeaa9889d7717c7abb2091a9982a8c4cc4cbebbcb2"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d043-s005-v002-final-managed-review-v001.md",
+          "sha256": "b416be964da4e00676d9e585437b12b95ec135dea41477a4d0e07efff33864d6"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "On the ground, Nanda reaches forward with one open hand, and the other hand is a fist at his side. The rope-carrying gopa holds the coil in one hand. The bearded gopa holds a hand to his chest. The red-sash gopa grips a staff with one hand, and his other hand is a fist. Seven bare feet show toes, and the bearded gopa’s second foot is hidden. Yashoda raises two open hands, each with a thumb and four fingers. In the air, the demon has two trailing bare feet with toes. One of his hands, with its fingers visible, wraps under the infant, and his other forearm, with a gold cuff, curls around the infant’s legs. The infant raises one hand, with its fingers visible, to the demon’s chest. His second arm is tucked against his body, and his legs are folded in the yellow cloth."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The demon’s torso, arms and trailing legs are continuous and proportionate, and he is drawn smaller than in v001, matching the weakening in S004. The infant is about a third of the demon’s height, with short plump infant limbs. At 3x and 6x magnification, the small grey-blue form between the infant’s folded knee and the demon’s gold cuff reads as the infant’s tucked foot or knee in the infant’s skin tone. It is not a third hand or a stray limb. The ground figures are unchanged from v001 and proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The demon’s grey face is strained, with drooping eyes, an open grimacing mouth with visible teeth, a moustache, a red forehead mark and wild hair, matching S004. The infant’s face is upturned with a white namam and a peacock feather. Nanda is moustached and turbaned, and the other ground faces are each distinct, including Yashoda calling out with a bindi and a veil."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "There is one infant and one demon. The infant’s body overlaps the demon’s chest and arms, but the outlines of the two figures stay separate and nothing fuses. The four gopas, Yashoda and the cow are each single."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The descent requirement is met. Trinavarta is head-down with trailing feet and smoke trails, far from the ground, so he reads as failing and falling, and the scene stays non-graphic. His grey skin, wild hair and strained face now match S004. Nanda’s group arrives at the house as the stanza says, and the matte ochre mural palette is unchanged."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D043/005.jpg",
+        "sha256": "087fa13cf1239e8984028a955955b6af8fcc8b3f14d9c5d6f84a467747632098",
+        "caption_path": "intake/D043/photo-captions.txt#005",
+        "caption_sha256": "bb68f6390a576e47aee6cef134a277407369510fca3076ac1ffc7cd1a0ee24b1",
+        "source_map_path": "content/sources/d043/reference-map.json",
+        "source_map_sha256": "a4c477c49a09ed96a8c3baaeaa9889d7717c7abb2091a9982a8c4cc4cbebbcb2"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor"
+        },
+        {
+          "path": "artifacts/d043/references/shared/nandagopan-yashoda-adult-cues-from-d043-s009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "shared adult identity cue"
+        },
+        {
+          "path": "artifacts/d043/s004/landscape/v002/candidate.png",
+          "sha256": "c41270a7f8d3ad1585ff49d7b752e5cd47e40fac938704e77d06d2bd438cdf26",
+          "role": "Trinavarta identity continuity (selected S004 v002)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s005/landscape/v002/candidate.png",
+          "sha256": "efcd3735e482b5d7dd50d031fb0326c4f857db2ee6a5e3e21c6e68e972583720",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:48:07Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s005-v002-detail-airborne-pair.png",
+          "sha256": "d303288d1f19c41012329fdd8f8283498ab69f90138b8f1d8d1c9ba5010c6161",
+          "region": "260x200+1020+110",
+          "viewed_at": "2026-11-05T23:48:16Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s005-v002-detail-airborne-pair-x3.png",
+          "sha256": "014fc479a571bda8dfe9d5b515e2bed268ba61df8509e7d8064fd782d01bf83b",
+          "region": "260x200+1020+110 then 300% point resize",
+          "viewed_at": "2026-11-05T23:48:16Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s005-v002-detail-infant-hands.png",
+          "sha256": "f9f2346f84a1dfe5e1febdc6215f4146c0e27f81c452d582dfef2c0f13505858",
+          "region": "110x90+1030+215",
+          "viewed_at": "2026-11-05T23:48:24Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s005-v002-detail-infant-hands-x6.png",
+          "sha256": "0ae94c8fc23e3af06306783d5174882686d734c0420fbf82ceef0427c63dcc82",
+          "region": "110x90+1030+215 then 600% Lanczos resize",
+          "viewed_at": "2026-11-05T23:48:24Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s005-v002-detail-gopa-legs.png",
+          "sha256": "5cf60b77d09fe903fcc0e1a9b0e0db465251dbd1ca44cbf7074a3e7a00314ba7",
+          "region": "900x300+40+600",
+          "viewed_at": "2026-11-05T23:48:16Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s005-v002-detail-gopa-torsos.png",
+          "sha256": "d32614c66ed1220d7a9af8007328fb0e655249d30983cef3c79603b92e2e9806",
+          "region": "620x330+100+380",
+          "viewed_at": "2026-11-05T23:48:16Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s005-v002-detail-yashoda.png",
+          "sha256": "a256611d78907456498fc8272f6c7fd94176dd7cc254ef45580d7d86fcf9bfff",
+          "region": "400x260+1280+390",
+          "viewed_at": "2026-11-05T23:48:16Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s005-v002-detail-nanda.png",
+          "sha256": "c0c0d2ec7cf6f985dda50eff40b13335623ae3f81afcb88aa097253e67550d7d",
+          "region": "460x300+560+320",
+          "viewed_at": "2026-11-05T23:48:16Z"
+        }
+      ],
+      "supersedes_version": "v001"
+    },
+    {
+      "chapter": 43,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d043/s006/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "c64fe1e9fe6c3339e8034dae6f44fa35eb25446ad536425e37c8dd33f507ec77",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:49:12Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One fallen adult demon, one two-armed infant Krishna and four adult or youth gopas.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d043.json",
+          "sha256": "f86515f6420d37a991d823c801f00454d89a602a17c4ae625e99c4a0d2d3a456"
+        },
+        {
+          "path": "content/daskams/d043.json",
+          "sha256": "8fa8b37a3317d9b56a1bf4383df1552a92fdd0be6e27f1a66d9a75eda62ae6ef"
+        },
+        {
+          "path": "content/sources/d043/reference-map.json",
+          "sha256": "a4c477c49a09ed96a8c3baaeaa9889d7717c7abb2091a9982a8c4cc4cbebbcb2"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d043-s006-v002-final-managed-review-v001.md",
+          "sha256": "f7e352d128d96708f197d026678df6ea86699b320e3d3710af7cac34f75a0e3e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The demon’s visible hand rests on his upper thigh, over the red dhoti, with a thumb and four fingers and stacked gold wrist cuffs. His two feet at far left each show five toes above gold anklets. The infant has two hands, one resting on the body and one raised and open, and two feet with toes. The gopas show joined palms, a hand on the head, a reaching open hand and hands on knees, all with plausible fingers."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "This resolves D043-S006-TRINAVARTA-PROPORTION-V001. Measured on the native frame, the shoulder armlet sits near x≈850, the waist sash near x≈560 (about 290–310 px of torso), and the feet near x≈20–60 (about 500–530 px of leg). The legs are now longer than the torso, and his hand ends near x≈440, about 120 px below the sash on the upper or mid thigh rather than at the ankles. The upper arm, armlet, forearm and cuffs run continuously from the shoulder."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The demon’s closed-eyed, moustached face with a white tilak and gold ear-ring lies on the rock. The infant laughs with a namam and a peacock feather, and the four gopa faces show amazement, each one different."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One demon, one infant and four gopas. The demon’s two legs are separate, and his arm lies over his thigh without merging into the dhoti."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The unharmed Krishna on the fallen body, the rock, and the villagers outside the house match the stanza. The brown demon is unchanged in identity from v001. The matte ochre mural style holds."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D043/006.jpg",
+        "sha256": "7992a68ffd4661ae36cab15ab4f23e0d71ce48b0751d9866cc678b3466c2d384",
+        "caption_path": "intake/D043/photo-captions.txt#006",
+        "caption_sha256": "bb68f6390a576e47aee6cef134a277407369510fca3076ac1ffc7cd1a0ee24b1",
+        "source_map_path": "content/sources/d043/reference-map.json",
+        "source_map_sha256": "a4c477c49a09ed96a8c3baaeaa9889d7717c7abb2091a9982a8c4cc4cbebbcb2"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s006/landscape/v002/candidate.png",
+          "sha256": "c64fe1e9fe6c3339e8034dae6f44fa35eb25446ad536425e37c8dd33f507ec77",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:48:24Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s006-v002-detail-demon-hand-thigh.png",
+          "sha256": "42221a923873c59042f98cba123957c698f3338d1ab51a8c92bbaf34275a99ad",
+          "region": "560x260+300+600",
+          "viewed_at": "2026-11-05T23:49:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s006-v002-detail-demon-feet.png",
+          "sha256": "8121a39384129c3de7779bb1b8ae3ae13755973ff3fa545e4d6d1b26a847c208",
+          "region": "400x340+0+480",
+          "viewed_at": "2026-11-05T23:49:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s006-v002-detail-infant.png",
+          "sha256": "401b52819afeba64c88da375afc5580b18d2235a4588ab7988ec396e01fdb42e",
+          "region": "420x320+560+330",
+          "viewed_at": "2026-11-05T23:49:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s006-v002-detail-demon-face.png",
+          "sha256": "9bbbe9bd97ab772004c1c9484c2d8d84caa4637bbf3571c089ca1de81bb15328",
+          "region": "380x260+840+480",
+          "viewed_at": "2026-11-05T23:49:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v002/s006-v002-detail-gopas.png",
+          "sha256": "a32fd7e5420158488607371e317f27cd38300e4f5c4628794ee441cf53f5a7c8",
+          "region": "640x600+1030+300",
+          "viewed_at": "2026-11-05T23:49:12Z"
+        }
+      ],
+      "supersedes_version": "v001"
     }
   ]
 }
