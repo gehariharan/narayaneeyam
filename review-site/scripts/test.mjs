@@ -27,14 +27,14 @@ assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneey
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
 console.log('Passed: integrated comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,38,96]);
-assert.equal(data.chapters.length,16);
-assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),168);
-assert.equal(Object.keys(data.assets).length,342);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,38,44,96]);
+assert.equal(data.chapters.length,17);
+assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),178);
+assert.equal(Object.keys(data.assets).length,362);
 const generatedSelected=data.chapters.flatMap(c=>c.rows.flatMap(r=>r.images)).filter(i=>i.role!=='reference');
-assert.equal(generatedSelected.length,174);
+assert.equal(generatedSelected.length,184);
 assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='historical').length,69);
-assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,105);
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,115);
 const d11=data.chapters.find(c=>c.id===11);
 assert.deepEqual(d11.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 assert.ok(d11.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
@@ -47,7 +47,7 @@ const d14=data.chapters.find(c=>c.id===14);
 assert.deepEqual(d14.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 assert.ok(d14.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
 assert.ok(d14.rows.every(r=>r.images.find(i=>i.role==='matte').inspectionStatus==='inspected'));
-console.log('Passed: 16 chapters, 168 rows, 342 media, 174 generated selections (69 historical, 105 inspected), including all ten D011, D012, D013 and D014 leads.');
+console.log('Passed: 17 chapters, 178 rows, 362 media, 184 generated selections (69 historical, 115 inspected), including all ten D011, D012, D013, D014 and D044 leads.');
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
@@ -198,6 +198,23 @@ for(const row of full14.rows){
 assert.equal((await feedback(req({...good,daskam:14,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
 assert.equal((await feedback(req({...good,daskam:14,sloka:11}),env)).status,400);
 console.log('Passed: D014 is integrated as ten caption-mapped rows with pinned references, unapproved landscape candidates and stanza-bounded feedback.');
+
+const full44=data.chapters.find(c=>c.id===44);assert.ok(full44);assert.deepEqual(full44.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content44=JSON.parse(await fs.readFile(new URL('../../content/daskams/d044.json',import.meta.url)));
+const selected44=JSON.parse(await fs.readFile(new URL('../../art/batches/d044-comparison-v001.json',import.meta.url)));
+assert.equal(selected44.rows.length,10);assert.equal(selected44.review_status,'needs-review');
+assert.ok(full44.reviewNotice.includes('unapproved'));
+for(const row of full44.rows){
+ assert.equal(row.commentarySource,`content/sources/d044/photo-captions.txt#${String(row.n).padStart(3,'0')}`);
+ assert.equal(row.commentary,content44.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected44.rows.find(r=>r.n===row.n);assert.ok(selected);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.match(selected.matte.file,/^artifacts\/d044\/s\d{3}\/landscape\/candidate-v\d{3}\.png$/);
+}
+assert.equal((await feedback(req({...good,daskam:44,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:44,sloka:11}),env)).status,400);
+console.log('Passed: D044 has ten source-mapped rows, pinned references and unapproved landscape candidates, and stanza-bounded feedback.');
 
 async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {}, staleResponses = {} } = {}) {
  const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);
