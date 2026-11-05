@@ -245,7 +245,7 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 105);
+  assert.equal(labels.length - historicalLabels.length, 115);
   const d009 = selectedImages(batches).filter(image => image.chapter === 9).map(image => reviewFor(validation, image));
   assert.equal(d009.length, 10);
   assert.ok(d009.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
@@ -258,6 +258,9 @@ test('repository historical labels match the preserved audits', async () => {
   const d013 = selectedImages(batches).filter(image => image.chapter === 13).map(image => reviewFor(validation, image));
   assert.equal(d013.length, 10);
   assert.ok(d013.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+  const d044 = selectedImages(batches).filter(image => image.chapter === 44).map(image => reviewFor(validation, image));
+  assert.equal(d044.length, 10);
+  assert.ok(d044.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
 });
 
 test('D014 selection binds ten source/candidate pairs and renders as a landscape review chapter', async () => {
@@ -296,16 +299,16 @@ test('D014 selection binds ten source/candidate pairs and renders as a landscape
   assert.ok(!html.includes('<select'));
 });
 
-test('release union with main retains the expected D012, D013 and D014 dataset counts', async () => {
+test('release union with main retains the expected D012, D013, D014 and D044 dataset counts', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
   const rowCount = batches.reduce((count, batch) => count + batch.rows.length, 0);
   const mediaInputCount = batches.reduce((count, batch) => count + batch.rows.reduce((sum, row) => sum + 2 + (row.alternates || []).length, 0), 0);
-  assert.equal(batches.length, 16);
-  assert.equal(rowCount, 168);
-  assert.equal(mediaInputCount, 342);
-  assert.equal(selectedImages(batches).length, 174);
-  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 96]));
+  assert.equal(batches.length, 17);
+  assert.equal(rowCount, 178);
+  assert.equal(mediaInputCount, 362);
+  assert.equal(selectedImages(batches).length, 184);
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 44, 96]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
