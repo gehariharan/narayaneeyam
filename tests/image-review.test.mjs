@@ -245,7 +245,7 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 95);
+  assert.equal(labels.length - historicalLabels.length, 105);
   const d009 = selectedImages(batches).filter(image => image.chapter === 9).map(image => reviewFor(validation, image));
   assert.equal(d009.length, 10);
   assert.ok(d009.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
@@ -258,6 +258,54 @@ test('repository historical labels match the preserved audits', async () => {
   const d013 = selectedImages(batches).filter(image => image.chapter === 13).map(image => reviewFor(validation, image));
   assert.equal(d013.length, 10);
   assert.ok(d013.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+});
+
+test('D014 selection binds ten source/candidate pairs and renders as a landscape review chapter', async () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd014-comparison-v001.json');
+  const validation = await validateSelections(root, [batch]);
+  const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d014.json'), 'utf8'));
+  const plan = JSON.parse(await fs.readFile(path.join(root, 'art/plans/d014.json'), 'utf8'));
+  assert.equal(batch.review_status, 'needs-review');
+  assert.equal(batch.rows.length, 10);
+  const rows = [];
+  for (const selected of batch.rows) {
+    const stanza = content.stanzas.find(item => item.n === selected.n);
+    assert.ok(stanza);
+    assert.equal(selected.reference.sha256, sha256(await fs.readFile(path.join(root, selected.reference.file))));
+    assert.equal(selected.matte.sha256, sha256(await fs.readFile(path.join(root, selected.matte.file))));
+    assert.deepEqual(selected.alternates, []);
+    const review = reviewFor(validation, { ...selected.matte, chapter: 14, sloka: selected.n, role: 'matte' });
+    assert.equal(review.status, 'inspected');
+    assert.ok(review.label.includes('not art approval'));
+    rows.push({
+      n: selected.n,
+      title: plan.stanzas.find(item => item.n === selected.n).alt,
+      commentary: stanza.commentary_en,
+      images: [
+        { role: 'reference', label: 'reference', displayLabel: 'Original reference', key: `media/d014-s${selected.n}-reference.webp` },
+        { role: 'matte', label: 'matte', displayLabel: `Landscape candidate ${selected.matte.version}`, version: selected.matte.version, key: `media/d014-s${selected.n}-matte.webp`, inspectionStatus: review.status, inspectionLabel: review.label }
+      ]
+    });
+  }
+  const html = renderChapter({ id: 14, title: content.title, reviewNotice: batch.review_notice, rows }, 'fixture');
+  assert.equal((html.match(/class="sloka"/g) || []).length, 10);
+  assert.equal((html.match(/<figure>/g) || []).length, 20);
+  assert.ok(html.includes('Landscape candidate v003'));
+  assert.ok(html.includes('not art approval'));
+  assert.ok(!html.includes('<select'));
+});
+
+test('release union with main retains the expected D012, D013 and D014 dataset counts', async () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batches = await loadSelections(root);
+  const rowCount = batches.reduce((count, batch) => count + batch.rows.length, 0);
+  const mediaInputCount = batches.reduce((count, batch) => count + batch.rows.reduce((sum, row) => sum + 2 + (row.alternates || []).length, 0), 0);
+  assert.equal(batches.length, 16);
+  assert.equal(rowCount, 168);
+  assert.equal(mediaInputCount, 342);
+  assert.equal(selectedImages(batches).length, 174);
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 96]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {

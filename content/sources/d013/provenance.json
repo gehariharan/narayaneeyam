@@ -27,8 +27,8 @@
     }
   ],
   "intake_manifest": "content/sources/d013/intake-manifest.json",
-  "intake_manifest_sha256": "49444788f6b1df7ed41751a6d0b5528b53845297a173f037071ee885274bc338",
+  "intake_manifest_sha256": "614db4a27fddd5ab965bd6c7143df82f495271820ead8a0152bb57b1939a97a3",
   "commentary_sha256": "a4af7796ef5520d5833ff0f503102fa61c9de58ddd5f0d814093be21ea009475",
   "reference_map": "content/sources/d013/reference-map.json",
-  "note": "The supplied Drive document contains ten English scene-commentary captions, not Sanskrit, IAST, or a canonical translation. Numbered images 001–010 map ordinally to captions 1–10. Raw originals are preserved unchanged under intake/D013/ and their image hashes are recorded in reference-map.json."
+  "note": "The supplied Drive document contains ten English scene-commentary captions, not Sanskrit, IAST, or a canonical translation. Numbered images 001–010 map ordinally to captions 1–10. Raw originals are preserved unchanged under intake/D013/ and their image hashes are recorded in reference-map.json. The Drive metadata name reproduced the whole commentary document followed by '.txt'; intake-manifest.json records the document title 'Dasakam 13' as original_name, and the commentary text itself is preserved byte-for-byte at caption_path (SHA-256 a4af7796ef5520d5833ff0f503102fa61c9de58ddd5f0d814093be21ea009475)."
 }
