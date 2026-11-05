@@ -39,11 +39,13 @@ blog repository is a separate
 Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
-then build and package the exact commit. The current workflow uploads D001 through D003
-and D005 through D012 media from the release using the existing
+then build and package the exact commit. The current workflow uploads D001 through D003,
+D005 through D012, plus D014 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
-need their chapter-scoped R2 upload before deployment. Then release the bundle
-and dispatch the workflow:
+need their chapter-scoped R2 upload before deployment. Each selected chapter's
+R2 upload runs before the Worker version upload/deploy and writes only that
+chapter's content-addressed derivatives, preserving existing bucket objects.
+Then release the bundle and dispatch the workflow:
 
 ```sh
 node review-site/scripts/build.mjs
@@ -251,3 +253,20 @@ paused.
 Upload only D012's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=12` before the serialized Worker
 deployment.
+
+## Dasakam 14
+
+D014 contains ten landscape comparison rows matched to the ten captioned
+intake references and supplied commentary sections. Selected leads are pinned
+in `art/batches/d014-comparison-v001.json`; they remain unapproved, English
+translations are absent, and portrait compositions are paused. Upload only
+D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
+before any serialized Worker deployment.
+
+Reconciled with main `73db476292cac61f8e9f6b8dc3d8f4d23b704860` (D012 and the
+D001/D002/D003 audit cleanup), the union contains 15 chapters, 158 stanza rows,
+322 review media inputs, and 164 selected generated images (69 historical and not
+cleared, 95 individually inspected).
+The managed D014 review passed all ten leads, including the S005 v003, S008 v008
+and S010 v003 repairs; earlier failed versions remain recorded as history. These
+totals must be recalculated if the base advances.
