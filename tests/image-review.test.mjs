@@ -80,6 +80,12 @@ test('every selected alternate needs independent evidence, and cannot vanish fro
   await f.save([f.review, { ...f.review, ...alternate }]);
   await assert.rejects(validateBundle(f.root, f.directory), /omits selected images or visible alternates/);
 });
+test('a stanza without a selected lead blocks publication', async t => {
+  const f = await fixture(t);
+  f.batch.rows.push({ n: 2, alternates: [] });
+  await f.write(`art/batches/${selectionFiles[0]}`, f.batch);
+  await assert.rejects(validateBundle(f.root, f.directory), /Invalid selected image: 1\/2\/matte/);
+});
 test('changing selected bytes or version invalidates prior review; stale bundle hashes fail', async t => {
   const f = await fixture(t);
   f.image.sha256 = sha256('revised bytes');
@@ -239,7 +245,10 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 53);
+  assert.equal(labels.length - historicalLabels.length, 63);
+  const d009 = selectedImages(batches).filter(image => image.chapter === 9).map(image => reviewFor(validation, image));
+  assert.equal(d009.length, 10);
+  assert.ok(d009.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
   const d010 = selectedImages(batches).filter(image => image.chapter === 10).map(image => reviewFor(validation, image));
   assert.equal(d010.length, 10);
   assert.ok(d010.every(item => item.status === 'inspected' && item.label.includes('not art approval')));

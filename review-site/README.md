@@ -39,9 +39,10 @@ blog repository is a separate
 Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
-then build and package the exact commit. The current workflow uploads D001, D005,
-D006 and D007 media from the release; other newly prepared chapter derivatives
-need their chapter-scoped local upload before deployment. Then release the bundle
+then build and package the exact commit. The current workflow uploads D001, D003,
+and D005 through D009 media from the release using the existing
+`CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
+need their chapter-scoped R2 upload before deployment. Then release the bundle
 and dispatch the workflow:
 
 ```sh
@@ -201,6 +202,18 @@ of the published comparison. The candidates remain unapproved, translations
 are absent, and portrait compositions are paused. Upload only D008's WebP
 derivatives with `node review-site/scripts/upload.mjs --daskam=8` before the
 serialized public deployment.
+
+## Dasakam 9
+
+D009 contains ten landscape comparison rows, each matched to its numbered
+intake reference and supplied commentary section. The selected leads are
+independently composed candidates in `art/batches/d009-comparison-v001.json`;
+all ten have checksum-bound individual visual inspection records. Superseded
+and defective trials remain in local artifacts and the review inventory, but
+are not part of the published comparison. The candidates remain unapproved,
+translations are absent, and portrait compositions are paused. Upload only
+D009's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=9`
+before the serialized public deployment.
 
 ## Dasakam 10
 

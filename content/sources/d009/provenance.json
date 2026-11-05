@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "daskam_id": 9,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-02",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-9-in-sanskrit/amp/",
+      "retrieval_note": "Devanagari stanzas 9-1 through 9-10 transcribed from the Stotra Nidhi page; the page ends at 9-10. Preserve the source's stanza line breaks and hyphenation. Needs human source and editorial comparison."
+    },
+    {
+      "role": "romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-9-in-english/",
+      "retrieval_note": "IAST stanzas 9-1 through 9-10 transcribed from the Stotra Nidhi English page; transliteration and sandhi follow that page and need human review."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired; no translation supplied or manufactured"
+    },
+    {
+      "role": "commentary",
+      "url": "https://drive.google.com/file/d/1bGuQri6hwd55FAYE2Rb86mLJGDVvLqBp/view?usp=drive_web",
+      "local_path": "content/sources/d009/photo-captions.txt",
+      "status": "user-supplied commentary preserved verbatim; not a translation",
+      "sha256": "9baab72ea744e97a964f8c81630319bfb5215978d203f19b70205e9bc038c8e1"
+    }
+  ],
+  "intake_manifest": "content/sources/d009/intake-manifest.json",
+  "note": "Canonical Sanskrit and IAST are separate from the supplied commentary. Translation is absent. All canonical/editorial fields remain needs-review; commentary attribution is stanza-specific."
+}
