@@ -225,3 +225,14 @@ candidates remain unapproved, translations are absent, and portrait
 compositions are paused. Upload only D010's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=10` before the serialized public
 deployment.
+
+## Dasakam 11
+
+D011 contains ten landscape comparison rows matched to the ten numbered intake
+references. Each selected lead has an individual checksum-bound visual review;
+failed earlier versions remain preserved locally and are not comparison
+alternates. The Sanskrit and supplied commentary are source-mapped, English
+translations remain absent, the candidates remain unapproved, and portraits
+are paused. Upload only D011's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=11` before any serialized Worker
+deployment.

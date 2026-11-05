@@ -25,9 +25,21 @@ assert.equal((await feedback(req(good),{...env,FEEDBACK_LIMIT:{limit:async()=>({
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/api/feedback'),env)).status,405);
 assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/media/not-allowed.webp'),env)).status,404);
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
-console.log('Passed: 95-row comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
+console.log('Passed: integrated comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,38,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,38,96]);
+assert.equal(data.chapters.length,13);
+assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),138);
+assert.equal(Object.keys(data.assets).length,282);
+const generatedSelected=data.chapters.flatMap(c=>c.rows.flatMap(r=>r.images)).filter(i=>i.role!=='reference');
+assert.equal(generatedSelected.length,144);
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='historical').length,71);
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,73);
+const d11=data.chapters.find(c=>c.id===11);
+assert.deepEqual(d11.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+assert.ok(d11.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
+assert.ok(d11.rows.every(r=>r.images.find(i=>i.role==='matte').inspectionStatus==='inspected'));
+console.log('Passed: 13 chapters, 138 rows, 282 media, 144 generated selections (71 historical, 73 inspected), including all ten D011 leads.');
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
@@ -150,6 +162,6 @@ await withLiveFixture(data,async base=>verifyLivePages(data,{base,retryDelayMs:0
 await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for \/: HTTP 200 \(Live index is missing d008\)/),{staleResponses:{'/narayaneeyam/':Array(6).fill(renderIndex(previousData))}});
 const stalePage8=renderChapter(data.chapters.find(c=>c.id===8),data.revision,'/narayaneeyam/',true,data.chapters).replace('Landscape candidate v004','Landscape candidate v002');
 await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/missing selected matte version v004/),{pageOverrides:{8:stalePage8}});
-const extended=structuredClone(data);const d011=structuredClone(extended.chapters.find(c=>c.id===8));d011.id=11;d011.title='Fixture D011';extended.chapters.push(d011);
+const extended=structuredClone(data);const d012=structuredClone(extended.chapters.find(c=>c.id===8));d012.id=12;d012.title='Fixture D012';extended.chapters.push(d012);
 await withLiveFixture(extended,async base=>verifyLivePages(extended,{base,retryDelayMs:0}));
 console.log('Passed: live verifier checks current bundled data over HTTP, rejects stale D006 and missing D008 route/selection, and follows additional selected chapters.');

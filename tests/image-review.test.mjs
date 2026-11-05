@@ -245,13 +245,16 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 63);
+  assert.equal(labels.length - historicalLabels.length, 73);
   const d009 = selectedImages(batches).filter(image => image.chapter === 9).map(image => reviewFor(validation, image));
   assert.equal(d009.length, 10);
   assert.ok(d009.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
   const d010 = selectedImages(batches).filter(image => image.chapter === 10).map(image => reviewFor(validation, image));
   assert.equal(d010.length, 10);
   assert.ok(d010.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+  const d011 = selectedImages(batches).filter(image => image.chapter === 11).map(image => reviewFor(validation, image));
+  assert.equal(d011.length, 10);
+  assert.ok(d011.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
