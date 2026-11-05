@@ -240,8 +240,9 @@ deployment.
 ## Dasakam 12
 
 D012 contains ten landscape comparison rows matched to the ten numbered intake
-references. Each selected lead has an exact checksum-bound visual review;
-failed earlier versions remain preserved and are not comparison alternates.
+references. Each selected lead has an exact checksum-bound managed visual
+review; S002, S007, S008 and S009 currently have open needs-fix findings.
+Failed earlier versions remain preserved and are not comparison alternates.
 The Sanskrit source and supplied commentary are source-mapped; unattributed
 draft English translations are present for editorial review only and are not
 shown on the review site, the candidates remain unapproved, and portraits are
