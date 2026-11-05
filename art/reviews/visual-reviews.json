@@ -6875,10 +6875,10 @@
       "version": "v002",
       "sha256": "b543b73e544d06f609bc1457a29e1f4f9a4969efae40eaa06d33c5c52e35b56e",
       "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T09:42:45Z",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Scene-specific anatomy follows D013 S001: narada, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Historical selected image re-inspected against current D013 Hiraṇyākṣa continuity contract and D011 S009 identity-only reference.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -6894,13 +6894,13 @@
         },
         {
           "path": "art/bible/characters/hiranyaksha/character.json",
-          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s001-landscape-v002-review-v001.md",
-          "sha256": "8ab21c520267dc7091c2ccaf6eb36806c8b8d58e4ce3e923c741727eba58285d"
+          "path": "art/reviews/d013-s001-landscape-v002-continuity-review-v001.md",
+          "sha256": "97e361389abe709cd02440eb603e4fab20dd6e5675cf6dcef57401025efeedf0"
         }
       ],
       "checks": {
@@ -6913,8 +6913,8 @@
           "observations": "Nārada and Hiraṇyākṣa have distinct faces and readable expressions."
         },
         "faces": {
-          "status": "pass",
-          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+          "status": "needs-fix",
+          "observations": "Hiraṇyākṣa appears clean-shaven, younger face; face age and beard coverage materially differ from the D011 identity reference."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -6925,11 +6925,20 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The full 1672×941 frame shows one continuous shallow cosmic sea. Hiraṇyākṣa searches while Nārada calmly approaches and speaks with a small veena. Both figures remain distinct and in frame; lower legs enter water. No Varaha, weapon, extra person, readable text, signature, watermark or panel border appears. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+          "status": "needs-fix",
+          "observations": "The stanza composition and palette are not the defect; the recurring facial identity is materially inconsistent."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D013-S001-V002-HIRA-CONTINUITY",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Hiraṇyākṣa appears clean-shaven, younger face, materially differing from the recurring older, full-greying-beard identity.",
+          "repair": "Preserve this version and use a new native version retaining this stanza action while correcting face, age, and beard continuity."
+        }
+      ]
     },
     {
       "chapter": 13,
@@ -6939,10 +6948,10 @@
       "version": "v002",
       "sha256": "306e5bd0926bd5062eb7236a06b919f793c56feb87d009615b2ff7a068d67860",
       "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T09:42:45Z",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Scene-specific anatomy follows D013 S002: narada, hiranyaksha, varaha, bhudevi; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Historical selected image re-inspected against current D013 Hiraṇyākṣa continuity contract and D011 S009 identity-only reference.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -6958,7 +6967,7 @@
         },
         {
           "path": "art/bible/characters/hiranyaksha/character.json",
-          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
         },
         {
           "path": "art/bible/characters/varaha/character.json",
@@ -6971,8 +6980,8 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s002-landscape-v002-review-v001.md",
-          "sha256": "57642e8872ec20da573f9fc1cb53b84febc362c267c6f11a8a13f36f6e3a055f"
+          "path": "art/reviews/d013-s002-landscape-v002-continuity-review-v001.md",
+          "sha256": "9d0f8ceb7c1f841dc414d606398609a594a3a02afb6a148060b83e01d791965c"
         }
       ],
       "checks": {
@@ -6985,8 +6994,8 @@
           "observations": "Varaha’s snout/tusks, Narada’s white-haired identity, and Hiraṇyākṣa remain distinct."
         },
         "faces": {
-          "status": "pass",
-          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+          "status": "needs-fix",
+          "observations": "Hiraṇyākṣa appears short dark beard, younger face; face age and beard coverage materially differ from the D011 identity reference."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -6997,11 +7006,20 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The full 1672×941 frame shows Narada addressing Hiraṇyākṣa as Varaha rises from the water with Bhūdevī at the tusk. There is one Earth figure and no separate globe or weapon. Varaha has a connected quadruped silhouette. Matte contour work and shallow mural space are consistent; no readable text or panel border. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+          "status": "needs-fix",
+          "observations": "The stanza composition and palette are not the defect; the recurring facial identity is materially inconsistent."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D013-S002-V002-HIRA-CONTINUITY",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Hiraṇyākṣa appears short dark beard, younger face, materially differing from the recurring older, full-greying-beard identity.",
+          "repair": "Preserve this version and use a new native version retaining this stanza action while correcting face, age, and beard continuity."
+        }
+      ]
     },
     {
       "chapter": 13,
@@ -7011,10 +7029,10 @@
       "version": "v004",
       "sha256": "dc091c3a283a02e96160dd0f0a275d4a6747a4d0124392ca7c4b8cebf7efd3e1",
       "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T09:42:45Z",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Scene-specific anatomy follows D013 S003: varaha, hiranyaksha, bhudevi; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Historical selected image re-inspected against current D013 Hiraṇyākṣa continuity contract and D011 S009 identity-only reference.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7030,7 +7048,7 @@
         },
         {
           "path": "art/bible/characters/hiranyaksha/character.json",
-          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
         },
         {
           "path": "art/bible/characters/bhudevi/character.json",
@@ -7039,8 +7057,8 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s003-landscape-v004-review-v001.md",
-          "sha256": "0a402beb57575a92b58264bf32e129d78177419fec896cfd578b5323d9232497"
+          "path": "art/reviews/d013-s003-landscape-v004-continuity-review-v001.md",
+          "sha256": "c7ff90ef73d627ddee1531d49876647e0c6d0c4b66fbc82fa8a7201a085beeb5"
         }
       ],
       "checks": {
@@ -7053,8 +7071,8 @@
           "observations": "The tusk-to-waist support and waterline are legible; the figures remain proportionate."
         },
         "faces": {
-          "status": "pass",
-          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+          "status": "needs-fix",
+          "observations": "Hiraṇyākṣa appears moustache and short dark beard, younger face; face age and beard coverage materially differ from the D011 identity reference."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -7065,11 +7083,20 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The full 1672×941 frame shows quadruped Varaha lowering Bhūdevī into visible shallow water: the tusk meets her waist and her feet enter the water. Hiraṇyākṣa stands distinct and unarmed. The sea, three figures, and action read in one matte mural scene without text or border. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+          "status": "needs-fix",
+          "observations": "The stanza composition and palette are not the defect; the recurring facial identity is materially inconsistent."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D013-S003-V004-HIRA-CONTINUITY",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Hiraṇyākṣa appears moustache and short dark beard, younger face, materially differing from the recurring older, full-greying-beard identity.",
+          "repair": "Preserve this version and use a new native version retaining this stanza action while correcting face, age, and beard continuity."
+        }
+      ]
     },
     {
       "chapter": 13,
@@ -7079,10 +7106,10 @@
       "version": "v001",
       "sha256": "b207d3c5abb8b4399368f6fee090ff5ee3b3c0a87fa4891ace4d69acafde2fe5",
       "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T09:42:45Z",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Scene-specific anatomy follows D013 S004: varaha, hiranyaksha, brahma; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Historical selected image re-inspected against current D013 Hiraṇyākṣa continuity contract and D011 S009 identity-only reference.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7098,7 +7125,7 @@
         },
         {
           "path": "art/bible/characters/hiranyaksha/character.json",
-          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -7107,8 +7134,8 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s004-landscape-v001-review-v001.md",
-          "sha256": "68b668386fa815c5e8b77ec9e0da71548782835196c8612ada2f66eafcef8399"
+          "path": "art/reviews/d013-s004-landscape-v001-continuity-review-v001.md",
+          "sha256": "e15e8788c6a27fb61631119f62a7a7ea5892898d8be37bcec96c5f2acb0a5368"
         }
       ],
       "checks": {
@@ -7121,8 +7148,8 @@
           "observations": "Weapon grips and shoulders read as connected; the god group is small and ordered."
         },
         "faces": {
-          "status": "pass",
-          "observations": "Brahma’s three front faces are distinct; Varaha and Hiraṇyākṣa retain separate faces."
+          "status": "needs-fix",
+          "observations": "Hiraṇyākṣa appears moustache-only, younger face; face age and beard coverage materially differ from the D011 identity reference."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -7133,11 +7160,20 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The full frame presents one mace duel over the water, with Varaha and Hiraṇyākṣa meeting weapons at center and Brahma plus a small ordered group of gods above. The tone is ceremonial, with no injury emphasis. Three Brahma faces are visible from the front; the scene remains one continuous matte mural. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+          "status": "needs-fix",
+          "observations": "The stanza composition and palette are not the defect; the recurring facial identity is materially inconsistent."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D013-S004-V001-HIRA-CONTINUITY",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Hiraṇyākṣa appears moustache-only, younger face, materially differing from the recurring older, full-greying-beard identity.",
+          "repair": "Preserve this version and use a new native version retaining this stanza action while correcting face, age, and beard continuity."
+        }
+      ]
     },
     {
       "chapter": 13,
@@ -7147,10 +7183,10 @@
       "version": "v001",
       "sha256": "c7edd0978cdb64bd869a1ecbba9d7955748d7c3c49ab8587d7eb17de6eeeacf8",
       "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T09:42:45Z",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Scene-specific anatomy follows D013 S005: varaha, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Historical selected image re-inspected against current D013 Hiraṇyākṣa continuity contract and D011 S009 identity-only reference.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7166,13 +7202,13 @@
         },
         {
           "path": "art/bible/characters/hiranyaksha/character.json",
-          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s005-landscape-v001-review-v001.md",
-          "sha256": "c33d30c3e02030542fdd3b7ae59a51a2e025a14b64d4b746d824f987b1df6dc2"
+          "path": "art/reviews/d013-s005-landscape-v001-continuity-review-v001.md",
+          "sha256": "7af5819942d4c7e8254a99400e503994e92698a6e14ad89d6dac537a52351d25"
         }
       ],
       "checks": {
@@ -7185,8 +7221,8 @@
           "observations": "The chakra, hands, and faces remain distinguishable; no unsupported total Varaha arm count is asserted."
         },
         "faces": {
-          "status": "pass",
-          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+          "status": "needs-fix",
+          "observations": "Hiraṇyākṣa appears moustache-only, younger face; face age and beard coverage materially differ from the D011 identity reference."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -7197,11 +7233,20 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The wide frame shows Varaha composed with one chakra in hand after his mace has fallen, while Hiraṇyākṣa faces him holding his own mace. The fallen mace is separate at the bottom. There is one chakra, no collage, and no visible text or border. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+          "status": "needs-fix",
+          "observations": "The stanza composition and palette are not the defect; the recurring facial identity is materially inconsistent."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D013-S005-V001-HIRA-CONTINUITY",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Hiraṇyākṣa appears moustache-only, younger face, materially differing from the recurring older, full-greying-beard identity.",
+          "repair": "Preserve this version and use a new native version retaining this stanza action while correcting face, age, and beard continuity."
+        }
+      ]
     },
     {
       "chapter": 13,
@@ -7211,10 +7256,10 @@
       "version": "v001",
       "sha256": "4ab6fcf18ed430d6a59254bdf83d180b6d56b55c5ef436c7c73badb05c29e955",
       "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T09:42:45Z",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Scene-specific anatomy follows D013 S006: varaha, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Historical selected image re-inspected against current D013 Hiraṇyākṣa continuity contract and D011 S009 identity-only reference.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7230,13 +7275,13 @@
         },
         {
           "path": "art/bible/characters/hiranyaksha/character.json",
-          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s006-landscape-v001-review-v001.md",
-          "sha256": "2d9169a033912121ff26a1fe8b06161b1ea20fa9b22a464a6eaa4258c0e0f7f8"
+          "path": "art/reviews/d013-s006-landscape-v001-continuity-review-v001.md",
+          "sha256": "3044e29467a2407a0183b5b78cb01ccac959565751436ef74ca38d9ddd88f7a5"
         }
       ],
       "checks": {
@@ -7249,8 +7294,8 @@
           "observations": "The action’s shoulders, hands, and limbs read as connected in close views."
         },
         "faces": {
-          "status": "pass",
-          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+          "status": "needs-fix",
+          "observations": "Hiraṇyākṣa appears full dark beard, younger face; face age and beard coverage materially differ from the D011 identity reference."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -7261,11 +7306,20 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The full frame shows one trident attack, the chakra breaking it, and Varaha’s other fist meeting Hiraṇyākṣa’s fist. Maya appears as fading shapes and does not read as duplicate combatants. The connected action is legible in a single matte scene without readable text. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+          "status": "needs-fix",
+          "observations": "The stanza composition and palette are not the defect; the recurring facial identity is materially inconsistent."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D013-S006-V001-HIRA-CONTINUITY",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Hiraṇyākṣa appears full dark beard, younger face, materially differing from the recurring older, full-greying-beard identity.",
+          "repair": "Preserve this version and use a new native version retaining this stanza action while correcting face, age, and beard continuity."
+        }
+      ]
     },
     {
       "chapter": 13,
@@ -7275,10 +7329,10 @@
       "version": "v002",
       "sha256": "0ef4c645b88df9e0d5993a3338b5b86970880b39fb81f0e2845c4a777ed75d7c",
       "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T09:42:45Z",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Scene-specific anatomy follows D013 S007: varaha, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Historical selected image re-inspected against current D013 Hiraṇyākṣa continuity contract and D011 S009 identity-only reference.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7294,13 +7348,13 @@
         },
         {
           "path": "art/bible/characters/hiranyaksha/character.json",
-          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s007-landscape-v002-review-v001.md",
-          "sha256": "416d738f0a5d1eb53e796820747c417fb80f7eee3e26dee6dfec0f8e2fd64198"
+          "path": "art/reviews/d013-s007-landscape-v002-continuity-review-v001.md",
+          "sha256": "f0eb8908a4fe52cf072212f2c72f3bc00b3afa02949cade93cf3ea9b1f3f1097"
         }
       ],
       "checks": {
@@ -7313,8 +7367,8 @@
           "observations": "The impact foot remains attached through the leg, and the bare fist/forearm is connected; contact is near the ear."
         },
         "faces": {
-          "status": "pass",
-          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+          "status": "needs-fix",
+          "observations": "Hiraṇyākṣa appears full dark beard, younger face; face age and beard coverage materially differ from the D011 identity reference."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -7325,11 +7379,20 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The full 1672×941 frame shows Varaha’s connected foot striking near Hiraṇyākṣa’s ear while the asura attacks with a bare fist. Varaha holds one chakra; Hiraṇyākṣa has no weapon. Simple illusion shapes fade behind them, with one body per combatant and no gore emphasis. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+          "status": "needs-fix",
+          "observations": "The stanza composition and palette are not the defect; the recurring facial identity is materially inconsistent."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D013-S007-V002-HIRA-CONTINUITY",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Hiraṇyākṣa appears full dark beard, younger face, materially differing from the recurring older, full-greying-beard identity.",
+          "repair": "Preserve this version and use a new native version retaining this stanza action while correcting face, age, and beard continuity."
+        }
+      ]
     },
     {
       "chapter": 13,
@@ -7339,10 +7402,10 @@
       "version": "v001",
       "sha256": "6cf37e6afac9f3c1c7a700e98aa83aafa0669468e89b685fef3975dcbf83ffec",
       "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T09:42:45Z",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Scene-specific anatomy follows D013 S008: varaha, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Historical selected image re-inspected against current D013 Hiraṇyākṣa continuity contract and D011 S009 identity-only reference.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7358,13 +7421,13 @@
         },
         {
           "path": "art/bible/characters/hiranyaksha/character.json",
-          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s008-landscape-v001-review-v001.md",
-          "sha256": "e311376310bce58c05561376cd6b79ecc46334ca77e4e96560bd9cc6b861eee8"
+          "path": "art/reviews/d013-s008-landscape-v001-continuity-review-v001.md",
+          "sha256": "ceb853688b4266d21d8c4395930a73a371b20d0711bb10865247250eb85329c3"
         }
       ],
       "checks": {
@@ -7377,8 +7440,8 @@
           "observations": "The boar body and head read coherently; tiny distant figures are treated as a crowd, not individually counted."
         },
         "faces": {
-          "status": "pass",
-          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+          "status": "needs-fix",
+          "observations": "Hiraṇyākṣa appears moustache-only, younger face; face age and beard coverage materially differ from the D011 identity reference."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -7389,11 +7452,20 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The full frame shows one quadruped Varaha above the fallen Hiraṇyākṣa, while gods and sages praise from a respectful distance. The small gathering remains ordered; there is no duplicate Varaha or crowd clutter. The red mark near the asura’s face is restrained and non-graphic. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+          "status": "needs-fix",
+          "observations": "The stanza composition and palette are not the defect; the recurring facial identity is materially inconsistent."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D013-S008-V001-HIRA-CONTINUITY",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Hiraṇyākṣa appears moustache-only, younger face, materially differing from the recurring older, full-greying-beard identity.",
+          "repair": "Preserve this version and use a new native version retaining this stanza action while correcting face, age, and beard continuity."
+        }
+      ]
     },
     {
       "chapter": 13,
@@ -7603,6 +7675,534 @@
           "repair": "Regenerate a new version with both hands bare; preserve v001."
         }
       ]
+    },
+    {
+      "chapter": 13,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d013/s001/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "ff2f07bd2a9b6c19fd1d883d204461b1bdac188b237eba4d496d16a85e30388f",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s001-landscape-v003-review-v001.md",
+          "sha256": "4c3a3738d07075e598ebd0262cddb3a4af553e9d82804cdf74e3f673800038b8"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "One continuous shallow-water meeting remains: Nārada speaks with the veena while Hiraṇyākṣa searches; no weapon is introduced. Figures remain distinct and limbs connect; lower feet are partly submerged. Hiraṇyākṣa now has the mature older face, long wavy dark hair, and full greying beard and moustache."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Figures remain distinct in the planned cast; no duplicate or fused character is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d013/s002/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "d975021f856663c955253dedc1566c233c9aa19b9529746a6f13b59e919dff60",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/bhudevi/character.json",
+          "sha256": "8fba662e0bf6f7257c4b09e3efd6d75a78fa242728f66fa5e39a73562dad04bf"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s002-landscape-v003-review-v001.md",
+          "sha256": "6fe97078132d1c599b17208f5fce7e5b80a3baa5c12b9a6abf22b93a6abd5cc4"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Nārada points as the unarmed Hiraṇyākṣa faces quadrupedal Varaha with Bhūdevī at the tusk. Figures remain distinct; Hiraṇyākṣa now has the mature face and full greying beard/moustache."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Figures remain distinct in the planned cast; no duplicate or fused character is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d013/s003/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "8202a05aa9827db2c0aff80c42faea9cde5a06c24cd2fb23c1f62a76fb0d391d",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        },
+        {
+          "path": "art/bible/characters/bhudevi/character.json",
+          "sha256": "8fba662e0bf6f7257c4b09e3efd6d75a78fa242728f66fa5e39a73562dad04bf"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s003-landscape-v005-review-v001.md",
+          "sha256": "d5d9b5cdb93d4c00c620d70836925e7f7b75d55ccc98c0b0af1fbd644724dcb5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha remains quadrupedal and places Bhūdevī at the tusk and into the water; Hiraṇyākṣa readies unarmed. The action is preserved, and Hiraṇyākṣa now has the mature facial identity with a full visibly greying beard and moustache."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Figures remain distinct in the planned cast; no duplicate or fused character is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d013/s004/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "ad2c1fb66d99bb45d4379813689878158f385c1ff21c47c265df9b494d500be7",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s004-landscape-v002-review-v001.md",
+          "sha256": "a44ca554d0152747fb70ddc221d90b54524d1686538baad6becd2a7d03f9b0c5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The two maces meet in the duel. Hiraṇyākṣa now has the mature greying-beard identity. Brahmā is separately readable with three visible faces and four arms; gathered gods remain distinct."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Figures remain distinct in the planned cast; no duplicate or fused character is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d013/s005/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "97fa4b17faf3103440efe7053d66d5c176bf24b1f251702763528e0982a3591c",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s005-landscape-v002-review-v001.md",
+          "sha256": "d01c804292636d0ddb95e55fa20ccf616d51face2580b8b664d83da3c09dfb96"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha holds one chakra; the fallen Varaha mace is separate from Hiraṇyākṣa’s mace. The stanza action is intact. Hiraṇyākṣa now has the mature face and full greying beard and moustache."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Figures remain distinct in the planned cast; no duplicate or fused character is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d013/s006/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "88148589177b83ff0d4100d6a64b5975282b4fa1eac960db150f4f3351061a2b",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s006-landscape-v002-review-v001.md",
+          "sha256": "51e2d14123ac020d2773d379bf98ab69b1eb63d03e5fa1b4565a68b8f89a515d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The scene keeps one trident, Varaha’s chakra cut and Hiraṇyākṣa’s fist attack. Visible limbs connect; no extra anatomy is asserted. Hiraṇyākṣa now has the mature greying-beard identity."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Figures remain distinct in the planned cast; no duplicate or fused character is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d013/s007/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "7c9f0ec629dd9e983c5dad715d6820037a08870323877e8709bf80f9fdfd01a1",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s007-landscape-v003-review-v001.md",
+          "sha256": "7c14c55d03fecb0b2363081f8755e62781b3b68041ed86289f29e034b2622bfe"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha’s connected big toe strikes near the ear as Hiraṇyākṣa attacks bare-handed; the chakra is visible and no weapon appears in his hands. The action is legible and non-graphic. Hiraṇyākṣa now has the mature face and full greying beard/moustache."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Figures remain distinct in the planned cast; no duplicate or fused character is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d013/s008/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "be6fae1825b45284371cf89cb9c31bbd41c84e18591b6f00df503615d95a1e48",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s008-landscape-v002-review-v001.md",
+          "sha256": "a757d8530c48a95eb4ae88ec7c4b87d48fa7fb05ff4af0c2216ce72daf7ec052"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "One quadruped Varaha stands over fallen Hiraṇyākṣa while separate gods and sages praise him. The fallen figure is non-graphic; the close view shows the mature face, long wavy hair, and full greying beard/moustache."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Figures remain distinct in the planned cast; no duplicate or fused character is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+        }
+      },
+      "findings": []
     }
   ]
 }
