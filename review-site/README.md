@@ -39,8 +39,8 @@ blog repository is a separate
 Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
-then build and package the exact commit. The current workflow uploads D001 through D003
-and D005 through D014 media from the release using the existing
+then build and package the exact commit. The current workflow uploads D001 through D003,
+D005 through D014 and D044 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -277,10 +277,24 @@ translations are absent, and portrait compositions are paused. Upload only
 D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
 before any serialized Worker deployment.
 
+## Dasakam 44
+
+D044 contains ten landscape comparison rows matched to its ten numbered source
+references. The selected versions are checksum-pinned in
+`art/batches/d044-comparison-v001.json`; the managed review passed all ten
+selected leads (S001–S009 v001 and S010 v002) as checksum-bound visual
+inspections, while all artwork remains unapproved. S010 v002 replaces the preserved split
+composition in v001. English translations and portrait compositions are absent.
+Upload only D044's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=44` before any serialized Worker
+deployment.
+
 Reconciled with main `84a214f310008155ad22dd8a80e1ed8afd786ab4` (D014, D012 and the
 D001/D002/D003 audit cleanup) and D013, the union contains 16 chapters, 168 stanza
 rows, 342 review media inputs, and 174 selected generated images (69 historical and
-not cleared, 105 individually inspected).
+not cleared, 105 individually inspected). D044 extends the selection to 17
+chapters, 178 rows, 362 review media inputs, and 184 selected generated images
+(69 historical and not cleared, 115 individually inspected).
 The managed D014 review passed all ten leads, including the S005 v003, S008 v008
 and S010 v003 repairs; earlier failed versions remain recorded as history. These
 totals must be recalculated if the base advances.
