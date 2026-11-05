@@ -6866,6 +6866,703 @@
         "source_map_path": "content/sources/d011/intake-manifest.json",
         "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
       }
+    },
+    {
+      "chapter": 12,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d012/s001/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "b3c9a78d0cd97313232ddb718d34ed8966555d4bf355ea1d15c503f44542884e",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T08:08:36Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Manu and sages are ordinary two-armed humans; Brahma must have exactly four total heads (three visible frontally) and four attached arms. Varaha is absent from this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s001-landscape-v001-review-v001.md",
+          "sha256": "e604fa9071a0b30d54b6e695f2429d45c1a388d3443486b60ab393d1b5bba70a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "needs-fix",
+          "observations": "Brahma has three front-visible faces and four distinct attached arms; Manu has joined hands. Several sages are cut by the left and lower frame edges, so their full bodies and feet are missing."
+        },
+        "attachment_proportions": {
+          "status": "uncertain",
+          "observations": "Brahma's four arms attach distinctly; no fused joint is apparent. Cropped sages prevent complete assessment of lower-body attachments and proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma has three distinct visible faces in the approved arrangement; Manu and the sages have separate readable faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Brahma, one foreground petitioner and a small group of distinct sages are visible; no fused or accidental duplicate body is apparent."
+        },
+        "text_artifacts": {
+          "status": "needs-fix",
+          "observations": "The open book shows repeated parallel line marks on both pages. They are not readable words but resemble pseudo-writing. No caption, logo, signature or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "Manu and sages approach lotus-seated Brahma over the waters with submerged Earth, but the dense palace decoration and ornate detail exceed the D001 matte rendering anchors; secondary figures are truncated at left and bottom."
+        }
+      },
+      "findings": [
+        {
+          "id": "D012-S001-V001-PSEUDOWRITING",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Open book pages contain repeated parallel line marks resembling pseudo-writing.",
+          "repair": "Generate a new candidate with a completely unmarked closed bundle or no manuscript."
+        },
+        {
+          "id": "D012-S001-V001-CROPPED-WITNESSES",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Several sages are truncated by left and lower frame edges; their full feet and bodies are outside the image.",
+          "repair": "Reduce the witness group and keep all included figures fully in frame."
+        },
+        {
+          "id": "D012-S001-V001-ORNAMENT-DENSITY",
+          "severity": "low",
+          "confidence": "medium",
+          "status": "needs-fix",
+          "observed": "Palace ornament and detail are denser than the D001 rendering anchors.",
+          "repair": "Use simpler flat mural architecture and restrained background detail."
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d012/s001/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "321be19fcc1e264a81c8ee49ce991b5e1e90b3b50d8af5008311e46c1b1f3a20",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma has the planned four-head/four-arm deity anatomy; Manu, sages and Brahma's sons retain ordinary human anatomy. Varaha follows this stanza's D012 scene-specific natural boar or infant-boar form.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s001-landscape-v003-review-v001.md",
+          "sha256": "0899b724cc8e762f223e38f7b9b07994dfc1d3ea2b8645da2c05446a5be03f03"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Brahma sits in Satyaloka as Manu and two sages approach. The small Earth and water motif remains subordinate. In the Brahma detail, three frontal faces and four separate arms are visible; Manu and the sages remain distinct ordinary figures."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Brahma's shoulders and four arms remain attached and readable; the visitors' bodies and limbs are separated in the wide arrangement."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma has three visible faces in the prescribed four-head arrangement, with coherent features and gaze. The three visitors have distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Brahma, one Manu and two sages; the figures do not overlap into fused bodies or read as duplicates."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable marks, captions, logos or watermark are visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Satyaloka, lotus seat, visitors and submerged-Earth cue match the planned arrival. Flat matte ochre mural treatment, complete wide framing."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d012/s002/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "40652ba1c353025b477660033fb20df983a3f87d96db35be56e6300be970c5f2",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma has the planned four-head/four-arm deity anatomy; Manu, sages and Brahma's sons retain ordinary human anatomy. Varaha follows this stanza's D012 scene-specific natural boar or infant-boar form.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s002-landscape-v003-review-v001.md",
+          "sha256": "7b3ae2aac944b1c56bd9098400708dc0e4f21ca3d3e8a1c58303f2f0193c4d36"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The quiet petition scene keeps only Manu and Brahma; the water and Earth remain a supporting cue, and the lotus-feet symbol is small."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Brahma's four arms attach distinctly; Manu remains two-armed. The close view keeps the hands and face separable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma shows three visible faces and a calm inward gaze; Manu's face is distinct and directed toward him."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly the two planned figures are present; no doubled Brahma or fused bodies are apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable pseudo-script or other text appears in the selected version."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The two figures are separated in a contemplative exchange; the Earth/water cue is subordinate and the matte warm palette is consistent."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d012/s003/landscape/candidate-v007.png",
+      "version": "v007",
+      "sha256": "42bba9f8efdf584f50f2dc807e2205d6b9df83d3f1280fe6576eeeb0dd5ca855",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma has the planned four-head/four-arm deity anatomy; Manu, sages and Brahma's sons retain ordinary human anatomy. Varaha follows this stanza's D012 scene-specific natural boar or infant-boar form.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s003-landscape-v007-review-v001.md",
+          "sha256": "6fde5ce9b4f3c71a64e74255d265a9202d9a0e68dc7ef1b706d777e6f2e8ef7e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "At full frame the tiny natural boar projects from the nostril of Brahma's left-facing head. The detail confirms contact at the nostril, separation from moustache/lips, a boar head and four small attached legs. Brahma has three visible faces and four distinct arms."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The boar has four small legs attached to one compact torso; Brahma's open hand, joined prayer hands and pot-holding hand resolve to four arms."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma's three visible faces have coherent features; the infant's eye, snout and tusks read as a boar rather than a human infant."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One tiny boar emerges at the nostril; no duplicate animal or fused face-body form is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No writing, caption, signature, logo or watermark is present."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The nostril emergence is the clear focal beat, with Brahma's profile and other heads preserved in a warm matte devotional mural."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d012/s004/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "61100a96e5209ed98636493690a9b97dd66e98833c5d22256fdc444bb6c40a6c",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma has the planned four-head/four-arm deity anatomy; Manu, sages and Brahma's sons retain ordinary human anatomy. Varaha follows this stanza's D012 scene-specific natural boar or infant-boar form.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s004-landscape-v004-review-v001.md",
+          "sha256": "98bef61f8f006a925be7dc8608d02800148a45944d70b27358e0886c3e225528"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The wide frame shows one large boar and a restrained smaller growth echo linked by a continuous ribbon; Brahma and two sons witness from below."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The large boar reads as a quadruped with four connected legs and a tail. Brahma's four arms are distinct; the sons have ordinary limbs."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma's three visible faces are coherent; witness faces remain separate."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The growth echo reads as a visual scale progression attached by the ribbon, not as a second unrelated animal; three witnesses remain distinct."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text or marks are visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Elephant-scale growth in open sky with Brahma and two sons below matches the plan. Matte ochre and muted color; complete figures in frame."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d012/s005/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "bc8a03142e0382473c28b6c2886326673e5a9640716e54e801c70dc52abf7af6",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma has the planned four-head/four-arm deity anatomy; Manu, sages and Brahma's sons retain ordinary human anatomy. Varaha follows this stanza's D012 scene-specific natural boar or infant-boar form.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s005-landscape-v003-review-v001.md",
+          "sha256": "24f7a3443253258b19b3cd6080e766dd816857377d0948071d9a4d628eb86167"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "A single mountain-sized boar roars above Brahma. The full boar silhouette, open snout and four connected legs remain readable; Brahma stands below as a scale cue."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Four natural boar legs connect to the torso; Brahma has four distinct arms. No humanoid limbs appear on Varaha."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The boar's eye and open roaring snout are clear; Brahma's three visible faces remain coherent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One boar and one Brahma are present, without duplicate bodies or fused figures."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is apparent."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The roaring mountain-scale moment is clear against the sky; the flat matte palette and complete silhouettes fit the plan."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d012/s006/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "04bac8a45b39ff83f01ddc778d17898403323601061dc3ac45b1590a21def509",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha follows this stanza's D012 non-combat scene form: one boar head, one coherent torso, two natural forelegs and two hind legs; no weapons or humanoid arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s006-landscape-v002-review-v001.md",
+          "sha256": "6e87ee75772cd07579f2ef6180f240f32ad9a09e6689eda1798af488b9386abf"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha descends toward the cosmic waters; the repeated small sage groups occupy three distinct loka bands as the plan's symbolic repetition."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Varaha's four natural limbs are connected; the small sage groups show human figures with distinguishable heads and bodies. At their small scale, individual fingers are not resolved."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Varaha's head, eye and snout remain legible. The sages' small faces are not detailed enough for fine-feature comparison."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The repeated sages are intentional representations across three lokas, not accidental scene duplicates; their bands remain separate."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, watermark or logo is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The descent, three loka bands and small sage groups follow the plan. Matte blue-gray water and ochre figures; wide framing keeps the full Varaha visible."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d012/s007/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "79f8a2c631b5d5a750298cf7bff5dfd9ba1b1511cb1f208d69d734b390de7381",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha follows this stanza's D012 non-combat scene form: one boar head, one coherent torso, two natural forelegs and two hind legs; no weapons or humanoid arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s007-landscape-v004-review-v001.md",
+          "sha256": "dc2137f9ae116a9306be4b490be22b9f6ee1d2946eb73a44cc544791d7172331"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The full-bodied boar turns its visible eye toward three sages at upper left; its tail and all body contours stay inside frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Four connected natural legs and hooves are visible on Varaha; the three sages remain separate figures with ordinary proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Varaha's eye and snout are directed toward the sages; each sage has a distinct face at the inspected detail scale."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha and three sages; no extra blue deity or duplicated figure appears in this selected version."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No lettering, watermark or logo is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The glance toward the sages is clear, with the full tail and witness group in frame; matte earth palette and open composition match the plan."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d012/s008/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "a000d4bee3b57a7b5a7f79be606479adefd3160519235af11e8d3fa5571f7625",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha follows this stanza's D012 non-combat scene form: one boar head, one coherent torso, two natural forelegs and two hind legs; no weapons or humanoid arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s008-landscape-v004-review-v001.md",
+          "sha256": "103f6ea8bbb12a2a4e10f27f5a23a8f7b50a844e2e7ebc326f0b09430adc2502"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha searches through Rasatala with two crocodiles, one whale and three recoiling humanlike inhabitants, all visible in the full frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Varaha has four connected legs; the inhabitants' close view shows separate arms and legs. Crocodiles and whale read as distinct animals."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Varaha's eye and boar snout are clear; the inhabitants have recognizable separate faces at the close-view scale."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha, exactly two crocodiles, one whale and three separate inhabitants; no bodies fuse or duplicate."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, caption, logo or watermark appears."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The underwater search and recoiling Rasatala inhabitants match the scene. Muted blue-black water and matte ochre silhouettes remain consistent."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d012/s009/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "6dc404bd19ef437b21afce03ca842ffd95601c76c87fd2b6ede05998a470206a",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha follows this stanza's D012 non-combat scene form: one boar head, one coherent torso, two natural forelegs and two hind legs; no weapons or humanoid arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s009-landscape-v003-review-v001.md",
+          "sha256": "7a81a57b8c944d017edf5d80c6dfa025651a8fae302e09f7fc0167d7e3b35c0f"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The globe visibly contacts and rests on the tip of one tusk. The full frame shows Varaha's head, body, four legs and tail; distant submerged silhouettes remain secondary."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Four connected hooved legs attach to one quadruped torso; the tusk-to-globe contact is confirmed in the detail view."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Varaha's eye, snout and tusks are distinct; the Earth globe remains a single readable object."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One boar and one Earth, with distant silhouettes as background inhabitants; no doubled body or fused object is apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No writing, logo, watermark or signature is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The Earth-lifting moment reads clearly in the cosmic water. The blue-gray and ochre matte treatment is consistent; both head and globe are fully framed."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d012/s010/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "41a4ff11fa0e69ad7ed020ac906569e075cba6548ffc13546e1d7dc362c719b8",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:24:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha follows this stanza's D012 non-combat scene form: one boar head, one coherent torso, two natural forelegs and two hind legs; no weapons or humanoid arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s010-landscape-v003-review-v001.md",
+          "sha256": "0e497dadda8c0e16e20f41d34f815603fe4628b278e4f0cf67f7a7cd9bbb7540"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha carries the Earth on one tusk tip, with the second tusk distinct. The full natural-boar body and four legs remain visible; no additional figures intrude."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Four connected legs attach to one torso, and the Earth contacts a single tusk. No arms or extra limbs appear."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The boar eye, snout and both tusks are individually legible; Earth is a distinct round globe."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha and one globe; no duplicated animal or fused object is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark appears."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The closing Earth-lifting image is clear and uncluttered, with full-body framing and the subdued matte palette prescribed by the plan."
+        }
+      },
+      "findings": []
     }
   ]
 }
