@@ -35,6 +35,10 @@
         {
           "path": "art/reviews/d003-plan-hash-reinspection-v001.md",
           "sha256": "a218b6330e49373366f4052bbef81a36dcf4b984f8da0ddd09a747cc6a86f672"
+        },
+        {
+          "path": "art/reviews/d003-s001-landscape-v003-target-recheck-v001.md",
+          "sha256": "97260df07bf5a5b7d2914bd6f10bac80e8a124f985042f4f0db96726a749a2c9"
         }
       ],
       "checks": {
@@ -8255,6 +8259,126 @@
         "scene_style_continuity": {
           "status": "pass",
           "observations": "Crop s007v6-cloud-passage: a cream cloud bank is torn, with ragged wisps streaming across the shoulders, belly and hindquarters as the boar plunges through it. Reddish-dark bristles stand along the spine. The descent runs diagonally from the sages at upper left to the waves at lower right; the sages stay on their own cloud, untouched. Matches stanza 12-7. Matte palette; the intake 007's weapon-bearing humanoid is not copied."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 2,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d002/s001/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "aed207a78c7487dcca24d0397be050d0c004e3cfaaa1be94879ab94732dd9f1c",
+      "reviewer": "Claude (no-mistakes managed review-fix, audit-review-board)",
+      "inspected_at": "2026-11-05T12:25:38Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Guruvayurappan is the sole figure and has two attached arms in this iconographic scene.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d002.json",
+          "sha256": "2885e7dbdaa2c8c0b0a142d9559ef7fbc5d3446be6f935ec7bc9856c7be094c9"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d002-s001-landscape-v004-review-v001.md",
+          "sha256": "6a1291d5ed237fc2dd7713a2b2e771462d0ea1b7dcb0b1b624919efafb6f33a4"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "One deity with two attached arms: raised blessing right hand and lowered open left hand, each with five fingers and a bangle; both feet rest on the pedestal inside the frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both arms attach at the shoulders; torso, garland, dhoti and legs form one coherent standing figure with distinct hand gestures."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One calm blue face with almond eyes, gentle smile, upright tilak, crown with peacock feather and paired earrings, matching the established deity identity."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One complete deity is visible; no duplicate or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, caption, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Compared with v003, the mottled grainy texture is replaced by broad opaque flat colour fields and firm dark contours, resolving the reported style drift; arch, lamps, reliefs and full-figure composition are unchanged."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 1,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d001/s002/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "94f0040ef25654384cf05401261f487520c184c6fccde2e3b756c4c57beac9c0",
+      "reviewer": "Claude (no-mistakes managed review-fix, audit-review-board)",
+      "inspected_at": "2026-11-05T12:25:38Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Guruvayurappan is a two-armed deity in this scene. The coin-pouch seeker and other devotees are ordinary two-armed humans. The reported concern was ambiguity in how the seeker held the pouch; no earlier version was shown to have a malformed or extra limb.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d001.json",
+          "sha256": "8bccaf09638d36054c67dcaeb9d70788bd440fc2e56367dc8fbee6366e48547c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d001-s002-landscape-v004-review-v001.md",
+          "sha256": "a2c97548a5fd4d96aaa0cd1ceddcfb56f84b035e5ab087dbae0cc5a4e4a1dbea"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The seeker shows two arms, two bangled wrists and two hands meeting around one pouch in front of his belly, plus two bare walking feet. The deity has two arms; the kneeling devotee and seated student each show two hands."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The seeker now faces three-quarter front with visible chest and abdomen; both arms descend from the shoulders and bend in front of the abdomen, with no spine or back plane behind the hands. Legs and stance remain connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The seeker keeps his left-facing moustached face; the devotees, student and three distant women have distinct faces; the deity retains its established identity."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Three focal devotees, three distant women and one deity are separate; no duplicate person, extra pouch or fused body is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, caption, signature, logo, watermark or border; the book is closed and blank."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The two-path devotional contrast, sanctum, elephant and treasure remain arranged as in v002, with the same broad matte colour fields and firm contours."
         }
       },
       "findings": []

@@ -39,7 +39,7 @@ blog repository is a separate
 Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
-then build and package the exact commit. The current workflow uploads D001, D003,
+then build and package the exact commit. The current workflow uploads D001 through D003
 and D005 through D012 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Then release the bundle
