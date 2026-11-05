@@ -251,6 +251,6 @@ before any serialized Worker deployment.
 At fresh main `c7a65d8bc782b4a0fb8de6e99b7069807656454b`, the union contains 14
 chapters, 148 stanza rows, 302 review media inputs, and 154 selected generated
 images (71 historical and not cleared, 83 to be individually inspected). The
-managed D014 review passed seven leads; S005 and S008 need fixes and S010 is
-uncertain, so selection validation rejects the release until those three are
-repaired and re-reviewed. These totals must be recalculated if the base advances.
+managed D014 review passed nine leads, including the S005 v003 and S010 v003
+repairs. S008 v005 still needs a fix, so selection validation rejects the release
+until it is repaired and re-reviewed. These totals must be recalculated if the base advances.
