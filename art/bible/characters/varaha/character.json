@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "id": "varaha",
+  "display": "Varaha",
+  "aliases": [
+    "Yajna Varaha",
+    "Narayana as Varaha"
+  ],
+  "reference_status": "shared reference owned by D012; local D013 copy is read-only provenance",
+  "depiction_rules": {
+    "default_mode": "use-shared-reference-for-identity-and-palette",
+    "allowed_modes": [
+      "use-shared-reference-for-identity-and-palette"
+    ],
+    "notes": "D012 owns the shared Varaha identity, palette and reference. This D013 pointer adds no body-form or limb-count rule. Follow only the exact source-specific Varaha pose and visible anatomy in art/plans/d013.json."
+  },
+  "visual_bible": {
+    "shared_identity_and_palette": "Anchor Varaha to the D012-owned reference at SHA-256 d594a675db1d199aacd0b0d0f139a3448595049fd49fc03294f6b051085cf301: recognizable boar face with elongated broad snout, upturned tusks and upright ears; rich natural reddish/deep-brown boar fur; painted orange/ochre ornaments and warm cream/ochre fields; firm matte dark contours. Use this for identity and color only; the quadruped pose belongs to D012 scene contracts."
+  },
+  "never": [
+    "no duplicate Varaha",
+    "no fused or detached anatomy",
+    "no readable text, logos or watermarks"
+  ],
+  "local_reference_paths": [
+    "artifacts/d013/references/characters/varaha-character-reference-v001.png"
+  ],
+  "coordination": "Shared identity and palette are owned by D012. D013 scene-specific actions and any form variation remain in art/plans/d013.json."
+}
