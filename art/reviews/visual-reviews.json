@@ -7683,11 +7683,11 @@
       "file": "artifacts/d013/s001/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "ff2f07bd2a9b6c19fd1d883d204461b1bdac188b237eba4d496d16a85e30388f",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "reviewer": "Claude (no-mistakes managed review/fix-review phase)",
+      "inspected_at": "2026-11-05T12:07:18.000Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Selected image re-inspected against the D013 Nārada continuity contract and the S002 v003 Nārada.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7708,8 +7708,8 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s001-landscape-v003-review-v001.md",
-          "sha256": "4c3a3738d07075e598ebd0262cddb3a4af553e9d82804cdf74e3f673800038b8"
+          "path": "art/reviews/d013-s001-landscape-v003-continuity-review-v001.md",
+          "sha256": "1e23c8972c6f4b7c145f28df31041d28de888fa6c35b500b603b99b787235cc5"
         }
       ],
       "checks": {
@@ -7722,8 +7722,8 @@
           "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
         },
         "faces": {
-          "status": "pass",
-          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+          "status": "needs-fix",
+          "observations": "Nārada is smooth-faced, clean-shaven and youthful, contradicting the Nārada bible's mature ascetic sage and the bearded Nārada of S002 v003."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -7734,8 +7734,85 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
         },
         "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "Stanza action and palette are not the defect; Nārada's recurring identity is inconsistent with S002."
+        }
+      },
+      "findings": [
+        {
+          "id": "D013-S001-V003-NARADA-CONTINUITY",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Nārada appears clean-shaven and youthful, materially differing from the mature bearded Nārada of S002 v003.",
+          "repair": "Preserve this version and select a new native version keeping the meeting while making Nārada a mature bearded sage."
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d013/s001/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "d783b95231051bb98d13bc691831d46db6138a13d08214c49b6b5b07e889ba8f",
+      "reviewer": "Claude (no-mistakes managed review/fix-review phase)",
+      "inspected_at": "2026-11-05T12:07:18.000Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern the meeting. Nārada follows the Nārada bible's mature ascetic sage and matches S002 v003; Hiraṇyākṣa follows the D011 S009 identity-only reference without pose or weapon authority.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s001-landscape-v004-review-v001.md",
+          "sha256": "241c7b1ab8ad910ee09dcc914103ce2678f1ab6436b276b9ea2e2b97a8960650"
+        },
+        {
+          "path": "art/reviews/d013-landscape-final-coverage-v001.md",
+          "sha256": "89a19bbd407f5bc74db519fe98f4a4a505c7f654d4af7c2ed8e07a8a9622a171"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+          "observations": "Hiraṇyākṣa shades his eyes with one hand and has the other open at his side; Nārada holds the veena with one hand and gestures with the other; each has exactly two attached arms and the feet are submerged in shin-deep water."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both figures have natural adult proportions; limbs, hands and the veena connect clearly."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Nārada is a mature sage with full dark beard and topknot matching S002 v003; Hiraṇyākṣa keeps the mature greying-bearded identity."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two distinct figures; no duplicate sage or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Diplomatic shallow-water meeting with no weapon; matte outlined mural style. The sky is warmer ochre than v003, within the series palette."
         }
       },
       "findings": []
@@ -7819,11 +7896,11 @@
       "file": "artifacts/d013/s003/landscape/candidate-v005.png",
       "version": "v005",
       "sha256": "8202a05aa9827db2c0aff80c42faea9cde5a06c24cd2fb23c1f62a76fb0d391d",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T10:21:38.403Z",
+      "reviewer": "Claude (no-mistakes managed review/fix-review phase)",
+      "inspected_at": "2026-11-05T12:07:18.000Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D013 source contracts govern scene-specific forms and actions. Hiraṇyākṣa’s recurring mature face, long wavy dark hair, and full greying beard/moustache follow D011 S009 identity-only reference; no pose or weapon authority is inferred.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Selected image re-inspected against the frozen D012 Varaha reference, the Varaha bible and D013 Varaha form evidence.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7848,8 +7925,8 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s003-landscape-v005-review-v001.md",
-          "sha256": "d5d9b5cdb93d4c00c620d70836925e7f7b75d55ccc98c0b0af1fbd644724dcb5"
+          "path": "art/reviews/d013-s003-landscape-v005-continuity-review-v001.md",
+          "sha256": "d12749d1df44fb69c15138d47b5e065873b7da4e3609106bd9fbc7a9bde00f45"
         }
       ],
       "checks": {
@@ -7862,8 +7939,8 @@
           "observations": "Visible limbs and hands connect to the figures; scene-specific contact and gestures remain readable."
         },
         "faces": {
-          "status": "pass",
-          "observations": "Hiraṇyākṣa has the mature older face and full greying beard/moustache; close view confirms identity without imposing reference pose."
+          "status": "needs-fix",
+          "observations": "Varaha's head has a long trunk-like snout with no pig-nose disc and an elephant-like tusk, not the shared boar head."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -7874,8 +7951,89 @@
           "observations": "No readable text, caption, signature, logo, or watermark appears in full frame or details."
         },
         "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "Stanza action is preserved; Varaha's recurring boar identity is inconsistent with the D012 reference and S002, S008–S010."
+        }
+      },
+      "findings": [
+        {
+          "id": "D013-S003-V005-VARAHA-CONTINUITY",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Varaha's head reads as a mammoth or tapir hybrid with a drooping snout and elephant-like tusk instead of the shared boar snout and short tusks.",
+          "repair": "Preserve this version and select a new native version keeping the tusk-lowering action with the shared boar head."
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d013/s003/landscape/candidate-v006.png",
+      "version": "v006",
+      "sha256": "dc15e732c95a656a2630c4c87291ec63dc932d63dc07d301b172c09d045997d9",
+      "reviewer": "Claude (no-mistakes managed review/fix-review phase)",
+      "inspected_at": "2026-11-05T12:07:18.000Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D013 source contracts govern the quadruped tusk-lowering action. Varaha's boar head follows the frozen D012 reference; Hiraṇyākṣa follows the D011 S009 identity-only reference without pose or weapon authority.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        },
+        {
+          "path": "art/bible/characters/bhudevi/character.json",
+          "sha256": "8fba662e0bf6f7257c4b09e3efd6d75a78fa242728f66fa5e39a73562dad04bf"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s003-landscape-v006-review-v001.md",
+          "sha256": "ba4fb9dddf167aaf0971decbc1d6b72cf672b691e1b052acd2f70bd8ba88c5e5"
+        },
+        {
+          "path": "art/reviews/d013-landscape-final-coverage-v001.md",
+          "sha256": "89a19bbd407f5bc74db519fe98f4a4a505c7f654d4af7c2ed8e07a8a9622a171"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Stanza action and weapon state are preserved; outlined matte mural treatment is consistent with series style."
+          "observations": "Varaha stands on four hoofed legs in the shallows; Bhūdevī has two arms and both bare feet in the water; Hiraṇyākṣa has two arms, one open palm and one fist, and no weapon."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "A curved tusk supports Bhūdevī at the waist; no human hand supports her. It is a third, longer tusk below the two short mouth tusks, recorded as a stylistic limit."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Varaha has a compact pig muzzle with a two-nostril disc, upright ears and short mouth tusks matching the D012 reference; Hiraṇyākṣa keeps the mature greying-bearded identity; Bhūdevī is calm."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha, one Bhūdevī and one Hiraṇyākṣa; no fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "v005 staging and waterline are kept; the protective lowering reads before battle; matte outlined mural style."
         }
       },
       "findings": []
