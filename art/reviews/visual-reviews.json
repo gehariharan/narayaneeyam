@@ -7168,14 +7168,18 @@
       ],
       "evidence": [
         {
+          "path": "art/reviews/d012-s004-landscape-v004-review-v001.md",
+          "sha256": "98bef61f8f006a925be7dc8608d02800148a45944d70b27358e0886c3e225528"
+        },
+        {
           "path": "art/reviews/d012-s004-landscape-v004-review-v002.md",
           "sha256": "752cadd543620ea988969613670fd609388d67c77837df494928d0b228c8c5df"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "The wide frame shows one large boar and a restrained smaller growth echo linked by a continuous ribbon; Brahma and two sons witness from below."
+          "status": "needs-fix",
+          "observations": "Varaha, Brahma and the two sons stand on one shared ground plane, so the sons do not witness from below; no smaller linked boar appears, only a small flame at Brahma's fingertip."
         },
         "attachment_proportions": {
           "status": "pass",
@@ -7186,8 +7190,8 @@
           "observations": "Brahma's three visible faces are coherent; witness faces remain separate."
         },
         "duplication_fusion": {
-          "status": "pass",
-          "observations": "The growth echo reads as a visual scale progression attached by the ribbon, not as a second unrelated animal; three witnesses remain distinct."
+          "status": "needs-fix",
+          "observations": "There is no boar growth echo or scale progression: the element the v001 report read as a linked echo is a fingertip flame, so the single-boar expansion from thumb-sized to elephant-sized is absent; three witnesses remain distinct."
         },
         "text_artifacts": {
           "status": "pass",
