@@ -267,4 +267,5 @@ Reconciled with main `fde952c10f3d78dfbbe3bc99d445be59288dde40` (D012), the unio
 contains 15 chapters, 158 stanza rows, 322 review media inputs, and 164 selected
 generated images (71 historical and not cleared, 93 to be individually inspected).
 The managed D014 review passed all ten leads, including the S005 v003, S008 v008
-and S010 v003 repairs; earlier failed versions remain recorded as history. These totals must be recalculated if the base advances.
+and S010 v003 repairs; earlier failed versions remain recorded as history. These
+totals must be recalculated if the base advances.
