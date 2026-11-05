@@ -7974,9 +7974,9 @@
       "version": "v005",
       "sha256": "93dcb4ed96c40b82f43f0fc1fd3e568bf71768424cd899ba10cfddc7e3eb5696",
       "reviewer": "Claude (no-mistakes managed fix-review phase)",
-      "inspected_at": "2026-11-05T11:39:00Z",
+      "inspected_at": "2026-11-05T12:08:41Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
+      "outcome": "needs-fix",
       "anatomy_basis": "Varaha is one natural boar. The three sages are ordinary humans with two arms. Brahma is not depicted in this stanza.",
       "contracts": [
         {
@@ -8004,6 +8004,10 @@
         {
           "path": "art/reviews/d012-s007-landscape-v005-managed-review-v001.md",
           "sha256": "35ecd69e33c8e9c16037b61574a60ba750ed431c97ffca25a96c34086859908c"
+        },
+        {
+          "path": "art/reviews/d012-s007-landscape-v005-managed-review-v002.md",
+          "sha256": "1e01c63bd02df761e1c764d6e0cc6ff73ee7246a95ec6d7183f09ee3e58f2087"
         }
       ],
       "checks": {
@@ -8016,8 +8020,8 @@
           "observations": "Natural connected quadruped. Two tusks at the mouth corners; the tail attaches at the rump and is raised. The bristle crest grows from the back without detaching."
         },
         "faces": {
-          "status": "pass",
-          "observations": "Crop s007v5-eye-snout-2.5x: one boar head in near profile. A single eye is clearly visible under a lowered, furrowed brow, rolled toward the upper left where the sages stand; the snout points down. The expression is intense, not smiling. The sages' three faces are distinct."
+          "status": "needs-fix",
+          "observations": "Crop s007v5-eye-5x: the visible eye's iris sits in the forward (right) part of the opening, with the white sclera wedge behind it at the rear (left). The gaze points forward and down toward the water, away from the sages at upper left, so the plan's blessing glance back toward the sages is not shown. This supersedes the v001 report's claim that the eye is rolled toward the sages."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -8028,11 +8032,28 @@
           "observations": "No readable text or marks."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Crop s007v5-bristles: reddish-dark bristles visibly stand along the spine and shoulders. Crop s007v5-clouds-top: the clouds at upper right split into hooked tongues around the descent, and the sages remain above, untouched. This resolves the v004 findings for stanza 12-7. Matte palette; the intake 007's weapon-bearing humanoid is not copied."
+          "status": "needs-fix",
+          "observations": "Bristling fur, raised tail and the downward dive are present, and the sages are untouched. But the body passes through open ochre sky; clouds sit only at the upper-right and left margins and do not break around the descending body, which is the same state as v004's cloud finding."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D012-S007-V005-EYE-NOT-TOWARD-SAGES",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "The visible eye's iris faces forward and down, with the sclera at the rear; the gaze is not directed back toward the sages.",
+          "repair": "Roll the iris up and back toward the sages at upper left."
+        },
+        {
+          "id": "D012-S007-V005-CLOUDS-NOT-BROKEN",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "The body descends through open sky; clouds stay at the frame margins and are not broken around the body.",
+          "repair": "Show a cloud bank torn or parted by the descending body."
+        }
+      ]
     },
     {
       "chapter": 12,
@@ -8166,6 +8187,74 @@
         "scene_style_continuity": {
           "status": "pass",
           "observations": "Matches stanza 12-9 and the plan: underwater at Rasatala's edge, Earth on one tusk tip, playful effortless lift, and a subdued distant asura with no combat, injury or weapon. This resolves both v003 findings. Matte mural palette."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 12,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d012/s007/landscape/candidate-v006.png",
+      "version": "v006",
+      "sha256": "b743ea821a9d76c8ccba480f47af5f74ac5e683faff9fb9351f76cb531552591",
+      "reviewer": "Claude (no-mistakes managed fix-review phase)",
+      "inspected_at": "2026-11-05T12:08:48Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha is one natural boar with four legs and two tusks. The three sages are ordinary humans with two arms. Brahma is not depicted in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "content/daskams/d012.json",
+          "sha256": "55f9a97f0f6a9392727cbaeba1af126dc4e78a15a16d26a353243c3e8d5545b0"
+        },
+        {
+          "path": "content/sources/d012/photo-captions.txt",
+          "sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s007-landscape-v006-managed-review-v001.md",
+          "sha256": "0c1edc3410afb679b29f81efe7142d4aac91de12419ae7eb0d9438bdb4b02520"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Crop s007v6-legs-snout: exactly four boar legs with anklets and cloven hooves; the two hind legs trail upper left and the two forelegs reach down to the waves. Crop s007v6-sages: each of the three sages shows two joined hands and two bare feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Natural connected quadruped; the tail attaches at the rump and is raised in a curl. Two tusks root at the mouth line under the eye, and the snout bridge is smooth. The bristle crest grows from the spine."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Crop s007v6-eye-5x: one eye is clearly visible. Its iris and highlight sit in the upper-rear (left) corner of the opening, with the white sclera below and forward, so the eye is rolled up and back toward the sages at upper left: a readable backward glance. The brow is lowered and furrowed, giving a fierce look; the snout points down. The three sage faces are distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One boar and three sages. The cloud wisps cross the body without creating extra limbs, faces or fused forms."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Crop s007v6-cloud-passage: a cream cloud bank is torn, with ragged wisps streaming across the shoulders, belly and hindquarters as the boar plunges through it. Reddish-dark bristles stand along the spine. The descent runs diagonally from the sages at upper left to the waves at lower right; the sages stay on their own cloud, untouched. Matches stanza 12-7. Matte palette; the intake 007's weapon-bearing humanoid is not copied."
         }
       },
       "findings": []

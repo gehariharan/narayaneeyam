@@ -2,8 +2,8 @@
   "schema_version": 1,
   "daskam_id": 12,
   "review_status": "needs-review",
-  "visual_review_status": "All ten selected raws have a fresh managed full-frame and detail review bound to their exact hashes, and all ten pass. S002 v004, S007 v005, S008 v005 and S009 v005 are native repairs that replace needs-fix versions retained as history. Portraits paused; no art approval.",
-  "description": "Ten D012 landscape candidates paired with ten verified intake references. The selected S004 and S010 versions are corrected native raws. Historic review evidence is retained alongside a fresh managed review of every selected raw; the needs-fix versions of S002, S007, S008 and S009 remain preserved history. Artwork remains unapproved.",
+  "visual_review_status": "All ten selected raws have a fresh managed full-frame and detail review bound to their exact hashes, and all ten pass. S002 v004, S007 v006, S008 v005 and S009 v005 are native repairs that replace needs-fix versions retained as history. Portraits paused; no art approval.",
+  "description": "Ten D012 landscape candidates paired with ten verified intake references. The selected S004 and S010 versions are corrected native raws. Historic review evidence is retained alongside a fresh managed review of every selected raw; the needs-fix versions of S002, S007 (v004 and v005), S008 and S009 remain preserved history. Artwork remains unapproved.",
   "review_notice": "Earlier pass labels are historical. Each selected raw's current record cites its managed review, which compares the exact raw hash, full frame plus relevant anatomy and scene details, against the canonical stanza, intake, plan, series and character references. Open findings stay open until a corrected raw is reviewed. Portraits remain paused. This comparison batch does not grant art approval.",
   "rows": [
     {
@@ -150,17 +150,17 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d012/s007/landscape/candidate-v005.png",
-        "sha256": "93dcb4ed96c40b82f43f0fc1fd3e568bf71768424cd899ba10cfddc7e3eb5696",
-        "version": "v005",
-        "label": "Landscape candidate v005",
-        "displayLabel": "Landscape candidate v005"
+        "file": "artifacts/d012/s007/landscape/candidate-v006.png",
+        "sha256": "b743ea821a9d76c8ccba480f47af5f74ac5e683faff9fb9351f76cb531552591",
+        "version": "v006",
+        "label": "Landscape candidate v006",
+        "displayLabel": "Landscape candidate v006"
       },
       "alternates": [],
       "history": {
-        "previous_selected_version": "v004",
-        "previous_sha256": "79f8a2c631b5d5a750298cf7bff5dfd9ba1b1511cb1f208d69d734b390de7381",
-        "status": "retained as needs-fix history for smooth fur, gentle face and unbroken clouds (D012-S007-V004-*)"
+        "previous_selected_version": "v005",
+        "previous_sha256": "93dcb4ed96c40b82f43f0fc1fd3e568bf71768424cd899ba10cfddc7e3eb5696",
+        "status": "retained as needs-fix history for an eye not directed toward the sages and unbroken clouds (D012-S007-V005-*); earlier v004 (79f8a2c6…) remains needs-fix history for smooth fur, gentle face and unbroken clouds"
       }
     },
     {
