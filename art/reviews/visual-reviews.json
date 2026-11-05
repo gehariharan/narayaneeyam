@@ -7511,10 +7511,10 @@
       "file": "artifacts/d012/s010/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "41a4ff11fa0e69ad7ed020ac906569e075cba6548ffc13546e1d7dc362c719b8",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T09:24:26Z",
+      "reviewer": "Claude (no-mistakes test phase, Firstmate-managed repair)",
+      "inspected_at": "2026-11-05T10:14:00Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
+      "outcome": "needs-fix",
       "anatomy_basis": "Varaha follows this stanza's D012 non-combat scene form: one boar head, one coherent torso, two natural forelegs and two hind legs; no weapons or humanoid arms.",
       "contracts": [
         {
@@ -7534,32 +7534,113 @@
         {
           "path": "art/reviews/d012-s010-landscape-v003-review-v001.md",
           "sha256": "0e497dadda8c0e16e20f41d34f815603fe4628b278e4f0cf67f7a7cd9bbb7540"
+        },
+        {
+          "path": "art/reviews/d012-s010-landscape-v003-review-v002.md",
+          "sha256": "d14252fd148ca4f59b521e943a45f5a87f3a60d73f32b727e7ce0f03319e47ed"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Varaha carries the Earth on one tusk tip, with the second tusk distinct. The full natural-boar body and four legs remain visible; no additional figures intrude."
+          "observations": "One quadruped with four attached legs and hooves; no humanoid limbs."
         },
         "attachment_proportions": {
-          "status": "pass",
-          "observations": "Four connected legs attach to one torso, and the Earth contacts a single tusk. No arms or extra limbs appear."
+          "status": "needs-fix",
+          "observations": "The Earth-bearing tusk grows out of the top of the snout bridge above the nostril disc like a horn instead of rooting at the mouth line."
         },
         "faces": {
-          "status": "pass",
-          "observations": "The boar eye, snout and both tusks are individually legible; Earth is a distinct round globe."
+          "status": "needs-fix",
+          "observations": "An extra third point projects behind the snout disc alongside the horn-like Earth tusk and the normal lower tusk."
         },
         "duplication_fusion": {
-          "status": "pass",
-          "observations": "One Varaha and one globe; no duplicated animal or fused object is visible."
+          "status": "needs-fix",
+          "observations": "The extra point and the horn-like tusk fused to the snout bridge break the D012 no-extra-tusks rule."
         },
         "text_artifacts": {
           "status": "pass",
           "observations": "No readable text, signature, logo or watermark appears."
         },
         "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "Emergence, tiny Earth and matte palette match the plan, but the Earth sits on a nasal horn rather than on one natural tusk tip."
+        }
+      },
+      "findings": [
+        {
+          "id": "D012-S010-V003-NASAL-HORN-TUSK",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "The Earth-bearing tusk grows from the top of the snout like a horn, above the nostril disc.",
+          "repair": "Generate a fresh version with the Earth on the tip of a tusk rooted at the lower mouth line and a smooth snout bridge."
+        },
+        {
+          "id": "D012-S010-V003-EXTRA-TUSK-POINT",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "An extra third tusk-like point appears behind the snout disc, beyond the two natural tusks.",
+          "repair": "Show exactly two tusks, both at the mouth corners, with no other point on the head."
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d012/s010/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "ab862e16e935072819ceac1f2c8e05180a515b6ec6118e6c6806106fcff1d01c",
+      "reviewer": "Claude (no-mistakes test phase, Firstmate-managed repair)",
+      "inspected_at": "2026-11-05T10:14:00Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varaha follows this stanza's D012 non-combat scene form: one boar head, one coherent torso, two natural forelegs and two hind legs; no weapons or humanoid arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-s010-landscape-v004-review-v001.md",
+          "sha256": "d8db54e83841c9bb02eb5c261412adb38bdc928cd704c32293711f274727731b"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
           "status": "pass",
-          "observations": "The closing Earth-lifting image is clear and uncluttered, with full-body framing and the subdued matte palette prescribed by the plan."
+          "observations": "One natural quadruped with four attached legs ending in cloven hooves in the churned waves; no arms or humanoid limbs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Exactly two tusks rooted at the lower mouth line; the Earth-bearing tusk emerges beneath the snout disc and curves upward with a clear gap from the smooth snout bridge. Its root is partly hidden behind the disc."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One boar head with a visible eye, upright ears, forehead mark and crown; no third tooth, horn or point on the head."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha and one small Earth globe touching only the terminal tip of the raised tusk; no duplicate animal or fused object."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Full body, head, tusks, Earth and low waterline are in frame; warm matte earth-ochre mural with subordinate ornament. The boar stands in the surf as a calm emergence."
         }
       },
       "findings": []
