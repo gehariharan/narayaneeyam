@@ -40,10 +40,12 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001, D003,
-and D005 through D011 media from the release using the existing
+and D005 through D011, plus D014 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
-need their chapter-scoped R2 upload before deployment. Then release the bundle
-and dispatch the workflow:
+need their chapter-scoped R2 upload before deployment. Each selected chapter's
+R2 upload runs before the Worker version upload/deploy and writes only that
+chapter's content-addressed derivatives, preserving existing bucket objects.
+Then release the bundle and dispatch the workflow:
 
 ```sh
 node review-site/scripts/build.mjs

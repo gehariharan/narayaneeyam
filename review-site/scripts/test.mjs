@@ -27,19 +27,23 @@ assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneey
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
 console.log('Passed: integrated comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,38,96]);
-assert.equal(data.chapters.length,13);
-assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),138);
-assert.equal(Object.keys(data.assets).length,282);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,14,38,96]);
+assert.equal(data.chapters.length,14);
+assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),148);
+assert.equal(Object.keys(data.assets).length,302);
 const generatedSelected=data.chapters.flatMap(c=>c.rows.flatMap(r=>r.images)).filter(i=>i.role!=='reference');
-assert.equal(generatedSelected.length,144);
+assert.equal(generatedSelected.length,154);
 assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='historical').length,71);
-assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,73);
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,83);
 const d11=data.chapters.find(c=>c.id===11);
 assert.deepEqual(d11.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 assert.ok(d11.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
 assert.ok(d11.rows.every(r=>r.images.find(i=>i.role==='matte').inspectionStatus==='inspected'));
-console.log('Passed: 13 chapters, 138 rows, 282 media, 144 generated selections (71 historical, 73 inspected), including all ten D011 leads.');
+const d14=data.chapters.find(c=>c.id===14);
+assert.deepEqual(d14.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+assert.ok(d14.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
+assert.ok(d14.rows.every(r=>r.images.find(i=>i.role==='matte').inspectionStatus==='inspected'));
+console.log('Passed: 14 chapters, 148 rows, 302 media, 154 generated selections (71 historical, 83 inspected), including all ten D011 and D014 leads.');
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
