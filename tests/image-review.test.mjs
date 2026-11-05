@@ -245,7 +245,7 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 83);
+  assert.equal(labels.length - historicalLabels.length, 93);
   const d009 = selectedImages(batches).filter(image => image.chapter === 9).map(image => reviewFor(validation, image));
   assert.equal(d009.length, 10);
   assert.ok(d009.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
@@ -293,16 +293,16 @@ test('D014 selection binds ten source/candidate pairs and renders as a landscape
   assert.ok(!html.includes('<select'));
 });
 
-test('fresh-main release union retains the expected D014 dataset counts', async () => {
+test('release union with main retains the expected D012 and D014 dataset counts', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
   const rowCount = batches.reduce((count, batch) => count + batch.rows.length, 0);
   const mediaInputCount = batches.reduce((count, batch) => count + batch.rows.reduce((sum, row) => sum + 2 + (row.alternates || []).length, 0), 0);
-  assert.equal(batches.length, 14);
-  assert.equal(rowCount, 148);
-  assert.equal(mediaInputCount, 302);
-  assert.equal(selectedImages(batches).length, 154);
-  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 38, 96]));
+  assert.equal(batches.length, 15);
+  assert.equal(rowCount, 158);
+  assert.equal(mediaInputCount, 322);
+  assert.equal(selectedImages(batches).length, 164);
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 38, 96]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {

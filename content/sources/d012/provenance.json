@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "daskam": 12,
+  "retrieved_at": "2026-11-04",
+  "sources": [
+    {
+      "role": "canonical Sanskrit text",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-12-in-sanskrit/",
+      "used_for": "Devanagari verses 12-1 through 12-10 and stanza count",
+      "local_copy": "content/daskams/d012.json"
+    },
+    {
+      "role": "canonical IAST romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-12-in-english/",
+      "used_for": "Romanized verses 12-1 through 12-10 and independent count confirmation",
+      "local_copy": "content/daskams/d012.json"
+    },
+    {
+      "role": "supplied source commentary and image captions",
+      "source_type": "Google Drive commentary document",
+      "source_url": "https://drive.google.com/drive/folders/1BvVQYe5hW8cvjxzayNILaSBdmydplwJv",
+      "original_name": "Dasakam 12",
+      "local_original_metadata": "content/sources/d012/intake-source.json",
+      "local_caption_copy": "content/sources/d012/photo-captions.txt",
+      "sha256_original_source_metadata": "08055c712e3c29da33b5c1187910ffcb9c6720875ed552e310df90daead05dbe",
+      "sha256_captions": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+      "used_for": "commentary_en and stanza-specific visual context, preserved verbatim"
+    },
+    {
+      "role": "English translation",
+      "method": "Working translation drafted from the cited Sanskrit text; it is editorial draft content, not an attributed published translation.",
+      "review_status": "needs-review"
+    }
+  ],
+  "reference_inventory": "art/references/d012.json",
+  "note": "Raw images, captions, and original intake source metadata were copied unchanged into intake/D012 and content/sources/d012. Intake images are iconographic references; image compositions are not treated as canonical scene descriptions."
+}

@@ -1,0 +1,630 @@
+{
+  "schema_version": 2,
+  "task": "Corrected D012 final validation and managed visual review",
+  "end_user_goal": "ten canonical D012 mural review comparisons, anatomy/identity/source correctness, preserve existing chapters",
+  "branch": {
+    "name": "fm/d012-corrected-review-release",
+    "base_commit": "fc7515afc999c0e7100d58fedea51254f96e988d",
+    "previous_proposal_branch": "fm/d012-reviewed-release",
+    "previous_proposal_head": "fc7515afc999c0e7100d58fedea51254f96e988d"
+  },
+  "preserved_source_branch": {
+    "name": "fm/d012-production",
+    "head": "38cb5fd2b28a36d1166654c6303aaec1faa1d082",
+    "preserved_commit": "965368f4ff55f163d9583b4a78e8546b40d8b73f"
+  },
+  "integration_acceptance": {
+    "chapters": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      38,
+      96
+    ],
+    "chapter_count": 14,
+    "row_count": 148,
+    "media_count": 302,
+    "selected_generated_count": 154,
+    "historical_not_cleared": 71,
+    "newly_inspected": 83
+  },
+  "scope": {
+    "chapter": 12,
+    "canonical_sloka_count": 10,
+    "orientation": "landscape",
+    "selected_images": 10,
+    "portraits": "paused",
+    "art_approval": "none; all candidates remain unapproved",
+    "existing_chapters": "preserve and verify unchanged apart from intended D012 corrected selections"
+  },
+  "source_identity_contracts": [
+    {
+      "path": "art/bible/series.json",
+      "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+      "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/art/bible/series.json"
+    },
+    {
+      "path": "art/plans/d012.json",
+      "sha256": "59f3d4f7fa171fe63c6023b1bbfbf9eebb564d4d696ca477e270fced0b2665f7",
+      "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/art/plans/d012.json"
+    },
+    {
+      "path": "art/bible/characters/brahma/character.json",
+      "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
+      "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/art/bible/characters/brahma/character.json"
+    },
+    {
+      "path": "art/bible/characters/varaha/character.json",
+      "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3",
+      "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/art/bible/characters/varaha/character.json"
+    },
+    {
+      "path": "content/daskams/d012.json",
+      "sha256": "55f9a97f0f6a9392727cbaeba1af126dc4e78a15a16d26a353243c3e8d5545b0",
+      "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/content/daskams/d012.json"
+    },
+    {
+      "path": "content/sources/d012/provenance.json",
+      "sha256": "9b5ba4f13321603288a2bef285bf94898293ec89cebae6ed72fd3b53a5e64bbd",
+      "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/content/sources/d012/provenance.json"
+    },
+    {
+      "path": "content/sources/d012/photo-captions.txt",
+      "sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+      "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/content/sources/d012/photo-captions.txt"
+    },
+    {
+      "path": "intake/D012/photo-captions.txt",
+      "sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+      "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+    },
+    {
+      "path": "artifacts/d012/characters/varaha/character-reference-v001.png",
+      "sha256": "d594a675db1d199aacd0b0d0f139a3448595049fd49fc03294f6b051085cf301",
+      "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/artifacts/d012/characters/varaha/character-reference-v001.png"
+    }
+  ],
+  "shared_character_boundary": "D012 verses 12-1 to 12-10 describe infant, growing, roaring, descending, searching, and lifting forms of a boar without prescribing combat weapons or extra limbs; natural-boar anatomy/no-weapons constraints apply to D012 non-combat scenes only. Stotra Nidhi's D013 verses 13-4 to 13-7 explicitly describe the mace duel, discus use, and toe-stomp. Preserve the shared identity and palette; D013's plan owns any scene-specific pose, limb count, and action, with no invented form.",
+  "fresh_independent_visual_review": {
+    "required": true,
+    "coverage": "all ten selected D012 raw PNGs, including the eight unchanged leads; no sampling",
+    "per_image": "Open exact raw at native resolution and inspect full frame plus relevant close details (anatomy, faces, hands/feet, tusk/Earth contact, witnesses, scene action as applicable). Independently compare against that stanza canonical text, intake reference, art/plans/d012.json, art/bible/series.json, Varaha identity reference and relevant character bible(s).",
+    "report": "Write one exact-hash/version-bound report per selected image. Record actual full-frame and detail visual observations, actual paths and hashes of viewed raw and detail evidence, scene/source comparison, anatomy/identity observations, findings and limitations. Use real inspection timestamps. No templated claims, inferred observations, or claims of views not performed.",
+    "custody": "All raw paths below must be readable from the managed test context and match SHA-256. If any raw or required reference is unavailable, stop the review and repair custody before a pass.",
+    "outcome": "Do not pass a selected image with unmet source must_show or unresolved anatomy/identity defects. Keep all findings open and route them through the existing AXI gate/root decision process."
+  },
+  "selected_images": [
+    {
+      "sloka": 1,
+      "concept_id": "d012-s001",
+      "scene_contract": {
+        "mode": "Manu seeks refuge in Satyaloka",
+        "source_summary": "Svayambhuva Manu sees the Earth submerged at an untimely time and comes with sages to Brahma, who is content in service to the Lord's feet.",
+        "must_show": [
+          "Brahma seated on a lotus in Satyaloka, exactly four total heads with three faces visible frontally and exactly four distinct attached arms.",
+          "Manu approaches with a small group of sages; ordinary human figures have natural two-arm anatomy.",
+          "A small, distant Earth motif lies beneath or beside primordial waters to establish the crisis."
+        ],
+        "composition": "Wide horizontal scene with Brahma and Manu clearly separated; the waters and Earth remain a small supporting motif, not a second scene panel.",
+        "tone": "reverent, concerned, composed",
+        "avoid": [
+          "Narayana reclining in the water; this verse centers Manu's arrival at Brahma",
+          "extra or duplicate people",
+          "glossy surfaces, metallic gold, cinematic rays, text, montage panels"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s001/landscape/candidate-v003.png",
+        "version": "v003",
+        "sha256": "321be19fcc1e264a81c8ee49ce991b5e1e90b3b50d8af5008311e46c1b1f3a20",
+        "dimensions": "1672x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s001-landscape-v003-managed-review-v001.md",
+          "sha256": "a23feaeb46687dccb65791d9615470317c363b8165984ab6d5cf2bae57309bf8",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/artifacts/d012/s001/landscape/candidate-v003.png",
+        "historical_review_evidence": {
+          "path": "art/reviews/d012-s001-landscape-v003-review-v001.md",
+          "sha256": "0899b724cc8e762f223e38f7b9b07994dfc1d3ea2b8645da2c05446a5be03f03",
+          "status": "historical/provisional; superseded by the managed review"
+        }
+      },
+      "source_reference": {
+        "path": "intake/D012/001.jpg",
+        "sha256": "50e5b195dbd75df035002b18c856fa4434185705125c11b3922a163a6034a6e1",
+        "caption_source": "intake/D012/photo-captions.txt#001",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/001.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "status": "existing selected raw; re-review required"
+      },
+      "required_final_review_report": "art/reviews/d012-s001-landscape-v003-managed-review-v001.md"
+    },
+    {
+      "sloka": 2,
+      "concept_id": "d012-s002",
+      "scene_contract": {
+        "mode": "Manu petitions Brahma",
+        "source_summary": "Manu tells Brahma that the Earth is submerged while he creates beings and asks for a dwelling place; Brahma contemplates the Lord's feet.",
+        "must_show": [
+          "Manu speaks to lotus-seated Brahma; Brahma's attention turns inward in contemplation.",
+          "Brahma has exactly four total heads (three visible from the front) and four attached arms.",
+          "The submerged Earth is suggested by calm water below, not by a second action scene."
+        ],
+        "composition": "A quiet wide two-figure exchange. Manu and Brahma have distinct silhouettes; keep the lotus-feet motif subtle and non-figurative.",
+        "tone": "earnest, contemplative",
+        "avoid": [
+          "depicting a child Krishna or an unrelated avatar",
+          "four-armed human Manu",
+          "duplicate Brahma or extra sages",
+          "readable text or pseudo-script"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s002/landscape/candidate-v004.png",
+        "version": "v004",
+        "sha256": "0e9d708a086730e5c961bb23fdabcda0856fc92debd7e752333fe0deeacd2dae",
+        "dimensions": "1672x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s002-landscape-v004-managed-review-v001.md",
+          "sha256": "e019a7f65358b2bd43dd524dc8cffcc692c04f9428113a19ac7117d94b86aa57",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/d012-production/native-repairs-01M6NNCX68T129334CWDZ2C7TA/s002/candidate-v004.png"
+      },
+      "source_reference": {
+        "path": "intake/D012/002.jpg",
+        "sha256": "266b65b5efef9219b843a0a9bba73d082b2715c1c38f91c83f7b1963e98558a9",
+        "caption_source": "intake/D012/photo-captions.txt#002",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/002.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "previous_selected_version": "v003",
+        "previous_sha256": "40652ba1c353025b477660033fb20df983a3f87d96db35be56e6300be970c5f2",
+        "status": "retained as needs-fix history for the figurative disembodied-feet motif (D012-S002-V003-FIGURATIVE-FEET-MOTIF)"
+      },
+      "required_final_review_report": "art/reviews/d012-s002-landscape-v004-managed-review-v001.md"
+    },
+    {
+      "sloka": 3,
+      "concept_id": "d012-s003",
+      "scene_contract": {
+        "mode": "Infant Varaha appears",
+        "source_summary": "Brahma wonders what to do as the Earth sinks again; the Lord appears from Brahma's nostril in the form of an infant boar.",
+        "must_show": [
+          "Brahma in prayerful concern, with exactly four total heads (three visible) and four distinct attached arms.",
+          "One tiny infant boar emerges gently from Brahma's nostril in a divine but non-grotesque manner.",
+          "The infant has a recognizable natural boar head and four small connected legs; no human infant face or duplicate boar."
+        ],
+        "composition": "Wide intimate mid-shot of Brahma and the single tiny boar; make the scale contrast legible without a second avatar or a dramatic burst.",
+        "tone": "wonder, tenderness, divine emergence",
+        "avoid": [
+          "graphic nostril detail",
+          "duplicate boars",
+          "human baby body with a pig snout",
+          "extra limbs or heads",
+          "readable text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s003/landscape/candidate-v007.png",
+        "version": "v007",
+        "sha256": "42bba9f8efdf584f50f2dc807e2205d6b9df83d3f1280fe6576eeeb0dd5ca855",
+        "dimensions": "1672x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s003-landscape-v007-managed-review-v001.md",
+          "sha256": "dccf90f6391487a4c6024c6ed8db8f32eed355418bd879e1a6fc6696ac123727",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/artifacts/d012/s003/landscape/candidate-v007.png",
+        "historical_review_evidence": {
+          "path": "art/reviews/d012-s003-landscape-v007-review-v001.md",
+          "sha256": "6fde5ce9b4f3c71a64e74255d265a9202d9a0e68dc7ef1b706d777e6f2e8ef7e",
+          "status": "historical/provisional; superseded by the managed review"
+        }
+      },
+      "source_reference": {
+        "path": "intake/D012/003.jpg",
+        "sha256": "c56e3749b9a4a9be43c3cc3f31d5b4592abc51c4fb2ec1459edd88097164d875",
+        "caption_source": "intake/D012/photo-captions.txt#003",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/003.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "status": "existing selected raw; re-review required"
+      },
+      "required_final_review_report": "art/reviews/d012-s003-landscape-v007-managed-review-v001.md"
+    },
+    {
+      "sloka": 4,
+      "concept_id": "d012-s004",
+      "scene_contract": {
+        "mode": "Varaha grows to elephant size",
+        "source_summary": "The thumb-sized boar grows to elephant size; Brahma and his sons marvel at the great form in the sky.",
+        "must_show": [
+          "A single divine boar undergoing a clear scale-expansion from tiny to elephant-sized, using one continuous silhouette or a restrained size echo that cannot read as duplicate animals.",
+          "Brahma and a few sons witness the growth from below; Brahma has the exact four-head/four-arm anatomy contract.",
+          "Open sky communicates the expanding scale."
+        ],
+        "composition": "Wide upward-looking composition with the singular boar as the focal figure and a small, distinct witness group below.",
+        "tone": "astonishment, grandeur without menace",
+        "avoid": [
+          "multiple unrelated boars",
+          "crowded crowd of sons",
+          "oversized humanlike warrior anatomy",
+          "battle weapons, text, montage panels"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s004/landscape/candidate-v006.png",
+        "version": "v006",
+        "sha256": "70635c74f22fc915eef311a779c6a0274f6c161c2f5c7b27ef907bac150fe563",
+        "dimensions": "1672x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s004-landscape-v006-managed-review-v001.md",
+          "sha256": "f68b208de3e4d06e80a1fe99515d6a149439309e46825b183478543beffd8174",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/artifacts/d012/s004/landscape/candidate-v006.png",
+        "historical_review_evidence": {
+          "path": "art/reviews/d012-s004-landscape-v006-preliminary-review-v001.md",
+          "sha256": "11b813dee7f5600296602bbcabea21550b49c6273750f363b3a00642577ca0d6",
+          "status": "historical/provisional; superseded by the managed review"
+        }
+      },
+      "source_reference": {
+        "path": "intake/D012/004.jpg",
+        "sha256": "d51dca6e04a1bc0f88a8a96c61f37ce9f656f23ecc064ee8c70274d85402b944",
+        "caption_source": "intake/D012/photo-captions.txt#004",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/004.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "previous_selected_version": "v004",
+        "previous_sha256": "61100a96e5209ed98636493690a9b97dd66e98833c5d22256fdc444bb6c40a6c",
+        "status": "superseded after actual review found open-sky and growth-echo must_show unmet",
+        "failed_intermediate_version": "v005",
+        "failed_intermediate_sha256": "bcab067bc98c4e16b132c65a0aa3221d6bcf4493853456e47539fc79c6b8aaf5"
+      },
+      "required_final_review_report": "art/reviews/d012-s004-landscape-v006-managed-review-v001.md"
+    },
+    {
+      "sloka": 5,
+      "concept_id": "d012-s005",
+      "scene_contract": {
+        "mode": "Mountain-sized Varaha roars",
+        "source_summary": "As Brahma wonders at the boar's origin, the boar suddenly becomes mountain-sized and roars terribly.",
+        "must_show": [
+          "One mountain-sized divine boar with natural connected boar anatomy and an open roaring snout.",
+          "Brahma below regards the boar in wonder; exactly four heads total (three visible) and four attached arms.",
+          "Scale reads through cloud and mountain forms, not bodybuilder proportions."
+        ],
+        "composition": "Wide vertical scale within the landscape: Brahma small in one foreground area, one immense boar filling the sky, with a clear gap between them.",
+        "tone": "awe-inspiring, powerful, not hostile",
+        "avoid": [
+          "four-armed humanoid boar warrior",
+          "unrelated weapon attributes",
+          "multiple boars",
+          "glossy cinematic light, text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s005/landscape/candidate-v003.png",
+        "version": "v003",
+        "sha256": "bc8a03142e0382473c28b6c2886326673e5a9640716e54e801c70dc52abf7af6",
+        "dimensions": "1672x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s005-landscape-v003-managed-review-v001.md",
+          "sha256": "085893a54292a830154b3a1181e28cfe244cbc96c855183438e2d875767a6794",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/artifacts/d012/s005/landscape/candidate-v003.png",
+        "historical_review_evidence": {
+          "path": "art/reviews/d012-s005-landscape-v003-review-v001.md",
+          "sha256": "24f7a3443253258b19b3cd6080e766dd816857377d0948071d9a4d628eb86167",
+          "status": "historical/provisional; superseded by the managed review"
+        }
+      },
+      "source_reference": {
+        "path": "intake/D012/005.jpg",
+        "sha256": "7132b507cf7ee13418a934a95420ff00b27af31378ac7180160cb86fb92fccf9",
+        "caption_source": "intake/D012/photo-captions.txt#005",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/005.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "status": "existing selected raw; re-review required"
+      },
+      "required_final_review_report": "art/reviews/d012-s005-landscape-v003-managed-review-v001.md"
+    },
+    {
+      "sloka": 6,
+      "concept_id": "d012-s006",
+      "scene_contract": {
+        "mode": "The sages praise Varaha before his descent",
+        "source_summary": "Sages in Jana, Tapa and Satya hear Varaha's roar and praise him; delighted, he roars again and descends in vast form into the ocean.",
+        "must_show": [
+          "A few sages in elevated symbolic lokas praise the boar, kept small and clearly separated.",
+          "One large Varaha roars joyfully and leaps down toward the ocean.",
+          "The ocean is the clear destination; Earth is not yet on the tusk."
+        ],
+        "composition": "Broad landscape with the sages in a restrained upper band and Varaha's descending arc into a simple ocean field; no split panel.",
+        "tone": "joyful praise turning to purposeful motion",
+        "avoid": [
+          "Earth already lifted on the tusk",
+          "too many tiny figures",
+          "combat",
+          "cinematic volumetric lighting",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s006/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "04bac8a45b39ff83f01ddc778d17898403323601061dc3ac45b1590a21def509",
+        "dimensions": "1672x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s006-landscape-v002-managed-review-v001.md",
+          "sha256": "6c4f1f05cca1c707fa295f4a6374ed05394d11a6f71140b1484ca5333c40c7a8",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/artifacts/d012/s006/landscape/candidate-v002.png",
+        "historical_review_evidence": {
+          "path": "art/reviews/d012-s006-landscape-v002-review-v001.md",
+          "sha256": "6e87ee75772cd07579f2ef6180f240f32ad9a09e6689eda1798af488b9386abf",
+          "status": "historical/provisional; superseded by the managed review"
+        }
+      },
+      "source_reference": {
+        "path": "intake/D012/006.jpg",
+        "sha256": "b8e3216ff836cdcf4a099bd343b18f4f12c1a01b3d88f5c7cd2495c183c2202b",
+        "caption_source": "intake/D012/photo-captions.txt#006",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/006.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "status": "existing selected raw; re-review required"
+      },
+      "required_final_review_report": "art/reviews/d012-s006-landscape-v002-managed-review-v001.md"
+    },
+    {
+      "sloka": 7,
+      "concept_id": "d012-s007",
+      "scene_contract": {
+        "mode": "Varaha blesses the praising sages while plunging through clouds",
+        "source_summary": "Varaha descends with raised tail, bristling dusky hair, downward-pointing fierce snout and rolling eyes, cooling the sages with a glance.",
+        "must_show": [
+          "One powerful boar with tail raised and reddish-dark hairs visibly bristling along the body.",
+          "Fierce snout points downward; one eye is clearly visible and directed back toward the sages in a blessing glance.",
+          "Clouds break around the descending body; sages remain safely above and are not touched."
+        ],
+        "composition": "Wide diagonal descent from the sages at upper left toward open water at lower right; keep the boar's face, raised tail and eye readable.",
+        "tone": "majestic, benevolent, dynamic",
+        "avoid": [
+          "multi-panel collage",
+          "extra boar faces or limbs",
+          "confusing eye placement",
+          "weapon-bearing humanoid form",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s007/landscape/candidate-v006.png",
+        "version": "v006",
+        "sha256": "b743ea821a9d76c8ccba480f47af5f74ac5e683faff9fb9351f76cb531552591",
+        "dimensions": "1670x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s007-landscape-v006-managed-review-v001.md",
+          "sha256": "0c1edc3410afb679b29f81efe7142d4aac91de12419ae7eb0d9438bdb4b02520",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/d012-production/native-helper-t5-s007/v006/candidate.png"
+      },
+      "source_reference": {
+        "path": "intake/D012/007.jpg",
+        "sha256": "eeb5e04d4f05809d8e00e9d72e142c0449ae6e5494bf1762d2ee6f11f7b7ef36",
+        "caption_source": "intake/D012/photo-captions.txt#007",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/007.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "previous_selected_version": "v005",
+        "previous_sha256": "93dcb4ed96c40b82f43f0fc1fd3e568bf71768424cd899ba10cfddc7e3eb5696",
+        "status": "retained as needs-fix history for an eye not directed toward the sages and unbroken clouds (D012-S007-V005-*); earlier v004 (79f8a2c6\u2026) remains needs-fix history for smooth fur, gentle face and unbroken clouds",
+        "previous_review_evidence": [
+          {
+            "path": "art/reviews/d012-s007-landscape-v005-managed-review-v001.md",
+            "sha256": "35ecd69e33c8e9c16037b61574a60ba750ed431c97ffca25a96c34086859908c"
+          },
+          {
+            "path": "art/reviews/d012-s007-landscape-v005-managed-review-v002.md",
+            "sha256": "1e01c63bd02df761e1c764d6e0cc6ff73ee7246a95ec6d7183f09ee3e58f2087"
+          }
+        ]
+      },
+      "required_final_review_report": "art/reviews/d012-s007-landscape-v006-managed-review-v001.md"
+    },
+    {
+      "sloka": 8,
+      "concept_id": "d012-s008",
+      "scene_contract": {
+        "mode": "Varaha searches Rasatala",
+        "source_summary": "Varaha enters turbid underwater currents among circling crocodiles and whales, roaring as he searches for Earth and shakes the inhabitants of Rasatala.",
+        "must_show": [
+          "One coherent boar form moving underwater through turbulent but legible waves.",
+          "A few distinct crocodiles and one or two distant whale-like timi\u1e45gila forms circle at a safe distance.",
+          "Small distant Rasatala inhabitants recoil from the roar; no attack or fight is shown."
+        ],
+        "composition": "Wide underwater scene with Varaha as the clear focal point, water creatures smaller and separated, and open direction of travel toward the hidden Earth.",
+        "tone": "powerful, urgent, mythic, nonviolent",
+        "avoid": [
+          "combat with an asura",
+          "crowds of monsters",
+          "fused animal forms",
+          "unreadable water texture",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s008/landscape/candidate-v005.png",
+        "version": "v005",
+        "sha256": "ccfcde3931348fb756b0a9d583448fef9f859ff7a95598cba9a4df9516cd73c2",
+        "dimensions": "1672x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s008-landscape-v005-managed-review-v001.md",
+          "sha256": "2de9c8a264587edc90171c426d2526676f90f6395ac57be2d5dd7bef60d09e24",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/d012-production/native-helper-t6/s008/v005/candidate.png"
+      },
+      "source_reference": {
+        "path": "intake/D012/008.jpg",
+        "sha256": "231e3194734f44e0c770fd69327f3aa24001fb9078f8c4305a8f3b14af994d17",
+        "caption_source": "intake/D012/photo-captions.txt#008",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/008.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "previous_selected_version": "v004",
+        "previous_sha256": "a000d4bee3b57a7b5a7f79be606479adefd3160519235af11e8d3fa5571f7625",
+        "status": "retained as needs-fix history for the rightmost inhabitant's extra forked arm (D012-S008-V004-INHABITANT-EXTRA-ARM)"
+      },
+      "required_final_review_report": "art/reviews/d012-s008-landscape-v005-managed-review-v001.md"
+    },
+    {
+      "sloka": 9,
+      "concept_id": "d012-s009",
+      "scene_contract": {
+        "mode": "Varaha finds and playfully lifts Earth",
+        "source_summary": "Varaha sees Earth hidden at the edge of Rasatala by a demon and effortlessly supports it on the tip of one tusk, like play.",
+        "must_show": [
+          "A single Earth globe rests on the tip of one clearly visible tusk of the divine boar.",
+          "A subdued, distant asura silhouette may recede behind the Earth, without combat or injury.",
+          "Varaha's posture is easy and playful, emphasizing effortless rescue."
+        ],
+        "composition": "Wide underwater composition: Varaha and the Earth form one readable central silhouette; keep the tusk-to-Earth contact unmistakable.",
+        "tone": "playful triumph, compassion, cosmic scale",
+        "avoid": [
+          "Earth floating disconnected from the tusk",
+          "two tusks touching Earth",
+          "violent fight or wounded figure",
+          "weapon props",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s009/landscape/candidate-v005.png",
+        "version": "v005",
+        "sha256": "462449699bba4c4a1b0be0c857d4921ced81e904643f94d4e29af1de83ba986c",
+        "dimensions": "1671x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s009-landscape-v005-managed-review-v001.md",
+          "sha256": "067037115704a8bc4779dc5e5f911a53e06e5d14be63795605cbe1a75f3c4261",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/d012-production/native-repairs-01M6NNCX68T129334CWDZ2C7TA/s009/candidate-v005.png"
+      },
+      "source_reference": {
+        "path": "intake/D012/009.jpg",
+        "sha256": "0b74ad9cac36feb2f49bb247197f63bd51b00467432d58956fd31be8a9b5cbf7",
+        "caption_source": "intake/D012/photo-captions.txt#009",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/009.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "previous_selected_version": "v003",
+        "previous_sha256": "6dc404bd19ef437b21afce03ca842ffd95601c76c87fd2b6ede05998a470206a",
+        "status": "retained as needs-fix history for the snout-rooted tusk and surface setting (D012-S009-V003-*); native repair v004 f36bffe6\u2026 failed separately and remains external history"
+      },
+      "required_final_review_report": "art/reviews/d012-s009-landscape-v005-managed-review-v001.md"
+    },
+    {
+      "sloka": 10,
+      "concept_id": "d012-s010",
+      "scene_contract": {
+        "mode": "Varaha rises from the ocean with Earth like a tiny sprout",
+        "source_summary": "The immense Varaha emerges from the churned ocean, Earth clinging to the tusk tip like a tiny nut-grass sprout; the poet prays for relief from illness.",
+        "must_show": [
+          "Varaha rises from the surface of the ocean with the full monumental boar form legible.",
+          "Earth is visibly tiny relative to Varaha and rests on one tusk tip like a small tuft; no second tusk contact.",
+          "Churned waters below support the emergence; the prayer is conveyed through calm beneficent presence rather than added human figures."
+        ],
+        "composition": "Wide horizon with Varaha rising from waves; keep full head, tusk, Earth, shoulders and waterline visible, using restrained scale cues.",
+        "tone": "relief, gratitude, protective benediction",
+        "avoid": [
+          "Earth-sized tusk tip",
+          "disconnected globe",
+          "added text or prayer lettering",
+          "battle, weapon props, glossy cinematic effects"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d012/s010/landscape/candidate-v004.png",
+        "version": "v004",
+        "sha256": "ab862e16e935072819ceac1f2c8e05180a515b6ec6118e6c6806106fcff1d01c",
+        "dimensions": "1672x941",
+        "review_evidence_currently_on_file": {
+          "path": "art/reviews/d012-s010-landscape-v004-managed-review-v001.md",
+          "sha256": "3e934b9c75be081bdcbdeecda52876fdfcf796f3a3f797e542e87190d24e28d0",
+          "status": "managed full-frame and detail review; pass for selection only, not art approval"
+        },
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/artifacts/d012/s010/landscape/candidate-v004.png",
+        "historical_review_evidence": {
+          "path": "art/reviews/d012-s010-landscape-v004-review-v001.md",
+          "sha256": "d8db54e83841c9bb02eb5c261412adb38bdc928cd704c32293711f274727731b",
+          "status": "historical/provisional; superseded by the managed review"
+        }
+      },
+      "source_reference": {
+        "path": "intake/D012/010.jpg",
+        "sha256": "4a5fcef2fb0764743aa6ddc6f9ba3b62bc649276f9568c275054a11dea73a528",
+        "caption_source": "intake/D012/photo-captions.txt#010",
+        "caption_sha256": "6bac31d9789b17ca0afc0507b26a0a08b3c5c75c7b92286fc80405f4d62a4b69",
+        "absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/010.jpg",
+        "caption_source_absolute_path": "/home/gehariharan/firstmate-images/data/core-worktrees/d012-production/intake/D012/photo-captions.txt"
+      },
+      "prior_history": {
+        "previous_selected_version": "v003",
+        "previous_sha256": "41a4ff11fa0e69ad7ed020ac906569e075cba6548ffc13546e1d7dc362c719b8",
+        "status": "retained as needs-fix history for horn-like Earth-bearing tusk / extra third point"
+      },
+      "required_final_review_report": "art/reviews/d012-s010-landscape-v004-managed-review-v001.md"
+    }
+  ],
+  "operational_run": {
+    "run": "fresh full no-mistakes AXI on this corrected branch after source commit and clean local chapter/media/count checks",
+    "no_yes": true,
+    "no_skips": true,
+    "intent": "ten canonical D012 mural review comparisons, anatomy/identity/source correctness, preserve existing chapters",
+    "required_checks": {
+      "chapters": 14,
+      "rows": 148,
+      "media": 302,
+      "selected_generated": 154,
+      "historical_not_cleared": 71,
+      "newly_inspected": 83
+    }
+  },
+  "limitations": "This file records custody, canonical scene contracts, source hashes and the review protocol. Each selected image's managed full-frame and detail review is the in-repo report named in required_final_review_report, bound to the exact raw hash; earlier reports are kept as historical evidence. Selection review is not art approval; all candidates remain unapproved."
+}
