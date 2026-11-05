@@ -257,9 +257,9 @@ deployment.
 D013 contains ten landscape comparison rows matched to the ten numbered intake
 references. Each selected lead in `art/batches/d013-comparison-v001.json` has
 an individual checksum-bound visual review, and
-`art/reviews/d013-landscape-final-coverage-v002.md` records the all-ten
+`art/reviews/d013-landscape-final-coverage-v003.md` records the all-ten
 full-frame pass and its limits. Superseded versions, including the needs-fix
-S001 v003, S003 v005 and v006, S004 v002 and S008 v002, remain preserved
+S001 v003, S003 v005, v006 and v007, S004 v002 and S008 v002, remain preserved
 locally and are not comparison alternates. The Sanskrit and supplied
 commentary are source-mapped, English translations remain absent, the
 candidates remain unapproved, and portraits are paused. Upload only D013's

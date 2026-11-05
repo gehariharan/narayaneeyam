@@ -8067,7 +8067,92 @@
       "version": "v007",
       "sha256": "c663ec84d541f5789bf66db9d81766f7440a7a6a2379dd54baa2c825c05faf54",
       "reviewer": "Claude (no-mistakes managed review/fix-review phase)",
-      "inspected_at": "2026-11-05T12:34:24.000Z",
+      "inspected_at": "2026-11-05T13:04:25.000Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Selected image re-inspected against the frozen D012 Varaha reference and the plan's invented-anatomy rule; superseded by v008.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "ac5fddb0b51fde2f05c0857b68ba2be9713338b88da657f03daf78949832b2f0"
+        },
+        {
+          "path": "art/bible/characters/bhudevi/character.json",
+          "sha256": "8fba662e0bf6f7257c4b09e3efd6d75a78fa242728f66fa5e39a73562dad04bf"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s003-landscape-v007-continuity-review-v001.md",
+          "sha256": "a0929ee0100cc9b8fc44f0184af4a8c5b2d6ba876cbf17866cf091558459c178"
+        },
+        {
+          "path": "art/reviews/d013-s003-landscape-v007-review-v001.md",
+          "sha256": "51a84d9115fafaf55ef2ea9d4f3ab5f1684232da8b9dc117ad6c5dd4465fe5f0"
+        },
+        {
+          "path": "art/reviews/d013-landscape-final-coverage-v002.md",
+          "sha256": "3de506eb3254cdf6ef3b66f8b2c978bf97108e9ac3f661c499bfeff9c82fec62"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha stands on four hoofed legs in the shallows; Bhūdevī has two arms and both bare feet in the water; Hiraṇyākṣa has two arms, one open palm and one fist, and no weapon."
+        },
+        "attachment_proportions": {
+          "status": "needs-fix",
+          "observations": "The near support tusk is a crescent with both ends free and no lip-enclosed root, so its attachment to the mouth is not shown."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Varaha has a compact pig muzzle with a two-nostril disc and upright ears matching the D012 reference; Hiraṇyākṣa keeps the mature greying-bearded identity; Bhūdevī is calm."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha, one Bhūdevī and one Hiraṇyākṣa; no third tusk, under-jaw appendage or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Earlier staging and waterline are kept; the protective lowering reads before battle; matte outlined mural style."
+        }
+      },
+      "findings": [
+        {
+          "id": "D013-S003-V007-UNATTACHED-TUSK",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "The near support tusk has both ends free, one beside the cheek and one at Bhūdevī's waist, with no drawn root at the mouth.",
+          "repair": "Preserve this version and select a new native version whose near tusk visibly emerges at the mouth corner."
+        }
+      ]
+    },
+    {
+      "chapter": 13,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d013/s003/landscape/candidate-v008.png",
+      "version": "v008",
+      "sha256": "6d2a19b54f382c2c7ddea1aff3f6c748ca7963e84b5d4288b26af6fb5f651103",
+      "reviewer": "Claude (no-mistakes managed review/fix-review phase)",
+      "inspected_at": "2026-11-05T13:04:25.000Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "D013 source contracts govern the quadruped tusk-lowering action. Varaha's boar head and two-tusk anatomy follow the frozen D012 reference; Hiraṇyākṣa follows the D011 S009 identity-only reference without pose or weapon authority.",
@@ -8095,30 +8180,30 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d013-s003-landscape-v007-review-v001.md",
-          "sha256": "51a84d9115fafaf55ef2ea9d4f3ab5f1684232da8b9dc117ad6c5dd4465fe5f0"
+          "path": "art/reviews/d013-s003-landscape-v008-review-v001.md",
+          "sha256": "7029e7edd6762ced8572ae20cc4aa376353482ac06a9d0a78c02f246e9cd102c"
         },
         {
-          "path": "art/reviews/d013-landscape-final-coverage-v002.md",
-          "sha256": "3de506eb3254cdf6ef3b66f8b2c978bf97108e9ac3f661c499bfeff9c82fec62"
+          "path": "art/reviews/d013-landscape-final-coverage-v003.md",
+          "sha256": "2bf210e485a39ca8b6718058d53ae5cf27f44b347b6374a9b37a2ab9c169b0ca"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Varaha stands on four hoofed legs in the shallows; Bhūdevī has two arms and both bare feet in the water; Hiraṇyākṣa has two arms, one open palm and one fist, and no weapon."
+          "observations": "Varaha stands on four hoofed legs in the shallows; Bhūdevī has two attached arms and both bare feet in the water; Hiraṇyākṣa has two arms, one open palm and one fist, and no weapon."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Exactly two tusks: the far tusk at the far mouth corner and one continuous near tusk crescent passing under the near mouth corner to support Bhūdevī at the waist; its root is not a distinct socket. No third tusk and no human hand supports her."
+          "observations": "The near tusk's base sits inside the mouth-corner lip line and continues as one curve to a free carrying tip at Bhūdevī's waist; the far tusk rises separately at the far mouth corner. No human hand supports her."
         },
         "faces": {
           "status": "pass",
-          "observations": "Varaha has a compact pig muzzle with a two-nostril disc and upright ears matching the D012 reference; Hiraṇyākṣa keeps the mature greying-bearded identity; Bhūdevī is calm."
+          "observations": "Varaha has a pig-nose disc with two nostrils and upright ears matching the D012 reference; Hiraṇyākṣa keeps the mature greying-bearded identity; Bhūdevī is calm."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "One Varaha, one Bhūdevī and one Hiraṇyākṣa; no third tusk, under-jaw appendage or fused body."
+          "observations": "Exactly two tusks; no third tusk, under-jaw appendage, trunk or fused body; one each of Varaha, Bhūdevī and Hiraṇyākṣa."
         },
         "text_artifacts": {
           "status": "pass",
