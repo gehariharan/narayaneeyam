@@ -26,9 +26,16 @@
         "sha256": "3b2686b52dba69913a6d05791d95fb8123ada573ed3d78479af52691940e09da"
       },
       "matte": {
-        "file": "artifacts/d001/s002/landscape/candidate-v002.png",
-        "version": "v002",
-        "sha256": "d4dfb079e362a72744b61550fc4b057f8c74d7b2c36718df306edfe7b49c5afa"
+        "file": "artifacts/d001/s002/landscape/candidate-v003.png",
+        "version": "v003",
+        "sha256": "85ee2c5d028994cb1395d6d9028a5e155e61ae8aaec104da9472b0868cdc7408",
+        "status": "visually-inspected-unapproved",
+        "supersedes": {
+          "file": "artifacts/d001/s002/landscape/candidate-v002.png",
+          "version": "v002",
+          "sha256": "d4dfb079e362a72744b61550fc4b057f8c74d7b2c36718df306edfe7b49c5afa",
+          "status": "historical-needs-revision"
+        }
       }
     },
     {

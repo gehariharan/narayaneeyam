@@ -12,12 +12,18 @@
         "sha256": "95af7d97543e7c995b77fc801e59737cfbab6ca365e86448396f168fd5271921"
       },
       "matte": {
-        "file": "artifacts/d003/s001/landscape/candidate-v003.png",
-        "sha256": "41b96fc5afcb11dd0abdfb111a12f1476610f550c4267bccf91da0a185b83b33",
-        "version": "v003",
-        "label": "Landscape candidate v003",
-        "displayLabel": "Landscape candidate v003",
-        "status": "visually-inspected-unapproved"
+        "file": "artifacts/d003/s001/landscape/candidate-v004.png",
+        "sha256": "a8d4f333960f0e5eb4228c7efe057c204f8865ac8ba0e6aa7b625533f5cc461f",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "status": "visually-inspected-unapproved",
+        "supersedes": {
+          "file": "artifacts/d003/s001/landscape/candidate-v003.png",
+          "version": "v003",
+          "sha256": "41b96fc5afcb11dd0abdfb111a12f1476610f550c4267bccf91da0a185b83b33",
+          "status": "historical-needs-revision"
+        }
       }
     },
     {

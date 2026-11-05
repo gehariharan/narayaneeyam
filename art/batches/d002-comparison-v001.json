@@ -13,10 +13,17 @@
         "sha256": "291fae12819ca4362b26ee48ae60da4876c8fe0229fbe12f1465e0a89116a2ae"
       },
       "matte": {
-        "file": "artifacts/d002/s001/landscape/candidate-v003.png",
-        "version": "v003",
+        "file": "artifacts/d002/s001/landscape/candidate-v004.png",
+        "version": "v004",
         "label": "Traditional matte mural",
-        "sha256": "6b3112486e82d2da654834639a4ce64463526e81884d7928775e451faa82d3f7"
+        "sha256": "aed207a78c7487dcca24d0397be050d0c004e3cfaaa1be94879ab94732dd9f1c",
+        "status": "visually-inspected-unapproved",
+        "supersedes": {
+          "file": "artifacts/d002/s001/landscape/candidate-v003.png",
+          "version": "v003",
+          "sha256": "6b3112486e82d2da654834639a4ce64463526e81884d7928775e451faa82d3f7",
+          "status": "historical-needs-revision"
+        }
       },
       "alternates": []
     },
