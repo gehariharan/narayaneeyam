@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 43,
   "review_status": "needs-review",
-  "visual_review_status": "Independent managed full-frame/detail review is recorded for all ten exact selected versions in art/reviews/visual-reviews.json: S001, S002, S003, S004, S007, S008, S009 and S010 pass; S005 v001 is uncertain (Trinavarta neither reads as falling nor matches S004) and S006 v001 needs fix (the fallen Trinavarta's legs are too short, so his hand reaches his ankles). Native repairs and re-review are required before the chapter validates. No approval implied.",
+  "visual_review_status": "Independent managed full-frame/detail review is recorded for all ten exact selected versions in art/reviews/visual-reviews.json and all ten pass. S005 v002 and S006 v002 are native repairs that supersede S005 v001 (uncertain: Trinavarta neither read as falling nor matched S004) and S006 v001 (needs-fix: the fallen Trinavarta's legs were too short, so his hand reached his ankles); those records and reports remain as history. The scene plan still records the originally planned v001 pins. No approval implied.",
   "description": "Ten native D043 landscape candidates paired with their mapped numbered source references. Candidate versions and SHA-256 values are pinned per stanza; superseded native trials remain preserved locally and are not exposed as comparison alternates.",
-  "review_notice": "These are unapproved landscape candidates. The independent managed review of the exact selected versions passed eight and left S005 uncertain and S006 needing a fix; those two need fresh native versions and re-review. Portrait production remains paused; sourced English translations are absent; publishing a comparison does not approve artwork.",
+  "review_notice": "These are unapproved landscape candidates. The independent managed review of the exact selected versions passed all ten, including native repairs S005 v002 and S006 v002; the superseded v001 failures remain recorded. Portrait production remains paused; sourced English translations are absent; publishing a comparison does not approve artwork.",
   "rows": [
     {
       "n": 1,
@@ -98,11 +98,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d043/s005/landscape/v001/candidate.png",
-        "sha256": "41982313eb9bae571df6f25bc5ce0bdff29fa0d724802cf363b0e7a1faf34108",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001"
+        "file": "artifacts/d043/s005/landscape/v002/candidate.png",
+        "sha256": "efcd3735e482b5d7dd50d031fb0326c4f857db2ee6a5e3e21c6e68e972583720",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
       },
       "alternates": []
     },
@@ -118,11 +118,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d043/s006/landscape/v001/candidate.png",
-        "sha256": "39454182ab181107389b5fbfb67dbd9c062e03215614cb42e732bf6477780204",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001"
+        "file": "artifacts/d043/s006/landscape/v002/candidate.png",
+        "sha256": "c64fe1e9fe6c3339e8034dae6f44fa35eb25446ad536425e37c8dd33f507ec77",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
       },
       "alternates": []
     },
