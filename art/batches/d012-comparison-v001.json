@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 12,
   "review_status": "needs-review",
-  "visual_review_status": "10/10 selected landscape leads passed fresh checksum-bound, individual native-resolution review; portraits paused; human art approval pending",
-  "description": "Ten D012 landscape candidates paired by stanza with the ten verified intake references. All selected lead images passed individual inspection against exact image checksums; all artwork remains unapproved.",
-  "review_notice": "Each selected landscape was inspected individually at native resolution, full frame and with close detail views for anatomy, hands, feet, attachment, faces, fusion or duplication, scene fidelity, text artifacts, style and framing. D012 Varaha scenes use the source-grounded non-combat boar forms in the chapter plan; no D013 combat attributes are imported. Portraits remain paused. This comparison batch does not grant art approval.",
+  "visual_review_status": "Current ten selected raws are checksum-bound; fresh independent managed full-frame and relevant-detail review of all ten is required in this corrected Test run. Portraits paused; no art approval.",
+  "description": "Ten D012 landscape candidates paired with ten verified intake references. The selected S004 and S010 versions are corrected native raws. Historic review evidence is retained; a fresh independent managed review of every selected raw is required before delivery. Artwork remains unapproved.",
+  "review_notice": "Do not treat earlier pass labels as final corrected-run evidence. The managed Test phase must independently inspect all ten exact selected raw hashes, full frame plus relevant anatomy and scene details, against canonical stanza, intake, plan, series and character references; record actual per-image observations, hashes and genuine inspection times. No templated observations. Portraits remain paused. This comparison batch does not grant art approval.",
   "rows": [
     {
       "n": 1,
@@ -78,13 +78,20 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d012/s004/landscape/candidate-v004.png",
-        "sha256": "61100a96e5209ed98636493690a9b97dd66e98833c5d22256fdc444bb6c40a6c",
-        "version": "v004",
-        "label": "Landscape candidate v004",
-        "displayLabel": "Landscape candidate v004"
+        "file": "artifacts/d012/s004/landscape/candidate-v006.png",
+        "sha256": "70635c74f22fc915eef311a779c6a0274f6c161c2f5c7b27ef907bac150fe563",
+        "version": "v006",
+        "label": "Landscape candidate v006",
+        "displayLabel": "Landscape candidate v006"
       },
-      "alternates": []
+      "alternates": [],
+      "history": {
+        "previous_selected_version": "v004",
+        "previous_sha256": "61100a96e5209ed98636493690a9b97dd66e98833c5d22256fdc444bb6c40a6c",
+        "status": "superseded after actual review found open-sky and growth-echo must_show unmet",
+        "failed_intermediate_version": "v005",
+        "failed_intermediate_sha256": "bcab067bc98c4e16b132c65a0aa3221d6bcf4493853456e47539fc79c6b8aaf5"
+      }
     },
     {
       "n": 5,
@@ -204,7 +211,12 @@
         "label": "Landscape candidate v004",
         "displayLabel": "Landscape candidate v004"
       },
-      "alternates": []
+      "alternates": [],
+      "history": {
+        "previous_selected_version": "v003",
+        "previous_sha256": "41a4ff11fa0e69ad7ed020ac906569e075cba6548ffc13546e1d7dc362c719b8",
+        "status": "retained as needs-fix history for horn-like Earth-bearing tusk / extra third point"
+      }
     }
   ]
 }
