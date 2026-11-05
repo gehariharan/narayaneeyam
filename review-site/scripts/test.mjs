@@ -198,6 +198,6 @@ await withLiveFixture(data,async base=>verifyLivePages(data,{base,retryDelayMs:0
 await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for \/: HTTP 200 \(Live index is missing d008\)/),{staleResponses:{'/narayaneeyam/':Array(6).fill(renderIndex(previousData))}});
 const stalePage8=renderChapter(data.chapters.find(c=>c.id===8),data.revision,'/narayaneeyam/',true,data.chapters).replace('Landscape candidate v004','Landscape candidate v002');
 await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/missing selected matte version v004/),{pageOverrides:{8:stalePage8}});
-const extended=structuredClone(data);const d014=structuredClone(extended.chapters.find(c=>c.id===8));d014.id=14;d014.title='Dasakam 14';extended.chapters.push(d014);
+const extended=structuredClone(data);const additional=structuredClone(extended.chapters.find(c=>c.id===8));additional.id=Math.max(...extended.chapters.map(c=>c.id))+1;additional.title=`Dasakam ${additional.id}`;extended.chapters.push(additional);
 await withLiveFixture(extended,async base=>verifyLivePages(extended,{base,retryDelayMs:0}));
 console.log('Passed: live verifier checks current bundled data over HTTP, rejects stale D006 and missing D008 route/selection, and follows additional selected chapters.');
