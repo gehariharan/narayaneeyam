@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001, D003,
-and D005 through D009 media from the release using the existing
+and D005 through D011 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Then release the bundle
 and dispatch the workflow:
@@ -59,7 +59,7 @@ gh workflow run deploy-review.yml --ref "review-bundle-$sha"
 
 The release bundle contains only rendered review HTML, the review data and
 provenance manifests, and WebP derivatives. The Worker deployment uses a separate
-GitHub environment secret; GitHub Actions uploads the four chapter groups listed above to R2.
+GitHub environment secret; GitHub Actions uploads the chapters listed above to R2.
 
 Build creates a standalone index and chapter HTML reviews under `artifacts/review-site/`
 and WebP derivatives from an explicit list of local images. Originals remain
@@ -224,4 +224,15 @@ all ten have checksum-bound individual visual inspection records. The
 candidates remain unapproved, translations are absent, and portrait
 compositions are paused. Upload only D010's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=10` before the serialized public
+deployment.
+
+## Dasakam 11
+
+D011 contains ten landscape comparison rows matched to the ten numbered intake
+references. Each selected lead has an individual checksum-bound visual review;
+failed earlier versions remain preserved locally and are not comparison
+alternates. The Sanskrit and supplied commentary are source-mapped, English
+translations remain absent, the candidates remain unapproved, and portraits
+are paused. Upload only D011's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=11` before any serialized Worker
 deployment.
