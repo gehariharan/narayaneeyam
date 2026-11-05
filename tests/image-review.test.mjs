@@ -258,6 +258,34 @@ test('repository historical labels match the preserved audits', async () => {
   const d013 = selectedImages(batches).filter(image => image.chapter === 13).map(image => reviewFor(validation, image));
   assert.equal(d013.length, 10);
   assert.ok(d013.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+  const d043 = selectedImages(batches).filter(image => image.chapter === 43).map(image => reviewFor(validation, image));
+  assert.equal(d043.length, 10);
+  assert.ok(d043.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+});
+
+test('D043 selection binds its ten source and native candidate versions', async () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batches = await loadSelections(root);
+  const batch = batches.find(item => item.selectionFile === 'd043-comparison-v001.json');
+  const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d043.json'), 'utf8'));
+  const plan = JSON.parse(await fs.readFile(path.join(root, 'art/plans/d043.json'), 'utf8'));
+  assert.ok(batch);
+  assert.equal(batch.daskam_id, 43);
+  assert.equal(batch.review_status, 'needs-review');
+  assert.equal(batch.rows.length, 10);
+  for (const selected of batch.rows) {
+    const stanza = content.stanzas.find(item => item.n === selected.n);
+    const scene = plan.stanzas.find(item => item.n === selected.n);
+    assert.ok(stanza && scene);
+    assert.equal(selected.concept_id, scene.concept_id);
+    assert.equal(selected.scene, scene.alt);
+    assert.equal(selected.reference.file, `intake/D043/${String(selected.n).padStart(3, '0')}.jpg`);
+    assert.equal(selected.matte.file, scene.orientations.landscape.candidate_path);
+    assert.equal(selected.matte.version, scene.orientations.landscape.candidate_version);
+    assert.equal(selected.matte.sha256, scene.orientations.landscape.candidate_sha256);
+    assert.deepEqual(selected.alternates, []);
+    assert.equal(stanza.review_status, 'needs-review');
+  }
 });
 
 test('D014 selection binds ten source/candidate pairs and renders as a landscape review chapter', async () => {
@@ -301,11 +329,11 @@ test('release union with main retains the expected D012, D013 and D014 dataset c
   const batches = await loadSelections(root);
   const rowCount = batches.reduce((count, batch) => count + batch.rows.length, 0);
   const mediaInputCount = batches.reduce((count, batch) => count + batch.rows.reduce((sum, row) => sum + 2 + (row.alternates || []).length, 0), 0);
-  assert.equal(batches.length, 16);
-  assert.equal(rowCount, 168);
-  assert.equal(mediaInputCount, 342);
-  assert.equal(selectedImages(batches).length, 174);
-  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 96]));
+  assert.equal(batches.length, 17);
+  assert.equal(rowCount, 178);
+  assert.equal(mediaInputCount, 362);
+  assert.equal(selectedImages(batches).length, 184);
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 38, 43, 96]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
