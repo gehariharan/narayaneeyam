@@ -12285,6 +12285,1377 @@
         }
       ],
       "supersedes_version": "v002"
+    },
+    {
+      "chapter": 44,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d044/s001/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "0a08b898014390c36ad13d0ff6a0ecb810c121b2fe2dbe8bcf9cac9d7084f909",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:13:08Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two ordinary standing adult men, each with two arms. Their feet are below the bottom frame edge.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/garga-muni/character.json",
+          "sha256": "439a3bf600f5a1199e77830899520b48e8510ec95cc654b58f6ddf0f372282ba"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s001-v001-final-managed-review-v001.md",
+          "sha256": "3d61191e416fe94f9d3ed795606d42c3119319e058e15508e01115ebce5f4b29"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Garga’s right hand wraps the wooden staff with four curled fingers and a thumb. His left hand is extended palm-up with five separated digits. Nanda’s palms are pressed together in anjali with both thumbs and finger sets visible. No feet are in frame for either figure."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Garga’s gesturing arm runs from the shoulder under the ochre shawl to the open palm. His staff arm emerges from the cream cloth at the elbow. Nanda’s two forearms rise from inside the olive upper cloth to the joined hands. Head-to-torso ratios are adult and matched."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Garga has an elderly profile with a full white beard, moustache, white hair in a topknot and a vertical tilak. Nanda has a three-quarter profile with a dark curled moustache, dark hair gathered at the nape and a tilak, consistent with the shared mature warm-brown Nandagopan cues."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two people. The doorway interior holds only a pot and a stand; the staff and the door jamb stay separate from both bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No letters, numerals or signatures in the full frame or the two crops. The wall band is a wave-and-dot pattern, not script."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Flat matte ochre, cream and terracotta fields with firm brown contours and a shallow threshold space, close to the D001 anchors. There are no metallic highlights or rays."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/001.jpg",
+        "sha256": "92721cf1df62507d2fb37c75b17af19c652f7559466f6c07c3c69fb70aa200e9",
+        "caption_path": "intake/D044/photo-captions.txt#001",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s001/landscape/candidate-v001.png",
+          "sha256": "0a08b898014390c36ad13d0ff6a0ecb810c121b2fe2dbe8bcf9cac9d7084f909",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:12:51Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s001-v001-detail-garga.png",
+          "sha256": "7c47d85f90f56898af2308da571d4c12f3444d0bc7e492943948cdd077442db7",
+          "region": "720x560+180+100",
+          "viewed_at": "2026-11-05T23:13:08Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s001-v001-detail-nanda.png",
+          "sha256": "69085ee2c84f80e3d4a21bf21aded40fd7ecad9f2cf6fd313c15567296a473ae",
+          "region": "520x560+1120+90",
+          "viewed_at": "2026-11-05T23:13:08Z"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d044/s002/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "65e9e85b1f699058f3d391ed4f69efd1be754ae05d88ec39251896dddaaa0410",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:13:20Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two ordinary seated adult men, each with two arms. Their legs are crossed beneath dhotis.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/garga-muni/character.json",
+          "sha256": "439a3bf600f5a1199e77830899520b48e8510ec95cc654b58f6ddf0f372282ba"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s002-v001-final-managed-review-v001.md",
+          "sha256": "2c12063473f76ed473be0a93cb399d488b594989992a0c143f9e0f8f41d29e65"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Garga’s two hands are joined in anjali with interleaved finger outlines and a rudraksha bracelet. Nanda’s upper hand grips the plate rim with four fingers on top, and his lower hand supports it from beneath with fingertips showing. The crossed legs are wrapped in cloth, so no feet are exposed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Garga’s two forearms meet at the joined palms from both shoulders, with a bead armlet on the upper arm. Nanda’s two sleeved forearms run from the green tunic to the plate. The seated heights of the two men are comparable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Garga has a white beard, a white topknot, an ear ornament and a tilak, with a gentle downward gaze. Nanda wears a cream turban and has a black curled moustache, a gold earring and a pearl necklace. His warm-brown face and turban follow the shared D043 S009 Nandagopan cue."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two people. The flower plate and the shrub behind it are drawn separately from Nanda’s hands."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text in the full frame or the crops. The pillar panels hold foliate ornament only."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The welcome is domestic and uncrowded, with the offering gesture as the clear focus. The palette is matte ochre with olive and terracotta, firm contours and shallow space. The cushion and carpet are flat patterns."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/002.jpg",
+        "sha256": "2b347edf7724e060765fc36639376e519eedcc8000a3913b516326000a08e76b",
+        "caption_path": "intake/D044/photo-captions.txt#002",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "shared Nandagopan identity cue"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s002/landscape/candidate-v001.png",
+          "sha256": "65e9e85b1f699058f3d391ed4f69efd1be754ae05d88ec39251896dddaaa0410",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:13:08Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s002-v001-detail-garga-hands.png",
+          "sha256": "7324709107f1166e8733165a783f13201099b397e9a46e531f59ae64eb80bd0c",
+          "region": "560x460+380+300",
+          "viewed_at": "2026-11-05T23:13:20Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s002-v001-detail-nanda-plate.png",
+          "sha256": "dbb9b6892a69c2a402cb59e6cb22347545d8395a8a2fc7d5096ea0e13617f60e",
+          "region": "620x480+660+180",
+          "viewed_at": "2026-11-05T23:13:20Z"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d044/s003/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "dd262b729a61a077be16d53a7fac492b17dd55ce9d4fa8179e14b839233c529d",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:13:32Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult men (two arms each) and two young children (two arms and two legs each). This is ordinary human anatomy, and Krishna has no divine arms here.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/garga-muni/character.json",
+          "sha256": "439a3bf600f5a1199e77830899520b48e8510ec95cc654b58f6ddf0f372282ba"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/balarama/character.json",
+          "sha256": "8a02d67fd36a52f70d1a1a37cc6c91e65bfd87aa32105fa424d641bd6024d6c9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s003-v001-final-managed-review-v001.md",
+          "sha256": "12045c444f482b8bebfb203ba8017317af4af8c3b5294f02f3864bcef25aaeca"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Garga’s raised right hand shows four fingers and a thumb, and his left hand rests on his knee. Balarama sits cross-legged with both small hands on his ankles and one bare foot with toes in front. Krishna sits with both hands on his thighs, gold bangles at the wrists, and two chubby feet with five toes each on the cloth. Nanda’s left hand is on Krishna’s shoulder and his right hand is spread on his own knee."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Each child’s arms meet the shoulders under cloth or bead armlets. Nanda’s shoulder hand traces back along a green sleeve to his left shoulder. BALARAMA AGE/SCALE: seated, his head top is only about a tenth of Krishna’s seated height above Krishna’s. Both heads are large relative to their torsos, with round full cheeks, short limbs and soft toddler bellies. He reads as a very young child (toddler) slightly larger than infant Krishna, not school-age."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna matches shared anchor v004: a round deep-indigo face, short dark curls, a compact peacock feather, a white U tilak, brown eyes and a small smile. Balarama has a distinct warm light-brown child face with a smaller nose, dark curls and a tilak; he does not copy Krishna’s features. Garga keeps his white beard and topknot. Nanda keeps his turban and moustache from S002."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two children, as the plan requires, plus Garga and Nanda: four people in all. Nanda’s hand and Krishna’s shoulder are distinct, and the two children do not overlap or merge."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text in the frame or the crops."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "A private interior with no crowd and no supernatural effects. Garga’s devotional warmth is carried by his soft smile and raised palm. The palette is matte ochre and indigo with firm contours and no gloss."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/003.jpg",
+        "sha256": "a755251de4b9d8969f2a966bc58ba56b7d860a6ce848add421f88450178bfeb7",
+        "caption_path": "intake/D044/photo-captions.txt#003",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "shared Nandagopan identity cue"
+        },
+        {
+          "path": "artifacts/d044/references/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "shared provisional infant Krishna anchor v004"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s003/landscape/candidate-v001.png",
+          "sha256": "dd262b729a61a077be16d53a7fac492b17dd55ce9d4fa8179e14b839233c529d",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:13:20Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s003-v001-detail-balarama-krishna.png",
+          "sha256": "3c5edc0c7436eb37f33029229157b524616feb21ca547df20940f2ecffae9de7",
+          "region": "620x580+560+290",
+          "viewed_at": "2026-11-05T23:13:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s003-v001-detail-children-hands-feet.png",
+          "sha256": "b2546f1590a2f150e94e815754fec3546bdd75f2e4be2b5dda40eca3e491fbb0",
+          "region": "600x460+560+400",
+          "viewed_at": "2026-11-05T23:13:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s003-v001-detail-nanda-hands.png",
+          "sha256": "4103f968af9d35ea18bb86e97efc816413a0404fdb4a97f36f7b43c346a888fc",
+          "region": "520x440+1080+520",
+          "viewed_at": "2026-11-05T23:13:32Z"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d044/s004/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "b3ac6aa4406724e1497d9116234b7c425110f5f181d331e5cbfb5777b23f7bc5",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:13:47Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One adult man with two arms and one infant with two arms and two legs.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/garga-muni/character.json",
+          "sha256": "439a3bf600f5a1199e77830899520b48e8510ec95cc654b58f6ddf0f372282ba"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s004-v001-final-managed-review-v001.md",
+          "sha256": "b304ba97fefced2cc669316e0b3efd493eea4eb23f10d93d24da022c9fd467c1"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Garga’s chin hand curls three fingers under his beard, with the thumb along the jaw and a bead bracelet at the wrist. His other hand rests on his knee with four fingers and a thumb. Krishna’s two hands are open palms-up at his sides, with five digits each. His two feet are plump, with toes, on the cloth."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Garga’s chin hand belongs to the arm with the rudraksha armlet. The upper arm drops to the elbow and the forearm rises across his chest to the chin, which is anatomically continuous. His knee hand comes from the other shoulder under the orange shawl. Krishna’s limbs are short and chubby, with a large head, consistent with infancy."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Garga has a pensive face with lowered eyes, a white beard, a topknot bound with beads and a tilak, matching S001–S003. Krishna’s face, curls, feather, tilak and amber bead necklace closely follow anchor v004."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One sage and one child. There is no second infant, no imagined forms and no fusion with the cushion or wall."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, scrolls or written names anywhere."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "A quiet, inward moment with no thought bubble or vision. Matte mural surface with firm contours, and the lotus-band dado is a flat pattern."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/004.jpg",
+        "sha256": "720f57895164deada1540fbe6fb5dbe574dac1818d3565a9bfe20f5bc458d31f",
+        "caption_path": "intake/D044/photo-captions.txt#004",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/guruvayurappan-approved-character-reference.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "character anchor (Guruvayurappan)"
+        },
+        {
+          "path": "artifacts/d044/references/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "shared provisional infant Krishna anchor v004"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s004/landscape/candidate-v001.png",
+          "sha256": "b3ac6aa4406724e1497d9116234b7c425110f5f181d331e5cbfb5777b23f7bc5",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:13:32Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s004-v001-detail-garga-arms.png",
+          "sha256": "e01dd55ca552e26f01e86fee3e50e17169c7ab4fc1403b82474a5fa0edd7d748",
+          "region": "560x600+260+260",
+          "viewed_at": "2026-11-05T23:13:47Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s004-v001-detail-krishna.png",
+          "sha256": "fffe02c2df7f6794e9db86d24ab55f339c21c359248408ca83280fd7c4e0c2d1",
+          "region": "560x660+980+250",
+          "viewed_at": "2026-11-05T23:13:47Z"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d044/s005/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "9e48e5f21898c366987d523e9fd10e8dcc6c8bae00b61a75e620c619f36849d0",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:14:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult men (two arms each) and one infant (two arms and two legs).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/garga-muni/character.json",
+          "sha256": "439a3bf600f5a1199e77830899520b48e8510ec95cc654b58f6ddf0f372282ba"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s005-v001-final-managed-review-v001.md",
+          "sha256": "2d6e8d983644c0dd3182f4d6ec3943d96ab04668c475c664ea7b6a5adb12a289"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Garga’s naming hand is palm-up with four fingers and a thumb, and his other hand rests on his knee with its fingers hanging down. Krishna’s two palm-up hands show five digits each, and his two feet show toes. Nanda’s arms are folded on his knee: his left hand lies over his right forearm with four fingers visible, and the right hand is tucked beneath."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Garga’s naming arm runs continuously from shoulder to wrist across his bare torso. Nanda’s two folded forearms each run back into a green sleeve. Krishna has infant proportions with a large head."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Garga’s mouth is slightly open, as if speaking, and his white beard and topknot match earlier scenes. Krishna follows anchor v004 with a calm smile. Nanda wears a cream turban, has a moustache and a tied-back dark lock, and wears an olive tunic."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Three people and one infant only. The lotus and the sprout are separate from all bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No letters, syllables or readable name, which the plan forbids."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The naming gesture and the infant’s calm face dominate. The arch is a pale outlined shape, not a halo or rays. The surface is matte throughout."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/005.jpg",
+        "sha256": "e01b5b36d6542fd27ca5e9ac3933bdafb165714a63ca5084ed5156deae496fa2",
+        "caption_path": "intake/D044/photo-captions.txt#005",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "shared Nandagopan identity cue"
+        },
+        {
+          "path": "artifacts/d044/references/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "shared provisional infant Krishna anchor v004"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s005/landscape/candidate-v001.png",
+          "sha256": "9e48e5f21898c366987d523e9fd10e8dcc6c8bae00b61a75e620c619f36849d0",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:13:47Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s005-v001-detail-nanda-hands.png",
+          "sha256": "a11d7f5eda69862c80dd67e3907474c6bcb18ac425f97bc2edd20da4cf42f6b6",
+          "region": "560x520+1120+380",
+          "viewed_at": "2026-11-05T23:14:02Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s005-v001-detail-garga-gesture.png",
+          "sha256": "1e7dddd63ac181f8ea9c0b4fef7f31102f4757055884b68c022adcb557601608",
+          "region": "720x520+260+300",
+          "viewed_at": "2026-11-05T23:14:02Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s005-v001-detail-krishna-hands-feet.png",
+          "sha256": "5ab92104d27d12ba8b4fcd915f2fb9a7e8ffad6092631172bf7bf58189fd1693",
+          "region": "560x300+580+600",
+          "viewed_at": "2026-11-05T23:14:02Z"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d044/s006/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "42826e63c63ff986936c200ad8523fa4c75b9cabc0d49082a487fb74f6dfbefb",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:14:17Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult men (two arms each) and two young children (two arms and two legs each). Krishna is shown as an ordinary two-armed infant, not four-armed.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/garga-muni/character.json",
+          "sha256": "439a3bf600f5a1199e77830899520b48e8510ec95cc654b58f6ddf0f372282ba"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/balarama/character.json",
+          "sha256": "8a02d67fd36a52f70d1a1a37cc6c91e65bfd87aa32105fa424d641bd6024d6c9"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s006-v001-final-managed-review-v001.md",
+          "sha256": "a01eaf8967c88a618ea0c91c1bca9c806c7d8cb2acbd6a6ae66715acb8547e15"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Balarama’s two hands rest on his crossed shins with distinct fingers, and two bare feet with toes show under his crossed legs. Krishna’s two open palms and two feet with toes are visible. Garga’s speaking hand shows a thumb and four extended fingers, and his other hand lies on his knee. Nanda’s hand on Balarama’s shoulder shows four fingers and a thumb."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Nanda’s shoulder hand traces back along a green sleeve to his body, and his other arm is occluded behind Balarama. BALARAMA AGE/SCALE: seated, his head top sits only slightly above Krishna’s, and his head is about the same size as Krishna’s. His face stays round with full cheeks. His torso and limbs are a little longer and leaner than in S003, giving a small preschool child of roughly toddler-to-preschool scale. He is clearly not school-age and is only slightly larger than infant Krishna."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Balarama has a distinct warm light-brown child face, dark wavy hair and a tilak, gazing up at Garga; his features are not copied from Krishna. Krishna follows anchor v004. Garga keeps his white beard and topknot. Nanda keeps his cream turban, moustache, pearl necklace and olive tunic."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two children, as required, and four people in all. The children sit adjacent without merging."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text in the frame or the crops."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "No divine reveal, no split panel and no crown on Garga. The palette is matte cream, ochre and olive with firm contours."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/006.jpg",
+        "sha256": "a82f920e96f5259e52bc0282b552977116fed2f811d3697460e754effaadadcf",
+        "caption_path": "intake/D044/photo-captions.txt#006",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "shared Nandagopan identity cue"
+        },
+        {
+          "path": "artifacts/d044/references/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "shared provisional infant Krishna anchor v004"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s006/landscape/candidate-v001.png",
+          "sha256": "42826e63c63ff986936c200ad8523fa4c75b9cabc0d49082a487fb74f6dfbefb",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:14:02Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s006-v001-detail-balarama-krishna.png",
+          "sha256": "8395c252948dd47a454aa82d090ac76b8f3f44fe808816bed95d421a4a6e7825",
+          "region": "720x640+360+260",
+          "viewed_at": "2026-11-05T23:14:17Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s006-v001-detail-balarama-hands-feet.png",
+          "sha256": "b182045dfe1a109709a466551ef06be5ba0009fffdbf627cf53b77ec58ec70bc",
+          "region": "460x340+390+580",
+          "viewed_at": "2026-11-05T23:14:17Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s006-v001-detail-garga-hands.png",
+          "sha256": "29210bf36aec2df5c83fa4937de479101487ba687eec8857427d531d457afb5d",
+          "region": "720x520+940+300",
+          "viewed_at": "2026-11-05T23:14:17Z"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d044/s007/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "594c7a4cd0b59b92452295ccd4f97ed87815867daf51725cfdb8c08a5d72a461",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:14:36Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult men (two arms each) and one infant (two arms and two legs).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/garga-muni/character.json",
+          "sha256": "439a3bf600f5a1199e77830899520b48e8510ec95cc654b58f6ddf0f372282ba"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s007-v001-final-managed-review-v001.md",
+          "sha256": "bb67c37e2da1b9bc102be7f9abce8910599ee55d419a0f9221fcb3089fa1ae5e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Garga’s raised hand shows a thumb and four fingers, and his other hand rests on his knee below a bead bracelet. Nanda’s chin hand curls its fingers under the jaw, and his other hand lies on his knee with four fingers visible. Krishna has two open palms and two feet with toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Garga’s armlet arm runs shoulder to elbow to wrist to the knee hand. His raised forearm emerges from behind the orange shawl at the elbow toward the palm. Nanda’s sleeved left forearm rises from the knee to his chin, and his right arm drops from the shoulder to the knee hand. Proportions are adult and infant respectively."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Garga has a white beard, a topknot and a tilak, with an earnest look. Nanda wears a cream turban and has a moustache, an earring and a gold bead necklace, with a listening expression. Krishna follows anchor v004."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Three figures. The potted plant at left and the niche pot stay separate from all bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None in the frame or the crops."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Calm and protective, with no melodrama. The pillars and niche are flat matte cream and ochre, and the contours are firm."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/007.jpg",
+        "sha256": "10a58469c7011cfa240311e6a563d720b6121ef6459f48fbd8f2054530b593df",
+        "caption_path": "intake/D044/photo-captions.txt#007",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "shared Nandagopan identity cue"
+        },
+        {
+          "path": "artifacts/d044/references/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "shared provisional infant Krishna anchor v004"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s007/landscape/candidate-v001.png",
+          "sha256": "594c7a4cd0b59b92452295ccd4f97ed87815867daf51725cfdb8c08a5d72a461",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:14:17Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s007-v001-detail-garga-arms.png",
+          "sha256": "34b16a1fda275adce3d552d723a314756937ff76f3e39ce988a14cea770a1c3a",
+          "region": "680x620+100+250",
+          "viewed_at": "2026-11-05T23:14:36Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s007-v001-detail-nanda-arms.png",
+          "sha256": "2ac6c9f5a099039edc33d6d9c7fc5313b88dc871ad356ae4ee76b00728d2e7a2",
+          "region": "560x620+1100+220",
+          "viewed_at": "2026-11-05T23:14:36Z"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d044/s008/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "e13c037691faa896faced0ae935ed40b7be1dad4ca697cf3cc6571e26ed64715",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:15:01Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult men (two arms each) and one reclining infant (two arms and two legs).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/garga-muni/character.json",
+          "sha256": "439a3bf600f5a1199e77830899520b48e8510ec95cc654b58f6ddf0f372282ba"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s008-v001-final-managed-review-v001.md",
+          "sha256": "7481e9d5a6da445e68bda4b0cd8d1430d9b99f3211ee259e3ed225ed8767dd88"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna props his cheek on his right hand, with fingers along the jaw, and his left hand lies flat on the cloth with five fingers. In the 2.5x crop his two legs are stacked: the lower foot shows five toes and the upper foot is mostly behind it. Garga’s raised palm and his knee hand show complete digits under gold bangles. Nanda’s hands are crossed on his knee, one over the other, with fingers visible on both."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s propping arm runs from the shoulder under the yellow cloth to the hand at his cheek, and both thighs come from under the dhoti. Garga’s banded arm drops to his knee, and his speaking forearm rises from the shawl. Nanda’s two sleeved forearms meet at his crossed hands."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Garga has a white beard, a topknot and a tilak, and is smiling as he speaks. Nanda wears a cream turban and has a moustache and pearl necklace, with an attentive look. Krishna’s indigo face, curls, feather and tilak match v004."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly three figures and one Krishna. There are no future-episode vignettes and no weapons."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None in the frame or the crops."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The foreground pair with a distant path suggests the pure destination. Foliage is stylized in matte olive, and there are no beams."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/008.jpg",
+        "sha256": "2df1f4a971e4a555cbe255a1edfb0fad7d9f4c62bdea90ddd5651cff33d1c4d1",
+        "caption_path": "intake/D044/photo-captions.txt#008",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "shared Nandagopan identity cue"
+        },
+        {
+          "path": "artifacts/d044/references/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "shared provisional infant Krishna anchor v004"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s008/landscape/candidate-v001.png",
+          "sha256": "e13c037691faa896faced0ae935ed40b7be1dad4ca697cf3cc6571e26ed64715",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:14:36Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s008-v001-detail-krishna-reclining.png",
+          "sha256": "842429732c43596a93daa3171b1abc10470fcae22aaa7fc9a56128a6e3c49cce",
+          "region": "640x340+490+560",
+          "viewed_at": "2026-11-05T23:15:01Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s008-v001-detail-nanda-hands.png",
+          "sha256": "2fa821a82f0ff6aa0fe6e3c34faa8a9329bd4599c6ceae6a79f89e999ddad940",
+          "region": "560x340+940+540",
+          "viewed_at": "2026-11-05T23:15:01Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s008-v001-detail-garga-hands.png",
+          "sha256": "8ad0247bc69fbde3933e06c1e2f0926408f8babfb73f05e8ac3bfc5adf6d1554",
+          "region": "640x500+80+300",
+          "viewed_at": "2026-11-05T23:15:01Z"
+        },
+        {
+          "mode": "detail-enlarged-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s008-v001-detail-krishna-legs-2-5x.png",
+          "sha256": "e9f461e44f2ba3bc3f76e92383ca0ec3fb734475112636bab7ddb849a2fdd981",
+          "region": "260x180+880+720 scaled 250%",
+          "viewed_at": "2026-11-05T23:15:01Z"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d044/s009/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "4046319695e0aee0fb88867556eec2c541637988a858d0f6ab9aa0e44439c4bc",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:15:13Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two ordinary seated adult men with two arms each.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/garga-muni/character.json",
+          "sha256": "439a3bf600f5a1199e77830899520b48e8510ec95cc654b58f6ddf0f372282ba"
+        },
+        {
+          "path": "art/bible/characters/vasudeva/character.json",
+          "sha256": "b48f743c0d11b884adecf7f61e0d33d26f5f58a5b58dbb21197c1469c54d0ec8"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s009-v001-final-managed-review-v001.md",
+          "sha256": "b11a9e2f4a3ecfc62518b08cd7933b3c251f5e4304620f3d1f5b7d6a16b966f1"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Garga’s speaking hand is open with a thumb and four fingers, and his other hand rests on his knee with fingers visible. Vasudeva’s two palms are joined in anjali with both thumbs visible. Their crossed legs are wrapped in cloth."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Garga’s speaking arm is continuous from the shoulder; his knee arm emerges from the orange shawl. Vasudeva’s two forearms rise from the cream shawl to his joined hands. Proportions are adult."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Garga has a white beard, a white topknot and a tilak, and is clearly elderly. Vasudeva matches his Bible: a mature man with a trimmed dark beard and moustache, long dark wavy hair partly tied up, a vertical tilak and a long dignified face. He is clearly distinct from both Garga and Nandagopan."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two people."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None in the frame or the crops."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Restrained ochre and brown with olive leaves, firm contours and a flat matte finish. There are no chains, consistent with the non-prison counsel."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/009.jpg",
+        "sha256": "8dd33ce8deb6392a6216caad9b4938223ea269c91ce8e5c5eea1d8e721391a01",
+        "caption_path": "intake/D044/photo-captions.txt#009",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d044/references/series-style-anchor-D001-S008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "art/bible/characters/vasudeva/character.json",
+          "sha256": "b48f743c0d11b884adecf7f61e0d33d26f5f58a5b58dbb21197c1469c54d0ec8",
+          "role": "Vasudeva Bible text (no image bytes)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s009/landscape/candidate-v001.png",
+          "sha256": "4046319695e0aee0fb88867556eec2c541637988a858d0f6ab9aa0e44439c4bc",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:15:01Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s009-v001-detail-vasudeva.png",
+          "sha256": "1d2909afbd17ebfc8a644faabfb406f6186958472a61e86abb59a541404a3967",
+          "region": "560x560+1000+100",
+          "viewed_at": "2026-11-05T23:15:13Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s009-v001-detail-garga-hands.png",
+          "sha256": "4c86daf07cccb92a9f21704f4aa3535a8d28382cfaf1014b8a701a32487ee852",
+          "region": "600x560+420+300",
+          "viewed_at": "2026-11-05T23:15:13Z"
+        }
+      ]
+    },
+    {
+      "chapter": 44,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d044/s010/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "973f52831cd4eea0a032815ed04f53bec6bb390d9a781f70cd83287ab34934b1",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T23:15:31Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Four ordinary adult men (Bhattathiri, Nanda and two gopas, two arms each) and one ordinary infant (two arms and two legs). Guruvayurappan is the two-armed standing form shown in the approved reference sheet. He and the infant are intentional distinct forms for the prayer and household planes, not an accidental duplicate.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d044.json",
+          "sha256": "3ef9fc966d2389109e2fb46a5af0d264135e7d3d7af05ad4450757e8a6032fbe"
+        },
+        {
+          "path": "content/daskams/d044.json",
+          "sha256": "d71a7390df0b5ab9d1ec87b4c24f44a2e309cc4a31fa3012b6a18d9b334fe5b9"
+        },
+        {
+          "path": "content/sources/d044/reference-map.json",
+          "sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+        },
+        {
+          "path": "content/sources/d044/intake-manifest.json",
+          "sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d044-s010-v002-final-managed-review-v001.md",
+          "sha256": "b5a00b69b4d997259812e478e671f4657393e91745ea8987355729e41a436bc8"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Bhattathiri’s joined palms show finger outlines on both hands, and one bare foot with toes shows behind his kneeling legs. Guruvayurappan has a raised abhaya right hand with five digits, an open lowered left hand with five digits, and two blue feet with anklets and toes. Krishna has an open palm and a bent arm with white stripes, plus two feet with toes. Nanda’s hand at Krishna’s waist shows four fingers. The bowl gopa grips the bowl with fingers visible and shows one bare foot. The cloth gopa holds the towel with both hands."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Bhattathiri’s two forearms rise from his shoulders to his joined hands. Guruvayurappan’s two arms meet the shoulders at gold armlets. Nanda’s arm wraps around the infant from his left shoulder, and his other upper arm hangs at his side. Each gopa’s arms connect to the shoulders, with the far arm occluded by the body. All adults have consistent seated or kneeling proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Bhattathiri matches the selected older reference: a clean-shaven, lined older face, a shaved head with a small kudumi tuft, three white ash bands with a red dot, and rudraksha and pearl strands. He is not young, not bearded, and not Garga. Guruvayurappan matches the approved sheet: a blue face, a tall gold crown with peacock feather, makara earrings, a white namam, and a flower garland. Infant Krishna follows v004. Nanda has a cream turban, a moustache and an olive shawl, and the two gopas have distinct turbaned faces with moustaches."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The cast is one Bhattathiri, one Guruvayurappan, one infant, one Nanda and two gopas, a small group as the plan asks. The cow and calf in the background are separate animals, and no figures fuse."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text in the frame or the crops. The source’s watermark and copyright line are absent."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The household and prayer share one continuous ground plane and tree canopy, with no panel division, as required. The palette is ochre, olive, cream and indigo with firm contours and shallow space."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D044/010.jpg",
+        "sha256": "29498e8d6c414d75fd093dc12e09c933220ddfbfb8234c09b0c79ec438345bb4",
+        "caption_path": "intake/D044/photo-captions.txt#010",
+        "caption_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+        "source_map_path": "content/sources/d044/reference-map.json",
+        "source_map_sha256": "9674525e92d4f5731de8a9cd61147773eda8b66b86ad9ae82e6e02f19c99de76"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d044/s010/landscape/candidate-v001.png",
+          "sha256": "1c6671f0272a424d131b9bf6406c60daf80336fdcf71b683cd25ecbca5c826ad",
+          "role": "superseded D044 S010 v001 split-composition history (context only)"
+        },
+        {
+          "path": "artifacts/d044/references/bhattathiri-older-selected-reference.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+          "role": "selected older Bhattathiri reference"
+        },
+        {
+          "path": "artifacts/d044/references/guruvayurappan-approved-character-reference.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "character anchor (Guruvayurappan)"
+        },
+        {
+          "path": "artifacts/d044/references/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "shared provisional infant Krishna anchor v004"
+        },
+        {
+          "path": "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "shared Nandagopan identity cue"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d044/s010/landscape/candidate-v002.png",
+          "sha256": "973f52831cd4eea0a032815ed04f53bec6bb390d9a781f70cd83287ab34934b1",
+          "region": "0,0 1671x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T23:15:13Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s010-v002-detail-bhattathiri.png",
+          "sha256": "2e98c952c803f44ff3aa2c7f2ce8c0316f3b505a88eaed4c20d96c27ee8aae1d",
+          "region": "520x520+460+290",
+          "viewed_at": "2026-11-05T23:15:31Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s010-v002-detail-guruvayurappan.png",
+          "sha256": "e35de68496b3083df9c9bfe1c65f662fee71ab0d3917b97d54f777255448134a",
+          "region": "420x900+60+0",
+          "viewed_at": "2026-11-05T23:15:31Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s010-v002-detail-nanda-infant.png",
+          "sha256": "a89009e5411add301725c6fac6abc080278d8498afd17a10722f54b15a0394f6",
+          "region": "640x560+1020+300",
+          "viewed_at": "2026-11-05T23:15:31Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s010-v002-detail-gopa-bowl.png",
+          "sha256": "6ffc2aeee8f69b1a6dfcc663c301f82e0bdf70d0aad4b2878af491adfc0f8f09",
+          "region": "640x500+820+300",
+          "viewed_at": "2026-11-05T23:15:31Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d044/review-evidence/managed-v001/s010-v002-detail-gopa-cloth.png",
+          "sha256": "2f5ddb08cfb2acedf7755429d248e42aa934a748f80dbcc26b67b0176ae81d38",
+          "region": "360x460+1310+340",
+          "viewed_at": "2026-11-05T23:15:31Z"
+        }
+      ]
     }
   ]
 }

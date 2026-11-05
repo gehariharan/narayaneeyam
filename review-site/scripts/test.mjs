@@ -205,7 +205,7 @@ const selected44=JSON.parse(await fs.readFile(new URL('../../art/batches/d044-co
 assert.equal(selected44.rows.length,10);assert.equal(selected44.review_status,'needs-review');
 assert.ok(full44.reviewNotice.includes('unapproved'));
 for(const row of full44.rows){
- assert.equal(row.commentarySource,`content/sources/d044/photo-captions.txt#${String(row.n).padStart(3,'0')}`);
+ assert.equal(row.commentarySource,`intake/D044/photo-captions.txt#${String(row.n).padStart(3,'0')}`);
  assert.equal(row.commentary,content44.stanzas.find(s=>s.n===row.n).commentary_en);
  assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
  const selected=selected44.rows.find(r=>r.n===row.n);assert.ok(selected);

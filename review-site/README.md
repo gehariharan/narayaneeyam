@@ -281,8 +281,9 @@ before any serialized Worker deployment.
 
 D044 contains ten landscape comparison rows matched to its ten numbered source
 references. The selected versions are checksum-pinned in
-`art/batches/d044-comparison-v001.json`; all artwork remains unapproved and
-independent visual review is pending. S010 v002 replaces the preserved split
+`art/batches/d044-comparison-v001.json`; the managed review passed all ten
+selected leads (S001–S009 v001 and S010 v002) as checksum-bound visual
+inspections, while all artwork remains unapproved. S010 v002 replaces the preserved split
 composition in v001. English translations and portrait compositions are absent.
 Upload only D044's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=44` before any serialized Worker
@@ -292,8 +293,8 @@ Reconciled with main `84a214f310008155ad22dd8a80e1ed8afd786ab4` (D014, D012 and 
 D001/D002/D003 audit cleanup) and D013, the union contains 16 chapters, 168 stanza
 rows, 342 review media inputs, and 174 selected generated images (69 historical and
 not cleared, 105 individually inspected). D044 extends the selection to 17
-chapters, 178 rows, 362 review media inputs, and 184 selected generated images;
-the final inspected total depends on the managed review result.
+chapters, 178 rows, 362 review media inputs, and 184 selected generated images
+(69 historical and not cleared, 115 individually inspected).
 The managed D014 review passed all ten leads, including the S005 v003, S008 v008
 and S010 v003 repairs; earlier failed versions remain recorded as history. These
 totals must be recalculated if the base advances.

@@ -34,7 +34,7 @@ jobs:
 
       - name: Install test and deployment tools
         run: |
-          npm ci --include=optional --ignore-scripts
+          npm ci --ignore-scripts
           npm install --no-save --ignore-scripts wrangler@4.136.3
           echo "$PWD/node_modules/.bin" >> "$GITHUB_PATH"
 
