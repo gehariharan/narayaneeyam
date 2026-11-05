@@ -35,6 +35,10 @@
         {
           "path": "art/reviews/d003-plan-hash-reinspection-v001.md",
           "sha256": "a218b6330e49373366f4052bbef81a36dcf4b984f8da0ddd09a747cc6a86f672"
+        },
+        {
+          "path": "art/reviews/d003-s001-landscape-v003-target-recheck-v001.md",
+          "sha256": "97260df07bf5a5b7d2914bd6f10bac80e8a124f985042f4f0db96726a749a2c9"
         }
       ],
       "checks": {
@@ -8260,74 +8264,14 @@
       "findings": []
     },
     {
-      "chapter": 1,
-      "sloka": 2,
-      "role": "matte",
-      "file": "artifacts/d001/s002/landscape/candidate-v003.png",
-      "version": "v003",
-      "sha256": "85ee2c5d028994cb1395d6d9028a5e155e61ae8aaec104da9472b0868cdc7408",
-      "reviewer": "Codex (Firstmate-managed audit-review-board ship session)",
-      "inspected_at": "2026-11-05T11:56:27Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Guruvayurappan is a two-armed deity in this scene. The coin-pouch seeker and other devotees are ordinary two-armed humans. The earlier scout did not establish an anatomical defect; this edit was commissioned to make the seeker\u2019s front-facing pouch hold visually unambiguous.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d001.json",
-          "sha256": "8bccaf09638d36054c67dcaeb9d70788bd440fc2e56367dc8fbee6366e48547c"
-        },
-        {
-          "path": "art/bible/characters/guruvayurappan/character.json",
-          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d001-s002-landscape-v003-review-v001.md",
-          "sha256": "c85f49bd2418777ce7e4cd968ea5b13c0ba1ea71b6b3c9c0def413e985fd86e4"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "The two front hands and forearms attach visibly to the ordinary seeker; the deity has two arms. The full-frame people show no extra limbs."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "The seeker\u2019s arms meet the shoulders and bend naturally toward the single pouch; legs and walking stance remain connected."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "The seeker and background devotees retain distinct faces; the deity retains its established identity."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "The focal seeker, three devotees and separated background worshippers remain distinct; no duplicate or fused body is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No readable writing, caption, signature, logo or watermark is visible."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The two-path devotional contrast, full sanctum and matte painted style remain intact."
-        }
-      },
-      "findings": []
-    },
-    {
       "chapter": 2,
       "sloka": 1,
       "role": "matte",
       "file": "artifacts/d002/s001/landscape/candidate-v004.png",
       "version": "v004",
       "sha256": "aed207a78c7487dcca24d0397be050d0c004e3cfaaa1be94879ab94732dd9f1c",
-      "reviewer": "Codex (Firstmate-managed audit-review-board ship session)",
-      "inspected_at": "2026-11-05T11:56:27Z",
+      "reviewer": "Claude (no-mistakes managed review-fix, audit-review-board)",
+      "inspected_at": "2026-11-05T12:25:38Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Guruvayurappan is the sole figure and has two attached arms in this iconographic scene.",
@@ -8348,21 +8292,21 @@
       "evidence": [
         {
           "path": "art/reviews/d002-s001-landscape-v004-review-v001.md",
-          "sha256": "a17e10aedd79979d148f756d2b7f88209997cba632e99938927aa66280c44d07"
+          "sha256": "6a1291d5ed237fc2dd7713a2b2e771462d0ea1b7dcb0b1b624919efafb6f33a4"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "One deity is shown with two attached arms and two feet; both hands and feet are within frame."
+          "observations": "One deity with two attached arms: raised blessing right hand and lowered open left hand, each with five fingers and a bangle; both feet rest on the pedestal inside the frame."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Shoulders, arms, torso and legs form one coherent full figure; the two hand gestures are distinct."
+          "observations": "Both arms attach at the shoulders; torso, garland, dhoti and legs form one coherent standing figure with distinct hand gestures."
         },
         "faces": {
           "status": "pass",
-          "observations": "The single face has the established youthful blue deity identity, tilak, crown and peacock feather."
+          "observations": "One calm blue face with almond eyes, gentle smile, upright tilak, crown with peacock feather and paired earrings, matching the established deity identity."
         },
         "duplication_fusion": {
           "status": "pass",
@@ -8374,71 +8318,67 @@
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Full-figure sanctum composition and iconography remain; broad flat matte color and firm contours resolve the reported dimensional style drift."
+          "observations": "Compared with v003, the mottled grainy texture is replaced by broad opaque flat colour fields and firm dark contours, resolving the reported style drift; arch, lamps, reliefs and full-figure composition are unchanged."
         }
       },
       "findings": []
     },
     {
-      "chapter": 3,
-      "sloka": 1,
+      "chapter": 1,
+      "sloka": 2,
       "role": "matte",
-      "file": "artifacts/d003/s001/landscape/candidate-v004.png",
+      "file": "artifacts/d001/s002/landscape/candidate-v004.png",
       "version": "v004",
-      "sha256": "a8d4f333960f0e5eb4228c7efe057c204f8865ac8ba0e6aa7b625533f5cc461f",
-      "reviewer": "Codex (Firstmate-managed audit-review-board ship session)",
-      "inspected_at": "2026-11-05T11:56:27Z",
+      "sha256": "94f0040ef25654384cf05401261f487520c184c6fccde2e3b756c4c57beac9c0",
+      "reviewer": "Claude (no-mistakes managed review-fix, audit-review-board)",
+      "inspected_at": "2026-11-05T12:25:38Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Bhattathiri and the listeners are ordinary two-armed humans; Guruvayurappan is the distinct blue deity in the sanctum.",
+      "anatomy_basis": "Guruvayurappan is a two-armed deity in this scene. The coin-pouch seeker and other devotees are ordinary two-armed humans. The reported concern was ambiguity in how the seeker held the pouch; no earlier version was shown to have a malformed or extra limb.",
       "contracts": [
         {
           "path": "art/bible/series.json",
           "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
         },
         {
-          "path": "art/plans/d003.json",
-          "sha256": "0207c5ce06c766386cb241d280434d8faa3577805360e3f6d2e535dbf2dab13f"
+          "path": "art/plans/d001.json",
+          "sha256": "8bccaf09638d36054c67dcaeb9d70788bd440fc2e56367dc8fbee6366e48547c"
         },
         {
           "path": "art/bible/characters/guruvayurappan/character.json",
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
-        },
-        {
-          "path": "art/bible/characters/bhattathiri/character.json",
-          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d003-s001-landscape-v004-review-v001.md",
-          "sha256": "926b6ccdac11e947267bdf17700af08e070c6027f4083f7bf68f54e9306f9765"
+          "path": "art/reviews/d001-s002-landscape-v004-review-v001.md",
+          "sha256": "a2c97548a5fd4d96aaa0cd1ceddcfb56f84b035e5ab087dbae0cc5a4e4a1dbea"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Visible arms, hands, feet and seated limbs are attached; the target person and all associated fragments are absent. Rear limbs behind seated bodies are naturally occluded."
+          "observations": "The seeker shows two arms, two bangled wrists and two hands meeting around one pouch in front of his belly, plus two bare walking feet. The deity has two arms; the kneeling devotee and seated student each show two hands."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Inspected seated torsos, shoulders, arms and legs remain distinct; clearing the target leaves continuous floor pattern."
+          "observations": "The seeker now faces three-quarter front with visible chest and abdomen; both arms descend from the shoulders and bend in front of the abdomen, with no spine or back plane behind the hands. Legs and stance remain connected."
         },
         "faces": {
           "status": "pass",
-          "observations": "The one older clean-shaven Bhattathiri and the distinct listeners retain readable faces."
+          "observations": "The seeker keeps his left-facing moustached face; the devotees, student and three distant women have distinct faces; the deity retains its established identity."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Eight human figures remain; the target duplicate listener is absent, the singer remains, and no person replaces the removed figure."
+          "observations": "Three focal devotees, three distant women and one deity are separate; no duplicate person, extra pouch or fused body is visible."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "The manuscript stand contains no readable text; no caption, signature, logo or watermark is visible."
+          "observations": "No readable writing, caption, signature, logo, watermark or border; the book is closed and blank."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The gathering remains one continuous temple scene, with all remaining listeners facing the single sanctum deity in matte mural style."
+          "observations": "The two-path devotional contrast, sanctum, elephant and treasure remain arranged as in v002, with the same broad matte colour fields and firm contours."
         }
       },
       "findings": []
