@@ -236,3 +236,17 @@ translations remain absent, the candidates remain unapproved, and portraits
 are paused. Upload only D011's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=11` before any serialized Worker
 deployment.
+
+## Dasakam 14
+
+D014 contains ten landscape comparison rows matched to the ten captioned
+intake references and supplied commentary sections. Selected leads are pinned
+in `art/batches/d014-comparison-v001.json`; they remain unapproved, English
+translations are absent, and portrait compositions are paused. Upload only
+D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
+before any serialized Worker deployment.
+
+At fresh main `c7a65d8bc782b4a0fb8de6e99b7069807656454b`, the union contains 14
+chapters, 148 stanza rows, 302 review media inputs, and 154 selected generated
+images (71 historical and not cleared, 83 individually inspected). These totals
+must be recalculated if the base advances.

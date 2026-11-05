@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "daskam_id": 14,
+  "source_manifest": "content/sources/d014/intake-manifest.json",
+  "caption_path": "intake/D014/photo-captions.txt",
+  "mapping_rule": "Ordinal mapping among canonical verse number 14-n, supplied caption heading #n, and numbered intake image 00n.jpg; visual relevance checked individually. The caption and canonical verse govern scene meaning where an image is ambiguous or illustrative.",
+  "images": [
+    {"stanza":1,"path":"intake/D014/001.jpg","caption_path":"intake/D014/photo-captions.txt#001","sha256":"8aace37940d88923099d18c75d1ac8354edafe32970f8c9633b5a1e33ba214bd","note":"Sage writing is a broad devotional cue; do not assume this is a verified likeness of Manu."},
+    {"stanza":2,"path":"intake/D014/002.jpg","caption_path":"intake/D014/photo-captions.txt#002","sha256":"9a1fa7663ecabe30c818d5959f6bc8a08e19c04e95889cbee8e34ec2b52dac96"},
+    {"stanza":3,"path":"intake/D014/003.jpg","caption_path":"intake/D014/photo-captions.txt#003","sha256":"dbe7e238a3331eec6d0fca31df6381b1f497681b397bae13ddc7cf3b56e24f8b"},
+    {"stanza":4,"path":"intake/D014/004.jpg","caption_path":"intake/D014/photo-captions.txt#004","sha256":"f0867556498df9d0f7862c0fee96f52a54ef8d74520279d854465b7e21106418"},
+    {"stanza":5,"path":"intake/D014/005.jpg","caption_path":"intake/D014/photo-captions.txt#005","sha256":"4bc89c261e960f40e2cbbe5e9f8398f65af988312e26e84a468259d4dde06626","note":"The supplied figures are visually ambiguous; canonical text controls their identity and action."},
+    {"stanza":6,"path":"intake/D014/006.jpg","caption_path":"intake/D014/photo-captions.txt#006","sha256":"2ef2126c520f22477c1bd9da6197d1c4bd54a59362ce81ed639a05ea515896be","note":"Reference is a diptych; composition will be independently designed as a single mural scene."},
+    {"stanza":7,"path":"intake/D014/007.jpg","caption_path":"intake/D014/photo-captions.txt#007","sha256":"df7eb744eebff23cfd17679b988a22a1b2835f1db8222fb72f1e1d265ef41151"},
+    {"stanza":8,"path":"intake/D014/008.jpg","caption_path":"intake/D014/photo-captions.txt#008","sha256":"59e63f58878e15bed79c9c60258c9a4a72648aa3eedd264d2cacfb64faa8f305"},
+    {"stanza":9,"path":"intake/D014/009.jpg","caption_path":"intake/D014/photo-captions.txt#009","sha256":"f8427a289e98fd0a1800085eed342c35a56a0e633a2cc7e0c5dae6b8de3a5326"},
+    {"stanza":10,"path":"intake/D014/010.jpg","caption_path":"intake/D014/photo-captions.txt#010","sha256":"af0614101822d409efd5c9d82710be7b2ee4909164babbeee3f93012c95396c8","note":"Kapila teaching is the main verse scene; Bhattathiri's prayer remains a subordinate caption-derived devotional cue."}
+  ],
+  "excluded_uncaptioned_extras": ["intake/D014/011.jpg", "intake/D014/012.jpg"]
+}

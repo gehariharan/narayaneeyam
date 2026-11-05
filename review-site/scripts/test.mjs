@@ -143,6 +143,22 @@ assert.equal((await feedback(req({...good,daskam:10,sloka:10}),env)).status,201)
 assert.equal((await feedback(req({...good,daskam:10,sloka:11}),env)).status,400);
 console.log('Passed: D010 has ten caption-mapped rows, one pinned reference and one unapproved landscape candidate each, and stanza-bounded feedback.');
 
+const full14=data.chapters.find(c=>c.id===14);assert.ok(full14);assert.deepEqual(full14.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content14=JSON.parse(await fs.readFile(new URL('../../content/daskams/d014.json',import.meta.url)));
+const selected14=JSON.parse(await fs.readFile(new URL('../../art/batches/d014-comparison-v001.json',import.meta.url)));
+assert.equal(selected14.rows.length,10);assert.equal(selected14.review_status,'needs-review');
+for(const row of full14.rows){
+ assert.equal(row.commentarySource,`intake/D014/photo-captions.txt#${String(row.n).padStart(3,'0')}`);
+ assert.equal(row.commentary,content14.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected14.rows.find(r=>r.n===row.n);assert.ok(selected);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.match(selected.matte.file,/^artifacts\/d014\/s\d{3}\/landscape\/candidate-v\d{3}\.png$/);
+}
+assert.equal((await feedback(req({...good,daskam:14,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:14,sloka:11}),env)).status,400);
+console.log('Passed: D014 is integrated as ten caption-mapped rows with pinned references, unapproved landscape candidates and stanza-bounded feedback.');
+
 async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {}, staleResponses = {} } = {}) {
  const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);
  for(const chapter of fixtureData.chapters)if(!missingRoutes.includes(chapter.id)){const route=`/narayaneeyam/${chapterSlug(chapter.id)}`;pages.set(route,pageOverrides[chapter.id]??renderChapter(chapter,fixtureData.revision,'/narayaneeyam/',true,fixtureData.chapters));}
