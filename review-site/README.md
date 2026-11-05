@@ -277,10 +277,24 @@ translations are absent, and portrait compositions are paused. Upload only
 D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
 before any serialized Worker deployment.
 
+## Dasakam 42
+
+D042 contains eleven landscape comparison rows matched to the eleven numbered
+intake references and supplied captions. Its selected candidates are pinned in
+`art/batches/d042-comparison-v001.json`; they remain unapproved, English
+translations are absent, and portrait compositions are paused. The infant
+Krishna v004 image is a provisional shared identity anchor that passed exact
+version review; the common D043 S009 image supplies Nandagopan/Yashoda identity
+cues only. Stanza image reviews are version-bound and independent. Upload only
+D042's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=42`
+before the serialized Worker deployment.
+
 Reconciled with main `84a214f310008155ad22dd8a80e1ed8afd786ab4` (D014, D012 and the
 D001/D002/D003 audit cleanup) and D013, the union contains 16 chapters, 168 stanza
 rows, 342 review media inputs, and 174 selected generated images (69 historical and
-not cleared, 105 individually inspected).
+not cleared, 105 individually inspected). With D042 it contains 17 chapters, 179
+rows, 364 review media inputs, and 185 generated selections (69 historical, 116
+individually inspected).
 The managed D014 review passed all ten leads, including the S005 v003, S008 v008
 and S010 v003 repairs; earlier failed versions remain recorded as history. These
 totals must be recalculated if the base advances.

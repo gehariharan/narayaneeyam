@@ -1,0 +1,530 @@
+{
+  "schema_version": 1,
+  "daskam_id": 42,
+  "slug": "d042",
+  "review_status": "needs-review",
+  "production_scope": "Native landscape candidates only; portrait production paused. Infant-Krishna anchor v004 passed exact-version independent review as a provisional shared working identity reference; stanza art remains unapproved.",
+  "continuity": {
+    "anchor_character": "infant-krishna",
+    "recurring_witness": "nandagopan",
+    "locations": [
+      "Vraja household and kitchen courtyard",
+      "space beneath and around the wooden cart",
+      "Vraja community gathering place",
+      "quiet devotional prayer space for the closing stanza"
+    ],
+    "palette_arc": "Begin with warm household ochre and cream for the birth-star celebration; move through broken-wood ochres and deep maroon contours during the alarm; settle into calm indigo-blue, muted foliage and warm cream as the family and community reassure the child.",
+    "narrative_arc": "Yashoda prepares the birth-star celebration; the cart breaks; Vraja adults arrive and debate the cause; the women check the infant; Nanda embraces him; the hidden cart demon is released; blessings and Bhattathiri’s prayer close the chapter.",
+    "notes": "Keep Krishna as the same two-armed infant throughout D042; no four-armed form is specified in this chapter. Shared infant identity reference: artifacts/d042/references/shared/infant-krishna-anchor-v004.png, SHA-256 02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d; exact-version independent review passed for provisional working use only, with proof copied under artifacts/d042/references/proofs/. Nandagopan and Yashoda use the common provisional adult cues in artifacts/d042/references/shared/shared-supporting-cast-handoff.json, SHA-256 284a1043d1dd63dd4dada9266b6be13a20102b253eb2f4d386912977d943ecb7: Nandagopan is one mature warm medium-brown man with gently rounded/oval face, dark moustache, simply gathered/covered dark hair, calm protective expression, cream dhoti and muted olive/green upper cloth or head covering; Yashoda is one adult warm medium-brown mother with gentle oval face, expressive dark eyes, dark hair parted and gathered under a simple sari veil, warm cream/soft saffron or muted rose sari with restrained olive/blue accents and modest jewelry. Shared identity-only source is artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg, SHA-256 1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f; do not copy its glossy finish, jewelry, camera angle, or pose. Their scene-specific gestures follow D042. Gopikas, gopas, guard boys, Brahmins and Chakatasura have no dedicated approved sheets; use chapter photos only as provisional cast/context references. Bhattathiri uses the exact older clean-shaven reference path under artifacts/d042/references/shared/ with SHA ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3. Source photographs are input-only, with unknown rights; do not copy their exact compositions or finishes. S011 includes Brahmin blessings and infant Krishna childhood play; it is not an independent narrator-only scene."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d042-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "yashoda",
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D042/001.jpg",
+        "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png",
+        "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "celebration-day placement",
+        "must_show": [
+          "Yashoda arranging a modest birth-star-day meal and guest preparations in the Vraja household",
+          "A small two-armed infant Krishna resting in a cloth cradle beneath a sturdy wooden cart",
+          "Yashoda turns back toward the nearby kitchen/feast work while the child remains safe"
+        ],
+        "composition": "Keep the cradle and cart clear and believable; let the household preparations frame, not overwhelm, the child.",
+        "tone": "domestic tenderness with a quiet note of foreshadowing",
+        "avoid": [
+          "palace interiors",
+          "modern furniture",
+          "oversized cart",
+          "crowded feast clutter",
+          "readable text"
+        ]
+      },
+      "alt": "Celebration-day placement",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Keep the cradle and cart clear and believable; let the household preparations frame, not overwhelm, the child."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 2,
+      "concept_id": "d042-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "guard-boys",
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D042/002.jpg",
+        "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "cries and breaking wood",
+        "must_show": [
+          "Two or three guard boys reacting in fear as sharp cracking sounds come from the cart",
+          "Wooden cart pieces splitting and falling around the cradle without striking Krishna",
+          "The infant remains visible and unharmed below the cart"
+        ],
+        "composition": "Use the boys’ alarm and the broken cart beams to convey the sudden sound; keep the baby protected and unobscured.",
+        "tone": "sudden alarm without injury",
+        "avoid": [
+          "injured child",
+          "violent collapse",
+          "unrelated demon figure",
+          "wood covering the infant",
+          "readable text"
+        ]
+      },
+      "alt": "Cries and breaking wood",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Use the boys’ alarm and the broken cart beams to convey the sudden sound; keep the baby protected and unobscured."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 3,
+      "concept_id": "d042-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "gopikas",
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D042/003.jpg",
+        "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "gopikas arrive at the wreckage",
+        "must_show": [
+          "Gopikas rushing toward the sound and seeing Krishna safe among large broken cart pieces",
+          "The baby lies calmly and unharmed in the cloth cradle",
+          "A few women’s faces show fear changing to relief"
+        ],
+        "composition": "Keep the infant as the focal point within a clear ring of broken wooden cart parts; avoid a chaotic debris field.",
+        "tone": "startled concern and relief",
+        "avoid": [
+          "injured infant",
+          "debris obscuring the child",
+          "duplicate infant",
+          "readable text"
+        ]
+      },
+      "alt": "Gopikas arrive at the wreckage",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Keep the infant as the focal point within a clear ring of broken wooden cart parts; avoid a chaotic debris field."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 4,
+      "concept_id": "d042-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "gopas",
+        "brahmins",
+        "yashoda",
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D042/004.jpg",
+        "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png",
+        "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "Nanda and elders find Krishna safe",
+        "must_show": [
+          "Nandagopan, gopas and Brahmins arrive quickly, worried about the child",
+          "Yashoda holds the safe infant in her arms",
+          "The adults’ tearful faces and softened posture show their relief"
+        ],
+        "composition": "Compose a close gathering around Yashoda and the infant, with Nandagopan and the Brahmins readable but secondary.",
+        "tone": "anxiety turning to relief",
+        "avoid": [
+          "an adult blocking the infant",
+          "a celebratory procession instead of the emergency arrival",
+          "crowd duplication",
+          "readable text"
+        ]
+      },
+      "alt": "Nanda and elders find krishna safe",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose a close gathering around Yashoda and the infant, with Nandagopan and the Brahmins readable but secondary."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 5,
+      "concept_id": "d042-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D042/005.jpg",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "astonishment at the broken cart",
+        "must_show": [
+          "Several gopas studying the shattered cart with hands raised to their noses in amazement",
+          "The cart lies broken with no visible attacker or obvious cause",
+          "Their gaze and gestures express the question of how it happened"
+        ],
+        "composition": "Make the puzzled men and the broken cart the subject; keep any divine cause absent from view.",
+        "tone": "bewilderment and wonder",
+        "avoid": [
+          "visible demon",
+          "a second attack",
+          "boys explaining the event",
+          "readable text"
+        ]
+      },
+      "alt": "Astonishment at the broken cart",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Make the puzzled men and the broken cart the subject; keep any divine cause absent from view."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the named human cast and action specific to this D042 stanza. Preserve the matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 6,
+      "concept_id": "d042-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "guard-boys",
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D042/006.jpg",
+        "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "boys explain the infant’s kick",
+        "must_show": [
+          "The young guards explaining that Krishna cried for milk and struck the cart with his lotus-like feet",
+          "A single infant Krishna is safe and near the broken cart",
+          "The boys’ gestures point gently between the cart and the infant’s feet"
+        ],
+        "composition": "Show the boys telling what they saw rather than inserting a second ghosted baby or a separate action panel.",
+        "tone": "childlike testimony and astonishment",
+        "avoid": [
+          "a second baby",
+          "a large adult demon replacing the boys’ account",
+          "injury",
+          "readable text"
+        ]
+      },
+      "alt": "Boys explain the infant’s kick",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Show the boys telling what they saw rather than inserting a second ghosted baby or a separate action panel."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 7,
+      "concept_id": "d042-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "gopas",
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D042/007.jpg",
+        "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "doubt and remembered precedent",
+        "must_show": [
+          "Some gopas skeptically discuss the boys’ difficult-to-believe account",
+          "A few others appear thoughtful because they remember the earlier Putana episode",
+          "The infant remains safe in the household setting"
+        ],
+        "composition": "Use contrasting gestures within one small conversation group; suggest remembered precedent through expression only, not a separate flashback.",
+        "tone": "skepticism balanced by reverent uncertainty",
+        "avoid": [
+          "literal Putana battle inset",
+          "men mocking the child",
+          "multiple scene panels",
+          "readable text"
+        ]
+      },
+      "alt": "Doubt and remembered precedent",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Use contrasting gestures within one small conversation group; suggest remembered precedent through expression only, not a separate flashback."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 8,
+      "concept_id": "d042-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "gopikas",
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D042/008.jpg",
+        "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "gopikas check hands and feet",
+        "must_show": [
+          "Concerned gopikas gently examine the infant’s hands and feet",
+          "The hands and feet look naturally formed and uninjured",
+          "Krishna is calm and comforted as the women touch him carefully"
+        ],
+        "composition": "Use a close, tender composition that makes the gentle examination legible without enlarging or distorting the limbs.",
+        "tone": "compassionate care",
+        "avoid": [
+          "visible wounds",
+          "rough handling",
+          "extra fingers or toes",
+          "readable text"
+        ]
+      },
+      "alt": "Gopikas check hands and feet",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Use a close, tender composition that makes the gentle examination legible without enlarging or distorting the limbs."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 9,
+      "concept_id": "d042-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "yashoda",
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D042/009.jpg",
+        "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png",
+        "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "Nanda embraces Krishna",
+        "must_show": [
+          "Nandagopan receives the infant from Yashoda and hugs him close",
+          "He embraces the child repeatedly, overcome with protective affection",
+          "Yashoda remains nearby as a witness"
+        ],
+        "composition": "Center the father-child embrace and keep both faces visible; suggest repeated embraces through closeness and expression, not duplicate figures.",
+        "tone": "protective tenderness and gratitude",
+        "avoid": [
+          "multiple copies of Krishna",
+          "a formal throne scene",
+          "exaggerated anguish",
+          "readable text"
+        ]
+      },
+      "alt": "Nanda embraces krishna",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Center the father-child embrace and keep both faces visible; suggest repeated embraces through closeness and expression, not duplicate figures."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 10,
+      "concept_id": "d042-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "chakatasura-cart-form"
+      ],
+      "reference_paths": [
+        "intake/D042/010.jpg",
+        "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+        "artifacts/d042/references/shared/style-d001-s004.png",
+        "artifacts/d042/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "cart-demon released into the Lord",
+        "must_show": [
+          "The shattered cart is the clear earthly trace of the attack",
+          "A restrained dark shadow within the cart’s form dissolves into Krishna’s calm blue radiance",
+          "No demon body or dust remains, reflecting the stanza’s purified release"
+        ],
+        "composition": "Keep the supernatural sign subtle and nonviolent: the cart form and dissolving shadow must not compete with the safe infant.",
+        "tone": "awe, purification and release",
+        "avoid": [
+          "graphic violence",
+          "dismemberment",
+          "a demon corpse",
+          "an adult demon attacking in the foreground",
+          "readable text"
+        ]
+      },
+      "alt": "Cart-demon released into the lord",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Keep the supernatural sign subtle and nonviolent: the cart form and dissolving shadow must not compete with the safe infant."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    },
+    {
+      "n": 11,
+      "concept_id": "d042-s011",
+      "review_status": "needs-review",
+      "characters": [
+        "brahmins",
+        "infant-krishna",
+        "yashoda",
+        "bhattathiri-older",
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D042/011.jpg",
+        "artifacts/d042/references/shared/bhattathiri-older-selected-v001.png",
+        "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+        "artifacts/d042/references/shared/guruvayurappan-approved-v001.png",
+        "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "blessings and closing prayer",
+        "must_show": [
+          "Brahmins give auspicious blessings to the safe infant Krishna in Vraja",
+          "The infant’s gentle presence draws the household community into joy",
+          "Older clean-shaven Bhattathiri prays to Guruvayurappan for relief from illness"
+        ],
+        "composition": "Make the blessing scene primary and place Bhattathiri’s prayer as a quiet foreground witness or devotional framing presence; retain a single narrative space without a montage.",
+        "tone": "blessing, childhood joy and supplication",
+        "avoid": [
+          "generic young narrator",
+          "missing infant or Brahmins",
+          "multiple copies of Krishna",
+          "readable text",
+          "modern temple objects"
+        ]
+      },
+      "alt": "Blessings and closing prayer",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Make the blessing scene primary and place Bhattathiri’s prayer as a quiet foreground witness or devotional framing presence; retain a single narrative space without a montage."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait composition is planned separately; preserve the same event and cast, with a new vertical arrangement rather than cropping. Portrait production remains paused."
+        }
+      },
+      "reference_guidance": "Use the chapter-numbered photograph only as provisional scene context. Keep the infant identity anchored to exact shared v004. Where Nandagopan or Yashoda appears, use the common adult source only for face, hair, age and clothing cues. Preserve this D042 action and matte mineral finish; do not copy reference staging, camera angle or glossy rendering."
+    }
+  ]
+}

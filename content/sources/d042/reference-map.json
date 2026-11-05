@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "daskam_id": 42,
+  "status": "numbered_source_mapping_recorded_needs_visual_editorial_review",
+  "mapping_basis": "T7 shared-reference handoff records image N to caption entry N and canonical stanza N after independent Stotra Nidhi alignment; source files were copied byte-exact into this isolated worktree.",
+  "source_photo_role": "User-supplied chapter photo; subject/cast/composition input only, unknown rights; not generated art or approval.",
+  "sources": {
+    "captions": "intake/D042/photo-captions.txt",
+    "canonical_sanskrit": "https://stotranidhi.com/hi/narayaneeyam-dasakam-42-in-sanskrit/",
+    "canonical_romanization": "https://stotranidhi.com/en/narayaneeyam-dasakam-42-in-english/"
+  },
+  "references": [
+    {
+      "stanza": 1,
+      "caption_entry": 1,
+      "path": "intake/D042/001.jpg",
+      "sha256": "ba905a9c5853b477fda0602fa7477847d709434925a1c1fcd2a6a4cc3f73e5ac",
+      "visual_observation": "Yashoda bends beside a cloth cradle under a wooden cart; two boys are near the infant.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 2,
+      "caption_entry": 2,
+      "path": "intake/D042/002.jpg",
+      "sha256": "c0497fa73076144c70d595f76dc5fea924804f647649d1864700ae7996be8be2",
+      "visual_observation": "A field of airborne broken wooden pieces against blue; no people shown.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 3,
+      "caption_entry": 3,
+      "path": "intake/D042/003.jpg",
+      "sha256": "2494789105e4ff174a3e8aa02e409153eba9e298606f68c27faf61a4e69399bf",
+      "visual_observation": "A household gathering around a broken cart with women and the infant visible.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 4,
+      "caption_entry": 4,
+      "path": "intake/D042/004.jpg",
+      "sha256": "58a0396e159b1ffefecedda23f294b1fd7f16c9bda82596d636442122d88bc7d",
+      "visual_observation": "A close group of women with a baby; no Nandagopan is clearly represented.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 5,
+      "caption_entry": 5,
+      "path": "intake/D042/005.jpg",
+      "sha256": "dc4d2708af09e1a75c54cdc7e1472f9b13153019a0b0b88d6cf602968fbf455f",
+      "visual_observation": "A garden/woodland scene with women and birds; it does not directly show the gopas’ cart puzzle, so do not transfer its literal scene.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 6,
+      "caption_entry": 6,
+      "path": "intake/D042/006.jpg",
+      "sha256": "d1754a0591a961350dc8788b9fe4cf33def0527ba74bb260261ab9a145d3fa8e",
+      "visual_observation": "A man and cart with an infant below; use only as chapter context, not as replacement for the boys’ spoken account.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 7,
+      "caption_entry": 7,
+      "path": "intake/D042/007.jpg",
+      "sha256": "46c1f91a914459c37d61e1cfeabe744beec3bfda5cff830285a9aa0ec85aba34",
+      "visual_observation": "A cropped crowd beside a damaged cart, visually close to the earlier gathering image; do not reproduce its exact crowd framing.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 8,
+      "caption_entry": 8,
+      "path": "intake/D042/008.jpg",
+      "sha256": "c8009d2160bfe892e0394078b4377db0acd5edc3b370046b56670397fef1eb80",
+      "visual_observation": "A multi-panel infant/mother collage; input only, not a production composition.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 9,
+      "caption_entry": 9,
+      "path": "intake/D042/009.jpg",
+      "sha256": "0662a62e85996231cdf39b3388b19f2c0fc907547874b01ad7ba413c9ec637fe",
+      "visual_observation": "A two-image family/infant collage; use only age and family-context cues.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 10,
+      "caption_entry": 10,
+      "path": "intake/D042/010.jpg",
+      "sha256": "a9e841045c3554286d491ecffe16fe29f710691bac6ccb33eac5892a6764e98b",
+      "visual_observation": "A broken cart, infant and men in the surrounding scene; retain canonical cart-form demon account without copying the composition.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    },
+    {
+      "stanza": 11,
+      "caption_entry": 11,
+      "path": "intake/D042/011.jpg",
+      "sha256": "23dbc6a7d7e1b3a5ea700be58195de3dd7fa44a52146776df01955aabed20a7e",
+      "visual_observation": "A ceremonial gathering around a baby; useful as a blessing-ritual cue, not literal placement.",
+      "use_rule": "Retain numeric association; do not use visually mismatched elements to override canonical stanza or caption."
+    }
+  ]
+}

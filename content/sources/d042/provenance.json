@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "daskam_id": 42,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-05",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-42-in-sanskrit/",
+      "retrieval_note": "Eleven Devanagari verses 42-1 through 42-11 transcribed from the publisher chapter page; chapter-end marker follows verse 11."
+    },
+    {
+      "role": "romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-42-in-english/",
+      "retrieval_note": "Eleven IAST verses 42-1 through 42-11 transcribed from the publisher chapter page; source line-break hyphenation retained."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired; no translation invented or substituted."
+    },
+    {
+      "role": "commentary",
+      "path": "intake/D042/photo-captions.txt",
+      "sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+      "status": "user-supplied photo captions copied verbatim into commentary fields; not treated as translation."
+    }
+  ],
+  "intake_manifest": "content/sources/d042/reference-map.json",
+  "note": "Sanskrit and IAST remain distinct from user-supplied English captions. Human review remains required for source text, romanization, captions, and scene interpretation.",
+  "visual_references": [
+    {
+      "role": "provisional-infant-identity",
+      "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+      "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+      "source_prompt_path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.prompt.txt",
+      "source_prompt_sha256": "d40aa912630b0d93faf3c7526ac8698654278ce9e61de3e7df2b404bdc1492ec",
+      "independent_review_path": "artifacts/d042/references/proofs/infant-anchor-v004-review.json",
+      "independent_review_sha256": "f2129ba16afdd7e187728401dd752e6076d607950436ffba27440e6730c0f1f5",
+      "status": "passed for provisional shared working identity; not a stanza-art or master approval"
+    },
+    {
+      "role": "shared-provisional-adult-identity-only",
+      "path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+      "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+      "handoff_path": "artifacts/d042/references/shared/shared-supporting-cast-handoff.json",
+      "handoff_sha256": "284a1043d1dd63dd4dada9266b6be13a20102b253eb2f4d386912977d943ecb7",
+      "use": "Nandagopan and Yashoda face, hair, age and clothing cues only; no borrowed pose, staging, camera angle or glossy finish"
+    }
+  ]
+}
