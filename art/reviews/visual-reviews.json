@@ -6874,11 +6874,11 @@
       "file": "artifacts/d014/s001/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "a68e77871683d29c6b38b03c58139e1e486cf775cb85f5a0b799f06b5d1d8e1e",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:42:46Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "anatomy_basis": "Manu is the only person: one head, two arms joined in anjali and one ordinary seated body; the blue feet in the thought-cloud and the shrine footprints are symbolic divine feet, not a second figure.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -6887,41 +6887,110 @@
         {
           "path": "art/plans/d014.json",
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
+        },
+        {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s001-v001-review-v001.md",
-          "sha256": "dab560357c06e8877287b1ed20aacd75a0f068915570d1a46762f16ce6dd040e"
+          "path": "art/reviews/d014-s001-v001-final-managed-review-v001.md",
+          "sha256": "3e255d7fda6a8c20508d7477088269f32da7e44a5a4ff6d0d5d0b1dc9d2741de"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "One ordinary sage sits with both hands joined and bare feet visible; the separate divine feet are symbolic and not a second person."
+          "observations": "Both forearms end in palms pressed together, each with distinct fingers and a thumb; one bare foot with five toes rests on the mat while the other stays tucked inside the dhoti in the cross-legged pose. The two blue feet in the thought-cloud wear anklets and stand on a lotus as a symbolic vision."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "The sage’s shoulders join the two forearms; folded legs and visible foot follow one seated body."
+          "observations": "Rudraksha armlets mark both upper arms; shoulders, elbows and forearms run continuously into the joined hands, and the folded legs form one lap under the cream dhoti."
         },
         "faces": {
           "status": "pass",
-          "observations": "The single bearded devotee’s face is distinct, eyes closed in prayer; no second face appears."
+          "observations": "One face: white beard and moustache, closed eyes, urdhva-pundra tilak and a white top-knot wrapped in beads. The shrine and thought-cloud contain no face."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Only one human is depicted; the cattle and seated animals are separate animals, not fused figures."
+          "observations": "Exactly one human. The two cattle are separate, complete animals, and there is no duplicated Manu or extra sage."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "The thought-bubble icon has no lettering; no watermark, caption or signature is visible."
+          "observations": "No lettering or text-like marks on the shrine, mat, pots or thought-cloud. The source image's lower-left painter signature is not carried over."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The grove, hermitage and shrine convey the prayer scene in the established flat ochre mural style."
+          "observations": "Manu anchors the left-center under the tree, with the hermitage and lotus shrine at right and open pasture between. The flat ochre, olive and maroon fields, firm dark contours and matte grain match the D001 S004/S008 anchors, without gloss or cinematic beams. The complete seated figure sits inside the frame."
         }
       },
-      "findings": []
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D014/001.jpg",
+        "sha256": "8aace37940d88923099d18c75d1ac8354edafe32970f8c9633b5a1e33ba214bd",
+        "caption_path": "intake/D014/photo-captions.txt#001",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s001/landscape/candidate-v001.png",
+          "sha256": "a68e77871683d29c6b38b03c58139e1e486cf775cb85f5a0b799f06b5d1d8e1e",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:42:30Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s001-v001-detail-face-hands.png",
+          "sha256": "1055e46e974ea35cef0ae4c233954f893fdd2d26ff29c4dfb8827b9a4a81058f",
+          "region": "520x520+330+120",
+          "viewed_at": "2026-11-05T11:42:46Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s001-v001-detail-legs-feet.png",
+          "sha256": "2963ad713a246865cac46dc8c232f64d3b71a6eb7d4ee43f5d70a3cce23bda39",
+          "region": "680x330+250+600",
+          "viewed_at": "2026-11-05T11:42:46Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s001-v001-detail-thought-cue.png",
+          "sha256": "d3884c262f29f46c437a9fa89e7df3571451bbb192db7ef322c3e714970962f2",
+          "region": "560x560+700+0",
+          "viewed_at": "2026-11-05T11:42:46Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s001-v001-detail-shrine.png",
+          "sha256": "37101673899138df7ca30984cd05ab493dba9d09270522bc649a965bb60a8d28",
+          "region": "340x480+1330+220",
+          "viewed_at": "2026-11-05T11:42:46Z"
+        }
+      ]
     },
     {
       "chapter": 14,
@@ -6930,11 +6999,11 @@
       "file": "artifacts/d014/s002/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "1391da61c51c1e0b07ab7991206b3d5139908cea76e6eb19405fe1a949add7e9",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:43:02Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "anatomy_basis": "Kardama is the single ordinary ascetic: one head, two arms resting in jnana mudra, legs in half-lotus. The season trees are scenery.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -6943,41 +7012,103 @@
         {
           "path": "art/plans/d014.json",
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
+        },
+        {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s002-v001-review-v001.md",
-          "sha256": "2c4695004726b4d3dbd0223fb3d591a9299d10718ded2ff92cd49eb05bfa90f8"
+          "path": "art/reviews/d014-s002-v001-final-managed-review-v001.md",
+          "sha256": "648e65230ca584c1951c06320ec512050bfa6991e5787653cdb12cb12eb0c9ba"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "The seated ascetic has two arms and two visible hands; bent legs and feet are joined to his body."
+          "observations": "Both hands rest on the knees in jnana mudra: the viewer-right hand shows a thumb and four fingers with thumb and index touching, and the viewer-left hand is foreshortened with curled fingers. One upturned foot with toes lies on the opposite thigh; the other foot is under the robe."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Both arms attach at the shoulders and rest independently on the knees; body proportions remain coherent."
+          "observations": "Shoulders, elbows and wrists (each with a bead bracelet) are continuous, and the robe drapes one seated body on a round grass mat."
         },
         "faces": {
           "status": "pass",
-          "observations": "One calm young adult face is visible with no repeated or merged features."
+          "observations": "One serene, youthful, clean-shaven face with closed eyes, a tilak and long dark hair in a bead-bound bun."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Only one human figure appears; no duplicate or fused body is present."
+          "observations": "One human and no Brahma shadow-double. The season arc holds only trees."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable writing, logo, signature or watermark is visible."
+          "observations": "The arc scrollwork has no letters, numerals or clock; no signature or watermark."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The river, hermitage and meditating ascetic match the austerity scene and matte mural palette."
+          "observations": "The seasonal arc encloses the setting, not his body, as the plan specifies. Matte ochre and olive mural treatment with dark contours matches the style anchors, without gloss."
         }
       },
-      "findings": []
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D014/002.jpg",
+        "sha256": "9a1fa7663ecabe30c818d5959f6bc8a08e19c04e95889cbee8e34ec2b52dac96",
+        "caption_path": "intake/D014/photo-captions.txt#002",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s002/landscape/candidate-v001.png",
+          "sha256": "1391da61c51c1e0b07ab7991206b3d5139908cea76e6eb19405fe1a949add7e9",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:42:46Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s002-v001-detail-face.png",
+          "sha256": "3c4f2aec2af07a209d7616f0f5a9d1a396ad0977a8497b16d24d05077046f4ee",
+          "region": "520x420+300+80",
+          "viewed_at": "2026-11-05T11:43:02Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s002-v001-detail-hands-legs.png",
+          "sha256": "b7d8ca53ccdf47076e277fca7185ba7a90a52d04dc9b8b662eb5fe38af6fca10",
+          "region": "820x320+160+620",
+          "viewed_at": "2026-11-05T11:43:02Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s002-v001-detail-season-arc.png",
+          "sha256": "e73e063530968bc7a6c17abbd8537df7fc40347671f37522e4bc30d3bc17755a",
+          "region": "960x360+700+40",
+          "viewed_at": "2026-11-05T11:43:02Z"
+        }
+      ]
     },
     {
       "chapter": 14,
@@ -6986,11 +7117,11 @@
       "file": "artifacts/d014/s003/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "997a2c1226d00261c7a4f325dd6aab5e15566fc28a5ae676a3e60c0c92457bed",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:43:17Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "anatomy_basis": "Kardama has ordinary two-armed anatomy. Narayana has exactly four arms by plan, each attached at the shoulders. Garuda is one eagle-form bird with two wings and two taloned legs.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7001,43 +7132,110 @@
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
         },
         {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
+        },
+        {
           "path": "art/bible/characters/guruvayurappan/character.json",
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s003-v001-review-v001.md",
-          "sha256": "212a514387d5bd998091d0f163314202646b018cee144f89ffd257488730cd07"
+          "path": "art/reviews/d014-s003-v001-final-managed-review-v001.md",
+          "sha256": "d189519ad2fb9c50302d662f8c6d7333b40904b79ec5db44ac118a92fc49a2ba"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Kardama has two arms; Vishnu has four attached arms with distinct attributes; Garuda’s wings and bird legs are separate animal anatomy."
+          "observations": "Narayana's upper viewer-left hand balances the chakra on a raised finger, his lower viewer-left hand is in abhaya, his lower viewer-right hand holds the lotus stem and his upper viewer-right hand holds the conch. Each hand has a thumb and fingers. One blue foot with an anklet and five toes hangs below; the other leg folds across Garuda's back. Kardama's two hands are joined; his feet are under the robe. Garuda shows two sets of talons."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Kardama’s joined hands and seated limbs connect normally; Vishnu’s four arms meet his torso without fusion."
+          "observations": "All four divine arms meet the shoulders under gold armlets with no floating limb. Kardama's visible arm runs shoulder-to-hands, and Garuda's wings join its back."
         },
         "faces": {
           "status": "pass",
-          "observations": "The devotee, blue four-armed Vishnu and Garuda have separate recognizable faces/heads."
+          "observations": "Narayana's smiling blue face, peacock-feather crown, earrings and tilak follow the approved Guruvayurappan identity without copying the sheet's framing. Kardama's youthful clean-shaven face matches S002, and Garuda has one eagle head."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "One Kardama and one Vishnu appear, with Garuda as the mount; no accidental human duplicate or fused body is visible."
+          "observations": "One Narayana, one Garuda and one Kardama; no extra or merged figures."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No legible text, watermark, signature or logo appears."
+          "observations": "None observed in the full frame or crops."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Vishnu on Garuda above the praying hermitage devotee follows the plan; flat warm mural colours and contour treatment hold throughout."
+          "observations": "The lower-left to upper-right diagonal follows the plan. The halo is a modest disc, not oversized, and the flat matte surface has no reflective gold or beams."
         }
       },
-      "findings": []
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D014/003.jpg",
+        "sha256": "dbe7e238a3331eec6d0fca31df6381b1f497681b397bae13ddc7cf3b56e24f8b",
+        "caption_path": "intake/D014/photo-captions.txt#003",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/characters/guruvayurappan-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "character anchor (Guruvayurappan/Narayana)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s003/landscape/candidate-v001.png",
+          "sha256": "997a2c1226d00261c7a4f325dd6aab5e15566fc28a5ae676a3e60c0c92457bed",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:43:02Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s003-v001-detail-narayana-arms.png",
+          "sha256": "c075fad8ae2d10114eff551c125d67d7d9ca95e064386fae42b209fce6ccfe9e",
+          "region": "480x420+960+0",
+          "viewed_at": "2026-11-05T11:43:17Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s003-v001-detail-legs-garuda-talons.png",
+          "sha256": "917efe7e6a4c1614c3e6afbdcd3367852132c31b32994762760c9ebee69c4482",
+          "region": "600x380+960+300",
+          "viewed_at": "2026-11-05T11:43:17Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s003-v001-detail-kardama.png",
+          "sha256": "85dbc8532566272b533bdc7ce25351616c39ac98eb36d4c97001f2e96ab0324f",
+          "region": "480x540+120+400",
+          "viewed_at": "2026-11-05T11:43:17Z"
+        }
+      ]
     },
     {
       "chapter": 14,
@@ -7046,11 +7244,11 @@
       "file": "artifacts/d014/s004/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "b27f933e868236bc9fc8da2d6ddf5bc2cb4a75137e3b3d53fa532a00960241e7",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:43:38Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "anatomy_basis": "Narayana has four attached arms by plan. Kardama has ordinary two-armed anatomy. The small Devahuti bust and infant in the promise cloud are framed symbolic vignettes.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7059,6 +7257,18 @@
         {
           "path": "art/plans/d014.json",
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
+        },
+        {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
         },
         {
           "path": "art/bible/characters/guruvayurappan/character.json",
@@ -7067,37 +7277,99 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s004-v001-review-v001.md",
-          "sha256": "2a192f65c25fa0e888fd9f5a7393b276354be63911630c2018d18b80e97ec1a0"
+          "path": "art/reviews/d014-s004-v001-final-managed-review-v001.md",
+          "sha256": "62880e8c7b7432728da4bb14a1533e0a6e3b0fcb3d0f6ec7c8c0c331aa187653"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Vishnu has four attached arms; Kardama has ordinary two-arm anatomy. The small infant emblem is symbolic and separately formed."
+          "observations": "Narayana's upper viewer-left hand holds the chakra on a short stem, his lower viewer-left hand is in abhaya, his upper viewer-right hand holds the conch and his lower viewer-right palm is open toward Kardama; all have a thumb and fingers. One blue foot with an anklet and five toes rests on the lotus. Kardama's hands are joined and one foot shows under the robe."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Vishnu’s arms meet his shoulders and the devotee’s folded limbs remain coherent; the symbolic profiles do not overlap bodies."
+          "observations": "All four divine arms meet the shoulders under armlets, and Kardama's two arms run from his shoulders to his joined hands."
         },
         "faces": {
           "status": "pass",
-          "observations": "Vishnu, the small Devahuti profile and infant symbol have distinct faces; no extra facial marks are present."
+          "observations": "Narayana matches the approved identity: blue face, peacock-feather crown, gentle smile. Kardama is the same youthful clean-shaven ascetic with a tilak and bun as in S002/S003. The vignette faces are small and enclosed in cloud cartouches."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The nine lotus buds and symbolic portraits are separate from one Vishnu and one Kardama; no accidental duplicate appears."
+          "observations": "One Narayana and one Kardama. I counted exactly nine buds, and the vignettes are clearly symbolic, not present-day people."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "The symbols are image marks only, with no readable text or branding."
+          "observations": "No text, labels or prophecy scroll."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The central blessing composition, nine buds and restrained symbolic imagery match the stanza plan and matte palette."
+          "observations": "A calm focal pair with symbols in the background, as planned. Pillar and lotus ornament stay restrained, in matte style consistent with the D001 anchors."
         }
       },
-      "findings": []
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D014/004.jpg",
+        "sha256": "f0867556498df9d0f7862c0fee96f52a54ef8d74520279d854465b7e21106418",
+        "caption_path": "intake/D014/photo-captions.txt#004",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/characters/guruvayurappan-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "character anchor (Guruvayurappan/Narayana)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s004/landscape/candidate-v001.png",
+          "sha256": "b27f933e868236bc9fc8da2d6ddf5bc2cb4a75137e3b3d53fa532a00960241e7",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:43:17Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s004-v001-detail-narayana-arms.png",
+          "sha256": "b372e4642eefc6b474de02aa4e9e4d11336de4e00a1508200cacd14c07d62810",
+          "region": "700x620+120+0",
+          "viewed_at": "2026-11-05T11:43:38Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s004-v001-detail-narayana-legs-lotus.png",
+          "sha256": "3c6dc0575cfa51e32f22a0cd6047f1489ac28be53e9c1997d377cb6139613a00",
+          "region": "760x360+60+580",
+          "viewed_at": "2026-11-05T11:43:38Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s004-v001-detail-kardama.png",
+          "sha256": "558925f961a8205f5b22aad46adb507f8816febd8b0534e375606cd622260b93",
+          "region": "480x680+1192+261",
+          "viewed_at": "2026-11-05T11:43:38Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s004-v001-detail-promise-symbols.png",
+          "sha256": "136766d084988d734295a0f43c04d9c4ecf98f83fcc9e47ebaafd6d4fc50cff4",
+          "region": "880x640+630+0",
+          "viewed_at": "2026-11-05T11:43:38Z"
+        }
+      ]
     },
     {
       "chapter": 14,
@@ -7106,11 +7378,11 @@
       "file": "artifacts/d014/s005/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "27510d90ddddcaa5eadfbb62c42ca4ae2f899b68099212474f865ddb987b5ff9",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:43:56Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Exactly four ordinary humans: Manu, Shatarupa, Devahuti and Kardama. Each has one head and two arms.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7119,41 +7391,112 @@
         {
           "path": "art/plans/d014.json",
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
+        },
+        {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s005-v002-review-v001.md",
-          "sha256": "d1c45e0cd21fdc0955487cbda8d6f22197e54bddd50b08c104b42997d25a0fb2"
+          "path": "art/reviews/d014-s005-v002-final-managed-review-v001.md",
+          "sha256": "145f8e94d48edb22ee2acc90a4e327520e37efa46db46340f39fc472de1ca9d3"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Four adults are present: Manu, Shatarupa, Devahuti and Kardama. Each shows ordinary two-arm anatomy and attached hands and feet."
+          "observations": "Each visitor has two forearms ending in joined palms, and Kardama has two open hands with a thumb and four fingers. All eight feet are visible, two per person, each with five toes."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "The three visitors’ shoulders and joined forearms remain separate; Kardama’s two open arms connect to his torso."
+          "observations": "Arms meet the shoulders under armlets or cloth folds; the three visitors overlap but stay separable, and Kardama's two arms are continuous."
         },
         "faces": {
           "status": "pass",
-          "observations": "All four faces are visible and distinct; Kardama’s warm-brown human appearance has no deity colouring or attributes."
+          "observations": "Four distinct faces: Manu is grey-bearded and crowned; the two women differ in hair ornaments and age; Kardama is bearded."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The four people occupy separate silhouettes with no duplicated face or fused bodies."
+          "observations": "Exactly four people with no merged bodies, and no fifth person or deity."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No text, signature, logo or watermark is visible."
+          "observations": "None observed."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The respectful family meeting at the hermitage matches the caption context and the series’ flat ochre-and-maroon mural treatment."
+          "status": "needs-fix",
+          "observations": "Kardama appears as a mature man with a full beard and moustache and no tilak. In S002, S003, S004, S006, S007 and S008 he is a youthful clean-shaven ascetic with long dark hair in a bun. The plan's continuity rule requires Kardama to stay visually consistent, and this stanza falls between S004 and S006 with no narrative reason for a beard, so viewers will read him as a different sage. Composition and style otherwise follow the plan."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D014-S005-KARDAMA-IDENTITY-V002",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Kardama is drawn as a mature, full-bearded sage without a tilak, inconsistent with his youthful clean-shaven identity in S002-S004 and S006-S008.",
+          "repair": "Generate a fresh S005 version that keeps the four-person arrival composition but gives Kardama the chapter's youthful clean-shaven identity (as in S004/S006), then re-run the managed individual review."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D014/005.jpg",
+        "sha256": "4bc89c261e960f40e2cbbe5e9f8398f65af988312e26e84a468259d4dde06626",
+        "caption_path": "intake/D014/photo-captions.txt#005",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s005/landscape/candidate-v002.png",
+          "sha256": "27510d90ddddcaa5eadfbb62c42ca4ae2f899b68099212474f865ddb987b5ff9",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:43:38Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s005-v002-detail-visitors-faces-hands.png",
+          "sha256": "d9eedd8d572d604a7bf0b354cd8f53e14090318a6d06d83af1791fb111121091",
+          "region": "760x420+40+40",
+          "viewed_at": "2026-11-05T11:43:56Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s005-v002-detail-visitors-feet.png",
+          "sha256": "c4fe2958b86c86f2c5acc202f771e0b28c005ba5ea94e3dfcd907e82316912e2",
+          "region": "760x260+40+680",
+          "viewed_at": "2026-11-05T11:43:56Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s005-v002-detail-kardama.png",
+          "sha256": "ca81dd6bd4ac3558cf311c0ace9ff1dec31be602f6299efe64d787e6a607eef6",
+          "region": "520x941+920+0",
+          "viewed_at": "2026-11-05T11:43:56Z"
+        }
+      ]
     },
     {
       "chapter": 14,
@@ -7162,11 +7505,11 @@
       "file": "artifacts/d014/s006/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "d3c0376a82c5a4218a620bc3b8ae7e1df0bdaf19201bf032c173cd5fe626baa0",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:44:12Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "anatomy_basis": "Exactly two ordinary humans, Kardama and Devahuti, each with one head and two arms; no deity appears.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7175,41 +7518,103 @@
         {
           "path": "art/plans/d014.json",
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
+        },
+        {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s006-v003-review-v001.md",
-          "sha256": "2e9072ead871000162e0d32d8787db9bf16a27e92775ba13c37cc330d751a553"
+          "path": "art/reviews/d014-s006-v003-final-managed-review-v001.md",
+          "sha256": "78fe2fc15b94742605eb0fa86e9999348ca507a5f816254920daf0fccf355d3f"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Two ordinary adults are present. Kardama’s praying hands and Devahuti’s vessel-holding hands are visible; both bodies show two arms and seated legs."
+          "observations": "Kardama's two hands press together in anjali; his near arm carries a bead armlet and the far forearm meets at the palms. Devahuti cradles the pot in two hands with bangles and distinct fingers. Both sit with legs folded under cloth, so their feet are covered."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Both adults’ arms join at the shoulders; Devahuti’s two hands support the vessel without a detached wrist. No deity or idol is depicted."
+          "observations": "Shoulder-to-hand continuity is clear for both. Kardama's cross-legged lap is one mass, and Devahuti's kneeling sari drapes one body."
         },
         "faces": {
           "status": "pass",
-          "observations": "Each adult has one clear face with normal features; no face is embedded in the empty shrine."
+          "observations": "Two distinct profiles: Kardama clean-shaven with eyes closed, Devahuti smiling with eyes open."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Only Kardama and Devahuti appear; the lotus is an offering, not a figure, and neither body is duplicated or fused."
+          "observations": "One couple with no duplicate and no fusion."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable text, logo, signature or watermark appears."
+          "observations": "None; the shrine holds only a lotus."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The forest home, empty shrine and lotus preserve worship and service in the restrained matte mural style."
+          "observations": "Worship and service in one hermitage moment with warm mutual regard and no wedding spectacle. Matte ochre and maroon treatment with firm contours matches the anchors."
         }
       },
-      "findings": []
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D014/006.jpg",
+        "sha256": "2ef2126c520f22477c1bd9da6197d1c4bd54a59362ce81ed639a05ea515896be",
+        "caption_path": "intake/D014/photo-captions.txt#006",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s006/landscape/candidate-v003.png",
+          "sha256": "d3c0376a82c5a4218a620bc3b8ae7e1df0bdaf19201bf032c173cd5fe626baa0",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:43:56Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s006-v003-detail-kardama-face-hands.png",
+          "sha256": "9998244cda9093a6e57618bac1d019b9377bd3cd757744e10feb0fede682c72a",
+          "region": "560x500+240+100",
+          "viewed_at": "2026-11-05T11:44:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s006-v003-detail-kardama-legs.png",
+          "sha256": "8a7136a7171431dd71b4d7f51897c62b0a327175b31f9a73b5bba3fd072e7d37",
+          "region": "700x300+160+620",
+          "viewed_at": "2026-11-05T11:44:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s006-v003-detail-devahuti-vessel.png",
+          "sha256": "abdd3b3e014e9f982704a6b4c79dff3f4cf469d02ad6936910674dd29e575c22",
+          "region": "700x700+940+220",
+          "viewed_at": "2026-11-05T11:44:12Z"
+        }
+      ]
     },
     {
       "chapter": 14,
@@ -7218,11 +7623,11 @@
       "file": "artifacts/d014/s007/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "59407aafa8165ee874a98513553009a5ae0f03438819efd4e94da31bcc94427e",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:44:28Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "anatomy_basis": "Six ordinary humans: the couple plus exactly four women attendants, each with one head; no deity attributes on Kardama.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7231,41 +7636,96 @@
         {
           "path": "art/plans/d014.json",
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
+        },
+        {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s007-v003-review-v001.md",
-          "sha256": "42a003b60c4d83e273a9d7e1fa538224daf0132b3e655f24353200c54ff4959c"
+          "path": "art/reviews/d014-s007-v003-final-managed-review-v001.md",
+          "sha256": "7d686965808fa3a866d669b576d225f873cb8430fc87ff2f1491a736a520c873"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Exactly six ordinary humans are visible: Kardama, Devahuti and four attendants. Each has two arms; attendants’ hands and visible feet remain attached."
+          "observations": "Kardama gestures with one hand and rests the other on his knee; Devahuti rests her chin on one hand with the other on her lap. Attendant 1 joins both hands, attendant 2 holds a lotus with two hands, attendant 3 raises one open hand, and attendant 4 holds a palm fan in one hand. The balcony rails hide all feet."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Kardama’s gesturing and resting arms join naturally; Devahuti’s hand-to-chin and resting arm are separate; attendants remain distinct behind the rail."
+          "observations": "All visible arms meet shoulders; the couple's seated bodies read clearly against the cushions."
         },
         "faces": {
           "status": "pass",
-          "observations": "All six human faces are individually visible and distinct; Kardama is warm-brown and has no deity attributes."
+          "observations": "Six distinct faces, each with one head. Kardama is warm brown and clean-shaven, without crown, blue skin or peacock feather, as the plan requires."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The couple and four attendants remain separate figures; no tiny niche silhouettes, extra people or duplicate identities appear."
+          "observations": "Exactly 2 + 4 people with no extra Kardama or Devahuti, and no tiny figures hidden in niches."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No writing, logo, signature or watermark is present."
+          "observations": "None observed."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The mythic vimana and couple with attendants in open balconies read as a celestial journey in the established mural palette."
+          "observations": "The vimana is mythic carved architecture, not an aircraft. The clouds are stylised and the palette matte without metallic shine."
         }
       },
-      "findings": []
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D014/007.jpg",
+        "sha256": "df7eb744eebff23cfd17679b988a22a1b2835f1db8222fb72f1e1d265ef41151",
+        "caption_path": "intake/D014/photo-captions.txt#007",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s007/landscape/candidate-v003.png",
+          "sha256": "59407aafa8165ee874a98513553009a5ae0f03438819efd4e94da31bcc94427e",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:44:12Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s007-v003-detail-attendants.png",
+          "sha256": "449ead551d88a32804d6f8a1475667e569feb28da874636e69434d0ae864f90e",
+          "region": "500x240+120+270",
+          "viewed_at": "2026-11-05T11:44:28Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s007-v003-detail-couple.png",
+          "sha256": "b45949e13ef599c176fde2fa4d886aeef2619f93cd3fd324c4f3cd96cead70a4",
+          "region": "640x360+680+190",
+          "viewed_at": "2026-11-05T11:44:28Z"
+        }
+      ]
     },
     {
       "chapter": 14,
@@ -7274,11 +7734,11 @@
       "file": "artifacts/d014/s008/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "6b11fea7c82592a46077f194c437a4fab555473fa1537a9b1531fae9ec54d138",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:44:43Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Eleven ordinary humans: Devahuti, nine daughters (five in the back row, four in front) and Kardama, each with one head and two arms where visible.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7287,41 +7747,112 @@
         {
           "path": "art/plans/d014.json",
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
+        },
+        {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s008-v002-review-v001.md",
-          "sha256": "f4a77dc50622df5043de5c5dfb9afd1287810a255388804281f9e835860b5d42"
+          "path": "art/reviews/d014-s008-v002-final-managed-review-v001.md",
+          "sha256": "3e1bf9b9b6196d1b3bced9dfa82251aa05083150263d794a30ad0a64cbe983f8"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Exactly nine daughters plus Devahuti and Kardama are shown. Each has two arms; the nine are distinct, with no extra daughter."
+          "observations": "The four front-row daughters each rest two hands on their laps; back-row arms are visible to the elbow, with hands behind the front row. Devahuti's two hands are joined. Kardama has one open hand and one hand gripping the staff, and two feet with toes. The women's feet are under their saris."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "The nine seated figures’ visible shoulders, arms and hands connect cleanly; Devahuti and Kardama remain separate from the group."
+          "observations": "Shoulders carry armlets and forearms continue to the hands; no detached or extra limbs."
         },
         "faces": {
-          "status": "pass",
-          "observations": "All eleven faces are visible and individualized; Kardama is an ordinary human with no deity attributes."
+          "status": "needs-fix",
+          "observations": "All nine daughters share one repeated drawn face: the same three-quarter profile, eye shape, smile, center-parted hairline, jasmine cluster on the same side and round earring. They differ only in sari colour and slight head tilt. The plan requires \"nine distinct young women\" and forbids \"merged or repeated faces\"."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Five daughters in back and four in front are separate; Devahuti at left and Kardama at right are not counted among them; no duplicate appears."
+          "observations": "I counted exactly nine separate daughter bodies with no fused bodies; the repeated-face concern is recorded under faces."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No written symbols, readable text, caption, logo or watermark is visible."
+          "observations": "None observed."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The family threshold, forest path and large daughter group communicate Kardama staying for the anticipated birth in matte mural style."
+          "observations": "Kardama turns back from the path, as planned; he is youthful and clean-shaven, consistent with S006/S007. The matte style matches the anchors."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D014-S008-REPEATED-DAUGHTER-FACES-V002",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "The nine daughters are rendered with one repeated face template, differing only by sari colour and head tilt.",
+          "repair": "Generate a fresh S008 version with nine individually differentiated adult faces (features, hair ornaments, expressions and head angles), keeping the exact count, two-row grouping and threshold composition, then re-run the managed individual review."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D014/008.jpg",
+        "sha256": "59e63f58878e15bed79c9c60258c9a4a72648aa3eedd264d2cacfb64faa8f305",
+        "caption_path": "intake/D014/photo-captions.txt#008",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s008/landscape/candidate-v002.png",
+          "sha256": "6b11fea7c82592a46077f194c437a4fab555473fa1537a9b1531fae9ec54d138",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:44:28Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s008-v002-detail-daughters-faces.png",
+          "sha256": "37542c9183cbddeee4fab3b901efc97e8735779e9c85f85d256a02584ef2f0cf",
+          "region": "800x420+250+180",
+          "viewed_at": "2026-11-05T11:44:43Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s008-v002-detail-front-row-hands.png",
+          "sha256": "3670516a7fabd5c0486a42bf20d17508d3f2a15f82fd5c3aa8aa5e270523753d",
+          "region": "860x340+300+600",
+          "viewed_at": "2026-11-05T11:44:43Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s008-v002-detail-kardama.png",
+          "sha256": "ce2e5beb6157d5ad243edf5b97202cdae77403a4070869514ba739754982c481",
+          "region": "420x800+1080+40",
+          "viewed_at": "2026-11-05T11:44:43Z"
+        }
+      ]
     },
     {
       "chapter": 14,
@@ -7330,11 +7861,11 @@
       "file": "artifacts/d014/s009/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "7d5066385f83075def65f487bae5e1082007337af577bbff5d3a2dbf7453a9c2",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:45:02Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "anatomy_basis": "One adult woman, Devahuti, and one newborn, Kapila, with natural infant proportions; no adult Kapila.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7343,41 +7874,96 @@
         {
           "path": "art/plans/d014.json",
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
+        },
+        {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s009-v001-review-v001.md",
-          "sha256": "037b2c6aa687e6adc0a8c8f85de031c9b8fe2b3fdd7278d9237b28f6bd9ff7b9"
+          "path": "art/reviews/d014-s009-v001-final-managed-review-v001.md",
+          "sha256": "8eab817d615b9bdeae31e393279350c689f625fcbbe7c5ebd0636e9e7e76f235"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "One mother holds one infant; the infant’s bent legs and visible small arms remain attached within her support, and the mother’s two arms cradle the child."
+          "observations": "Devahuti cradles the infant with two hands; each hand shows a thumb and fingers with bangles. The infant's visible arm folds to his chin with an armlet and bangle, and one foot with an anklet shows below the drawn-up knees; the other arm and foot are tucked against his mother."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "The mother’s forearms and hands connect around the infant; the baby’s curled body remains a single coherent figure."
+          "observations": "The infant's head, torso and limbs are proportionate and continuous, with no malformed limb. The mother's arms run shoulder-to-hand."
         },
         "faces": {
           "status": "pass",
-          "observations": "The mother and infant have separate peaceful faces; no doubled features are visible."
+          "observations": "Two faces: Devahuti looks down with closed eyes and a red bindi, and the infant sleeps with a Vaishnava tilak."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "One mother and one baby are present; no duplicate child or fused extra face appears."
+          "observations": "One mother and one infant, with no extra babies or adult duplicate."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No writing, watermark, signature or logo is visible."
+          "observations": "None observed."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The home interior, mother and newborn match the birth scene; flat mural contours and palette remain consistent."
+          "observations": "A tender, dignified scene with modest halos and no birth detail. The matte style matches the anchors."
         }
       },
-      "findings": []
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D014/009.jpg",
+        "sha256": "f8427a289e98fd0a1800085eed342c35a56a0e633a2cc7e0c5dae6b8de3a5326",
+        "caption_path": "intake/D014/photo-captions.txt#009",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s009/landscape/candidate-v001.png",
+          "sha256": "7d5066385f83075def65f487bae5e1082007337af577bbff5d3a2dbf7453a9c2",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:44:43Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s009-v001-detail-infant.png",
+          "sha256": "de5d6492587d3a9bd9a86046ff70aef56f3b606fa2d3ab06293188ed2ef82d15",
+          "region": "460x460+640+320",
+          "viewed_at": "2026-11-05T11:45:02Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s009-v001-detail-mother-hands.png",
+          "sha256": "7c59bb56b0b84519f15747b13a39577ea611e2b170cc60dae347c084864be9cd",
+          "region": "520x320+600+620",
+          "viewed_at": "2026-11-05T11:45:02Z"
+        }
+      ]
     },
     {
       "chapter": 14,
@@ -7386,11 +7972,11 @@
       "file": "artifacts/d014/s010/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "dfce5b9f9fccf4b0b0758c0843c410a846bff2b842ea625435f85c94ff54697e",
-      "reviewer": "Codex (Firstmate-managed production session)",
-      "inspected_at": "2026-11-05T08:46:55Z",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-05T11:45:21Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Kardama, Devahuti, Manu, Shatarupa, Kapila and Bhattathiri use ordinary human anatomy; Narayana uses four attached arms where planned; symbolic forms and animals are distinct.",
+      "outcome": "uncertain",
+      "anatomy_basis": "Exactly five figures: Kapila, Devahuti and Kardama are ordinary two-armed humans, Bhattathiri is ordinary and older, and Guruvayurappan has four attached arms by plan.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -7399,6 +7985,18 @@
         {
           "path": "art/plans/d014.json",
           "sha256": "4f74ee8e7c195548fc56ae795cd20b6fe1252a0bdeb611d599978c268257f286"
+        },
+        {
+          "path": "content/daskams/d014.json",
+          "sha256": "fdcde27e7506f0a8bb8b34db2c31609d6380ff17d1ffaa2d4fb5a3fa4d00ebc8"
+        },
+        {
+          "path": "content/sources/d014/reference-map.json",
+          "sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+        },
+        {
+          "path": "content/sources/d014/intake-manifest.json",
+          "sha256": "b9fa6dd1bfbbef7e180447aca72297a54df29b41bd9f5353d22b22bff9ca2c36"
         },
         {
           "path": "art/bible/characters/bhattathiri/character.json",
@@ -7411,37 +8009,120 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d014-s010-v002-review-v001.md",
-          "sha256": "5ea0b94a4a586e90a927b965cea1021b87a64d468863b6694d52401e122de948"
+          "path": "art/reviews/d014-s010-v002-final-managed-review-v001.md",
+          "sha256": "31a97d01f4e2aa687f8876d95f1a24f18a663267265d9a7edd55164c412c095a"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Kardama, Devahuti, Kapila and Bhattathiri are ordinary two-armed humans; Narayana has four attached arms. The deer and peacock remain distinct animals."
+          "observations": "Guruvayurappan's upper viewer-left hand holds the chakra, lower viewer-left is in abhaya, upper viewer-right holds the conch and lower viewer-right holds a lotus; both blue feet with anklets stand on the pedestal. Bhattathiri's two hands are joined and one foot shows. Kapila has a raised teaching hand and an open hand, Devahuti's two hands rest on her lap, and Kardama holds a staff and shows two feet."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Kapila’s teaching hands connect to both shoulders; the departing Kardama, seated Bhattathiri and Devahuti have attached limbs; Narayana’s four arms are distinct."
+          "observations": "All four divine arms meet the shoulders under armlets, and every human arm is continuous shoulder-to-hand."
         },
         "faces": {
           "status": "pass",
-          "observations": "Kapila reads as a youthful male sage, Bhattathiri as an older clean-shaven man with shaved scalp and tuft; other faces are distinct."
+          "observations": "Five distinct faces. Bhattathiri matches the older reference sheet: lined clean-shaven face, horizontal ash stripes, red dot, rudraksha and white bead strings, sacred thread, cream dhoti with maroon border. Guruvayurappan matches the approved sheet: blue face, peacock-feather crown, garland, yellow dhoti, red shawl."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The two narrative strands intentionally show Narayana beside Kapila’s teaching and Kardama departing; no accidental human duplication or fusion is visible."
+          "observations": "Exactly five figures with no repeated identity across the two registers."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable text, logo, signature or watermark is present."
+          "observations": "None; there are no books or manuscripts."
         },
         "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The riverside teaching, forest departure and distinct shrine deity follow the stanza plan in the established matte mural treatment."
+          "status": "uncertain",
+          "observations": "The teaching scene, departing Kardama and subordinate prayer follow the plan, and the matte style matches the anchors. However, the departing Kardama is bearded and moustached. In S008 he is already shown preparing to leave as a youthful clean-shaven man, as in S006/S007. The beard may be a deliberate ascetic or aging cue taken from 010.jpg, but the plan requires a consistent identity, so this needs an art-direction decision."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "D014-S010-KARDAMA-CONTINUITY-V002",
+          "severity": "low",
+          "confidence": "medium",
+          "status": "uncertain",
+          "observed": "The departing Kardama is bearded, unlike his clean-shaven appearance in S006-S008 (including S008, where he is already preparing to leave).",
+          "repair": "Decide whether a beard is an intended forest-life cue. If not, generate a fresh S010 version with Kardama's chapter identity and re-run the managed individual review."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D014/010.jpg",
+        "sha256": "af0614101822d409efd5c9d82710be7b2ee4909164babbeee3f93012c95396c8",
+        "caption_path": "intake/D014/photo-captions.txt#010",
+        "caption_sha256": "086ba3dfb871f547d3a0828e8aa12886e019f047531699cf2bcdbeb2f96731f3",
+        "source_map_path": "content/sources/d014/reference-map.json",
+        "source_map_sha256": "7669971a6a38a8d279e89c36854d7758c1478fa87e636f95824fe972225895aa"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d014/references/style/d001-s004-matte-master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/style/d001-s008-matte-master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d014/references/characters/guruvayurappan-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "character anchor (Guruvayurappan/Narayana)"
+        },
+        {
+          "path": "artifacts/d014/references/characters/bhattathiri-older-reference-candidate-v001.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+          "role": "character anchor (older Bhattathiri)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d014/s010/landscape/candidate-v002.png",
+          "sha256": "dfce5b9f9fccf4b0b0758c0843c410a846bff2b842ea625435f85c94ff54697e",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-05T11:45:02Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s010-v002-detail-guruvayurappan-arms.png",
+          "sha256": "bd91323bc5d70a12a14d117cd69e3bd80ea8fbcb03ec9ea5abd2c556dbf4243d",
+          "region": "420x560+220+80",
+          "viewed_at": "2026-11-05T11:45:21Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s010-v002-detail-bhattathiri.png",
+          "sha256": "e45dd355b908cd70f686e0e85e54ccb3e7c61449b5676c5e49e79965cdb75f05",
+          "region": "360x540+0+380",
+          "viewed_at": "2026-11-05T11:45:21Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s010-v002-detail-kapila-devahuti.png",
+          "sha256": "1941a8bf2539329e4c32942f2c4267c7d5197190a51865573fc46ab592c09ce6",
+          "region": "720x500+700+230",
+          "viewed_at": "2026-11-05T11:45:21Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s010-v002-detail-kardama-departing.png",
+          "sha256": "52291e23a2ea7b700cfb297950ab2e79509f82c4f48216bf29fb5c8e18b7a0ea",
+          "region": "240x340+1380+110",
+          "viewed_at": "2026-11-05T11:45:21Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d014/review-evidence/managed-v001/s010-v002-detail-deity-feet.png",
+          "sha256": "1d07464c2dcaa6f2a3442cffe3ac2f96720d88db8876ab7a1ef023773f89d3e8",
+          "region": "340x260+230+640",
+          "viewed_at": "2026-11-05T11:45:21Z"
+        }
+      ]
     }
   ]
 }
