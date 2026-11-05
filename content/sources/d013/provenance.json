@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "daskam_id": 13,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-04",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-13-in-sanskrit/",
+      "retrieval_note": "Devanagari verses 13-1 through 13-10 transcribed from the chapter page. Source text is retained for editorial comparison and remains needs-review."
+    },
+    {
+      "role": "romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-13-in-english/",
+      "retrieval_note": "IAST verses 13-1 through 13-10 transcribed from the English/IAST page; spelling is site-specific and remains needs-review. Cross-checked against https://sanskritdocuments.org/sites/completenarayaneeyam/NarayaneeyamEng_09022014.pdf."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired"
+    },
+    {
+      "role": "commentary",
+      "url": "https://drive.google.com/file/d/1Gyuzf0LULyk5cfn2WelO065nP3_ZjQBL/view?usp=drive_web",
+      "local_path": "content/sources/d013/photo-captions.txt",
+      "status": "user-supplied commentary preserved verbatim; not treated as canonical text or English translation"
+    }
+  ],
+  "intake_manifest": "content/sources/d013/intake-manifest.json",
+  "intake_manifest_sha256": "614db4a27fddd5ab965bd6c7143df82f495271820ead8a0152bb57b1939a97a3",
+  "commentary_sha256": "a4af7796ef5520d5833ff0f503102fa61c9de58ddd5f0d814093be21ea009475",
+  "reference_map": "content/sources/d013/reference-map.json",
+  "note": "The supplied Drive document contains ten English scene-commentary captions, not Sanskrit, IAST, or a canonical translation. Numbered images 001–010 map ordinally to captions 1–10. Raw originals are preserved unchanged under intake/D013/ and their image hashes are recorded in reference-map.json. The Drive metadata name reproduced the whole commentary document followed by '.txt'; intake-manifest.json records the document title 'Dasakam 13' as original_name, and the commentary text itself is preserved byte-for-byte at caption_path (SHA-256 a4af7796ef5520d5833ff0f503102fa61c9de58ddd5f0d814093be21ea009475)."
+}

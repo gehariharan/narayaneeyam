@@ -1,0 +1,59 @@
+{
+  "chapter": 13,
+  "shared_character": "Varaha",
+  "source": "https://stotranidhi.com/en/narayaneeyam-dasakam-13-in-english/",
+  "canonical_evidence": [
+    {
+      "verse": "13-2",
+      "text": "bhavantaṃ samprāpaddharaṇidharamudyantamudakāt",
+      "scene_contract": "Hiraṇyākṣa sees Varaha rising from the water with Earth; no body-form or limb-count specification."
+    },
+    {
+      "verse": "13-3",
+      "text": "mahīṃ dṛṣṭvā daṃṣṭrāśirasi ... payodhāvādhāya",
+      "scene_contract": "Varaha bears Earth on the tusk and lowers her into the water; no arm-count specification."
+    },
+    {
+      "verse": "13-4",
+      "text": "gadāpāṇau daitye tvamapi hi gṛhītonnatagado",
+      "scene_contract": "The asura is mace-bearing and Varaha takes a raised mace for their duel; establishes the scene-specific mace action, not total arm count."
+    },
+    {
+      "verse": "13-5",
+      "text": "mahācakraṃ smṛtvā karabhuvi dadhāno",
+      "scene_contract": "Varaha manifests/holds the great discus in his hand after his mace falls; specifies hand use, not total arm count."
+    },
+    {
+      "verse": "13-6",
+      "text": "karakalitacakrapraharaṇāt",
+      "scene_contract": "Varaha strikes with the discus held in hand; specifies action, not total arm count."
+    },
+    {
+      "verse": "13-7",
+      "text": "svapādāṅguṣṭhena śravaṇapadamūle niravadhīḥ",
+      "scene_contract": "Varaha strikes with his big toe near the asura’s ear; specifies the toe action, not a universal limb arrangement."
+    },
+    {
+      "verse": "13-9",
+      "text": "tvaci chando romasvapi kuśagaṇaścakṣuṣi ghṛtaṃ / caturhotāro’ṅghrau srugapi vadane codara iḍā / grahā jihvāyāṃ ... karṇe ca camasā / ... galadeśe’pyupasadaḥ",
+      "scene_contract": "Maps yajna elements to skin, hair, eyes, feet, face, belly, tongue, ears, virility and neck; says nothing about arm count."
+    }
+  ],
+  "neighbor_comparison": {
+    "chapter_12": {
+      "contract_path": "../d012-production/art/bible/characters/varaha/character.json",
+      "plan_path": "../d012-production/art/plans/d012.json",
+      "scope": "D012 draft specifies natural quadruped boar anatomy for its own infant, growth, search and Earth-lifting scenes; D012 S003 explicitly requires four connected legs for the infant. This scene-specific anatomy is not a chapter-wide D013 rule.",
+      "shared_identity": "divine Varaha with recognizable elongated boar snout, tusks and upright ears, matte earth-pigment palette",
+      "reference_sha256": "d594a675db1d199aacd0b0d0f139a3448595049fd49fc03294f6b051085cf301",
+      "reference_path": "artifacts/d013/references/characters/varaha-character-reference-v001.png",
+      "reference_dimensions": "1122x1402",
+      "reference_visual_observation": "Visually inspected exact D012-owned reference: one natural quadruped boar with elongated broad snout, upturned tusks, upright ears, reddish/deep-brown fur, orange/ochre crown, collar and cloth, on warm cream/ochre ground; matte drawn contours. It defines the shared identity and earth palette, while its quadruped pose is local to D012 scene contracts."
+    },
+    "chapter_13": {
+      "variant": "Source-grounded functional variant: a hand-bearing combat posture in S004-S006 to carry the raised mace and wield the discus, followed by the explicit big-toe strike in S007. These are scene actions, not a source-given total arm count or universal humanoid form.",
+      "scope": "Use hand-bearing weapon actions in S004-S006 and the toe action in S007 only. The source establishes no limb-count claim for S001-S003 or S008-S010; verse 13-9 maps yajna symbolism to body regions without prescribing arm count."
+    }
+  },
+  "reference_rule": "D012 owns the shared Varaha reference (SHA-256 d594a675db1d199aacd0b0d0f139a3448595049fd49fc03294f6b051085cf301). D013 uses it for shared face, tusks, palette and ornament; derive pose from each canonical scene action. D013 numbered intake pictures remain story/iconography cues, never authority for Varaha body form."
+}

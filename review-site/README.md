@@ -39,8 +39,8 @@ blog repository is a separate
 Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
-then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D012, plus D014 media from the release using the existing
+then build and package the exact commit. The current workflow uploads D001 through D003
+and D005 through D014 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -254,6 +254,20 @@ Upload only D012's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=12` before the serialized Worker
 deployment.
 
+## Dasakam 13
+
+D013 contains ten landscape comparison rows matched to the ten numbered intake
+references. Each selected lead in `art/batches/d013-comparison-v001.json` has
+an individual checksum-bound visual review, and
+`art/reviews/d013-landscape-final-coverage-v003.md` records the all-ten
+full-frame pass and its limits. Superseded versions, including the needs-fix
+S001 v003, S003 v005, v006 and v007, S004 v002 and S008 v002, remain preserved
+locally and are not comparison alternates. The Sanskrit and supplied
+commentary are source-mapped, English translations remain absent, the
+candidates remain unapproved, and portraits are paused. Upload only D013's
+WebP derivatives with `node review-site/scripts/upload.mjs --daskam=13` before
+any serialized Worker deployment.
+
 ## Dasakam 14
 
 D014 contains ten landscape comparison rows matched to the ten captioned
@@ -263,10 +277,10 @@ translations are absent, and portrait compositions are paused. Upload only
 D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
 before any serialized Worker deployment.
 
-Reconciled with main `73db476292cac61f8e9f6b8dc3d8f4d23b704860` (D012 and the
-D001/D002/D003 audit cleanup), the union contains 15 chapters, 158 stanza rows,
-322 review media inputs, and 164 selected generated images (69 historical and not
-cleared, 95 individually inspected).
+Reconciled with main `84a214f310008155ad22dd8a80e1ed8afd786ab4` (D014, D012 and the
+D001/D002/D003 audit cleanup) and D013, the union contains 16 chapters, 168 stanza
+rows, 342 review media inputs, and 174 selected generated images (69 historical and
+not cleared, 105 individually inspected).
 The managed D014 review passed all ten leads, including the S005 v003, S008 v008
 and S010 v003 repairs; earlier failed versions remain recorded as history. These
 totals must be recalculated if the base advances.
