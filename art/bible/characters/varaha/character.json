@@ -3,27 +3,58 @@
   "id": "varaha",
   "display": "Varaha",
   "aliases": [
-    "Yajna Varaha",
-    "Narayana as Varaha"
+    "Divine Boar",
+    "Boar incarnation of Narayana"
   ],
-  "reference_status": "shared reference owned by D012; local D013 copy is read-only provenance",
+  "review_status": "draft",
   "depiction_rules": {
-    "default_mode": "use-shared-reference-for-identity-and-palette",
+    "default_mode": "divine-boar",
     "allowed_modes": [
-      "use-shared-reference-for-identity-and-palette"
+      "infant-boar",
+      "divine-boar",
+      "cosmic-boar"
     ],
-    "notes": "D012 owns the shared Varaha identity, palette and reference. This D013 pointer adds no body-form or limb-count rule. Follow only the exact source-specific Varaha pose and visible anatomy in art/plans/d013.json."
+    "notes": "Shared Varaha identity contract for the D012/D013 candidate sets, still draft and not a user-approved character sheet. Preserve the boar identity, earth-pigment palette, matte contour, and beneficent divine presence across chapters. D012's source scenes are non-combat growth, search, and Earth-lifting scenes; apply its natural-boar anatomy and no-weapon constraints only to those D012 scenes. D013's canonical Hiraṇyākṣa duel explicitly names a mace (13-4), discus (13-5/13-6), and toe-stomp (13-7). Those exact source-grounded actions may require scene-specific pose, limb arrangement, or attributes. Do not invent an additional form: D013's plan owns its scene-specific count and action decisions."
   },
   "visual_bible": {
-    "shared_identity_and_palette": "Anchor Varaha to the D012-owned reference at SHA-256 d594a675db1d199aacd0b0d0f139a3448595049fd49fc03294f6b051085cf301: recognizable boar face with elongated broad snout, upturned tusks and upright ears; rich natural reddish/deep-brown boar fur; painted orange/ochre ornaments and warm cream/ochre fields; firm matte dark contours. Use this for identity and color only; the quadruped pose belongs to D012 scene contracts."
+    "shared_core_identity": "One divine Varaha identity across chapters: unmistakable boar head, elongated snout, tusks, upright ears, beneficent divine presence, firm matte contour, and the series' earth-pigment palette. Keep the same identity without forcing one pose or limb arrangement across every source scene.",
+    "form": "Keep the same recognizable divine boar identity while following the exact scene source. D012 depicts infant, growing, roaring, descending, searching, and Earth-lifting boar scenes; use coherent natural-boar anatomy there. D013's duel may use only the scene-specific pose and attributes justified by its canonical action and recorded in the D013 plan. Do not infer a new form from familiarity or composite intake iconography.",
+    "growth": "The same recognizable boar identity changes scale from thumb-sized to elephant-sized and mountain-sized; avoid duplicate unrelated boars except when explicitly showing the growth transition as one continuous scale progression.",
+    "expression": "Vigorous and awe-inspiring; fierce roar and focused search below water, while remaining divine and beneficent. In S007, incline the face toward the sages in a blessing glance.",
+    "anatomy": "For D012 non-combat scenes only: one boar head, one coherent torso, two natural forelegs and two hind legs; no added human arms or weapons. A single tusk supports Earth in S009-S010. This D012 constraint does not set D013's limb count or pose; the D013 plan records only what its verified scene action requires.",
+    "ornament": "Keep divine markings and restrained painted-ochre ornament subordinate to the boar anatomy. For D012 non-combat scenes, do not infer extra limbs, weapons, or battle posture from composite reference art. D013 may depict only source-grounded duel attributes and actions specified in its plan.",
+    "palette": "Traditional matte earth ochre, warm cream and deep brown contours; local boar fur may use muted reddish-brown, dark brown, or natural boar tones without glossy rendering."
   },
   "never": [
-    "no duplicate Varaha",
-    "no fused or detached anatomy",
-    "no readable text, logos or watermarks"
+    "For D012 non-combat scenes only: no extra heads, tusks, legs, arms, or detached body parts beyond coherent natural-boar anatomy",
+    "For D012 infant-boar scenes only: no human baby face on the infant boar",
+    "For D012 non-combat scenes only: no aggressive demon or warrior characterization",
+    "For D012 non-combat scenes only: no unrelated weapons or four-armed humanoid body; this restriction does not prohibit D013's source-grounded mace, discus, or toe-stomp actions",
+    "Across chapters: no photorealism, glossy skin, reflective gold, cinematic lighting, text, logo, or watermark"
   ],
   "local_reference_paths": [
-    "artifacts/d013/references/characters/varaha-character-reference-v001.png"
+    "artifacts/d012/characters/varaha/character-reference-v001.png"
   ],
-  "coordination": "Shared identity and palette are owned by D012. D013 scene-specific actions and any form variation remain in art/plans/d013.json."
+  "source_reference_paths": [
+    "intake/D012/003.jpg",
+    "intake/D012/004.jpg",
+    "intake/D012/005.jpg",
+    "intake/D012/006.jpg",
+    "intake/D012/007.jpg",
+    "intake/D012/008.jpg",
+    "intake/D012/009.jpg",
+    "intake/D012/010.jpg"
+  ],
+  "source_text": "https://stotranidhi.com/hi/narayaneeyam-dasakam-12-in-sanskrit/",
+  "neighbor_source_text": "https://stotranidhi.com/en/narayaneeyam-dasakam-13-in-english/",
+  "cross_chapter_boundary": "D012 verses 12-1 to 12-10 describe infant, growing, roaring, descending, searching, and lifting forms of a boar without prescribing combat weapons or extra limbs; natural-boar anatomy/no-weapons constraints apply to D012 non-combat scenes only. Stotra Nidhi's D013 verses 13-4 to 13-7 explicitly describe the mace duel, discus use, and toe-stomp. Preserve the shared identity and palette; D013's plan owns any scene-specific pose, limb count, and action, with no invented form.",
+  "shared_identity_reference": {
+    "status": "unapproved native candidate; usable as a visual identity anchor after exact-byte inspection",
+    "path": "artifacts/d012/characters/varaha/character-reference-v001.png",
+    "sha256": "d594a675db1d199aacd0b0d0f139a3448595049fd49fc03294f6b051085cf301",
+    "dimensions": "1122x1402",
+    "visual_review": "art/reviews/d012-varaha-reference-v001.md",
+    "inspection_scope": "Varaha head, snout, tusks, eyes, fur palette, and D012 natural-boar form. The pose and limb arrangement are not a universal contract for D013."
+  },
+  "note": "Draft shared continuity contract, frozen for cross-worktree copying. D012-only anatomy and no-weapon restrictions are scoped to D012 non-combat scenes; this file does not prescribe D013's scene-specific form or approve any character master."
 }

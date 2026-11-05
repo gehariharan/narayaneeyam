@@ -6866,6 +6866,743 @@
         "source_map_path": "content/sources/d011/intake-manifest.json",
         "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
       }
+    },
+    {
+      "chapter": 13,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d013/s001/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "b543b73e544d06f609bc1457a29e1f4f9a4969efae40eaa06d33c5c52e35b56e",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S001: narada, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s001-landscape-v002-review-v001.md",
+          "sha256": "8ab21c520267dc7091c2ccaf6eb36806c8b8d58e4ce3e923c741727eba58285d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Two ordinary humans are visible. Their arms connect at shoulders; lower legs enter water, while feet are partly obscured by the sea."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Nārada and Hiraṇyākṣa have distinct faces and readable expressions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two figures; neither is duplicated or fused."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full 1672×941 frame shows one continuous shallow cosmic sea. Hiraṇyākṣa searches while Nārada calmly approaches and speaks with a small veena. Both figures remain distinct and in frame; lower legs enter water. No Varaha, weapon, extra person, readable text, signature, watermark or panel border appears. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d013/s002/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "306e5bd0926bd5062eb7236a06b919f793c56feb87d009615b2ff7a068d67860",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S002: narada, hiranyaksha, varaha, bhudevi; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/bhudevi/character.json",
+          "sha256": "8fba662e0bf6f7257c4b09e3efd6d75a78fa242728f66fa5e39a73562dad04bf"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s002-landscape-v002-review-v001.md",
+          "sha256": "57642e8872ec20da573f9fc1cb53b84febc362c267c6f11a8a13f36f6e3a055f"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha uses the scene-specific quadruped form; Bhūdevī and both human figures have connected visible limbs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Varaha’s snout/tusks, Narada’s white-haired identity, and Hiraṇyākṣa remain distinct."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha, one Bhūdevī, one Narada, and one Hiraṇyākṣa; no duplicate globe."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full 1672×941 frame shows Narada addressing Hiraṇyākṣa as Varaha rises from the water with Bhūdevī at the tusk. There is one Earth figure and no separate globe or weapon. Varaha has a connected quadruped silhouette. Matte contour work and shallow mural space are consistent; no readable text or panel border. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d013/s003/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "dc091c3a283a02e96160dd0f0a275d4a6747a4d0124392ca7c4b8cebf7efd3e1",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S003: varaha, hiranyaksha, bhudevi; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+        },
+        {
+          "path": "art/bible/characters/bhudevi/character.json",
+          "sha256": "8fba662e0bf6f7257c4b09e3efd6d75a78fa242728f66fa5e39a73562dad04bf"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s003-landscape-v004-review-v001.md",
+          "sha256": "0a402beb57575a92b58264bf32e129d78177419fec896cfd578b5323d9232497"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha is quadruped; Bhūdevī has two connected legs entering the water; Hiraṇyākṣa remains an ordinary two-armed figure."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The tusk-to-waist support and waterline are legible; the figures remain proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One of each planned character; no fused or repeated body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full 1672×941 frame shows quadruped Varaha lowering Bhūdevī into visible shallow water: the tusk meets her waist and her feet enter the water. Hiraṇyākṣa stands distinct and unarmed. The sea, three figures, and action read in one matte mural scene without text or border. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d013/s004/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "b207d3c5abb8b4399368f6fee090ff5ee3b3c0a87fa4891ace4d69acafde2fe5",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S004: varaha, hiranyaksha, brahma; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s004-landscape-v001-review-v001.md",
+          "sha256": "68b668386fa815c5e8b77ec9e0da71548782835196c8612ada2f66eafcef8399"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha’s connected hand-bearing combat pose and Hiraṇyākṣa’s two-arm mace action are visible; Brahma’s scene contract calls for four arms."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Weapon grips and shoulders read as connected; the god group is small and ordered."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma’s three front faces are distinct; Varaha and Hiraṇyākṣa retain separate faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha, one Hiraṇyākṣa, one Brahma with three front-visible faces, and a small non-duplicated divine group."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full frame presents one mace duel over the water, with Varaha and Hiraṇyākṣa meeting weapons at center and Brahma plus a small ordered group of gods above. The tone is ceremonial, with no injury emphasis. Three Brahma faces are visible from the front; the scene remains one continuous matte mural. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d013/s005/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "c7edd0978cdb64bd869a1ecbba9d7955748d7c3c49ab8587d7eb17de6eeeacf8",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S005: varaha, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s005-landscape-v001-review-v001.md",
+          "sha256": "c33d30c3e02030542fdd3b7ae59a51a2e025a14b64d4b746d824f987b1df6dc2"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha’s source-required chakra hand and Hiraṇyākṣa’s mace grip are connected; the fallen mace remains separate."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The chakra, hands, and faces remain distinguishable; no unsupported total Varaha arm count is asserted."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One chakra and one opponent; no duplicate bodies or fused weapons."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The wide frame shows Varaha composed with one chakra in hand after his mace has fallen, while Hiraṇyākṣa faces him holding his own mace. The fallen mace is separate at the bottom. There is one chakra, no collage, and no visible text or border. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d013/s006/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "4ab6fcf18ed430d6a59254bdf83d180b6d56b55c5ef436c7c73badb05c29e955",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S006: varaha, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s006-landscape-v001-review-v001.md",
+          "sha256": "2d9169a033912121ff26a1fe8b06161b1ea20fa9b22a464a6eaa4258c0e0f7f8"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The connected chakra hand and fist exchange are legible; Hiraṇyākṣa’s trident and fist remain distinct."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The action’s shoulders, hands, and limbs read as connected in close views."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Maya is represented by fading shapes, not repeated combatants."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full frame shows one trident attack, the chakra breaking it, and Varaha’s other fist meeting Hiraṇyākṣa’s fist. Maya appears as fading shapes and does not read as duplicate combatants. The connected action is legible in a single matte scene without readable text. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d013/s007/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "0ef4c645b88df9e0d5993a3338b5b86970880b39fb81f0e2845c4a777ed75d7c",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S007: varaha, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s007-landscape-v002-review-v001.md",
+          "sha256": "416d738f0a5d1eb53e796820747c417fb80f7eee3e26dee6dfec0f8e2fd64198"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha’s connected foot performs the toe strike; Hiraṇyākṣa attacks with two bare fists. No weapon appears; total Varaha limb count is not inferred."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The impact foot remains attached through the leg, and the bare fist/forearm is connected; contact is near the ear."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha and one Hiraṇyākṣa; fading Maya does not create duplicate people or fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full 1672×941 frame shows Varaha’s connected foot striking near Hiraṇyākṣa’s ear while the asura attacks with a bare fist. Varaha holds one chakra; Hiraṇyākṣa has no weapon. Simple illusion shapes fade behind them, with one body per combatant and no gore emphasis. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d013/s008/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "6cf37e6afac9f3c1c7a700e98aa83aafa0669468e89b685fef3975dcbf83ffec",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S008: varaha, hiranyaksha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s008-landscape-v001-review-v001.md",
+          "sha256": "e311376310bce58c05561376cd6b79ecc46334ca77e4e96560bd9cc6b861eee8"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha has four visible connected animal legs; the fallen opponent and distant praise figures remain visually separate."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The boar body and head read coherently; tiny distant figures are treated as a crowd, not individually counted."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha and one fallen opponent; no duplicate deity or fused figures."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full frame shows one quadruped Varaha above the fallen Hiraṇyākṣa, while gods and sages praise from a respectful distance. The small gathering remains ordered; there is no duplicate Varaha or crowd clutter. The red mark near the asura’s face is restrained and non-graphic. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d013/s009/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "5a49c9179323497d979bbc21fcc661352c503f81f38f3946a19a263b9d890e58",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S009: varaha; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s009-landscape-v001-review-v001.md",
+          "sha256": "8f39d3b3806e00f2c1e180cb005b6a9e9ad4890f94b3a3dda6563751dabcea3d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varaha is one complete quadruped; four officiants are visible in the full scene as ordinary human participants."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Ritual props remain separate from the body; the frame shows the complete Varaha figure."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All present faces are individually recognizable and follow the stanza identities; no facial merge is apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha and four separate officiants; no duplicate or disassembled body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full frame presents one complete quadruped Varaha in a ritual field. Kuśa, ladles, ghee and soma vessels, and four officiants appear in one continuous mural setting. Symbols surround the figure without text or body disassembly. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d013/s010/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "76f60c6a3a2acf00ee0a7d55febd55d68d64239c8ef2c03f93ca55a145db4667",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Scene-specific anatomy follows D013 S010: varaha, bhattathiri, guruvayurappan; any Varaha form or action is governed by this stanza rather than generalized across D013.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "artifacts/d013/references/characters/guruvayurappan-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        },
+        {
+          "path": "artifacts/d013/references/characters/bhattathiri-older-reference-candidate-v001.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s010-landscape-v001-review-v001.md",
+          "sha256": "91b888a9e4cdf06ccda1b5450d5b17de5cded65ad88eca10f11050a0c339d700"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The older human devotee has ordinary two-arm anatomy; Guruvayurappan matches the approved two-armed image reference; Varaha appears once."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Prayer gesture and divine acknowledgment connect to the figures; forms remain proportionate and distinct."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Bhattathiri is older and clean-shaven, while Guruvayurappan retains the approved face and identifying features."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Varaha, one Bhattathiri, and one Guruvayurappan; no repeated figures or fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full frame or the cited close views."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full frame shows Varaha, the older clean-shaven Bhattathiri, and Guruvayurappan in one continuous Vaikuṇṭha devotional space. The devotee prays toward the Lord, who acknowledges him. The composition avoids a divided panel or unrelated reclining scene. Firm outlines, broad matte colour areas and the planned wide framing remain consistent with the series mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 13,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d013/s007/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "8c0341c1f41ba7be244bfd378816b9bb0d2062d04f2beba403ea041182fed0fd",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-05T09:42:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "D013 S007 requires Hiraṇyākṣa bare-fist blows and Varaha’s toe strike; this candidate violates the no-weapon scene contract.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d013.json",
+          "sha256": "ec4dc4c52596824cfc317b9ca29f52425c850c5ff30205bbbc2a271d4a6c2955"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        },
+        {
+          "path": "art/bible/characters/hiranyaksha/character.json",
+          "sha256": "7e091f6c4304244dee0556bf9fc714853adba40e755f70140277c7e2c342ac7f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d013-s007-landscape-v001-review-v002.md",
+          "sha256": "54ac7af219838975307e8f3a3efed7c2f90281322e296836dd0a302e2b6f0d36"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Toe contact and connected limbs are visible; Hiraṇyākṣa has a mace in addition to his hands."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Visible limbs appear attached and proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One Hiraṇyākṣa face and one Varaha face remain distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One opponent and one Varaha; no duplicate body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, logo, signature, or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "Hiraṇyākṣa holds a mace although canonical 13-7 specifies bare fists only."
+        }
+      },
+      "findings": [
+        {
+          "id": "D013-S007-V001-WEAPON",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Hiraṇyākṣa holds a mace in the full frame; 13-7 specifies heavy bare-fist blows and the plan excludes weapons.",
+          "repair": "Regenerate a new version with both hands bare; preserve v001."
+        }
+      ]
     }
   ]
 }
