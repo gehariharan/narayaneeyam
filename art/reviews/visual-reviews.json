@@ -6142,6 +6142,730 @@
         }
       },
       "findings": []
+    },
+    {
+      "chapter": 11,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d011/s001/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "50046ef4ff3a5496a134126d17ec2f973ba638861755f7ee79fcea9d39413abc",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Sanaka and the sages approach Vaikuntha: Exactly four distinct youthful sages, Sanaka and the other three Kumaras, walking together toward the distant Vaikuntha realm; each has one head and two natural attached arms.; Show Vaikuntha as a clear destination beyond a luminous cosmic path. If Narayana is visible, depict one four-armed deity with consistent conch, discus, mace and lotus; do not repeat him in multiple panels.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s001-landscape-v001-review-v001.md",
+          "sha256": "3accbb83f61f972776f7575ab89689d4884fda6782dedb95d9427a0286ec1c9c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Exactly four separate sages are visible; each has two attached arms. Their walking legs and feet remain distinct in the full frame and close view. The distant Narayana is a single four-armed figure."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The sages have clear shoulder-to-arm and hip-to-leg attachments; the distant deity remains too small for fine joint detail but has a coherent silhouette."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The four foreground faces are individually separated and readable at the viewed size; no malformed face stood out."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Four sages only, with one distant deity; no extra or fused person is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The group approaches one distant Vaikuntha focal point along a broad path; the flat earthy mural treatment follows the selected style anchors."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/001.jpg",
+        "sha256": "32a9cb9c264946f67531481af0de1f5f6b51f365142899599adc703f35a6c3e1",
+        "caption_path": "intake/D011/photo-captions.txt#001",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
+    },
+    {
+      "chapter": 11,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d011/s002/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "7bf7a58ba9400b535466f6530130ecf9293751ac90f20aa99ded7dad8275e5ab",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The sages pass the beautiful enclosures of Vaikuntha: Exactly four distinct youthful sages pass through one celestial garden toward the Lord’s abode.; Suggest the Naisreyasa garden, kalpa trees, several still pools, and a few jewel-bright mansions; keep these architectural and natural forms distinct, with no readable lettering.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s002-landscape-v001-review-v001.md",
+          "sha256": "65a573045dd22b09826768f1cc28d4cbfb504f9646db8c6fa2328cb659208984"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Four distinct sages are present. Their visible arms and seated/walking limbs remain attached; close inspection found no obvious extra or missing limb."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The figures have separate silhouettes, clear shoulder and leg transitions, and do not merge into the garden forms."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Four distinct small faces are visible; facial detail is limited by their scale but no malformed eyes or faces are apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly four sages appear once each; no fused or repeated body is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "One receding garden path, pools, trees and distant mansions read as a continuous Vaikuntha garden in matte mural colours."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/002.jpg",
+        "sha256": "eb98030af7363673646b3efe3089dea106f685afa0ee05f697bcd42f8675f023",
+        "caption_path": "intake/D011/photo-captions.txt#002",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
+    },
+    {
+      "chapter": 11,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d011/s003/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "1975f65fea8ad6c93c11369301e77b9a420afd587c59b37eb6d88104b79f2c1c",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Jaya and Vijaya bar the sages at Vaikuntha’s gate: Exactly four distinct sages face exactly two distinct, human-like gatekeepers Jaya and Vijaya at one palace threshold.; Jaya and Vijaya are ordinary two-armed guardians, not forms of Narayana: give them clearly different faces and garments (one deep maroon, one muted olive), one head and two naturally attached arms each; no blue skin, halo, Vishnu crown, mace, or Vishnu attributes.; The guardians block the way with restrained gestures; the four sages show anger through their expressions and posture. Each ordinary figure has one head and two attached arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s003-landscape-v002-review-v001.md",
+          "sha256": "fee13f29d4c5de8183a26863420c625a8f5340c36cd3f0a79088611c81d5b355"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Six people are visible: four sages and two guardians. Their ordinary two-arm silhouettes and visible hands/feet read as attached in the close view."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The six figures have separate torso and limb contours with no apparent limb crossing that fuses bodies."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The four sage faces and two guardian faces are individually distinguishable; the two guards do not share the same face or pose."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly four sages and two distinct guardians are present; no duplicate Narayana-like guard remains in selected v002."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The gate encounter is clear. One guardian wears maroon and the other olive, with distinct postures; neither has blue skin, halo, crown or Vishnu attributes. Flat matte mural treatment is consistent."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/003.jpg",
+        "sha256": "75d64f2b17a02587516a0dd0d19fa5d7d375c514489cb6c888a8444aaf8568c1",
+        "caption_path": "intake/D011/photo-captions.txt#003",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
+    },
+    {
+      "chapter": 11,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d011/s004/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "c0b49c1143403f86e84e0e25c30c8100c8ee2ebce5b70b96610287eb76e9534e",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The curse and the gatekeepers’ plea: Exactly four distinct sages pronounce the curse, shown as four separate full figures with varied faces and clearly different poses.; Exactly two gatekeepers, Jaya and Vijaya, kneel to ask forgiveness. They have distinct faces, deep-maroon and muted-olive garments, one head and two naturally attached arms each; one bows with joined hands while the other bows with one hand at the heart.; All six figures remain separate and naturally proportioned; do not repeat the same face or pose for the two gatekeepers.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s004-landscape-v002-review-v001.md",
+          "sha256": "2cef89a025ccf17d1a9dd46538d7931a60113a28c0f4ee0f84c3131e74cf0ebd"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Four sages and two kneeling guardians show ordinary two-arm anatomy; the visible hands connect to their forearms, with no obvious extra limb in the close view."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Kneeling and standing poses remain separated; limbs attach coherently to each body."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Faces are individually separated. The two guardians have different head shapes and expressions."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly six people appear, with two distinct kneeling guards and four sages; no fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The curse and plea read through the sages’ raised gestures and the guards’ kneeling posture at one threshold. Maroon and olive garments distinguish the guards in the planned matte palette."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/004.jpg",
+        "sha256": "5ca05b8b7a2ce0bab4d5d6e87b7ca0fa6010a091421288b2f46688b5e82cb80c",
+        "caption_path": "intake/D011/photo-captions.txt#004",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
+    },
+    {
+      "chapter": 11,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d011/s005/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "92b7e2fb6209b509fa30be162207f9b49da9f61d1cda18526714377c4772ae92",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Narayana appears with Lakshmi and Garuda: One Narayana appears with Lakshmi and Garuda before exactly four distinct sages. Narayana has exactly four connected arms with his established conch, discus, mace and lotus iconography; one graceful arm rests on Garuda’s shoulder, with no extra or hidden arms.; Lakshmi is one distinct two-armed figure beside Narayana, matching the D002 Lakshmi identity sheet. She has exactly two attached arms and no extra hands or attributes.; Garuda is one distinct bird-faced divine vehicle, not another human devotee. Each of the four sages remains a separate ordinary two-armed figure.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        },
+        {
+          "path": "art/bible/characters/lakshmi/character.json",
+          "sha256": "541fc9d30aed43e142a7bd195b994710bd91d834df484a6b9e4eba2f7c74ef8c"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s005-landscape-v002-review-v001.md",
+          "sha256": "769efb67a4ffbf8a1f3a6c2d539741db4c407db2babd18b506988a5dffd7f11a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Narayana has four attached arms with the planned attributes, Lakshmi has exactly two arms, the four sages have two each, and Garuda is bird-faced. The close view shows no extra Lakshmi hand."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Narayana’s arm resting on Garuda connects to his shoulder; the other deity arms and the figures’ limbs remain distinct. No apparent extra or detached hand."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Narayana, Lakshmi, Garuda and four sages have separately readable faces; Garuda is visibly nonhuman and does not read as an extra sage."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Narayana, one Lakshmi, one Garuda and exactly four sages; no duplicate scene actor or fusion."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The divine group is centered before the sages and communicates the described welcoming appearance; matte earthy mural style and framing are consistent."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/005.jpg",
+        "sha256": "29508083a40bb88b46a9677581a35feb25d0e678b4c2ab0548b5cc582316ba7e",
+        "caption_path": "intake/D011/photo-captions.txt#005",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
+    },
+    {
+      "chapter": 11,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d011/s006/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "4be76b1e7c3bd87145c462487db473d142fa9bdb6c766046d7ffba82e8a0c3d8",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The gatekeepers surrender and receive assurance: Exactly two gatekeepers, Jaya and Vijaya, prostrate before one Narayana. Make them visibly distinct people: Jaya wears deep maroon and bows with joined hands, Vijaya wears muted olive and kneels with one hand over his heart; distinct faces and poses, no visual clones.; Narayana has exactly four clearly attached arms: discus, conch, mace and lotus, one attribute in each hand. Do not add a separate blessing hand or duplicate any arm or object. Show compassion in his face and posture.; Lakshmi and Garuda may appear as one separate two-armed consort and one bird-faced vehicle; keep all bodies and limbs clearly separated. Convey the promise of three earthly births with three small lotus motifs, without text or numerals.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s006-landscape-v002-review-v001.md",
+          "sha256": "443657feab794ff99537f7b59342d97fa563ef756b7fce0e07341a6e0103712b"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Narayana has four attached arms, with discus, conch, mace and lotus visible; Lakshmi has two arms, Garuda is bird-faced, and the two guardians are ordinary two-armed figures. Close view found no obvious missing or detached limb."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Narayana’s attribute-bearing arms connect at the shoulders; the prostrating guardians’ limbs remain separate from each other and from the divine grouping."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Narayana, Lakshmi, Garuda and both guardians have distinct visible faces; the guardians are differentiated by clothing and posture."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Narayana and one Lakshmi with one Garuda, plus two guardians; no cloned guards or extra deity is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The guardians’ surrender and the Lord’s assurance are shown as one encounter; three lotus symbols mark the promised births. The palette and finish remain matte and consistent."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/006.jpg",
+        "sha256": "d2fa02e1744d88341faaf3b48c4d3083ba56cc41346b1dc34718c5bbc4756eae",
+        "caption_path": "intake/D011/photo-captions.txt#006",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
+    },
+    {
+      "chapter": 11,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d011/s007/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "4e35dd8807aa15741908732fc016e8063e572b4d65ef3de37187f86373581ffc",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Diti and Kashyapa conceive the two asura brothers at twilight: One adult sage Kashyapa and one adult Diti are shown together in a restrained twilight scene.; Show the twins as two separate small symbolic lights or unborn forms, not a third person or duplicated adult bodies; dusk is clear from the sky and subdued landscape. All humans have one head and two attached arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s007-landscape-v001-review-v001.md",
+          "sha256": "058392a847d8102c9fd0f6fd50973222d6348fdf224f7b8d138acd05434d0b42"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Diti and Kashyapa each appear as ordinary two-armed adults. Their visible arms and legs remain attached in the close view; the two twins are separate symbolic forms, not extra adults."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The seated pair’s shoulder and leg attachments read coherently; no fused bodies."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Two distinct adult faces are visible with no obvious distortion at the viewed size."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two adults and two symbolic twin forms are present; no extra person or accidental duplicate."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Twilight conception is represented through the couple and two differentiated symbolic twins; the scene retains flat ochre, maroon and olive mural treatment."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/007.jpg",
+        "sha256": "becb0097cd0efcf03aa8da4f4489d9db2afaa002e9539e0f33709ff72142be5c",
+        "caption_path": "intake/D011/photo-captions.txt#007",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
+    },
+    {
+      "chapter": 11,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d011/s008/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "a4848b13ae44f4126d90cbf1cdf78a7f86d655318be082e401c704065ac8b420",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The two brothers trouble the worlds: Show exactly two distinct adult asura brothers, Hiranyakashipu and Hiranyaksha, as separate individuals with one head and two attached arms each.; Suggest the worlds under their hostile rule through a few distinct distant settlements and subdued landscape; do not add duplicate brothers or imply that one brother is both figures.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s008-landscape-v001-review-v001.md",
+          "sha256": "72b34a1c62501736c61bd3d5f0d14cc4252bb6236952699f7bff5cf231732436"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Hiranyakashipu and Hiranyaksha are separate ordinary two-armed brothers, each holding one mace. Their visible limbs connect naturally in the close view."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Shoulder, arm, torso and leg outlines remain distinct for both standing figures."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The brothers’ faces are individually readable and differentiated; no malformed eyes or merged features apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two brothers appear once each, without extra people or body fusion."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The brothers and their threat to the worlds read clearly in the planned single scene; the two figures remain distinct and the mural palette is flat and opaque."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/008.jpg",
+        "sha256": "2cfb442e2f72f3a712c9d6c102f3c6fd3acbcfcf6be8e5eb34f564bcf266e369",
+        "caption_path": "intake/D011/photo-captions.txt#008",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
+    },
+    {
+      "chapter": 11,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d011/s009/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "df969614e43bfa10c763e48c3b79f2484024c69c30d53b66a19592f6d676a7ac",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Hiranyaksha roams the submerged world seeking an opponent: One distinct Hiranyaksha carries one mace and moves through the waters after submerging the earth.; Show the earth as one recognizable land sphere or landmass beneath the water; keep the asura’s two arms attached and the mace clearly held in one hand.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s009-landscape-v001-review-v001.md",
+          "sha256": "4c4f15b575acbb52db30bf19b3a92bd733bb2bbf6d54eb36c5efa180e050bc21"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Hiranyaksha has two arms, with one gripping the mace; the close crop shows two distinct legs and feet in a swimming pose. No extra limb is visible."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The hip, bent leg and extended leg are visually separate in the lower-body close view; the sash overlaps the thighs but does not create a second body. The mace arm joins the shoulder and the open hand remains attached."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One bearded face is visible and coherent; no duplicate face or second head."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Only Hiranyaksha is present; no opponent or repeated figure appears."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The submerged landscape, roaming asura and mace match the source meaning. The close view resolves the previously ambiguous leg overlap; flat mural styling is retained."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/009.jpg",
+        "sha256": "2ba34011879413ec5fea434778c09269767312642cbeb3a6c8861320702f52ab",
+        "caption_path": "intake/D011/photo-captions.txt#009",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
+    },
+    {
+      "chapter": 11,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d011/s010/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "314bcd541a9a6fd72349ce45f00be0117319620e4d522b529f718d8e55108c76",
+      "reviewer": "Codex (D011 isolated production session)",
+      "inspected_at": "2026-11-05T08:08:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varuna directs Hiranyaksha to seek Vishnu: One distinct Varuna, lord of waters, addresses one distinct Hiranyaksha across a calm ocean court. Each has one head and two attached arms; Hiranyaksha carries one mace.; Hiranyaksha turns away to search the waters for Vishnu; do not depict the Varaha encounter or show Vishnu as the opponent in this scene.; A restrained devotional glow on the distant horizon may suggest the closing prayer. Do not add Bhattathiri as a separate figure; the stanza’s main action remains Varuna’s direction and Hiranyaksha’s search.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d011.json",
+          "sha256": "306181b854253f7b35a15137cbb9e4b31fbde3a4d9a2eb1cfe12a68f4827f462"
+        },
+        {
+          "path": "content/daskams/d011.json",
+          "sha256": "9578b66bbb2939b171af5950f4358198c668fe6553c5abf48e8f41fd4d1fe661"
+        },
+        {
+          "path": "content/sources/d011/intake-manifest.json",
+          "sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d011-s010-landscape-v001-review-v001.md",
+          "sha256": "2793bab88443685d9a7ab4a4d0fa1001e3a8b0f689b58b14f16c6dcd84dadfef"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varuna and Hiranyaksha each have two arms; their visible hands and arms remain connected, and each has a single head."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The seated and standing bodies have clear shoulder and torso attachments; no extra or detached limbs stood out in the close view."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The two faces are distinct and readable; Varuna’s facial features differ from Hiranyaksha’s."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two figures appear, with no extra Varaha or second deity."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, captions, logos, signatures, watermarks or text-like marks appeared in the viewed full frame or crop."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Varuna addresses Hiranyaksha in the ocean setting as planned; there is no added combat or Vishnu manifestation. Matte mural palette and full-frame composition remain consistent."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D011/010.jpg",
+        "sha256": "e0b2a1f0b1931e04107c5a47feafd4787ae80d18322affcff1d182a279729c6a",
+        "caption_path": "intake/D011/photo-captions.txt#010",
+        "caption_manifest_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173",
+        "source_map_path": "content/sources/d011/intake-manifest.json",
+        "source_map_sha256": "37c08dfaacf4a964001c8db42cb801b117a3438aaf4d3228f6d13767e11a2173"
+      }
     }
   ]
 }
