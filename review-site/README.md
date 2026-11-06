@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D031, D034, D040, D042, D043 and D044 media from the release using the existing
+D005 through D014, D029, D031, D034, D040, D042, D043 and D044 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -276,6 +276,23 @@ in `art/batches/d014-comparison-v001.json`; they remain unapproved, English
 translations are absent, and portrait compositions are paused. Upload only
 D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
 before any serialized Worker deployment.
+
+## Dasakam 29
+
+D029 contains ten source-mapped landscape candidates in
+`art/batches/d029-comparison-v003.json`: S001 v003, S002, S006 and S008 v002,
+S003 and S007 v004, and native repairs v003 for S004, S005, S009 and S010. The
+exact candidate versions and checksums are pinned there; S003 and S004 are
+native 1671 × 941 frames. Every candidate remains unapproved. Independent,
+checksum-bound full-frame and detail reviews in
+`art/reviews/d029-s*-managed-review-v001.md` and `visual-reviews.json` pass all
+ten selected frames; failed earlier versions keep their reports and findings.
+Supplied commentary is preserved verbatim, a sourced English translation is
+unavailable, and portraits are paused. Upload only D029's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=29` before any serialized Worker
+deployment. With D029 added alongside D031 and D034, the union holds 23
+chapters, 239 stanza rows, 485 review media inputs and 245 selected generated
+images (69 historical, 176 individually inspected).
 
 ## Dasakam 34
 
