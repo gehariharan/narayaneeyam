@@ -7,35 +7,37 @@
     "Nanda Gopa"
   ],
   "depiction_rules": {
-    "default_mode": "vraja-father",
+    "default_mode": "cowherd-householder",
     "allowed_modes": [
-      "vraja-father"
+      "cowherd-householder"
     ],
-    "notes": "One recurring mature cowherd chief and father. Keep him distinct from Garga Muni (elderly ascetic with white beard and topknot) and Vasudeva (longer dark hair and fuller beard)."
+    "notes": "Provisional shared D042-D044 supporting-character contract based on the visually checked D043 S009 source photo. Use the common face, hair, age and clothing cues across chapters; source photo is not an approved character master and does not set scene pose or rendering style."
   },
   "visual_bible": {
-    "age": "mature adult man",
-    "face": "gently rounded or oval face, dark moustache, calm protective expression",
-    "skin": "warm medium-brown complexion",
-    "hair": "dark hair gathered or covered simply",
-    "build": "ordinary adult proportions with natural two-armed anatomy",
-    "clothing": "simple cream dhoti with muted olive or green upper cloth or head covering",
-    "continuity_markers": "same rounded face with dark moustache, cream dhoti and muted olive/green upper cloth or head covering in every scene"
+    "age": "mature adult cowherd household head; exact age unspecified",
+    "face": "warm medium-brown complexion, gently rounded or oval face, dark moustache, calm protective expression; keep face proportions consistent across D042-D044",
+    "skin": "warm medium-brown mural pigment",
+    "hair": "dark hair gathered back or simply covered by a cream head cloth; avoid changing the hairline or moustache",
+    "build": "sturdy, naturally proportioned cowherd household head",
+    "clothing": "simple cream dhoti with muted olive or green upper cloth or simple head covering; adapt only as required by the scene while retaining this cowherd color vocabulary",
+    "continuity_markers": "same mature face, dark moustache, dark gathered/covered hair, cream dhoti and muted olive/green clothing; distinct from Garga’s elderly white-bearded ascetic look and Vasudeva’s longer dark hair and fuller beard",
+    "shared_identity_reference": {
+      "path": "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+      "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+      "role": "shared provisional D042-D044 adult identity cue only; not an approved character master or scene/style reference"
+    }
   },
   "never": [
-    "no full beard",
-    "no royal crown or ornate court costume",
-    "no glossy photographic rendering",
-    "no changing face or cream-and-olive clothing vocabulary between scenes"
+    "no royal crown or armor",
+    "no modern clothing",
+    "no duplicate Nanda in one scene",
+    "do not imply that this is an approved master"
   ],
   "local_reference_paths": [
-    "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
-  ],
-  "note": "Provisional shared D042-D044 identity cue from the private supporting-cast handoff (data/d044-production/shared-supporting-cast-handoff.json), derived from D043 S009 source photo SHA-256 1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f. Identity, age, hair, face and clothing cues only; not an approved sheet or scene master.",
-  "reference_decision": {
-    "status": "provisional-shared-identity-cue",
-    "basis": "Shared D042-D044 supporting-cast handoff",
-    "decision": "Use the shared Nandagopan identity cue for D042 comparison generation. Not an approval.",
-    "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f"
-  }
+    "intake/D044/003.jpg",
+    "intake/D044/006.jpg",
+    "intake/D044/007.jpg",
+    "intake/D044/009.jpg",
+    "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+  ]
 }

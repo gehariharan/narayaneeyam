@@ -1,37 +1,33 @@
 {
   "schema_version": 1,
   "id": "gopas",
-  "display": "Gopas of Vraja",
+  "display": "Gokula cowherds",
   "aliases": [
-    "cowherd men",
-    "Vraja elders"
+    "gopa community"
   ],
   "depiction_rules": {
-    "default_mode": "group",
+    "default_mode": "small-supporting-group",
     "allowed_modes": [
-      "group"
+      "small-supporting-group"
     ],
-    "notes": "Unnamed cowherd men and elders of Vraja. Each member is a distinct ordinary man of varied age; none is styled as Nandagopan."
+    "notes": "Generic supporting community only; no individual gopa is a recurring named identity."
   },
   "visual_bible": {
-    "age": "youths to elders",
-    "face": "distinct individual faces, moustaches or beards varying by member",
-    "skin": "warm brown mineral-pigment tones",
-    "hair": "dark or greying hair, often under simple turbans or headbands",
-    "build": "ordinary adult proportions with natural two-armed anatomy",
-    "clothing": "cream dhotis with simple shoulder cloths in muted mural colors",
-    "continuity_markers": "simple village dress and distinct members; no fixed individual identity"
+    "age": "adults of varied ages",
+    "face": "visibly distinct, naturally varied faces",
+    "skin": "varied warm Indian mural pigments",
+    "hair": "simple natural hairstyles",
+    "build": "ordinary human proportions",
+    "clothing": "simple muted cowherd dhotis and shawls in cream, olive, or maroon",
+    "continuity_markers": "small non-duplicated group, visually secondary to Nanda and Krishna"
   },
   "never": [
-    "no duplicated or fused men",
-    "no royal or soldier costume",
-    "no glossy photographic rendering"
+    "no repeated or cloned individual",
+    "no royal costume",
+    "no modern clothing",
+    "no extra limbs"
   ],
-  "local_reference_paths": [],
-  "note": "Chapter photographs are provisional cast/context references only.",
-  "reference_decision": {
-    "status": "provisional-group-contract",
-    "basis": "D042 production contract",
-    "decision": "Provisional chapter-scoped group contract for D042 comparison generation; stanza artwork remains needs-review. Not a character approval."
-  }
+  "local_reference_paths": [
+    "intake/D044/009.jpg"
+  ]
 }

@@ -60,3 +60,7 @@ Exactly four figures: three guard boys are ordinary two-armed children, and Kris
 - The detail crops are gitignored local files. Their hashes and geometry are recorded here so they can be regenerated from the exact selected bytes.
 
 No image bytes were edited and no approval manifest was changed. Human editorial and art approval remain pending.
+
+## Source description correction
+
+- Re-opened at 2026-11-06T00:00:10Z (`artifacts/d042/review-evidence/managed-v004/sources-001-004.png`). The source is a field of airborne broken wooden pieces against a blue ground with no people, matching the reference map. The earlier statement that it 'shows the boys alarmed as the cart splits' was wrong. v001's guard boys and infant come from the stanza 2 plan's must-show list, so the image observations, checks and outcome are unchanged.

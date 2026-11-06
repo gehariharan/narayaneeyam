@@ -65,3 +65,7 @@ All adults are ordinary two-armed people (Nandagopan, Yashoda, gopas and Brahmin
 - The detail crops are gitignored local files. Their hashes and geometry are recorded here so they can be regenerated from the exact selected bytes.
 
 No image bytes were edited and no approval manifest was changed. Human editorial and art approval remain pending.
+
+## Source description correction
+
+- Re-opened at 2026-11-06T00:00:10Z (`artifacts/d042/review-evidence/managed-v004/sources-001-004.png`). The source shows a close group of women around a seated mother holding the infant; no Nandagopan, gopas or Brahmins are shown, matching the reference map. The earlier statement that it 'shows the elders gathering' was wrong. v001's Nandagopan, gopas and Brahmins come from the stanza 4 plan's must-show list, so the image observations, checks and outcome are unchanged.
