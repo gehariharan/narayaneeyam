@@ -208,3 +208,11 @@
 
 - These are text, contract and hash reads. Image observations come from the cited managed reports and, for D043, from the reviewer’s own opening of each selected frame in this run. D044 images were not re-opened in this check.
 - The D043 per-version reports name the original plan hash f86515f6…. The current plan e80e2bb9… is bound in the ledger through `art/reviews/d043-plan-pin-recheck-managed-review-v001.md`.
+
+## Update 2026-11-06T00:58:05Z
+
+- Head checked: 58d5eddcedbf4dc2cd1209073a80dd4a9ed652a2, plus this fix round.
+- The LOW finding above is now resolved. In `content/sources/d043/reference-map.json`, stanza 10's `observed_reference` now describes one two-armed child Krishna lying prone on a rock with a flute. That was confirmed by opening `intake/D043/010.jpg` (SHA-256 `a72b0898ad49d959575138e70567f2ba179c3ac5ea85cc9b8d9f1ba69dc3a129`) at 2026-11-06T00:56:58Z. Stanza 8's text, which also described men who are not in the image, now says women around a standing child; that was confirmed by opening `intake/D043/008.jpg` (SHA-256 `c7a935fbe4d54ec50a307be34f86d75c9a03eb533e4cb853ccd61ec6c49608f2`) at the same time.
+- New reference-map SHA-256: `5647195ef50b6ba397b72667057ae17b4ab732184e2dac56a54f88e399443893`. The per-path entry above records the pre-correction hash `a4c477c4…` and wording as history.
+- All ten selected D043 frames were re-opened full-frame between 2026-11-06T00:57:13Z and 00:57:32Z, and their ledger records were re-bound to the corrected map. Evidence: `art/reviews/d043-reference-map-context-recheck-managed-review-v001.md`. No image bytes, captions, plan or approval state changed.
+- The D044 S005 report wording slip is unchanged (it belongs to main's report).
