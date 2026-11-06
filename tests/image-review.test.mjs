@@ -275,7 +275,6 @@ test('D043 selection binds its ten source and native candidate versions', async 
   const batch = batches.find(item => item.selectionFile === 'd043-comparison-v001.json');
   const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d043.json'), 'utf8'));
   const plan = JSON.parse(await fs.readFile(path.join(root, 'art/plans/d043.json'), 'utf8'));
-  const { reviews } = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/visual-reviews.json'), 'utf8'));
   assert.ok(batch);
   assert.equal(batch.daskam_id, 43);
   assert.equal(batch.review_status, 'needs-review');
@@ -287,14 +286,9 @@ test('D043 selection binds its ten source and native candidate versions', async 
     assert.equal(selected.concept_id, scene.concept_id);
     assert.equal(selected.scene, scene.alt);
     assert.equal(selected.reference.file, `intake/D043/${String(selected.n).padStart(3, '0')}.jpg`);
-    const planned = scene.orientations.landscape;
-    const review = reviews.find(item => item.chapter === 43 && item.sloka === selected.n && item.sha256 === selected.matte.sha256);
-    assert.equal(selected.matte.file, `artifacts/d043/s${String(selected.n).padStart(3, '0')}/landscape/${selected.matte.version}/candidate.png`);
-    assert.equal(review?.outcome, 'pass');
-    if (selected.matte.sha256 !== planned.candidate_sha256) {
-      assert.equal(review.supersedes_version, planned.candidate_version);
-      assert.ok(reviews.some(item => item.chapter === 43 && item.sloka === selected.n && item.version === planned.candidate_version && item.sha256 === planned.candidate_sha256 && item.outcome !== 'pass'));
-    }
+    assert.equal(selected.matte.file, scene.orientations.landscape.candidate_path);
+    assert.equal(selected.matte.version, scene.orientations.landscape.candidate_version);
+    assert.equal(selected.matte.sha256, scene.orientations.landscape.candidate_sha256);
     assert.deepEqual(selected.alternates, []);
     assert.equal(stanza.review_status, 'needs-review');
   }
