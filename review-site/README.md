@@ -163,6 +163,10 @@ commentary remain editorial review material, and English translations are not
 yet available. Portraits remain paused. Upload its WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=6` before deploying the Worker.
 
+## Dasakam 35
+
+D035 contains ten stanza-specific landscape candidates selected from the mapped intake photos and exact version hashes: S001 v002, S002 v002, S003 v001, S004 v002, S005 v002, S006 v002, S007 v002, S008 v001, S009 v002, and S010 v003. Superseded attempts remain preserved with their findings and are excluded from publication. Independent exact-checksum visual review is pending. The batch remains unapproved. Supplied captions are shown as commentary; no sourced English translation was found. Portrait production remains paused. Upload only D035 review derivatives with `node review-site/scripts/upload.mjs --daskam=35` before deployment.
+
 ## Dasakam 38
 
 D038 is imported from Jarvis with its original sourced content, plans, and

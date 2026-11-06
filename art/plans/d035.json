@@ -1,0 +1,602 @@
+{
+  "schema_version": 1,
+  "daskam_id": 35,
+  "slug": "d035",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_characters": [
+      "rama",
+      "sita",
+      "lakshmana",
+      "hanuman"
+    ],
+    "closing_prayer": [
+      "bhattathiri",
+      "guruvayurappan"
+    ],
+    "locations": [
+      "Matanga forest",
+      "search routes",
+      "Ashokavana",
+      "ocean shore",
+      "Lanka",
+      "Valmiki's hermitage",
+      "Ayodhya",
+      "Guruvayur shrine"
+    ],
+    "arc": "Rama allies with Sugriva, searches for Sita, crosses the ocean and defeats Ravana, then recounts later events before the poet closes with a prayer to Guruvayurappan.",
+    "style": "Traditional matte South Indian temple-mural painting: firm dark drawn contours, broad opaque mineral color fields, shallow decorative space, restrained facial modeling, full bleed without an outer border, earth ochre, maroon, warm cream, muted foliage green and quiet blue. D001 S004/S008 are rendering references only; chapter photos guide story and composition only. No glossy shading, metallic gold, text, watermark, logo or signature.",
+    "character_continuity": "D035 local provisional character contracts govern Rama, Sita, Lakshmana, Hanuman, Sugriva, Vali, Ravana, Vibhishana, Sampati and Garuda. Ordinary humanlike and vanara characters have two naturally connected arms and two legs; Hanuman and vanaras have one attached tail where specified. Ravana has ten heads only in S007, on one connected body with two arms; no head is detached. Rama has muted blue skin and no Krishna peacock feather. Guruvayurappan follows the approved identity bible and its copied identity reference only; the two D001 images govern rendering. The selected older clean-shaven Bhattathiri reference is used only in S010. No art in this plan is approved.",
+    "production": "Landscape-only native production: ten independent 16:9 compositions. Portrait companions are paused and must not be generated or simulated by crop. All generated candidates remain unapproved."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d035-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "rama",
+        "sugriva",
+        "hanuman"
+      ],
+      "scene_brief": {
+        "mode": "rama-demonstrates-strength-to-sugriva",
+        "must_show": [
+          "Rama demonstrates his strength to Sugriva by sending one arrow through a row of seven shala trees.",
+          "Sugriva and Hanuman witness the demonstration in the Matanga forest."
+        ],
+        "composition": "One quiet forest moment, Rama's bow and arrow aligned through seven distinct trees, Sugriva watching with Hanuman beside him; keep the arrow visibly continuous and the trees in one natural row.",
+        "tone": "solemn, trusting, restrained",
+        "avoid": [
+          "multiple episode collage",
+          "Vali's death",
+          "extra arrows",
+          "unconnected bowstring",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "The user-supplied stanza-1 caption describes Rama's alliance with Sugriva, strength demonstration, Vali episode and rainy retreat; this composition isolates the strength demonstration."
+      },
+      "alt": "Rama demonstrates his strength by sending one arrow through seven shala trees as Sugriva and Hanuman watch in the Matanga forest.",
+      "reference_paths": [
+        "intake/D035/001.jpg",
+        "intake/D035/002.jpg",
+        "intake/D035/003.jpg",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use 001 and 003 as story/composition references only. The old images may show several episodes and different renderings; generate one coherent moment. D001 references control matte paint only.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose as a full-bleed 16:9 scene with all faces, limbs and seven trees inside frame; no border."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused for this batch; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v002",
+        "file": "artifacts/d035/s001/landscape/candidate-v002.png",
+        "sha256": "45d49fa251270e61b293c911e64894bb8629d0c474815d962cfb4079caa7a7ee",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d035-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "rama",
+        "lakshmana",
+        "sugriva",
+        "hanuman"
+      ],
+      "scene_brief": {
+        "mode": "rama-gives-hanuman-the-signetring",
+        "must_show": [
+          "Rama places his signet ring in Hanuman's open hand and entrusts him with a message for Sita.",
+          "Lakshmana and Sugriva are nearby as the search party prepares to depart."
+        ],
+        "composition": "Intimate ring handoff in the foreground with a small, orderly vanara search party waiting on a forest path behind; the ring touches Hanuman's palm.",
+        "tone": "hopeful, purposeful, affectionate",
+        "avoid": [
+          "multiple panels",
+          "extra rings",
+          "floating hands",
+          "crowded ranks obscuring faces",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "The supplied stanza-2 caption says Sugriva sends search parties and Hanuman receives Rama's signet ring and message."
+      },
+      "alt": "Rama entrusts Hanuman with the signet ring and message for Sita as the search party prepares to leave.",
+      "reference_paths": [
+        "intake/D035/004.jpg",
+        "intake/D035/005.jpg",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use 004 for the searching army and 005 for the ring handoff, story/composition only; keep the new scene as one continuous field.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose natively at 16:9; keep hands and ring large enough to read clearly without any text."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v002",
+        "file": "artifacts/d035/s002/landscape/candidate-v002.png",
+        "sha256": "ead2bcc293016e961d99a1ce6fb95775dc4cb7da17a4384133f6305d479c4368",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d035-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "hanuman",
+        "sita"
+      ],
+      "scene_brief": {
+        "mode": "hanuman-meets-sita-in-ashokavana",
+        "must_show": [
+          "Hanuman respectfully presents Rama's ring to Sita in Ashokavana.",
+          "Sita returns her hair jewel to Hanuman as a token for Rama."
+        ],
+        "composition": "Two figures in a shaded garden beneath an ashoka tree, with an unambiguous ring-to-Sita and jewel-to-Hanuman exchange; keep both hands and objects connected and visible.",
+        "tone": "tender, relieved, reverent",
+        "avoid": [
+          "burning Lanka",
+          "Ravana's court",
+          "duplicate Sita or Hanuman",
+          "extra arms",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "The supplied stanza-3 caption maps 006–010 to Sampati, Hanuman's crossing, Ashokavana, Lanka and the return; this scene isolates Hanuman's exchange with Sita."
+      },
+      "alt": "In Ashokavana, Hanuman gives Sita Rama's ring and receives her hair jewel for Rama.",
+      "reference_paths": [
+        "intake/D035/006.jpg",
+        "intake/D035/007.jpg",
+        "intake/D035/008.jpg",
+        "intake/D035/009.jpg",
+        "intake/D035/010.jpg",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "010 is the direct exchange reference; 006–009 are other moments within the mapped stanza and are not to be merged into this image. Story/composition only.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose at 16:9 with the exchange central and clearly connected, leaving calm garden space around both figures."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v001",
+        "file": "artifacts/d035/s003/landscape/candidate-v001.png",
+        "sha256": "889a2ff831e2ed5243ba35b4e4f53ade30be6f1addf8f53bde94b4ec7abb5468",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d035-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "rama",
+        "vibhishana",
+        "samudra-raja"
+      ],
+      "scene_brief": {
+        "mode": "rama-asks-the-ocean-for-passage",
+        "must_show": [
+          "At the shore Rama aims a restrained fire weapon toward the ocean after the sea has not yielded passage.",
+          "Samudra Raja rises from the water with a respectful gesture and offers a way across; Vibhishana stands beside Rama."
+        ],
+        "composition": "A continuous shoreline scene, Rama's lowered bow still in his hands, a small contained flame at the arrow tip, and the sea deity emerging from the water; Vibhishana remains distinct at Rama's side.",
+        "tone": "grave, contained, resolving",
+        "avoid": [
+          "ocean engulfing the figures",
+          "destructive fire",
+          "extra arms",
+          "unattached bow or arrow",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "The supplied stanza-4 caption names Vibhishana's surrender and Samudra Raja yielding after Rama's appeal and threat."
+      },
+      "alt": "Rama stands at the ocean with Vibhishana as Samudra Raja rises and yields a passage across the water.",
+      "reference_paths": [
+        "intake/D035/011.jpg",
+        "intake/D035/012.jpg",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "011 is the Vibhishana-to-Rama surrender cue; 012 is Samudra Raja appearing. Use both as story/composition references, not rendering references.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose at 16:9 along a clear horizontal shoreline; keep all bodies and prop contacts visible."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v002",
+        "file": "artifacts/d035/s004/landscape/candidate-v002.png",
+        "sha256": "67a919d404bbdebf7109321366c5a8b2dbf222113e850be3d73f3f332632134c",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d035-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "rama",
+        "lakshmana",
+        "garuda"
+      ],
+      "scene_brief": {
+        "mode": "garuda-frees-rama-and-lakshmana",
+        "must_show": [
+          "Rama and Lakshmana are bound by living naga coils after the battle begins.",
+          "Garuda descends with two attached wings and the coils loosen as he arrives."
+        ],
+        "composition": "Rama and Lakshmana lie side by side with a few clearly connected serpent coils; Garuda approaches above them with wings open, and vanara allies look on without crowding.",
+        "tone": "urgent, protective, turning to relief",
+        "avoid": [
+          "serpents fused to faces",
+          "extra wings or arms",
+          "graphic injury",
+          "crowd of clones",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "The supplied stanza-5 caption describes the bridge, battle, naga weapon and Garuda freeing the brothers; this scene isolates Garuda's arrival."
+      },
+      "alt": "Garuda arrives over Rama and Lakshmana, loosening the naga coils that bind them.",
+      "reference_paths": [
+        "intake/D035/013.jpg",
+        "intake/D035/014.jpg",
+        "intake/D035/015.jpg",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "015 is the direct Garuda and naga reference; 013 also shows bridge building, which is not a separate panel in this composition. Use story/composition only.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose at 16:9 with both brothers and Garuda fully in frame; maintain continuous limb and serpent contacts."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v002",
+        "file": "artifacts/d035/s005/landscape/candidate-v002.png",
+        "sha256": "5f0ee792425b2117e5a1c20c5e3fdf8907ae8f9f16e530a84d503084f3eec032",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d035-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "rama",
+        "lakshmana",
+        "hanuman"
+      ],
+      "scene_brief": {
+        "mode": "hanuman-brings-sanjeevani-mountain",
+        "must_show": [
+          "Lakshmana lies unconscious but uninjured as Rama remains beside him.",
+          "Hanuman arrives carrying a single herb-covered mountain whose leaves revive Lakshmana."
+        ],
+        "composition": "The mountain is held securely in Hanuman's two hands; Rama supports Lakshmana's shoulder, with a few distinct allies behind them.",
+        "tone": "urgent, devoted, hopeful",
+        "avoid": [
+          "floating mountain",
+          "extra hands",
+          "graphic wound",
+          "duplicate Lakshmana",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "The supplied stanza-6 caption describes Lakshmana's collapse and Hanuman bringing the Sanjeevani mountain."
+      },
+      "alt": "Hanuman brings the herb-covered Sanjeevani mountain as Rama watches over the unconscious Lakshmana.",
+      "reference_paths": [
+        "intake/D035/016.jpg",
+        "intake/D035/017.jpg",
+        "intake/D035/018.jpg",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "016 is the direct healing scene cue; 017–018 contain later combat moments and should not be combined into this scene. Story/composition only.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose at 16:9 with mountain, Hanuman, Rama and Lakshmana all comfortably inside frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v002",
+        "file": "artifacts/d035/s006/landscape/candidate-v002.png",
+        "sha256": "0f47ab83e7e46729c4beb6a611c91820ab5a53487ebdebff3702af75b8f97e16",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d035-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "rama",
+        "ravana"
+      ],
+      "scene_brief": {
+        "mode": "rama-faces-ravana",
+        "must_show": [
+          "Rama releases a single Brahmastra toward Ravana in the final battle.",
+          "Ravana's ten heads are intentional, distinct and attached to one coherent body with two arms; the arrow remains continuous and no head is severed."
+        ],
+        "composition": "Rama and Ravana face one another across a simple Lanka battlefield, one drawn bow and one arrow connecting the action; use the ten heads as a clear crown-like horizontal arrangement without extra bodies.",
+        "tone": "solemn, decisive, non-graphic",
+        "avoid": [
+          "detached heads",
+          "more than ten heads",
+          "extra arms",
+          "gore",
+          "collage of fire trial and return",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "The supplied stanza-7 caption describes Rama defeating Ravana, Sita's fire trial and the return to Ayodhya; this scene isolates the battle."
+      },
+      "alt": "Rama's single arrow meets Ravana in battle; Ravana's ten heads remain attached to one body.",
+      "reference_paths": [
+        "intake/D035/019.jpg",
+        "intake/D035/020.jpg",
+        "intake/D035/021.jpg",
+        "intake/D035/022.jpg",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "019 is the direct battle composition cue. 020–022 map to later events in the same supplied caption and are not to be fused into this image. Head count follows the explicit D035 contract, not the reference's rendering.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose at 16:9 with exactly ten attached heads on Ravana and two arms; keep both full figures and bow contacts visible."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v002",
+        "file": "artifacts/d035/s007/landscape/candidate-v002.png",
+        "sha256": "1c8d6448ffb815ea58de696177796c09cbd9811b85551231c0f0a85f50888f33",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d035-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "sita",
+        "valmiki",
+        "lava",
+        "kusha"
+      ],
+      "scene_brief": {
+        "mode": "sita-and-twins-at-valmiki-hermitage",
+        "must_show": [
+          "Sita lives at Valmiki's forest hermitage and has given birth to twin sons Lava and Kusha.",
+          "The twins are two distinct young children, close in age, with natural proportions."
+        ],
+        "composition": "A quiet hermitage clearing: Valmiki stands near Sita and the two infants beneath simple forest shelter; no royal court or coronation panel.",
+        "tone": "tender, contemplative, resilient",
+        "avoid": [
+          "duplicate children",
+          "pregnancy shown",
+          "Rama present despite the exile scene",
+          "crowd",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "The supplied stanza-8 caption maps the coronation, exile and birth of the twins; this image isolates Sita's life at the hermitage with her sons."
+      },
+      "alt": "At Valmiki's hermitage, Sita sits with her newborn twin sons as the sage watches over them.",
+      "reference_paths": [
+        "intake/D035/023.jpg",
+        "intake/D035/024.jpg",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "023 and 024 are mapped to stanza 8; use only the family and hermitage cues needed for this single moment. Story/composition only.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose at 16:9 with Sita, sage and exactly two infants; keep all limbs attached and visible."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v001",
+        "file": "artifacts/d035/s008/landscape/candidate-v001.png",
+        "sha256": "18c05547df6cb0c1baf5d14e8f923d5f98b541c7c27452a5070143418ed1a472",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d035-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "rama",
+        "sita",
+        "lava",
+        "kusha",
+        "valmiki",
+        "bhudevi"
+      ],
+      "scene_brief": {
+        "mode": "sita-returns-to-earth",
+        "must_show": [
+          "Sita turns to Mother Earth and begins to return into the earth before Rama, Lava, Kusha and Valmiki.",
+          "Bhudevi is a gentle earth presence; the ground opens as a natural supported cradle rather than a pit."
+        ],
+        "composition": "A single ceremonial clearing at the Ashwamedha gathering, with the two boys and Valmiki close to Rama; Sita remains dignified and connected to the ground, with Bhudevi emerging at her side.",
+        "tone": "solemn, compassionate, restrained",
+        "avoid": [
+          "violent fall",
+          "separate event panels",
+          "duplicated Sita",
+          "floating body",
+          "extra limbs",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "The supplied stanza-9 caption describes the sons' recitation, Sita's return to Earth and Rama's later departure; this scene isolates Sita's return to Earth."
+      },
+      "alt": "Sita returns to Mother Earth before Rama, the twins and Valmiki in a solemn gathering.",
+      "reference_paths": [
+        "intake/D035/025.jpg",
+        "intake/D035/026.jpg",
+        "intake/D035/027.jpg",
+        "intake/D035/028.jpg",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "026 is the direct earth-return cue; 025 and 027–028 depict other points in the stanza's caption and should not become separate panels. Story/composition only.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose at 16:9 with Sita's supported descent fully visible; keep the sons distinct and all hands connected."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v002",
+        "file": "artifacts/d035/s009/landscape/candidate-v002.png",
+        "sha256": "be056aa3daa729e782a37670698ef25f0c8e47aa2ec40a63f99c4c6849d3e6d6",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d035-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "bhattathiri-prays-to-guruvayurappan",
+        "must_show": [
+          "The older clean-shaven Bhattathiri offers a humble prayer to Guruvayurappan for relief from affliction.",
+          "Guruvayurappan follows the approved identity bible in the two-armed form shown by the approved reference: one hand blesses, the other rests naturally; no weapon attributes are required for this prayer scene.",
+          "Keep the younger deity, older clean-shaven Bhattathiri, and oil lamp fully visible in a single temple-shrine exchange."
+        ],
+        "composition": "One quiet temple-shrine exchange: Bhattathiri kneels with joined hands before the standing two-armed deity; the deity gives one blessing gesture and lets the other hand rest naturally, with a modest oil lamp between them and a continuous uncluttered mural field.",
+        "tone": "devotional, compassionate, peaceful",
+        "avoid": [
+          "multiple panels",
+          "bearded Bhattathiri",
+          "Bhattathiri depicted as a deity",
+          "readable text",
+          "gloss",
+          "metallic gold",
+          "four-armed form",
+          "discus or conch not specified by this scene"
+        ],
+        "source_summary": "The supplied stanza-10 caption identifies Bhattathiri's prayer to Bhagwan for relief from afflictions through the teaching of Rama's avatar."
+      },
+      "alt": "The older clean-shaven Bhattathiri prays before Guruvayurappan for relief from affliction.",
+      "reference_paths": [
+        "intake/D035/029.jpg",
+        "artifacts/d035/references/bhattathiri-older-candidate.png",
+        "artifacts/d035/references/vishnu-approved-guruvayurappan.png",
+        "artifacts/d035/references/style-d001-s004.png",
+        "artifacts/d035/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use the older Bhattathiri image for identity only, and the Guruvayurappan sheet for identity only. Use both D001 images for matte rendering. Use 029 only as the supplied story cue. At most five references may be attached to a native call.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape mural",
+          "composition_override": "Compose at 16:9 with Bhattathiri and deity both fully visible; no outer border or text."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate or crop."
+        }
+      },
+      "selected_landscape": {
+        "version": "v003",
+        "file": "artifacts/d035/s010/landscape/candidate-v003.png",
+        "sha256": "631530f2f0073627644913845bf02008a5657c80cd50e9d8f9c07ab21679d175",
+        "dimensions_px": "1672x941",
+        "candidate_status": "independent exact-checksum review is recorded"
+      }
+    }
+  ]
+}
