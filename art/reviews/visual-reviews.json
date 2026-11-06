@@ -18683,11 +18683,11 @@
       "file": "artifacts/d046/s005/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "ff3f4713d3f7b25e070b4aadc75bb24231ecaabe9828b8efce48fc2ab20ea050",
-      "reviewer": "Codex, D046 production session",
-      "inspected_at": "2026-11-06T07:17:29Z",
+      "reviewer": "Codex, D046 corrected-release preparation",
+      "inspected_at": "2026-11-06T09:15:07Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "External Krishna is a two-armed infant/toddler as appropriate to the stanza; Yashoda is an ordinary two-armed adult. Only scene 8 contains a distinct four-armed inner Narayana, as planned.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "One ordinary two-armed adult Yashoda and one externally two-armed toddler Krishna; S005 contains no cosmic vision. The v001 far-shoulder hand is unsupported and has no visible arm attachment.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -18718,35 +18718,52 @@
         {
           "path": "art/reviews/d046-s005-landscape-v001-local-review-v001.md",
           "sha256": "291bb91e75a91c4efdfe35188fafdb33733f92f6821617a7e2be650c690c7606"
+        },
+        {
+          "path": "art/reviews/d046-s005-landscape-v001-managed-review-v001.md",
+          "sha256": "00aaeab6ad93f5c373075dee872a4708eb3b36456839783f27e63b86aefd5259"
+        },
+        {
+          "path": "art/reviews/d046-s005-v001-correction-addendum-v001.md",
+          "sha256": "fa5232f2fddcd26870621cb1d9a26890457e449dba9cb6390176adfd6784ab41"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Krishna’s two hands rest on separate knees and his two feet are visible; Yashoda’s hand near the chin and other hand at the shoulder are distinct."
+          "status": "needs-fix",
+          "observations": "Krishna has two visible hands and feet. Yashoda’s chin-support hand is connected; a second hand on Krishna’s far shoulder has visible fingers but no wrist/forearm."
         },
         "attachment_proportions": {
-          "status": "pass",
-          "observations": "Child arms connect to shoulders and bend naturally at the wrists; both folded legs remain separate. Yashoda’s supporting hand connects to her forearm."
+          "status": "needs-fix",
+          "observations": "The far-shoulder hand cannot be traced to Yashoda; the gap between their bodies leaves no plausible arm route. The chin-support arm remains continuous."
         },
         "faces": {
           "status": "pass",
-          "observations": "The mother’s profile, veil, dark hair and cream sari remain consistent; the child retains toddler face, curls and feather."
+          "observations": "Yashoda’s profile, veil and dark hair and Krishna’s toddler face and curls remain identifiable against the bound character cues."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "One Yashoda and one Krishna; no extra or fused people."
+          "observations": "One Yashoda and one Krishna; no duplicate or fused figure is visible."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No text or watermarks."
+          "observations": "No readable text or watermark is visible."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Yashoda gently asks the child to open his mouth; Krishna sits cross-legged with mouth open. Warm matte temple-mural contours and restrained face modelling are consistent."
+          "observations": "The child’s open mouth and Yashoda’s chin-checking gesture match the S005 action; the matte mural palette and full landscape composition remain."
         }
       },
-      "findings": []
+      "findings": [
+        {
+          "id": "d046-s005-v001-unattached-shoulder-hand",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "A second adult hand grips the child’s far shoulder with fingers and thumb visible but no wrist or forearm. Yashoda’s visible connected arm is the chin-support arm; the gap between bodies leaves no plausible hidden route.",
+          "repair": "Remove the unsupported hand or show a continuous anatomically connected arm from Yashoda. The v002 native revision removes it; v001 remains unresolved historical artwork."
+        }
+      ]
     },
     {
       "chapter": 46,

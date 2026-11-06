@@ -232,14 +232,17 @@ deployment.
 
 D046 contains ten native landscape candidates paired with the ten supplied
 scene references in `art/batches/d046-comparison-v001.json`. The selected
-versions are S001–S005 v001, S006–S007 v002 and S008–S010 v001. Local
-checksum-bound full-frame and detail inspections are recorded, with their
-limits. The independent managed reviews in
-`art/reviews/d046-*-managed-review-v001.md` pass nine leads; S005 v001 is
-marked needs-fix for a far-shoulder hand with no visible arm, and its
-`visual-reviews.json` entry is unchanged pending a human decision. Earlier S006/S007
-four-armed external-child drafts remain preserved but are not selected. English
-translations and portrait compositions are absent. All artwork remains
+versions are S001–S004 v001, S005 v002, S006–S007 v002 and S008–S010 v001.
+S005 v001 remains preserved as needs-fix: the managed report found a detached
+far-shoulder hand. Its prior producer-pass record and original report remain in
+history; `art/reviews/d046-s005-v001-correction-addendum-v001.md` corrects the
+unsupported claim that a human chose not to act. The root-accepted native S005
+v002 (1672 × 941) removes that hand, and its exact source/prompt/reference roles
+are recorded in `art/reviews/d046-s005-v002-native-provenance-v001.md`. The
+corrected release requires a fresh independent managed full-frame/detail review
+of all ten selected leads; S005 v002 has no independent pass yet. Earlier
+S006/S007 four-armed external-child drafts remain preserved but are not selected.
+English translations and portrait compositions are absent. All artwork remains
 unapproved. Upload only D046's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=46` before any serialized Worker
 deployment.
