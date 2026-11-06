@@ -18380,7 +18380,7 @@
       "version": "v001",
       "sha256": "de2a53ef94bbe24f812535506d2672b4623e67a618d54249340bda29321b4df1",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T07:31:35Z",
+      "inspected_at": "2026-11-06T08:05:15Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Two adult men: Nanda (left) and Vasudeva (right).",
@@ -18391,7 +18391,7 @@
         },
         {
           "path": "art/plans/d040.json",
-          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
         },
         {
           "path": "content/daskams/d040.json",
@@ -18414,6 +18414,10 @@
         {
           "path": "art/reviews/d040-s001-v001-managed-review-v001.md",
           "sha256": "5194badbc876bd982600b1e82dfdc3928ed81d1d9ae47eab406dff433eabed34"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
         }
       ],
       "checks": {
@@ -18487,6 +18491,13 @@
           "sha256": "cd2e34bf43bd407cc9a60592f725a6b37d9d95eed959d014181d6e7ef3c1b174",
           "region": "836x470+836+471",
           "viewed_at": "between 2026-11-06T07:30:58Z and 2026-11-06T07:31:35Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s001/landscape/v001/candidate.png",
+          "sha256": "de2a53ef94bbe24f812535506d2672b4623e67a618d54249340bda29321b4df1",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
         }
       ]
     },
@@ -18498,7 +18509,7 @@
       "version": "v002",
       "sha256": "810d675b891550b867b36eb65651ceb0d64311e1d87729fdd99c9cdcc8295532",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T07:31:49Z",
+      "inspected_at": "2026-11-06T08:05:15Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Two adult men: Vasudeva (left) and Nanda (right).",
@@ -18509,7 +18520,7 @@
         },
         {
           "path": "art/plans/d040.json",
-          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
         },
         {
           "path": "content/daskams/d040.json",
@@ -18532,6 +18543,10 @@
         {
           "path": "art/reviews/d040-s002-v002-managed-review-v001.md",
           "sha256": "fc4f886e0281d470e561940ec006a09e36e837a3cedb1b6020e878a39f6e4409"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
         }
       ],
       "checks": {
@@ -18611,6 +18626,13 @@
           "sha256": "f3df7ea036c1b815a274b00a369afee52a84485cb09fbb954d8526d718e90a2a",
           "region": "836x470+836+471",
           "viewed_at": "between 2026-11-06T07:31:35Z and 2026-11-06T07:31:49Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s002/landscape/v002/candidate.png",
+          "sha256": "810d675b891550b867b36eb65651ceb0d64311e1d87729fdd99c9cdcc8295532",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
         }
       ]
     },
@@ -18622,7 +18644,7 @@
       "version": "v001",
       "sha256": "a183bbae25a1a65ea713fc8d9887604c847524d53e51e6f0c3f3eb40421e551a",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T07:32:00Z",
+      "inspected_at": "2026-11-06T08:05:15Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Two adult men: Vasudeva (left) and Nanda (right, walking away).",
@@ -18633,7 +18655,7 @@
         },
         {
           "path": "art/plans/d040.json",
-          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
         },
         {
           "path": "content/daskams/d040.json",
@@ -18656,6 +18678,10 @@
         {
           "path": "art/reviews/d040-s003-v001-managed-review-v001.md",
           "sha256": "081df1d2f87cc684c5e1bba8c8eee8d9a0d127929c90067abde264af13d9e944"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
         }
       ],
       "checks": {
@@ -18735,6 +18761,13 @@
           "sha256": "0623db251a350bb43baa6d51e792554512ef2a6d902d6ea720be1b0d5a8ef294",
           "region": "836x470+836+471",
           "viewed_at": "between 2026-11-06T07:31:49Z and 2026-11-06T07:32:00Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s003/landscape/v001/candidate.png",
+          "sha256": "a183bbae25a1a65ea713fc8d9887604c847524d53e51e6f0c3f3eb40421e551a",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
         }
       ]
     },
@@ -18746,7 +18779,7 @@
       "version": "v001",
       "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T07:37:21Z",
+      "inspected_at": "2026-11-06T08:05:15Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "One adult woman (Putana in disguise). One cow in the background.",
@@ -18757,7 +18790,7 @@
         },
         {
           "path": "art/plans/d040.json",
-          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
         },
         {
           "path": "content/daskams/d040.json",
@@ -18776,6 +18809,10 @@
         {
           "path": "art/reviews/d040-s004-v001-managed-review-v001.md",
           "sha256": "38a86cdbe20ff3d57a44af2a81344495ab19cccb212c680d426b4801f0d64185"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
         }
       ],
       "checks": {
@@ -18849,6 +18886,13 @@
           "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
           "region": "re-inspection against the final putana contract",
           "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
         }
       ]
     },
@@ -18860,7 +18904,7 @@
       "version": "v001",
       "sha256": "b7ba31c30edef2b32bf625cdd2d6d09d1052be9347ed513df1507faeac2c6f7d",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T07:37:21Z",
+      "inspected_at": "2026-11-06T08:05:15Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Two adult gopikas, one adult woman (Putana in disguise) and one two-armed infant Krishna. One cow in the background.",
@@ -18871,7 +18915,7 @@
         },
         {
           "path": "art/plans/d040.json",
-          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
         },
         {
           "path": "content/daskams/d040.json",
@@ -18898,6 +18942,10 @@
         {
           "path": "art/reviews/d040-s005-v001-managed-review-v001.md",
           "sha256": "f1621746b374f7dc111b6e0c8a002c93b029fddaa7753246ba63c76020e0158c"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
         }
       ],
       "checks": {
@@ -18996,6 +19044,13 @@
           "sha256": "b7ba31c30edef2b32bf625cdd2d6d09d1052be9347ed513df1507faeac2c6f7d",
           "region": "re-inspection against the final putana contract",
           "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s005/landscape/v001/candidate.png",
+          "sha256": "b7ba31c30edef2b32bf625cdd2d6d09d1052be9347ed513df1507faeac2c6f7d",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
         }
       ]
     },
@@ -19007,7 +19062,7 @@
       "version": "v001",
       "sha256": "0282f55b97a11d50f71e2672bbdfe3d4a3280452306ee16c63a58ff3bee8568e",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T07:37:21Z",
+      "inspected_at": "2026-11-06T08:05:15Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Two adult gopikas, one adult woman (Putana in disguise) and one two-armed infant Krishna.",
@@ -19018,7 +19073,7 @@
         },
         {
           "path": "art/plans/d040.json",
-          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
         },
         {
           "path": "content/daskams/d040.json",
@@ -19045,6 +19100,10 @@
         {
           "path": "art/reviews/d040-s006-v001-managed-review-v001.md",
           "sha256": "97d34f5dbc33ce4abae6ed92289614b3a4470391ef375f3efcca619fa6fafe0c"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
         }
       ],
       "checks": {
@@ -19136,6 +19195,13 @@
           "sha256": "0282f55b97a11d50f71e2672bbdfe3d4a3280452306ee16c63a58ff3bee8568e",
           "region": "re-inspection against the final putana contract",
           "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s006/landscape/v001/candidate.png",
+          "sha256": "0282f55b97a11d50f71e2672bbdfe3d4a3280452306ee16c63a58ff3bee8568e",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
         }
       ]
     },
@@ -19147,7 +19213,7 @@
       "version": "v001",
       "sha256": "6616b1f484f140cdf55e4e1b674e8423854d89e8caa175922369323e99944aee",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T07:37:21Z",
+      "inspected_at": "2026-11-06T08:05:15Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Two adult gopikas, one adult woman (Putana in disguise) and one two-armed infant Krishna.",
@@ -19158,7 +19224,7 @@
         },
         {
           "path": "art/plans/d040.json",
-          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
         },
         {
           "path": "content/daskams/d040.json",
@@ -19185,6 +19251,10 @@
         {
           "path": "art/reviews/d040-s007-v001-managed-review-v001.md",
           "sha256": "99ef3daad05e0324284218807c4905ebc230d89deb3c9f672a00d8c7c6dd45b8"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
         }
       ],
       "checks": {
@@ -19276,6 +19346,13 @@
           "sha256": "6616b1f484f140cdf55e4e1b674e8423854d89e8caa175922369323e99944aee",
           "region": "re-inspection against the final putana contract",
           "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s007/landscape/v001/candidate.png",
+          "sha256": "6616b1f484f140cdf55e4e1b674e8423854d89e8caa175922369323e99944aee",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
         }
       ]
     },
@@ -19435,7 +19512,13 @@
           "region": "re-inspection against the final putana contract",
           "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
         }
-      ]
+      ],
+      "invalidated_by": {
+        "id": "D040-S008-FAR-ARM-ROOT-V002",
+        "path": "art/reviews/d040-s008-v002-invalidation-addendum-v001.md",
+        "sha256": "8dba3c01d8fde18236a6d476c46c35cf7e9c4c4d6099c543fdf9dc06282cc48c"
+      },
+      "superseded_by_version": "v003"
     },
     {
       "chapter": 40,
@@ -19445,9 +19528,9 @@
       "version": "v001",
       "sha256": "0929f26e01ad015adb04230d8ce7f2f276b21731d0cfd107da680d706b589c8e",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T07:37:21Z",
+      "inspected_at": "2026-11-06T08:05:15Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
+      "outcome": "needs-fix",
       "anatomy_basis": "Six adult gopikas, one fallen giant demoness (Putana) and one two-armed infant Krishna.",
       "contracts": [
         {
@@ -19456,7 +19539,7 @@
         },
         {
           "path": "art/plans/d040.json",
-          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
         },
         {
           "path": "content/daskams/d040.json",
@@ -19483,6 +19566,10 @@
         {
           "path": "art/reviews/d040-s009-v001-managed-review-v001.md",
           "sha256": "2ba8848e89705775a33c444c0572d488da91e68a2a210cd540eee6e2451a814f"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
         }
       ],
       "checks": {
@@ -19491,8 +19578,8 @@
           "observations": "The saffron-veiled gopika holds the infant with two hands, one under his back and one under his legs. The cream-sari gopika reaches in with two hands, one under his arm and one under his back, each with four fingers. The green-sari gopika's two hands are clasped together below. The outer gopis raise open hands, each with a thumb and four fingers. The infant raises two open hands and shows both feet with toes. Putana's two outstretched hands and two anklet-bound feet are visible."
         },
         "attachment_proportions": {
-          "status": "pass",
-          "observations": "Each gopika's arms run continuously from shoulder to bangle to hand; the transfer hands are clearly separate. The infant has exactly two arms and two legs. Putana's limbs connect through her sleeves and lower cloth."
+          "status": "needs-fix",
+          "observations": "The giant's far arm emerges from a sleeve at about (760,200), roughly halfway along the torso, instead of at a shoulder across from the near shoulder at about (420,340) beside the neck at about (470,235). The infant and gopis' limbs remain continuous and proportionate."
         },
         "faces": {
           "status": "pass",
@@ -19511,7 +19598,16 @@
           "observations": "Shows the gopis hurrying to lift Krishna from Putana's body. Her giant form matches S008 and the putana contract. The infant matches the anchor. The gopis follow the gopikas contract's simple village saris, and the holder's saffron-and-maroon dress is not styled as Yashoda's cream/rose family."
         }
       },
-      "findings": [],
+      "findings": [
+        {
+          "id": "D040-S009-FAR-ARM-ROOT-V001",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Putana's far arm roots mid-torso rather than at the shoulder, the same malformation that invalidated S008 v002.",
+          "repair": "Generate a native S009 edit with the same staging (fallen giant in the background, six gopis lifting the infant in the foreground) that roots the far arm at a shoulder beside the neck, consistent with S008 v003. Then re-run the managed individual review."
+        }
+      ],
       "source_reference": {
         "path": "intake/D040/009.jpg",
         "sha256": "48c3c63dcdf518d08aa822b781319159e5592ae1d2578432086d3dfa9d2974f0",
@@ -19574,6 +19670,20 @@
           "sha256": "0929f26e01ad015adb04230d8ce7f2f276b21731d0cfd107da680d706b589c8e",
           "region": "re-inspection against the final putana contract",
           "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s009/landscape/v001/candidate.png",
+          "sha256": "0929f26e01ad015adb04230d8ce7f2f276b21731d0cfd107da680d706b589c8e",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s009-v001-far-shoulder-x2.png",
+          "sha256": "16e63d1fa382ea63e6123a85b34ee96faaaab82e4e90af32b64c4a79a14b6a1e",
+          "region": "560x260+300+140 then 200% Lanczos",
+          "viewed_at": "2026-11-06T08:05:15Z"
         }
       ]
     },
@@ -19585,7 +19695,7 @@
       "version": "v001",
       "sha256": "20f4aef085c650982bf37c1cbabc87fa2ce3a9e5c0e809244a172d03437cbd9f",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T07:35:05Z",
+      "inspected_at": "2026-11-06T08:05:15Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Four adult gopikas and one two-armed infant Krishna.",
@@ -19596,7 +19706,7 @@
         },
         {
           "path": "art/plans/d040.json",
-          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
         },
         {
           "path": "content/daskams/d040.json",
@@ -19619,6 +19729,10 @@
         {
           "path": "art/reviews/d040-s010-v001-managed-review-v001.md",
           "sha256": "bd9b072dc69f8f400196d6a0e89ba9167976fe693122dc046c73127ee89be19d"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
         }
       ],
       "checks": {
@@ -19691,8 +19805,179 @@
           "sha256": "f0a6ccdd9794230286d6e2c83176826d59c54ff28f37eaf37f32f19a7d526d2f",
           "region": "420x320+1080+520 then 170% Lanczos",
           "viewed_at": "2026-11-06T07:35:05Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s010/landscape/v001/candidate.png",
+          "sha256": "20f4aef085c650982bf37c1cbabc87fa2ce3a9e5c0e809244a172d03437cbd9f",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
         }
       ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d040/s008/landscape/v003/candidate.png",
+      "version": "v003",
+      "sha256": "1d453c303725a165c51a0075efac329547987e0b3f6f14de15be9de6a440fdc8",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:04:32Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One immense adult demoness (Putana's true form), one two-armed infant Krishna, and eleven distant villagers: three adult men, two adult women and six children.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s008-v003-managed-review-v001.md",
+          "sha256": "38732d9e16eb38b2b35e4190bc51e11152b7521818ce154aee23708d8257bd0b"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Putana's far arm stretches to the upper right and ends in an open hand with a thumb and four fingers below stacked gold bangles. Her near arm lies to the lower left with an open palm, four fingers and a thumb, and gold bangles. Both feet show five toes and beaded gold anklets. The infant is on all fours with two hands flat on the drape and two bent legs with toes. The villagers' hands are joined, pointing or at their sides."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Resolves D040-S008-FAR-ARM-ROOT-V002. The far arm now rises from a maroon, gold-bordered shoulder cap beside the base of the neck at about (410,320), roughly across the body from the near shoulder at about (330,520). Its olive-grey upper arm runs behind the infant's back to a nearly straight elbow, then on to the wrist bangles and hand, tapering naturally with no stump, second sleeve or mid-chest root. Both arms are similar in length and thickness and proportionate to the giant's head and legs. The infant has infant proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Putana: grey-green face with closed eyes and a calm expression, pale forehead mark, long dark hair spread on the ground, a white flower and a round gold drop earring, unchanged from v002 and matching the putana contract's giant-form markers. Infant: namam, almond eyes, short curls, peacock feather, calm smile. Villagers: distinct small faces, including a bearded turbaned man and a clean-shaven man with joined palms."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One giant, one infant and eleven distinct distant villagers (three men, two women, six children). The two overlapping children right of the tree are separate figures. The infant overlaps the far upper arm without merging with it."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the stanza and caption 8: she falls with both arms stretched out, and the infant is safe and small on her upper chest. The putana giant-true-form mode holds: grey-green skin, the flower and earring carried over from the disguise, the maroon gold-bordered upper drape and the torn ochre patterned lower cloth, with no horns, gore or wounds. The infant matches the v004 anchor. The villagers bind to the gopas and gopikas contracts. The matte mural palette and firm contours are unchanged from v002; no glossy or metallic drift."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/008.jpg",
+        "sha256": "90cdf2d15c067c5dd0a9800021015570801568475a322ae9497d65edbf949729",
+        "caption_path": "intake/D040/photo-captions.txt#008",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/s008/landscape/v002/candidate.png",
+          "sha256": "60d35c2c7e1f3e3d9999e461733c8a98ff1256b12241aaf4a871361e2cad32eb",
+          "role": "rejected predecessor v002 (far-arm root)"
+        },
+        {
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "role": "Putana disguise continuity (selected S004 v001)"
+        },
+        {
+          "path": "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s008/landscape/v003/candidate.png",
+          "sha256": "1d453c303725a165c51a0075efac329547987e0b3f6f14de15be9de6a440fdc8",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T08:04:03Z and 2026-11-06T08:04:13Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-far-shoulder-root-x2.5.png",
+          "sha256": "7a4c54ca392cb9648076bc6f39394b53aab8a1784b1155e4cc2d8ad58239c0f6",
+          "region": "420x280+300+220 then 250% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-far-elbow-wrist-hand-x2.png",
+          "sha256": "2a5c89891e8afc377e3b43141b3c16ec63f4c6f4ee7ce6f1b4597ce9e8124e71",
+          "region": "440x220+520+160 then 200% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-infant-x3.png",
+          "sha256": "31d5344332eca0c9dc5c13aac27b900b775851bf2861917bc61ed3fc072d9645",
+          "region": "260x200+470+190 then 300% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-near-arm-hand.png",
+          "sha256": "b96a5a34980fc028b9f79c67df204255a320cb08c4296f6d6716d2c737e4c405",
+          "region": "440x330+20+520",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-face-x2.png",
+          "sha256": "7b25a0a5c0ab4860d78869ab08f1f3e383881198e13f54aec9caa95862be59b7",
+          "region": "420x280+80+260 then 200% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-villagers-x2.png",
+          "sha256": "7570824079fb7fe708cbea9cb8c2fc347b86c11b9660c53e911280f88f32cbbc",
+          "region": "560x240+1110+70 then 200% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-se.png",
+          "sha256": "40355b20d2f1b883591040c099e1fb71cdb233a43ea43d95e1eb1ad8c581f323",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        }
+      ],
+      "supersedes_version": "v002"
     }
   ]
 }

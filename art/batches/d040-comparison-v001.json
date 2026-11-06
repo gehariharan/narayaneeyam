@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 40,
   "review_status": "needs-review",
-  "visual_review_status": "Independent managed full-frame/detail review is recorded for all ten exact selected versions in art/reviews/visual-reviews.json and art/reviews/d040-*-managed-review-v001.md, and all ten pass against the scene plan and their bound character contracts (including the provisional putana contract). S008 v002 passes with a recorded limitation: the far outstretched arm emerges from its sleeve further along the torso than the near shoulder. The producer self-reviews in artifacts/d040 were not relied on. S002 v001 is preserved but unselected due to repeated staging; S008 v001 is preserved with its coverage finding. No approval implied.",
+  "visual_review_status": "Independent managed full-frame/detail review is recorded in art/reviews/visual-reviews.json and art/reviews/d040-*-managed-review-v001.md. Nine selected versions pass against the scene plan and bound character contracts, including the provisional putana contract. S008 v003, a native far-arm repair, supersedes S008 v002, whose pass is invalidated because the giant's far arm rooted at mid-chest (art/reviews/d040-s008-v002-invalidation-addendum-v001.md). Re-inspecting the other frames against the final plan (art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md) found that S009 v001 has the same far-arm root defect: it is needs-fix and blocks publication until a native repair passes review. The producer self-reviews in artifacts/d040 were not relied on. S002 v001, S008 v001 and S008 v002 are preserved but unselected. No approval implied.",
   "description": "Ten source-mapped D040 native landscape candidates, one per canonical stanza, with exact numbered reference and selected candidate version/hash pinned.",
-  "review_notice": "These are unapproved landscape candidates. The independent managed review of the exact selected versions passed all ten; superseded trials S002 v001 and S008 v001 remain preserved locally and are not shown. Portrait production remains paused; sourced English translations are absent; supplied captions are separate from the sourced Sanskrit/IAST; publishing a comparison does not approve artwork.",
+  "review_notice": "These are unapproved landscape candidates. Publication requires every selected version to pass independent managed review; S009 v001 currently needs a native far-arm repair. Superseded trials S002 v001, S008 v001 and S008 v002 and their findings remain preserved and are not shown. Portrait production remains paused; sourced English translations are absent; supplied captions are separate from the sourced Sanskrit/IAST; publishing a comparison does not approve artwork.",
   "source_mapping_sha256": "cae34853d7bd89be8edb461ac709cda24b1f090a014fcf51daec0f551fd73a1c",
   "rows": [
     {
@@ -166,11 +166,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d040/s008/landscape/v002/candidate.png",
-        "sha256": "60d35c2c7e1f3e3d9999e461733c8a98ff1256b12241aaf4a871361e2cad32eb",
-        "version": "v002",
-        "label": "Landscape candidate v002",
-        "displayLabel": "Landscape candidate v002",
+        "file": "artifacts/d040/s008/landscape/v003/candidate.png",
+        "sha256": "1d453c303725a165c51a0075efac329547987e0b3f6f14de15be9de6a440fdc8",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003",
         "dimensions_px": "1672x941"
       },
       "alternates": []
