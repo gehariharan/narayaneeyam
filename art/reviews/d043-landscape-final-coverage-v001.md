@@ -216,3 +216,12 @@
 - New reference-map SHA-256: `5647195ef50b6ba397b72667057ae17b4ab732184e2dac56a54f88e399443893`. The per-path entry above records the pre-correction hash `a4c477c4…` and wording as history.
 - All ten selected D043 frames were re-opened full-frame between 2026-11-06T00:57:13Z and 00:57:32Z, and their ledger records were re-bound to the corrected map. Evidence: `art/reviews/d043-reference-map-context-recheck-managed-review-v001.md`. No image bytes, captions, plan or approval state changed.
 - The D044 S005 report wording slip is unchanged (it belongs to main's report).
+
+## Update 2026-11-06T02:05:04Z
+
+- Head checked: 35e966b6706c677208a6a8b39299971f48cc717a. This head is a descendant of D043's original reviewed head 750cc7f, the rebased union 495cc7f and main 01030f8 (D042+D044).
+- This supersedes the selection list in the Summary above. The selected D043 leads are now S001 v002, S002 v001, S003 v002, S004 v002, S005 v003, S006 v003, S007 v001, S008 v002, S009 v001 and S010 v002, all passing the managed review.
+- `art/plans/d043.json` now binds the yashoda, gopikas, nandagopan and gopas contracts for the scenes where those roles are visible (`art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md`). The earlier note that D043 gopas are not bound, and that S003 has only four contracts, is superseded.
+- Under those contracts, S003 v001 (heavy jewellery on Yashoda) and S005 v002 (maroon sari on Yashoda) had their passes invalidated. They were replaced by native repairs S003 v002 (SHA-256 `7435f09e…`) and S005 v003 (SHA-256 `36f6ef43…`, native 1671x941), which have their own reports. The chronology of those reports was corrected in dated appendices.
+- The other eight frames were re-opened against the final plan: `art/reviews/d043-native-repair-context-recheck-managed-review-v001.md`.
+- Union totals: 19 chapters, 199 rows, 404 media inputs, and 205 selected generated images (136 inspected, 69 historical). No approval manifest exists for D043.
