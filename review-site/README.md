@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014 and D044 media from the release using the existing
+D005 through D014, D042, D043 and D044 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -310,3 +310,7 @@ not cleared, 126 individually inspected).
 The managed D014 review passed all ten leads, including the S005 v003, S008 v008
 and S010 v003 repairs; earlier failed versions remain recorded as history. These
 totals must be recalculated if the base advances.
+
+## Dasakam 43
+
+D043 contains ten source-mapped landscape candidates in `art/batches/d043-comparison-v001.json`. Each row binds its numbered intake reference and selected native candidate version by SHA-256. The independent managed review in `art/reviews/visual-reviews.json` and `art/reviews/d043-*-final-managed-review-v001.md` passes all ten selected leads, and `art/plans/d043.json` pins the same versions. S005 v003 supersedes S005 v002 and S005 v001, which was uncertain because Trinavarta neither read as falling nor matched S004. S006 v003 (native 1671 × 941) supersedes S006 v001, which needed a fix because the fallen Trinavarta's legs were too short, and S006 v002, whose pass was invalidated because the demon was brown and tidy-haired, unlike S004/S005. Those records stay as history. After the plan pins changed, every selected image was re-opened and its review re-bound (`art/reviews/d043-plan-pin-recheck-managed-review-v001.md`). The same was done after the stanza 8 and 10 source descriptions in `content/sources/d043/reference-map.json` were corrected (`art/reviews/d043-reference-map-context-recheck-managed-review-v001.md`). Upload only D043's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=43` before any serialized Worker deployment. With D042, D043 and D044 selected, the union holds 19 chapters, 199 stanza rows, 404 review media inputs and 205 selected generated images (69 historical, 136 individually inspected). Binding the yashoda, gopikas, nandagopan and gopas contracts in the plan led to a re-inspection (`art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md`). It found S003 v001 (Yashoda's heavy jewellery) and S005 v002 (Yashoda's maroon sari) failed that contract. Native repairs S003 v002 and S005 v003 (1671 × 941) now pass managed review and are selected, and the other eight frames were re-opened against the final plan (`art/reviews/d043-native-repair-context-recheck-managed-review-v001.md`). Candidates remain unapproved, portraits are paused, and English translations are absent.

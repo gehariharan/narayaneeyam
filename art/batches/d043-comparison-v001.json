@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "daskam_id": 43,
+  "review_status": "needs-review",
+  "visual_review_status": "Independent managed full-frame/detail review is recorded for all ten exact selected versions in art/reviews/visual-reviews.json, and all ten pass against the current scene plan and its bound character contracts (including yashoda, gopikas, nandagopan and gopas). S003 v002 supersedes S003 v001 (pass invalidated: Yashoda's heavy jewellery). S005 v003 supersedes S005 v001 (uncertain: Trinavarta neither read as falling nor matched S004) and S005 v002 (pass invalidated: Yashoda's maroon sari). S006 v003 supersedes S006 v001 (needs-fix: legs too short) and S006 v002 (pass invalidated: brown, tidy-haired demon). Those records and reports remain as history. No approval implied.",
+  "description": "Ten native D043 landscape candidates paired with their mapped numbered source references. Candidate versions and SHA-256 values are pinned per stanza; superseded native trials remain preserved locally and are not exposed as comparison alternates.",
+  "review_notice": "These are unapproved landscape candidates. The independent managed review of the exact selected versions passed all ten, including native repairs S003 v002, S005 v003 and S006 v003; superseded versions and their findings remain recorded. Portrait production remains paused; sourced English translations are absent; publishing a comparison does not approve artwork.",
+  "rows": [
+    {
+      "n": 1,
+      "concept_id": "d043-s001",
+      "scene": "Yashoda sets the unusually heavy infant on a bed",
+      "reference": {
+        "file": "intake/D043/001.jpg",
+        "sha256": "78a934c179011a962e5d5a13a80d0700bd7a8bb2aeda04824a6e4cabf193c375",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s001/landscape/v002/candidate.png",
+        "sha256": "d5629a8395e578a8581fee18b298340b3dc27cb8ae4731418bf2c79d1ec84ecd",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
+      },
+      "alternates": []
+    },
+    {
+      "n": 2,
+      "concept_id": "d043-s002",
+      "scene": "Trinavarta carries Krishna upward in a dust whirlwind",
+      "reference": {
+        "file": "intake/D043/002.jpg",
+        "sha256": "2babcedf8544985086ff90839aef506e00dbca7f2e8c2e5295d0b78c903ddf56",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s002/landscape/v001/candidate.png",
+        "sha256": "e75cdeb1822ceeda0915116dd785bb71fc7c8cbf8e14af4eda65f7b70f6605b2",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 3,
+      "concept_id": "d043-s003",
+      "scene": "Yashoda searches Gokula in dust-darkened air",
+      "reference": {
+        "file": "intake/D043/003.jpg",
+        "sha256": "cbf240c01a9af777d0e4c660be99f262b898f81ca9a6e03329bfc3d64eb2123d",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s003/landscape/v002/candidate.png",
+        "sha256": "7435f09e2b88e93d9e83248663092e9a36150fbccc03e278d5358a4da93476cf",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
+      },
+      "alternates": []
+    },
+    {
+      "n": 4,
+      "concept_id": "d043-s004",
+      "scene": "The wind demon weakens under the child’s weight",
+      "reference": {
+        "file": "intake/D043/004.jpg",
+        "sha256": "acfaec0b22752fd65c1280db50b24e5e28be907e37085a322ce2fd6dedcffeba",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s004/landscape/v002/candidate.png",
+        "sha256": "c41270a7f8d3ad1585ff49d7b752e5cd47e40fac938704e77d06d2bd438cdf26",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
+      },
+      "alternates": []
+    },
+    {
+      "n": 5,
+      "concept_id": "d043-s005",
+      "scene": "Nanda-led cowherds reach the house as Trinavarta falls",
+      "reference": {
+        "file": "intake/D043/005.jpg",
+        "sha256": "087fa13cf1239e8984028a955955b6af8fcc8b3f14d9c5d6f84a467747632098",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s005/landscape/v003/candidate.png",
+        "sha256": "36f6ef4354426effb51a105f29439982fce368713a92fb5b0c6d79075633e8f0",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003"
+      },
+      "alternates": []
+    },
+    {
+      "n": 6,
+      "concept_id": "d043-s006",
+      "scene": "The villagers find Krishna unharmed on Trinavarta’s fallen body",
+      "reference": {
+        "file": "intake/D043/006.jpg",
+        "sha256": "7992a68ffd4661ae36cab15ab4f23e0d71ce48b0751d9866cc678b3466c2d384",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s006/landscape/v003/candidate.png",
+        "sha256": "765a57ef0555cfd1bf4720b323a2cf49bee95f0d614338f9f7b0a6cbf730ee05",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003"
+      },
+      "alternates": []
+    },
+    {
+      "n": 7,
+      "concept_id": "d043-s007",
+      "scene": "The gopas lift Krishna like a blue jewel from a mountain",
+      "reference": {
+        "file": "intake/D043/007.jpg",
+        "sha256": "9771ca8f8840c77c66869dcf007c31a0c16640cf91f2a1fd5ab45f8ae8468dc4",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s007/landscape/v001/candidate.png",
+        "sha256": "9ad547964554ead10dfac60d04a40c4cd6831e5b41344ef0404ac2e7ecd16a46",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 8,
+      "concept_id": "d043-s008",
+      "scene": "Krishna passes from Nanda and the gopas to eager gopikas",
+      "reference": {
+        "file": "intake/D043/008.jpg",
+        "sha256": "c7a935fbe4d54ec50a307be34f86d75c9a03eb533e4cb853ccd61ec6c49608f2",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s008/landscape/v002/candidate.png",
+        "sha256": "18b5ddeb7f5e456d42292744b00e2964f8d1bdcfa6148b91ca674e10cd9d88d7",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
+      },
+      "alternates": []
+    },
+    {
+      "n": 9,
+      "concept_id": "d043-s009",
+      "scene": "Nanda and Yashoda pray for their child’s protection",
+      "reference": {
+        "file": "intake/D043/009.jpg",
+        "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s009/landscape/v001/candidate.png",
+        "sha256": "9885b0be646cbf776ddce5a5f3e06cc4a21b1696ef7269788196deb9cbd3907f",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 10,
+      "concept_id": "d043-s010",
+      "scene": "Bhattathiri prays to the Lord for complete relief from illness",
+      "reference": {
+        "file": "intake/D043/010.jpg",
+        "sha256": "a72b0898ad49d959575138e70567f2ba179c3ac5ea85cc9b8d9f1ba69dc3a129",
+        "version": "source",
+        "label": "Original composition reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d043/s010/landscape/v002/candidate.png",
+        "sha256": "a31601491447db3dcdbde6e6def6aadfc5666653d00e724fe6250bd74d96452c",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
+      },
+      "alternates": []
+    }
+  ]
+}
