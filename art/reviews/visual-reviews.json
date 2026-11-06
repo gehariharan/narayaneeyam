@@ -31742,6 +31742,706 @@
       },
       "findings": [],
       "notes": "Final selected-checksum report: art/reviews/d032-independent-review-g.md (SHA-256 2e8d725ab5696abcf1f656478e7bd1b8aeb359d3dd91fd215a7190db9c1960c4). Separate producer inspection: art/reviews/d032-s010-landscape-v009-producer-review-v001.md (SHA-256 656150d8612e25359477a304cb1f973acfaf07b9e88fb29df93677d376b390ce); that producer report remains producer evidence only. No art approval."
+    },
+    {
+      "chapter": 28,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d028/s001/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "51d4d94b1eeaa5bcc9b9165c2d49fa3d34188c224b3c3d17252e91473d05402d",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:28Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S001: shiva, devas; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cb41df21dbedee57fb92c89cc1b192b53097b23b88b6d76827f5749ccbd1f8a7"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s001-v002-producer-review-v001.md",
+          "sha256": "19f7afe8c1c564553580ca97f01fccf3daa1a3201364f7ee64edeb4192b81939"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Shiva has two arms: the viewer-left hand grips the conch at his mouth and the viewer-right hand rests on the knee. His crossed legs remain below the wrap; one exposed foot is visible. Each small witness has two praying arms; their lower bodies are deliberately hidden behind waves."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The cup arm bends continuously from the left shoulder, and the resting arm runs from the opposite shoulder through elbow to knee. Cobra ornament is distinguishable from a human limb. Witness wrists and elbows remain separate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Shiva has a calm closed-eyed ascetic face with third-eye mark, crescent hair and blue throat. The witnesses now differ: young clean-shaven nearer figure, older grey-bearded farther figure with lower crown."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Shiva and two distinct witnesses; the old near-clone witness faces have been repaired. No fused figure or duplicate Shiva is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Conch, poison cloud and waves contain no readable text, watermark, signature or UI."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Plain ochre/cream ascetic cloth follows the final provisional contract. Poison-drinking, blue throat and distant prayers are legible in matte ochre/maroon shallow space. No Parvati has been invented."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 28,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d028/s002/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "3b7127f4f1320b2d9efe9c60b6e336aec0cbc7802fcaafc01aadaeb0214b0de9",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:28Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S002: surabhi, uchchaihshravas, airavata, apsaras, sages; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/uchchaihshravas/character.json",
+          "sha256": "b80c20b5d4d52bbca4839119616769f86b9d431776e6de54f2e72a955a1c48c7"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/apsaras/character.json",
+          "sha256": "7cb70047c6f0788f396556702e428409ca82ff6bd51eb289d423fc9eabf1a6cc"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s002-v002-producer-review-v001.md",
+          "sha256": "60f2bb6a941a20abadec5c16e309ace8483e624c03525e62eab4e27a5ae84b96"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The horse has exactly seven separated heads on one body and four legs, one foreleg raised. The elephant has four mouth-rooted tusks, one trunk and four legs. Surabhi has four attached legs. Two sages and two apsaras each have two arms."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Each horse neck joins the shared collar/body; the central head is frontal. Elephant tusks have separate contours above the trunk. Animal hooves and elephant feet meet the shore. Sages prayer hands and apsaras open/resting/clasped hands attach naturally."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Sages differ by shaven scalp versus bearded topknot. Apsaras now differ by young jasmine bun/yellow sari versus mature long profile/braid/rose sari. Seven horse faces are deliberate animal anatomy, not duplicated people."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The three animal bodies, tree, two sages and two apsaras remain separate. There is no human-faced cow, winged human, fused animal or second horse body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No labels, copied captions or source watermark appear in the frieze."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "All five treasure subjects from the five mapped references are present: cow, horse, elephant, wish-tree and apsaras. Mineral cream animals and restrained contour ornament preserve the mural treatment."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 28,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d028/s003/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "1956983159c5db8398c9bdb5c7ae2f3591f3b047bae309e41db0b43d304fa089",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:28Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S003: lakshmi, devas; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/lakshmi/character.json",
+          "sha256": "541fc9d30aed43e142a7bd195b994710bd91d834df484a6b9e4eba2f7c74ef8c"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s003-v002-producer-review-v001.md",
+          "sha256": "5476b903eb3902c10e6566e99ba170d10187befb5ee8af078111902d5b174f00"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Lakshmi has two arms: one open blessing palm with four long fingers and thumb, one lotus-gripping hand. Each shore witness has two arms in prayer. Her lower body and feet are concealed by the emergence lotus; witnesses lower legs are behind shore rock."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Blessing and lotus arms join separate shoulders with bent elbows; stem is held by the proper hand. Witness forearms and wrists remain distinct and proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Central serene golden-brown face, bindi, jasmine and crown retain the established Lakshmi identity. The right witness is now warm brown and bearded; the left witness is young and clean-shaven."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Lakshmi and two distinct generic devas, with no blue Krishna-like witness or copied goddess."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Lotus, ocean and halo contain no readable writing or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Maroon sari/green blouse and two-arm narrative emergence follow the final episode directions rather than copying the source four-arm icon. Broad waves and ochre field remain flat and matte."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 28,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d028/s004/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "457a723c1cf9e9f699559c685caf781b2aa97d7977eb86bdc0911e24580c0deb",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:41Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S004: lakshmi, indra, sages; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/lakshmi/character.json",
+          "sha256": "541fc9d30aed43e142a7bd195b994710bd91d834df484a6b9e4eba2f7c74ef8c"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s004-v001-producer-review-v001.md",
+          "sha256": "44134de0d2703ee5f7df38297282ee5b43e609320bde317780c6332fb64f504b"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Lakshmi has two lap arms and two exposed feet with separate toes. Indra has two extended open hands. Grey-bearded sage holds one tipped pot in two hands; dark-bearded sage supports the flower plate with two hands."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Indra arms trace from both shoulders through elbows to palms without merging. Lakshmi wrists overlap deliberately on her own lap. Sage fingers grasp pot rim/base and plate edge; their bodies remain distinct."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Lakshmi glances toward the moustached crowned Indra. Two sages differ by grey beard/topknot and dark beard/high hair; eyes and mouths have clean contours."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Four distinct figures surround one low seat. Pot-pouring sage is behind the receiving vessel; the plate sage does not share his arms."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Ritual vessels and plate have decorative lines but no written mantras, caption or signature."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Low jewel-set seat, maroon Lakshmi and preparation vessels make the verse-grounded Indra/ritual action visible despite the broad source008 icon. Flat shore and restrained painted jewellery remain consistent."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 28,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d028/s005/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "2a51f55e8a822e0d843cc5a2961077c789a50a41f83da8fb4c6050763b4afab6",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:41Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S005: lakshmi, sages, devas; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/lakshmi/character.json",
+          "sha256": "541fc9d30aed43e142a7bd195b994710bd91d834df484a6b9e4eba2f7c74ef8c"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s005-v002-producer-review-v001.md",
+          "sha256": "e94eed9a1cb2bb524417fbb8ccfd23a7a265de5aa338a951d3db95fef2acb916"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Lakshmi has two connected lap arms. Each pouring sage has exactly two arms and one pot, and the kneeling tray witness has two forearms supporting one tray. Visible sage and witness feet remain joined to legs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both long raised sage forearms run from their own shoulders through bent elbows to pot grips; rear roots are partly hidden by nearer arms and cloth but trace coherently. Water lines remain separate from fingers and land at the crown."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Lakshmi retains jasmine, bindi and calm face. Sages differ by dark beard/topknot versus white beard/white hair. The tray witness is now warm brown with a beard and simple crown, without a blue Krishna identity."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One goddess, two distinct sages and one separate kneeling deva; no repeated Lakshmi or fused torso."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pots, tray and ornaments have no readable text, watermark or UI."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Canonical yellow sari begins here with the green blouse retained. Consecration water, ornament tray and separate arm paths match the final ritual plan; the matte ochre field has no metallic glare."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 28,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d028/s006/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "8ce8426b1ed9c6c6b28f76c749fe7ff0da119f708e551b0ae9088ca415e04076",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:41Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S006: lakshmi, guruvayurappan; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/lakshmi/character.json",
+          "sha256": "541fc9d30aed43e142a7bd195b994710bd91d834df484a6b9e4eba2f7c74ef8c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s006-v001-producer-review-v001.md",
+          "sha256": "66559777f630bd29927f935d68df7f3a4dda2c86f89b760e7c190063381604d2"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Lakshmi has two garland-carrying hands below her face. Vishnu has four hands: upper discus/conch, lower open welcome/lotus. Both full figures and feet are inside the frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Vishnu upper arm roots partly sit behind the nearer shoulder arms but continuous outer contours connect all four compact paths. Lakshmi elbows, wrists and stepping ankles remain coherent; the garland hangs between her own hands."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Lakshmi has jasmine and modest crown; Vishnu has youthful deep-blue face, crown/peacock accent and distinct features. Both eyes face the encounter without malformed facial overlap."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Two separate full figures with open space between them. No narrator, bystander or duplicate deity."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Garland, disc and conch contain no writing or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Yellow/green Lakshmi approaches with the garland still below faces, distinct from S007 placing it. Deep-blue Vishnu and yellow/red dress retain identity in the flat shore mural."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 28,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d028/s007/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "0b47c8def88aaa7d249fe33ddaabf57d2a5606c7468a24dd39e91f43c5e85424",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:52Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S007: lakshmi, guruvayurappan; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/lakshmi/character.json",
+          "sha256": "541fc9d30aed43e142a7bd195b994710bd91d834df484a6b9e4eba2f7c74ef8c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s007-v002-producer-review-v001.md",
+          "sha256": "407ed72c96a6e3147282e6ca18162a24213792cd3d8199c260bbe1f1c90de2cb"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Lakshmi has two hands placing the garland near opposite sides of Vishnu neck. Vishnu has four arms: upper discus/conch and two lower open hands below the garland. The v002 composition shows both figures full length and all feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Lakshmi near arm passes in front of the chest to the far garland side and the farther arm bends toward the near side; each connects to her shoulder. Vishnu lower arms descend independently from the torso, with upper roots separate behind them."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Vishnu is indigo blue with a calm closed-eyed face, distinct from the greyer v001. Lakshmi retains golden-brown face/jasmine and a gentle open-eyed gaze."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly the central couple, without physical Shiva/Brahma extras. The garlanding arms do not become additional Vishnu arms; hands remain distinguishable by skin colour and paths."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, copied watermark or garland lettering."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The final full-figure framing and active garlanding now match the plan. Yellow Lakshmi and yellow/red blue Vishnu stand on the same shallow shore, with opaque mineral fields and contour-led ornament."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 28,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d028/s008/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "8f203d17956b8dd064b0acc704b3d00e75d5439216a22e98b3f7b2acaf25e786",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:52Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S008: lakshmi, guruvayurappan; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/lakshmi/character.json",
+          "sha256": "541fc9d30aed43e142a7bd195b994710bd91d834df484a6b9e4eba2f7c74ef8c"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s008-v002-producer-review-v001.md",
+          "sha256": "215d7faf03f989b0275ec9eb41382d2d45a2ae045b4a1d7b41d5eb3499eb7308"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vishnu has four hands: discus/conch above, one welcoming palm toward Lakshmi and one resting on his own lap. Lakshmi has two hands: lap and outward blessing. Seated feet are concealed by drapery/lotus rather than cut by the image boundary."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The repaired lap arm now starts at the true viewer-left shoulder and bends down to the knee; the lower welcome arm starts at the opposite true shoulder and bends outward. The v001 hip-rooted arm is absent. Torso remains compact."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Two separate calm faces gaze toward each other; Lakshmi retains jasmine/crown/bindi, Vishnu remains blue with a youthful face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One couple on one shared lotus seat, no miniature goddess in his chest. The unplanned background cattle of v001 are absent; the distant scene has plants, trees and a stream."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Disc, conch, crowns and landscape have no readable writing or logo."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Yellow/green Lakshmi, yellow/red Vishnu and fertile landscape fit the final scene. Mural contours define all arm paths, and the compassionate open gestures remain readable without body fusion."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 28,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d028/s009/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "36db12170d5ef8b5372f9b197fd2032e2f8c53b6e3bf644bd072218616c7c507",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:52Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S009: varuni, asuras, guruvayurappan; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/varuni/character.json",
+          "sha256": "15d582ded2890fede70d1ad79cf5f6d0f5e1d6c0a2de1f9a9477ecdd4e70910f"
+        },
+        {
+          "path": "art/bible/characters/asuras/character.json",
+          "sha256": "00c00f503c33706c54306461c404e467e54ffcc40266f89190e0376a7d4afded"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s009-v002-producer-review-v001.md",
+          "sha256": "fcf4f06aeb094fd232dd7fb6a6f91742b4fe13e50b46a836e0554a09b380442e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vishnu has four connected arms, upper disc/conch and lower lotus/open palm. Varuni uses two hands to support one bowl. Each of the two asuras has two praying arms and two visible feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Bowl base and rim are supported by Varuni own palms; wrists connect to bent forearms. Vishnu lower lotus forearm crosses in front of his own torso naturally, and the offered palm extends separately. Asura elbows and ankles belong to distinct bodies."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Varuni now has loose dark hair without jasmine, a smaller crown and longer face, separating her from Lakshmi. Near asura has dark hair/moustache; far asura now has grey hair and beard."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Four distinct figures. The two asuras are no longer face clones, and Varuni is not a second Lakshmi. Bowl and lotus do not fuse with neighbouring hands."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Wine bowl surface and other props contain no text, watermark or UI."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Cream/maroon Varuni with one wine bowl and two respectful asuras fits the mapped caption/verse. Final provisional asura rules permit age/grey hair and muted maroon/green cloth. All surfaces remain matte."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 28,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d028/s010/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "979dd7f3695f4e242d24943ed940d9717a4a080a3e8dd4660adc6cb07b7fbf87",
+      "reviewer": "Codex t5 (producer self-check, not independent)",
+      "inspected_at": "2026-11-06T09:06:52Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D028 S010: dhanvantari; final scene-specific counts and narrative poses in the plan apply. Ordinary incidental humans have two arms; extra deity/animal heads or arms are permitted only as specified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d028.json",
+          "sha256": "cda7e331cd54473e19d3723f3976bfe74265c61479112423ea3b4705c2c954cd"
+        },
+        {
+          "path": "art/bible/characters/dhanvantari/character.json",
+          "sha256": "df941b0384ce96a45dd31c48910795fd68ea6851412791e522e0ccb5343d57e7"
+        },
+        {
+          "path": "content/sources/d028/reference-map.json",
+          "sha256": "a701210c272371ca20bc938cbef07fe64954dcebf59a804f8703c0a8ddc93116"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d028-s010-v001-producer-review-v001.md",
+          "sha256": "cce89c815cccf89fe045ac3b0bc01662ca8ef4fd60dc357f9aa005a4ecaa9eeb"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "One Dhanvantari has two arms, both supporting the single nectar pot at waist level. Fingers and thumbs wrap the base/rim. Feet are concealed within the lotus/ocean emergence, not clipped by the outer frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both shoulders run through bent elbows to separate wrists under the pot. Arms are compact; no disconnected extra attribute or limb is visible."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Single serene closed-eyed blue face with dark curls, proportionate crown and Vishnu-family identity. Nose, mouth and eye contours remain clean."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly one manifestation, one pot and one emergence lotus. No copied eight-arm medical icon and no physical narrator in the ocean."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pot bands and crown are ornamental without readable symbols, signatures or watermarks."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Narrative two carrying hands follow the final plan; karabhyam is a pose basis, not a claim that all Dhanvantari iconography has two arms. Yellow dhoti/red shawl and milk-ocean waves use flat opaque mural fields."
+        }
+      },
+      "findings": []
     }
   ]
 }

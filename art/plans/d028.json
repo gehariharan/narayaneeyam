@@ -1,0 +1,532 @@
+{
+  "schema_version": 1,
+  "daskam_id": 28,
+  "slug": "d028",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "lakshmi",
+    "rendering_references": [
+      "artifacts/d028/references/shared/style-d001-s004.png",
+      "artifacts/d028/references/shared/style-d001-s008.png"
+    ],
+    "lakshmi_mode": "Existing lakshmi ID, two-arm narrative form throughout; not D038 symbolic-heart mahalakshmi ID. Canonical yellow garment begins S005 and continues.",
+    "lakshmi_anchor_limit": "Approved sheet14b3fadd... missing at known documented paths. Existing D002 S004 v002 is a working identity cue, not a substitute approval.",
+    "narrator_rule": "No physical Bhattathiri in the historical ocean scenes.",
+    "portrait_status": "paused",
+    "source_limits": "Source images include broad icons and composites; exact observations retained per stanza and in reference map.",
+    "episode_overrides": "The established lakshmi face, two-arm anatomy, jasmine hair and modest crown persist. Scene-grounded actions replace the default held lotus: ritual lap hands S004-S005, carried/placed garland S006-S007, compassionate open hand S008. Canonical pitacela yellow sari replaces default maroon from S005 onward. These are scene directions, not a new character identity or approval.",
+    "provisional_contract_choices": "New source-required Shiva contract permits plain ochre/cream ascetic cloth; tiger pattern was an unsourced drafting detail. New asura group contract permits dark or graying hair and muted maroon/green cloth so two witnesses can remain visibly distinct. All affected images must be re-opened against these final contracts."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d028-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "shiva",
+        "devas"
+      ],
+      "reference_paths": [
+        "intake/D028/001.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "One full seated Shiva beside the churning ocean drinks the dark Kalakuta poison from a small conch cup held naturally in one hand; his other hand rests visibly on his knee, exactly two attached arms. Ash-grey ascetic skin, blue throat, crescent in gathered matted hair, third-eye mark, beads and modest wrap. Two distinct two-armed devas at a distance pray gratefully; no Parvati or extra cast. Symbolic dark poison cloud above shallow stylized waves, no injury."
+        ],
+        "composition": "Asymmetric wide scene, Shiva left of centre, open ocean and small distant deva witnesses to right.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "Shiva accepts the Kalakuta poison",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s001/landscape/v002/candidate.png",
+          "candidate_version": "v002",
+          "candidate_sha256": "51d4d94b1eeaa5bcc9b9165c2d49fa3d34188c224b3c3d17252e91473d05402d",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s001/landscape/v002/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s001/landscape/v002/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "001 close Shiva poison-drinking icon; no literal full-body shore scene."
+    },
+    {
+      "n": 2,
+      "concept_id": "d028-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "surabhi",
+        "uchchaihshravas",
+        "airavata",
+        "apsaras",
+        "sages"
+      ],
+      "reference_paths": [
+        "intake/D028/002.jpg",
+        "intake/D028/003.jpg",
+        "intake/D028/004.jpg",
+        "intake/D028/005.jpg",
+        "intake/D028/006.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "A coherent wide frieze of the five treasures newly emerged beside the milk ocean: one white four-legged cow Surabhi near two distinct two-armed sages, one white four-legged horse with exactly seven distinct horse heads, one white elephant with four legs and exactly four mouth-rooted tusks, one wish-fulfilling tree, and two distinct modest two-armed apsaras. Keep every animal body separate and all legs attached; no hybrid human-headed cow, wings, labels or copied watermarks. The tree and shore unify the scene; no tiny crowded churning cast is necessary."
+        ],
+        "composition": "Spacious horizontal narrative frieze with cow/sages at left, seven-headed horse centre, four-tusked elephant right, tree and two apsaras clearly separated along shore.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "The treasures of the churned ocean",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s002/landscape/v002/candidate.png",
+          "candidate_version": "v002",
+          "candidate_sha256": "3b7127f4f1320b2d9efe9c60b6e336aec0cbc7802fcaafc01aadaeb0214b0de9",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s002/landscape/v002/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s002/landscape/v002/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "002 human-faced winged cow churning composite;003 seven-headed horse;004 four-tusked elephant;005 wish-tree;006 winged dancer composite. Use subject cues, not copied rendering/hybrids/UI."
+    },
+    {
+      "n": 3,
+      "concept_id": "d028-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "lakshmi",
+        "devas"
+      ],
+      "reference_paths": [
+        "intake/D028/007.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png",
+        "artifacts/d028/references/shared/lakshmi-working-identity-from-d002-s004-v002.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "One dignified adult Lakshmi rises on one pink lotus above the milk ocean, serene golden-brown face, small red bindi, dark arranged hair/jasmine, modest ochre crown, maroon sari with muted green blouse and restrained painted ornament. Exactly two naturally attached arms following the existing narrative identity: one holds a pink lotus, one gives a gentle open blessing. Two distinct two-armed devas witness from distant shore. Do not reproduce the four-arm general icon or add extra attributes from the source."
+        ],
+        "composition": "Broad open water, one lotus-emergence focal figure at centre, two small distinct witnesses well clear of her limbs.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "Lakshmi emerges from the milk ocean",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s003/landscape/v002/candidate.png",
+          "candidate_version": "v002",
+          "candidate_sha256": "1956983159c5db8398c9bdb5c7ae2f3591f3b047bae309e41db0b43d304fa089",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s003/landscape/v002/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s003/landscape/v002/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "007 four-armed general Lakshmi emergence icon; narrative composition follows existing two-arm Lakshmi contract."
+    },
+    {
+      "n": 4,
+      "concept_id": "d028-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "lakshmi",
+        "indra",
+        "sages"
+      ],
+      "reference_paths": [
+        "intake/D028/008.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png",
+        "artifacts/d028/references/shared/lakshmi-working-identity-from-d002-s004-v002.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "Lakshmi with the same face, maroon sari/green blouse and exactly two attached arms sits on a modest jewel-set low seat beside the ocean. Indra, a distinct two-armed crowned adult, offers/respectfully presents that seat; two distinct two-armed sages arrange simple consecration vessels and chant silently. Hands/props must have clear ownership; no written mantras, no giant crowd or duplicate deity."
+        ],
+        "composition": "Wide intimate ritual grouping: Lakshmi central on the low seat, Indra to one side, two sages to the other; simple open space separates arm paths.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "Indra offers the consecration seat",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s004/landscape/v001/candidate.png",
+          "candidate_version": "v001",
+          "candidate_sha256": "457a723c1cf9e9f699559c685caf781b2aa97d7977eb86bdc0911e24580c0deb",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s004/landscape/v001/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s004/landscape/v001/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "008 floating Lakshmi and deva crowd, not a literal Indra seat/consecration action. Verse/caption ground action."
+    },
+    {
+      "n": 5,
+      "concept_id": "d028-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "lakshmi",
+        "sages",
+        "devas"
+      ],
+      "reference_paths": [
+        "intake/D028/009.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png",
+        "artifacts/d028/references/shared/lakshmi-working-identity-from-d002-s004-v002.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "The same two-armed Lakshmi receives a modest consecration with holy water from two distinct naturally two-armed sages using small ritual pots. Her canonical yellow garment and modest earrings/necklace are now explicit; retain the same golden-brown face, dark jasmine hair, modest crown and muted green blouse. Yellow replaces maroon for the canonical pitacela episode and continues thereafter. All clothing opaque and modest, water drawn as simple mural lines. One distinct two-armed deva offers an ornament on a small tray. No extra Lakshmi or uncontrolled stream crossing hands/faces."
+        ],
+        "composition": "Spacious wide ritual, Lakshmi on low lotus seat, two sages at separate sides with readable arms, one secondary deva and simple vessels.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "Lakshmi is bathed and adorned",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s005/landscape/v002/candidate.png",
+          "candidate_version": "v002",
+          "candidate_sha256": "2a51f55e8a822e0d843cc5a2961077c789a50a41f83da8fb4c6050763b4afab6",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s005/landscape/v002/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s005/landscape/v002/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "009 static four-arm yellow Lakshmi icon, not literal water ritual. Verse/caption ground bathing and yellow costume."
+    },
+    {
+      "n": 6,
+      "concept_id": "d028-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "lakshmi",
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D028/010.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png",
+        "artifacts/d028/references/shared/guruvayurappan-approved-v001.png",
+        "artifacts/d028/references/shared/lakshmi-working-identity-from-d002-s004-v002.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "The same two-armed Lakshmi in yellow sari/green blouse walks toward Vishnu, carrying one flower garland in her two hands at waist height, not yet placing it on him. Vishnu has the approved youthful deep-blue face, yellow dhoti/red shawl and modest crown, in a four-armed narrative divine form: upper hands hold discus and conch separately, one lower hand offers welcome, the other holds a lotus. Exactly four independently connected compact arms, no crossing through torso. No physical Bhattathiri or other deities."
+        ],
+        "composition": "Two full figures separated by open space along the shore, Lakshmi approaching from left, Vishnu standing right, garland held below faces.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "Lakshmi approaches Vishnu with the garland",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s006/landscape/v001/candidate.png",
+          "candidate_version": "v001",
+          "candidate_sha256": "8ce8426b1ed9c6c6b28f76c749fe7ff0da119f708e551b0ae9088ca415e04076",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s006/landscape/v001/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s006/landscape/v001/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "010 garland approach icon; preserve action, use existing narrative two-arm Lakshmi identity."
+    },
+    {
+      "n": 7,
+      "concept_id": "d028-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "lakshmi",
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D028/011.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png",
+        "artifacts/d028/references/shared/guruvayurappan-approved-v001.png",
+        "artifacts/d028/references/shared/lakshmi-working-identity-from-d002-s004-v002.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "Lakshmi with the same golden-brown face, yellow sari/green blouse and exactly two arms places one clear flower garland around Vishnu's neck. Vishnu retains deep-blue youthful identity, yellow dhoti/red shawl and exactly four separate attached arms: two upper hands hold discus and conch, lower hands remain naturally below the garland in open welcome/lotus gesture. Both garlanding hands visibly belong to Lakshmi; all roots and wrists distinct. Do not physically add Shiva or Brahma: the verse's comparison is conveyed by her exclusive choice, no extra multi-headed crowd. No duplicate deity or readable text."
+        ],
+        "composition": "Close but full-figure wide two-person composition with space around heads, shoulders and garlanding hands; simple ocean shore backdrop.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "Lakshmi chooses and garlands Vishnu",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s007/landscape/v002/candidate.png",
+          "candidate_version": "v002",
+          "candidate_sha256": "0b47c8def88aaa7d249fe33ddaabf57d2a5606c7468a24dd39e91f43c5e85424",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s007/landscape/v002/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s007/landscape/v002/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "011 Vishnu/Lakshmi garlanding with other gods; two central figures selected, mentioned Shiva/Brahma need not physically join."
+    },
+    {
+      "n": 8,
+      "concept_id": "d028-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "lakshmi",
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D028/012.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png",
+        "artifacts/d028/references/shared/guruvayurappan-approved-v001.png",
+        "artifacts/d028/references/shared/lakshmi-working-identity-from-d002-s004-v002.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "Vishnu warmly honours the one Lakshmi beside his chest on a shared low lotus throne. Two full distinct adult figures, not a second miniature goddess inside his torso. Lakshmi keeps same face, yellow sari/green blouse and two attached arms, one resting on lap and one gentle compassionate open hand. Vishnu retains same deep-blue face/yellow dhoti/red shawl and four attached arms: upper discus/conch, one lower hand welcoming her beside his shoulder, other lower hand resting visibly on his own lap. Readable distinct arm paths and natural compact torsos; compassionate glance extends toward a simple fertile landscape beyond the ocean."
+        ],
+        "composition": "Seated two-figure devotional wide scene, shared lotus low throne left-of-centre and open flourishing symbolic landscape at right; no excessive embraces or bodily fusion.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "Vishnu honours Lakshmi and blesses the world",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s008/landscape/v002/candidate.png",
+          "candidate_version": "v002",
+          "candidate_sha256": "8f203d17956b8dd064b0acc704b3d00e75d5439216a22e98b3f7b2acaf25e786",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s008/landscape/v002/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s008/landscape/v002/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "012 Lakshmi in front of Vishnu with elephants; verse honour/bosom symbolism becomes two distinct seated figures, no duplicate goddess."
+    },
+    {
+      "n": 9,
+      "concept_id": "d028-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "varuni",
+        "asuras",
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D028/013.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png",
+        "artifacts/d028/references/shared/guruvayurappan-approved-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "One modest two-armed Varuni emerges on a small lotus at the ocean shore with one wine bowl held securely in both hands, distinct ochre/cream sari/maroon edge and dark loose hair without jasmine, a smaller crown and longer face distinct from Lakshmi, no Lakshmi duplicate. Two distinct naturally proportioned two-armed asuras respectfully receive her. A single blue Vishnu at the opposite side makes an offering/welcome gesture with his lower right hand; four separate connected arms, upper discus/conch, lower left holds lotus. No drunken caricature, nudity or sensualized scene."
+        ],
+        "composition": "Wide balanced shore: Varuni centrally, two distinct asuras to right, Vishnu left, hands clearly separated and bowl ownership visible.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "Varuni emerges and is offered to the asuras",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s009/landscape/v002/candidate.png",
+          "candidate_version": "v002",
+          "candidate_sha256": "36db12170d5ef8b5372f9b197fd2032e2f8c53b6e3bf644bd072218616c7c507",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s009/landscape/v002/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s009/landscape/v002/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "013 Varuni with bowl; modest scene adaptation and asura context from verse/caption."
+    },
+    {
+      "n": 10,
+      "concept_id": "d028-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "dhanvantari"
+      ],
+      "reference_paths": [
+        "intake/D028/014.jpg",
+        "artifacts/d028/references/shared/style-d001-s004.png",
+        "artifacts/d028/references/shared/style-d001-s008.png",
+        "artifacts/d028/references/shared/guruvayurappan-approved-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "must_show": [
+          "One youthful deep-blue Dhanvantari rises from the milk ocean, yellow dhoti and restrained red shawl, modest ochre crown and same Vishnu-family serene face. Exactly TWO naturally attached arms in this narrative form, both hands securely supporting ONE nectar pot at chest/waist level as a narrative composition based on karabhyam (two carrying hands; this does not claim that every traditional Dhanvantari icon has only two arms). No eight-arm generic medical icon, unrelated weapons, written symbols or extra pots from source014. No physical Bhattathiri in the ocean episode; the closing request is conveyed by calm devotional atmosphere."
+        ],
+        "composition": "Single full divine figure centre on ocean waves/lotus with generous negative space, no crowd; both pot-supporting arms and hands readable.",
+        "tone": "calm devotional awe",
+        "avoid": [
+          "no readable text, logo, signature or copied watermark",
+          "no detached/fused or duplicated body/limb",
+          "no glossy skin or metallic shine",
+          "no outer border"
+        ]
+      },
+      "alt": "Dhanvantari rises carrying the nectar",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native independently composed unapproved comparison candidate",
+          "candidate_path": "artifacts/d028/s010/landscape/v001/candidate.png",
+          "candidate_version": "v001",
+          "candidate_sha256": "979dd7f3695f4e242d24943ed940d9717a4a080a3e8dd4660adc6cb07b7fbf87",
+          "candidate_dimensions_px": [
+            1672,
+            941
+          ],
+          "prompt_path": "artifacts/d028/s010/landscape/v001/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s010/landscape/v001/generation-provenance.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused"
+        }
+      },
+      "source_reference_limit": "014 generic eight-armed divine/medical icon, not literal ocean emergence. Verse/caption ground Dhanvantari with nectar pot carried in two hands."
+    }
+  ]
+}
