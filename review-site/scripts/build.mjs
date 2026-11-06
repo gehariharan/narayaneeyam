@@ -44,19 +44,14 @@ for (const importedSelection of batches) {
     const selected=importedSelection.rows.find(r=>r.n===n);
     if(!selected)throw new Error(`Missing ${d} selection ${n}`);
     const images=[];
-    const references=selected.references || [selected.reference];
-    for(const item of references){
+    const references=selected.references||[selected.reference];
+    for(const [role,item] of [...references.map(reference=>['reference',reference]),['matte',selected.matte]]){
       const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
-      if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} reference`);
-      const mediaLabel=`${d}-s${s}-reference-${item.version||'source'}`;
-      images.push({role:'reference',label:'reference',displayLabel:item.displayLabel,version:item.version,key:await asset(item.file,mediaLabel)});
+      if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} ${role}`);
+      const mediaLabel=id===5?`${d}-s${s}-${role}-${item.version||'selected'}`:role==='reference'&&references.length>1?`${d}-s${s}-${role}-${item.version}`:`${d}-s${s}-${role}`;
+      const review = role === 'reference' ? null : reviewFor(validation, { ...item, chapter:id, sloka:n, role });
+      images.push({role,label:role,displayLabel:item.displayLabel,version:item.version,key:await asset(item.file,mediaLabel), ...(review ? {inspectionStatus:review.status,inspectionLabel:review.label} : {})});
     }
-    const item=selected.matte;
-    const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
-    if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} matte`);
-    const review=reviewFor(validation,{...item,chapter:id,sloka:n,role:'matte'});
-    const mediaLabel=id===5?`${d}-s${s}-matte-${item.version||'selected'}`:`${d}-s${s}-matte`;
-    images.push({role:'matte',label:'matte',displayLabel:item.displayLabel||'Traditional matte mural',version:item.version,key:await asset(item.file,mediaLabel),...(review?{inspectionStatus:review.status,inspectionLabel:review.label}:{})});
     for(const item of selected.alternates||[]){
       const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
       if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} alternate ${item.version||''}`);

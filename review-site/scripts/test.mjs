@@ -32,7 +32,7 @@ const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import
 const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
 const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.filter(r=>r.reference).length,0);
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,34,38,40,42,43,44,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,31,34,38,40,42,43,44,96]);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
 assert.equal(Object.keys(data.assets).length,expectedMedia);
@@ -60,7 +60,7 @@ const selected42=JSON.parse(await fs.readFile(new URL('../../art/batches/d042-co
 const provenance42=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
 for(const row of d42.rows){const selected=selected42.rows.find(r=>r.n===row.n);assert.equal(row.commentarySource,`intake/D042/photo-captions.txt#${String(row.n).padStart(3,'0')}`);for(const role of ['reference','matte'])assert.equal(provenance42.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);}
 assert.equal((await feedback(req({...good,daskam:42,sloka:11}),env)).status,201);
-console.log(`Passed: ${data.chapters.length} chapters, ${expectedRows} rows, ${expectedMedia} media, ${expectedGenerated} generated selections (69 historical, ${expectedGenerated-69} inspected), including D042 and all ten D011, D012, D013, D014, D034, D040, D043 and D044 leads.`);
+console.log(`Passed: ${data.chapters.length} chapters, ${expectedRows} rows, ${expectedMedia} media, ${expectedGenerated} generated selections (69 historical, ${expectedGenerated-69} inspected), including D042 and all ten D011, D012, D013, D014, D031, D034, D040, D043 and D044 leads.`);
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
@@ -293,7 +293,7 @@ for(const row of full31.rows){
  assert.deepEqual(row.images.slice(0,refs.length).map(i=>i.role),Array(refs.length).fill('reference'));
  for(let i=0;i<refs.length;i++)assert.equal(provenance.find(p=>p.key===row.images[i].key).sourceHash,refs[i].sha256);
  assert.equal(provenance.find(p=>p.key===row.images.at(-1).key).sourceHash,selected.matte.sha256);
- assert.equal(row.images.at(-1).role,'matte');
+ assert.equal(row.images.at(-1).role,'matte');assert.equal(row.images.at(-1).inspectionStatus,'inspected');
 }
 assert.equal(full31.rows.find(r=>r.n===9).images.filter(i=>i.role==='reference').length,2);
 assert.equal(selected31.rows.find(r=>r.n===6).matte.version,'v004');assert.equal(selected31.rows.find(r=>r.n===7).matte.version,'v002');assert.equal(selected31.rows.find(r=>r.n===9).matte.version,'v002');
