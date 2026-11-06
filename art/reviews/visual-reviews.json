@@ -26948,6 +26948,1214 @@
           "viewed_at": "between 2026-11-06T18:44:33Z and 2026-11-06T18:45:20Z"
         }
       ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d033/s001/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "ce6f8623e7aa89de7ce065f780699e73f56225ce048e1178aa3d84b40eb51139",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:17:20Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One adult human king (Ambarisha, two arms, two legs) and one small standing Bhagwan shrine image (two arms).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/ambarisha/character.json",
+          "sha256": "d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s001-v002-managed-review-v001.md",
+          "sha256": "b3122a4846d441dd20587b00ecb2b743dad3374e61d1acfdec29c1509c355bc8"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Ambarisha holds his palms together in profile namaskara; the near palm shows four fingers and a thumb, and both wrists carry separate bangle stacks. One bare foot with five toes shows beneath his kneeling dhoti. The murti raises the right palm in abhaya with five digits and lowers the left palm open in varada."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The king’s near arm runs from a floral armlet through the elbow to the bangled wrist; the far arm is hidden behind the body except its wrist. His kneeling body and folded legs read coherently. Both murti arms join the shoulders under the garlands."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Ambarisha: mature profile with a dark trimmed beard, moustache, white urdhva-pundra, crown and round earring, calm and absorbed. The murti has a blue youthful face, peacock-feather crown, almond eyes and a gentle smile matching the Guruvayurappan identity cues."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One king and one shrine image only; no worshippers, crowds or repeated figures."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No letters, signatures or text-like marks found in the shrine carving, vines or waves."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 1: the king’s attention is fixed on Bhagwan rather than on royal display, and a wave band along the bottom stands in for the seven seas. Cream dhoti, maroon wrap and painted ochre ornaments follow the Ambarisha contract. The matte ochre mural texture and firm brown contours match the D001 style references."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D033/001.jpg",
+        "sha256": "338a750667b94a06757a6bcf5efa462fce60143fa5b06b00c6d41528bf8605aa",
+        "caption_path": "intake/D033/photo-captions.txt#001",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s001/landscape/candidate-v002.png",
+          "sha256": "ce6f8623e7aa89de7ce065f780699e73f56225ce048e1178aa3d84b40eb51139",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:16:22Z and 2026-11-06T11:17:20Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s001-v002-nw.png",
+          "sha256": "56fa38e404882fbe0573c3ef39840e49b77ee95ae30b8df28f8955d6f62885dc",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T11:16:22Z and 2026-11-06T11:17:20Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s001-v002-ne.png",
+          "sha256": "22fa7ee41ba4eddefdd1f568b0b37f270694173cfcf54b441d5b9bd87bb57542",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T11:16:22Z and 2026-11-06T11:17:20Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s001-v002-sw.png",
+          "sha256": "ef70eebffd4a773f27ccebd5228e8daba417a36e7474bf987704af4b7079830d",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T11:16:22Z and 2026-11-06T11:17:20Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s001-v002-zoom-hands.png",
+          "sha256": "9123155376a3546d0c2edeb1f8bc6f02bbc5e7b1e1f9a1692cde4db1399ac65f",
+          "region": "300x300+420+280 at 200%",
+          "viewed_at": "between 2026-11-06T11:16:22Z and 2026-11-06T11:17:20Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s001-v002-zoom-feet.png",
+          "sha256": "d8821b42a9235dad16bf989772d5239bd5c30a34a0bd71e155e3b986c6a7a242",
+          "region": "420x260+0+640 at 200%",
+          "viewed_at": "between 2026-11-06T11:16:22Z and 2026-11-06T11:17:20Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s001-v002-zoom-murti-hands.png",
+          "sha256": "005e80926acb75cec41f63f7da4b592f7b60a663fa2ecfee3fcf30fddd9b68b5",
+          "region": "300x300+1000+250 at 200%",
+          "viewed_at": "between 2026-11-06T11:16:22Z and 2026-11-06T11:17:20Z"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d033/s002/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "fa200cfc64f7542bb3f266a97780c94424533c5465725e161fa51c1a2da76dd9",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:17:55Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Vishnu in his intentional four-arm form (lotus, conch, mace, chakra hand) and one ordinary two-armed king.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/ambarisha/character.json",
+          "sha256": "d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s002-v001-managed-review-v001.md",
+          "sha256": "192555e2133d9a7a753a6cdd18982df43e4070e5471925634f1c6092d7e95b6f"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "All four Vishnu hands are drawn: the lotus hand and the mace hand grip with visible fingers, the conch hand curls round the shell, and the lower hand carries the disc palm-up. The king joins two hands in namaskara with bangles on both wrists."
+        },
+        "attachment_proportions": {
+          "status": "needs-fix",
+          "observations": "On Vishnu’s right side there is only one armlet-bearing upper arm. Both the raised lotus forearm and the lowered mace forearm come out of that single upper arm at the same elbow, so the lotus arm has no upper arm or shoulder of its own. The conch arm and the chakra arm on the other side do attach separately."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Vishnu: blue face, lowered eyes, gentle smile, peacock-feather crown and urdhva-pundra, matching the approved identity. King: bearded profile looking up reverently, consistent with Ambarisha in stanza 1."
+        },
+        "duplication_fusion": {
+          "status": "needs-fix",
+          "observations": "One Vishnu, one king and one chakra, but two of Vishnu’s forearms are fused onto one upper arm."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text-like marks on the chakra rings, pillars or frieze."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The unrequested gift of one disc from Bhagwan’s hand to the reverent king reads clearly. The temple space is simple and the palette matte, consistent with the series style."
+        }
+      },
+      "findings": [
+        {
+          "id": "D033-S002-VISHNU-SHARED-ELBOW-V001",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Vishnu’s lotus and mace forearms branch from one shared upper arm and elbow on his right side.",
+          "repair": "Generate a new native version in which each of Vishnu’s four arms has its own shoulder, upper arm and elbow, with lotus, conch, mace and chakra each in one distinct hand."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D033/002.jpg",
+        "sha256": "69b629d87f8ebbfcf2d4fed5e3dd00dfff80cf1393234a26c6f3c88e2c0a2324",
+        "caption_path": "intake/D033/photo-captions.txt#002",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s002/landscape/candidate-v001.png",
+          "sha256": "fa200cfc64f7542bb3f266a97780c94424533c5465725e161fa51c1a2da76dd9",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:17:20Z and 2026-11-06T11:17:55Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s002-v001-zoom-vishnu-left-arms.png",
+          "sha256": "9bd2816a052a6f77bccea34f50a0a6edb2b619a99619d2d6c367ad73d3b038b3",
+          "region": "560x560+100+330 at 150%",
+          "viewed_at": "between 2026-11-06T11:17:20Z and 2026-11-06T11:17:55Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s002-v001-zoom-vishnu-left-elbows.png",
+          "sha256": "9206a382b62e7c647bdd3e15e295a7cda6669936e9af82c4f8b1ef6246ab03a3",
+          "region": "300x380+110+360 at 250%",
+          "viewed_at": "between 2026-11-06T11:17:20Z and 2026-11-06T11:17:55Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s002-v001-zoom-vishnu-right-arms-chakra.png",
+          "sha256": "1626ed9d4862f058fc9dacb2cf1635f3c39d0237dec29bacc9b1bf92de4b771b",
+          "region": "500x420+600+250 at 150%",
+          "viewed_at": "between 2026-11-06T11:17:20Z and 2026-11-06T11:17:55Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s002-v001-zoom-king.png",
+          "sha256": "7fe97003a84da24bab1a4962d83474a4562e04c3579602660033b5f28f07e818",
+          "region": "560x560+1100+230 at 150%",
+          "viewed_at": "between 2026-11-06T11:17:20Z and 2026-11-06T11:17:55Z"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d033/s003/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "1a15fa0d67f1eb6a3823857daa185035b57915722268b595946f575a1059f221",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:18:40Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Four ordinary two-armed adults (Ambarisha, the unnamed queen and two Brahmins), two cows and one small Bhagwan murti.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/ambarisha/character.json",
+          "sha256": "d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001"
+        },
+        {
+          "path": "art/bible/characters/ambarisha-wife/character.json",
+          "sha256": "1b34dc95deeafe843f337f0170540ab6ce9c5ad03eca9c253330f022c17e994d"
+        },
+        {
+          "path": "art/bible/characters/brahmins/character.json",
+          "sha256": "ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s003-v002-managed-review-v001.md",
+          "sha256": "223a82d796ff610926fea8cc380310cc6dc25878f625573b208007f60ea46cfd"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "King and queen each join two hands in namaskara with bangles on both wrists; the king’s bare foot and the queen’s foot show at the mat edge. Each Brahmin holds out two cupped hands with fingers drawn. Each Brahmin shows one bare foot, the other hidden behind a cow. Each cow stands on four hoofed legs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both Brahmins show a near arm and a far arm with ash stripes, each joined to its own shoulder. The seated couple have coherent cross-legged poses and the cows are proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Ambarisha has a dark beard and moustache, consistent with stanzas 1 and 2. The queen has a distinct calm face with a red sari drawn over her hair. The shaved Brahmin and the topknot Brahmin are clearly different men. The murti has the blue Guruvayurappan face and peacock feather."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Two distinct cows (brown-patched and grey-spotted) and two distinct Brahmins; no clones or fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 3: the couple worship by the Yamuna before a small murti, with a lamp, fruit and flowers as offerings. A modest group of cows and recipients stands in for the gifts. Clothing follows the Ambarisha, queen and Brahmin contracts in a matte mural palette."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D033/003.jpg",
+        "sha256": "00f2b54be13dce8631a26b7dcc45f0df783e3d92738f2bf561cab09bd78f9105",
+        "caption_path": "intake/D033/photo-captions.txt#003",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s003/landscape/candidate-v002.png",
+          "sha256": "1a15fa0d67f1eb6a3823857daa185035b57915722268b595946f575a1059f221",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:17:55Z and 2026-11-06T11:18:40Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s003-v002-zoom-couple-lower.png",
+          "sha256": "b7b2e3165e5aa2b4b6056f0541cf77cf7e09d0bec249112c88a62d80f8a20b58",
+          "region": "560x560+0+380 at 130%",
+          "viewed_at": "between 2026-11-06T11:17:55Z and 2026-11-06T11:18:40Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s003-v002-zoom-brahmin-hands.png",
+          "sha256": "0bfa58bbc3f27c3b858b46dfda97851d8548652b2b658318a6fa7e3b9c79adc3",
+          "region": "560x300+1100+280 at 150%",
+          "viewed_at": "between 2026-11-06T11:17:55Z and 2026-11-06T11:18:40Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s003-v002-zoom-cows-legs.png",
+          "sha256": "bc4e74d00c326b8a6434b8841e26a6c5ecc12c37a2cd6b0d0cdc9c931192eef1",
+          "region": "700x420+972+521 at 130%",
+          "viewed_at": "between 2026-11-06T11:17:55Z and 2026-11-06T11:18:40Z"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d033/s004/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "16b2eb86e891fcc4ce216231b6e9aa1c4317e5377599a7f7d5ebbd819077773f",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:19:05Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Four ordinary two-armed, two-legged adults: Ambarisha, two disciples and Durvasa.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/ambarisha/character.json",
+          "sha256": "d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001"
+        },
+        {
+          "path": "art/bible/characters/durvasa/character.json",
+          "sha256": "46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s004-v001-managed-review-v001.md",
+          "sha256": "292294c6409d9126182e2ad91daad2078a81592fe4cf25fa5883726e58eb65b3"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Durvasa grips a staff with one hand and lets the other hang open, with bead bands at the upper arm and wrist. One disciple carries a rolled mat and the other a pot, each with the near hand visible. Both disciples walk on two bare feet with toes. Ambarisha joins two hands at the doorway and stands on two feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Durvasa’s staff arm comes from behind his torso to the staff; his hanging arm is continuous from shoulder to hand. The disciples’ far arms are hidden behind their loads, and every body is proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Durvasa: long lined face, strong brows, long white beard and grey-white matted hair piled high, as his contract describes. The bearded topknot disciple and the shaved disciple are distinct. Ambarisha is bearded and crowned, consistent with earlier stanzas."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Durvasa, two distinct disciples and one king; no repeated sages or split panels."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 4: Durvasa heads to the Yamuna for his observances while Ambarisha waits respectfully at the palace threshold, all in one continuous riverside scene in the matte mural style."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D033/004.jpg",
+        "sha256": "723dad8fd751e155c8b1e66702f1e206ab21889c78335bb96872f6b2b48cfeca",
+        "caption_path": "intake/D033/photo-captions.txt#004",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s004/landscape/candidate-v001.png",
+          "sha256": "16b2eb86e891fcc4ce216231b6e9aa1c4317e5377599a7f7d5ebbd819077773f",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:18:40Z and 2026-11-06T11:19:05Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s004-v001-zoom-durvasa-arms.png",
+          "sha256": "33b0b5bce0515616562139fb82cb2f3739314354eb5b548ffcfab1f4225ec286",
+          "region": "360x460+930+300 at 150%",
+          "viewed_at": "between 2026-11-06T11:18:40Z and 2026-11-06T11:19:05Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s004-v001-zoom-disciples-hands.png",
+          "sha256": "b41311a18b05b3e02448b3b3cffbf20a0ef9b73c422132668bfedca19ae4f0f8",
+          "region": "440x420+440+330 at 150%",
+          "viewed_at": "between 2026-11-06T11:18:40Z and 2026-11-06T11:19:05Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s004-v001-zoom-feet.png",
+          "sha256": "d920dca5044f032328d27b4fc6fdd3c45965cd154621e245dbb8f053367dcde8",
+          "region": "560x260+420+680 at 150%",
+          "viewed_at": "between 2026-11-06T11:18:40Z and 2026-11-06T11:19:05Z"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d033/s005/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "593e8d8c86a4a4ba7b9cea64896ef88461143e6990388ec87ada693feb523d37",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:19:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two ordinary two-armed humans (Ambarisha and Durvasa) and one Kṛtyā apparition with one head, two arms and two legs.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/ambarisha/character.json",
+          "sha256": "d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001"
+        },
+        {
+          "path": "art/bible/characters/durvasa/character.json",
+          "sha256": "46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab"
+        },
+        {
+          "path": "art/bible/characters/krtya/character.json",
+          "sha256": "93f4eb9ff20c8ae9eb98b222f6306be6d9c9e28c8028a99f518b729513fb3305"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s005-v001-managed-review-v001.md",
+          "sha256": "84a9be5b8d2910170445771a605c1ca835971b4386807a37766c2bd28e5ad595"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Ambarisha raises a small cup in his right hand and rests his left hand on the throne arm; both bare feet show. Durvasa points with one hand and grips a lifted hank of matted hair with the other, standing on two feet. The Kṛtyā holds one sword in a closed right fist and spreads a clawed left hand; she stands on two bare feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms attach at the shoulders with continuous elbows. The Kṛtyā’s sword hilt sits fully inside her fist."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Ambarisha: bearded, crowned and calm, consistent with stanzas 1–4. Durvasa: furious, white-bearded, with matted hair. Kṛtyā: one fierce face with no duplicated features."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One king, one sage, one Kṛtyā and one sword; no extra spirits."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 5: the king concludes his fast with a sip, unafraid, while the angry sage conjures the Kṛtyā from his matted hair. The flames are matte and painted, with no gore or cinematic rays."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D033/005.jpg",
+        "sha256": "3b40132d5df23f79d04ce804b02373a524448c151e12863cfb053dcae4c6c856",
+        "caption_path": "intake/D033/photo-captions.txt#005",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s005/landscape/candidate-v001.png",
+          "sha256": "593e8d8c86a4a4ba7b9cea64896ef88461143e6990388ec87ada693feb523d37",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:19:05Z and 2026-11-06T11:19:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s005-v001-zoom-king.png",
+          "sha256": "8c56759d7e993a5eb7c0afafa1dbe1af407e51a090404b226f76ffeb49c2687f",
+          "region": "520x700+0+220",
+          "viewed_at": "between 2026-11-06T11:19:05Z and 2026-11-06T11:19:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s005-v001-zoom-durvasa-arms.png",
+          "sha256": "a4b91c017f520201e6a613bf27ac0635422c633fb80e9fca1bcc8745e3bfb324",
+          "region": "600x260+600+60 at 130%",
+          "viewed_at": "between 2026-11-06T11:19:05Z and 2026-11-06T11:19:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s005-v001-zoom-krtya.png",
+          "sha256": "409470186f9c13a5f939e78b454e4ae97a48eaef1d106eab558760456b43b1c8",
+          "region": "480x700+1190+180",
+          "viewed_at": "between 2026-11-06T11:19:05Z and 2026-11-06T11:19:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d033/s006/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "9f1ee37cb9eba2eadc662197fff149c729031258baa4f76bd27fe9a0d651ef2c",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:19:55Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Ambarisha and Durvasa (ordinary two-armed humans) and the single Kṛtyā apparition (two arms, two legs).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/ambarisha/character.json",
+          "sha256": "d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001"
+        },
+        {
+          "path": "art/bible/characters/durvasa/character.json",
+          "sha256": "46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab"
+        },
+        {
+          "path": "art/bible/characters/krtya/character.json",
+          "sha256": "93f4eb9ff20c8ae9eb98b222f6306be6d9c9e28c8028a99f518b729513fb3305"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s006-v004-managed-review-v001.md",
+          "sha256": "544879836d0d1f615d137c8267e16fb4141eabb06b8925eb8d97fd6a6427b7ce"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The king joins two hands with bangles and stands on two feet. The Kṛtyā raises one open five-fingered hand and holds the curved sword hilt in the other fist, on two feet. The running Durvasa has two arms with five-fingered hands and two bare feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All limbs are continuous from shoulder or hip, and the sword stays attached to the Kṛtyā’s hand."
+        },
+        "faces": {
+          "status": "needs-fix",
+          "observations": "Ambarisha is clean-shaven apart from a moustache and has a younger face. In stanzas 1–5 he has a dark beard and moustache, and his contract requires the moustache or beard to stay consistent across D033. Durvasa and the Kṛtyā are consistent with stanza 5."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One king, one Kṛtyā, one chakra and one Durvasa."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The plan says Sudarshana destroys the Kṛtyā and she “breaks into muted painted forms”, but here she is intact and only recoiling while the chakra passes toward Durvasa, so the destruction is not shown. The king’s changed face also breaks D033 identity continuity."
+        }
+      },
+      "findings": [
+        {
+          "id": "D033-S006-AMBARISHA-BEARD-CONTINUITY-V004",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Ambarisha has a moustache but no beard, unlike his bearded face in stanzas 1–5.",
+          "repair": "Regenerate natively with the same bearded Ambarisha face and crown used in stanzas 1–5."
+        },
+        {
+          "id": "D033-S006-KRTYA-NOT-DISPERSED-V004",
+          "severity": "medium",
+          "confidence": "medium",
+          "status": "needs-fix",
+          "observed": "The Kṛtyā is shown whole and recoiling; she is not dispersed by the chakra as the plan requires.",
+          "repair": "Show the single Kṛtyā breaking into muted painted fragments at the chakra’s touch, without gore, while the chakra turns toward Durvasa."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D033/006.jpg",
+        "sha256": "325e03768edcc161f40b993ea073f9528f5b49c345d5b7053b23d771a05f373b",
+        "caption_path": "intake/D033/photo-captions.txt#006",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s006/landscape/candidate-v004.png",
+          "sha256": "9f1ee37cb9eba2eadc662197fff149c729031258baa4f76bd27fe9a0d651ef2c",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:19:30Z and 2026-11-06T11:19:55Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s006-v004-zoom-king-hands.png",
+          "sha256": "2f48c3ec3af84fa47b1a4005df14242d08dd4a12406c1de5c7c2602f1b98b94e",
+          "region": "300x300+60+140 at 150%",
+          "viewed_at": "between 2026-11-06T11:19:30Z and 2026-11-06T11:19:55Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s006-v004-zoom-krtya.png",
+          "sha256": "1bc806f9ebc56406fd0d2ef19b854386d21ad297eb16249c7345a2c7011182ba",
+          "region": "560x660+330+240",
+          "viewed_at": "between 2026-11-06T11:19:30Z and 2026-11-06T11:19:55Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s006-v004-zoom-durvasa.png",
+          "sha256": "1677360a44e5bc73bdc4ab05fa2cc31be0b287bc28dae428bef145f00f04a309",
+          "region": "560x580+1110+280",
+          "viewed_at": "between 2026-11-06T11:19:30Z and 2026-11-06T11:19:55Z"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d033/s007/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "ca35d173531a784114a7d0023d92abc2961112c1b45d219d6c6fb2ccfb5cefea",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:20:20Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma per his approved contract (four heads with three front faces visible, four arms); Shiva in this stanza’s one-headed, two-armed form; Durvasa as an ordinary two-armed human.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/durvasa/character.json",
+          "sha256": "46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s007-v001-managed-review-v001.md",
+          "sha256": "50eedf72f75be1c5e568e0284485f04294390dd649cd4a5fb3a559d21d8d956b"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Brahma holds a book, a water pot and a lotus, and opens his fourth palm with prayer beads hanging from it; each hand has visible fingers. Shiva lifts one open palm in refusal and rests the other hand on his knee. Durvasa runs with two open hands and two bare feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Each of Brahma’s four arms has its own armlet and shoulder join, with two on each side, matching the approved sheet. Shiva’s two arms and crossed legs are coherent."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma shows three crowned, white-bearded faces from the front, one central and two in profile, as his contract requires. Shiva has a calm blue-grey face with three ash lines, a crescent and matted locks. Durvasa’s fearful white-bearded face matches earlier stanzas."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Brahma, one Shiva, one Durvasa and one chakra; no collage panels."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Brahma’s open book shows blank pages with no writing."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 7: Durvasa flees the chakra past Brahma and Shiva, who calmly cannot help, in one shallow continuous mural field. Brahma matches the approved sheet’s attributes and palette."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D033/007.jpg",
+        "sha256": "63704f2e0a57c8b07f9f052eea2d2c3a740837bb7ea71a470d39c19b62a13bd4",
+        "caption_path": "intake/D033/photo-captions.txt#007",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d033/references/brahma-character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s007/landscape/candidate-v001.png",
+          "sha256": "ca35d173531a784114a7d0023d92abc2961112c1b45d219d6c6fb2ccfb5cefea",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:19:55Z and 2026-11-06T11:20:20Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s007-v001-zoom-brahma.png",
+          "sha256": "eb4a5b9ec0c8411dbf3a013609120cc12370985540b09426ee0774e58e368234",
+          "region": "600x460+40+0 at 140%",
+          "viewed_at": "between 2026-11-06T11:19:55Z and 2026-11-06T11:20:20Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s007-v001-zoom-durvasa.png",
+          "sha256": "7265c02fa08139b549d6d4c74db710cc54459defb08def8595685e4d3c0f608c",
+          "region": "620x480+940+380",
+          "viewed_at": "between 2026-11-06T11:19:55Z and 2026-11-06T11:20:20Z"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d033/s008/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "3bc255e329180a53e948f466c136bd26c24f46f227c11099516214a0ccf4de73",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:20:40Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "The plan requires Vishnu in an intentional four-arm form; Durvasa is an ordinary two-armed human.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/durvasa/character.json",
+          "sha256": "46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s008-v001-managed-review-v001.md",
+          "sha256": "c4ecd670a07c5b8eb9db132ca1e2015001387915e85fa573277bbb73297faf8a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "needs-fix",
+          "observations": "Vishnu has only two arms: one hand rests on his knee and the other is stretched out palm-up. The plan’s must-show list requires intentional four-arm Vishnu iconography. Durvasa kneels with two hands flat on the floor and two feet behind."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both painted Vishnu arms and both Durvasa arms join their shoulders with continuous elbows."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Vishnu: blue, smiling, with lowered eyes and a peacock-feather crown. Durvasa: bowed, white-bearded and humbled, consistent with earlier stanzas."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Vishnu and one Durvasa."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text-like marks."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The plan requires four-arm Vishnu iconography, and the source shows four arms; this frame shows two. The one sky motif meant to be the resting chakra reads as a horizontal eye-shaped disc rather than a recognisable Sudarshana."
+        }
+      },
+      "findings": [
+        {
+          "id": "D033-S008-VISHNU-TWO-ARMS-V001",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Vishnu has two arms; the stanza plan requires intentional four-arm iconography.",
+          "repair": "Regenerate natively with a four-armed Vishnu, each arm separately attached, directing Durvasa back toward Ambarisha."
+        },
+        {
+          "id": "D033-S008-CHAKRA-READS-AS-EYE-V001",
+          "severity": "low",
+          "confidence": "medium",
+          "status": "needs-fix",
+          "observed": "The resting chakra in the sky is drawn edge-on as an eye-like ellipse.",
+          "repair": "Paint one restrained, recognisably circular chakra resting in the distant sky."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D033/008.jpg",
+        "sha256": "bc0390b6dc3fd9d2e846cd2b79aa64a8a40ecab85fa2d66fc7e43cf826e297b4",
+        "caption_path": "intake/D033/photo-captions.txt#008",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s008/landscape/candidate-v001.png",
+          "sha256": "3bc255e329180a53e948f466c136bd26c24f46f227c11099516214a0ccf4de73",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:20:20Z and 2026-11-06T11:20:40Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s008-v001-zoom-vishnu-arms.png",
+          "sha256": "7a4af073925f8ee393bc727914fcf9065f7890590a5ca8f8f8b5af3c80efff99",
+          "region": "640x560+160+260",
+          "viewed_at": "between 2026-11-06T11:20:20Z and 2026-11-06T11:20:40Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s008-v001-zoom-sky-chakra.png",
+          "sha256": "8744677990325884a899c78a8b1cdc1cc7184b4991101436b7ec617560fdcd54",
+          "region": "200x120+1020+30 at 300%",
+          "viewed_at": "between 2026-11-06T11:20:20Z and 2026-11-06T11:20:40Z"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d033/s009/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "15b398b53ad9a4a6bc17d0bf5947c988acbbfbc16cf824b4a04c00222d2b19dd",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:21:00Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Ambarisha and Durvasa (ordinary two-armed humans) and a small two-armed shrine image of Bhagwan.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/ambarisha/character.json",
+          "sha256": "d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001"
+        },
+        {
+          "path": "art/bible/characters/durvasa/character.json",
+          "sha256": "46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s009-v001-managed-review-v001.md",
+          "sha256": "ec0a4233cf92e6ebd0cc5b03a5f1180e081d88e5dbdd563f01e08b2c44acb1dc"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Durvasa’s two hands, each with a bead bracelet, close around one of the king’s ankles; the king’s other foot stands behind. The king joins two hands in namaskara. The small Vishnu raises one abhaya hand."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms are continuous, and the hand-to-foot contact is clear and connected."
+        },
+        "faces": {
+          "status": "needs-fix",
+          "observations": "Ambarisha wears a peacock-feather crown, Krishna’s identity marker from the approved Guruvayurappan sheet, and is clean-shaven apart from a moustache. His face now resembles Krishna more than the bearded Ambarisha of stanzas 1–5, which breaks his contract’s consistency requirement and the separation between the devotee’s and the deity’s identities."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One king, one sage, one chakra and one small Vishnu."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The chakra turning back toward Bhagwan reads well, but the king stands upright gazing upward rather than bending with compassion or withdrawing as the plan asks, and the borrowed peacock crown blurs whether this figure is the king or Krishna."
+        }
+      },
+      "findings": [
+        {
+          "id": "D033-S009-AMBARISHA-PEACOCK-CROWN-V001",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Ambarisha wears Krishna’s peacock-feather crown and is beardless, so he reads as Krishna rather than the D033 king.",
+          "repair": "Regenerate natively with the bearded, plain-crowned Ambarisha from stanzas 1–5, with no peacock feather."
+        },
+        {
+          "id": "D033-S009-KING-POSTURE-V001",
+          "severity": "low",
+          "confidence": "medium",
+          "status": "needs-fix",
+          "observed": "The king stands upright gazing upward instead of bending compassionately toward Durvasa.",
+          "repair": "Have the king bend toward the sage while praying for Sudarshana to turn back."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D033/009.jpg",
+        "sha256": "e6dece3050f5da0bc232463da33f430586285d1861fd5fa2112c11a02e058f93",
+        "caption_path": "intake/D033/photo-captions.txt#009",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s009/landscape/candidate-v001.png",
+          "sha256": "15b398b53ad9a4a6bc17d0bf5947c988acbbfbc16cf824b4a04c00222d2b19dd",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:20:40Z and 2026-11-06T11:21:00Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s009-v001-zoom-king-head.png",
+          "sha256": "108ff291c158bbd163cefa856d05ae4b9719d449de20379b96227062c78b47a9",
+          "region": "360x300+200+40 at 150%",
+          "viewed_at": "between 2026-11-06T11:20:40Z and 2026-11-06T11:21:00Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s009-v001-zoom-feet-contact.png",
+          "sha256": "4862e21e7b04b37247ddc8c6901fb0658939fa6dde4eae613d6116f74cf10729",
+          "region": "500x260+250+680 at 150%",
+          "viewed_at": "between 2026-11-06T11:20:40Z and 2026-11-06T11:21:00Z"
+        }
+      ]
+    },
+    {
+      "chapter": 33,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d033/s010/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "28001bbbf12c15fa25e3e8ef4543cb41d6552a39e5acf451bb197e8a29dfdd2a",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:21:47Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Two ordinary two-armed seated adults (Ambarisha and Durvasa).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d033.json",
+          "sha256": "57e4a64aa4f2b3395fc45109e30ff4301a6814a4f877d843c9905bbd96a137c1"
+        },
+        {
+          "path": "content/daskams/d033.json",
+          "sha256": "a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475"
+        },
+        {
+          "path": "content/sources/d033/reference-map.json",
+          "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+        },
+        {
+          "path": "art/bible/characters/ambarisha/character.json",
+          "sha256": "d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001"
+        },
+        {
+          "path": "art/bible/characters/durvasa/character.json",
+          "sha256": "46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d033-s010-v001-managed-review-v001.md",
+          "sha256": "f293a4ab8a88dd9d6184317dbe18d5db4a1f3c0fe3fdd8dc5eeda238e5da0a7a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Ambarisha pinches rice between fingers and thumb with one hand and touches the tray with the other, both wrists bangled. Durvasa holds out a palm-up receiving hand with a bead bracelet; his other hand is hidden behind his body. Both sit cross-legged under drapery."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Durvasa’s receiving forearm runs back to an elbow and up to the draped shoulder; Ambarisha’s two arms attach at armlets. The tray stands on four legs."
+        },
+        "faces": {
+          "status": "needs-fix",
+          "observations": "Durvasa’s smiling white-bearded face is consistent. Ambarisha has a heavy moustache but no beard and a fuller face than in stanzas 1–5, so his face is inconsistent within D033, contrary to his contract."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One king and one sage."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The intimate meal, with the king serving the sage first, matches stanza 10 and the matte mural style, but the king’s changed face breaks D033 character continuity."
+        }
+      },
+      "findings": [
+        {
+          "id": "D033-S010-AMBARISHA-BEARD-CONTINUITY-V001",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Ambarisha is beardless with a heavier moustache and fuller face, unlike stanzas 1–5.",
+          "repair": "Regenerate natively with the same bearded Ambarisha face used in stanzas 1–5."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D033/011.jpg",
+        "sha256": "f65f8be8b6d30afcc86e5e5bb51ccfaeaf0571b85d914f3794e4b687d66b3ac4",
+        "caption_path": "intake/D033/photo-captions.txt#011",
+        "caption_sha256": "4dba7dd67c0f962a75b4213e5b1ca3971bcae0d8ecadddf5bd246c814a5fb2b0",
+        "source_map_path": "content/sources/d033/reference-map.json",
+        "source_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d033/s010/landscape/candidate-v001.png",
+          "sha256": "28001bbbf12c15fa25e3e8ef4543cb41d6552a39e5acf451bb197e8a29dfdd2a",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:21:00Z and 2026-11-06T11:21:47Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s010-v001-zoom-hands-tray.png",
+          "sha256": "5428ed79ca121de49083d509d8166ffdd045c65cb6babc0401e95b6d3e9da941",
+          "region": "640x420+520+500",
+          "viewed_at": "between 2026-11-06T11:21:00Z and 2026-11-06T11:21:47Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d033/review-evidence/managed-v001/s010-v001-zoom-durvasa-body.png",
+          "sha256": "c1cdd7aafccbc4f831c7a1e1b055b726070f4d228049a68720ae1092789f5f6a",
+          "region": "700x560+972+381",
+          "viewed_at": "between 2026-11-06T11:21:00Z and 2026-11-06T11:21:47Z"
+        }
+      ]
     }
   ]
 }
