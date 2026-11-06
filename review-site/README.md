@@ -277,6 +277,21 @@ translations are absent, and portrait compositions are paused. Upload only
 D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
 before any serialized Worker deployment.
 
+## Dasakam 29
+
+D029 contains ten source-mapped landscape candidates in
+`art/batches/d029-comparison-v003.json`. S001 and S003 select v003; S002 and
+S004–S010 select v002. The exact candidate versions and
+checksums are pinned there. Every candidate remains unapproved and requires an
+independent, checksum-bound full-frame and relevant-detail review before
+publication; producer observations are not visual clearance. Supplied
+commentary is preserved verbatim, a sourced English translation is unavailable,
+and portraits are paused. Upload only D029's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=29` before any serialized Worker
+deployment. With D029 and D040 both selected, the union holds 21 chapters, 219
+stanza rows, 444 review media inputs and 225 selected generated images (69
+historical, 146 individually inspected; D029's ten await exact review).
+
 ## Dasakam 34
 
 D034 contains ten landscape comparison rows mapped from the accepted readiness
