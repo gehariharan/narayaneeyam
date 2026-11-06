@@ -59,3 +59,11 @@ Four ordinary adults: Yashoda, one gopa and two gopikas, each with one head and 
 - Detail crops are gitignored local files; hashes and geometry are recorded here.
 
 No approval manifest was created. Human editorial and art approval remain pending.
+
+## Dated correction 2026-11-06T01:58:32Z
+
+- The “References and contracts” lines above said S004 v002 and S009 v001 were opened between 01:54:53Z and 01:55:05Z. That window falls after this report’s 01:54:29Z/01:54:40Z inspection time, so the continuity comparison claimed above was not supported by those times. The templated “(infant anchor earlier in this run)” suffix was also inaccurate.
+- Actual re-inspection: S004 v002 (`artifacts/d043/s004/landscape/v002/candidate.png`, SHA-256 `c41270a7f8d3ad1585ff49d7b752e5cd47e40fac938704e77d06d2bd438cdf26`) opened full-frame at 2026-11-06T01:58:21Z; S009 v001 (`artifacts/d043/s009/landscape/v001/candidate.png`, SHA-256 `9885b0be646cbf776ddce5a5f3e06cc4a21b1696ef7269788196deb9cbd3907f`) opened full-frame at 2026-11-06T01:58:22Z. After that, this candidate was opened full-frame and its Yashoda detail crop was opened at 2026-11-06T01:58:29Z.
+- Comparison confirmed: Yashoda wears one thin bead necklace without a pendant, small drop earrings, a small forehead ornament and thin bangles. She keeps her cream sari, rose blouse and cream and saffron veil. This is the same modest set and palette as S004 v002 (single bead necklace, rose blouse, saffron veil) and S009 v001 (cream and saffron veil, rose blouse, cream sari). The pass stands.
+- The infant identity anchor is removed from this record’s references because S003 shows no infant.
+- The ledger record's inspected_at is now 2026-11-06T01:58:29Z. Its reference_images and views were corrected to these times. Image bytes are unchanged.
