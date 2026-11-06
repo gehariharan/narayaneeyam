@@ -238,9 +238,11 @@ far-shoulder hand. Its prior producer-pass record and original report remain in
 history; `art/reviews/d046-s005-v001-correction-addendum-v001.md` corrects the
 unsupported claim that a human chose not to act. The root-accepted native S005
 v002 (1672 × 941) removes that hand, and its exact source/prompt/reference roles
-are recorded in `art/reviews/d046-s005-v002-native-provenance-v001.md`. The
-corrected release requires a fresh independent managed full-frame/detail review
-of all ten selected leads; S005 v002 has no independent pass yet. Earlier
+are recorded in `art/reviews/d046-s005-v002-native-provenance-v001.md`. For the
+corrected release, all ten selected leads were re-opened from hydrated exact
+inputs at full frame and in detail. S005 v002 passes independent managed review
+(`art/reviews/d046-s005-landscape-v002-managed-review-v001.md`), and the other
+nine still pass (`art/reviews/d046-final-context-reinspection-v001.md`). Earlier
 S006/S007 four-armed external-child drafts remain preserved but are not selected.
 English translations and portrait compositions are absent. All artwork remains
 unapproved. Upload only D046's WebP derivatives with

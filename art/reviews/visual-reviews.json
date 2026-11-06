@@ -18418,6 +18418,10 @@
         {
           "path": "art/reviews/d046-s001-landscape-v001-managed-review-v001.md",
           "sha256": "0bd5bf924117b04f4b6350351ac8e593b9607b1f514728a815093ba4e599f13c"
+        },
+        {
+          "path": "art/reviews/d046-final-context-reinspection-v001.md",
+          "sha256": "98d74b6e6a91cfbe8d923a5d6fb56656aa0cfaa0f35848628fa7713e3cf4b3b3"
         }
       ],
       "checks": {
@@ -18494,6 +18498,10 @@
         {
           "path": "art/reviews/d046-s002-landscape-v001-managed-review-v001.md",
           "sha256": "def1231926025826012a488bc6d103ab19f709ede37348ed8fcc4c01fbb82a68"
+        },
+        {
+          "path": "art/reviews/d046-final-context-reinspection-v001.md",
+          "sha256": "98d74b6e6a91cfbe8d923a5d6fb56656aa0cfaa0f35848628fa7713e3cf4b3b3"
         }
       ],
       "checks": {
@@ -18570,6 +18578,10 @@
         {
           "path": "art/reviews/d046-s003-landscape-v001-managed-review-v001.md",
           "sha256": "0650dba9d413e80cd6603ee73007c9a0fd09b6c2dac28d6156cedf7d791a2ede"
+        },
+        {
+          "path": "art/reviews/d046-final-context-reinspection-v001.md",
+          "sha256": "98d74b6e6a91cfbe8d923a5d6fb56656aa0cfaa0f35848628fa7713e3cf4b3b3"
         }
       ],
       "checks": {
@@ -18646,6 +18658,10 @@
         {
           "path": "art/reviews/d046-s004-landscape-v001-managed-review-v001.md",
           "sha256": "0cc2e2bb8ea35a110d33acec21d0dfef1c72d23d6378b8acec78c025c565af46"
+        },
+        {
+          "path": "art/reviews/d046-final-context-reinspection-v001.md",
+          "sha256": "98d74b6e6a91cfbe8d923a5d6fb56656aa0cfaa0f35848628fa7713e3cf4b3b3"
         }
       ],
       "checks": {
@@ -18767,6 +18783,82 @@
     },
     {
       "chapter": 46,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d046/s005/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "4dd268b5fc9394343a9dcd75c2d8068f4efa40fdec27001df3ba67cc36cfb752",
+      "reviewer": "Claude Opus 5.5, no-mistakes managed review phase (independent of the D046 production session and the S005 native-repair helper)",
+      "inspected_at": "2026-11-06T09:40:00Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One ordinary two-armed adult Yashoda and one externally two-armed toddler Krishna; S005 contains no cosmic vision. Only Yashoda’s chin-support hand is shown, and it is continuously attached.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "78651185d378883098c0301f357e37252d4d7494b85176d9b2444936b43f291a"
+        },
+        {
+          "path": "content/daskams/d046.json",
+          "sha256": "7da7792135ce13c26bcac7deba8f5a50fd8dd65dc8ebbd37e8b7ff55b6b4154d"
+        },
+        {
+          "path": "content/sources/d046/reference-map.json",
+          "sha256": "bf4134db2a3653d5616a0f43788c1e7e3014b55e17039e71206940f6d6b578d2"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d046-s005-landscape-v002-managed-review-v001.md",
+          "sha256": "a69c2cf5767299f0d9d0dd67b7d0005c6ef4232029945a3570a648d4b2a659fe"
+        },
+        {
+          "path": "art/reviews/d046-s005-v002-native-provenance-v001.md",
+          "sha256": "ba40b4113e3814aecbee9a69e37445fedb4db4a274c9e75aab0cec6ed1f0a610"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Yashoda: one palm-up hand under Krishna’s chin, thumb raised and fingertips touching the chin; her other arm is hidden behind her body. Krishna: two hands on his knees, each with a thumb and four fingers, and two feet with five toes each."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The chin hand runs without a break through a bangled wrist and forearm, the elbow, and the armbanded upper arm into her blouse sleeve. No unsupported hand remains; the v001 far-shoulder hand is gone. The child’s arms join his shoulders, with seated-toddler proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Yashoda: the same oval profile, parted dark hair under a cream veil, bindi and gold earrings as in the other D046 scenes. Krishna: the D046 toddler’s deep-blue skin, curls, peacock feather, tilak and almond eyes, with a natural toddler-sized open mouth."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One mother and one child; no duplicated or fused limbs or figures."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 5: Yashoda gently asks him to open his mouth and he opens it naturally, with no cosmos and no mud shown. The matte ochre mural palette and full 16:9 composition match the other D046 selections."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 46,
       "sloka": 6,
       "role": "matte",
       "file": "artifacts/d046/s006/landscape/candidate-v002.png",
@@ -18811,6 +18903,10 @@
         {
           "path": "art/reviews/d046-s006-landscape-v002-managed-review-v001.md",
           "sha256": "f736331a3237ac60d5d53019669f1aea93d1b4133ad27a79c6650266f7bcd335"
+        },
+        {
+          "path": "art/reviews/d046-final-context-reinspection-v001.md",
+          "sha256": "98d74b6e6a91cfbe8d923a5d6fb56656aa0cfaa0f35848628fa7713e3cf4b3b3"
         }
       ],
       "checks": {
@@ -18887,6 +18983,10 @@
         {
           "path": "art/reviews/d046-s007-landscape-v002-managed-review-v001.md",
           "sha256": "fc723f3334e9aaace2a2d3c9af91ab95fdc71f8d70a5e90a5ee59f06dad62a18"
+        },
+        {
+          "path": "art/reviews/d046-final-context-reinspection-v001.md",
+          "sha256": "98d74b6e6a91cfbe8d923a5d6fb56656aa0cfaa0f35848628fa7713e3cf4b3b3"
         }
       ],
       "checks": {
@@ -18967,6 +19067,10 @@
         {
           "path": "art/reviews/d046-s008-landscape-v001-managed-review-v001.md",
           "sha256": "aa418f614f64b20bb45a5f95ae9e24fc2b2c05e995c4b2b58961ca48f95e1c3f"
+        },
+        {
+          "path": "art/reviews/d046-final-context-reinspection-v001.md",
+          "sha256": "98d74b6e6a91cfbe8d923a5d6fb56656aa0cfaa0f35848628fa7713e3cf4b3b3"
         }
       ],
       "checks": {
@@ -19043,6 +19147,10 @@
         {
           "path": "art/reviews/d046-s009-landscape-v001-managed-review-v001.md",
           "sha256": "0adfd38bc49c84dc9e23e17925898857823db0fc9a3b3a95628feb2391cd1bf9"
+        },
+        {
+          "path": "art/reviews/d046-final-context-reinspection-v001.md",
+          "sha256": "98d74b6e6a91cfbe8d923a5d6fb56656aa0cfaa0f35848628fa7713e3cf4b3b3"
         }
       ],
       "checks": {
@@ -19119,6 +19227,10 @@
         {
           "path": "art/reviews/d046-s010-landscape-v001-managed-review-v001.md",
           "sha256": "3360630e57a9eac630c0cfb7ef3c15d4245c7b0948a99fac656ded43023516dc"
+        },
+        {
+          "path": "art/reviews/d046-final-context-reinspection-v001.md",
+          "sha256": "98d74b6e6a91cfbe8d923a5d6fb56656aa0cfaa0f35848628fa7713e3cf4b3b3"
         }
       ],
       "checks": {
