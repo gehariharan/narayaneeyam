@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "chapter": "D034",
+  "sources": {
+    "commentary": "intake/D034/photo-captions.txt",
+    "canonical_sanskrit": {
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-34-in-sanskrit",
+      "retrieved": "2026-11-06",
+      "publisher": "Stotra Nidhi",
+      "stanzas": "34-1 through 34-10",
+      "method": "Transcribed from the numbered Sanskrit stanzas on the cited page; exact supplied verse text retained, not normalized."
+    },
+    "canonical_roman": {
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-34-in-english/",
+      "retrieved": "2026-11-06",
+      "publisher": "Stotra Nidhi",
+      "stanzas": "34-1 through 34-10",
+      "method": "Transcribed from the numbered English (IAST) page; exact supplied transliteration retained, not normalized."
+    },
+    "translation_en": "No vetted supplied English translation was available. Translation fields are intentionally blank; no translation has been invented."
+  },
+  "reference_intake": "intake/D034/",
+  "reference_manifest": "content/sources/d034/intake-manifest.json",
+  "reference_manifest_note": "Includes SHA-256 and byte counts for all 24 mapped photographs, four documentary extras, post.json, and photo-captions.txt; extras are retained but excluded from sloka attribution.",
+  "accepted_readiness": "/home/gehariharan/firstmate-images/data/d034-production/accepted-readiness.json",
+  "mapping": "Per-stanza filenames follow accepted-readiness.json; filenames were not inferred from numbers. Documentary extras 025.jpg–028.jpg are preserved but excluded from stanza attribution.",
+  "caption_handling": "Caption labels #1–#10 are transcribed unchanged as commentary. Numbered anchors are represented as #N, never as filenames."
+}

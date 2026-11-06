@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D040, D042, D043 and D044 media from the release using the existing
+D005 through D014, D029, D031, D033, D034, D040, D042, D043 and D044 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -277,18 +277,57 @@ translations are absent, and portrait compositions are paused. Upload only
 D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
 before any serialized Worker deployment.
 
+## Dasakam 29
+
+D029 contains ten source-mapped landscape candidates in
+`art/batches/d029-comparison-v003.json`: S001 v003, S002, S006 and S008 v002,
+S003 and S007 v004, and native repairs v003 for S004, S005, S009 and S010. The
+exact candidate versions and checksums are pinned there; S003 and S004 are
+native 1671 × 941 frames. Every candidate remains unapproved. Independent,
+checksum-bound full-frame and detail reviews in
+`art/reviews/d029-s*-managed-review-v001.md` and `visual-reviews.json` pass all
+ten selected frames; failed earlier versions keep their reports and findings.
+Supplied commentary is preserved verbatim, a sourced English translation is
+unavailable, and portraits are paused. Upload only D029's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=29` before any serialized Worker
+deployment. With D029 added alongside D031 and D034, the union holds 23
+chapters, 239 stanza rows, 485 review media inputs and 245 selected generated
+images (69 historical, 176 individually inspected).
+
 ## Dasakam 33
 
 D033 contains ten source-mapped landscape comparison candidates in
 `art/batches/d033-comparison-v001.json`. Captions and numbered source photos are
-mapped through `content/sources/d033/reference-map.json`; uncaptained documentary
+mapped through `content/sources/d033/reference-map.json`; uncaptioned documentary
 extras remain in intake and are excluded from stanza attribution. The Sanskrit
 and IAST are sourced, but the cited source does not provide English
-translations. Candidate versions remain unapproved and require independent
-checksum-bound visual inspection before publication. Portraits are paused.
-Upload only D033's review derivatives with
+translations. The independent managed review in `art/reviews/visual-reviews.json`
+and `art/reviews/d033-*-managed-review-v001.md` passes all ten selected leads.
+Native repairs S002 v003, S006 v005, S008 v003, S009 v003 and S010 v002 replace
+versions recorded as needs-fix: S002 and S008 for Vishnu or king arms that
+shared an elbow or armlet or added a third hand, S006, S009 and S010 for a
+beardless or peacock-crowned king, and S006 also for an undispersed Kṛtyā. The
+needs-fix reports stay as history, and superseded and rejected attempts stay
+preserved locally and are not published. Candidates remain unapproved and
+portraits are paused. Upload only D033's review derivatives with
 `node review-site/scripts/upload.mjs --daskam=33` before the serialized Worker
-deployment.
+deployment. With D033 added alongside D029, the union holds 24 chapters, 249
+stanza rows, 505 review media inputs and 255 selected generated images (69
+historical, 186 individually inspected).
+
+## Dasakam 34
+
+D034 contains ten landscape comparison rows mapped from the accepted readiness
+record to the stanza references and supplied captions. Canonical Sanskrit and
+IAST are source-mapped; no English translation was supplied. Exact selected
+versions and source checksums are pinned in
+`art/batches/d034-comparison-v001.json`. Candidates remain unapproved and
+portrait compositions are paused. All ten selected versions carry checksum-bound
+managed visual reviews; the S001, S003, S007, S009 and S010 replacements
+supersede earlier versions whose reviews found defects, which remain recorded as
+history. Upload only D034's WebP
+derivatives with `node review-site/scripts/upload.mjs --daskam=34` before any
+serialized Worker deployment.
 
 ## Dasakam 42
 
@@ -331,3 +370,7 @@ D043 contains ten source-mapped landscape candidates in `art/batches/d043-compar
 ## Dasakam 40
 
 D040 contains ten source-mapped landscape candidates in `art/batches/d040-comparison-v001.json`. Each row binds its numbered intake reference and selected native candidate version by SHA-256, and `art/plans/d040.json` pins the same versions with their native 1672 × 941 dimensions. The visible cast binds to the vasudeva, nandagopan, infant-krishna, gopikas and gopas contracts and to a new provisional, chapter-scoped `putana` contract. That contract keeps one recognizable Putana across her flower-adorned disguise (S004–S007) and her fallen giant true form (S008–S009). The independent managed review in `art/reviews/visual-reviews.json` and `art/reviews/d040-*-managed-review-v001.md` passes all ten selected leads. Native repairs S008 v003 and S009 v002 supersede S008 v002 and S009 v001, both recorded as needs-fix because the giant's far arm rooted mid-torso instead of at the shoulder. Their earlier pass reports stay as history. After each repair, every other selected frame was re-opened against the final plan. Superseded trials S002 v001, S008 v001, S008 v002 and S009 v001 stay preserved locally and are not published. Upload only D040's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=40` before any serialized Worker deployment. With D040 added, the union holds 20 chapters, 209 stanza rows, 424 review media inputs and 215 selected generated images (69 historical, 146 individually inspected). Candidates remain unapproved, portraits are paused, and English translations are absent.
+
+## Dasakam 31
+
+D031 contains ten native landscape candidates paired with mapped intake photographs in `art/batches/d031-comparison-v001.json`. S009 is mapped to both source images, and the comparison keeps both references visible. The independent managed review in `art/reviews/visual-reviews.json` and `art/reviews/d031-*-managed-review-v001.md` passed S001–S003 v001 and recorded S004 v001, S005 v001, S006 v004, S007 v002, S008 v001, S009 v002 and S010 v001 as needs-fix (Bali identity break, broken pour path, inconsistent Trivikrama skin and cloned Devas, a forbidden peacock feather, cloned Deva soldiers, a youthful Prahlada resembling Vamana, and a duplicated inset with a modern-map globe). Native repairs S004 v002, S005 v002, S006 v005, S007 v004, S008 v002, S009 v003 and S010 v002 supersede them, and each passed a fresh full-frame and native-detail inspection. The earlier needs-fix reports stay as history, the superseded attempts stay preserved locally and are not published, and the rejected S007 v003 repair attempt was never selected. Images remain unapproved, portraits are paused, and no sourced English translation was available. Upload only D031's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=31` before any serialized Worker deployment. With D031 and D034 added, the union holds 22 chapters, 229 stanza rows, 465 review media inputs and 235 selected generated images (69 historical, 166 individually inspected).

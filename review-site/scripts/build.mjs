@@ -44,11 +44,11 @@ for (const importedSelection of batches) {
     const selected=importedSelection.rows.find(r=>r.n===n);
     if(!selected)throw new Error(`Missing ${d} selection ${n}`);
     const images=[];
-    for(const role of ['reference','matte']){
-      const item=selected[role];
+    const references=selected.references||[selected.reference];
+    for(const [role,item] of [...references.map(reference=>['reference',reference]),['matte',selected.matte]]){
       const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
       if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} ${role}`);
-      const mediaLabel=id===5?`${d}-s${s}-${role}-${item.version||'selected'}`:`${d}-s${s}-${role}`;
+      const mediaLabel=id===5?`${d}-s${s}-${role}-${item.version||'selected'}`:role==='reference'&&references.length>1?`${d}-s${s}-${role}-${item.version}`:`${d}-s${s}-${role}`;
       const review = role === 'reference' ? null : reviewFor(validation, { ...item, chapter:id, sloka:n, role });
       images.push({role,label:role,displayLabel:item.displayLabel,version:item.version,key:await asset(item.file,mediaLabel), ...(review ? {inspectionStatus:review.status,inspectionLabel:review.label} : {})});
     }

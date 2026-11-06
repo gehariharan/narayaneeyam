@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 33,
   "review_status": "needs-review",
-  "visual_review_status": "Independent managed full-frame/detail review pending for the ten selected native versions; no candidate has art approval. Superseded and uncertain generated attempts are preserved in task artifacts and are not visible alternates.",
+  "visual_review_status": "Independent managed full-frame/detail reviews in art/reviews/visual-reviews.json pass all ten current selections: S001 v002, S002 v003, S003 v002, S004 v001, S005 v001, S006 v005, S007 v001, S008 v003, S009 v003 and S010 v002. Earlier needs-fix versions (S002 v001/v002, S006 v004, S008 v001/v002, S009 v001, S010 v001) and their reports stay as history. No candidate has art approval. Superseded, rejected and uncertain generated attempts are preserved in task artifacts and are not visible alternates.",
   "description": "Ten source-mapped D033 native landscape candidates, one per canonical stanza, with the accepted numbered reference map and selected candidate versions/checksums pinned.",
-  "review_notice": "These are unapproved landscape candidates awaiting independent managed inspection. Superseded and uncertain generated versions remain preserved locally and are not shown as comparison alternates. Portrait production remains paused; canonical English translations were not available from the cited source; supplied captions are distinct from sourced Sanskrit/IAST. Publishing a comparison does not approve artwork.",
+  "review_notice": "All ten selected landscape candidates have passed independent managed visual inspection and remain unapproved pending user art review. Superseded and uncertain generated versions remain preserved locally and are not shown as comparison alternates. Portrait production remains paused; canonical English translations were not available from the cited source; supplied captions are distinct from sourced Sanskrit/IAST. Publishing a comparison does not approve artwork.",
   "source_mapping_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427",
   "rows": [
     {
@@ -40,11 +40,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d033/s002/landscape/candidate-v001.png",
-        "sha256": "fa200cfc64f7542bb3f266a97780c94424533c5465725e161fa51c1a2da76dd9",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d033/s002/landscape/candidate-v003.png",
+        "sha256": "44c982425dff078d4eeb40ced2ca60afc260ac5c64170f62374650c1dc43f678",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003",
         "dimensions_px": "1672x941"
       },
       "alternates": []
@@ -124,11 +124,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d033/s006/landscape/candidate-v004.png",
-        "sha256": "9f1ee37cb9eba2eadc662197fff149c729031258baa4f76bd27fe9a0d651ef2c",
-        "version": "v004",
-        "label": "Landscape candidate v004",
-        "displayLabel": "Landscape candidate v004",
+        "file": "artifacts/d033/s006/landscape/candidate-v005.png",
+        "sha256": "5bd9af8cde534498c751b64909676d2fa831caf964f1e557888d265e671e8f24",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
         "dimensions_px": "1672x941"
       },
       "alternates": []
@@ -166,11 +166,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d033/s008/landscape/candidate-v001.png",
-        "sha256": "3bc255e329180a53e948f466c136bd26c24f46f227c11099516214a0ccf4de73",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d033/s008/landscape/candidate-v003.png",
+        "sha256": "840998b46a1765ae57303055e9a563e685b22cf65648acee7406ad4be54e04b4",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003",
         "dimensions_px": "1672x941"
       },
       "alternates": []
@@ -187,11 +187,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d033/s009/landscape/candidate-v001.png",
-        "sha256": "15b398b53ad9a4a6bc17d0bf5947c988acbbfbc16cf824b4a04c00222d2b19dd",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d033/s009/landscape/candidate-v003.png",
+        "sha256": "6704a975958d8265e4c8e67081533f2cef03dfa6468c100093d3cf5d18144e5d",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003",
         "dimensions_px": "1672x941"
       },
       "alternates": []
@@ -208,11 +208,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d033/s010/landscape/candidate-v001.png",
-        "sha256": "28001bbbf12c15fa25e3e8ef4543cb41d6552a39e5acf451bb197e8a29dfdd2a",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d033/s010/landscape/candidate-v002.png",
+        "sha256": "2174f409b5e8eebb3d9a53a68c9e8e5e1ca106816f6de2bd3bd5ec99481d9da2",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
         "dimensions_px": "1672x941"
       },
       "alternates": []

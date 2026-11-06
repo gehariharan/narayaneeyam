@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "daskam_id": 31,
+  "retrieved_at": "2026-11-06T10:11:58+00:00",
+  "status": "needs-human-editorial-review",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-31-in-sanskrit/",
+      "retrieved": "2026-11-06",
+      "note": "Ten Devanagari stanzas numbered 31-1 through 31-10 and completion marker; copied into canonical content."
+    },
+    {
+      "role": "romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-31-in-english/",
+      "retrieved": "2026-11-06",
+      "note": "Ten IAST stanzas numbered 31-1 through 31-10; copied as supplied."
+    },
+    {
+      "role": "english-translation",
+      "status": "not-retrieved",
+      "note": "No sourced English translation was supplied or retrieved. translation_en remains blank."
+    },
+    {
+      "role": "commentary",
+      "path": "intake/D031/photo-captions.txt",
+      "sha256": "1b808aa7e2ed7bfcc4de5cb2f37106332314d8738ed42d61d9fc446c4355d825",
+      "note": "Supplied captions copied byte-for-byte and used as commentary only, not as a canonical translation."
+    },
+    {
+      "role": "raw-photo-post",
+      "path": "intake/D031/post.json",
+      "sha256": "eaf775bcd29835e9fa7d61d5d610d13c72b1103ca7170542f21ee85e31852a16",
+      "note": "Original post metadata preserved byte-for-byte under intake/D031/."
+    }
+  ]
+}

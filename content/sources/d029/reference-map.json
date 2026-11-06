@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "daskam_id": 29,
+  "mapping_basis": "The source post labels images #1–#10; image #4 and #5 both carry stanza label #4. Labels are captions, not filenames.",
+  "stanzas": [
+    { "n": 1, "lead": "intake/D029/001.jpg", "alternates": [], "caption_anchor": "intake/D029/photo-captions.txt#1" },
+    { "n": 2, "lead": "intake/D029/002.jpg", "alternates": [], "caption_anchor": "intake/D029/photo-captions.txt#2" },
+    { "n": 3, "lead": "intake/D029/003.jpg", "alternates": [], "caption_anchor": "intake/D029/photo-captions.txt#3" },
+    { "n": 4, "lead": "intake/D029/005.jpg", "alternates": ["intake/D029/004.jpg"], "caption_anchor": "intake/D029/photo-captions.txt#4" },
+    { "n": 5, "lead": "intake/D029/006.jpg", "alternates": [], "caption_anchor": "intake/D029/photo-captions.txt#5" },
+    { "n": 6, "lead": "intake/D029/007.jpg", "alternates": [], "caption_anchor": "intake/D029/photo-captions.txt#6" },
+    { "n": 7, "lead": "intake/D029/008.jpg", "alternates": [], "caption_anchor": "intake/D029/photo-captions.txt#7" },
+    { "n": 8, "lead": "intake/D029/009.jpg", "alternates": [], "caption_anchor": "intake/D029/photo-captions.txt#8" },
+    { "n": 9, "lead": "intake/D029/010.jpg", "alternates": [], "caption_anchor": "intake/D029/photo-captions.txt#9" },
+    { "n": 10, "lead": "intake/D029/011.jpg", "alternates": [], "caption_anchor": "intake/D029/photo-captions.txt#10" }
+  ],
+  "excluded_extras": [
+    { "path": "intake/D029/012.jpg", "reason": "Uncaptioned text/UI screenshot or extra; no stanza label." },
+    { "path": "intake/D029/013.jpg", "reason": "Uncaptioned text/UI screenshot or extra; no stanza label." },
+    { "path": "intake/D029/014.jpg", "reason": "Uncaptioned text/UI screenshot or extra; no stanza label." },
+    { "path": "intake/D029/015.jpg", "reason": "Uncaptioned text/UI screenshot or extra; no stanza label." },
+    { "path": "intake/D029/016.jpg", "reason": "Uncaptioned text/UI screenshot or extra; no stanza label." },
+    { "path": "intake/D029/017.jpg", "reason": "Uncaptioned text/UI screenshot or extra; no stanza label." },
+    { "path": "intake/D029/018.jpg", "reason": "Uncaptioned text/UI screenshot or extra; no stanza label." },
+    { "path": "intake/D029/019.jpg", "reason": "Uncaptioned text/UI screenshot or extra; no stanza label." }
+  ],
+  "reference_sha256": {
+    "001.jpg": "f34918237b288a295f8e7067a25505a3108d3bfa2d3925c7007a5373f460420e",
+    "002.jpg": "94ee910a12060076b833cd3561a90a644c3ccaae24a58824c7d632f9babfb674",
+    "003.jpg": "c9e00b84d74e6d6b49773647bff9e0e36ea045cf3c1a43fb106561a7ef70626c",
+    "004.jpg": "a99d4c132ee3cb75a3479775a8ef0779779a482428e7a4983676513753bacaf9",
+    "005.jpg": "533b1d8e91288eff18723026a2cb43173733dffb5d9118288b775b56f6570541",
+    "006.jpg": "efe94119387009051e05b1eb2e7bb0dd44edda52d5ff6c564131cfa6c129dc9c",
+    "007.jpg": "756b44185c9962e33e178e88f401a680764b60ad98b88920b44007d61010d117",
+    "008.jpg": "c38b1cf71264ddf70e5112405f40cf220f45552bfcddc0fc08c1fb717ec6e2c3",
+    "009.jpg": "526e47f7e3dc9f8233dde6318309ec911309873ca6cf5d5d35fe9461df9f4cc2",
+    "010.jpg": "656d5b426120c78f52d11be14dffb6c2eaad250b10cec5a20309c7d3fb2e1b58",
+    "011.jpg": "d9a693f2db90f13dfc2404328daa5a247efc5a6215b5f516acc7dc36cbff9542"
+  }
+}

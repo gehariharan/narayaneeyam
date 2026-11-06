@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "chapter": "D031",
+  "state": "verification plan only; no visual clearance or approval implied",
+  "submitted_head": "5af299598c43995f838546b41131705309d73a89",
+  "expected_base_after_pipeline_rebase": "D040 actual main 1d19d1e5a026973572d935b647374b35b75bbd96 unless advanced again",
+  "asset_hydration": {
+    "baseline_selected_raw_reference_inputs": 424,
+    "baseline_sources": {
+      "D043_accepted_release": "/home/gehariharan/firstmate-images/data/d043-publication-publish/release-5af299598c43995f838546b41131705309d73a89",
+      "D040_managed_snapshot": "/home/gehariharan/firstmate-images/data/d040-production/managed-qa-test-snapshot-20261106T092553Z/managed"
+    },
+    "own_chapter_inputs": 21,
+    "expected_union_if_base_unchanged": 445,
+    "derivation_note": "The accepted stanza mapping has 11 reference photographs because stanza 9 maps both 009.jpg and 010.jpg, plus ten selected generated candidates. This yields 445 inputs from the current 424 baseline; recalculate from the final selections after rebase and include any later chapter merges.",
+    "own_references": [
+      {
+        "stanza": 1,
+        "path": "intake/D031/001.jpg",
+        "sha256": "ebd3abab9b9e2de443d2b791aca0b8e75b1da36c7dc3ca38c9213cf9ab9e6bec"
+      },
+      {
+        "stanza": 2,
+        "path": "intake/D031/002.jpg",
+        "sha256": "d096a9cab242fe54781230caaaf87fb04f0d622c86d8116330cc8c26eaed362d"
+      },
+      {
+        "stanza": 3,
+        "path": "intake/D031/003.jpg",
+        "sha256": "5514f5e736105c75bbaa9be2cd588a006962c34a17b08a5855799cf5a4d6aaa9"
+      },
+      {
+        "stanza": 4,
+        "path": "intake/D031/004.jpg",
+        "sha256": "947e5f5cf837892cbfa2c8cca60d9383cf3341546c1f160e9cda3b84de55ceef"
+      },
+      {
+        "stanza": 5,
+        "path": "intake/D031/005.jpg",
+        "sha256": "eeefbccd81e9dec7fe266d249eb2d8a3e08473218b56a28052959f8c19c4602e"
+      },
+      {
+        "stanza": 6,
+        "path": "intake/D031/006.jpg",
+        "sha256": "08376bbdc12d090ee2b38a516defa59db082bd6ceec3db3c99be8098650e8a9c"
+      },
+      {
+        "stanza": 7,
+        "path": "intake/D031/007.jpg",
+        "sha256": "cc71c5fee279ca3abd03dd3c24b95ecbe5f7325e612b478654faafce64b27257"
+      },
+      {
+        "stanza": 8,
+        "path": "intake/D031/008.jpg",
+        "sha256": "e8c1faaec301762933853da69e60ad264a674b688c011c1aefcdb5f7a8428e17"
+      },
+      {
+        "stanza": 9,
+        "path": "intake/D031/009.jpg",
+        "sha256": "61edd32b0f7d96242292dce75cc02d4cd4bb20e96531041d801a0beb8e8e3bcd"
+      },
+      {
+        "stanza": 9,
+        "path": "intake/D031/010.jpg",
+        "sha256": "ad063dd3070a88ed187ef31a0e8b268b4b5310e0fe5db1d2eb2da0e27203df04"
+      },
+      {
+        "stanza": 10,
+        "path": "intake/D031/011.jpg",
+        "sha256": "19e0e9beeeabc3c84d88d871d1984d92a1c4779bbed6ee69830e21dc6278086c"
+      }
+    ],
+    "own_selected_candidates": [
+      {
+        "stanza": 1,
+        "version": "v001",
+        "path": "artifacts/d031/s001/landscape/candidate-v001.png",
+        "sha256": "a4fb2f44f70df4da688a6e2743c7a2ab70a63a81dda1e8a950b1138565173d7f"
+      },
+      {
+        "stanza": 2,
+        "version": "v001",
+        "path": "artifacts/d031/s002/landscape/candidate-v001.png",
+        "sha256": "ef2058d3b8a72b9a157f0c9d72c7af5819d5fed7fde397792ecafd9740410cb4"
+      },
+      {
+        "stanza": 3,
+        "version": "v001",
+        "path": "artifacts/d031/s003/landscape/candidate-v001.png",
+        "sha256": "ab0fb08919f4e5e6191921a43febb5be17f9ab4f7380bdecfa2f839819198ae5"
+      },
+      {
+        "stanza": 4,
+        "version": "v001",
+        "path": "artifacts/d031/s004/landscape/candidate-v001.png",
+        "sha256": "dd7e7d088bcc55a13d9dcba629499dd720cdd6136f3cda48992792f85c917084"
+      },
+      {
+        "stanza": 5,
+        "version": "v001",
+        "path": "artifacts/d031/s005/landscape/candidate-v001.png",
+        "sha256": "f1af778cdde2340117b8ac7f0e0d31f58b969cb6ccd7d69d9807843a99ba775f"
+      },
+      {
+        "stanza": 6,
+        "version": "v004",
+        "path": "artifacts/d031/s006/landscape/candidate-v004.png",
+        "sha256": "bfa73875687c5e85160541548f562d1dedc69577d3168023ee9c9b202b3fb9fb"
+      },
+      {
+        "stanza": 7,
+        "version": "v002",
+        "path": "artifacts/d031/s007/landscape/candidate-v002.png",
+        "sha256": "9c096601e567c2a0679f4147bc098e8a1692dddf73d24ad20a24e8219160740b"
+      },
+      {
+        "stanza": 8,
+        "version": "v001",
+        "path": "artifacts/d031/s008/landscape/candidate-v001.png",
+        "sha256": "d743c38fa9d51532165c92f43968fdbfb4804d2f79de52824524386855c2debf"
+      },
+      {
+        "stanza": 9,
+        "version": "v002",
+        "path": "artifacts/d031/s009/landscape/candidate-v002.png",
+        "sha256": "a77b27428bf13b68c199da2cc02fbe595685c923d3f572b3aafc0b01f785e37a"
+      },
+      {
+        "stanza": 10,
+        "version": "v001",
+        "path": "artifacts/d031/s010/landscape/candidate-v001.png",
+        "sha256": "c3f1316610b88364db4960333f111ba9702e4f75905160a2a776edb14063f30f"
+      }
+    ]
+  },
+  "managed_visual_review": {
+    "must_review_every_selected_candidate": true,
+    "selected_count": 10,
+    "individual_native_resolution_and_relevant_details": true,
+    "compare_against_final_mapped_references_plan_series_bible_and_scene_character_contracts": true,
+    "outcomes_allowed": [
+      "pass",
+      "needs-fix",
+      "uncertain"
+    ],
+    "review_is_not_art_approval": true,
+    "reinspect_after_any_context_change": true,
+    "do_not_synthesize_reports_or_claim_unseen_review": true
+  },
+  "execution_checks": [
+    "project content and image review validation",
+    "review-site build and exact-byte bundle validation",
+    "review-site Worker route/forms behavior",
+    "R2 selected asset hash validation including negative tamper check",
+    "D1 feedback stanza/version binding and negative cases",
+    "persist screenshots and D1 export under taskdata",
+    "derive final changed-path inventory after rebase"
+  ],
+  "software_diff_coverage": "Review original-base-to-final diff after any pipeline rebase/fix. The final managed report must include a top-level JSON string array named reviewed_paths covering every changed software file; findings must be concrete and cannot claim zero without inspecting coverage. This provisional list is the current submitted diff, not a substitute for final review coverage. The managed Review step must refresh this array after any rebase and pipeline fixes.",
+  "reviewed_paths": [
+    ".github/workflows/deploy-review.yml",
+    "art/batches/d031-comparison-v001.json",
+    "art/bible/characters/d031-asura-host/character.json",
+    "art/bible/characters/d031-cast.json",
+    "art/bible/characters/d031-deva-host/character.json",
+    "art/bible/characters/d031-deva-witnesses/character.json",
+    "art/bible/characters/d031-garuda/character.json",
+    "art/bible/characters/d031-jambavan/character.json",
+    "art/bible/characters/d031-mahabali/character.json",
+    "art/bible/characters/d031-prahlada/character.json",
+    "art/bible/characters/d031-shukracharya/character.json",
+    "art/bible/characters/d031-vamana/character.json",
+    "art/bible/characters/d031-vindhyavali/character.json",
+    "art/plans/d031.json",
+    "art/reviews/d031-verification-plan-v001.json",
+    "content/daskams/d031.json",
+    "content/sources/d031/photo-captions.txt",
+    "content/sources/d031/provenance.json",
+    "content/sources/d031/reference-map.json",
+    "review-site/README.md",
+    "review-site/image-review.mjs",
+    "review-site/scripts/build.mjs",
+    "review-site/scripts/test.mjs",
+    "review-site/selections.mjs"
+  ]
+}

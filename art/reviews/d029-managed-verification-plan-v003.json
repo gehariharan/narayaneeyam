@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "task": "D029 ten-stanza landscape v003 selection managed visual verification",
+  "scope": {
+    "chapter": 29,
+    "canonical_sloka_count": 10,
+    "orientation": "landscape",
+    "selected_images": 10,
+    "portraits": "paused",
+    "approval": "none; candidates remain unapproved"
+  },
+  "managed_checkout_custody": {
+    "baseline_commit_notice": "Firstmate reports guarded merge D040 at main 1d19d1e5a026973572d935b647374b35b75bbd96.",
+    "baseline_selected_raw_and_reference_inputs": 424,
+    "this_chapter_adds_selected_inputs": 20,
+    "required_actual_union_count": 444,
+    "hydrate": "In the actual managed checkout before Review/Test, hydrate the exact selected reference/candidate raw files from the union of all final selected batches. Include all 424 existing selected raw/reference inputs plus D029’s 10 lead references and 10 selected candidate PNGs; derive the actual union from final selections after any newer merged chapter changes. Preserve and validate each SHA-256. Do not overwrite files or hydrate only derivatives, source/temp directories, or images absent from the actual checkout.",
+    "d040": "D040 contributes 20 of the current baseline inputs. Its exact selected candidate and source path/hash inventory is /home/gehariharan/firstmate-images/data/d040-production/managed-qa-test-snapshot-20261106T092553Z/snapshot-manifest.json selected_final_ten. Preserve those bytes; do not regenerate or approve D040.",
+    "other_chapters": "Read-only exact raw files only; do not overwrite metadata from a stale baseline. Re-derive the complete union after rebasing/merging all current selections."
+  },
+  "managed_test_dependency_install": {
+    "command": "SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm ci --include=optional",
+    "reason": "On this Linux x64 host, pkg-config reports globally installed libvips 8.18.6, which meets sharp 0.34.5's >=8.17.3 minimum. Sharp's install/check.js therefore exits nonzero to select a source build; that fallback requires node-addon-api, which is not a project dependency. The per-command SHARP_IGNORE_GLOBAL_LIBVIPS override selects the lockfile's prebuilt optional binaries instead.",
+    "evidence": "The exact retry succeeded in this checkout with sharp 0.34.5 and libvips 8.17.3. A 2x2 PNG create/encode/decode sanity check passed. package.json and package-lock.json remained unchanged. Preserve the override only on the install command; do not alter global environment, system libraries, or dependencies."
+  },
+  "final_context": {
+    "plan": "art/plans/d029.json",
+    "series_bible": "art/bible/series.json",
+    "character_bibles": [
+      "art/bible/characters/dhanvantari/character.json",
+      "art/bible/characters/mohini/character.json",
+      "art/bible/characters/shiva-d029/character.json",
+      "art/bible/characters/uma-d029/character.json",
+      "art/bible/characters/deva-asura-groups-d029/character.json",
+      "art/bible/characters/indra-d029/character.json",
+      "art/bible/characters/guruvayurappan/character.json"
+    ],
+    "source_text": "content/daskams/d029.json",
+    "source_map": "content/sources/d029/reference-map.json",
+    "commentary": "intake/D029/photo-captions.txt",
+    "style_anchors": [
+      "artifacts/d029/references/d001-s004-matte-style.png",
+      "artifacts/d029/references/d001-s008-matte-style.png"
+    ],
+    "identity_anchor": "artifacts/d029/references/guruvayurappan-approved-identity.png"
+  },
+  "fresh_independent_visual_review": {
+    "required": true,
+    "coverage": "All ten selected exact raw candidate PNGs, and every alternate actually shown to a reviewer, comparison, or build. Do not sample. Review actual raw paths in the managed checkout.",
+    "per_image": "Open each exact raw individually at native resolution. Inspect full frame, then relevant enlarged faces, anatomy, attached limbs, hands/feet, props/contact, and distinct cast details. Compare against its canonical stanza, mapped source reference(s), final scene plan, character contracts, series style, and only applicable identity/style anchors. Check normal two-arm/two-leg anatomy for ordinary crowds, no fused bodies or clones, no disconnected hands, coherent vessel/props, no readable text, no glossy metallic gold or borders, respectful modest scenes, and correct named figures/action.",
+    "evidence": "Write checksum-bound per-image reports with actual paths, SHA-256, real inspection timestamp, concrete image-specific full-frame and detail observations, findings, and limitations. Record pass/needs-fix/uncertain honestly. Producer observations and reports do not satisfy independent review. Do not rebind hashes after context changes; reinspect every affected selected image against the final context and write fresh versioned evidence.",
+    "custody": "Before Review/Test, prove each selected raw and reference is present and hash-matched in the actual managed checkout. If any required input is unavailable or mismatched, stop and repair custody before visual review.",
+    "outcome": "No uninspected or ambiguous image may pass. Keep findings open and route them through the active AXI/root decision gate; do not create approval or conceal a chapter to pass validation."
+  },
+  "software_review_coverage": {
+    "required": "Top-level reviewed_paths must be a JSON string array covering every original-base-to-final software diff path. Zero findings does not establish coverage. Include D029 content, source provenance/map, plan, character contracts, selection, review integration, upload/workflow/readme changes, and any other changed software paths as applicable.",
+    "image_change": "Any selected image affected by a source/plan/character/style change must receive a fresh full-frame/detail reinspection against final context; checksum-only rebinding is invalid."
+  },
+  "selected_images": [
+    {
+      "sloka": 1,
+      "concept_id": "d029-s001",
+      "scene_contract": {
+        "mode": "narrative turning point at the Milky Ocean",
+        "must_show": [
+          "Dhanvantari stands at the ocean edge with one continuous pot of nectar",
+          "A small distinct asura group reaches for and takes the pot without violence",
+          "A separate small deva group receives a calming open-handed gesture",
+          "Two asuras begin a restrained disagreement in the background, signaling the coming quarrel"
+        ],
+        "composition": "Wide mural with Dhanvantari as the central still point, pot clearly visible, devas gathered to one side and asuras to the other; suggest the dispute in a secondary cluster without merging events into a confusing crowd.",
+        "tone": "mythic, composed, momentarily unsettled",
+        "avoid": [
+          "extra pots",
+          "crowd clones",
+          "graphic conflict",
+          "multi-armed Dhanvantari",
+          "photorealistic ocean",
+          "text or border"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s001/landscape/candidate-v003.png",
+        "version": "v003",
+        "sha256": "17019a810162a92684b339cc1d062321ef90c15b82fe2ea8794be1b3692aa930",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/001.jpg",
+        "sha256": "f34918237b288a295f8e7067a25505a3108d3bfa2d3925c7007a5373f460420e",
+        "caption_source": "intake/D029/photo-captions.txt#1"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[0]",
+      "required_final_review_report": "art/reviews/d029-s001-landscape-v003-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    },
+    {
+      "sloka": 2,
+      "concept_id": "d029-s002",
+      "scene_contract": {
+        "mode": "Mohini appears and the quarrel ceases",
+        "must_show": [
+          "Mohini stands fully and modestly clothed with a gentle, self-possessed expression",
+          "Two small distinct asura groups lower their gestures and turn toward her",
+          "The nectar vessel remains a single object set aside between them"
+        ],
+        "composition": "Mohini forms the calm central focus; asuras approach from both sides with clear space between each body and naturally attached hands.",
+        "tone": "quiet wonder and composure",
+        "avoid": [
+          "sensual posture",
+          "exposed torso",
+          "wardrobe slippage",
+          "aggressive grabbing",
+          "duplicated Mohini",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s002/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "5f0d185de8348b81979f6c76080cd832f71225baadd89a6a7230573dd06eaa80",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/002.jpg",
+        "sha256": "94ee910a12060076b833cd3561a90a644c3ccaae24a58824c7d632f9babfb674",
+        "caption_source": "intake/D029/photo-captions.txt#2"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[1]",
+      "required_final_review_report": "art/reviews/d029-s002-landscape-v002-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    },
+    {
+      "sloka": 3,
+      "concept_id": "d029-s003",
+      "scene_contract": {
+        "mode": "entrustment of the nectar",
+        "must_show": [
+          "One asura carefully offers a single continuous pot to Mohini",
+          "Other asuras wait with open, distinct hands",
+          "Mohini receives the vessel with composed attention"
+        ],
+        "composition": "Close enough to read the transfer, wide enough to show distinct people and their connected arms; one unbroken vessel only.",
+        "tone": "ceremonial trust with quiet dramatic irony",
+        "avoid": [
+          "detached hands",
+          "extra vessel",
+          "cloned faces",
+          "monstrous bodies",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s003/landscape/candidate-v003.png",
+        "version": "v003",
+        "sha256": "f0ea8823d0feecd223491cb67272887ab3402ccec5798a555f800db7bd9eb612",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/003.jpg",
+        "sha256": "c9e00b84d74e6d6b49773647bff9e0e36ea045cf3c1a43fb106561a7ef70626c",
+        "caption_source": "intake/D029/photo-captions.txt#3"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[2]",
+      "required_final_review_report": "art/reviews/d029-s003-landscape-v003-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    },
+    {
+      "sloka": 4,
+      "concept_id": "d029-s004",
+      "scene_contract": {
+        "mode": "measured ceremonial distribution",
+        "must_show": [
+          "Mohini stands between two clearly separate seated rows of devas and asuras",
+          "She offers one small bowl of nectar to a deva from the single central vessel",
+          "The asura row watches her attentively without violence",
+          "Every visible figure has an individual face and ordinary attached two-arm anatomy"
+        ],
+        "composition": "Wide, orderly tableau with the two rows running in parallel and clear negative space between them; show the giving gesture without a duplicated bowl trail.",
+        "tone": "gracious, composed, deliberately balanced",
+        "avoid": [
+          "sensual or flirtatious acting",
+          "exposed body",
+          "multiple pots",
+          "extra hands",
+          "crowd fusion",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s004/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "08b1023f1567723b7f68f0e6f7948a793dcfbceba0d1a3758ec576606d8cfde5",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/005.jpg",
+        "sha256": "533b1d8e91288eff18723026a2cb43173733dffb5d9118288b775b56f6570541",
+        "caption_source": "intake/D029/photo-captions.txt#4"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[3]",
+      "required_final_review_report": "art/reviews/d029-s004-landscape-v002-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    },
+    {
+      "sloka": 5,
+      "concept_id": "d029-s005",
+      "scene_contract": {
+        "mode": "Narayana reveals Rahu among the devas",
+        "must_show": [
+          "Narayana's blue, serene own form is distinct from Mohini",
+          "Rahu is identifiable as a disguised asura seated at the end of the deva row, holding a small cup",
+          "A luminous Sudarshana disc halts Rahu at the shoulder line in a non-graphic symbolic moment",
+          "Nearby devas turn toward the revelation"
+        ],
+        "composition": "The cup and turning gesture lead from the seated row to Narayana; keep all heads and bodies intact and avoid depicting severing or blood.",
+        "tone": "solemn revelation and divine intervention",
+        "avoid": [
+          "beheading shown literally",
+          "blood or injury",
+          "gore",
+          "multiple discs",
+          "Rahu clone",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s005/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "b6b6a74af38bfa392cc78cd33fa59fe06ead63d3d6474c9b15789a49e6773949",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/006.jpg",
+        "sha256": "efe94119387009051e05b1eb2e7bb0dd44edda52d5ff6c564131cfa6c129dc9c",
+        "caption_source": "intake/D029/photo-captions.txt#5"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[4]",
+      "required_final_review_report": "art/reviews/d029-s005-landscape-v002-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    },
+    {
+      "sloka": 6,
+      "concept_id": "d029-s006",
+      "scene_contract": {
+        "mode": "Narayana reappears over a confused battlefield",
+        "must_show": [
+          "A restrained battlefield with devas and asuras in separate but intermingled small groups",
+          "A few figures stagger or kneel as if overcome, without injuries",
+          "Narayana reappears as a calm, recognizable blue divine figure above or at the field's edge",
+          "The primary focus is the return of protection, not combat"
+        ],
+        "composition": "Organize the melee as readable clusters and open a calm visual path toward Narayana; avoid tangled bodies or weapons.",
+        "tone": "tense but protective, no spectacle",
+        "avoid": [
+          "graphic violence",
+          "blood",
+          "disconnected bodies",
+          "weapon tangles",
+          "extra limbs",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s006/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "4e2c3598abe1f78e8d77c97db701beaa74ffa3012d7d416344929b1823801f6a",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/007.jpg",
+        "sha256": "756b44185c9962e33e178e88f401a680764b60ad98b88920b44007d61010d117",
+        "caption_source": "intake/D029/photo-captions.txt#6"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[5]",
+      "required_final_review_report": "art/reviews/d029-s006-landscape-v002-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    },
+    {
+      "sloka": 7,
+      "concept_id": "d029-s007",
+      "scene_contract": {
+        "mode": "battlefield mediation and truce",
+        "must_show": [
+          "Narayana and Indra remain distinct figures with separate groups behind them",
+          "Narada stands between the sides and raises one calm speaking hand",
+          "The warriors lower their weapons and the fight visibly stops",
+          "A small pale foam motif near the ground may allude to Namuchi's unusual defeat without showing injury"
+        ],
+        "composition": "A clear three-part grouping: opposing sides, Narada in the center, and a softened sky that lets the field settle; no body pile.",
+        "tone": "solemn resolution and restraint",
+        "avoid": [
+          "graphic death",
+          "blood",
+          "unverified named character designs",
+          "weapon contact",
+          "crowd clones",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s007/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "d012a2b1ab2cb6d610dd4eb56f0f820e7b36f93b6f975271dfc8d5d4a4b1183b",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/008.jpg",
+        "sha256": "c38b1cf71264ddf70e5112405f40cf220f45552bfcddc0fc08c1fb717ec6e2c3",
+        "caption_source": "intake/D029/photo-captions.txt#7"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[6]",
+      "required_final_review_report": "art/reviews/d029-s007-landscape-v002-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    },
+    {
+      "sloka": 8,
+      "concept_id": "d029-s008",
+      "scene_contract": {
+        "mode": "divine visit to Narayana's abode",
+        "must_show": [
+          "Shiva and Uma travel together at the front of a small bhoota attendant group",
+          "Shiva's curiosity is respectful and composed",
+          "A distant quiet threshold or lamp suggests Narayana's abode without adding an unrequested character",
+          "Every attendant remains an individual, ordinary two-armed figure"
+        ],
+        "composition": "Shiva and Uma are clearly paired at the front, with a few attendants in a shallow procession and the destination visible ahead.",
+        "tone": "reverent anticipation",
+        "avoid": [
+          "extra Shiva forms",
+          "monstrous attendants",
+          "weapons raised",
+          "duplicate bodies",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s008/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "35abe07d708d9615afe8e166909f83aa7581f33a67e55feedd7f2a3d002f6b46",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/009.jpg",
+        "sha256": "526e47f7e3dc9f8233dde6318309ec911309873ca6cf5d5d35fe9461df9f4cc2",
+        "caption_source": "intake/D029/photo-captions.txt#8"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[7]",
+      "required_final_review_report": "art/reviews/d029-s008-landscape-v002-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    },
+    {
+      "sloka": 9,
+      "concept_id": "d029-s009",
+      "scene_contract": {
+        "mode": "playful ball action witnessed from a distance",
+        "must_show": [
+          "Mohini plays with one ball in a garden, in fully secured modest clothing",
+          "Her eyes follow the ball with a light, playful expression",
+          "Shiva watches from a few paces away, visibly surprised but not touching or pursuing her",
+          "Garden trees and flowers form a calm frame"
+        ],
+        "composition": "Capture a clear athletic turn with one ball and connected arms; leave visible respectful space between Mohini and Shiva.",
+        "tone": "light, graceful, restrained and devotional",
+        "avoid": [
+          "slipping or revealing clothing",
+          "exposed chest or torso",
+          "embrace",
+          "sexualized pose",
+          "nudity",
+          "extra ball",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s009/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "bae8e127c371c8ebc3d922086062be5728fa7caca256d6fe25d7266933d48dd3",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/010.jpg",
+        "sha256": "656d5b426120c78f52d11be14dffb6c2eaad250b10cec5a20309c7d3fb2e1b58",
+        "caption_source": "intake/D029/photo-captions.txt#9"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[8]",
+      "required_final_review_report": "art/reviews/d029-s009-landscape-v002-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    },
+    {
+      "sloka": 10,
+      "concept_id": "d029-s010",
+      "scene_contract": {
+        "mode": "realization and praise in a quiet divine audience",
+        "must_show": [
+          "Shiva sits or stands in composed prayer and speaks praise",
+          "Uma listens beside him with a serene expression",
+          "Narayana receives the praise and honors Shiva with a gracious gesture",
+          "A gentle unlettered light or lotus motif suggests realization without textual symbols"
+        ],
+        "composition": "An intimate three-figure tableau with Shiva and Uma together and Narayana facing them; full, connected bodies and clear separate hands.",
+        "tone": "reverent insight, mutual honor and peace",
+        "avoid": [
+          "duplicate divine figures",
+          "unrequested attendants",
+          "literal readable scripture",
+          "glossy gold",
+          "text"
+        ]
+      },
+      "selected_raw": {
+        "path": "artifacts/d029/s010/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "c36712f09df9f6432d46edc50880048f4dd20043b4bfa5d2f97c5373bd6454df",
+        "dimensions": "1672x941",
+        "alternates": []
+      },
+      "source_reference": {
+        "path": "intake/D029/011.jpg",
+        "sha256": "d9a693f2db90f13dfc2404328daa5a247efc5a6215b5f516acc7dc36cbff9542",
+        "caption_source": "intake/D029/photo-captions.txt#10"
+      },
+      "mapped_source_context": null,
+      "canonical_text_anchor": "content/daskams/d029.json#stanzas[9]",
+      "required_final_review_report": "art/reviews/d029-s010-landscape-v002-managed-review-v001.md",
+      "required_outcome": "pass, needs-fix, or uncertain; never infer pass from producer observation"
+    }
+  ]
+}
