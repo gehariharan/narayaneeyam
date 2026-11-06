@@ -228,6 +228,27 @@ compositions are paused. Upload only D010's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=10` before the serialized public
 deployment.
 
+## Dasakam 46
+
+D046 contains ten native landscape candidates paired with the ten supplied
+scene references in `art/batches/d046-comparison-v001.json`. The selected
+versions are S001–S004 v001, S005 v002, S006–S007 v002 and S008–S010 v001.
+S005 v001 remains preserved as needs-fix: the managed report found a detached
+far-shoulder hand. Its prior producer-pass record and original report remain in
+history; `art/reviews/d046-s005-v001-correction-addendum-v001.md` corrects the
+unsupported claim that a human chose not to act. The root-accepted native S005
+v002 (1672 × 941) removes that hand, and its exact source/prompt/reference roles
+are recorded in `art/reviews/d046-s005-v002-native-provenance-v001.md`. For the
+corrected release, all ten selected leads were re-opened from hydrated exact
+inputs at full frame and in detail. S005 v002 passes independent managed review
+(`art/reviews/d046-s005-landscape-v002-managed-review-v001.md`), and the other
+nine still pass (`art/reviews/d046-final-context-reinspection-v001.md`). Earlier
+S006/S007 four-armed external-child drafts remain preserved but are not selected.
+English translations and portrait compositions are absent. All artwork remains
+unapproved. Upload only D046's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=46` before any serialized Worker
+deployment.
+
 ## Dasakam 11
 
 D011 contains ten landscape comparison rows matched to the ten numbered intake
@@ -307,9 +328,12 @@ rows, 342 review media inputs, and 174 selected generated images (69 historical 
 not cleared, 105 individually inspected). With D042 and D044 it contains 18 chapters,
 189 rows, 384 review media inputs, and 195 generated selections (69 historical and
 not cleared, 126 individually inspected).
-The managed D014 review passed all ten leads, including the S005 v003, S008 v008
-and S010 v003 repairs; earlier failed versions remain recorded as history. These
-totals must be recalculated if the base advances.
+With D042, D043, D044 and D046 selected, the union contains 20 chapters, 209
+stanza rows, 424 review media inputs and 215 generated selections (69 historical
+and not cleared, 146 individually inspected). The managed D014 review passed
+all ten leads, including the S005 v003, S008 v008 and S010 v003 repairs; earlier
+failed versions remain recorded as history. These totals must be recalculated
+if the base advances.
 
 ## Dasakam 43
 
