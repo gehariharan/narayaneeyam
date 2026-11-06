@@ -470,6 +470,24 @@ assert.equal((await feedback(req({...good,daskam:35,sloka:10}),env)).status,201)
 assert.equal((await feedback(req({...good,daskam:35,sloka:11}),env)).status,400);
 console.log('Passed: D035 has ten mapped rows, checksum-pinned candidates, unapproved status, and stanza-bounded feedback.');
 
+const full39=data.chapters.find(c=>c.id===39);assert.ok(full39);assert.deepEqual(full39.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content39=JSON.parse(await fs.readFile(new URL('../../content/daskams/d039.json',import.meta.url)));
+const selected39=JSON.parse(await fs.readFile(new URL('../../art/batches/d039-comparison-v001.json',import.meta.url)));
+assert.equal(selected39.rows.length,10);assert.equal(selected39.review_status,'needs-review');assert.ok(full39.reviewNotice.includes('unapproved'));
+for(const row of full39.rows){
+ const stanza=content39.stanzas.find(s=>s.n===row.n);
+ assert.equal(row.commentarySource,stanza.commentary_source);assert.equal(row.commentary,stanza.commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected39.rows.find(r=>r.n===row.n);assert.ok(selected);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+}
+assert.equal(selected39.rows.find(r=>r.n===8).reference.file,'intake/D039/008.jpg');
+assert.deepEqual(selected39.rows.find(r=>r.n===8).source_alternates,[{file:'intake/D039/009.jpg',sha256:'00a712e8aa2dd271abc52bc76e375a0971f01c3074f63499ce4da7d68c46420f',caption_number:8,role:'same-stanza source alternate only; not an artwork alternate'}]);
+assert.equal((await feedback(req({...good,daskam:39,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:39,sloka:11}),env)).status,400);
+console.log('Passed: D039 has ten source-mapped rows, exact S008 duplicate-caption source handling, pinned unapproved landscape candidates, and stanza-bounded feedback.');
+
 async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {}, staleResponses = {} } = {}) {
  const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);
  for(const chapter of fixtureData.chapters)if(!missingRoutes.includes(chapter.id)){const route=`/narayaneeyam/${chapterSlug(chapter.id)}`;pages.set(route,pageOverrides[chapter.id]??renderChapter(chapter,fixtureData.revision,'/narayaneeyam/',true,fixtureData.chapters));}

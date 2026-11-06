@@ -217,6 +217,21 @@ Upload its derivatives using
 `node review-site/scripts/upload.mjs --daskam=96`. Palette/border findings are
 recorded in `art/batches/series-color-border-review-v001.md`.
 
+## Dasakam 39
+
+D039 contains ten source-mapped landscape comparison rows. Intake images 008 and
+009 are both captioned for stanza 8; 008 is the displayed lead source and 009 is
+retained as a same-stanza source alternate, not an artwork alternate. Exact
+candidate versions and source hashes are pinned in
+`art/batches/d039-comparison-v001.json`. S007v003 removes the detached gray
+hand at the far-left edge; its exact-version producer self-review is recorded,
+while independent managed review remains pending. S007v001 duplication and
+S007v002 edge-hand findings remain in version history. S008v003 has a producer
+exact-version pass after repairing the previously uncertain Yashoda far-arm
+attachment; managed review remains pending for the selected set. All art
+remains unapproved and portraits are paused. The deployment workflow uploads
+D039 derivatives to R2 before Worker traffic.
+
 ## Dasakam 7
 
 D007 contains ten landscape review candidates matched to its ten supplied collages and verbatim Google Drive commentary entries. Brahma’s approved continuity shows four heads total, with three visible faces in a front view and the fourth facing behind. Each scene remains unapproved; portraits are paused. Upload its WebP derivatives with `node review-site/scripts/upload.mjs --daskam=7` before deploying the Worker.
