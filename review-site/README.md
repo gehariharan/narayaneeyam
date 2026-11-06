@@ -234,7 +234,10 @@ D046 contains ten native landscape candidates paired with the ten supplied
 scene references in `art/batches/d046-comparison-v001.json`. The selected
 versions are S001–S005 v001, S006–S007 v002 and S008–S010 v001. Local
 checksum-bound full-frame and detail inspections are recorded, with their
-limits; independent managed review is still pending. Earlier S006/S007
+limits. The independent managed reviews in
+`art/reviews/d046-*-managed-review-v001.md` pass nine leads; S005 v001 is
+marked needs-fix for a far-shoulder hand with no visible arm, and its
+`visual-reviews.json` entry is unchanged pending a human decision. Earlier S006/S007
 four-armed external-child drafts remain preserved but are not selected. English
 translations and portrait compositions are absent. All artwork remains
 unapproved. Upload only D046's WebP derivatives with
