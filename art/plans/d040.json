@@ -1,0 +1,574 @@
+{
+  "schema_version": 1,
+  "daskam_id": 40,
+  "slug": "d040",
+  "title": "Pūtanāmokṣam",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "infant-krishna",
+    "recurring_characters": [
+      "infant Krishna",
+      "Putana",
+      "Nandagopan",
+      "Vasudeva",
+      "gopikas",
+      "gopas"
+    ],
+    "locations": [
+      "Mathura meeting courtyard and road",
+      "Nanda’s Gokula household",
+      "Vraja landscape after Putana falls"
+    ],
+    "narrative_arc": "Nanda and Vasudeva meet in Mathura; Vasudeva warns Nanda to return; Putana approaches in disguise, takes and nurses the infant, is defeated and reveals her giant form; the gopis rescue and protect Krishna.",
+    "krishna_form_contract": "D040 stanzas 5–10 use one believable human infant with exactly two arms and two legs, deep indigo-blue matte skin, rounded face, short dark curls, muted yellow wrap and one small peacock feather based on the provisional shared v004 anchor. No four-armed form is required or shown in this chapter.",
+    "supporting_character_status": "Use current main branch Vasudeva, Nandagopan, Gopikas and Gopas bibles. Nandagopan and Yashoda provisional identity cues from the preserved D043 S009 source are identity cues only; D040 does not depict Yashoda as a named participant. The unnamed villagers watching in S008 are bound to the gopas and gopikas contracts.",
+    "putana_provisional_continuity": "Bound to the provisional chapter-scoped contract art/bible/characters/putana/character.json, derived from mapped D040/004 and D040/008 and captions 4 and 8. The flower-adorned woman in disguise (S004-S007) and the enormous fallen demoness (S008-S009) are the same character: long loose dark hair with a white flower, maang-tikka, round gold earring and maroon-and-gold drape carry across both forms. The giant form is immense but anatomically connected and proportionate. Do not infer horns, extra limbs or gore. Not an approved character master.",
+    "rendering_references": [
+      "artifacts/d040/references/shared/style-d001-s004.png",
+      "artifacts/d040/references/shared/style-d001-s008.png"
+    ],
+    "palette_arc": "Traditional matte South Indian mural mineral pigments: warm cream, earth ochre, burnt sienna, deep maroon and muted olive; reserve deep indigo-blue for Krishna. Keep painted gold as flat ochre ornament; no metallic reflection.",
+    "notes": "Follow canonical Stotra Nidhi Sanskrit for each action and preserve supplied captions as commentary only. Source photos establish cast/action, not style. Do not invent an English verse translation or imply art approval."
+  },
+  "source": {
+    "sanskrit": "https://stotranidhi.com/hi/narayaneeyam-dasakam-40-in-sanskrit/",
+    "romanization": "https://stotranidhi.com/en/narayaneeyam-dasakam-40-in-english/",
+    "caption_file": "intake/D040/photo-captions.txt",
+    "reference_map": "content/sources/d040/reference-map.json"
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d040-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "vasudeva"
+      ],
+      "reference_paths": [
+        "intake/D040/001.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "art/bible/characters/vasudeva/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "artifacts/d040/references/shared/nandagopan-yashoda-identity-source-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Vasudeva greets Nanda, who has come to Mathura to pay the king’s taxes.",
+          "Show one mature cowherd household head Nanda and one mature Vasudeva meeting warmly in a Mathura courtyard. Nanda wears simple cream and muted olive cowherd dress, with a dark moustache; Vasudeva has shoulder-length dark hair simply tied, a trimmed beard and moustache, ivory dhoti and weathered cream shawl. Keep their faces and clothing distinct. Hint at the tax-paying journey through a small travel bundle or courtyard threshold only; no Kamsa or guards unless the source image makes them plainly part of the composition."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “Nanda meets Vasudeva in Mathura”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Warm friendship",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "Nanda meets Vasudeva in Mathura",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d040/s001/landscape/v001/candidate.png",
+          "candidate_sha256": "de2a53ef94bbe24f812535506d2672b4623e67a618d54249340bda29321b4df1",
+          "prompt_path": "artifacts/d040/s001/landscape/v001/prompt.txt",
+          "self_review_path": "artifacts/d040/s001/landscape/v001/review.md",
+          "candidate_status": "selected native candidate; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d040-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "vasudeva"
+      ],
+      "reference_paths": [
+        "intake/D040/002.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "art/bible/characters/vasudeva/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "artifacts/d040/references/shared/nandagopan-yashoda-identity-source-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Vasudeva warmly congratulates Nanda on the birth of his son and says it makes him as happy as the birth of his own child.",
+          "Compose an affectionate but restrained conversation between the same Nanda and Vasudeva. Their expressions are gentle and sincere; a small, indirect gesture may evoke the newborn, but do not add a second baby or imply Vasudeva holds Krishna. Keep the two men’s identities, attire and proportions consistent with S001."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “Vasudeva rejoices at Nanda’s son”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Affectionate joy",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "Vasudeva rejoices at Nanda’s son",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d040/s002/landscape/v002/candidate.png",
+          "candidate_sha256": "810d675b891550b867b36eb65651ceb0d64311e1d87729fdd99c9cdcc8295532",
+          "prompt_path": "artifacts/d040/s002/landscape/v002/prompt.txt",
+          "self_review_path": "artifacts/d040/s002/landscape/v002/review.md",
+          "candidate_status": "selected native v002; v001 preserved as an unselected composition-repetition trial; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d040-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "vasudeva"
+      ],
+      "reference_paths": [
+        "intake/D040/003.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "art/bible/characters/vasudeva/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "artifacts/d040/references/shared/nandagopan-yashoda-identity-source-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Vasudeva tells Nanda that many ominous signs are occurring near Gokula; Nanda departs in haste out of concern for Krishna.",
+          "Show Vasudeva urgently advising the same Nanda beside a road or Mathura threshold, with Nanda turning to leave toward Gokula. Use a restrained atmospheric sign of distant unease, not a supernatural event not named in the verse. Keep exactly one Nanda and one Vasudeva; no Kamsa, violence or extra named figures."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “Vasudeva warns Nanda to return quickly”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Urgent concern",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "Vasudeva warns Nanda to return quickly",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d040/s003/landscape/v001/candidate.png",
+          "candidate_sha256": "a183bbae25a1a65ea713fc8d9887604c847524d53e51e6f0c3f3eb40421e551a",
+          "prompt_path": "artifacts/d040/s003/landscape/v001/prompt.txt",
+          "self_review_path": "artifacts/d040/s003/landscape/v001/review.md",
+          "candidate_status": "selected native candidate; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d040-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "putana"
+      ],
+      "reference_paths": [
+        "intake/D040/004.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "intake/D040/004.jpg",
+        "intake/D040/008.jpg",
+        "art/bible/characters/putana/character.json"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "A beautiful adult woman with flower-adorned dark hair approaches Nanda’s household in Vraja.",
+          "Show the same Putana in her beautiful disguise arriving at a modest Gokula doorway. Use the source image only for cast and flower-adorned hair cues; establish one composed adult woman with dark hair, subtle floral ornament and modest village-appropriate draped clothing. Her beauty is calm and alluring only in the narrative sense, not sexualized. No infant yet; no second Putana or Yashoda-like duplicate."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “Putana arrives in disguise”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Calm deceptive arrival",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "Putana arrives in disguise",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "candidate_sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "prompt_path": "artifacts/d040/s004/landscape/v001/prompt.txt",
+          "self_review_path": "artifacts/d040/s004/landscape/v001/review.md",
+          "candidate_status": "selected native candidate; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d040-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "putana",
+        "infant-krishna",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D040/005.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/gopikas/character.json",
+        "intake/D040/004.jpg",
+        "intake/D040/008.jpg",
+        "art/bible/characters/putana/character.json"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "The disguised Putana lifts the infant Krishna while nearby gopis quietly wonder who she is.",
+          "Show one identifiable disguised Putana gently lifting one believable human infant Krishna while two or three distinct gopis exchange puzzled glances in the background. Krishna has the provisional infant identity: deep indigo-blue matte skin, rounded infant face, short dark curls, muted yellow cloth, one small feather and natural two-arm/two-leg anatomy. The gopis are separate individuals, not duplicated; no Yashoda clone."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “Putana takes Krishna as the gopis wonder”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Quiet uncertainty",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "Putana takes Krishna as the gopis wonder",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d040/s005/landscape/v001/candidate.png",
+          "candidate_sha256": "b7ba31c30edef2b32bf625cdd2d6d09d1052be9347ed513df1507faeac2c6f7d",
+          "prompt_path": "artifacts/d040/s005/landscape/v001/prompt.txt",
+          "self_review_path": "artifacts/d040/s005/landscape/v001/review.md",
+          "candidate_status": "selected native candidate; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d040-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "putana",
+        "infant-krishna",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D040/006.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/gopikas/character.json",
+        "intake/D040/004.jpg",
+        "intake/D040/008.jpg",
+        "art/bible/characters/putana/character.json"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "The gopis are captivated by Putana and do not stop her as she sits inside the house and nurses the child.",
+          "Show Putana seated in a quiet domestic interior with the baby cradled close to her upper chest beneath overlapping opaque draped cloth. Communicate maternal nursing through the protected embrace and the gopis’ attentive distance, while keeping both bodies modestly covered and the infant’s face visible. No exposed breast, sexualized framing, distorted contact or extra limbs; use ordinary infant anatomy."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “Putana begins nursing Krishna”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Modest domestic tenderness",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "Putana begins nursing Krishna",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d040/s006/landscape/v001/candidate.png",
+          "candidate_sha256": "0282f55b97a11d50f71e2672bbdfe3d4a3280452306ee16c63a58ff3bee8568e",
+          "prompt_path": "artifacts/d040/s006/landscape/v001/prompt.txt",
+          "self_review_path": "artifacts/d040/s006/landscape/v001/review.md",
+          "candidate_status": "selected native candidate; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d040-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "putana",
+        "infant-krishna",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D040/007.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+        "intake/D040/004.jpg",
+        "intake/D040/008.jpg",
+        "art/bible/characters/putana/character.json"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Krishna fearlessly climbs into Putana’s lap and draws out the poison as she nurses him.",
+          "Show the same covered, nonsexual nursing pose with infant Krishna securely held against Putana’s chest; convey the supernatural reversal through Putana’s startled expression and a subtle dark poison motif fading into the child’s calm blue radiance. Her clothing fully covers her chest, the baby remains unharmed, and there is no gore, injury, exposed breast or malformed contact. Do not depict a literal fruit or add extra divine arms."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “Krishna defeats Putana”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Divine protection",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "Krishna defeats Putana",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d040/s007/landscape/v001/candidate.png",
+          "candidate_sha256": "6616b1f484f140cdf55e4e1b674e8423854d89e8caa175922369323e99944aee",
+          "prompt_path": "artifacts/d040/s007/landscape/v001/prompt.txt",
+          "self_review_path": "artifacts/d040/s007/landscape/v001/review.md",
+          "candidate_status": "selected native candidate; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d040-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "putana",
+        "infant-krishna",
+        "gopikas",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D040/008.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/gopikas/character.json",
+        "intake/D040/004.jpg",
+        "intake/D040/008.jpg",
+        "art/bible/characters/putana/character.json"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "As Krishna draws out her life, Putana falls with a thunderous sound, revealing her immense demoness form with both arms stretched outward.",
+          "Show Putana transformed into one immense but naturally proportioned adult female demoness lying across the Vraja landscape, both arms extended and attached normally, no extra or detached limbs. Retain her recognizable dark hair and facial identity from the flower-adorned woman while shifting to the source-reference giant-form cues. Place the unharmed two-armed infant Krishna safely on her upper torso, small by scale; villagers approach at a distance. No gore, wounds, grotesque features or repeated body."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “Putana falls in her giant form”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Thunderous revelation without gore",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "Putana falls in her giant form",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d040/s008/landscape/v003/candidate.png",
+          "candidate_sha256": "1d453c303725a165c51a0075efac329547987e0b3f6f14de15be9de6a440fdc8",
+          "prompt_path": "artifacts/d040/s008/landscape/v003/prompt.txt",
+          "self_review_path": "artifacts/d040/s008/landscape/v003/self-check.json",
+          "candidate_status": "selected native v003 far-arm repair; v001 preserved with its clothing-coverage finding; v002 preserved with its managed needs-fix far-arm finding; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d040-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "putana",
+        "infant-krishna",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D040/009.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/gopikas/character.json",
+        "intake/D040/004.jpg",
+        "intake/D040/008.jpg",
+        "art/bible/characters/putana/character.json"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Villagers are stunned by the sound; gopis hurry to lift Krishna from Putana’s fallen body.",
+          "A small group of three to six distinct gopikas carefully transfer the child into one woman’s arms, with supporting hands clearly separated."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “The gopis rescue Krishna”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Alarm resolving into relief",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "The gopis rescue Krishna",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d040/s009/landscape/v002/candidate.png",
+          "candidate_sha256": "8b5cf233fe19c00dccf0e4d0e71662380b5b0fa298f638d6487c4ef0283a8296",
+          "prompt_path": "artifacts/d040/s009/landscape/v002/prompt.txt",
+          "self_review_path": "artifacts/d040/s009/landscape/v002/self-check.json",
+          "candidate_status": "selected native v002 far-arm repair; v001 preserved with its managed needs-fix far-arm finding; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d040-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D040/010.jpg",
+        "artifacts/d040/references/shared/style-d001-s004.png",
+        "artifacts/d040/references/shared/style-d001-s008.png",
+        "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/gopikas/character.json"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "The gopis surround Krishna, reciting auspicious names and praying for his protection without knowing he is Bhagwan himself.",
+          "Show a close but still wide devotional group composition: several distinct gopis hold and shelter the infant Krishna, praying and making a gentle protective gesture in the Gokula home. Keep Krishna’s established two-armed infant identity and natural proportions. Use simple ritual water or protective household gestures only if unobtrusive. No text, inscriptions, Bhattathiri, palace, four-armed form or visual suggestion that the gopis recognize his divinity."
+        ],
+        "composition": "Compose a separately composed native 16:9 landscape temple-mural scene for “Gopis protect the child with sacred names”; keep the exact stanza action readable, balance figures across the wide frame and preserve natural anatomy. The numbered D040 source image is a cast/action cue only, never a style or literal framing target.",
+        "tone": "Protective devotion",
+        "avoid": [
+          "No readable text, captions, signatures, logos or watermark.",
+          "No glossy skin, metallic gold, photorealism, cinematic light, unrelated palette drift or decorative frame.",
+          "No extra, detached, fused or duplicated people/limbs; use only ordinary connected anatomy and exactly two infant arms and legs.",
+          "No explicit nudity, sexualized nursing, injury close-ups or gore."
+        ]
+      },
+      "alt": "Gopis protect the child with sacred names",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose for the wide frame independently; do not crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d040/s010/landscape/v001/candidate.png",
+          "candidate_sha256": "20f4aef085c650982bf37c1cbabc87fa2ce3a9e5c0e809244a172d03437cbd9f",
+          "prompt_path": "artifacts/d040/s010/landscape/v001/prompt.txt",
+          "self_review_path": "artifacts/d040/s010/landscape/v001/review.md",
+          "candidate_status": "selected native candidate; independent managed full-frame/detail review recorded in art/reviews/visual-reviews.json; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    }
+  ]
+}

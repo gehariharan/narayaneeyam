@@ -18371,6 +18371,1886 @@
         }
       ],
       "supersedes_version": "v002"
+    },
+    {
+      "chapter": 40,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d040/s001/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "de2a53ef94bbe24f812535506d2672b4623e67a618d54249340bda29321b4df1",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:33:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult men: Nanda (left) and Vasudeva (right).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/vasudeva/character.json",
+          "sha256": "b48f743c0d11b884adecf7f61e0d33d26f5f58a5b58dbb21197c1469c54d0ec8"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s001-v001-managed-review-v001.md",
+          "sha256": "5194badbc876bd982600b1e82dfdc3928ed81d1d9ae47eab406dff433eabed34"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
+        },
+        {
+          "path": "art/reviews/d040-s009-repair-context-recheck-managed-review-v001.md",
+          "sha256": "80b7dc05980161c7bb9f93f8a90d22b0f4e2c60d6bbcb1179abb18f1aa97982c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Nanda joins two hands in namaskara with fingers visible and bangles at both wrists; he stands on two bare feet with toes. Vasudeva extends his right hand palm-up with four fingers and a thumb, and holds his left hand open at waist height; both bare feet show toes on the red ground."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both men have continuous arms from armlet to bangle and proportionate standing bodies; Nanda is sturdier and Vasudeva taller and leaner, as their contracts describe."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Nanda: rounded face, dark moustache, cream turban, hoop earring and calm smile. Vasudeva: long face, trimmed beard and moustache, Vaishnava tilak, shoulder-length dark wavy hair and a gold earring."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Nanda and one Vasudeva; no third person, no repeated figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the stanza: Vasudeva greets Nanda warmly on his tax visit to Mathura. Nanda wears the nandagopan cream dhoti and olive upper cloth; Vasudeva wears the vasudeva ivory dhoti and cream shawl without royal finery. No Kamsa or guards. Matte ochre/maroon mural palette with firm contours, as in the D001 style references."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/001.jpg",
+        "sha256": "1aeb28fa673185f7557d7ae309cc45284746a3b054c820e8c66cae9872df0914",
+        "caption_path": "intake/D040/photo-captions.txt#001",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s001/landscape/v001/candidate.png",
+          "sha256": "de2a53ef94bbe24f812535506d2672b4623e67a618d54249340bda29321b4df1",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:30:58Z and 2026-11-06T07:31:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s001-v001-nw.png",
+          "sha256": "6aabaa6a30ac9a85eca84ddb2586392c75af17afed4692b1b8649fdd4bbf379b",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T07:30:58Z and 2026-11-06T07:31:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s001-v001-ne.png",
+          "sha256": "29f7836e95898a537c727c5c366cbfde690d1bd33435f7cfd0e706737896bfa1",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T07:30:58Z and 2026-11-06T07:31:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s001-v001-sw.png",
+          "sha256": "34b92b74b69c55f789335d2cc3d5bae3594d7b09a8b179f6d125feb67e65b9a2",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T07:30:58Z and 2026-11-06T07:31:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s001-v001-se.png",
+          "sha256": "cd2e34bf43bd407cc9a60592f725a6b37d9d95eed959d014181d6e7ef3c1b174",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T07:30:58Z and 2026-11-06T07:31:35Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s001/landscape/v001/candidate.png",
+          "sha256": "de2a53ef94bbe24f812535506d2672b4623e67a618d54249340bda29321b4df1",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s001/landscape/v001/candidate.png",
+          "sha256": "de2a53ef94bbe24f812535506d2672b4623e67a618d54249340bda29321b4df1",
+          "region": "re-inspection against the final plan after the S009 v002 selection",
+          "viewed_at": "between 2026-11-06T08:32:37Z and 2026-11-06T08:33:02Z"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d040/s002/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "810d675b891550b867b36eb65651ceb0d64311e1d87729fdd99c9cdcc8295532",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:33:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult men: Vasudeva (left) and Nanda (right).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/vasudeva/character.json",
+          "sha256": "b48f743c0d11b884adecf7f61e0d33d26f5f58a5b58dbb21197c1469c54d0ec8"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s002-v002-managed-review-v001.md",
+          "sha256": "fc4f886e0281d470e561940ec006a09e36e837a3cedb1b6020e878a39f6e4409"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
+        },
+        {
+          "path": "art/reviews/d040-s009-repair-context-recheck-managed-review-v001.md",
+          "sha256": "80b7dc05980161c7bb9f93f8a90d22b0f4e2c60d6bbcb1179abb18f1aa97982c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vasudeva's left hand lies on Nanda's shoulder with four fingers visible; his right hand is open palm-up at waist height. Nanda's right hand rests on his chest with fingers spread; his left arm hangs at his side with an open hand. Four bare feet, each with toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Vasudeva's reaching arm is continuous from armlet to wrist bangle to the hand on Nanda's shoulder, and the contact sits on top of the shoulder without fusing. Both bodies are proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Vasudeva: tilak, trimmed beard, long dark wavy hair, gold earring, warm smile. Nanda: dark moustache, cream turban, hoop earring, delighted expression."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One of each man; no infant appears, as the brief requires."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Conveys Vasudeva's warm congratulation without adding a baby. Both men's faces, hair and clothing match S001 and their contracts. A domed pavilion and walled garden set the Mathura location. The matte mural palette continues."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/002.jpg",
+        "sha256": "83b1b3b4424af029f9a0b61782ece3c94abd58e1765e973f10ba8e16084e3291",
+        "caption_path": "intake/D040/photo-captions.txt#002",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/s001/landscape/v001/candidate.png",
+          "sha256": "de2a53ef94bbe24f812535506d2672b4623e67a618d54249340bda29321b4df1",
+          "role": "Nanda/Vasudeva continuity (selected S001 v001)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s002/landscape/v002/candidate.png",
+          "sha256": "810d675b891550b867b36eb65651ceb0d64311e1d87729fdd99c9cdcc8295532",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:31:35Z and 2026-11-06T07:31:49Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s002-v002-nw.png",
+          "sha256": "050885a442abec2904ceb27a273a84f3d66fb54c0575b7a8c4421f9d6542525b",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T07:31:35Z and 2026-11-06T07:31:49Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s002-v002-ne.png",
+          "sha256": "f8015adbf706a041e257b8e2d9f66f2c2917e153ab8f26225571fd6f9e128671",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T07:31:35Z and 2026-11-06T07:31:49Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s002-v002-sw.png",
+          "sha256": "d552e925a8283951cf4cebf08f80856a8f1b9d7bbb7a29d699b63b04f77df300",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T07:31:35Z and 2026-11-06T07:31:49Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s002-v002-se.png",
+          "sha256": "f3df7ea036c1b815a274b00a369afee52a84485cb09fbb954d8526d718e90a2a",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T07:31:35Z and 2026-11-06T07:31:49Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s002/landscape/v002/candidate.png",
+          "sha256": "810d675b891550b867b36eb65651ceb0d64311e1d87729fdd99c9cdcc8295532",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s002/landscape/v002/candidate.png",
+          "sha256": "810d675b891550b867b36eb65651ceb0d64311e1d87729fdd99c9cdcc8295532",
+          "region": "re-inspection against the final plan after the S009 v002 selection",
+          "viewed_at": "between 2026-11-06T08:32:37Z and 2026-11-06T08:33:02Z"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d040/s003/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "a183bbae25a1a65ea713fc8d9887604c847524d53e51e6f0c3f3eb40421e551a",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:33:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult men: Vasudeva (left) and Nanda (right, walking away).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/vasudeva/character.json",
+          "sha256": "b48f743c0d11b884adecf7f61e0d33d26f5f58a5b58dbb21197c1469c54d0ec8"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s003-v001-managed-review-v001.md",
+          "sha256": "081df1d2f87cc684c5e1bba8c8eee8d9a0d127929c90067abde264af13d9e944"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
+        },
+        {
+          "path": "art/reviews/d040-s009-repair-context-recheck-managed-review-v001.md",
+          "sha256": "80b7dc05980161c7bb9f93f8a90d22b0f4e2c60d6bbcb1179abb18f1aa97982c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vasudeva raises his right palm with four fingers and a thumb, and holds his left hand open at his waist. Nanda grips the bundle strap at his shoulder with one hand; his other arm swings back with an open hand. Vasudeva stands on two feet; Nanda strides with one heel lifted, and both feet show toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Nanda's striding legs are continuous under the dhoti, and the bundle strap crosses his chest without cutting his arm. Vasudeva's raised arm is proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Vasudeva: tilak, beard, long dark hair, earnest open-mouthed warning. Nanda: moustache, cream turban, raised worried brows as he looks back."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Vasudeva and one Nanda; the distant huts are empty."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows the warning and Nanda's hasty departure. Grey clouds over the road give a restrained sense of unease, with no invented supernatural event. Both men keep their S001/S002 identities and contract clothing; no Kamsa appears."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/003.jpg",
+        "sha256": "5352394a78bdbeabe0b976f712e130678a0eae0c1b75f501bab6489f9e8c5dd4",
+        "caption_path": "intake/D040/photo-captions.txt#003",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/s001/landscape/v001/candidate.png",
+          "sha256": "de2a53ef94bbe24f812535506d2672b4623e67a618d54249340bda29321b4df1",
+          "role": "Nanda/Vasudeva continuity (selected S001 v001)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s003/landscape/v001/candidate.png",
+          "sha256": "a183bbae25a1a65ea713fc8d9887604c847524d53e51e6f0c3f3eb40421e551a",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:31:49Z and 2026-11-06T07:32:00Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s003-v001-nw.png",
+          "sha256": "cee3bdac0be7e615fbab5298d23e21c75e51448ee8ea72d332e38217cda34598",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T07:31:49Z and 2026-11-06T07:32:00Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s003-v001-ne.png",
+          "sha256": "36511c579ac714c54dcebdba3c1b59cb932020692d6cbfe214ddd0856fa5a8da",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T07:31:49Z and 2026-11-06T07:32:00Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s003-v001-sw.png",
+          "sha256": "66f8019385c4ebf1667d646e97481e4df951daa5860a68b3a7f579748038c02e",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T07:31:49Z and 2026-11-06T07:32:00Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s003-v001-se.png",
+          "sha256": "0623db251a350bb43baa6d51e792554512ef2a6d902d6ea720be1b0d5a8ef294",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T07:31:49Z and 2026-11-06T07:32:00Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s003/landscape/v001/candidate.png",
+          "sha256": "a183bbae25a1a65ea713fc8d9887604c847524d53e51e6f0c3f3eb40421e551a",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s003/landscape/v001/candidate.png",
+          "sha256": "a183bbae25a1a65ea713fc8d9887604c847524d53e51e6f0c3f3eb40421e551a",
+          "region": "re-inspection against the final plan after the S009 v002 selection",
+          "viewed_at": "between 2026-11-06T08:32:37Z and 2026-11-06T08:33:02Z"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d040/s004/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:33:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One adult woman (Putana in disguise). One cow in the background.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s004-v001-managed-review-v001.md",
+          "sha256": "38a86cdbe20ff3d57a44af2a81344495ab19cccb212c680d426b4801f0d64185"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
+        },
+        {
+          "path": "art/reviews/d040-s009-repair-context-recheck-managed-review-v001.md",
+          "sha256": "80b7dc05980161c7bb9f93f8a90d22b0f4e2c60d6bbcb1179abb18f1aa97982c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Her right hand hangs at her side and her left hand is extended slightly forward; each shows a thumb and four fingers and wears gold bangles. Two bare feet in mid-stride, both with toes, below the sari hem."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Her arms are continuous from the sleeve and armlet to the wrists. Her stride and adult proportions are natural."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Oval face with large almond eyes, arched brows, a red bindi, a maang-tikka and a calm, faint smile; a white flower behind her ear and a round gold drop earring."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One woman; no infant, no second Putana and no Yashoda-like figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows the beautiful, flower-adorned disguise approaching Nanda's household. Her deep maroon sari with gold floral dots and border, cream ochre-bordered veil, gold bead necklace and long loose dark hair establish the putana contract's disguise markers. The modest drape is not sexualized. Matte mural rendering, not the source's glossy animation."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/004.jpg",
+        "sha256": "460026b4e71129569b95624b3c0adbdc6caf0d80de746b4de70869ab72136e8e",
+        "caption_path": "intake/D040/photo-captions.txt#004",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:32:00Z and 2026-11-06T07:32:11Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s004-v001-nw.png",
+          "sha256": "24f38de09f81ab2a8044798d4f2222ad4d7bb1b79dfb445e8096361ae3a1ed04",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T07:32:00Z and 2026-11-06T07:32:11Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s004-v001-ne.png",
+          "sha256": "94e8a38ad33ea1fc0a5d79a653dcc9e304848ebc8b40500bd3d075cc0e5ead17",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T07:32:00Z and 2026-11-06T07:32:11Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s004-v001-sw.png",
+          "sha256": "37f17b2490ba52ef81311c83e27f4b58c8da57939d2cab27edf0d3aa587a6bc1",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T07:32:00Z and 2026-11-06T07:32:11Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "region": "re-inspection against the final putana contract",
+          "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "region": "re-inspection against the final plan after the S009 v002 selection",
+          "viewed_at": "between 2026-11-06T08:32:37Z and 2026-11-06T08:33:02Z"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d040/s005/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "b7ba31c30edef2b32bf625cdd2d6d09d1052be9347ed513df1507faeac2c6f7d",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:33:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult gopikas, one adult woman (Putana in disguise) and one two-armed infant Krishna. One cow in the background.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s005-v001-managed-review-v001.md",
+          "sha256": "f1621746b374f7dc111b6e0c8a002c93b029fddaa7753246ba63c76020e0158c"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
+        },
+        {
+          "path": "art/reviews/d040-s009-repair-context-recheck-managed-review-v001.md",
+          "sha256": "80b7dc05980161c7bb9f93f8a90d22b0f4e2c60d6bbcb1179abb18f1aa97982c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Putana lifts the infant with both hands: one hand's fingers wrap his right side at the back, and the other is tucked under his left arm, partly hidden by his torso. The infant reaches forward with two open hands, each with four fingers and a thumb; both feet show toes. The green-sari gopika touches her chin with one finger and rests her other hand on her knee; the right gopika gestures with an open hand and rests the other on her lap."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both of Putana's forearms run continuously from bangles to hands. The infant has exactly two arms and two legs with soft infant proportions. The gopis' arms are continuous."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Putana: same oval face, maang-tikka, bindi, white flowers and round gold earring as S004, with a soft smile up at the child. Infant: namam, almond eyes, short curls and peacock feather, matching the v004 anchor. Gopis: one with flowers in a bun and a red bindi, one with a large bun and a wondering gaze."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Putana, one infant and two distinct gopis; no Yashoda clone."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows Putana taking Krishna while the gopis wonder who she is. Putana's maroon gold-dotted sari, cream veil and long loose hair match S004 and the putana contract. The infant's deep indigo skin, muted yellow cloth and feather follow infant-krishna and the anchor. The gopis wear simple village saris, per the gopikas contract. The right gopika's maroon sari has small gold dots like Putana's, but she has no veil, wears her hair in a bun and an orange blouse, and keeps a separate face, so the two do not merge."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/005.jpg",
+        "sha256": "38486827f4c5e9360763e73b0e226d211df8113f6a8d83695497b473a1824de3",
+        "caption_path": "intake/D040/photo-captions.txt#005",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor (opened full-frame 2026-11-06T07:35:05Z-07:35:19Z)"
+        },
+        {
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "role": "Putana disguise continuity (selected S004 v001)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s005/landscape/v001/candidate.png",
+          "sha256": "b7ba31c30edef2b32bf625cdd2d6d09d1052be9347ed513df1507faeac2c6f7d",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:32:11Z and 2026-11-06T07:32:28Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s005-v001-nw.png",
+          "sha256": "e22581b7c28e68b5913b542908fd76aa1db3e22ea2ba0bedcc52153a6bc741e3",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T07:32:11Z and 2026-11-06T07:32:28Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s005-v001-ne.png",
+          "sha256": "a09b4ce1e046ee7572f56a0721bc9159327c3e3427d21a2081d9e9469b13718a",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T07:32:11Z and 2026-11-06T07:32:28Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s005-v001-sw.png",
+          "sha256": "7ae74efd655517d42b56b429461057febb443ff12613ff0f708ea2aee6d394d8",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T07:32:11Z and 2026-11-06T07:32:28Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s005-v001-se.png",
+          "sha256": "c6640e82bf12e979d725dd85f50c48e84911fc7e45fdba629d2055ac5a7bedff",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T07:32:11Z and 2026-11-06T07:32:28Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s005-v001-hold-x2.5.png",
+          "sha256": "ad8b7e2ca739b82f9810a956bf38ee9691c47762148fa001e352ee8fc806d18d",
+          "region": "320x300+480+180 then 250% Lanczos",
+          "viewed_at": "2026-11-06T07:32:28Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s005/landscape/v001/candidate.png",
+          "sha256": "b7ba31c30edef2b32bf625cdd2d6d09d1052be9347ed513df1507faeac2c6f7d",
+          "region": "re-inspection against the final putana contract",
+          "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s005/landscape/v001/candidate.png",
+          "sha256": "b7ba31c30edef2b32bf625cdd2d6d09d1052be9347ed513df1507faeac2c6f7d",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s005/landscape/v001/candidate.png",
+          "sha256": "b7ba31c30edef2b32bf625cdd2d6d09d1052be9347ed513df1507faeac2c6f7d",
+          "region": "re-inspection against the final plan after the S009 v002 selection",
+          "viewed_at": "between 2026-11-06T08:32:37Z and 2026-11-06T08:33:02Z"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d040/s006/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "0282f55b97a11d50f71e2672bbdfe3d4a3280452306ee16c63a58ff3bee8568e",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:33:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult gopikas, one adult woman (Putana in disguise) and one two-armed infant Krishna.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s006-v001-managed-review-v001.md",
+          "sha256": "97d34f5dbc33ce4abae6ed92289614b3a4470391ef375f3efcca619fa6fafe0c"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
+        },
+        {
+          "path": "art/reviews/d040-s009-repair-context-recheck-managed-review-v001.md",
+          "sha256": "80b7dc05980161c7bb9f93f8a90d22b0f4e2c60d6bbcb1179abb18f1aa97982c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Putana's left hand cups the infant's shoulder from behind (four fingers and thumb visible), and her right hand supports him beneath his wrapped legs. The infant rests one open hand on her draped chest; his other arm and both legs are hidden in the yellow wrap. The green-sari gopika rests her chin on her hand; both gopis rest one hand on a knee, each hand with fingers."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Putana's two arms are continuous through her bangles; the infant's visible arm is plump and attached. The seated adult bodies are proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Putana: calm, slightly upturned face with maang-tikka, bindi, white flowers and round gold earring, as in S004/S005. Infant: namam, feather and calm eyes, his cheek against the cloth. Gopis: the same two individuals as S005."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Putana, one infant and two gopis; no repeated figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Expresses the nursing through a protective embrace, with Putana's chest fully covered by the maroon sari and the infant's face visible, so the framing is non-sexual. Her costume and hair match S004/S005 and the putana contract. The interior with a lamp niche follows the Gokula household."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/006.jpg",
+        "sha256": "e11ceab0d548c76e58161bcf63d3f5f9d4ecefac8afd2b4521697c91782ff510",
+        "caption_path": "intake/D040/photo-captions.txt#006",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor (opened full-frame 2026-11-06T07:35:05Z-07:35:19Z)"
+        },
+        {
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "role": "Putana disguise continuity (selected S004 v001)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s006/landscape/v001/candidate.png",
+          "sha256": "0282f55b97a11d50f71e2672bbdfe3d4a3280452306ee16c63a58ff3bee8568e",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:32:28Z and 2026-11-06T07:32:48Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s006-v001-ne.png",
+          "sha256": "ac9044d154f39bead166f7584376dc8aa267d8fc775845a3b9c34aacdf5852ab",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T07:32:28Z and 2026-11-06T07:32:48Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s006-v001-sw.png",
+          "sha256": "2a4ccad50856f504da60f0189a3eb03f782083be185d72bfa9129760c72d21df",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T07:32:28Z and 2026-11-06T07:32:48Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s006-v001-se.png",
+          "sha256": "70dcaeecc26676171957977a2cab775a151d70b7c1a0642e2a71e050f43df753",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T07:32:28Z and 2026-11-06T07:32:48Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s006-v001-embrace-x2.2.png",
+          "sha256": "0c9e290713084eb6bfe62becb27beda58b2d9c09c4b6d2995af1a66aa1c47ebd",
+          "region": "360x340+400+260 then 220% Lanczos",
+          "viewed_at": "2026-11-06T07:32:48Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s006/landscape/v001/candidate.png",
+          "sha256": "0282f55b97a11d50f71e2672bbdfe3d4a3280452306ee16c63a58ff3bee8568e",
+          "region": "re-inspection against the final putana contract",
+          "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s006/landscape/v001/candidate.png",
+          "sha256": "0282f55b97a11d50f71e2672bbdfe3d4a3280452306ee16c63a58ff3bee8568e",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s006/landscape/v001/candidate.png",
+          "sha256": "0282f55b97a11d50f71e2672bbdfe3d4a3280452306ee16c63a58ff3bee8568e",
+          "region": "re-inspection against the final plan after the S009 v002 selection",
+          "viewed_at": "between 2026-11-06T08:32:37Z and 2026-11-06T08:33:02Z"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d040/s007/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "6616b1f484f140cdf55e4e1b674e8423854d89e8caa175922369323e99944aee",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:33:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Two adult gopikas, one adult woman (Putana in disguise) and one two-armed infant Krishna.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s007-v001-managed-review-v001.md",
+          "sha256": "99ef3daad05e0324284218807c4905ebc230d89deb3c9f672a00d8c7c6dd45b8"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
+        },
+        {
+          "path": "art/reviews/d040-s009-repair-context-recheck-managed-review-v001.md",
+          "sha256": "80b7dc05980161c7bb9f93f8a90d22b0f4e2c60d6bbcb1179abb18f1aa97982c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Putana raises her right palm with four fingers and a thumb and stacked bangles, and holds the infant's wrapped hip with her left hand (fingers visible). The infant rests one open hand with four fingers on her draped chest; his other arm and legs are wrapped. The background gopis each raise a hand to the chin or rest it on a knee."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The raised forearm is continuous from armlet to wrist, and the supporting arm wraps around the infant naturally. The infant's visible arm is plump and connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Putana: the same face, maang-tikka, white flowers and round gold earring, now with wide eyes, raised brows and an open mouth. Infant: namam, feather, calm smile. Gopis: the same two individuals as S005/S006, smaller in the distance."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Putana, one infant and two gopis."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows the reversal described in the stanza: her alarm against the infant's calm, with the poison drawn into his blue radiance. Her chest stays fully covered by the maroon drape; there is no gore, fruit motif or extra divine arm. The putana, infant-krishna and gopikas contracts hold. The plan now binds gopikas for this frame because they are visible."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/007.jpg",
+        "sha256": "fc5d4c4cca816e11e30abed3881c40e1f48731de136b74505122e84f3ed4c7ec",
+        "caption_path": "intake/D040/photo-captions.txt#007",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor (opened full-frame 2026-11-06T07:35:05Z-07:35:19Z)"
+        },
+        {
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "role": "Putana disguise continuity (selected S004 v001)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s007/landscape/v001/candidate.png",
+          "sha256": "6616b1f484f140cdf55e4e1b674e8423854d89e8caa175922369323e99944aee",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:32:48Z and 2026-11-06T07:33:08Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s007-v001-nw.png",
+          "sha256": "e317324e366db005ef101ee317fae4e2821d2bb034ce7b8e7e49fe3d2412a1f7",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T07:32:48Z and 2026-11-06T07:33:08Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s007-v001-ne.png",
+          "sha256": "bc77a2503fdb9a52158fcb695281298cd47f819ab9372f2507677f9dbcae6445",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T07:32:48Z and 2026-11-06T07:33:08Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s007-v001-contact-x2.png",
+          "sha256": "ed13e39b5f0c3166e87dc5da3a24a34b0479aa69cfd8c4ff3c35f47e239000dd",
+          "region": "460x360+540+320 then 200% Lanczos",
+          "viewed_at": "2026-11-06T07:33:08Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s007-v001-raised-hand-x2.png",
+          "sha256": "3ca16339060f4d1976b57b0e51d71db66d6c8004f20fd6d5678687d6b3a085e7",
+          "region": "260x320+330+320 then 200% Lanczos",
+          "viewed_at": "2026-11-06T07:33:08Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s007/landscape/v001/candidate.png",
+          "sha256": "6616b1f484f140cdf55e4e1b674e8423854d89e8caa175922369323e99944aee",
+          "region": "re-inspection against the final putana contract",
+          "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s007/landscape/v001/candidate.png",
+          "sha256": "6616b1f484f140cdf55e4e1b674e8423854d89e8caa175922369323e99944aee",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s007/landscape/v001/candidate.png",
+          "sha256": "6616b1f484f140cdf55e4e1b674e8423854d89e8caa175922369323e99944aee",
+          "region": "re-inspection against the final plan after the S009 v002 selection",
+          "viewed_at": "between 2026-11-06T08:32:37Z and 2026-11-06T08:33:02Z"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d040/s008/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "60d35c2c7e1f3e3d9999e461733c8a98ff1256b12241aaf4a871361e2cad32eb",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:05:40Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "One immense adult demoness (Putana's true form), one two-armed infant Krishna, and eleven distant villagers: three adult men, two adult women and six children.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "1535781f2295007c95583ba8765e446b7556f3c49823190f1c7ecc205eef42ac"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s008-v002-managed-review-v001.md",
+          "sha256": "5cf23fecb42d646605e84467ff24d91a4123969428743811329cddea5b639318"
+        },
+        {
+          "path": "art/reviews/d040-s008-v002-invalidation-addendum-v001.md",
+          "sha256": "8dba3c01d8fde18236a6d476c46c35cf7e9c4c4d6099c543fdf9dc06282cc48c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Putana's near arm lies outstretched to the lower left with an open palm, four fingers and thumb, and gold bangles. Her far arm stretches to the upper right with an open hand. Both feet show five toes and gold anklets. The infant is on all fours with two hands and two feet visible. The villagers' hands are joined, pointing or at their sides."
+        },
+        "attachment_proportions": {
+          "status": "needs-fix",
+          "observations": "The giant's far arm emerges from its maroon sleeve at mid-chest, near (680,290), just past the infant, rather than at a shoulder beside the neck. The head is far to the left and the near shoulder is at about (300,560). This breaks the putana contract's giant-form rule that limbs stay proportionate and connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Putana: grey-green face with closed eyes and a peaceful expression, long dark hair spread on the ground, a white flower and round gold earring, and a pale maang-tikka mark on her forehead. Infant: namam, feather, calm smile. Villagers: distinct small faces, including a bearded turbaned man and a clean-shaven man with joined palms."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One giant, one infant; the eleven villagers are each different in age, dress or pose."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows her fall with both hands stretched out, as caption 8 describes. Her flower, earring, long hair and maroon-and-gold upper drape carry over from the disguise, matching the putana contract's giant-true-form mode; there are no horns, gore or wounds. The infant is unharmed and small by scale. The villagers bind to the gopas (men and boys) and gopikas (women) contracts. The bearded turbaned man has a full beard, so he is an unnamed gopa, not Nanda. Matte mural palette."
+        }
+      },
+      "findings": [
+        {
+          "id": "D040-S008-FAR-ARM-ROOT-V002",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Putana's far arm roots at mid-chest instead of at the shoulder.",
+          "repair": "Native edit that roots the far arm at a shoulder beside the neck. Resolved by selected S008 v003."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D040/008.jpg",
+        "sha256": "90cdf2d15c067c5dd0a9800021015570801568475a322ae9497d65edbf949729",
+        "caption_path": "intake/D040/photo-captions.txt#008",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor (opened full-frame 2026-11-06T07:35:05Z-07:35:19Z)"
+        },
+        {
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "role": "Putana disguise continuity (selected S004 v001)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s008/landscape/v002/candidate.png",
+          "sha256": "60d35c2c7e1f3e3d9999e461733c8a98ff1256b12241aaf4a871361e2cad32eb",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:33:08Z and 2026-11-06T07:33:31Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s008-v002-se.png",
+          "sha256": "6bec64e0bfd403a2e114ca7848c20d579bc18abfd62c3277951fe130339c71a6",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T07:33:08Z and 2026-11-06T07:33:31Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s008-v002-torso-arm.png",
+          "sha256": "5ef3a72544b0ce298fd9bdcfa649d4fc48db219dccb46c85d32eb6173cb08408",
+          "region": "700x380+260+170",
+          "viewed_at": "2026-11-06T07:33:31Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s008-v002-face-x2.png",
+          "sha256": "35d7e7f38e6cd5c14deece7df37d5b1777e2736c23ba23df90820507400f577b",
+          "region": "420x260+100+260 then 200% Lanczos",
+          "viewed_at": "2026-11-06T07:33:31Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s008-v002-villagers-x2.png",
+          "sha256": "88f3e80897628f12623e37759da87394a496846d1b542a12d46da0c32520737f",
+          "region": "560x240+1110+70 then 200% Lanczos",
+          "viewed_at": "2026-11-06T07:33:31Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s008-v002-far-shoulder-x3.png",
+          "sha256": "0fbe141015080ac23ef34a57f858baf1e0252b325e287c1909b69eddc19ea27e",
+          "region": "300x200+560+220 then 300% Lanczos",
+          "viewed_at": "2026-11-06T07:33:55Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s008-v002-near-arm.png",
+          "sha256": "fcd49c82ee423d3228539f213ba5013b54934d75333c67c8236bf0884bcca63c",
+          "region": "420x330+20+520",
+          "viewed_at": "2026-11-06T07:33:55Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s008/landscape/v002/candidate.png",
+          "sha256": "60d35c2c7e1f3e3d9999e461733c8a98ff1256b12241aaf4a871361e2cad32eb",
+          "region": "re-inspection against the final putana contract",
+          "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        }
+      ],
+      "history": [
+        {
+          "path": "art/reviews/history/d040-s008-v002-ledger-record-before-needs-fix-v001.json",
+          "sha256": "7da508df83f56ebe94a5e4e5a737e014bd821f0ba126ae93f77ffd2a05ed6190",
+          "note": "prior serialized pass record preserved before correction"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d040/s009/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "0929f26e01ad015adb04230d8ce7f2f276b21731d0cfd107da680d706b589c8e",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:05:15Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Six adult gopikas, one fallen giant demoness (Putana) and one two-armed infant Krishna.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "f9d2ae2b5fcbcfadbef1d552ceb100fd774486443823ec306afd901f1108b6f5"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s009-v001-managed-review-v001.md",
+          "sha256": "2ba8848e89705775a33c444c0572d488da91e68a2a210cd540eee6e2451a814f"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The saffron-veiled gopika holds the infant with two hands, one under his back and one under his legs. The cream-sari gopika reaches in with two hands, one under his arm and one under his back, each with four fingers. The green-sari gopika's two hands are clasped together below. The outer gopis raise open hands, each with a thumb and four fingers. The infant raises two open hands and shows both feet with toes. Putana's two outstretched hands and two anklet-bound feet are visible."
+        },
+        "attachment_proportions": {
+          "status": "needs-fix",
+          "observations": "The giant's far arm emerges from a sleeve at about (760,200), roughly halfway along the torso, instead of at a shoulder across from the near shoulder at about (420,340) beside the neck at about (470,235). The infant and gopis' limbs remain continuous and proportionate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Six distinct gopika faces: purple veil, cream sari with flowers in a bun, green veil, saffron veil, rose veil, and green sari with flowers in a bun. Infant: namam, feather, calm smile. Putana: closed eyes, pale forehead mark, white flower, round gold earring."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Six different gopis, one infant and one giant; no repeated figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows the gopis hurrying to lift Krishna from Putana's body. Her giant form matches S008 and the putana contract. The infant matches the anchor. The gopis follow the gopikas contract's simple village saris, and the holder's saffron-and-maroon dress is not styled as Yashoda's cream/rose family."
+        }
+      },
+      "findings": [
+        {
+          "id": "D040-S009-FAR-ARM-ROOT-V001",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Putana's far arm roots mid-torso rather than at the shoulder, the same malformation that invalidated S008 v002.",
+          "repair": "Generate a native S009 edit with the same staging (fallen giant in the background, six gopis lifting the infant in the foreground) that roots the far arm at a shoulder beside the neck, consistent with S008 v003. Then re-run the managed individual review."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D040/009.jpg",
+        "sha256": "48c3c63dcdf518d08aa822b781319159e5592ae1d2578432086d3dfa9d2974f0",
+        "caption_path": "intake/D040/photo-captions.txt#009",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor (opened full-frame 2026-11-06T07:35:05Z-07:35:19Z)"
+        },
+        {
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "role": "Putana disguise continuity (selected S004 v001)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s009/landscape/v001/candidate.png",
+          "sha256": "0929f26e01ad015adb04230d8ce7f2f276b21731d0cfd107da680d706b589c8e",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:34:24Z and 2026-11-06T07:34:33Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s009-v001-sw.png",
+          "sha256": "dea71743282fd8cc349f6d637f685f5dda37f2de1788b4adb31962d32eeae4d4",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T07:34:24Z and 2026-11-06T07:34:33Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s009-v001-se.png",
+          "sha256": "673693d4fc8af36deee29bbd4f803f08475c6859271eea4ce7883ed731172082",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T07:34:24Z and 2026-11-06T07:34:33Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s009-v001-transfer-hands-x1.6.png",
+          "sha256": "46e9b333578282b62ea505ceb6179ac643ea591834233ed30d720fd42f4b8dac",
+          "region": "560x440+560+480 then 160% Lanczos",
+          "viewed_at": "2026-11-06T07:34:33Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s009-v001-cupped-hands-x3.png",
+          "sha256": "c9c21f0475bf35ca62339d0b1e44f3565f805be47edd006e15df34be0e164065",
+          "region": "260x200+700+700 then 300% Lanczos",
+          "viewed_at": "2026-11-06T07:34:47Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s009/landscape/v001/candidate.png",
+          "sha256": "0929f26e01ad015adb04230d8ce7f2f276b21731d0cfd107da680d706b589c8e",
+          "region": "re-inspection against the final putana contract",
+          "viewed_at": "between 2026-11-06T07:37:06Z and 2026-11-06T07:37:21Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s009/landscape/v001/candidate.png",
+          "sha256": "0929f26e01ad015adb04230d8ce7f2f276b21731d0cfd107da680d706b589c8e",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s009-v001-far-shoulder-x2.png",
+          "sha256": "16e63d1fa382ea63e6123a85b34ee96faaaab82e4e90af32b64c4a79a14b6a1e",
+          "region": "560x260+300+140 then 200% Lanczos",
+          "viewed_at": "2026-11-06T08:05:15Z"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d040/s010/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "20f4aef085c650982bf37c1cbabc87fa2ce3a9e5c0e809244a172d03437cbd9f",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:33:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Four adult gopikas and one two-armed infant Krishna.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s010-v001-managed-review-v001.md",
+          "sha256": "bd9b072dc69f8f400196d6a0e89ba9167976fe693122dc046c73127ee89be19d"
+        },
+        {
+          "path": "art/reviews/d040-s008-repair-context-recheck-managed-review-v001.md",
+          "sha256": "184374df97054861f581102f5b3ab43ca9dda52688e88bffb0b9d3a5d45a14de"
+        },
+        {
+          "path": "art/reviews/d040-s009-repair-context-recheck-managed-review-v001.md",
+          "sha256": "80b7dc05980161c7bb9f93f8a90d22b0f4e2c60d6bbcb1179abb18f1aa97982c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The holder supports the infant's legs with one visible hand (four fingers and thumb, stacked bangles); her other arm is behind him. The left and upper-right gopis join their palms in namaskara. The lower-right gopika cups two open hands toward the child. The infant spreads two open hands, each with a thumb and four fingers, and shows both feet with toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All visible arms are continuous from sleeve or shoulder to bangles and hands. The infant has natural infant proportions with exactly two arms and two legs."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Four distinct gopis: cream sari with flowers in a bun, saffron veil over a maroon sari, green veil, and purple sari with flowers in a bun. Infant: namam, peacock feather, round face, calm smile, matching the v004 anchor."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Four different women and one infant."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows the gopis praying for the child's protection with gentle devotional gestures, and no sign that they recognise his divinity. No Bhattathiri, no palace and no four-armed form. The gopis keep the gopikas contract's simple dress; the holder's saffron-and-maroon dress is not Yashoda's cream/rose family. Matte mural palette."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/010.jpg",
+        "sha256": "0e16b495cc52a0eec49cb8749cddb147f1d000bbedaafa95486a7189e1ef895f",
+        "caption_path": "intake/D040/photo-captions.txt#010",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor (opened full-frame 2026-11-06T07:35:05Z-07:35:19Z)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s010/landscape/v001/candidate.png",
+          "sha256": "20f4aef085c650982bf37c1cbabc87fa2ce3a9e5c0e809244a172d03437cbd9f",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T07:34:47Z and 2026-11-06T07:35:05Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s010-v001-nw.png",
+          "sha256": "82e1c3b18dd88050b0c60f8812550fd9d8a13cea540332fedca2c6ec6afa2280",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T07:34:47Z and 2026-11-06T07:35:05Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s010-v001-holding-x1.7.png",
+          "sha256": "b987fbb45bea20dcaf725e917ad904ff56d32bd55abbce3ee3bd8915dd9b0100",
+          "region": "520x360+460+460 then 170% Lanczos",
+          "viewed_at": "2026-11-06T07:35:05Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v001/s010-v001-right-hands-x1.7.png",
+          "sha256": "f0a6ccdd9794230286d6e2c83176826d59c54ff28f37eaf37f32f19a7d526d2f",
+          "region": "420x320+1080+520 then 170% Lanczos",
+          "viewed_at": "2026-11-06T07:35:05Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s010/landscape/v001/candidate.png",
+          "sha256": "20f4aef085c650982bf37c1cbabc87fa2ce3a9e5c0e809244a172d03437cbd9f",
+          "region": "re-inspection against the final plan after the S008 v003 selection",
+          "viewed_at": "between 2026-11-06T08:04:52Z and 2026-11-06T08:05:15Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s010/landscape/v001/candidate.png",
+          "sha256": "20f4aef085c650982bf37c1cbabc87fa2ce3a9e5c0e809244a172d03437cbd9f",
+          "region": "re-inspection against the final plan after the S009 v002 selection",
+          "viewed_at": "between 2026-11-06T08:32:37Z and 2026-11-06T08:33:02Z"
+        }
+      ]
+    },
+    {
+      "chapter": 40,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d040/s008/landscape/v003/candidate.png",
+      "version": "v003",
+      "sha256": "1d453c303725a165c51a0075efac329547987e0b3f6f14de15be9de6a440fdc8",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:33:02Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One immense adult demoness (Putana's true form), one two-armed infant Krishna, and eleven distant villagers: three adult men, two adult women and six children.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s008-v003-managed-review-v001.md",
+          "sha256": "38732d9e16eb38b2b35e4190bc51e11152b7521818ce154aee23708d8257bd0b"
+        },
+        {
+          "path": "art/reviews/d040-s009-repair-context-recheck-managed-review-v001.md",
+          "sha256": "80b7dc05980161c7bb9f93f8a90d22b0f4e2c60d6bbcb1179abb18f1aa97982c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Putana's far arm stretches to the upper right and ends in an open hand with a thumb and four fingers below stacked gold bangles. Her near arm lies to the lower left with an open palm, four fingers and a thumb, and gold bangles. Both feet show five toes and beaded gold anklets. The infant is on all fours with two hands flat on the drape and two bent legs with toes. The villagers' hands are joined, pointing or at their sides."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Resolves D040-S008-FAR-ARM-ROOT-V002. The far arm now rises from a maroon, gold-bordered shoulder cap beside the base of the neck at about (410,320), roughly across the body from the near shoulder at about (330,520). Its olive-grey upper arm runs behind the infant's back to a nearly straight elbow, then on to the wrist bangles and hand, tapering naturally with no stump, second sleeve or mid-chest root. Both arms are similar in length and thickness and proportionate to the giant's head and legs. The infant has infant proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Putana: grey-green face with closed eyes and a calm expression, pale forehead mark, long dark hair spread on the ground, a white flower and a round gold drop earring, unchanged from v002 and matching the putana contract's giant-form markers. Infant: namam, almond eyes, short curls, peacock feather, calm smile. Villagers: distinct small faces, including a bearded turbaned man and a clean-shaven man with joined palms."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One giant, one infant and eleven distinct distant villagers (three men, two women, six children). The two overlapping children right of the tree are separate figures. The infant overlaps the far upper arm without merging with it."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the stanza and caption 8: she falls with both arms stretched out, and the infant is safe and small on her upper chest. The putana giant-true-form mode holds: grey-green skin, the flower and earring carried over from the disguise, the maroon gold-bordered upper drape and the torn ochre patterned lower cloth, with no horns, gore or wounds. The infant matches the v004 anchor. The villagers bind to the gopas and gopikas contracts. The matte mural palette and firm contours are unchanged from v002; no glossy or metallic drift."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/008.jpg",
+        "sha256": "90cdf2d15c067c5dd0a9800021015570801568475a322ae9497d65edbf949729",
+        "caption_path": "intake/D040/photo-captions.txt#008",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/s008/landscape/v002/candidate.png",
+          "sha256": "60d35c2c7e1f3e3d9999e461733c8a98ff1256b12241aaf4a871361e2cad32eb",
+          "role": "rejected predecessor v002 (far-arm root)"
+        },
+        {
+          "path": "artifacts/d040/s004/landscape/v001/candidate.png",
+          "sha256": "b9f9abe41106e04f44d1baabb86cdbf1431ee03cde49683781a5e8640fec533d",
+          "role": "Putana disguise continuity (selected S004 v001)"
+        },
+        {
+          "path": "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s008/landscape/v003/candidate.png",
+          "sha256": "1d453c303725a165c51a0075efac329547987e0b3f6f14de15be9de6a440fdc8",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T08:04:03Z and 2026-11-06T08:04:13Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-far-shoulder-root-x2.5.png",
+          "sha256": "7a4c54ca392cb9648076bc6f39394b53aab8a1784b1155e4cc2d8ad58239c0f6",
+          "region": "420x280+300+220 then 250% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-far-elbow-wrist-hand-x2.png",
+          "sha256": "2a5c89891e8afc377e3b43141b3c16ec63f4c6f4ee7ce6f1b4597ce9e8124e71",
+          "region": "440x220+520+160 then 200% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-infant-x3.png",
+          "sha256": "31d5344332eca0c9dc5c13aac27b900b775851bf2861917bc61ed3fc072d9645",
+          "region": "260x200+470+190 then 300% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-near-arm-hand.png",
+          "sha256": "b96a5a34980fc028b9f79c67df204255a320cb08c4296f6d6716d2c737e4c405",
+          "region": "440x330+20+520",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-face-x2.png",
+          "sha256": "7b25a0a5c0ab4860d78869ab08f1f3e383881198e13f54aec9caa95862be59b7",
+          "region": "420x280+80+260 then 200% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-villagers-x2.png",
+          "sha256": "7570824079fb7fe708cbea9cb8c2fc347b86c11b9660c53e911280f88f32cbbc",
+          "region": "560x240+1110+70 then 200% Lanczos",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v002/s008-v003-se.png",
+          "sha256": "40355b20d2f1b883591040c099e1fb71cdb233a43ea43d95e1eb1ad8c581f323",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T08:04:13Z and 2026-11-06T08:04:32Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s008/landscape/v003/candidate.png",
+          "sha256": "1d453c303725a165c51a0075efac329547987e0b3f6f14de15be9de6a440fdc8",
+          "region": "re-inspection against the final plan after the S009 v002 selection",
+          "viewed_at": "between 2026-11-06T08:32:37Z and 2026-11-06T08:33:02Z"
+        }
+      ],
+      "supersedes_version": "v002"
+    },
+    {
+      "chapter": 40,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d040/s009/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "8b5cf233fe19c00dccf0e4d0e71662380b5b0fa298f638d6487c4ef0283a8296",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T08:32:37Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Six adult gopikas, one fallen giant demoness (Putana) and one two-armed infant Krishna.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d040.json",
+          "sha256": "801bb4b03eb904f149c14733ee1fc3b27b1850425f51fdab7c7762cea3342047"
+        },
+        {
+          "path": "content/daskams/d040.json",
+          "sha256": "2d3cfd5110112e6e447ad149fea28c749f29fab2f40e4aaff6726546c76b1419"
+        },
+        {
+          "path": "content/sources/d040/reference-map.json",
+          "sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d040-s009-v002-managed-review-v001.md",
+          "sha256": "50c0b5845117fc44bc7139d727a443c11a76a570d7cbcef91c32b07f3d1e034d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Putana's far arm ends in an open hand at upper centre (about 880,175), with a thumb and four fingers below stacked gold bangles. Her near arm lies to the lower left, ending in an open palm with four fingers and a thumb. Both feet show five toes and beaded anklets. The saffron-veiled gopika supports the infant with one hand under his back and one under his legs; the cream-sari gopika reaches in with two four-fingered hands; the green-sari gopika's two hands meet below. The outer gopis raise open hands with thumbs and four fingers. The infant raises two open hands and shows both feet with toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Resolves D040-S009-FAR-ARM-ROOT-V001. The far arm now rises from a maroon, gold-bordered shoulder cap beside the base of the neck at about (450,215). Its upper arm, nearly straight elbow and forearm run continuously to the wrist bangles and hand, with no mid-torso sleeve or stump. The near arm rises from the opposite shoulder at about (420,340). Both arms are similar in length and thickness and proportionate to the giant's head and legs. The gopis' arms run from shoulder to bangle to hand, and the transfer hands are clearly separate. The infant has exactly two arms and two legs with infant proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Six distinct gopika faces: purple veil, cream sari with flowers in a bun, green veil, saffron veil, rose veil, and green sari with flowers in a bun, all as in v001. Infant: namam, almond eyes, short curls, peacock feather, calm smile. Putana: grey-green face with closed eyes, pale forehead mark, white flower and round gold earring, matching S008 v003."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Six different gopis, one infant and one giant. No repeated or fused figure; the rescuers' overlapping hands stay separate."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows the gopis hurrying to lift Krishna from Putana's fallen body. Her giant-true-form markers (grey-green skin, flower, earring, maroon gold-bordered upper drape, torn ochre patterned lower cloth, long dark hair) follow the putana contract and match S008 v003, and her far shoulder now matches S008 v003's corrected attachment. The infant matches the v004 anchor. The gopis follow the gopikas contract, and the holder's saffron-and-maroon dress is not Yashoda's cream/rose family. The matte mural palette and firm contours are unchanged from v001."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D040/009.jpg",
+        "sha256": "48c3c63dcdf518d08aa822b781319159e5592ae1d2578432086d3dfa9d2974f0",
+        "caption_path": "intake/D040/photo-captions.txt#009",
+        "caption_sha256": "96507445d1b088e44a98066a0b43a91ea1f907d3d6228b511d6724d040ee5a76",
+        "source_map_path": "content/sources/d040/reference-map.json",
+        "source_map_sha256": "47a1f4b7578d8a2633e63f4ed3ad2960f9ba36f794cf1f7549744535b6529c51"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d040/s009/landscape/v001/candidate.png",
+          "sha256": "0929f26e01ad015adb04230d8ce7f2f276b21731d0cfd107da680d706b589c8e",
+          "role": "rejected predecessor v001 (far-arm root)"
+        },
+        {
+          "path": "artifacts/d040/s008/landscape/v003/candidate.png",
+          "sha256": "1d453c303725a165c51a0075efac329547987e0b3f6f14de15be9de6a440fdc8",
+          "role": "Putana giant-form continuity (selected S008 v003)"
+        },
+        {
+          "path": "artifacts/d040/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d040/s009/landscape/v002/candidate.png",
+          "sha256": "8b5cf233fe19c00dccf0e4d0e71662380b5b0fa298f638d6487c4ef0283a8296",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T08:31:46Z and 2026-11-06T08:31:55Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v003/s009-v002-far-shoulder-x2.png",
+          "sha256": "52ee46658bc2f7aa7d4f2808aee2a501fec9b0febd026d7986d6ad0b9ad5d2fe",
+          "region": "560x260+300+140 then 200% Lanczos",
+          "viewed_at": "between 2026-11-06T08:31:55Z and 2026-11-06T08:32:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v003/s009-v002-far-elbow-wrist-hand-x2.5.png",
+          "sha256": "a634098c98487bd1960344fb782dd25d928eb9b6cf1f1a83cdc83ae51326517c",
+          "region": "360x140+560+140 then 250% Lanczos",
+          "viewed_at": "between 2026-11-06T08:31:55Z and 2026-11-06T08:32:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v003/s009-v002-near-arm-hand-x2.png",
+          "sha256": "c779643ab8ab2c244b54bb53433899c0f729f4711b047f78908ae1dea3c6927c",
+          "region": "360x220+120+330 then 200% Lanczos",
+          "viewed_at": "between 2026-11-06T08:31:55Z and 2026-11-06T08:32:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v003/s009-v002-infant-transfer-x1.6.png",
+          "sha256": "250dea5bbc1ee7d80ec485379ab22848d037a1d1d52d7f36b634ce0ca3a0ffe6",
+          "region": "560x440+560+480 then 160% Lanczos",
+          "viewed_at": "between 2026-11-06T08:31:55Z and 2026-11-06T08:32:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v003/s009-v002-sw.png",
+          "sha256": "342a610879b31590971599d9661f27a21d12ba440de320c15d555ec942f40663",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T08:31:55Z and 2026-11-06T08:32:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v003/s009-v002-se.png",
+          "sha256": "b0c0d2fd46532abebc3533dec1d171dd39e47375c59e8a685a927b0508a77dec",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T08:31:55Z and 2026-11-06T08:32:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d040/review-evidence/managed-v003/s009-v002-legs-feet.png",
+          "sha256": "ddcd58ad0fc7e0c296f341bdab0b82a665ea84d3872af9431a46e52d364b3b3e",
+          "region": "560x280+1000+220",
+          "viewed_at": "between 2026-11-06T08:31:55Z and 2026-11-06T08:32:37Z"
+        }
+      ],
+      "supersedes_version": "v001"
     }
   ]
 }
