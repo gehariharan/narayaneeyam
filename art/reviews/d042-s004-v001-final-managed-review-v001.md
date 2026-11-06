@@ -69,3 +69,7 @@ No image bytes were edited and no approval manifest was changed. Human editorial
 ## Source description correction
 
 - Re-opened at 2026-11-06T00:00:10Z (`artifacts/d042/review-evidence/managed-v004/sources-001-004.png`). The source shows a close group of women around a seated mother holding the infant; no Nandagopan, gopas or Brahmins are shown, matching the reference map. The earlier statement that it 'shows the elders gathering' was wrong. v001's Nandagopan, gopas and Brahmins come from the stanza 4 plan's must-show list, so the image observations, checks and outcome are unchanged.
+
+## Nandagopan expression correction
+
+- Re-opened at 2026-11-06T00:15:40Z with a 2x close-up of Nandagopan's head (`artifacts/d042/review-evidence/managed-v005/s004-nanda-face-x2.png`, region `300x240+600+100` enlarged 2x, SHA-256 `5e192679cc57f1d9ff9e21adfce69c960a7b948876254cc24118f390d28eea5a`). His face shows a gentle, downward-looking relieved smile, with no visible tears. The earlier wording 'leans in tearfully' and 'tearful, relieved expression' was wrong. The plan's 'tearful faces' cue is therefore only partly met: relief is conveyed through expression and softened posture rather than visible tears. This is recorded as a limitation, not an anatomy or identity defect, so the outcome is unchanged.

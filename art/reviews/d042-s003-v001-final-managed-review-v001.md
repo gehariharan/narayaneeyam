@@ -59,3 +59,7 @@ Exactly six figures: five gopikas are ordinary two-armed women, and Krishna is a
 - The detail crops are gitignored local files. Their hashes and geometry are recorded here so they can be regenerated from the exact selected bytes.
 
 No image bytes were edited and no approval manifest was changed. Human editorial and art approval remain pending.
+
+## Source description correction
+
+- Re-opened at 2026-11-06T00:15:40Z (`artifacts/d042/review-evidence/managed-v005/sources-008-009-006-003.png`, SHA-256 `ce7f2a1393881dcf0d2015048e9db7235711b9f0511a9f370a0722125cb1831b`). The source shows the toppled cart with the infant in a red-lined cradle box and pots spilling milk, one woman at left and a crowd of women and men at right; 'women hurrying to the broken cart' understated the men in the crowd. v001's gopikas-only cast follows the stanza 3 plan, so the image observations, checks and outcome are unchanged.

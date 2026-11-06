@@ -15,7 +15,7 @@
 
 ## Nandagopan (S004 v001, S009 v001)
 
-- Both show one mature man with a gently rounded face, a dark moustache and no beard, dark hair under a cream head cloth, a cream dhoti and a muted olive upper cloth, with a calm, tearful, protective expression. This matches the main contract's face, hair, clothing and continuity markers. He appears once in each frame (no duplicate Nanda), with no crown or armor. He is distinct from the white-bearded elder in S004 and from Vasudeva's fuller beard.
+- Both show one mature man with a gently rounded face, a dark moustache and no beard, dark hair under a cream head cloth, a cream dhoti and a muted olive upper cloth, with a calm, protective expression; tears are visible on his cheek in S009 but not in S004 (see the S004 report's expression correction). This matches the main contract's face, hair, clothing and continuity markers. He appears once in each frame (no duplicate Nanda), with no crown or armor. He is distinct from the white-bearded elder in S004 and from Vasudeva's fuller beard.
 
 ## Gopas (S004 v001, S005 v001, S007 v001)
 
