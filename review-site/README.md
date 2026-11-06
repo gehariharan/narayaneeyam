@@ -478,3 +478,7 @@ Upload only D032's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=32` before any serialized Worker
 deployment. With D028 and D032 added, the union holds 28 chapters, 289 stanza rows, 591
 review media inputs and 295 selected generated images.
+
+## Dasakam 41
+
+D041 contains ten source-mapped landscape candidates in `art/batches/d041-comparison-v001.json`, bound to the canonical Stotra Nidhi Sanskrit/IAST, accepted numbered photo map, and exact candidate checksums. Candidate history is listed in `art/batches/d041-candidate-versions-v001.json`; unselected needs-fix attempts remain local and are not visible alternates. Independent exact-checksum visual review must pass all ten selected images before publication. The candidates remain unapproved and portraits are paused. No sourced English verse translation is included; supplied captions remain separately attributed, and unrelated trailing text in caption #10 is preserved in raw intake but excluded from stanza commentary. Upload only D041's review WebP derivatives with `node review-site/scripts/upload.mjs --daskam=41` after the selected images have passing checksum-bound review evidence and the release bundle has been validated.

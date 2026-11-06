@@ -266,6 +266,24 @@ assert.equal((await feedback(req({...good,daskam:40,sloka:10}),env)).status,201)
 assert.equal((await feedback(req({...good,daskam:40,sloka:11}),env)).status,400);
 console.log('Passed: D040 has ten source-mapped rows, pinned references and inspected but unapproved landscape candidates, and stanza-bounded feedback.');
 
+const full41=data.chapters.find(c=>c.id===41);assert.ok(full41);assert.deepEqual(full41.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content41=JSON.parse(await fs.readFile(new URL('../../content/daskams/d041.json',import.meta.url)));
+const selected41=JSON.parse(await fs.readFile(new URL('../../art/batches/d041-comparison-v001.json',import.meta.url)));
+const versions41=JSON.parse(await fs.readFile(new URL('../../art/batches/d041-candidate-versions-v001.json',import.meta.url)));
+assert.equal(selected41.rows.length,10);assert.equal(selected41.review_status,'needs-review');assert.equal(versions41.versions.length,13);
+assert.ok(full41.reviewNotice.includes('unapproved'));
+for(const row of full41.rows){
+ const stanza=content41.stanzas.find(s=>s.n===row.n);assert.equal(row.commentarySource,stanza.commentary_source);assert.equal(row.commentary,stanza.commentary_en);
+ assert.match(row.commentarySource,/photo-captions\.txt#(?:[1-9]|10)$/);assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected41.rows.find(r=>r.n===row.n);assert.ok(selected);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.equal(row.images.find(i=>i.role==='matte').version,selected.matte.version);assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+ assert.match(selected.matte.file,/^artifacts\/d041\/s\d{3}\/landscape\/candidate-v\d{3}\.png$/);
+}
+assert.equal((await feedback(req({...good,daskam:41,sloka:10}),env)).status,201);
+assert.equal((await feedback(req({...good,daskam:41,sloka:11}),env)).status,400);
+console.log('Passed: D041 has ten source-mapped rows, candidate-version inventory, pinned references and inspected but unapproved landscape candidates, and stanza-bounded feedback.');
+
 const full43=data.chapters.find(c=>c.id===43);assert.ok(full43);assert.deepEqual(full43.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content43=JSON.parse(await fs.readFile(new URL('../../content/daskams/d043.json',import.meta.url)));
 const selected43=JSON.parse(await fs.readFile(new URL('../../art/batches/d043-comparison-v001.json',import.meta.url)));
