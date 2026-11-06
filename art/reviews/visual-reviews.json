@@ -25912,6 +25912,877 @@
           "viewed_at": "between 2026-11-06T11:49:01Z and 2026-11-06T11:55:10Z"
         }
       ]
+    },
+    {
+      "chapter": 29,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d029/s003/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "1957046ebdbe745de30f60f8c3ad79772006d5658e9b9b679e71c74f592838f9",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T18:26:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Mohini (right); three asuras: a standing bearded asura and a kneeling grey-haired elder waiting with open hands at left, and a standing moustached asura offering the pot.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d029.json",
+          "sha256": "744487e77c0c2d8a76b2e6a0ae34704a8b0a049aea95a6ef0a09c8c45c5f666a"
+        },
+        {
+          "path": "content/daskams/d029.json",
+          "sha256": "d072f04cd4067e506339a618b9523d956b4894eb37b6778470c74103d03d4ef4"
+        },
+        {
+          "path": "content/sources/d029/reference-map.json",
+          "sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+        },
+        {
+          "path": "art/bible/characters/mohini/character.json",
+          "sha256": "bdadc3517a760c20f6c1445446484c75c9cde074c59ac7e571a6fdaa35a3591c"
+        },
+        {
+          "path": "art/bible/characters/deva-asura-groups-d029/character.json",
+          "sha256": "8190b96b1a2c419028926eaacd26c782fe53ed54a7874e242268864f0a1f6db1"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d029-s003-landscape-v004-managed-review-v001.md",
+          "sha256": "6b4ab6e56289d3d67dae0978e94f06f427b85aa697eeeb99b2efd2191d36a0f8"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The offering asura supports the pot from below with both hands, bangles at each wrist; Mohini receives it with two open palms under the base. The bearded asura and the kneeling elder each raise two cupped open hands with four fingers and thumb. Every foot (eight visible) is bare with toes; the elder kneels on one knee with the other foot planted."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "At the waiting-asura crop each pair of open hands runs through bangles and armlets to its own shoulders; the four hands on the pot belong two to the offering asura and two to Mohini, separated at the wrists. Proportions are natural."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Mohini: downcast composed eyes, half-smile, bindi, flower and ochre headband, same identity as S002. Bearded asura: dark full beard and topknot; elder: grey curly hair and grey beard; offering asura: thick moustache, topknot, hoop earring. All distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Mohini, one continuous lidded vessel, three distinct asuras; no clones or fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "At 2.5x the pallu now ends in a plain ochre band; the cream cloth carries only dashed stripe lines, with no glyph-like units. The dhotis carry the same dashed stripes. No text, signature, watermark or border."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 3 and the plan: an asura carefully hands the single vessel to Mohini, who receives it with composed attention while the others wait with open hands. Humanlike asuras, modest opaque maroon/cream sari, matte ochre/maroon mural palette. The frame is 1671x941 native, which still reads as 16:9."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D029/003.jpg",
+        "sha256": "c9e00b84d74e6d6b49773647bff9e0e36ea045cf3c1a43fb106561a7ef70626c",
+        "caption_path": "intake/D029/photo-captions.txt#3",
+        "caption_sha256": "e3b97203123ac3eb6e2b5b136b4769301ed2ceda304bcab1cf957388fe063a33",
+        "source_map_path": "content/sources/d029/reference-map.json",
+        "source_map_sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d029/s003/landscape/candidate-v003.png",
+          "sha256": "f0ea8823d0feecd223491cb67272887ab3402ccec5798a555f800db7bd9eb612",
+          "role": "failed prior selection v003 (compared against its recorded findings)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d029/s003/landscape/candidate-v004.png",
+          "sha256": "1957046ebdbe745de30f60f8c3ad79772006d5658e9b9b679e71c74f592838f9",
+          "region": "0,0 1671x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s003-v004-nw.png",
+          "sha256": "a7bf27ce670cb129af05e6f2e7263a6d03b44b37cadf721a6dfb381538c1a653",
+          "region": "835x470+0+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s003-v004-ne.png",
+          "sha256": "164fc50f8bdbac211efa663a3000f2a766f77bb6d1b45e3cf9af407bf66aed59",
+          "region": "836x470+835+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s003-v004-sw.png",
+          "sha256": "c5bc824d7ffc0d92e78f9342c4cb0a48c9ac480e8dc785b82d25f7853e227fc6",
+          "region": "835x471+0+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s003-v004-se.png",
+          "sha256": "e47815979284f69186e36d213473bc75cf16ba6f84661c968aa57ad5dfb7efed",
+          "region": "836x471+835+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2.5x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s003-v004-pallu-2.5x.png",
+          "sha256": "3cfb328014dc3a959503f315065a2b9938676f3bb352f971b34741805608dac6",
+          "region": "240x300+1300+400",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s003-v004-waiting-asuras.png",
+          "sha256": "295aadcf093dba9f673e2a64afc304a3931c52389bc65a204c609214cbd3960d",
+          "region": "600x500+0+120",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d029/s004/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "48b91dbf592515b4e9c98ec72304337c7cb7f9240f1d949cea674731acb0dbf1",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T18:26:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Mohini (centre, standing); four seated devas at left (white-haired elder, moustached deva, clean-shaven deva and the receiving deva); four seated asuras at right (bearded asura and three moustached topknot asuras).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d029.json",
+          "sha256": "744487e77c0c2d8a76b2e6a0ae34704a8b0a049aea95a6ef0a09c8c45c5f666a"
+        },
+        {
+          "path": "content/daskams/d029.json",
+          "sha256": "d072f04cd4067e506339a618b9523d956b4894eb37b6778470c74103d03d4ef4"
+        },
+        {
+          "path": "content/sources/d029/reference-map.json",
+          "sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+        },
+        {
+          "path": "art/bible/characters/mohini/character.json",
+          "sha256": "bdadc3517a760c20f6c1445446484c75c9cde074c59ac7e571a6fdaa35a3591c"
+        },
+        {
+          "path": "art/bible/characters/deva-asura-groups-d029/character.json",
+          "sha256": "8190b96b1a2c419028926eaacd26c782fe53ed54a7874e242268864f0a1f6db1"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d029-s004-landscape-v003-managed-review-v001.md",
+          "sha256": "e9e728dae75defeb2da8b533165c5b3a17482cd017eb932e128a77dca800afc0"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Mohini holds the small bowl with two hands; the receiving deva cups it from below with both hands. Seated devas and asuras rest their hands on their knees with fingers visible; bare feet with toes show under the folded legs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Each hand traces through bangles and armlets to its owner; seated legs fold naturally. The single vessel stands on the ground in front of Mohini."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Receiving deva: warm ochre skin, crown, tilak, smiling up at Mohini, with the same skin family as the other devas. Devas: white-haired moustached elder, moustached, clean-shaven. Asuras at 1.5x: full-bearded, a thick-handlebar moustache looking up, a curled moustache with a heavier nose, and a younger face with a thin moustache."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Mohini, one vessel, one bowl; no fused or repeated bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "At 2x both pallu edges are plain ochre bands and the cream pleats carry only faint dashed stripes; no glyph-like marks."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 4: two separate parallel seated rows, Mohini serving one bowl from the single central vessel to a deva while the asura row watches calmly. The receiving deva no longer uses reserved deity-blue skin, so he cannot be read as Narayana. Mohini's modest dress and matte palette are consistent. Native frame 1671x941."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D029/005.jpg",
+        "sha256": "533b1d8e91288eff18723026a2cb43173733dffb5d9118288b775b56f6570541",
+        "caption_path": "intake/D029/photo-captions.txt#4",
+        "caption_sha256": "e3b97203123ac3eb6e2b5b136b4769301ed2ceda304bcab1cf957388fe063a33",
+        "source_map_path": "content/sources/d029/reference-map.json",
+        "source_map_sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d029/s004/landscape/candidate-v002.png",
+          "sha256": "08b1023f1567723b7f68f0e6f7948a793dcfbceba0d1a3758ec576606d8cfde5",
+          "role": "failed prior selection v002 (compared against its recorded findings)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d029/s004/landscape/candidate-v003.png",
+          "sha256": "48b91dbf592515b4e9c98ec72304337c7cb7f9240f1d949cea674731acb0dbf1",
+          "region": "0,0 1671x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s004-v003-nw.png",
+          "sha256": "e3808c479faa45ab9781a2c2181844801427d43b048b2d4ec8d04aa843ca9545",
+          "region": "835x470+0+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s004-v003-ne.png",
+          "sha256": "0fc1d61dcd9840ebaac53c0aecaceebb2d275897d14e45033f5dec97957283ef",
+          "region": "836x470+835+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s004-v003-sw.png",
+          "sha256": "e8033a6d07b5b9cc295f583f05efeda2a4ede1eb56def2900516f457b674a3b0",
+          "region": "835x471+0+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s004-v003-se.png",
+          "sha256": "916a8d35b79b62dd5a0920db04cc373d1824e83c2bb4fc5d32becc830b62e7f6",
+          "region": "836x471+835+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s004-v003-pallu-2x.png",
+          "sha256": "b801eb4290a7d334d82e3ff94900a7de1757ac10086a2ecd18694a072da18181",
+          "region": "260x420+800+300",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-1.5x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s004-v003-asura-faces-1.5x.png",
+          "sha256": "74891880c593ac70b9c2ed9a180494d39dfbab2fca83a3d065f8058e5568089e",
+          "region": "520x260+1150+230",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d029/s005/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "2de471facf50b5f9ef0d1e4957ef327e4babd4e44103787fc0fe2211ae67824a",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T18:26:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Four-armed Narayana (centre, seated); five devas at left; Rahu (red turban, holding a cup) and one crowned deva at right.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d029.json",
+          "sha256": "744487e77c0c2d8a76b2e6a0ae34704a8b0a049aea95a6ef0a09c8c45c5f666a"
+        },
+        {
+          "path": "content/daskams/d029.json",
+          "sha256": "d072f04cd4067e506339a618b9523d956b4894eb37b6778470c74103d03d4ef4"
+        },
+        {
+          "path": "content/sources/d029/reference-map.json",
+          "sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/deva-asura-groups-d029/character.json",
+          "sha256": "8190b96b1a2c419028926eaacd26c782fe53ed54a7874e242268864f0a1f6db1"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d029-s005-landscape-v003-managed-review-v001.md",
+          "sha256": "e0c067ba20d6311436fe0c370b804c55ed409fa7b53abf5a8069e5751b544029"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Narayana: conch in the upper left hand, abhaya palm, the Sudarshana disc balanced on the upper right fingertip and the lower right hand open palm-up; each hand has four fingers and thumb. The front-left deva points; Rahu holds the small cup with one hand and rests the other on his knee; the deva behind him raises an open palm."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "At 2x on Narayana's left, the conch arm leaves the top of the shoulder with its own armlet, elbow and forearm; the abhaya arm has a separate, lower upper arm with its own armlet and elbow. On the right, the raised disc arm and the lower open-palm arm each have their own upper arm and armlet. No forearm forks from another arm."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Narayana: deep blue, closed serene eyes, namam, peacock-feather crown, halo. Devas: crowned, moustached and clean-shaven variants. Rahu: red turban and moustache, looking warily at the disc, set apart from the crowned devas."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Narayana, one disc, one Rahu, one cup; no clones."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 5 non-graphically: Narayana's own blue form, distinct from Mohini, raises the luminous disc toward Rahu, who sits among devas with the cup. No blood or severing. Matte mural palette with halo; the rest of the composition carries over from v002."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D029/006.jpg",
+        "sha256": "efe94119387009051e05b1eb2e7bb0dd44edda52d5ff6c564131cfa6c129dc9c",
+        "caption_path": "intake/D029/photo-captions.txt#5",
+        "caption_sha256": "e3b97203123ac3eb6e2b5b136b4769301ed2ceda304bcab1cf957388fe063a33",
+        "source_map_path": "content/sources/d029/reference-map.json",
+        "source_map_sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d029/references/guruvayurappan-approved-identity.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "Narayana identity anchor (opened full-frame earlier in this run)"
+        },
+        {
+          "path": "artifacts/d029/s005/landscape/candidate-v002.png",
+          "sha256": "b6b6a74af38bfa392cc78cd33fa59fe06ead63d3d6474c9b15789a49e6773949",
+          "role": "failed prior selection v002 (compared against its recorded findings)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d029/s005/landscape/candidate-v003.png",
+          "sha256": "2de471facf50b5f9ef0d1e4957ef327e4babd4e44103787fc0fe2211ae67824a",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s005-v003-nw.png",
+          "sha256": "87d2f524fe317d64b5b8cba41bbd622b5394ab74e90d18e94baa8f2cd935c1bf",
+          "region": "836x470+0+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s005-v003-ne.png",
+          "sha256": "6a1cee2ac3f9350fb151207bc0108d1814c47b1750253d633a6c37d30b261a1d",
+          "region": "836x470+836+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s005-v003-sw.png",
+          "sha256": "f33d9ca05ffa143f7683deb2f9ffdf1c13d5f61a23002c898388f2690381e0f7",
+          "region": "836x471+0+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s005-v003-se.png",
+          "sha256": "682ad62dc6443bb4eb164f4b6328362f45d4d0f7da4405b795363f3ddc11baec",
+          "region": "836x471+836+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s005-v003-left-arms-2x.png",
+          "sha256": "086d37c5d4f2eb49869fe227cc5b518bf42d7f54cea30226af8b1cba267da67d",
+          "region": "300x360+370+220",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s005-v003-right-arms-2x.png",
+          "sha256": "e25b6c620ac2aacd07a1758e07d0b0440ee1948e63ce4aa925c68f47e4a28b69",
+          "region": "320x320+700+360",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d029/s007/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "7e1e855db0a61d40fe40e50f0c068e0a6dbf97ec4463cb032107681f2caef338",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T18:26:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Indra (left centre), Narada (centre), two-armed Narayana (right centre); five crowned devas at left; six asuras at right.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d029.json",
+          "sha256": "744487e77c0c2d8a76b2e6a0ae34704a8b0a049aea95a6ef0a09c8c45c5f666a"
+        },
+        {
+          "path": "content/daskams/d029.json",
+          "sha256": "d072f04cd4067e506339a618b9523d956b4894eb37b6778470c74103d03d4ef4"
+        },
+        {
+          "path": "content/sources/d029/reference-map.json",
+          "sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/indra-d029/character.json",
+          "sha256": "5dac845184a29117cc75742993e67283c3ec1c3991ba79f35ad26c84163102b9"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/deva-asura-groups-d029/character.json",
+          "sha256": "8190b96b1a2c419028926eaacd26c782fe53ed54a7874e242268864f0a1f6db1"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d029-s007-landscape-v003-managed-review-v001.md",
+          "sha256": "04f6b13099fcc29578c6ab27e7e39008b0b063696c172b806d236c9e9b59d6f2"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Indra holds a lowered vajra; Narada raises a speaking palm and extends the other hand; Narayana clasps his hands at the waist. Devas and asuras hold lowered spears, swords and shields or join palms; feet are bare with toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms connect through armlets and bangles to their owners; weapons are held and do not touch other figures."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "At 2x the devas are now individual: a white-bearded elder, a young smiling clean-shaven deva and a moustached deva. Asuras: a long-bearded asura with joined palms, a handlebar-moustached asura, a clean-shaven youth and others behind, with different ages and hair."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The previous cloned deva and asura faces are resolved; one Indra, one Narada, one Narayana."
+        },
+        "text_artifacts": {
+          "status": "needs-fix",
+          "observations": "At the 3x crop of the bearded asura's green sash (about x 1330-1530, y 440-700) the ochre border carries a run of separate letter-like glyphs reading roughly 'Oewl' and blocky 'IIIIGIOIIE' units on the lower hem. This is pseudo-writing, which the series 'no readable text' rule and the plan's avoid list exclude."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 7: Narada between the sides with a raised speaking hand; Indra and Narayana distinct, each fronting a group; weapons lowered; a small pale foam motif on the ground, no injury."
+        }
+      },
+      "findings": [
+        {
+          "id": "D029-S007-ASURA-SASH-PSEUDO-TEXT-V003",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "The bearded asura's green sash border carries letter-like pseudo-writing.",
+          "repair": "Native edit replacing the sash and hem border marks with plain or regular non-letter ornament, keeping the corrected individual faces."
+        }
+      ],
+      "source_reference": {
+        "path": "intake/D029/008.jpg",
+        "sha256": "c38b1cf71264ddf70e5112405f40cf220f45552bfcddc0fc08c1fb717ec6e2c3",
+        "caption_path": "intake/D029/photo-captions.txt#7",
+        "caption_sha256": "e3b97203123ac3eb6e2b5b136b4769301ed2ceda304bcab1cf957388fe063a33",
+        "source_map_path": "content/sources/d029/reference-map.json",
+        "source_map_sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d029/references/guruvayurappan-approved-identity.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "Narayana identity anchor (opened full-frame earlier in this run)"
+        },
+        {
+          "path": "artifacts/d029/s007/landscape/candidate-v002.png",
+          "sha256": "d012a2b1ab2cb6d610dd4eb56f0f820e7b36f93b6f975271dfc8d5d4a4b1183b",
+          "role": "failed prior selection v002 (compared against its recorded findings)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d029/s007/landscape/candidate-v003.png",
+          "sha256": "7e1e855db0a61d40fe40e50f0c068e0a6dbf97ec4463cb032107681f2caef338",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s007-v003-nw.png",
+          "sha256": "13cba033c41355c89ec90cf660d39aabd72281214c438ee9ab2bd3b11cc626e4",
+          "region": "836x470+0+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s007-v003-ne.png",
+          "sha256": "4dbb344f5fbf6b72098d29feb5ff556a1b90cf58b9817668c1a9a3a977166c0f",
+          "region": "836x470+836+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s007-v003-sw.png",
+          "sha256": "108987d4474e3c6239824410d3ee394458b346a89862811f2e826b2717460cc3",
+          "region": "836x471+0+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s007-v003-se.png",
+          "sha256": "d6e2cc4ad865293db7740d5037c698e3cec99918832ef9366fcb105bc60773e2",
+          "region": "836x471+836+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s007-v003-deva-faces-2x.png",
+          "sha256": "2c84cf67020377a3bcd16f52e793a8d995bf203112d8eecae2fe8662ee815156",
+          "region": "320x320+0+150",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s007-v003-asura-faces-2x.png",
+          "sha256": "06a4aa6ee64e395e5c326c903e81683884e088b1fa2d08d381c1e17a8d3f9636",
+          "region": "360x320+1312+160",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-3x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s007-v003-asura-sash-3x.png",
+          "sha256": "99e6cbbdbcdfed6435df8f96d354a1925fd3a2b00c42474a6145a4a4ae94dab4",
+          "region": "200x260+1330+440",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d029/s009/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "74f8888b01fbdbecc8f1691a279e95f87a89109cd179c4a74addb3e908bd8361",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T18:26:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Mohini (left, lunging toward the ball); Shiva (right, standing at a distance).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d029.json",
+          "sha256": "744487e77c0c2d8a76b2e6a0ae34704a8b0a049aea95a6ef0a09c8c45c5f666a"
+        },
+        {
+          "path": "content/daskams/d029.json",
+          "sha256": "d072f04cd4067e506339a618b9523d956b4894eb37b6778470c74103d03d4ef4"
+        },
+        {
+          "path": "content/sources/d029/reference-map.json",
+          "sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+        },
+        {
+          "path": "art/bible/characters/mohini/character.json",
+          "sha256": "bdadc3517a760c20f6c1445446484c75c9cde074c59ac7e571a6fdaa35a3591c"
+        },
+        {
+          "path": "art/bible/characters/shiva-d029/character.json",
+          "sha256": "9e87b3de6832e1a62d6d8608635d56af0b72a08a03edcd531529c0b35a22de11"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d029-s009-landscape-v003-managed-review-v001.md",
+          "sha256": "e91fd02ae2d06baeba36b4d702ba800a09c051e4b2ae078c1933765b52b59a0e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Mohini sweeps one arm back and reaches the other toward the single ball, each hand with four fingers and thumb; the front foot is planted and the trailing anklet foot reaches toward the ball. Shiva joins his palms; two grey-blue bare feet with toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Mohini's arms run from blouse sleeve to bangle; the extended leg is covered by a cream under-layer to the anklet."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Mohini: playful smile, eyes on the ball, same flower, crown and halo as S002–S004. Shiva: crescent, tripundra, surprised eyes, matching S008."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Mohini, one Shiva, one ball."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "At 2.5x the pallu and hem borders are now plain ochre bands without scroll units; no letter-like marks anywhere."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 9 with the plan's modesty rules: secured blouse and sari, Shiva at a clear distance without touching or pursuing. Matte mural palette."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D029/010.jpg",
+        "sha256": "656d5b426120c78f52d11be14dffb6c2eaad250b10cec5a20309c7d3fb2e1b58",
+        "caption_path": "intake/D029/photo-captions.txt#9",
+        "caption_sha256": "e3b97203123ac3eb6e2b5b136b4769301ed2ceda304bcab1cf957388fe063a33",
+        "source_map_path": "content/sources/d029/reference-map.json",
+        "source_map_sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d029/s009/landscape/candidate-v002.png",
+          "sha256": "bae8e127c371c8ebc3d922086062be5728fa7caca256d6fe25d7266933d48dd3",
+          "role": "failed prior selection v002 (compared against its recorded findings)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d029/s009/landscape/candidate-v003.png",
+          "sha256": "74f8888b01fbdbecc8f1691a279e95f87a89109cd179c4a74addb3e908bd8361",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s009-v003-nw.png",
+          "sha256": "b9a2f7a9dfc7866ae7566eba0df5c548c9c6a10bb6dd46a6c134dbf413880600",
+          "region": "836x470+0+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s009-v003-ne.png",
+          "sha256": "6a9f472f2008144018fb892e047dae574b128cac1e0ae96c9bee9209650f26b9",
+          "region": "836x470+836+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s009-v003-sw.png",
+          "sha256": "b5c054fb5178e140c59836d249cb2f8085ce958a7aacb230592043ee5a0910b3",
+          "region": "836x471+0+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s009-v003-se.png",
+          "sha256": "ef9c675f0c98bfa501aa53f16f5630a4131e1b2cfc1075cf8469bd1c458dd703",
+          "region": "836x471+836+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2.5x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s009-v003-pallu-2.5x.png",
+          "sha256": "cb69108df81e61bb8910a3e37bccea97b9672fe5b9656ab11dcb89e3eadc5148",
+          "region": "260x200+290+560",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2.5x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s009-v003-hem-2.5x.png",
+          "sha256": "089b0f92cc8bfbacde12df08f71670b767ad2ad5fa8b620b64bdbf63282af0de",
+          "region": "300x220+560+640",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 29,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d029/s010/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "09c34b8a2ae9a5de668180e67ca557b89f9857581a9b304955839b00703f3981",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T18:26:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Shiva and Uma seated at left; four-armed Narayana seated at right.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d029.json",
+          "sha256": "744487e77c0c2d8a76b2e6a0ae34704a8b0a049aea95a6ef0a09c8c45c5f666a"
+        },
+        {
+          "path": "content/daskams/d029.json",
+          "sha256": "d072f04cd4067e506339a618b9523d956b4894eb37b6778470c74103d03d4ef4"
+        },
+        {
+          "path": "content/sources/d029/reference-map.json",
+          "sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+        },
+        {
+          "path": "art/bible/characters/shiva-d029/character.json",
+          "sha256": "9e87b3de6832e1a62d6d8608635d56af0b72a08a03edcd531529c0b35a22de11"
+        },
+        {
+          "path": "art/bible/characters/uma-d029/character.json",
+          "sha256": "10a67fe2054d31325697e899df1f9905700e4145fed6acf4a9c8bb7ed10e8d03"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d029-s010-landscape-v003-managed-review-v001.md",
+          "sha256": "c7dedaacb3bbf7c7ee7ccec40ce4e952c146c2147b445f3a7ef9bae53b453105"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Shiva joins his palms; Uma rests both hands in her lap. Narayana raises an abhaya palm, holds the conch in the upper right hand, extends an open lower left hand toward Shiva and holds a lotus in the lower right hand; each hand has four fingers and thumb."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "At 2x on Narayana's left, the abhaya arm has its own upper arm and armlet rising from the shoulder, and the extended arm has a second, lower upper arm with its own armlet; the two do not share an elbow. On the right, the conch arm and the lotus arm each have separate armlets and upper arms."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Shiva: ash skin, crescent, tripundra, serene smile. Uma: warm skin, flowers in hair, serene. Narayana: deep blue, namam, peacock-feather crown, halo."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Three figures only; no attendants or repeated deities."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed; the glowing lotus carries no glyphs."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches stanza 10: Shiva in prayer with Uma beside him, Narayana honouring him with a gracious gesture, an unlettered glowing lotus. Costumes match S008/S009. Matte palette."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D029/011.jpg",
+        "sha256": "d9a693f2db90f13dfc2404328daa5a247efc5a6215b5f516acc7dc36cbff9542",
+        "caption_path": "intake/D029/photo-captions.txt#10",
+        "caption_sha256": "e3b97203123ac3eb6e2b5b136b4769301ed2ceda304bcab1cf957388fe063a33",
+        "source_map_path": "content/sources/d029/reference-map.json",
+        "source_map_sha256": "99682e746ce5a9ccad1ea3bdd8e4e66500bd3421fc7b79a6357ac12917a3bdba"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d029/references/guruvayurappan-approved-identity.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "Narayana identity anchor (opened full-frame earlier in this run)"
+        },
+        {
+          "path": "artifacts/d029/s010/landscape/candidate-v002.png",
+          "sha256": "c36712f09df9f6432d46edc50880048f4dd20043b4bfa5d2f97c5373bd6454df",
+          "role": "failed prior selection v002 (compared against its recorded findings)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d029/s010/landscape/candidate-v003.png",
+          "sha256": "09c34b8a2ae9a5de668180e67ca557b89f9857581a9b304955839b00703f3981",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s010-v003-nw.png",
+          "sha256": "7a90e47f62012841baff2f2a0401a2b90be8e023c0d5c4bee2f49959acf41e51",
+          "region": "836x470+0+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s010-v003-ne.png",
+          "sha256": "be03ecab7158f182c2aab379ed5a428fec9bc86f2dc800ddde2267ce1e7ab699",
+          "region": "836x470+836+0",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s010-v003-sw.png",
+          "sha256": "0887c147d6ff922c5cd438650aec3949d94da82927c6185fbbfdd285d74d546d",
+          "region": "836x471+0+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d029/review-evidence/managed-v002/s010-v003-se.png",
+          "sha256": "c600cb8c71f443285415ae4c30f51880fa9e3a65640e1bd7cb77726e109d460b",
+          "region": "836x471+836+470",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s010-v003-left-arms-2x.png",
+          "sha256": "a78368c31df0454e940ae314048a8db02c01cf541051ae843a0359fe705dbdf8",
+          "region": "340x320+1000+340",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        },
+        {
+          "mode": "detail-crop-scaled-2x",
+          "path": "artifacts/d029/review-evidence/managed-v002/s010-v003-right-arms-2x.png",
+          "sha256": "0b5c8f74b53800077fac75e6741d50fafcd558fe5e460b5a6856c88009853f10",
+          "region": "300x360+1380+300",
+          "viewed_at": "between 2026-11-06T18:24:03Z and 2026-11-06T18:26:30Z"
+        }
+      ]
     }
   ]
 }
