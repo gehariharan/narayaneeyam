@@ -55,3 +55,15 @@ Two ordinary two-armed humans (Ambarisha and Durvasa) and one Kṛtyā apparitio
 - The detail crops are gitignored local files. Their hashes and geometry are recorded here so they can be regenerated from the exact selected bytes.
 
 No image bytes or approval manifests were changed by this review. Human editorial and art approval remain pending.
+
+## Re-inspection after final selection change
+
+The full frame `artifacts/d033/s005/landscape/candidate-v001.png` (SHA-256 `593e8d8c86a4a4ba7b9cea64896ef88461143e6990388ec87ada693feb523d37`) was reopened between 2026-11-06T18:08:44Z and 2026-11-06T18:09:00Z, after `art/plans/d033.json` was updated to bind S006 v005, S009 v003 and S010 v002 and after the origin/main D034 merge. The bearded king sips from the cup, Durvasa raises his matted hair, and the single sword-bearing Kṛtyā stands in smoke, leading into the S006 v005 dispersal; unchanged.
+
+- Final contract: `art/bible/series.json` (SHA-256 `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`)
+- Final contract: `art/plans/d033.json` (SHA-256 `f147f2397170bb1527a2e5fa275142b0943d8924918fcc23aec4fddab2601216`)
+- Final contract: `content/daskams/d033.json` (SHA-256 `a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475`)
+- Final contract: `content/sources/d033/reference-map.json` (SHA-256 `7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427`)
+- Final contract: `art/bible/characters/ambarisha/character.json` (SHA-256 `d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001`)
+- Final contract: `art/bible/characters/durvasa/character.json` (SHA-256 `46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab`)
+- Final contract: `art/bible/characters/krtya/character.json` (SHA-256 `93f4eb9ff20c8ae9eb98b222f6306be6d9c9e28c8028a99f518b729513fb3305`)

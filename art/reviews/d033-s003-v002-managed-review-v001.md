@@ -54,3 +54,16 @@ Four ordinary two-armed adults (Ambarisha, the unnamed queen and two Brahmins), 
 - The detail crops are gitignored local files. Their hashes and geometry are recorded here so they can be regenerated from the exact selected bytes.
 
 No image bytes or approval manifests were changed by this review. Human editorial and art approval remain pending.
+
+## Re-inspection after final selection change
+
+The full frame `artifacts/d033/s003/landscape/candidate-v002.png` (SHA-256 `1a15fa0d67f1eb6a3823857daa185035b57915722268b595946f575a1059f221`) was reopened between 2026-11-06T18:08:44Z and 2026-11-06T18:09:00Z, after `art/plans/d033.json` was updated to bind S006 v005, S009 v003 and S010 v002 and after the origin/main D034 merge. King, queen, two Brahmins, two cows and the small murti by the Yamuna are unchanged; the bearded king matches the S006, S009 and S010 replacements.
+
+- Final contract: `art/bible/series.json` (SHA-256 `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`)
+- Final contract: `art/plans/d033.json` (SHA-256 `f147f2397170bb1527a2e5fa275142b0943d8924918fcc23aec4fddab2601216`)
+- Final contract: `content/daskams/d033.json` (SHA-256 `a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475`)
+- Final contract: `content/sources/d033/reference-map.json` (SHA-256 `7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427`)
+- Final contract: `art/bible/characters/ambarisha/character.json` (SHA-256 `d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001`)
+- Final contract: `art/bible/characters/ambarisha-wife/character.json` (SHA-256 `1b34dc95deeafe843f337f0170540ab6ce9c5ad03eca9c253330f022c17e994d`)
+- Final contract: `art/bible/characters/brahmins/character.json` (SHA-256 `ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07`)
+- Final contract: `art/bible/characters/guruvayurappan/character.json` (SHA-256 `84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456`)
