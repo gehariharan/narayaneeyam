@@ -67,3 +67,16 @@ The full frame `artifacts/d033/s003/landscape/candidate-v002.png` (SHA-256 `1a15
 - Final contract: `art/bible/characters/ambarisha-wife/character.json` (SHA-256 `1b34dc95deeafe843f337f0170540ab6ce9c5ad03eca9c253330f022c17e994d`)
 - Final contract: `art/bible/characters/brahmins/character.json` (SHA-256 `ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07`)
 - Final contract: `art/bible/characters/guruvayurappan/character.json` (SHA-256 `84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456`)
+
+## Re-inspection after S002 v003 and S008 v003 selection
+
+The full frame `artifacts/d033/s003/landscape/candidate-v002.png` (SHA-256 `1a15fa0d67f1eb6a3823857daa185035b57915722268b595946f575a1059f221`) was reopened between 2026-11-06T19:06:49Z and 2026-11-06T19:07:10Z, after `art/plans/d033.json` was updated to bind S002 v003 and S008 v003 and after the origin/main D031 merge (which adds no D033 contract). The bearded king, veiled queen, two distinct Brahmins, two cows and the small murti by the Yamuna are unchanged and still consistent with the final cast.
+
+- Final contract: `art/bible/series.json` (SHA-256 `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`)
+- Final contract: `art/plans/d033.json` (SHA-256 `328493583e4d47a527d1d527062dbf04e4af7f3f68878f74086ce17aeefefc79`)
+- Final contract: `content/daskams/d033.json` (SHA-256 `a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475`)
+- Final contract: `content/sources/d033/reference-map.json` (SHA-256 `7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427`)
+- Final contract: `art/bible/characters/ambarisha/character.json` (SHA-256 `d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001`)
+- Final contract: `art/bible/characters/ambarisha-wife/character.json` (SHA-256 `1b34dc95deeafe843f337f0170540ab6ce9c5ad03eca9c253330f022c17e994d`)
+- Final contract: `art/bible/characters/brahmins/character.json` (SHA-256 `ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07`)
+- Final contract: `art/bible/characters/guruvayurappan/character.json` (SHA-256 `84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456`)

@@ -64,3 +64,15 @@ The full frame `artifacts/d033/s007/landscape/candidate-v001.png` (SHA-256 `ca35
 - Final contract: `art/bible/characters/durvasa/character.json` (SHA-256 `46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab`)
 - Final contract: `art/bible/characters/brahma/character.json` (SHA-256 `839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389`)
 - Final contract: `art/bible/characters/shiva/character.json` (SHA-256 `cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f`)
+
+## Re-inspection after S002 v003 and S008 v003 selection
+
+The full frame `artifacts/d033/s007/landscape/candidate-v001.png` (SHA-256 `ca35d173531a784114a7d0023d92abc2961112c1b45d219d6c6fb2ccfb5cefea`) was reopened between 2026-11-06T19:06:49Z and 2026-11-06T19:07:10Z, after `art/plans/d033.json` was updated to bind S002 v003 and S008 v003 and after the origin/main D031 merge (which adds no D033 contract). The four-headed, four-armed Brahma, two-armed Shiva, single flying chakra and fleeing Durvasa are unchanged, and the pursuit leads into the S008 v003 refuge.
+
+- Final contract: `art/bible/series.json` (SHA-256 `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`)
+- Final contract: `art/plans/d033.json` (SHA-256 `328493583e4d47a527d1d527062dbf04e4af7f3f68878f74086ce17aeefefc79`)
+- Final contract: `content/daskams/d033.json` (SHA-256 `a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475`)
+- Final contract: `content/sources/d033/reference-map.json` (SHA-256 `7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427`)
+- Final contract: `art/bible/characters/durvasa/character.json` (SHA-256 `46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab`)
+- Final contract: `art/bible/characters/brahma/character.json` (SHA-256 `839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389`)
+- Final contract: `art/bible/characters/shiva/character.json` (SHA-256 `cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f`)

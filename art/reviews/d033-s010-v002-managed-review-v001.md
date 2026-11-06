@@ -52,3 +52,14 @@ Two ordinary two-armed seated adults (Ambarisha and Durvasa).
 - The detail crops are gitignored local files. Their hashes and geometry are recorded here so they can be regenerated from the exact selected bytes.
 
 No image bytes or approval manifests were changed by this review. Human editorial and art approval remain pending.
+
+## Re-inspection after S002 v003 and S008 v003 selection
+
+The full frame `artifacts/d033/s010/landscape/candidate-v002.png` (SHA-256 `2174f409b5e8eebb3d9a53a68c9e8e5e1ca106816f6de2bd3bd5ec99481d9da2`) was reopened between 2026-11-06T19:06:49Z and 2026-11-06T19:07:10Z, after `art/plans/d033.json` was updated to bind S002 v003 and S008 v003 and after the origin/main D031 merge (which adds no D033 contract). The bearded king feeding Durvasa from the low tray is unchanged and consistent with the S002 v003 king.
+
+- Final contract: `art/bible/series.json` (SHA-256 `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`)
+- Final contract: `art/plans/d033.json` (SHA-256 `328493583e4d47a527d1d527062dbf04e4af7f3f68878f74086ce17aeefefc79`)
+- Final contract: `content/daskams/d033.json` (SHA-256 `a9dd3e35bd441d0012c176f67cd3ef1f02c4a6d382a0c84b366f4df6ddd24475`)
+- Final contract: `content/sources/d033/reference-map.json` (SHA-256 `7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427`)
+- Final contract: `art/bible/characters/ambarisha/character.json` (SHA-256 `d32339eeae010981f30a20c1bc5c0c4c691627e371f0e385a47a34459b8e4001`)
+- Final contract: `art/bible/characters/durvasa/character.json` (SHA-256 `46a15b14b1d07e086dbccc499330837ef7e7a67dbc9f55588c91edd8676c77ab`)
