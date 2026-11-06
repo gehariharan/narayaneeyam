@@ -3,7 +3,7 @@
   "daskam_id": 34,
   "review_status": "needs-review",
   "created_at": "2026-11-06T10:36:40.881241Z",
-  "description": "D034 native landscape-only candidates mapped to accepted stanza-specific references. Every generated image remains unapproved; independent image inspection is pending.",
+  "description": "D034 native landscape-only candidates mapped to accepted stanza-specific references. All ten selected versions have checksum-bound managed visual reviews recorded as pass; S001, S003, S007, S009 and S010 are native replacements for versions whose managed reviews found defects or uncertainty. Every generated image remains unapproved.",
   "review_notice": "Unapproved landscape mural candidates for comparison. Portraits are paused. Sanskrit and IAST are sourced; no vetted English translation was supplied. Supplied commentary remains verbatim and source-mapped.",
   "rows": [
     {
@@ -15,13 +15,13 @@
         "sha256": "f2a5e6df6554cbad44ad237dec7eaa4b01fb80abbb2aa33872a4718d2e7e10c6"
       },
       "matte": {
-        "file": "artifacts/d034/s001/landscape/candidate-v001.png",
-        "version": "v001",
-        "sha256": "1c325fa408570481d989d5425bd8b9959ec776082d0d7484672d63f9c573802a",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d034/s001/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "8e4f64bfbe20f0f5770bc72f44b001640d069c095399adac41f9029b76fea386",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
         "status": "needs-review",
-        "generation_record": "artifacts/d034/s001/landscape/generation-v001.json"
+        "generation_record": "artifacts/d034/s001/landscape/generation-v002.json"
       }
     },
     {
@@ -51,13 +51,13 @@
         "sha256": "9a96419685fb0f3c27f4f2cd2ee5ebad1fc72e5f47c5ada86b988aa79cd4c66b"
       },
       "matte": {
-        "file": "artifacts/d034/s003/landscape/candidate-v002.png",
-        "version": "v002",
-        "sha256": "d876299565d290e548950ca6518555a915659cfe14b88bfba30a83d29c06a85d",
-        "label": "Landscape candidate v002",
-        "displayLabel": "Landscape candidate v002",
+        "file": "artifacts/d034/s003/landscape/candidate-v003.png",
+        "version": "v003",
+        "sha256": "792d3ca5e41e32a38efbc5fc46a735db2dadfc29fce6a7f00d27cf26c5eee566",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003",
         "status": "needs-review",
-        "generation_record": "artifacts/d034/s003/landscape/generation-v002.json"
+        "generation_record": "artifacts/d034/s003/landscape/generation-v003.json"
       }
     },
     {
@@ -123,13 +123,13 @@
         "sha256": "17b54833ff363ed6f9bc59bfcaa49403ea5874e37a82e5620c79842e76dd3937"
       },
       "matte": {
-        "file": "artifacts/d034/s007/landscape/candidate-v001.png",
-        "version": "v001",
-        "sha256": "2b84a251be7ff5ea12d0aa55d69552c72bdd33072247744668c162a1258d4504",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d034/s007/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "a6cebb1cc47a1d08fa21deaa1e1dd7e67a79544f0f30cc10732639f19ab5886c",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
         "status": "needs-review",
-        "generation_record": "artifacts/d034/s007/landscape/generation-v001.json"
+        "generation_record": "artifacts/d034/s007/landscape/generation-v002.json"
       }
     },
     {
@@ -159,13 +159,13 @@
         "sha256": "6a21eca30e931520f4fd55baa057984fc991a86d3a41cf26c6b6c16b9cd4c866"
       },
       "matte": {
-        "file": "artifacts/d034/s009/landscape/candidate-v001.png",
-        "version": "v001",
-        "sha256": "4156d40f8d88c38f9a57965946ee64bca00caecefb13fe274886efd4361f1ae7",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d034/s009/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "3bbc526dc63d900abe2228729e159e974bc86e97b9acf8b139ffcba7ceda5bcd",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
         "status": "needs-review",
-        "generation_record": "artifacts/d034/s009/landscape/generation-v001.json"
+        "generation_record": "artifacts/d034/s009/landscape/generation-v002.json"
       }
     },
     {
@@ -177,13 +177,13 @@
         "sha256": "f54a90b8da04b048f9ef22ae54f1be5c75057c3dc294068f3f4829d830c706fa"
       },
       "matte": {
-        "file": "artifacts/d034/s010/landscape/candidate-v001.png",
-        "version": "v001",
-        "sha256": "970c64da0389ddd36035c4794f33576ba1d32ea22ba2655fb727010852ce29a3",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d034/s010/landscape/candidate-v002.png",
+        "version": "v002",
+        "sha256": "ed672cc46764ffaaf273446c76382257552d231ae34453a7c944d2df21b5f8c9",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
         "status": "needs-review",
-        "generation_record": "artifacts/d034/s010/landscape/generation-v001.json"
+        "generation_record": "artifacts/d034/s010/landscape/generation-v002.json"
       }
     }
   ],
@@ -203,6 +203,46 @@
       "sha256": "09baf572a73feb1755f4b8bbb694c8309384dbc924f7d3c882b4d9442a20abdf",
       "status": "not-selected",
       "reason": "Producer visual check found Krishna-style peacock feather on Rama; retained as history."
+    },
+    {
+      "n": 1,
+      "file": "artifacts/d034/s001/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "1c325fa408570481d989d5425bd8b9959ec776082d0d7484672d63f9c573802a",
+      "status": "not-selected",
+      "reason": "Managed review (art/reviews/d034-s001-v001-managed-review-v001.md) found needs-fix: Dasharatha dark-haired against his contract and cloned queen faces; retained as history."
+    },
+    {
+      "n": 3,
+      "file": "artifacts/d034/s003/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "d876299565d290e548950ca6518555a915659cfe14b88bfba30a83d29c06a85d",
+      "status": "not-selected",
+      "reason": "Managed review (art/reviews/d034-s003-v002-managed-review-v001.md) found needs-fix: nocked and released arrows shown at once, and the standing sage did not read as Vishvamitra; retained as history."
+    },
+    {
+      "n": 7,
+      "file": "artifacts/d034/s007/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "2b84a251be7ff5ea12d0aa55d69552c72bdd33072247744668c162a1258d4504",
+      "status": "not-selected",
+      "reason": "Managed review (art/reviews/d034-s007-v001-managed-review-v001.md) found needs-fix: Agastya dark-bearded against his contract and an open quiver; retained as history."
+    },
+    {
+      "n": 9,
+      "file": "artifacts/d034/s009/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "4156d40f8d88c38f9a57965946ee64bca00caecefb13fe274886efd4361f1ae7",
+      "status": "not-selected",
+      "reason": "Managed review (art/reviews/d034-s009-v001-managed-review-v001.md) was uncertain: the disguised Ravana read as middle-aged, not elder; retained as history."
+    },
+    {
+      "n": 10,
+      "file": "artifacts/d034/s010/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "970c64da0389ddd36035c4794f33576ba1d32ea22ba2655fb727010852ce29a3",
+      "status": "not-selected",
+      "reason": "Managed review (art/reviews/d034-s010-v001-managed-review-v001.md) found needs-fix: Jatayu drawn as a bald eagle rather than a vulture; retained as history."
     }
   ],
   "approval": "none; explicit artwork approval remains pending"

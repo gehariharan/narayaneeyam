@@ -283,9 +283,11 @@ D034 contains ten landscape comparison rows mapped from the accepted readiness
 record to the stanza references and supplied captions. Canonical Sanskrit and
 IAST are source-mapped; no English translation was supplied. Exact selected
 versions and source checksums are pinned in
-`art/batches/d034-comparison-v001.json`. Candidates remain unapproved, portrait
-compositions are paused, and the selected images require checksum-bound
-independent visual review before the review-site build. Upload only D034's WebP
+`art/batches/d034-comparison-v001.json`. Candidates remain unapproved and
+portrait compositions are paused. All ten selected versions carry checksum-bound
+managed visual reviews; the S001, S003, S007, S009 and S010 replacements
+supersede earlier versions whose reviews found defects, which remain recorded as
+history. Upload only D034's WebP
 derivatives with `node review-site/scripts/upload.mjs --daskam=34` before any
 serialized Worker deployment.
 

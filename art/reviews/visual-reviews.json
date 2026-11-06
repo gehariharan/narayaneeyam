@@ -21548,6 +21548,638 @@
           "viewed_at": "between 2026-11-06T10:53:57Z and 2026-11-06T10:56:38Z"
         }
       ]
+    },
+    {
+      "chapter": 34,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d034/s001/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "8e4f64bfbe20f0f5770bc72f44b001640d069c095399adac41f9029b76fea386",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:33:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Five adults: three queens kneeling at left, King Daśaratha kneeling centre-left, sage Ṛṣyaśṛṅga kneeling right; one vessel and one contained fire.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d034.json",
+          "sha256": "9cc7089e6b48d6b5678acef8b6ac2c5c76079aed05c820962bec3e712ec3b4bb"
+        },
+        {
+          "path": "content/daskams/d034.json",
+          "sha256": "d23ee7a909fcd223e52e3765901e22ca3b48ef0e4803e84ac08cbb777c96440e"
+        },
+        {
+          "path": "content/sources/d034/intake-manifest.json",
+          "sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+        },
+        {
+          "path": "art/bible/characters/rishyashringa/character.json",
+          "sha256": "660b38ec810630bea16c885157a56fc33a9dc6f09d19ee8b5a78d98509920aa0"
+        },
+        {
+          "path": "art/bible/characters/dasharatha/character.json",
+          "sha256": "bf6cef81086eb6a39f144e0b1b28ab9fec92c4d014407f9269e0ceee5f89b813"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d034-s001-v002-managed-review-v001.md",
+          "sha256": "361a005241ae93f39de87fac60fd7c268438d8e8f6b2c71519f81acb5c18157a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Each queen joins two hands with fingers visible. Daśaratha and the sage each support the vessel with two attached hands; the king's and the sage's visible bare feet show toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Arms run continuously from armlet to bangle on all five figures; kneeling proportions are natural."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The queens are now distinct: the left queen is elderly with grey-streaked hair and lined features; the middle queen is young with a long profile and a beaded hair ornament; the right queen has a rounder face, a bindi and a gentle smile. Daśaratha is elderly with white hair, white beard and moustache. The sage has a long dark beard and topknot."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Three separate queens with different ages and faces, one king, one sage, one vessel and one fire; no clones or fused figures."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the stanza and source 001.jpg: the pāyasa vessel is handed over above a small contained fire while the queens look on. Daśaratha now matches his contract and his white-haired depiction in S004. Flat matte ochre/maroon mural rendering, consistent with the D001 anchors; no metallic sheen."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D034/001.jpg",
+        "sha256": "f2a5e6df6554cbad44ad237dec7eaa4b01fb80abbb2aa33872a4718d2e7e10c6",
+        "caption_path": "intake/D034/photo-captions.txt#1",
+        "caption_sha256": "2f42ba1935d490cc958d27eaaa2f69d853e4d03dacfe414eea17728a77655bbe",
+        "source_map_path": "content/sources/d034/intake-manifest.json",
+        "source_map_sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d034/s001/landscape/candidate-v002.png",
+          "sha256": "8e4f64bfbe20f0f5770bc72f44b001640d069c095399adac41f9029b76fea386",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s001-v002-ne.png",
+          "sha256": "b62c1910a4337f7821aa3d9679f6a454333d5640db3eb7953cd91194f72251f1",
+          "region": "836x470+836+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s001-v002-nw.png",
+          "sha256": "f940f72574fa770bfa3c47300437f7561b7cf03e4a25a6370886dacf1fa0c316",
+          "region": "836x470+0+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s001-v002-se.png",
+          "sha256": "1935b8db1c5059414c0f34ff07fef1bf67d773d3edb84b6b83999a4583bac010",
+          "region": "836x471+836+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s001-v002-sw.png",
+          "sha256": "41f6c08fe1a91bec6659a4df21fc39112dc7880676ef0adc38f1e0ea8c2551fe",
+          "region": "836x471+0+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d034/s003/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "792d3ca5e41e32a38efbc5fc46a735db2dadfc29fce6a7f00d27cf26c5eee566",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:33:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Rama (archer, foreground), Lakshmana (left), the standing Vishvamitra and three seated sages around the altar, and one airborne Maricha.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d034.json",
+          "sha256": "9cc7089e6b48d6b5678acef8b6ac2c5c76079aed05c820962bec3e712ec3b4bb"
+        },
+        {
+          "path": "content/daskams/d034.json",
+          "sha256": "d23ee7a909fcd223e52e3765901e22ca3b48ef0e4803e84ac08cbb777c96440e"
+        },
+        {
+          "path": "content/sources/d034/intake-manifest.json",
+          "sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/lakshmana/character.json",
+          "sha256": "51f7a4f47deb0affa85d261ab4e60fcd39d733f80dd6724a739f033a6f20ae54"
+        },
+        {
+          "path": "art/bible/characters/vishvamitra/character.json",
+          "sha256": "9328c762a55bc9a70a4b47b21d8888ff98f8af9649587f7aa69398b90900f21f"
+        },
+        {
+          "path": "art/bible/characters/maricha/character.json",
+          "sha256": "1c578d52fbc6cc50f346fb76021cc6ec1780135a47dbe9f84c297c5d25c023a5"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d034-s003-v003-managed-review-v001.md",
+          "sha256": "d3b592ee8680075eb3d9f4c9006ee81a56d7c832f4ea753c649fcf78e0a4289e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Rama grips the bow with his extended left hand; his right hand rests open at his shoulder in follow-through. Lakshmana holds his bow in his left hand with his right hand at his side. Seated sages have folded legs; Maricha has two arms and two legs. Feet show toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Limbs are attached; Rama's wide archer stance is balanced."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Rama: muted-blue skin, topknot, no feather. Lakshmana: warm-brown skin and a distinct face. The standing officiating sage has white hair and a long white beard, matching the vishvamitra contract. The three seated sages are dark-bearded and distinct. Maricha has a moustached, curly-haired face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One arrow only: Rama's bowstring hangs straight and empty, and a single arrow at the end of one flight trail strikes Maricha. One Rama, one Lakshmana, one bow each."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the stanza and source 005.jpg: Maricha is driven far into the sky while the altar and the sages stay intact, with no gore. Matte mural rendering."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D034/005.jpg",
+        "sha256": "9a96419685fb0f3c27f4f2cd2ee5ebad1fc72e5f47c5ada86b988aa79cd4c66b",
+        "caption_path": "intake/D034/photo-captions.txt#3",
+        "caption_sha256": "2f42ba1935d490cc958d27eaaa2f69d853e4d03dacfe414eea17728a77655bbe",
+        "source_map_path": "content/sources/d034/intake-manifest.json",
+        "source_map_sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d034/s003/landscape/candidate-v003.png",
+          "sha256": "792d3ca5e41e32a38efbc5fc46a735db2dadfc29fce6a7f00d27cf26c5eee566",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s003-v003-ne.png",
+          "sha256": "41cb8f2f3e1b2c2fb14812b3945bccb0f3a82a0cb7205dcde46fbab77d71f0c5",
+          "region": "836x470+836+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s003-v003-nw.png",
+          "sha256": "c3ba15bae1e9506226b3839b84d2e0afabbf7bb148330d845d9537f98d566670",
+          "region": "836x470+0+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s003-v003-se.png",
+          "sha256": "9cba4156cc0faeac5938aa1b60de53f0fa50b3857b659ce968c6984969f90be0",
+          "region": "836x471+836+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s003-v003-sw.png",
+          "sha256": "25d0b3f41e17fc48df388c918840644155b86e0849810d3aa2e748ae001aebc5",
+          "region": "836x471+0+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d034/s007/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "a6cebb1cc47a1d08fa21deaa1e1dd7e67a79544f0f30cc10732639f19ab5886c",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:33:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Four adults standing: Agastya (left), Rama, Sita, Lakshmana.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d034.json",
+          "sha256": "9cc7089e6b48d6b5678acef8b6ac2c5c76079aed05c820962bec3e712ec3b4bb"
+        },
+        {
+          "path": "content/daskams/d034.json",
+          "sha256": "d23ee7a909fcd223e52e3765901e22ca3b48ef0e4803e84ac08cbb777c96440e"
+        },
+        {
+          "path": "content/sources/d034/intake-manifest.json",
+          "sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/sita/character.json",
+          "sha256": "90c9f8b261e2515b3df07df1c2f08fc0e75482b60ac75d0ab006e44f72b361f6"
+        },
+        {
+          "path": "art/bible/characters/lakshmana/character.json",
+          "sha256": "51f7a4f47deb0affa85d261ab4e60fcd39d733f80dd6724a739f033a6f20ae54"
+        },
+        {
+          "path": "art/bible/characters/agastya/character.json",
+          "sha256": "cddbcf389e760f25358eb8183b8ffbadb1709c8e6095b83b311b0ab15b6eaef7"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d034-s007-v002-managed-review-v001.md",
+          "sha256": "13d5ac61f553b015bde44bd0f2adcabfbd283d49767994c877ac238da7f60318"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Agastya holds the upper bow limb with his left hand and offers his open right hand from below. Rama grips the bow and quiver together with his right hand, and his left palm meets Agastya's right palm under the bow. Sita and Lakshmana join their palms. All eight feet show toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "In the native close crop of the handoff, each of the four hands follows its own forearm and bangle back to the correct shoulder; the overlapping grips are layered, not fused."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Agastya: compact, elderly, white hair tied in a topknot, white beard. Rama: blue skin, Vaishnava tilak, no feather. Sita: a distinct smiling face, veil and bindi. Lakshmana: a distinct face with warm-brown skin."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Four distinct people, one bow, and one capped closed quiver bound to it."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the stanza and source 016.jpg: at the hermitage near the Godavari, Agastya hands over the bow with a closed quiver while Sita and Lakshmana witness. Agastya now matches his contract. Matte mural rendering."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D034/016.jpg",
+        "sha256": "17b54833ff363ed6f9bc59bfcaa49403ea5874e37a82e5620c79842e76dd3937",
+        "caption_path": "intake/D034/photo-captions.txt#7",
+        "caption_sha256": "2f42ba1935d490cc958d27eaaa2f69d853e4d03dacfe414eea17728a77655bbe",
+        "source_map_path": "content/sources/d034/intake-manifest.json",
+        "source_map_sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d034/s007/landscape/candidate-v002.png",
+          "sha256": "a6cebb1cc47a1d08fa21deaa1e1dd7e67a79544f0f30cc10732639f19ab5886c",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s007-v002-handoff.png",
+          "sha256": "18fd148b7b45f8fa365d9971437c3fd9e27261577f1ad449c8e3de35b8cbebac",
+          "region": "420x320+380+260",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s007-v002-ne.png",
+          "sha256": "ae4de3a723f4850a42422d2a3283c794759799b4d117f8eb150226beba6e29c5",
+          "region": "836x470+836+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s007-v002-nw.png",
+          "sha256": "a361a71359a9631b32032665acf867d7969357facfd70f459c7e0e92887df897",
+          "region": "836x470+0+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s007-v002-se.png",
+          "sha256": "8db9170dc91468867e3e6bcbbebdeee9284fe242c03671c50b4ce618f4fa4581",
+          "region": "836x471+836+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s007-v002-sw.png",
+          "sha256": "ba616a85ebbefec270abbcc345c1428ee951ea3a255dceccdf25db7be39a890b",
+          "region": "836x471+0+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d034/s009/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "3bbc526dc63d900abe2228729e159e974bc86e97b9acf8b139ffcba7ceda5bcd",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:33:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Foreground: the mendicant (Ravana) and Sita. Background: a small Rama running with a bow, and one deer.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d034.json",
+          "sha256": "9cc7089e6b48d6b5678acef8b6ac2c5c76079aed05c820962bec3e712ec3b4bb"
+        },
+        {
+          "path": "content/daskams/d034.json",
+          "sha256": "d23ee7a909fcd223e52e3765901e22ca3b48ef0e4803e84ac08cbb777c96440e"
+        },
+        {
+          "path": "content/sources/d034/intake-manifest.json",
+          "sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+        },
+        {
+          "path": "art/bible/characters/sita/character.json",
+          "sha256": "90c9f8b261e2515b3df07df1c2f08fc0e75482b60ac75d0ab006e44f72b361f6"
+        },
+        {
+          "path": "art/bible/characters/ravana/character.json",
+          "sha256": "cc6e5170aa01a28591383a7d8b2212a6b8585b589b1d62361dead9d554ac6fed"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/maricha/character.json",
+          "sha256": "1c578d52fbc6cc50f346fb76021cc6ec1780135a47dbe9f84c297c5d25c023a5"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d034-s009-v002-managed-review-v001.md",
+          "sha256": "ca8e3a6158f87cb64dee68aa4971dd2fead85a8641509d8d2e9c96b308b7ade5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The mendicant grips a staff in his left hand and extends his open right palm; Sita holds the bowl with both hands. Rama holds a bow; the deer has four legs. Visible feet show toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Limbs are attached; the water pot hangs from a shoulder cord; the stooped posture is natural."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The mendicant is clearly elderly, with long grey hair in a topknot, a grey beard, lined features and ash tilak, matching the ravana disguise contract. Sita has a distinct, composed face. Rama has blue skin and no feather."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One mendicant with a single head and no crown, one Sita, one Rama and one deer."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the stanza and source 021.jpg: alms at the hut threshold, with the deer lure seen through one continuous forest vista. The deer has subdued golden spots, not metallic. Matte mural rendering."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D034/021.jpg",
+        "sha256": "6a21eca30e931520f4fd55baa057984fc991a86d3a41cf26c6b6c16b9cd4c866",
+        "caption_path": "intake/D034/photo-captions.txt#9",
+        "caption_sha256": "2f42ba1935d490cc958d27eaaa2f69d853e4d03dacfe414eea17728a77655bbe",
+        "source_map_path": "content/sources/d034/intake-manifest.json",
+        "source_map_sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d034/s009/landscape/candidate-v002.png",
+          "sha256": "3bbc526dc63d900abe2228729e159e974bc86e97b9acf8b139ffcba7ceda5bcd",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s009-v002-ne.png",
+          "sha256": "aa114c4bfdf8f2cb08b6284d9b35f2d8016d02ac59bd0de0edee780d7e2783fe",
+          "region": "836x470+836+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s009-v002-nw.png",
+          "sha256": "ae27b3771d895260c67fb15c5c98259a0371f3a49036c31d8cbefd03f530ceeb",
+          "region": "836x470+0+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s009-v002-se.png",
+          "sha256": "a1912d921ddd12f0f388b88dacd08b29da90733e7dc04f3208fefeb979b67432",
+          "region": "836x471+836+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s009-v002-sw.png",
+          "sha256": "9a0458cc09895e76237c74e9e9d2df18869a293629d7c31cb0a98e62a46daf9a",
+          "region": "836x471+0+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        }
+      ]
+    },
+    {
+      "chapter": 34,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d034/s010/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "ed672cc46764ffaaf273446c76382257552d231ae34453a7c944d2df21b5f8c9",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:33:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Rama kneeling (left), Jatayu resting on the ground (centre), Lakshmana standing (right).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d034.json",
+          "sha256": "9cc7089e6b48d6b5678acef8b6ac2c5c76079aed05c820962bec3e712ec3b4bb"
+        },
+        {
+          "path": "content/daskams/d034.json",
+          "sha256": "d23ee7a909fcd223e52e3765901e22ca3b48ef0e4803e84ac08cbb777c96440e"
+        },
+        {
+          "path": "content/sources/d034/intake-manifest.json",
+          "sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/lakshmana/character.json",
+          "sha256": "51f7a4f47deb0affa85d261ab4e60fcd39d733f80dd6724a739f033a6f20ae54"
+        },
+        {
+          "path": "art/bible/characters/jatayu/character.json",
+          "sha256": "fb057c458e76bce59fba78af8255a69342b4f87fe19fbf7da314582546fdef19"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d034-s010-v002-managed-review-v001.md",
+          "sha256": "97cc45b3258f22b0a3db774de4eae4de06dbc80670d48a192a15284193bb5af0"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Rama holds the water bowl in one hand and offers flowers on his other palm; his kneeling foot shows toes. Lakshmana joins two hands; one bare foot is visible, and the native close crop shows his second foot hidden behind Jatayu's nearer wing tip. Jatayu shows two taloned feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Jatayu's wings attach at the shoulders and fold along the body; the bare neck joins the ruff naturally. Rama's arms are attached."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Jatayu has the bare, wrinkled grey-brown head and neck of a vulture, a hooked beak and closed eyes. Rama: blue skin and tilak. Lakshmana: a distinct downcast face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Rama, one Lakshmana and one bird."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Matches the stanza and source 022.jpg: Rama honours the intact, dark-feathered vulture Jatayu with water and flowers, with no gore, and a path beyond. Jatayu now matches his contract. Matte mural rendering."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D034/022.jpg",
+        "sha256": "f54a90b8da04b048f9ef22ae54f1be5c75057c3dc294068f3f4829d830c706fa",
+        "caption_path": "intake/D034/photo-captions.txt#10",
+        "caption_sha256": "2f42ba1935d490cc958d27eaaa2f69d853e4d03dacfe414eea17728a77655bbe",
+        "source_map_path": "content/sources/d034/intake-manifest.json",
+        "source_map_sha256": "f9564eb914e22898bc4d2564235a592db0f58e4cac2060aa2e44dc49e5160ef5"
+      },
+      "reference_images": [],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d034/s010/landscape/candidate-v002.png",
+          "sha256": "ed672cc46764ffaaf273446c76382257552d231ae34453a7c944d2df21b5f8c9",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s010-v002-lakshmana-feet.png",
+          "sha256": "88ff103d6007c7341d303a4143f09dc52ac6c233935f9277324993459775320e",
+          "region": "360x320+1060+460",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s010-v002-ne.png",
+          "sha256": "eff94003c26eb1d8334cc7bb92a8732d273824a407c04796cac180ead7cdd0ff",
+          "region": "836x470+836+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s010-v002-nw.png",
+          "sha256": "461d9a9194129ff77d51cc613fff6a54f7bfc21e230a0846df48486e063404b9",
+          "region": "836x470+0+0",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s010-v002-se.png",
+          "sha256": "37eb57308109f4e7c7487958f83962888f922d966c3ea3b8e5a03feb32d7e49b",
+          "region": "836x471+836+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d034/review-evidence/managed-v002/s010-v002-sw.png",
+          "sha256": "5e59c1653b69d27373d4e72a8359bf419449fc703e9e16d6c64aaada64d5dcf8",
+          "region": "836x471+0+470",
+          "viewed_at": "between 2026-11-06T11:32:12Z and 2026-11-06T11:33:30Z"
+        }
+      ]
     }
   ]
 }
