@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "shiva",
+  "display": "Lord Shiva",
+  "aliases": ["Śarva", "Shiva"],
+  "depiction_rules": {
+    "default_mode": "meditating-lord",
+    "allowed_modes": ["meditating-lord"],
+    "notes": "Minimal provisional D033 scene-specific contract for the refuge appeal in stanza 7 only; not an approved character master."
+  },
+  "visual_bible": {
+    "age": "mature divine ascetic",
+    "face": "serene, compassionate face with three horizontal ash marks",
+    "skin": "muted cool blue-grey mineral pigment",
+    "hair": "dark matted locks with a small crescent; restrained ascetic arrangement",
+    "build": "natural compact adult proportions",
+    "clothing": "simple muted cream and ochre ascetic cloth; restrained ornaments",
+    "continuity_markers": "one head and two attached arms in this scene; calm refusal expressed with an open palm"
+  },
+  "anatomy_contract": {"heads": 1, "arms": 2, "hands": 2, "legs": 2, "rule": "this scene uses a single-faced, two-armed meditating form with all limbs visibly attached"},
+  "never": ["no extra arms or heads", "no duplicated figure", "no photorealism", "no glossy skin", "no reflective gold", "no readable text", "not an approved master"],
+  "local_reference_paths": ["intake/D033/007.jpg"]
+}

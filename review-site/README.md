@@ -294,6 +294,19 @@ deployment. With D029 added alongside D031 and D034, the union holds 23
 chapters, 239 stanza rows, 485 review media inputs and 245 selected generated
 images (69 historical, 176 individually inspected).
 
+## Dasakam 33
+
+D033 contains ten source-mapped landscape comparison candidates in
+`art/batches/d033-comparison-v001.json`. Captions and numbered source photos are
+mapped through `content/sources/d033/reference-map.json`; uncaptained documentary
+extras remain in intake and are excluded from stanza attribution. The Sanskrit
+and IAST are sourced, but the cited source does not provide English
+translations. Candidate versions remain unapproved and require independent
+checksum-bound visual inspection before publication. Portraits are paused.
+Upload only D033's review derivatives with
+`node review-site/scripts/upload.mjs --daskam=33` before the serialized Worker
+deployment.
+
 ## Dasakam 34
 
 D034 contains ten landscape comparison rows mapped from the accepted readiness
