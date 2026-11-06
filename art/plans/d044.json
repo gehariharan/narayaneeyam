@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "daskam_id": 44,
+  "slug": "d044",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_characters": [
+      "infant-krishna",
+      "garga-muni",
+      "nandagopan"
+    ],
+    "closing_prayer": [
+      "bhattathiri",
+      "guruvayurappan"
+    ],
+    "locations": [
+      "Nandagopan’s home",
+      "Gokula household",
+      "private family room"
+    ],
+    "arc": "Garga arrives at Vasudeva’s request, is welcomed by Nanda, conducts a secret naming rite for Krishna and Balarama, explains the names and Krishna’s future greatness, counsels Vasudeva, then departs; Nanda’s household rejoices and Bhattathiri closes with prayer.",
+    "style": "Traditional matte South Indian temple mural: firm dark contours, broad matte mineral color fields, shallow decorative space, restrained facial modeling, painted ochre rather than metallic gold, warm cream and muted foliage. User-supplied scene photos guide story/composition only.",
+    "character_continuity": "Use the shared provisional infant Krishna working identity: rounded calm infant face, deep indigo-blue matte skin across face and limbs, short dark curls, one compact feather tucked at the curls, muted yellow cloth and restrained ornament; ordinary D044 infant scenes show two attached arms and two attached legs. Exact shared anchor: artifacts/d044/references/infant-krishna-anchor-v004.png SHA-256 02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d; independent version-bound suitability proof is data/d044-production/proofs/infant-krishna-v004/review-v004.json (PASS as provisional identity reference only, not scene approval or human master approval). Use the common D042-D044 provisional adult identity cues from data/d044-production/shared-supporting-cast-handoff.json: Nandagopan is a mature warm-medium-brown man with a gently rounded/oval face, dark moustache and gathered/covered dark hair, cream dhoti and muted olive/green upper cloth; Yashoda is an adult warm-medium-brown mother with a gentle oval face, dark eyes and gathered dark hair beneath a simple veil, warm cream/soft-saffron or muted-rose sari and restrained jewelry. Keep these faces/clothing vocabulary consistent across D042-D044, adapting gesture and dress to each scene. Balarama is a distinct slightly older child. Garga is elderly with white beard and topknot, distinct from Nandagopan and Vasudeva. Bhattathiri in S010 follows the selected older clean-shaven reference SHA-256 ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3. Guruvayurappan identity reference SHA-256 d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b. Matte anchors D001 S004 SHA-256 9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d and D001 S008 SHA-256 9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995. Shared Nandagopan source binding: artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg SHA-256 1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f; identity cue only, preserve source-specific action and D044 matte style.",
+    "production": "Landscape-only native candidate batch, ten stanzas. All chapter artwork remains unapproved. Portraits are not part of this assignment."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d044-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "garga-muni",
+        "nandagopan"
+      ],
+      "scene_brief": {
+        "mode": "garga-arrives-at-nandas-house",
+        "must_show": [
+          "Garga Muni arrives at Nandagopan’s home at Vasudeva’s request to perform the required rites.",
+          "A quiet village-house threshold and private domestic setting; show Garga as a learned sage, not a king or deity.",
+          "Vasudeva is contextual rather than necessarily present; do not imply he is in the scene unless the composition references him without displacing the verse action."
+        ],
+        "composition": "Wide, quiet arrival composition; Garga enters from one side while Nanda’s home and a welcoming threshold establish the destination.",
+        "tone": "reverent, anticipatory",
+        "avoid": [
+          "crowds",
+          "royal court",
+          "visible horoscope writing",
+          "readable text",
+          "photorealism",
+          "glossy gold",
+          "cinematic rays"
+        ],
+        "source_summary": "Garga Muni comes to Nandagopan’s home, sent by Vasudeva for the child’s rites, carrying knowledge of horā."
+      },
+      "alt": "Garga Muni comes to Nandagopan’s home, sent by Vasudeva for the child’s rites, carrying knowledge of horā.",
+      "reference_paths": [
+        "intake/D044/001.jpg",
+        "artifacts/d044/references/series-style-anchor-D001-S004.png",
+        "artifacts/d044/references/series-style-anchor-D001-S008.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "The numbered D044 image is a user-supplied story/composition cue only; do not copy its rendering, extra figures, or unsupported iconography. Use the two D001 images for matte mural rendering only. Use the common provisional D042-D044 adult cast cues in data/d044-production/shared-supporting-cast-handoff.json whenever Nandagopan or Yashoda appears; preserve their shared face, hair, age and clothing markers while following this stanza’s source-grounded action. Garga Muni follows D044-local provisional continuity; Nandagopan uses the common provisional D042-D044 identity cues in data/d044-production/shared-supporting-cast-handoff.json. Bhattathiri in S010 follows the selected older clean-shaven reference hash ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d044-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "garga-muni"
+      ],
+      "scene_brief": {
+        "mode": "nanda-honors-garga",
+        "must_show": [
+          "Nandagopan welcomes and honors Garga, smiling gently and asking him to perform the child’s rites.",
+          "Show one clear offering/welcome gesture and Garga receiving it with humility.",
+          "Keep the encounter intimate and domestic."
+        ],
+        "composition": "Two figures in a balanced wide conversation, with an uncluttered veranda/courtyard and enough space around hands and faces.",
+        "tone": "warm, respectful, welcoming",
+        "avoid": [
+          "duplicated people",
+          "formal throne room",
+          "unrequested ritual apparatus",
+          "text",
+          "glossy rendering",
+          "crowding"
+        ],
+        "source_summary": "Nandagopan honors Garga and requests the rites with a gentle smile."
+      },
+      "alt": "Nandagopan honors Garga and requests the rites with a gentle smile.",
+      "reference_paths": [
+        "intake/D044/002.jpg",
+        "artifacts/d044/references/series-style-anchor-D001-S004.png",
+        "artifacts/d044/references/series-style-anchor-D001-S008.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "The numbered D044 image is a user-supplied story/composition cue only; do not copy its rendering, extra figures, or unsupported iconography. Use the two D001 images for matte mural rendering only. Use the common provisional D042-D044 adult cast cues in data/d044-production/shared-supporting-cast-handoff.json whenever Nandagopan or Yashoda appears; preserve their shared face, hair, age and clothing markers while following this stanza’s source-grounded action. Garga Muni follows D044-local provisional continuity; Nandagopan uses the common provisional D042-D044 identity cues in data/d044-production/shared-supporting-cast-handoff.json. Bhattathiri in S010 follows the selected older clean-shaven reference hash ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d044-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "garga-muni",
+        "nandagopan",
+        "infant-krishna",
+        "balarama"
+      ],
+      "scene_brief": {
+        "mode": "secret-naming-rite",
+        "must_show": [
+          "Garga explains the rite must be conducted in secrecy because he is the Yadu family preceptor.",
+          "Garga performs the naming rite for Krishna and his elder brother Balarama in a discreet family interior.",
+          "Show Garga’s devotional thrill with restrained expression and posture, not supernatural effects.",
+          "Depict only two children: one infant Krishna and one elder brother Balarama.",
+          "Balarama remains in the very-young-child/infant-to-toddler scale, only slightly older and larger than Krishna; the canonical verse gives no numerical age, and he must not look school-age."
+        ],
+        "composition": "A secluded household room with Garga and Nanda near the two children; subtle doorway or curtain suggests privacy without dividing the frame.",
+        "tone": "private, sacred, quietly joyful",
+        "avoid": [
+          "public crowd",
+          "extra infants",
+          "duplicate Krishna",
+          "invented divine arms",
+          "legible ritual writing",
+          "panel layout",
+          "gloss"
+        ],
+        "source_summary": "At Garga’s direction, Nanda keeps the family naming rite private; Garga names Krishna and his elder brother."
+      },
+      "alt": "At Garga’s direction, Nanda keeps the family naming rite private; Garga names Krishna and his elder brother.",
+      "reference_paths": [
+        "intake/D044/003.jpg",
+        "artifacts/d044/references/series-style-anchor-D001-S004.png",
+        "artifacts/d044/references/series-style-anchor-D001-S008.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+        "artifacts/d044/references/infant-krishna-anchor-v004.png"
+      ],
+      "reference_guidance": "The numbered D044 image is a user-supplied story/composition cue only; do not copy its rendering, extra figures, or unsupported iconography. Use the two D001 images for matte mural rendering only. Use Guruvayurappan solely for infant Krishna identity vocabulary with age adaptation; ordinary infant scenes show two naturally attached arms. Use the checked shared infant working anchor once relayed. Garga Muni and Nandagopan have no approved character sheets; keep them source-grounded and consistent within D044. Bhattathiri in S010 follows the selected older clean-shaven reference hash ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3. For Balarama age/scale, canonical D044 verses 44-3 and 44-6 say only elder brother; use D044 S003 as a weak scene-scale cue showing two very young children and do not infer a precise gap. D044 S006 shows Krishna only and does not establish Balarama age. Keep him toddler-scale, not school-age.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d044-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "garga-muni",
+        "infant-krishna"
+      ],
+      "scene_brief": {
+        "mode": "garga-reflects-on-the-name",
+        "must_show": [
+          "Garga considers how to name one who has thousands or endless names.",
+          "Keep the moment inward and quiet; no thought bubble, written names, or supernatural vision.",
+          "A single infant Krishna may be present as Garga reflects."
+        ],
+        "composition": "Garga in the foreground with a contemplative hand gesture, child and muted home interior set behind him; one continuous shallow mural space.",
+        "tone": "wondering, reverent, restrained",
+        "avoid": [
+          "visible lettering",
+          "scrolls with text",
+          "multiple imagined forms",
+          "crowds",
+          "duplicate child",
+          "glossy glow"
+        ],
+        "source_summary": "Garga privately wonders what name can encompass the child of endless names."
+      },
+      "alt": "Garga privately wonders what name can encompass the child of endless names.",
+      "reference_paths": [
+        "intake/D044/004.jpg",
+        "artifacts/d044/references/series-style-anchor-D001-S004.png",
+        "artifacts/d044/references/series-style-anchor-D001-S008.png",
+        "artifacts/d044/references/guruvayurappan-approved-character-reference.png",
+        "artifacts/d044/references/infant-krishna-anchor-v004.png"
+      ],
+      "reference_guidance": "The numbered D044 image is a user-supplied story/composition cue only; do not copy its rendering, extra figures, or unsupported iconography. Use the two D001 images for matte mural rendering only. Use Guruvayurappan solely for infant Krishna identity vocabulary with age adaptation; ordinary infant scenes show two naturally attached arms. Use the checked shared infant working anchor once relayed. Garga Muni and Nandagopan have no approved character sheets; keep them source-grounded and consistent within D044. Bhattathiri in S010 follows the selected older clean-shaven reference hash ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d044-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "garga-muni",
+        "infant-krishna",
+        "nandagopan"
+      ],
+      "scene_brief": {
+        "mode": "garga-declares-krishna",
+        "must_show": [
+          "Garga declares the name Krishna.",
+          "Suggest the verse’s wordplay and the name’s meaning through quiet natural symbols such as earth, growth, or a clean water lotus; do not literalize syllables.",
+          "Keep Garga’s naming gesture and the infant’s calm face the primary action."
+        ],
+        "composition": "Garga seated near the infant, Nanda witnessing; restrained earth and lotus motifs can sit in the domestic background, not as labels or panels.",
+        "tone": "tender, meaningful, serene",
+        "avoid": [
+          "readable name",
+          "letters or syllables",
+          "extra arms",
+          "duplicate infant",
+          "sunburst spectacle",
+          "metallic highlights"
+        ],
+        "source_summary": "Garga gives the child the name Krishna, evoking being, bliss, and the drawing away of the world’s sins."
+      },
+      "alt": "Garga gives the child the name Krishna, evoking being, bliss, and the drawing away of the world’s sins.",
+      "reference_paths": [
+        "intake/D044/005.jpg",
+        "artifacts/d044/references/series-style-anchor-D001-S004.png",
+        "artifacts/d044/references/series-style-anchor-D001-S008.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+        "artifacts/d044/references/infant-krishna-anchor-v004.png"
+      ],
+      "reference_guidance": "The numbered D044 image is a user-supplied story/composition cue only; do not copy its rendering, extra figures, or unsupported iconography. Use the two D001 images for matte mural rendering only. Use Guruvayurappan solely for infant Krishna identity vocabulary with age adaptation; ordinary infant scenes show two naturally attached arms. Use the checked shared infant working anchor once relayed. Garga Muni and Nandagopan have no approved character sheets; keep them source-grounded and consistent within D044. Bhattathiri in S010 follows the selected older clean-shaven reference hash ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d044-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "garga-muni",
+        "infant-krishna",
+        "balarama",
+        "nandagopan"
+      ],
+      "scene_brief": {
+        "mode": "garga-names-brothers",
+        "must_show": [
+          "Garga explains further names for Krishna and names the elder brother Rama.",
+          "Show the two brothers as distinct children, Krishna an infant and Balarama his elder brother.",
+          "Garga describes Krishna’s extraordinary powers while withholding his full identity from the father.",
+          "Balarama remains in the very-young-child/infant-to-toddler scale, only slightly older and larger than Krishna; the canonical verse gives no numerical age, and he must not look school-age."
+        ],
+        "composition": "One quiet family scene: Garga speaks to Nanda, with both children clearly and naturally present; no divine reveal or separate future scenes.",
+        "tone": "measured, affectionate, subtly wondrous",
+        "avoid": [
+          "four-armed Krishna",
+          "duplicate children",
+          "crown on Garga",
+          "visible words",
+          "split panel",
+          "overcrowded attendants"
+        ],
+        "source_summary": "Garga gives additional names, names Balarama Rama, and describes Krishna’s extraordinary nature without declaring him Hari."
+      },
+      "alt": "Garga gives additional names, names Balarama Rama, and describes Krishna’s extraordinary nature without declaring him Hari.",
+      "reference_paths": [
+        "intake/D044/006.jpg",
+        "artifacts/d044/references/series-style-anchor-D001-S004.png",
+        "artifacts/d044/references/series-style-anchor-D001-S008.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+        "artifacts/d044/references/infant-krishna-anchor-v004.png"
+      ],
+      "reference_guidance": "The numbered D044 image is a user-supplied story/composition cue only; do not copy its rendering, extra figures, or unsupported iconography. Use the two D001 images for matte mural rendering only. Use Guruvayurappan solely for infant Krishna identity vocabulary with age adaptation; ordinary infant scenes show two naturally attached arms. Use the checked shared infant working anchor once relayed. Garga Muni and Nandagopan have no approved character sheets; keep them source-grounded and consistent within D044. Bhattathiri in S010 follows the selected older clean-shaven reference hash ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3. For Balarama age/scale, canonical D044 verses 44-3 and 44-6 say only elder brother; use D044 S003 as a weak scene-scale cue showing two very young children and do not infer a precise gap. D044 S006 shows Krishna only and does not establish Balarama age. Keep him toddler-scale, not school-age.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d044-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "garga-muni",
+        "nandagopan",
+        "infant-krishna"
+      ],
+      "scene_brief": {
+        "mode": "garga-assures-nanda",
+        "must_show": [
+          "Garga assures Nanda that those who love the child will not again be deluded into worldly grief.",
+          "He warns that one who acts with hostility toward the child will perish.",
+          "Show the teaching as a composed conversation, not a literal demon battle."
+        ],
+        "composition": "Garga addresses Nanda while the infant rests safely nearby; calm protective space and a clear listening gesture carry the meaning.",
+        "tone": "assuring, grave, protective",
+        "avoid": [
+          "demon combat tableau",
+          "graphic threat",
+          "additional named characters",
+          "readable text",
+          "extra limbs",
+          "melodrama"
+        ],
+        "source_summary": "Garga explains the protection and peril associated with loving or opposing Nanda’s son."
+      },
+      "alt": "Garga explains the protection and peril associated with loving or opposing Nanda’s son.",
+      "reference_paths": [
+        "intake/D044/007.jpg",
+        "artifacts/d044/references/series-style-anchor-D001-S004.png",
+        "artifacts/d044/references/series-style-anchor-D001-S008.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+        "artifacts/d044/references/infant-krishna-anchor-v004.png"
+      ],
+      "reference_guidance": "The numbered D044 image is a user-supplied story/composition cue only; do not copy its rendering, extra figures, or unsupported iconography. Use the two D001 images for matte mural rendering only. Use Guruvayurappan solely for infant Krishna identity vocabulary with age adaptation; ordinary infant scenes show two naturally attached arms. Use the checked shared infant working anchor once relayed. Garga Muni and Nandagopan have no approved character sheets; keep them source-grounded and consistent within D044. Bhattathiri in S010 follows the selected older clean-shaven reference hash ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d044-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "garga-muni",
+        "nandagopan",
+        "infant-krishna"
+      ],
+      "scene_brief": {
+        "mode": "garga-predicts-future-glory",
+        "must_show": [
+          "Garga predicts that Krishna will conquer many asuras.",
+          "He says Krishna will lead his own kin to an immaculate state and that Nanda will hear of his pure fame.",
+          "Keep the prediction as Garga’s spoken assurance; avoid a collage of separate future episodes."
+        ],
+        "composition": "Garga and listening Nanda in the foreground, with a single distant path through a calm landscape suggesting protection and a pure destination.",
+        "tone": "hopeful, expansive, composed",
+        "avoid": [
+          "battle collage",
+          "visible defeated bodies",
+          "multiple Krishnas",
+          "battle weapons foreground",
+          "lettering",
+          "cinematic beam"
+        ],
+        "source_summary": "Garga describes Krishna’s future victories, his kin’s safe spiritual destination, and his spotless fame."
+      },
+      "alt": "Garga describes Krishna’s future victories, his kin’s safe spiritual destination, and his spotless fame.",
+      "reference_paths": [
+        "intake/D044/008.jpg",
+        "artifacts/d044/references/series-style-anchor-D001-S004.png",
+        "artifacts/d044/references/series-style-anchor-D001-S008.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+        "artifacts/d044/references/infant-krishna-anchor-v004.png"
+      ],
+      "reference_guidance": "The numbered D044 image is a user-supplied story/composition cue only; do not copy its rendering, extra figures, or unsupported iconography. Use the two D001 images for matte mural rendering only. Use Guruvayurappan solely for infant Krishna identity vocabulary with age adaptation; ordinary infant scenes show two naturally attached arms. Use the checked shared infant working anchor once relayed. Garga Muni and Nandagopan have no approved character sheets; keep them source-grounded and consistent within D044. Bhattathiri in S010 follows the selected older clean-shaven reference hash ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d044-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "garga-muni",
+        "vasudeva"
+      ],
+      "scene_brief": {
+        "mode": "garga-counsels-vasudeva",
+        "must_show": [
+          "Garga counsels Vasudeva to remain firm, saying this child alone will carry them across every difficulty.",
+          "The sage praises Krishna without explicitly saying “He is Hari.”",
+          "Keep the counsel private and direct; do not stage an unrelated prison scene."
+        ],
+        "composition": "A two-person intimate counsel; Garga speaks steadily and Vasudeva listens with hope, within a restrained domestic or shaded meeting space.",
+        "tone": "trusting, solemn, intimate",
+        "avoid": [
+          "prison chains unless source cue requires them",
+          "royal court",
+          "visible quotation or text",
+          "third speaker",
+          "battle montage",
+          "gloss"
+        ],
+        "source_summary": "Garga reassures Vasudeva that through this child they will cross every hardship, without openly naming him Hari."
+      },
+      "alt": "Garga reassures Vasudeva that through this child they will cross every hardship, without openly naming him Hari.",
+      "reference_paths": [
+        "intake/D044/009.jpg",
+        "artifacts/d044/references/series-style-anchor-D001-S004.png",
+        "artifacts/d044/references/series-style-anchor-D001-S008.png"
+      ],
+      "reference_guidance": "The numbered D044 image is a user-supplied story/composition cue only; do not copy its rendering, extra figures, or unsupported iconography. Use the two D001 images for matte mural rendering only. Use the common provisional D042-D044 adult cast cues in data/d044-production/shared-supporting-cast-handoff.json whenever Nandagopan or Yashoda appears; preserve their shared face, hair, age and clothing markers while following this stanza’s source-grounded action. Garga Muni follows D044-local provisional continuity; Nandagopan uses the common provisional D042-D044 identity cues in data/d044-production/shared-supporting-cast-handoff.json. Bhattathiri in S010 follows the selected older clean-shaven reference hash ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3. The legacy Vasudeva bible points to the unavailable D038/c002 image; do not treat those missing bytes as available. Use this stanza’s own supplied D044/009.jpg as the source-specific visual cue for Vasudeva, with his existing Bible text for continuity.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d044-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "gopas",
+        "infant-krishna",
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "after-gargas-departure-and-closing-prayer",
+        "must_show": [
+          "After Garga leaves, Nanda and the gopas rejoice and care tenderly for Krishna.",
+          "In the closing prayer, the older clean-shaven Bhattathiri prays to Guruvayurappan for release from affliction.",
+          "Preserve the selected older Bhattathiri identity; he is not Garga.",
+          "Bring the episode’s household and the poet’s prayer together as one coherent mural field, not separate panels."
+        ],
+        "composition": "Wide continuous scene: a foreground devotional exchange between Bhattathiri and Guruvayurappan anchors the prayer, while the warm household care of infant Krishna by Nanda and a small group of gopas occupies a connected background/side plane.",
+        "tone": "tender, compassionate, peaceful closure",
+        "avoid": [
+          "Garga still present",
+          "young or bearded Bhattathiri",
+          "duplicate Krishna",
+          "collage borders",
+          "legible text",
+          "glossy divine rays",
+          "unrelated modern furnishings"
+        ],
+        "source_summary": "After Garga departs, Nanda and the gopas lovingly care for Krishna; Bhattathiri asks Guruvayurappan to dispel his affliction."
+      },
+      "alt": "After Garga departs, Nanda and the gopas lovingly care for Krishna; Bhattathiri asks Guruvayurappan to dispel his affliction.",
+      "reference_paths": [
+        "intake/D044/010.jpg",
+        "artifacts/d044/references/bhattathiri-older-selected-reference.png",
+        "artifacts/d044/references/guruvayurappan-approved-character-reference.png",
+        "artifacts/d044/references/infant-krishna-anchor-v004.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "The D044 S010 image is a user-supplied story/composition cue only; do not copy its rendering or unsupported iconography. Use the exact shared infant identity anchor artifacts/d044/references/infant-krishna-anchor-v004.png (SHA-256 02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d), independently passed as provisional identity reference only. Use the common provisional D042-D044 adult identity cue artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg (SHA-256 1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f) for Nandagopan; preserve his shared face, hair, age and clothing cues. Use the selected older clean-shaven Bhattathiri reference SHA-256 ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3 and the approved Guruvayurappan identity reference SHA-256 d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b. The five-reference native-call limit is met by the scene photo and the four identity refs; follow the written D044 matte temple-mural style using broad mineral fields, firm contours, shallow space and no gloss. The household and prayer must remain one continuous mural field without panels. No human master or stanza-art approval is implied.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; do not crop from another orientation. Keep all needed faces and hands comfortably inside the frame."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "mobile, downloadable page, cover, or portrait book page",
+          "composition_override": "Portrait is outside this D044 production task; do not manufacture it by cropping the landscape candidate."
+        }
+      }
+    }
+  ]
+}

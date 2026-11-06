@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "daskam_id": 44,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-05",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-44-in-sanskrit/",
+      "retrieval_note": "Ten Devanagari verses (44-1 through 44-10) transcribed from Stotra Nidhi; retained for editorial comparison and still needs editorial review."
+    },
+    {
+      "role": "romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-44-in-english/",
+      "retrieval_note": "Ten IAST verses (44-1 through 44-10) transcribed from the matching English/IAST page; source-specific diacritics retained and needs editorial review."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired"
+    },
+    {
+      "role": "commentary",
+      "url": "https://drive.google.com/file/d/1-_xkHqzfcAWmLGjPuS6nCvjr0bSiXF50/view?usp=drive_web",
+      "local_path": "content/sources/d044/photo-captions.txt",
+      "status": "user-supplied English scene commentary preserved verbatim; not treated as Sanskrit or canonical translation"
+    }
+  ],
+  "intake_manifest": "content/sources/d044/intake-manifest.json",
+  "intake_manifest_sha256": "9c61df5d31006e1297a779854d46be42845d0be320d2498670362874c9d87033",
+  "commentary_sha256": "4d89a5ae9fe3ee2c83b0c3faed39cc9f3592530d444e79f14846d9233cb8c9af",
+  "reference_map": "content/sources/d044/reference-map.json",
+  "note": "The supplied Drive document contains ten English scene-commentary captions, not Sanskrit or an authorized English translation. Numbered images 001–010 map to captions and canonical verses 1–10. Raw originals remain under intake/D044/ and their hashes are recorded in reference-map.json. The source manifest’s original_name field contains the full commentary body plus a .txt suffix; this provenance uses the actual document title, Dasakam 44, and keeps the commentary bytes unchanged."
+}
