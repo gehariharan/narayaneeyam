@@ -281,6 +281,26 @@ assert.equal((await feedback(req({...good,daskam:44,sloka:10}),env)).status,201)
 assert.equal((await feedback(req({...good,daskam:44,sloka:11}),env)).status,400);
 console.log('Passed: D044 has ten source-mapped rows, pinned references and unapproved landscape candidates, and stanza-bounded feedback.');
 
+const full31=data.chapters.find(c=>c.id===31);assert.ok(full31);assert.deepEqual(full31.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content31=JSON.parse(await fs.readFile(new URL('../../content/daskams/d031.json',import.meta.url)));
+const selected31=JSON.parse(await fs.readFile(new URL('../../art/batches/d031-comparison-v001.json',import.meta.url)));
+assert.equal(selected31.rows.length,10);assert.equal(selected31.review_status,'needs-review');assert.ok(full31.reviewNotice.includes('unapproved'));
+for(const row of full31.rows){
+ const stanza=content31.stanzas.find(s=>s.n===row.n);assert.equal(row.commentarySource,stanza.commentary_source);assert.equal(row.commentary,stanza.commentary_en);
+ const selected=selected31.rows.find(r=>r.n===row.n);assert.ok(selected);
+ const refs=selected.references||[selected.reference];
+ assert.equal(row.images.length,refs.length+1);
+ assert.deepEqual(row.images.slice(0,refs.length).map(i=>i.role),Array(refs.length).fill('reference'));
+ for(let i=0;i<refs.length;i++)assert.equal(provenance.find(p=>p.key===row.images[i].key).sourceHash,refs[i].sha256);
+ assert.equal(provenance.find(p=>p.key===row.images.at(-1).key).sourceHash,selected.matte.sha256);
+ assert.equal(row.images.at(-1).role,'matte');
+}
+assert.equal(full31.rows.find(r=>r.n===9).images.filter(i=>i.role==='reference').length,2);
+assert.equal(selected31.rows.find(r=>r.n===6).matte.version,'v004');assert.equal(selected31.rows.find(r=>r.n===7).matte.version,'v002');assert.equal(selected31.rows.find(r=>r.n===9).matte.version,'v002');
+assert.equal((await feedback(req({...good,daskam:31,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:31,sloka:11}),env)).status,400);
+console.log('Passed: D031 has ten caption-mapped rows, both S009 references, pinned unapproved landscape candidates, and stanza-bounded feedback.');
+
 async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {}, staleResponses = {} } = {}) {
  const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);
  for(const chapter of fixtureData.chapters)if(!missingRoutes.includes(chapter.id)){const route=`/narayaneeyam/${chapterSlug(chapter.id)}`;pages.set(route,pageOverrides[chapter.id]??renderChapter(chapter,fixtureData.revision,'/narayaneeyam/',true,fixtureData.chapters));}
