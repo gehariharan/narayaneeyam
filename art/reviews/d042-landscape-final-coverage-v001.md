@@ -34,3 +34,14 @@
 ## Merge with main (D044)
 
 Main `7f7b78c5b311cb127702344f045f25204093a4c2` was merged into this branch with an ordinary three-way merge; no D042 fix commit was rewritten. The resolution keeps both chapters' upload steps, batch files and README sections. `art/reviews/visual-reviews.json` contains the 160 base records unchanged, the 14 D042 records and the 10 D044 records. The `gopas` and `nandagopan` contracts are main's bytes, so every D044 record's contract hashes still match.
+
+## Merged D044 files
+
+I read the D044 files brought in by the merge after the merge. Their bytes are unchanged from main, and they are consistent:
+
+- `art/approved/d044.json` lists every stanza's landscape and portrait as `missing` (`unapproved-candidates-only`).
+- Every character id in `art/plans/d044.json` has a contract. The ids are `balarama`, `garga-muni`, `gopas`, `nandagopan`, `vasudeva`, `infant-krishna`, `guruvayurappan` and `bhattathiri`.
+- The ten reference hashes in `art/batches/d044-comparison-v001.json` match `content/sources/d044/reference-map.json`.
+- `content/daskams/d044.json` copies each caption verbatim from `content/sources/d044/photo-captions.txt`, whose hash matches the intake manifest and provenance. Translations are empty, and all ten stanzas are `needs-review`.
+- The ten D044 review records in `art/reviews/visual-reviews.json` each `pass` for the selected hash. Every contract and report hash in them matches the current files, including the shared `gopas` and `nandagopan` contracts. Each of the ten `art/reviews/d044-s0NN-*` reports records no defects and states that it is not art approval.
+- The fourteen D042 records also bind current contract and report hashes. Their selected versions pass, and the superseded needs-fix and uncertain records are preserved.
