@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "daskam_id": 64,
+  "slug": "d064",
+  "continuity": {
+    "anchor_character": "krishna-cowherd-youth",
+    "recurring_characters": ["Krishna", "Nandagopan", "Gokula cowherds", "Indra"],
+    "locations": ["Vraja gathering", "Gokula", "Yamuna river", "Varuna's underwater court", "Vaikuntha"],
+    "narrative_arc": "The cowherds ask about Krishna's birth and hear Garga's prophecy; humbled Indra and Surabhi honor Krishna as Govinda; Gokula prospers; Krishna retrieves Nanda from Varuna and reveals Vaikuntha to the cowherds before the closing praise.",
+    "krishna_form_contract": "Use the provisional D062 youthful cowherd identity: one youthful, deep-blue, two-armed and two-legged Krishna, with restrained peacock feather, yellow dhoti and muted red-orange upper cloth. No infant face. Krishna remains in cowherd form in every scene. In stanza 8 Vaikuntha is a revealed realm around him, not a second Krishna body; do not add arms or attributes to the cowherd figure.",
+    "supporting_people_contract": "Nandagopan is a mature, moustached cowherd in simple cream and muted olive/green clothing. Gopas are a small group of individually distinct, naturally proportioned people. All ordinary people have two arms and two legs with connected hands and feet. Keep faces, limbs and clothing distinct; no clones, fused bodies or detached parts.",
+    "deity_contracts": {
+      "indra": "Indra is an adult male deity with one head and two arms, a modest painted-ochre crown, simple muted celestial garments and no peacock feather. Bowing and ritual actions must have connected natural hands. No thunderbolt unless explicitly required by a stanza; it is not required here.",
+      "surabhi": "Surabhi is one coherent sacred cow with natural bovine anatomy and four legs; she is distinct from Airavata.",
+      "airavata": "Airavata is one coherent pale elephant with natural elephant anatomy, four legs and a connected trunk; no extra heads or limbs.",
+      "varuna": "Varuna is a calm adult water deity with one head and two arms, a simple painted crown and muted water-toned garments; do not add unsupported weapons or additional arms. His attendants are not needed."
+    },
+    "rendering_references": [
+      {"path": "artifacts/d064/references/shared/style-d001-s004.png", "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d", "role": "series rendering and palette anchor"},
+      {"path": "artifacts/d064/references/shared/style-d001-s008.png", "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995", "role": "series rendering and palette anchor"}
+    ],
+    "krishna_continuity_reference": {"path": "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png", "sha256": "62a7d34dd1db98ef201c2b049ce295108d95f152b44cbb22daa9c65c681f0dbf", "role": "provisional youthful Krishna identity cue only; D062 candidate is not an approved master and must not dictate pose, scene, framing or finish"},
+    "palette_contract": "Flat, opaque matte South Indian temple-mural painting with broad mineral fields and firm dark drawn contours; warm cream, earth ochre, deep maroon, muted olive and deep blue Krishna. Painted ochre ornament only. No glossy skin, reflective metallic gold, silk sheen, cinematic beams, outer border, text or texture overlay.",
+    "reference_roles": "Each numbered D064 photo is a mapped scene/cast reference only, not a rendering reference. The two D001 images anchor rendering only. The D062 S006 candidate anchors provisional Krishna identity only; it is not approved and its pose/composition must not be copied.",
+    "production_scope": "Prepare ten native landscape 16:9 concepts. Portrait compositions remain paused. No art approval or master assignment is made by this plan."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d064-s001",
+      "characters": ["krishna-cowherd-youth", "nandagopan", "gopas"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "A small gathering of cowherds asks Nandagopan about Krishna's birth and horoscope after witnessing his extraordinary deeds.",
+          "Krishna stands calmly among the group as their subject, while Nanda listens and the gopas look toward him; use a quiet Vraja courtyard, with no readable chart, writing or infant Krishna."
+        ],
+        "composition": "Compose a clear triangular conversation with Nandagopan and two or three distinct gopas facing one youthful Krishna; keep hands visible and the courtyard sparse.",
+        "tone": "Curious, intimate and reverent; the villagers' question turns toward recognition of Krishna's greatness.",
+        "avoid": ["No Govardhana lifting scene, infant Krishna, repeated Krishna, horoscope marks or text.", "No extra or detached limbs, fused people, cloned faces, wrong costume, glossy finish, metallic gold, cinematic light or border."]
+      },
+      "alt": "The cowherds ask Nandagopan about Krishna's birth and horoscope.",
+      "reference_paths": ["intake/D064/001.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "D064/001 anchors the mapped question and cast only. D001 images anchor matte rendering. D062 S006 anchors Krishna's provisional youthful identity only. Compose a new scene.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape narrative mural", "composition_override": "Compose a full native 16:9 scene with safe space around every face, hand and foot; do not crop another orientation."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d064-s002",
+      "characters": ["krishna-cowherd-youth", "nandagopan", "gopas"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Nandagopan shares with the cowherds what Garga had foretold about Krishna's greatness, and their affection and respect deepen.",
+          "Show Nanda speaking to a small distinct group while youthful Krishna is present nearby as himself; suggest Garga's remembered prophecy through attentive listening, not a ghostly Garga or a second infant Krishna."
+        ],
+        "composition": "A warm village gathering around seated or standing Nanda, with two or three varied listeners and Krishna clearly identifiable but not duplicated; no written prophecy.",
+        "tone": "Warm trust and growing reverence, kept personal and restrained.",
+        "avoid": ["No infant Krishna, visible horoscope, readable prophecy, duplicate Krishna, or extra sage in the scene.", "No clones, fused anatomy, extra fingers, detached hands, gloss, metallic gold, cinematic lighting or border."]
+      },
+      "alt": "Nandagopan recounts Garga's prophecy about Krishna to the cowherds.",
+      "reference_paths": ["intake/D064/002.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "Use the numbered photo for the caption-mapped narration and cast only; D001 images set style; D062 S006 supplies provisional Krishna identity only. Do not depict Krishna as an infant.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape narrative mural", "composition_override": "Compose a new full 16:9 landscape scene; keep all faces and hands inside the frame."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d064-s003",
+      "characters": ["krishna-cowherd-youth", "d064-indra", "d064-surabhi"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Humbled Indra arrives with the divine cow Surabhi, bows so his crown touches Krishna's feet, and praises him.",
+          "Show one youthful Krishna standing quietly, one distinct two-armed Indra bowing, and one coherent sacred cow beside him; keep the bow, crown, feet and hands anatomically connected."
+        ],
+        "composition": "Set the respectful bow at the foreground with Surabhi clearly visible nearby; keep Krishna's full two-armed cowherd form and the single-headed Indra legible.",
+        "tone": "Humble apology and quiet divine dignity, without spectacle.",
+        "avoid": ["No extra arms on Krishna or Indra, no duplicate Krishna, no peacock feather on Indra, no extra cow heads or limbs, and no thunderbolt.", "No malformed bow, fused bodies, extra fingers, glossy skin, reflective gold, cinematic light or text."]
+      },
+      "alt": "Humbled Indra bows before Krishna with the divine cow Surabhi.",
+      "reference_paths": ["intake/D064/003.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "D064/003 is scene context. D001 is rendering reference. D062 S006 is only a provisional Krishna identity cue; use the D064 scene-specific Indra and Surabhi contracts.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape narrative mural", "composition_override": "Compose the full action in a new 16:9 landscape with clear space around the bowed figure and cow."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d064-s004",
+      "characters": ["krishna-cowherd-youth", "d064-indra", "d064-surabhi", "d064-airavata"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Surabhi lovingly performs an abhisheka over Krishna with a stream of milk, naming him Govinda; Airavata brings Ganga water and Indra joyfully joins the consecration.",
+          "Show one Krishna with exactly two arms, one coherent cow, one distinct elephant and one two-armed Indra; keep each ritual stream visibly connected to its source and recipient."
+        ],
+        "composition": "Center Krishna beneath a simple abhisheka vessel or clear stream of milk from Surabhi; place Airavata to one side with Ganga water and Indra performing a separate respectful offering. Avoid crowding the animals together.",
+        "tone": "Joyful and sacred, with calm ritual clarity.",
+        "avoid": ["No extra limbs or heads, no fused cow and elephant, no Krishna duplication, no disconnected water, and no unsupported Varuna or additional deities.", "No metallic gold, gloss, cinematic beams, text, border or distorted anatomy."]
+      },
+      "alt": "Surabhi and Indra perform Krishna's Govinda abhisheka with milk and Ganga water.",
+      "reference_paths": ["intake/D064/004.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "The D064 image anchors the mapped ritual. D001 references define rendering; D062 S006 anchors Krishna identity only. Keep Surabhi and Airavata separate and anatomically coherent.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape ritual mural", "composition_override": "Recompose the entire abhisheka for 16:9; preserve clear separations between Krishna, cow and elephant."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d064-s005",
+      "characters": ["krishna-cowherd-youth", "nandagopan", "gopas"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "After Krishna's consecration, Gokula flourishes with a prosperity compared to Vaikuntha, beyond even heavenly wealth.",
+          "Show peaceful Gokula life: healthy cattle, a fertile pasture, well-kept homes and a small group of grateful cowherds with Krishna among them; keep prosperity grounded in the village rather than literal piles of gold."
+        ],
+        "composition": "Use a broad, balanced village landscape with Krishna and a few distinct cowherds as a modest focal group, surrounded by healthy cattle and cultivated greenery.",
+        "tone": "Abundant, peaceful and devotional.",
+        "avoid": ["No palace replacing Gokula, no heaps of treasure, no second Krishna, no cloned cattle or repeated villagers.", "No extra limbs, fused people, glossy finish, metallic gold, cinematic light, text or outer border."]
+      },
+      "alt": "Gokula prospers through Krishna's grace after the Govinda abhisheka.",
+      "reference_paths": ["intake/D064/005.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "Use the D064 photo for scene context only. D001 references anchor rendering and the D062 candidate anchors Krishna identity only; compose a distinct village view.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape village mural", "composition_override": "Build a spacious new 16:9 village composition with all people and cattle fully connected and inside the frame."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d064-s006",
+      "characters": ["krishna-cowherd-youth", "nandagopan"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "At dawn, a servant of Varuna takes Nandagopan from the Yamuna; Krishna goes in human cowherd form to Varuna's underwater city to retrieve his father.",
+          "Show the rescue journey at the threshold of a stylized underwater court: youthful Krishna arrives and finds Nanda safely escorted, without showing violence or turning Krishna into a multi-armed deity."
+        ],
+        "composition": "Frame Krishna and Nanda clearly in a shallow, symbolic underwater palace with a few aquatic motifs; if the servant is included, show one distinct two-armed attendant at a respectful distance.",
+        "tone": "Protective and otherworldly, but calm rather than threatening.",
+        "avoid": ["No kidnapping violence, drowning, monster anatomy, duplicated Krishna or Nanda, extra limbs, or detached hands.", "No infant face, glossy water reflections, cinematic beams, metallic gold, text or border."]
+      },
+      "alt": "Krishna enters Varuna's underwater realm to bring Nandagopan home.",
+      "reference_paths": ["intake/D064/006.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "D064/006 supplies the mapped Yamuna-to-Varuna rescue context. D001 images set matte style; D062 S006 cues Krishna identity only. Keep the underwater court symbolic and the figures natural.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape narrative mural", "composition_override": "Compose a full new 16:9 underwater-realm scene; keep silhouettes, faces and hands separated from the background."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d064-s007",
+      "characters": ["krishna-cowherd-youth", "nandagopan", "d064-varuna", "gopas"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Varuna receives Krishna respectfully, apologizes for his servant's mistake, and Krishna returns home with Nanda; Nanda then tells the cowherds what happened.",
+          "Focus on Varuna honoring Krishna with Nanda beside him, while the visual path or doorway implies their return to Gokula; do not create a second Nanda or Krishna to show the later narration."
+        ],
+        "composition": "Arrange one two-armed Varuna in respectful welcome, Krishna and Nanda together in the foreground, with a simple water-court threshold and a small distant suggestion of Gokula; no extra attendants are needed.",
+        "tone": "Apology, relief and reunion.",
+        "avoid": ["No duplicate figures used as sequential panels, no four-armed Varuna, no extra limbs, fused people, detached hands, or crowd of clones.", "No infant Krishna, glossy skin, reflective gold, cinematic light, text or border."]
+      },
+      "alt": "Varuna apologizes as Krishna returns with Nandagopan from the water realm.",
+      "reference_paths": ["intake/D064/007.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "Use D064/007 for the caption-mapped apology and return. D001 images establish rendering; D062 S006 is only a Krishna identity cue. Use Varuna's D064 two-arm contract.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape narrative mural", "composition_override": "Compose a new 16:9 scene with the apology and safe return readable without duplicated sequential figures."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d064-s008",
+      "characters": ["krishna-cowherd-youth", "gopas"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural devotional vision",
+        "must_show": [
+          "The cowherds, convinced Krishna is Hari, long to see his supreme abode; Krishna reveals Vaikuntha to them.",
+          "Show one youthful two-armed Krishna in cowherd dress opening a clear vision of Vaikuntha around a small distinct group of gopas; if a Vishnu form appears within the vision, depict it as a separate, clearly framed four-armed deity with one head and the traditional conch, discus, mace and lotus, never as extra arms attached to Krishna."
+        ],
+        "composition": "Place Krishna and the gopas in a grounded Vraja foreground with a luminous but matte, shallow-space Vaikuntha vision opening behind or above them; preserve separation between the cowherd Krishna and any distinct Vishnu icon.",
+        "tone": "Wonder, intimacy and serene revelation.",
+        "avoid": ["No extra limbs on Krishna, no fused Krishna-Vishnu body, no second cowherd Krishna, no cloned gopas, and no uncontrolled beams or glossy glow.", "No text, metallic gold, cinematic lighting, outer border or malformed deity attributes."]
+      },
+      "alt": "Krishna reveals the supreme abode of Vaikuntha to the longing cowherds.",
+      "reference_paths": ["intake/D064/008.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "D064/008 gives scene and cast context; D001 references define the matte temple mural; D062 S006 is a provisional identity cue for cowherd Krishna only. Vaikuntha may be represented symbolically. Any separate Vishnu icon has its own four-armed anatomy.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape revelation mural", "composition_override": "Compose a fresh wide 16:9 revelation; keep the earthly group, Krishna and any distinct Vaikuntha icon visually separate."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d064-s009",
+      "characters": ["krishna-cowherd-youth", "gopas"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural symbolic vision",
+        "must_show": [
+          "The cowherds remain immersed for a long time in an immense ocean of bliss and liberation, and Krishna himself brings them back.",
+          "Represent the ocean as a calm, symbolic field of flowing matte cream and deep-blue water or lotus forms; show one small group of gopas safely immersed and one connected Krishna gently guiding them back to the shore of awareness."
+        ],
+        "composition": "Use a broad, shallow symbolic ocean with the gopas grouped distinctly and Krishna at the transition between blissful vision and the familiar world; avoid underwater realism.",
+        "tone": "Deep bliss resolving gently into awareness and companionship.",
+        "avoid": ["No drowning, distress, faceless submerged figures, cloned gopas, duplicate Krishna, fused bodies, or floating detached limbs.", "No glossy reflections, cinematic light, metallic gold, text, border or photoreal water."]
+      },
+      "alt": "Krishna brings the cowherds back from the blissful ocean of liberation.",
+      "reference_paths": ["intake/D064/009.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "The numbered D064 reference guides the blissful immersion scene. D001 images are rendering anchors; D062 S006 provides Krishna identity only. Treat the ocean symbolically and keep people distinct and safe.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape symbolic mural", "composition_override": "Recompose the symbolic ocean scene for a new 16:9 frame with clear boundaries and visible connected figures."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d064-s010",
+      "characters": ["krishna-cowherd-youth"],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural devotional portrait",
+        "must_show": [
+          "The closing verse praises the rare gift of seeing the otherwise inaccessible Vaikuntha through Krishna's cowherd incarnation and prays for protection from afflictions.",
+          "Show Krishna as a serene youthful cowherd, deep blue and two-armed, with a restrained Vaikuntha motif close by to suggest the revealed abode; keep the focus on this chapter's closing praise rather than inventing a new narrative event."
+        ],
+        "composition": "Give Krishna a calm central presence in a quiet Vraja setting, with a subtle symbolic Vaikuntha opening and ample clean negative space; no other person is needed.",
+        "tone": "Quiet gratitude, awe and devotional trust.",
+        "avoid": ["Do not depict Bhattathiri; he is not needed to communicate this verse. No infant face, duplicate Krishna, unsupported narrative action, extra limbs, or fused forms.", "No text, signature, logo, watermark, glossy skin, reflective gold, cinematic beams or outer border."]
+      },
+      "alt": "The closing praise honors Krishna's cowherd form and the revealed Vaikuntha.",
+      "reference_paths": ["intake/D064/010.jpg", "artifacts/d064/references/shared/style-d001-s004.png", "artifacts/d064/references/shared/style-d001-s008.png", "artifacts/d064/references/shared/d062-s006-landscape-candidate-v001.png"],
+      "reference_guidance": "Use D064/010 as caption-mapped closing praise context, not as a source of additional characters. D001 anchors style; D062 S006 is a provisional youth identity cue only.",
+      "orientations": {
+        "landscape": {"aspect_ratio": "16:9", "composition_role": "native landscape closing devotional mural", "composition_override": "Compose a new, calm 16:9 closing image with Krishna's full figure and symbols inside the frame."},
+        "portrait": {"aspect_ratio": "4:5", "composition_role": "portrait deferred", "composition_override": "Portrait production is paused; do not generate a companion in this batch."}
+      }
+    }
+  ]
+}
