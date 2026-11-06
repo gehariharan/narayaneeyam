@@ -1,0 +1,608 @@
+{
+  "schema_version": 1,
+  "daskam_id": 32,
+  "slug": "d032",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "matsya",
+    "recurring_characters": [
+      "Matsya",
+      "Satyavrata",
+      "Saptarishis",
+      "Hayagriva",
+      "Vasuki"
+    ],
+    "locations": [
+      "river and Satyavrata’s hermitage",
+      "river mouth and ocean",
+      "pralaya flood and Earth-boat",
+      "cosmic waters",
+      "restored world after the pralaya"
+    ],
+    "narrative_arc": "Hayagriva steals the Vedas; Satyavrata shelters the growing fish; the pralaya brings Satyavrata and seven sages to an Earth-boat; Matsya guides them and teaches; the sages return, Satyavrata becomes Manu, Hayagriva is defeated and the Vedas return to Brahma.",
+    "rendering_references": [
+      "artifacts/d032/references/shared/style-d001-s004.png",
+      "artifacts/d032/references/shared/style-d001-s008.png"
+    ],
+    "identity_references": {
+      "brahma_contract": "art/bible/characters/brahma/character.json; contract-only because the approved sheet bytes are absent from this checkout",
+      "matsya": "chapter-scoped D032 scene contract; fish-form, not Guruvayurappan’s humanoid identity"
+    },
+    "portrait_scope": "paused; landscape only per task scope. Portrait plans are retained but no portrait image will be generated.",
+    "notes": "Accepted stanza map: 001→1, 002→2, 003+004→3, 005→4, 006→5, 007→6, 008→7, 009→8, 010→9, 011+012→10. Photos 013–014 are documentary text extras kept in intake and excluded from stanza attribution. Caption anchors are numbered #1–#10, not photo filenames; captions are supplied commentary and not translations."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d032-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "brahma",
+        "hayagriva"
+      ],
+      "reference_paths": [
+        "intake/D032/001.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "001.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#1",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "The Vedas are stolen from the sleeping Brahma",
+        "must_show": [
+          "Brahma sleeps on a lotus, with the approved four-head/four-arm iconography: four heads total, three faces visible from the front, and four distinct attached arms.",
+          "The single horse-headed Hayagriva takes a closed palm-leaf Veda bundle from beside Brahma.",
+          "A deep ocean and a small fish-form Matsya presence foreshadow the recovery; do not depict a humanoid Krishna."
+        ],
+        "composition": "A wide narrative progression: lotus and sleeping Brahma at left; the theft is central; dark ocean with one small fish at right. Keep all hands, manuscript and bodies fully attached and legible.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No readable writing on the Vedas.",
+          "No gore, extra limbs, duplicate bodies, glossy rendering or outer border."
+        ]
+      },
+      "alt": "Sleeping Brahma and Hayagriva’s Veda theft above the deep ocean foreshadow Matsya",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "A wide narrative progression: lotus and sleeping Brahma at left; the theft is central; dark ocean with one small fish at right. Keep all hands, manuscript and bodies fully attached and legible.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d032/s001/landscape/v003/candidate.png",
+          "prompt_path": "artifacts/d032/s001/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "c6ac76226af840b9334b07a192527b5c6e14d4e8064b17821c9dd7787dc98160"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    },
+    {
+      "n": 2,
+      "concept_id": "d032-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "satyavrata",
+        "matsya"
+      ],
+      "reference_paths": [
+        "intake/D032/002.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "002.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#2",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "Satyavrata sees the tiny fish in his joined palms",
+        "must_show": [
+          "One Satyavrata kneels at the river edge while performing tarpaṇa.",
+          "Both naturally attached hands are cupped together and hold one tiny fish.",
+          "The fish is a small natural fish, radiant but not humanoid."
+        ],
+        "composition": "A river flows horizontally; Satyavrata stands left of center while his joined palms and the tiny fish draw attention at right-center. Keep both hands fully visible.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No duplicate sage or fish.",
+          "No extra hands, peacock feather, readable text, glossy light or copied source framing."
+        ]
+      },
+      "alt": "Satyavrata finds a tiny luminous fish in his joined palms at the river",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "A river flows horizontally; Satyavrata stands left of center while his joined palms and the tiny fish draw attention at right-center. Keep both hands fully visible.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d032/s002/landscape/v001/candidate.png",
+          "prompt_path": "artifacts/d032/s002/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "c2b4e2b4515cae548c46861fe35d327bcd283a7d2da20e8c3975e8b26320df0a",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    },
+    {
+      "n": 3,
+      "concept_id": "d032-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "satyavrata",
+        "matsya"
+      ],
+      "reference_paths": [
+        "intake/D032/003.jpg",
+        "intake/D032/004.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "003.jpg",
+        "004.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#3",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "The fish outgrows each vessel",
+        "must_show": [
+          "Show one coherent progression from water pot to well to pond to broad river.",
+          "The same fish grows visibly across each stage; the same Satyavrata appears once and guides it.",
+          "Do not clone the sage or imply four separate fish."
+        ],
+        "composition": "A left-to-right flow connects the four water settings in shallow bands, ending with the large fish in open river. Satyavrata appears once at the transition to the river.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No separate duplicate sage/fish.",
+          "No floating hands or unconnected vessels; no text, gloss or border."
+        ]
+      },
+      "alt": "The same fish grows beyond the pot, well and pond into the river",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "A left-to-right flow connects the four water settings in shallow bands, ending with the large fish in open river. Satyavrata appears once at the transition to the river.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d032/s003/landscape/v001/candidate.png",
+          "prompt_path": "artifacts/d032/s003/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "7c17e47935aed8bdb94d94a8b74e9243dfaf8ab2075faa5959852d51698db178",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    },
+    {
+      "n": 4,
+      "concept_id": "d032-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "satyavrata",
+        "matsya"
+      ],
+      "reference_paths": [
+        "intake/D032/005.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "005.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#4",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "Satyavrata takes Matsya to the ocean",
+        "must_show": [
+          "Satyavrata guides the great fish from a river mouth into the ocean.",
+          "Matsya turns and begins to disappear beneath the water after promising to return in seven days.",
+          "Seven small unlettered shore lamps may imply the waiting period."
+        ],
+        "composition": "A broad shore sweeps across the frame. Keep the sage near one side and the single fish receding under the horizon line; seven lamps are a tiny secondary cue.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No text, numerals or calendar.",
+          "No extra fish, accidental repeated sage, glossy highlights or border."
+        ]
+      },
+      "alt": "Satyavrata brings Matsya to the ocean and hears to wait seven days",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "A broad shore sweeps across the frame. Keep the sage near one side and the single fish receding under the horizon line; seven lamps are a tiny secondary cue.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d032/s004/landscape/v001/candidate.png",
+          "prompt_path": "artifacts/d032/s004/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "4e869699448e20c69f27bf989be55b0523d2636a1cf5a17c21f272a9f1ff943e",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    },
+    {
+      "n": 5,
+      "concept_id": "d032-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "satyavrata",
+        "saptarishis",
+        "matsya"
+      ],
+      "reference_paths": [
+        "intake/D032/006.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "006.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#5",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "The flood and refuge with the seven sages",
+        "must_show": [
+          "Exactly seven distinct sages and Satyavrata are together on one safe boat/raft.",
+          "Floodwater and rain cover the land; the group faces a distant Matsya in the water.",
+          "All figures are safely aboard, with natural connected limbs."
+        ],
+        "composition": "The water and rain fill most of the frame; the single boat sits low in the foreground and the immense fish remains distant.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No drowned or injured people.",
+          "No cloned sages, fused bodies, detached limbs or extra fish."
+        ]
+      },
+      "alt": "Satyavrata and seven sages seek shelter as floodwater covers the earth",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "The water and rain fill most of the frame; the single boat sits low in the foreground and the immense fish remains distant.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d032/s005/landscape/v002/candidate.png",
+          "prompt_path": "artifacts/d032/s005/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "24778c10e12126df51e0071661f824c9e2b0cd21bbb05ca323191c7904ab2f2d",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    },
+    {
+      "n": 6,
+      "concept_id": "d032-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "satyavrata",
+        "saptarishis",
+        "matsya"
+      ],
+      "reference_paths": [
+        "intake/D032/007.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "007.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#6",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "Earth becomes a boat and Matsya reappears",
+        "must_show": [
+          "One boat representing Earth carries Satyavrata and exactly seven distinct sages.",
+          "The boat rocks on turbulent water but remains stable under all occupants.",
+          "A huge fish form surfaces separately in open water beyond the boat."
+        ],
+        "composition": "The boat moves diagonally through rough water; Matsya surfaces near its bow with clear water separating boat and fish.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No island or globe replacing the boat.",
+          "No floating occupants, duplicated people, unconnected hands or extra fish."
+        ]
+      },
+      "alt": "Earth takes boat form for Satyavrata and the sages as the giant Matsya rises",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "The boat moves diagonally through rough water; Matsya surfaces near its bow with clear water separating boat and fish.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d032/s006/landscape/v002/candidate.png",
+          "prompt_path": "artifacts/d032/s006/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "0030abdc95c78eadab8317504e0a157d74688cadc851ce39eca91dc680095ed7",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    },
+    {
+      "n": 7,
+      "concept_id": "d032-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "satyavrata",
+        "saptarishis",
+        "matsya",
+        "vasuki"
+      ],
+      "reference_paths": [
+        "intake/D032/008.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "008.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#7",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "The sages tether the boat to Matsya’s horn",
+        "must_show": [
+          "Satyavrata and exactly seven distinct sages remain aboard the Earth-boat.",
+          "One continuous Vasuki serpent is visibly secured between the bow and Matsya’s single prominent horn.",
+          "The immense calm fish has one horn, and the serpent visibly touches both boat and horn."
+        ],
+        "composition": "Arrange boat, taut living-serpent tether and single horn as three clear connected points. Keep attachments visible and unobscured.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No detached coils or disconnected rope illusion.",
+          "Do not copy Adishesha multi-hood imagery; no attack posture, extra heads or limbs."
+        ]
+      },
+      "alt": "The sages secure the Earth-boat to Matsya’s horn using the serpent king Vasuki",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Arrange boat, taut living-serpent tether and single horn as three clear connected points. Keep attachments visible and unobscured.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d032/s007/landscape/v002/candidate.png",
+          "prompt_path": "artifacts/d032/s007/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "344dd31a40b315e6042d914a5879ca5c98c5c5496b83740baf42fa0f9cbfc6e7",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    },
+    {
+      "n": 8,
+      "concept_id": "d032-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "satyavrata",
+        "saptarishis",
+        "matsya",
+        "vasuki"
+      ],
+      "reference_paths": [
+        "intake/D032/009.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "009.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#8",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "Matsya guides the boat and teaches the sages",
+        "must_show": [
+          "Continue the same boat, Satyavrata, seven sages, single giant fish, horn and continuous Vasuki tether.",
+          "Matsya draws the boat through cosmic waters and reveals distant regions of the universe.",
+          "Satyavrata listens while the seven sages attend or sing; no readable text or symbols."
+        ],
+        "composition": "Matsya leads in a wide forward movement; the taut tether connects the trailing boat to the single horn, while restrained world-regions appear far over the water.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No discontinuity in the tether or character identities.",
+          "No duplicated group, written symbols, gloss or border."
+        ]
+      },
+      "alt": "Matsya guides the tethered boat while teaching Satyavrata and the sages",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Matsya leads in a wide forward movement; the taut tether connects the trailing boat to the single horn, while restrained world-regions appear far over the water.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d032/s008/landscape/v001/candidate.png",
+          "prompt_path": "artifacts/d032/s008/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "b67b098744e61cd641813c46e5bb9731d5779619aaa73884d6f0a7bd40a6b590",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    },
+    {
+      "n": 9,
+      "concept_id": "d032-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "satyavrata",
+        "saptarishis",
+        "matsya",
+        "hayagriva"
+      ],
+      "reference_paths": [
+        "intake/D032/010.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "010.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#9",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "The sages return and Matsya pursues Hayagriva",
+        "must_show": [
+          "After the waters recede, exactly seven distinct sages return toward separate distant hermitages.",
+          "Satyavrata is respectfully appointed Manu through a simple gesture, without text or royal spectacle.",
+          "At a distance, the same Matsya turns in pursuit of the single horse-headed Hayagriva."
+        ],
+        "composition": "A broad dawn horizon separates the restored land and sages from the open water where Matsya pursues Hayagriva. Keep the sequence clear without duplicate bodies.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No duplicated Satyavrata or sages.",
+          "No gore, written labels, extra heads or limbs."
+        ]
+      },
+      "alt": "Matsya restores the sages and Manu, then pursues Hayagriva",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "A broad dawn horizon separates the restored land and sages from the open water where Matsya pursues Hayagriva. Keep the sequence clear without duplicate bodies.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d032/s009/landscape/v002/candidate.png",
+          "prompt_path": "artifacts/d032/s009/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "05b18d24fa939dfb96c08fa8024de847a5c90562066f53d777f8281c8988f6e7",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    },
+    {
+      "n": 10,
+      "concept_id": "d032-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "matsya",
+        "hayagriva",
+        "brahma"
+      ],
+      "reference_paths": [
+        "intake/D032/011.jpg",
+        "intake/D032/012.jpg",
+        "artifacts/d032/references/shared/style-d001-s004.png",
+        "artifacts/d032/references/shared/style-d001-s008.png"
+      ],
+      "source_reference_files": [
+        "011.jpg",
+        "012.jpg"
+      ],
+      "commentary_anchor": "intake/D032/photo-captions.txt#10",
+      "scene_brief": {
+        "mode": "source-grounded narrative",
+        "title": "Matsya defeats Hayagriva and restores the Vedas",
+        "must_show": [
+          "The single Matsya horn pins Hayagriva at the chest in a restrained non-graphic defeat.",
+          "Matsya recovers a closed palm-leaf Veda bundle with no readable writing.",
+          "Brahma receives the Vedas with exactly four heads total, three faces visible from the front, and four distinct connected arms."
+        ],
+        "composition": "Stage the non-graphic defeat at one side and the calm exchange between Matsya and Brahma at the other. Keep horn, hands and manuscript contacts visibly connected.",
+        "tone": "reverent, story-led, clear and calm",
+        "avoid": [
+          "No blood, wounds or exposed anatomy.",
+          "No extra limbs or heads, no unreadable pseudo-script on Vedas, no outer border or gloss."
+        ]
+      },
+      "alt": "Matsya defeats Hayagriva and returns the Vedas to the four-faced Brahma",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Stage the non-graphic defeat at one side and the calm exchange between Matsya and Brahma at the other. Keep horn, hands and manuscript contacts visibly connected.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d032/s010/landscape/v004/candidate.png",
+          "prompt_path": "artifacts/d032/s010/landscape/v001/prompt.txt",
+          "candidate_status": "generated candidate; unapproved; pending independent review",
+          "candidate_sha256": "437138c81bce08ef2f0485f1dab34afdf3c0beebdf34b4cb88c9220912cea0cd",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred",
+          "composition_override": "Independent portrait composition remains a plan only; portrait generation is paused and will not be inferred from landscape crops."
+        }
+      },
+      "contract_files": [
+        "art/bible/characters/d032-scene-contracts.json"
+      ]
+    }
+  ]
+}
