@@ -23481,6 +23481,949 @@
           "viewed_at": "between 2026-11-06T11:05:58Z and 2026-11-06T11:08:53Z"
         }
       ]
+    },
+    {
+      "chapter": 31,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d031/s004/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "88ad38ba8a7c0976a3c2187ecb7f03aba735ba0fe5376dbecd892787f6bb3443",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:51:34Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One adult king (Bali, seated cross-legged), one elderly ascetic (Shukracharya, crouching) and one short youthful brahmachari (Vamana, standing).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d031.json",
+          "sha256": "a845cc1b3c6b8b9ca68d8bcafc7c722ed2afb339ee0ad31d3bbcaf335f86f727"
+        },
+        {
+          "path": "content/daskams/d031.json",
+          "sha256": "f36eee16544e61d3ca44bf9b15a2f183aae3539d715bbbf761d2159af25a8dc8"
+        },
+        {
+          "path": "content/sources/d031/reference-map.json",
+          "sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d031-s004-v002-managed-review-v001.md",
+          "sha256": "d56c7ba9918783addc803c61d5db5f595c5177b1c7e3f74b0f1a6afed75de8f6"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Shukracharya raises his right index finger in warning and reaches his left open hand toward Bali; his bare left foot shows toes under the robe. Bali holds the water pot with two attached hands, fingers wrapped round its body. Vamana extends an open right palm (thumb and four fingers) and grips the umbrella shaft with his left; two bare feet with toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms join at the shoulders. Bali's crossed legs sit continuously on the low seat. The umbrella shaft runs unbroken from canopy to floor beside Vamana's foot."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Bali: moustache, tall ochre crown over a dark top-knot, long hair, round earring, matching the moustached Bali of S001-S003 and S005. Shukracharya: white hair bun, long white beard, furrowed brow. Vamana: shaven head with small tuft, namam, earring, mala."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Three distinct people; no repeated or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Bali holds the full vessel above an empty bowl, so the water is not yet poured, while Shukracharya warns from the side and Vamana answers with an open palm, as caption 4 and the brief require. Vamana stays two-armed without Krishna iconography. Flat matte mural, full bleed."
+        }
+      },
+      "findings": [],
+      "supersedes": {
+        "version": "v001",
+        "sha256": "dd7e7d088bcc55a13d9dcba629499dd720cdd6136f3cda48992792f85c917084",
+        "review": "art/reviews/d031-s004-v001-managed-review-v001.md"
+      },
+      "source_reference": {
+        "paths": [
+          {
+            "path": "intake/D031/004.jpg",
+            "sha256": "947e5f5cf837892cbfa2c8cca60d9383cf3341546c1f160e9cda3b84de55ceef"
+          }
+        ],
+        "caption_path": "content/sources/d031/photo-captions.txt#4",
+        "caption_sha256": "1b808aa7e2ed7bfcc4de5cb2f37106332314d8738ed42d61d9fc446c4355d825",
+        "source_map_path": "content/sources/d031/reference-map.json",
+        "source_map_sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+      },
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d031/s004/landscape/candidate-v002.png",
+          "sha256": "88ad38ba8a7c0976a3c2187ecb7f03aba735ba0fe5376dbecd892787f6bb3443",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s004-v002-nw.png",
+          "sha256": "d2bd2412c2627b7e21570fe1886badc786a27a1b6eaf9b56c16e1d5779ca9b34",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s004-v002-ne.png",
+          "sha256": "0cb12b26b350a618f8eed706e832915e2936fcdedafe5018d5d5651bfeaf0938",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s004-v002-sw.png",
+          "sha256": "b0161ca9fb2c0e9ca66fc438315bd97b3e3a801e659f6ae6b3ded03872ab3002",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s004-v002-se.png",
+          "sha256": "441b118be441506b31175fee2bb7a1dc5354df837b4ae319e9489a7f475758b3",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s004-v002-vessel.png",
+          "sha256": "4e14430ee64ded17f7014aae189447f91c5c92039f135e518ad619f165dd2dce",
+          "region": "300x220+800+430",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d031/s005/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "864575777b8f5286af9494c0dd500e25aee3bd2a9dfefe0572c1430ceb7146ce",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:51:34Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One adult king (Bali, kneeling), one adult queen (Vindhyavali, kneeling), one elderly ascetic (Shukracharya, standing) and one short youthful brahmachari (Vamana, standing).",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d031.json",
+          "sha256": "a845cc1b3c6b8b9ca68d8bcafc7c722ed2afb339ee0ad31d3bbcaf335f86f727"
+        },
+        {
+          "path": "content/daskams/d031.json",
+          "sha256": "f36eee16544e61d3ca44bf9b15a2f183aae3539d715bbbf761d2159af25a8dc8"
+        },
+        {
+          "path": "content/sources/d031/reference-map.json",
+          "sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-vindhyavali/character.json",
+          "sha256": "cd3b5ac9f66aae42894c8d18f6bc44763bf3f1e94ddb97b62e349bfb4512848c"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d031-s005-v002-managed-review-v001.md",
+          "sha256": "0c9bcf661d60b19450afeb52ef3435164f68894c45351dd856cde94c299dd665"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vindhyavali tilts the pot with her right hand on its shoulder and her left beneath it. Bali cups both hands together. Vamana grips the umbrella shaft and opens his left palm. Shukracharya crosses both forearms. Every visible foot shows toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The stream leaves Vindhyavali's spout and falls in one unbroken arc into Bali's cupped hands; close crop `s005-v002-pour.png` confirms it. Arms and kneeling legs are continuous."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Bali: crown, moustache, long hair, eyes lowered, consistent with S001-S004. Vindhyavali: diadem, bun, downcast gentle face. Shukracharya: white hair bun, white beard, namam, stern frown. Vamana: shaven head, tuft, namam, soft smile."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Four distinct people; no repeated or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows Bali keeping his promise while Vindhyavali pours, Shukracharya standing apart in disapproval by the fire, and Vamana receiving calmly without triumph. Matte mural, full bleed."
+        }
+      },
+      "findings": [],
+      "supersedes": {
+        "version": "v001",
+        "sha256": "f1af778cdde2340117b8ac7f0e0d31f58b969cb6ccd7d69d9807843a99ba775f",
+        "review": "art/reviews/d031-s005-v001-managed-review-v001.md"
+      },
+      "source_reference": {
+        "paths": [
+          {
+            "path": "intake/D031/005.jpg",
+            "sha256": "eeefbccd81e9dec7fe266d249eb2d8a3e08473218b56a28052959f8c19c4602e"
+          }
+        ],
+        "caption_path": "content/sources/d031/photo-captions.txt#5",
+        "caption_sha256": "1b808aa7e2ed7bfcc4de5cb2f37106332314d8738ed42d61d9fc446c4355d825",
+        "source_map_path": "content/sources/d031/reference-map.json",
+        "source_map_sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+      },
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d031/s005/landscape/candidate-v002.png",
+          "sha256": "864575777b8f5286af9494c0dd500e25aee3bd2a9dfefe0572c1430ceb7146ce",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s005-v002-nw.png",
+          "sha256": "d152ca081093b20175b5df1da1800dc25cff67de86ee4067def1e035c997a878",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s005-v002-ne.png",
+          "sha256": "ddb38625e716a1efc2871656e6a2a7b220cad184e35352b7d5583f49053798a3",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s005-v002-sw.png",
+          "sha256": "321bc134dcddbf9de57588b7f07b65383c7c1792f65b1b25ab757cf3094dec03",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s005-v002-se.png",
+          "sha256": "17268f3a3d5fdd9b0f7aca0ff9946d35896dd0ef90240563ed3bdaa44fd06a10",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s005-v002-pour.png",
+          "sha256": "e70ccfe14662fa32791e560f80c2f36327b8780b73d710eb71037890ab77e599",
+          "region": "360x300+660+380",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d031/s006/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "adea36127524104b75b294e159d66bc9d2f5d28c2945f47fdefe4846f565211e",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:51:34Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Trivikrama (one giant two-armed Lord), Bali kneeling, a pouring sage, a young shaven brahmin, and three cloud witnesses: a white-bearded sage, a woman with a flower bowl and a crowned Deva.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d031.json",
+          "sha256": "a845cc1b3c6b8b9ca68d8bcafc7c722ed2afb339ee0ad31d3bbcaf335f86f727"
+        },
+        {
+          "path": "content/daskams/d031.json",
+          "sha256": "f36eee16544e61d3ca44bf9b15a2f183aae3539d715bbbf761d2159af25a8dc8"
+        },
+        {
+          "path": "content/sources/d031/reference-map.json",
+          "sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-deva-witnesses/character.json",
+          "sha256": "5bf3c567c8f5db567b1e339ff8fb65f7d0c4d562912a849cdbbd579d1d6c5af6"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d031-s006-v005-managed-review-v001.md",
+          "sha256": "db9ac97689f733f74a210909bbcbba349fc683b5255613dd7e9e1838f2e99c5a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Trivikrama's two arms spread with open blue hands; his raised foot and grounded foot show five blue toes each. Bali cups two hands under the stream; the sage holds the pot with two hands. The cloud witnesses fold hands, hold a bowl, and scatter flowers from an open hand."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Trivikrama's skin is one continuous blue across face, torso, both arms, both legs and both feet. The raised leg emerges from the dhoti at the hip and the standing leg is grounded."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Trivikrama: blue face, crown, halo, closed eyes, serene smile. Bali: crown and moustache. The three cloud witnesses have clearly different faces, hair and headdress."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No cloned witnesses: sage, woman and crowned Deva differ in age, sex, pose and offering."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "One continuous composition from the gift rite to the giant stride reaching the clouds, with flowers showered, no split panels and no peacock feather."
+        }
+      },
+      "findings": [],
+      "supersedes": {
+        "version": "v004",
+        "sha256": "bfa73875687c5e85160541548f562d1dedc69577d3168023ee9c9b202b3fb9fb",
+        "review": "art/reviews/d031-s006-v004-managed-review-v001.md"
+      },
+      "source_reference": {
+        "paths": [
+          {
+            "path": "intake/D031/006.jpg",
+            "sha256": "08376bbdc12d090ee2b38a516defa59db082bd6ceec3db3c99be8098650e8a9c"
+          }
+        ],
+        "caption_path": "content/sources/d031/photo-captions.txt#6",
+        "caption_sha256": "1b808aa7e2ed7bfcc4de5cb2f37106332314d8738ed42d61d9fc446c4355d825",
+        "source_map_path": "content/sources/d031/reference-map.json",
+        "source_map_sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+      },
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d031/s006/landscape/candidate-v005.png",
+          "sha256": "adea36127524104b75b294e159d66bc9d2f5d28c2945f47fdefe4846f565211e",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s006-v005-nw.png",
+          "sha256": "166eebed37441883d142a5f4f41e35a0215fc5cd2001be4fdb1491f3f0996fa2",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s006-v005-ne.png",
+          "sha256": "6526c3828e7439d21dbeeb065447a81306612bae0812927b46feb09212e01ac9",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s006-v005-sw.png",
+          "sha256": "99d634779ced95b3e3723a4de86a3acf32ca28a009e65b697643b0d30ff19338",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s006-v005-se.png",
+          "sha256": "80929e7a0e26c8b3364abf69e21bba6c6d5c090a1026635290b534188998280f",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d031/s007/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "7525aa49fef5ea38b2a5ee6117396144ab2b6dd1fe2adff76d3b40b51eab9b5c",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:51:34Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Trivikrama (one giant two-armed Lord), Brahma (four heads with three front faces, four arms), a kneeling crowned king resembling Bali, two devotees, Jambavan drumming, a cymbal player and a conch-blowing woman.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d031.json",
+          "sha256": "a845cc1b3c6b8b9ca68d8bcafc7c722ed2afb339ee0ad31d3bbcaf335f86f727"
+        },
+        {
+          "path": "content/daskams/d031.json",
+          "sha256": "f36eee16544e61d3ca44bf9b15a2f183aae3539d715bbbf761d2159af25a8dc8"
+        },
+        {
+          "path": "content/sources/d031/reference-map.json",
+          "sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-jambavan/character.json",
+          "sha256": "588f6794a03fc0a6b139c945bfda57bc249a2bd5576a2aad37ff9d3ab9c96586"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d031-s007-v004-managed-review-v001.md",
+          "sha256": "04838332e2d5e8b3b845095529da7e7bfb6e15312146fb9925d51d125158af42"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Trivikrama raises an open blue right palm and grips the umbrella shaft with his blue left hand. Brahma's four attached hands hold a book, a lotus, prayer beads and the pouring kamandalu. Jambavan holds the drum with two paws; the cymbal player and conch player use two hands each."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Close crop `s007-v004-brahma.png` shows Brahma's upper arms rising behind the shoulders and the lower arms from the shoulders, four in all. Brahma's water falls onto Trivikrama's raised foot and continues as the river."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma shows three front faces with white beards and crowns; the fourth is understood behind, matching the approved Brahma contract. Trivikrama: blue face, namam, closed eyes, no peacock feather. Jambavan: one bear muzzle."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The celebrants are distinct: bear drummer, moustached cymbal player, conch-blowing woman. The three devotees at left differ."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed; the open book shows no writing."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows the foot reaching Brahma's realm, Brahma washing it, and the water becoming the celestial Ganga with Jambavan drumming. No feather on Trivikrama. Matte mural, full bleed."
+        }
+      },
+      "findings": [],
+      "supersedes": {
+        "version": "v002",
+        "sha256": "9c096601e567c2a0679f4147bc098e8a1692dddf73d24ad20a24e8219160740b",
+        "review": "art/reviews/d031-s007-v002-managed-review-v001.md"
+      },
+      "source_reference": {
+        "paths": [
+          {
+            "path": "intake/D031/007.jpg",
+            "sha256": "cc71c5fee279ca3abd03dd3c24b95ecbe5f7325e612b478654faafce64b27257"
+          }
+        ],
+        "caption_path": "content/sources/d031/photo-captions.txt#7",
+        "caption_sha256": "1b808aa7e2ed7bfcc4de5cb2f37106332314d8738ed42d61d9fc446c4355d825",
+        "source_map_path": "content/sources/d031/reference-map.json",
+        "source_map_sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+      },
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d031/s007/landscape/candidate-v004.png",
+          "sha256": "7525aa49fef5ea38b2a5ee6117396144ab2b6dd1fe2adff76d3b40b51eab9b5c",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s007-v004-nw.png",
+          "sha256": "de17250972143cf4e137896455ca5ae6df3fd12b0b13986a4b03116086a6b1dc",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s007-v004-ne.png",
+          "sha256": "fad364511e52d3cea34955eb8724659875c05660ac93660de0047cba8587048f",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s007-v004-sw.png",
+          "sha256": "feeb05d093ac5a1d9064f8e2ae30016545e5dda9dba73b73d836de88de40af29",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s007-v004-se.png",
+          "sha256": "27edc6ebce05f9a9a7249e031f124fb6999c56f9096306f393aedf3cc8ac41a3",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s007-v004-brahma.png",
+          "sha256": "e0fdac83717fdc4120aa491101f4c691a58838d3a237f3e1fe5dfcb5786623d2",
+          "region": "520x380+130+120",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d031/s008/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "93304e4b8ebc0d25ca117c2cb7d678908378888a9fc60572cca51b09078b4bab",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:51:34Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Bali standing, two retreating Asuras, two opposing figures (a blue spear-and-shield bearer and a fair archer) and a small two-armed Trivikrama on a globe in the sky.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d031.json",
+          "sha256": "a845cc1b3c6b8b9ca68d8bcafc7c722ed2afb339ee0ad31d3bbcaf335f86f727"
+        },
+        {
+          "path": "content/daskams/d031.json",
+          "sha256": "f36eee16544e61d3ca44bf9b15a2f183aae3539d715bbbf761d2159af25a8dc8"
+        },
+        {
+          "path": "content/sources/d031/reference-map.json",
+          "sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-asura-host/character.json",
+          "sha256": "e9bbba0eb93760a011c87f45acb3d8ab25d7c48fc7389d1cce16ebf622b90faa"
+        },
+        {
+          "path": "art/bible/characters/d031-deva-host/character.json",
+          "sha256": "17ddf8811072553394809fd699280aa6c3fcfc925a10f3d2789c75fafc1b2a5a"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d031-s008-v002-managed-review-v001.md",
+          "sha256": "021d60e41abc635f892de8d1fce987946cf3c82775644c2560fd7a5af8fd9e56"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Bali holds up his right palm to halt the Asuras and opens his left hand toward the opposing side and Trivikrama above it. The first Asura raises one open hand and holds the other at his chest; the bearded Asura raises one hand and grips a mace. The spear-bearer and archer hold their weapons with attached hands. All feet show toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Every arm joins at a shoulder; striding legs are continuous; no injury."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Bali: tall crown, moustache, consistent with earlier frames. The two Asuras differ (moustached young warrior; white-bearded elder with headband). The two opposing figures differ in skin, headdress and weapon."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Only five ground figures, each distinct; no repeated face, crown or shield."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed; the globe shows only vague patches, not readable map outlines."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Bali turns the Asuras away from the fight, with the Lord's side standing firm and Trivikrama visible above, matching caption 8 and the brief."
+        }
+      },
+      "findings": [],
+      "supersedes": {
+        "version": "v001",
+        "sha256": "d743c38fa9d51532165c92f43968fdbfb4804d2f79de52824524386855c2debf",
+        "review": "art/reviews/d031-s008-v001-managed-review-v001.md"
+      },
+      "source_reference": {
+        "paths": [
+          {
+            "path": "intake/D031/008.jpg",
+            "sha256": "e8c1faaec301762933853da69e60ad264a674b688c011c1aefcdb5f7a8428e17"
+          }
+        ],
+        "caption_path": "content/sources/d031/photo-captions.txt#8",
+        "caption_sha256": "1b808aa7e2ed7bfcc4de5cb2f37106332314d8738ed42d61d9fc446c4355d825",
+        "source_map_path": "content/sources/d031/reference-map.json",
+        "source_map_sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+      },
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d031/s008/landscape/candidate-v002.png",
+          "sha256": "93304e4b8ebc0d25ca117c2cb7d678908378888a9fc60572cca51b09078b4bab",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s008-v002-nw.png",
+          "sha256": "15af190a1ca8b0bbb8d4dbd945a9d5139d02a99f57d854492a63ccc3645fa0a8",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s008-v002-ne.png",
+          "sha256": "21e6ace218825b198204187a3abdf4687568fdf31a4e272bf1f3a452f4b68ab7",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s008-v002-sw.png",
+          "sha256": "2b477452843c02036ec9be02c26e468fd4b6aba62bfaa95aefe2386ccabb4326",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s008-v002-se.png",
+          "sha256": "7665d36c3651688bea82fcbe912564642280884e9d0e0b23222f374cd250cb13",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d031/s009/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "6f21eb651b5bccee788a268ed29c411e62119c2c6afa52ffbc602d67315aa4f6",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:51:34Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The Lord (blue, two-armed, one foot on Bali's crown), Bali kneeling and bound, Garuda (one bird head, two arms, two wings) and Prahlada (elder) standing.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d031.json",
+          "sha256": "a845cc1b3c6b8b9ca68d8bcafc7c722ed2afb339ee0ad31d3bbcaf335f86f727"
+        },
+        {
+          "path": "content/daskams/d031.json",
+          "sha256": "f36eee16544e61d3ca44bf9b15a2f183aae3539d715bbbf761d2159af25a8dc8"
+        },
+        {
+          "path": "content/sources/d031/reference-map.json",
+          "sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-garuda/character.json",
+          "sha256": "1a3d92ca6ad0bf197618aa6785d5facf2079859e424519093deaf3b20d3e8b62"
+        },
+        {
+          "path": "art/bible/characters/d031-prahlada/character.json",
+          "sha256": "36d52eab32fa0cd267acef13136e96d8fbe4bd3ba9498de9ba9bca2c30b409b7"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d031-s009-v003-managed-review-v001.md",
+          "sha256": "6946d14ce887a8469a1abf03bb9266966890f43267b95a8d15861b8ec852306a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The Lord grips the umbrella shaft and opens his left hand. Bali folds both hands. Garuda holds the rope in two attached hands and stands on two taloned feet. Prahlada opens both hands in praise and stands on two bare feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The Lord's raised foot rests lightly on Bali's crown without crushing him. The rope wraps Bali's shoulders and runs continuously to Garuda's right hand, then on to his left hand, with its loose end hanging below."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Prahlada is a calm white-haired, white-bearded elder with namam and a gentle expression, clearly distinct from the youthful Vamana. Bali: crown and moustache. Garuda: one hooked beak and one crown."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Lord, one Bali, one Garuda, one Prahlada."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Shows Garuda's binding, Bali offering his head for the third step, and Prahlada approaching in praise, as the brief requires."
+        }
+      },
+      "findings": [],
+      "supersedes": {
+        "version": "v002",
+        "sha256": "a77b27428bf13b68c199da2cc02fbe595685c923d3f572b3aafc0b01f785e37a",
+        "review": "art/reviews/d031-s009-v002-managed-review-v001.md"
+      },
+      "source_reference": {
+        "paths": [
+          {
+            "path": "intake/D031/009.jpg",
+            "sha256": "61edd32b0f7d96242292dce75cc02d4cd4bb20e96531041d801a0beb8e8e3bcd"
+          },
+          {
+            "path": "intake/D031/010.jpg",
+            "sha256": "ad063dd3070a88ed187ef31a0e8b268b4b5310e0fe5db1d2eb2da0e27203df04"
+          }
+        ],
+        "caption_path": "content/sources/d031/photo-captions.txt#9",
+        "caption_sha256": "1b808aa7e2ed7bfcc4de5cb2f37106332314d8738ed42d61d9fc446c4355d825",
+        "source_map_path": "content/sources/d031/reference-map.json",
+        "source_map_sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+      },
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d031/s009/landscape/candidate-v003.png",
+          "sha256": "6f21eb651b5bccee788a268ed29c411e62119c2c6afa52ffbc602d67315aa4f6",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s009-v003-nw.png",
+          "sha256": "9424646afd288dcb990cd0f6b0c1c20be243f46e2dafad8fef8a9b42dca2a386",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s009-v003-ne.png",
+          "sha256": "6f3af225d1107ddc6920199376dec44a9c345949913bcb64921a2ac31ec7ae7f",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s009-v003-sw.png",
+          "sha256": "de17262b1ebde426e08e4e4eeb082bba6ffb1537b1f73b5db331f7de5766f6fe",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s009-v003-se.png",
+          "sha256": "293d20760a118319987786497eaa001370913bf906d611dd9dc2305fb91ffc25",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        }
+      ]
+    },
+    {
+      "chapter": 31,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d031/s010/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "fe4afdc1cb10929cd16f5ef80b1698b56444cd59a27ab5e13b5d69e660cfea79",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T11:51:34Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One Vamana (standing, blue), one Bali (kneeling) and three Brahmin priests at the fire.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d031.json",
+          "sha256": "a845cc1b3c6b8b9ca68d8bcafc7c722ed2afb339ee0ad31d3bbcaf335f86f727"
+        },
+        {
+          "path": "content/daskams/d031.json",
+          "sha256": "f36eee16544e61d3ca44bf9b15a2f183aae3539d715bbbf761d2159af25a8dc8"
+        },
+        {
+          "path": "content/sources/d031/reference-map.json",
+          "sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/brahmins/character.json",
+          "sha256": "ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d031-s010-v002-managed-review-v001.md",
+          "sha256": "6739aca0be22a63cabe499fb0b67a210b65edea7a6bf22c27e54a121dcdf64d0"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vamana raises his right palm in blessing and opens his left hand toward Bali. Bali folds two hands. The elder priest offers with a ladle, the youngest holds a bowl in two hands. Vamana's two blue feet and Bali's foot show toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Limbs and props connect; seated priests' legs are continuous under their dhotis."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Vamana: shaven head, namam, earring, mala, gentle smile. Bali: crown, moustache, namam, eyes lowered. Priests: white-bearded elder, a young man with namam and top-knot, and a second young man with a top-knot."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Vamana and one Bali; no inset, repeat or globe."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed; no map or globe."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The Lord blesses Bali, the concluding sacrifice burns at left, and Sutala sits as a calm ordered realm in the lower band, linked by steps, as the brief requires."
+        }
+      },
+      "findings": [],
+      "supersedes": {
+        "version": "v001",
+        "sha256": "c3f1316610b88364db4960333f111ba9702e4f75905160a2a776edb14063f30f",
+        "review": "art/reviews/d031-s010-v001-managed-review-v001.md"
+      },
+      "source_reference": {
+        "paths": [
+          {
+            "path": "intake/D031/011.jpg",
+            "sha256": "19e0e9beeeabc3c84d88d871d1984d92a1c4779bbed6ee69830e21dc6278086c"
+          }
+        ],
+        "caption_path": "content/sources/d031/photo-captions.txt#10",
+        "caption_sha256": "1b808aa7e2ed7bfcc4de5cb2f37106332314d8738ed42d61d9fc446c4355d825",
+        "source_map_path": "content/sources/d031/reference-map.json",
+        "source_map_sha256": "dd239b7dc128cc45fced4037049980d38bff562e37464e314613294ff68a9641"
+      },
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d031/s010/landscape/candidate-v002.png",
+          "sha256": "fe4afdc1cb10929cd16f5ef80b1698b56444cd59a27ab5e13b5d69e660cfea79",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s010-v002-nw.png",
+          "sha256": "8163750fc41945affe224a7466a06c8e52d76f2351eed99c92db720f4eee1748",
+          "region": "836x471+0+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s010-v002-ne.png",
+          "sha256": "09bc755bfb81b4bd141cce28595ca5fce7f51ff0a7fff5c844a4db1e82411cab",
+          "region": "836x471+836+0",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s010-v002-sw.png",
+          "sha256": "a470a1997165b896fd49e80b9efed790aba78978c2e2bba5dea37aaec639c131",
+          "region": "836x470+0+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d031/review-evidence/managed-v002/s010-v002-se.png",
+          "sha256": "aaffed615dac2f174b6b85a03c19095792ac2b49333f77cfed68b9d5b22d48b0",
+          "region": "836x470+836+471",
+          "viewed_at": "between 2026-11-06T11:49:07Z and 2026-11-06T11:51:34Z"
+        }
+      ]
     }
   ]
 }

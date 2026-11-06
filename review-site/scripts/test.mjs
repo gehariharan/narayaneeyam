@@ -296,7 +296,7 @@ for(const row of full31.rows){
  assert.equal(row.images.at(-1).role,'matte');assert.equal(row.images.at(-1).inspectionStatus,'inspected');
 }
 assert.equal(full31.rows.find(r=>r.n===9).images.filter(i=>i.role==='reference').length,2);
-assert.equal(selected31.rows.find(r=>r.n===6).matte.version,'v004');assert.equal(selected31.rows.find(r=>r.n===7).matte.version,'v002');assert.equal(selected31.rows.find(r=>r.n===9).matte.version,'v002');
+assert.deepEqual(selected31.rows.map(r=>r.matte.version),['v001','v001','v001','v002','v002','v005','v004','v002','v003','v002']);
 assert.equal((await feedback(req({...good,daskam:31,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
 assert.equal((await feedback(req({...good,daskam:31,sloka:11}),env)).status,400);
 console.log('Passed: D031 has ten caption-mapped rows, both S009 references, pinned unapproved landscape candidates, and stanza-bounded feedback.');
