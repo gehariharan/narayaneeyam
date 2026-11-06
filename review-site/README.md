@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D029, D031, D034, D040, D042, D043 and D044 media from the release using the existing
+D005 through D014, D029, D031, D033, D034, D040, D042, D043 and D044 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -293,6 +293,27 @@ unavailable, and portraits are paused. Upload only D029's WebP derivatives with
 deployment. With D029 added alongside D031 and D034, the union holds 23
 chapters, 239 stanza rows, 485 review media inputs and 245 selected generated
 images (69 historical, 176 individually inspected).
+
+## Dasakam 33
+
+D033 contains ten source-mapped landscape comparison candidates in
+`art/batches/d033-comparison-v001.json`. Captions and numbered source photos are
+mapped through `content/sources/d033/reference-map.json`; uncaptioned documentary
+extras remain in intake and are excluded from stanza attribution. The Sanskrit
+and IAST are sourced, but the cited source does not provide English
+translations. The independent managed review in `art/reviews/visual-reviews.json`
+and `art/reviews/d033-*-managed-review-v001.md` passes all ten selected leads.
+Native repairs S002 v003, S006 v005, S008 v003, S009 v003 and S010 v002 replace
+versions recorded as needs-fix: S002 and S008 for Vishnu or king arms that
+shared an elbow or armlet or added a third hand, S006, S009 and S010 for a
+beardless or peacock-crowned king, and S006 also for an undispersed Kṛtyā. The
+needs-fix reports stay as history, and superseded and rejected attempts stay
+preserved locally and are not published. Candidates remain unapproved and
+portraits are paused. Upload only D033's review derivatives with
+`node review-site/scripts/upload.mjs --daskam=33` before the serialized Worker
+deployment. With D033 added alongside D029, the union holds 24 chapters, 249
+stanza rows, 505 review media inputs and 255 selected generated images (69
+historical, 186 individually inspected).
 
 ## Dasakam 34
 
