@@ -1,0 +1,590 @@
+{
+  "schema_version": 1,
+  "daskam_id": 33,
+  "slug": "d033",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_characters": [
+      "ambarisha",
+      "durvasa",
+      "guruvayurappan"
+    ],
+    "locations": [
+      "Ambarisha’s palace",
+      "Madhuvana beside the Yamuna",
+      "Vaikuntha"
+    ],
+    "arc": "Ambarisha’s devotion receives Sudarshana’s protection; a fasting-time dilemma leads to Durvasa’s pursuit and his return to seek the king’s forgiveness; Ambarisha responds with compassion and hospitality.",
+    "style": "Traditional matte South Indian temple mural with firm dark contours, broad mineral-pigment fields, shallow space, restrained facial modelling, painted ochre ornaments, warm cream and muted foliage. The supplied photos guide story/composition only.",
+    "production": "Native landscape-only candidate batch of ten stanzas; portraits are paused. All artwork remains unapproved.",
+    "anatomy": "Ordinary humanlike cast uses one head, two attached arms/hands and two attached legs/feet, natural proportions and distinct faces. Deity forms are intentional only where specified in a scene contract; no unrelated identity or feather cue transfers between deities.",
+    "reference_mapping": "Stanzas 1–9 map to numbered source photos 001–009; stanza 9 also retains source photo 010 as an explicitly duplicate #9 composition reference. Stanza 10 maps to source photo 011. Photos 012–017 are preserved as uncaptained documentary extras and are not attributed to stanzas.",
+    "plan_revision_history": [
+      {
+        "revision": "producer-prompt-revision-v001",
+        "affected_stanzas": [
+          1,
+          3
+        ],
+        "reason": "Stanza 1 showed unplanned repeated background worshippers; stanza 3 included Bhagwan as a worship object without its approved identity reference in the original call. The final plan constrains stanza 1’s cast and binds the Bhagwan forms in both scenes to the approved Guruvayurappan identity reference. Every candidate, including earlier versions, requires actual managed reinspection against this final plan."
+      }
+    ],
+    "reference_map": "content/sources/d033/reference-map.json",
+    "reference_map_sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427",
+    "selection_status": "Producer selection only, pending independent managed review; no art approval."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d033-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "ambarisha",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "amba-devotional-king",
+        "must_show": [
+          "Show Ambarisha as a mature king whose attention is fixed on Bhagwan, not on his dominion.",
+          "Include one small, quiet image of Bhagwan as the object of the king’s devotion; use the approved Guruvayurappan identity cues, not a crowd of worshippers.",
+          "Suggest the seven seas and wide realm through a quiet arc of water and land at the edges, not a map or literal diagram.",
+          "Use one Ambarisha only, with natural two-arm anatomy."
+        ],
+        "composition": "Ambarisha in prayer before one small Bhagwan shrine image, with a single lamp and shallow symbolic sea motifs around the margins; no supporting crowd.",
+        "tone": "absorbed, humble",
+        "avoid": [
+          "royal spectacle",
+          "crowds",
+          "gloss",
+          "text",
+          "extra limbs",
+          "background crowd",
+          "duplicate worshippers"
+        ],
+        "source_summary": "King Ambarisha’s mind remains absorbed in Bhagwan and the devotees despite his vast kingdom."
+      },
+      "alt": "Sudarshana first protects the devotee",
+      "reference_paths": [
+        "intake/D033/001.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png",
+        "artifacts/d033/references/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field. The small Bhagwan image is part of this stanza’s worship subject; use the approved Guruvayurappan reference for identity only.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d033/s001/landscape/candidate-v002.png",
+          "candidate_sha256": "ce6f8623e7aa89de7ce065f780699e73f56225ce048e1178aa3d84b40eb51139",
+          "prompt_path": "artifacts/d033/s001/prompts/landscape-v002.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d033-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "ambarisha",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "vishnu-bestows-sudarshana",
+        "must_show": [
+          "Bhagwan gives the thousand-rayed Sudarshana Chakra to Ambarisha without being asked.",
+          "Show one continuous, readable transfer: Bhagwan’s hand offers the single disc and the king receives it with reverence.",
+          "Vishnu is a blue-skinned divine figure with the established identity cues; his four arms are intentional and each arm and hand must be distinct and attached.",
+          "Ambarisha remains an ordinary two-armed human."
+        ],
+        "composition": "A balanced wide meeting: Vishnu to one side, the king facing him, one clear chakra between their hands; simple temple-like devotional space.",
+        "tone": "gracious, reverent",
+        "avoid": [
+          "multiple chakras",
+          "detached hands",
+          "extra arms on the king",
+          "metallic shine",
+          "glowing spectacle",
+          "text"
+        ],
+        "source_summary": "Pleased by Ambarisha’s devotion, Bhagwan gives him the protective Sudarshana Chakra."
+      },
+      "alt": "The king receives the chakra as divine protection",
+      "reference_paths": [
+        "intake/D033/002.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png",
+        "artifacts/d033/references/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d033/s002/landscape/candidate-v001.png",
+          "candidate_sha256": "fa200cfc64f7542bb3f266a97780c94424533c5465725e161fa51c1a2da76dd9",
+          "prompt_path": "artifacts/d033/s002/prompts/landscape-v001.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d033-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "ambarisha",
+        "ambarisha-wife",
+        "brahmins",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "dvadashi-worship-by-yamuna",
+        "must_show": [
+          "Ambarisha and his wife observe the Dvadashi vow for a year at Madhuvana by the Yamuna.",
+          "Show a small Bhagwan murti as the object of the riverside worship, using the approved Guruvayurappan identity cues only.",
+          "Show a sincere riverside act of worship and a modest group of cows with a few distinct Brahmin recipients to suggest generous gifts; do not attempt an uncountable crowd.",
+          "The queen is an unnamed adult with natural two-arm anatomy; keep all human figures distinct."
+        ],
+        "composition": "Wide shallow riverside scene with king and queen worshipping, the Yamuna flowing behind and a small coherent group of cows and recipients at one side.",
+        "tone": "devout, steady",
+        "avoid": [
+          "unbounded crowds",
+          "cloned cows",
+          "visual numeric labels",
+          "palace opulence",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "At Madhuvana beside the Yamuna, Ambarisha and his wife sustain the year-long Dvadashi worship and make gifts to Brahmins."
+      },
+      "alt": "Year-long Dvadashi worship beside the Yamuna",
+      "reference_paths": [
+        "intake/D033/003.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png",
+        "artifacts/d033/references/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field. The unnamed queen has no separate identity source; keep her appearance provisional and restrained. Brahmin recipients follow the ordinary two-armed group contract. The small Bhagwan murti is required by the verse’s worship context; use the approved Guruvayurappan reference for identity only, with the established matte rendering.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d033/s003/landscape/candidate-v002.png",
+          "candidate_sha256": "1a15fa0d67f1eb6a3823857daa185035b57915722268b595946f575a1059f221",
+          "prompt_path": "artifacts/d033/s003/prompts/landscape-v002.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d033-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "ambarisha",
+        "durvasa"
+      ],
+      "scene_brief": {
+        "mode": "durvasa-arrives-and-goes-to-yamuna",
+        "must_show": [
+          "After worship on the pāraṇa day, Durvasa arrives with a small number of disciples and is invited to eat by the king.",
+          "Show Durvasa turning toward the Yamuna to perform his observances while Ambarisha waits respectfully.",
+          "Use one moment in a continuous riverside-palace space; no repeated figures or split panels."
+        ],
+        "composition": "A horizontal narrative: Durvasa and two clearly distinct disciples move toward the river at one side while Ambarisha waits near the palace threshold at the other.",
+        "tone": "courteous, quietly expectant",
+        "avoid": [
+          "crowded procession",
+          "duplicated sages",
+          "separate panels",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "On the day of breaking his fast, Ambarisha invites Durvasa and his disciples to eat; Durvasa goes to the Yamuna for his observances."
+      },
+      "alt": "Durvasa delays at the Yamuna as Ambarisha waits",
+      "reference_paths": [
+        "intake/D033/004.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d033/s004/landscape/candidate-v001.png",
+          "candidate_sha256": "16b2eb86e891fcc4ce216231b6e9aa1c4317e5377599a7f7d5ebbd819077773f",
+          "prompt_path": "artifacts/d033/s004/prompts/landscape-v001.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d033-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "ambarisha",
+        "durvasa",
+        "krtya"
+      ],
+      "scene_brief": {
+        "mode": "fast-breaking-and-krtya",
+        "must_show": [
+          "With the pāraṇa time ending, Ambarisha calmly takes only a sip of water to conclude his fast.",
+          "Durvasa returns, understands what happened, and creates one Kṛtyā apparition from his raised matted hair.",
+          "Keep the king still and unafraid; the apparition is a single two-armed spirit with one clearly held sword."
+        ],
+        "composition": "One continuous hall: Ambarisha at the focal center holding a small cup after one sip; Durvasa at the side raises his matted locks as the single Kṛtyā begins to emerge.",
+        "tone": "tense, restrained",
+        "avoid": [
+          "multiple spirits",
+          "gore",
+          "extra limbs",
+          "fire engulfing people",
+          "text",
+          "cinematic rays",
+          "gloss"
+        ],
+        "source_summary": "To keep the fast-breaking time, Ambarisha sips water; Durvasa returns in anger and creates the Kṛtyā."
+      },
+      "alt": "Durvasa conjures the Kṛtyā after Ambarisha sips water",
+      "reference_paths": [
+        "intake/D033/005.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d033/s005/landscape/candidate-v001.png",
+          "candidate_sha256": "593e8d8c86a4a4ba7b9cea64896ef88461143e6990388ec87ada693feb523d37",
+          "prompt_path": "artifacts/d033/s005/prompts/landscape-v001.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d033-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "ambarisha",
+        "durvasa",
+        "krtya"
+      ],
+      "scene_brief": {
+        "mode": "sudarshana-disperses-krtya",
+        "must_show": [
+          "The sword-bearing Kṛtyā advances toward Ambarisha, who does not move.",
+          "Sudarshana destroys the apparition and immediately turns to pursue Durvasa.",
+          "Show the disc as one circular many-rayed chakra; maintain a clear continuous path and connected contacts, with no gore."
+        ],
+        "composition": "The king stands steady at one side as the Kṛtyā breaks into muted painted forms at center; the single chakra sweeps onward toward Durvasa leaving the scene.",
+        "tone": "steadfast, decisive",
+        "avoid": [
+          "gore",
+          "multiple chakras",
+          "detached sword",
+          "unattached hands",
+          "extra limbs",
+          "text",
+          "neon flames"
+        ],
+        "source_summary": "Ambarisha stands firm; Sudarshana disperses the Kṛtyā and pursues Durvasa."
+      },
+      "alt": "Sudarshana protects the steadfast king and pursues Durvasa",
+      "reference_paths": [
+        "intake/D033/006.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d033/s006/landscape/candidate-v004.png",
+          "candidate_sha256": "9f1ee37cb9eba2eadc662197fff149c729031258baa4f76bd27fe9a0d651ef2c",
+          "prompt_path": "artifacts/d033/s006/prompts/landscape-v004.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d033-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "durvasa",
+        "brahma",
+        "shiva"
+      ],
+      "scene_brief": {
+        "mode": "durvasa-seeks-brahma-and-shiva",
+        "must_show": [
+          "Durvasa flees with the Sudarshana Chakra following him and seeks refuge from Brahma and Shiva.",
+          "Show Brahma with exactly four total heads, three faces visible from the front, and exactly four attached arms and hands as required by the approved Brahma bible.",
+          "Show Shiva in the stanza-specific two-armed meditating form, calmly unable to intervene; Durvasa moves onward.",
+          "Keep a single Durvasa and one pursuing chakra; one continuous cosmic but shallow mural space, not a collage."
+        ],
+        "composition": "Wide continuous field with Durvasa moving past the seated Brahma and meditating Shiva; one bright but matte chakra follows at a clear distance.",
+        "tone": "urgent, solemn",
+        "avoid": [
+          "more or fewer than four Brahma heads or arms",
+          "duplicated faces",
+          "extra limbs",
+          "multiple Durvasas",
+          "collage panels",
+          "text",
+          "gloss",
+          "cinematic rays"
+        ],
+        "source_summary": "Durvasa flees through the worlds, appeals to Brahma and Shiva, and receives no protection from them."
+      },
+      "alt": "Durvasa’s appeals to Brahma and Shiva cannot stop Sudarshana",
+      "reference_paths": [
+        "intake/D033/007.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png",
+        "artifacts/d033/references/brahma-character-sheet-candidate-v003.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d033/s007/landscape/candidate-v001.png",
+          "candidate_sha256": "ca35d173531a784114a7d0023d92abc2961112c1b45d219d6c6fb2ccfb5cefea",
+          "prompt_path": "artifacts/d033/s007/prompts/landscape-v001.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d033-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "durvasa",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "vishnu-sends-durvasa-to-ambarisha",
+        "must_show": [
+          "Durvasa reaches Vaikuntha, bows, and seeks refuge with Bhagwan.",
+          "Bhagwan explains that he is the servant of his devotees and directs Durvasa to Ambarisha.",
+          "Use Vishnu’s established blue-skinned identity; intentional four-arm iconography with all arms visibly attached.",
+          "The chakra remains a single restrained presence, no longer striking anyone."
+        ],
+        "composition": "A quiet wide Vaikuntha audience: Durvasa kneels before Vishnu, who gestures toward the path back to Ambarisha; one chakra rests in the distant sky.",
+        "tone": "compassionate, instructive",
+        "avoid": [
+          "extra arms on Durvasa",
+          "multiple chakras",
+          "palace spectacle",
+          "readable text",
+          "gloss",
+          "cinematic rays"
+        ],
+        "source_summary": "Bhagwan tells the humbled Durvasa that he is bound to his devotees and sends him to Ambarisha."
+      },
+      "alt": "Bhagwan directs Durvasa to seek Ambarisha’s feet",
+      "reference_paths": [
+        "intake/D033/008.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png",
+        "artifacts/d033/references/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d033/s008/landscape/candidate-v001.png",
+          "candidate_sha256": "3bc255e329180a53e948f466c136bd26c24f46f227c11099516214a0ccf4de73",
+          "prompt_path": "artifacts/d033/s008/prompts/landscape-v001.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d033-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "ambarisha",
+        "durvasa",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "durvasa-seeks-ambarishas-forgiveness",
+        "must_show": [
+          "Durvasa returns and clasps Ambarisha’s feet; the king withdraws respectfully.",
+          "Ambarisha prays for Sudarshana to spare the sage; the single chakra turns back toward Bhagwan.",
+          "Keep king and sage as distinct ordinary two-armed people with connected hands and feet."
+        ],
+        "composition": "The humbled sage clasps the king’s feet at the foreground while Ambarisha bends with compassion; one chakra arcs away toward a small distant Vishnu figure.",
+        "tone": "forgiving, relieved",
+        "avoid": [
+          "duplicated king or sage",
+          "unattached hands",
+          "extra limbs",
+          "multiple chakras",
+          "text",
+          "gloss"
+        ],
+        "source_summary": "Durvasa clasps Ambarisha’s feet; the king asks Sudarshana to spare him and the chakra returns to Bhagwan."
+      },
+      "alt": "Ambarisha’s compassion releases Durvasa from the chakra",
+      "reference_paths": [
+        "intake/D033/009.jpg",
+        "intake/D033/010.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png",
+        "artifacts/d033/references/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d033/s009/landscape/candidate-v001.png",
+          "candidate_sha256": "15b398b53ad9a4a6bc17d0bf5947c988acbbfbc16cf824b4a04c00222d2b19dd",
+          "prompt_path": "artifacts/d033/s009/prompts/landscape-v001.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d033-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "ambarisha",
+        "durvasa"
+      ],
+      "scene_brief": {
+        "mode": "reconciliation-and-feeding",
+        "must_show": [
+          "Ambarisha has waited without eating for Durvasa to return; after their reconciliation he feeds the sage first.",
+          "Show both men sharing a simple meal as equal guests, with quiet relief and devotional calm.",
+          "Keep one coherent meal scene, naturally proportioned two-armed figures, and restrained signs of a royal household."
+        ],
+        "composition": "Wide intimate dining scene at a simple palace veranda: Ambarisha serves Durvasa first; a low tray and two seated figures form the focus.",
+        "tone": "warm, grateful, peaceful",
+        "avoid": [
+          "royal banquet spectacle",
+          "crowds",
+          "duplicated figures",
+          "text",
+          "gloss",
+          "metaphorical merger as a literal body transformation"
+        ],
+        "source_summary": "After waiting for Durvasa’s return, Ambarisha feeds him, then eats himself and remains devoted to Bhagwan."
+      },
+      "alt": "Ambarisha welcomes Durvasa with a meal after reconciliation",
+      "reference_paths": [
+        "intake/D033/011.jpg",
+        "artifacts/d033/references/style-d001-s004.png",
+        "artifacts/d033/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "The numbered D033 photograph is a source-grounded scene/composition cue only. Use D001 S004 and S008 only for matte rendering. The Guruvayurappan reference is identity-only. Brahma follows the approved character bible exactly. Do not copy glossy reference rendering; keep this scene as one continuous mural field.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "desktop, web, presentation, or book spread",
+          "composition_override": "Compose natively as a wide 16:9 mural; never crop or extend a different orientation. Keep faces, hands, feet and the chakra fully inside safe margins.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d033/s010/landscape/candidate-v001.png",
+          "candidate_sha256": "28001bbbf12c15fa25e3e8ef4543cb41d6552a39e5acf451bb197e8a29dfdd2a",
+          "prompt_path": "artifacts/d033/s010/prompts/landscape-v001.md",
+          "native_dimensions": "1672x941",
+          "candidate_status": "selected producer candidate pending independent managed full-frame/detail review; no approval implied"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait orientation paused for this production",
+          "composition_override": "Portrait production is paused; do not create or derive a portrait from the landscape candidate."
+        }
+      }
+    }
+  ]
+}

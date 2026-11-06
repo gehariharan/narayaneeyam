@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "chapter": "D033",
+  "canonical_stanza_count": 10,
+  "sanskrit_source": {
+    "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-33-in-sanskrit/",
+    "publisher": "Stotra Nidhi",
+    "page_lines": "13-60",
+    "retrieved": "2026-11-06",
+    "file": "canonical-page-excerpt.txt"
+  },
+  "romanization_source": {
+    "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-33-in-english/",
+    "publisher": "Stotra Nidhi",
+    "page_lines": "13-59",
+    "retrieved": "2026-11-06",
+    "file": "canonical-iast-excerpt.txt"
+  },
+  "translation": {
+    "status": "not-sourced",
+    "note": "The cited canonical pages provide Sanskrit and IAST but no English translation. No translation was invented; canonical translation_en fields are empty."
+  },
+  "commentary": {
+    "source": "intake/D033/photo-captions.txt",
+    "caption_labels": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "stanza_mapping": {
+      "1": [
+        "001.jpg"
+      ],
+      "2": [
+        "002.jpg"
+      ],
+      "3": [
+        "003.jpg"
+      ],
+      "4": [
+        "004.jpg"
+      ],
+      "5": [
+        "005.jpg"
+      ],
+      "6": [
+        "006.jpg"
+      ],
+      "7": [
+        "007.jpg"
+      ],
+      "8": [
+        "008.jpg"
+      ],
+      "9": [
+        "009.jpg",
+        "010.jpg"
+      ],
+      "10": [
+        "011.jpg"
+      ]
+    }
+  },
+  "intake": {
+    "source_folder": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D033/",
+    "copied_to": "intake/D033/",
+    "read_only_copy": true,
+    "raw_photo_count": 17,
+    "unmapped_extras": [
+      "012.jpg",
+      "013.jpg",
+      "014.jpg",
+      "015.jpg",
+      "016.jpg",
+      "017.jpg"
+    ],
+    "mapping_basis": "Accepted readiness record, caption labels and direct visual inspection; image ordinal is not treated as stanza number unless the source caption explicitly maps it."
+  },
+  "references": {
+    "style-d001-s004.png": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+    "style-d001-s008.png": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+    "vishnu-approved-guruvayurappan.png": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+    "brahma-character-sheet-candidate-v003.png": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+    "bhattathiri-older-candidate.png": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+  },
+  "hash_validation_history": [
+    {
+      "event": "Initial D033 reference-copy verification included a manually typed placeholder expected hash for the Brahma sheet and therefore reported MISMATCH; no source bytes were altered.",
+      "corrected_against": "art/bible/characters/brahma/character.json approved_reference.sha256",
+      "actual_sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+      "result": "matches approved reference"
+    }
+  ],
+  "source_excerpt_hashes": {
+    "canonical-page-excerpt.txt": "e8aa80e3cd9bf84585834f0f649dbd3f73ea80a858fd866653161d0ac1ad78ef",
+    "canonical-iast-excerpt.txt": "97cf6fb9897aa1109557675d80a74583c38fe741737accb12ee4b662fc5e9f92"
+  },
+  "comparison_reference_map": {
+    "path": "content/sources/d033/reference-map.json",
+    "sha256": "7da63e0427a88636ec40e1ec96e009378ccb7422930215c30a35ba6a17ee4427",
+    "primary_reference_count": 10,
+    "additional_captioned_duplicate": "intake/D033/010.jpg is a second #9 composition cue and not selected as the comparison reference",
+    "uncaptioned_extras": [
+      "intake/D033/012.jpg",
+      "intake/D033/013.jpg",
+      "intake/D033/014.jpg",
+      "intake/D033/015.jpg",
+      "intake/D033/016.jpg",
+      "intake/D033/017.jpg"
+    ]
+  },
+  "candidate_manifest": {
+    "path": "artifacts/d033/production-manifest.json",
+    "selected_batch": "art/batches/d033-comparison-v001.json",
+    "status": "candidates remain unapproved; selected versions await independent managed visual review"
+  }
+}

@@ -277,6 +277,19 @@ translations are absent, and portrait compositions are paused. Upload only
 D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
 before any serialized Worker deployment.
 
+## Dasakam 33
+
+D033 contains ten source-mapped landscape comparison candidates in
+`art/batches/d033-comparison-v001.json`. Captions and numbered source photos are
+mapped through `content/sources/d033/reference-map.json`; uncaptained documentary
+extras remain in intake and are excluded from stanza attribution. The Sanskrit
+and IAST are sourced, but the cited source does not provide English
+translations. Candidate versions remain unapproved and require independent
+checksum-bound visual inspection before publication. Portraits are paused.
+Upload only D033's review derivatives with
+`node review-site/scripts/upload.mjs --daskam=33` before the serialized Worker
+deployment.
+
 ## Dasakam 42
 
 D042 contains eleven landscape comparison rows matched to the eleven numbered
