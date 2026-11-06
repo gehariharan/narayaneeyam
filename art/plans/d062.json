@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "daskam_id": 62,
+  "slug": "d062",
+  "continuity": {
+    "anchor_character": "krishna-cowherd-youth",
+    "recurring_characters": [
+      "Krishna",
+      "Nandagopan",
+      "Gokula cowherds",
+      "Indra"
+    ],
+    "locations": [
+      "Vraja ritual gathering",
+      "forest and pasture",
+      "Govardhana Hill",
+      "Indra’s celestial court"
+    ],
+    "narrative_arc": "A respectful question redirects worship from Indra to Govardhana and Brahmins; offerings are accepted, Indra’s pride grows into a storm plan, and Krishna steadies the cowherds before rain begins.",
+    "krishna_form_contract": "Across these ten D062 scenes, Krishna is one youthful cowherd with two arms and two legs. No four-armed revelation or hill-lifting occurs. Keep his face, deep blue skin, yellow dhoti and restrained peacock feather consistent. The approved Guruvayurappan image anchors identity only; mapped chapter photographs provide provisional narrative-age cues.",
+    "indra_form_contract": "Indra is a distinct adult deity with one head and two arms, simple crown and muted celestial garments. Never transfer Krishna’s peacock feather. One coherent elephant appears in stanza 9.",
+    "supporting_cast_contract": "Nanda is mature and moustached in simple cream and muted green cowherd clothing. Cowherds and Brahmins appear as small groups of ordinary distinct people with natural proportions; do not clone figures.",
+    "rendering_references": [
+      "artifacts/d062/references/shared/style-d001-s004.png",
+      "artifacts/d062/references/shared/style-d001-s008.png"
+    ],
+    "palette_arc": "Flat opaque matte mineral fields in warm cream, ochre, maroon, muted olive and established deep blue. Move from village warmth to restrained storm indigo and quiet assurance. No gloss, metallic gold, outer border or text.",
+    "batch_selection": "art/batches/d062-comparison-v001.json; proposed leads: S001 v001, S002 v003, S003–S006 v001, S007–S010 v002. All prior candidates retained as visible alternates pending review."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d062-s001",
+      "characters": [
+        "krishna-cowherd-youth",
+        "nandagopan",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna asks Nanda and gathered cowherds why they are assembling sacrifice offerings.",
+          "Krishna stands among ritual vessels and produce, gently addressing Nanda and a small distinct group; preparations are visible, no deity appears.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "Krishna stands among ritual vessels and produce, gently addressing Nanda and a small distinct group; preparations are visible, no deity appears.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+        ]
+      },
+      "alt": "Krishna asks Nanda and gathered cowherds why they are assembling sacrifice offerings.",
+      "reference_paths": [
+        "intake/D062/001.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png",
+        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "Use intake/D062/001.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d062/s001/landscape/candidate-v001.png",
+          "candidate_sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s001/landscape/prompt-v001.txt",
+          "provenance_path": "artifacts/d062/s001/landscape/provenance-v001.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d062-s002",
+      "characters": [
+        "krishna-cowherd-youth",
+        "nandagopan",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Nanda explains the annual offering to Indra, whose rain sustains people, cattle, grass and water.",
+          "Nanda speaks with Krishna in a settled green pasture among a few distinct cowherds; healthy cattle and ordinary village life suggest the importance of rain without depicting rain itself.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "Compose Nanda in close discussion with Krishna, a few varied cowherds and cattle on a green pasture beneath a calm sky. Keep the focus on explanation rather than an active storm.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands.",
+          "For stanza 2, show only Nanda explaining the yearly sacrifice and the dependence on rain; Indra is not visibly present, and the scene has no storm attack.",
+          "No visible rain, storm clouds, lightning, Indra apparition, or elephant rider in stanza 2."
+        ]
+      },
+      "alt": "Nanda explains the annual offering to Indra, whose rain sustains people, cattle, grass and water.",
+      "reference_paths": [
+        "intake/D062/002.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png",
+        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "Use intake/D062/002.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d062/s002/landscape/candidate-v003.png",
+          "candidate_sha256": "094932b620d0a1c4dd7456b04470b3a9dd07621b8f67afe86aa0f08574d90f12",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s002/landscape/prompt-v003.txt",
+          "provenance_path": "artifacts/d062/s002/landscape/provenance-v003.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d062-s003",
+      "characters": [
+        "krishna-cowherd-youth",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna gently challenges the claim that Indra causes rain and points to the forest trees.",
+          "Krishna speaks calmly at the forest edge; trees, pasture and a stream carry the idea of living nature.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "Krishna speaks calmly at the forest edge; trees, pasture and a stream carry the idea of living nature.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+        ]
+      },
+      "alt": "Krishna gently challenges the claim that Indra causes rain and points to the forest trees.",
+      "reference_paths": [
+        "intake/D062/003.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png",
+        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "Use intake/D062/003.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d062/s003/landscape/candidate-v001.png",
+          "candidate_sha256": "d78ec797e4a2166df15437e6955b00968306b07d67eb010e939d31286901815e",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s003/landscape/prompt-v001.txt",
+          "provenance_path": "artifacts/d062/s003/landscape/provenance-v001.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d062-s004",
+      "characters": [
+        "krishna-cowherd-youth",
+        "nandagopan",
+        "gopas",
+        "brahmins"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna proposes offerings to Govardhana and reverence for learned Brahmins.",
+          "Krishna gestures toward Govardhana and distinct Brahmin elders; cattle graze below, connecting hill, water and livelihood.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "Krishna gestures toward Govardhana and distinct Brahmin elders; cattle graze below, connecting hill, water and livelihood.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+        ]
+      },
+      "alt": "Krishna proposes offerings to Govardhana and reverence for learned Brahmins.",
+      "reference_paths": [
+        "intake/D062/004.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png",
+        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "Use intake/D062/004.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d062/s004/landscape/candidate-v001.png",
+          "candidate_sha256": "1f59d0dbd422c1f878f10cbe7e83327ff72984bb973d2b0edf66a3c883cb4bdf",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s004/landscape/prompt-v001.txt",
+          "provenance_path": "artifacts/d062/s004/landscape/provenance-v001.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d062-s005",
+      "characters": [
+        "krishna-cowherd-youth",
+        "nandagopan",
+        "gopas",
+        "brahmins"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Cowherds honor Brahmins, circle Govardhana and offer food; Krishna is identified with the mountain.",
+          "A single two-armed Krishna remains among the people; show the hill as recipient with food offerings and a circumambulation path. Suggest presence in the hill through a subtle natural contour, never a second Krishna body.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "A single two-armed Krishna remains among the people; show the hill as recipient with food offerings and a circumambulation path. Suggest presence in the hill through a subtle natural contour, never a second Krishna body.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+        ]
+      },
+      "alt": "Cowherds honor Brahmins, circle Govardhana and offer food; Krishna is identified with the mountain.",
+      "reference_paths": [
+        "intake/D062/005.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png",
+        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "Use intake/D062/005.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d062/s005/landscape/candidate-v001.png",
+          "candidate_sha256": "954bc4f674e0e5be45b552074237b98b3a27d09ff5f873c65eb4baec7c7e4c75",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s005/landscape/prompt-v001.txt",
+          "provenance_path": "artifacts/d062/s005/landscape/provenance-v001.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d062-s006",
+      "characters": [
+        "krishna-cowherd-youth",
+        "nandagopan",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna says Govardhana accepted the offerings and can protect them; cowherds rejoice.",
+          "Krishna reassures Nanda and a few distinct cowherds beside the hill; relaxed expressions and a returning path suggest confidence.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "Krishna reassures Nanda and a few distinct cowherds beside the hill; relaxed expressions and a returning path suggest confidence.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+        ]
+      },
+      "alt": "Krishna says Govardhana accepted the offerings and can protect them; cowherds rejoice.",
+      "reference_paths": [
+        "intake/D062/006.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png",
+        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "Use intake/D062/006.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d062/s006/landscape/candidate-v001.png",
+          "candidate_sha256": "62a7d34dd1db98ef201c2b049ce295108d95f152b44cbb22daa9c65c681f0dbf",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s006/landscape/prompt-v001.txt",
+          "provenance_path": "artifacts/d062/s006/landscape/provenance-v001.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d062-s007",
+      "characters": [
+        "indra-d062"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Indra hears his sacrifice was interrupted and is overcome by anger despite knowing Krishna’s stature.",
+          "Indra alone sits in a restrained celestial court, receiving news from one messenger; his face tightens as a small cloud gathers.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "Indra alone sits in a restrained celestial court, receiving news from one messenger; his face tightens as a small cloud gathers.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands.",
+          "For stanza 7, show exactly one Indra and one distinct messenger; no rows of repeated attendants or duplicated figures."
+        ]
+      },
+      "alt": "Indra hears his sacrifice was interrupted and is overcome by anger despite knowing Krishna’s stature.",
+      "reference_paths": [
+        "intake/D062/007.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use the mapped D062 photo for Indra and scene context only. The two D001 images are rendering references. Krishna identity references are intentionally excluded because Krishna is not a visible character in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d062/s007/landscape/candidate-v002.png",
+          "candidate_sha256": "b8f25268caf1990ea5eeb5868d6ddbc19044199fb2c04d4f60d9054a296d9274",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s007/landscape/prompt-v002.txt",
+          "provenance_path": "artifacts/d062/s007/landscape/provenance-v002.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d062-s008",
+      "characters": [
+        "indra-d062"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Indra resolves to defeat Krishna and destroy the prosperity of the cowherds.",
+          "Indra rises and commands toward distant Vraja; dark clouds gather symbolically but the assault has not begun.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "Indra rises and commands toward distant Vraja; dark clouds gather symbolically but the assault has not begun.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+        ]
+      },
+      "alt": "Indra resolves to defeat Krishna and destroy the prosperity of the cowherds.",
+      "reference_paths": [
+        "intake/D062/008.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use the mapped D062 photo for Indra and scene context only. The two D001 images are rendering references. Krishna identity references are intentionally excluded because Krishna is not a visible character in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d062/s008/landscape/candidate-v002.png",
+          "candidate_sha256": "582231abe605d370251413854ce5a8e7063119ea9a37a718c1d836dfc30146b2",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s008/landscape/prompt-v002.txt",
+          "provenance_path": "artifacts/d062/s008/landscape/provenance-v002.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d062-s009",
+      "characters": [
+        "indra-d062"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Indra sends destructive rain clouds and rides Airavata with a thunderbolt.",
+          "Indra rides one pale elephant through a dark cloud bank holding one vajra; distant clouds move toward Vraja. Keep the elephant anatomically coherent.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "Indra rides one pale elephant through a dark cloud bank holding one vajra; distant clouds move toward Vraja. Keep the elephant anatomically coherent.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+        ]
+      },
+      "alt": "Indra sends destructive rain clouds and rides Airavata with a thunderbolt.",
+      "reference_paths": [
+        "intake/D062/009.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use the mapped D062 photo for Indra and scene context only. The two D001 images are rendering references. Krishna identity references are intentionally excluded because Krishna is not a visible character in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d062/s009/landscape/candidate-v002.png",
+          "candidate_sha256": "0ec46ac3ffccc90472ec49128c62bc72e9fa4e61c9d08a073c0827d1d23eca76",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s009/landscape/prompt-v002.txt",
+          "provenance_path": "artifacts/d062/s009/landscape/provenance-v002.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d062-s010",
+      "characters": [
+        "krishna-cowherd-youth",
+        "nandagopan",
+        "gopas",
+        "brahmins"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna reassures frightened cowherds that Brahmin compassion and Govardhana will protect them, then waits for Indra.",
+          "Krishna speaks calmly to a small worried group by Govardhana as distant clouds approach; hill and a few Brahmins form quiet protective anchors; no rainfall yet.",
+          "Mapped source image guides scene/cast context only, not rendering or framing."
+        ],
+        "composition": "Krishna speaks calmly to a small worried group by Govardhana as distant clouds approach; hill and a few Brahmins form quiet protective anchors; no rainfall yet.",
+        "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
+        "avoid": [
+          "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
+          "No extra limbs, fused people, duplicated figures, or props detached from hands.",
+          "For stanza 10, include only two Brahmin elders with visibly distinct faces and clothing; avoid repeated or cloned priests."
+        ]
+      },
+      "alt": "Krishna reassures frightened cowherds that Brahmin compassion and Govardhana will protect them, then waits for Indra.",
+      "reference_paths": [
+        "intake/D062/010.jpg",
+        "artifacts/d062/references/shared/style-d001-s004.png",
+        "artifacts/d062/references/shared/style-d001-s008.png",
+        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+      ],
+      "reference_guidance": "Use intake/D062/010.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d062/s010/landscape/candidate-v002.png",
+          "candidate_sha256": "0f474186fdabbf86004aefcf1ce01d7ef4301021f578768d14d9d070505788d5",
+          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d062/s010/landscape/prompt-v002.txt",
+          "provenance_path": "artifacts/d062/s010/landscape/provenance-v002.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    }
+  ]
+}
