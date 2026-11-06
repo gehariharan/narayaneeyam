@@ -282,15 +282,20 @@ before any serialized Worker deployment.
 D029 contains ten source-mapped landscape candidates in
 `art/batches/d029-comparison-v003.json`. S001 and S003 select v003; S002 and
 S004–S010 select v002. The exact candidate versions and
-checksums are pinned there. Every candidate remains unapproved and requires an
-independent, checksum-bound full-frame and relevant-detail review before
-publication; producer observations are not visual clearance. Supplied
-commentary is preserved verbatim, a sourced English translation is unavailable,
-and portraits are paused. Upload only D029's WebP derivatives with
-`node review-site/scripts/upload.mjs --daskam=29` before any serialized Worker
-deployment. With D029 and D040 both selected, the union holds 21 chapters, 219
-stanza rows, 444 review media inputs and 225 selected generated images (69
-historical, 146 individually inspected; D029's ten await exact review).
+checksums are pinned there. Every candidate remains unapproved. Independent,
+checksum-bound full-frame and detail reviews are recorded in
+`art/reviews/d029-s*-managed-review-v001.md` and `visual-reviews.json`:
+S001, S002, S006 and S008 pass; S003 and S004 carry pseudo-writing on sari
+borders (S004 also paints a deva with reserved deity-blue skin); S005 and S010
+fork Narayana's arms; S007 repeats deva and asura faces; S009's border is
+uncertain. Until each failing raw is natively corrected and freshly reviewed,
+the build refuses to publish D029. Supplied commentary is preserved verbatim,
+a sourced English translation is unavailable, and portraits are paused. Upload
+only D029's WebP derivatives with `node review-site/scripts/upload.mjs
+--daskam=29` before any serialized Worker deployment. With D029 and D040 both
+selected, the shipping union holds 21 chapters, 219 stanza rows, 444 review
+media inputs and 225 selected generated images (69 historical, 156
+individually inspected).
 
 ## Dasakam 34
 
