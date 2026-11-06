@@ -108,7 +108,7 @@ export async function validateBundle(root, directory, options = {}) {
   const validation = await validateSelections(root, batches, options);
   const data = JSON.parse(await fs.readFile(path.join(directory, 'data.json'), 'utf8'));
   const provenance = JSON.parse(await fs.readFile(path.join(directory, 'asset-provenance.json'), 'utf8'));
-  const references = batches.flatMap(batch => batch.rows.filter(row => row.reference).map(row => ({ ...row.reference, chapter: batch.daskam_id, sloka: row.n, role: 'reference' })));
+  const references = batches.flatMap(batch => batch.rows.flatMap(row => (row.references || (row.reference ? [row.reference] : [])).map(item => ({ ...item, chapter: batch.daskam_id, sloka: row.n, role: 'reference' }))));
   const expected = new Map([...validation.images, ...references].map(image => [slot(image), image]));
   const seen = new Set();
   for (const chapter of data.chapters) for (const row of chapter.rows) for (const image of row.images) {

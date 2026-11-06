@@ -245,7 +245,7 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 156);
+  assert.equal(labels.length - historicalLabels.length, 166);
   const d009 = selectedImages(batches).filter(image => image.chapter === 9).map(image => reviewFor(validation, image));
   assert.equal(d009.length, 10);
   assert.ok(d009.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
@@ -258,6 +258,9 @@ test('repository historical labels match the preserved audits', async () => {
   const d013 = selectedImages(batches).filter(image => image.chapter === 13).map(image => reviewFor(validation, image));
   assert.equal(d013.length, 10);
   assert.ok(d013.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+  const d031 = selectedImages(batches).filter(image => image.chapter === 31).map(image => reviewFor(validation, image));
+  assert.equal(d031.length, 10);
+  assert.ok(d031.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
   const d034 = selectedImages(batches).filter(image => image.chapter === 34).map(image => reviewFor(validation, image));
   assert.equal(d034.length, 10);
   assert.ok(d034.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
@@ -273,6 +276,38 @@ test('repository historical labels match the preserved audits', async () => {
   const d044 = selectedImages(batches).filter(image => image.chapter === 44).map(image => reviewFor(validation, image));
   assert.equal(d044.length, 10);
   assert.ok(d044.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+});
+
+test('D031 selection binds its eleven mapped sources and ten inspected native candidate versions to the plan and cast contracts', async () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batches = await loadSelections(root);
+  const batch = batches.find(item => item.selectionFile === 'd031-comparison-v001.json');
+  const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d031.json'), 'utf8'));
+  const plan = JSON.parse(await fs.readFile(path.join(root, 'art/plans/d031.json'), 'utf8'));
+  const map = JSON.parse(await fs.readFile(path.join(root, 'content/sources/d031/reference-map.json'), 'utf8'));
+  assert.ok(batch);
+  assert.equal(batch.daskam_id, 31);
+  assert.equal(batch.review_status, 'needs-review');
+  assert.equal(batch.rows.length, 10);
+  const validation = await validateSelections(root, [batch]);
+  for (const selected of batch.rows) {
+    const stanza = content.stanzas.find(item => item.n === selected.n);
+    const scene = plan.stanzas.find(item => item.n === selected.n);
+    const mapped = map.stanzas[String(selected.n)];
+    assert.ok(stanza && scene && mapped);
+    assert.equal(selected.concept_id, scene.concept_id);
+    assert.equal(selected.scene, scene.alt);
+    assert.deepEqual(selected.references.map(item => [item.file, item.sha256]), mapped.references.map(item => [item.path, item.sha256]));
+    assert.deepEqual(selected.references.map(item => item.file), scene.reference_paths);
+    assert.equal(selected.matte.file, `artifacts/d031/s${String(selected.n).padStart(3, '0')}/landscape/candidate-${selected.matte.version}.png`);
+    assert.deepEqual(selected.alternates, []);
+    assert.equal(stanza.review_status, 'needs-review');
+    for (const character of scene.characters) await fs.access(path.join(root, 'art/bible/characters', character, 'character.json'));
+    const review = reviewFor(validation, { ...selected.matte, chapter: 31, sloka: selected.n, role: 'matte' });
+    assert.equal(review.status, 'inspected');
+  }
+  assert.deepEqual(batch.rows.find(row => row.n === 9).references.map(item => item.file), ['intake/D031/009.jpg', 'intake/D031/010.jpg']);
+  assert.notEqual(batch.rows.find(row => row.n === 7).matte.version, 'v003');
 });
 
 test('D040 selection binds its ten source and native candidate versions to the plan and visible cast contracts', async () => {
@@ -370,16 +405,16 @@ test('D014 selection binds ten source/candidate pairs and renders as a landscape
   assert.ok(!html.includes('<select'));
 });
 
-test('release union with main retains the expected D012, D013, D014, D034, D040, D042, D043 and D044 dataset counts', async () => {
+test('release union with main retains the expected D012, D013, D014, D031, D034, D040, D042, D043 and D044 dataset counts', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
   const rowCount = batches.reduce((count, batch) => count + batch.rows.length, 0);
-  const mediaInputCount = batches.reduce((count, batch) => count + batch.rows.reduce((sum, row) => sum + 2 + (row.alternates || []).length, 0), 0);
-  assert.equal(batches.length, 21);
-  assert.equal(rowCount, 219);
-  assert.equal(mediaInputCount, 444);
-  assert.equal(selectedImages(batches).length, 225);
-  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 34, 38, 40, 42, 43, 44, 96]));
+  const mediaInputCount = batches.reduce((count, batch) => count + batch.rows.reduce((sum, row) => sum + (row.references || [row.reference]).length + 1 + (row.alternates || []).length, 0), 0);
+  assert.equal(batches.length, 22);
+  assert.equal(rowCount, 229);
+  assert.equal(mediaInputCount, 465);
+  assert.equal(selectedImages(batches).length, 235);
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 31, 34, 38, 40, 42, 43, 44, 96]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
