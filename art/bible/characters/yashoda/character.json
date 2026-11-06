@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "yashoda",
+  "display": "Yashoda",
+  "aliases": [
+    "Mother Yashoda"
+  ],
+  "depiction_rules": {
+    "default_mode": "vraja-mother",
+    "allowed_modes": [
+      "vraja-mother"
+    ],
+    "notes": "One recurring adult mother of Vraja. Keep the same face, hair, veil and sari palette in every D042-D044 scene; gestures and expression follow each stanza."
+  },
+  "visual_bible": {
+    "age": "adult mother",
+    "face": "gentle oval face, expressive dark eyes, calm maternal expression",
+    "skin": "warm medium-brown complexion",
+    "hair": "dark hair parted and gathered under a simple sari veil",
+    "build": "ordinary adult proportions with natural two-armed anatomy",
+    "clothing": "warm cream, soft saffron or muted rose sari with restrained olive or blue accents",
+    "continuity_markers": "same gentle oval face, parted dark hair under a simple veil, cream/saffron/rose sari family and modest jewelry in every scene"
+  },
+  "never": [
+    "no royal crown or palace costume",
+    "no heavy ornate jewelry",
+    "no glossy photographic rendering",
+    "no changing face, veil or sari palette between scenes",
+    "do not merge her with other gopikas"
+  ],
+  "local_reference_paths": [
+    "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
+  ],
+  "note": "Provisional shared D042-D044 identity cue from the private supporting-cast handoff (data/d044-production/shared-supporting-cast-handoff.json), derived from D043 S009 source photo SHA-256 1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f. Identity, age, hair, face and clothing cues only; not an approved sheet or scene master.",
+  "reference_decision": {
+    "status": "provisional-shared-identity-cue",
+    "basis": "Shared D042-D044 supporting-cast handoff",
+    "decision": "Use the shared Yashoda identity cue for D042 comparison generation. Not an approval.",
+    "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f"
+  }
+}

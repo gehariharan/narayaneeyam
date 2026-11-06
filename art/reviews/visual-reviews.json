@@ -12287,6 +12287,2261 @@
       "supersedes_version": "v002"
     },
     {
+      "chapter": 42,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d042/s001/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "67103e0dbfb46f78404dd60d9c07ed76d62447fff0d5a2de36ce24f06dfdd9a4",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:04:27Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Exactly four figures: Yashoda and two other village women are ordinary two-armed adults, and Krishna is an ordinary two-armed infant.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s001-v001-final-managed-review-v001.md",
+          "sha256": "bbc8d46e0da5ec36a67e6dc349dbf30b6b181b5deefa4e4f3e5c7fa0dd2fa247"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Yashoda's two hands handle a vessel and a ladle, each with five fingers. The infant shows two small hands and two feet in the cradle in the 2x crop. The doorway woman's hands steady the pot on her head, and the garland woman's two hands hold the flower strand with natural fingers."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Every arm runs continuously from shoulder to hand. The infant has newborn proportions and is not a miniature adult. The cart is in believable scale to the adults."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Yashoda has a gentle oval face, dark eyes and parted dark hair under a cream veil, in a saffron/rose sari, matching the shared cue. The infant matches the v004 anchor: deep blue skin, dark curls, peacock feather, calm almond eyes. The two other women have distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One infant and three distinct women; no repeated or fused figures."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No lettering, signatures or marks."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The placement under the cart, the turn toward feast work and the quiet foreshadowing follow the plan. Warm household ochre and cream fit the matte mineral anchors without glossy finish."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/001.jpg",
+        "sha256": "ba905a9c5853b477fda0602fa7477847d709434925a1c1fcd2a6a4cc3f73e5ac",
+        "caption_path": "intake/D042/photo-captions.txt#001",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "intake/D042/001.jpg",
+          "sha256": "ba905a9c5853b477fda0602fa7477847d709434925a1c1fcd2a6a4cc3f73e5ac",
+          "role": "source reference"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s001/candidates/landscape-v001.png",
+          "sha256": "67103e0dbfb46f78404dd60d9c07ed76d62447fff0d5a2de36ce24f06dfdd9a4",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:04:27Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s001-yashoda-hands.png",
+          "sha256": "a65a4a6bda93e3b8ae789b5390d9c67ea60bfc5cdb304281844b8d4786739568",
+          "region": "520x420+120+440",
+          "viewed_at": "2026-11-05T23:04:27Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s001-infant-x2.png",
+          "sha256": "4b41fdefc63812db30d3170b39d753b347854c85629872e498254d1de3798062",
+          "region": "380x240+830+460 enlarged 2x (point filter)",
+          "viewed_at": "2026-11-05T23:04:27Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s001-garland-woman.png",
+          "sha256": "52bdce3676fd4100116d65cbb8052f3597dc6ad9ee37d2da30c008088ea527bd",
+          "region": "330x430+1350+440",
+          "viewed_at": "2026-11-05T23:04:27Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s001-doorway-woman.png",
+          "sha256": "b4af3a1051cb730a8fc81e1d583947ba0741574c46a9495155d250776a221be3",
+          "region": "230x340+130+140",
+          "viewed_at": "2026-11-05T23:04:27Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d042/s002/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "759d5c7a586d121f04d7a275cfbfa09c61b12916a24e7dfb662d4ec40d6cac13",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:04:51Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Exactly four figures: three guard boys are ordinary two-armed children, and Krishna is an ordinary two-armed infant.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/guard-boys/character.json",
+          "sha256": "be2d98bbad6b370d2734bd62bbf636d379ee45f3a73c778e8fcc028de195595b"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s002-v001-final-managed-review-v001.md",
+          "sha256": "3540d7c24588e960611013ad6a486622fbc2e8615097b0612857fa93834e77af"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The standing left boy raises both open hands in alarm; the kneeling boy braces one hand on the ground and lifts the other, with both bare feet tucked under him. The right boy's two hands are raised and his two feet are planted. In the 2x crop the infant shows two fists and two feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All boys' arms and legs connect naturally. In the 4x hip crop, the faint stroke near the kneeling boy's hip is a garment fold edge, not a limb. The infant keeps newborn proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Three distinct boyish faces with no facial hair and open alarmed expressions. The infant's face matches the v004 anchor."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Three separate boys and one infant; no duplicate or fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Sudden alarm without injury: the wood breaks and falls without striking or covering the infant, and no demon figure appears, as the plan requires. The matte style matches the anchors."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/002.jpg",
+        "sha256": "c0497fa73076144c70d595f76dc5fea924804f647649d1864700ae7996be8be2",
+        "caption_path": "intake/D042/photo-captions.txt#002",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "intake/D042/002.jpg",
+          "sha256": "c0497fa73076144c70d595f76dc5fea924804f647649d1864700ae7996be8be2",
+          "role": "source reference"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s002/candidates/landscape-v001.png",
+          "sha256": "759d5c7a586d121f04d7a275cfbfa09c61b12916a24e7dfb662d4ec40d6cac13",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:04:51Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s002-left-boys.png",
+          "sha256": "70436ef477abdbd98ba2e99472ccd310c10ccf72f81c19fe32bd9ba32a9d9d3a",
+          "region": "600x560+0+90",
+          "viewed_at": "2026-11-05T23:04:51Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s002-right-boy.png",
+          "sha256": "a2474f1524535fb0506bec447db8f690850a81668abbdc898abb739c0202b95a",
+          "region": "420x560+1230+300",
+          "viewed_at": "2026-11-05T23:04:51Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s002-infant-x2.png",
+          "sha256": "6774eb25cf340992c9b118cda1bbcbbd18095b654f78037cc718a1fd7eec0c74",
+          "region": "380x320+640+390 enlarged 2x (point filter)",
+          "viewed_at": "2026-11-05T23:04:51Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s002-kneeling-boy-hands-feet.png",
+          "sha256": "ff5760898dc2cb3c647512bcab40897c9dba746c27480970fd5ececb71329d04",
+          "region": "600x441+0+500",
+          "viewed_at": "2026-11-05T23:04:51Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s002-kneeling-boy-hip-x4.png",
+          "sha256": "7f40433c10e88d97c94af1ad21372ea898b5da2d63f3a3c0cc9d2ea354315da8",
+          "region": "140x110+190+680 enlarged 4x (point filter)",
+          "viewed_at": "2026-11-05T23:04:51Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d042/s003/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "64ba030f506b7fb9e6413398f226c6e9ebab11958dc04d504384b1e1e91dbc58",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:05:16Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Exactly six figures: five gopikas are ordinary two-armed women, and Krishna is an ordinary two-armed infant.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s003-v001-final-managed-review-v001.md",
+          "sha256": "d998ac2aaf91b7dc05094823d989887cf1c77e0c939b4a2cbb764593e21721d9"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The left gopikas raise or extend their hands toward the infant with natural five-finger hands. The teal-sari gopika's two bare feet are visible mid-stride. The right gopikas hold a hand to the chest or reach forward. The infant's two hands and two feet are formed naturally in the 1.6x crop."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms attach at the shoulders and no limb is lost behind the wreckage. The infant keeps newborn scale."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Five distinct women's faces showing fear easing to relief. None is styled with Yashoda's veil-and-sari identity. The infant matches the v004 anchor."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No duplicate infant and no repeated or fused women."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The infant is the focal point within a readable ring of debris that does not obscure him, as the plan requires. The matte palette is consistent with the anchors."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/003.jpg",
+        "sha256": "2494789105e4ff174a3e8aa02e409153eba9e298606f68c27faf61a4e69399bf",
+        "caption_path": "intake/D042/photo-captions.txt#003",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "intake/D042/003.jpg",
+          "sha256": "2494789105e4ff174a3e8aa02e409153eba9e298606f68c27faf61a4e69399bf",
+          "role": "source reference"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s003/candidates/landscape-v001.png",
+          "sha256": "64ba030f506b7fb9e6413398f226c6e9ebab11958dc04d504384b1e1e91dbc58",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:05:16Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s003-infant-x1_6.png",
+          "sha256": "6de18a979722778cd00d97549d56b768848da130590b92eff35b71152254737e",
+          "region": "520x340+560+380 enlarged 1.6x (point filter)",
+          "viewed_at": "2026-11-05T23:05:16Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s003-left-gopikas.png",
+          "sha256": "a10b1482a6d760d0539be7461cd04df7c3fb8d43f26243ee8e2a638ad481cee7",
+          "region": "600x620+0+40",
+          "viewed_at": "2026-11-05T23:05:16Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s003-right-gopikas.png",
+          "sha256": "79db4d3376ac79077db3671c47d65505a14e99409e8b45dd39e11d89028e39c8",
+          "region": "600x780+1060+60",
+          "viewed_at": "2026-11-05T23:05:16Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s003-teal-gopika-feet.png",
+          "sha256": "11352314c366ad8ab2cc46f3a9cb1412ab5890106a8f9e45ab3e9048db8daf0f",
+          "region": "600x300+0+620",
+          "viewed_at": "2026-11-05T23:05:16Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d042/s004/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "0d395708b7b081355c0fa25575f53ee05c885ba868fba918a21fd842f2af65fc",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:05:35Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "All adults are ordinary two-armed people (Nandagopan, Yashoda, gopas and Brahmins), and Krishna is an ordinary two-armed infant.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/brahmins/character.json",
+          "sha256": "ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s004-v001-final-managed-review-v001.md",
+          "sha256": "af6d91b1e3cd11dc889dd0b0f5c9cde96d6ddc9afc022995faa20b83a7311a06"
+        },
+        {
+          "path": "art/reviews/d042-shared-contract-rebinding-v001.md",
+          "sha256": "f6b7b2e8305abee19cbde55491517a165e0c3cdfd58bf78841204fd53ca0ccb5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Yashoda's two arms cradle the infant, one under his back and one under his legs. Nandagopan's two hands reach toward the child with five fingers each, and both his feet are bare on the ground. The elders' hands are joined or raised, and their visible feet are complete in the lower-left crop."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The 3x crop at the embrace confirms each hand traces back to Yashoda or Nandagopan, with no orphan hand. The infant keeps newborn proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Nandagopan matches the shared cue: rounded face, dark moustache, cream head cloth and olive upper cloth, with a gentle, relieved smile and no visible tears. Yashoda matches the cue: gentle oval face, parted hair under a cream veil, saffron/rose sari. The elders' faces are distinct. The infant matches v004."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One infant; no repeated elder or fused bodies in the group."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Anxiety turning to relief in a close gathering with no adult blocking the infant, as planned. Matte mineral finish."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/004.jpg",
+        "sha256": "58a0396e159b1ffefecedda23f294b1fd7f16c9bda82596d636442122d88bc7d",
+        "caption_path": "intake/D042/photo-captions.txt#004",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "intake/D042/004.jpg",
+          "sha256": "58a0396e159b1ffefecedda23f294b1fd7f16c9bda82596d636442122d88bc7d",
+          "role": "source reference"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s004/candidates/landscape-v001.png",
+          "sha256": "0d395708b7b081355c0fa25575f53ee05c885ba868fba918a21fd842f2af65fc",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:05:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s004-elders-upper.png",
+          "sha256": "43f19e2b7b58a2a184814cdc6b45ab586a15fd8ed01bd0e80519e20202763de6",
+          "region": "560x520+0+120",
+          "viewed_at": "2026-11-05T23:05:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s004-elders-feet.png",
+          "sha256": "1ca799eef96365c3379ba919ac65bccf863d26fa257abef97a18ee4c9a6859f0",
+          "region": "560x320+0+560",
+          "viewed_at": "2026-11-05T23:05:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s004-nanda-hands-feet.png",
+          "sha256": "871f5be6635a2e3ed4bdf5166590bd460580ea119c31af2d65b22f977769b8d1",
+          "region": "640x420+260+480",
+          "viewed_at": "2026-11-05T23:05:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s004-infant-yashoda-hands.png",
+          "sha256": "dc431d0b823f3fe6b9754dc014dec2d3299bf34fddb4e0f9b1658c9f95251127",
+          "region": "460x480+860+280",
+          "viewed_at": "2026-11-05T23:05:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s004-nanda-yashoda-faces.png",
+          "sha256": "d4df9a9b1ef5d5af7632d1c5c395dd8f045926cea6bf7b7aa4e27cf00472141a",
+          "region": "460x320+560+100",
+          "viewed_at": "2026-11-05T23:05:35Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s004-embrace-arm-x3.png",
+          "sha256": "0dc352c1ea23db2ac6b901221cb203d8ff78ad9612bc7e2d9198db1848bca502",
+          "region": "260x220+820+460 enlarged 3x (point filter)",
+          "viewed_at": "2026-11-05T23:05:35Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d042/s005/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "5b1636f1019c5c813485352b5405137bf626fd0b93e6b379f1e07474c0e810c1",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:06:15Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Exactly seven figures, all ordinary two-armed adult cowherd men.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s005-v001-final-managed-review-v001.md",
+          "sha256": "9a2764a35cd6bad165427bfe95a74959a4c4810794124d785b38a62958faf07c"
+        },
+        {
+          "path": "art/reviews/d042-shared-contract-rebinding-v001.md",
+          "sha256": "f6b7b2e8305abee19cbde55491517a165e0c3cdfd58bf78841204fd53ca0ccb5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "At left a gopa in an orange turban opens both palms. The white-turbaned man covers his mouth with one hand while the other hangs. The crouching gopa rests his chin on one hand, and his two bare feet are complete. At center a bearded gopa bends with both hands on his knees, and a red-shawled man raises one palm with the other at his head. At right a gopa points with one index finger, and a purple-turbaned man holds his chin with arms folded. All visible feet are complete with five toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Every arm and leg is continuous, with no extra hands among the closely spaced men."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Seven distinct male faces with varied turbans, moustaches and one beard; none uses Nandagopan's olive-and-cream identity."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No repeated or fused men."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Bewilderment around the broken cart with no visible demon, as the plan requires. The matte style and palette match the anchors."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/005.jpg",
+        "sha256": "dc4d2708af09e1a75c54cdc7e1472f9b13153019a0b0b88d6cf602968fbf455f",
+        "caption_path": "intake/D042/photo-captions.txt#005",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "intake/D042/005.jpg",
+          "sha256": "dc4d2708af09e1a75c54cdc7e1472f9b13153019a0b0b88d6cf602968fbf455f",
+          "role": "source reference"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s005/candidates/landscape-v001.png",
+          "sha256": "5b1636f1019c5c813485352b5405137bf626fd0b93e6b379f1e07474c0e810c1",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:06:15Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s005-left-gopas.png",
+          "sha256": "bf693b9d46b321745fa470323d74a7352da892d50d4e08be9f5154ded20b87a7",
+          "region": "620x620+40+80",
+          "viewed_at": "2026-11-05T23:06:15Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s005-crouching-gopa-feet.png",
+          "sha256": "eff412d4482c9a65d9f23013bd467eccf33dbb584cc52b015487b2b4e6ab4d9c",
+          "region": "420x460+0+460",
+          "viewed_at": "2026-11-05T23:06:15Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s005-center-gopas.png",
+          "sha256": "e26a3a00a7e04f2d3f95e196fb820099fbe65501994248f91da3510b74e4695c",
+          "region": "520x520+580+80",
+          "viewed_at": "2026-11-05T23:06:15Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s005-right-gopas.png",
+          "sha256": "a5e3062a6ddf6ac75924631c72966bb0daabfac70eb236adfb13f9857a302240",
+          "region": "600x700+1072+80",
+          "viewed_at": "2026-11-05T23:06:15Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s005-right-feet.png",
+          "sha256": "b85314e166dfed9cb1fa4cc7e56d3de54629d4b7e70551daa480831046b759a0",
+          "region": "480x240+1192+700",
+          "viewed_at": "2026-11-05T23:06:15Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d042/s006/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "3773febb7f9f32edb411156f21af063e53dbb3b99866c3ab2bf5bb9139673ca7",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:06:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Exactly three figures: two guard boys are ordinary two-armed children, and Krishna is an ordinary two-armed infant.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/guard-boys/character.json",
+          "sha256": "be2d98bbad6b370d2734bd62bbf636d379ee45f3a73c778e8fcc028de195595b"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s006-v001-final-managed-review-v001.md",
+          "sha256": "020a368c167a00c79b2984d90c44948edaa50a5488c98c0ae6834a958d1b3270"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The left boy places one hand on his chest and extends the other toward the cart. The right boy covers his mouth with one hand and points with the other. Both boys' tucked feet are complete. The infant raises one foot, which has five toes, rests the other foot, and has one fist raised and one hand on his belly."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All four boy arms attach correctly. The infant's raised leg joins at the hip with an anklet and keeps believable newborn proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Two distinct boy faces with surprise expressions and no facial hair. The infant matches v004: blue skin, curls, peacock feather, tilak."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Single infant with no ghosted second baby; two separate boys."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The boys' gestures connect the cart and the infant's foot, as planned, with no adult demon or injury. The matte style matches the anchors."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/006.jpg",
+        "sha256": "d1754a0591a961350dc8788b9fe4cf33def0527ba74bb260261ab9a145d3fa8e",
+        "caption_path": "intake/D042/photo-captions.txt#006",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "intake/D042/006.jpg",
+          "sha256": "d1754a0591a961350dc8788b9fe4cf33def0527ba74bb260261ab9a145d3fa8e",
+          "role": "source reference"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s006/candidates/landscape-v001.png",
+          "sha256": "3773febb7f9f32edb411156f21af063e53dbb3b99866c3ab2bf5bb9139673ca7",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:06:42Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s006-boys-arms-spears.png",
+          "sha256": "511dc531df326973bc3d6be9a288681f3dad3a75ab84073688e1714cac74cf1f",
+          "region": "720x480+120+260",
+          "viewed_at": "2026-11-05T23:06:42Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s006-boys-feet.png",
+          "sha256": "ba38d562f92e394d4f5206cd8d0b8b08b70f34550dee1a73d57f2130c6f11315",
+          "region": "520x380+0+560",
+          "viewed_at": "2026-11-05T23:06:42Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s006-infant.png",
+          "sha256": "6bd45706f639f1e2afacce2c397d55cf769426f231e3849b08ccba7c7dbf874f",
+          "region": "600x380+900+520",
+          "viewed_at": "2026-11-05T23:06:42Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d042/s007/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "62581157b4221555071786320b54c56eb139f552db76840de38ad8a382106786",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:07:12Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Exactly ten figures: nine gopas (two youths and seven men, including a white-bearded elder) are ordinary two-armed people, and Krishna is an ordinary two-armed infant.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s007-v001-final-managed-review-v001.md",
+          "sha256": "e08d298cd43a384c3ee5de7cc3e4ea642e8c7d00355080b08de720316f11ff9a"
+        },
+        {
+          "path": "art/reviews/d042-shared-contract-rebinding-v001.md",
+          "sha256": "f6b7b2e8305abee19cbde55491517a165e0c3cdfd58bf78841204fd53ca0ccb5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Two standing youths: one has a hand on his chest and the other extended; the other grips a staff with both hands. The standing elder holds his chin with his arms folded. The seated pair rest chin-on-hand and hand-on-knee, and their feet are complete. The green-dhoti man raises one palm and rests the other on his knee. The bearded man joins both palms. The white-bearded elder holds his chin, and his bare feet are complete. The infant opens two small palms, and his two feet are tucked under him."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms connect with no stray hand in the dense center. The infant keeps toddler-infant proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Ten distinct faces in varied ages and headwear. The infant matches v004."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No repeated men and a single infant."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Skepticism set against thoughtful remembrance within one group, with no Putana inset, as planned. The matte palette matches the anchors."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/007.jpg",
+        "sha256": "46c1f91a914459c37d61e1cfeabe744beec3bfda5cff830285a9aa0ec85aba34",
+        "caption_path": "intake/D042/photo-captions.txt#007",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "intake/D042/007.jpg",
+          "sha256": "46c1f91a914459c37d61e1cfeabe744beec3bfda5cff830285a9aa0ec85aba34",
+          "role": "source reference"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s007/candidates/landscape-v001.png",
+          "sha256": "62581157b4221555071786320b54c56eb139f552db76840de38ad8a382106786",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:07:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s007-standing-boys-elder.png",
+          "sha256": "b15c3734c6249c2e6183e77a6e496349b32d674b122524154a412b958754a1e8",
+          "region": "600x420+300+80",
+          "viewed_at": "2026-11-05T23:07:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s007-seated-left-pair.png",
+          "sha256": "1a8f17cb9d1b93ff1a693d7bf96f5fca1d9c74068336176765c6b9149426c551",
+          "region": "640x500+140+300",
+          "viewed_at": "2026-11-05T23:07:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s007-green-and-praying.png",
+          "sha256": "d7dbba061d4402d8fcb34d32bf28b3a846fb403197901b7ccec16bea8092d958",
+          "region": "560x520+740+250",
+          "viewed_at": "2026-11-05T23:07:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s007-left-feet.png",
+          "sha256": "893a33714f34753218244522153bcabe8395f501d2c73eb046e575e2f9ac396a",
+          "region": "520x480+140+440",
+          "viewed_at": "2026-11-05T23:07:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s007-center-feet.png",
+          "sha256": "eb4a46f5b5280c94476757effb446a1dc17f3cbf0c222d27ef8b0df1e3d4786f",
+          "region": "520x520+740+420",
+          "viewed_at": "2026-11-05T23:07:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s007-white-elder.png",
+          "sha256": "74e2fc2d5b82952b6b157e13b5c7b07ce43fe23625a095ef169f2cea1a4e924a",
+          "region": "360x660+1312+270",
+          "viewed_at": "2026-11-05T23:07:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s007-infant-x2.png",
+          "sha256": "3d574a6abdf68bd5f205dfb5408d9b8979bb332ff016812bda81da4d458992e0",
+          "region": "260x220+1150+190 enlarged 2x (point filter)",
+          "viewed_at": "2026-11-05T23:07:12Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d042/s008/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "48ddb5166bea9e6b3106f49d90b9f48ccb26c974f8e9d3a39a2f8904d5e4ecb5",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:07:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Exactly three figures: two gopikas are ordinary two-armed women, and Krishna is an ordinary two-armed infant.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s008-v001-final-managed-review-v001.md",
+          "sha256": "1218d5ac7d697e13f9a3ae424bbd2f388f35fffa9ba3fcb74b0e092a43920eb0"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The infant's raised hand has five fingers and his other hand rests on his belly. Both feet have five toes and are uninjured. The examining gopika's right hand pinches his fingertips and her left hand cups his foot. The seated gopika's two hands support his torso and his legs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both 2x traces show each of the four adult hands attached to one of the two women: the lower hand under the infant's wrist runs back to the seated gopika's arm. Infant limbs are not enlarged."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Two distinct women, one veiled in maroon with parted hair and one with a bun. Neither repeats Yashoda's cream/saffron veil identity. The infant matches v004."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No duplicated infant, women or hands."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Compassionate examination with naturally formed limbs and no wounds, as planned. The broken cart in the background ties the scene to the episode, and the matte style matches the anchors."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/008.jpg",
+        "sha256": "c8009d2160bfe892e0394078b4377db0acd5edc3b370046b56670397fef1eb80",
+        "caption_path": "intake/D042/photo-captions.txt#008",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d042/references/proofs/s008-s009-helper/input/d042-008-source.jpg",
+          "sha256": "c8009d2160bfe892e0394078b4377db0acd5edc3b370046b56670397fef1eb80",
+          "role": "D042 stanza 8 scene context only; collage layout/finish excluded"
+        },
+        {
+          "path": "artifacts/d042/references/proofs/s008-s009-helper/input/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant-Krishna identity/anatomy only"
+        },
+        {
+          "path": "artifacts/d042/references/proofs/s008-s009-helper/input/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style only, D001 S004"
+        },
+        {
+          "path": "artifacts/d042/references/proofs/s008-s009-helper/input/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style only, D001 S008"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s008/candidates/landscape-v001.png",
+          "sha256": "48ddb5166bea9e6b3106f49d90b9f48ccb26c974f8e9d3a39a2f8904d5e4ecb5",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:07:45Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s008-hands-cluster-x2.png",
+          "sha256": "e725c215252f8275a7d3125c8d8d1a62923df911b711b9f0445810371f58635e",
+          "region": "360x300+640+430 enlarged 2x (point filter)",
+          "viewed_at": "2026-11-05T23:07:45Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s008-feet-and-holding-hands.png",
+          "sha256": "7147b06e3fe8aa93f424c5cee3b52318bb014b18275710319d7d81b6620875e5",
+          "region": "640x340+380+640",
+          "viewed_at": "2026-11-05T23:07:45Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s008-infant-face-belly-hand.png",
+          "sha256": "328b75ce84288ddada8e76a5d65f5ce47240f244a0c6a1260925e8b5694ec212",
+          "region": "560x360+260+300",
+          "viewed_at": "2026-11-05T23:07:45Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s008-third-hand-trace-x2.png",
+          "sha256": "fe64a8e5b7d696f71d9cb46c5b60c65fb82dd9f243089bdccdfccebc0f60bbc2",
+          "region": "420x360+620+520 enlarged 2x (point filter)",
+          "viewed_at": "2026-11-05T23:07:45Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d042/s009/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "a5e93cb2f50639654828fe049969512c4b98d14c05f1c41c0497bb4e1decfe99",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:08:22Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Exactly three figures: Nandagopan and Yashoda are ordinary two-armed adults, and Krishna is an ordinary two-armed infant.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s009-v001-final-managed-review-v001.md",
+          "sha256": "3c631137ed7f9f02e47d2b6cdf86e18954784cd0eae88bbf0c78be928cc485b8"
+        },
+        {
+          "path": "art/reviews/d042-shared-contract-rebinding-v001.md",
+          "sha256": "f6b7b2e8305abee19cbde55491517a165e0c3cdfd58bf78841204fd53ca0ccb5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Nandagopan's left hand spreads across the infant's back and his right hand supports him from below. Yashoda's right hand touches the child's back and her left arm hangs with bangles. The infant's arm wraps Nandagopan's shoulder with five fingers, and his foot shows five toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The 3x and 2x traces show Nandagopan's right forearm passing behind his left hand and leaving the frame at the bottom edge. Yashoda's reaching hand joins her arm, and there is no extra hand."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Nandagopan matches the shared cue: rounded face, dark moustache, no beard, cream turban and olive upper cloth, with a tearful smile. Yashoda matches the cue: oval face, parted hair under a cream veil, cream sari with a red border. The infant matches v004."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "A single Krishna, with the repeated embrace suggested by closeness and expression, not duplicates."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Protective tenderness with both faces visible and no throne scene, as planned. The matte palette with a maroon arch fits the anchors."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/009.jpg",
+        "sha256": "0662a62e85996231cdf39b3388b19f2c0fc907547874b01ad7ba413c9ec637fe",
+        "caption_path": "intake/D042/photo-captions.txt#009",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d042/references/proofs/s008-s009-helper/input/d042-009-source.jpg",
+          "sha256": "0662a62e85996231cdf39b3388b19f2c0fc907547874b01ad7ba413c9ec637fe",
+          "role": "D042 stanza 9 family/story context only; collage layout/finish excluded"
+        },
+        {
+          "path": "artifacts/d042/references/proofs/s008-s009-helper/input/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant-Krishna identity/anatomy only"
+        },
+        {
+          "path": "artifacts/d042/references/proofs/s008-s009-helper/input/d043-009-adult-identity-source.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "shared Nandagopan/Yashoda identity cues only, from D043 S009; source finish/staging excluded"
+        },
+        {
+          "path": "artifacts/d042/references/proofs/s008-s009-helper/input/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style only, D001 S004"
+        },
+        {
+          "path": "artifacts/d042/references/proofs/s008-s009-helper/input/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style only, D001 S008"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s009/candidates/landscape-v001.png",
+          "sha256": "a5e93cb2f50639654828fe049969512c4b98d14c05f1c41c0497bb4e1decfe99",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:08:22Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s009-upper-hands.png",
+          "sha256": "7aff7b940564aa738ce34090ade478e20285d784f99422b98474cceaa7cb525d",
+          "region": "420x380+520+440",
+          "viewed_at": "2026-11-05T23:08:22Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s009-lower-hold-feet.png",
+          "sha256": "0a4d5eaa1f2b58e4d1700e90bc35bb4834e2cb72e4c814b6702f66d76e10fff4",
+          "region": "520x320+580+620",
+          "viewed_at": "2026-11-05T23:08:22Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s009-faces-shoulder-hand.png",
+          "sha256": "7021c31e1145c40e661f8c7ae06c6825d01c6f8d21f2676bbbf252a572ca8ba9",
+          "region": "640x320+620+170",
+          "viewed_at": "2026-11-05T23:08:22Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s009-arm-junction-x3.png",
+          "sha256": "6864d3c9c7354a7bcc9647f7a1a1f019ab29aaf3ff16b4f4ea5f632df99f4dc2",
+          "region": "220x300+580+520 enlarged 3x (point filter)",
+          "viewed_at": "2026-11-05T23:08:22Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s009-lower-arm-exit-x2.png",
+          "sha256": "7463c19ef771742136f9fafb17c5447717ccc84add54516e8d68ec54e2966eeb",
+          "region": "300x260+520+681 enlarged 2x (point filter)",
+          "viewed_at": "2026-11-05T23:08:22Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d042/s010/candidates/landscape-v001.png",
+      "version": "v001",
+      "sha256": "4276538ac122d1e0c7e94195e76c8ada2d15e6b36ed200a5ce57809ad4c96e80",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:09:22Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Seven figures: four adults and two boys are ordinary two-armed people, and Krishna is an ordinary two-armed infant. The cart demon has no body by plan.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/chakatasura-cart-form/character.json",
+          "sha256": "3c228b0f8165a2f04546d5cc291424c88c2623dd6287ea5e7ba14df8d33e36e9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s010-v001-final-managed-review-v001.md",
+          "sha256": "cd5da5e10264d99bb619ad6e981c772a7a5ec22a60d4adbfce26d05b283955d9"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The red-sari woman's two hands open toward the infant. The green-sari woman has one hand at her chest. The boys' hands rest on the ground with complete feet. The infant opens two five-finger palms and both feet are complete."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All visible limbs attach correctly and proportions are natural."
+        },
+        "faces": {
+          "status": "uncertain",
+          "observations": "Faces are distinct and well formed. The infant matches v004. The woman leaning toward the child in Yashoda's position does not match the shared Yashoda cue: she wears a red sari and red veil with heavy layered pearls instead of a cream/saffron/rose sari with modest jewelry. The teal-turbaned man in a court-style green robe does not match Nandagopan's cream-and-olive cue."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One infant, no repeated figures."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The cart form and the restrained dissolving wisp meet the stanza. But the onlooker group is not in the plan's cast, reproduces the source's staging (which the plan forbids copying), and presents a likely Yashoda and father figure with costumes that break the D042 identity cues used in S001, S004 and S009."
+        }
+      },
+      "findings": [
+        "Unplanned onlooker group copies intake/D042/010.jpg staging and costumes (red-sari woman with red veil and heavy pearls, teal-turbaned man in a green court robe, two veiled women), contrary to the plan's instruction not to copy reference staging.",
+        "The red-sari woman reads as Yashoda but breaks the shared Yashoda cue (cream/soft saffron/muted rose sari, simple veil, modest jewelry), and the teal-turbaned man in a paternal position does not match the Nandagopan cue; chapter identity continuity is broken."
+      ],
+      "source_reference": {
+        "path": "intake/D042/010.jpg",
+        "sha256": "a9e841045c3554286d491ecffe16fe29f710691bac6ccb33eac5892a6764e98b",
+        "caption_path": "intake/D042/photo-captions.txt#010",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "intake/D042/010.jpg",
+          "sha256": "a9e841045c3554286d491ecffe16fe29f710691bac6ccb33eac5892a6764e98b",
+          "role": "source reference"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s010/candidates/landscape-v001.png",
+          "sha256": "4276538ac122d1e0c7e94195e76c8ada2d15e6b36ed200a5ce57809ad4c96e80",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:09:22Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s010-onlookers-upper.png",
+          "sha256": "1d0ff6d43fc432208f259d006f0ecf71afe27aacf9fa5b0d22e322e7d2d22c29",
+          "region": "640x560+0+0",
+          "viewed_at": "2026-11-05T23:09:22Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s010-boys.png",
+          "sha256": "b04c5c02ffcc38a9ebef6432ec8409a8757c33e92ef803084966ec8ba2dab88a",
+          "region": "380x420+0+520",
+          "viewed_at": "2026-11-05T23:09:22Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s010-infant-wisp.png",
+          "sha256": "7bdc4a15fe1e65fea49e11c6e72af6fa4429f6c236dbcb046cb10fe4da978a10",
+          "region": "420x500+330+400",
+          "viewed_at": "2026-11-05T23:09:22Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 11,
+      "role": "matte",
+      "file": "artifacts/d042/s011/candidates/landscape-v002.png",
+      "version": "v002",
+      "sha256": "d9e1870761eb3ab86bdeaf624e00623f473a187ab3062297bbb1378774703f56",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:10:25Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Eight figures: two Brahmins, Yashoda, a gopika, a bearded gopa, a child and Bhattathiri are ordinary two-armed people, Krishna is an ordinary two-armed infant, and Guruvayurappan is two-armed (abhaya and varada) as on the approved sheet.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/brahmins/character.json",
+          "sha256": "ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s011-v002-final-managed-review-v001.md",
+          "sha256": "8812a671667d8443326a70864126481187518e9438c10b9067c2f9af51b0dfe3"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The left Brahmin's right hand blesses the infant's head and his left hand rests on his knee. Yashoda's hand rests on the infant's shoulder. The right Brahmin's two cupped hands reach toward the infant. The infant has two open palms and two complete feet. Bhattathiri's palms are joined and one heel shows. Guruvayurappan shows abhaya and varada with both feet on the pedestal."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms are continuous and the proportions are natural."
+        },
+        "faces": {
+          "status": "uncertain",
+          "observations": "Bhattathiri is older and clean-shaven, with a tuft, ash stripes and rudraksha, but he lacks the white-bead necklace from the selected reference. The right Brahmin is also older, clean-shaven and shaved-headed, with ash stripes on brow and arms, rudraksha plus a white-bead necklace, and a similar lined face. That is Bhattathiri's full reference marker set. The left Brahmin shares the shaved head, ash stripes and rudraksha. Yashoda matches the cue and Guruvayurappan matches the approved sheet."
+        },
+        "duplication_fusion": {
+          "status": "uncertain",
+          "observations": "No fused bodies and one blue infant. However, the right Brahmin repeats Bhattathiri's identity markers, so the frame can read as two Bhattathiris."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The blessing is primary and Bhattathiri's prayer is a quiet framing presence in one narrative space, as planned. The palette is warmer and more painterly than the flat matte anchors but within range."
+        }
+      },
+      "findings": [
+        "The right Brahmin carries Bhattathiri's reference marker set (older lined clean-shaven face, shaved head, horizontal ash stripes, rudraksha with white-bead necklace, sacred thread), while the kneeling Bhattathiri lacks the white-bead necklace; Bhattathiri's identity is ambiguous and may read as duplicated, contrary to the Brahmin contract."
+      ],
+      "source_reference": {
+        "path": "intake/D042/011.jpg",
+        "sha256": "23dbc6a7d7e1b3a5ea700be58195de3dd7fa44a52146776df01955aabed20a7e",
+        "caption_path": "intake/D042/photo-captions.txt#011",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d042/s011/candidates/landscape-v001.png",
+          "sha256": "47b4c063aac087bca6800c86c4eb896ead4f9359d7e3ba87cd7e34395abbe8b5",
+          "role": "prior version"
+        },
+        {
+          "path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/bhattathiri-older-selected-v001.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+          "role": "character anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/guruvayurappan-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "character anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s011/candidates/landscape-v002.png",
+          "sha256": "d9e1870761eb3ab86bdeaf624e00623f473a187ab3062297bbb1378774703f56",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:10:25Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s011v002-bhattathiri.png",
+          "sha256": "d7262cde94901181adb6256cd12c8b0e395c967ce7df3ce7ead61cc9257186ab",
+          "region": "520x440+1100+260",
+          "viewed_at": "2026-11-05T23:10:25Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s011v002-guruvayurappan.png",
+          "sha256": "48f691bb52a57014fa5cfb094dca92a4f982f583024b738ce3f000c3ab12306c",
+          "region": "320x520+1420+60",
+          "viewed_at": "2026-11-05T23:10:25Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s011v002-blessing-hands.png",
+          "sha256": "271ea4e91272d30bdc14809d1a502007fbdc725c5759b59bcae33bf2a009fba3",
+          "region": "560x480+180+340",
+          "viewed_at": "2026-11-05T23:10:25Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s011v002-infant-feet-hands.png",
+          "sha256": "cba88768a9692db42b343164e1da4f5ac45c1f14fbb0939dc95f4964dc0ae9e0",
+          "region": "520x360+340+560",
+          "viewed_at": "2026-11-05T23:10:25Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s011v002-background-faces.png",
+          "sha256": "c7e72c3d5781c4be37edec5e906a1dd77c2ad717115f8a595c9af7538bbedda5",
+          "region": "760x380+60+120",
+          "viewed_at": "2026-11-05T23:10:25Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s011v002-left-brahmin-lower.png",
+          "sha256": "9c67797c7cac712f30f6888546768a5cf7151655dd87ee4f51d6ac771ebf0bef",
+          "region": "420x400+0+541",
+          "viewed_at": "2026-11-05T23:10:25Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v001/s011v002-right-brahmin.png",
+          "sha256": "efe097d8ebdfc520a3d8e0b7836dab66757d185ce98494e5ccd1e4e0f9353188",
+          "region": "460x420+640+380",
+          "viewed_at": "2026-11-05T23:10:25Z"
+        }
+      ]
+    },
+    {
+      "chapter": 42,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d042/s010/candidates/landscape-v002.png",
+      "version": "v002",
+      "sha256": "fca2529ad7fc306c0dbf39e2aaac44a7d225403041400e816fa9124607daa68b",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:35:23Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Exactly one figure: Krishna is an ordinary two-armed infant. The cart demon has no body by plan.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/chakatasura-cart-form/character.json",
+          "sha256": "3c228b0f8165a2f04546d5cc291424c88c2623dd6287ea5e7ba14df8d33e36e9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s010-v002-final-managed-review-v001.md",
+          "sha256": "1bc7b4a2b6d04c9eab9307983e9f0dbfecd1f20dcb556fbbe392136c493ad3c9"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The infant opens two five-finger palms at his sides; both legs are crossed with two complete feet whose toes are visible on the cloth."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both arms and legs attach naturally, and he keeps believable infant proportions. The cart and wheel are in plausible scale."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One face: the infant matches the v004 anchor (deep blue skin, dark curls, peacock feather, U-tilak, almond eyes, gentle smile). No face-like shapes remain in the cleared foliage at left."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One infant and no other figures. Neither the removed onlookers nor any of their silhouettes remain."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None; the cart carving is floral ornament only."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The shattered cart as the earthly trace and the restrained wisp dissolving into the infant's calm radiance follow the plan, with no demon body or violence. The source's staging is no longer copied. The matte palette is unchanged from v001."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/010.jpg",
+        "sha256": "a9e841045c3554286d491ecffe16fe29f710691bac6ccb33eac5892a6764e98b",
+        "caption_path": "intake/D042/photo-captions.txt#010",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d042/s010/candidates/landscape-v001.png",
+          "sha256": "4276538ac122d1e0c7e94195e76c8ada2d15e6b36ed200a5ce57809ad4c96e80",
+          "role": "edit-target (prior needs-fix version)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor (opened for comparison)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "style anchor"
+        },
+        {
+          "path": "artifacts/d042/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "style anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s010/candidates/landscape-v002.png",
+          "sha256": "fca2529ad7fc306c0dbf39e2aaac44a7d225403041400e816fa9124607daa68b",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:35:23Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s010v002-left-cleared-region.png",
+          "sha256": "a60714e39dd7fbd206c656f8c7c418d2a9da82c106d6b93b9c7e114f8d82e1bc",
+          "region": "760x620+0+0",
+          "viewed_at": "2026-11-05T23:35:23Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s010v002-infant-hands-feet.png",
+          "sha256": "725ff9a947802144ee67f2ab3decb3cf090b3ff069d4dd87d777e40f40b9a650",
+          "region": "420x480+330+400",
+          "viewed_at": "2026-11-05T23:35:23Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s010v002-wisp-x2.png",
+          "sha256": "3ae0e738c74c227d6d978a19576ba327e5059f5796ef8b001c932c35c61506e6",
+          "region": "520x260+520+400 enlarged 2x (point filter)",
+          "viewed_at": "2026-11-05T23:35:23Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s010v002-lower-left-ground.png",
+          "sha256": "02a304997e48b3b3dbb06cbd5e44386bbb7af14a3e3632c0645ef0beac27851d",
+          "region": "520x220+0+620",
+          "viewed_at": "2026-11-05T23:35:23Z"
+        }
+      ],
+      "supersedes_version": "v001"
+    },
+    {
+      "chapter": 42,
+      "sloka": 11,
+      "role": "matte",
+      "file": "artifacts/d042/s011/candidates/landscape-v003.png",
+      "version": "v003",
+      "sha256": "b1d326f7371a917684774e68e43bd3ba7d137103119106a1f0d2f39880860f18",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:35:37Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Eight figures: two Brahmins, Yashoda, a gopika, a bearded gopa, a child and Bhattathiri are ordinary two-armed people, Krishna is an ordinary two-armed infant, and Guruvayurappan is two-armed (abhaya and varada) as on the approved sheet.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/brahmins/character.json",
+          "sha256": "ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s011-v003-final-managed-review-v001.md",
+          "sha256": "4e0f53e5e6f4632cec381feb2480d1e6d8666aded0f8a3c92d432c2e92f32e14"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The left Brahmin's right hand blesses the infant's head and his left hand rests on his knee. Yashoda's hand is on the infant's shoulder. The right Brahmin's two cupped hands reach under the infant's hand. The infant opens two palms, and both feet have visible toes. Bhattathiri's palms are joined and one heel shows. Guruvayurappan shows abhaya and varada with both feet on the pedestal."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms are continuous and the proportions are natural. The right Brahmin's re-rendered torso and arms attach correctly."
+        },
+        "faces": {
+          "status": "uncertain",
+          "observations": "The right Brahmin is now clearly distinct (grey hair, beard, vertical mark), which fixes the v002 target defect. Bhattathiri matches the selected reference: older lined clean-shaven face, shaved scalp with small dark tuft, horizontal ash stripes and red dot, rudraksha and white-bead strings, sacred thread. In the side-by-side 3x comparison, the left blessing Brahmin repeats nearly the same identity: shaved scalp with a dark tuft line, three horizontal ash stripes with a red dot, an older lined clean-shaven face, rudraksha and ash bands on the arm. Only the white-bead string and his smiling expression separate him from Bhattathiri. Yashoda, the infant and Guruvayurappan match their references."
+        },
+        "duplication_fusion": {
+          "status": "uncertain",
+          "observations": "No fused bodies and a single blue infant. However, the left blessing Brahmin and the kneeling Bhattathiri share almost all of Bhattathiri's identity markers, so the frame can still read as two Bhattathiris."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The blessing is primary and Bhattathiri's prayer is a quiet framing presence in one narrative space, as planned. Composition and palette match v002."
+        }
+      },
+      "findings": [
+        "The left blessing Brahmin carries Bhattathiri's identity markers (shaved scalp with dark tuft, three horizontal ash stripes with red dot, older lined clean-shaven face, rudraksha, arm ash bands), differing only by the white-bead string; this contradicts the Brahmin contract ('no figure styled as a second Bhattathiri') and leaves Bhattathiri's identity ambiguous. The managed v002 review saw these shared markers but flagged only the right Brahmin; this is that omission, found on closer comparison, not new drift from the v003 edit."
+      ],
+      "source_reference": {
+        "path": "intake/D042/011.jpg",
+        "sha256": "23dbc6a7d7e1b3a5ea700be58195de3dd7fa44a52146776df01955aabed20a7e",
+        "caption_path": "intake/D042/photo-captions.txt#011",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d042/s011/candidates/landscape-v002.png",
+          "sha256": "d9e1870761eb3ab86bdeaf624e00623f473a187ab3062297bbb1378774703f56",
+          "role": "edit-target (prior uncertain version)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/bhattathiri-older-selected-v001.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+          "role": "identity-only (older Bhattathiri)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor (opened for comparison)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/guruvayurappan-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "character anchor (opened for comparison)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "Yashoda identity cue (opened for comparison)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s011/candidates/landscape-v003.png",
+          "sha256": "b1d326f7371a917684774e68e43bd3ba7d137103119106a1f0d2f39880860f18",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:35:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s011v003-bhattathiri.png",
+          "sha256": "0f10bcb976b02778313c4d0ae9bd227b94be842f9f09fb4a08ff5422009e3e99",
+          "region": "520x440+1100+260",
+          "viewed_at": "2026-11-05T23:35:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s011v003-bhattathiri-head-beads-x3.png",
+          "sha256": "a96d92825302ac50b0c89b10a3f0b3a89bcf76fd4dd3125aaad49b5ea71ccb45",
+          "region": "260x200+1180+260 enlarged 3x (point filter)",
+          "viewed_at": "2026-11-05T23:35:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s011v003-right-brahmin.png",
+          "sha256": "d3c6eeeaf9d561da6f0b220effab3cd6f2983759ca23c80771fe7badd84cbc5b",
+          "region": "460x420+640+330",
+          "viewed_at": "2026-11-05T23:35:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s011v003-left-brahmin-blessing.png",
+          "sha256": "f4e1e87f96cf1eb6abe3077061311bc345b2b9c793429970b02d58ecb296ad7f",
+          "region": "420x360+180+340",
+          "viewed_at": "2026-11-05T23:35:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s011v003-infant-feet-hands.png",
+          "sha256": "c4bc3c4ca7288c4a4aad55b8f7a81e8a62453465fc8793897a3599a03c2cc1e1",
+          "region": "520x360+340+560",
+          "viewed_at": "2026-11-05T23:35:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s011v003-guruvayurappan.png",
+          "sha256": "9b271c0c6ad34d754943c3dfdfc3d07df6e7cf9e2fe4d0fa05f1133aa0654a35",
+          "region": "320x520+1420+60",
+          "viewed_at": "2026-11-05T23:35:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s011v003-left-brahmin-lower.png",
+          "sha256": "98c3523cded6318e58bce26c602ac03ba2305277d9c311e167c321a5a48bf2b2",
+          "region": "420x400+0+541",
+          "viewed_at": "2026-11-05T23:35:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s011v003-left-brahmin-head-x3.png",
+          "sha256": "bc96736558f40581634d060b65286b96f17c76db623ef98caf21881eaf35432a",
+          "region": "200x200+190+350 enlarged 3x (point filter)",
+          "viewed_at": "2026-11-05T23:35:37Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v002/s011v003-head-comparison.png",
+          "sha256": "5f9e03f70abcc5a332e039a98298fa9d683c13cab44c5b31d35057645f5d19cd",
+          "region": "left-brahmin-head-x3 and bhattathiri-head-beads-x3 side by side, scaled to 600 px high",
+          "viewed_at": "2026-11-05T23:35:37Z"
+        }
+      ],
+      "supersedes_version": "v002"
+    },
+    {
+      "chapter": 42,
+      "sloka": 11,
+      "role": "matte",
+      "file": "artifacts/d042/s011/candidates/landscape-v004.png",
+      "version": "v004",
+      "sha256": "bfe3b3b545484efa6425b8a819fa68db441f80951d7d1575f7f8e595bd65950e",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5; independent of the native Codex ImageGen generators)",
+      "inspected_at": "2026-11-05T23:54:12Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Eight figures: two Brahmins, Yashoda, a gopika, a bearded gopa, a child and Bhattathiri are ordinary two-armed people, Krishna is an ordinary two-armed infant, and Guruvayurappan is two-armed (abhaya and varada) as on the approved sheet.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d042.json",
+          "sha256": "f66f9a303d73f13bc8275821978ced521ada3646b620683561f91cff16b15cf5"
+        },
+        {
+          "path": "content/daskams/d042.json",
+          "sha256": "a8ea388f8a092a0b09373625f01ef4bf1427045ad7b750bfceba032b446a7308"
+        },
+        {
+          "path": "content/sources/d042/reference-map.json",
+          "sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+        },
+        {
+          "path": "content/sources/d042/provenance.json",
+          "sha256": "ba0bb7e9ffd1711b3414f73cdddc4ff3e5bcfff3d6800fae1e97d64f58127f0b"
+        },
+        {
+          "path": "art/bible/characters/brahmins/character.json",
+          "sha256": "ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d042-s011-v004-final-managed-review-v001.md",
+          "sha256": "8c7d8a68a761d20bc0858ad7fae91a8023adfdb64e2f477fe72a9306c83be367"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The left Brahmin's right hand rests over the infant's head in blessing and his left hand lies on his knee with five fingers; one foot shows under his dhoti. Yashoda's hand is on the infant's shoulder. The right Brahmin's two cupped hands reach under the infant's hand. The infant opens two palms, and both feet show toes. Bhattathiri's palms are joined and one heel shows. Guruvayurappan shows abhaya and varada with both feet on the pedestal."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The left Brahmin's re-rendered head and neck sit naturally on his unchanged shoulders, and his blessing arm runs continuously from shoulder to hand. All other limbs are unchanged and continuous."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The left Brahmin is now a mature man with dark hair tied in a bun, a black beard and moustache, a single vertical forehead mark with a red dot and a bare neck. In the side-by-side 3x comparison he no longer shares Bhattathiri's shaved scalp, horizontal stripes, clean-shaven face or bead strings. The right Brahmin is grey-haired and grey-bearded with a vertical mark. Bhattathiri alone matches the selected older reference: lined clean-shaven face, shaved scalp with small dark tuft, horizontal ash stripes with red dot, and both rudraksha and white-bead strings. Yashoda, the infant and Guruvayurappan match their references."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly one figure carries Bhattathiri's identity markers, and there is a single infant. The left Brahmin and the standing gopa are both dark-bearded; the 3x comparison shows them as different people (tied bun versus loose shoulder-length curls; single vertical line versus U-shaped mark; bare neck versus earrings, gold chain, rudraksha and blue shawl)."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The blessing is primary and Bhattathiri's prayer is a quiet framing presence in one narrative space, as planned. The palette, lamps, shrine and composition are unchanged from v003."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D042/011.jpg",
+        "sha256": "23dbc6a7d7e1b3a5ea700be58195de3dd7fa44a52146776df01955aabed20a7e",
+        "caption_path": "intake/D042/photo-captions.txt#011",
+        "caption_sha256": "02a446d6d59fa6328c4f46921a067c120c3f8e18cc044f68ce8368710fefedd6",
+        "source_map_path": "content/sources/d042/reference-map.json",
+        "source_map_sha256": "923bd765d908e799ce12719b68125c0f2572ab6e62630c864ade63d9d333634f"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d042/s011/candidates/landscape-v003.png",
+          "sha256": "b1d326f7371a917684774e68e43bd3ba7d137103119106a1f0d2f39880860f18",
+          "role": "edit-target (prior uncertain version)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/bhattathiri-older-selected-v001.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+          "role": "character anchor (older Bhattathiri, opened for comparison)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "character anchor (opened for comparison)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/guruvayurappan-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "character anchor (opened for comparison)"
+        },
+        {
+          "path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+          "role": "Yashoda identity cue (opened for comparison)"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d042/s011/candidates/landscape-v004.png",
+          "sha256": "bfe3b3b545484efa6425b8a819fa68db441f80951d7d1575f7f8e595bd65950e",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "before the first detail crop at 2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-left-brahmin-head-x3.png",
+          "sha256": "b73e13fe1a01925472e7cd5f3dccbc62edaaec65ca747433dcf955c4d6f89bdc",
+          "region": "200x200+190+350 enlarged 3x (point filter)",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-left-brahmin-blessing.png",
+          "sha256": "a5e912c4e1b6babcc43d44910d232563ac5779fdf809cd8d3a4fface72e2c607",
+          "region": "420x360+180+340",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-left-brahmin-lower.png",
+          "sha256": "ff1d6856dd3770ff92780b285cf38bbbea86d80b265fe59017eca79c11336f90",
+          "region": "420x400+0+541",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-right-brahmin.png",
+          "sha256": "1ec3cb41d93af198909fc1bb10549e07616331357af9098a8a5e08bff9f58ff6",
+          "region": "460x420+640+330",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-bhattathiri.png",
+          "sha256": "b03c0e117a7636df14c15ec5dc00c426f87cd79a627a61fcc1aac271a6b125e7",
+          "region": "520x440+1100+260",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-bhattathiri-head-beads-x3.png",
+          "sha256": "141df1eae5675465119e592702cca153beedd07cf545821435a25a2ef971e9aa",
+          "region": "260x200+1180+260 enlarged 3x (point filter)",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-head-comparison.png",
+          "sha256": "32c4122aa91f8d5a77385156ddb8143d754e81e3c3901e6c945a0d547a5195d0",
+          "region": "left-brahmin-head-x3 and bhattathiri-head-beads-x3 side by side, scaled to 600 px high",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-infant-feet-hands.png",
+          "sha256": "aa7040049ad89a6bfecdf6c38ea6b24c65ec06b0baaf3ed988770aea320d419d",
+          "region": "520x360+340+560",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-guruvayurappan.png",
+          "sha256": "64ffd69edf82510ecbbaee18b8133316eae89e400a8b8569e48046e2745976f2",
+          "region": "320x520+1420+60",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-background-family.png",
+          "sha256": "4840eff5325d775eed7e74f3300d6187f0e655733866386a43f60f91e541776e",
+          "region": "760x380+60+120",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-standing-gopa-head-x3.png",
+          "sha256": "bddcfb14967870a58e672ff8cbb27552a78bbee6dbde3972e0b22b2392cb8fe5",
+          "region": "200x200+640+130 enlarged 3x (point filter)",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d042/review-evidence/managed-v003/s011v004-bearded-pair-comparison.png",
+          "sha256": "7ca35ba116fb14722243391ef2dbeaed8d31672816dcf5650273bc0d06ccd712",
+          "region": "left-brahmin-head-x3 and standing-gopa-head-x3 side by side, scaled to 600 px high",
+          "viewed_at": "2026-11-05T23:54:12Z"
+        }
+      ],
+      "supersedes_version": "v003"
+    },
+    {
       "chapter": 44,
       "sloka": 1,
       "role": "matte",

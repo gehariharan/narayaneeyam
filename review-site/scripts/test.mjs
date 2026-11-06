@@ -27,14 +27,14 @@ assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneey
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
 console.log('Passed: integrated comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,38,44,96]);
-assert.equal(data.chapters.length,17);
-assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),178);
-assert.equal(Object.keys(data.assets).length,362);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,38,42,44,96]);
+assert.equal(data.chapters.length,18);
+assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),189);
+assert.equal(Object.keys(data.assets).length,384);
 const generatedSelected=data.chapters.flatMap(c=>c.rows.flatMap(r=>r.images)).filter(i=>i.role!=='reference');
-assert.equal(generatedSelected.length,184);
+assert.equal(generatedSelected.length,195);
 assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='historical').length,69);
-assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,115);
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,126);
 const d11=data.chapters.find(c=>c.id===11);
 assert.deepEqual(d11.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 assert.ok(d11.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
@@ -47,7 +47,15 @@ const d14=data.chapters.find(c=>c.id===14);
 assert.deepEqual(d14.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 assert.ok(d14.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
 assert.ok(d14.rows.every(r=>r.images.find(i=>i.role==='matte').inspectionStatus==='inspected'));
-console.log('Passed: 17 chapters, 178 rows, 362 media, 184 generated selections (69 historical, 115 inspected), including all ten D011, D012, D013, D014 and D044 leads.');
+const d42=data.chapters.find(c=>c.id===42);
+assert.deepEqual(d42.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
+assert.ok(d42.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
+assert.ok(d42.rows.every(r=>r.images.find(i=>i.role==='matte').inspectionStatus==='inspected'));
+const selected42=JSON.parse(await fs.readFile(new URL('../../art/batches/d042-comparison-v001.json',import.meta.url)));
+const provenance42=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
+for(const row of d42.rows){const selected=selected42.rows.find(r=>r.n===row.n);assert.equal(row.commentarySource,`intake/D042/photo-captions.txt#${String(row.n).padStart(3,'0')}`);for(const role of ['reference','matte'])assert.equal(provenance42.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);}
+assert.equal((await feedback(req({...good,daskam:42,sloka:11}),env)).status,201);
+console.log('Passed: 18 chapters, 189 rows, 384 media, 195 generated selections (69 historical, 126 inspected), including D042 and all ten D011, D012, D013, D014 and D044 leads.');
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);

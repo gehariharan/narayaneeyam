@@ -80,6 +80,9 @@ jobs:
       - name: Upload D014 review candidates to R2
         run: node review-site/scripts/upload.mjs --daskam=14
 
+      - name: Upload D042 review candidates to R2
+        run: node review-site/scripts/upload.mjs --daskam=42
+
       - name: Upload D044 review candidates to R2
         run: node review-site/scripts/upload.mjs --daskam=44
 
