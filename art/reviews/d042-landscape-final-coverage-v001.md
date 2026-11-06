@@ -27,17 +27,10 @@
 
 ## Review-site integration
 
-- `review-site/selections.mjs` adds `d042-comparison-v001.json`.
-- `.github/workflows/deploy-review.yml` uploads D042 derivatives with `--daskam=42` before the Worker version upload.
-- `review-site/scripts/test.mjs` and `review-site/README.md` state the pre-D044 union (17 chapters, 179 rows, 364 media, 185 generated selections: 69 historical, 116 inspected) and add D042 row, provenance and feedback assertions. `validateSelections` returns exactly those 185 results with no errors.
+- `review-site/selections.mjs` lists both `d042-comparison-v001.json` and `d044-comparison-v001.json`.
+- `.github/workflows/deploy-review.yml` uploads D042 (`--daskam=42`) and D044 (`--daskam=44`) derivatives before the Worker version upload.
+- `review-site/scripts/test.mjs`, `tests/image-review.test.mjs` and `review-site/README.md` state the D042+D044 union, derived from the loaded selections and `validateSelections`: 18 chapters, 189 rows, 384 review media inputs, and 195 generated selections (69 historical and not cleared, 126 inspected). D042 and D044 each have every-row-inspected assertions.
 
 ## Merge with main (D044)
 
-The branch has not been rebased onto main. `git merge-tree` against `7f7b78c5…` reports list-union conflicts in five files:
-
-- `.github/workflows/deploy-review.yml`: both upload steps are needed.
-- `art/reviews/visual-reviews.json`: both chapters' appended records are needed.
-- `review-site/selections.mjs`: both batch files are needed.
-- `review-site/scripts/test.mjs` and `review-site/README.md`: the counts must be recalculated for the D042+D044 union.
-
-The `gopas` and `nandagopan` add/add conflicts are removed by the byte alignment above. Resolving the remaining conflicts belongs to the managed rebase, and the union totals must be recalculated there.
+Main `7f7b78c5b311cb127702344f045f25204093a4c2` was merged into this branch with an ordinary three-way merge; no D042 fix commit was rewritten. The resolution keeps both chapters' upload steps, batch files and README sections. `art/reviews/visual-reviews.json` contains the 160 base records unchanged, the 14 D042 records and the 10 D044 records. The `gopas` and `nandagopan` contracts are main's bytes, so every D044 record's contract hashes still match.
