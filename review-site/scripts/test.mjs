@@ -31,7 +31,7 @@ console.log('Passed: integrated comparison layout, local assets, vetted commenta
 const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import.meta.url)));
 const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
-const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.filter(r=>r.reference).length,0);
+const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.reduce((n,r)=>n+(r.references||(r.reference?[r.reference]:[])).length,0),0);
 assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,31,34,38,40,42,43,44,96]);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
