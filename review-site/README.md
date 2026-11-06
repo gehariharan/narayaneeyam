@@ -298,7 +298,7 @@ images (69 historical, 176 individually inspected).
 
 D033 contains ten source-mapped landscape comparison candidates in
 `art/batches/d033-comparison-v001.json`. Captions and numbered source photos are
-mapped through `content/sources/d033/reference-map.json`; uncaptained documentary
+mapped through `content/sources/d033/reference-map.json`; uncaptioned documentary
 extras remain in intake and are excluded from stanza attribution. The Sanskrit
 and IAST are sourced, but the cited source does not provide English
 translations. The independent managed review in `art/reviews/visual-reviews.json`
