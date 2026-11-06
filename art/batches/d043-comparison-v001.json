@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 43,
   "review_status": "needs-review",
-  "visual_review_status": "Independent managed full-frame/detail review is recorded for all ten exact selected versions in art/reviews/visual-reviews.json and all ten pass. S005 v002 and S006 v002 are native repairs that supersede S005 v001 (uncertain: Trinavarta neither read as falling nor matched S004) and S006 v001 (needs-fix: the fallen Trinavarta's legs were too short, so his hand reached his ankles); those records and reports remain as history. The scene plan still records the originally planned v001 pins. No approval implied.",
+  "visual_review_status": "Independent managed full-frame/detail review is recorded for all ten exact selected versions in art/reviews/visual-reviews.json and all ten pass against the current scene plan. S005 v002 supersedes S005 v001 (uncertain: Trinavarta neither read as falling nor matched S004). S006 v003 supersedes S006 v001 (needs-fix: the fallen Trinavarta's legs were too short) and S006 v002 (whose pass was invalidated because the demon was brown-skinned and tidy-haired, unlike S004/S005). Those records and reports remain as history. No approval implied.",
   "description": "Ten native D043 landscape candidates paired with their mapped numbered source references. Candidate versions and SHA-256 values are pinned per stanza; superseded native trials remain preserved locally and are not exposed as comparison alternates.",
-  "review_notice": "These are unapproved landscape candidates. The independent managed review of the exact selected versions passed all ten, including native repairs S005 v002 and S006 v002; the superseded v001 failures remain recorded. Portrait production remains paused; sourced English translations are absent; publishing a comparison does not approve artwork.",
+  "review_notice": "These are unapproved landscape candidates. The independent managed review of the exact selected versions passed all ten, including native repairs S005 v002 and S006 v003; the superseded versions and their findings remain recorded. Portrait production remains paused; sourced English translations are absent; publishing a comparison does not approve artwork.",
   "rows": [
     {
       "n": 1,
@@ -118,11 +118,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d043/s006/landscape/v002/candidate.png",
-        "sha256": "c64fe1e9fe6c3339e8034dae6f44fa35eb25446ad536425e37c8dd33f507ec77",
-        "version": "v002",
-        "label": "Landscape candidate v002",
-        "displayLabel": "Landscape candidate v002"
+        "file": "artifacts/d043/s006/landscape/v003/candidate.png",
+        "sha256": "765a57ef0555cfd1bf4720b323a2cf49bee95f0d614338f9f7b0a6cbf730ee05",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003"
       },
       "alternates": []
     },
