@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D040, D042, D043 and D044 media from the release using the existing
+D005 through D014, D034, D040, D042, D043 and D044 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -276,6 +276,18 @@ in `art/batches/d014-comparison-v001.json`; they remain unapproved, English
 translations are absent, and portrait compositions are paused. Upload only
 D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
 before any serialized Worker deployment.
+
+## Dasakam 34
+
+D034 contains ten landscape comparison rows mapped from the accepted readiness
+record to the stanza references and supplied captions. Canonical Sanskrit and
+IAST are source-mapped; no English translation was supplied. Exact selected
+versions and source checksums are pinned in
+`art/batches/d034-comparison-v001.json`. Candidates remain unapproved, portrait
+compositions are paused, and the selected images require checksum-bound
+independent visual review before the review-site build. Upload only D034's WebP
+derivatives with `node review-site/scripts/upload.mjs --daskam=34` before any
+serialized Worker deployment.
 
 ## Dasakam 42
 
