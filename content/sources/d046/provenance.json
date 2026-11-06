@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "daskam_id": 46,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-05",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-46-in-sanskrit/",
+      "retrieval_note": "Ten Devanagari verses (46-1 through 46-10) transcribed from Stotra Nidhi; source punctuation and sandhi line breaks retained for editorial comparison."
+    },
+    {
+      "role": "romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-46-in-english/",
+      "retrieval_note": "Ten IAST verses (46-1 through 46-10) transcribed from the matching English/IAST page; source diacritics and line-break hyphenation retained."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired; no translation invented"
+    },
+    {
+      "role": "commentary",
+      "url": "captain-supplied OneDrive intake/D046/photo-captions.txt",
+      "local_path": "content/sources/d046/photo-captions.txt",
+      "sha256": "c06b7e71e473c4dac728cb1e9b7f3b537292c95629b1bd43a334f3f3139f1b44",
+      "status": "exact supplied D046 photo captions preserved verbatim; not treated as Sanskrit or an authorized translation."
+    }
+  ],
+  "intake_manifest": "content/sources/d046/reference-map.json",
+  "commentary_sha256": "c06b7e71e473c4dac728cb1e9b7f3b537292c95629b1bd43a334f3f3139f1b44",
+  "commentary_contamination": {
+    "source_file": "intake/D046/photo-captions.txt",
+    "location": "caption 010 after the D046 English commentary paragraph",
+    "note": "A Nirvana Shatkam trailer follows the D046 caption in the original file. The full original file remains byte-identical in intake and content/sources. Only the D046 English paragraph is bound as commentary; the unrelated trailer is excluded from D046 editorial commentary."
+  },
+  "note": "Creator provenance for the captain-supplied image set was not established and is not required by scope. Files 001-010 map to D046 stanzas 1-10; 011-012 are Tamil verse text pages, not scene references. No approval is implied."
+}

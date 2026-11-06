@@ -27,14 +27,14 @@ assert.equal((await worker.fetch(new Request('https://gehariharan.com/narayaneey
 const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
 console.log('Passed: integrated comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,38,42,43,44,96]);
-assert.equal(data.chapters.length,19);
-assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),199);
-assert.equal(Object.keys(data.assets).length,404);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,38,42,43,44,46,96]);
+assert.equal(data.chapters.length,20);
+assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),209);
+assert.equal(Object.keys(data.assets).length,424);
 const generatedSelected=data.chapters.flatMap(c=>c.rows.flatMap(r=>r.images)).filter(i=>i.role!=='reference');
-assert.equal(generatedSelected.length,205);
+assert.equal(generatedSelected.length,215);
 assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='historical').length,69);
-assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,136);
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,146);
 const d11=data.chapters.find(c=>c.id===11);
 assert.deepEqual(d11.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 assert.ok(d11.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
@@ -51,11 +51,18 @@ const d42=data.chapters.find(c=>c.id===42);
 assert.deepEqual(d42.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 assert.ok(d42.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
 assert.ok(d42.rows.every(r=>r.images.find(i=>i.role==='matte').inspectionStatus==='inspected'));
+const d46=data.chapters.find(c=>c.id===46);
+assert.deepEqual(d46.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+assert.ok(d46.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
+assert.ok(d46.rows.every(r=>r.images.find(i=>i.role==='matte').inspectionStatus==='inspected'));
+const selected46=JSON.parse(await fs.readFile(new URL('../../art/batches/d046-comparison-v001.json',import.meta.url)));
+const provenance46=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
+for(const row of d46.rows){const selected=selected46.rows.find(r=>r.n===row.n);assert.equal(row.commentarySource,`content/sources/d046/photo-captions.txt#${String(row.n).padStart(3,'0')}`);for(const role of ['reference','matte'])assert.equal(provenance46.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);}
 const selected42=JSON.parse(await fs.readFile(new URL('../../art/batches/d042-comparison-v001.json',import.meta.url)));
 const provenance42=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
 for(const row of d42.rows){const selected=selected42.rows.find(r=>r.n===row.n);assert.equal(row.commentarySource,`intake/D042/photo-captions.txt#${String(row.n).padStart(3,'0')}`);for(const role of ['reference','matte'])assert.equal(provenance42.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);}
 assert.equal((await feedback(req({...good,daskam:42,sloka:11}),env)).status,201);
-console.log('Passed: 19 chapters, 199 rows, 404 media, 205 generated selections (69 historical, 136 inspected), including D042 and all ten D011, D012, D013, D014, D043 and D044 leads.');
+console.log('Passed: 20 chapters, 209 rows, 424 media, 215 generated selections (69 historical, 146 inspected), including D042, D043, D044 and D046 plus all ten D011, D012, D013 and D014 leads.');
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
