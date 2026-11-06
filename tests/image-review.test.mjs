@@ -361,7 +361,7 @@ test('D029 selection pins ten source and native candidates with exact passing re
     assert.equal(selected.concept_id, scene.concept_id);
     assert.ok(scene.reference_paths.includes(selected.reference.file));
     assert.equal(selected.reference.sha256, sha256(await fs.readFile(path.join(root, selected.reference.file))));
-    const version = { 1: 'v003', 2: 'v002', 3: 'v004', 4: 'v003', 5: 'v003', 6: 'v002', 7: 'v003', 8: 'v002', 9: 'v003', 10: 'v003' }[selected.n];
+    const version = { 1: 'v003', 2: 'v002', 3: 'v004', 4: 'v003', 5: 'v003', 6: 'v002', 7: 'v004', 8: 'v002', 9: 'v003', 10: 'v003' }[selected.n];
     assert.equal(selected.matte.file, `artifacts/d029/s${String(selected.n).padStart(3, '0')}/landscape/candidate-${version}.png`);
     assert.equal(selected.matte.version, version);
     assert.equal(selected.matte.sha256, sha256(await fs.readFile(path.join(root, selected.matte.file))));
