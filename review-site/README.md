@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D027, D028, D029, D031 through D037, D040, D041, D042, D043, D044, D062, D066 and D067 media from the release using the existing
+D005 through D014, D027, D028, D029, D031 through D037, D040, D041, D042, D043, D044, D048, D062, D066 and D067 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -387,6 +387,12 @@ version review; the common D043 S009 image supplies Nandagopan/Yashoda identity
 cues only. Stanza image reviews are version-bound and independent. Upload only
 D042's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=42`
 before the serialized Worker deployment.
+
+## Dasakam 48
+
+D048 contains ten source-mapped landscape candidates in `art/batches/d048-comparison-v001.json`. Photos 001–010 map to stanzas 1–10; 011–012 are preserved Tamil text extras. S008 v002 replaces the earlier S008 v001 candidate after its waist-to-mortar restraint was found unclear; both raw versions and their producer reports remain preserved. Each current selection is pinned to its exact source and candidate checksum. Producer inspections cover all ten selected native frames; independent exact-checksum review is pending. The review remains unapproved, and portrait work is paused. Upload only D048's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=48` before Worker deployment.
+
+With D048 added, the selection union contains 33 chapters, 341 stanza rows, 704 review media inputs and 347 generated selections (69 historical and 278 individually inspected). Recalculate these totals if main advances.
 
 ## Dasakam 44
 

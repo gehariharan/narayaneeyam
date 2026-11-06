@@ -436,6 +436,32 @@ test('D028 selection binds the ten mapped scenes, all five stanza 2 references, 
   assert.equal(batch.rows.find(row => row.n === 10).matte.version, 'v002');
 });
 
+test('D048 selection binds ten mapped source and native landscape versions', async () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd048-comparison-v001.json');
+  const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d048.json'), 'utf8'));
+  const plan = JSON.parse(await fs.readFile(path.join(root, 'art/plans/d048.json'), 'utf8'));
+  assert.ok(batch);
+  assert.equal(batch.daskam_id, 48);
+  assert.equal(batch.review_status, 'needs-review');
+  assert.equal(batch.rows.length, 10);
+  for (const selected of batch.rows) {
+    const stanza = content.stanzas.find(item => item.n === selected.n);
+    const scene = plan.stanzas.find(item => item.n === selected.n);
+    assert.ok(stanza && scene);
+    assert.equal(selected.concept_id, scene.concept_id);
+    assert.equal(selected.scene, scene.alt);
+    assert.equal(selected.reference.file, `intake/D048/${String(selected.n).padStart(3, '0')}.jpg`);
+    assert.equal(selected.reference.sha256, sha256(await fs.readFile(path.join(root, selected.reference.file))));
+    assert.equal(selected.matte.file, scene.orientations.landscape.candidate_path);
+    assert.equal(selected.matte.version, scene.orientations.landscape.candidate_version);
+    assert.equal(selected.matte.sha256, scene.orientations.landscape.candidate_sha256);
+    assert.equal(selected.matte.sha256, sha256(await fs.readFile(path.join(root, selected.matte.file))));
+    assert.deepEqual(selected.alternates, []);
+    assert.equal(stanza.review_status, 'needs-review');
+  }
+});
+
 test('D014 selection binds ten source/candidate pairs and renders as a landscape review chapter', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd014-comparison-v001.json');
@@ -552,7 +578,7 @@ test('D067 comparison binds ten source photos, captions, native landscape select
   }
 });
 
-test('release union with main retains expected review dataset counts with D039, D041, D062 and other production chapters', async () => {
+test('release union with main retains expected review dataset counts with D039, D041, D048, D062 and other production chapters', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
   const rowCount = batches.reduce((count, batch) => count + batch.rows.length, 0);
@@ -567,7 +593,7 @@ test('release union with main retains expected review dataset counts with D039, 
   assert.equal(rowCount, 361);
   assert.equal(mediaInputCount, 744);
   assert.equal(selectedImages(batches).length, 367);
-  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 62, 66, 67, 96]));
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 48, 62, 66, 67, 96]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
