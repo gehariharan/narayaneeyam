@@ -15920,7 +15920,7 @@
       "version": "v002",
       "sha256": "d5629a8395e578a8581fee18b298340b3dc27cb8ae4731418bf2c79d1ec84ecd",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T01:39:07Z",
+      "inspected_at": "2026-11-06T01:55:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "One adult woman, Yashoda, and one two-armed, two-legged infant Krishna; no other figures.",
@@ -15931,7 +15931,7 @@
         },
         {
           "path": "art/plans/d043.json",
-          "sha256": "9baea88aa6f923c00839abcfe88c6b7ab71efe0ec77ff7da8607fd86aebbb2c1"
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
         },
         {
           "path": "content/daskams/d043.json",
@@ -15966,6 +15966,10 @@
         {
           "path": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
           "sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d"
+        },
+        {
+          "path": "art/reviews/d043-native-repair-context-recheck-managed-review-v001.md",
+          "sha256": "1e0ba0078a89af1a376cf55c1bdf35c482c56d36b4e49a8504348371392b04cc"
         }
       ],
       "checks": {
@@ -16070,6 +16074,13 @@
           "path": "artifacts/d043/review-evidence/managed-v004/s001-yashoda.png",
           "sha256": "84313008215a67b436724f7425b9900cae07494469e3abc89f56caa44c52fd15",
           "viewed_at": "between 2026-11-06T01:38:16Z and 2026-11-06T01:39:07Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s001/landscape/v002/candidate.png",
+          "sha256": "d5629a8395e578a8581fee18b298340b3dc27cb8ae4731418bf2c79d1ec84ecd",
+          "region": "entire frame, re-inspection against final plan after S003/S005 repairs",
+          "viewed_at": "between 2026-11-06T01:54:53Z and 2026-11-06T01:55:05Z"
         }
       ]
     },
@@ -16081,7 +16092,7 @@
       "version": "v001",
       "sha256": "e75cdeb1822ceeda0915116dd785bb71fc7c8cbf8e14af4eda65f7b70f6605b2",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T01:39:07Z",
+      "inspected_at": "2026-11-06T01:55:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "One two-armed infant Krishna and one non-human wind-demon face formed from dust, with no body or limbs; no other figures.",
@@ -16092,7 +16103,7 @@
         },
         {
           "path": "art/plans/d043.json",
-          "sha256": "9baea88aa6f923c00839abcfe88c6b7ab71efe0ec77ff7da8607fd86aebbb2c1"
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
         },
         {
           "path": "content/daskams/d043.json",
@@ -16123,6 +16134,10 @@
         {
           "path": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
           "sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d"
+        },
+        {
+          "path": "art/reviews/d043-native-repair-context-recheck-managed-review-v001.md",
+          "sha256": "1e0ba0078a89af1a376cf55c1bdf35c482c56d36b4e49a8504348371392b04cc"
         }
       ],
       "checks": {
@@ -16209,6 +16224,13 @@
           "sha256": "e75cdeb1822ceeda0915116dd785bb71fc7c8cbf8e14af4eda65f7b70f6605b2",
           "region": "entire frame, re-inspection against bound supporting-cast contracts",
           "viewed_at": "between 2026-11-06T01:38:16Z and 2026-11-06T01:39:07Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s002/landscape/v001/candidate.png",
+          "sha256": "e75cdeb1822ceeda0915116dd785bb71fc7c8cbf8e14af4eda65f7b70f6605b2",
+          "region": "entire frame, re-inspection against final plan after S003/S005 repairs",
+          "viewed_at": "between 2026-11-06T01:54:53Z and 2026-11-06T01:55:05Z"
         }
       ]
     },
@@ -16350,8 +16372,11 @@
         "observed": "Yashoda wears a triple-strand pearl necklace with pendant, large chandbali earrings, a large maang-tikka and stacked bangles, which violates the yashoda contract (“no heavy ornate jewelry”, “modest jewelry”) and is heavier than in S001/S004/S009.",
         "repair": "Native S003 repair that keeps the dust-search composition but reduces Yashoda’s jewellery to the modest single-strand set used in S004/S009; then re-run the managed review.",
         "recorded_at": "2026-11-06T01:39:07Z",
-        "report": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md"
-      }
+        "report": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
+        "report_sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d",
+        "report_link_corrected_at": "2026-11-06T01:55:05Z"
+      },
+      "superseded_by_version": "v002"
     },
     {
       "chapter": 43,
@@ -16361,7 +16386,7 @@
       "version": "v002",
       "sha256": "c41270a7f8d3ad1585ff49d7b752e5cd47e40fac938704e77d06d2bd438cdf26",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T01:39:07Z",
+      "inspected_at": "2026-11-06T01:55:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "One adult demon, Trinavarta, with two arms and two legs, one two-armed infant Krishna and one adult woman, Yashoda. Two cows.",
@@ -16372,7 +16397,7 @@
         },
         {
           "path": "art/plans/d043.json",
-          "sha256": "9baea88aa6f923c00839abcfe88c6b7ab71efe0ec77ff7da8607fd86aebbb2c1"
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
         },
         {
           "path": "content/daskams/d043.json",
@@ -16407,6 +16432,10 @@
         {
           "path": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
           "sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d"
+        },
+        {
+          "path": "art/reviews/d043-native-repair-context-recheck-managed-review-v001.md",
+          "sha256": "1e0ba0078a89af1a376cf55c1bdf35c482c56d36b4e49a8504348371392b04cc"
         }
       ],
       "checks": {
@@ -16518,6 +16547,13 @@
           "path": "artifacts/d043/review-evidence/managed-v004/s004-yashoda.png",
           "sha256": "7f99b1ff1970e71116cd9c873523c251c166b6f22c35594bd2bd62260e1178d5",
           "viewed_at": "between 2026-11-06T01:38:16Z and 2026-11-06T01:39:07Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s004/landscape/v002/candidate.png",
+          "sha256": "c41270a7f8d3ad1585ff49d7b752e5cd47e40fac938704e77d06d2bd438cdf26",
+          "region": "entire frame, re-inspection against final plan after S003/S005 repairs",
+          "viewed_at": "between 2026-11-06T01:54:53Z and 2026-11-06T01:55:05Z"
         }
       ]
     },
@@ -16785,7 +16821,7 @@
       "version": "v001",
       "sha256": "9ad547964554ead10dfac60d04a40c4cd6831e5b41344ef0404ac2e7ecd16a46",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T01:39:07Z",
+      "inspected_at": "2026-11-06T01:55:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Three adult cowherds, one dead adult demon and one two-armed infant Krishna.",
@@ -16796,7 +16832,7 @@
         },
         {
           "path": "art/plans/d043.json",
-          "sha256": "9baea88aa6f923c00839abcfe88c6b7ab71efe0ec77ff7da8607fd86aebbb2c1"
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
         },
         {
           "path": "content/daskams/d043.json",
@@ -16831,6 +16867,10 @@
         {
           "path": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
           "sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d"
+        },
+        {
+          "path": "art/reviews/d043-native-repair-context-recheck-managed-review-v001.md",
+          "sha256": "1e0ba0078a89af1a376cf55c1bdf35c482c56d36b4e49a8504348371392b04cc"
         }
       ],
       "checks": {
@@ -16923,6 +16963,13 @@
           "path": "artifacts/d043/review-evidence/managed-v004/s007-gopas.png",
           "sha256": "712597c0e0081a90534beeb59675aa83b2be217e649966f58cc08849dd262f63",
           "viewed_at": "between 2026-11-06T01:38:16Z and 2026-11-06T01:39:07Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s007/landscape/v001/candidate.png",
+          "sha256": "9ad547964554ead10dfac60d04a40c4cd6831e5b41344ef0404ac2e7ecd16a46",
+          "region": "entire frame, re-inspection against final plan after S003/S005 repairs",
+          "viewed_at": "between 2026-11-06T01:54:53Z and 2026-11-06T01:55:05Z"
         }
       ]
     },
@@ -16934,7 +16981,7 @@
       "version": "v002",
       "sha256": "18b5ddeb7f5e456d42292744b00e2964f8d1bdcfa6148b91ca674e10cd9d88d7",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T01:39:07Z",
+      "inspected_at": "2026-11-06T01:55:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "Three adult men (Nanda and two gopas), one adult woman (a gopika) and one two-armed infant Krishna.",
@@ -16945,7 +16992,7 @@
         },
         {
           "path": "art/plans/d043.json",
-          "sha256": "9baea88aa6f923c00839abcfe88c6b7ab71efe0ec77ff7da8607fd86aebbb2c1"
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
         },
         {
           "path": "content/daskams/d043.json",
@@ -16988,6 +17035,10 @@
         {
           "path": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
           "sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d"
+        },
+        {
+          "path": "art/reviews/d043-native-repair-context-recheck-managed-review-v001.md",
+          "sha256": "1e0ba0078a89af1a376cf55c1bdf35c482c56d36b4e49a8504348371392b04cc"
         }
       ],
       "checks": {
@@ -17104,6 +17155,13 @@
           "path": "artifacts/d043/review-evidence/managed-v004/s008-gopika.png",
           "sha256": "24a51bcf01c7663cd90a933fcf57cd8f7f58c1b521f5b2fc0b28bb7f46ca6fdb",
           "viewed_at": "between 2026-11-06T01:38:16Z and 2026-11-06T01:39:07Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s008/landscape/v002/candidate.png",
+          "sha256": "18b5ddeb7f5e456d42292744b00e2964f8d1bdcfa6148b91ca674e10cd9d88d7",
+          "region": "entire frame, re-inspection against final plan after S003/S005 repairs",
+          "viewed_at": "between 2026-11-06T01:54:53Z and 2026-11-06T01:55:05Z"
         }
       ]
     },
@@ -17115,7 +17173,7 @@
       "version": "v001",
       "sha256": "9885b0be646cbf776ddce5a5f3e06cc4a21b1696ef7269788196deb9cbd3907f",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T01:39:07Z",
+      "inspected_at": "2026-11-06T01:55:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "One adult woman (Yashoda), one adult man (Nanda) and one two-armed infant Krishna.",
@@ -17126,7 +17184,7 @@
         },
         {
           "path": "art/plans/d043.json",
-          "sha256": "9baea88aa6f923c00839abcfe88c6b7ab71efe0ec77ff7da8607fd86aebbb2c1"
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
         },
         {
           "path": "content/daskams/d043.json",
@@ -17165,6 +17223,10 @@
         {
           "path": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
           "sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d"
+        },
+        {
+          "path": "art/reviews/d043-native-repair-context-recheck-managed-review-v001.md",
+          "sha256": "1e0ba0078a89af1a376cf55c1bdf35c482c56d36b4e49a8504348371392b04cc"
         }
       ],
       "checks": {
@@ -17275,6 +17337,13 @@
           "path": "artifacts/d043/review-evidence/managed-v004/s009-nanda.png",
           "sha256": "f215d96a7d11533645aecacb47fa77c6c4a377534b6adc1f219fa0a2456ef8cb",
           "viewed_at": "between 2026-11-06T01:38:16Z and 2026-11-06T01:39:07Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s009/landscape/v001/candidate.png",
+          "sha256": "9885b0be646cbf776ddce5a5f3e06cc4a21b1696ef7269788196deb9cbd3907f",
+          "region": "entire frame, re-inspection against final plan after S003/S005 repairs",
+          "viewed_at": "between 2026-11-06T01:54:53Z and 2026-11-06T01:55:05Z"
         }
       ]
     },
@@ -17286,7 +17355,7 @@
       "version": "v002",
       "sha256": "a31601491447db3dcdbde6e6def6aadfc5666653d00e724fe6250bd74d96452c",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T01:39:07Z",
+      "inspected_at": "2026-11-06T01:55:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "One two-armed standing deity (Guruvayurappan, as in the approved reference) and one older adult man, Bhattathiri.",
@@ -17297,7 +17366,7 @@
         },
         {
           "path": "art/plans/d043.json",
-          "sha256": "9baea88aa6f923c00839abcfe88c6b7ab71efe0ec77ff7da8607fd86aebbb2c1"
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
         },
         {
           "path": "content/daskams/d043.json",
@@ -17332,6 +17401,10 @@
         {
           "path": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
           "sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d"
+        },
+        {
+          "path": "art/reviews/d043-native-repair-context-recheck-managed-review-v001.md",
+          "sha256": "1e0ba0078a89af1a376cf55c1bdf35c482c56d36b4e49a8504348371392b04cc"
         }
       ],
       "checks": {
@@ -17430,6 +17503,13 @@
           "sha256": "a31601491447db3dcdbde6e6def6aadfc5666653d00e724fe6250bd74d96452c",
           "region": "entire frame, re-inspection against bound supporting-cast contracts",
           "viewed_at": "between 2026-11-06T01:38:16Z and 2026-11-06T01:39:07Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s010/landscape/v002/candidate.png",
+          "sha256": "a31601491447db3dcdbde6e6def6aadfc5666653d00e724fe6250bd74d96452c",
+          "region": "entire frame, re-inspection against final plan after S003/S005 repairs",
+          "viewed_at": "between 2026-11-06T01:54:53Z and 2026-11-06T01:55:05Z"
         }
       ]
     },
@@ -17621,8 +17701,11 @@
         "observed": "Yashoda at the window wears a deep maroon-red patterned sari and veil, outside the yashoda contract’s cream/saffron/rose sari family and its no-palette-change rule.",
         "repair": "Native S005 repair that keeps v002’s falling Trinavarta and Nanda’s group but dresses Yashoda in her cream and saffron sari and veil as in S004/S009; then re-run the managed review.",
         "recorded_at": "2026-11-06T01:39:07Z",
-        "report": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md"
-      }
+        "report": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
+        "report_sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d",
+        "report_link_corrected_at": "2026-11-06T01:55:05Z"
+      },
+      "superseded_by_version": "v003"
     },
     {
       "chapter": 43,
@@ -17776,7 +17859,7 @@
       "version": "v003",
       "sha256": "765a57ef0555cfd1bf4720b323a2cf49bee95f0d614338f9f7b0a6cbf730ee05",
       "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
-      "inspected_at": "2026-11-06T01:39:07Z",
+      "inspected_at": "2026-11-06T01:55:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
       "anatomy_basis": "One fallen adult demon (Trinavarta), one two-armed infant Krishna and four adult or youth gopas.",
@@ -17787,7 +17870,7 @@
         },
         {
           "path": "art/plans/d043.json",
-          "sha256": "9baea88aa6f923c00839abcfe88c6b7ab71efe0ec77ff7da8607fd86aebbb2c1"
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
         },
         {
           "path": "content/daskams/d043.json",
@@ -17818,6 +17901,10 @@
         {
           "path": "art/reviews/d043-supporting-cast-contract-recheck-managed-review-v001.md",
           "sha256": "b0f1447131148e1bb39f20a5fa3f4ae2a0d49069745c60ab4f0735697584966d"
+        },
+        {
+          "path": "art/reviews/d043-native-repair-context-recheck-managed-review-v001.md",
+          "sha256": "1e0ba0078a89af1a376cf55c1bdf35c482c56d36b4e49a8504348371392b04cc"
         }
       ],
       "checks": {
@@ -17941,6 +18028,295 @@
           "path": "artifacts/d043/review-evidence/managed-v004/s006-gopas.png",
           "sha256": "7aff23c876b2f7dec8af150d671bcf93faf84d3ab8e70332c0772382b821d14c",
           "viewed_at": "between 2026-11-06T01:38:16Z and 2026-11-06T01:39:07Z"
+        },
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s006/landscape/v003/candidate.png",
+          "sha256": "765a57ef0555cfd1bf4720b323a2cf49bee95f0d614338f9f7b0a6cbf730ee05",
+          "region": "entire frame, re-inspection against final plan after S003/S005 repairs",
+          "viewed_at": "between 2026-11-06T01:54:53Z and 2026-11-06T01:55:05Z"
+        }
+      ],
+      "supersedes_version": "v002"
+    },
+    {
+      "chapter": 43,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d043/s003/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "7435f09e2b88e93d9e83248663092e9a36150fbccc03e278d5358a4da93476cf",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T01:54:29Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Four ordinary adults: Yashoda, one gopa and two gopikas, each with one head and two arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d043.json",
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
+        },
+        {
+          "path": "content/daskams/d043.json",
+          "sha256": "8fa8b37a3317d9b56a1bf4383df1552a92fdd0be6e27f1a66d9a75eda62ae6ef"
+        },
+        {
+          "path": "content/sources/d043/reference-map.json",
+          "sha256": "5647195ef50b6ba397b72667057ae17b4ab732184e2dac56a54f88e399443893"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d043-s003-v002-final-managed-review-v001.md",
+          "sha256": "834137255def84e1197df6807fe5c24f74e7e905c516716470f50b9d2c6f8dba"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Yashoda cups one hand to her mouth, and her other hand is open with a thumb and four fingers. The gopa shades his eyes. The standing gopika holds a hand to her chest. The stooping gopika reaches into the leaves with visible fingers. Feet are hidden by dust, as in v001."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All arms connect at the shoulders with plausible lengths; the stooping gopika’s bent torso is continuous."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Yashoda: gentle oval face, tearful, dark parted hair under a cream and saffron veil, red bindi. The gopa is moustached. The two gopikas have distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Four separate people, with no merged or repeated figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Resolves D043-S003-YASHODA-JEWELLERY-V001. Yashoda now wears one thin bead necklace without a pendant, small plain drop earrings, a small forehead ornament and two thin bangles on each wrist, matching the yashoda contract’s modest jewellery and the single-strand set she wears in S004 v002 and S009 v001 (both re-opened for comparison). Her cream sari, rose blouse, veil and face are unchanged. The gopikas keep simple village dress (rose and green saris; the stooping gopika’s two bead strands and hair flowers remain within gopikas’ “modest jewelry”). The gopa matches the gopas contract. The matte dust-ochre mural palette is unchanged."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D043/003.jpg",
+        "sha256": "cbf240c01a9af777d0e4c660be99f262b898f81ca9a6e03329bfc3d64eb2123d",
+        "caption_path": "intake/D043/photo-captions.txt#003",
+        "caption_sha256": "bb68f6390a576e47aee6cef134a277407369510fca3076ac1ffc7cd1a0ee24b1",
+        "source_map_path": "content/sources/d043/reference-map.json",
+        "source_map_sha256": "5647195ef50b6ba397b72667057ae17b4ab732184e2dac56a54f88e399443893"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d043/s004/landscape/v002/candidate.png",
+          "sha256": "c41270a7f8d3ad1585ff49d7b752e5cd47e40fac938704e77d06d2bd438cdf26",
+          "role": "Yashoda continuity (selected S004 v002)"
+        },
+        {
+          "path": "artifacts/d043/s009/landscape/v001/candidate.png",
+          "sha256": "9885b0be646cbf776ddce5a5f3e06cc4a21b1696ef7269788196deb9cbd3907f",
+          "role": "Yashoda continuity (selected S009 v001)"
+        },
+        {
+          "path": "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s003/landscape/v002/candidate.png",
+          "sha256": "7435f09e2b88e93d9e83248663092e9a36150fbccc03e278d5358a4da93476cf",
+          "region": "0,0 1672x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T01:54:21Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v005/s003-v002-yashoda-face-neck.png",
+          "sha256": "f8809a1a43f8ffafb83ab6cef1b761fac0962b392e2f313dff6395ecba774adf",
+          "region": "560x520+330+180",
+          "viewed_at": "2026-11-06T01:54:29Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v005/s003-v002-yashoda-wrists-hand.png",
+          "sha256": "51c72c3e81ffc171309dc231b7296c37b350e5d15416888bb4b6e7a008e167f2",
+          "region": "760x360+160+600",
+          "viewed_at": "2026-11-06T01:54:29Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v005/s003-v002-gopa.png",
+          "sha256": "35bba66a9b7b2bb6e78433f3bb0b497edae8de9b7cacc9bb6f998a5e3d8c3cd4",
+          "region": "460x460+0+160",
+          "viewed_at": "2026-11-06T01:54:29Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v005/s003-v002-gopikas.png",
+          "sha256": "436ab45c604850760cdc4218e7f5bce67d5def57082cf7df3df9559519eb4538",
+          "region": "720x640+940+230",
+          "viewed_at": "2026-11-06T01:54:29Z"
+        }
+      ],
+      "supersedes_version": "v001"
+    },
+    {
+      "chapter": 43,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d043/s005/landscape/v003/candidate.png",
+      "version": "v003",
+      "sha256": "36f6ef4354426effb51a105f29439982fce368713a92fb5b0c6d79075633e8f0",
+      "reviewer": "Claude (no-mistakes review fix round, claude-opus-5-5)",
+      "inspected_at": "2026-11-06T01:54:40Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Four adult cowherds including Nanda, one adult woman (Yashoda), one small adult demon (Trinavarta) and one two-armed infant Krishna. One cow.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d043.json",
+          "sha256": "e2a8b500828f432a9d72c4a294345be68d1caeb88d8c47a64acb82b89a6a829e"
+        },
+        {
+          "path": "content/daskams/d043.json",
+          "sha256": "8fa8b37a3317d9b56a1bf4383df1552a92fdd0be6e27f1a66d9a75eda62ae6ef"
+        },
+        {
+          "path": "content/sources/d043/reference-map.json",
+          "sha256": "5647195ef50b6ba397b72667057ae17b4ab732184e2dac56a54f88e399443893"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d043-s005-v003-final-managed-review-v001.md",
+          "sha256": "3f0d76a51bc32601c0327b13d2bb92efe4e6f00d8483bbd6316ac5a006492db4"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Yashoda raises two open hands, each with a thumb and four fingers and a few thin bangles. Nanda reaches with an open hand; the gopas hold a rope coil, a hand to the chest and a staff; seven bare feet show toes. Trinavarta’s two trailing feet show toes; one hand wraps under the infant and a cuffed forearm curls round his legs. The infant raises one hand to the demon’s chest."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "All human and demon limbs are continuous and proportionate; the demon remains small relative to the ground cast, and the infant has infant proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Yashoda: distressed upturned oval face, dark parted hair, saffron veil. Nanda is moustached and turbaned; the gopas are distinct (two with topknots, one bearded and turbaned). Trinavarta is grey with a strained grimace and wild hair; the infant has a namam and peacock feather."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One infant, one demon, four cowherds, one woman and one cow, with no repeated or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "None observed."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Resolves D043-S005-YASHODA-SARI-PALETTE-V002. Yashoda now wears a cream sari with muted rose edging and a saffron veil, within the yashoda contract’s cream/saffron/rose family and consistent with S004 v002 and S009 v001 (both re-opened for comparison). Her jewellery (a light two-strand pearl necklace, gold earrings, thin bangles) matches S009. Nanda matches the nandagopan contract; the gopas are varied and uncloned. Trinavarta stays consistent with S004/S006 v003. The matte mural palette is unchanged."
+        }
+      },
+      "findings": [],
+      "source_reference": {
+        "path": "intake/D043/005.jpg",
+        "sha256": "087fa13cf1239e8984028a955955b6af8fcc8b3f14d9c5d6f84a467747632098",
+        "caption_path": "intake/D043/photo-captions.txt#005",
+        "caption_sha256": "bb68f6390a576e47aee6cef134a277407369510fca3076ac1ffc7cd1a0ee24b1",
+        "source_map_path": "content/sources/d043/reference-map.json",
+        "source_map_sha256": "5647195ef50b6ba397b72667057ae17b4ab732184e2dac56a54f88e399443893"
+      },
+      "reference_images": [
+        {
+          "path": "artifacts/d043/s004/landscape/v002/candidate.png",
+          "sha256": "c41270a7f8d3ad1585ff49d7b752e5cd47e40fac938704e77d06d2bd438cdf26",
+          "role": "Yashoda continuity (selected S004 v002)"
+        },
+        {
+          "path": "artifacts/d043/s009/landscape/v001/candidate.png",
+          "sha256": "9885b0be646cbf776ddce5a5f3e06cc4a21b1696ef7269788196deb9cbd3907f",
+          "role": "Yashoda continuity (selected S009 v001)"
+        },
+        {
+          "path": "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+          "role": "infant identity anchor"
+        }
+      ],
+      "views": [
+        {
+          "mode": "full-frame",
+          "path": "artifacts/d043/s005/landscape/v003/candidate.png",
+          "sha256": "36f6ef4354426effb51a105f29439982fce368713a92fb5b0c6d79075633e8f0",
+          "region": "0,0 1671x941 (entire frame)",
+          "viewed_at": "between 2026-11-06T01:54:29Z and the first detail crop"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v005/s005-v003-yashoda.png",
+          "sha256": "3125524c31d6ef62b19b4bf0ddf5ad4f593d58206e14028c859b83630ea9bf48",
+          "region": "420x300+1250+380",
+          "viewed_at": "2026-11-06T01:54:40Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v005/s005-v003-yashoda-x2.5.png",
+          "sha256": "7b3570bd5bd66ea9fb25b544b428f4fe1b6102c83004feda795da275f050cfa0",
+          "region": "420x300+1250+380 then 250% Lanczos",
+          "viewed_at": "2026-11-06T01:54:40Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v005/s005-v003-airborne-x3.png",
+          "sha256": "5595b54b59a31bb1c01f5e1968d4cbbc449e17e8b88d43ab9c4cc3b3bba0e57e",
+          "region": "260x200+1020+110 then 300% point",
+          "viewed_at": "2026-11-06T01:54:40Z"
+        },
+        {
+          "mode": "detail-native-crop",
+          "path": "artifacts/d043/review-evidence/managed-v005/s005-v003-ground-cast.png",
+          "sha256": "f13087076681241f417a9bf3ab7741e2ccdb287e754fa1c7ce5f31f71971d37b",
+          "region": "1100x380+0+380",
+          "viewed_at": "2026-11-06T01:54:40Z"
         }
       ],
       "supersedes_version": "v002"
