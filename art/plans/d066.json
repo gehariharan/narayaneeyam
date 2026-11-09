@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "daskam_id": 66,
+  "slug": "d066",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "d066-krishna-youth",
+    "recurring_characters": [
+      "d066-krishna-youth",
+      "gopikas",
+      "Bhattathiri"
+    ],
+    "locations": [
+      "moonlit Yamuna grove",
+      "Yamuna riverbank",
+      "devotional prayer setting"
+    ],
+    "narrative_arc": "Adult gopikas approach Krishna; his dharma teaching is heard by sages in the sky, they plead, and he joins them in modest devotional companionship beside the moonlit Yamuna. They receive a symbolic assurance and share bliss; the final stanza turns to Bhattathiri’s prayer for relief from illness.",
+    "krishna_identity": "Use the D062 provisional youthful Vraja cowherd identity: deep-blue matte skin, serene youthful face, dark wavy hair, restrained peacock feather, yellow dhoti and muted red-orange upper cloth, with ordinary youthful two-arm/two-leg anatomy. The cue is provisional and does not imply D066 art approval. No infant face or proportions.",
+    "gopika_contract": "Use the existing gopikas character bible: distinct adult women with natural proportions and simple village dress. For every D066 scene, keep them modestly and fully clothed in opaque garments. The clothing-promise verse is represented symbolically; never depict undressing, nudity, exposed bodies, sexualized framing, or a clothing theft in progress.",
+    "celestial_sages_contract": "Only S002 includes sages, because stanza 2 says Krishna speaks so the gathered sages in the sky can hear. Render a small, distinct group of ordinary ascetics as distant witnesses, with one head and two arms each; do not turn them into deities or clone them.",
+    "deity_contract": "S001–S009 use one youthful, two-armed Krishna in narrative mode, with no unrequested four-armed forms. S010 shows a restrained serene blue two-armed divine presence receiving Bhattathiri’s prayer; only a face-level identity cue may be used, without transferring any deity reference’s body, pose, crown or ornaments.",
+    "bhattathiri_contract": "S010 depicts the older clean-shaven Bhattathiri only: lined face, sacred ash marks, small traditional hair tuft, simple cream Kerala dhoti, sacred thread and modest prayer beads. The selected reference is an identity candidate only, not an approved master.",
+    "rendering_references": [
+      "artifacts/d066/references/shared/style-d001-s004.png",
+      "artifacts/d066/references/shared/style-d001-s008.png"
+    ],
+    "identity_references": {
+      "krishna_youth": {
+        "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
+        "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234",
+        "status": "provisional identity cue only; not approved master"
+      },
+      "bhattathiri_older": {
+        "path": "artifacts/d066/references/shared/bhattathiri-older-candidate.png",
+        "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+        "status": "selected older identity cue only; not approved master"
+      }
+    },
+    "palette_arc": "Flat matte mineral fields of warm cream, ochre, deep maroon, muted olive and deep blue; moonlight stays in restrained cream/blue fields. No gloss, reflective metallic gold, outer border, cinematic beams or text.",
+    "notes": "Scene plans are grounded in D066 canonical stanzas and mapped captions, not copied from D062 or neighboring chapters. The supplied English commentary is preserved verbatim; no unsourced English translation is added."
+  },
+  "source": {
+    "sanskrit": "https://stotranidhi.com/hi/narayaneeyam-dasakam-66-in-sanskrit",
+    "romanization": "https://stotranidhi.com/en/narayaneeyam-dasakam-66-in-english/",
+    "caption_file": "intake/D066/photo-captions.txt"
+  },
+  "reference_map": "content/sources/d066/reference-map.json",
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d066-s001",
+      "characters": [
+        "d066-krishna-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "approach and welcome",
+        "must_show": [
+          "A small group of distinct adult gopikas approaches the youthful Krishna at the moonlit Yamuna grove.",
+          "Krishna receives them with a calm, welcoming expression; keep him youthful, deep blue and two-armed.",
+          "Use the supplied photo for cast and context cues only; omit flute-playing if not required by the source moment."
+        ],
+        "composition": "Krishna stands at the edge of a quiet moonlit grove as several distinct, fully clothed adult gopikas approach with devotional affection.",
+        "tone": "Tender anticipation",
+        "avoid": [
+          "No eroticized framing, revealing clothing, cloned or fused people, or extra limbs."
+        ]
+      },
+      "alt": "Krishna stands at the edge of a quiet moonlit grove as several distinct, fully clothed adult gopikas approach with devotional affection.",
+      "reference_paths": [
+        "intake/D066/001.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/001.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d066-s002",
+      "characters": [
+        "d066-krishna-youth",
+        "gopikas",
+        "d066-sky-sages"
+      ],
+      "scene_brief": {
+        "mode": "dharma teaching before the sky sages",
+        "must_show": [
+          "Krishna speaks clearly to the gopikas about the duty of family women.",
+          "A few small, distinct ascetic sages are visible high in the sky as attentive witnesses, listening from a respectful distance.",
+          "Keep all human figures naturally proportioned, with one head and two arms; the sages are ordinary ascetics, not multiple-armed deities."
+        ],
+        "composition": "Compose Krishna addressing the gopikas in the foreground, with a small group of distinct adult sages set apart high in the open sky to establish that his words carry to them.",
+        "tone": "Composed clarity and gentle instruction",
+        "avoid": [
+          "No Indra, storm, hill, Nanda or unrelated ritual; no cloned crowd, fused figures or text."
+        ]
+      },
+      "alt": "Compose Krishna addressing the gopikas in the foreground, with a small group of distinct adult sages set apart high in the open sky to establish that his words carry to them.",
+      "reference_paths": [
+        "intake/D066/002.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/002.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d066-s003",
+      "characters": [
+        "d066-krishna-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "plea after Krishna's adverse words",
+        "must_show": [
+          "Several distinct adult gopikas react with sadness and helplessness to Krishna’s words.",
+          "One or two speak or gesture in supplication while Krishna listens compassionately.",
+          "Keep the gathering dignified and modestly clothed."
+        ],
+        "composition": "Set the gopikas in a close devotional group before the still, attentive Krishna, with expressive faces and restrained pleading gestures.",
+        "tone": "Vulnerability and compassion",
+        "avoid": [
+          "No sexualized pose, nudity, repeated faces or text."
+        ]
+      },
+      "alt": "Set the gopikas in a close devotional group before the still, attentive Krishna, with expressive faces and restrained pleading gestures.",
+      "reference_paths": [
+        "intake/D066/003.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/003.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d066-s004",
+      "characters": [
+        "d066-krishna-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "moonlit Yamuna companionship",
+        "must_show": [
+          "Krishna joins the adult gopikas on the banks of the Yamuna under moonlight.",
+          "Show devotional companionship and calm shared presence; keep interactions nonsexual and all participants fully clothed.",
+          "Let the riverbank and moon establish the stanza’s setting."
+        ],
+        "composition": "Compose a quiet moonlit riverbank gathering with Krishna and distinct adult gopikas in devotional companionship, separated by natural breathing space and connected by their shared gaze.",
+        "tone": "Compassionate warmth",
+        "avoid": [
+          "No eroticized intimacy, exposed bodies, copied glossy styling, or repeated people."
+        ]
+      },
+      "alt": "Compose a quiet moonlit riverbank gathering with Krishna and distinct adult gopikas in devotional companionship, separated by natural breathing space and connected by their shared gaze.",
+      "reference_paths": [
+        "intake/D066/004.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/004.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d066-s005",
+      "characters": [
+        "d066-krishna-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "cloth seat by the river",
+        "must_show": [
+          "A few adult gopikas respectfully arrange a seat from a draped cloth for Krishna.",
+          "Krishna sits on the offered cloth seat on a beautiful moonlit Yamuna bank.",
+          "Depict each gopika fully clothed; the cloth seat is separate from their worn garments after it is laid down."
+        ],
+        "composition": "Show Krishna seated on a simple cloth spread while two distinct, fully clothed adult gopikas finish arranging it; quiet water and moonlight frame the action.",
+        "tone": "Gentle service and welcome",
+        "avoid": [
+          "No undressing, nudity, exposed bodies, cloned figures or text."
+        ]
+      },
+      "alt": "Show Krishna seated on a simple cloth spread while two distinct, fully clothed adult gopikas finish arranging it; quiet water and moonlight frame the action.",
+      "reference_paths": [
+        "intake/D066/005.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/005.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d066-s006",
+      "characters": [
+        "d066-krishna-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "playful affectionate devotion",
+        "must_show": [
+          "Krishna and a few distinct adult gopikas share playful conversation and devotional affection.",
+          "Show hands held and a gentle embrace in a dignified, nonsexual way.",
+          "Keep each person’s face and limbs distinct and anatomically natural."
+        ],
+        "composition": "Compose a small, balanced group with Krishna and adult gopikas exchanging gentle, respectful gestures beside the Yamuna; keep every participant fully clothed.",
+        "tone": "Joyful intimacy expressed as devotion",
+        "avoid": [
+          "No eroticized kissing or touch, no revealing garments, duplicate people, fused limbs or text."
+        ]
+      },
+      "alt": "Compose a small, balanced group with Krishna and adult gopikas exchanging gentle, respectful gestures beside the Yamuna; keep every participant fully clothed.",
+      "reference_paths": [
+        "intake/D066/006.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/006.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d066-s007",
+      "characters": [
+        "d066-krishna-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "fulfilled promise as symbolic remembrance",
+        "must_show": [
+          "The gopikas experience fulfilled longing and devotional bliss.",
+          "Represent the earlier clothing promise only through a neatly folded, fully opaque cloth held as a modest symbolic reminder.",
+          "Show every adult gopika fully clothed in simple village garments."
+        ],
+        "composition": "Let a fully clothed group of distinct gopikas gather in serene gratitude, with one opaque folded cloth resting beside them as a quiet symbol of Krishna’s fulfilled promise.",
+        "tone": "Blissful assurance",
+        "avoid": [
+          "No bathing, undressing, nudity, exposed bodies, sexualization, or depiction of theft in progress."
+        ]
+      },
+      "alt": "Let a fully clothed group of distinct gopikas gather in serene gratitude, with one opaque folded cloth resting beside them as a quiet symbol of Krishna’s fulfilled promise.",
+      "reference_paths": [
+        "intake/D066/007.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/007.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d066-s008",
+      "characters": [
+        "d066-krishna-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "bliss in Krishna's smile",
+        "must_show": [
+          "Krishna’s gentle lotus-like smile is the focal point; suggest a few tiny sweat beads as restrained painted marks.",
+          "Adult gopikas respond with delight and wonder while remaining fully clothed.",
+          "Keep the faces distinct and mural-like; no photographic detail."
+        ],
+        "composition": "Place Krishna’s soft smile at the center of a close but spacious group of distinct, fully clothed gopikas; use a few tiny matte marks for perspiration and no flute unless separately justified.",
+        "tone": "Ecstatic delight, rendered with restraint",
+        "avoid": [
+          "No sensual close-up, wet skin, gloss, repeated faces, or text."
+        ]
+      },
+      "alt": "Place Krishna’s soft smile at the center of a close but spacious group of distinct, fully clothed gopikas; use a few tiny matte marks for perspiration and no flute unless separately justified.",
+      "reference_paths": [
+        "intake/D066/008.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/008.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d066-s009",
+      "characters": [
+        "d066-krishna-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "separation and union",
+        "must_show": [
+          "Use one Krishna and distinct adult gopikas to express the verse’s emotional contrast between separation and loving union.",
+          "Show one gopika briefly apart at the edge of the scene turning toward Krishna and the welcoming group; use cool moonlit space for separation and warm shared color for reunion.",
+          "Avoid multiple Krishnas or a literal two-panel duplicate scene."
+        ],
+        "composition": "Compose one continuous Yamuna grove: a single gopika stands momentarily apart at one edge while Krishna and the other distinct adult gopikas share a calm welcoming presence at center; a restrained shift from cool moonlight to warm earth tones carries the contrast.",
+        "tone": "Longing resolving into devotional delight",
+        "avoid": [
+          "No duplicated Krishna, cloned gopikas, sexualized framing, or text."
+        ]
+      },
+      "alt": "Compose one continuous Yamuna grove: a single gopika stands momentarily apart at one edge while Krishna and the other distinct adult gopikas share a calm welcoming presence at center; a restrained shift from cool moonlight to warm earth tones carries the contrast.",
+      "reference_paths": [
+        "intake/D066/009.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/009.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d066-s010",
+      "characters": [
+        "d066-bhattathiri",
+        "d066-krishna-youth"
+      ],
+      "scene_brief": {
+        "mode": "Bhattathiri's closing prayer",
+        "must_show": [
+          "Show the older clean-shaven Bhattathiri in prayer, matching the selected identity cue: lined face, sacred ash marks, small hair tuft, simple cream Kerala dhoti, sacred thread and modest prayer beads.",
+          "A serene youthful blue two-armed divine presence receives the prayer; use face identity only and do not transfer body, ornament, crown or pose from any deity reference image.",
+          "Keep both figures dignified and naturally proportioned; no illness spectacle."
+        ],
+        "composition": "Compose a quiet closing prayer: older Bhattathiri kneels or sits with folded hands in the foreground, facing a restrained blue devotional presence suggested through a serene youthful face and soft matte aureole. The deity remains two-armed, with no copied crown, ornaments, pose, or body from the identity cue.",
+        "tone": "Prayerful hope and relief",
+        "avoid": [
+          "No beard or moustache on Bhattathiri, no royal costume, weapons, extra arms, duplicated figures, glossy light, or text."
+        ]
+      },
+      "alt": "Compose a quiet closing prayer: older Bhattathiri kneels or sits with folded hands in the foreground, facing a restrained blue devotional presence suggested through a serene youthful face and soft matte aureole. The deity remains two-armed, with no copied crown, ornaments, pose, or body from the identity cue.",
+      "reference_paths": [
+        "intake/D066/010.jpg",
+        "artifacts/d066/references/shared/style-d001-s004.png",
+        "artifacts/d066/references/shared/style-d001-s008.png",
+        "artifacts/d066/references/shared/bhattathiri-older-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D066/010.jpg for mapped subject/cast context only. D001 S004/S008 anchor matte mural rendering; the character cue anchors identity only. Recompose as a native landscape; do not copy source staging, glossy lighting or composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; do not crop another orientation.",
+          "candidate_status": "not generated; waiting for native ImageGen reset and Firstmate recheck"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    }
+  ]
+}
