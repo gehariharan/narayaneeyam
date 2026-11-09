@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 66,
   "review_status": "needs-review",
-  "visual_review_status": "Eight unchanged selected landscape leads retain their prior independent exact-checksum passes. Independent exact-checksum managed review of the repairs recorded S010 v004 pass and S002 v002 needs-fix. No candidate is approved.",
+  "visual_review_status": "Independent exact-checksum managed review of selected S010 v004 passes and selected S002 v002 needs-fix. One additional S002 candidate, v003, has producer full-frame and detail inspection but remains unselected and needs-fix because Krishna’s visible foot has four toes. No candidate is approved; D066 review publication remains blocked.",
   "description": "Ten D066 landscape candidates paired with their mapped numbered source references. All generated art is unapproved review material.",
-  "review_notice": "This chapter is presented for artwork review only. The ten selected landscape candidates are unapproved and do not update art/approved/. Each source image is shown beside its mapped candidate. S002 v002 and S010 v004 are new repair candidates; prior candidates and versions remain in local history. S006 v001/v002 and S010 v001/v002 are preserved and excluded from this comparison. S006 v003 is also preserved but not shown because it omits the stanza’s hand-holding and embrace. English translation is unavailable and editorial review remains pending. Portraits remain paused.",
+  "review_notice": "This chapter is presented for artwork review only. The ten selected landscape candidates are unapproved and do not update art/approved/. Each source image is shown beside its mapped candidate. S002 v002 remains the selected needs-fix version; a later producer-inspected v003 is preserved in candidate history but is not selected. S010 v004 is the selected passing version. Earlier S006 v001/v002 and S010 v001/v002 are preserved and excluded from this comparison. S006 v003 is also preserved but not shown because it omits the stanza’s hand-holding and embrace. English translation is unavailable and editorial review remains pending. Portraits remain paused.",
   "rows": [
     {
       "n": 1,
@@ -453,6 +453,42 @@
         {
           "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
           "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234"
+        }
+      ]
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d066-s002",
+      "version": "v003",
+      "file": "artifacts/d066/s002/landscape/candidate-v003.png",
+      "sha256": "bda0b6c0cbdfe80a72794ab56b6e72bde50ea8994040ade4f2ed352c830ff9e5",
+      "prompt": "artifacts/d066/s002/landscape/prompt-v003.md",
+      "prompt_sha256": "a96c0e347ea5ba78eaf3874efe0a2a92a2c3a6a60a830c517388dbcb1312a7f0",
+      "generation_record": "artifacts/d066/s002/landscape/generation-v003.json",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "At native full-frame and focused detail views, the left and right green-clad gopikas’ waistlines are covered by continuous opaque green fabric, with no skin-toned wedge or exposed band. Krishna’s visible foot still has only four toes—one large toe and three smaller toes—with no fifth toe or occluding fold. The candidate remains needs-fix and is not selected.",
+      "producer_report": "art/reviews/d066-s002-landscape-v003-producer-review-v001.md",
+      "producer_report_sha256": "61354b1be86c431a91db69a8396fc3a7859b591b1d26fd8181f153f11a3b120a",
+      "references": [
+        {
+          "path": "intake/D066/002.jpg",
+          "sha256": "52886887c9d440d443b1fece4d4a1492a8c38deae9078f0697dd60d3565a374c"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
+          "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234"
+        },
+        {
+          "path": "artifacts/d066/s002/landscape/candidate-v002.png",
+          "sha256": "ed3e1c4701fc02f00cca2816fafd17fe4d964ca83a474c9ec88b59376fab437d"
         }
       ]
     }
