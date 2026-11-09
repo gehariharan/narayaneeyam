@@ -324,9 +324,9 @@ const full66=data.chapters.find(c=>c.id===66);assert.ok(full66);assert.deepEqual
 const content66=JSON.parse(await fs.readFile(new URL('../../content/daskams/d066.json',import.meta.url)));
 const selected66=JSON.parse(await fs.readFile(new URL('../../art/batches/d066-comparison-v001.json',import.meta.url)));
 assert.equal(selected66.rows.length,10);assert.equal(selected66.review_status,'needs-review');assert.ok(full66.reviewNotice.includes('unapproved'));
-assert.deepEqual(selected66.rows.map(r=>r.matte.version),['v001','v001','v001','v001','v001','v004','v001','v001','v001','v003']);
-assert.equal(selected66.candidate_history.length,15);
-assert.deepEqual(selected66.candidate_history.filter(x=>x.disposition==='excluded-needs-fix').map(x=>`${x.stanza}:${x.version}`),['6:v001','10:v001','10:v002']);
+assert.deepEqual(selected66.rows.map(r=>r.matte.version),['v001','v002','v001','v001','v001','v004','v001','v001','v001','v004']);
+assert.equal(selected66.candidate_history.length,17);
+assert.deepEqual(selected66.candidate_history.filter(x=>x.disposition==='excluded-needs-fix').map(x=>`${x.stanza}:${x.version}`),['6:v001','6:v002','10:v001','10:v002']);
 assert.equal(selected66.candidate_history.find(x=>x.stanza===6&&x.version==='v003').disposition,'unselected');
 for(const row of full66.rows){
  const stanza=content66.stanzas.find(s=>s.n===row.n);assert.equal(row.commentarySource,stanza.commentary_source);assert.equal(row.commentary,stanza.commentary_en);

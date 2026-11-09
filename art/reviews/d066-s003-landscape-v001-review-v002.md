@@ -1,7 +1,7 @@
 # D066 S003 v001 independent managed visual review
 
 - Reviewer: Claude Opus 5.5 (no-mistakes managed visual review)
-- Inspected: 2026-11-09T04:08:35Z
+- Inspected (batch-recorded time, not a per-image inspection time): 2026-11-09T04:08:35Z
 - Method: individual native-resolution full frame, six native 1:1 tiles, and focused 2.5x-7x detail views; candidate bytes were not altered
 - Candidate: `artifacts/d066/s003/landscape/candidate-v001.png`
 - SHA-256: `7628dc7057b7ce582cc852617d8cafea3e548a18bd6eb28fa0a7db97e149119a`
