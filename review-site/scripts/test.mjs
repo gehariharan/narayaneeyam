@@ -335,7 +335,7 @@ for(const row of full66.rows){
  const matte=row.images.find(i=>i.role==='matte');assert.equal(matte.version,selected.matte.version);assert.equal(matte.inspectionStatus,'inspected');
 }
 assert.equal((await feedback(req({...good,daskam:66,sloka:6}),env)).status,201);
-assert.deepEqual(JSON.parse(written.args[8]),[{role:'matte',key:full66.rows.find(r=>r.n===6).images.find(i=>i.role==='matte').key}]);
+assert.deepEqual(JSON.parse(written.args[8]),[{role:'matte',key:full66.rows.find(r=>r.n===6).images.find(i=>i.role==='matte').key,version:'v004'}]);
 assert.equal((await feedback(req({...good,daskam:66,sloka:11}),env)).status,400);
 console.log('Passed: D066 has ten mapped, checksum-pinned and inspected landscape leads, unapproved labels, preserved excluded versions, and stanza-bounded feedback.');
 

@@ -29101,10 +29101,10 @@
       "file": "artifacts/d066/s001/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "b849e35b1ea9365e72965c4636e50d8bc541d58c6a0862a5167c1d09ecc022c0",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
-      "outcome": "uncertain",
+      "outcome": "pass",
       "anatomy_basis": "D066 S001: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
       "contracts": [
         {
@@ -29128,44 +29128,39 @@
         {
           "path": "art/reviews/d066-s001-landscape-v001-review-v001.md",
           "sha256": "176e1fcdf5ad6fb8e890a8890737ada99ace38b7736bcc8332196238a21e8078"
+        },
+        {
+          "path": "art/reviews/d066-s001-landscape-v001-review-v002.md",
+          "sha256": "a42777c4a118454f304a6e72ac99a712bd845d628be8aeb8da92280672d3a992"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "uncertain",
-          "observations": "Krishna has two attached arms, one open toward the group and one hand at his chest; his two feet are visible. The women’s joined and open hands are distinct in the detail view; no extra digits or detached hands are apparent."
+          "status": "pass",
+          "observations": "Krishna has two arms and two legs; at 3x both hands show four fingers and a thumb and both feet end in separated toes. Green and cream gopikas each show two complete feet, the red gopika two. Back orange and blue gopikas are occluded below the waist."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "The standing figures retain separate shoulders, elbows and sari silhouettes; no body joins across the women. Krishna’s extended arm meets his shoulder naturally."
+          "status": "pass",
+          "observations": "Krishna's open left arm and his right hand on the chest each trace from armband through elbow and wrist bangles. The blue gopika's raised forearm passes behind the red gopika's head and meets a plausible hidden elbow."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "The gopikas have separate readable faces directed toward Krishna; Krishna has one calm youthful face with clear eyes."
+          "status": "pass",
+          "observations": "Five gopika faces in differing upward profile angles, each with its own veil, jewelry and eye direction. Krishna's lowered three-quarter face has closed-lidded calm and no copied flute pose."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Krishna and four distinct women; no repeated person or fused body."
+          "status": "pass",
+          "observations": "One Krishna and five separate women stepping in overlapping file; contour lines and sari colors keep every body separate."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No letters, caption, signature, logo, watermark or border appears."
+          "status": "pass",
+          "observations": "No text, signature or watermark in any tile."
         },
         "scene_style_continuity": {
-          "status": "uncertain",
-          "observations": "Moonlit river, foliage, flowers and matte ochre/blue temple-mural fields match the stanza plan and series palette; heads and principal gestures remain in frame."
+          "status": "pass",
+          "observations": "Moonlit Yamuna grove with gopikas approaching a welcoming standing Krishna; no flute; every figure fully clothed; matte mural palette matches the D001 anchors."
         }
       },
-      "findings": [
-        {
-          "id": "D066-S001-PREFLIGHT-01",
-          "severity": "low",
-          "confidence": "high",
-          "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
-        }
-      ]
+      "findings": []
     },
     {
       "chapter": 66,
@@ -29174,10 +29169,10 @@
       "file": "artifacts/d066/s002/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "305612c48b371e51149d6cfdf96953b2aa604d83d7eb67451ee081b3b7fcb3af",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
-      "outcome": "uncertain",
+      "outcome": "needs-fix",
       "anatomy_basis": "D066 S002: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
       "contracts": [
         {
@@ -29205,42 +29200,54 @@
         {
           "path": "art/reviews/d066-s002-landscape-v001-review-v001.md",
           "sha256": "84e24c4d0305faeceb82e33534619c06c61f80742a4f010cdf884a44b1f1a041"
+        },
+        {
+          "path": "art/reviews/d066-s002-landscape-v001-review-v002.md",
+          "sha256": "d1373bf5693ffaec4445939f632b5190e8b62f53a5a823d5547170b8e64c77d3"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "uncertain",
-          "observations": "Krishna shows two attached arms. The cropped detail confirms his open hand and the seated women’s near hands; the four small ascetics have compact seated bodies and separate arms, with no obvious extra limbs."
+          "status": "needs-fix",
+          "observations": "FAIL. Krishna has two arms and one visible foot under the crossed legs, and the four sky sages each show two arms. The maroon gopika's right forearm enters with bangles and ends at the purple gopika's mouth with no visible hand or fingers. Krishna's raised and chest hands are blue with an abrupt pink band across all finger bases."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "Foreground shoulders and arms connect cleanly; the four ascetics sit on one separate cloud without merging into one another. Seated legs are partly concealed by garments, with no contradictory limb fragments."
+          "status": "needs-fix",
+          "observations": "FAIL. At 7x the maroon gopika's forearm outline stops against the purple gopika's lip line and chin instead of showing a wrist, hand, or a readable occlusion behind her head."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "Krishna’s face and foreground listeners are clear. The four smaller sages have individual heads and varied beards/topknots; no malformed face is apparent at the shown size."
+          "status": "pass",
+          "observations": "Eight gopikas and Krishna have distinct faces and directions; the four small sages differ in beard color, age and topknot. The purple gopika's mouth is visually crowded by the forearm contact at lower right."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Krishna, a group of distinct women and four separate sages; no duplicate Krishna or fused person."
+          "status": "needs-fix",
+          "observations": "One Krishna, eight gopikas, four sages with no duplicate person; the maroon forearm reads as merging into the purple gopika's mouth area at the coordinates in the finding."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No readable text or watermark; cloud curls are decorative marks only."
+          "status": "pass",
+          "observations": "No text, signature or watermark."
         },
         "scene_style_continuity": {
-          "status": "uncertain",
-          "observations": "The sky sages are high and set apart as the plan requires; the mural remains matte and the teaching group occupies the foreground."
+          "status": "pass",
+          "observations": "Krishna teaches seated gopikas with four separate ascetics high on a cloud, matching the stanza and the sky-sage contract; no storm or ritual; palette is the agreed matte mural."
         }
       },
       "findings": [
         {
-          "id": "D066-S002-PREFLIGHT-01",
-          "severity": "low",
+          "id": "D066-S002-FOREARM-AT-MOUTH-01",
+          "severity": "high",
           "confidence": "high",
-          "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
+          "status": "needs-fix",
+          "observed": "At roughly x1140-1270, y600-690 in the full frame, the maroon gopika's bangled forearm ends against the purple gopika's lips and chin with no visible hand or fingers, reading as a limb fused into the face.",
+          "repair": "Regenerate as a new version with that arm resting on her lap or a clearly hidden hand, keeping the purple gopika's mouth unobstructed."
+        },
+        {
+          "id": "D066-S002-KRISHNA-FINGER-BANDS-01",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Both of Krishna's hands, at about x640-750, y365-450 and x430-510, y455-540, are blue-gray with a hard-edged pink band across all finger bases that reads as a pasted colored segment; the other nine images use continuous hand tints.",
+          "repair": "In the same new version, use one continuous blue pigment tint for the hand, with only the palm or fingertip accent if any."
         }
       ]
     },
@@ -29251,10 +29258,10 @@
       "file": "artifacts/d066/s003/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "7628dc7057b7ce582cc852617d8cafea3e548a18bd6eb28fa0a7db97e149119a",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
-      "outcome": "uncertain",
+      "outcome": "pass",
       "anatomy_basis": "D066 S003: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
       "contracts": [
         {
@@ -29278,44 +29285,39 @@
         {
           "path": "art/reviews/d066-s003-landscape-v001-review-v001.md",
           "sha256": "bef51d20a7961cebff833f7b2c09bbb51f30a4f9b7e499f3c03cce76a8e3e190"
+        },
+        {
+          "path": "art/reviews/d066-s003-landscape-v001-review-v002.md",
+          "sha256": "334b4ad9584170d699af21eab3cbe6bcef21cdae8970f2dc1ff68a1807c52be1"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "uncertain",
-          "observations": "The focused crop shows the foreground woman’s two raised hands separately, with clear wrists and fingers; adjacent praying hands remain joined to their owners. Krishna’s visible hands and arms are separate."
+          "status": "pass",
+          "observations": "Krishna has two pendant arms with five-digit gray-blue hands and two feet with separated toes at 3x. The kneeling gopika's two raised hands, the cream gopika's joined palms and the yellow gopika's hand on her chest are complete. The red gopika's hand on the olive gopika's back is complete."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "Kneeling shoulders, forearms and sari folds remain connected; overlap between seated figures reads as layered clothing rather than fused bodies."
+          "status": "pass",
+          "observations": "Each visible hand joins through bangles to a traceable forearm; the kneeling gopika's upper hand is on the far arm rising behind her body, consistent with her shoulder."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "The women have distinct expressions, including downcast and pleading gazes; Krishna’s face is calm and unobscured."
+          "status": "pass",
+          "observations": "Six gopikas with clearly different grief expressions; flat painted tears on several cheeks, no wet gloss; Krishna's lowered compassionate gaze is distinct."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Krishna and one group of individual women; no repeated face or fused body."
+          "status": "pass",
+          "observations": "One Krishna and six distinct women; the crying olive gopika's cloth at her face stays separate from the face line."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No readable text, caption, signature, logo or watermark."
+          "status": "pass",
+          "observations": "No text, signature or watermark."
         },
         "scene_style_continuity": {
-          "status": "uncertain",
-          "observations": "The close devotional grouping and restrained pleading gestures follow the scene contract; matte foliage and earth colors remain consistent."
+          "status": "pass",
+          "observations": "A close, modestly clothed devotional group pleading before an attentive standing Krishna; warm dusk palette within the series style."
         }
       },
-      "findings": [
-        {
-          "id": "D066-S003-PREFLIGHT-01",
-          "severity": "low",
-          "confidence": "high",
-          "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
-        }
-      ]
+      "findings": []
     },
     {
       "chapter": 66,
@@ -29324,10 +29326,10 @@
       "file": "artifacts/d066/s004/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "20b761b8439ec447a1bcfca67889b4e8fdab5062a808c74e2a96ca5b4e46fcf9",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
-      "outcome": "uncertain",
+      "outcome": "pass",
       "anatomy_basis": "D066 S004: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
       "contracts": [
         {
@@ -29351,44 +29353,39 @@
         {
           "path": "art/reviews/d066-s004-landscape-v001-review-v001.md",
           "sha256": "6a37bd07a6b5012bb0da40bf0e2cbda6e555fc2c4145505c9610f7dab0e1e369"
+        },
+        {
+          "path": "art/reviews/d066-s004-landscape-v001-review-v002.md",
+          "sha256": "aee05eb0e22895ceb0cd9b8ac134c9e1d93eaf82f37649436062bba9848ca9e6"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "uncertain",
-          "observations": "The crop shows Krishna’s open hand, resting hand and one extended foot; the other leg is folded beneath the dhoti. Women’s visible hands rest on cheeks, knees or joined palms without extra fingers apparent."
+          "status": "pass",
+          "observations": "Krishna has two arms, a lifted open hand and a lowered hand resting on the thigh; one foot with separated toes is visible and the other is under the crossed dhoti. Gopika hands at chin and knee were each checked at 3x; the front red gopika clasps her knee with both hands."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "Krishna’s arms attach at the shoulders and lie naturally across lap/air. Seated women’s elbows and knees are covered by layered saris; no detached or cross-body limb is visible."
+          "status": "pass",
+          "observations": "Krishna's lowered hand keeps a clear thumb over curled fingers. The cream back-view gopika's foreshortened hand on her knee has short but attached fingers."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "Faces around Krishna are separate and relaxed; eyes and expressions remain readable without distortion."
+          "status": "pass",
+          "observations": "Six gopikas facing Krishna from different angles, with distinct veils and expressions and no repeated face; Krishna's three-quarter smile is calm."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Krishna and distinct seated women; no duplicate Krishna or fused figures."
+          "status": "pass",
+          "observations": "One Krishna and six seated women with breathing space around him; no fused bodies."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No readable text, watermark or border."
+          "status": "pass",
+          "observations": "No text, signature or watermark."
         },
         "scene_style_continuity": {
-          "status": "uncertain",
-          "observations": "Night water, moonlight and a seated circle match the plan; figures remain within the scene and the painting uses the muted series palette."
+          "status": "pass",
+          "observations": "Quiet moonlit Yamuna gathering with reflected moon on the water; nonsexual, fully clothed companionship; palette matches the anchors."
         }
       },
-      "findings": [
-        {
-          "id": "D066-S004-PREFLIGHT-01",
-          "severity": "low",
-          "confidence": "high",
-          "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
-        }
-      ]
+      "findings": []
     },
     {
       "chapter": 66,
@@ -29397,10 +29394,10 @@
       "file": "artifacts/d066/s005/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "4debd93d5b82f3e62c31d5c80707403c661f202d0e0b1ad6e7164602999d73f0",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
-      "outcome": "uncertain",
+      "outcome": "pass",
       "anatomy_basis": "D066 S005: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
       "contracts": [
         {
@@ -29424,44 +29421,39 @@
         {
           "path": "art/reviews/d066-s005-landscape-v001-review-v001.md",
           "sha256": "5111b95d8bca8aef6f111e626a38f20d5c6732543613daf0f2f72fa135f1d4df"
+        },
+        {
+          "path": "art/reviews/d066-s005-landscape-v001-review-v002.md",
+          "sha256": "6b9d873b011227f0ce21f2f09ef69befcee3167ab9b0b072e28ebb3f94ad440f"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "uncertain",
-          "observations": "Krishna’s hands rest on his knees. The close view shows the women’s hands grasping opposite cloth edges with wrists attached; no extra fingers or missing arm is visible. Krishna’s seated legs remain coherent under the yellow dhoti."
+          "status": "pass",
+          "observations": "Krishna's two hands rest on his knees with four fingers and a thumb each at 3x. Both kneeling gopikas show two complete hands holding the cloth edge; the standing gopika shows joined hands. Krishna's legs are crossed under the dhoti with two knees and no visible feet."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "The cloth is a separate surface beneath Krishna, not fused to a sari. Women’s arms connect to their shoulders and hands to the fabric; no body overlap reads as a fused limb."
+          "status": "pass",
+          "observations": "All four cloth-arranging arms run shoulder through sleeve and bangles to the fingers on the cloth border; fingers grip the fabric without merging into it."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "The kneeling women look down toward the cloth and Krishna; their faces are individually formed. Krishna’s eyes and face are clear."
+          "status": "pass",
+          "observations": "Three gopikas have clearly different profiles and hair treatments; Krishna's closed-eye smile is serene."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Krishna and three distinct women; no repeated person or fused body."
+          "status": "pass",
+          "observations": "One Krishna and three separate women; the maroon cloth seat stays separate from all worn garments, as the contract requires."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No letters or watermark."
+          "status": "pass",
+          "observations": "No text, signature or watermark."
         },
         "scene_style_continuity": {
-          "status": "uncertain",
-          "observations": "The required cloth-setting action is legible, with the river and moon behind the group; matte mural texture remains consistent."
+          "status": "pass",
+          "observations": "Krishna seated on a cloth spread as gopikas finish arranging it on a moonlit bank with lotuses; no undressing or exposure; matte mural palette."
         }
       },
-      "findings": [
-        {
-          "id": "D066-S005-PREFLIGHT-01",
-          "severity": "low",
-          "confidence": "high",
-          "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
-        }
-      ]
+      "findings": []
     },
     {
       "chapter": 66,
@@ -29470,10 +29462,10 @@
       "file": "artifacts/d066/s006/landscape/candidate-v004.png",
       "version": "v004",
       "sha256": "b6af1621889b2f5c43d60dc80c072103b1406112f3e9e74f22fcff1084b5ed64",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
-      "outcome": "uncertain",
+      "outcome": "pass",
       "anatomy_basis": "D066 S006: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
       "contracts": [
         {
@@ -29497,44 +29489,39 @@
         {
           "path": "art/reviews/d066-s006-landscape-v004-review-v001.md",
           "sha256": "1a527cd4fae7e1db5e5e09d19b332edd5c5ea18103ac6df48476477fe6d7a4b4"
+        },
+        {
+          "path": "art/reviews/d066-s006-landscape-v004-review-v002.md",
+          "sha256": "69f3322bfbeded97a82e5098a3a8c52a613897ec272caf1f78d8272af416b5d5"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "uncertain",
-          "observations": "The detail view shows the hand-hold between Krishna and the left gopika, his open right palm, the embracing woman’s two arms, and the right woman’s joined hands. Krishna has two arms and two legs; his feet are visible. No extra limb is apparent."
+          "status": "pass",
+          "observations": "Krishna has two arms and two feet with separated toes. The left gopika's two hands clasp Krishna's offered hand; the rear gopika shows one hand on each of his shoulders; the right gopika's joined palms are complete. Finger counts were checked at 3x."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "The woman behind Krishna’s arm passes over his shoulder and her other hand rests on his shoulder; both arms connect to her body. The hand-hold has clear wrist-to-hand contact. No face or body fusion is visible."
+          "status": "pass",
+          "observations": "The rear gopika's arm passes behind Krishna's neck and re-emerges at his far shoulder with a matching bangle and hand. Krishna's palm-up forearm joins his elbow through the armband and bangle."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "Krishna and all three women have distinct, readable faces; the woman behind is close to his hair but her face does not touch his cheek or mouth."
+          "status": "pass",
+          "observations": "Krishna and three women with separate, readable faces; the rear gopika's head is close to his hair but does not touch his cheek or mouth."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Krishna and three distinct gopikas; no duplicate person or fused body."
+          "status": "pass",
+          "observations": "One Krishna and three distinct gopikas; hand-hold contours remain separate at the join."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No text, signature, logo or watermark."
+          "status": "pass",
+          "observations": "No text, signature or watermark."
         },
         "scene_style_continuity": {
-          "status": "uncertain",
-          "observations": "This version shows the stanza’s hand-holding and embrace beside the Yamuna, with modest clothing, separated faces and the agreed matte mural palette."
+          "status": "pass",
+          "observations": "Hands held and a modest embrace beside the Yamuna at dusk with lotuses; dignified, nonsexual and fully clothed, as the stanza requires."
         }
       },
-      "findings": [
-        {
-          "id": "D066-S006-PREFLIGHT-01",
-          "severity": "low",
-          "confidence": "high",
-          "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
-        }
-      ]
+      "findings": []
     },
     {
       "chapter": 66,
@@ -29543,10 +29530,10 @@
       "file": "artifacts/d066/s007/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "bc2547843073ce081a12308f78c813036e31cf93ed40138429f1e1a914bd67ae",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
-      "outcome": "uncertain",
+      "outcome": "pass",
       "anatomy_basis": "D066 S007: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
       "contracts": [
         {
@@ -29570,44 +29557,39 @@
         {
           "path": "art/reviews/d066-s007-landscape-v001-review-v001.md",
           "sha256": "6bc53af2126d74fbb852140c19badfb75b5c7d1b4185c06e340a5982a9d64b8a"
+        },
+        {
+          "path": "art/reviews/d066-s007-landscape-v001-review-v002.md",
+          "sha256": "a0f02795eb1427e9df751445c7cf626874b8b925e8eaecce293cb3aa9449aaf4"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "uncertain",
-          "observations": "Krishna’s two hands rest separately on thigh and in an open gesture; the women’s joined or cheek-resting hands attach at wrists. His two seated feet are visible. The small cow and calf silhouettes have distinct heads and legs."
+          "status": "pass",
+          "observations": "Krishna has two arms and two feet; the side foot and the downward foot both show toes. Seven gopikas show joined, chest-held or cheek-resting hands, checked at 3x. The incidental adult cow has its legs partly hidden by the resting calf, which shows folded forelegs."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "Seated bodies and sari folds overlap without fused limbs; the folded cloth is separate from each garment. Background cow and calf remain separate forms."
+          "status": "pass",
+          "observations": "Krishna's seated leg structure reads through the dhoti to two ankles. The right gopika's two wrists with bangles support her open cupped hands."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "The women show individual peaceful expressions; Krishna’s face is clear. The distant animals have coherent heads and ears at this scale."
+          "status": "pass",
+          "observations": "Seven gopikas with varied eyes-closed and upward expressions; no repeated face; Krishna's three-quarter face matches the series youth."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Krishna, six women and two distinct bovines; no duplicate human figure or fused body."
+          "status": "pass",
+          "observations": "One Krishna and seven separate women; the two cows are separate animals, not fused."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No visible text or watermark."
+          "status": "pass",
+          "observations": "No text, signature or watermark."
         },
         "scene_style_continuity": {
-          "status": "uncertain",
-          "observations": "The opaque folded cloth, calm group and small background animals match the scene plan; no undressing or exposed bodies appear."
+          "status": "pass",
+          "observations": "Serene gratitude with a single neatly folded opaque cloth on a stone as the contract's symbolic reminder; no bathing, undressing or exposure; the incidental cows are consistent with Vraja."
         }
       },
-      "findings": [
-        {
-          "id": "D066-S007-PREFLIGHT-01",
-          "severity": "low",
-          "confidence": "high",
-          "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
-        }
-      ]
+      "findings": []
     },
     {
       "chapter": 66,
@@ -29616,10 +29598,10 @@
       "file": "artifacts/d066/s008/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "0fc3a1ba6dd7db84f599beccf11a8f65f57f71050961011a8e7dd3e7df906ccf",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
-      "outcome": "uncertain",
+      "outcome": "pass",
       "anatomy_basis": "D066 S008: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
       "contracts": [
         {
@@ -29643,44 +29625,39 @@
         {
           "path": "art/reviews/d066-s008-landscape-v001-review-v001.md",
           "sha256": "83401cfd2e36fd7f5003849dc94cc4d57230d6b7450901c60aa34ccd5fe4c983"
+        },
+        {
+          "path": "art/reviews/d066-s008-landscape-v001-review-v002.md",
+          "sha256": "87aaf883fac880b6ab5ec33ac8f5e1b6718ce5ac0b7f9732d308adea2cf07b26"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "uncertain",
-          "observations": "Krishna’s two forearms meet at his lap and his hands overlap in a resting pose; the shape reads as two hands, not a third arm. Women’s folded or face-resting hands remain attached; no extra digits are visible in the close view."
+          "status": "pass",
+          "observations": "Krishna has two arms with clasped hands, the upper hand showing four fingers and a thumb at 3x; his legs are cropped by the frame. Six gopikas show praying, cheek-resting or open hands, all checked. The lower-right green gopika's far arm is occluded by her body."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "Krishna’s shoulders, arms and torso are connected; the small marks sit on his skin as perspiration. The women’s arms remain distinct from neighboring bodies."
+          "status": "pass",
+          "observations": "The lower-right gopika's sleeve, elbow and raised forearm read as one continuous arm. The maroon gopika's forearm passes behind the front gopika's raised hands to her chest hand."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "Krishna’s closed eyes and smile are clear; five women have distinct faces and directed gazes."
+          "status": "pass",
+          "observations": "Krishna's closed-eye smile is the focal point. Six gopikas have distinct eyes, mouths and head angles and no repeated face."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Krishna and distinct women; no duplicated face or fused person."
+          "status": "pass",
+          "observations": "One Krishna and six separate women; none fused."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No text, caption, signature, watermark or border."
+          "status": "pass",
+          "observations": "No text, signature or watermark. The sweat beads are four tiny flat painted pale drops at the forehead, cheeks and chest, not wet gloss."
         },
         "scene_style_continuity": {
-          "status": "uncertain",
-          "observations": "The close but spacious group, matte perspiration marks, single-shoulder cloth and absence of a flute match the plan."
+          "status": "pass",
+          "observations": "Krishna's gentle smile surrounded by delighted fully clothed gopikas with restrained painted perspiration and no flute; the drop near his cheek could be read as a tear but is small and painted."
         }
       },
-      "findings": [
-        {
-          "id": "D066-S008-PREFLIGHT-01",
-          "severity": "low",
-          "confidence": "high",
-          "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
-        }
-      ]
+      "findings": []
     },
     {
       "chapter": 66,
@@ -29689,10 +29666,10 @@
       "file": "artifacts/d066/s009/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "d56dc0ae57747d7a85bfed533ab86211f2926c2c1a769e978b06261bf35657fb",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
-      "outcome": "uncertain",
+      "outcome": "pass",
       "anatomy_basis": "D066 S009: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
       "contracts": [
         {
@@ -29716,44 +29693,39 @@
         {
           "path": "art/reviews/d066-s009-landscape-v001-review-v001.md",
           "sha256": "3cf020813456990de9e5c720f93e8a0635d8baa517c78255c3fad9d20a499b73"
+        },
+        {
+          "path": "art/reviews/d066-s009-landscape-v001-review-v002.md",
+          "sha256": "83ef7855458a8c771774552bb6fa18b97d776bea1eeaca7f979d4f85815f4762"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
-          "status": "uncertain",
-          "observations": "The close view shows Krishna’s gesturing palm and the nearby women’s joined/resting hands. His seated legs and feet are visible; women’s seated knees and feet are covered or folded coherently. No extra limb is visible."
+          "status": "pass",
+          "observations": "Krishna has two arms and two feet, the front foot with toes and the rear foot passing under the dhoti. The separated gopika has two feet, one hand on the tree and one at her chest. All other hands were checked at 3x and have fingers intact."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "The standing woman’s raised arm connects at her shoulder; seated figures overlap in clear layers without fused limbs. Krishna’s open arm joins naturally at the shoulder."
+          "status": "pass",
+          "observations": "The yellow and olive gopikas' hands rest on neighbors' shoulders with visible bangles and arm continuity. The maroon gopika's crossed hands attach to separate forearms."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "The standing woman and seated group each have readable separate faces; Krishna’s eyes are closed in a calm expression."
+          "status": "pass",
+          "observations": "Seven gopikas have distinct faces, hair and direction of gaze; Krishna's face is calm and lowered with the series tilak."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Krishna; the apart-standing woman and seated women remain distinct without cloned faces or fused bodies."
+          "status": "pass",
+          "observations": "One Krishna, one single gopika apart at the left, six at the center-right; no second Krishna and no two-panel duplication."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No text or watermark."
+          "status": "pass",
+          "observations": "No text, signature or watermark."
         },
         "scene_style_continuity": {
-          "status": "uncertain",
-          "observations": "The cool-to-warm transition is confined to one riverbank setting; the edge figure remains identifiable and the central scene follows the plan."
+          "status": "pass",
+          "observations": "One continuous grove where cool moonlit water at the left resolves into warm earth tones around Krishna, carrying the separation-and-union contrast."
         }
       },
-      "findings": [
-        {
-          "id": "D066-S009-PREFLIGHT-01",
-          "severity": "low",
-          "confidence": "high",
-          "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
-        }
-      ]
+      "findings": []
     },
     {
       "chapter": 66,
@@ -29762,8 +29734,8 @@
       "file": "artifacts/d066/s010/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "7edb79cb394dc9ab7eadc0062e58d2606d16a22f5da3c1da45a791cee9ada717",
-      "reviewer": "Codex (D066 producer preflight; independent managed review pending)",
-      "inspected_at": "2026-11-09T03:40:11Z",
+      "reviewer": "Claude Opus 5.5 (no-mistakes managed visual review)",
+      "inspected_at": "2026-11-09T04:08:35Z",
       "method": "individual-native-resolution",
       "outcome": "uncertain",
       "anatomy_basis": "D066 S010: Krishna is the contract's youthful two-armed Vraja form; ordinary women and any incidental figures have ordinary anatomy. S010 uses the separately planned two-armed divine presence and ordinary Bhattathiri.",
@@ -29789,42 +29761,54 @@
         {
           "path": "art/reviews/d066-s010-landscape-v003-review-v001.md",
           "sha256": "ad6a6e84b7653423bb7b63de7202872b4b2f4f670494edbf4d7ad88bf461b438"
+        },
+        {
+          "path": "art/reviews/d066-s010-landscape-v003-review-v002.md",
+          "sha256": "92abd13c7b5f4d9b27bedca62a75e99f3c4cb936419f984d13b3ee4d71b5b464"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "uncertain",
-          "observations": "Bhattathiri’s joined prayer hands are separate from his torso; the deity’s open hand and lap hand are distinct, with two arms. Bhattathiri’s folded legs and the deity’s seated feet/legs are coherent in the focused views."
+          "observations": "UNCERTAIN. Bhattathiri's joined hands and his foot have five clear toes. The divine figure has two arms and two five-digit hands, but his one visible foot at the dhoti hem shows only a big toe and one small toe mark at 7x, without the toe separation drawn on Bhattathiri's foot."
         },
         "attachment_proportions": {
-          "status": "uncertain",
-          "observations": "Both figures’ arms attach naturally at shoulders and elbows; seated bodies and garments remain separate. The deity’s orange wrap and dhoti do not merge with Bhattathiri’s cream dhoti."
+          "status": "pass",
+          "observations": "Both arms of the divine figure run shoulder to wrist without fusion, and Bhattathiri's arms join naturally at the folded palms."
         },
         "faces": {
-          "status": "uncertain",
-          "observations": "Bhattathiri has the planned lined, clean-shaven face, ash marks and small hair tuft. The divine figure has one peaceful face, no copied ornament and no facial distortion."
+          "status": "pass",
+          "observations": "Bhattathiri is clean-shaven with lined skin, ash marks and a central forehead dot, and matches the older identity cue. The deity's calm closed-eye youthful face is distinct."
         },
         "duplication_fusion": {
-          "status": "uncertain",
-          "observations": "One Bhattathiri and one divine figure; no duplicated or fused person."
+          "status": "pass",
+          "observations": "One Bhattathiri and one divine figure; no duplicate."
         },
         "text_artifacts": {
-          "status": "uncertain",
-          "observations": "No readable text, signature, logo, watermark or border."
+          "status": "pass",
+          "observations": "No text, signature or watermark."
         },
         "scene_style_continuity": {
           "status": "uncertain",
-          "observations": "The prayer composition and unadorned seated presence match the D066 final scene contract; matte rust, cream and blue fields remain consistent."
+          "observations": "UNCERTAIN. Prayer, aureole and restraint follow the scene brief. The bound d066-krishna-youth contract specifies a yellow dhoti and red-orange upper cloth, but the figure wears an orange dhoti, no upper cloth and no peacock feather; the brief is silent on clothing, and its 'no ornaments' cannot settle dhoti color."
         }
       },
       "findings": [
         {
-          "id": "D066-S010-PREFLIGHT-01",
-          "severity": "low",
-          "confidence": "high",
+          "id": "D066-S010-DEITY-FOOT-01",
+          "severity": "medium",
+          "confidence": "medium",
           "status": "uncertain",
-          "observed": "This is the production worker’s checksum-bound full-frame and detail preflight. It is not the required independent no-mistakes managed review, so this exact image version remains uncleared for publication.",
-          "repair": "The managed no-mistakes Review/Test reviewer must inspect this exact candidate SHA and final contracts at full frame and focused detail, then write a fresh independent report and review record."
+          "observed": "The divine figure's foot at about x1170-1280, y735-805 shows only a big toe and one small toe mark at 7x; it is unclear whether the remaining toes are hidden by the dhoti hem or simply undrawn.",
+          "repair": "Human or art-director decision whether the foreshortened foot is acceptable; otherwise regenerate with clearly drawn toes."
+        },
+        {
+          "id": "D066-S010-DIVINE-CLOTHING-01",
+          "severity": "medium",
+          "confidence": "medium",
+          "status": "uncertain",
+          "observed": "The divine figure wears an orange dhoti and has no upper cloth or peacock feather, while the bound d066-krishna-youth contract requires a yellow dhoti and muted red-orange upper cloth and a small feather ornament; the S010 brief excludes only copied crown or ornaments.",
+          "repair": "Decide whether the S010 restrained devotional presence supersedes the character contract clothing; record that decision or generate a contract-consistent version."
         }
       ]
     }
