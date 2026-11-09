@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 66,
   "review_status": "needs-review",
-  "visual_review_status": "10/10 landscape leads generated and source-mapped; producer full-frame and focused-detail observations recorded; independent exact-checksum managed visual review recorded 8 pass, S002 needs-fix and S010 uncertain. No candidate is approved.",
+  "visual_review_status": "Eight unchanged selected landscape leads retain their prior independent exact-checksum passes. S002 v002 and S010 v004 replace the previously reviewed needs-fix and uncertain selections; both have producer full-frame inspection notes, but their independent exact-checksum managed review is pending. No candidate is approved.",
   "description": "Ten D066 landscape candidates paired with their mapped numbered source references. All generated art is unapproved review material.",
-  "review_notice": "This chapter is presented for artwork review only. The ten selected landscape candidates are unapproved and do not update art/approved/. Each source image is shown beside its mapped candidate. Earlier S006 v001/v002 and S010 v001/v002 are preserved in local candidate history and excluded from this comparison. S006 v003 is also preserved but not shown because it omits the stanza’s hand-holding and embrace. English translation is unavailable and editorial review remains pending. Portraits remain paused.",
+  "review_notice": "This chapter is presented for artwork review only. The ten selected landscape candidates are unapproved and do not update art/approved/. Each source image is shown beside its mapped candidate. S002 v002 and S010 v004 are new repair candidates; prior candidates and versions remain in local history. S006 v001/v002 and S010 v001/v002 are preserved and excluded from this comparison. S006 v003 is also preserved but not shown because it omits the stanza’s hand-holding and embrace. English translation is unavailable and editorial review remains pending. Portraits remain paused.",
   "rows": [
     {
       "n": 1,
@@ -38,11 +38,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d066/s002/landscape/candidate-v001.png",
-        "sha256": "305612c48b371e51149d6cfdf96953b2aa604d83d7eb67451ee081b3b7fcb3af",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001"
+        "file": "artifacts/d066/s002/landscape/candidate-v002.png",
+        "sha256": "ed3e1c4701fc02f00cca2816fafd17fe4d964ca83a474c9ec88b59376fab437d",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
       },
       "alternates": []
     },
@@ -198,11 +198,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d066/s010/landscape/candidate-v003.png",
-        "sha256": "7edb79cb394dc9ab7eadc0062e58d2606d16a22f5da3c1da45a791cee9ada717",
-        "version": "v003",
-        "label": "Landscape candidate v003",
-        "displayLabel": "Landscape candidate v003"
+        "file": "artifacts/d066/s010/landscape/candidate-v004.png",
+        "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
       },
       "alternates": []
     }
@@ -229,7 +229,7 @@
       "prompt": "artifacts/d066/s002/landscape/prompt-v001.md",
       "prompt_sha256": "a8feb2c606557efc7f3a014f31a4037fea6c33db4c173d5f47efb4faad42bcb9",
       "generation_record": "artifacts/d066/s002/landscape/generation-v001.json",
-      "disposition": "selected",
+      "disposition": "superseded-needs-fix",
       "producer_finding": "Full-frame view shows Krishna seated before a group of distinct, fully clothed women, with four small ascetics on a separate cloud above. Krishna appears to have two attached arms and two legs; no readable text is visible. Hands, foot overlap, and the small ascetic details need focused inspection and independent exact-checksum review before clearance."
     },
     {
@@ -361,7 +361,7 @@
       "prompt": "artifacts/d066/s010/landscape/prompt-v003.md",
       "prompt_sha256": "b4c25ea1f72c1977e37866eeb49e5de6832affb223f216041d405f3dfa9000ea",
       "generation_record": "artifacts/d066/s010/landscape/generation-v003.json",
-      "disposition": "selected",
+      "disposition": "superseded-uncertain",
       "producer_finding": "Full-frame view shows the older clean-shaven Bhattathiri seated with folded hands facing a single calm deep-blue, two-armed seated divine figure. The divine figure has no visible headwear or jewelry; both figures are clothed, faces are separated, and no text appears. The deity’s exposed torso and overlapping folded legs merit inspection against the final scene contract; exact-checksum independent review is still required."
     },
     {
@@ -387,6 +387,74 @@
       "generation_record": "artifacts/d066/s006/landscape/generation-v004.json",
       "disposition": "selected",
       "producer_finding": "Full-frame view shows Krishna seated with three distinct, fully clothed gopikas. One woman holds his offered hand, another rests an arm across his far shoulder with her second hand on his shoulder; their faces remain clearly separate. The third sits at right with joined hands. No face contact, fused bodies, extra limbs, text, or watermark is visible. Inspect the hand-hold, two shoulder contacts, joined prayer hands, feet and face spacing at detail before exact-checksum visual clearance."
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d066-s002",
+      "version": "v002",
+      "file": "artifacts/d066/s002/landscape/candidate-v002.png",
+      "sha256": "ed3e1c4701fc02f00cca2816fafd17fe4d964ca83a474c9ec88b59376fab437d",
+      "prompt": "artifacts/d066/s002/landscape/prompt-v002.md",
+      "prompt_sha256": "abc011cdd81bbe28a38a69e9a205287d10dcd08cc49537c00bfac5839a42c7db",
+      "generation_record": "artifacts/d066/s002/landscape/generation-v002.json",
+      "disposition": "selected-pending-independent-review",
+      "producer_finding": "At original full-frame resolution, the maroon-clad woman’s hands rest on her lap, away from the purple-clad woman; the latter’s mouth and chin are unobstructed. Krishna’s two visible hands are blue through the fingers, with no pink finger-base bands. The four sky sages are distinct. Candidate has flat, textured matte mural rendering and no readable text. Independent checksum-bound review is pending.",
+      "references": [
+        {
+          "path": "intake/D066/002.jpg",
+          "sha256": "52886887c9d440d443b1fece4d4a1492a8c38deae9078f0697dd60d3565a374c"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
+          "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234"
+        },
+        {
+          "path": "artifacts/d066/s002/landscape/candidate-v001.png",
+          "sha256": "305612c48b371e51149d6cfdf96953b2aa604d83d7eb67451ee081b3b7fcb3af"
+        }
+      ]
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d066-s010",
+      "version": "v004",
+      "file": "artifacts/d066/s010/landscape/candidate-v004.png",
+      "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f",
+      "prompt": "artifacts/d066/s010/landscape/prompt-v004.md",
+      "prompt_sha256": "fcc3902a6cfae9e3234bfd41a082e55851fb0b67bdd7d088bafdf210f54da39c",
+      "generation_record": "artifacts/d066/s010/landscape/generation-v004.json",
+      "disposition": "selected-pending-independent-review",
+      "producer_finding": "At original full-frame resolution, Bhattathiri is clean-shaven with ash marks and joined hands. Krishna has two visible arms, wears the specified yellow dhoti and red-orange shoulder cloth, and has a small peacock feather. The exposed foot has five separately outlined toes. The two figures remain distinct with connected limbs and matte mural rendering; no readable text is visible. Independent checksum-bound review is pending.",
+      "references": [
+        {
+          "path": "artifacts/d066/s010/landscape/candidate-v003.png",
+          "sha256": "7edb79cb394dc9ab7eadc0062e58d2606d16a22f5da3c1da45a791cee9ada717"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d066/references/shared/bhattathiri-older-candidate.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
+          "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234"
+        }
+      ]
     }
   ],
   "artwork_approval": "not-approved",
