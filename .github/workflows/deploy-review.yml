@@ -107,6 +107,9 @@ jobs:
       - name: Upload D066 review candidates to R2
         run: node review-site/scripts/upload.mjs --daskam=66
 
+      - name: Upload D067 review candidates to R2
+        run: node review-site/scripts/upload.mjs --daskam=67
+
       - name: Upload review Worker version
         run: npx wrangler versions upload --config review-site/wrangler.jsonc --tag "review-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
 

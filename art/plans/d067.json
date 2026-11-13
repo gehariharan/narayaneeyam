@@ -1,0 +1,493 @@
+{
+  "schema_version": 1,
+  "daskam_id": 67,
+  "slug": "d067",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "krishna-vrindavan-youth",
+    "recurring_characters": [
+      "krishna-vrindavan-youth",
+      "gopikas",
+      "radha"
+    ],
+    "locations": [
+      "moonlit Yamuna grove",
+      "forest search paths",
+      "Yamuna riverbank"
+    ],
+    "narrative_arc": "Rasa-dance bliss turns to pride and Krishna’s disappearance; he takes Radha aside, the gopikas search and question the trees, imagine his presence and imitate him, then lament until Krishna reappears and joy returns.",
+    "krishna_identity": "Depict the Vrindavan gopi-period Krishna as the same serene youthful cowherd seen in primary identity references D066 S002 v004 and D066 S010 v004: calm almond eyes, deep matte blue skin, long dark curly hair, yellow dhoti, muted red-orange shawl, a simple low gold band with one upright peacock feather, and a plain smooth forehead. He is youthful, not an infant. Secondary D066 S004 and S008 references guide the face only, never the forehead. Recompose the new scene; do not copy a reference pose or background.",
+    "gopika_contract": "Use the existing gopikas character bible: distinct adult women with natural proportions and simple village dress. For every D066 scene, keep them modestly and fully clothed in opaque garments. The clothing-promise verse is represented symbolically; never depict undressing, nudity, exposed bodies, sexualized framing, or a clothing theft in progress.",
+    "deity_contract": "All physical narrative appearances show one youthful, deep-blue, two-armed Krishna. Stanza 6 alone may include one small imagined Krishna image, explicitly nonphysical and visually separated from the gopika.",
+    "radha_contract": "Radha, an adult gopika, distinct from the unnamed group; calm and without pride in stanza 3, later sorrowful after separation in stanza 7.",
+    "character_bible": "art/bible/characters/d067-rasa.json",
+    "rendering_references": [],
+    "identity_references": {
+      "krishna_youth": {
+        "character_bible": "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "primary": [
+          {
+            "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+            "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
+            "source": "D066 S002 v004, selected candidate liked by the captain",
+            "role": "Primary identity reference; use for face and full youthful identity, not for pose, scene, or forehead ornament."
+          },
+          {
+            "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+            "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f",
+            "source": "D066 S010 v004, selected candidate liked by the captain",
+            "role": "Primary identity reference; use for face and full youthful identity, not for pose, scene, or forehead ornament."
+          }
+        ],
+        "secondary_face_only": [
+          {
+            "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s004-candidate-v001-face-only.png",
+            "sha256": "20b761b8439ec447a1bcfca67889b4e8fdab5062a808c74e2a96ca5b4e46fcf9",
+            "source": "D066 S004 v001",
+            "role": "Secondary face reference only; do not use its forehead ornament or other scene details as identity guidance."
+          },
+          {
+            "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s008-candidate-v001-face-only.png",
+            "sha256": "0fc3a1ba6dd7db84f599beccf11a8f65f57f71050961011a8e7dd3e7df906ccf",
+            "source": "D066 S008 v001",
+            "role": "Secondary face reference only; do not use its forehead ornament or other scene details as identity guidance."
+          }
+        ],
+        "status": "Captain-liked identity references only; not artwork approvals."
+      }
+    },
+    "palette_arc": "Flat matte mineral fields of warm cream, ochre, deep maroon, muted olive and deep blue; moonlight and evening shift within the restrained palette. No gloss, reflective metallic gold, outer border, cinematic beams or text.",
+    "notes": "Scene plans follow the ten canonical stanzas and the accepted caption-to-photo mapping. Captions remain verbatim source commentary; they are not canonical verse or translation. Krishna identity and four reference roles follow the shared krishna-vrindavan-youth character contract. Style follows art/bible/series.json text; the five ImageGen inputs are reserved for the mapped source photo and four identity references.",
+    "d067_gopika_clothing_contract": "All gopikas are adult, modestly and fully clothed in opaque garments. Any embrace is gentle devotion."
+  },
+  "source": {
+    "sanskrit": "https://stotranidhi.com/hi/narayaneeyam-dasakam-67-in-sanskrit/amp/",
+    "romanization": "https://stotranidhi.com/en/narayaneeyam-dasakam-67-in-english/",
+    "caption_file": "intake/D067/photo-captions.txt"
+  },
+  "reference_map": "content/sources/d067/reference-map.json",
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d067-s001",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "rasa dance",
+        "must_show": [
+          "Moonlit Yamuna rasa dance: one youthful Krishna in the center plays a gentle dance step among a small distinct circle of adult gopikas, all fully clothed in modest opaque village garments. Express shared devotional bliss and a subtle first trace of pride through lifted chins and self-assured glances.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "Moonlit Yamuna rasa dance: one youthful Krishna in the center plays a gentle dance step among a small distinct circle of adult gopikas, all fully clothed in modest opaque village garments. Express shared devotional bliss and a subtle first trace of pride through lifted chins and self-assured glances.",
+        "tone": "Bliss giving way to pride",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "Moonlit Yamuna rasa dance: one youthful Krishna in the center plays a gentle dance step among a small distinct circle of adult gopikas, all fully clothed in modest opaque village garments. Express shared devotional bliss and a subtle first trace of pride through lifted chins and self-assured glances.",
+      "reference_paths": [
+        "intake/D067/001.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/001.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "Earlier independently-passed version retained for unapproved comparison under Firstmate direction; known forehead-mark deviation from the current series reference is disclosed; captain art approval remains pending",
+          "selected_candidate_version": "v002",
+          "selected_candidate_sha256": "670c5427a4418ecd33a998a159372fa90f9e55e704104ac641977014698f9129"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d067-s002",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "pride and disappearance",
+        "must_show": [
+          "A single Krishna quietly vanishes from the center of the moonlit grove as the adult gopikas turn and search the newly empty space; one fading path of cream moonlight marks his departure, never duplicate or ghost Krishna. Their confident expressions shift to surprise.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "A single Krishna quietly vanishes from the center of the moonlit grove as the adult gopikas turn and search the newly empty space; one fading path of cream moonlight marks his departure, never duplicate or ghost Krishna. Their confident expressions shift to surprise.",
+        "tone": "Surprise and uncertainty",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "A single Krishna quietly vanishes from the center of the moonlit grove as the adult gopikas turn and search the newly empty space; one fading path of cream moonlight marks his departure, never duplicate or ghost Krishna. Their confident expressions shift to surprise.",
+      "reference_paths": [
+        "intake/D067/002.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/002.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; captain art approval remains pending",
+          "selected_candidate_version": "v003",
+          "selected_candidate_sha256": "671849dd4cf06cb5b7b024a96b40794d2def7bb9e6ca8c8f94707439d6b74a65"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d067-s003",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas",
+        "d067-radha"
+      ],
+      "scene_brief": {
+        "mode": "Radha taken aside",
+        "must_show": [
+          "Krishna gently walks beside Radha, an adult gopika with a calm, unassuming expression, along a quiet forest path away from the other women. Show respectful distance and devotional companionship, both fully clothed; no other people appear in the scene.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "Krishna gently walks beside Radha, an adult gopika with a calm, unassuming expression, along a quiet forest path away from the other women. Show respectful distance and devotional companionship, both fully clothed; no other people appear in the scene.",
+        "tone": "Quiet intimacy and distinction",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "Krishna gently walks beside Radha, an adult gopika with a calm, unassuming expression, along a quiet forest path away from the other women. Show respectful distance and devotional companionship, both fully clothed; no other people appear in the scene.",
+      "reference_paths": [
+        "intake/D067/003.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/003.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "Firstmate-directed fallback selected for unapproved comparison; an earlier independent exact-checksum PASS is preserved; known forehead-mark and raised-crown deviations from the current series reference are disclosed; captain art approval remains pending",
+          "selected_candidate_version": "v002",
+          "selected_candidate_sha256": "24367db6eef2d571371af2ef3e7a6d388a1ba62257110c4faeac37a8f261fc9a"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d067-s004",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "gopikas searching",
+        "must_show": [
+          "A group of adult gopikas searches the wooded Yamuna grove together after Krishna’s disappearance, looking between tree trunks and along winding paths with worried faces. Krishna is absent.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "A group of adult gopikas searches the wooded Yamuna grove together after Krishna’s disappearance, looking between tree trunks and along winding paths with worried faces. Krishna is absent.",
+        "tone": "Separation and concern",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "A group of adult gopikas searches the wooded Yamuna grove together after Krishna’s disappearance, looking between tree trunks and along winding paths with worried faces. Krishna is absent.",
+      "reference_paths": [
+        "intake/D067/004.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/004.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; captain art approval remains pending",
+          "selected_candidate_version": "v002",
+          "selected_candidate_sha256": "4e55a7c124510a1a7c24de58428aa04b50142e6ca32c7845bbda196c0b1510f5"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d067-s005",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "questioning the trees",
+        "must_show": [
+          "Several adult gopikas ask the flowering mango, champaka and other trees whether they have seen Krishna; open palms and searching eyes turn toward branches and tender creepers, with the Yamuna grove behind. Krishna is absent.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "Several adult gopikas ask the flowering mango, champaka and other trees whether they have seen Krishna; open palms and searching eyes turn toward branches and tender creepers, with the Yamuna grove behind. Krishna is absent.",
+        "tone": "Longing voiced to nature",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "Several adult gopikas ask the flowering mango, champaka and other trees whether they have seen Krishna; open palms and searching eyes turn toward branches and tender creepers, with the Yamuna grove behind. Krishna is absent.",
+      "reference_paths": [
+        "intake/D067/005.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/005.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; captain art approval remains pending",
+          "selected_candidate_version": "v002",
+          "selected_candidate_sha256": "ea6d0b7ea7ffc1b80fba3885b2196db7e35d2b7adf79236d6632717b984e5e39"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d067-s006",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "imagined vision",
+        "must_show": [
+          "One adult gopika tells her companions she sees Krishna in an inward vision: show only one subtle, small blue Krishna image framed within a soft cream thought-like aura near her gaze, not a second physical person; the listening women look more distressed.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "One adult gopika tells her companions she sees Krishna in an inward vision: show only one subtle, small blue Krishna image framed within a soft cream thought-like aura near her gaze, not a second physical person; the listening women look more distressed.",
+        "tone": "Hope deepening the ache",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "One adult gopika tells her companions she sees Krishna in an inward vision: show only one subtle, small blue Krishna image framed within a soft cream thought-like aura near her gaze, not a second physical person; the listening women look more distressed.",
+      "reference_paths": [
+        "intake/D067/006.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/006.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; captain art approval remains pending",
+          "selected_candidate_version": "v002",
+          "selected_candidate_sha256": "f410fa443fc956108c7db2474501fa3d2b0ee984a7dae3d1dee8f8ede24b2133"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d067-s007",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas",
+        "d067-radha"
+      ],
+      "scene_brief": {
+        "mode": "imitation and Radha found",
+        "must_show": [
+          "The adult gopikas imitate Krishna’s familiar gestures in gentle playful mime along the riverbank, then notice Radha seated apart with a sorrowful expression. Keep Krishna absent, the gopikas distinct and fully clothed; no literal doubling of Krishna.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "The adult gopikas imitate Krishna’s familiar gestures in gentle playful mime along the riverbank, then notice Radha seated apart with a sorrowful expression. Keep Krishna absent, the gopikas distinct and fully clothed; no literal doubling of Krishna.",
+        "tone": "Imitation, then recognition",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "The adult gopikas imitate Krishna’s familiar gestures in gentle playful mime along the riverbank, then notice Radha seated apart with a sorrowful expression. Keep Krishna absent, the gopikas distinct and fully clothed; no literal doubling of Krishna.",
+      "reference_paths": [
+        "intake/D067/007.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/007.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; captain art approval remains pending",
+          "selected_candidate_version": "v001",
+          "selected_candidate_sha256": "5dccb1e8cad9424c68b27c1fabc97d04b08bb8e0a79c6fbff821d91a0e85cd93"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d067-s008",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "late search and lament",
+        "must_show": [
+          "As dusk settles over the forest, adult gopikas return together to the Yamuna bank after searching, singing Krishna’s praises and lamenting; use deepening evening sky and quiet river as time cues, with Krishna absent.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "As dusk settles over the forest, adult gopikas return together to the Yamuna bank after searching, singing Krishna’s praises and lamenting; use deepening evening sky and quiet river as time cues, with Krishna absent.",
+        "tone": "Exhaustion and devotion",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "As dusk settles over the forest, adult gopikas return together to the Yamuna bank after searching, singing Krishna’s praises and lamenting; use deepening evening sky and quiet river as time cues, with Krishna absent.",
+      "reference_paths": [
+        "intake/D067/008.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/008.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; captain art approval remains pending",
+          "selected_candidate_version": "v003",
+          "selected_candidate_sha256": "f0a9904831ac7a65c46832811bcc95cecf09ee6ab4bbb8eb3553da158b04e01d"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d067-s009",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "Krishna reappears",
+        "must_show": [
+          "A single youthful Krishna reappears before the grief-struck adult gopikas with a gentle smile. Let the moonlit clearing open around him and the women turn toward him in surprised relief; no duplicate or apparition.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "A single youthful Krishna reappears before the grief-struck adult gopikas with a gentle smile. Let the moonlit clearing open around him and the women turn toward him in surprised relief; no duplicate or apparition.",
+        "tone": "Merciful return",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "A single youthful Krishna reappears before the grief-struck adult gopikas with a gentle smile. Let the moonlit clearing open around him and the women turn toward him in surprised relief; no duplicate or apparition.",
+      "reference_paths": [
+        "intake/D067/009.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/009.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; captain art approval remains pending",
+          "selected_candidate_version": "v002",
+          "selected_candidate_sha256": "3df0c1cfbd7ec8849418a7468ad4e05827d8962295b0e5b99ca185613e5387d6"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d067-s010",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "joy at reunion",
+        "must_show": [
+          "Adult gopikas respond with joyful tears and grateful devotional gestures as the single Krishna stands before them, smiling. Keep every woman fully clothed, figures distinct and all contact gentle and nonsexual.",
+          "All gopikas are adult, modestly and fully clothed; keep ordinary anatomy, separate faces and connected limbs."
+        ],
+        "composition": "Adult gopikas respond with joyful tears and grateful devotional gestures as the single Krishna stands before them, smiling. Keep every woman fully clothed, figures distinct and all contact gentle and nonsexual.",
+        "tone": "Relief and shared joy",
+        "avoid": [
+          "No readable text, captions, signature, logo or watermark.",
+          "No glossy finish, cinematic lighting, metallic gold, cloned people, fused bodies or malformed anatomy.",
+          "No sexualized framing or exposed bodies; any embrace is gentle devotion."
+        ]
+      },
+      "alt": "Adult gopikas respond with joyful tears and grateful devotional gestures as the single Krishna stands before them, smiling. Keep every woman fully clothed, figures distinct and all contact gentle and nonsexual.",
+      "reference_paths": [
+        "intake/D067/010.jpg"
+      ],
+      "reference_guidance": "Use intake/D067/010.jpg only for mapped subject and cast context. The new shared Vrindavan-youth Krishna contract supplies the primary identity references D066 S002 v004 and S010 v004; D066 S004 and S008 are secondary face references only and must not guide the forehead. Keep the forehead plain with no mark and use one low gold band with one upright peacock feather. Follow the series text style contract for flat matte South Indian temple mural rendering; recompose natively and do not copy reference poses or scenes.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a complete 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; no crop from another orientation.",
+          "candidate_status": "Earlier independently-passed version retained for unapproved comparison under Firstmate direction; known forehead-mark deviations from the current series reference (forehead mark and raised crown ornament) is disclosed; captain art approval remains pending",
+          "selected_candidate_version": "v002",
+          "selected_candidate_sha256": "a895b2d1eba69489b939cce48768648945f3b465444005cbd159708e84de5f41"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    }
+  ]
+}
