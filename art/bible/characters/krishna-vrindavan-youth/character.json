@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "krishna-vrindavan-youth",
+  "display": "Krishna as the Vrindavan cowherd youth",
+  "life_stage": "Youthful cowherd in Vraja/Vrindavan during the gopi period; not an infant, adult divine form, or Dwaraka king.",
+  "visual_bible": {
+    "age_and_face": "A serene youthful face with calm almond-shaped eyes; clearly youth, never infant-like.",
+    "skin": "Deep matte blue, rendered as opaque mineral pigment.",
+    "hair": "Long, dark, naturally curly hair.",
+    "costume": "Yellow dhoti and muted red-orange shawl.",
+    "forehead": "Plain, smooth forehead with no mark.",
+    "crown": "One simple low gold band with a single upright peacock feather; never a tall tiered crown.",
+    "anatomy": "Ordinary youthful human proportions, one face, two attached arms and hands, two legs and feet.",
+    "style": "Follow the series flat matte South Indian temple mural contract."
+  },
+  "identity_references": {
+    "primary": [
+      {
+        "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
+        "source": "D066 S002 v004, selected candidate liked by the captain",
+        "role": "Primary identity reference; use for face and full youthful identity, not for pose, scene, or forehead ornament."
+      },
+      {
+        "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+        "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f",
+        "source": "D066 S010 v004, selected candidate liked by the captain",
+        "role": "Primary identity reference; use for face and full youthful identity, not for pose, scene, or forehead ornament."
+      }
+    ],
+    "secondary_face_only": [
+      {
+        "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s004-candidate-v001-face-only.png",
+        "sha256": "20b761b8439ec447a1bcfca67889b4e8fdab5062a808c74e2a96ca5b4e46fcf9",
+        "source": "D066 S004 v001",
+        "role": "Secondary face reference only; do not use its forehead ornament or other scene details as identity guidance."
+      },
+      {
+        "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s008-candidate-v001-face-only.png",
+        "sha256": "0fc3a1ba6dd7db84f599beccf11a8f65f57f71050961011a8e7dd3e7df906ccf",
+        "source": "D066 S008 v001",
+        "role": "Secondary face reference only; do not use its forehead ornament or other scene details as identity guidance."
+      }
+    ]
+  },
+  "visual_bible_prompt_anchor": "Depict the Vrindavan gopi-period Krishna as the same serene youthful cowherd seen in primary identity references D066 S002 v004 and D066 S010 v004: calm almond eyes, deep matte blue skin, long dark curly hair, yellow dhoti, muted red-orange shawl, a simple low gold band with one upright peacock feather, and a plain smooth forehead. He is youthful, not an infant. Secondary D066 S004 and S008 references guide the face only, never the forehead. Recompose the new scene; do not copy a reference pose or background.",
+  "captain_selected_details": {
+    "forehead": "No tilak or other forehead mark.",
+    "headwear": "A single simple low gold band with one upright peacock feather; no tall tiered crown.",
+    "reason": "The captain selected these details because they match the clearest D066 faces and are easiest to hold consistently across generations.",
+    "override": "These are the current continuity choices for the captain to override if desired."
+  },
+  "reuse_rule": "Every later dasakam depicting Krishna at this youthful cowherd life stage in Vraja/Vrindavan during the gopi period must pass these four reference images and this text as the prompt anchor. Other life stages, including baby Krishna, an adult divine form, and Krishna as Dwaraka king, use separate entries and define their own period references when first reached.",
+  "never": [
+    "no forehead tilak or mark; keep the forehead plain and smooth",
+    "no tall tiered crown; use only one simple low gold band and one upright peacock feather",
+    "no infant face or infant proportions",
+    "no extra arms or legs",
+    "no duplicate physical Krishna in a scene",
+    "no glossy skin or metallic gold",
+    "no copied pose, framing, scene, or props from an identity reference",
+    "no eroticized framing",
+    "no readable or decorative text"
+  ],
+  "depiction_rules": {
+    "default_mode": "narrative",
+    "allowed_modes": [
+      "narrative"
+    ],
+    "notes": "Prompt anchor: depict the same serene youthful Vraja cowherd as primary D066 S002 v004 and S010 v004: calm almond eyes, deep matte blue skin, long dark curly hair, yellow dhoti, muted red-orange shawl, one simple low gold band and one upright peacock feather, with a plain smooth forehead and no mark. He is youthful, not an infant. D066 S004 and S008 guide the face only, never the forehead. Recompose the new scene without copying reference poses. The D066 images are captain-liked identity references, not artwork approvals."
+  },
+  "local_reference_paths": [
+    "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+    "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+    "artifacts/d067/references/krishna-vrindavan-youth/d066-s004-candidate-v001-face-only.png",
+    "artifacts/d067/references/krishna-vrindavan-youth/d066-s008-candidate-v001-face-only.png"
+  ]
+}
