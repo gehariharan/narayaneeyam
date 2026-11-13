@@ -482,9 +482,9 @@ test('D067 comparison binds ten source photos, captions, native landscape select
   assert.equal(map.images.length, 10);
   assert.equal(map.unmapped_extras.length, 2);
   assert.deepEqual(map.images.map(item => item.path), Array.from({ length: 10 }, (_, i) => `intake/D067/${String(i + 1).padStart(3, '0')}.jpg`));
-  assert.deepEqual(batch.candidate_history.length, 25);
+  assert.deepEqual(batch.candidate_history.length, 28);
   assert.deepEqual(batch.rows.map(row => row.matte.version), [
-    'v002', 'v003', 'v002', 'v002', 'v002', 'v002', 'v001', 'v003', 'v002', 'v002',
+    'v004', 'v003', 'v002', 'v002', 'v002', 'v003', 'v001', 'v003', 'v003', 'v002',
   ]);
   assert.deepEqual(
     batch.candidate_history.filter(item => item.disposition === 'producer-needs-fix-not-selected').map(item => `${item.stanza}:${item.version}`).sort(),
