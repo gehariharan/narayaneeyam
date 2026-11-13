@@ -32,7 +32,7 @@ const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import
 const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
 const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.reduce((n,r)=>n+(r.references||(r.reference?[r.reference]:[])).length,0),0);
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,29,31,33,34,38,40,42,43,44,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,29,31,33,34,38,40,42,43,44,66,96]);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
 assert.equal(Object.keys(data.assets).length,expectedMedia);
@@ -319,6 +319,25 @@ assert.deepEqual(selected31.rows.map(r=>r.matte.version),['v001','v001','v001','
 assert.equal((await feedback(req({...good,daskam:31,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
 assert.equal((await feedback(req({...good,daskam:31,sloka:11}),env)).status,400);
 console.log('Passed: D031 has ten caption-mapped rows, both S009 references, pinned unapproved landscape candidates, and stanza-bounded feedback.');
+
+const full66=data.chapters.find(c=>c.id===66);assert.ok(full66);assert.deepEqual(full66.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content66=JSON.parse(await fs.readFile(new URL('../../content/daskams/d066.json',import.meta.url)));
+const selected66=JSON.parse(await fs.readFile(new URL('../../art/batches/d066-comparison-v001.json',import.meta.url)));
+assert.equal(selected66.rows.length,10);assert.equal(selected66.review_status,'needs-review');assert.ok(full66.reviewNotice.includes('unapproved'));
+assert.deepEqual(selected66.rows.map(r=>r.matte.version),['v001','v004','v001','v001','v001','v004','v001','v001','v001','v004']);
+assert.equal(selected66.candidate_history.length,19);
+assert.deepEqual(selected66.candidate_history.filter(x=>x.disposition==='excluded-needs-fix').map(x=>`${x.stanza}:${x.version}`),['6:v001','6:v002','10:v001','10:v002']);
+assert.equal(selected66.candidate_history.find(x=>x.stanza===6&&x.version==='v003').disposition,'unselected');
+for(const row of full66.rows){
+ const stanza=content66.stanzas.find(s=>s.n===row.n);assert.equal(row.commentarySource,stanza.commentary_source);assert.equal(row.commentary,stanza.commentary_en);
+ const selected=selected66.rows.find(r=>r.n===row.n);assert.ok(selected);assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ const matte=row.images.find(i=>i.role==='matte');assert.equal(matte.version,selected.matte.version);assert.equal(matte.inspectionStatus,'inspected');
+}
+assert.equal((await feedback(req({...good,daskam:66,sloka:6}),env)).status,201);
+assert.deepEqual(JSON.parse(written.args[8]),[{role:'matte',key:full66.rows.find(r=>r.n===6).images.find(i=>i.role==='matte').key,version:'v004'}]);
+assert.equal((await feedback(req({...good,daskam:66,sloka:11}),env)).status,400);
+console.log('Passed: D066 has ten mapped, checksum-pinned and inspected landscape leads, unapproved labels, preserved excluded versions, and stanza-bounded feedback.');
 
 async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {}, staleResponses = {} } = {}) {
  const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);

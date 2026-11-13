@@ -1,0 +1,536 @@
+{
+  "schema_version": 1,
+  "daskam_id": 66,
+  "review_status": "needs-review",
+  "visual_review_status": "Selected S002 v004 passed independent managed exact-checksum review at SHA-256 295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068; the earlier producer self-review is preserved separately. S002 v002/v003 and all earlier versions remain preserved as needs-fix history; S010 v004 retains its independent managed pass. Captain art approval remains pending and no candidate is approved. D066 review publication is no longer blocked on S002 review.",
+  "description": "Ten D066 landscape candidates paired with their mapped numbered source references. All generated art is unapproved review material.",
+  "review_notice": "This chapter is presented for artwork review only. The ten selected landscape candidates are unapproved and do not update art/approved/. Each source image is shown beside its mapped candidate. S002 v004 is the selected version and passed independent managed exact-checksum review; captain art approval remains pending and nothing is approved. S002 v001-v003 are preserved as earlier history, including the v002/v003 needs-fix findings. S010 v004 is the selected passing version. Earlier S006 v001/v002 and S010 v001/v002 are preserved and excluded from this comparison. S006 v003 is also preserved but not shown because it omits the stanza’s hand-holding and embrace. English translation is unavailable and editorial review remains pending. Publication is no longer blocked on the S002 review; portraits remain paused.",
+  "rows": [
+    {
+      "n": 1,
+      "concept_id": "d066-s001",
+      "scene": "Krishna stands at the edge of a quiet moonlit grove as several distinct, fully clothed adult gopikas approach with devotional affection.",
+      "reference": {
+        "file": "intake/D066/001.jpg",
+        "sha256": "748d92d11937422810dd43939304b96ff0abf65ceee4bbc086f0c48f97e99e62",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s001/landscape/candidate-v001.png",
+        "sha256": "b849e35b1ea9365e72965c4636e50d8bc541d58c6a0862a5167c1d09ecc022c0",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 2,
+      "concept_id": "d066-s002",
+      "scene": "Compose Krishna addressing the gopikas in the foreground, with a small group of distinct adult sages set apart high in the open sky to establish that his words carry to them.",
+      "reference": {
+        "file": "intake/D066/002.jpg",
+        "sha256": "52886887c9d440d443b1fece4d4a1492a8c38deae9078f0697dd60d3565a374c",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s002/landscape/candidate-v004.png",
+        "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
+      },
+      "alternates": []
+    },
+    {
+      "n": 3,
+      "concept_id": "d066-s003",
+      "scene": "Set the gopikas in a close devotional group before the still, attentive Krishna, with expressive faces and restrained pleading gestures.",
+      "reference": {
+        "file": "intake/D066/003.jpg",
+        "sha256": "40ad8b6a7cb7be0af5d4f3b543401d3d191b312bb03ca4f83372a9c5053e86bd",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s003/landscape/candidate-v001.png",
+        "sha256": "7628dc7057b7ce582cc852617d8cafea3e548a18bd6eb28fa0a7db97e149119a",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 4,
+      "concept_id": "d066-s004",
+      "scene": "Compose a quiet moonlit riverbank gathering with Krishna and distinct adult gopikas in devotional companionship, separated by natural breathing space and connected by their shared gaze.",
+      "reference": {
+        "file": "intake/D066/004.jpg",
+        "sha256": "df4809a5da3ad3d43e6a877c080183d55761c599bf8d0b5a1ae2a15c3f953e18",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s004/landscape/candidate-v001.png",
+        "sha256": "20b761b8439ec447a1bcfca67889b4e8fdab5062a808c74e2a96ca5b4e46fcf9",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 5,
+      "concept_id": "d066-s005",
+      "scene": "Show Krishna seated on a simple cloth spread while two distinct, fully clothed adult gopikas finish arranging it; quiet water and moonlight frame the action.",
+      "reference": {
+        "file": "intake/D066/005.jpg",
+        "sha256": "31f764e44c2726fed531d33cb53659b0ff418740589665a8d96cbaa70ac9bcac",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s005/landscape/candidate-v001.png",
+        "sha256": "4debd93d5b82f3e62c31d5c80707403c661f202d0e0b1ad6e7164602999d73f0",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 6,
+      "concept_id": "d066-s006",
+      "scene": "Compose a small, balanced group with Krishna and adult gopikas exchanging gentle, respectful gestures beside the Yamuna; keep every participant fully clothed.",
+      "reference": {
+        "file": "intake/D066/006.jpg",
+        "sha256": "29116a0f9f419efd876bf5ab54aa9e251846b4814c1a4a1b14f69c79f8449401",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s006/landscape/candidate-v004.png",
+        "sha256": "b6af1621889b2f5c43d60dc80c072103b1406112f3e9e74f22fcff1084b5ed64",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
+      },
+      "alternates": []
+    },
+    {
+      "n": 7,
+      "concept_id": "d066-s007",
+      "scene": "Let a fully clothed group of distinct gopikas gather in serene gratitude, with one opaque folded cloth resting beside them as a quiet symbol of Krishna’s fulfilled promise.",
+      "reference": {
+        "file": "intake/D066/007.jpg",
+        "sha256": "4da255b89afd3f3d525309cd153e6b456e54165c4a46ed5d09e9d1f30590762a",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s007/landscape/candidate-v001.png",
+        "sha256": "bc2547843073ce081a12308f78c813036e31cf93ed40138429f1e1a914bd67ae",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 8,
+      "concept_id": "d066-s008",
+      "scene": "Place Krishna’s soft smile at the center of a close but spacious group of distinct, fully clothed gopikas; use a few tiny matte marks for perspiration and no flute unless separately justified.",
+      "reference": {
+        "file": "intake/D066/008.jpg",
+        "sha256": "590dabe0e20204925b120da4a8ec2bfb0cb6dc1d7abdef97ef60f73d607aabaa",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s008/landscape/candidate-v001.png",
+        "sha256": "0fc3a1ba6dd7db84f599beccf11a8f65f57f71050961011a8e7dd3e7df906ccf",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 9,
+      "concept_id": "d066-s009",
+      "scene": "Compose one continuous Yamuna grove: a single gopika stands momentarily apart at one edge while Krishna and the other distinct adult gopikas share a calm welcoming presence at center; a restrained shift from cool moonlight to warm earth tones carries the contrast.",
+      "reference": {
+        "file": "intake/D066/009.jpg",
+        "sha256": "e76d8f31c22e026d35348ba101264bc7fce0a6406d6858cd2924259d98c8d2e3",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s009/landscape/candidate-v001.png",
+        "sha256": "d56dc0ae57747d7a85bfed533ab86211f2926c2c1a769e978b06261bf35657fb",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": []
+    },
+    {
+      "n": 10,
+      "concept_id": "d066-s010",
+      "scene": "Compose a quiet closing prayer: older Bhattathiri kneels or sits with folded hands in the foreground, facing a restrained blue devotional presence suggested through a serene youthful face and soft matte aureole. The deity remains two-armed, with no copied crown, ornaments, pose, or body from the identity cue.",
+      "reference": {
+        "file": "intake/D066/010.jpg",
+        "sha256": "66cda5613269ea155e9ebbab92528a6eaccea64b5109abcd64185555b678afbd",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d066/s010/landscape/candidate-v004.png",
+        "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
+      },
+      "alternates": []
+    }
+  ],
+  "candidate_history": [
+    {
+      "stanza": 1,
+      "concept_id": "d066-s001",
+      "version": "v001",
+      "file": "artifacts/d066/s001/landscape/candidate-v001.png",
+      "sha256": "b849e35b1ea9365e72965c4636e50d8bc541d58c6a0862a5167c1d09ecc022c0",
+      "prompt": "artifacts/d066/s001/landscape/prompt-v001.md",
+      "prompt_sha256": "61d6d50b61d4fda57496c2a5825c99a24e27e74b8cf4cf082a3bb8799acbb082",
+      "generation_record": "artifacts/d066/s001/landscape/generation-v001.json",
+      "disposition": "selected",
+      "producer_finding": "Full-frame view shows one youthful blue Krishna facing four distinct, fully clothed women at the river edge; the figures read as separate and proportionate, with Krishna appearing to have two arms and two legs. No visible text or watermark. A focused detail inspection and independent exact-checksum review are still required before clearance."
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d066-s002",
+      "version": "v001",
+      "file": "artifacts/d066/s002/landscape/candidate-v001.png",
+      "sha256": "305612c48b371e51149d6cfdf96953b2aa604d83d7eb67451ee081b3b7fcb3af",
+      "prompt": "artifacts/d066/s002/landscape/prompt-v001.md",
+      "prompt_sha256": "a8feb2c606557efc7f3a014f31a4037fea6c33db4c173d5f47efb4faad42bcb9",
+      "generation_record": "artifacts/d066/s002/landscape/generation-v001.json",
+      "disposition": "superseded-needs-fix",
+      "producer_finding": "Full-frame view shows Krishna seated before a group of distinct, fully clothed women, with four small ascetics on a separate cloud above. Krishna appears to have two attached arms and two legs; no readable text is visible. Hands, foot overlap, and the small ascetic details need focused inspection and independent exact-checksum review before clearance."
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d066-s003",
+      "version": "v001",
+      "file": "artifacts/d066/s003/landscape/candidate-v001.png",
+      "sha256": "7628dc7057b7ce582cc852617d8cafea3e548a18bd6eb28fa0a7db97e149119a",
+      "prompt": "artifacts/d066/s003/landscape/prompt-v001.md",
+      "prompt_sha256": "7beb2442067129a7c2e7dc34281a8ad3dc64ed87839472e20aa144ccd7aa0915",
+      "generation_record": "artifacts/d066/s003/landscape/generation-v001.json",
+      "disposition": "selected",
+      "producer_finding": "Full-frame view shows one Krishna facing a group of seven fully clothed women, several kneeling or raising joined/open hands in appeal. Krishna appears to have one head, two arms and two legs; the group members are distinguishable and no text is visible. Several foreground hands overlap visually and need focused inspection; independent exact-checksum review remains required."
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d066-s004",
+      "version": "v001",
+      "file": "artifacts/d066/s004/landscape/candidate-v001.png",
+      "sha256": "20b761b8439ec447a1bcfca67889b4e8fdab5062a808c74e2a96ca5b4e46fcf9",
+      "prompt": "artifacts/d066/s004/landscape/prompt-v001.md",
+      "prompt_sha256": "578b45535f77a2809b08d9f071c9bfd58cf90246e71e3e26d130feb406320e34",
+      "generation_record": "artifacts/d066/s004/landscape/generation-v001.json",
+      "disposition": "selected",
+      "producer_finding": "Full-frame view shows Krishna seated on the moonlit riverbank with six distinct, fully clothed adult gopikas seated around him in a conversational circle. His two arms and legs are visible; no duplicate Krishna or text appears. Several overlapping seated limbs and feet merit detail inspection, followed by independent exact-checksum review."
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d066-s005",
+      "version": "v001",
+      "file": "artifacts/d066/s005/landscape/candidate-v001.png",
+      "sha256": "4debd93d5b82f3e62c31d5c80707403c661f202d0e0b1ad6e7164602999d73f0",
+      "prompt": "artifacts/d066/s005/landscape/prompt-v001.md",
+      "prompt_sha256": "49e153a0fe9f32e8b269dda7528617f26b302cb55c81be2fc4da0d21922562ff",
+      "generation_record": "artifacts/d066/s005/landscape/generation-v001.json",
+      "disposition": "selected",
+      "producer_finding": "Full-frame view shows Krishna seated on a separate maroon cloth spread while two fully clothed gopikas arrange its edges and another stands nearby. The fabric remains separate from their garments; Krishna appears to have two arms and two legs. No text or watermark is visible. Close inspection of the hands and seat edges and independent exact-checksum review are still required."
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d066-s006",
+      "version": "v001",
+      "file": "artifacts/d066/s006/landscape/candidate-v001.png",
+      "sha256": "f947f54329d44d1a15d64deafc56a5aad2d10187b94913b695db3bfa9269c1e4",
+      "prompt": "artifacts/d066/s006/landscape/prompt-v001.md",
+      "prompt_sha256": "c0cf99de901350f8117c53a4b6e073461433032e350dea767c6b1b58db31f93f",
+      "generation_record": "artifacts/d066/s006/landscape/generation-v001.json",
+      "disposition": "excluded-needs-fix",
+      "producer_finding": "Full-frame view shows three distinct, fully clothed gopikas with Krishna in a gentle group by the river. One gopika leans in with her face pressed to Krishna’s cheek, reading as a kiss; this conflicts with the plan’s no-kissing and nonsexual devotional framing. The other figures appear separate with no obvious extra limbs; this version should not be selected without revision."
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d066-s006",
+      "version": "v002",
+      "file": "artifacts/d066/s006/landscape/candidate-v002.png",
+      "sha256": "d73bf0fbefa2576a6484a8d2dae78dc16fe6ad3b36c1a9c788731943532f971c",
+      "prompt": "artifacts/d066/s006/landscape/prompt-v002.md",
+      "prompt_sha256": "5ef850b748a1013140bbaf8194cc383201b3392b2b0638231ed3e97f967a4ee0",
+      "generation_record": "artifacts/d066/s006/landscape/generation-v002.json",
+      "disposition": "excluded-needs-fix",
+      "producer_finding": "Full-frame visual inspection finds Krishna and the adjacent gopika leaning together so closely that their cheeks appear to touch, despite the non-contact direction; that reads as intimate face contact. Preserve this version but exclude it; replace with v003, whose visible faces are separated."
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d066-s007",
+      "version": "v001",
+      "file": "artifacts/d066/s007/landscape/candidate-v001.png",
+      "sha256": "bc2547843073ce081a12308f78c813036e31cf93ed40138429f1e1a914bd67ae",
+      "prompt": "artifacts/d066/s007/landscape/prompt-v001.md",
+      "prompt_sha256": "18d4594a59264f51a537afb7df4e9b93ce29e9f6d1324485edbbe9e3dc5751b0",
+      "generation_record": "artifacts/d066/s007/landscape/generation-v001.json",
+      "disposition": "selected",
+      "producer_finding": "Full-frame view shows Krishna seated beside six distinct, fully clothed gopikas, with a folded opaque maroon cloth resting between the group and Krishna. Two cows appear in the distant background. The figures appear separate and naturally proportioned with no text; hands and the small background forms need detail inspection and independent exact-checksum review."
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d066-s008",
+      "version": "v001",
+      "file": "artifacts/d066/s008/landscape/candidate-v001.png",
+      "sha256": "0fc3a1ba6dd7db84f599beccf11a8f65f57f71050961011a8e7dd3e7df906ccf",
+      "prompt": "artifacts/d066/s008/landscape/prompt-v001.md",
+      "prompt_sha256": "10042e8b954e4675756f8206af3ae36624df11c8254bc730edb874706296a8be",
+      "generation_record": "artifacts/d066/s008/landscape/generation-v001.json",
+      "disposition": "selected",
+      "producer_finding": "Full-frame view shows Krishna centered with a gentle smile and small painted perspiration marks, surrounded closely by five distinct, fully clothed women in devotional attention. No duplicate person or text is visible; Krishna’s upper cloth drapes over one shoulder while his torso is bare. Verify that this clothing treatment matches the final character contract, and inspect the clustered hands at detail before independent checksum-bound clearance."
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d066-s009",
+      "version": "v001",
+      "file": "artifacts/d066/s009/landscape/candidate-v001.png",
+      "sha256": "d56dc0ae57747d7a85bfed533ab86211f2926c2c1a769e978b06261bf35657fb",
+      "prompt": "artifacts/d066/s009/landscape/prompt-v001.md",
+      "prompt_sha256": "6d29093461958708b3cec800dee2c2cd868c565c4b7d019e47964b613700061a",
+      "generation_record": "artifacts/d066/s009/landscape/generation-v001.json",
+      "disposition": "selected",
+      "producer_finding": "Full-frame view shows one gopika standing apart at the cool moonlit left edge and one Krishna with a seated group of six distinct, fully clothed women in warmer tones. No duplicated Krishna, text or obvious malformed limbs are visible. Several seated bodies and hands overlap, so focused detail inspection and independent exact-checksum review are still needed."
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d066-s010",
+      "version": "v001",
+      "file": "artifacts/d066/s010/landscape/candidate-v001.png",
+      "sha256": "5e9b085553a2056d0be126703c1b92c8876bcdc84ae37b8bd795e412f956477c",
+      "prompt": "artifacts/d066/s010/landscape/prompt-v001.md",
+      "prompt_sha256": "ba18a7da17d70a19eb9d5a580529bae4f239f9938f125dc29a43f6a19845392e",
+      "generation_record": "artifacts/d066/s010/landscape/generation-v001.json",
+      "disposition": "excluded-needs-fix",
+      "producer_finding": "Full-frame view shows an older clean-shaven Bhattathiri praying toward a seated blue two-armed divine figure. The deity has a large peacock feather and ornate jewelry, echoing the supplied Krishna scene photo despite the instruction to avoid transferring ornament from reference imagery. Revise to a restrained, plain divine presence without crown, feather or jewelry; no obvious duplicate or malformed human figure is visible."
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d066-s010",
+      "version": "v002",
+      "file": "artifacts/d066/s010/landscape/candidate-v002.png",
+      "sha256": "48e951f4049f6841e34d33ddc4a524697e53ce21721af973be6af656564c50d7",
+      "prompt": "artifacts/d066/s010/landscape/prompt-v002.md",
+      "prompt_sha256": "d58dc8add1d3294bc7eaa164f0c8897aa25fd1a39bd1964b6dd40bd476fc1995",
+      "generation_record": "artifacts/d066/s010/landscape/generation-v002.json",
+      "disposition": "excluded-needs-fix",
+      "producer_finding": "Full-frame view shows an older clean-shaven Bhattathiri praying to a seated blue two-armed divine figure. Despite the revised prompt, the blue figure still has a prominent peacock feather and jewelry. This continues to echo the source photo’s Krishna iconography against the explicit plain, unadorned direction. Revise again without the scene-photo visual input; the figures otherwise appear distinct and proportionate."
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d066-s010",
+      "version": "v003",
+      "file": "artifacts/d066/s010/landscape/candidate-v003.png",
+      "sha256": "7edb79cb394dc9ab7eadc0062e58d2606d16a22f5da3c1da45a791cee9ada717",
+      "prompt": "artifacts/d066/s010/landscape/prompt-v003.md",
+      "prompt_sha256": "b4c25ea1f72c1977e37866eeb49e5de6832affb223f216041d405f3dfa9000ea",
+      "generation_record": "artifacts/d066/s010/landscape/generation-v003.json",
+      "disposition": "superseded-uncertain",
+      "producer_finding": "Full-frame view shows the older clean-shaven Bhattathiri seated with folded hands facing a single calm deep-blue, two-armed seated divine figure. The divine figure has no visible headwear or jewelry; both figures are clothed, faces are separated, and no text appears. The deity’s exposed torso and overlapping folded legs merit inspection against the final scene contract; exact-checksum independent review is still required."
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d066-s006",
+      "version": "v003",
+      "file": "artifacts/d066/s006/landscape/candidate-v003.png",
+      "sha256": "39cedfb329f2df3b104835085c87bd1e2447a950ed9ace66140c993b2fbbc57a",
+      "prompt": "artifacts/d066/s006/landscape/prompt-v003.md",
+      "prompt_sha256": "810b23a5129b996b13ab58fd42cc63ce2c78a939a02562e90253d233a14b29c2",
+      "generation_record": "artifacts/d066/s006/landscape/generation-v003.json",
+      "disposition": "unselected",
+      "producer_finding": "Full-frame and detail inspection shows three distinct, fully clothed women listening with Krishna, all faces separated and no visible anatomy defects. This version does not depict the stanza’s hand-holding or embrace, so it is preserved but not selected; v004 shows both gestures with separated faces."
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d066-s006",
+      "version": "v004",
+      "file": "artifacts/d066/s006/landscape/candidate-v004.png",
+      "sha256": "b6af1621889b2f5c43d60dc80c072103b1406112f3e9e74f22fcff1084b5ed64",
+      "prompt": "artifacts/d066/s006/landscape/prompt-v004.md",
+      "prompt_sha256": "894a34b9de25bf0bb6506243e29d69b3568b7695903aff10562f81ceb5690ec3",
+      "generation_record": "artifacts/d066/s006/landscape/generation-v004.json",
+      "disposition": "selected",
+      "producer_finding": "Full-frame view shows Krishna seated with three distinct, fully clothed gopikas. One woman holds his offered hand, another rests an arm across his far shoulder with her second hand on his shoulder; their faces remain clearly separate. The third sits at right with joined hands. No face contact, fused bodies, extra limbs, text, or watermark is visible. Inspect the hand-hold, two shoulder contacts, joined prayer hands, feet and face spacing at detail before exact-checksum visual clearance."
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d066-s002",
+      "version": "v002",
+      "file": "artifacts/d066/s002/landscape/candidate-v002.png",
+      "sha256": "ed3e1c4701fc02f00cca2816fafd17fe4d964ca83a474c9ec88b59376fab437d",
+      "prompt": "artifacts/d066/s002/landscape/prompt-v002.md",
+      "prompt_sha256": "abc011cdd81bbe28a38a69e9a205287d10dcd08cc49537c00bfac5839a42c7db",
+      "generation_record": "artifacts/d066/s002/landscape/generation-v002.json",
+      "disposition": "superseded-needs-fix",
+      "producer_finding": "At original full-frame resolution, the maroon-clad woman’s hands rest on her lap, away from the purple-clad woman; the latter’s mouth and chin are unobstructed. Krishna’s two visible hands are blue through the fingers, with no pink finger-base bands. The four sky sages are distinct. Candidate has flat, textured matte mural rendering and no readable text. Independent checksum-bound review is pending.",
+      "references": [
+        {
+          "path": "intake/D066/002.jpg",
+          "sha256": "52886887c9d440d443b1fece4d4a1492a8c38deae9078f0697dd60d3565a374c"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
+          "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234"
+        },
+        {
+          "path": "artifacts/d066/s002/landscape/candidate-v001.png",
+          "sha256": "305612c48b371e51149d6cfdf96953b2aa604d83d7eb67451ee081b3b7fcb3af"
+        }
+      ]
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d066-s010",
+      "version": "v004",
+      "file": "artifacts/d066/s010/landscape/candidate-v004.png",
+      "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f",
+      "prompt": "artifacts/d066/s010/landscape/prompt-v004.md",
+      "prompt_sha256": "fcc3902a6cfae9e3234bfd41a082e55851fb0b67bdd7d088bafdf210f54da39c",
+      "generation_record": "artifacts/d066/s010/landscape/generation-v004.json",
+      "disposition": "selected",
+      "producer_finding": "At original full-frame resolution, Bhattathiri is clean-shaven with ash marks and joined hands. Krishna has two visible arms, wears the specified yellow dhoti and red-orange shoulder cloth, and has a small peacock feather. The exposed foot has five separately outlined toes. The two figures remain distinct with connected limbs and matte mural rendering; no readable text is visible. Independent checksum-bound review is pending.",
+      "references": [
+        {
+          "path": "artifacts/d066/s010/landscape/candidate-v003.png",
+          "sha256": "7edb79cb394dc9ab7eadc0062e58d2606d16a22f5da3c1da45a791cee9ada717"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d066/references/shared/bhattathiri-older-candidate.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
+          "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234"
+        }
+      ]
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d066-s002",
+      "version": "v003",
+      "file": "artifacts/d066/s002/landscape/candidate-v003.png",
+      "sha256": "bda0b6c0cbdfe80a72794ab56b6e72bde50ea8994040ade4f2ed352c830ff9e5",
+      "prompt": "artifacts/d066/s002/landscape/prompt-v003.md",
+      "prompt_sha256": "a96c0e347ea5ba78eaf3874efe0a2a92a2c3a6a60a830c517388dbcb1312a7f0",
+      "generation_record": "artifacts/d066/s002/landscape/generation-v003.json",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "At native full-frame and focused detail views, the left and right green-clad gopikas’ waistlines are covered by continuous opaque green fabric, with no skin-toned wedge or exposed band. Krishna’s visible foot still has only four toes—one large toe and three smaller toes—with no fifth toe or occluding fold. The candidate remains needs-fix and is not selected.",
+      "producer_report": "art/reviews/d066-s002-landscape-v003-producer-review-v001.md",
+      "producer_report_sha256": "61354b1be86c431a91db69a8396fc3a7859b591b1d26fd8181f153f11a3b120a",
+      "references": [
+        {
+          "path": "intake/D066/002.jpg",
+          "sha256": "52886887c9d440d443b1fece4d4a1492a8c38deae9078f0697dd60d3565a374c"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
+          "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234"
+        },
+        {
+          "path": "artifacts/d066/s002/landscape/candidate-v002.png",
+          "sha256": "ed3e1c4701fc02f00cca2816fafd17fe4d964ca83a474c9ec88b59376fab437d"
+        }
+      ]
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d066-s002",
+      "version": "v004",
+      "file": "artifacts/d066/s002/landscape/candidate-v004.png",
+      "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
+      "prompt": "artifacts/d066/s002/landscape/prompt-v004.md",
+      "prompt_sha256": "f542a737625d043aad71eb9af0275562671aa9dfc22812fcde06df00ca4b3c17",
+      "generation_record": "artifacts/d066/s002/landscape/generation-v004.json",
+      "disposition": "selected-producer-pass-awaiting-managed-review",
+      "producer_finding": "Individual native-resolution inspection and focused detail crops show Krishna’s attached, fully visible near foot with one big toe and four separately outlined smaller toes. The three gopikas and four sky sages are distinct with natural ordinary anatomy; their faces and limbs remain clear. Clothing is opaque at the waists. The scene matches the S002 teaching plan in full-bleed matte mural style and has no readable text or watermark. Producer pass only; independent managed exact-checksum review remains pending.",
+      "producer_report": "art/reviews/d066-s002-landscape-v004-review-v001.md",
+      "producer_report_sha256": "df9ff724bca7a694c3eb1c398ac38aded5fa45dfbaaab8f69a3970a50d8360d6",
+      "references": [
+        {
+          "path": "intake/D066/002.jpg",
+          "sha256": "52886887c9d440d443b1fece4d4a1492a8c38deae9078f0697dd60d3565a374c"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
+          "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234"
+        },
+        {
+          "path": "artifacts/d066/s002/landscape/candidate-v003.png",
+          "sha256": "bda0b6c0cbdfe80a72794ab56b6e72bde50ea8994040ade4f2ed352c830ff9e5"
+        }
+      ]
+    }
+  ],
+  "artwork_approval": "not-approved",
+  "approval_manifest_updated": false,
+  "portrait_status": "paused",
+  "translation_status": "unavailable; no vetted English stanza translation supplied"
+}

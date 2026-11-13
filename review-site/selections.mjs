@@ -6,7 +6,7 @@ export const selectionFiles = [
   'd001-comparison-v001.json', 'd002-comparison-v001.json', 'd003-traditional-v001.json',
   'd004-comparison-v001.json', 'd005-comparison-v001.json', 'd006-comparison-v002.json',
   'd007-comparison-v001.json', 'd008-comparison-v001.json', 'd009-comparison-v001.json', 'd010-comparison-v001.json',
-  'd011-comparison-v001.json', 'd012-comparison-v001.json', 'd013-comparison-v001.json', 'd014-comparison-v001.json', 'd029-comparison-v003.json', 'd031-comparison-v001.json', 'd033-comparison-v001.json', 'd034-comparison-v001.json', 'd038-comparison-v002.json', 'd040-comparison-v001.json', 'd042-comparison-v001.json', 'd043-comparison-v001.json', 'd044-comparison-v001.json', 'd096-comparison-v003.json'
+  'd011-comparison-v001.json', 'd012-comparison-v001.json', 'd013-comparison-v001.json', 'd014-comparison-v001.json', 'd029-comparison-v003.json', 'd031-comparison-v001.json', 'd033-comparison-v001.json', 'd034-comparison-v001.json', 'd038-comparison-v002.json', 'd040-comparison-v001.json', 'd042-comparison-v001.json', 'd043-comparison-v001.json', 'd044-comparison-v001.json', 'd066-comparison-v001.json', 'd096-comparison-v003.json'
 ];
 export async function loadSelections(root) {
   return Promise.all(selectionFiles.map(async file => {
