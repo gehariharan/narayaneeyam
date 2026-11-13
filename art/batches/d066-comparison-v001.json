@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 66,
   "review_status": "needs-review",
-  "visual_review_status": "Independent exact-checksum managed review of selected S010 v004 passes and selected S002 v002 needs-fix. One additional S002 candidate, v003, has producer full-frame and detail inspection but remains unselected and needs-fix because Krishna’s visible foot has four toes. No candidate is approved; D066 review publication remains blocked.",
+  "visual_review_status": "Selected S002 v004 passed producer individual native-resolution and focused-detail inspection at exact SHA-256 295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068. Independent managed exact-checksum review is pending. S002 v002/v003 and all earlier versions remain preserved as needs-fix history; S010 v004 retains its independent managed pass. No candidate is approved, and D066 review publication remains blocked until managed review clears S002 v004.",
   "description": "Ten D066 landscape candidates paired with their mapped numbered source references. All generated art is unapproved review material.",
-  "review_notice": "This chapter is presented for artwork review only. The ten selected landscape candidates are unapproved and do not update art/approved/. Each source image is shown beside its mapped candidate. S002 v002 remains the selected needs-fix version; a later producer-inspected v003 is preserved in candidate history but is not selected. S010 v004 is the selected passing version. Earlier S006 v001/v002 and S010 v001/v002 are preserved and excluded from this comparison. S006 v003 is also preserved but not shown because it omits the stanza’s hand-holding and embrace. English translation is unavailable and editorial review remains pending. Portraits remain paused.",
+  "review_notice": "This chapter is presented for artwork review only. The ten selected landscape candidates are unapproved and do not update art/approved/. Each source image is shown beside its mapped candidate. S002 v004 is the selected producer-inspected pass and awaits independent managed exact-checksum review. S002 v001-v003 are preserved as earlier history, including the v002/v003 needs-fix findings. S010 v004 is the selected passing version. Earlier S006 v001/v002 and S010 v001/v002 are preserved and excluded from this comparison. S006 v003 is also preserved but not shown because it omits the stanza’s hand-holding and embrace. English translation is unavailable and editorial review remains pending. D066 publication remains blocked pending the S002 managed review; portraits remain paused.",
   "rows": [
     {
       "n": 1,
@@ -38,11 +38,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d066/s002/landscape/candidate-v002.png",
-        "sha256": "ed3e1c4701fc02f00cca2816fafd17fe4d964ca83a474c9ec88b59376fab437d",
-        "version": "v002",
-        "label": "Landscape candidate v002",
-        "displayLabel": "Landscape candidate v002"
+        "file": "artifacts/d066/s002/landscape/candidate-v004.png",
+        "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
       },
       "alternates": []
     },
@@ -397,7 +397,7 @@
       "prompt": "artifacts/d066/s002/landscape/prompt-v002.md",
       "prompt_sha256": "abc011cdd81bbe28a38a69e9a205287d10dcd08cc49537c00bfac5839a42c7db",
       "generation_record": "artifacts/d066/s002/landscape/generation-v002.json",
-      "disposition": "selected-needs-fix",
+      "disposition": "superseded-needs-fix",
       "producer_finding": "At original full-frame resolution, the maroon-clad woman’s hands rest on her lap, away from the purple-clad woman; the latter’s mouth and chin are unobstructed. Krishna’s two visible hands are blue through the fingers, with no pink finger-base bands. The four sky sages are distinct. Candidate has flat, textured matte mural rendering and no readable text. Independent checksum-bound review is pending.",
       "references": [
         {
@@ -489,6 +489,42 @@
         {
           "path": "artifacts/d066/s002/landscape/candidate-v002.png",
           "sha256": "ed3e1c4701fc02f00cca2816fafd17fe4d964ca83a474c9ec88b59376fab437d"
+        }
+      ]
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d066-s002",
+      "version": "v004",
+      "file": "artifacts/d066/s002/landscape/candidate-v004.png",
+      "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
+      "prompt": "artifacts/d066/s002/landscape/prompt-v004.md",
+      "prompt_sha256": "f542a737625d043aad71eb9af0275562671aa9dfc22812fcde06df00ca4b3c17",
+      "generation_record": "artifacts/d066/s002/landscape/generation-v004.json",
+      "disposition": "selected-producer-pass-awaiting-managed-review",
+      "producer_finding": "Individual native-resolution inspection and focused detail crops show Krishna’s attached, fully visible near foot with one big toe and four separately outlined smaller toes. The three gopikas and four sky sages are distinct with natural ordinary anatomy; their faces and limbs remain clear. Clothing is opaque at the waists. The scene matches the S002 teaching plan in full-bleed matte mural style and has no readable text or watermark. Producer pass only; independent managed exact-checksum review remains pending.",
+      "producer_report": "art/reviews/d066-s002-landscape-v004-review-v001.md",
+      "producer_report_sha256": "df9ff724bca7a694c3eb1c398ac38aded5fa45dfbaaab8f69a3970a50d8360d6",
+      "references": [
+        {
+          "path": "intake/D066/002.jpg",
+          "sha256": "52886887c9d440d443b1fece4d4a1492a8c38deae9078f0697dd60d3565a374c"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d066/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d066/references/shared/krishna-cowherd-youth-d062-s001-candidate.png",
+          "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234"
+        },
+        {
+          "path": "artifacts/d066/s002/landscape/candidate-v003.png",
+          "sha256": "bda0b6c0cbdfe80a72794ab56b6e72bde50ea8994040ade4f2ed352c830ff9e5"
         }
       ]
     }

@@ -29968,6 +29968,74 @@
         }
       },
       "findings": []
+    },
+    {
+      "chapter": 66,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d066/s002/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
+      "reviewer": "D066 production worker",
+      "inspected_at": "2026-11-13T13:49:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D066 S002 uses one youthful two-armed, two-legged Krishna in narrative mode. The three gopikas and four sky sages are ordinary humans with natural proportions and two-arm anatomy. The required visible foot is an ordinary human foot with five toes.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d066.json",
+          "sha256": "5d1cd0ab6b0bb85e8744ae2ee5cb958282ed81e90257a6171b65daf9fa73a922"
+        },
+        {
+          "path": "art/bible/characters/d066-krishna-youth/character.json",
+          "sha256": "5f3de6ff35412a51394d591887b03418e391bfe309845bb550ccd553ce831234"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d066-sky-sages/character.json",
+          "sha256": "13a1e3858777e34f25f8a59170472ffc26dbe07abe2afc924d6c6625e459da03"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d066-s002-landscape-v004-review-v001.md",
+          "sha256": "df9ff724bca7a694c3eb1c398ac38aded5fa45dfbaaab8f69a3970a50d8360d6"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Native full-frame and focused views show Krishna with two arms and two legs. The raised teaching hand and lap hand are attached, blue through the fingers and naturally posed. His near foot is attached at the ankle and fully visible with one big toe plus four separately outlined smaller toes; no digit is hidden or fused. His folded foot is naturally concealed by the dhoti. The gopikas and all four sages show ordinary two-arm anatomy; their poses are readable."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s shoulders connect to his upper arms, elbows and hands; his seated thighs remain distinct beneath the dhoti, and the near ankle and foot emerge from the lower leg. The gopikas’ arms connect to their shoulders and lap or prayer hands; the sages sit separately on the cloud with their arms attached. No disconnected or fused limb is visible."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna has a serene youthful face without infant proportions. The three foreground women have distinct faces. The four sages have separate faces, with different beard or hair treatments; no malformed face is visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The scene contains one Krishna, three separate gopikas and four distinct sky sages. No duplicate or fused person is visible; the cloud separates the distant sages from the foreground group."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo or watermark is visible in the native full-frame or details."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Krishna’s teaching gesture faces the gopikas while four sages listen high in the sky, as required by stanza 2. All women wear opaque clothing with covered waists. The image is full-bleed with firm contours and flat matte mineral colors consistent with the D001 style anchors; no glossy highlights or metallic reflections are visible."
+        }
+      },
+      "findings": []
     }
   ]
 }
