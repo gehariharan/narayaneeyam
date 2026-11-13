@@ -29972,11 +29972,11 @@
     {
       "chapter": 66,
       "sloka": 2,
-      "role": "matte",
+      "role": "producer",
       "file": "artifacts/d066/s002/landscape/candidate-v004.png",
       "version": "v004",
       "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
-      "reviewer": "D066 production worker",
+      "reviewer": "D066 production worker (producer self-review, not independent managed review)",
       "inspected_at": "2026-11-13T13:49:45Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
@@ -30033,6 +30033,74 @@
         "scene_style_continuity": {
           "status": "pass",
           "observations": "Krishna’s teaching gesture faces the gopikas while four sages listen high in the sky, as required by stanza 2. All women wear opaque clothing with covered waists. The image is full-bleed with firm contours and flat matte mineral colors consistent with the D001 style anchors; no glossy highlights or metallic reflections are visible."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 66,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d066/s002/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
+      "reviewer": "Separate Codex gpt-6-luna reviewer session dispatched by Firstmate",
+      "inspected_at": "2026-11-13T14:07:15Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D066 S002 shows one two-armed Krishna seated cross-legged addressing three seated gopikas, with four separate seated sages on a cloud above, matching the caption of mapped reference 002.jpg.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d066.json",
+          "sha256": "5d1cd0ab6b0bb85e8744ae2ee5cb958282ed81e90257a6171b65daf9fa73a922"
+        },
+        {
+          "path": "art/bible/characters/d066-krishna-youth/character.json",
+          "sha256": "5f3de6ff35412a51394d591887b03418e391bfe309845bb550ccd553ce831234"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d066-sky-sages/character.json",
+          "sha256": "13a1e3858777e34f25f8a59170472ffc26dbe07abe2afc924d6c6625e459da03"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d066-s002-landscape-v004-managed-review-v001.md",
+          "sha256": "94588bdfd6ec9532b26f617e8bed7f17809496615d04ebac9b8834fcc43316d3"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna has two arms; the raised hand has a palm, thumb and four fingers and the resting hand shows five visible digits. His one visible extended foot has five distinct toes with no extra, fused or malformed toe, confirmed in foot-detail.png; the other foot is concealed by the cross-legged pose and drapery. The gopikas' visible hands are distinct and connected in prayer and listening poses."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both of Krishna's arms connect with plausible shoulder and elbow placement, and no extra or missing limb is apparent. The gopikas' visible hands are connected, and the four sages' heads, torsos, arms and folded legs remain distinct."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and the three gopikas have coherent faces and proportions at this illustration scale, supported by face-hands-detail.png."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No malformed or duplicated person is apparent; four separate seated sages appear on the cloud with no accidental fusion or duplication, checked against sages-detail.png."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No stray marks resembling text, signature, logo or watermark, and no other material generation artifact."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The riverside setting, Krishna's speaking gesture, attentive gopikas and elevated sages communicate the captioned moment of sages assembled in the sky while Krishna advises the gopikas; the candidate chooses a more focused address scene than the larger rasaleela gathering in 002.jpg while retaining the caption's Krishna, gopikas and sky-sages elements."
         }
       },
       "findings": []
