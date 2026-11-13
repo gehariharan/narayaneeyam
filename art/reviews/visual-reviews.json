@@ -30112,11 +30112,11 @@
       "file": "artifacts/d067/s001/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "670c5427a4418ecd33a998a159372fa90f9e55e704104ac641977014698f9129",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:32:58Z",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 1–5)",
+      "inspected_at": "2026-11-13T18:03:01Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
+      "anatomy_basis": "One youthful deep-blue Krishna with two arms and two legs dances among six distinct adult gopikas, each in a coherent two-arm/two-leg pose.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -30124,15 +30124,23 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
         },
         {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
         },
         {
           "path": "art/bible/characters/gopikas/character.json",
           "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d067-radha/character.json",
+          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
         },
         {
           "path": "content/sources/d067/reference-map.json",
@@ -30141,37 +30149,38 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d067-s001-landscape-v002-producer-review-v002.md",
-          "sha256": "673d3bbde015ee34de899b01d6f2bada422123163547137f2456610c1d476d6c"
+          "path": "art/reviews/d067-independent-s001-s005-v001.md",
+          "sha256": "6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "The central youthful Krishna has one head, two attached arms and hands, and two legs; the lifted bent leg remains connected at the hip and knee. The six surrounding women show separate arm gestures; visible bare feet remain attached below their hems."
+          "observations": "Unobscured open dance hands show a thumb and four fingers; overlapping contact hands and small toes are stylized, with no anomalous digit or foot visible."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Krishna’s shoulders, torso and hips align through the dance pose. Each gopika has a separate torso and dress silhouette; no limb appears to bridge between bodies."
+          "observations": "Krishna has two arms and two legs, and each dancing woman keeps a coherent two-arm/two-leg pose with no extra or missing limb."
         },
         "faces": {
           "status": "pass",
-          "observations": "The center Krishna face and six adult gopika faces are distinct at native resolution; their eyes and hairlines remain within the image."
+          "observations": "Krishna and the six gopikas have readable, individually differentiated faces."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The dance circle contains six women around one physical Krishna. No repeated face or fused body is apparent in the foreground group."
+          "observations": "One central Krishna and six separate dancers appear; no fused or duplicated person or limb was found."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable marks, signature, logo or watermark appear."
+          "observations": "No readable text, signature, logo or watermark is visible anywhere in the moonlit dance."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Compared with mapped photo 001, the candidate retains the moonlit Yamuna rasa-dance subject but independently stages a compact group. Matte outlined figures, ochre and maroon cloth, and blue Krishna match the mural plan; no distant crowd is present."
+          "observations": "A moonlit Yamuna dance with one central Krishna and a small circle of gopikas follows the stanza plan; lifted chins and assured expressions suggest the turn toward pride."
         }
       },
-      "findings": []
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s001-s005-v001.md (SHA-256 6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s001-landscape-v002-producer-review-v002.md (SHA-256 673d3bbde015ee34de899b01d6f2bada422123163547137f2456610c1d476d6c, outcome pass); art/reviews/d067-s001-landscape-v002-producer-review-v003.md (SHA-256 79876148525695435c57321629153393f6fa9b0b17ad8dc540823d2df3fb4aa7, outcome needs-fix). No art approval."
     },
     {
       "chapter": 67,
@@ -30180,11 +30189,11 @@
       "file": "artifacts/d067/s002/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "671849dd4cf06cb5b7b024a96b40794d2def7bb9e6ca8c8f94707439d6b74a65",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:33:15Z",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 1–5)",
+      "inspected_at": "2026-11-13T18:03:01Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
+      "anatomy_basis": "Krishna is intentionally absent; the visible adult gopikas, some cropped at the frame edges, have coherent limbs and natural proportions.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -30192,15 +30201,23 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
         },
         {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
         },
         {
           "path": "art/bible/characters/gopikas/character.json",
           "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d067-radha/character.json",
+          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
         },
         {
           "path": "content/sources/d067/reference-map.json",
@@ -30209,37 +30226,38 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d067-s002-landscape-v003-producer-review-v002.md",
-          "sha256": "1b06187ba60a0a69f38575ee69e1be646f1de57f6306864b6af62c319c5eb25f"
+          "path": "art/reviews/d067-independent-s001-s005-v001.md",
+          "sha256": "6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Four women stand in two separated pairs. The open hand, brow-shading hand and prayer gesture each attach to a visible arm; all eight feet are visible beneath the garments and remain individually separated."
+          "observations": "Open hands show a thumb plus four fingers where separated; smaller or edge-cropped hands and feet are not all countable, with no anomalous digits visible."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Shoulders, waists and skirt lines are continuous for all four figures. The pair spacing leaves no ambiguous body overlap."
+          "observations": "Among the visible searching bodies, including the edge-cropped figures, no extra or missing limb was found."
         },
         "faces": {
           "status": "pass",
-          "observations": "All four adult faces are readable and separate; the right pair look into the empty grove rather than toward an extra figure."
+          "observations": "No repeated or malformed face appears among the surprised gopikas."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The open center is empty, consistent with Krishna’s disappearance. No duplicated or fused woman is visible."
+          "observations": "The clearing contains no duplicate or ghost Krishna, and none of the women are fused together."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable text or watermark appears."
+          "observations": "No readable text, signature, logo or watermark is visible in the empty clearing or along the pale path."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Mapped photo 002 supplies the separation/search context. The candidate shows four fully clothed women asking into an empty moonlit grove in the flat matte mural palette."
+          "observations": "Four gopikas search an intentionally empty moonlit clearing whose pale central path reads as Krishna’s departure, matching the disappearance brief."
         }
       },
-      "findings": []
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s001-s005-v001.md (SHA-256 6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s002-landscape-v003-producer-review-v002.md (SHA-256 1b06187ba60a0a69f38575ee69e1be646f1de57f6306864b6af62c319c5eb25f, outcome pass); art/reviews/d067-s002-landscape-v003-producer-review-v003.md (SHA-256 960ec2c3ccd01e11af5e6d9f1a86017f8ec30ff1e90c49b0474d3d4116f0552e, outcome pass). No art approval."
     },
     {
       "chapter": 67,
@@ -30248,11 +30266,11 @@
       "file": "artifacts/d067/s003/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "24367db6eef2d571371af2ef3e7a6d388a1ba62257110c4faeac37a8f261fc9a",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:33:25Z",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 1–5)",
+      "inspected_at": "2026-11-13T18:03:01Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
+      "anatomy_basis": "Only Krishna and Radha appear; each has two arms and two legs connecting at the shoulders and hips.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -30260,11 +30278,15 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
         },
         {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
         },
         {
           "path": "art/bible/characters/gopikas/character.json",
@@ -30281,37 +30303,38 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d067-s003-landscape-v002-producer-review-v002.md",
-          "sha256": "1c725a2c80f7963cf4835010ab5b81e7abec5f0865da52046460b10d6247a531"
+          "path": "art/reviews/d067-independent-s001-s005-v001.md",
+          "sha256": "6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Krishna has two attached arms, two legs and visible feet; Radha’s two hands meet in front of her drape, and her lower legs are covered by the skirt. No extra digits are apparent in the visible gestures."
+          "observations": "Radha’s hands meet in a coherent clasp; unobscured gesture digits are individually marked and both figures’ feet are present and proportionate."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Both figures have continuous shoulder-to-arm and hip-to-leg connections. Their separate garment outlines prevent the walking pair from reading as fused."
+          "observations": "Krishna’s and Radha’s limbs connect at the shoulders and hips with proportionate feet."
         },
         "faces": {
           "status": "pass",
-          "observations": "Krishna and adult Radha have distinct, calm faces; eyes, hair and ornaments remain inside the frame."
+          "observations": "Krishna’s and Radha’s faces are intact and distinct."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "One Krishna and one Radha appear together. The peacocks are separate birds in the grove; no duplicate human appears."
+          "observations": "Only two people appear on the path, and Radha’s clasp is not a fused or extra hand."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable text, signature, logo or watermark appears."
+          "observations": "No readable text, signature, logo or watermark is visible on the forest path."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Mapped photo 003 supplies the Krishna-Radha and peacock context. The candidate stages them walking together under peacock trees, with Krishna absent from no other separate physical location."
+          "observations": "Krishna walks beside Radha on a quiet forest path in secluded companionship; Radha’s sari and Krishna’s dhoti and upper cloth are opaque."
         }
       },
-      "findings": []
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s001-s005-v001.md (SHA-256 6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s003-landscape-v002-producer-review-v002.md (SHA-256 1c725a2c80f7963cf4835010ab5b81e7abec5f0865da52046460b10d6247a531, outcome pass); art/reviews/d067-s003-landscape-v002-producer-review-v003.md (SHA-256 e5f412077436b080b1af53c4cbf1ae97acfa3647b1b0f7553072ffccccfc67ba, outcome needs-fix). No art approval."
     },
     {
       "chapter": 67,
@@ -30320,11 +30343,11 @@
       "file": "artifacts/d067/s004/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "4e55a7c124510a1a7c24de58428aa04b50142e6ca32c7845bbda196c0b1510f5",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:33:35Z",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 1–5)",
+      "inspected_at": "2026-11-13T18:03:01Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
+      "anatomy_basis": "Krishna is absent; six distinct adult gopikas stand or crouch, with both arms and legs traced on each figure.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -30332,215 +30355,15 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
         },
         {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
         },
         {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s004-landscape-v002-producer-review-v002.md",
-          "sha256": "97bb1df339d63e0ee6c3436b47b4124ef91681053ac6ccea1959131fd7ab732c"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Six adult women search among trees and river flowers. Raised, clasped and reaching hands attach to visible arms; several feet show under skirts, while seated/kneeling legs are covered by opaque garments."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Each figure has a separate torso, braid and sari outline. The kneeling woman at lower left connects both arms to her shoulders; the right kneeler’s tree-reaching arm remains continuous."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Six separate searching faces are visible, including the two low figures; no malformed eyes or merged faces are apparent."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "No Krishna is shown. The six searchers remain visually distinct despite the close grouping at the left."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No readable text, signature or watermark appears."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Compared with mapped photo 004, the candidate preserves the forest-search idea and water setting, while using a restrained matte palette and clear tree-search gestures."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 67,
-      "sloka": 5,
-      "role": "matte",
-      "file": "artifacts/d067/s005/landscape/candidate-v002.png",
-      "version": "v002",
-      "sha256": "ea6d0b7ea7ffc1b80fba3885b2196db7e35d2b7adf79236d6632717b984e5e39",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:33:53Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
-        },
-        {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s005-landscape-v002-producer-review-v002.md",
-          "sha256": "c504218d49cbb57faf3cf4e4efa8c6d5726461f619a7125019318af7ecbcabd2"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Six adult women direct open palms toward flowering trees and creepers. Visible hand shapes have separated fingers; the kneeling figures’ legs are mostly covered, while several feet remain visible under hems."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Standing and kneeling bodies have continuous shoulders, arms and skirt-to-hip transitions. The center blue-sari figure’s raised arms attach on both sides without crossing another body."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "All six faces are distinct and turned toward branches, flowers or vines."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "No Krishna appears. The women are separated into distinct left, center and right figures with no repeated face or fused torso."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No readable text, signature, logo or watermark appears."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Mapped photo 005 depicts women addressing trees. The candidate keeps mangoes, flowering branches and creepers while re-composing the scene as a full-frame temple mural with open margins."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 67,
-      "sloka": 6,
-      "role": "matte",
-      "file": "artifacts/d067/s006/landscape/candidate-v001.png",
-      "version": "v001",
-      "sha256": "f1b94fbad338b49dee2f35d8b06b2c250d077486ef1c39fd1ee2b2ba500c3ece",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:34:15Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
-        },
-        {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s006-landscape-v001-producer-review-v002.md",
-          "sha256": "3192261ba79a510fc2e5fecc8985f7691face3b2eb0a7e4edf71309a94cd1e18"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Seven seated or kneeling women show attached hands in grief, prayer and upward appeal. Their feet and lower legs are concealed by opaque seated drapery, so toes are not exposed; no visible limb count anomaly appears. The imagined Krishna is a nonphysical bust."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Each woman has a separate upper body and sari mass. The speaking central woman’s raised arm joins at the shoulder; the small Krishna vision is contained in its own thought-cloud shape."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "The seven gopika faces are individually legible, with distinct expressions of lament. The imagined Krishna has one separate face."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Only one small nonphysical Krishna vision appears above the group; it is clearly separated from the women and not a second physical participant."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No text, logo, signature or watermark appears."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Mapped photo 006 shows the imaginative Krishna vision. The candidate uses one clearly framed vision and a mourning group, rendered in the same flat mural outlines and opaque palette."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 67,
-      "sloka": 7,
-      "role": "matte",
-      "file": "artifacts/d067/s007/landscape/candidate-v001.png",
-      "version": "v001",
-      "sha256": "5dccb1e8cad9424c68b27c1fabc97d04b08bb8e0a79c6fbff821d91a0e85cd93",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:34:27Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
-        },
-        {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
         },
         {
           "path": "art/bible/characters/gopikas/character.json",
@@ -30557,37 +30380,269 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d067-s007-landscape-v001-producer-review-v002.md",
-          "sha256": "06cb970cc16b9abcb299cb697b9ab7a9d493755fddbd7a41a8213ca8bbc9bfc5"
+          "path": "art/reviews/d067-independent-s001-s005-v001.md",
+          "sha256": "6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "The group includes a seated gopika holding a flute in both hands and other women using searching or imitation gestures. Extended hands have separated fingers; draped seated legs are mostly covered, with visible feet remaining attached."
+          "observations": "Open search gestures show a thumb and four fingers where outlines are unobscured; folded fingers and small toes are simplified without an extra or missing digit."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Each face aligns to a separate body and sari. Overlapping figures near the center retain different garment contours and shoulder lines; the flute is held between the central player’s hands."
+          "observations": "The crouching and standing searchers remain anatomically connected, with no spare or missing limb."
         },
         "faces": {
           "status": "pass",
-          "observations": "The adult women have distinct faces and hairstyles; the flute-playing imitator is clearly separate from her companions."
+          "observations": "The six searchers’ faces remain separate and unwarped."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "No physical Krishna appears, consistent with imitation. Several women recur as a group but no same-scene face is visibly duplicated; central overlaps remain legible as separate people."
+          "observations": "No fused bodies or accidental duplicates appear among the six gopikas."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable text, signature, logo or watermark appears."
+          "observations": "No readable text, signature, logo or watermark is visible among the grove’s trees or riverbank."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Mapped photo 007 includes searching and imitation. The candidate shows gopikas enacting Krishna’s flute gesture among the grove and water, in flat matte mural treatment."
+          "observations": "The women search between trees and toward the river in varied poses with Krishna absent as required, composed differently from the mapped reference."
         }
       },
-      "findings": []
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s001-s005-v001.md (SHA-256 6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s004-landscape-v002-producer-review-v002.md (SHA-256 97bb1df339d63e0ee6c3436b47b4124ef91681053ac6ccea1959131fd7ab732c, outcome pass); art/reviews/d067-s004-landscape-v002-producer-review-v003.md (SHA-256 bca2e07b827e037e1150f0f07eddd268d4b9d803d785aff2c3dafb4a6c925f56, outcome pass). No art approval."
+    },
+    {
+      "chapter": 67,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d067/s005/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "ea6d0b7ea7ffc1b80fba3885b2196db7e35d2b7adf79236d6632717b984e5e39",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 1–5)",
+      "inspected_at": "2026-11-13T18:03:01Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is absent; five distinct adult women, one at left and four grouped at right, have traceable limbs.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d067.json",
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d067-radha/character.json",
+          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
+        },
+        {
+          "path": "content/sources/d067/reference-map.json",
+          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d067-independent-s001-s005-v001.md",
+          "sha256": "6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Questioning open palms show a thumb and four fingers where delineated; overlapping fingers and toes are stylized without an extra or missing digit."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The enlarged crop of the right-hand group shows traceable, connected limbs with no extra or missing limb."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The lone woman at left and the four at right have separate, well-formed faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No duplicated person or fused body appears in the four-woman group."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible among the mango and flowering branches."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Gopikas address flowering trees and creepers with questioning gestures in a river grove, in a wider group arrangement than the reference."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s001-s005-v001.md (SHA-256 6ce2d83abda944b0032f1892c62ea80fee78d3b236408f6154fdc3173b3fe84e). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s005-landscape-v002-producer-review-v002.md (SHA-256 c504218d49cbb57faf3cf4e4efa8c6d5726461f619a7125019318af7ecbcabd2, outcome pass); art/reviews/d067-s005-landscape-v002-producer-review-v003.md (SHA-256 2bd8ad5187b0076f674f7b3ac6644224fbf355e2bdc0ab918ae1dcc0491cb34f, outcome pass). No art approval."
+    },
+    {
+      "chapter": 67,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d067/s006/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "f1b94fbad338b49dee2f35d8b06b2c250d077486ef1c39fd1ee2b2ba500c3ece",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 6–10)",
+      "inspected_at": "2026-11-13T18:04:05Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Adult, fully clothed gopikas surround a speaker; the single small blue Krishna exists only inside a cream thought-like aura.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d067.json",
+          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d067-radha/character.json",
+          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
+        },
+        {
+          "path": "content/sources/d067/reference-map.json",
+          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d067-independent-s006-s010-v001.md",
+          "sha256": "c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The speaker’s raised open hand has five visible digits and her other hand rests at her chest; seated feet are covered by garments and cannot be counted."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both of the speaker’s arms connect naturally, and no additional, missing or detached limb appears on the lamenting companions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "No malformed face was found among the sorrowing women in full view or in the focused crop."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Krishna appears once, inside the vision aura, with no duplicate figure or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark was seen around the vision scene."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "A distressed gopika gestures toward the inward vision of Krishna while the others react with sorrow, following the caption and scene brief."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s006-s010-v001.md (SHA-256 c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s006-landscape-v001-producer-review-v002.md (SHA-256 3192261ba79a510fc2e5fecc8985f7691face3b2eb0a7e4edf71309a94cd1e18, outcome pass); art/reviews/d067-s006-landscape-v001-producer-review-v003.md (SHA-256 b56726d616b56b5fc99fe92d4d1164100f6c5557592fab2bfce27c6d546de2af, outcome needs-fix). No art approval."
+    },
+    {
+      "chapter": 67,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d067/s007/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "5dccb1e8cad9424c68b27c1fabc97d04b08bb8e0a79c6fbff821d91a0e85cd93",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 6–10)",
+      "inspected_at": "2026-11-13T18:04:05Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is absent; adult, modestly clothed gopikas mime his gestures while Radha sits apart.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d067.json",
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d067-radha/character.json",
+          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
+        },
+        {
+          "path": "content/sources/d067/reference-map.json",
+          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d067-independent-s006-s010-v001.md",
+          "sha256": "c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The flute player’s hands meet the flute plausibly and fingers are separated on open and prayer hands; lower legs and feet are partly hidden by skirts."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The standing dancer’s two raised arms remain attached at the shoulders, with ordinary limb proportions throughout."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The miming women and the seated Radha have distinct, well-formed faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No literal Krishna double appears, and Radha’s overlapping hands show no fused-body defect."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark was seen on the riverbank."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The group mimes Krishna’s flute-playing and turns to a sorrowful Radha seated apart, matching the separation in the caption and plan."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s006-s010-v001.md (SHA-256 c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s007-landscape-v001-producer-review-v002.md (SHA-256 06cb970cc16b9abcb299cb697b9ab7a9d493755fddbd7a41a8213ca8bbc9bfc5, outcome pass); art/reviews/d067-s007-landscape-v001-producer-review-v003.md (SHA-256 820282e8d5e1e881a982bd4b6d63bc9c480e5f5d685604160e8f84060ca4fd95, outcome pass). No art approval."
     },
     {
       "chapter": 67,
@@ -30596,11 +30651,11 @@
       "file": "artifacts/d067/s008/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "cd8402aefcb9bd4d4ea736fc4ad767a8d4297fbc3c2528066a6bbf3f394db381",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:34:39Z",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 6–10)",
+      "inspected_at": "2026-11-13T18:04:05Z",
       "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Krishna is absent; adult, fully clothed gopikas sit in an overlapping group by the Yamuna at dusk.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -30608,15 +30663,23 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
+          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
         },
         {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
         },
         {
           "path": "art/bible/characters/gopikas/character.json",
           "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d067-radha/character.json",
+          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
         },
         {
           "path": "content/sources/d067/reference-map.json",
@@ -30625,37 +30688,40 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d067-s008-landscape-v002-producer-review-v002.md",
-          "sha256": "41a1ee6c13e027fb8a76e2ff4b6c8a363a573bcbedda568a9b47e8b5aa14a5aa"
+          "path": "art/reviews/d067-independent-s006-s010-v001.md",
+          "sha256": "c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Seven adult gopikas sing and lament beside the river. Visible palms have separable fingers and arms attach at shoulders; seated legs and feet are covered by opaque sari folds."
+          "observations": "Open palms in the dusk group resolve as five digits where clear; some feet are concealed by long skirts and cannot be counted."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "The seated group forms separate upper-body silhouettes; overlapping sleeves and veils do not merge into a single limb or torso."
+          "observations": "Each visible woman in the overlapping central/right group has two arms connected at shoulder and elbow."
         },
         "faces": {
           "status": "pass",
-          "observations": "All seven faces are readable and directed in song or grief."
+          "observations": "No malformed face was seen among the lamenting women."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "There is no physical Krishna in the scene. No duplicate or fused gopika body is apparent among the seven."
+          "observations": "No definite fused body or duplicate person appears in the overlapping group."
         },
         "text_artifacts": {
-          "status": "pass",
-          "observations": "No readable text, signature, logo or watermark appears."
+          "status": "needs-fix",
+          "observations": "A dark cursive signature-like mark is visible on the lower-right foreground grass, below and slightly right of the foremost outstretched hands."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Mapped photo 008 provides the riverbank return and gathering. The candidate shows women singing by the evening Yamuna with sunset water, using the required matte mural palette."
+          "observations": "The gopikas sing and lament by the Yamuna at deep dusk with Krishna absent; the darkening sky and quiet river fit the caption and plan."
         }
       },
-      "findings": []
+      "findings": [
+        "A dark cursive signature-like mark is visible on the lower-right foreground grass, below and slightly right of the foremost outstretched hands."
+      ],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s006-s010-v001.md (SHA-256 c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s008-landscape-v002-producer-review-v002.md (SHA-256 41a1ee6c13e027fb8a76e2ff4b6c8a363a573bcbedda568a9b47e8b5aa14a5aa, outcome pass); art/reviews/d067-s008-landscape-v002-producer-review-v003.md (SHA-256 39b7867aac39f1c939e5df7ae88882b6454360b08c580ccf6ced873819fd1d1d, outcome needs-fix). No art approval."
     },
     {
       "chapter": 67,
@@ -30664,11 +30730,11 @@
       "file": "artifacts/d067/s009/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "5854b542b2f33e81f3bde99795fa5af88d9b75d4aa2f7324013f0e96c9df84d4",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:34:55Z",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 6–10)",
+      "inspected_at": "2026-11-13T18:04:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
+      "anatomy_basis": "One youthful deep-blue Krishna with two arms, two legs and two feet reappears before adult, fully clothed gopikas.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -30676,15 +30742,23 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
+          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
         },
         {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
         },
         {
           "path": "art/bible/characters/gopikas/character.json",
           "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d067-radha/character.json",
+          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
         },
         {
           "path": "content/sources/d067/reference-map.json",
@@ -30693,37 +30767,38 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d067-s009-landscape-v001-producer-review-v002.md",
-          "sha256": "7f5d94736849f06d7adbf35d5f4be62081244e599970f0bd21954325170b7de1"
+          "path": "art/reviews/d067-independent-s006-s010-v001.md",
+          "sha256": "c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Krishna stands with two attached arms, hands and legs; both feet are visible. Six adult gopikas kneel or stand with folded/open hands; seated feet are covered by their skirts."
+          "observations": "Krishna’s visible open hand has five digits and both of his feet have separated toes; the gopikas’ open and prayer hands show separated digits."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Krishna’s shoulders, torso and hips align in a stable standing pose. The gopikas retain separate outlines, with companion hands resting on shoulders visibly attached to their own arms."
+          "observations": "Krishna’s two arms and the gopikas’ limbs are connected, with no extra or missing limb."
         },
         "faces": {
           "status": "pass",
-          "observations": "One Krishna and six distinct gopika faces are visible and expressive."
+          "observations": "Krishna’s smiling face and the relieved gopikas’ faces are coherent and distinct."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "A single Krishna reappears before the group; no second physical Krishna or merged women are present."
+          "observations": "A single Krishna appears, with no duplicate person or fused body among the women."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable text, signature, logo or watermark appears."
+          "observations": "No readable text, signature, logo or watermark was seen in the moonlit clearing."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Mapped photo 009 depicts Krishna’s reappearance to the searching women. The candidate preserves that encounter and river setting in a balanced, full-width mural."
+          "observations": "Krishna’s return before the relieved gopikas follows the stanza and plan, emphasising reappearance rather than the reference’s flute-playing."
         }
       },
-      "findings": []
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s006-s010-v001.md (SHA-256 c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s009-landscape-v001-producer-review-v002.md (SHA-256 7f5d94736849f06d7adbf35d5f4be62081244e599970f0bd21954325170b7de1, outcome pass); art/reviews/d067-s009-landscape-v001-producer-review-v003.md (SHA-256 f1707f8d36d63e29fffb25e9160bd37b69e325089c96458924a5430f23c0dbb0, outcome needs-fix). No art approval."
     },
     {
       "chapter": 67,
@@ -30732,11 +30807,11 @@
       "file": "artifacts/d067/s010/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "a895b2d1eba69489b939cce48768648945f3b465444005cbd159708e84de5f41",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T17:38:46Z",
+      "reviewer": "Firstmate-dispatched fresh-context Codex gpt-6-luna reviewer session (stanzas 6–10)",
+      "inspected_at": "2026-11-13T18:04:05Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Krishna is a youthful two-armed deity under the D067 contract; every gopika is an ordinary adult woman with two arms, two legs, modest opaque clothing and separate anatomy. The stanza-six Krishna vision is explicitly nonphysical.",
+      "anatomy_basis": "One deep-blue Krishna stands among adult, fully clothed gopikas, including one woman kneeling in a compact pose.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -30744,15 +30819,23 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "bf2faeba69f411e3a5f240f6699b799566b94b53150606fc84ce7326e93ded53"
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
         },
         {
-          "path": "art/bible/characters/d067-krishna-youth/character.json",
-          "sha256": "6f4194313a1a8354df14013d9d380c45ef605b8d66b208d1b1ab9bd61d54ea4c"
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d067-rasa.json",
+          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
         },
         {
           "path": "art/bible/characters/gopikas/character.json",
           "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/d067-radha/character.json",
+          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
         },
         {
           "path": "content/sources/d067/reference-map.json",
@@ -30761,37 +30844,38 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d067-s010-landscape-v002-producer-review-v002.md",
-          "sha256": "f958dab9921d644fd80d5fd3ec87bf39409940183cd3bed607d735d464338f51"
+          "path": "art/reviews/d067-independent-s006-s010-v001.md",
+          "sha256": "c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Krishna has one face, two attached arms and hands, and two visible feet. Eight adult women respond with folded hands, open palms or gentle devotional contact; visible hands are separated and lower legs under the seated women’s opaque garments are covered."
+          "observations": "Visible palms and prayer hands have five digits; Krishna’s two feet and the exposed gopika feet show individually drawn toes."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Krishna’s arms join at both shoulders and his legs continue through the dhoti to the feet. Each woman’s sari silhouette is distinct; the kneeling foreground figures are not fused with the standing group."
+          "observations": "Krishna’s two arms connect, and the kneeling woman’s overlapping lower legs show no extra or detached limb."
         },
         "faces": {
           "status": "pass",
-          "observations": "The single Krishna and eight women have separate, clearly directed faces; the red-clad central woman is distinct from the unnamed group."
+          "observations": "The faces of Krishna and the rejoicing women remain distinct."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "One Krishna is surrounded by a group of women; no duplicated deity or fused bodies are apparent. Contact is gentle and nonsexual."
+          "observations": "Krishna is singular, with no duplicate person or fused body in the reunion group."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No text, signature, logo or watermark appears."
+          "observations": "No readable text, signature, logo or watermark was seen in the reunion scene."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Mapped photo 010 supplies reunion and joyful relief. The candidate shows Krishna’s reappearance with tears and devotional gestures; all clothing is opaque and the composition has clear edge margins."
+          "observations": "Krishna among women responding with tears, smiles and devotional gestures conveys the reunion and joy of the caption and brief."
         }
       },
-      "findings": []
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s006-s010-v001.md (SHA-256 c32380f09b6dca51f931041d722d64c37cc8055a76de2e088a943f6b305af942). This report reviews the exact image bytes under the D067 plan before the later captain-directed shared Krishna continuity update; use it as preserved independent history, then inspect against the updated final contract. Producer self-review evidence is preserved separately: art/reviews/d067-s010-landscape-v002-producer-review-v002.md (SHA-256 f958dab9921d644fd80d5fd3ec87bf39409940183cd3bed607d735d464338f51, outcome pass); art/reviews/d067-s010-landscape-v002-producer-review-v003.md (SHA-256 0eae3590755b28d6b7670b1b7d6963c951120c5163de2b4428f3591692722a68, outcome needs-fix). No art approval."
     },
     {
       "chapter": 67,
@@ -30800,159 +30884,11 @@
       "file": "artifacts/d067/s008/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "f0a9904831ac7a65c46832811bcc95cecf09ee6ab4bbb8eb3553da158b04e01d",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T18:38:47Z",
-      "method": "individual-native-resolution",
-      "outcome": "needs-fix",
-      "anatomy_basis": "Five adult gopikas appear in this stanza; Krishna is absent as required. Ordinary human anatomy and fully opaque clothing apply.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "62f020b2a2e29a76add7e3be8f35379aae2510b8a0679aed51ba3f1074c1670e"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s008-landscape-v003-producer-review-v001.md",
-          "sha256": "f46ceb8e70305c6df35d099d060cf12b38bb460edf43d529b0b05db721805453"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "The visible women have connected arms and hands; open palms have individually marked digits where large enough to inspect. Feet are covered by the long skirts; smaller finger details are stylized."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Five separate seated or standing figures have connected arm and shoulder contours. No fused bodies or detached limbs are apparent."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Five separate adult faces are visible with readable lament expressions."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Five distinct women appear; no duplicate person or fused bodies found."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "The lower-right grass crop is clean; the v002 cursive mark is absent. No readable text, signature, logo or watermark is visible."
-        },
-        "scene_style_continuity": {
-          "status": "needs-fix",
-          "observations": "The dusk Yamuna lament and Krishna-absent scene are clear, but the submitted repair prompt explicitly required six distinct gopikas and only five are visible."
-        }
-      },
-      "findings": [
-        "Submitted repair prompt required exactly six gopikas; only five appear. This candidate is held pending a decision on a second repair round versus accepting the number under the stanza-level plan."
-      ]
-    },
-    {
-      "chapter": 67,
-      "sloka": 1,
-      "role": "matte",
-      "file": "artifacts/d067/s001/landscape/candidate-v002.png",
-      "version": "v002",
-      "sha256": "670c5427a4418ecd33a998a159372fa90f9e55e704104ac641977014698f9129",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:27:23Z",
-      "method": "individual-native-resolution",
-      "outcome": "needs-fix",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s001-landscape-v002-producer-review-v003.md",
-          "sha256": "79876148525695435c57321629153393f6fa9b0b17ad8dc540823d2df3fb4aa7"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Krishna and the dancers retain visible arms and legs; no hand or foot issue was found."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "The Krishna face connects to one body, but his forehead and tall decorated headwear conflict with the shared identity contract."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "The gopikas have distinct faces at native size."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "One Krishna and separate dancers appear; no fused body was seen."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No text, signature or logo is visible."
-        },
-        "scene_style_continuity": {
-          "status": "needs-fix",
-          "observations": "The rasa-dance scene maps to the source, but Krishna’s visible mark and raised ornament fail the current character contract."
-        }
-      },
-      "findings": [
-        "The prior rasa-dance candidate has a visible narrow forehead mark and a raised jeweled crown ornament rather than a plain forehead and simple low band. The gopikas are adult and clothed, and the dance scene is clear."
-      ]
-    },
-    {
-      "chapter": 67,
-      "sloka": 2,
-      "role": "matte",
-      "file": "artifacts/d067/s002/landscape/candidate-v003.png",
-      "version": "v003",
-      "sha256": "671849dd4cf06cb5b7b024a96b40794d2def7bb9e6ca8c8f94707439d6b74a65",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:28:04Z",
+      "reviewer": "Firstmate-dispatched fresh-context independent Codex reviewer (S003/S006/S008/S009)",
+      "inspected_at": "2026-11-13T20:00:26Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
+      "anatomy_basis": "Krishna is absent as planned; five distinct adult gopikas sit with connected torsos and folded legs.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -30960,7 +30896,7 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
         },
         {
           "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
@@ -30985,655 +30921,38 @@
       ],
       "evidence": [
         {
-          "path": "art/reviews/d067-s002-landscape-v003-producer-review-v003.md",
-          "sha256": "960ec2c3ccd01e11af5e6d9f1a86017f8ec30ff1e90c49b0474d3d4116f0552e"
+          "path": "art/reviews/d067-independent-s003-s006-s008-s009-v002.md",
+          "sha256": "9817a42f735fdc6297ef2910a7e975336620a4c3009f66c3814be5223ebdc8ad"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "The four figures show attached hands and feet; the open searching hands have separated digits."
+          "observations": "Exposed open hands show five digits; prayer and overlapping fingers are partly occluded without a definite defect, and feet are covered by garments."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Shoulder-to-arm lines remain connected, including the raised hand shading a woman’s eyes."
+          "observations": "The five seated torsos and folded legs remain connected and plausible."
         },
         "faces": {
           "status": "pass",
-          "observations": "Four separate adult faces are visible."
+          "observations": "All five lamenting faces are distinct and readable."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The central grove is empty; no duplicate or physical Krishna appears."
+          "observations": "No cloned person or fused body appears among the five gopikas."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No lettering or signature is visible."
+          "observations": "The lower-right ground and foliage are clear of the earlier signature-like mark; no text, logo or watermark was found."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The empty grove and searching gopikas match the disappearance scene and mapped photo."
+          "observations": "Five gopikas lament and sing beside the Yamuna under a deep evening sky, translating the mapped group lament into the planned dusk setting."
         }
       },
-      "findings": []
-    },
-    {
-      "chapter": 67,
-      "sloka": 3,
-      "role": "matte",
-      "file": "artifacts/d067/s003/landscape/candidate-v002.png",
-      "version": "v002",
-      "sha256": "24367db6eef2d571371af2ef3e7a6d388a1ba62257110c4faeac37a8f261fc9a",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:28:42Z",
-      "method": "individual-native-resolution",
-      "outcome": "needs-fix",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s003-landscape-v002-producer-review-v003.md",
-          "sha256": "e5f412077436b080b1af53c4cbf1ae97acfa3647b1b0f7553072ffccccfc67ba"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Both figures have visible hands and feet; no extra digits or detached limb is apparent."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Krishna’s arms join at the shoulders and his body is separate from Radha, but headwear/forehead details violate identity."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Krishna and Radha have distinct faces."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Only the intended two figures appear; no fusion or duplication."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No text or watermark is visible."
-        },
-        "scene_style_continuity": {
-          "status": "needs-fix",
-          "observations": "The quiet walk matches the mapped source, but the Krishna identity details fail the current character contract."
-        }
-      },
-      "findings": [
-        "The older Krishna-and-Radha walk shows the intended quiet path, but Krishna has a visible central forehead mark and a tall decorated crown with a high central ornament. Both figures are fully clothed and anatomically separate."
-      ]
-    },
-    {
-      "chapter": 67,
-      "sloka": 4,
-      "role": "matte",
-      "file": "artifacts/d067/s004/landscape/candidate-v002.png",
-      "version": "v002",
-      "sha256": "4e55a7c124510a1a7c24de58428aa04b50142e6ca32c7845bbda196c0b1510f5",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:31:33Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s004-landscape-v002-producer-review-v003.md",
-          "sha256": "bca2e07b827e037e1150f0f07eddd268d4b9d803d785aff2c3dafb4a6c925f56"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Open hands and the visible toes remain attached; the covered seated legs are not distorted."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Arms emerge from distinct shoulders despite foliage overlap."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "The six women have readable, separate faces."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "No Krishna appears, appropriate to this tree-questioning moment."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No text or signature is visible."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The central tree-directed question and searching poses match the scene plan."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 67,
-      "sloka": 5,
-      "role": "matte",
-      "file": "artifacts/d067/s005/landscape/candidate-v002.png",
-      "version": "v002",
-      "sha256": "ea6d0b7ea7ffc1b80fba3885b2196db7e35d2b7adf79236d6632717b984e5e39",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:32:35Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s005-landscape-v002-producer-review-v003.md",
-          "sha256": "2bd8ad5187b0076f674f7b3ac6644224fbf355e2bdc0ab918ae1dcc0491cb34f"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Visible hands are connected to forearms; seated legs are covered by opaque skirts and visible feet attach normally."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "The kneeling and standing silhouettes remain separate around the foliage."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Faces are individually distinguishable across the group."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "No physical Krishna or duplicated person appears."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No readable text or signature is visible."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The gopikas’ plant-facing gestures match this scene’s mapped subject."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 67,
-      "sloka": 6,
-      "role": "matte",
-      "file": "artifacts/d067/s006/landscape/candidate-v001.png",
-      "version": "v001",
-      "sha256": "f1b94fbad338b49dee2f35d8b06b2c250d077486ef1c39fd1ee2b2ba500c3ece",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:33:33Z",
-      "method": "individual-native-resolution",
-      "outcome": "needs-fix",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s006-landscape-v001-producer-review-v003.md",
-          "sha256": "b56726d616b56b5fc99fe92d4d1164100f6c5557592fab2bfce27c6d546de2af"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "The women’s visible hands join their arms; covered lower bodies show no visible foot defect."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "The small imagined figure is an isolated bust, but its forehead mark and raised crown fail the shared Krishna contract."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "The imagined face is separate from the speaking gopika."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "One small thought-image appears in the aura and no physical Krishna is duplicated."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No text or signature is visible."
-        },
-        "scene_style_continuity": {
-          "status": "needs-fix",
-          "observations": "The vision is correctly symbolic, but its identity details conflict with the final character rules."
-        }
-      },
-      "findings": [
-        "The small imagined Krishna is correctly separated in a thought-like aura, but the image gives him a conspicuous pale forehead tilak and a tall decorated crown. This conflicts with the shared youthful-cowherd contract even in the imagined depiction. The women are distinct and clothed."
-      ]
-    },
-    {
-      "chapter": 67,
-      "sloka": 7,
-      "role": "matte",
-      "file": "artifacts/d067/s007/landscape/candidate-v001.png",
-      "version": "v001",
-      "sha256": "5dccb1e8cad9424c68b27c1fabc97d04b08bb8e0a79c6fbff821d91a0e85cd93",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:34:26Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s007-landscape-v001-producer-review-v003.md",
-          "sha256": "820282e8d5e1e881a982bd4b6d63bc9c480e5f5d685604160e8f84060ca4fd95"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "The flute player’s fingers meet the flute; visible feet attach below the skirts."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Separate shoulder and garment outlines distinguish the women in the close group."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Faces are distinct, including the flute-playing imitator."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "No physical Krishna or accidental duplicate appears."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No readable text is present."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The imitation action matches the stanza scene; the absence of Krishna is intentional."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 67,
-      "sloka": 8,
-      "role": "matte",
-      "file": "artifacts/d067/s008/landscape/candidate-v002.png",
-      "version": "v002",
-      "sha256": "cd8402aefcb9bd4d4ea736fc4ad767a8d4297fbc3c2528066a6bbf3f394db381",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:35:14Z",
-      "method": "individual-native-resolution",
-      "outcome": "needs-fix",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s008-landscape-v002-producer-review-v003.md",
-          "sha256": "39b7867aac39f1c939e5df7ae88882b6454360b08c580ccf6ced873819fd1d1d"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Visible hands remain attached; long skirts cover seated legs and feet."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "The seated figures remain separate at the shoulder and sleeve lines."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Five distinct adult faces appear."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "No Krishna appears, appropriate to the lament."
-        },
-        "text_artifacts": {
-          "status": "needs-fix",
-          "observations": "A dark cursive mark is visibly present in lower-right grass; this is the failure."
-        },
-        "scene_style_continuity": {
-          "status": "needs-fix",
-          "observations": "The dusk riverbank lament maps to the scene, aside from the mark."
-        }
-      },
-      "findings": [
-        "The old riverbank lament has a dark cursive signature-like mark in the lower-right grass. The five gopikas and dusk setting otherwise match the scene."
-      ]
-    },
-    {
-      "chapter": 67,
-      "sloka": 9,
-      "role": "matte",
-      "file": "artifacts/d067/s009/landscape/candidate-v001.png",
-      "version": "v001",
-      "sha256": "5854b542b2f33e81f3bde99795fa5af88d9b75d4aa2f7324013f0e96c9df84d4",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:37:03Z",
-      "method": "individual-native-resolution",
-      "outcome": "needs-fix",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s009-landscape-v001-producer-review-v003.md",
-          "sha256": "f1707f8d36d63e29fffb25e9160bd37b69e325089c96458924a5430f23c0dbb0"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Krishna and women have attached hands and feet; no limb anomaly was found at full frame."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Krishna has two arms, but his forehead mark and tall ornament fail identity rules."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "The single Krishna and women have separate faces."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "One physical Krishna appears; no duplicate is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No readable text is present."
-        },
-        "scene_style_continuity": {
-          "status": "needs-fix",
-          "observations": "The reappearance matches the scene, but Krishna’s head details conflict with the shared character contract."
-        }
-      },
-      "findings": [
-        "The older reappearance candidate shows a distinct forehead tilak and a tall multi-tiered crown ornament, outside the current plain-forehead, simple-low-band contract. The group and reunion remain legible."
-      ]
-    },
-    {
-      "chapter": 67,
-      "sloka": 10,
-      "role": "matte",
-      "file": "artifacts/d067/s010/landscape/candidate-v002.png",
-      "version": "v002",
-      "sha256": "a895b2d1eba69489b939cce48768648945f3b465444005cbd159708e84de5f41",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:37:45Z",
-      "method": "individual-native-resolution",
-      "outcome": "needs-fix",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s010-landscape-v002-producer-review-v003.md",
-          "sha256": "0eae3590755b28d6b7670b1b7d6963c951120c5163de2b4428f3591692722a68"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Visible arms and feet are attached; no extra limb was found."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Krishna’s arms connect normally, but the forehead mark and tall central ornament are not allowed."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "The gopika faces remain distinct in the group."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "One Krishna is shown without duplication."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "No readable text or signature is present."
-        },
-        "scene_style_continuity": {
-          "status": "needs-fix",
-          "observations": "The reunion scene matches the source, but Krishna’s iconography fails continuity."
-        }
-      },
-      "findings": [
-        "The older reunion image shows a prominent forehead mark and a high raised crown centerpiece. These visible identity details conflict with the current shared youth contract."
-      ]
+      "findings": [],
+      "notes": "Independent exact-checksum review art/reviews/d067-independent-s003-s006-s008-s009-v002.md (SHA-256 9817a42f735fdc6297ef2910a7e975336620a4c3009f66c3814be5223ebdc8ad). Independent exact-checksum review; five gopikas accepted under the stanza plan; no art approval. Producer self-review evidence is preserved separately: art/reviews/d067-s008-landscape-v003-producer-review-v001.md (SHA-256 f46ceb8e70305c6df35d099d060cf12b38bb460edf43d529b0b05db721805453, outcome needs-fix); art/reviews/d067-s008-landscape-v003-producer-review-v002.md (SHA-256 ea5eeb784635405f2ff558b92c38be51bf685f77dd5194c697cf919f18a3cb80, outcome pass). No art approval."
     },
     {
       "chapter": 67,
@@ -31808,7 +31127,7 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
         },
         {
           "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
@@ -31867,82 +31186,6 @@
     },
     {
       "chapter": 67,
-      "sloka": 8,
-      "role": "matte",
-      "file": "artifacts/d067/s008/landscape/candidate-v003.png",
-      "version": "v003",
-      "sha256": "f0a9904831ac7a65c46832811bcc95cecf09ee6ab4bbb8eb3553da158b04e01d",
-      "reviewer": "Codex D067 production worker (producer review)",
-      "inspected_at": "2026-11-13T19:41:37Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "One youthful Vrindavan Krishna has ordinary two-arm/two-leg anatomy; the stanza-six inward image is nonphysical and separate. Every gopika is an adult woman in opaque, modest clothing.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
-        },
-        {
-          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
-          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
-        },
-        {
-          "path": "art/bible/characters/d067-rasa.json",
-          "sha256": "b9c56f77258d88bec7a3d9908f6aee385c4acaec737660a62f1887ce002c2d3d"
-        },
-        {
-          "path": "art/bible/characters/gopikas/character.json",
-          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
-        },
-        {
-          "path": "art/bible/characters/d067-radha/character.json",
-          "sha256": "b3a0003ed8c1c1977b393ef7c7abe5f010acff254f9395a889231935570f35d6"
-        },
-        {
-          "path": "content/sources/d067/reference-map.json",
-          "sha256": "3237108867ec771228114de88e5ca16ff48847c6613853ce578cf124a71043cc"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d067-s008-landscape-v003-producer-review-v002.md",
-          "sha256": "ea5eeb784635405f2ff558b92c38be51bf685f77dd5194c697cf919f18a3cb80"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Open hands are connected to forearms with separated digits at the crop scale; skirts cover seated legs."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Six-count prompt mismatch is noted in prompt history; five figures remain distinct with connected outlines."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Five distinct adult faces are visible."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Krishna is absent; no duplicate or fused body is seen."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "The formerly marked grass is clean; no signature or readable text appears."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "The dusk Yamuna lament matches the scene; the five-person count is allowed by plan and caption."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 67,
       "sloka": 9,
       "role": "matte",
       "file": "artifacts/d067/s009/landscape/candidate-v002.png",
@@ -31960,7 +31203,7 @@
         },
         {
           "path": "art/plans/d067.json",
-          "sha256": "ab270a38c3214e246925c19bd34c3ad783f839611793bad8f6a03e2642cacd69"
+          "sha256": "6ff4cd9fa26ba00046e239844fd632d3bcb2fb12b16f92898b8b821adf625ed2"
         },
         {
           "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
@@ -32102,7 +31345,7 @@
       "file": "artifacts/d067/s003/landscape/candidate-v004.png",
       "sha256": "b2295a6848b5da14266d08c5fa22710ad2112a04ba238ca634180c29558ff5df",
       "reviewer": "Codex D067 production worker (producer review)",
-      "role": "producer-review",
+      "role": "matte",
       "inspected_at": "2026-11-13T20:14:44Z",
       "outcome": "needs-fix",
       "method": "Native-resolution exact-image review plus focused Krishna/Radha, hands/limbs and feet crops; compared with v003 and mapped reference.",

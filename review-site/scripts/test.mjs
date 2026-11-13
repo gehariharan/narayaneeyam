@@ -353,7 +353,7 @@ for(const row of full67.rows){
 }
 assert.equal((await feedback(req({...good,daskam:67,sloka:10}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:67,sloka:11}),env)).status,400);
-console.log('Passed: D067 has ten source-mapped rows, version-pinned producer-inspected but unapproved landscape candidates, and stanza-bounded feedback.');
+console.log('Passed: D067 has ten source-mapped rows, version-pinned exact-checksum inspected but unapproved landscape candidates, and stanza-bounded feedback.');
 
 async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {}, staleResponses = {} } = {}) {
  const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);

@@ -373,9 +373,15 @@ D067 contains ten native landscape comparison candidates in
 `art/batches/d067-comparison-v001.json`, matched to the ten numbered source
 photos and verbatim captions. Photos 011–012 remain unmapped text extras.
 Canonical Sanskrit and IAST are sourced from Stotra Nidhi; no English stanza
-translation was supplied. The ten selected versions have producer visual
-reviews bound to their exact checksums, while independent exact-checksum review
-and captain art approval remain pending. Earlier image versions and their
+translation was supplied. S006 v002, S008 v003 and S009 v002 passed fresh
+independent exact-checksum review, and S002 v003, S004 v002, S005 v002 and
+S007 v001 passed the earlier independent review. S001 v002, S003 v002 and S010 v002 remain
+selected under Firstmate direction on earlier independent passes that predate
+the final Krishna identity contract; their later producer reviews recorded the
+forehead mark (and, for S003 and S010, a raised crown ornament) as needs-fix,
+preserved in `art/reviews/d067-*-producer-review-*.md`. Each exact image
+identity keeps one record in `art/reviews/visual-reviews.json`, and captain art
+approval remains pending. Earlier image versions and their
 localized framing findings remain in candidate history. Candidates are
 unapproved, portraits are paused, and translation/editorial review is pending.
 Upload only D067's WebP derivatives with
