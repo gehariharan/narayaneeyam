@@ -347,6 +347,30 @@ assert.equal((await feedback(req({...good,daskam:31,sloka:10}),env)).status,201)
 assert.equal((await feedback(req({...good,daskam:31,sloka:11}),env)).status,400);
 console.log('Passed: D031 has ten caption-mapped rows, both S009 references, pinned unapproved landscape candidates, and stanza-bounded feedback.');
 
+const full36=data.chapters.find(c=>c.id===36);assert.ok(full36);assert.deepEqual(full36.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
+const selected36=JSON.parse(await fs.readFile(new URL('../../art/batches/d036-comparison-v001.json',import.meta.url)));
+const plan36=JSON.parse(await fs.readFile(new URL('../../art/plans/d036.json',import.meta.url)));
+assert.equal(selected36.rows.length,11);assert.equal(selected36.review_status,'needs-review');assert.ok(full36.reviewNotice.includes('unapproved'));
+assert.deepEqual(selected36.rows.map(r=>r.matte.version),['v001','v001','v001','v001','v002','v001','v001','v002','v002','v002','v001']);
+assert.match(selected36.visual_review_status,/S010 v002 retains repeated near-identical faces/);
+for(const row of full36.rows){
+ const scene=plan36.stanzas.find(s=>s.n===row.n);const selected=selected36.rows.find(r=>r.n===row.n);assert.ok(scene&&selected);
+ const refs=selected.references||[selected.reference];assert.equal(row.images.length,refs.length+1);
+ assert.deepEqual(row.images.slice(0,refs.length).map(i=>i.role),Array(refs.length).fill('reference'));
+ for(let i=0;i<refs.length;i++)assert.equal(provenance.find(p=>p.key===row.images[i].key).sourceHash,refs[i].sha256);
+ const matte=row.images.at(-1);assert.equal(matte.role,'matte');assert.equal(matte.version,selected.matte.version);assert.equal(matte.inspectionStatus,'inspected');
+ assert.equal(scene.orientations.landscape.candidate_path,selected.matte.file);assert.equal(scene.orientations.landscape.candidate_sha256,selected.matte.sha256);
+ assert.ok(selected.candidate_history.some(c=>c.selected&&c.version===selected.matte.version&&c.sha256===selected.matte.sha256));
+ const producerPath=selected.notes.match(/`(art\/reviews\/d036-s\d{3}-landscape-v\d{3}-producer-v001\.md)`/)?.[1];assert.ok(producerPath);
+ const producer=await fs.readFile(new URL('../../'+producerPath,import.meta.url),'utf8');assert.ok(producer.includes(`SHA-256 \`${selected.matte.sha256}\``));assert.ok(producer.includes('Review role: producer'));
+}
+assert.equal(selected36.rows.reduce((sum,r)=>sum+(r.references||[r.reference]).filter(ref=>ref?.file.startsWith('intake/D036/')).length,0),20);
+assert.match(plan36.stanzas.find(s=>s.n===10).orientations.landscape.candidate_status,/repeated background ancestor faces/);
+assert.match(selected36.rows.find(r=>r.n===10).producer_deviation,/captain art approval is pending/);
+assert.equal((await feedback(req({...good,daskam:36,sloka:11}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:36,sloka:12}),env)).status,400);
+console.log('Passed: D036 has eleven source-mapped, checksum-pinned landscape comparisons, producer reports, preserved candidate versions, explicit unapproved status, and stanza-bounded feedback.');
+
 const full66=data.chapters.find(c=>c.id===66);assert.ok(full66);assert.deepEqual(full66.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content66=JSON.parse(await fs.readFile(new URL('../../content/daskams/d066.json',import.meta.url)));
 const selected66=JSON.parse(await fs.readFile(new URL('../../art/batches/d066-comparison-v001.json',import.meta.url)));

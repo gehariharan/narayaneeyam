@@ -379,7 +379,7 @@ totals must be recalculated if the base advances.
 
 ## Dasakam 36
 
-D036 adds eleven native landscape candidates in `art/batches/d036-comparison-v001.json`. Each stanza may show more than one mapped source photograph; the selection pins all twenty accepted source photos across the eleven rows. Candidate versions and checksums are bound in the batch and scene plan. The current candidates await independent managed full-frame and detail inspection and remain unapproved. The supplied captions are shown as commentary; an English verse translation was not sourced. Portrait production remains paused.
+D036 adds eleven native landscape candidates in `art/batches/d036-comparison-v001.json`. Each stanza may show more than one mapped source photograph; the selection pins all twenty accepted source photos across the eleven rows. Candidate versions and checksums are bound in the batch and scene plan. Producer inspections and final independent exact-checksum records are preserved under `art/reviews/`; all eleven selected candidates pass independent review and remain unapproved. S009 v002’s earlier needs-fix was superseded by a tiebreak pass; both reports remain evidence. S010 v002 has a disclosed repeated-face deviation in the background ancestor row, pending captain art approval. The supplied captions are shown as commentary; an English verse translation was not sourced. Portrait production remains paused.
 
 The comparison builder supports one or more mapped source images per stanza. Every source image is included in bundle hash validation and rendered before the selected candidate. Feedback snapshots include generated candidates only.
 

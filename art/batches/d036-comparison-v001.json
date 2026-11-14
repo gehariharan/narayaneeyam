@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 36,
   "review_status": "needs-review",
-  "visual_review_status": "Independent managed full-frame and detail inspection is required for each exact selected candidate; no D036 candidate has clearance yet. No approval implied.",
+  "visual_review_status": "All eleven selected D036 landscapes pass final independent exact-checksum review against the frozen plan and bound character contracts (reviewers a, b, and c). S009 v002 passes on the tiebreak review; reviewer b’s earlier needs-fix remains preserved as superseded evidence. S010 v002 passes with repeated background ancestor faces explicitly disclosed as present; captain art approval remains pending. All candidates remain unapproved.",
   "description": "Eleven source-mapped D036 native landscape candidates, with every accepted mapped photograph and exact candidate version/hash pinned per stanza.",
-  "review_notice": "Unapproved landscape candidates pending independent visual review. Captions are supplied commentary, not English verse translations; no sourced English translation is available. Portrait production is paused. A comparison does not approve artwork.",
+  "review_notice": "Unapproved landscape candidates for review only. All eleven selected versions pass final independent exact-checksum review; S009’s initial needs-fix was superseded by its exact-plan tiebreak pass. S010 v002 retains disclosed repeated background ancestor faces, pending captain art approval. Captions are supplied commentary, not English verse translations; no sourced English translation is available. Portrait production is paused. A comparison does not approve artwork.",
   "source_mapping_sha256": "48f9e7e43134831f82bf2c4358987b86744f8123b585b38eef5cb7cf01e4ea40",
   "rows": [
     {
@@ -35,7 +35,20 @@
         "displayLabel": "Landscape candidate v001",
         "dimensions_px": "1672x941"
       },
-      "alternates": []
+      "alternates": [],
+      "notes": "Producer review (pass): `art/reviews/d036-s001-landscape-v001-producer-v001.md`; SHA-256 `f2ec6511bf864e802f09dbd2249b37f25e0438fed9057ab2af9d0be0475541f0`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-a-v001.md`; report SHA-256 `708d87190de6eeeb2cfd4734bb52212ce545dd09eaf5eb75f88b16cc8b6f421b`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "Dattatreya and his consort sit beside the kneeling king; each has one head and the visible human hands join to their arms. The eight boon motifs are pictorial icons in cloud shapes, with no legible lettering. Full bodies and the resting cow remain within frame; enlarged corner views show no signature-like mark.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s001/landscape/candidate-v001.png",
+          "sha256": "9178f6f2d471f079c3d236900b5768ab9cbadef243990ae7ff7efa28b7653a48",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s001-landscape-v001-producer-v001.md"
+        }
+      ]
     },
     {
       "n": 2,
@@ -65,7 +78,20 @@
         "displayLabel": "Landscape candidate v001",
         "dimensions_px": "1672x941"
       },
-      "alternates": []
+      "alternates": [],
+      "notes": "Producer review (pass): `art/reviews/d036-s002-landscape-v001-producer-v001.md`; SHA-256 `c135a503ed8ad970ce6efd69c54a9c4c41ff658c13940d9040089e855928c6a3`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-a-v001.md`; report SHA-256 `708d87190de6eeeb2cfd4734bb52212ce545dd09eaf5eb75f88b16cc8b6f421b`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "Renuka supports the swaddled newborn across both forearms while Jamadagni stands with joined hands; the infant is visibly much smaller than the adults and is not equipped as a warrior. Their feet and the infant are inside the frame. Detail views show no extra fingers, detached hands, readable text, or signature-like mark.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s002/landscape/candidate-v001.png",
+          "sha256": "f2fa6e891acf46d0c5890db1b394a9c48adbcfd59c18f6ae37acc8fe0bb613de",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s002-landscape-v001-producer-v001.md"
+        }
+      ]
     },
     {
       "n": 3,
@@ -95,7 +121,20 @@
         "version": "source-1",
         "label": "Mapped visual reference",
         "displayLabel": "Mapped reference 1"
-      }
+      },
+      "notes": "Producer review (pass): `art/reviews/d036-s003-landscape-v001-producer-v001.md`; SHA-256 `673ed6c42b71fc728b32e867ffd82117d6e45d6ec045c59e69101daaaeee95e5`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-a-v001.md`; report SHA-256 `708d87190de6eeeb2cfd4734bb52212ce545dd09eaf5eb75f88b16cc8b6f421b`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "The single standing Parashurama keeps his axe lowered and away from Renuka; Jamadagni raises one blessing hand. Renuka is upright, and the broken garland lies on the ground rather than touching a body. The three human figures have distinct faces and connected limbs; no blood, text, or signature-like mark is visible.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s003/landscape/candidate-v001.png",
+          "sha256": "093d56231032d6d393f6b23eb800818ddd1da4a0ac40b12b74a2846076fa1fc5",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s003-landscape-v001-producer-v001.md"
+        }
+      ]
     },
     {
       "n": 4,
@@ -125,7 +164,20 @@
         "displayLabel": "Landscape candidate v001",
         "dimensions_px": "1672x941"
       },
-      "alternates": []
+      "alternates": [],
+      "notes": "Producer review (pass): `art/reviews/d036-s004-landscape-v001-producer-v001.md`; SHA-256 `344af81ea4ea076453a0174965b00cc0a0bb391965066a1f36c34dd37948e1e1`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-a-v001.md`; report SHA-256 `708d87190de6eeeb2cfd4734bb52212ce545dd09eaf5eb75f88b16cc8b6f421b`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "The image uses two separate narrative moments: Parashurama receives the axe from seated Shiva in the foreground and a second depiction walks back toward the hermitage with Akruthavrana. The repeated protagonist reads as sequential storytelling, not a fused body. Shiva and each Parashurama depiction have one head and two arms; the axe exchange is legible, and the cow and companion are fully in frame. No text or signature-like mark is visible.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s004/landscape/candidate-v001.png",
+          "sha256": "487f51c29216f944e7b49051eec1dd6f322eed6b09f33b28b0738d23e355db3c",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s004-landscape-v001-producer-v001.md"
+        }
+      ]
     },
     {
       "n": 5,
@@ -148,14 +200,35 @@
         }
       ],
       "matte": {
-        "file": "artifacts/d036/s005/landscape/candidate-v001.png",
-        "sha256": "d8b8524f787cf881e9c6e189ab7a2dcc22baa5fd5541908de5bdbfeb40b8e553",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d036/s005/landscape/candidate-v002.png",
+        "sha256": "ba17a24de815ef8f08e61ff3d0ca89b829a2cf306a5a6236f494d51e7f7585cc",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
         "dimensions_px": "1672x941"
       },
-      "alternates": []
+      "alternates": [],
+      "notes": "Producer review (pass): `art/reviews/d036-s005-landscape-v002-producer-v001.md`; SHA-256 `4f1bd6eee3dd4decaef7f1567950cef76303e7bd1f197b9850639ab7c9cc1c89`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-a-v001.md`; report SHA-256 `708d87190de6eeeb2cfd4734bb52212ce545dd09eaf5eb75f88b16cc8b6f421b`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "The king and attendants occupy the left, Jamadagni refuses the request at the hermitage, and the calf is led away with its mother still present. Parashurama is absent as required by this moment. The calf’s four legs and the handlers’ visible arms connect to their bodies; the rope reaches the calf’s neck. Detail views show no readable marks or cropped main-figure extremities.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s005/landscape/candidate-v001.png",
+          "sha256": "d8b8524f787cf881e9c6e189ab7a2dcc22baa5fd5541908de5bdbfeb40b8e553",
+          "selected": false,
+          "disposition": "superseded",
+          "historical_observation": "Historical v001 producer finding: Parashurama appeared too early in the scene and faint glyph-like marks were noted; superseded by v002. Historical only; not fresh clearance."
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d036/s005/landscape/candidate-v002.png",
+          "sha256": "ba17a24de815ef8f08e61ff3d0ca89b829a2cf306a5a6236f494d51e7f7585cc",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s005-landscape-v002-producer-v001.md"
+        }
+      ]
     },
     {
       "n": 6,
@@ -185,7 +258,20 @@
         "displayLabel": "Landscape candidate v001",
         "dimensions_px": "1672x941"
       },
-      "alternates": []
+      "alternates": [],
+      "notes": "Producer review (pass): `art/reviews/d036-s006-landscape-v001-producer-v001.md`; SHA-256 `124a0b6c7935cf971fde7b8d9a6d68bdcb0bfecaaa9b2145a7d8d662da6fbea4`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-a-v001.md`; report SHA-256 `708d87190de6eeeb2cfd4734bb52212ce545dd09eaf5eb75f88b16cc8b6f421b`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "Parashurama rides in the chariot beside Akruthavrana, facing the walled city; the two horses are harnessed to the vehicle. Both riders have two visible arms, and the horse legs remain distinguishable under the harness despite overlap. The chariot wheel, reins, and figures stay within the frame; no legible text or signature-like mark appears.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s006/landscape/candidate-v001.png",
+          "sha256": "a8380807eebd8e888fde808453cd1f3613992e2f69cb62dc84625454ac813ae1",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s006-landscape-v001-producer-v001.md"
+        }
+      ]
     },
     {
       "n": 7,
@@ -215,7 +301,20 @@
         "displayLabel": "Landscape candidate v001",
         "dimensions_px": "1672x941"
       },
-      "alternates": []
+      "alternates": [],
+      "notes": "Producer review (pass): `art/reviews/d036-s007-landscape-v001-producer-v001.md`; SHA-256 `3f6c70d4bbceb2e71db3cf48a212a471c04c5000e189ffdbb3678957da54ebb6`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-b-v001.md`; report SHA-256 `897093417c2ad57e54c64b272564f588d8643253073678d383e4aacc060e00f3`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "Parashurama and Kārtavīrya face each other across the battlefield, each with one head and two attached arms; the king holds the reins while Parashurama’s axe and bow remain separate from his body. Background soldiers and horses read as a crowd rather than fused foreground figures. Some peripheral battle forms meet the frame edge, but neither principal figure nor their extremities are cut. No legible text or signature-like mark is visible.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s007/landscape/candidate-v001.png",
+          "sha256": "9b1b8853191d4fc1be4f00a50d03ee3585a35b65fe84cc343d4c06e491efb951",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s007-landscape-v001-producer-v001.md"
+        }
+      ]
     },
     {
       "n": 8,
@@ -245,7 +344,28 @@
         "displayLabel": "Landscape candidate v002",
         "dimensions_px": "1672x941"
       },
-      "alternates": []
+      "alternates": [],
+      "notes": "Producer review (pass): `art/reviews/d036-s008-landscape-v002-producer-v001.md`; SHA-256 `78fdd8ff733778595bf6741977eac3c576366521735b0e47f07ec89c94cd1fa7`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-b-v001.md`; report SHA-256 `897093417c2ad57e54c64b272564f588d8643253073678d383e4aacc060e00f3`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "Kārtavīrya’s many radiating arms are attached to one central torso as the intentional thousand-arm motif, and his legs remain separate and connected. Parashurama has two arms. The blue two-armed Guruvayurappan image is a distinct devotional apparition, not an extra human in the battle; his raised blessing hand and open lower hand are both attached. The lower-right praying figure is separate. No legible lettering or signature-like mark appears.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s008/landscape/candidate-v001.png",
+          "sha256": "f82ce8ff226b58101153c7c97c7430d21fb112e6e6cf227933f61665f8fec756",
+          "selected": false,
+          "disposition": "superseded",
+          "historical_observation": "Superseded candidate retained for version history; not selected and no current review clearance claimed."
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d036/s008/landscape/candidate-v002.png",
+          "sha256": "783242511d1e75ea40d657eee00f34e721d4b8f763f6b5550e01e8643efc8fe2",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s008-landscape-v002-producer-v001.md"
+        }
+      ]
     },
     {
       "n": 9,
@@ -268,14 +388,49 @@
         }
       ],
       "matte": {
-        "file": "artifacts/d036/s009/landscape/candidate-v001.png",
-        "sha256": "4efb2e1d945eaaef4318807592758cac23bb8786b8b3b0508fb6ba951fa3ecd0",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d036/s009/landscape/candidate-v002.png",
+        "sha256": "2b76fe4955bc194a541568b2d378542065ab520d6cb836c26dd8df0ad7d6b86f",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
         "dimensions_px": "1672x941"
       },
-      "alternates": []
+      "alternates": [],
+      "notes": "Producer review (pass): `art/reviews/d036-s009-landscape-v002-producer-v001.md`; SHA-256 `359954757bf2eb792bfea13e2eec6463fcecf2f8fdf71f3e874c7dc32aff3c8d`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-c-v001.md`; report SHA-256 `f3ffd3c8853fb2735437c290245f8b0ec559bdd87fe1eb7a7581df3b1b11f10c`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "Jamadagni lies on a cloth with his hands visible and attached; Renuka bends beside his head, and Parashurama sits with one hand at the shoulder and the other on his thigh. The axe rests on the ground without contacting anyone. The scene is non-graphic, with no visible blood, readable text, or signature-like mark; the principal figures stay inside frame.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s009/landscape/candidate-v001.png",
+          "sha256": "4efb2e1d945eaaef4318807592758cac23bb8786b8b3b0508fb6ba951fa3ecd0",
+          "selected": false,
+          "disposition": "superseded",
+          "historical_observation": "Historical v001 producer finding: an apparent third hand on Parashurama was noted; superseded by v002. Historical only; not fresh clearance."
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d036/s009/landscape/candidate-v002.png",
+          "sha256": "2b76fe4955bc194a541568b2d378542065ab520d6cb836c26dd8df0ad7d6b86f",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s009-landscape-v002-producer-v001.md"
+        }
+      ],
+      "review_history": [
+        {
+          "report": "art/reviews/d036-independent-review-b-v001.md",
+          "sha256": "897093417c2ad57e54c64b272564f588d8643253073678d383e4aacc060e00f3",
+          "outcome": "needs-fix",
+          "status": "superseded by exact-plan S009 tiebreak pass in report c; original report retained as evidence."
+        },
+        {
+          "report": "art/reviews/d036-independent-review-c-v001.md",
+          "sha256": "f3ffd3c8853fb2735437c290245f8b0ec559bdd87fe1eb7a7581df3b1b11f10c",
+          "outcome": "pass",
+          "status": "final exact-checksum review"
+        }
+      ]
     },
     {
       "n": 10,
@@ -298,14 +453,36 @@
         }
       ],
       "matte": {
-        "file": "artifacts/d036/s010/landscape/candidate-v001.png",
-        "sha256": "7da10b8c7e2afec4cd315088f39a94518d5175f96e9aa1f5ca6fb3a5da12af56",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001",
+        "file": "artifacts/d036/s010/landscape/candidate-v002.png",
+        "sha256": "e46d6e3f24ebc16e5eecae06a98819197d61ea534043b9bddad0d46caab4625c",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
         "dimensions_px": "1672x941"
       },
-      "alternates": []
+      "alternates": [],
+      "producer_deviation": "Repeated background ancestor faces remain in the selected image; the three foreground Sanatkumara sages are distinct. Disclosed; captain art approval is pending.",
+      "notes": "Producer review (needs-fix): `art/reviews/d036-s010-landscape-v002-producer-v001.md`; SHA-256 `ed2e40e9f86b8dd844d895a000859b283c6abaf9ff42ee5ef234afedfc9cac46`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-b-v001.md`; report SHA-256 `897093417c2ad57e54c64b272564f588d8643253073678d383e4aacc060e00f3`. No artwork approval implied.",
+      "producer_review_status": "needs-fix",
+      "producer_finding": "The three foreground Sanatkumara sages have distinct faces and gestures, and Parashurama pours water into the pool with connected arms and hands. In the row behind Jamadagni, several ancestor figures repeat near-identical facial patterns; this remains a visible crowd-duplication deviation despite the improved foreground. The pool is dark earth-brown/ochre rather than a clear blood pool. No readable text or signature-like mark is visible.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s010/landscape/candidate-v001.png",
+          "sha256": "7da10b8c7e2afec4cd315088f39a94518d5175f96e9aa1f5ca6fb3a5da12af56",
+          "selected": false,
+          "disposition": "superseded",
+          "historical_observation": "Historical v001 review was uncertain because background ancestors repeated and the pool read blood-red; superseded by v002. Historical only; not fresh clearance."
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d036/s010/landscape/candidate-v002.png",
+          "sha256": "e46d6e3f24ebc16e5eecae06a98819197d61ea534043b9bddad0d46caab4625c",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s010-landscape-v002-producer-v001.md"
+        }
+      ]
     },
     {
       "n": 11,
@@ -335,7 +512,20 @@
         "version": "source-1",
         "label": "Mapped visual reference",
         "displayLabel": "Mapped reference 1"
-      }
+      },
+      "notes": "Producer review (pass): `art/reviews/d036-s011-landscape-v001-producer-v001.md`; SHA-256 `0b160f6fa5fd3699ce0425c9e4a4ca1a7bb6472c9432ed1c3fbe2314e8ad45ab`. Independent exact-checksum review is recorded; candidate remains unapproved. Final independent exact-checksum review: `art/reviews/d036-independent-review-b-v001.md`; report SHA-256 `897093417c2ad57e54c64b272564f588d8643253073678d383e4aacc060e00f3`. No artwork approval implied.",
+      "producer_review_status": "pass",
+      "producer_finding": "Parashurama meditates above the western sea; the ocean deity appears separately at the waterline with joined hands. Parashurama has one head and two connected arms, and his seated legs remain within frame. The flame-tipped projectile and shoreline are distinct from the figure; no gore, legible text, or signature-like mark is visible.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d036/s011/landscape/candidate-v001.png",
+          "sha256": "4f2402cf102995ab14f70e9bfd045eccbcd8fe08e1292fdc4ff3c9beaee262da",
+          "selected": true,
+          "disposition": "selected",
+          "producer_review": "art/reviews/d036-s011-landscape-v001-producer-v001.md"
+        }
+      ]
     }
   ]
 }
