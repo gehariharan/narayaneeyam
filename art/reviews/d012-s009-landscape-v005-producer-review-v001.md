@@ -18,7 +18,7 @@ The single boar has a calm, playful quadruped posture. One Earth globe rests at 
 ## Contract hashes
 
 - `art/bible/series.json` — SHA-256 `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`.
-- `art/plans/d012.json` — SHA-256 `85fa893df99617e4ed253975866a85c3aba6a8f4efc7434790e9c6b9be9aa03b`.
+- `art/plans/d012.json` — SHA-256 `197295e16e6524ab1747c8583aad0b1f324c733cb8a289c7a9066a6295b1d7ac`.
 - `content/daskams/d012.json` — SHA-256 `55f9a97f0f6a9392727cbaeba1af126dc4e78a15a16d26a353243c3e8d5545b0`.
 - `art/bible/characters/varaha/character.json` — SHA-256 `76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3`.
 

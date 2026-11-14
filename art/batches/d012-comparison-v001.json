@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 12,
   "review_status": "needs-review",
-  "visual_review_status": "Revised plan SHA-256 85fa893df99617e4ed253975866a85c3aba6a8f4efc7434790e9c6b9be9aa03b awaits fresh independent exact-byte review of all ten selected landscape raws; recorded review records are bound to the superseded plan. S003 v008 producer review finds the boar is not shown emerging from Brahma’s nostril. S005 v003: independent reviewer A flagged missing literal mountain forms (needs-fix; art/reviews/d012-independent-review-a-s001-s005-v001.md) and reviewer C tiebreak passed it (art/reviews/d012-independent-review-c-s005-v001.md). No artwork is approved.",
-  "description": "Ten dasakam 12 landscape candidates paired with ten verified intake references. S003 v008 is the new native 16:9 selection; v007 is retained as history. Historic review evidence is retained: the exact text of the 18 superseded dasakam 12 review records is archived in art/reviews/d012-superseded-records-v001.json, and the needs-fix versions of S001, S002, S004, S007 (v004 and v005), S008, S009 and S010 remain preserved history. Artwork remains unapproved.",
-  "review_notice": "Fresh independent exact-byte review against the revised dasakam 12 plan is pending for all ten selected landscape raws. Open findings stay open until reviewed: S003 v008 does not show the boar emerging from Brahma’s nostril, and S005 v003 carries a reviewer A needs-fix and a reviewer C tiebreak pass on the missing mountain forms. Portraits remain paused. This comparison batch does not grant art approval.",
+  "visual_review_status": "Revised plan SHA-256 197295e16e6524ab1747c8583aad0b1f324c733cb8a289c7a9066a6295b1d7ac awaits fresh independent exact-byte review of all ten selected landscape raws; recorded review records are bound to a superseded plan. S003 v009 producer review finds the boar touching Brahma’s nostril with its rear flank while its head and forequarters point outward, so it reads tail-first rather than snout-first emergence. S005 v003: independent reviewer A flagged missing literal mountain forms (needs-fix; art/reviews/d012-independent-review-a-s001-s005-v001.md) and reviewer C tiebreak passed it (art/reviews/d012-independent-review-c-s005-v001.md). No artwork is approved.",
+  "description": "Ten dasakam 12 landscape candidates paired with ten verified intake references. S003 v009 is the new native 16:9 selection; v008 and v007 are retained as history. Historic review evidence is retained: the exact text of the 18 superseded dasakam 12 review records is archived in art/reviews/d012-superseded-records-v001.json, and the needs-fix versions of S001, S002, S004, S007 (v004 and v005), S008, S009 and S010 remain preserved history. Artwork remains unapproved.",
+  "review_notice": "Fresh independent exact-byte review against the revised dasakam 12 plan is pending for all ten selected landscape raws. Open findings stay open until reviewed: S003 v009 shows the boar touching Brahma’s nostril tail-first rather than emerging snout-first, and S005 v003 carries a reviewer A needs-fix and a reviewer C tiebreak pass on the missing mountain forms. Portraits remain paused. This comparison batch does not grant art approval.",
   "superseded_review_records": {
     "path": "art/reviews/d012-superseded-records-v001.json",
     "sha256": "5ca49842c13a4c47b60612645d292c6bcaf074c1bbc9b3ef2269b4a358c30b6b"
@@ -67,17 +67,20 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d012/s003/landscape/candidate-v008.png",
-        "sha256": "4afcf91061f564c7e0efc1dbc8d5e85e43fead0d14280249b7087fd7b8517850",
-        "version": "v008",
-        "label": "Landscape candidate v008",
-        "displayLabel": "Landscape candidate v008"
+        "file": "artifacts/d012/s003/landscape/candidate-v009.png",
+        "sha256": "1b0d6668eb648a358dae1f144578d7f1668be3d824f7e2b03cea27db373e66db",
+        "version": "v009",
+        "label": "Landscape candidate v009",
+        "displayLabel": "Landscape candidate v009"
       },
       "alternates": [],
       "history": {
-        "previous_selected_version": "v007",
-        "previous_sha256": "42bba9f8efdf584f50f2dc807e2205d6b9df83d3f1280fe6576eeeb0dd5ca855",
-        "status": "retained as superseded history after producer comparison found an unmarked natural brown boar touching Brahma’s nostril without a clear divine emergence and no sinking-Earth context; candidate and its review record (art/reviews/d012-superseded-records-v001.json) remain available for audit"
+        "previous_selected_version": "v008",
+        "previous_sha256": "4afcf91061f564c7e0efc1dbc8d5e85e43fead0d14280249b7087fd7b8517850",
+        "status": "retained as needs-fix history: the producer review found the boar detached from Brahma’s nostril, linked only by fine painted wisps; candidate remains available for audit",
+        "earlier_selected_version": "v007",
+        "earlier_sha256": "42bba9f8efdf584f50f2dc807e2205d6b9df83d3f1280fe6576eeeb0dd5ca855",
+        "earlier_status": "retained as superseded history after producer comparison found an unmarked natural brown boar touching Brahma’s nostril without a clear divine emergence and no sinking-Earth context; candidate and its review record (art/reviews/d012-superseded-records-v001.json) remain available for audit"
       }
     },
     {
