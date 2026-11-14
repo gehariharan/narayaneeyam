@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 28,
   "review_status": "needs-review",
-  "visual_review_status": "Producer full-frame/detail self-checks only; independent managed inspection of all ten exact selections is required before handoff. All seventeen native versions and failed findings remain preserved. No art approval.",
-  "description": "Ten reference-backed native landscape candidates. Stanza 2 draws on five distinct mapped subject references; its lead reference is 002. Source 008,009 and014 are broad icons; literal narrative action follows the cited verse and supplied captions. No failed versions are public alternates.",
-  "review_notice": "These are unapproved landscape candidates. Producer self-checks do not provide independent clearance. Portraits are paused, sourced English translations are absent, and caption commentary is separate. Publishing this comparison does not approve artwork.",
+  "visual_review_status": "Independent exact-checksum visual reviews by d028-review-f (S001–S005) and d028-review-h (S006–S010) pass all ten selected landscape candidates against the final plan and character contracts. S004 crown and necklace ornament levels are disclosed observations. All candidates remain unapproved.",
+  "description": "Narayaneeyam dasakam 28: ten reference-backed native landscape candidates. Stanza 2 displays five distinct mapped source photographs; its lead reference is 002. Source 008, 009 and 014 are broad icons; narrative actions follow the cited verses and supplied captions.",
+  "review_notice": "Narayaneeyam dasakam 28 presents unapproved landscape candidates. Producer self-checks are not independent clearance. Portraits are paused, sourced English translations are absent, and caption commentary is separate. Publishing this comparison does not approve artwork.",
   "rows": [
     {
       "n": 1,
@@ -18,11 +18,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d028/s001/landscape/v002/candidate.png",
-        "sha256": "51d4d94b1eeaa5bcc9b9165c2d49fa3d34188c224b3c3d17252e91473d05402d",
-        "version": "v002",
-        "label": "Landscape candidate v002",
-        "displayLabel": "Landscape candidate v002"
+        "file": "artifacts/d028/s001/landscape/v003/candidate-v003.png",
+        "sha256": "fef132dc39aee38e9301127090202433b0226cb3ec70e0828a3f1aff61a6338a",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003"
       },
       "alternates": []
     },
@@ -30,13 +30,6 @@
       "n": 2,
       "concept_id": "d028-s002",
       "scene": "The treasures of the churned ocean",
-      "reference": {
-        "file": "intake/D028/002.jpg",
-        "sha256": "d0405f0f573007778c3109f721571fe41ea7d7582e3f3877b80cab46f446fa00",
-        "version": "source",
-        "label": "Original subject reference",
-        "displayLabel": "Original reference"
-      },
       "matte": {
         "file": "artifacts/d028/s002/landscape/v002/candidate.png",
         "sha256": "3b7127f4f1320b2d9efe9c60b6e336aec0cbc7802fcaafc01aadaeb0214b0de9",
@@ -44,7 +37,44 @@
         "label": "Landscape candidate v002",
         "displayLabel": "Landscape candidate v002"
       },
-      "alternates": []
+      "alternates": [],
+      "references": [
+        {
+          "file": "intake/D028/002.jpg",
+          "sha256": "d0405f0f573007778c3109f721571fe41ea7d7582e3f3877b80cab46f446fa00",
+          "version": "source-002",
+          "label": "Mapped stanza 2 subject reference",
+          "displayLabel": "Original reference #002"
+        },
+        {
+          "file": "intake/D028/003.jpg",
+          "sha256": "21fa2b41df5011506fce961d4882a163e9c072d4e0698f3c52b030c83bebc227",
+          "version": "source-003",
+          "label": "Mapped stanza 2 subject reference",
+          "displayLabel": "Original reference #003"
+        },
+        {
+          "file": "intake/D028/004.jpg",
+          "sha256": "21e7b3d39df6f9b631a7b56a165f0ccbdb9bd1f2a70e4246e48634f40e129aca",
+          "version": "source-004",
+          "label": "Mapped stanza 2 subject reference",
+          "displayLabel": "Original reference #004"
+        },
+        {
+          "file": "intake/D028/005.jpg",
+          "sha256": "ade584cae45bb7774d492db2c5beb45dc18e9be581ce51ba3bea6a4fd203fb7c",
+          "version": "source-005",
+          "label": "Mapped stanza 2 subject reference",
+          "displayLabel": "Original reference #005"
+        },
+        {
+          "file": "intake/D028/006.jpg",
+          "sha256": "1726a414a2ee471091e721ad73c31fec34527a87ef123379dc05531f1b259027",
+          "version": "source-006",
+          "label": "Mapped stanza 2 subject reference",
+          "displayLabel": "Original reference #006"
+        }
+      ]
     },
     {
       "n": 3,
@@ -58,11 +88,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d028/s003/landscape/v002/candidate.png",
-        "sha256": "1956983159c5db8398c9bdb5c7ae2f3591f3b047bae309e41db0b43d304fa089",
-        "version": "v002",
-        "label": "Landscape candidate v002",
-        "displayLabel": "Landscape candidate v002"
+        "file": "artifacts/d028/s003/landscape/v003/candidate-v003.png",
+        "sha256": "18dedf79c611cf175753ce3507d2d2c2766958c94812ec7fbc2be7754553dbba",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003"
       },
       "alternates": []
     },
@@ -78,11 +108,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d028/s004/landscape/v001/candidate.png",
-        "sha256": "457a723c1cf9e9f699559c685caf781b2aa97d7977eb86bdc0911e24580c0deb",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001"
+        "file": "artifacts/d028/s004/landscape/v002/candidate-v002.png",
+        "sha256": "5b980054a5edc4cd41095bdf72a23f60b520ad5027588a1e672e79faacd2896f",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
       },
       "alternates": []
     },
@@ -98,11 +128,11 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d028/s005/landscape/v002/candidate.png",
-        "sha256": "2a51f55e8a822e0d843cc5a2961077c789a50a41f83da8fb4c6050763b4afab6",
-        "version": "v002",
-        "label": "Landscape candidate v002",
-        "displayLabel": "Landscape candidate v002"
+        "file": "artifacts/d028/s005/landscape/v003/candidate-v003.png",
+        "sha256": "07f2717d8c29af578e68651859e7e0947ca798b33b02b61a45a7ba81c82aaf81",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003"
       },
       "alternates": []
     },
@@ -198,13 +228,472 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d028/s010/landscape/v001/candidate.png",
-        "sha256": "979dd7f3695f4e242d24943ed940d9717a4a080a3e8dd4660adc6cb07b7fbf87",
-        "version": "v001",
-        "label": "Landscape candidate v001",
-        "displayLabel": "Landscape candidate v001"
+        "file": "artifacts/d028/s010/landscape/v002/candidate-v002.png",
+        "sha256": "3d29ebac0bfb1fcf893fb79c6d91b7b12663ccbed44a6c49c8b81e8f411cbed7",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
       },
       "alternates": []
+    }
+  ],
+  "candidate_status": "Unapproved; independent exact-checksum review is recorded.",
+  "candidate_history": [
+    {
+      "stanza": 1,
+      "concept_id": "d028-s001",
+      "version": "v001",
+      "file": "artifacts/d028/s001/landscape/v001/candidate.png",
+      "sha256": "dabe24821d5468369d0861fe813e4a872738ec23fad0a38627a559c3481604d5",
+      "prompt": "artifacts/d028/s001/landscape/v001/prompt.txt",
+      "prompt_sha256": "7bc70442a78146c02475a32e42dd20e05410621eda2190b9b139df8fec249b57",
+      "generation_record": "artifacts/d028/s001/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "554d7254c6f59b22ef9eaf7ec211eefab35ee69bf7520feafc088f3afbf9c4ff",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "Shiva has two continuous arms, conch drinking contact, blue throat and readable seated form. Both prayer witnesses have coherent arms, but repeat near-identical faces/crowns."
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d028-s001",
+      "version": "v002",
+      "file": "artifacts/d028/s001/landscape/v002/candidate.png",
+      "sha256": "51d4d94b1eeaa5bcc9b9165c2d49fa3d34188c224b3c3d17252e91473d05402d",
+      "prompt": "artifacts/d028/s001/landscape/v002/prompt.txt",
+      "prompt_sha256": "2c79b506d2ba50002f4338574aca003409195ffae5a55f2b28d9ccd1e852b49b",
+      "generation_record": "artifacts/d028/s001/landscape/v002/generation-provenance.json",
+      "generation_record_sha256": "6fa1586e553de3b22cff5c531916d404e4d629ba81d45eda32a3cd55dae29a63",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "The native lower-frame crop confirms Shiva’s bare foot is intersected by the bottom edge; v003 moves the seated figure up and restores complete feet with visible water below.",
+      "producer_report": "art/reviews/d028-s001-v002-producer-review-v002.md",
+      "producer_report_sha256": "936b1f48a5c2dcb37320a3eaa0dea3bc96d0edf84dde2946bed112a9e063e6d8",
+      "producer_followup_report": "art/reviews/d028-s001-v002-producer-followup-v001.md",
+      "producer_followup_report_sha256": "e00552bec30470db936aa633a38124d1e04f715be40f7b7cdc44ed0260fe1642"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d028-s002",
+      "version": "v001",
+      "file": "artifacts/d028/s002/landscape/v001/candidate.png",
+      "sha256": "b2600107db0848bda07e4491d6b944745d77af9a7647b518aee9a8eb22b009de",
+      "prompt": "artifacts/d028/s002/landscape/v001/prompt.txt",
+      "prompt_sha256": "ac5639743f207652ffe57aaf075d88053f2335b2c89e948c0d76e3a9fd505d55",
+      "generation_record": "artifacts/d028/s002/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "2f49cf135c14dd62b55f2ebae4bb1ba1a91d6d273eee63b76dbe574bd0d48a80",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "Exactly seven horse heads and four attached horse legs, four elephant tusks and four legs, four-legged cow, tree and two distinct sages inspected. Two apsaras repeat very similar faces, hair and costume."
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d028-s002",
+      "version": "v002",
+      "file": "artifacts/d028/s002/landscape/v002/candidate.png",
+      "sha256": "3b7127f4f1320b2d9efe9c60b6e336aec0cbc7802fcaafc01aadaeb0214b0de9",
+      "prompt": "artifacts/d028/s002/landscape/v002/prompt.txt",
+      "prompt_sha256": "d2a4ddfd7dd90a2c662fb63c77e898d0458959e56790e1bee6accd548ab8f163",
+      "generation_record": "artifacts/d028/s002/landscape/v002/generation-provenance.json",
+      "generation_record_sha256": "25b4df975a80bd1b4b407907e31e6125c5785385174ae4a905302adaaa19090f",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop producer review against the final plan; see image-specific observations in the bound report.",
+      "producer_report": "art/reviews/d028-s002-v002-producer-review-final-v001.md",
+      "producer_report_sha256": "41bca3249bba36dd06bb9a17a60864d00fe6f43261cb459c46e5bdba7db68fc3",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s002-v002-producer-review-v002.md",
+          "sha256": "2d11d8bf6c0cfc8036a20cc19568f7e87141109c7c797e5f6d577b4054c36c4e"
+        },
+        {
+          "path": "art/reviews/d028-s002-v002-producer-review-v003.md",
+          "sha256": "0ca46e8a7be773a405cd2c41a793f43ccdf9003140e756000cb9eaef71b35ca9"
+        }
+      ]
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d028-s003",
+      "version": "v001",
+      "file": "artifacts/d028/s003/landscape/v001/candidate.png",
+      "sha256": "eb6800170ebd831c79c3949f0348dba0fd3c4e7a1d971a884aceb7190730bd46",
+      "prompt": "artifacts/d028/s003/landscape/v001/prompt.txt",
+      "prompt_sha256": "7ca2e1bdbc8791faacd3ebd62ed35054092f515611e80a468a11cb7a4cb4a452",
+      "generation_record": "artifacts/d028/s003/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "ece4e77aff90764a96613597765661b91cd2269e4001e6f8fe89d9c6c79309a7",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "Two connected Lakshmi arms, lotus and blessing hand; single emergence figure. Right generic witness is blue and violates its warm-brown group identity."
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d028-s003",
+      "version": "v002",
+      "file": "artifacts/d028/s003/landscape/v002/candidate.png",
+      "sha256": "1956983159c5db8398c9bdb5c7ae2f3591f3b047bae309e41db0b43d304fa089",
+      "prompt": "artifacts/d028/s003/landscape/v002/prompt.txt",
+      "prompt_sha256": "a3d4dee46b6e65746b962856cba51359297ac767463f937e98b27e394600ad1c",
+      "generation_record": "artifacts/d028/s003/landscape/v002/generation-provenance.json",
+      "generation_record_sha256": "30287dc45f289e16070bccc65e5af00bb24b96de11bc7adc698a8f7368debdc6",
+      "disposition": "independent-needs-fix-not-selected",
+      "producer_finding": "Lakshmi appears once on the emerging lotus with two attached arms, one raised in blessing and one holding a single lotus. The two shoreline witnesses have separate faces, joined hands and distinct warm complexions; neither is fused with the water or vegetation.",
+      "producer_report": "art/reviews/d028-s003-v002-producer-review-v003.md",
+      "producer_report_sha256": "7030439ca55de76abe422c9ed26ed42f1a923ed997373ecf487d11403857e0eb",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s003-v002-producer-review-v002.md",
+          "sha256": "211ec9463cb357f9dbd79201d36388fbff1ca7ee5212d91c688a3e0901cbe49d"
+        }
+      ],
+      "independent_report": "art/reviews/d028-independent-review-a-v001.md",
+      "independent_report_sha256": "e522471b239ec2311b3aee4c07f4842d012ad37137ddc8db564aba8cdbd7ee36",
+      "independent_finding": "Lakshmi's large tiered crown and layered necklace/belt/armlet/shoulder ornaments exceed the modest proportionate crown and restrained-jewelry limits."
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d028-s004",
+      "version": "v001",
+      "file": "artifacts/d028/s004/landscape/v001/candidate.png",
+      "sha256": "457a723c1cf9e9f699559c685caf781b2aa97d7977eb86bdc0911e24580c0deb",
+      "prompt": "artifacts/d028/s004/landscape/v001/prompt.txt",
+      "prompt_sha256": "0f19ba7a9ef904e329aefa22b6c36d8cb20a51061458d8a90091751f2a4ef08f",
+      "generation_record": "artifacts/d028/s004/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "cd1546082c43ab6c6aa7694140edb4e4d7a8b3a038d23ad63466712611cda885",
+      "disposition": "independent-needs-fix-not-selected",
+      "producer_finding": "Lakshmi is seated once on the jeweled seat with both hands resting together in her lap. Indra kneels at the left with two connected offering arms; the two sages at the right each hold a vessel, and their separate water streams land toward the seated goddess. Her feet and the ritual participants’ visible extremities remain inside the frame.",
+      "producer_report": "art/reviews/d028-s004-v001-producer-review-v003.md",
+      "producer_report_sha256": "ee73b3f1e40f9b8fe0b9ab9c2e2c9f898e8d025322ef77bce97ec6c150ccad35",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s004-v001-producer-review-v002.md",
+          "sha256": "083df0028378c94e787451500b3e9c29fb4d156d7477e46c2fa89ad3edbf3eb9"
+        }
+      ],
+      "independent_report": "art/reviews/d028-independent-review-a-v001.md",
+      "independent_report_sha256": "e522471b239ec2311b3aee4c07f4842d012ad37137ddc8db564aba8cdbd7ee36",
+      "independent_finding": "Indra's bright red shawl, tall ornate crown and layered jewelry conflict with his modest ochre crown, cream dhoti and muted saffron shawl; Lakshmi's regalia is too lavish relative to the restrained contract."
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d028-s005",
+      "version": "v001",
+      "file": "artifacts/d028/s005/landscape/v001/candidate.png",
+      "sha256": "2bf19a057745d62498cbd97c08e6f94b90663cc5d70247cde9dc45c482482116",
+      "prompt": "artifacts/d028/s005/landscape/v001/prompt.txt",
+      "prompt_sha256": "9277593a8f06d2999c8dbd0f6c8dc1b61b274d13b88793bb876e302ff370cf8d",
+      "generation_record": "artifacts/d028/s005/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "bb55cdd048fd0cd2cc7858e8ed898dabafebb3636ffabf69b9b80c88d0171232",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "Two-arm yellow-clad Lakshmi and two distinct two-arm sages with clear pouring pots/streams. Tray witness has blue Krishna-like skin and peacock feather instead of generic deva identity."
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d028-s005",
+      "version": "v002",
+      "file": "artifacts/d028/s005/landscape/v002/candidate.png",
+      "sha256": "2a51f55e8a822e0d843cc5a2961077c789a50a41f83da8fb4c6050763b4afab6",
+      "prompt": "artifacts/d028/s005/landscape/v002/prompt.txt",
+      "prompt_sha256": "4b9513bdbbc97f7b1d9359cbde5e410c4577ac1b68d4f7698bc7d305c5403058",
+      "generation_record": "artifacts/d028/s005/landscape/v002/generation-provenance.json",
+      "generation_record_sha256": "8b4edfe90db45ab5564cd7534672f37744ac8f83f3aa01925c17092c5fef7f58",
+      "disposition": "independent-needs-fix-not-selected",
+      "producer_finding": "Fresh independent review identified the kneeling deva carrying the tray with only one visible arm; one authorized repair was made in v003.",
+      "producer_report": "art/reviews/d028-s005-v002-producer-review-v004.md",
+      "producer_report_sha256": "4a66c35b1091b52a2ccbb3eb09844b12c31f8c04fc63138741e7a85ecae6fb74",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s005-v002-producer-review-v002.md",
+          "sha256": "db7b9017175215b9743ea89db7396cf3520a763c9c3d332020d0940af8d9d949"
+        },
+        {
+          "path": "art/reviews/d028-s005-v002-producer-review-v003.md",
+          "sha256": "f8a814223a3ee3f5b380e1370bdb09dd5c7c5be6514a33b9efd5a3c75a3c07cc"
+        }
+      ],
+      "independent_reports": [
+        "art/reviews/d028-independent-review-c-v001.md",
+        "art/reviews/d028-independent-review-d-v001.md",
+        "art/reviews/d028-independent-review-e-v001.md"
+      ]
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d028-s006",
+      "version": "v001",
+      "file": "artifacts/d028/s006/landscape/v001/candidate.png",
+      "sha256": "8ce8426b1ed9c6c6b28f76c749fe7ff0da119f708e551b0ae9088ca415e04076",
+      "prompt": "artifacts/d028/s006/landscape/v001/prompt.txt",
+      "prompt_sha256": "481bbb6ca96e4c94eb9b1ac2b1f7af6e84bd23be0f0dd38d9d55aca9fb36d2b1",
+      "generation_record": "artifacts/d028/s006/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "8c6dd287af00274e1e03959152faa5bb4b590d80aa319044afef982fe190a6f1",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop producer review against the final plan; see image-specific observations in the bound report.",
+      "producer_report": "art/reviews/d028-s006-v001-producer-review-final-v001.md",
+      "producer_report_sha256": "67f93662d2ccc5e0f380ee76410dbc65673e76b8ea7314851a4a190427061e95",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s006-v001-producer-review-v002.md",
+          "sha256": "7030b021214b96ba48abdce2df701775ac42ff48983767d110a26e6186a3e6bd"
+        },
+        {
+          "path": "art/reviews/d028-s006-v001-producer-review-v003.md",
+          "sha256": "fb3684e844d77b019cc2c6d3b65185fb2797334a2931a72e469af8db0dd51cc5"
+        }
+      ]
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d028-s007",
+      "version": "v001",
+      "file": "artifacts/d028/s007/landscape/v001/candidate.png",
+      "sha256": "c4a7ee25f7e8b3f244d0a5c9a4a627ad740c8fe55a9950fa2bbdf57e1e8d6796",
+      "prompt": "artifacts/d028/s007/landscape/v001/prompt.txt",
+      "prompt_sha256": "2103662c3c2f41306942cab2533cb618d84cfc996b0fdffe52c17838b10a78c4",
+      "generation_record": "artifacts/d028/s007/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "6b9c8a1302f7bfca048872b08d769252b8a9ad39547bd15f2e12014dd4df0c08",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "Two Lakshmi garlanding arms and four Vishnu hands are distinct, but framing cuts off both lower bodies and feet; Vishnu skin reads too grey. Upper scene/action retained for repair."
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d028-s007",
+      "version": "v002",
+      "file": "artifacts/d028/s007/landscape/v002/candidate.png",
+      "sha256": "0b47c8def88aaa7d249fe33ddaabf57d2a5606c7468a24dd39e91f43c5e85424",
+      "prompt": "artifacts/d028/s007/landscape/v002/prompt.txt",
+      "prompt_sha256": "89c23ac062441bb1410b7e0c9acbee3ccf277f1a68bfe27e1ed29b6d8fb4129f",
+      "generation_record": "artifacts/d028/s007/landscape/v002/generation-provenance.json",
+      "generation_record_sha256": "edf99f87079fec0e1fbb9cef3b05a39fe6bdd1a825daef012fee0a9735fc6fac",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop producer review against the final plan; see image-specific observations in the bound report.",
+      "producer_report": "art/reviews/d028-s007-v002-producer-review-final-v001.md",
+      "producer_report_sha256": "c1701428835e3c55d3d969e349f51a590df7d57cfe330e42631a1d7d920d10e0",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s007-v002-producer-review-v002.md",
+          "sha256": "cdda1df74fcd3a60bcfbcf6907c4e92f0d393dc7c9501b2bc79bb1e0d844bdc3"
+        },
+        {
+          "path": "art/reviews/d028-s007-v002-producer-review-v003.md",
+          "sha256": "136bd3d93679aa27daefc7f406b6f61683c811cb6779320642c206c7b43eb343"
+        }
+      ]
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d028-s008",
+      "version": "v001",
+      "file": "artifacts/d028/s008/landscape/v001/candidate.png",
+      "sha256": "e60fe5e26f03bd8e0a74ed40360f22be0420d8a690fa8cc1714e0c033a76817f",
+      "prompt": "artifacts/d028/s008/landscape/v001/prompt.txt",
+      "prompt_sha256": "43eec07b877f62d61fb5ea6cd5ee7ae256f8d6385a5fcdde8cc5c11013de2391",
+      "generation_record": "artifacts/d028/s008/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "ec0ee1bba130c00d12399a91d3d5a6d107bce2da5c1b6d8944137c080ec152d6",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "Two-armed Lakshmi and four Vishnu hands, but lap hand emerges by the hip without a visible shoulder connection, while other lower arm crosses torso. Two unplanned cows also appear in the symbolic landscape."
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d028-s008",
+      "version": "v002",
+      "file": "artifacts/d028/s008/landscape/v002/candidate.png",
+      "sha256": "8f203d17956b8dd064b0acc704b3d00e75d5439216a22e98b3f7b2acaf25e786",
+      "prompt": "artifacts/d028/s008/landscape/v002/prompt.txt",
+      "prompt_sha256": "4820f9ac8a22749ab4175ce70d8d4a58430afebdb9291cf9133e2c3395ec1527",
+      "generation_record": "artifacts/d028/s008/landscape/v002/generation-provenance.json",
+      "generation_record_sha256": "2f873f66051826d8288ec378a5d3a2aa6d0ffbe26b2ce7c10191ed62d050f33a",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop producer review against the final plan; see image-specific observations in the bound report.",
+      "producer_report": "art/reviews/d028-s008-v002-producer-review-final-v001.md",
+      "producer_report_sha256": "79a5775cca5e3c199d55d357b00b8c958cc18ecb572261cf7c3e6ea69844868b",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s008-v002-producer-review-v002.md",
+          "sha256": "76f26cbab89ef492ef107d14ccf37da4203c8a40313ccfa7350968d56f43c38e"
+        },
+        {
+          "path": "art/reviews/d028-s008-v002-producer-review-v003.md",
+          "sha256": "32c771330c40496e3ed14c549630ec9ef52c4315f2c48795d9a5939e5e0fc45c"
+        }
+      ]
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d028-s009",
+      "version": "v001",
+      "file": "artifacts/d028/s009/landscape/v001/candidate.png",
+      "sha256": "4c0387e102c54895beab867fb8d0fc89c2d618712f77c910d22a2b1cd0272450",
+      "prompt": "artifacts/d028/s009/landscape/v001/prompt.txt",
+      "prompt_sha256": "2e5866001b4bc26827d422e8875e017ce08fcf713b0ec82f0f9d9ab305e629e3",
+      "generation_record": "artifacts/d028/s009/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "bb2a3dd732352f41dc19beeb809522c366f71f2919d04a22f8021f6fdac42c5b",
+      "disposition": "producer-needs-fix-not-selected",
+      "producer_finding": "Four-arm Vishnu and two-arm bowl-bearing Varuni, two separate two-arm asuras. Varuni repeats Lakshmi-like jasmine/crown/face, and asura faces/hair appear cloned."
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d028-s009",
+      "version": "v002",
+      "file": "artifacts/d028/s009/landscape/v002/candidate.png",
+      "sha256": "36db12170d5ef8b5372f9b197fd2032e2f8c53b6e3bf644bd072218616c7c507",
+      "prompt": "artifacts/d028/s009/landscape/v002/prompt.txt",
+      "prompt_sha256": "6a03d62470606341c1fb743c0ec4653513592bf17dfc140c8403d375da9f0a69",
+      "generation_record": "artifacts/d028/s009/landscape/v002/generation-provenance.json",
+      "generation_record_sha256": "e87f522c8e0fad08a2eb28022681e9ee98d295d4fc2a63bf63bebe36e4ef46ee",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop producer review against the final plan; see image-specific observations in the bound report.",
+      "producer_report": "art/reviews/d028-s009-v002-producer-review-final-v001.md",
+      "producer_report_sha256": "2d160f6ad336d581316461c4950322a952d51975dfa9ef03900d420dea8c0a4b",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s009-v002-producer-review-v002.md",
+          "sha256": "e7e88c1b533f2e68266cca15be8c24e29c141529ccc9c5c77b727b61d9bf5e82"
+        },
+        {
+          "path": "art/reviews/d028-s009-v002-producer-review-v003.md",
+          "sha256": "6d4d54573fd7833171ce1cce614ee54bc56792bdd4f18c2d31db96b83e9f101b"
+        }
+      ]
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d028-s010",
+      "version": "v001",
+      "file": "artifacts/d028/s010/landscape/v001/candidate.png",
+      "sha256": "979dd7f3695f4e242d24943ed940d9717a4a080a3e8dd4660adc6cb07b7fbf87",
+      "prompt": "artifacts/d028/s010/landscape/v001/prompt.txt",
+      "prompt_sha256": "2946db17ba7c1996c4a403053f9868c2effe35aa637bd29b5cbd8d846756230b",
+      "generation_record": "artifacts/d028/s010/landscape/v001/generation-provenance.json",
+      "generation_record_sha256": "cfee9fb7c50bf90beb2d3f45fdfd73d01e5648f26e941d3198bab96b9be4a562",
+      "disposition": "superseded-needs-fix",
+      "producer_finding": "A peacock feather rises above the viewer-left crown; native v002 removes it and preserves the surrounding scene."
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d028-s010",
+      "version": "v002",
+      "file": "artifacts/d028/s010/landscape/v002/candidate-v002.png",
+      "sha256": "3d29ebac0bfb1fcf893fb79c6d91b7b12663ccbed44a6c49c8b81e8f411cbed7",
+      "prompt": "artifacts/d028/s010/landscape/v002/prompt.txt",
+      "prompt_sha256": "29a652dcc53acd774fac0df1a734551e7cf62f15c7d41847ab00c25e08cd12fe",
+      "generation_record": "artifacts/d028/s010/landscape/v002/generation-provenance.json",
+      "generation_record_sha256": "741744f6945ae45f4381b96880c152d5d6d08d16bc043650c7f500ee2e725512",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop producer review against the final plan; see image-specific observations in the bound report.",
+      "producer_report": "art/reviews/d028-s010-v002-producer-review-final-v001.md",
+      "producer_report_sha256": "7e06f2373dd37e599fdf8e1485cadb7e9c6293dccbc7e951e179670d6492485c",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s010-v002-producer-review-v002.md",
+          "sha256": "fbd0f59ae3d87658c342c7a60c0d3ae16d3e808d18be296bf36bb0c565603b2a"
+        },
+        {
+          "path": "art/reviews/d028-s010-v002-producer-review-v003.md",
+          "sha256": "cf964eb2ef85fb985edd715e37e23632037176ea2544ff17b5bbb7ac7b12b95e"
+        }
+      ]
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d028-s001",
+      "version": "v003",
+      "file": "artifacts/d028/s001/landscape/v003/candidate-v003.png",
+      "sha256": "fef132dc39aee38e9301127090202433b0226cb3ec70e0828a3f1aff61a6338a",
+      "prompt": "artifacts/d028/s001/landscape/v003/prompt.txt",
+      "prompt_sha256": "eef68170eb40fce5b16197e6e82243e32f12c44fb2927c84d72fca42e3bc60f0",
+      "generation_record": "artifacts/d028/s001/landscape/v003/generation-provenance.json",
+      "generation_record_sha256": "c9470be0f726fc919c95d8070470161032a95b0586250f7176dc9c56e2e34845",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop producer review against the final plan; see image-specific observations in the bound report.",
+      "producer_report": "art/reviews/d028-s001-v003-producer-review-final-v001.md",
+      "producer_report_sha256": "ebced6e312b6e3d71ad8f3c305aef2a9757a4fb201f9e1b9a0cd65f907d454de",
+      "producer_report_history": [
+        {
+          "path": "art/reviews/d028-s001-v003-producer-review-v001.md",
+          "sha256": "4fc90d10f50bf3cd73da4111067f42461ae3f1c6e1663d2a22e672c458823981"
+        }
+      ]
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d028-s003",
+      "version": "v003",
+      "file": "artifacts/d028/s003/landscape/v003/candidate-v003.png",
+      "sha256": "18dedf79c611cf175753ce3507d2d2c2766958c94812ec7fbc2be7754553dbba",
+      "prompt": "artifacts/d028/s003/landscape/v003/prompt.txt",
+      "prompt_sha256": "4f15a80d394ec5aa307c08275881a813f63cc1599c8e89f95f7bb08282cc7da4",
+      "generation_record": "artifacts/d028/s003/landscape/v003/generation-provenance.json",
+      "generation_record_sha256": "bc4c35628102b44ab44bc16426913fa0a3d088d629d7ba3b6b124e73a80f5a57",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop producer review against the final plan; see image-specific observations in the bound report.",
+      "references": [
+        {
+          "path": "intake/D028/007.jpg",
+          "sha256": "09e5f5df83014c6aa749be74b4c40f2150e5fdba12f491db80088c339ef854a5"
+        },
+        {
+          "path": "artifacts/d028/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d028/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d028/references/shared/lakshmi-working-identity-from-d002-s004-v002.png",
+          "sha256": "3c2acce7192ef202d2b4e37cc586036f53994cb9f93c9b0f3c2b76b378eb3fb0"
+        }
+      ],
+      "producer_report_history": [],
+      "producer_report": "art/reviews/d028-s003-v003-producer-review-final-v001.md",
+      "producer_report_sha256": "c1aab4b20bacb4d322419c5c5835553f3f136ae98ce42e4587139497adfb4d80"
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d028-s004",
+      "version": "v002",
+      "file": "artifacts/d028/s004/landscape/v002/candidate-v002.png",
+      "sha256": "5b980054a5edc4cd41095bdf72a23f60b520ad5027588a1e672e79faacd2896f",
+      "prompt": "artifacts/d028/s004/landscape/v002/prompt.txt",
+      "prompt_sha256": "5717a0182a6b0f4e279e4a8cd9673a4df9bc28ddc93b0e83ceda9b315e4d1b9b",
+      "generation_record": "artifacts/d028/s004/landscape/v002/generation-provenance.json",
+      "generation_record_sha256": "05b7d4193cbd3db122590303f8f6162992dd6a8f9c1ff2d35ac880bb3f0fc6b8",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop producer review against the final plan; see image-specific observations in the bound report.",
+      "references": [
+        {
+          "path": "intake/D028/008.jpg",
+          "sha256": "87f7b2247cf1ecfac78771cfd98f9c45c6759274e37c94d112afe95d53569df5"
+        },
+        {
+          "path": "artifacts/d028/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d028/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d028/references/shared/lakshmi-working-identity-from-d002-s004-v002.png",
+          "sha256": "3c2acce7192ef202d2b4e37cc586036f53994cb9f93c9b0f3c2b76b378eb3fb0"
+        }
+      ],
+      "producer_report_history": [],
+      "producer_report": "art/reviews/d028-s004-v002-producer-review-final-v001.md",
+      "producer_report_sha256": "ef7fc96d3e340856a4bb6dc4c13d6a985e0c5833e3aaf3f25c7a9bcdb50c7d5c"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d028-s005",
+      "version": "v003",
+      "file": "artifacts/d028/s005/landscape/v003/candidate-v003.png",
+      "sha256": "07f2717d8c29af578e68651859e7e0947ca798b33b02b61a45a7ba81c82aaf81",
+      "prompt": "artifacts/d028/s005/landscape/v003/prompt.txt",
+      "prompt_sha256": "5b8eae3458734d1ac0ac1cbb18db453e61cc72f8a62285f2cd222c9e06c1ccf5",
+      "generation_record": "artifacts/d028/s005/landscape/v003/generation-provenance.json",
+      "generation_record_sha256": "1cbf8ec335f1cb5b7d840d837356a06462f7d8df159be862e67ce33fa7eeb39b",
+      "disposition": "selected",
+      "producer_finding": "Fresh native full-frame and detail-crop review confirms two attached arms and both hands visibly support the tray; no other scene drift observed.",
+      "submitted_arguments": "artifacts/d028/s005/landscape/v003/submitted-tool-arguments.json",
+      "native_return": "artifacts/d028/s005/landscape/v003/native-tool-return.json",
+      "references": "artifacts/d028/s005/landscape/v003/references.json",
+      "producer_report": "art/reviews/d028-s005-v003-producer-review-final-v001.md",
+      "producer_report_sha256": "845a034fd2c2d330b586fe5006cd911bf98819b03d66f07e566f48479b3e5977"
     }
   ]
 }

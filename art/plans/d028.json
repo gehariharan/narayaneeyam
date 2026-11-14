@@ -15,7 +15,7 @@
     "portrait_status": "paused",
     "source_limits": "Source images include broad icons and composites; exact observations retained per stanza and in reference map.",
     "episode_overrides": "The established lakshmi face, two-arm anatomy, jasmine hair and modest crown persist. Scene-grounded actions replace the default held lotus: ritual lap hands S004-S005, carried/placed garland S006-S007, compassionate open hand S008. Canonical pitacela yellow sari replaces default maroon from S005 onward. These are scene directions, not a new character identity or approval.",
-    "provisional_contract_choices": "New source-required Shiva contract permits plain ochre/cream ascetic cloth; tiger pattern was an unsourced drafting detail. New asura group contract permits dark or graying hair and muted maroon/green cloth so two witnesses can remain visibly distinct. All affected images must be re-opened against these final contracts."
+    "provisional_contract_choices": "Existing shared Shiva, Dhanvantari, and asura identities are preserved. D028 scene briefs bind the poison-drinking Shiva and two-handed nectar-bearing Dhanvantari to this episode; they do not redefine their D033 or D029 depictions. The D028 asura group contract permits dark or graying hair and muted maroon/green cloth so the two witnesses remain distinct. Reinspect every selected image against the final plan and character files."
   },
   "stanzas": [
     {
@@ -50,22 +50,23 @@
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native independently composed unapproved comparison candidate",
-          "candidate_path": "artifacts/d028/s001/landscape/v002/candidate.png",
-          "candidate_version": "v002",
-          "candidate_sha256": "51d4d94b1eeaa5bcc9b9165c2d49fa3d34188c224b3c3d17252e91473d05402d",
+          "candidate_path": "artifacts/d028/s001/landscape/v003/candidate-v003.png",
+          "candidate_version": "v003",
+          "candidate_sha256": "fef132dc39aee38e9301127090202433b0226cb3ec70e0828a3f1aff61a6338a",
           "candidate_dimensions_px": [
             1672,
             941
           ],
-          "prompt_path": "artifacts/d028/s001/landscape/v002/prompt.txt",
-          "generation_provenance_path": "artifacts/d028/s001/landscape/v002/generation-provenance.json"
+          "prompt_path": "artifacts/d028/s001/landscape/v003/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s001/landscape/v003/generation-provenance.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
           "status": "paused"
         }
       },
-      "source_reference_limit": "001 close Shiva poison-drinking icon; no literal full-body shore scene."
+      "source_reference_limit": "001 close Shiva poison-drinking icon; no literal full-body shore scene.",
+      "candidate_status": "Unapproved; independent exact-checksum review is recorded."
     },
     {
       "n": 2,
@@ -121,7 +122,8 @@
           "status": "paused"
         }
       },
-      "source_reference_limit": "002 human-faced winged cow churning composite;003 seven-headed horse;004 four-tusked elephant;005 wish-tree;006 winged dancer composite. Use subject cues, not copied rendering/hybrids/UI."
+      "source_reference_limit": "002 human-faced winged cow churning composite;003 seven-headed horse;004 four-tusked elephant;005 wish-tree;006 winged dancer composite. Use subject cues, not copied rendering/hybrids/UI.",
+      "candidate_status": "Unapproved; independent exact-checksum review is recorded."
     },
     {
       "n": 3,
@@ -156,22 +158,23 @@
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native independently composed unapproved comparison candidate",
-          "candidate_path": "artifacts/d028/s003/landscape/v002/candidate.png",
-          "candidate_version": "v002",
-          "candidate_sha256": "1956983159c5db8398c9bdb5c7ae2f3591f3b047bae309e41db0b43d304fa089",
+          "candidate_path": "artifacts/d028/s003/landscape/v003/candidate-v003.png",
+          "candidate_version": "v003",
+          "candidate_sha256": "18dedf79c611cf175753ce3507d2d2c2766958c94812ec7fbc2be7754553dbba",
           "candidate_dimensions_px": [
             1672,
             941
           ],
-          "prompt_path": "artifacts/d028/s003/landscape/v002/prompt.txt",
-          "generation_provenance_path": "artifacts/d028/s003/landscape/v002/generation-provenance.json"
+          "prompt_path": "artifacts/d028/s003/landscape/v003/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s003/landscape/v003/generation-provenance.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
           "status": "paused"
         }
       },
-      "source_reference_limit": "007 four-armed general Lakshmi emergence icon; narrative composition follows existing two-arm Lakshmi contract."
+      "source_reference_limit": "007 four-armed general Lakshmi emergence icon; narrative composition follows existing two-arm Lakshmi contract.",
+      "candidate_status": "Unapproved; independent exact-checksum review is recorded."
     },
     {
       "n": 4,
@@ -207,22 +210,23 @@
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native independently composed unapproved comparison candidate",
-          "candidate_path": "artifacts/d028/s004/landscape/v001/candidate.png",
-          "candidate_version": "v001",
-          "candidate_sha256": "457a723c1cf9e9f699559c685caf781b2aa97d7977eb86bdc0911e24580c0deb",
+          "candidate_path": "artifacts/d028/s004/landscape/v002/candidate-v002.png",
+          "candidate_version": "v002",
+          "candidate_sha256": "5b980054a5edc4cd41095bdf72a23f60b520ad5027588a1e672e79faacd2896f",
           "candidate_dimensions_px": [
             1672,
             941
           ],
-          "prompt_path": "artifacts/d028/s004/landscape/v001/prompt.txt",
-          "generation_provenance_path": "artifacts/d028/s004/landscape/v001/generation-provenance.json"
+          "prompt_path": "artifacts/d028/s004/landscape/v002/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s004/landscape/v002/generation-provenance.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
           "status": "paused"
         }
       },
-      "source_reference_limit": "008 floating Lakshmi and deva crowd, not a literal Indra seat/consecration action. Verse/caption ground action."
+      "source_reference_limit": "008 floating Lakshmi and deva crowd, not a literal Indra seat/consecration action. Verse/caption ground action.",
+      "candidate_status": "v002 is selected as the better of the two versions after the authorized repair round. Disclosed deviation: Indra's crown remains tall with several ornamental bands, and Lakshmi's single necklace remains a thick bead collar rather than thin restrained jewelry. No further regeneration is authorized; independent exact-checksum review is recorded and captain art approval remains pending."
     },
     {
       "n": 5,
@@ -258,22 +262,23 @@
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native independently composed unapproved comparison candidate",
-          "candidate_path": "artifacts/d028/s005/landscape/v002/candidate.png",
-          "candidate_version": "v002",
-          "candidate_sha256": "2a51f55e8a822e0d843cc5a2961077c789a50a41f83da8fb4c6050763b4afab6",
+          "candidate_path": "artifacts/d028/s005/landscape/v003/candidate-v003.png",
+          "candidate_version": "v003",
+          "candidate_sha256": "07f2717d8c29af578e68651859e7e0947ca798b33b02b61a45a7ba81c82aaf81",
           "candidate_dimensions_px": [
             1672,
             941
           ],
-          "prompt_path": "artifacts/d028/s005/landscape/v002/prompt.txt",
-          "generation_provenance_path": "artifacts/d028/s005/landscape/v002/generation-provenance.json"
+          "prompt_path": "artifacts/d028/s005/landscape/v003/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s005/landscape/v003/generation-provenance.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
           "status": "paused"
         }
       },
-      "source_reference_limit": "009 static four-arm yellow Lakshmi icon, not literal water ritual. Verse/caption ground bathing and yellow costume."
+      "source_reference_limit": "009 static four-arm yellow Lakshmi icon, not literal water ritual. Verse/caption ground bathing and yellow costume.",
+      "candidate_status": "Unapproved; independent exact-checksum review is recorded."
     },
     {
       "n": 6,
@@ -324,7 +329,8 @@
           "status": "paused"
         }
       },
-      "source_reference_limit": "010 garland approach icon; preserve action, use existing narrative two-arm Lakshmi identity."
+      "source_reference_limit": "010 garland approach icon; preserve action, use existing narrative two-arm Lakshmi identity.",
+      "candidate_status": "Unapproved; independent exact-checksum review is recorded."
     },
     {
       "n": 7,
@@ -375,7 +381,8 @@
           "status": "paused"
         }
       },
-      "source_reference_limit": "011 Vishnu/Lakshmi garlanding with other gods; two central figures selected, mentioned Shiva/Brahma need not physically join."
+      "source_reference_limit": "011 Vishnu/Lakshmi garlanding with other gods; two central figures selected, mentioned Shiva/Brahma need not physically join.",
+      "candidate_status": "Unapproved; independent exact-checksum review is recorded."
     },
     {
       "n": 8,
@@ -426,7 +433,8 @@
           "status": "paused"
         }
       },
-      "source_reference_limit": "012 Lakshmi in front of Vishnu with elephants; verse honour/bosom symbolism becomes two distinct seated figures, no duplicate goddess."
+      "source_reference_limit": "012 Lakshmi in front of Vishnu with elephants; verse honour/bosom symbolism becomes two distinct seated figures, no duplicate goddess.",
+      "candidate_status": "Unapproved; independent exact-checksum review is recorded."
     },
     {
       "n": 9,
@@ -477,7 +485,8 @@
           "status": "paused"
         }
       },
-      "source_reference_limit": "013 Varuni with bowl; modest scene adaptation and asura context from verse/caption."
+      "source_reference_limit": "013 Varuni with bowl; modest scene adaptation and asura context from verse/caption.",
+      "candidate_status": "Unapproved; independent exact-checksum review is recorded."
     },
     {
       "n": 10,
@@ -511,22 +520,24 @@
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native independently composed unapproved comparison candidate",
-          "candidate_path": "artifacts/d028/s010/landscape/v001/candidate.png",
-          "candidate_version": "v001",
-          "candidate_sha256": "979dd7f3695f4e242d24943ed940d9717a4a080a3e8dd4660adc6cb07b7fbf87",
+          "candidate_path": "artifacts/d028/s010/landscape/v002/candidate-v002.png",
+          "candidate_version": "v002",
+          "candidate_sha256": "3d29ebac0bfb1fcf893fb79c6d91b7b12663ccbed44a6c49c8b81e8f411cbed7",
           "candidate_dimensions_px": [
             1672,
             941
           ],
-          "prompt_path": "artifacts/d028/s010/landscape/v001/prompt.txt",
-          "generation_provenance_path": "artifacts/d028/s010/landscape/v001/generation-provenance.json"
+          "prompt_path": "artifacts/d028/s010/landscape/v002/prompt.txt",
+          "generation_provenance_path": "artifacts/d028/s010/landscape/v002/generation-provenance.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
           "status": "paused"
         }
       },
-      "source_reference_limit": "014 generic eight-armed divine/medical icon, not literal ocean emergence. Verse/caption ground Dhanvantari with nectar pot carried in two hands."
+      "source_reference_limit": "014 generic eight-armed divine/medical icon, not literal ocean emergence. Verse/caption ground Dhanvantari with nectar pot carried in two hands.",
+      "candidate_status": "Unapproved; independent exact-checksum review is recorded."
     }
-  ]
+  ],
+  "candidate_status": "Unapproved; independent exact-checksum review is recorded."
 }

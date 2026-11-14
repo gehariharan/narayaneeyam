@@ -32,7 +32,7 @@ const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import
 const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
 const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.reduce((n,r)=>n+(r.references||(r.reference?[r.reference]:[])).length,0),0);
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,29,31,32,33,34,38,40,42,43,44,66,67,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,28,29,31,32,33,34,38,40,42,43,44,66,67,96]);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
 assert.equal(Object.keys(data.assets).length,expectedMedia);
@@ -280,6 +280,24 @@ for(const row of full44.rows){
 assert.equal((await feedback(req({...good,daskam:44,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
 assert.equal((await feedback(req({...good,daskam:44,sloka:11}),env)).status,400);
 console.log('Passed: D044 has ten source-mapped rows, pinned references and unapproved landscape candidates, and stanza-bounded feedback.');
+
+const full28=data.chapters.find(c=>c.id===28);assert.ok(full28);
+const content28=JSON.parse(await fs.readFile(new URL('../../content/daskams/d028.json',import.meta.url)));
+const selected28=JSON.parse(await fs.readFile(new URL('../../art/batches/d028-comparison-v001.json',import.meta.url)));
+assert.deepEqual(full28.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+assert.equal(selected28.review_status,'needs-review');assert.ok(full28.reviewNotice.includes('unapproved'));
+for(const row of full28.rows){
+ const stanza=content28.stanzas.find(s=>s.n===row.n),selected=selected28.rows.find(s=>s.n===row.n);
+ assert.equal(row.commentary,stanza.commentary_en);assert.equal(row.commentarySource,stanza.commentary_source);
+ assert.equal(row.images.at(-1).version,selected.matte.version);
+ assert.equal(row.images.at(-1).inspectionStatus,'inspected');
+ assert.equal((await feedback(req({...good,daskam:28,sloka:row.n,image_versions:[{version:'tampered'}]}),env)).status,201);
+ assert.deepEqual(JSON.parse(written.args[8]),[{role:'matte',key:row.images.at(-1).key,version:row.images.at(-1).version}]);
+}
+assert.equal(full28.rows.find(r=>r.n===2).images.filter(i=>i.role==='reference').length,5);
+assert.equal((await feedback(req({...good,daskam:28,sloka:11}),env)).status,400);
+assert.equal((await feedback(req({...good,daskam:28,revision:'stale-d028'}),env)).status,409);
+console.log('Passed: D028 has ten source-mapped rows, unapproved selected versions, and stanza-bounded feedback bound to the selected candidate.');
 
 const full29=data.chapters.find(c=>c.id===29);assert.ok(full29);assert.deepEqual(full29.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content29=JSON.parse(await fs.readFile(new URL('../../content/daskams/d029.json',import.meta.url)));

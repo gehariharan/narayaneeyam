@@ -397,6 +397,27 @@ D040 contains ten source-mapped landscape candidates in `art/batches/d040-compar
 
 D031 contains ten native landscape candidates paired with mapped intake photographs in `art/batches/d031-comparison-v001.json`. S009 is mapped to both source images, and the comparison keeps both references visible. The independent managed review in `art/reviews/visual-reviews.json` and `art/reviews/d031-*-managed-review-v001.md` passed S001–S003 v001 and recorded S004 v001, S005 v001, S006 v004, S007 v002, S008 v001, S009 v002 and S010 v001 as needs-fix (Bali identity break, broken pour path, inconsistent Trivikrama skin and cloned Devas, a forbidden peacock feather, cloned Deva soldiers, a youthful Prahlada resembling Vamana, and a duplicated inset with a modern-map globe). Native repairs S004 v002, S005 v002, S006 v005, S007 v004, S008 v002, S009 v003 and S010 v002 supersede them, and each passed a fresh full-frame and native-detail inspection. The earlier needs-fix reports stay as history, the superseded attempts stay preserved locally and are not published, and the rejected S007 v003 repair attempt was never selected. Images remain unapproved, portraits are paused, and no sourced English translation was available. Upload only D031's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=31` before any serialized Worker deployment. With D031 and D034 added, the union holds 22 chapters, 229 stanza rows, 465 review media inputs and 235 selected generated images (69 historical, 166 individually inspected).
 
+## Dasakam 28
+
+D028 contains ten reference-mapped landscape candidates in
+`art/batches/d028-comparison-v001.json`. Stanza 2 shows all five mapped source
+photos (002–006); photos 015–017 are preserved extras, not stanza references.
+The selected S001 v003 corrects the prior v002 frame, where Shiva’s bare foot
+met the bottom edge; both feet are now fully inside the native 1672 × 941 frame.
+The selected S005 v003 is the one authorized repair for the tray-bearing deva’s
+missing second arm; both hands now support the ornament tray. Selected S003 v003
+and S004 v002 follow the documented Lakshmi and Indra scene direction. S004’s
+tall multi-banded crown and Lakshmi’s thick bead-collar necklace remain disclosed
+ornament observations. Dhanvantari S010 v002 is selected without the peacock
+feather present in v001. Independent exact-checksum reports f (S001–S005) and h
+(S006–S010) pass all ten selected images; the reports and one-per-image records
+are in `art/reviews/`. Images remain unapproved, and the S004 observation does
+not imply art approval. Sanskrit and IAST excerpts and caption provenance remain
+under `content/sources/d028/`; caption commentary is separate from the absent
+sourced English translations. Portraits are paused. Upload only D028's review
+WebPs with `node review-site/scripts/upload.mjs --daskam=28` before serialized
+Worker deployment.
+
 ## Dasakam 32
 
 D032 contains ten native landscape candidates matched to the accepted stanza map
@@ -417,5 +438,5 @@ S010 v009 ornament) are recorded in the batch review notice. D032 remains
 unapproved, portraits are paused, and sourced English translations are absent.
 Upload only D032's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=32` before any serialized Worker
-deployment. With D032 added, the union holds 27 chapters, 279 stanza rows, 567
-review media inputs and 285 selected generated images.
+deployment. With D028 and D032 added, the union holds 28 chapters, 289 stanza rows, 591
+review media inputs and 295 selected generated images.
