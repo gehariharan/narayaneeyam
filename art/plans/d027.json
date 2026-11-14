@@ -77,7 +77,7 @@
           "candidate_version": "v005",
           "candidate_path": "artifacts/d027/s001/landscape/candidate-v005.png",
           "prompt_path": "artifacts/d027/s001/prompts/landscape-v003.md",
-          "candidate_status": "unapproved candidate v005; producer pass recorded; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v005; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "b86c10e1cdbb07f49f5d2e9aa22f0cbe588fd1e64e06893366fee5a4b97b36fa"
         },
         "portrait": {
@@ -88,6 +88,7 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-durvasa/character.json",
         "art/bible/characters/d027-indra/character.json",
@@ -135,7 +136,7 @@
           "candidate_version": "v002",
           "candidate_path": "artifacts/d027/s002/landscape/candidate-v002.png",
           "prompt_path": "artifacts/d027/s002/prompts/landscape-v002.md",
-          "candidate_status": "unapproved candidate v002; producer inspection recorded; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v002; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "b71846b9873e48c4ab28354b33954719adc3efa26c48f95fd34060e186c9d933"
         },
         "portrait": {
@@ -146,6 +147,7 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-vishnu/character.json",
         "art/bible/characters/d027-indra/character.json",
@@ -193,7 +195,7 @@
           "candidate_version": "v004",
           "candidate_path": "artifacts/d027/s003/landscape/candidate-v004.png",
           "prompt_path": "artifacts/d027/s003/prompts/landscape-v004-repair.md",
-          "candidate_status": "unapproved candidate v004; producer pass recorded; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v004; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "cf50a18e92e8117b01b1457fc3d7b7ffdef27806d7067485e7cca852455fd4fe"
         },
         "portrait": {
@@ -204,6 +206,7 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-vishnu/character.json",
         "art/bible/characters/d027-brahma/character.json",
@@ -250,7 +253,7 @@
           "candidate_version": "v003",
           "candidate_path": "artifacts/d027/s004/landscape/candidate-v003.png",
           "prompt_path": "artifacts/d027/s004/prompts/landscape-v003-submitted.md",
-          "candidate_status": "unapproved candidate v003; producer inspection recorded; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v003; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "102c9ca8dce19be9ef692584669c220bbe4b1896f60ffb4dd94e461f8dd8de3b"
         },
         "portrait": {
@@ -261,6 +264,7 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-vishnu/character.json",
         "art/bible/characters/d027-garuda/character.json",
@@ -307,7 +311,7 @@
           "candidate_version": "v005",
           "candidate_path": "artifacts/d027/s005/landscape/candidate-v005.png",
           "prompt_path": "artifacts/d027/s005/prompts/landscape-v003.md",
-          "candidate_status": "unapproved candidate v005; producer inspection recorded; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v005; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "0404915ea1fe49078b8f36fbc0e8834377745e6031495c786602030527e9d371"
         },
         "portrait": {
@@ -318,6 +322,7 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-vishnu/character.json",
         "art/bible/characters/d027-vasuki/character.json",
@@ -331,6 +336,7 @@
       "review_status": "needs-review",
       "characters": [
         "d027-kurma",
+        "d027-vasuki",
         "d027-devas"
       ],
       "reference_paths": [
@@ -345,7 +351,8 @@
         "must_show": [
           "Mandara begins to sink under its weight as the ocean churns.",
           "Vishnu has taken a fully tortoise form: one natural tortoise head, four legs and a hard shell beneath the mountain.",
-          "Distressed devas watch from the waterline."
+          "Distressed devas watch from the waterline.",
+          "Vasuki remains a single continuous serpent wrapped around Mandara as the churning rope."
         ],
         "composition": "Show the mountain’s lower base settling onto the broad shell of a single enormous tortoise beneath the water; use only enough figures above the waterline to read the devas’ distress.",
         "tone": "Crisis meets steadfast support.",
@@ -363,7 +370,7 @@
           "candidate_version": "v003",
           "candidate_path": "artifacts/d027/s006/landscape/candidate-v003.png",
           "prompt_path": "artifacts/d027/s006/prompts/landscape-v004.md",
-          "candidate_status": "unapproved candidate v003; producer inspection recorded; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v003; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "eb78c032e714e303f44adf48554bdec389d02374af5d749a1c58044b5b4935a7"
         },
         "portrait": {
@@ -374,8 +381,10 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-kurma/character.json",
+        "art/bible/characters/d027-vasuki/character.json",
         "art/bible/characters/d027-devas/character.json"
       ]
     },
@@ -414,7 +423,7 @@
           "candidate_version": "v003",
           "candidate_path": "artifacts/d027/s007/landscape/candidate-v003.png",
           "prompt_path": "artifacts/d027/s007/prompts/landscape-v004.md",
-          "candidate_status": "unapproved candidate v003; producer inspection recorded; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v003; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "787970f9986348bd1456530479d308197051e8ebf30f0abce0edccbf0abe6f18"
         },
         "portrait": {
@@ -425,6 +434,7 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-kurma/character.json"
       ]
@@ -468,7 +478,7 @@
           "candidate_version": "v005",
           "candidate_path": "artifacts/d027/s008/landscape/candidate-v005.png",
           "prompt_path": "artifacts/d027/s008/prompts/landscape-v005-repair.md",
-          "candidate_status": "unapproved candidate v005; producer pass recorded; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v005; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "adfe17df7e67ce6a8cfda983e9d3abadc334677ff57f7e5a4b470e888da02dc1"
         },
         "portrait": {
@@ -479,6 +489,7 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-vishnu/character.json",
         "art/bible/characters/d027-vasuki/character.json",
@@ -526,7 +537,7 @@
           "candidate_version": "v002",
           "candidate_path": "artifacts/d027/s009/landscape/candidate-v002.png",
           "prompt_path": "artifacts/d027/s009/prompts/landscape-v003.md",
-          "candidate_status": "unapproved candidate v002; disclosed residual: Vishnu’s tall tiered crown, peacock feather, and multiple necklaces exceed the modest-ornament contract; captain art approval pending; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v002; disclosed residual: Vishnu’s tall tiered crown, peacock feather, and multiple necklaces exceed the modest-ornament contract; captain art approval pending; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "8ce57af6c8c18bc4afd3b77fa3f3200965441c7cf2db898f08ffb16411f23a7a"
         },
         "portrait": {
@@ -537,6 +548,7 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-vishnu/character.json",
         "art/bible/characters/d027-brahma/character.json",
@@ -581,7 +593,7 @@
           "candidate_version": "v008",
           "candidate_path": "artifacts/d027/s010/landscape/candidate-v008.png",
           "prompt_path": "artifacts/d027/s010/prompts/landscape-v008-repair.md",
-          "candidate_status": "unapproved candidate v008; producer pass recorded; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v008; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "db52901c18f32f775207ac50e3883f8d35d24a519036f189b148233dc0e4b37d"
         },
         "portrait": {
@@ -592,6 +604,7 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-vasuki/character.json",
         "art/bible/characters/d027-devas/character.json",
@@ -637,7 +650,7 @@
           "candidate_version": "v002",
           "candidate_path": "artifacts/d027/s011/landscape/candidate-v002.png",
           "prompt_path": "artifacts/d027/s011/prompts/landscape-v003.md",
-          "candidate_status": "unapproved candidate v002; disclosed residual: Vishnu’s tall tiered crown, peacock feather, and heavy necklaces exceed the modest-ornament contract; captain art approval pending; independent exact-checksum review of the refrozen plan is pending",
+          "candidate_status": "unapproved candidate v002; disclosed residual: Vishnu’s tall tiered crown, peacock feather, and heavy necklaces exceed the modest-ornament contract; captain art approval pending; producer inspection v007 pass recorded; independent exact-checksum review of this frozen plan is pending",
           "candidate_sha256": "50f2e4ea5f0188a0446547f496fb7cbc8154644b65003e36840c54f29958b54d"
         },
         "portrait": {
@@ -648,11 +661,13 @@
         }
       },
       "contract_paths": [
+        "art/bible/series.json",
         "art/bible/characters/d027/scene-contracts.json",
         "art/bible/characters/d027-vishnu/character.json",
         "art/bible/characters/d027-vasuki/character.json",
         "art/bible/characters/d027-bhattathiri/character.json"
       ]
     }
-  ]
+  ],
+  "series_contract_path": "art/bible/series.json"
 }
