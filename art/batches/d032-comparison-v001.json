@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 32,
   "review_status": "needs-review",
-  "visual_review_status": "Producer full-frame and detail inspections are recorded in separate reports; fresh independent exact-checksum reviews are pending. No selected artwork is approved.",
+  "visual_review_status": "Fresh producer inspections are recorded for all ten pinned versions. Independent exact-checksum reviews by scouts f, g and h pass all ten selections against the final plan and contracts. S003 v004 retains its disclosed gold floral patch on the well-stage Matsya. S009 v005 reviewer h reports Matsya at roughly 205 px wide and an ochre/gold gill-boundary band; h notes the plan says the pursuit is at a distance without a relative-size requirement, and that the band is not disclosed in the plan, but treats both as non-failing observations under the review threshold. S010 v009’s tiered crown and jewelry are recorded as ornament observations, not explicit contract failures. No artwork is approved.",
   "description": "Ten native D032 landscape candidates paired with their stanza-mapped supplied reference photographs and verbatim vetted captions. Some stanzas have multiple mapped source photos; every mapped photo is included in the comparison. Candidate versions and SHA-256 values are pinned per stanza; no generated artwork is approved.",
-  "review_notice": "Unapproved D032 landscape candidate comparison. Ten selected native versions are pinned to the final plan and source references. Producer inspections are recorded; fresh independent full-frame and detail reviews against the exact plan, character contracts and candidate checksums are pending. Publishing does not approve artwork. Portrait production is paused and no sourced English translations are available.",
+  "review_notice": "Unapproved D032 landscape candidate comparison. Independent exact-checksum review passes all ten selected versions. The disclosed S003 v004 gold floral patch is present. Reviewer h also reports that S009 v005 Matsya is about 205 px wide at a distance and has an ochre/gold gill-boundary band; the report notes the plan has no relative-scale requirement and does not disclose the band, and treats these as observations under the clarified threshold. Reviewer g notes S010 v009’s crown and jewelry as ornament observations. Publishing does not approve artwork. Portrait production is paused and no sourced English translations are available.",
   "rows": [
     {
       "n": 1,
@@ -19,11 +19,11 @@
       },
       "additional_references": [],
       "matte": {
-        "file": "artifacts/d032/s001/landscape/v003/candidate.png",
-        "sha256": "c6ac76226af840b9334b07a192527b5c6e14d4e8064b17821c9dd7787dc98160",
-        "version": "v003",
-        "label": "Landscape candidate v003",
-        "displayLabel": "Landscape candidate v003"
+        "file": "artifacts/d032/s001/landscape/v005/candidate.png",
+        "sha256": "78ca3537edce2c4b9a5a5be61c56a023939f1429394ad9f86154c95212806451",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005"
       },
       "alternates": [],
       "candidate_history": [
@@ -43,6 +43,18 @@
           "version": "v003",
           "file": "artifacts/d032/s001/landscape/v003/candidate.png",
           "sha256": "c6ac76226af840b9334b07a192527b5c6e14d4e8064b17821c9dd7787dc98160",
+          "selected": false
+        },
+        {
+          "version": "v004",
+          "file": "artifacts/d032/s001/landscape/v004/candidate.png",
+          "sha256": "6258dd9b3bac353150311f4636fe2880a733a74217f766b2bc8adb5f968d3b44",
+          "selected": false
+        },
+        {
+          "version": "v005",
+          "file": "artifacts/d032/s001/landscape/v005/candidate.png",
+          "sha256": "78ca3537edce2c4b9a5a5be61c56a023939f1429394ad9f86154c95212806451",
           "selected": true
         }
       ]
@@ -97,11 +109,11 @@
         }
       ],
       "matte": {
-        "file": "artifacts/d032/s003/landscape/v002/candidate.png",
-        "sha256": "ae4f6fb2a2434b58038352406c4a45f37bd8be5f55539415bbd9fee6cecd0618",
-        "version": "v002",
-        "label": "Landscape candidate v002",
-        "displayLabel": "Landscape candidate v002"
+        "file": "artifacts/d032/s003/landscape/v004/candidate.png",
+        "sha256": "b0cd4eda5a2fcb5cabb2d994e232ddda391860d318da04a2fc1c5da1bd28b8cd",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
       },
       "alternates": [],
       "candidate_history": [
@@ -115,6 +127,18 @@
           "version": "v002",
           "file": "artifacts/d032/s003/landscape/v002/candidate.png",
           "sha256": "ae4f6fb2a2434b58038352406c4a45f37bd8be5f55539415bbd9fee6cecd0618",
+          "selected": false
+        },
+        {
+          "version": "v003",
+          "file": "artifacts/d032/s003/landscape/v003/candidate.png",
+          "sha256": "4efa07d663aff9596f9cde39d99b0daed0f5e42991d22ac71d18476b43a79b82",
+          "selected": false
+        },
+        {
+          "version": "v004",
+          "file": "artifacts/d032/s003/landscape/v004/candidate.png",
+          "sha256": "b0cd4eda5a2fcb5cabb2d994e232ddda391860d318da04a2fc1c5da1bd28b8cd",
           "selected": true
         }
       ]
@@ -167,11 +191,11 @@
       },
       "additional_references": [],
       "matte": {
-        "file": "artifacts/d032/s005/landscape/v003/candidate.png",
-        "sha256": "6c8649e515f59da768e0ff8573d23a24f24a23983619edcc86332f417246d07d",
-        "version": "v003",
-        "label": "Landscape candidate v003",
-        "displayLabel": "Landscape candidate v003"
+        "file": "artifacts/d032/s005/landscape/v004/candidate.png",
+        "sha256": "b5acd932c887ef67af436728570a530c871ccd63ca7375cfd02cfc34d19feba4",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
       },
       "alternates": [],
       "candidate_history": [
@@ -191,6 +215,12 @@
           "version": "v003",
           "file": "artifacts/d032/s005/landscape/v003/candidate.png",
           "sha256": "6c8649e515f59da768e0ff8573d23a24f24a23983619edcc86332f417246d07d",
+          "selected": false
+        },
+        {
+          "version": "v004",
+          "file": "artifacts/d032/s005/landscape/v004/candidate.png",
+          "sha256": "b5acd932c887ef67af436728570a530c871ccd63ca7375cfd02cfc34d19feba4",
           "selected": true
         }
       ]
@@ -229,16 +259,16 @@
           "selected": false
         },
         {
-          "version": "v004",
-          "file": "artifacts/d032/s006/landscape/v004/candidate.png",
-          "sha256": "636156f531c364de0eda3307ef786cafcc69e21051c78ff7273a0bf51654ad54",
-          "selected": true
-        },
-        {
           "version": "v003",
           "file": "artifacts/d032/s006/landscape/v003/candidate.png",
           "sha256": "b7f029f0d35d26de9f8d33ad145181269a4267b36b7c0b720b1017368c06a9c2",
           "selected": false
+        },
+        {
+          "version": "v004",
+          "file": "artifacts/d032/s006/landscape/v004/candidate.png",
+          "sha256": "636156f531c364de0eda3307ef786cafcc69e21051c78ff7273a0bf51654ad54",
+          "selected": true
         }
       ]
     },
@@ -276,16 +306,16 @@
           "selected": false
         },
         {
-          "version": "v004",
-          "file": "artifacts/d032/s007/landscape/v004/candidate.png",
-          "sha256": "e1cddcd1a419ed80df4d42ed32b8d5f55f87d73f401c748e18f9afb6e01c8627",
-          "selected": true
-        },
-        {
           "version": "v003",
           "file": "artifacts/d032/s007/landscape/v003/candidate.png",
           "sha256": "c3566e828110e840782ea6b6bb7059acf369e507229828dd2db4f8ede6d91bb5",
           "selected": false
+        },
+        {
+          "version": "v004",
+          "file": "artifacts/d032/s007/landscape/v004/candidate.png",
+          "sha256": "e1cddcd1a419ed80df4d42ed32b8d5f55f87d73f401c748e18f9afb6e01c8627",
+          "selected": true
         }
       ]
     },
@@ -317,16 +347,16 @@
           "selected": false
         },
         {
-          "version": "v003",
-          "file": "artifacts/d032/s008/landscape/v003/candidate.png",
-          "sha256": "c95d1729d6e50316a046097601c7d765f774b9a7078bfc2fb9ef64a41aa1ece8",
-          "selected": true
-        },
-        {
           "version": "v002",
           "file": "artifacts/d032/s008/landscape/v002/candidate.png",
           "sha256": "0d13ea9d33d743c1c8f24340051acc742798f8bec69084c1e42f1a55cb59f68c",
           "selected": false
+        },
+        {
+          "version": "v003",
+          "file": "artifacts/d032/s008/landscape/v003/candidate.png",
+          "sha256": "c95d1729d6e50316a046097601c7d765f774b9a7078bfc2fb9ef64a41aa1ece8",
+          "selected": true
         }
       ]
     },
@@ -343,11 +373,11 @@
       },
       "additional_references": [],
       "matte": {
-        "file": "artifacts/d032/s009/landscape/v004/candidate.png",
-        "sha256": "623707615dc676fa3908278da0bf7039737e9d661e4e7432b24b5271c9ea713d",
-        "version": "v004",
-        "label": "Landscape candidate v004",
-        "displayLabel": "Landscape candidate v004"
+        "file": "artifacts/d032/s009/landscape/v005/candidate.png",
+        "sha256": "3690d98ada3699cfa57a6ad5bbc03556ed0f6871e55342ab280b079269ea2593",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005"
       },
       "alternates": [],
       "candidate_history": [
@@ -367,6 +397,12 @@
           "version": "v004",
           "file": "artifacts/d032/s009/landscape/v004/candidate.png",
           "sha256": "623707615dc676fa3908278da0bf7039737e9d661e4e7432b24b5271c9ea713d",
+          "selected": false
+        },
+        {
+          "version": "v005",
+          "file": "artifacts/d032/s009/landscape/v005/candidate.png",
+          "sha256": "3690d98ada3699cfa57a6ad5bbc03556ed0f6871e55342ab280b079269ea2593",
           "selected": true
         }
       ]
@@ -392,11 +428,11 @@
         }
       ],
       "matte": {
-        "file": "artifacts/d032/s010/landscape/v006/candidate.png",
-        "sha256": "0ec1bc5f8fe1c43fb7ff01b127fad45cd5f0518ef647b23323fc84533786baf2",
-        "version": "v006",
-        "label": "Landscape candidate v006",
-        "displayLabel": "Landscape candidate v006"
+        "file": "artifacts/d032/s010/landscape/v009/candidate.png",
+        "sha256": "1ba6ccf75d32d6aba5e075d8d8f8ff23a6fb34b8401ea7766de541fa10ce5516",
+        "version": "v009",
+        "label": "Landscape candidate v009",
+        "displayLabel": "Landscape candidate v009"
       },
       "alternates": [],
       "candidate_history": [
@@ -428,6 +464,24 @@
           "version": "v006",
           "file": "artifacts/d032/s010/landscape/v006/candidate.png",
           "sha256": "0ec1bc5f8fe1c43fb7ff01b127fad45cd5f0518ef647b23323fc84533786baf2",
+          "selected": false
+        },
+        {
+          "version": "v007",
+          "file": "artifacts/d032/s010/landscape/v007/candidate.png",
+          "sha256": "77e1c5f958302cea80b9deb7107d82a95c9c4ddb498c4c632aa3d7e944d585ca",
+          "selected": false
+        },
+        {
+          "version": "v008",
+          "file": "artifacts/d032/s010/landscape/v008/candidate.png",
+          "sha256": "38fa0bf7da016756aae59ea8d49de8c605351c0fae8949628bfa9fd681de1e6e",
+          "selected": false
+        },
+        {
+          "version": "v009",
+          "file": "artifacts/d032/s010/landscape/v009/candidate.png",
+          "sha256": "1ba6ccf75d32d6aba5e075d8d8f8ff23a6fb34b8401ea7766de541fa10ce5516",
           "selected": true
         }
       ]

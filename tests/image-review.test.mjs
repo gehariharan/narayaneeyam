@@ -245,7 +245,7 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 206);
+  assert.equal(labels.length - historicalLabels.length, 216);
   const d009 = selectedImages(batches).filter(image => image.chapter === 9).map(image => reviewFor(validation, image));
   assert.equal(d009.length, 10);
   assert.ok(d009.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
@@ -521,11 +521,11 @@ test('release union with main retains the expected review dataset counts through
   const mediaInputCount = batches.reduce((count, batch) => count + batch.rows.reduce((sum, row) => sum + (row.references || [row.reference]).length + 1 + (row.alternates || []).length, 0), 0);
   const d029 = batches.find(batch => batch.daskam_id === 29);
   assert.equal(d029?.rows.length, 10);
-  assert.equal(batches.length, 26);
-  assert.equal(rowCount, 269);
-  assert.equal(mediaInputCount, 545);
-  assert.equal(selectedImages(batches).length, 275);
-  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 29, 31, 33, 34, 38, 40, 42, 43, 44, 66, 67, 96]));
+  assert.equal(batches.length, 27);
+  assert.equal(rowCount, 279);
+  assert.equal(mediaInputCount, 565);
+  assert.equal(selectedImages(batches).length, 285);
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 29, 31, 32, 33, 34, 38, 40, 42, 43, 44, 66, 67, 96]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
