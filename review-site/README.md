@@ -277,6 +277,10 @@ translations are absent, and portrait compositions are paused. Upload only
 D014's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=14`
 before any serialized Worker deployment.
 
+## Dasakam 27
+
+D027 contains eleven caption-mapped landscape candidates in `art/batches/d027-comparison-v001.json`, linked to the eleven canonical stanzas and the selected lead reference for each. The eighteen supplied photos include alternates and text/UI extras, preserved in intake with their mapping and checksums; photo number is not stanza number. The comparison remains unapproved review material, and publication does not change the approval manifest.
+
 ## Dasakam 29
 
 D029 contains ten source-mapped landscape candidates in

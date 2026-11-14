@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "id": "d027-devas",
+  "display": "Devas (D027)",
+  "review_status": "provisional-needs-review",
+  "depiction_rules": {
+    "default_mode": "d027-source-grounded-narrative",
+    "allowed_modes": [
+      "d027-source-grounded-narrative"
+    ],
+    "notes": "D027 supporting groups; keep each scene to a small, varied and legible set."
+  },
+  "visual_bible": {
+    "form": "natural adult humanoids with one head, two arms, two hands, two legs and two feet each",
+    "appearance": "varied distinct faces, hair and simple cream/saffron/olive garments; restrained crowns only for named leaders",
+    "grouping": "small purposeful groups; no cloned repeated faces"
+  },
+  "anatomy_contract": {
+    "per_figure": {
+      "heads": 1,
+      "arms": 2,
+      "hands": 2,
+      "legs": 2
+    },
+    "rule": "named deities follow their own D027 contracts"
+  },
+  "never": [
+    "no fused bodies or duplicate copies",
+    "no extra or detached limbs",
+    "no cloned faces or unreadable crowd"
+  ],
+  "local_reference_paths": [],
+  "identity_scope": "D027 scene continuity only; not an approved character master"
+}

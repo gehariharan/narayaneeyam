@@ -32,7 +32,7 @@ const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import
 const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
 const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.reduce((n,r)=>n+(r.references||(r.reference?[r.reference]:[])).length,0),0);
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,29,31,33,34,38,40,42,43,44,66,67,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,29,31,33,34,38,40,42,43,44,66,67,96]);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
 assert.equal(Object.keys(data.assets).length,expectedMedia);
@@ -52,6 +52,15 @@ const d14=data.chapters.find(c=>c.id===14);
 assert.deepEqual(d14.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 assert.ok(d14.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
 assert.ok(d14.rows.every(r=>r.images.find(i=>i.role==='matte').inspectionStatus==='inspected'));
+const d27=data.chapters.find(c=>c.id===27);
+assert.ok(d27);assert.deepEqual(d27.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
+assert.ok(d27.reviewNotice.toLowerCase().includes('unapproved'));
+const content27=JSON.parse(await fs.readFile(new URL('../../content/daskams/d027.json',import.meta.url)));
+const selected27=JSON.parse(await fs.readFile(new URL('../../art/batches/d027-comparison-v001.json',import.meta.url)));
+assert.equal(selected27.rows.length,11);assert.equal(selected27.review_status,'needs-review');
+for(const row of d27.rows){assert.equal(row.commentary,content27.stanzas.find(s=>s.n===row.n).commentary_en);assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);}
+assert.equal((await feedback(req({...good,daskam:27,sloka:11}),env)).status,201);
+assert.equal((await feedback(req({...good,daskam:27,sloka:12}),env)).status,400);
 const d42=data.chapters.find(c=>c.id===42);
 assert.deepEqual(d42.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 assert.ok(d42.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
