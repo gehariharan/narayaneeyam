@@ -398,7 +398,7 @@ test('D043 selection binds its ten source and native candidate versions', async 
   }
 });
 
-test('D028 selection binds the ten mapped scenes, all five stanza 2 references, and the plain-crown repair', async () => {
+test('D028 selection binds the ten mapped scenes, all five stanza 2 references, and the selected repair versions', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batch = (await loadSelections(root)).find(item => item.daskam_id === 28);
   const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d028.json'), 'utf8'));
