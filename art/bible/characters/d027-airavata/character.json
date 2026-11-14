@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "d027-airavata",
+  "display": "Airavata (D027)",
+  "review_status": "provisional-needs-review",
+  "depiction_rules": {
+    "default_mode": "d027-source-grounded-narrative",
+    "allowed_modes": [
+      "d027-source-grounded-narrative"
+    ],
+    "notes": "D027 S001 elephant supporting cast; the supplied image and caption ground the garland scene."
+  },
+  "visual_bible": {
+    "form": "one large pale elephant with one head, one trunk, two ears and four naturally jointed legs",
+    "surface": "matte light cream/stone with restrained ochre shading",
+    "pose": "may crush the fallen garland with one forefoot; keep all feet and trunk attached and readable"
+  },
+  "anatomy_contract": {
+    "heads": 1,
+    "trunks": 1,
+    "ears": 2,
+    "legs": 4,
+    "rule": "one natural elephant body; all four legs attached"
+  },
+  "never": [
+    "no extra trunk, tusks, heads or legs",
+    "no duplicated elephant",
+    "no humanized face"
+  ],
+  "local_reference_paths": [],
+  "identity_scope": "D027 scene continuity only; not an approved character master"
+}

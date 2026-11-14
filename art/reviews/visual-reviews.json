@@ -32402,6 +32402,825 @@
         }
       },
       "findings": []
+    },
+    {
+      "chapter": 27,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d027/s001/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "b86c10e1cdbb07f49f5d2e9aa22f0cbe588fd1e64e06893366fee5a4b97b36fa",
+      "reviewer": "Codex independent reviewer d027-review-l",
+      "inspected_at": "2026-11-14T22:35:28Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Durvasa and Indra are ordinary two-armed humans; Airavata has one head, one trunk, and four legs.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-durvasa/character.json",
+          "sha256": "d40d0e58c11a90b8d62b8041137c86f4199bfe17143cfd8725c4d8c54c4eab35"
+        },
+        {
+          "path": "art/bible/characters/d027-indra/character.json",
+          "sha256": "e3ddb42201fe3ce662e0a29ce4dba9c0ba8aca47c10bf9dffbd17ec920a173a8"
+        },
+        {
+          "path": "art/bible/characters/d027-airavata/character.json",
+          "sha256": "e1cd39bb990cfeb6093cc56e97f519f3d4767780c365e4c67f87cee5f048a5fa"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-l-independent-v001.md",
+          "sha256": "405f8da33e1a12e0103dc357a65847fa2a8ec3ee6ae7cf11f7ff4d1cc9188026"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Durvasa’s raised curse hand and offering hand, Indra’s two garland-holding hands, and the visible feet remain attached and coherent; Airavata has four attached legs and one trunk."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Durvasa, Indra, and Airavata read as separate connected figures; their visible faces and extremities remain inside the frame."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Durvasa’s furrowed expression reads as anger; Indra looks toward the garland. Both faces are coherent at enlarged view."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Durvasa, one Indra, and one Airavata appear; no duplicated body or malformed joint is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo, or watermark is visible in the floor, architectural border, foliage, or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The celestial garland passes from Durvasa to Indra, with crushed flowers under Airavata’s forefoot; the wide mural keeps all three subjects legible."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-l-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d027/s002/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "b71846b9873e48c4ab28354b33954719adc3efa26c48f95fd34060e186c9d933",
+      "reviewer": "Codex independent reviewer d027-review-o",
+      "inspected_at": "2026-11-14T22:42:24Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Brahma has four heads total with three front-visible and four arms; Vishnu has four arms, while Shiva and the petitioners retain their scene-specific anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/d027-indra/character.json",
+          "sha256": "e3ddb42201fe3ce662e0a29ce4dba9c0ba8aca47c10bf9dffbd17ec920a173a8"
+        },
+        {
+          "path": "art/bible/characters/d027-brahma/character.json",
+          "sha256": "704f5a05d314cfb2edcca3085f75195d65e7b1246b6ee720277ab83671725db0"
+        },
+        {
+          "path": "art/bible/characters/d027-shiva/character.json",
+          "sha256": "478e205305395919e3dee2c400fb0099a9a76b588a7ba07770341d147fce8389"
+        },
+        {
+          "path": "art/bible/characters/d027-devas/character.json",
+          "sha256": "a63dfeb65ac3d191de56a9cabf0c4c347ba3755195c13b243fdd1473b0e9dba9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-o-independent-v001.md",
+          "sha256": "072181c262f104810992fa397f3ff6cccec28e16501d990a8240f472a238b401"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Brahma has four separately attached arms and Vishnu has four; Indra’s joined hands and visible feet remain intact. No malformed limb or digit is apparent."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The petitioners and deities remain distinct with connected bodies; the kneeling figure’s legs and feet are attached and in frame."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma shows three distinct front-visible faces, consistent with the fourth head turned behind; Shiva is single-faced and the other faces are distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The assembly contains distinct figures without a duplicated or fused person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The weakened, bowed Indra and devas petition Vishnu with Brahma and Shiva present; traditional drapery and painted-ochre ornaments read as temple-mural iconography."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-o-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d027/s003/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "cf50a18e92e8117b01b1457fc3d7b7ffdef27806d7067485e7cca852455fd4fe",
+      "reviewer": "Codex independent reviewer d027-review-l",
+      "inspected_at": "2026-11-14T22:35:28Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Vishnu has four attached arms; the listening devas are ordinary distinct humanoids.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/d027-brahma/character.json",
+          "sha256": "704f5a05d314cfb2edcca3085f75195d65e7b1246b6ee720277ab83671725db0"
+        },
+        {
+          "path": "art/bible/characters/d027-devas/character.json",
+          "sha256": "a63dfeb65ac3d191de56a9cabf0c4c347ba3755195c13b243fdd1473b0e9dba9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-l-independent-v001.md",
+          "sha256": "405f8da33e1a12e0103dc357a65847fa2a8ec3ee6ae7cf11f7ff4d1cc9188026"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vishnu’s four attached arms and the listening devas’ joined hands and seated legs are coherent; the visible foot has separated toe marks."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Vishnu’s seated body and the three listeners remain connected and proportionate in the single teaching scene."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Vishnu’s face is calm and coherent; the three listeners have distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No cloned face, fused body, or unplanned extra figure is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, signature, or watermark appears in the ground, water, tree, or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Vishnu gestures toward the ocean and Mandara while devas listen; nectar is absent as required by the counsel scene."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-l-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d027/s004/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "102c9ca8dce19be9ef692584669c220bbe4b1896f60ffb4dd94e461f8dd8de3b",
+      "reviewer": "Codex independent reviewer d027-review-o",
+      "inspected_at": "2026-11-14T22:42:24Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Vishnu has four arms; Garuda has one head, two wings, and two taloned legs; devas and asuras are ordinary distinct humanoids.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/d027-garuda/character.json",
+          "sha256": "af32201021f10c221be88f790e6aade6717902f6933458ce31249f6228ad51bb"
+        },
+        {
+          "path": "art/bible/characters/d027-devas/character.json",
+          "sha256": "a63dfeb65ac3d191de56a9cabf0c4c347ba3755195c13b243fdd1473b0e9dba9"
+        },
+        {
+          "path": "art/bible/characters/d027-asuras/character.json",
+          "sha256": "1ef89cb356260859fa31ec5b8ba58beae4f670a0ec50f47020df6b7f9d99135b"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-o-independent-v001.md",
+          "sha256": "072181c262f104810992fa397f3ff6cccec28e16501d990a8240f472a238b401"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vishnu’s four hands hold distinct attributes; Garuda has two attached wings and two taloned legs contacting Mandara. The groups’ visible limbs remain coherent."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Vishnu rides Garuda as one connected group; the devas and asuras are separate, with no malformed visible extremity."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Garuda’s beak and eye are clear; Vishnu and the six side figures have distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No duplicate or fused body is visible among Garuda, Vishnu, or the side groups."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo, or watermark appears in the ocean or corners; the source-photo signature is not reproduced."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Garuda’s talons support Mandara at the ocean as Vishnu rides above; devas and asuras gesture toward it. The report reads this as the recovery and placement moment after the fall, with the required figures and divine lifting legible."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-o-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d027/s005/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "0404915ea1fe49078b8f36fbc0e8834377745e6031495c786602030527e9d371",
+      "reviewer": "Codex independent reviewer d027-review-l",
+      "inspected_at": "2026-11-14T22:35:28Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Vasuki is one continuous serpent with one head; the asura and deva pullers have ordinary two-arm, two-leg anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/d027-vasuki/character.json",
+          "sha256": "e4bcf5e23519179a49675f225174c05a4bd46f855532b5d688708444fea1999c"
+        },
+        {
+          "path": "art/bible/characters/d027-devas/character.json",
+          "sha256": "a63dfeb65ac3d191de56a9cabf0c4c347ba3755195c13b243fdd1473b0e9dba9"
+        },
+        {
+          "path": "art/bible/characters/d027-asuras/character.json",
+          "sha256": "1ef89cb356260859fa31ec5b8ba58beae4f670a0ec50f47020df6b7f9d99135b"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-l-independent-v001.md",
+          "sha256": "405f8da33e1a12e0103dc357a65847fa2a8ec3ee6ae7cf11f7ff4d1cc9188026"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The two asuras and two devas have attached arms, legs, and hands gripping Vasuki; no extra or detached digit is apparent."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Four distinct pullers flank one continuous serpent and central Mandara; their visible grips and feet remain coherent."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The four pullers have distinct coherent faces; Vasuki has one identifiable head at the asura end."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No cloned face, fused body, or extra person is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, signature, or watermark appears in the water, ground, or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "One Vasuki winds around Mandara, with asuras on the head side and devas at the tail side, matching the captioned assignment."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-l-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d027/s006/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "eb78c032e714e303f44adf48554bdec389d02374af5d749a1c58044b5b4935a7",
+      "reviewer": "Codex independent reviewer d027-review-o",
+      "inspected_at": "2026-11-14T22:42:24Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Kurma is a complete tortoise with shell and four legs; Vasuki is one continuous serpent; devas are distinct humanoids.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-kurma/character.json",
+          "sha256": "0e88aac21ec005cc069c7f0e7a467bfbf64d8e795978c20ea47ae0ea14a525b6"
+        },
+        {
+          "path": "art/bible/characters/d027-vasuki/character.json",
+          "sha256": "e4bcf5e23519179a49675f225174c05a4bd46f855532b5d688708444fea1999c"
+        },
+        {
+          "path": "art/bible/characters/d027-devas/character.json",
+          "sha256": "a63dfeb65ac3d191de56a9cabf0c4c347ba3755195c13b243fdd1473b0e9dba9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-o-independent-v001.md",
+          "sha256": "072181c262f104810992fa397f3ff6cccec28e16501d990a8240f472a238b401"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Kurma is a complete tortoise with four visible attached legs; the farther legs are partly occluded by shell/body and water. The devas’ visible hands remain attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Mandara rests on Kurma’s shell beneath the water; the tortoise’s head, shell, legs, and short tail form one connected body."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Kurma’s single face is intact; the three devas at the waterline have separate legible faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No duplicated person or creature, fused body, or second serpent head is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, signature, logo, or watermark appears in the water or lower corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The submerged shell supports Mandara while devas watch; one continuous Vasuki coils around the mountain, with its far coil naturally obscured."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-o-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d027/s007/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "787970f9986348bd1456530479d308197051e8ebf30f0abce0edccbf0abe6f18",
+      "reviewer": "Codex independent reviewer d027-review-m",
+      "inspected_at": "2026-11-14T22:28:56Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Kurma is a complete non-anthropomorphic tortoise with one head, shell, four legs, and short tail.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-kurma/character.json",
+          "sha256": "0e88aac21ec005cc069c7f0e7a467bfbf64d8e795978c20ea47ae0ea14a525b6"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-m-independent-v001.md",
+          "sha256": "8c2634326421d782853b51d19825c81c2478638b740ddd24e22eb7282ebb7a82"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Kurma has four attached feet with distinct painted claws; no extra, fused, or missing leg is apparent."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The hard shell, single head, short tail, and four legs form one complete non-anthropomorphic tortoise supporting Mandara."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Kurma’s single face is legible and proportionate; no malformed face is apparent."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No duplicated figure or malformed body appears; there is no human cast."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, or watermark appears in the water or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Mandara is visibly lifted on Kurma’s broad shell above the water; the head, shell, and feet remain in frame."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-m-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d027/s008/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "adfe17df7e67ce6a8cfda983e9d3abadc334677ff57f7e5a4b470e888da02dc1",
+      "reviewer": "Codex independent reviewer d027-review-m",
+      "inspected_at": "2026-11-14T22:28:56Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "The four pullers are distinct two-armed, two-legged humanoids; Vasuki has one head and one continuous body.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/d027-vasuki/character.json",
+          "sha256": "e4bcf5e23519179a49675f225174c05a4bd46f855532b5d688708444fea1999c"
+        },
+        {
+          "path": "art/bible/characters/d027-devas/character.json",
+          "sha256": "a63dfeb65ac3d191de56a9cabf0c4c347ba3755195c13b243fdd1473b0e9dba9"
+        },
+        {
+          "path": "art/bible/characters/d027-asuras/character.json",
+          "sha256": "1ef89cb356260859fa31ec5b8ba58beae4f670a0ec50f47020df6b7f9d99135b"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-m-independent-v001.md",
+          "sha256": "8c2634326421d782853b51d19825c81c2478638b740ddd24e22eb7282ebb7a82"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Each of the four humanoids has two attached arms and legs; all grip the serpent with distinct visible finger contours."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The four pullers have connected limbs and bodies; Vasuki remains one continuous serpent around Mandara."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The four faces are differentiated, with no malformed or accidental duplicate face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No fused or duplicated body is visible among the four pullers."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, signature, or watermark appears in the sea, ground, or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Vasuki’s head is at the asura side and its tapering tail extends to the devas; both groups pull around one raised Mandara."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-m-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d027/s009/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "8ce57af6c8c18bc4afd3b77fa3f3200965441c7cf2db898f08ffb16411f23a7a",
+      "reviewer": "Codex independent reviewer d027-review-n",
+      "inspected_at": "2026-11-14T22:36:51Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Vishnu has four arms; Brahma has four total heads with three front-visible and four arms; Shiva and devas are distinct.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/d027-brahma/character.json",
+          "sha256": "704f5a05d314cfb2edcca3085f75195d65e7b1246b6ee720277ab83671725db0"
+        },
+        {
+          "path": "art/bible/characters/d027-shiva/character.json",
+          "sha256": "478e205305395919e3dee2c400fb0099a9a76b588a7ba07770341d147fce8389"
+        },
+        {
+          "path": "art/bible/characters/d027-devas/character.json",
+          "sha256": "a63dfeb65ac3d191de56a9cabf0c4c347ba3755195c13b243fdd1473b0e9dba9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-n-independent-v001.md",
+          "sha256": "3d8a311792b1b4fae241b35d3b9fa0486aa61ce10f3526fa3037a4513c3d2fef"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vishnu has four attached arms and Brahma four attached arms; Shiva’s joined hands and the other visible hands and feet remain coherent."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The divine figures and three supporting devas are separate; Vishnu’s feet are in frame and no key face or extremity is cut off."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma has three distinct front-visible faces, matching the four-total-head convention with the fourth turned behind; Vishnu, Shiva, and the devas have coherent distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No extra or duplicated limb/body or fused figure is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, caption, signature, logo, or watermark appears in the full image or inspected detail regions."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Vishnu steadies Mandara with a lotus hand as Brahma, Shiva, and devas praise and present flowers. The disclosed tall tiered crown, peacock feather, and multiple necklaces remain visible."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-n-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d027/s010/landscape/candidate-v008.png",
+      "version": "v008",
+      "sha256": "db52901c18f32f775207ac50e3883f8d35d24a519036f189b148233dc0e4b37d",
+      "reviewer": "Codex independent reviewer d027-review-m",
+      "inspected_at": "2026-11-14T22:28:56Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "The four pullers are distinct ordinary humanoids; Vasuki has one continuous body and poison direction follows the scene.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-vasuki/character.json",
+          "sha256": "e4bcf5e23519179a49675f225174c05a4bd46f855532b5d688708444fea1999c"
+        },
+        {
+          "path": "art/bible/characters/d027-devas/character.json",
+          "sha256": "a63dfeb65ac3d191de56a9cabf0c4c347ba3755195c13b243fdd1473b0e9dba9"
+        },
+        {
+          "path": "art/bible/characters/d027-asuras/character.json",
+          "sha256": "1ef89cb356260859fa31ec5b8ba58beae4f670a0ec50f47020df6b7f9d99135b"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-m-independent-v001.md",
+          "sha256": "8c2634326421d782853b51d19825c81c2478638b740ddd24e22eb7282ebb7a82"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Two devas and two asuras have attached arms, legs, and hands on Vasuki; visible fingers and toes have separate ordinary contours."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The four people remain separate and connected; Vasuki’s body is continuous around Mandara."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All four faces are distinct and readable; the asuras react to the fumes while devas look toward Vasuki."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No fused bodies, duplicated people, or malformed limbs are visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, signature, or watermark appears in the sky, fumes, water, ground, or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Fumes from Vasuki’s head travel toward the asuras on the right while rain falls only over devas on the left."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-m-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
+    },
+    {
+      "chapter": 27,
+      "sloka": 11,
+      "role": "matte",
+      "file": "artifacts/d027/s011/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "50f2e4ea5f0188a0446547f496fb7cbc8154644b65003e36840c54f29958b54d",
+      "reviewer": "Codex independent reviewer d027-review-m",
+      "inspected_at": "2026-11-14T22:28:56Z",
+      "method": "individual-native-resolution",
+      "anatomy_basis": "Vishnu has exactly two attached arms gripping Vasuki; Bhattathiri is one older clean-shaven human.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d027.json",
+          "sha256": "460a75c84f61d3c66a94ad9303ebe2c14787c508ff5702b49177061ba1711002"
+        },
+        {
+          "path": "art/bible/characters/d027/scene-contracts.json",
+          "sha256": "d2783b2dac71cd777a732cfca5d9ea1e1f06729b9468ee90345c0d98efc52fa4"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/d027-vasuki/character.json",
+          "sha256": "e4bcf5e23519179a49675f225174c05a4bd46f855532b5d688708444fea1999c"
+        },
+        {
+          "path": "art/bible/characters/d027-bhattathiri/character.json",
+          "sha256": "a688d5a3ca6c23473e044d9cec7fa926961e537aa5d8a85a3a8fe1e6d6025732"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d027-review-m-independent-v001.md",
+          "sha256": "8c2634326421d782853b51d19825c81c2478638b740ddd24e22eb7282ebb7a82"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vishnu has exactly two attached arms gripping Vasuki; Bhattathiri’s seated human body and joined hands are coherent."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Vishnu’s two hands grip separate points on the same continuous serpent; Bhattathiri’s seated legs and feet remain connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Vishnu’s face is proportionate; Bhattathiri appears older and clean-shaven with one face and no beard or moustache."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The fish and two makara-like forms are separate; no malformed or duplicated person/creature is apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, or watermark appears in the water, shore, or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Vishnu alone resumes churning with two hands while fish and two makara-like forms surface and Bhattathiri prays at shore. The disclosed tall crown, peacock feather, and heavy necklaces are present."
+        }
+      },
+      "findings": [],
+      "notes": "Independent exact-checksum findings are in art/reviews/d027-review-m-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
+      "outcome": "pass"
     }
   ]
 }
