@@ -523,7 +523,7 @@ test('release union with main retains the expected review dataset counts through
   assert.equal(d029?.rows.length, 10);
   assert.equal(batches.length, 27);
   assert.equal(rowCount, 279);
-  assert.equal(mediaInputCount, 565);
+  assert.equal(mediaInputCount, 567);
   assert.equal(selectedImages(batches).length, 285);
   assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 29, 31, 32, 33, 34, 38, 40, 42, 43, 44, 66, 67, 96]));
 });

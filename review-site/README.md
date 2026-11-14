@@ -404,8 +404,18 @@ and the numbered captions preserved in `intake/D032/photo-captions.txt`. Stanzas
 3 and 10 retain both mapped source photographs; photos 013–014 are preserved as
 documentary extras and are not attributed to a stanza. Selected versions are
 pinned in `art/batches/d032-comparison-v001.json` and `art/plans/d032.json`.
-Fresh producer full-frame and detail inspections are in the versioned
-`art/reviews/d032-s*-producer-review-v001.md` reports; exact-checksum independent
-reviews are pending. D032 remains unapproved, portraits are paused, and sourced
-English translations are absent. Publish only the review-site WebP derivatives
-with `node review-site/scripts/upload.mjs --daskam=32` after review clearance.
+Fresh producer full-frame and detail inspections of the selected versions are
+in `art/reviews/d032-s*-producer-review-v002.md` for S001 v005, S002 v001,
+S003 v004, S004 v002, S005 v004, S006 v004, S007 v004 and S008 v003, and in
+`art/reviews/d032-s009-landscape-v005-producer-review-v001.md` and
+`art/reviews/d032-s010-landscape-v009-producer-review-v001.md` for S009 v005
+and S010 v009. Independent exact-checksum reviews
+`art/reviews/d032-independent-review-f.md`, `-g.md` and `-h.md` pass all ten
+selections against the final plan and contracts; their non-failing observations
+(the disclosed S003 v004 gold floral patch, S009 v005 Matsya scale and gill band,
+S010 v009 ornament) are recorded in the batch review notice. D032 remains
+unapproved, portraits are paused, and sourced English translations are absent.
+Upload only D032's WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=32` before any serialized Worker
+deployment. With D032 added, the union holds 27 chapters, 279 stanza rows, 567
+review media inputs and 285 selected generated images.

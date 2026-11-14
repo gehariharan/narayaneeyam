@@ -17,7 +17,6 @@
         "label": "Original composition reference",
         "displayLabel": "Original reference"
       },
-      "additional_references": [],
       "matte": {
         "file": "artifacts/d032/s001/landscape/v005/candidate.png",
         "sha256": "78ca3537edce2c4b9a5a5be61c56a023939f1429394ad9f86154c95212806451",
@@ -70,7 +69,6 @@
         "label": "Original composition reference",
         "displayLabel": "Original reference"
       },
-      "additional_references": [],
       "matte": {
         "file": "artifacts/d032/s002/landscape/v001/candidate.png",
         "sha256": "c2b4e2b4515cae548c46861fe35d327bcd283a7d2da20e8c3975e8b26320df0a",
@@ -92,14 +90,14 @@
       "n": 3,
       "concept_id": "d032-s003",
       "scene": "The fish outgrows each vessel",
-      "reference": {
-        "file": "intake/D032/003.jpg",
-        "sha256": "82ac917095cf51afcda54cdf2bf2daf27759e3303f96e67444e755f1398dccda",
-        "version": "source-003",
-        "label": "Mapped source photo",
-        "displayLabel": "Original reference 003.jpg"
-      },
-      "additional_references": [
+      "references": [
+        {
+          "file": "intake/D032/003.jpg",
+          "sha256": "82ac917095cf51afcda54cdf2bf2daf27759e3303f96e67444e755f1398dccda",
+          "version": "source-003",
+          "label": "Mapped source photo",
+          "displayLabel": "Original reference 003.jpg"
+        },
         {
           "file": "intake/D032/004.jpg",
           "sha256": "1fc7916a7df94bf7fb4fc8a1f30a4b891c4699923b0091c150ec15c30902d09a",
@@ -154,7 +152,6 @@
         "label": "Original composition reference",
         "displayLabel": "Original reference"
       },
-      "additional_references": [],
       "matte": {
         "file": "artifacts/d032/s004/landscape/v002/candidate.png",
         "sha256": "d3e33f48d4d712e7c0c59a5619fe8200e0a508e496e0dbcdcdd501d2bd514a3d",
@@ -189,7 +186,6 @@
         "label": "Original composition reference",
         "displayLabel": "Original reference"
       },
-      "additional_references": [],
       "matte": {
         "file": "artifacts/d032/s005/landscape/v004/candidate.png",
         "sha256": "b5acd932c887ef67af436728570a530c871ccd63ca7375cfd02cfc34d19feba4",
@@ -236,7 +232,6 @@
         "label": "Original composition reference",
         "displayLabel": "Original reference"
       },
-      "additional_references": [],
       "matte": {
         "file": "artifacts/d032/s006/landscape/v004/candidate.png",
         "sha256": "636156f531c364de0eda3307ef786cafcc69e21051c78ff7273a0bf51654ad54",
@@ -283,7 +278,6 @@
         "label": "Original composition reference",
         "displayLabel": "Original reference"
       },
-      "additional_references": [],
       "matte": {
         "file": "artifacts/d032/s007/landscape/v004/candidate.png",
         "sha256": "e1cddcd1a419ed80df4d42ed32b8d5f55f87d73f401c748e18f9afb6e01c8627",
@@ -330,7 +324,6 @@
         "label": "Original composition reference",
         "displayLabel": "Original reference"
       },
-      "additional_references": [],
       "matte": {
         "file": "artifacts/d032/s008/landscape/v003/candidate.png",
         "sha256": "c95d1729d6e50316a046097601c7d765f774b9a7078bfc2fb9ef64a41aa1ece8",
@@ -371,7 +364,6 @@
         "label": "Original composition reference",
         "displayLabel": "Original reference"
       },
-      "additional_references": [],
       "matte": {
         "file": "artifacts/d032/s009/landscape/v005/candidate.png",
         "sha256": "3690d98ada3699cfa57a6ad5bbc03556ed0f6871e55342ab280b079269ea2593",
@@ -411,14 +403,14 @@
       "n": 10,
       "concept_id": "d032-s010",
       "scene": "Matsya defeats Hayagriva and restores the Vedas",
-      "reference": {
-        "file": "intake/D032/011.jpg",
-        "sha256": "a3e60e4d8ed6e45e7d6413641a88ea976325ac523f388737c6c958508f0969a5",
-        "version": "source-011",
-        "label": "Mapped source photo",
-        "displayLabel": "Original reference 011.jpg"
-      },
-      "additional_references": [
+      "references": [
+        {
+          "file": "intake/D032/011.jpg",
+          "sha256": "a3e60e4d8ed6e45e7d6413641a88ea976325ac523f388737c6c958508f0969a5",
+          "version": "source-011",
+          "label": "Mapped source photo",
+          "displayLabel": "Original reference 011.jpg"
+        },
         {
           "file": "intake/D032/012.jpg",
           "sha256": "3904fbdf3114a51e5f827a2ede3b2af7a4d5009e7e3f1ada57bec27cd2a523e6",
