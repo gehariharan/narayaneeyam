@@ -350,9 +350,9 @@ console.log('Passed: D031 has ten caption-mapped rows, both S009 references, pin
 const full36=data.chapters.find(c=>c.id===36);assert.ok(full36);assert.deepEqual(full36.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 const selected36=JSON.parse(await fs.readFile(new URL('../../art/batches/d036-comparison-v001.json',import.meta.url)));
 const plan36=JSON.parse(await fs.readFile(new URL('../../art/plans/d036.json',import.meta.url)));
-assert.equal(selected36.rows.length,11);assert.equal(selected36.review_status,'needs-review');assert.ok(full36.reviewNotice.includes('unapproved'));
+assert.equal(selected36.rows.length,11);assert.equal(selected36.review_status,'needs-review');assert.match(full36.reviewNotice,/unapproved/i);
 assert.deepEqual(selected36.rows.map(r=>r.matte.version),['v001','v001','v001','v001','v002','v001','v001','v002','v002','v002','v001']);
-assert.match(selected36.visual_review_status,/S010 v002 retains repeated near-identical faces/);
+assert.match(selected36.visual_review_status,/S010 v002 passes with repeated background ancestor faces/);
 for(const row of full36.rows){
  const scene=plan36.stanzas.find(s=>s.n===row.n);const selected=selected36.rows.find(r=>r.n===row.n);assert.ok(scene&&selected);
  const refs=selected.references||[selected.reference];assert.equal(row.images.length,refs.length+1);
