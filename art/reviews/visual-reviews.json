@@ -33221,6 +33221,711 @@
       "findings": [],
       "notes": "Independent exact-checksum findings are in art/reviews/d027-review-m-independent-v001.md. Separate producer self-inspection (not independent evidence): art/reviews/d027-producer-inspection-v007-final-contracts.md; it remains labeled producer.",
       "outcome": "pass"
+    },
+    {
+      "chapter": 35,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d035/s001/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "45d49fa251270e61b293c911e64894bb8629d0c474815d962cfb4079caa7a7ee",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout g, final plan)",
+      "inspected_at": "2026-11-14T06:01:23Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Rama, Sugriva and Hanuman each have two connected arms and legs; Sugriva and Hanuman each have one attached tail.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/sugriva/character.json",
+          "sha256": "5e907c9dc2ed7624f792bb70918ae02bb0d9a54ba381268c6d09e9397ee51a23"
+        },
+        {
+          "path": "art/bible/characters/hanuman/character.json",
+          "sha256": "f9293002bf7389ea3bee583a5cd2c4f4d5b20642ae44a6590ce0c614e244b8a9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-g.md",
+          "sha256": "f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Rama’s drawing hand and bow hand attach to his arms; the witnesses’ joined hands are distinct, with feet and toes visible inside the frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Three separate bodies have plausible proportions; Rama’s feet and the vanaras’ bent legs and feet remain in frame."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Rama’s calm face and the two distinct simian witness faces are intact and readable."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Rama, Sugriva and Hanuman are separate figures; no fused or duplicate person is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark appears in the ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "One continuous arrow passes through seven distinct shala trunks in a row; the scene isolates Rama’s demonstration as Sugriva and Hanuman watch."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout g: art/reviews/d035-independent-review-g.md (SHA-256 f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval."
+    },
+    {
+      "chapter": 35,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d035/s002/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "ead2bcc293016e961d99a1ce6fb95775dc4cb7da17a4384133f6305d479c4368",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout g, final plan)",
+      "inspected_at": "2026-11-14T06:01:23Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Rama, Hanuman, Lakshmana and Sugriva each have two connected arms and legs; Hanuman has one attached tail.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/lakshmana/character.json",
+          "sha256": "51f7a4f47deb0affa85d261ab4e60fcd39d733f80dd6724a739f033a6f20ae54"
+        },
+        {
+          "path": "art/bible/characters/sugriva/character.json",
+          "sha256": "5e907c9dc2ed7624f792bb70918ae02bb0d9a54ba381268c6d09e9397ee51a23"
+        },
+        {
+          "path": "art/bible/characters/hanuman/character.json",
+          "sha256": "f9293002bf7389ea3bee583a5cd2c4f4d5b20642ae44a6590ce0c614e244b8a9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-g.md",
+          "sha256": "f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Rama’s attached hand places a single ring at Hanuman’s open palm; other visible hands and feet remain attached, with no noticeable digit error at crop scale."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Foreground figures and the three small background searchers remain distinct connected bodies; the ring handoff hands do not float."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Rama, Hanuman, Lakshmana and Sugriva have individually discernible faces; no malformed or cut-off face is visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The foreground figures and small search party remain separate; no duplicated body is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark appears in the image, ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The ring visibly rests at the contact between Rama’s fingers and Hanuman’s palm as the party waits behind on a forest route."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout g: art/reviews/d035-independent-review-g.md (SHA-256 f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval."
+    },
+    {
+      "chapter": 35,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d035/s003/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "889a2ff831e2ed5243ba35b4e4f53ade30be6f1addf8f53bde94b4ec7abb5468",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout g, final plan)",
+      "inspected_at": "2026-11-14T06:01:23Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Sita and Hanuman each have two connected arms and legs; Hanuman has one attached tail.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/hanuman/character.json",
+          "sha256": "f9293002bf7389ea3bee583a5cd2c4f4d5b20642ae44a6590ce0c614e244b8a9"
+        },
+        {
+          "path": "art/bible/characters/sita/character.json",
+          "sha256": "90c9f8b261e2515b3df07df1c2f08fc0e75482b60ac75d0ab006e44f72b361f6"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-g.md",
+          "sha256": "f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "All four arms connect to the two figures; both hand contacts and objects are visible, and knees, feet and toes remain inside frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Sita and Hanuman have connected limbs, with no fused limb or cut-off extremity visible."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Sita’s adult face and Hanuman’s simian face are intact and distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The ashoka garden contains the two planned figures without a duplicate person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark appears in the foliage, ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "One continuous garden scene shows the ring meeting Sita’s hand and her hand at the hair jewel above Hanuman’s palm."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout g: art/reviews/d035-independent-review-g.md (SHA-256 f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval."
+    },
+    {
+      "chapter": 35,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d035/s004/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "2dc85305ca5f0b777c3f1cddf59ae1f880241ae0871caeb6c6462354aa2320e1",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout g, final plan)",
+      "inspected_at": "2026-11-14T06:01:23Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Rama, Vibhishana and Samudra Raja each show two connected arms and legs; no extra heads or arms are present.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/vibhishana/character.json",
+          "sha256": "f6843ce13ff7e3c3c15b88a59c332a1a972462e1932a7959921e4bfe8cc517ff"
+        },
+        {
+          "path": "art/bible/characters/samudra-raja/character.json",
+          "sha256": "7a98b2c763af44f43f2fe4be3b590f41b5df8cc91048137bec6685890d862d0b"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-g.md",
+          "sha256": "f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Rama holds the bow and continuous arrow; Vibhishana’s and Samudra Raja’s joined hands connect, and shore figures’ feet and toes are within frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Foreground figures remain distinct; the small vanara group is not fused with Vibhishana."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Rama, clean-shaven Vibhishana and Samudra Raja have readable, distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The foreground figures and background vanaras remain separate; no malformed or duplicated figure is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark appears in the sand, water, sky or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The continuous shore scene shows Rama’s contained fire arrow, Vibhishana beside him and Samudra Raja rising respectfully from the sea."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout g: art/reviews/d035-independent-review-g.md (SHA-256 f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval."
+    },
+    {
+      "chapter": 35,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d035/s005/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "18ef1817e344e6ec908e2e100ca02e24e7dfabd3a702ec47cc56a141ea93c5d0",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout g, final plan)",
+      "inspected_at": "2026-11-14T06:01:23Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Garuda has two attached wings and two taloned feet; Rama has two connected arms. Lakshmana’s missing second arm and the non-binding naga coils are disclosed deviations.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/lakshmana/character.json",
+          "sha256": "51f7a4f47deb0affa85d261ab4e60fcd39d733f80dd6724a739f033a6f20ae54"
+        },
+        {
+          "path": "art/bible/characters/garuda/character.json",
+          "sha256": "574f6ce4c4488129b475bf6967dd8e0219e16bb213a27212f4fd35d446755035"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-g.md",
+          "sha256": "f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Garuda’s two taloned feet and Rama’s hands and feet are attached and visible. Lakshmana has one visible connected arm and hand; the absent arm is not obscured by coils."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The brothers’ visible limbs remain connected; Garuda has two attached wings. The absent arm and non-binding coils are the disclosed deviations."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Rama and Lakshmana each have one intact readable face; Garuda has one hooked-beak face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The three background vanara allies are distinct and not cloned; no fused body is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark appears in sky, ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Garuda descends over the brothers, but the coils lie beside or behind them rather than binding their torsos or limbs. Both deviations are present and disclosed; no separate undisclosed defect was observed."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout g: art/reviews/d035-independent-review-g.md (SHA-256 f42e8676c0d21fd8df006d8c7fdb6c90a927d161e59f86947cbb44e4416f576f), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval.",
+      "disclosed_deviations": [
+        "Lakshmana has only one visible connected arm; his second arm is absent and not obscured by coils.",
+        "The visible naga coils lie beside or behind the brothers and do not read as binding their torsos or limbs."
+      ]
+    },
+    {
+      "chapter": 35,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d035/s006/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "c4a540b30243ec26a3d1bd1ef331caea1374395512f65fab65c85f04ad47bc2c",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout h, final plan)",
+      "inspected_at": "2026-11-14T05:58:17Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Rama and Hanuman show connected two-arm, two-leg forms; Hanuman has one attached tail. Lakshmana’s far side is occluded by his prone pose.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/lakshmana/character.json",
+          "sha256": "51f7a4f47deb0affa85d261ab4e60fcd39d733f80dd6724a739f033a6f20ae54"
+        },
+        {
+          "path": "art/bible/characters/hanuman/character.json",
+          "sha256": "f9293002bf7389ea3bee583a5cd2c4f4d5b20642ae44a6590ce0c614e244b8a9"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-h.md",
+          "sha256": "11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Hanuman’s two open mountain-supporting hands and Rama’s two supporting hands connect to their arms; Hanuman’s feet and toes are visible with no obvious extra or fused digit."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Rama, Lakshmana and Hanuman are distinct with connected visible limbs; the mountain rests on Hanuman’s raised palms."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Rama’s downturned face, Lakshmana’s closed-eyed face and Hanuman’s simian face are coherent and distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The three principal figures and several background allies are distinct; no fused or duplicate person is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text-like mark appears in the sky, water, ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The single healing scene shows Rama attending unconscious Lakshmana while Hanuman brings the herb-covered mountain, without later combat moments."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout h: art/reviews/d035-independent-review-h.md (SHA-256 11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval."
+    },
+    {
+      "chapter": 35,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d035/s007/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "4441723dd0f9b99c51fb9e33525bf1fc4d552fbea63e2f3739b5a49322278da7",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout h, final plan)",
+      "inspected_at": "2026-11-14T05:58:17Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Rama has two attached arms and legs; Ravana has exactly ten distinct heads attached to one body, with exactly two arms and two legs.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/ravana/character.json",
+          "sha256": "ceaa16294638cc27a87055292ca04cab6ced934ff03b2e1f486452321019ca5c"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-h.md",
+          "sha256": "11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Rama’s bow and drawing hands remain connected; bow, string and single arrow are continuous. Ravana’s two hands and both feet are inside frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Rama and Ravana have coherent connected bodies; Ravana’s ten heads remain attached above one torso."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Rama and all ten Ravana faces are individually formed and recognizable."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Ravana’s ten heads belong to one figure; background warriors remain distinct and secondary."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text-like mark appears in the sky, ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "One Lanka battle scene shows Rama aiming one arrow toward Ravana, isolated from later caption events."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout h: art/reviews/d035-independent-review-h.md (SHA-256 11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval."
+    },
+    {
+      "chapter": 35,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d035/s008/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "18c05547df6cb0c1baf5d14e8f923d5f98b541c7c27452a5070143418ed1a472",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout h, final plan)",
+      "inspected_at": "2026-11-14T05:58:17Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Sita and Valmiki have connected limbs; the plan shows Sita with her two newborn sons and the sage.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/sita/character.json",
+          "sha256": "90c9f8b261e2515b3df07df1c2f08fc0e75482b60ac75d0ab006e44f72b361f6"
+        },
+        {
+          "path": "art/bible/characters/valmiki/character.json",
+          "sha256": "5b77ee80de484ac50a883da4e83605c266214cfb6c4c6cb2fc4deaece69fb4ae"
+        },
+        {
+          "path": "art/bible/characters/lava/character.json",
+          "sha256": "80b3be7571d3e3944183e7826701a81ce3c7fb2bb19c2a364d8d957689ba4411"
+        },
+        {
+          "path": "art/bible/characters/kusha/character.json",
+          "sha256": "3a1f6781869fa91d1efb597bb78a5108562b3228b5a4cf7eda65fa7b4b62740d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-h.md",
+          "sha256": "11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Sita’s arms extend around the infants; Valmiki’s hands and feet are visible and connected. The babies’ extremities are partly hidden by wraps with no malformed exposed extremity."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Sita and Valmiki have coherent connected limbs; the two infants are distinct and naturally proportioned."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Sita, bearded elder Valmiki and both infants have coherent distinct faces; the twins are not duplicates."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two newborns are present; the background deer is an animal, not a duplicate person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text-like mark appears in foliage, ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The quiet forest hermitage shows Sita and exactly two newborn sons without the unrelated coronation panel or Rama."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout h: art/reviews/d035-independent-review-h.md (SHA-256 11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval."
+    },
+    {
+      "chapter": 35,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d035/s009/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "3c55e0688c9fdf9cc492b3e4d9761bf0502616c4abfe35befcdcddf1aed5ffe5",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout h, final plan)",
+      "inspected_at": "2026-11-14T05:58:17Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Rama, Sita, the two boys, Valmiki and Bhudevi are distinct. The angular ground opening is the disclosed deviation.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/rama/character.json",
+          "sha256": "6cddaa94cec95d18971ae728ec1dce2a77e99f5b673d1e17353d4df030912063"
+        },
+        {
+          "path": "art/bible/characters/sita/character.json",
+          "sha256": "90c9f8b261e2515b3df07df1c2f08fc0e75482b60ac75d0ab006e44f72b361f6"
+        },
+        {
+          "path": "art/bible/characters/lava/character.json",
+          "sha256": "80b3be7571d3e3944183e7826701a81ce3c7fb2bb19c2a364d8d957689ba4411"
+        },
+        {
+          "path": "art/bible/characters/kusha/character.json",
+          "sha256": "3a1f6781869fa91d1efb597bb78a5108562b3228b5a4cf7eda65fa7b4b62740d"
+        },
+        {
+          "path": "art/bible/characters/valmiki/character.json",
+          "sha256": "5b77ee80de484ac50a883da4e83605c266214cfb6c4c6cb2fc4deaece69fb4ae"
+        },
+        {
+          "path": "art/bible/characters/bhudevi/character.json",
+          "sha256": "c69ac694c3897172daa395100ea353b0a2c163827003134ab46a00dff533778a"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-h.md",
+          "sha256": "11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Sita’s joined hands, Bhudevi’s supporting hands and the children’s visible hands and feet are connected; no obvious digit defect is visible."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Exposed arms and hands connect; lower bodies enter or are obscured by the opening without a visibly detached or fused body part."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The six figures have distinct coherent faces; no malformed or duplicated person is visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The cast remains six distinct figures; no duplicate goddess or detached body is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text-like mark appears in foliage, ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Sita returns toward the earth with Bhudevi supporting her before Rama, the twins and Valmiki. The opening reads as a deep, hard-edged angular trench; this disclosed deviation is present and does not change the pass verdict."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout h: art/reviews/d035-independent-review-h.md (SHA-256 11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval.",
+      "disclosed_deviations": [
+        "The ground opening reads as a deep, hard-edged angular trench rather than the natural supported cradle specified by the plan."
+      ]
+    },
+    {
+      "chapter": 35,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d035/s010/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "631530f2f0073627644913845bf02008a5657c80cd50e9d8f9c07ab21679d175",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout h, final plan)",
+      "inspected_at": "2026-11-14T05:58:17Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Bhattathiri and Guruvayurappan each show two connected arms and two legs; the deity is in the required two-armed form.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d035.json",
+          "sha256": "6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d035-independent-review-h.md",
+          "sha256": "11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Bhattathiri’s joined hands and the deity’s blessing and resting hands connect; fingers are individually legible without an obvious count or fusion error."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both figures show connected arms and legs; the peacock feather, hands and feet remain fully inside the frame."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Bhattathiri reads as older and clean-shaven with ash markings; Guruvayurappan’s face is youthful and composed."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The one poet and one deity remain distinct, with no malformed face."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text-like mark appears in the temple field, floor or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "One shrine scene shows the praying poet, two-armed blessing deity and lamp; the niche is part of the scene, not an outer canvas border."
+        }
+      },
+      "findings": [],
+      "notes": "Final independent exact-checksum review by scout h: art/reviews/d035-independent-review-h.md (SHA-256 11cfae4b321a03424045318347a810de712dceedbceedcea09e85c0bb444ca02), bound to plan 6ef5dafa2a003a3b0b1577998097f74fe9ee589b460c2bbe2fe293f9c195d169 and the listed character contracts. The report records a pass verdict for this exact candidate. This review does not grant human art approval."
     }
   ]
 }

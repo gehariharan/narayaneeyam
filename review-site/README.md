@@ -165,7 +165,13 @@ yet available. Portraits remain paused. Upload its WebP derivatives with
 
 ## Dasakam 35
 
-D035 contains ten stanza-specific landscape candidates selected from the mapped intake photos and exact version hashes: S001 v002, S002 v002, S003 v001, S004 v002, S005 v002, S006 v002, S007 v002, S008 v001, S009 v002, and S010 v003. Superseded attempts remain preserved with their findings and are excluded from publication. Independent exact-checksum visual review is pending. The batch remains unapproved. Supplied captions are shown as commentary; no sourced English translation was found. Portrait production remains paused. Upload only D035 review derivatives with `node review-site/scripts/upload.mjs --daskam=35` before deployment.
+D035 contains ten stanza-specific landscape candidates selected from mapped intake photos and exact version hashes: S001 v002, S002 v002, S003 v001, S004 v004, S005 v003, S006 v003, S007 v004, S008 v001, S009 v005, and S010 v003.
+Superseded attempts remain preserved with their findings and are excluded from the comparison.
+Independent exact-checksum visual reviews pass all ten selected candidates; S005’s missing second arm and non-binding naga coils, and S009’s trench-like ground opening, are disclosed deviations present in the reviewed images.
+The batch remains unapproved pending captain art approval.
+Supplied captions are shown as commentary; no sourced English translation was found.
+Portrait production remains paused.
+For an authorized deployment, upload only D035 review derivatives with `node review-site/scripts/upload.mjs --daskam=35`.
 
 ## Dasakam 38
 
