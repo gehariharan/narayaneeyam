@@ -279,7 +279,7 @@ before any serialized Worker deployment.
 
 ## Dasakam 27
 
-D027 contains eleven caption-mapped landscape candidates in `art/batches/d027-comparison-v001.json`, linked to the eleven canonical stanzas and the selected lead reference for each. The eighteen supplied photos include alternates and text/UI extras, preserved in intake with their mapping and checksums; photo number is not stanza number. The comparison remains unapproved review material, and publication does not change the approval manifest.
+D027 contains eleven caption-mapped landscape candidates in `art/batches/d027-comparison-v001.json`, linked to the eleven canonical stanzas and the selected lead reference for each. The eighteen supplied photos include alternates and text/UI extras, preserved in intake with their mapping and checksums; photo number is not stanza number. The comparison remains unapproved review material, and publication does not change the approval manifest. Upload only D027's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=27` before any serialized Worker deployment. With D027 added, the union holds 29 chapters, 300 stanza rows, 613 review media inputs and 306 selected generated images.
 
 ## Dasakam 29
 
