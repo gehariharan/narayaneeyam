@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D029, D031, D033, D034, D040, D042, D043, D044, D066 and D067 media from the release using the existing
+D005 through D014, D029, D031, D032, D033, D034, D040, D042, D043, D044, D066 and D067 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
