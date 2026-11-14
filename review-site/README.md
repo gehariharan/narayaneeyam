@@ -171,6 +171,7 @@ Fresh independent exact-checksum review of all ten selected candidates passes ag
 Supplied captions are shown as commentary; no sourced English translation was found.
 Portrait production remains paused.
 For an authorized deployment, upload only D035 review derivatives with `node review-site/scripts/upload.mjs --daskam=35`.
+With D035 added, the union holds 30 chapters, 310 stanza rows, 633 review media inputs and 316 selected generated images.
 
 ## Dasakam 38
 
@@ -451,5 +452,5 @@ S010 v009 ornament) are recorded in the batch review notice. D032 remains
 unapproved, portraits are paused, and sourced English translations are absent.
 Upload only D032's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=32` before any serialized Worker
-deployment. With D035 added, the union holds 29 chapters, 299 stanza rows, 611
-review media inputs and 305 selected generated images.
+deployment. With D028 and D032 added, the union holds 28 chapters, 289 stanza rows, 591
+review media inputs and 295 selected generated images.

@@ -396,7 +396,7 @@ for(const row of full35.rows){
  const scene=plan35.stanzas.find(s=>s.n===row.n);assert.equal(scene.selected_landscape.file,selected.matte.file);assert.equal(scene.selected_landscape.sha256,selected.matte.sha256);
  assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
 }
-for(const [n,versions] of [[1,['v001']],[2,['v001']],[4,['v001']],[5,['v001']],[6,['v001']],[7,['v001']],[9,['v001']],[10,['v001','v002']]]){const row=selected35.rows.find(r=>r.n===n);assert.deepEqual(row.superseded_trials.map(x=>x.version),versions);for(const trial of row.superseded_trials){assert.match(trial.sha256,/^[a-f0-9]{64}$/);assert.ok(!full35.rows.find(r=>r.n===n).images.some(i=>i.version===trial.version));}}
+for(const [n,versions] of [[1,['v001']],[2,['v001']],[3,[]],[4,['v001','v002','v003']],[5,['v001','v002','v003']],[6,['v001','v002']],[7,['v001','v002']],[8,[]],[9,['v001','v002','v003','v004']],[10,['v001','v002']]]){const row=selected35.rows.find(r=>r.n===n);assert.deepEqual(row.superseded_trials.map(x=>x.version),versions);for(const trial of row.superseded_trials){assert.match(trial.sha256,/^[a-f0-9]{64}$/);assert.ok(!full35.rows.find(r=>r.n===n).images.some(i=>i.version===trial.version));}}
 assert.equal((await feedback(req({...good,daskam:35,sloka:10}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:35,sloka:11}),env)).status,400);
 console.log('Passed: D035 has ten mapped rows, checksum-pinned candidates, unapproved status, and stanza-bounded feedback.');
