@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "daskam_id": 37,
+  "chapter_sources": [
+    {
+      "role": "canonical Sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-37-in-sanskrit/",
+      "publisher": "Stotra Nidhi",
+      "retrieved_at": "2026-11-06",
+      "sha256": "c36bc0f2f123fec5e2b204e8bcf2768aa63505cd0c4ff66470a0597ed85a08e5",
+      "coverage": "Numbered stanzas 1–10 and completion marker.",
+      "capture_path": "/home/gehariharan/firstmate-images/data/d037-production/source-custody/stotranidhi-deva.html",
+      "capture_sha256": "c36bc0f2f123fec5e2b204e8bcf2768aa63505cd0c4ff66470a0597ed85a08e5"
+    },
+    {
+      "role": "canonical IAST romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-37-in-english/",
+      "publisher": "Stotra Nidhi",
+      "retrieved_at": "2026-11-06",
+      "sha256": "5cb9b64311236e9b256335c7e37162cf4918dc3013bc4f88da0b7ebeaedb131b",
+      "coverage": "Numbered IAST stanzas 1–10. The page is a romanization, not an English translation.",
+      "capture_path": "/home/gehariharan/firstmate-images/data/d037-production/source-custody/stotranidhi-iast.html",
+      "capture_sha256": "5cb9b64311236e9b256335c7e37162cf4918dc3013bc4f88da0b7ebeaedb131b"
+    }
+  ],
+  "commentary_source": {
+    "role": "supplied caption text; retained verbatim as attributed commentary, not used as translation",
+    "original_files": [
+      "intake/D037/photo-captions.txt",
+      "intake/D037/post-caption.txt",
+      "intake/D037/post.json"
+    ],
+    "canonical_copy": "content/sources/d037/COMMENTRY.txt",
+    "caption_mapping": "Readiness record /home/gehariharan/firstmate-images/data/d037-production/accepted-readiness.json maps caption #1–#10 to intake/D037/001.jpg–010.jpg. Numeric extras 011.jpg and 012.jpg have no caption and are excluded from stanza attribution.",
+    "photo_captions_sha256": "4a512cbf50123335a7aa6abe801436ce00aaf9efa10cdb6c71d98415e99e8804",
+    "post_caption_sha256": "413fe0d02d0eda9f8d7ad44ff8899f1cef701f7c0be06bebc382cf8efec32883",
+    "post_json_sha256": "245323b0b2addf99818e73ebc5acbfc53b2c093947559ec49bad937c83f5ce52",
+    "english_translation": "No sourced English translation was present in the supplied intake or the retrieved Stotra Nidhi Sanskrit/IAST pages. This is explicitly left blank in content/daskams/d037.json."
+  },
+  "mapped_references": [
+    {
+      "stanza": 1,
+      "path": "intake/D037/001.jpg",
+      "sha256": "b00b3e13c4a8b570f299468645ccae36c4db2f66a78571f1be43b9ee78c0fcc4"
+    },
+    {
+      "stanza": 2,
+      "path": "intake/D037/002.jpg",
+      "sha256": "df2d32a89acd2e3b69f121fe4fd003b8582e07532d8fe7e650ab5c84d4e909ca"
+    },
+    {
+      "stanza": 3,
+      "path": "intake/D037/003.jpg",
+      "sha256": "eb81a752a5a22064b7f506514e4830881742cbbbffa76a1b7a830a07e18418a6"
+    },
+    {
+      "stanza": 4,
+      "path": "intake/D037/004.jpg",
+      "sha256": "3867db905aa8d71aa1f97b6bddaa0c638f65dc95dd905bdcf57543f53bcd55a3"
+    },
+    {
+      "stanza": 5,
+      "path": "intake/D037/005.jpg",
+      "sha256": "6819ab14925ec2ebb561d7098362aaa7e96093ee4ade35a5bef13d1cbb663743"
+    },
+    {
+      "stanza": 6,
+      "path": "intake/D037/006.jpg",
+      "sha256": "d2b84683ddef4e8c31f8a58c63af03556240e2bb93044e4aae468be2a0fd7a7e"
+    },
+    {
+      "stanza": 7,
+      "path": "intake/D037/007.jpg",
+      "sha256": "105d0b9f389e97fce4ff3d6051fc40e35eec976c0c696b4d8490cc99f3947604"
+    },
+    {
+      "stanza": 8,
+      "path": "intake/D037/008.jpg",
+      "sha256": "e0cbc41aedcb5b089a9860f0cb6ad77b2aeff57289cdd11c8369194d3bc311cb"
+    },
+    {
+      "stanza": 9,
+      "path": "intake/D037/009.jpg",
+      "sha256": "c835010c615833ad60341d971c7df21995dc3d16e10aa9c8a4c28f71223e111f"
+    },
+    {
+      "stanza": 10,
+      "path": "intake/D037/010.jpg",
+      "sha256": "6b1d5e664d9377f0972765b1389b951128b2e06a981e48b2799579f5bdf67bb8"
+    }
+  ],
+  "unmapped_extras": [
+    {
+      "path": "intake/D037/011.jpg",
+      "sha256": "aaa12a9493ac0c9446240bfa0c17942d27311346c02b22efd9617b8e803fdef1",
+      "stanza_attribution": null
+    },
+    {
+      "path": "intake/D037/012.jpg",
+      "sha256": "f22f23ca760c0847e11741fcbe8d035f0dd523e08634af06faa914fe24e2eebc",
+      "stanza_attribution": null
+    }
+  ],
+  "rendering_references": [
+    {
+      "path": "artifacts/d037/references/style-d001-s004.png",
+      "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+      "role": "flat opaque mineral-matte rendering only"
+    },
+    {
+      "path": "artifacts/d037/references/style-d001-s008.png",
+      "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+      "role": "flat opaque mineral-matte rendering only"
+    },
+    {
+      "path": "artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+      "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+      "role": "Brahma identity and contracted form only"
+    },
+    {
+      "path": "artifacts/d037/references/vishnu-approved-guruvayurappan.png",
+      "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+      "role": "Hari identity only; omit peacock feather and glossy shading"
+    }
+  ]
+}

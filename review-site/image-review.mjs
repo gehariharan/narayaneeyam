@@ -79,8 +79,13 @@ async function validateImages(root, images, { final = false } = {}) {
     const plan = await readJson(root, planPath);
     const scene = plan.stanzas.find(stanza => stanza.n === image.sloka);
     if (!scene) throw new Error(`Missing scene contract: ${where}`);
-    const required = ['art/bible/series.json', planPath, ...(scene.characters || []).map(id => `art/bible/characters/${id}/character.json`)];
     if (!Array.isArray(review.contracts)) throw new Error(`Missing scene/character contracts: ${where}`);
+    const plannedCharacterRefs = plan.character_bible_refs;
+    const characterFiles = Array.isArray(plannedCharacterRefs)
+      ? plannedCharacterRefs
+      : (scene.characters || []).map(id => `art/bible/characters/${id}/character.json`);
+    if (plannedCharacterRefs !== undefined && (!Array.isArray(plannedCharacterRefs) || plannedCharacterRefs.some(file => !nonempty(file) || !file.startsWith('art/bible/characters/')))) throw new Error(`Invalid planned character contract references: ${where}`);
+    const required = ['art/bible/series.json', planPath, ...characterFiles];
     for (const file of required) {
       if (!review.contracts.some(item => item.path === file)) throw new Error(`Missing or stale contract ${file}: ${where}`);
     }
@@ -88,6 +93,19 @@ async function validateImages(root, images, { final = false } = {}) {
     for (const binding of review.contracts) {
       if (contractPaths.has(binding.path) || !hash(binding.sha256) || sha256(await fs.readFile(localPath(root, binding.path))) !== binding.sha256) throw new Error(`Missing or stale contract ${binding.path}: ${where}`);
       contractPaths.add(binding.path);
+    }
+    // A plan may bind a chapter-scoped contract that covers several scene characters.
+    // Require each cast member to be covered by a bound direct sheet or such an aggregate.
+    for (const id of scene.characters || []) {
+      const direct = `art/bible/characters/${id}/character.json`;
+      if (characterFiles.includes(direct)) continue;
+      let covered = false;
+      for (const file of characterFiles) {
+        if (!/^art\/bible\/characters\/d\d{3}\/scene-contracts\.json$/.test(file)) continue;
+        const aggregate = await readJson(root, file);
+        if (aggregate.chapter === `D${String(image.chapter).padStart(3, '0')}` && aggregate.characters && Object.hasOwn(aggregate.characters, id)) covered = true;
+      }
+      if (!covered) throw new Error(`Missing planned character contract for ${id}: ${where}`);
     }
     // A separately committed report records actual viewing, close views, and remaining limits.
     if (!Array.isArray(review.evidence) || !review.evidence.length) throw new Error(`Missing inspection report: ${where}`);
