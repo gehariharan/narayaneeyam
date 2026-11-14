@@ -165,10 +165,9 @@ yet available. Portraits remain paused. Upload its WebP derivatives with
 
 ## Dasakam 35
 
-D035 contains ten stanza-specific landscape candidates selected from mapped intake photos and exact version hashes: S001 v002, S002 v002, S003 v001, S004 v004, S005 v003, S006 v003, S007 v004, S008 v001, S009 v005, and S010 v003.
+D035 contains ten stanza-specific landscape candidates selected from mapped intake photos and exact version hashes: S001 v002, S002 v002, S003 v001, S004 v004, S005 v004, S006 v003, S007 v004, S008 v001, S009 v005, and S010 v003.
 Superseded attempts remain preserved with their findings and are excluded from the comparison.
-Independent exact-checksum visual reviews pass all ten selected candidates; S005’s missing second arm and non-binding naga coils, and S009’s trench-like ground opening, are disclosed deviations present in the reviewed images.
-The batch remains unapproved pending captain art approval.
+Fresh independent exact-checksum review of all ten selected candidates passes against the final plan and character contracts, with one record per exact image identity in `art/reviews/visual-reviews.json`. Reports l, m and n remain separate evidence files; earlier reports are history. The S005 v003 review found clipped Garuda wing tips; one authorized repair produced v004, now selected with both wing tips inside the frame, two connected arms on each brother, and visible binding coils. Tie-break review confirms S008 shows Valmiki rather than an extra Rama and S009 includes Valmiki at the far left. The batch is unapproved; captain art approval is pending. S009’s trench-like ground opening remains disclosed.
 Supplied captions are shown as commentary; no sourced English translation was found.
 Portrait production remains paused.
 For an authorized deployment, upload only D035 review derivatives with `node review-site/scripts/upload.mjs --daskam=35`.
@@ -452,5 +451,5 @@ S010 v009 ornament) are recorded in the batch review notice. D032 remains
 unapproved, portraits are paused, and sourced English translations are absent.
 Upload only D032's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=32` before any serialized Worker
-deployment. With D028 and D032 added, the union holds 28 chapters, 289 stanza rows, 591
-review media inputs and 295 selected generated images.
+deployment. With D035 added, the union holds 29 chapters, 299 stanza rows, 611
+review media inputs and 305 selected generated images.
