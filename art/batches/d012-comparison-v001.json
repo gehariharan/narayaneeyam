@@ -2,9 +2,9 @@
   "schema_version": 1,
   "daskam_id": 12,
   "review_status": "needs-review",
-  "visual_review_status": "All ten selected raws have a fresh managed full-frame and detail review bound to their exact hashes, and all ten pass. S002 v004, S007 v006, S008 v005 and S009 v005 are native repairs that replace needs-fix versions retained as history. Portraits paused; no art approval.",
-  "description": "Ten D012 landscape candidates paired with ten verified intake references. The selected S004 and S010 versions are corrected native raws. Historic review evidence is retained alongside a fresh managed review of every selected raw; the needs-fix versions of S002, S007 (v004 and v005), S008 and S009 remain preserved history. Artwork remains unapproved.",
-  "review_notice": "Earlier pass labels are historical. Each selected raw's current record cites its managed review, which compares the exact raw hash, full frame plus relevant anatomy and scene details, against the canonical stanza, intake, plan, series and character references. Open findings stay open until a corrected raw is reviewed. Portraits remain paused. This comparison batch does not grant art approval.",
+  "visual_review_status": "Independent exact-checksum visual reviews recorded for all ten selected landscape raws against plan SHA-256 5073515ef7467fc27feff08b8f71f47acf76617db7fe39b6148104863b4d9e30: d012-review-a (S001–S004), d012-review-c (S005 tiebreak), and d012-review-b (S006–S010) pass. S003 v008 retains the disclosed nostril wisps and gap above Brahma’s receiving hand. No artwork is approved.",
+  "description": "Ten dasakam 12 landscape candidates paired with ten verified intake references. S003 v008 is the new native 16:9 selection; v007 is retained as history. All ten selected raws pass independent exact-checksum review against the final plan and character contracts. Artwork remains unapproved.",
+  "review_notice": "Independent exact-checksum review records for all ten selected landscape raws are bound to the final D012 plan and character contracts. S003 v008 retains its disclosed emergence wisps and gap above the receiving hand. Portraits remain paused. This comparison batch does not grant art approval.",
   "rows": [
     {
       "n": 1,
@@ -63,13 +63,18 @@
         "displayLabel": "Original reference"
       },
       "matte": {
-        "file": "artifacts/d012/s003/landscape/candidate-v007.png",
-        "sha256": "42bba9f8efdf584f50f2dc807e2205d6b9df83d3f1280fe6576eeeb0dd5ca855",
-        "version": "v007",
-        "label": "Landscape candidate v007",
-        "displayLabel": "Landscape candidate v007"
+        "file": "artifacts/d012/s003/landscape/candidate-v008.png",
+        "sha256": "4afcf91061f564c7e0efc1dbc8d5e85e43fead0d14280249b7087fd7b8517850",
+        "version": "v008",
+        "label": "Landscape candidate v008",
+        "displayLabel": "Landscape candidate v008"
       },
-      "alternates": []
+      "alternates": [],
+      "history": {
+        "previous_selected_version": "v007",
+        "previous_sha256": "42bba9f8efdf584f50f2dc807e2205d6b9df83d3f1280fe6576eeeb0dd5ca855",
+        "status": "retained as superseded history after producer comparison found an unmarked natural brown boar touching Brahma’s nostril without a clear divine emergence and no sinking-Earth context; candidate remains available for audit"
+      }
     },
     {
       "n": 4,
