@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "chapter": "d032",
+  "status": "working-scene-continuity-contracts; not art approval",
+  "source_basis": [
+    "canonical verses 1–10 from Stotra Nidhi, linked in content/sources/d032/source-custody.json",
+    "mapped reference photographs under intake/D032",
+    "supplied numbered captions under intake/D032/photo-captions.txt"
+  ],
+  "characters": {
+    "matsya": {
+      "form": "Divine avatar as a fish, from a small luminous fish in stanza 2 to the immense oceanic fish of stanzas 6–10.",
+      "continuity": "Deep indigo-blue upper scales, warm cream underside, calm clear fish eyes, exactly one prominent horn high on the forehead from the giant form onward; natural coherent fins, gills, tail, and single continuous fish body. Small form in stanza 2 is the same fish.",
+      "anatomy": "Fish anatomy only. No humanoid torso, arms, hands, legs, crown, peacock feather, or copied Guruvayurappan humanoid identity. Single horn stays visible and is the boat-tether point in stanzas 7–8.",
+      "never": [
+        "no extra horns or duplicated fins",
+        "no detached body parts",
+        "no metallic shine, gloss, text, or photorealism"
+      ]
+    },
+    "satyavrata": {
+      "form": "A dignified South Indian sage-king, shown as the same adult man in stanzas 2–9.",
+      "continuity": "Warm medium-brown skin, dark hair gathered simply, neat moustache, cream dhoti with muted ochre/maroon edge, sacred thread; practical ascetic simplicity, no oversized crown.",
+      "anatomy": "Natural adult proportions, exactly two attached arms and two legs; scene actions use clear connected hands.",
+      "never": [
+        "no costume or facial redesign across scenes",
+        "no royal spectacle or modern items"
+      ]
+    },
+    "hayagriva": {
+      "form": "The asura Hayagriva is a single horse-headed adult humanoid adversary, matching the source image as a subject cue.",
+      "continuity": "One coherent equine head with natural muzzle and ears on a distinct humanlike torso, dark maroon/earth-ochre garments and restrained ornaments.",
+      "anatomy": "Exactly two natural attached arms and two legs; no extra deity limbs. Keep all anatomy connected.",
+      "never": [
+        "do not confuse the asura with a Matsya or Guruvayurappan form",
+        "no grotesque monster features or gore",
+        "no extra horse heads, limbs, or duplicated bodies"
+      ]
+    },
+    "saptarishis": {
+      "form": "Seven distinct mature sages, together only in stanzas 5–8 and returned to their places in stanza 9.",
+      "continuity": "Seven individually distinguishable older men in simple cream and ochre ascetic garments, varied natural hair/beard arrangements, prayer beads and staffs only where they fit hands.",
+      "anatomy": "Every visible sage has one head, two arms, two hands, and two legs with natural proportions; no clones or merged bodies.",
+      "never": [
+        "do not make the group ambiguous or duplicated",
+        "no loose/disconnected hands or props"
+      ]
+    },
+    "vasuki": {
+      "form": "The king of serpents is one living naga, used as the line securing the boat to Matsya’s horn in stanza 7 and remaining attached as they travel in stanza 8.",
+      "continuity": "One continuous deep green/earth-ochre serpent body, one recognizable hooded head, calm alert face, restrained painted markings.",
+      "anatomy": "The full body visibly connects boat and single fish horn; the curve is taut enough to read as a tether but not cutting into either.",
+      "never": [
+        "no multiple detached heads or coils",
+        "do not borrow Adishesha’s multi-hood canopy",
+        "no attack posture, fangs, or human limbs"
+      ]
+    }
+  },
+  "scene_contracts": {
+    "brahma": "Use existing approved art/bible/characters/brahma/character.json and its exact approved image only for identity/iconography when Brahma is in frame: four heads total, three faces visible frontally; exactly four distinct connected arms/hands.",
+    "flood_boat": "In stanzas 6–8 the boat signifies Earth as source imagery states. Keep it a single stable boat with all occupants seated/holding safely; do not make it a globe or split island unless the supplied scene photo clearly does so.",
+    "s09_s10_violence": "Depict the sourced defeat of Hayagriva with non-graphic restraint; no blood or exposed anatomy."
+  }
+}

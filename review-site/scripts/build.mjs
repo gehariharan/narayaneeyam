@@ -60,7 +60,7 @@ for (const importedSelection of batches) {
     }
     chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,editorialStatus:stanza.review_status||'needs-review',images});
   }
-  chapter.representative=(id === 2 ? chapter.rows[0] : (chapter.rows[2]||chapter.rows[0])).images[1].key;
+  chapter.representative=(id === 2 ? chapter.rows[0] : (chapter.rows[2]||chapter.rows[0])).images.find(image=>image.role==='matte').key;
   chapters.push(chapter);
 }
 chapters.sort((a, b) => a.id - b.id);
