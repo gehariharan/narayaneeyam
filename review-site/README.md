@@ -190,12 +190,13 @@ Chapter links and Worker routing use three-digit slugs (`d038`, not `d0038`).
 
 D037 has ten landscape comparison rows mapped to the numbered intake photographs
 and their supplied commentary. Exact candidate versions and SHA-256 values are
-pinned in `art/batches/d037-comparison-v005.json`; the source mapping is recorded
+pinned in `art/batches/d037-comparison-v006.json`; the source mapping is recorded
 in `content/sources/d037/`. S005 v003 corrects Hari's skin to deep blue. S010 v006
 is the better candidate after the authorized final repair, with its softly
 feathered, slightly luminous blue path disclosed as a remaining deviation.
-Fresh independent exact-checksum review is pending. The selected candidates remain
-unapproved, portraits are paused, and no sourced English translation is available.
+Fresh independent exact-checksum review is pending for all ten selected images.
+The selected candidates remain unapproved, portraits are paused, and no sourced
+English translation is available.
 Upload only D037's review WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=37` before deploying the review
 Worker.
