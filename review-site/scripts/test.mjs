@@ -439,7 +439,7 @@ const content62=JSON.parse(await fs.readFile(new URL('../../content/daskams/d062
 const selected62=JSON.parse(await fs.readFile(new URL('../../art/batches/d062-comparison-v001.json',import.meta.url)));
 assert.equal(selected62.rows.length,10);assert.equal(selected62.review_status,'needs-review');assert.ok(full62.reviewNotice.toLowerCase().includes('unapproved'));
 for(const row of full62.rows){
- assert.equal(row.commentarySource,`intake/D062/photo-captions.txt#${String(row.n).padStart(3,'0')}`);
+ assert.equal(row.commentarySource,`intake/D062/photo-captions.txt#${row.n}`);
  assert.equal(row.commentary,content62.stanzas.find(s=>s.n===row.n).commentary_en);
  assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
  const selected=selected62.rows.find(r=>r.n===row.n);
