@@ -83,12 +83,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison candidate",
           "composition_override": "Compose independently for this wide frame.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d041/s001/landscape/candidate-v001.png",
-          "candidate_sha256": "96f85b8d9764864ead8fa629853395effc4e649bf2dc040028a76246c8fe0b80",
-          "prompt_path": "artifacts/d041/s001/landscape/prompt-v001.txt",
-          "candidate_status": "producer-generated native v001; independent managed review pending; unapproved",
-          "native_dimensions": "1672x941"
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d041/s001/landscape/candidate-v003.png",
+          "candidate_sha256": "897f24aa4410fb78fc5e24bb3f4d3f9764285d864147999768d4be2e113631da",
+          "prompt_path": "artifacts/d041/s001/landscape/prompt-v003.txt",
+          "candidate_status": "Producer-inspected native v003; v002 retained unselected because Putana’s giant-form skin was tan/ochre instead of muted grey-green; independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1671x941"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -141,7 +141,7 @@
           "candidate_path": "artifacts/d041/s002/landscape/candidate-v002.png",
           "candidate_sha256": "6665aa49f7bf4a16b0c4e247f17c02117974903c0dfb16077ebe7b09c1a188e8",
           "prompt_path": "artifacts/d041/s002/landscape/prompt-v002.txt",
-          "candidate_status": "producer-generated native v002; v001 retained unselected with repeated-face needs-fix observation; independent managed review pending; unapproved",
+          "candidate_status": "producer-generated native v002; v001 retained unselected with repeated-face needs-fix observation; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
         "portrait": {
@@ -155,12 +155,17 @@
       "n": 3,
       "concept_id": "d041-s003",
       "review_status": "needs-review",
-      "characters": [],
+      "characters": [
+        "gopas",
+        "gopikas"
+      ],
       "reference_paths": [
         "intake/D041/003.jpg",
         "artifacts/d041/references/shared/style-d001-s004.png",
         "artifacts/d041/references/shared/style-d001-s008.png",
-        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png"
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/gopas/character.json",
+        "art/bible/characters/gopikas/character.json"
       ],
       "scene_brief": {
         "mode": "narrative",
@@ -183,11 +188,11 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison candidate",
           "composition_override": "Compose independently for this wide frame.",
-          "candidate_version": "v002",
-          "candidate_path": "artifacts/d041/s003/landscape/candidate-v002.png",
-          "candidate_sha256": "00580e600bf008c346dd79649a2bcef3e2ff60022140ef5d61c0571b3096956f",
-          "prompt_path": "artifacts/d041/s003/landscape/prompt-v002.txt",
-          "candidate_status": "producer-generated native v002; v001 retained unselected with plan mismatch observation; independent managed review pending; unapproved",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d041/s003/landscape/candidate-v003.png",
+          "candidate_sha256": "630af3d436153e25f722fb22170b9b13310bc77539a74ba65b849058666abe37",
+          "prompt_path": "artifacts/d041/s003/landscape/prompt-v003.txt",
+          "candidate_status": "producer-inspected native v003; v002 retained unselected because it omitted the distant villagers required by the plan; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
         "portrait": {
@@ -237,12 +242,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison candidate",
           "composition_override": "Compose independently for this wide frame.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d041/s004/landscape/candidate-v001.png",
-          "candidate_sha256": "548de919ca9d501eac2847859febe0cf78215e5eaae6997a5ca3e24c967df5e8",
-          "prompt_path": "artifacts/d041/s004/landscape/prompt-v001.txt",
-          "candidate_status": "producer-generated native v001; independent managed review pending; unapproved",
-          "native_dimensions": "1672x941"
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d041/s004/landscape/candidate-v003.png",
+          "candidate_sha256": "0d5003d417a7aa15941aab68eba2afa71c3cf68a46fbcdf9e695adc5a06a02f7",
+          "prompt_path": "artifacts/d041/s004/landscape/prompt-v003.txt",
+          "candidate_status": "Producer-inspected native v003. 15×15 px median RGB samples: Putana face (165, 144, 88), arm (145, 126, 73), upper foot (168, 147, 90), lower foot (160, 141, 84). Green is 19–21 below red, so the explicit green-over-red condition remains unmet; v003 is closer to muted grey-green than tan/ochre v002. No further repair authorized. Independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1671x941"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -297,11 +302,11 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison candidate",
           "composition_override": "Compose independently for this wide frame.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d041/s005/landscape/candidate-v001.png",
-          "candidate_sha256": "74c9b659ae3546649f93bc38805040a88081c45e75536bd7ca46c445b4c05d96",
-          "prompt_path": "artifacts/d041/s005/landscape/prompt-v001.txt",
-          "candidate_status": "producer-generated native v001; independent managed review pending; unapproved",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d041/s005/landscape/candidate-v003.png",
+          "candidate_sha256": "fff5eeef7ef6b0521a39200a9bdcbea17e824bb403cdab9fc8c17e7173943b5e",
+          "prompt_path": "artifacts/d041/s005/landscape/prompt-v003.txt",
+          "candidate_status": "Producer-inspected native v003. 15×15 px median RGB samples for Krishna: face cheek (70, 71, 104), torso (61, 67, 108), legs (53, 60, 94); blue exceeds red by 34, 47 and 41 respectively. The face remains 6 below the required 40-channel margin, though it is more blue than v002 (captain sample RGB (113, 95, 124), blue-red +11). No further repair authorized. Independent exact-checksum review is recorded; unapproved.",
           "native_dimensions": "1672x941"
         },
         "portrait": {
@@ -359,7 +364,7 @@
           "candidate_path": "artifacts/d041/s006/landscape/candidate-v001.png",
           "candidate_sha256": "062ce63686945dee82021d88afe63e738edccd347878934b5bbb15702918b6d7",
           "prompt_path": "artifacts/d041/s006/landscape/prompt-v001.txt",
-          "candidate_status": "producer-generated native v001; independent managed review pending; unapproved",
+          "candidate_status": "producer-generated native v001; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
         "portrait": {
@@ -415,7 +420,7 @@
           "candidate_path": "artifacts/d041/s007/landscape/candidate-v001.png",
           "candidate_sha256": "fc54b2acc0af735b9f24f5aab79dfad72dd704e0f81caadab76f44b416482edf",
           "prompt_path": "artifacts/d041/s007/landscape/prompt-v001.txt",
-          "candidate_status": "producer-generated native v001; independent managed review pending; unapproved",
+          "candidate_status": "producer-generated native v001; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
         "portrait": {
@@ -471,7 +476,7 @@
           "candidate_path": "artifacts/d041/s008/landscape/candidate-v001.png",
           "candidate_sha256": "2ac88e517eaebb10a805ba9dbbb8e712cb3c3f85b5bd9c3c15f85cde2a864e3e",
           "prompt_path": "artifacts/d041/s008/landscape/prompt-v001.txt",
-          "candidate_status": "producer-generated native v001; independent managed review pending; unapproved",
+          "candidate_status": "producer-generated native v001; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
         "portrait": {
@@ -525,7 +530,7 @@
           "candidate_path": "artifacts/d041/s009/landscape/candidate-v001.png",
           "candidate_sha256": "35f73190607cac96fbdf91c1a367a04476a71d55cb6a849e6d2f6c41d726d78a",
           "prompt_path": "artifacts/d041/s009/landscape/prompt-v001.txt",
-          "candidate_status": "producer-generated native v001; independent managed review pending; unapproved",
+          "candidate_status": "producer-generated native v001; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
         "portrait": {
@@ -578,7 +583,7 @@
           "candidate_path": "artifacts/d041/s010/landscape/candidate-v002.png",
           "candidate_sha256": "d632c360b887e39602acaefac65f0e8300334862c0f58f0d49f744b862b09035",
           "prompt_path": "artifacts/d041/s010/landscape/prompt-v002.txt",
-          "candidate_status": "producer-generated native v002; v001 retained unselected with heavy-jewelry needs-fix observation; independent managed review pending; unapproved",
+          "candidate_status": "producer-generated native v002; v001 retained unselected with heavy-jewelry needs-fix observation; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
         "portrait": {
