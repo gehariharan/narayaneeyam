@@ -245,7 +245,7 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 278);
+  assert.equal(labels.length - historicalLabels.length, 288);
   const d037 = selectedImages(batches).filter(image => image.chapter === 37).map(image => reviewFor(validation, image));
   assert.equal(d037.length, 10);
   assert.ok(d037.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
