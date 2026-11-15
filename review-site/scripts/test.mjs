@@ -73,7 +73,7 @@ assert.equal((await feedback(req({...good,daskam:37,sloka:10}),env)).status,201)
 assert.equal((await feedback(req({...good,daskam:37,sloka:11}),env)).status,400);
 const d48=data.chapters.find(c=>c.id===48);assert.ok(d48);assert.deepEqual(d48.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content48=JSON.parse(await fs.readFile(new URL('../../content/daskams/d048.json',import.meta.url)));
-const selected48=JSON.parse(await fs.readFile(new URL('../../art/batches/d048-comparison-v003.json',import.meta.url)));
+const selected48=JSON.parse(await fs.readFile(new URL('../../art/batches/d048-comparison-v004.json',import.meta.url)));
 assert.equal(selected48.rows.length,10);assert.equal(selected48.review_status,'needs-review');assert.ok(d48.reviewNotice.includes('unapproved'));
 for(const row of d48.rows){const selected=selected48.rows.find(r=>r.n===row.n);assert.ok(selected);assert.equal(row.commentary,content48.stanzas.find(s=>s.n===row.n).commentary_en);assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);for(const role of ['reference','matte'])assert.equal(data.assets[row.images.find(i=>i.role===role).key].sourceHash,selected[role].sha256);assert.equal(row.images.find(i=>i.role==='matte').version,selected.matte.version);assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');}
 assert.equal((await feedback(req({...good,daskam:48,sloka:10}),env)).status,201);assert.equal((await feedback(req({...good,daskam:48,sloka:11}),env)).status,400);
