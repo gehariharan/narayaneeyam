@@ -270,7 +270,7 @@ const full41=data.chapters.find(c=>c.id===41);assert.ok(full41);assert.deepEqual
 const content41=JSON.parse(await fs.readFile(new URL('../../content/daskams/d041.json',import.meta.url)));
 const selected41=JSON.parse(await fs.readFile(new URL('../../art/batches/d041-comparison-v001.json',import.meta.url)));
 const versions41=JSON.parse(await fs.readFile(new URL('../../art/batches/d041-candidate-versions-v001.json',import.meta.url)));
-assert.equal(selected41.rows.length,10);assert.equal(selected41.review_status,'needs-review');assert.equal(versions41.versions.length,22);
+assert.equal(selected41.rows.length,10);assert.equal(selected41.review_status,'needs-review');assert.equal(versions41.versions.length,24);
 assert.ok(full41.reviewNotice.includes('unapproved'));
 for(const row of full41.rows){
  const stanza=content41.stanzas.find(s=>s.n===row.n);assert.equal(row.commentarySource,stanza.commentary_source);assert.equal(row.commentary,stanza.commentary_en);

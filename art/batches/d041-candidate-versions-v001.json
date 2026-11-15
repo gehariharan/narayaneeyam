@@ -214,7 +214,8 @@
       "dimensions_px": "1672x941",
       "prompt_path": "artifacts/d041/s010/landscape/prompt-v002.txt",
       "provenance_path": "artifacts/d041/s010/landscape/provenance-v002.json",
-      "selection_status": "selected"
+      "selection_status": "unselected-needs-fix",
+      "producer_issue": "Final independent review and pixel samples found Krishna’s skin muted blue-grey: cheek (81, 83, 99) and temple (97, 96, 110) samples were below the deep indigo contract. Superseded by native v003, whose sampled blue exceeds red by at least 54."
     },
     {
       "stanza": 4,
@@ -239,8 +240,8 @@
       "dimensions_px": "1671x941",
       "prompt_path": "artifacts/d041/s004/landscape/prompt-v003.txt",
       "provenance_path": "artifacts/d041/s004/landscape/provenance-v003.json",
-      "selection_status": "selected",
-      "producer_issue": "Producer-inspected native v003. 15×15 px median RGB samples: Putana face (165, 144, 88), arm (145, 126, 73), upper foot (168, 147, 90), lower foot (160, 141, 84). Green is 19–21 below red, so the explicit green-over-red condition remains unmet; v003 is closer to muted grey-green than tan/ochre v002. No further repair authorized. Independent exact-checksum review pending; unapproved."
+      "selection_status": "unselected-needs-fix",
+      "producer_issue": "The tiebreak review found that only one of Putana’s two required outstretched arms was clearly visible. Superseded by native v004, which shows both arms and hands; the remaining measured skin-color deviation is documented on the selected plan entry."
     },
     {
       "stanza": 5,
@@ -280,6 +281,32 @@
       "provenance_path": "artifacts/d041/s008/landscape/provenance-v002.json",
       "selection_status": "selected",
       "producer_issue": "Producer-inspected native v002. Skin-only 15×15 px median RGB samples for infant Krishna: face cheek (79, 86, 128), torso (45, 70, 121), leg (49, 71, 122); blue exceeds red by 49, 76 and 73 respectively, meeting the requested +40 minimum with no purple cast. Independent exact-checksum review is recorded; unapproved."
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d041-s004",
+      "orientation": "landscape",
+      "version": "v004",
+      "path": "artifacts/d041/s004/landscape/candidate-v004.png",
+      "sha256": "1b592e61ab5c0a75cb1b5b8bc52f1a6cc2851996c3362af3b8d8488f1aa9ca6e",
+      "dimensions_px": "1671x941",
+      "prompt_path": "artifacts/d041/s004/landscape/prompt-v004.txt",
+      "provenance_path": "artifacts/d041/s004/landscape/provenance-v004.json",
+      "selection_status": "selected",
+      "producer_issue": "Both of Putana’s outstretched arms and hands are visible and connected. Five 15×15 px skin patches remain green-below-red by 20–26 channels; disclosed on the plan. No further repair authorized."
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d041-s010",
+      "orientation": "landscape",
+      "version": "v003",
+      "path": "artifacts/d041/s010/landscape/candidate-v003.png",
+      "sha256": "143a2b0460e8403b663986964561e9de1d21880fca7ba85c429abf31498fafc5",
+      "dimensions_px": "1672x941",
+      "prompt_path": "artifacts/d041/s010/landscape/prompt-v003.txt",
+      "provenance_path": "artifacts/d041/s010/landscape/provenance-v003.json",
+      "selection_status": "selected",
+      "producer_issue": "Five 15×15 px skin patches have blue-over-red margins of 54–78, meeting the infant indigo requirement; selected over blue-grey v002."
     }
   ]
 }

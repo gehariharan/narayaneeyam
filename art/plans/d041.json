@@ -242,11 +242,11 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison candidate",
           "composition_override": "Compose independently for this wide frame.",
-          "candidate_version": "v003",
-          "candidate_path": "artifacts/d041/s004/landscape/candidate-v003.png",
-          "candidate_sha256": "0d5003d417a7aa15941aab68eba2afa71c3cf68a46fbcdf9e695adc5a06a02f7",
-          "prompt_path": "artifacts/d041/s004/landscape/prompt-v003.txt",
-          "candidate_status": "Producer-inspected native v003. 15×15 px median RGB samples: Putana face (165, 144, 88), arm (145, 126, 73), upper foot (168, 147, 90), lower foot (160, 141, 84). Green is 19–21 below red, so the explicit green-over-red condition remains unmet; v003 is closer to muted grey-green than tan/ochre v002. No further repair authorized. Independent exact-checksum review is recorded; unapproved.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d041/s004/landscape/candidate-v004.png",
+          "candidate_sha256": "1b592e61ab5c0a75cb1b5b8bc52f1a6cc2851996c3362af3b8d8488f1aa9ca6e",
+          "prompt_path": "artifacts/d041/s004/landscape/prompt-v004.txt",
+          "candidate_status": "Producer-inspected native v004. Putana now has both outstretched arms visibly connected at the shoulders with two clear hands; the far-side arm and hand are present, and the former missing-arm defect is corrected. Skin-only 15×15 px median RGB samples: face (167, 143, 88), near arm (136, 116, 64), far arm (166, 144, 89), upper foot (172, 146, 88), lower foot (169, 145, 87). Green is 20–26 below red in all five patches, so the explicit green-at-or-above-red condition remains unmet. Compared with v003, v004 is selected because it visibly satisfies the both-arms requirement; color deviation remains disclosed and no further repair is authorized. Independent exact-checksum review is recorded; unapproved.",
           "native_dimensions": "1671x941"
         },
         "portrait": {
@@ -579,11 +579,11 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison candidate",
           "composition_override": "Compose independently for this wide frame.",
-          "candidate_version": "v002",
-          "candidate_path": "artifacts/d041/s010/landscape/candidate-v002.png",
-          "candidate_sha256": "d632c360b887e39602acaefac65f0e8300334862c0f58f0d49f744b862b09035",
-          "prompt_path": "artifacts/d041/s010/landscape/prompt-v002.txt",
-          "candidate_status": "producer-generated native v002; v001 retained unselected with heavy-jewelry needs-fix observation; independent exact-checksum review is recorded; unapproved",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d041/s010/landscape/candidate-v003.png",
+          "candidate_sha256": "143a2b0460e8403b663986964561e9de1d21880fca7ba85c429abf31498fafc5",
+          "prompt_path": "artifacts/d041/s010/landscape/prompt-v003.txt",
+          "candidate_status": "Producer-inspected native v003. Skin-only 15×15 px median RGB samples for Krishna: cheek (42, 54, 116), torso (38, 51, 116), arm (41, 53, 116), leg (38, 47, 101), foot (50, 55, 104); blue exceeds red by 74, 78, 75, 63 and 54 respectively, meeting the required +40 margin in every sampled patch. At the same sites v002 measured (81, 83, 99), (86, 88, 109), (80, 81, 103), (73, 74, 94) and (83, 80, 93), so v003 is clearly deeper and more saturated indigo-blue. No further repair authorized. Independent exact-checksum review is recorded; unapproved.",
           "native_dimensions": "1672x941"
         },
         "portrait": {
