@@ -276,6 +276,9 @@ test('repository historical labels match the preserved audits', async () => {
   const d042 = selectedImages(batches).filter(image => image.chapter === 42).map(image => reviewFor(validation, image));
   assert.equal(d042.length, 11);
   assert.ok(d042.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+  const d048 = selectedImages(batches).filter(image => image.chapter === 48).map(image => reviewFor(validation, image));
+  assert.equal(d048.length, 10);
+  assert.ok(d048.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
   const d043 = selectedImages(batches).filter(image => image.chapter === 43).map(image => reviewFor(validation, image));
   assert.equal(d043.length, 10);
   assert.ok(d043.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
@@ -438,7 +441,7 @@ test('D028 selection binds the ten mapped scenes, all five stanza 2 references, 
 
 test('D048 selection binds ten mapped source and native landscape versions', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
-  const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd048-comparison-v001.json');
+  const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd048-comparison-v002.json');
   const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d048.json'), 'utf8'));
   const plan = JSON.parse(await fs.readFile(path.join(root, 'art/plans/d048.json'), 'utf8'));
   assert.ok(batch);
