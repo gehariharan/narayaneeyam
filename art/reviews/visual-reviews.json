@@ -36448,6 +36448,732 @@
       "findings": [],
       "disclosed_deviations": [],
       "notes": "Independent exact-checksum review binds this candidate to art/reviews/d062-independent-review-b.md (SHA-256 f7c91cf83e519ef15dfc288bae42ca8749eb5489607eae236286c8daf921df95); producer observations remain separate in art/reviews/d062-s010-landscape-v003-producer.md (SHA-256 cf4b15295d558189a6572622e2ee5b85ad7a290b29cf381943eb74e817de7378)."
+    },
+    {
+      "chapter": 39,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d039/s001/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "e4f6a25fb8e6499dc8c965ee2edb8a930969dae7aeed5a54b0e814e65d4ec47c",
+      "reviewer": "Independent reviewer h",
+      "inspected_at": "2026-11-15T23:19:13Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "People and infant Krishna retain ordinary two-arm anatomy; scene-specific mythic forms are intentional and visibly connected.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/vasudeva/character.json",
+          "sha256": "b48f743c0d11b884adecf7f61e0d33d26f5f58a5b58dbb21197c1469c54d0ec8"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-h.md",
+          "sha256": "08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vasudeva’s supporting hands hold the wrapped newborn; his feet remain in frame, and Adishesha’s seven hoods join one continuous body."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The father, infant and serpent canopy remain connected across the diagonal river scene."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Vasudeva and newborn faces are coherent and inside frame."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One father, one infant and one continuous serpent appear without fused or duplicated figures."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable marks, watermark, signature or logo appears in the river, sky or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The ankle-depth crossing and stormy far bank match the mapped caption; the skin and costume deviations are disclosed."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Vasudeva’s orange-brown skin and yellow dhoti, red-orange shoulder cloth, heavy beads and arm/wrist ornaments differ from his costume contract."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-h.md (SHA-256 08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
+    },
+    {
+      "chapter": 39,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d039/s002/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "6d165b32438842295b30f4773f6b2fe25a88b5537ca272e8a57d053ae1a1a8ad",
+      "reviewer": "Independent reviewer h",
+      "inspected_at": "2026-11-15T23:19:13Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "People and infant Krishna retain ordinary two-arm anatomy; scene-specific mythic forms are intentional and visibly connected.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/vasudeva/character.json",
+          "sha256": "b48f743c0d11b884adecf7f61e0d33d26f5f58a5b58dbb21197c1469c54d0ec8"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-h.md",
+          "sha256": "08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Vasudeva’s reaching/supporting hands and the babies’ visible hands remain distinct; hidden extremities are covered by bedding."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The sleeping parents, carrier and two newborns occupy coherent, separate bodies."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Visible faces are legible and not cut off."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two distinct newborns appear: Krishna beside Yashoda and the rose-wrapped girl with Vasudeva."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable marks or copied watermark appear around the doorway or room edges."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The nighttime household follows the wide composition; the adults’ warm orange-brown skin is disclosed."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Yashoda, Nandagopan and Vasudeva retain disclosed warm orange-brown skin."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-h.md (SHA-256 08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
+    },
+    {
+      "chapter": 39,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d039/s003/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "ddc14ef455190e8419cf34ff013df4339c17a2acb27802cbf405e9197a447d6b",
+      "reviewer": "Independent reviewer h",
+      "inspected_at": "2026-11-15T23:19:13Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "People and infant Krishna retain ordinary two-arm anatomy; scene-specific mythic forms are intentional and visibly connected.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/devaki/character.json",
+          "sha256": "bec219a76ee6e61b859a8232e6951090c35ac83ecca1471d00b40e607c064dd6"
+        },
+        {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/kamsa/character.json",
+          "sha256": "350e683816ad1e7a3edc8ecb6dac2b3a1c4a8dd910a34a3af9d2cf41983b0ab6"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-h.md",
+          "sha256": "08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Devaki’s supporting hands and Kamsa’s gestures remain attached; lower feet stay within the image."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Mother, infant, king, joined-hand man and guards read as separate connected figures."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The central faces are distinct and Kamsa’s expression remains legible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The added bearded man is coherent rather than a fused or repeated person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No writing or source-photo watermark appears on the prison scene."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The prison encounter remains clear despite the added central figure; blouse decoration and skin shifts are disclosed."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Devaki’s blouse keeps floral sleeve motifs/decorated cuff; Devaki and Kamsa retain disclosed orange-brown skin. A prominent central bearded man is an added composition figure."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-h.md (SHA-256 08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
+    },
+    {
+      "chapter": 39,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d039/s004/landscape/v002/candidate.png",
+      "version": "v002",
+      "sha256": "62542e74887599573a52094c48c517bf95acf72e40389adb9da54341f63cfc09",
+      "reviewer": "Independent reviewer h",
+      "inspected_at": "2026-11-15T23:19:13Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "People and infant Krishna retain ordinary two-arm anatomy; scene-specific mythic forms are intentional and visibly connected.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/devaki/character.json",
+          "sha256": "bec219a76ee6e61b859a8232e6951090c35ac83ecca1471d00b40e607c064dd6"
+        },
+        {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/kamsa/character.json",
+          "sha256": "350e683816ad1e7a3edc8ecb6dac2b3a1c4a8dd910a34a3af9d2cf41983b0ab6"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-h.md",
+          "sha256": "08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Kamsa holds the newborn above the slab; Devaki’s reaching hands remain separate and the baby does not touch the stone."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The two adults and infant have connected limbs and natural proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Kamsa, Devaki and the uninjured infant have clear faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Only one Kamsa, Devaki and newborn appear."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No marks or watermark appear on the slab, floor, walls or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The non-contact slab scene matches the caption; the warm skin shifts are disclosed."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Devaki and Kamsa retain disclosed orange-brown skin."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-h.md (SHA-256 08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
+    },
+    {
+      "chapter": 39,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d039/s005/landscape/v003/candidate.png",
+      "version": "v003",
+      "sha256": "20936356597600a30f913f42494ed0f0dbc41f94f16b031cb40f3011cc9ce24a",
+      "reviewer": "Independent reviewer h",
+      "inspected_at": "2026-11-15T23:19:13Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Yogamaya has the explicitly required eight-arm divine form; Kamsa and witnesses remain ordinary two-armed figures.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/kamsa/character.json",
+          "sha256": "350e683816ad1e7a3edc8ecb6dac2b3a1c4a8dd910a34a3af9d2cf41983b0ab6"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-h.md",
+          "sha256": "08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Yogamaya’s eight arms connect to her body and end in distinct hands; her feet and Kamsa’s hand remain intact."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The goddess, king and deva witnesses remain coherent figures; small background hands are not individually countable."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Yogamaya, Kamsa and foreground devas have distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The witnesses remain separate; the goddess’s extra arms are scene-required."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No lettering, signature or watermark appears around the flat halo or courtyard."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The broad opaque halo is painted rather than a beam; Kamsa’s warm cast is disclosed and Yogamaya’s arm shading is divine gold."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Kamsa retains disclosed orange-brown skin; Yogamaya’s gold arm shading is divine pigment."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-h.md (SHA-256 08d3ec872443e0f804386a23a86fc4d7cf8b5a7aab4123a6f6eeabf9e4741bfd), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
+    },
+    {
+      "chapter": 39,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d039/s006/landscape/v001/candidate.png",
+      "version": "v001",
+      "sha256": "3900ffd5c8380be8d0928b4f4c7ab32e61cb1b4f9136292841210689ed46c4fc",
+      "reviewer": "Independent reviewer i",
+      "inspected_at": "2026-11-15T23:22:06Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Yogamaya has the explicitly required eight-arm divine form; Kamsa and witnesses remain ordinary two-armed figures.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/kamsa/character.json",
+          "sha256": "350e683816ad1e7a3edc8ecb6dac2b3a1c4a8dd910a34a3af9d2cf41983b0ab6"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-i.md",
+          "sha256": "8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Eight connected goddess arms end in distinct hands; Kamsa’s raised hand and Yogamaya’s feet remain intact."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Yogamaya, Kamsa and small deva witnesses keep natural connections and proportions."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The principal faces are clear and the devas remain distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No doubled witnesses or fused figures appear; Yogamaya’s eight arms follow the scene contract."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable marks appear in the sky, ground or image corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The elevated manifestation and honoring devas follow the caption; flat painted halo has no cinematic beam."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-i.md (SHA-256 8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
+    },
+    {
+      "chapter": 39,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d039/s007/landscape/v004/candidate.png",
+      "version": "v004",
+      "sha256": "7973a878bb537e9fa97c81943001e64b21f2ec2f4828618d04f8dc82f1f4c864",
+      "reviewer": "Independent reviewer i",
+      "inspected_at": "2026-11-15T23:22:06Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "People and infant Krishna retain ordinary two-arm anatomy; scene-specific mythic forms are intentional and visibly connected.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/kamsa/character.json",
+          "sha256": "350e683816ad1e7a3edc8ecb6dac2b3a1c4a8dd910a34a3af9d2cf41983b0ab6"
+        },
+        {
+          "path": "art/bible/characters/asura-council/character.json",
+          "sha256": "16f82d11ca685feca5181d1cc59a01a73e27e4196662f923e5d43305c77084f1"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-i.md",
+          "sha256": "8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Kamsa’s resting and gesturing hands and the council’s visible extremities remain attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Kamsa and three varied asuras have coherent bodies; the beaked head is intentional mythic anatomy."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Kamsa reads as human; the three council members have distinct faces/silhouettes."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The bird-headed figure is a deliberate supernatural form; no fused or duplicated person is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, logo, signature or watermark appears on the floor or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The wide council chamber and nonviolent departure match the plan; Kamsa’s orange-brown cast is disclosed."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Kamsa retains disclosed orange-brown skin."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-i.md (SHA-256 8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
+    },
+    {
+      "chapter": 39,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d039/s008/landscape/v004/candidate.png",
+      "version": "v004",
+      "sha256": "b8eaa75de43d6289e5776b541215a10e8fbf129b2e0edc39909d81f425737d23",
+      "reviewer": "Independent reviewer i",
+      "inspected_at": "2026-11-15T23:22:06Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "People and infant Krishna retain ordinary two-arm anatomy; scene-specific mythic forms are intentional and visibly connected.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-i.md",
+          "sha256": "8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Yashoda’s cradle-side hand, Nanda’s open hand and gopikas’ offering hands remain distinct; infant feet are visible."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The infant, parents and gopikas have coherent bodies; the blanket naturally hides some baby limbs."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and the adults have distinct legible faces; cattle remain separate."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No fused or cloned villagers appear."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable marks or watermark appear in the full-bleed scene."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The moonlit celebration keeps the lead cradle scene central; warm adult skin samples are disclosed."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Yashoda and Nandagopan retain disclosed warm orange-brown skin."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-i.md (SHA-256 8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
+    },
+    {
+      "chapter": 39,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d039/s009/landscape/v003/candidate.png",
+      "version": "v003",
+      "sha256": "6f9fcab65a7119fa0e1c043ae2ef6d316e400db2349f6bfbc77155f650b30c88",
+      "reviewer": "Independent reviewer i",
+      "inspected_at": "2026-11-15T23:22:06Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "People and infant Krishna retain ordinary two-arm anatomy; scene-specific mythic forms are intentional and visibly connected.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-i.md",
+          "sha256": "8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Yashoda’s hands and Krishna’s two visible hands remain separate; wrapped feet are naturally hidden."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The mother and infant remain connected in a close, proportionate hold."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Their faces are clear and meet each other’s gaze."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Only Yashoda and Krishna appear, without duplicated forms."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, logo, signature or watermark appears in the background."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The intimate touch follows the caption; the plan notes nursing is not literal and discloses Yashoda’s warm skin."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Yashoda retains disclosed warm orange-brown skin; nursing is not literal as noted in the plan."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-i.md (SHA-256 8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
+    },
+    {
+      "chapter": 39,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d039/s010/landscape/v004/candidate.png",
+      "version": "v004",
+      "sha256": "ec1b737a67e2733c6e7fd2c9cb3ccfb6a6136caeb9e208273bff2b7d1be0131a",
+      "reviewer": "Independent reviewer i",
+      "inspected_at": "2026-11-15T23:22:06Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "People and infant Krishna retain ordinary two-arm anatomy; scene-specific mythic forms are intentional and visibly connected.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d039.json",
+          "sha256": "fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/brahmins/character.json",
+          "sha256": "ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d039-independent-review-i.md",
+          "sha256": "8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Nanda’s gift hand, elders’ receiving/prayer hands and infant’s visible feet remain distinct."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Nanda, newborn, elders and cowherds form separate coherent bodies."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Nanda, baby and elders have differentiated faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The group does not merge or clone; Bhattathiri is absent as planned."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, watermark, signature or logo appears in the ground or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The gift and blessing scene keeps Nanda and Krishna central; warm Nanda/villager skin is disclosed."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Nandagopan and village figures retain disclosed warm orange-brown skin."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d039-independent-review-i.md (SHA-256 8eed5cd21ce28a930d164a0d0bc5dc0f90c0a09107ef5282ada5a047616395f1), bound to final plan SHA-256 fa058c552935c84177edfaca8c3cbaf9b3a3d43f2e8e7b9ad39717aa0e28136f. Visual review only; captain art approval remains pending."
     }
   ]
 }
