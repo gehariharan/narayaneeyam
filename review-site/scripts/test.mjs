@@ -32,7 +32,7 @@ const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import
 const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
 const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.reduce((n,r)=>n+(r.references||(r.reference?[r.reference]:[])).length,0),0);
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,31,32,33,34,35,36,38,40,42,43,44,66,67,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,31,32,33,34,35,36,37,38,40,42,43,44,66,67,96]);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
 assert.equal(Object.keys(data.assets).length,expectedMedia);
@@ -61,6 +61,16 @@ assert.equal(selected27.rows.length,11);assert.equal(selected27.review_status,'n
 for(const row of d27.rows){assert.equal(row.commentary,content27.stanzas.find(s=>s.n===row.n).commentary_en);assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);}
 assert.equal((await feedback(req({...good,daskam:27,sloka:11}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:27,sloka:12}),env)).status,400);
+const d37=data.chapters.find(c=>c.id===37);
+assert.ok(d37);assert.deepEqual(d37.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+assert.ok(d37.reviewNotice.toLowerCase().includes('unapproved'));
+const content37=JSON.parse(await fs.readFile(new URL('../../content/daskams/d037.json',import.meta.url)));
+const selected37=JSON.parse(await fs.readFile(new URL('../../art/batches/d037-comparison-v006.json',import.meta.url)));
+const provenance37=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
+assert.equal(selected37.rows.length,10);assert.equal(selected37.review_status,'needs-review');
+for(const row of d37.rows){const selected=selected37.rows.find(r=>r.n===row.n);assert.equal(row.commentary,content37.stanzas.find(s=>s.n===row.n).commentary_en);assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');for(const role of ['reference','matte'])assert.equal(provenance37.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);}
+assert.equal((await feedback(req({...good,daskam:37,sloka:10}),env)).status,201);
+assert.equal((await feedback(req({...good,daskam:37,sloka:11}),env)).status,400);
 const d42=data.chapters.find(c=>c.id===42);
 assert.deepEqual(d42.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 assert.ok(d42.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
