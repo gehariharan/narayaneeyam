@@ -1,0 +1,1109 @@
+{
+  "schema_version": 1,
+  "daskam_id": 37,
+  "generated_attempt_count": 25,
+  "selected_versions": {
+    "1": "v002",
+    "2": "v001",
+    "3": "v003",
+    "4": "v002",
+    "5": "v003",
+    "6": "v001",
+    "7": "v004",
+    "8": "v002",
+    "9": "v001",
+    "10": "v006"
+  },
+  "attempts": [
+    {
+      "n": 1,
+      "concept_id": "d037-s001",
+      "version": "v001",
+      "file": "artifacts/d037/s001/landscape/candidate-v001.png",
+      "sha256": "27b1acf33622ecfde64270acf2edad544948912e902e4ce104b2d7e9f3e9ff9d",
+      "prompt": "artifacts/d037/s001/prompts/landscape-v001.md",
+      "prompt_sha256": "09841da23d6fde0117d4e78cf60d540741d379df6f02e569e4220924514c3f97",
+      "metadata": "artifacts/d037/s001/landscape/metadata-v001.json",
+      "metadata_sha256": "8696809211579ab01a19db82aa7f0891a3d1e6dc6178e52cebb996fd26ab04f7",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-373b823a-c1bd-4f02-be52-bc7988b555c1.png",
+      "selection": "preserved-not-selected",
+      "producer_observation": "Independent exact-checksum review found a bright flame plume above the second witness from the left, violating stanza 1's avoid list; superseded by v002.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "27b1acf33622ecfde64270acf2edad544948912e902e4ce104b2d7e9f3e9ff9d",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/001.jpg",
+          "sha256": "b00b3e13c4a8b570f299468645ccae36c4db2f66a78571f1be43b9ee78c0fcc4",
+          "role": "stanza 1 story reference"
+        },
+        {
+          "path": "artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+          "role": "Brahma identity only"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "concept_id": "d037-s002",
+      "version": "v001",
+      "file": "artifacts/d037/s002/landscape/candidate-v001.png",
+      "sha256": "710b4d7af7dada141bd17c36057a1177b5f60b87b84cdb1555705635aecbdc1f",
+      "prompt": "artifacts/d037/s002/prompts/landscape-v001.md",
+      "prompt_sha256": "17d58264173c04f606a7e5957f2441e78c69240ef72e8ec57a6c62ed36472a45",
+      "metadata": "artifacts/d037/s002/landscape/metadata-v001.json",
+      "metadata_sha256": "48193d9bf8e91e2c03ddc939d4ee858e6194f139197341fe5f34d41b179b05f4",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-bff96aae-3727-4f5b-9b71-5e1d448064e2.png",
+      "selection": "selected-lead",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "710b4d7af7dada141bd17c36057a1177b5f60b87b84cdb1555705635aecbdc1f",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/002.jpg",
+          "sha256": "df2d32a89acd2e3b69f121fe4fd003b8582e07532d8fe7e650ab5c84d4e909ca",
+          "role": "stanza 2 story reference"
+        },
+        {
+          "path": "artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+          "role": "Brahma identity only"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "concept_id": "d037-s003",
+      "version": "v001",
+      "file": "artifacts/d037/s003/landscape/candidate-v001.png",
+      "sha256": "dde2b9a38a9a872b1cfbc70502f1b28ea5d88ec0c60b203a5d2cf3ca1e38491a",
+      "prompt": "artifacts/d037/s003/prompts/landscape-v001.md",
+      "prompt_sha256": "bbc1362e2f28538968f236fb8599c201f0a4cbc74e23a57a59f5d6d9e5d0357a",
+      "metadata": "artifacts/d037/s003/landscape/metadata-v001.json",
+      "metadata_sha256": "a45bdca5f902bcb1e2d036b063eddbdd9f935cd6629c92b88bbdbed201fe1a8e",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-84eed4cf-39d4-406a-a758-6f1af2c54c83.png",
+      "selection": "preserved-not-selected",
+      "producer_observation": "Superseded after the mapped procession reference was omitted and Shiva wore animal-skin cloth contrary to the scene contract.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "dde2b9a38a9a872b1cfbc70502f1b28ea5d88ec0c60b203a5d2cf3ca1e38491a",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/003.jpg",
+          "sha256": "eb81a752a5a22064b7f506514e4830881742cbbbffa76a1b7a830a07e18418a6",
+          "role": "stanza 3 story reference"
+        },
+        {
+          "path": "artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+          "role": "Brahma identity only"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "concept_id": "d037-s004",
+      "version": "v001",
+      "file": "artifacts/d037/s004/landscape/candidate-v001.png",
+      "sha256": "d1d352b8fb9421a5536bb60c4bf08627a9bbd845330b70f0b1e6d41386f7f63f",
+      "prompt": "artifacts/d037/s004/prompts/landscape-v001.md",
+      "prompt_sha256": "2e737b55665139d4786269bbbe0370cfa37cfdb1306ce639c413943a3ac4f11e",
+      "metadata": "artifacts/d037/s004/landscape/metadata-v001.json",
+      "metadata_sha256": "f932aabd1c29f810af0e6f1ef870ae778f7d302d1ee1866236a8f5d4bfd5845e",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-a78bd2ba-36ff-4679-aa33-e9dde5f4e018.png",
+      "selection": "preserved-superseded-after-managed-needs-fix",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "d1d352b8fb9421a5536bb60c4bf08627a9bbd845330b70f0b1e6d41386f7f63f",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/004.jpg",
+          "sha256": "3867db905aa8d71aa1f97b6bddaa0c638f65dc95dd905bdcf57543f53bcd55a3",
+          "role": "stanza 4 story reference"
+        },
+        {
+          "path": "artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+          "role": "Brahma identity only"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "concept_id": "d037-s005",
+      "version": "v001",
+      "file": "artifacts/d037/s005/landscape/candidate-v001.png",
+      "sha256": "553095471793b3813b5d0dd6f2fd718a5f6c90cda907c972277cc9f5fb2fb7fd",
+      "prompt": "artifacts/d037/s005/prompts/landscape-v001.md",
+      "prompt_sha256": "21e6b69e1fe8ba2587f3a5e58d087aa2a8cb90ea349b876e58551f036210a405",
+      "metadata": "artifacts/d037/s005/landscape/metadata-v001.json",
+      "metadata_sha256": "31385262359e3cc61669095ef4f35e4273d09d3d220889b49574482d5316a811",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-6c5d5578-4477-4d6b-aa62-9e18539384db.png",
+      "selection": "preserved-superseded-after-managed-needs-fix",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "553095471793b3813b5d0dd6f2fd718a5f6c90cda907c972277cc9f5fb2fb7fd",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/005.jpg",
+          "sha256": "6819ab14925ec2ebb561d7098362aaa7e96093ee4ade35a5bef13d1cbb663743",
+          "role": "stanza 5 story reference"
+        },
+        {
+          "path": "artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+          "role": "Brahma identity only"
+        },
+        {
+          "path": "artifacts/d037/references/vishnu-approved-guruvayurappan.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "Hari identity only"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "concept_id": "d037-s006",
+      "version": "v001",
+      "file": "artifacts/d037/s006/landscape/candidate-v001.png",
+      "sha256": "2fb5143093e13ff2b15a349c1f834ec262f31ffd85ca396d621d3f09a589a195",
+      "prompt": "artifacts/d037/s006/prompts/landscape-v001.md",
+      "prompt_sha256": "d468b276fade8e3280b4b2042c79f23045de201270a23474cdb50b459e413394",
+      "metadata": "artifacts/d037/s006/landscape/metadata-v001.json",
+      "metadata_sha256": "b0a313a466b1c49b3e3114dd7e053695e590825a9b43487b99536fc6f28ec2ea",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-7cd822e3-fe25-4476-b193-8f9ea50515ab.png",
+      "selection": "selected-lead",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "2fb5143093e13ff2b15a349c1f834ec262f31ffd85ca396d621d3f09a589a195",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/006.jpg",
+          "sha256": "d2b84683ddef4e8c31f8a58c63af03556240e2bb93044e4aae468be2a0fd7a7e",
+          "role": "stanza 6 story reference"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "concept_id": "d037-s007",
+      "version": "v001",
+      "file": "artifacts/d037/s007/landscape/candidate-v001.png",
+      "sha256": "d1dcdc7522d71759aa989eb3521fb2e496c8ba2bcf434123f2009275c819c934",
+      "prompt": "artifacts/d037/s007/prompts/landscape-v001.md",
+      "prompt_sha256": "70b35b6b43a8ad1bab3e3ad57358ff5aa0612019d264e45e8fa271d47a24f2d2",
+      "metadata": "artifacts/d037/s007/landscape/metadata-v001.json",
+      "metadata_sha256": "e8ffe0b3b5e3e979cdfa5bd274242ee763777093b35cbbf37c70542097addaca",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-678f3464-2ac3-4a92-baf4-cca462ff8806.png",
+      "selection": "preserved-superseded-after-managed-needs-fix",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "d1dcdc7522d71759aa989eb3521fb2e496c8ba2bcf434123f2009275c819c934",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/007.jpg",
+          "sha256": "105d0b9f389e97fce4ff3d6051fc40e35eec976c0c696b4d8490cc99f3947604",
+          "role": "stanza 7 story reference"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "concept_id": "d037-s008",
+      "version": "v001",
+      "file": "artifacts/d037/s008/landscape/candidate-v001.png",
+      "sha256": "c35e0698bf98aba84ca782347a25617b4118b406799ca8a06eabc3446ae54863",
+      "prompt": "artifacts/d037/s008/prompts/landscape-v001.md",
+      "prompt_sha256": "a420191edfab1d53cb7132ca4e90d960fdce20f7a2030e3340cea81902c0a818",
+      "metadata": "artifacts/d037/s008/landscape/metadata-v001.json",
+      "metadata_sha256": "64cd5bea6a53e795e50e4fb184cd921152f1c77edbd08d5a6a16e948346926c3",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-6b10c3ce-783e-4173-8435-e72c4286ba25.png",
+      "selection": "preserved-not-selected",
+      "producer_observation": "Superseded after accidental peacock-feather identity cue on Kamsa.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "c35e0698bf98aba84ca782347a25617b4118b406799ca8a06eabc3446ae54863",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/008.jpg",
+          "sha256": "e0cbc41aedcb5b089a9860f0cb6ad77b2aeff57289cdd11c8369194d3bc311cb",
+          "role": "stanza 8 story reference"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "concept_id": "d037-s008",
+      "version": "v002",
+      "file": "artifacts/d037/s008/landscape/candidate-v002.png",
+      "sha256": "07860a4c22e077ec05855645dab3bc1fa728813fa1a09576b2a51dc8d81b264f",
+      "prompt": "artifacts/d037/s008/prompts/landscape-v002.md",
+      "prompt_sha256": "fd89b177ef9456c1e6f3ad7418eb9b47d3f0028b2f19209bdd3fba6ed5dbf04c",
+      "metadata": "artifacts/d037/s008/landscape/metadata-v002.json",
+      "metadata_sha256": "8e5b0375e710a6d8ccb29419a59026edc8e8ebb3626d61577723e4b26a576c36",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-97eaa17b-4cab-490c-99d7-16e590dc1a20.png",
+      "selection": "selected-lead",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "07860a4c22e077ec05855645dab3bc1fa728813fa1a09576b2a51dc8d81b264f",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/008.jpg",
+          "sha256": "e0cbc41aedcb5b089a9860f0cb6ad77b2aeff57289cdd11c8369194d3bc311cb",
+          "role": "stanza 8 story reference"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "concept_id": "d037-s009",
+      "version": "v001",
+      "file": "artifacts/d037/s009/landscape/candidate-v001.png",
+      "sha256": "f6d4da5f7bb0bbf6dc096814047096c983071892c8e7df5d9f4589b56f64d3d4",
+      "prompt": "artifacts/d037/s009/prompts/landscape-v001.md",
+      "prompt_sha256": "fa516c3d96317ef76b296d26e4118bffb794492bf78d137aa688b1dce1d24393",
+      "metadata": "artifacts/d037/s009/landscape/metadata-v001.json",
+      "metadata_sha256": "d1c620655279c371f9269b452dcc52dc955baf7dd5a2211a4d158a423869ca2b",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-18140672-ef7a-438b-b32a-4df26372efe0.png",
+      "selection": "selected-lead",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "f6d4da5f7bb0bbf6dc096814047096c983071892c8e7df5d9f4589b56f64d3d4",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/009.jpg",
+          "sha256": "c835010c615833ad60341d971c7df21995dc3d16e10aa9c8a4c28f71223e111f",
+          "role": "stanza 9 story reference"
+        },
+        {
+          "path": "artifacts/d037/s008/landscape/candidate-v002.png",
+          "sha256": "07860a4c22e077ec05855645dab3bc1fa728813fa1a09576b2a51dc8d81b264f",
+          "role": "Kamsa identity continuity only"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "concept_id": "d037-s010",
+      "version": "v001",
+      "file": "artifacts/d037/s010/landscape/candidate-v001.png",
+      "sha256": "462809a6cbb20b57ac2a24f2f09cfa023749f9116f2c0af57d6628b9fde1ab19",
+      "prompt": "artifacts/d037/s010/prompts/landscape-v001.md",
+      "prompt_sha256": "f054c5b3a26eeb768ddad2d180e8569bac00f6bc3ae8362386234fb719e600bf",
+      "metadata": "artifacts/d037/s010/landscape/metadata-v001.json",
+      "metadata_sha256": "24812bb0f540b69859ffa0e1d6ebb63b44da446a99491596ea2845238bfec011",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-dd3d445c-8203-404b-be4b-3405fc967b84.png",
+      "selection": "preserved-not-selected",
+      "producer_observation": "Superseded after extra figures entered the composition.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "462809a6cbb20b57ac2a24f2f09cfa023749f9116f2c0af57d6628b9fde1ab19",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/010.jpg",
+          "sha256": "6b1d5e664d9377f0972765b1389b951128b2e06a981e48b2799579f5bdf67bb8",
+          "role": "stanza 10 story reference"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "concept_id": "d037-s010",
+      "version": "v002",
+      "file": "artifacts/d037/s010/landscape/candidate-v002.png",
+      "sha256": "0c4ad35e40bf23c2a70b0701d7bf5cec638ef632632ee7f902612be2da876437",
+      "prompt": "artifacts/d037/s010/prompts/landscape-v002.md",
+      "prompt_sha256": "3295abec273ad64492969481e94ef2bf7119db6cb62bab3236eca46ffa7afadb",
+      "metadata": "artifacts/d037/s010/landscape/metadata-v002.json",
+      "metadata_sha256": "98220f8fe8cb4ac6a37101055cf62fae6bd9625c49dbaf67b2083fc62514e9d6",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-b18cd53c-fa04-440d-87da-1ab7942292a8.png",
+      "selection": "preserved-not-selected",
+      "producer_observation": "Superseded after Rohini was rendered with four hands.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "0c4ad35e40bf23c2a70b0701d7bf5cec638ef632632ee7f902612be2da876437",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/010.jpg",
+          "sha256": "6b1d5e664d9377f0972765b1389b951128b2e06a981e48b2799579f5bdf67bb8",
+          "role": "stanza 10 story reference"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "concept_id": "d037-s010",
+      "version": "v003",
+      "file": "artifacts/d037/s010/landscape/candidate-v003.png",
+      "sha256": "1c54ddafb669edfab2104ec99be449835b201147816787de6a01532b0552c266",
+      "prompt": "artifacts/d037/s010/prompts/landscape-v003.md",
+      "prompt_sha256": "50fc7f4c1ad757be73a2eb9005671fc19c1f192ac81399a27810e289e867e900",
+      "metadata": "artifacts/d037/s010/landscape/metadata-v003.json",
+      "metadata_sha256": "8eba70186d74f0ec9d3d44f4ba905ee4426ef2a8b901f34fd7403c922f893986",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-8759c4f4-c3c5-4562-bf21-ecc98a3241a2.png",
+      "selection": "preserved-superseded-after-managed-needs-fix",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "1c54ddafb669edfab2104ec99be449835b201147816787de6a01532b0552c266",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/010.jpg",
+          "sha256": "6b1d5e664d9377f0972765b1389b951128b2e06a981e48b2799579f5bdf67bb8",
+          "role": "stanza 10 story reference"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "concept_id": "d037-s003",
+      "version": "v002",
+      "file": "artifacts/d037/s003/landscape/candidate-v002.png",
+      "sha256": "dfce3a2f3d2ebec4bd463a7cf57b93c0ad8c73d27d103e6e80b6a32d33d12a5a",
+      "prompt": "artifacts/d037/s003/prompts/landscape-v002.md",
+      "prompt_sha256": "9e23896c3ef6bc66a0847784ffd894e877f2741521d516db8db5cc5916b3846c",
+      "metadata": "artifacts/d037/s003/landscape/metadata-v002.json",
+      "metadata_sha256": "e9e3a73b0905c2d1215a1b81175f92be10509d6da395def3f99757bb6d2033bf",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-c20cc84c-4580-40a3-85b2-6a872f0103fc.png",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "dfce3a2f3d2ebec4bd463a7cf57b93c0ad8c73d27d103e6e80b6a32d33d12a5a",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/003.jpg",
+          "sha256": "eb81a752a5a22064b7f506514e4830881742cbbbffa76a1b7a830a07e18418a6",
+          "role": "stanza 3 story reference"
+        }
+      ],
+      "selection": "preserved-not-selected",
+      "producer_observation": "Bhūdevī is included, but the two deva witnesses appear unusually similar in face and pose; retained, not selected."
+    },
+    {
+      "n": 3,
+      "concept_id": "d037-s003",
+      "version": "v003",
+      "file": "artifacts/d037/s003/landscape/candidate-v003.png",
+      "sha256": "1ce3822470f5f8cc0d826b053dbaad52980bb03bfab0221d30c52b42aa1aae59",
+      "prompt": "artifacts/d037/s003/prompts/landscape-v003.md",
+      "prompt_sha256": "1a1100b8ac42f1538200f4323d9249adc53eb3ca78b34cfd12d6693f41a6048a",
+      "metadata": "artifacts/d037/s003/landscape/metadata-v003.json",
+      "metadata_sha256": "c2a982f817c63d2a69e545b357bdb8423d1257f3be79fbc1b8edba8632b88516",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1b09c-97cb-7033-a5ab-d3d7d63d7e05/exec-54e2bf03-284f-4a5c-9187-a67dbe5c065c.png",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "1ce3822470f5f8cc0d826b053dbaad52980bb03bfab0221d30c52b42aa1aae59",
+      "arguments": {
+        "transparent_background": false
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/003.jpg",
+          "sha256": "eb81a752a5a22064b7f506514e4830881742cbbbffa76a1b7a830a07e18418a6",
+          "role": "stanza 3 story reference"
+        }
+      ],
+      "selection": "selected-lead",
+      "producer_observation": null
+    },
+    {
+      "n": 4,
+      "concept_id": "d037-s004",
+      "version": "v002",
+      "file": "artifacts/d037/s004/landscape/candidate-v002.png",
+      "sha256": "aff42304b2b7120a56636d36cfa3e7b4254a2c2240c8dc0924e1018058f5d90d",
+      "prompt": "artifacts/d037/s004/prompts/landscape-v002.md",
+      "prompt_sha256": "aa587012e049c98363767d9122f71ae58828b5bf9bbb57963113d0ca63847394",
+      "metadata": "artifacts/d037/s004/landscape/metadata-v002.json",
+      "metadata_sha256": "29f4275337004156b1661fdba110f090f4641ac98a0bab0fed01de49321cf4c7",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-b99142bc-0e18-4fbc-b470-2fc38de017d8.png",
+      "selection": "provisional-selected-lead-pending-independent-review",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "aff42304b2b7120a56636d36cfa3e7b4254a2c2240c8dc0924e1018058f5d90d",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s004.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s008.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/004.jpg",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/s003/landscape/candidate-v003.png"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "intake/D037/004.jpg",
+          "sha256": "3867db905aa8d71aa1f97b6bddaa0c638f65dc95dd905bdcf57543f53bcd55a3"
+        },
+        {
+          "path": "artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e"
+        },
+        {
+          "path": "artifacts/d037/s003/landscape/candidate-v003.png",
+          "sha256": "1ce3822470f5f8cc0d826b053dbaad52980bb03bfab0221d30c52b42aa1aae59"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "concept_id": "d037-s005",
+      "version": "v002",
+      "file": "artifacts/d037/s005/landscape/candidate-v002.png",
+      "sha256": "913ee47612350a4000f4f3a51e527b9992f3d38c8738e7cd8d0f5030a31f1477",
+      "prompt": "artifacts/d037/s005/prompts/landscape-v002.md",
+      "prompt_sha256": "65fff8ffad8e2e127807a5e1eaabe984b60a032775c672ed08c30616dffc099e",
+      "metadata": "artifacts/d037/s005/landscape/metadata-v002.json",
+      "metadata_sha256": "2d3877a501714934cb83136c6845a83bc75263ad88e27222aefa82e54f19f49d",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-58b1a40b-7914-493e-a30a-a6552d2e062f.png",
+      "selection": "provisional-selected-lead-pending-independent-review",
+      "producer_observation": null,
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "913ee47612350a4000f4f3a51e527b9992f3d38c8738e7cd8d0f5030a31f1477",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s004.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s008.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/005.jpg",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/vishnu-approved-guruvayurappan.png"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "intake/D037/005.jpg",
+          "sha256": "6819ab14925ec2ebb561d7098362aaa7e96093ee4ade35a5bef13d1cbb663743"
+        },
+        {
+          "path": "artifacts/d037/references/brahma-character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e"
+        },
+        {
+          "path": "artifacts/d037/references/vishnu-approved-guruvayurappan.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "concept_id": "d037-s007",
+      "version": "v002",
+      "file": "artifacts/d037/s007/landscape/candidate-v002.png",
+      "sha256": "372e5cb15d1c117217ae2a39a4e13cd5b3ada278e80ef4639a3d0ca4b6a2ccfe",
+      "prompt": "artifacts/d037/s007/prompts/landscape-v002.md",
+      "prompt_sha256": "f1cf2bdaf3fcbce1a283064b6019d44a989b697071c7d2107d1bd0c3c6912f55",
+      "metadata": "artifacts/d037/s007/landscape/metadata-v002.json",
+      "metadata_sha256": "b68d44b99386aa8c086b578cc071c618ad44de9a1f28c1678ad0eb5e8c150280",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-1bc2db7f-11b4-421a-a666-e70ed8bf5ce2.png",
+      "selection": "preserved-superseded-after-independent-needs-fix",
+      "producer_observation": "Independent review found four near-repeated background attendants and a horse head cropped by the frame.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "372e5cb15d1c117217ae2a39a4e13cd5b3ada278e80ef4639a3d0ca4b6a2ccfe",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s004.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s008.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/007.jpg",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/mural-s008-landscape-v002.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/mural-s009-landscape-v001.png"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "intake/D037/007.jpg",
+          "sha256": "105d0b9f389e97fce4ff3d6051fc40e35eec976c0c696b4d8490cc99f3947604"
+        },
+        {
+          "path": "intake/D037/mural-s008-landscape-v002.png",
+          "sha256": "07860a4c22e077ec05855645dab3bc1fa728813fa1a09576b2a51dc8d81b264f"
+        },
+        {
+          "path": "intake/D037/mural-s009-landscape-v001.png",
+          "sha256": "f6d4da5f7bb0bbf6dc096814047096c983071892c8e7df5d9f4589b56f64d3d4"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "concept_id": "d037-s010",
+      "version": "v004",
+      "file": "artifacts/d037/s010/landscape/candidate-v004.png",
+      "sha256": "97de8c319741309b03610f208e5cc469df45cbdc7daa270e17bba5186a6dacfd",
+      "prompt": "artifacts/d037/s010/prompts/landscape-v004.md",
+      "prompt_sha256": "96677482b07b413752b010b8bdfd52725931789560e66d94d942490ddb4ba277",
+      "metadata": "artifacts/d037/s010/landscape/metadata-v004.json",
+      "metadata_sha256": "a6a52b6902efd18d9984ef316acc7fbc48251bd451842bdbeb0ecbdd84a79412",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-24a9b3a4-1066-474d-8c16-00afa44c004b.png",
+      "selection": "preserved-superseded-after-independent-needs-fix",
+      "producer_observation": "Independent review found an unplanned blue anthropomorphic deity figure contrary to the symbolic-light-only scene rule.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "97de8c319741309b03610f208e5cc469df45cbdc7daa270e17bba5186a6dacfd",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s004.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s008.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/010.jpg"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "intake/D037/010.jpg",
+          "sha256": "6b1d5e664d9377f0972765b1389b951128b2e06a981e48b2799579f5bdf67bb8"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "concept_id": "d037-s007",
+      "version": "v003",
+      "file": "artifacts/d037/s007/landscape/candidate-v003.png",
+      "sha256": "5a60dda0dfa1c68e141994172f331daf6932b33b4e82e6f5924a3c6d94481e48",
+      "prompt": "artifacts/d037/s007/prompts/landscape-v003.md",
+      "prompt_sha256": "b58efa6c954ea5a66da4d4fb0e031c683cf539ee50d6cd1a810db549cf9abc42",
+      "metadata": "artifacts/d037/s007/landscape/metadata-v003.json",
+      "metadata_sha256": "e22d69f5b61f23375b6e0864808a5bad4fb33e752a8d8e242b57c1dd1cf96911",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-6f84e7e0-426c-428a-a992-6b1f9017528f.png",
+      "selection": "preserved-not-selected",
+      "producer_observation": "Independent exact-checksum review found prominent sun rays and Kamsa turned away from Devaki; superseded by v004.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "5a60dda0dfa1c68e141994172f331daf6932b33b4e82e6f5924a3c6d94481e48",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s004.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s008.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/007.jpg",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/s007/landscape/candidate-v002.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/mural-s008-landscape-v002.png"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/007.jpg",
+          "sha256": "105d0b9f389e97fce4ff3d6051fc40e35eec976c0c696b4d8490cc99f3947604",
+          "role": "stanza 7 story reference"
+        },
+        {
+          "path": "artifacts/d037/s007/landscape/candidate-v002.png",
+          "sha256": "372e5cb15d1c117217ae2a39a4e13cd5b3ada278e80ef4639a3d0ca4b6a2ccfe",
+          "role": "repair composition and Kamsa reference"
+        },
+        {
+          "path": "intake/D037/mural-s008-landscape-v002.png",
+          "sha256": "07860a4c22e077ec05855645dab3bc1fa728813fa1a09576b2a51dc8d81b264f",
+          "role": "Kamsa continuity"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "concept_id": "d037-s010",
+      "version": "v005",
+      "file": "artifacts/d037/s010/landscape/candidate-v005.png",
+      "sha256": "7500c331c34c94928b9df15ede1fac11184b99e57a8df6a1e3b57908027d36f2",
+      "prompt": "artifacts/d037/s010/prompts/landscape-v005.md",
+      "prompt_sha256": "3afdbe059f083b914df42153391df391412e95a929fd72fe2c09af00f6321739",
+      "metadata": "artifacts/d037/s010/landscape/metadata-v005.json",
+      "metadata_sha256": "6232d66d765e75f5a97c7889e775854324b66900cf3fe761ec1c6de0b750ed68",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-8676d85d-1995-4b56-91cb-cf523beacae9.png",
+      "selection": "provisional-selected-lead-pending-independent-review",
+      "producer_observation": "Producer full-frame and crops: no anthropomorphic figure; one continuous serpent and a separate narrow blue symbolic ray; four distinct praising devas.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "7500c331c34c94928b9df15ede1fac11184b99e57a8df6a1e3b57908027d36f2",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s004.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s008.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/010.jpg",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/s010/landscape/candidate-v003.png"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/010.jpg",
+          "sha256": "6b1d5e664d9377f0972765b1389b951128b2e06a981e48b2799579f5bdf67bb8",
+          "role": "stanza 10 story reference"
+        },
+        {
+          "path": "artifacts/d037/s010/landscape/candidate-v003.png",
+          "sha256": "1c54ddafb669edfab2104ec99be449835b201147816787de6a01532b0552c266",
+          "role": "repair composition and serpent/light reference"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "concept_id": "d037-s005",
+      "version": "v003",
+      "file": "artifacts/d037/s005/landscape/candidate-v003.png",
+      "sha256": "e8b5d13796149215539ba363520c1b131cd8f75c9c926f3b659e82de3e2b418a",
+      "prompt": "artifacts/d037/s005/prompts/landscape-v003.md",
+      "prompt_sha256": "b10ef165e87374f411c108ef9513f3dd65cedba4e6a06a21a46bb5be56ce471d",
+      "metadata": "artifacts/d037/s005/landscape/metadata-v003.json",
+      "metadata_sha256": "631bc3286c414840273c2590db397a651114baf1cb3250503ea4f2c1859d9003",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-44a2337b-00e4-417a-8487-ae661c525f30.png",
+      "selection": "selected-lead",
+      "producer_observation": "Producer pass. Hari’s inset skin is clearly deep blue and no longer gray-blue; the scene retains Brahma’s contracted four heads/four arms, the four-armed Hari vision, distinct listeners, and the matte mural rendering.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "e8b5d13796149215539ba363520c1b131cd8f75c9c926f3b659e82de3e2b418a",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/s005/landscape/candidate-v002.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s004.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s008.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/005.jpg",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/vishnu-approved-guruvayurappan.png"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/s005/landscape/candidate-v002.png",
+          "sha256": "913ee47612350a4000f4f3a51e527b9992f3d38c8738e7cd8d0f5030a31f1477",
+          "role": "edit target"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/005.jpg",
+          "sha256": "6819ab14925ec2ebb561d7098362aaa7e96093ee4ade35a5bef13d1cbb663743",
+          "role": "stanza 5 story reference"
+        },
+        {
+          "path": "artifacts/d037/references/vishnu-approved-guruvayurappan.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "Guruvayurappan identity/deep-blue skin only"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "concept_id": "d037-s010",
+      "version": "v006",
+      "file": "artifacts/d037/s010/landscape/candidate-v006.png",
+      "sha256": "18d90976fc073fafcbe0f720052e957d5b362b23bc354f24f23f9a3c9e6f010c",
+      "prompt": "artifacts/d037/s010/prompts/landscape-v006.md",
+      "prompt_sha256": "1b20fbae48519568a8f99e34bfa66677f9093568296c157dc4a415f32246fe3c",
+      "metadata": "artifacts/d037/s010/landscape/metadata-v006.json",
+      "metadata_sha256": "6e88a444cbaf09f5a0b77c131303894fec2f86f75d337cc927ed803919c17e83",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-3969d0e3-daaf-4d0d-98de-5e9273c7a264.png",
+      "selection": "selected-lead-with-disclosed-deviation",
+      "producer_observation": "Best available after the one authorized repair round and selected with a disclosed deviation: the former hard straight cyan-white ray is now a curved, soft-edged deep-blue path, but remains softly feathered and slightly luminous rather than fully flat matte paint. No further generation was authorized.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "18d90976fc073fafcbe0f720052e957d5b362b23bc354f24f23f9a3c9e6f010c",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/s010/landscape/candidate-v005.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s004.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/references/style-d001-s008.png",
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/intake/D037/010.jpg"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/s010/landscape/candidate-v005.png",
+          "sha256": "7500c331c34c94928b9df15ede1fac11184b99e57a8df6a1e3b57908027d36f2",
+          "role": "edit target"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "matte style"
+        },
+        {
+          "path": "artifacts/d037/references/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "matte style"
+        },
+        {
+          "path": "intake/D037/010.jpg",
+          "sha256": "6b1d5e664d9377f0972765b1389b951128b2e06a981e48b2799579f5bdf67bb8",
+          "role": "stanza 10 story reference"
+        }
+      ]
+    },
+    {
+      "n": 1,
+      "concept_id": "d037-s001",
+      "version": "v002",
+      "file": "artifacts/d037/s001/landscape/candidate-v002.png",
+      "sha256": "b9f2504c37211ed7b07803661f1f77b0d1a5950e7e33c33d4d8220ec278490be",
+      "prompt": "artifacts/d037/s001/prompts/landscape-v002.md",
+      "prompt_sha256": "36bd5e505259327c41e4d234ea1160d49e6473b0c8c02649cdc6191e113b1c2e",
+      "metadata": "artifacts/d037/s001/landscape/metadata-v002.json",
+      "metadata_sha256": "16483eb9b4d5e123df30e258734c8f8736ce4cf5b790456fb8ea4d3c0d9c1857",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-4ff6b3be-0f03-4257-8f79-c97686e1ee51.png",
+      "selection": "selected-lead",
+      "producer_observation": "Producer inspection found the flame plume absent; the witness has a plain dark-haired head, and the composition remains intact.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "b9f2504c37211ed7b07803661f1f77b0d1a5950e7e33c33d4d8220ec278490be",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/s001/landscape/candidate-v001.png"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/s001/landscape/candidate-v001.png",
+          "sha256": "27b1acf33622ecfde64270acf2edad544948912e902e4ce104b2d7e9f3e9ff9d",
+          "role": "edit target"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "concept_id": "d037-s007",
+      "version": "v004",
+      "file": "artifacts/d037/s007/landscape/candidate-v004.png",
+      "sha256": "2507b658245f97adcaa0546643f27b7d18ca23813b49262ec529a1e2c82b4e1f",
+      "prompt": "artifacts/d037/s007/prompts/landscape-v004.md",
+      "prompt_sha256": "4ea620016e2e0ce8e66a5ee63abb5c56296ab3f03897e794b0ddfeb4766b42c1",
+      "metadata": "artifacts/d037/s007/landscape/metadata-v004.json",
+      "metadata_sha256": "58313ab448b1a7634f61edd6142e1dbbe5d6156a7c3e18569b6a1b3323b35dd4",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1d84c-6a5b-7862-8220-c4678ba7ef03/exec-fd775ada-467e-42f1-a63d-c8f9087daf1a.png",
+      "selection": "selected-lead",
+      "producer_observation": "Producer inspection found four distinct attendants, Kamsa turned toward Devaki, a plain cloud cue without rays, two fully framed horse heads, visible reins, and the low sword.",
+      "dimensions_px": [
+        1672,
+        941
+      ],
+      "native_png_sha256": "2507b658245f97adcaa0546643f27b7d18ca23813b49262ec529a1e2c82b4e1f",
+      "arguments": {
+        "transparent_background": false,
+        "referenced_image_paths": [
+          "/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/6/narayaneeyam/artifacts/d037/s007/landscape/candidate-v003.png"
+        ]
+      },
+      "ordered_references": [
+        {
+          "path": "artifacts/d037/s007/landscape/candidate-v003.png",
+          "sha256": "5a60dda0dfa1c68e141994172f331daf6932b33b4e82e6f5924a3c6d94481e48",
+          "role": "edit target"
+        }
+      ]
+    }
+  ]
+}

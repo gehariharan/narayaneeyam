@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D027, D028, D029, D031 through D036, D040, D042, D043, D044, D066 and D067 media from the release using the existing
+D005 through D014, D027, D028, D029, D031 through D037, D040, D042, D043, D044, D066 and D067 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -185,6 +185,24 @@ ten rows, two images per row, and the same mobile stack and feedback form.
 
 `node review-site/scripts/upload.mjs --daskam=38` uploads only D038 derivatives.
 Chapter links and Worker routing use three-digit slugs (`d038`, not `d0038`).
+
+## Dasakam 37
+
+D037 has ten landscape comparison rows mapped to the numbered intake photographs
+and their supplied commentary. Exact candidate versions and SHA-256 values are
+pinned in `art/batches/d037-comparison-v006.json`; the source mapping is recorded
+in `content/sources/d037/`. S005 v003 corrects Hari's skin to deep blue. S010 v006
+is the better candidate after the authorized final repair, with its softly
+feathered, slightly luminous blue path disclosed as a remaining deviation.
+Fresh independent exact-checksum review is recorded for all ten selected images
+in `art/reviews/visual-reviews.json`, bound to reports k and l and the frozen
+plan and batch checksums. All ten selected candidates pass that review; this is
+review clearance only, not art approval.
+The selected candidates remain unapproved, portraits are paused, and no sourced
+English translation is available.
+Upload only D037's review WebP derivatives with
+`node review-site/scripts/upload.mjs --daskam=37` before deploying the review
+Worker.
 
 D1 migration `0002_feedback_all_dasakams.sql` is applied in production. It
 preserves existing rows and replaces the original D001/D002-only database

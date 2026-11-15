@@ -1,0 +1,519 @@
+{
+  "schema_version": 1,
+  "daskam_id": 37,
+  "slug": "d037",
+  "review_status": "needs-review",
+  "production_scope": {
+    "active_orientation": "landscape",
+    "portrait": "paused",
+    "note": "Portrait compositions are intentionally not generated in this batch."
+  },
+  "continuity": {
+    "anchor_character": "bhudevi",
+    "recurring_characters": [
+      "brahma",
+      "vasudeva",
+      "devaki",
+      "kamsa"
+    ],
+    "locations": [
+      "Brahma's lotus abode",
+      "milky ocean shore",
+      "Mathura wedding road",
+      "Mathura prison"
+    ],
+    "palette_arc": "Begin with restrained battle ochres and earth greens; turn to milky cream, mineral blue and muted rose for the divine assembly; shift to the deep maroon and cream of Mathura; end with gentle indigo, ivory and warm ochre pregnancy symbolism.",
+    "narrative_arc": "The returning Asura burden drives Bhūdevī to Brahma; the devas seek Hari's aid; the incarnation plan is revealed; Vasudeva and Devaki marry; Kamsa hears the prophecy, relents, is warned by Narada and grows fearful; the seventh embryo moves to Rohini and Hari enters Devaki.",
+    "notes": "Use the actual stanza-specific source text and only its mapped supplied photograph as narrative reference. Photos 011–012 are unmapped documentary extras. English Facebook captions remain attributed commentary, not translations. All image work is unapproved comparison art. Use D001 S004/S008 only for flat opaque mineral-matte rendering; no glossy shading, metallic gold, outer border or readable text. Identity references do not license importing their rendering. Do not place a Krishna peacock feather on other deities. Preserve natural human anatomy and clear contacts; Brahma's four heads and four arms are intentional per his approved character contract. Portraits paused. No scene depicts Vrindavan-period youthful Krishna: S005 shows a four-armed Hari vision using approved Guruvayurappan identity only, while S010 uses symbolic light without a youthful Krishna figure."
+  },
+  "character_contracts": {
+    "bhudevi-d037": "A dignified adult Earth Goddess with natural proportions and exactly two attached arms. Show distress without injury. Warm cream, muted ochre and restrained earth-green sari; no Varaha, globe, tusk or duplicated Earth-Goddess symbol. This D037 scene contract supersedes the unrelated recovery-scene pose in the general Bhūdevī sheet only for these scenes.",
+    "brahma": "Use approved character bible: exactly four heads and four attached arms, three faces visible from a frontal view, rear face turned away; no extra faces or hands.",
+    "guruvayurappan": "Use only approved Guruvayurappan identity cues for the small four-armed Hari vision in S005; the D001 S004/S008 references govern rendering separately. Four arms are intentional and attached. No Krishna feather, gloss or metallic finish.",
+    "shiva-d037": "Mature ash-toned ascetic deity, natural adult proportions, two attached arms, calm guiding presence, simple ochre cloth and restrained rudraksha; a single trident may be carried upright. No Krishna feather, glossy blue skin or more than two arms.",
+    "kamsa-d037": "One recurring adult Mathuran king with natural proportions, exactly two attached arms, strong but human face, dark hair and restrained maroon/ochre royal cloth. Portray menace through expression and gesture, never monstrous anatomy. No injury or blood; in stanza 8 he spares the child; in stanza 9 the violence is symbolic and off-screen.",
+    "rohini-d037": "Adult woman with natural proportions, exactly two attached arms, modest warm-cream and muted-green sari, composed face; show only symbolic light arriving at her, without anatomy of pregnancy or exposed body."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d037-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "bhudevi",
+        "devas",
+        "asuras"
+      ],
+      "reference_paths": [
+        "intake/D037/001.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #1 to 001.jpg (SHA-256 b00b3e13c4a8b570f299468645ccae36c4db2f66a78571f1be43b9ee78c0fcc4). Image shows armored figures in battle; reinterpret only the stanza's recurring Asura burden, not the exact fantasy armor or fire effects.",
+      "scene_brief": {
+        "mode": "earth-goddess-seeks-refuge",
+        "must_show": [
+          "A quiet aftermath of conflict suggested by distant small silhouettes, not a foreground battle",
+          "Bhūdevī as the clear focal figure approaching Brahma's lotus abode",
+          "A small group of devas already gathered as witnesses",
+          "Earth represented by the goddess and landscape, never a second globe"
+        ],
+        "composition": "Wide horizontal procession from the burdened land toward the lotus seat; keep the goddess's face, hands and path readable.",
+        "tone": "distress seeking refuge, solemn dignity",
+        "avoid": [
+          "graphic combat",
+          "fantasy armor or fire borrowed from the reference",
+          "duplicate Bhūdevī",
+          "Varaha",
+          "text or border"
+        ]
+      },
+      "alt": "Bhūdevī seeks refuge with Brahma as the devas gather at his abode",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Use a broad grounded horizon and side-to-side approach to the lotus abode; compose a complete new landscape."
+        }
+      },
+      "selected_candidate": {
+        "version": "v002",
+        "file": "artifacts/d037/s001/landscape/candidate-v002.png",
+        "sha256": "b9f2504c37211ed7b07803661f1f77b0d1a5950e7e33c33d4d8220ec278490be",
+        "orientation": "landscape"
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d037-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "bhudevi",
+        "brahma",
+        "devas"
+      ],
+      "reference_paths": [
+        "intake/D037/002.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #2 to 002.jpg (SHA-256 df2d32a89acd2e3b69f121fe4fd003b8582e07532d8fe7e650ab5c84d4e909ca). Use the ocean and endangered-Earth idea only; exclude stock watermarks and copied pose.",
+      "scene_brief": {
+        "mode": "plea-before-the-creator",
+        "must_show": [
+          "Bhūdevī safely on a receding shore, pleading to Brahma",
+          "A symbolic rising waterline communicating the danger of sinking",
+          "Brahma looking toward the devas and turning inward in meditation on Hari",
+          "Brahma with exactly four heads and four arms per approved contract"
+        ],
+        "composition": "The goddess and Brahma form a clear exchange above a quiet symbolic ocean; keep the deva witnesses distinct and secondary.",
+        "tone": "urgent compassion, contemplative resolve",
+        "avoid": [
+          "Bhūdevī inside water or being harmed",
+          "a second globe or goddess",
+          "copied stock painting",
+          "extra heads or arms",
+          "text or border"
+        ]
+      },
+      "alt": "Brahma turns to Hari in meditation as Bhūdevī pleads beside the rising ocean",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Compose the shore, goddess, Brahma and witnesses across a broad horizontal axis with safe space around every figure."
+        }
+      },
+      "selected_candidate": {
+        "version": "v001",
+        "file": "artifacts/d037/s002/landscape/candidate-v001.png",
+        "sha256": "710b4d7af7dada141bd17c36057a1177b5f60b87b84cdb1555705635aecbdc1f",
+        "orientation": "landscape"
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d037-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "brahma",
+        "shiva",
+        "bhudevi",
+        "devas"
+      ],
+      "reference_paths": [
+        "intake/D037/003.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #3 to 003.jpg (SHA-256 eb81a752a5a22064b7f506514e4830881742cbbbffa76a1b7a830a07e18418a6). Treat it as a broad assembly cue only; do not copy its deity poses or photoreal glow.",
+      "scene_brief": {
+        "mode": "pilgrimage-to-the-milky-ocean",
+        "must_show": [
+          "Shiva leading a small orderly assembly toward the milky ocean",
+          "Brahma, Bhūdevī and a few devas following",
+          "A distant calm ocean shore suggesting refuge at Hari's abode",
+          "Distinct natural two-arm humanlike anatomy for all except Brahma's contracted four arms"
+        ],
+        "composition": "A lateral traveling group moves toward an open pale horizon; no crowd duplication or tangled limbs.",
+        "tone": "shared purpose, reverence, hope",
+        "avoid": [
+          "three-deity poster lineup",
+          "copying source poses",
+          "Krishna peacock feather on Shiva or Brahma",
+          "extra limbs",
+          "text or border"
+        ]
+      },
+      "alt": "Shiva leads Brahma, Bhūdevī and the devas toward the milky ocean",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Build a low, sideward procession with the ocean destination visible ahead and figures separated by clear negative space."
+        }
+      },
+      "selected_candidate": {
+        "version": "v003",
+        "file": "artifacts/d037/s003/landscape/candidate-v003.png",
+        "sha256": "1ce3822470f5f8cc0d826b053dbaad52980bb03bfab0221d30c52b42aa1aae59",
+        "orientation": "landscape"
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d037-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "brahma",
+        "shiva",
+        "bhudevi",
+        "devas"
+      ],
+      "reference_paths": [
+        "intake/D037/004.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #4 to 004.jpg (SHA-256 3867db905aa8d71aa1f97b6bddaa0c638f65dc95dd905bdcf57543f53bcd55a3). Reference is a Brahma meditation cue; omit its outer text and glossy lighting.",
+      "scene_brief": {
+        "mode": "meditation-and-inner-hearing",
+        "must_show": [
+          "The assembly gathered quietly on the breezy shore of the milky ocean",
+          "Brahma in the foreground hearing Hari's words inwardly, one natural hand near his heart",
+          "Other deities meditating with calm varied faces",
+          "Brahma's exactly four heads and four arms"
+        ],
+        "composition": "Use the sea as a calm horizontal ground; Brahma's inward attention is focal while the assembly forms a restrained arc behind him.",
+        "tone": "stillness, inward revelation, expectancy",
+        "avoid": [
+          "literal text or sound waves",
+          "large floating Vishnu image",
+          "repeated identical devas",
+          "extra anatomy",
+          "watermarks, text or border"
+        ]
+      },
+      "alt": "At the milky ocean, Brahma hears Hari's words within his heart",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Set Brahma on one side and the calm assembled devas across the shore; maintain natural eye lines and connected hands."
+        }
+      },
+      "selected_candidate": {
+        "version": "v002",
+        "file": "artifacts/d037/s004/landscape/candidate-v002.png",
+        "sha256": "aff42304b2b7120a56636d36cfa3e7b4254a2c2240c8dc0924e1018058f5d90d",
+        "orientation": "landscape"
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d037-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "brahma",
+        "devas",
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D037/005.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #5 to 005.jpg (SHA-256 6819ab14925ec2ebb561d7098362aaa7e96093ee4ade35a5bef13d1cbb663743). Use only Brahma's four-headed identity as a cue; remove gloss, text, metallic reflections and copied pose.",
+      "scene_brief": {
+        "mode": "promise-of-incarnation",
+        "must_show": [
+          "Brahma conveying the plan to the assembled devas",
+          "A small and restrained inner vision of four-armed Hari in a cloud-blue field, matching approved Vishnu identity only",
+          "Subtle symbolic suggestion of Yadava and Vrishni lineages receiving the divine plan",
+          "Brahma's anatomy exactly four heads and four arms"
+        ],
+        "composition": "Brahma speaks from the foreground while the group listens; the vision is a modest inset of light within the natural painted space.",
+        "tone": "reassurance, collective joy, sacred promise",
+        "avoid": [
+          "Krishna peacock feather on Vishnu",
+          "adult Krishna or birth scene",
+          "ornamental gold rendered metallic",
+          "cloned crowd",
+          "text or border"
+        ]
+      },
+      "alt": "Brahma shares Hari's promise to incarnate among the Yadavas",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Keep Brahma and listeners spread horizontally; place the small divine vision above the speaking gesture without crowding faces."
+        }
+      },
+      "selected_candidate": {
+        "version": "v003",
+        "file": "artifacts/d037/s005/landscape/candidate-v003.png",
+        "sha256": "e8b5d13796149215539ba363520c1b131cd8f75c9c926f3b659e82de3e2b418a",
+        "orientation": "landscape"
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d037-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "vasudeva",
+        "devaki"
+      ],
+      "reference_paths": [
+        "intake/D037/006.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #6 to 006.jpg (SHA-256 d2b84683ddef4e8c31f8a58c63af03556240e2bb93044e4aae468be2a0fd7a7e). Treat as a simple paired portrait cue; make an original Mathura wedding scene.",
+      "scene_brief": {
+        "mode": "mathura-wedding",
+        "must_show": [
+          "Vasudeva and Devaki joining hands in a dignified wedding rite in Mathura",
+          "Vasudeva with the approved face, beard, tilak and plain cream clothing vocabulary",
+          "Devaki in the approved maroon sari and small bindi",
+          "A restrained temple courtyard and a few distinct witnesses"
+        ],
+        "composition": "Place the couple at the center in a balanced horizontal composition, with ritual gesture and faces unobstructed.",
+        "tone": "tender auspicious beginning",
+        "avoid": [
+          "royal excess",
+          "changed character identities",
+          "cloned guests",
+          "unconnected hands",
+          "text or border"
+        ]
+      },
+      "alt": "Vasudeva and Devaki marry in Mathura",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Give the couple room on both sides for a small wedding party while keeping the joined hands fully visible."
+        }
+      },
+      "selected_candidate": {
+        "version": "v001",
+        "file": "artifacts/d037/s006/landscape/candidate-v001.png",
+        "sha256": "2fb5143093e13ff2b15a349c1f834ec262f31ffd85ca396d621d3f09a589a195",
+        "orientation": "landscape"
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d037-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "vasudeva",
+        "devaki",
+        "kamsa"
+      ],
+      "reference_paths": [
+        "intake/D037/007.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #7 to 007.jpg (SHA-256 105d0b9f389e97fce4ff3d6051fc40e35eec976c0c696b4d8490cc99f3947604). It contains a violent chariot scene; retain only the procession and threat premise, without copying pose or showing injury.",
+      "scene_brief": {
+        "mode": "prophecy-on-the-wedding-road",
+        "must_show": [
+          "Kamsa driving the newly married couple's chariot through Mathura",
+          "A subtle unlettered sky-light signifying a divine voice",
+          "Kamsa startled and turning toward Devaki, with a sword held away from her",
+          "Vasudeva alert and protective; Devaki composed and unharmed",
+          "Exactly four individually distinct background attendants, with varied faces and positions",
+          "A plain painted cloud or quiet sky area as the prophecy cue, with no rays or beams",
+          "Every horse head fully inside the frame with both ears and the entire muzzle visible"
+        ],
+        "composition": "Keep the three principal faces, chariot, reins, and safely lowered sword readable in a side view. Keep every horse head fully inside the frame; place exactly four distinct attendants naturally at varied depths.",
+        "tone": "sudden foreboding without graphic threat",
+        "avoid": [
+          "sword at the throat",
+          "grabbing hair",
+          "blood or injury",
+          "crowd cloning",
+          "text or border",
+          "sun rays, beams, streaks, shafts, or volumetric lighting",
+          "repeated attendant faces or a cloned row"
+        ]
+      },
+      "alt": "A divine prophecy interrupts Kamsa's chariot procession with Vasudeva and Devaki",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Show chariot motion across the frame while preserving clear spacing between Kamsa, the couple and the safely lowered sword."
+        }
+      },
+      "selected_candidate": {
+        "version": "v004",
+        "file": "artifacts/d037/s007/landscape/candidate-v004.png",
+        "sha256": "2507b658245f97adcaa0546643f27b7d18ca23813b49262ec529a1e2c82b4e1f",
+        "orientation": "landscape"
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d037-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "vasudeva",
+        "devaki",
+        "kamsa",
+        "newborn"
+      ],
+      "reference_paths": [
+        "intake/D037/008.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #8 to 008.jpg (SHA-256 e0cbc41aedcb5b089a9860f0cb6ad77b2aeff57289cdd11c8369194d3bc311cb). Exclude all stock marks; use its family-and-king arrangement only as reference context.",
+      "scene_brief": {
+        "mode": "first-child-spared",
+        "must_show": [
+          "Vasudeva entrusting the first newborn to Kamsa after promising to surrender each child",
+          "Kamsa holding the unharmed infant gently and relenting",
+          "Devaki visibly present in the prison chamber",
+          "Natural human anatomy and clear hand-to-child contact"
+        ],
+        "composition": "Make the infant's safe transfer the emotional center; keep all adult hands visibly supporting or released from the swaddled child.",
+        "tone": "fear held in check by an unexpected moment of mercy",
+        "avoid": [
+          "harm to the child",
+          "extra babies",
+          "stock watermark",
+          "detached hands",
+          "text or border"
+        ]
+      },
+      "alt": "Vasudeva gives the first newborn to Kamsa, who chooses to spare the child",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Use a calm horizontal handover with the child fully visible and safely supported between the adults."
+        }
+      },
+      "selected_candidate": {
+        "version": "v002",
+        "file": "artifacts/d037/s008/landscape/candidate-v002.png",
+        "sha256": "07860a4c22e077ec05855645dab3bc1fa728813fa1a09576b2a51dc8d81b264f",
+        "orientation": "landscape"
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d037-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "narada",
+        "kamsa"
+      ],
+      "reference_paths": [
+        "intake/D037/009.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #9 to 009.jpg (SHA-256 c835010c615833ad60341d971c7df21995dc3d16e10aa9c8a4c28f71223e111f). Use only the conversation premise; omit every stock watermark and copied character.",
+      "scene_brief": {
+        "mode": "narada-warns-kamsa",
+        "must_show": [
+          "Narada speaking calmly to Kamsa in a Mathuran interior",
+          "Kamsa listening with growing alarm",
+          "A discreet symbol of the six lost children, such as six extinguished lamps, with no infants or violence shown",
+          "Narada and Kamsa as separate natural two-armed people"
+        ],
+        "composition": "Build an intimate conversational axis with clear eye lines; the six lamps remain secondary and unambiguous.",
+        "tone": "forewarning, fear, ominous resolve",
+        "avoid": [
+          "depicting murdered children",
+          "weapons or blood",
+          "aggressive or mocking Narada",
+          "extra people or limbs",
+          "text or border"
+        ]
+      },
+      "alt": "Narada warns Kamsa of Hari's birth among the Yadavas as six lamps mark the lost children",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Keep both faces at eye level across a sparse interior; place six small lamps low in the frame."
+        }
+      },
+      "selected_candidate": {
+        "version": "v001",
+        "file": "artifacts/d037/s009/landscape/candidate-v001.png",
+        "sha256": "f6d4da5f7bb0bbf6dc096814047096c983071892c8e7df5d9f4589b56f64d3d4",
+        "orientation": "landscape"
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d037-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "devaki",
+        "rohini",
+        "yogamaya",
+        "adishesha",
+        "devas"
+      ],
+      "reference_paths": [
+        "intake/D037/010.jpg"
+      ],
+      "reference_mapping": "Accepted readiness maps caption #10 to 010.jpg (SHA-256 6b1d5e664d9377f0972765b1389b951128b2e06a981e48b2799579f5bdf67bb8). Use the maternal devotion and infant symbolism only; invent no literal anatomy beyond the stanza.",
+      "scene_brief": {
+        "mode": "miraculous-transfer-and-incarnation",
+        "must_show": [
+          "Devaki and Rohini shown separately in calm Mathuran settings",
+          "A small ivory-white serpent-light symbol moving from Devaki toward Rohini to signify Adishesha's transfer",
+          "A second deep-blue divine light entering Devaki to signify Hari's eighth incarnation",
+          "A few devas praising from above as quiet witnesses"
+        ],
+        "composition": "Use a balanced two-part landscape with a continuous soft painted light path; retain each woman's full natural figure and modest clothing.",
+        "tone": "mystery, protection, auspicious anticipation",
+        "avoid": [
+          "visible womb or fetus",
+          "exposed body",
+          "multiple serpents or disconnected hoods",
+          "Krishna feather on other deities",
+          "text or border"
+        ]
+      },
+      "alt": "Adishesha's light passes to Rohini as Hari enters Devaki, praised by the devas",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review mural",
+          "composition_override": "Compose Devaki and Rohini in distinct spaces across the wide frame, with the transfer represented by one graceful luminous path."
+        }
+      },
+      "selected_candidate": {
+        "version": "v006",
+        "file": "artifacts/d037/s010/landscape/candidate-v006.png",
+        "sha256": "18d90976fc073fafcbe0f720052e957d5b362b23bc354f24f23f9a3c9e6f010c",
+        "orientation": "landscape"
+      }
+    }
+  ],
+  "character_bible_refs": [
+    "art/bible/characters/brahma/character.json",
+    "art/bible/characters/bhudevi/character.json",
+    "art/bible/characters/vasudeva/character.json",
+    "art/bible/characters/devaki/character.json",
+    "art/bible/characters/guruvayurappan/character.json",
+    "art/bible/characters/yogamaya/character.json",
+    "art/bible/characters/adishesha/character.json",
+    "art/bible/characters/d037/scene-contracts.json",
+    "art/bible/characters/shiva/character.json",
+    "art/bible/characters/narada/character.json"
+  ]
+}
