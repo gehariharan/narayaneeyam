@@ -44,7 +44,14 @@ test('S004 prompt construction includes Bhattathiri identity and character refer
     await writeFile(path.join(fixture, bhattathiri.local_reference_paths[0]), 'reference fixture');
 
     const buildArgs = [path.join(root, 'scripts/build-prompt.mjs'), '--daskam=3', '--sloka=4', '--orientation=landscape'];
-    await execFileAsync(process.execPath, buildArgs, { cwd: fixture });
+    await assert.rejects(execFileAsync(process.execPath, buildArgs, { cwd: fixture }), /ENOENT/);
+
+    await writeFile(path.join(fixture, 'art/approved/d003.json'), JSON.stringify({ stanzas: [] }));
+    await assert.rejects(execFileAsync(process.execPath, buildArgs, { cwd: fixture }), /No complete studio record for d003\/s004/);
+
+    const missingMaster = { status: 'missing', master_path: null, preview_path: null, sha256: null };
+    const syntheticApprovals = { stanzas: [{ n: 4, concept_id: 'd003-s004', landscape: missingMaster, portrait: missingMaster }] };
+    await writeFile(path.join(fixture, 'art/approved/d003.json'), JSON.stringify(syntheticApprovals, null, 2));
     await execFileAsync(process.execPath, buildArgs, { cwd: fixture });
 
     const prompt = await readFile(path.join(fixture, 'artifacts/d003/s004/prompts/landscape-v001.md'), 'utf8');
