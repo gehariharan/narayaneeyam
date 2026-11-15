@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D027, D028, D029, D031 through D037, D040, D042, D043, D044, D066 and D067 media from the release using the existing
+D005 through D014, D027, D028, D029, D031 through D037, D040, D041, D042, D043, D044, D066 and D067 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -478,3 +478,7 @@ Upload only D032's WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=32` before any serialized Worker
 deployment. With D028 and D032 added, the union holds 28 chapters, 289 stanza rows, 591
 review media inputs and 295 selected generated images.
+
+## Dasakam 41
+
+D041 contains ten source-mapped landscape candidates in `art/batches/d041-comparison-v001.json`, bound to the canonical Stotra Nidhi Sanskrit/IAST, accepted numbered photo map, and exact candidate checksums. Candidate history is listed in `art/batches/d041-candidate-versions-v001.json`; unselected needs-fix attempts remain local and are not visible alternates. Independent exact-checksum visual review must pass all ten selected images before publication. The candidates remain unapproved and portraits are paused. No sourced English verse translation is included; supplied captions remain separately attributed, and unrelated trailing text in caption #10 is preserved in raw intake but excluded from stanza commentary. Upload only D041's review WebP derivatives with `node review-site/scripts/upload.mjs --daskam=41` after the selected images have passing checksum-bound review evidence and the release bundle has been validated.

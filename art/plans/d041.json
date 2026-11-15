@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "daskam_id": 41,
+  "slug": "d041",
+  "title": "Pūtanādahanaṃ tathā Kṛṣṇalālanāhlādam",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "infant-krishna",
+    "recurring_characters": [
+      "infant Krishna",
+      "Putana",
+      "Nandagopan",
+      "Yashoda",
+      "gopikas",
+      "gopas"
+    ],
+    "locations": [
+      "Vraja grove and road",
+      "Gokula cremation ground",
+      "Nanda’s household and village"
+    ],
+    "narrative_arc": "Nanda sees Putana fallen; her respectful cremation and fragrant smoke lead to Krishna’s boon; Gokula flourishes and delights in the child, ending with Yashoda’s maternal care.",
+    "krishna_form_contract": "Believable two-armed infant with exactly two arms and two legs, flat matte deep indigo skin, rounded face, short dark curls, muted yellow wrap and one small peacock feather. Match the provisional v004 identity anchor; no adult body transfer or four-armed form.",
+    "supporting_character_status": "Follow existing infant-krishna, nandagopan, yashoda, gopikas, gopas and putana contracts. Nanda and Yashoda use provisional shared D042–D044 cues only; references are not approved masters. Use D040 Putana contract for continuous identity, covered fallen body and connected anatomy. Do not invent Bhattathiri in story scenes.",
+    "rendering_references": [
+      "artifacts/d041/references/shared/style-d001-s004.png",
+      "artifacts/d041/references/shared/style-d001-s008.png"
+    ],
+    "identity_reference": "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png (provisional continuity, not approval)",
+    "palette_arc": "Full-bleed South Indian temple mural with firm dark contours and flat opaque mineral matte fields: burnt sienna, earth ochre, deep maroon, warm cream, muted olive, deep indigo reserved for Krishna. Painted ochre ornament only; no gloss, metallic gold, frame or text.",
+    "notes": "Canonical Stotra Nidhi Sanskrit and IAST; supplied numbered captions remain commentary only; no sourced English translation. Scene images 001–010 map to stanzas 1–10. Preserve 011–012 as documentary stencil extras. All art remains unapproved."
+  },
+  "source": {
+    "sanskrit": "https://stotranidhi.com/hi/narayaneeyam-dasakam-41-in-sanskrit/",
+    "romanization": "https://stotranidhi.com/en/narayaneeyam-dasakam-41-in-english/",
+    "caption_file": "intake/D041/photo-captions.txt",
+    "reference_map": "content/sources/d041/reference-map.json",
+    "reference_map_sha256": "bf474b1d4488d3f891bf090e162eca41e7bb26b19d696f291acbfc63f4f153a2"
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d041-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "putana",
+        "infant-krishna",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D041/001.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/infant-krishna/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "art/bible/characters/putana/character.json",
+        "art/bible/characters/gopas/character.json",
+        "art/bible/characters/putana/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "art/bible/characters/gopas/character.json",
+        "artifacts/d041/references/shared/yashoda-nandagopan-identity-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Nanda returns along the road and sees the immense fallen Putana and crushed tree.",
+          "One mature moustached Nanda in simple cream and muted olive cowherd clothing pauses with one companion at the edge of a Vraja grove. Putana is fully clothed and already fallen; the infant Krishna is safe beside her, with no injury. Nanda’s guarded stance conveys alarm."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “Nanda sees Putana fallen beneath the broken tree”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 001.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Alarm and refuge",
+        "avoid": [
+          "No gore, wounds, graphic demon traits, extra limbs or duplicated people.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "Nanda sees Putana fallen beneath the broken tree",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d041/s001/landscape/candidate-v004.png",
+          "candidate_sha256": "a0fe8160015c87d1141fbc3d3af7e76ca09d91052a29f6d917f94ae411b80f6b",
+          "prompt_path": "artifacts/d041/s001/landscape/prompt-v004.txt",
+          "candidate_status": "Producer-inspected native v004. Skin-only 15×15 px median RGB samples: Putana face (153, 138, 87), visible arm (151, 136, 86), upper foot (153, 137, 86), lower foot (153, 138, 87). Green remains 15–16 below red, so the explicit green-at-or-above-red condition is unmet. v004 is closer to target RGB (125, 135, 110) than v003 at these sample sites, but still olive/khaki; no further repair authorized. Independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1670x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d041-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "putana",
+        "gopas",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D041/002.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/putana/character.json",
+        "art/bible/characters/gopas/character.json",
+        "art/bible/characters/putana/character.json",
+        "art/bible/characters/gopikas/character.json"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Gokula cowherds hear the gopis’ account and carry Putana’s body away for cremation.",
+          "Distinct gopas carry a fully covered bier toward a small distant pyre beyond the grove; gopikas recount the event nearby. Do not depict chopping or violence."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “Gokula carries Putana away after the event”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 002.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Awe and solemn care",
+        "avoid": [
+          "No active axes, dismemberment, gore, graphic corpse or visible injury.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "Gokula carries Putana away after the event",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d041/s002/landscape/candidate-v002.png",
+          "candidate_sha256": "6665aa49f7bf4a16b0c4e247f17c02117974903c0dfb16077ebe7b09c1a188e8",
+          "prompt_path": "artifacts/d041/s002/landscape/prompt-v002.txt",
+          "candidate_status": "producer-generated native v002; v001 retained unselected with repeated-face needs-fix observation; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d041-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "gopas",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D041/003.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/gopas/character.json",
+        "art/bible/characters/gopikas/character.json"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "The funeral smoke rises high from the body purified by Krishna’s touch.",
+          "A distant small covered pyre sends a tall calm plume of smoke into a warm sky. Villagers observe from afar; restrained curls and sandalwood motifs suggest fragrance. Krishna is not shown nursing."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “Fragrant smoke rises from Putana’s funeral pyre”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 003.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Wonder and sanctity",
+        "avoid": [
+          "No exposed body, gore, injury, inferno, labels or text.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "Fragrant smoke rises from Putana’s funeral pyre",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d041/s003/landscape/candidate-v003.png",
+          "candidate_sha256": "630af3d436153e25f722fb22170b9b13310bc77539a74ba65b849058666abe37",
+          "prompt_path": "artifacts/d041/s003/landscape/prompt-v003.txt",
+          "candidate_status": "producer-inspected native v003; v002 retained unselected because it omitted the distant villagers required by the plan; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d041-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "putana",
+        "infant-krishna",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D041/004.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/infant-krishna/character.json",
+        "art/bible/characters/putana/character.json",
+        "art/bible/characters/putana/character.json",
+        "art/bible/characters/gopikas/character.json"
+      ],
+      "scene_brief": {
+        "mode": "symbolic-devotion",
+        "must_show": [
+          "Krishna’s contact purifies Putana; the verse presents the boon as a promise to the cowherd women.",
+          "Infant Krishna’s gentle hand rests on Putana’s covered fallen form as a subtle fragrance motif rises. Keep the act symbolic and tender."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “Krishna grants Putana fragrance through his touch”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 004.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Compassion and grace",
+        "avoid": [
+          "No speech text, gore, apparition, extra limbs, glossy halo or adult Krishna.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "Krishna grants Putana fragrance through his touch",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d041/s004/landscape/candidate-v004.png",
+          "candidate_sha256": "1b592e61ab5c0a75cb1b5b8bc52f1a6cc2851996c3362af3b8d8488f1aa9ca6e",
+          "prompt_path": "artifacts/d041/s004/landscape/prompt-v004.txt",
+          "candidate_status": "Producer-inspected native v004. Putana now has both outstretched arms visibly connected at the shoulders with two clear hands; the far-side arm and hand are present, and the former missing-arm defect is corrected. Skin-only 15×15 px median RGB samples: face (167, 143, 88), near arm (136, 116, 64), far arm (166, 144, 89), upper foot (172, 146, 88), lower foot (169, 145, 87). Green is 20–26 below red in all five patches, so the explicit green-at-or-above-red condition remains unmet. Compared with v003, v004 is selected because it visibly satisfies the both-arms requirement; color deviation remains disclosed and no further repair is authorized. Independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1671x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d041-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "yashoda",
+        "infant-krishna",
+        "gopas",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D041/005.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/infant-krishna/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "art/bible/characters/gopas/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "art/bible/characters/gopas/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "art/bible/characters/gopikas/character.json",
+        "artifacts/d041/references/shared/yashoda-nandagopan-identity-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Cowherds praise that the child survived and turn their gaze to Krishna’s face.",
+          "Distinct gopas and gopikas gather around the safe smiling infant in Nanda’s courtyard, expressing astonished relief and praise."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “The cowherds rejoice that Krishna is safe”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 005.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Relief and adoration",
+        "avoid": [
+          "No Vasudeva present; no invented speech, cloned faces or fused bodies.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "The cowherds rejoice that Krishna is safe",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d041/s005/landscape/candidate-v003.png",
+          "candidate_sha256": "fff5eeef7ef6b0521a39200a9bdcbea17e824bb403cdab9fc8c17e7173943b5e",
+          "prompt_path": "artifacts/d041/s005/landscape/prompt-v003.txt",
+          "candidate_status": "Producer-inspected native v003. 15×15 px median RGB samples for Krishna: face cheek (70, 71, 104), torso (61, 67, 108), legs (53, 60, 94); blue exceeds red by 34, 47 and 41 respectively. The face remains 6 below the required 40-channel margin, though it is more blue than v002 (captain sample RGB (113, 95, 124), blue-red +11). No further repair authorized. Independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d041-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "yashoda",
+        "infant-krishna",
+        "gopas",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D041/006.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/infant-krishna/character.json",
+        "art/bible/characters/gopikas/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "art/bible/characters/gopas/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "artifacts/d041/references/shared/yashoda-nandagopan-identity-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "symbolic-devotion",
+        "must_show": [
+          "Gokula’s prosperity and auspiciousness grow day by day because Krishna dwells there.",
+          "A broad village panorama with modest homes, healthy cows, grain baskets, flowering plants, villagers at work and infant Krishna gently among them."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “Prosperity fills Gokula as Krishna lives there”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 006.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Abundance and peace",
+        "avoid": [
+          "No palace, excessive wealth, repeated figures or supernatural distortion.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "Prosperity fills Gokula as Krishna lives there",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d041/s006/landscape/candidate-v001.png",
+          "candidate_sha256": "062ce63686945dee82021d88afe63e738edccd347878934b5bbb15702918b6d7",
+          "prompt_path": "artifacts/d041/s006/landscape/prompt-v001.txt",
+          "candidate_status": "producer-generated native v001; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d041-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "yashoda",
+        "infant-krishna",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D041/007.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/infant-krishna/character.json",
+        "art/bible/characters/gopikas/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "artifacts/d041/references/shared/yashoda-nandagopan-identity-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Gopis speak of the child’s gentle beauty and smile after their daily tasks and come to see him.",
+          "Two distinct gopis finish simple household work and walk toward Nanda’s home at late afternoon; the smiling infant is visible within. Gestures suggest conversation without dialogue."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “Gopis delight in speaking of Krishna and visiting him”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 007.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Daily delight",
+        "avoid": [
+          "No text, identical women, palace dress or invented named task.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "Gopis delight in speaking of Krishna and visiting him",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d041/s007/landscape/candidate-v002.png",
+          "candidate_sha256": "87588a46a60c955221a8d59f34221480c947342bbe4e85961d0b414ad52afed7",
+          "prompt_path": "artifacts/d041/s007/landscape/prompt-v002.txt",
+          "candidate_status": "Producer-inspected native v002. Skin-only 15×15 px median RGB samples, v001 → v002: cheek (111, 104, 144) → (50, 65, 141), torso (112, 106, 146) → (57, 71, 145), leg (107, 102, 141) → (51, 66, 139), foot (116, 109, 147) → (53, 68, 144). Blue-over-red margins now +88 to +91 at all four sampled sites. The composition and frame-edge figures are held to v001; independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d041-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "nandagopan",
+        "yashoda",
+        "infant-krishna",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D041/008.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/infant-krishna/character.json",
+        "art/bible/characters/gopikas/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "art/bible/characters/nandagopan/character.json",
+        "artifacts/d041/references/shared/yashoda-nandagopan-identity-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "narrative",
+        "must_show": [
+          "Gopis delight that Krishna looks at them and smiles, and beckon him with open hands.",
+          "Distinct gopis gather in Nanda’s courtyard and extend open hands toward a safely supported two-armed infant who looks back with a small smile."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “Gopis reach out to welcome the smiling child”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 008.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Playful affection",
+        "avoid": [
+          "No grabbing, suspended infant, disconnected hands or duplicate Yashoda.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "Gopis reach out to welcome the smiling child",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d041/s008/landscape/candidate-v002.png",
+          "candidate_sha256": "2d614f3d1ddc4f24eceff0c4b318cde6e24ba3c1e937a2aa3b18a686f27c3f29",
+          "prompt_path": "artifacts/d041/s008/landscape/prompt-v002.txt",
+          "candidate_status": "Producer-inspected native v002. Skin-only 15×15 px median RGB samples for infant Krishna: face cheek (79, 86, 128), torso (45, 70, 121), leg (49, 71, 122); blue exceeds red by 49, 76 and 73 respectively, meeting the requested +40 minimum with no purple cast. Independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1671x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d041-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "yashoda",
+        "infant-krishna",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D041/009.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/infant-krishna/character.json",
+        "art/bible/characters/gopikas/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "artifacts/d041/references/shared/yashoda-nandagopan-identity-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "poetic-symbolic",
+        "must_show": [
+          "The gopis pass Krishna from hand to hand; the verse compares him to a dark bee among a garland of red lotuses.",
+          "A horizontal sequence of two or three distinct gopis passing the same securely supported infant from one pair of arms to the next. A restrained red-lotus garland and one small dark bee echo the simile."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “Gopis pass Krishna like a bee among red lotuses”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 009.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Tender play and poetic wonder",
+        "avoid": [
+          "No floating child, unconnected hands, cloned gopis or competing oversized bee.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "Gopis pass Krishna like a bee among red lotuses",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d041/s009/landscape/candidate-v002.png",
+          "candidate_sha256": "5f89531711ef1c18bfff74a25644cc8bf4594e7ca1b131178d512a513d2b7df3",
+          "prompt_path": "artifacts/d041/s009/landscape/prompt-v002.txt",
+          "candidate_status": "Producer-inspected native v002. Skin-only 15×15 px median RGB samples, v001 → v002: cheek (97, 103, 140) → (55, 60, 114), torso (91, 98, 135) → (59, 64, 116), leg (80, 87, 118) → (49, 54, 100), foot (100, 106, 143) → (64, 70, 122). Blue-over-red margins are +51 to +59 at all four sampled sites. The hand-to-hand scene is otherwise held to v001; independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1671x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d041-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "yashoda",
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D041/010.jpg",
+        "artifacts/d041/references/shared/style-d001-s004.png",
+        "artifacts/d041/references/shared/style-d001-s008.png",
+        "artifacts/d041/references/shared/infant-krishna-working-anchor-v004.png",
+        "art/bible/characters/infant-krishna/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "artifacts/d041/references/shared/yashoda-nandagopan-identity-D043-S009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "intimate-devotion",
+        "must_show": [
+          "Yashoda nurses Krishna in her lap and smiles while gazing at his face.",
+          "Quiet home interior: Yashoda in a cream, saffron or soft rose sari securely holds the modestly wrapped two-armed infant in a fully covered, nonsexual maternal pose. She smiles into his face."
+        ],
+        "composition": "Independently compose a native 16:9 landscape full-bleed temple mural for “Yashoda smiles as she nurses Krishna”, with figures balanced across the wide frame and natural, connected anatomy. Numbered source image 010.jpg anchors cast/action only, not style or literal framing.",
+        "tone": "Maternal tenderness",
+        "avoid": [
+          "No Bhattathiri, adult Krishna, exposed breast, sexualized framing or extra hands.",
+          "No readable text, caption, signature, logo, watermark or decorative outer border.",
+          "No gloss, reflective gold, silk sheen, photorealism, cinematic lighting, palette drift or texture overlay.",
+          "Ordinary people have two arms and two legs; distinct faces; no duplicated or fused people or detached hands."
+        ]
+      },
+      "alt": "Yashoda smiles as she nurses Krishna",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Compose independently for this wide frame.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d041/s010/landscape/candidate-v003.png",
+          "candidate_sha256": "143a2b0460e8403b663986964561e9de1d21880fca7ba85c429abf31498fafc5",
+          "prompt_path": "artifacts/d041/s010/landscape/prompt-v003.txt",
+          "candidate_status": "Producer-inspected native v003. Skin-only 15×15 px median RGB samples for Krishna: cheek (42, 54, 116), torso (38, 51, 116), arm (41, 53, 116), leg (38, 47, 101), foot (50, 55, 104); blue exceeds red by 74, 78, 75, 63 and 54 respectively, meeting the required +40 margin in every sampled patch. At the same sites v002 measured (81, 83, 99), (86, 88, 109), (80, 81, 103), (73, 74, 94) and (83, 80, 93), so v003 is clearly deeper and more saturated indigo-blue. No further repair authorized. Independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    }
+  ]
+}
