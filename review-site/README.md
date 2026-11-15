@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D029, D031, D032, D033, D034, D040, D042, D043, D044, D066 and D067 media from the release using the existing
+D005 through D014, D027, D028, D029, D031 through D035, D040, D042, D043, D044, D066 and D067 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -162,6 +162,16 @@ mapping. The supplied commentary is shown verbatim; Sanskrit, romanization, and
 commentary remain editorial review material, and English translations are not
 yet available. Portraits remain paused. Upload its WebP derivatives with
 `node review-site/scripts/upload.mjs --daskam=6` before deploying the Worker.
+
+## Dasakam 35
+
+D035 contains ten stanza-specific landscape candidates selected from mapped intake photos and exact version hashes: S001 v002, S002 v002, S003 v001, S004 v004, S005 v004, S006 v003, S007 v004, S008 v001, S009 v005, and S010 v003.
+Superseded attempts remain preserved with their findings and are excluded from the comparison.
+Fresh independent exact-checksum review of all ten selected candidates passes against the final plan and character contracts, with one record per exact image identity in `art/reviews/visual-reviews.json`. Reports l, m and n remain separate evidence files; earlier reports are history. The S005 v003 review found clipped Garuda wing tips; one authorized repair produced v004, now selected with both wing tips inside the frame, two connected arms on each brother, and visible binding coils. Tie-break review confirms S008 shows Valmiki rather than an extra Rama and S009 includes Valmiki at the far left. The batch is unapproved; captain art approval is pending. S009’s trench-like ground opening remains disclosed.
+Supplied captions are shown as commentary; no sourced English translation was found.
+Portrait production remains paused.
+For an authorized deployment, upload only D035 review derivatives with `node review-site/scripts/upload.mjs --daskam=35`.
+With D035 added, the union holds 30 chapters, 310 stanza rows, 633 review media inputs and 316 selected generated images.
 
 ## Dasakam 38
 

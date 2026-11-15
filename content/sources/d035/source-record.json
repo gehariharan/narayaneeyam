@@ -1,0 +1,39 @@
+{
+  "chapter": "D035",
+  "canonical_count": 10,
+  "retrieved_at": "2026-11-06",
+  "canonical_count_source": {
+    "publisher": "Stotra Nidhi",
+    "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-35-in-sanskrit/",
+    "evidence": "Numbered Sanskrit stanzas 1 through 10 and chapter completion marker."
+  },
+  "sources": [
+    {
+      "role": "Sanskrit",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-35-in-sanskrit/",
+      "local_snapshot": "content/sources/d035/stotranidhi-sanskrit.html",
+      "sha256": "7fbd60122a021c6623038a31cd773dbea5ef60338f85329fbf7b608014a641c2"
+    },
+    {
+      "role": "IAST romanization",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-35-in-english/",
+      "local_snapshot": "content/sources/d035/stotranidhi-romanization.html",
+      "sha256": "4248e7b3c701a0103a44c7d7b96fdae64c2692d31d030bebf4f0f3b8631a01e6"
+    },
+    {
+      "role": "vetted supplied commentary captions",
+      "local_snapshot": "intake/D035/photo-captions.txt",
+      "sha256": "351028b8a0657fa45cbbd051ffb1df44cc3f76ac89e170501f08a44d7f58e948",
+      "note": "Only the supplied caption text is used; photo numbering alone is not treated as stanza numbering."
+    }
+  ],
+  "editorial_notes": [
+    "Stotra Nidhi provides Sanskrit and IAST but no sourced English translation on these pages; translation_en remains empty rather than adding an unsourced translation.",
+    "Both source pages label the sixth stanza 34-6 although it is stanza 6 in this ten-stanza chapter; the source label is preserved verbatim. The source text and label variation are preserved as displayed; no silent correction was made.",
+    "The Tamil-only closing image 032.jpg and other documentary extras are retained in intake but not attributed to a stanza because the accepted readiness map does not map them."
+  ],
+  "reference_map": {
+    "path": "content/sources/d035/reference-map.json",
+    "sha256": "4c70376c20b8685e4c926c5c9a5b1a58f701d16c2332f8c31ed97083b0f668f8"
+  }
+}
