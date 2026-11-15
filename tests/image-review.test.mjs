@@ -441,7 +441,7 @@ test('D028 selection binds the ten mapped scenes, all five stanza 2 references, 
 
 test('D048 selection binds ten mapped source and native landscape versions', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
-  const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd048-comparison-v002.json');
+  const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd048-comparison-v003.json');
   const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d048.json'), 'utf8'));
   const plan = JSON.parse(await fs.readFile(path.join(root, 'art/plans/d048.json'), 'utf8'));
   assert.ok(batch);

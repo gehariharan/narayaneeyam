@@ -119,7 +119,7 @@
           "candidate_path": "artifacts/d048/s001/landscape/v002/candidate.png",
           "candidate_sha256": "5e69c7629bee64756286b38e6dd5089c66ae2213779448af94cbdab0af18c91c",
           "prompt_path": "artifacts/d048/s001/landscape/v002/prompt.txt",
-          "self_review_path": "art/reviews/d048-s001-v002-producer-review-v002.md",
+          "self_review_path": "art/reviews/d048-s001-v002-producer-review-v003.md",
           "candidate_status": "selected; two skin-only sample medians (51,59,114) and (58,65,119) each meet blue-minus-red >= 40; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
@@ -165,7 +165,7 @@
           "candidate_path": "artifacts/d048/s002/landscape/v001/candidate.png",
           "candidate_sha256": "14a9a6b5b7a0563ef11e7536f4b4b601824908a36244d9ed886e291734b15670",
           "prompt_path": "artifacts/d048/s002/landscape/v001/prompt.txt",
-          "self_review_path": "art/reviews/d048-s002-v001-producer-review-v002.md",
+          "self_review_path": "art/reviews/d048-s002-v001-producer-review-v003.md",
           "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
@@ -215,7 +215,7 @@
           "candidate_path": "artifacts/d048/s003/landscape/v001/candidate.png",
           "candidate_sha256": "0f0c448dac5e69503ebb0b188cf8afbecd8028a2421978c662948e07471c9b12",
           "prompt_path": "artifacts/d048/s003/landscape/v001/prompt.txt",
-          "self_review_path": "art/reviews/d048-s003-v001-producer-review-v002.md",
+          "self_review_path": "art/reviews/d048-s003-v001-producer-review-v003.md",
           "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
@@ -266,7 +266,7 @@
           "candidate_path": "artifacts/d048/s004/landscape/v001/candidate.png",
           "candidate_sha256": "b759777df736fae72367908c87997d95ff11d405416f3a0e8ed58d524e140662",
           "prompt_path": "artifacts/d048/s004/landscape/v001/prompt.txt",
-          "self_review_path": "art/reviews/d048-s004-v001-producer-review-v002.md",
+          "self_review_path": "art/reviews/d048-s004-v001-producer-review-v003.md",
           "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
@@ -314,7 +314,7 @@
           "candidate_path": "artifacts/d048/s005/landscape/v001/candidate.png",
           "candidate_sha256": "ec5ed94335d3fd1f7a3ee1d08f66e1ec147ea98f14007b442b1a9d525e4e5aee",
           "prompt_path": "artifacts/d048/s005/landscape/v001/prompt.txt",
-          "self_review_path": "art/reviews/d048-s005-v001-producer-review-v002.md",
+          "self_review_path": "art/reviews/d048-s005-v001-producer-review-v003.md",
           "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
@@ -342,11 +342,11 @@
       "scene_brief": {
         "mode": "childhood action",
         "must_show": [
-          "One toddler Krishna pulls the rope-tied wooden mortar slowly.",
-          "The mortar is wedged between exactly two upright Arjuna trees.",
-          "Both trees are still standing."
+          "One toddler Krishna crawls and pulls the rope-tied wooden mortar slowly.",
+          "The mortar lies on its side with its long axis horizontal, wedged crosswise between exactly two upright Arjuna trees.",
+          "Both trees remain standing and intact."
         ],
-        "composition": "Native 16:9 landscape for Krishna drags the mortar between the trees; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "composition": "Native 16:9 landscape; retain the complete frame and scene, with the mortar on its side horizontally between the two standing trees and its continuous rope pulled taut toward crawling Krishna.",
         "tone": "Devotional narrative clarity in matte mineral mural style.",
         "avoid": [
           "No falling trees yet, rope through the child, injury, extra limbs, or duplicate child."
@@ -357,13 +357,13 @@
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison candidate",
-          "composition_override": "Fresh wide composition; no crop from another orientation.",
-          "candidate_version": "v002",
-          "candidate_path": "artifacts/d048/s006/landscape/v002/candidate.png",
-          "candidate_sha256": "9341ab7a216515ad838f5b3820141567cd81734130a7c8d12cc65f63954d75c7",
-          "prompt_path": "artifacts/d048/s006/landscape/v002/prompt.txt",
-          "self_review_path": "art/reviews/d048-s006-v002-producer-review-v002.md",
-          "candidate_status": "selected; two skin-only sample medians (46,58,119) and (47,59,120) each meet blue-minus-red >= 40; independent exact-checksum review is recorded; unapproved",
+          "composition_override": "Full-frame native landscape edit preserving v002 scene; horizontal mortar and taut connecting rope.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d048/s006/landscape/v003/candidate.png",
+          "candidate_sha256": "d709c266352ea4fdaa94ece9274359eba5636d8c8f8012aeabfa79b193ab767b",
+          "prompt_path": "artifacts/d048/s006/landscape/v003/prompt.txt",
+          "self_review_path": "art/reviews/d048-s006-v003-producer-review-v003.md",
+          "candidate_status": "selected; the enlarged crop shows the mortar horizontally on its side, crosswise between exactly two upright trunks, and a continuous taut cord to crawling Krishna; two visually confirmed cheek-only sample medians are (56,64,130) and (78,77,132), with blue-minus-red 74 and 54; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1671x941"
         },
         "portrait": {
@@ -413,7 +413,7 @@
           "candidate_path": "artifacts/d048/s007/landscape/v002/candidate.png",
           "candidate_sha256": "cfb1eaa1c26c212dbd51dbf0ec773971a44478cc529f42fc53193c0f804fb688",
           "prompt_path": "artifacts/d048/s007/landscape/v002/prompt.txt",
-          "self_review_path": "art/reviews/d048-s007-v002-producer-review-v002.md",
+          "self_review_path": "art/reviews/d048-s007-v002-producer-review-v003.md",
           "candidate_status": "selected; two skin-only sample medians (40,55,130) and (39,53,129) each meet blue-minus-red >= 40; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
@@ -463,7 +463,7 @@
           "candidate_path": "artifacts/d048/s008/landscape/v003/candidate.png",
           "candidate_sha256": "50f05159b2e90e166d3b855ee63c1b65e1c48d4ad2e17704cda85d214a41ddde",
           "prompt_path": "artifacts/d048/s008/landscape/v003/prompt.txt",
-          "self_review_path": "art/reviews/d048-s008-v003-producer-review-v002.md",
+          "self_review_path": "art/reviews/d048-s008-v003-producer-review-v003.md",
           "candidate_status": "selected; two skin-only sample medians (33,59,131) and (31,56,128) each meet blue-minus-red >= 40; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1670x942"
         },
@@ -515,7 +515,7 @@
           "candidate_path": "artifacts/d048/s009/landscape/v001/candidate.png",
           "candidate_sha256": "f80fb3b0c05633ad4045112555973ae07251f2a3b00f51a43078f2d7e90df7a9",
           "prompt_path": "artifacts/d048/s009/landscape/v001/prompt.txt",
-          "self_review_path": "art/reviews/d048-s009-v001-producer-review-v002.md",
+          "self_review_path": "art/reviews/d048-s009-v001-producer-review-v003.md",
           "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
@@ -571,7 +571,7 @@
           "candidate_path": "artifacts/d048/s010/landscape/v001/candidate.png",
           "candidate_sha256": "5b62cbc146e92ba99010d6c5556048146d23235d9b54d32e3528a3e4649c1e25",
           "prompt_path": "artifacts/d048/s010/landscape/v001/prompt.txt",
-          "self_review_path": "art/reviews/d048-s010-v001-producer-review-v002.md",
+          "self_review_path": "art/reviews/d048-s010-v001-producer-review-v003.md",
           "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
           "native_dimensions": "1672x941"
         },
