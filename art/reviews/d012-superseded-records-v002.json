@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "daskam_id": 12,
+  "description": "Exact text of the dasakam 12 S003 v008 visual review record removed from art/reviews/visual-reviews.json when the selected-version records were rebuilt for v010 (source commit 0be978f). Also lists the independent reports for superseded S003 candidates: reviewer A's report covering v008 and reviewer d's needs-fix report covering v009. Preserved history only; these records do not clear any current selection.",
+  "source": {
+    "path": "art/reviews/visual-reviews.json",
+    "commit": "0be978fc0fc0d8a19f1a3dec2002d4cd018579a0"
+  },
+  "reports": [
+    {
+      "version": "v008",
+      "outcome": "pass",
+      "path": "art/reviews/d012-independent-review-a-s001-s005-v001.md",
+      "sha256": "29dff3d22707bb2f80a03a0ef207d33483028d8bcc97736cffb1aab569891f54"
+    },
+    {
+      "version": "v009",
+      "outcome": "needs-fix",
+      "path": "art/reviews/d012-independent-review-d-s001-s005-v001.md",
+      "sha256": "3d91377bb3bad2ef433f53a17517c04f016aa4084904ab7fc960a3dde32a3ab1"
+    }
+  ],
+  "reviews": [
+    {
+      "chapter": 12,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d012/s003/landscape/candidate-v008.png",
+      "version": "v008",
+      "sha256": "4afcf91061f564c7e0efc1dbc8d5e85e43fead0d14280249b7087fd7b8517850",
+      "reviewer": "d012-review-a (independent reviewer)",
+      "inspected_at": "2026-11-14T22:35:00Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Brahma follows his four-arm, four-head contract; Varaha uses the natural four-legged boar form. Ordinary human figures retain two arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d012.json",
+          "sha256": "5073515ef7467fc27feff08b8f71f47acf76617db7fe39b6148104863b4d9e30"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/varaha/character.json",
+          "sha256": "76a352c0d1a766a95deec6db9c42bdf13eeafd3aac48fbefb3545f5df1f94ed3"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d012-independent-review-a-s001-s005-v001.md",
+          "sha256": "29dff3d22707bb2f80a03a0ef207d33483028d8bcc97736cffb1aab569891f54"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Brahma’s four arms remain distinct; the single small boar has four connected legs and feet. No extra or fused digits were apparent in the enlarged detail."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Brahma’s limbs connect to the torso; the boar reads as one small animal with a coherent body."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma has three separate visible faces; the boar has a natural snout, ears and eye without human infant features."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The one boar is separate from Brahma, with no duplicate boar or merged figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The open field, water and corners show no readable text, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Prayerful Brahma, the nostril-linked tiny crowned boar and sinking Earth cue match the plan; the boar floats above the receiving hand as disclosed in the plan."
+        }
+      },
+      "findings": []
+    }
+  ]
+}
