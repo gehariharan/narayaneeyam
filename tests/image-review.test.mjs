@@ -452,6 +452,7 @@ test('D048 selection binds ten mapped source and native landscape versions', asy
     const stanza = content.stanzas.find(item => item.n === selected.n);
     const scene = plan.stanzas.find(item => item.n === selected.n);
     assert.ok(stanza && scene);
+    assert.equal(stanza.commentary_source, `intake/D048/photo-captions.txt#${selected.n}`);
     assert.equal(selected.concept_id, scene.concept_id);
     assert.equal(selected.scene, scene.alt);
     assert.equal(selected.reference.file, `intake/D048/${String(selected.n).padStart(3, '0')}.jpg`);
