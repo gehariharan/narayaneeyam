@@ -194,7 +194,10 @@ pinned in `art/batches/d037-comparison-v006.json`; the source mapping is recorde
 in `content/sources/d037/`. S005 v003 corrects Hari's skin to deep blue. S010 v006
 is the better candidate after the authorized final repair, with its softly
 feathered, slightly luminous blue path disclosed as a remaining deviation.
-Fresh independent exact-checksum review is pending for all ten selected images.
+Fresh independent exact-checksum review is recorded for all ten selected images
+in `art/reviews/visual-reviews.json`, bound to reports k and l and the frozen
+plan and batch checksums. All ten selected candidates pass that review; this is
+review clearance only, not art approval.
 The selected candidates remain unapproved, portraits are paused, and no sourced
 English translation is available.
 Upload only D037's review WebP derivatives with

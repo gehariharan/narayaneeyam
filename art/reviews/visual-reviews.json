@@ -33979,14 +33979,14 @@
       "chapter": 37,
       "sloka": 1,
       "role": "matte",
-      "file": "artifacts/d037/s001/landscape/candidate-v001.png",
-      "version": "v001",
-      "sha256": "27b1acf33622ecfde64270acf2edad544948912e902e4ce104b2d7e9f3e9ff9d",
-      "reviewer": "Firstmate independent scout d037-review-c",
-      "inspected_at": "2026-11-14T22:29Z",
+      "file": "artifacts/d037/s001/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "b9f2504c37211ed7b07803661f1f77b0d1a5950e7e33c33d4d8220ec278490be",
+      "reviewer": "Independent visual reviewer d037-review-k",
+      "inspected_at": "2026-11-15T17:05:03Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 1 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "Bhūdevī and devas are two-armed figures; Brahma's four heads and four arms are intentional.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -33994,7 +33994,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34017,6 +34017,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34025,44 +34037,44 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-c-v001.md",
-          "sha256": "0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba"
+          "path": "art/reviews/d037-independent-review-k-v001.md",
+          "sha256": "f47047c42ab19b88ecb416977cef68bf2c679e9a3e903d19487af91002c08f01"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Bhūdevī and Brahma remain separate; her two praying arms and visible feet are intact. Brahma’s four heads and four attribute-bearing arms are distinct."
+          "observations": "Bhūdevī's joined prayer hands and visible feet connect naturally; Brahma's four hands are distinct around their held attributes."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Their shoulders, torsos and limbs connect naturally to the kneeling pose and lotus seat. The small witnesses behind them do not overlap into a fused body."
+          "observations": "The goddess and four devas keep separate outlines; distant Asura shapes remain small."
         },
         "faces": {
           "status": "pass",
-          "observations": "Bhūdevī’s face is composed; three Brahma faces look forward and the fourth is turned behind as required."
+          "observations": "Bhūdevī's profile and the witness faces are distinct; Brahma shows three clear faces from four heads."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "One Bhūdevī approaches Brahma; the conflict silhouettes stay distant and do not form a repeated foreground crowd."
+          "observations": "One goddess approaches one Brahma; no duplicate Earth symbol is present."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "The open scripture has decorative strokes only. No legible text, mark, border or watermark appears at the checked corners."
+          "observations": "Only decorative lines appear in the book; no readable text, logo, signature, or watermark appears."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The burdened Earth Goddess seeks refuge while devas gather; the flat ochre-and-maroon mural setting omits the source’s battle spectacle."
+          "observations": "The previous flame plume is absent; the approach and lotus abode remain in flat warm mural colors."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-c-v001.md (SHA-256 0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s001-v001-producer-review-v002.md (SHA-256 d211b987ba14add66dc5859d48950ec15aac94a87d64ed97d84adcf9fe8bb125); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-k-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s001-v002-producer-review-v004.md (SHA-256 ed91c01e9ed56c5d1574a841e1f7496ea0b4bc5d04b0e71c2b815140fe8b15f0). No art approval."
     },
     {
       "chapter": 37,
@@ -34071,11 +34083,11 @@
       "file": "artifacts/d037/s002/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "710b4d7af7dada141bd17c36057a1177b5f60b87b84cdb1555705635aecbdc1f",
-      "reviewer": "Firstmate independent scout d037-review-c",
-      "inspected_at": "2026-11-14T22:29Z",
+      "reviewer": "Independent visual reviewer d037-review-k",
+      "inspected_at": "2026-11-15T17:05:03Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 2 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "Bhūdevī has two arms; Brahma has four heads and four attached arms.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -34083,7 +34095,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34106,6 +34118,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34114,44 +34138,44 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-c-v001.md",
-          "sha256": "0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba"
+          "path": "art/reviews/d037-independent-review-k-v001.md",
+          "sha256": "f47047c42ab19b88ecb416977cef68bf2c679e9a3e903d19487af91002c08f01"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Bhūdevī’s joined hands and feet are visible; Brahma’s four hands hold separate items. The small devas’ hands are distinct and attached."
+          "observations": "Bhūdevī's prayer hands meet cleanly; Brahma's four hands remain separate around scripture, lotus, pot and beads."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "The kneeling goddess, Brahma and three witnesses have connected bodies with ordinary adult proportions; no fused figure is visible."
+          "observations": "The goddess is seated apart from the rising water; Brahma and three witnesses retain distinct bodies."
         },
         "faces": {
           "status": "pass",
-          "observations": "Bhūdevī and Brahma have clear faces; the smaller witness faces remain individually distinguishable."
+          "observations": "Bhūdevī looks upward; Brahma's three visible faces and the witness faces remain intact."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The single goddess is separate from the three witnesses; no duplicate or merged body is evident."
+          "observations": "Only one Bhūdevī and one Brahma appear; the witnesses are separate."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable writing or stray signature/logo appears; book marks are decorative and the water/ground/corners are clean."
+          "observations": "Book marks are not readable writing; no signatures or copied marks appear at corners."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Shoreline and rising water support the plea scene while the original stock imagery, watermark and globe are absent."
+          "observations": "The shoreline plea and rising ocean remain legible in a muted cream, ochre and green palette."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-c-v001.md (SHA-256 0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s002-v001-producer-review-v002.md (SHA-256 8947f54e2966b2616e128ac61c15f5ee4d39bc58692219de3f708e5f554644ef); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-k-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s002-v001-producer-review-v004.md (SHA-256 05c2569e2ff3280ec5b152daa7bddb7b83046ac2a63c1a00232e121f02c623ab). No art approval."
     },
     {
       "chapter": 37,
@@ -34160,11 +34184,11 @@
       "file": "artifacts/d037/s003/landscape/candidate-v003.png",
       "version": "v003",
       "sha256": "1ce3822470f5f8cc0d826b053dbaad52980bb03bfab0221d30c52b42aa1aae59",
-      "reviewer": "Firstmate independent scout d037-review-c",
-      "inspected_at": "2026-11-14T22:29Z",
+      "reviewer": "Independent visual reviewer d037-review-k",
+      "inspected_at": "2026-11-15T17:05:03Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 3 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "Bhūdevī and Shiva remain two-armed; Brahma's four heads and arms are intentional.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -34172,7 +34196,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34195,6 +34219,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34203,44 +34239,44 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-c-v001.md",
-          "sha256": "0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba"
+          "path": "art/reviews/d037-independent-review-k-v001.md",
+          "sha256": "f47047c42ab19b88ecb416977cef68bf2c679e9a3e903d19487af91002c08f01"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Shiva has two arms, one holding the trident; Brahma has four; Bhūdevī has two. Visible hands and feet remain connected across the procession."
+          "observations": "Walking figures' visible hands and feet are coherent; Brahma's hands hold separate attributes and Shiva's trident arm connects at the shoulder."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Each walker’s limbs attach to an individual body; spacing through the group avoids tangled or fused silhouettes."
+          "observations": "Procession bodies remain distinct; the leftmost figure is close to the frame edge but remains visible."
         },
         "faces": {
           "status": "pass",
-          "observations": "Shiva, Bhūdevī, Brahma and the other walkers have coherent separate faces."
+          "observations": "Faces vary across the group; Brahma's three front faces and Shiva's single face are intact."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "No repeated procession figure or joined bodies appear in the enlarged group."
+          "observations": "No repeated person, fused figure or duplicate creature is apparent."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "The book contains non-readable marks; no lettering, border, signature or watermark is visible."
+          "observations": "The book has no readable marks; corners show no signature, logo or watermark."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Shiva leads an original shoreward procession in matte mural colors, retaining the calm ocean destination and not copying the source lineup."
+          "observations": "Shiva leads the party toward the open shore; flat colors and drawn outlines follow the planned mural style."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-c-v001.md (SHA-256 0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s003-v003-producer-review-v002.md (SHA-256 ecdf737ec499e9563511e1b5ac02bf6a7058a73c42a686290c46c76b9a8bd37c); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-k-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s003-v003-producer-review-v004.md (SHA-256 1e70733887257436ad3118378507c98aa56ebcdbbd3989c222f7fa8c1f8f69fc). No art approval."
     },
     {
       "chapter": 37,
@@ -34249,11 +34285,11 @@
       "file": "artifacts/d037/s004/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "aff42304b2b7120a56636d36cfa3e7b4254a2c2240c8dc0924e1018058f5d90d",
-      "reviewer": "Firstmate independent scout d037-review-c",
-      "inspected_at": "2026-11-14T22:29Z",
+      "reviewer": "Independent visual reviewer d037-review-k",
+      "inspected_at": "2026-11-15T17:05:03Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 4 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "Brahma's four heads and arms and Shiva's two arms follow their separate deity contracts.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -34261,7 +34297,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34284,6 +34320,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34292,57 +34340,57 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-c-v001.md",
-          "sha256": "0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba"
+          "path": "art/reviews/d037-independent-review-k-v001.md",
+          "sha256": "f47047c42ab19b88ecb416977cef68bf2c679e9a3e903d19487af91002c08f01"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Brahma has four attached arms; Shiva has two and holds one trident. Other visible hands and feet in the assembly remain attached; some lower limbs are naturally beyond the frame."
+          "observations": "Brahma's four attached hands are separately visible; Shiva's two arms include the one holding his upright trident."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "The seated assembly forms a clear arc; visible bodies and joints remain connected with no fused forms."
+          "observations": "Seated figures remain separate and key faces stay inside the image."
         },
         "faces": {
           "status": "pass",
-          "observations": "Brahma’s three front faces and Shiva’s face are intact; the listeners have varied faces, including the edge-positioned listener whose face is fully visible."
+          "observations": "Brahma's three shown faces and Shiva's face are intact; surrounding expressions differ."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "No duplicated listener or fused group appears in the magnified assembly."
+          "observations": "One Brahma sits with a distinct assembly; no fused person is apparent."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No sound lettering, watermark, signature or border appears; scripture marks remain unreadable."
+          "observations": "No readable sound marks, text, signatures or watermark are visible."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Brahma listens inward at the milky ocean with the assembled figures; the composition avoids a literal floating Vishnu and keeps the quiet matte style."
+          "observations": "Figures meditate at a calm sea in a restrained palette without cinematic light."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-c-v001.md (SHA-256 0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s004-v002-producer-review-v002.md (SHA-256 7d0b8d0f3e6f59e7cd637e6a7acfb128cb73254f7a97018405fccf1f0b732ce0); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-k-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s004-v002-producer-review-v004.md (SHA-256 4807b2dca297dd78e79d581fdbfb2a4d4642da980e85dc73fea5a3bcbea6966d). No art approval."
     },
     {
       "chapter": 37,
       "sloka": 5,
       "role": "matte",
-      "file": "artifacts/d037/s005/landscape/candidate-v002.png",
-      "version": "v002",
-      "sha256": "913ee47612350a4000f4f3a51e527b9992f3d38c8738e7cd8d0f5030a31f1477",
-      "reviewer": "Firstmate independent scout d037-review-c",
-      "inspected_at": "2026-11-14T22:29Z",
+      "file": "artifacts/d037/s005/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "e8b5d13796149215539ba363520c1b131cd8f75c9c926f3b659e82de3e2b418a",
+      "reviewer": "Independent visual reviewer d037-review-k",
+      "inspected_at": "2026-11-15T17:05:03Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 5 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "Four arms are intentional for Brahma and Hari; the devas are ordinary adult figures.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -34350,7 +34398,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34373,6 +34421,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34381,44 +34441,44 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-c-v001.md",
-          "sha256": "0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba"
+          "path": "art/reviews/d037-independent-review-k-v001.md",
+          "sha256": "f47047c42ab19b88ecb416977cef68bf2c679e9a3e903d19487af91002c08f01"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Brahma and the Hari vision each use distinct four-arm deity forms. The small listening group’s visible hands and extremities attach to their bodies."
+          "observations": "Brahma and Hari's four hands each remain attached and separated; listeners' visible hands are distinct."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "The seated listeners remain separate; the small deity vision has a coherent torso and attached arms."
+          "observations": "The small Hari vision stays separate from Brahma and the listening assembly."
         },
         "faces": {
           "status": "pass",
-          "observations": "The three forward Brahma faces, the vision face and the listeners’ faces are readable and differentiated."
+          "observations": "Brahma's visible faces, Hari's face and the listeners' faces are formed and distinct."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The upper cloud group is a set of separate listeners, not repeated or merged people."
+          "observations": "One Brahma and one Hari vision appear with separate listeners."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "The scripture has no legible text; no signature, watermark or border appears."
+          "observations": "The painted book marks are not legible; no watermark or signature is visible."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "Brahma communicates the incarnation promise to the devas, with the Hari vision used only as a small symbolic scene element."
+          "observations": "Deep-blue four-armed Hari is shown as a vision; no peacock feather or glossy highlight appears."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-c-v001.md (SHA-256 0f9b9db046d775de35c0d878dffadb4a015575ba09560059b7bd092954d2a6ba), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s005-v002-producer-review-v002.md (SHA-256 5276107602b2ce020a5e96e76dc6921f272b158b9662c0905f67687aa8299905); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-k-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s005-v003-producer-review-v004.md (SHA-256 03b33fb6d836d460b56a36071aa08962725100183da150b84466bb50d0d0b0c6). No art approval."
     },
     {
       "chapter": 37,
@@ -34427,11 +34487,11 @@
       "file": "artifacts/d037/s006/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "2fb5143093e13ff2b15a349c1f834ec262f31ffd85ca396d621d3f09a589a195",
-      "reviewer": "Firstmate independent scout d037-review-d",
-      "inspected_at": "2026-11-14T22:31:05Z",
+      "reviewer": "Independent visual reviewer d037-review-l",
+      "inspected_at": "2026-11-15T17:03:41Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 6 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "Vasudeva and Devaki have ordinary two-arm human anatomy.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -34439,7 +34499,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34462,6 +34522,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34470,57 +34542,57 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-d-v001.md",
-          "sha256": "2412986db240c31f551b7b06812b66df5f3ebb31bbecede02376416c3c45bc86"
+          "path": "art/reviews/d037-independent-review-l-v001.md",
+          "sha256": "88af7591501b6ad21be0930f964bae3e358bf2cf4e801584ada9552299a76404"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "The joined hands overlap in contact at center, with no definite missing or extra fingers. Their feet are outside the seated framing rather than cut by it."
+          "observations": "The central wedding clasp is inside frame; overlapping fingers read as joined hands without an obvious detached digit."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Both adults’ shoulders and arms connect through the wedding gesture; their bodies retain natural seated proportions."
+          "observations": "The couple's forearms meet at the ritual gesture; two witnesses remain separate."
         },
         "faces": {
           "status": "pass",
-          "observations": "Vasudeva’s bearded, marked face and Devaki’s bindi are clear and unobstructed."
+          "observations": "Vasudeva's beard and tilak differ from Devaki's bindi and composed face."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The couple and two background witnesses read as separate people without fused anatomy."
+          "observations": "Two principals and two witnesses appear as separate people."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No text, signature, logo or watermark is present, including around the altar and lower corners."
+          "observations": "No readable courtyard text, logo, signature or watermark is visible."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The Mathura courtyard, wedding fire and hand joining carry the stanza scene in a matte mural treatment."
+          "observations": "The wedding rite centers on joined hands against a simple Mathura setting."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-d-v001.md (SHA-256 2412986db240c31f551b7b06812b66df5f3ebb31bbecede02376416c3c45bc86), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s006-v001-producer-review-v002.md (SHA-256 169cd64ef1bfd31e813f732e640bfb92c99a69e067606b4f8c5585323f744e40); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-l-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s006-v001-producer-review-v004.md (SHA-256 037748b3c1dafed3e5482e09cf1f10a3baa3925982c79a8918aa0b4dc0fefa03). No art approval."
     },
     {
       "chapter": 37,
       "sloka": 7,
       "role": "matte",
-      "file": "artifacts/d037/s007/landscape/candidate-v003.png",
-      "version": "v003",
-      "sha256": "5a60dda0dfa1c68e141994172f331daf6932b33b4e82e6f5924a3c6d94481e48",
-      "reviewer": "Firstmate independent scout d037-review-d",
-      "inspected_at": "2026-11-14T22:31:05Z",
+      "file": "artifacts/d037/s007/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "2507b658245f97adcaa0546643f27b7d18ca23813b49262ec529a1e2c82b4e1f",
+      "reviewer": "Independent visual reviewer d037-review-l",
+      "inspected_at": "2026-11-15T17:03:41Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 7 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "All people retain two attached arms; the two horses are separate connected animals.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -34528,7 +34600,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34551,6 +34623,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34559,44 +34643,44 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-d-v001.md",
-          "sha256": "2412986db240c31f551b7b06812b66df5f3ebb31bbecede02376416c3c45bc86"
+          "path": "art/reviews/d037-independent-review-l-v001.md",
+          "sha256": "88af7591501b6ad21be0930f964bae3e358bf2cf4e801584ada9552299a76404"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Kamsa’s reins hand and sword hand are separate; the sword rests low and clear of Devaki. The horses have two distinct heads and no definite extra or missing limb in the inspected crops."
+          "observations": "Kamsa holds the reins and lowered sword in separate attached hands; two horse heads and all four ears/muzzles are within the frame."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "The harness, horses and chariot connect visibly; overlapping horse bodies remain separable and the principal adults have connected forms."
+          "observations": "Kamsa, Vasudeva and Devaki remain separate; the four attendants have distinct positions."
         },
         "faces": {
           "status": "pass",
-          "observations": "Kamsa turns toward the couple; the three principal faces are readable without malformed features."
+          "observations": "Attendant faces and headgear vary; Kamsa turns toward Devaki."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "The four attendants have distinct faces and appearance rather than a repeated row; no duplicate person is apparent."
+          "observations": "No duplicate attendant or merged body is apparent."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "Cloud light has no lettering; corners and ground show no signature, logo or watermark."
+          "observations": "Sky, chariot and image corners show no readable text or watermark."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The stopped chariot and safe lowered sword convey the prophecy without repeating the source’s raised-weapon violence."
+          "observations": "A plain cloud marks the prophecy; rays are absent and the team/chariot fit the frame."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-d-v001.md (SHA-256 2412986db240c31f551b7b06812b66df5f3ebb31bbecede02376416c3c45bc86), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s007-v003-producer-review-v002.md (SHA-256 357ad042653c6f49f21ed782d3a278b07b9eaeadf8e45d2859ff03bd65b8acff); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-l-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s007-v004-producer-review-v004.md (SHA-256 56f05de5a09d2016c669e38658d19b55e5cff7462c776f7a3cc1814763543c9a). No art approval."
     },
     {
       "chapter": 37,
@@ -34605,11 +34689,11 @@
       "file": "artifacts/d037/s008/landscape/candidate-v002.png",
       "version": "v002",
       "sha256": "07860a4c22e077ec05855645dab3bc1fa728813fa1a09576b2a51dc8d81b264f",
-      "reviewer": "Firstmate independent scout d037-review-d",
-      "inspected_at": "2026-11-14T22:31:05Z",
+      "reviewer": "Independent visual reviewer d037-review-l",
+      "inspected_at": "2026-11-15T17:03:41Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 8 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "Adults have human anatomy; the newborn is entirely swaddled.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -34617,7 +34701,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34640,6 +34724,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34648,44 +34744,44 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-d-v001.md",
-          "sha256": "2412986db240c31f551b7b06812b66df5f3ebb31bbecede02376416c3c45bc86"
+          "path": "art/reviews/d037-independent-review-l-v001.md",
+          "sha256": "88af7591501b6ad21be0930f964bae3e358bf2cf4e801584ada9552299a76404"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Adult hands support the wrapped baby from beneath and around the bundle; no detached hand or clear digit error appears. The infant is peaceful and unharmed."
+          "observations": "Vasudeva and Kamsa support the single swaddled infant with connected hands; the close view shows no obvious extra digit."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Three adults and the swaddled newborn are distinct, with connected arms and bodies. The seated adults’ feet are outside the framing."
+          "observations": "The three adults and infant occupy separate connected forms; Devaki remains at the left."
         },
         "faces": {
           "status": "pass",
-          "observations": "Vasudeva, Devaki, Kamsa and the infant each have coherent faces fully within frame."
+          "observations": "Adult and infant faces are visible and formed."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "No duplicate person or infant appears in the prison scene."
+          "observations": "One newborn appears, without a duplicate or fused adult."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No readable text, logo, signature or watermark is present."
+          "observations": "No stock marks, readable lettering, logo or watermark appears on the prison walls."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The calm prison handover shows Kamsa sparing the first child and keeps Devaki present."
+          "observations": "The handover remains gentle and the child fully wrapped."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-d-v001.md (SHA-256 2412986db240c31f551b7b06812b66df5f3ebb31bbecede02376416c3c45bc86), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s008-v002-producer-review-v002.md (SHA-256 441e1e68176d2e651a48e8ea0cbbd99e2492532e78376904b75c042d97db067c); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-l-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s008-v002-producer-review-v004.md (SHA-256 bad81a30bd744c26f098cc1b092ce2b68a91d64cb7cc7737392102ec0e11eb88). No art approval."
     },
     {
       "chapter": 37,
@@ -34694,11 +34790,11 @@
       "file": "artifacts/d037/s009/landscape/candidate-v001.png",
       "version": "v001",
       "sha256": "f6d4da5f7bb0bbf6dc096814047096c983071892c8e7df5d9f4589b56f64d3d4",
-      "reviewer": "Firstmate independent scout d037-review-d",
-      "inspected_at": "2026-11-14T22:31:05Z",
+      "reviewer": "Independent visual reviewer d037-review-l",
+      "inspected_at": "2026-11-15T17:03:41Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 9 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "Narada and Kamsa have ordinary two-arm anatomy.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -34706,7 +34802,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34729,6 +34825,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34737,57 +34845,57 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-d-v001.md",
-          "sha256": "2412986db240c31f551b7b06812b66df5f3ebb31bbecede02376416c3c45bc86"
+          "path": "art/reviews/d037-independent-review-l-v001.md",
+          "sha256": "88af7591501b6ad21be0930f964bae3e358bf2cf4e801584ada9552299a76404"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Narada’s gesture and resting hand and Kamsa’s chin/resting hands remain distinct; both have two arms. Their feet are covered by the cross-legged clothing."
+          "observations": "Narada's speaking hand and Kamsa's hands at chin and lap attach cleanly; no conspicuous digit issue is visible."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Both seated bodies retain connected proportions, without a twisted shoulder or disconnected hand."
+          "observations": "The two seated sages remain apart, with the veena beside Narada."
         },
         "faces": {
           "status": "pass",
-          "observations": "Narada looks composed and Kamsa wary; both faces are clear."
+          "observations": "Narada's expression is calm and Kamsa's appears worried; both faces remain intact."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Only the two speakers are present; no extra or fused figure appears."
+          "observations": "Only the two planned adults appear; no fused body is apparent."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "No lettering or marks resembling a signature, logo or watermark are visible around the lamps or floor."
+          "observations": "Six lamp marks are symbolic, not writing; no watermark or signature appears."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The sparse interior conversation and six extinguished lamps express the planned warning and lost children."
+          "observations": "The six low lamps accompany a quiet warning; no infant or violence is shown."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-d-v001.md (SHA-256 2412986db240c31f551b7b06812b66df5f3ebb31bbecede02376416c3c45bc86), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s009-v001-producer-review-v002.md (SHA-256 787e8d557b9a09b3f6f81f470788c28bae0760c5b61d8788978a6ab11cb1ba94); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-l-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s009-v001-producer-review-v004.md (SHA-256 f7724bbff3615829741ddde85b52f3d2011afe0cec1022901c440ea5d3dc5644). No art approval."
     },
     {
       "chapter": 37,
       "sloka": 10,
       "role": "matte",
-      "file": "artifacts/d037/s010/landscape/candidate-v005.png",
-      "version": "v005",
-      "sha256": "7500c331c34c94928b9df15ede1fac11184b99e57a8df6a1e3b57908027d36f2",
-      "reviewer": "Firstmate independent scout d037-review-e",
-      "inspected_at": "2026-11-14T22:38Z",
+      "file": "artifacts/d037/s010/landscape/candidate-v006.png",
+      "version": "v006",
+      "sha256": "18d90976fc073fafcbe0f720052e957d5b362b23bc354f24f23f9a3c9e6f010c",
+      "reviewer": "Independent visual reviewer d037-review-l",
+      "inspected_at": "2026-11-15T17:03:41Z",
       "method": "individual-native-resolution",
       "outcome": "pass",
-      "anatomy_basis": "Stanza 10 cast follows the final D037 plan and bound character contracts; deity forms are intentional where the scene calls for them, while ordinary figures remain two-armed.",
+      "anatomy_basis": "Women are two-armed; Adishesha is a single-headed symbol and Yogamaya is unembodied.",
       "contracts": [
         {
           "path": "art/bible/series.json",
@@ -34795,7 +34903,7 @@
         },
         {
           "path": "art/plans/d037.json",
-          "sha256": "bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da"
+          "sha256": "824e4c8ccdae6209da165f36559d4c61d9187f6a90bd360b971d059719c31052"
         },
         {
           "path": "art/bible/characters/brahma/character.json",
@@ -34818,6 +34926,18 @@
           "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
         },
         {
+          "path": "art/bible/characters/yogamaya/character.json",
+          "sha256": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        },
+        {
+          "path": "art/bible/characters/d037/scene-contracts.json",
+          "sha256": "fe11ed8228d1b3c9faafb8b29731ecbbdbad2f28f9a0d3ceae3db6fd19d0cb1e"
+        },
+        {
           "path": "art/bible/characters/shiva/character.json",
           "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
         },
@@ -34826,44 +34946,44 @@
           "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
         },
         {
-          "path": "art/bible/characters/d037/scene-contracts.json",
-          "sha256": "1b074b0206fab63e19a1fd8d484ad88b4ee15b56a73ada771a0b89166e0b175d"
+          "path": "art/batches/d037-comparison-v006.json",
+          "sha256": "c1e6bb01e8e9473faefd7ebef49b16e0bc20987e93d9a585a3b70cf6290aaa9e"
         }
       ],
       "evidence": [
         {
-          "path": "art/reviews/d037-independent-review-e-v001.md",
-          "sha256": "38c74f86e4862a34893e9e6493d72576fcdd75d461e177120e2b527bac82aafc"
+          "path": "art/reviews/d037-independent-review-l-v001.md",
+          "sha256": "88af7591501b6ad21be0930f964bae3e358bf2cf4e801584ada9552299a76404"
         }
       ],
       "checks": {
         "limbs_hands_feet": {
           "status": "pass",
-          "observations": "Devaki and Rohini each have two connected arms; their feet are covered by the seated sari folds, not severed at the frame. The four devas’ gestures attach to their arms. One ivory serpent has a single head and continuous body."
+          "observations": "Devaki and Rohini each show two attached arms; the ivory symbolic serpent has one head and a single continuous body."
         },
         "attachment_proportions": {
           "status": "pass",
-          "observations": "Both women remain legible as seated figures with visible knees and folded-leg silhouettes; the lower edge meets covered garment folds. No fused body appears."
+          "observations": "The two seated women occupy separate settings; the upper devas remain apart from them."
         },
         "faces": {
           "status": "pass",
-          "observations": "The women and four small devas have coherent faces inside the frame."
+          "observations": "The women's faces and four deva faces are intact in the reviewed full frame and details."
         },
         "duplication_fusion": {
           "status": "pass",
-          "observations": "Two separate women, four separate devas and one serpent are visible; no duplicated or fused body is apparent."
+          "observations": "No duplicate woman or fused body appears; Yogamaya is not embodied."
         },
         "text_artifacts": {
           "status": "pass",
-          "observations": "The full frame and bottom edge show no readable text, signature, logo or watermark."
+          "observations": "No readable marks or watermark appear in the sky, ground or corners."
         },
         "scene_style_continuity": {
           "status": "pass",
-          "observations": "The two settings, single white transfer serpent, separate narrow blue symbolic light and praising devas match the stanza; no deity figure, womb or fetus is shown."
+          "observations": "The blue entry path is softly feathered and slightly luminous, as disclosed; the independent reviewer accepts the exact image."
         }
       },
       "findings": [],
-      "notes": "Final independent exact-checksum evidence: art/reviews/d037-independent-review-e-v001.md (SHA-256 38c74f86e4862a34893e9e6493d72576fcdd75d461e177120e2b527bac82aafc), bound to plan bf4648663639c3a080e94d5d409a290e188c667af615d2d1a3048c45060196da. Separate producer inspection: art/reviews/d037-s010-v005-producer-review-v002.md (SHA-256 c6b514795a573e6a42e06b9df0d7a81d9f5c352c3e140ac4869c38e694ad18d9); producer evidence only, not art approval. No art approval."
+      "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-l-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s010-v006-producer-review-v004.md (SHA-256 74fecff8be81d90ad04ae05bdc702f445fc4205d344b8438d7c0b2da983f9357). No art approval."
     }
   ]
 }
