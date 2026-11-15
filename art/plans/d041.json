@@ -83,12 +83,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison candidate",
           "composition_override": "Compose independently for this wide frame.",
-          "candidate_version": "v003",
-          "candidate_path": "artifacts/d041/s001/landscape/candidate-v003.png",
-          "candidate_sha256": "897f24aa4410fb78fc5e24bb3f4d3f9764285d864147999768d4be2e113631da",
-          "prompt_path": "artifacts/d041/s001/landscape/prompt-v003.txt",
-          "candidate_status": "Producer-inspected native v003; v002 retained unselected because Putana’s giant-form skin was tan/ochre instead of muted grey-green; independent exact-checksum review is recorded; unapproved.",
-          "native_dimensions": "1671x941"
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d041/s001/landscape/candidate-v004.png",
+          "candidate_sha256": "a0fe8160015c87d1141fbc3d3af7e76ca09d91052a29f6d917f94ae411b80f6b",
+          "prompt_path": "artifacts/d041/s001/landscape/prompt-v004.txt",
+          "candidate_status": "Producer-inspected native v004. Skin-only 15×15 px median RGB samples: Putana face (153, 138, 87), visible arm (151, 136, 86), upper foot (153, 137, 86), lower foot (153, 138, 87). Green remains 15–16 below red, so the explicit green-at-or-above-red condition is unmet. v004 is closer to target RGB (125, 135, 110) than v003 at these sample sites, but still olive/khaki; no further repair authorized. Independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1670x941"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -472,12 +472,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison candidate",
           "composition_override": "Compose independently for this wide frame.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d041/s008/landscape/candidate-v001.png",
-          "candidate_sha256": "2ac88e517eaebb10a805ba9dbbb8e712cb3c3f85b5bd9c3c15f85cde2a864e3e",
-          "prompt_path": "artifacts/d041/s008/landscape/prompt-v001.txt",
-          "candidate_status": "producer-generated native v001; independent exact-checksum review is recorded; unapproved",
-          "native_dimensions": "1672x941"
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d041/s008/landscape/candidate-v002.png",
+          "candidate_sha256": "2d614f3d1ddc4f24eceff0c4b318cde6e24ba3c1e937a2aa3b18a686f27c3f29",
+          "prompt_path": "artifacts/d041/s008/landscape/prompt-v002.txt",
+          "candidate_status": "Producer-inspected native v002. Skin-only 15×15 px median RGB samples for infant Krishna: face cheek (79, 86, 128), torso (45, 70, 121), leg (49, 71, 122); blue exceeds red by 49, 76 and 73 respectively, meeting the requested +40 minimum with no purple cast. Independent exact-checksum review is recorded; unapproved.",
+          "native_dimensions": "1671x941"
         },
         "portrait": {
           "aspect_ratio": "4:5",

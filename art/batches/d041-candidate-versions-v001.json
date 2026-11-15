@@ -40,7 +40,8 @@
       "dimensions_px": "1671x941",
       "prompt_path": "artifacts/d041/s001/landscape/prompt-v003.txt",
       "provenance_path": "artifacts/d041/s001/landscape/provenance-v003.json",
-      "selection_status": "selected"
+      "selection_status": "unselected-needs-fix",
+      "producer_issue": "v003 Putana skin measured RGB (160,145,96) at the face site, green 15 below red. The final-round v004 is closer to the target but remains 15–16 below in skin-only patches; no more repair is authorized."
     },
     {
       "stanza": 2,
@@ -176,7 +177,8 @@
       "dimensions_px": "1672x941",
       "prompt_path": "artifacts/d041/s008/landscape/prompt-v001.txt",
       "provenance_path": "artifacts/d041/s008/landscape/provenance-v001.json",
-      "selection_status": "selected"
+      "selection_status": "unselected-needs-fix",
+      "producer_issue": "v001 Krishna skin showed a lavender cast; final-round v002 is the selected deeper indigo-blue version after skin-only measurements."
     },
     {
       "stanza": 9,
@@ -252,6 +254,32 @@
       "provenance_path": "artifacts/d041/s005/landscape/provenance-v003.json",
       "selection_status": "selected",
       "producer_issue": "Producer-inspected native v003. 15×15 px median RGB samples for Krishna: face cheek (70, 71, 104), torso (61, 67, 108), legs (53, 60, 94); blue exceeds red by 34, 47 and 41 respectively. The face remains 6 below the required 40-channel margin, though it is more blue than v002 (captain sample RGB (113, 95, 124), blue-red +11). No further repair authorized. Independent exact-checksum review pending; unapproved."
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d041-s001",
+      "orientation": "landscape",
+      "version": "v004",
+      "path": "artifacts/d041/s001/landscape/candidate-v004.png",
+      "sha256": "a0fe8160015c87d1141fbc3d3af7e76ca09d91052a29f6d917f94ae411b80f6b",
+      "dimensions_px": "1670x941",
+      "prompt_path": "artifacts/d041/s001/landscape/prompt-v004.txt",
+      "provenance_path": "artifacts/d041/s001/landscape/provenance-v004.json",
+      "selection_status": "selected",
+      "producer_issue": "Producer-inspected native v004. Skin-only 15×15 px median RGB samples: Putana face (153, 138, 87), visible arm (151, 136, 86), upper foot (153, 137, 86), lower foot (153, 138, 87). Green remains 15–16 below red, so the explicit green-at-or-above-red condition is unmet. v004 is closer to target RGB (125, 135, 110) than v003 at these sample sites, but still olive/khaki; no further repair authorized. Independent exact-checksum review is recorded; unapproved."
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d041-s008",
+      "orientation": "landscape",
+      "version": "v002",
+      "path": "artifacts/d041/s008/landscape/candidate-v002.png",
+      "sha256": "2d614f3d1ddc4f24eceff0c4b318cde6e24ba3c1e937a2aa3b18a686f27c3f29",
+      "dimensions_px": "1671x941",
+      "prompt_path": "artifacts/d041/s008/landscape/prompt-v002.txt",
+      "provenance_path": "artifacts/d041/s008/landscape/provenance-v002.json",
+      "selection_status": "selected",
+      "producer_issue": "Producer-inspected native v002. Skin-only 15×15 px median RGB samples for infant Krishna: face cheek (79, 86, 128), torso (45, 70, 121), leg (49, 71, 122); blue exceeds red by 49, 76 and 73 respectively, meeting the requested +40 minimum with no purple cast. Independent exact-checksum review is recorded; unapproved."
     }
   ]
 }
