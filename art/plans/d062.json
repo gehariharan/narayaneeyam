@@ -3,7 +3,7 @@
   "daskam_id": 62,
   "slug": "d062",
   "continuity": {
-    "anchor_character": "krishna-cowherd-youth",
+    "anchor_character": "krishna-vrindavan-youth",
     "recurring_characters": [
       "Krishna",
       "Nandagopan",
@@ -17,7 +17,7 @@
       "Indra’s celestial court"
     ],
     "narrative_arc": "A respectful question redirects worship from Indra to Govardhana and Brahmins; offerings are accepted, Indra’s pride grows into a storm plan, and Krishna steadies the cowherds before rain begins.",
-    "krishna_form_contract": "Across these ten D062 scenes, Krishna is one youthful cowherd with two arms and two legs. No four-armed revelation or hill-lifting occurs. Keep his face, deep blue skin, yellow dhoti and restrained peacock feather consistent. The approved Guruvayurappan image anchors identity only; mapped chapter photographs provide provisional narrative-age cues.",
+    "krishna_form_contract": "Where Krishna appears, use the established krishna-vrindavan-youth contract: youthful cowherd, deep matte blue skin, long dark curly hair, yellow dhoti, muted red-orange shawl, plain smooth forehead with no mark, one simple low gold band and one upright peacock feather. He has one face, two attached arms and two legs. No hill lifting, four-armed revelation, or second physical Krishna occurs in D062. The chapter-scoped character file carries these rules; mapped photos guide story and cast context only.",
     "indra_form_contract": "Indra is a distinct adult deity with one head and two arms, simple crown and muted celestial garments. Never transfer Krishna’s peacock feather. One coherent elephant appears in stanza 9.",
     "supporting_cast_contract": "Nanda is mature and moustached in simple cream and muted green cowherd clothing. Cowherds and Brahmins appear as small groups of ordinary distinct people with natural proportions; do not clone figures.",
     "rendering_references": [
@@ -25,14 +25,14 @@
       "artifacts/d062/references/shared/style-d001-s008.png"
     ],
     "palette_arc": "Flat opaque matte mineral fields in warm cream, ochre, maroon, muted olive and established deep blue. Move from village warmth to restrained storm indigo and quiet assurance. No gloss, metallic gold, outer border or text.",
-    "batch_selection": "art/batches/d062-comparison-v001.json; proposed leads: S001 v001, S002 v003, S003–S006 v001, S007–S010 v002. All prior candidates retained as visible alternates pending review."
+    "batch_selection": "art/batches/d062-comparison-v001.json; selected leads are pinned to exact candidate versions. Historical and superseded candidates remain preserved in the version inventory and are not shown as review alternates unless individually cleared."
   },
   "stanzas": [
     {
       "n": 1,
       "concept_id": "d062-s001",
       "characters": [
-        "krishna-cowherd-youth",
+        "krishna-vrindavan-youth",
         "nandagopan",
         "gopas"
       ],
@@ -47,7 +47,8 @@
         "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
         "avoid": [
           "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
-          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+          "No extra limbs, fused people, duplicated figures, or props detached from hands.",
+          "Krishna must have a plain unmarked forehead and only one simple low gold band with one upright peacock feather; no tilak or tall crown."
         ]
       },
       "alt": "Krishna asks Nanda and gathered cowherds why they are assembling sacrifice offerings.",
@@ -55,21 +56,21 @@
         "intake/D062/001.jpg",
         "artifacts/d062/references/shared/style-d001-s004.png",
         "artifacts/d062/references/shared/style-d001-s008.png",
-        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+        "artifacts/d062/s001/landscape/candidate-v001.png"
       ],
-      "reference_guidance": "Use intake/D062/001.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "reference_guidance": "Use intake/D062/001.jpg for mapped story/cast context only. D001 images are rendering references; The established krishna-vrindavan-youth contract governs Krishna identity: plain forehead, one low gold band, one upright peacock feather. The mapped photo guides story context only. Recompose the scene in full landscape. The previous D062 candidate may guide only Krishna’s face and ordinary youthful body proportions; explicitly discard its forehead mark and headwear. Follow the krishna-vrindavan-youth contract for plain forehead, one low band and one upright feather. Do not copy pose or framing.",
       "orientations": {
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d062/s001/landscape/candidate-v001.png",
-          "candidate_sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d062/s001/landscape/candidate-v002.png",
+          "candidate_sha256": "adb606b19051c06fede27137a60f73d7ad45d85208a88a3906f47ce3df82eec3",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved",
           "native_dimensions": "1672x941",
-          "prompt_path": "artifacts/d062/s001/landscape/prompt-v001.txt",
-          "provenance_path": "artifacts/d062/s001/landscape/provenance-v001.json"
+          "prompt_path": "artifacts/d062/s001/landscape/prompt-v002.txt",
+          "provenance_path": "artifacts/d062/s001/landscape/provenance-v002.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -82,7 +83,7 @@
       "n": 2,
       "concept_id": "d062-s002",
       "characters": [
-        "krishna-cowherd-youth",
+        "krishna-vrindavan-youth",
         "nandagopan",
         "gopas"
       ],
@@ -99,7 +100,8 @@
           "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
           "No extra limbs, fused people, duplicated figures, or props detached from hands.",
           "For stanza 2, show only Nanda explaining the yearly sacrifice and the dependence on rain; Indra is not visibly present, and the scene has no storm attack.",
-          "No visible rain, storm clouds, lightning, Indra apparition, or elephant rider in stanza 2."
+          "No visible rain, storm clouds, lightning, Indra apparition, or elephant rider in stanza 2.",
+          "Krishna must have a plain unmarked forehead and only one simple low gold band with one upright peacock feather; no tilak or tall crown."
         ]
       },
       "alt": "Nanda explains the annual offering to Indra, whose rain sustains people, cattle, grass and water.",
@@ -107,21 +109,21 @@
         "intake/D062/002.jpg",
         "artifacts/d062/references/shared/style-d001-s004.png",
         "artifacts/d062/references/shared/style-d001-s008.png",
-        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+        "artifacts/d062/s002/landscape/candidate-v003.png"
       ],
-      "reference_guidance": "Use intake/D062/002.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "reference_guidance": "Use intake/D062/002.jpg for mapped story/cast context only. D001 images are rendering references; The established krishna-vrindavan-youth contract governs Krishna identity: plain forehead, one low gold band, one upright peacock feather. The mapped photo guides story context only. Recompose the scene in full landscape. The previous D062 candidate may guide only Krishna’s face and ordinary youthful body proportions; explicitly discard its forehead mark and headwear. Follow the krishna-vrindavan-youth contract for plain forehead, one low band and one upright feather. Do not copy pose or framing.",
       "orientations": {
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
-          "candidate_version": "v003",
-          "candidate_path": "artifacts/d062/s002/landscape/candidate-v003.png",
-          "candidate_sha256": "094932b620d0a1c4dd7456b04470b3a9dd07621b8f67afe86aa0f08574d90f12",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d062/s002/landscape/candidate-v004.png",
+          "candidate_sha256": "39acb864d346a7f68f8069007e6c6b4aa0e7540ec94d40883008e282127cbc52",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved",
           "native_dimensions": "1672x941",
-          "prompt_path": "artifacts/d062/s002/landscape/prompt-v003.txt",
-          "provenance_path": "artifacts/d062/s002/landscape/provenance-v003.json"
+          "prompt_path": "artifacts/d062/s002/landscape/prompt-v004.txt",
+          "provenance_path": "artifacts/d062/s002/landscape/provenance-v004.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -134,7 +136,7 @@
       "n": 3,
       "concept_id": "d062-s003",
       "characters": [
-        "krishna-cowherd-youth",
+        "krishna-vrindavan-youth",
         "gopas"
       ],
       "scene_brief": {
@@ -148,7 +150,8 @@
         "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
         "avoid": [
           "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
-          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+          "No extra limbs, fused people, duplicated figures, or props detached from hands.",
+          "Krishna must have a plain unmarked forehead and only one simple low gold band with one upright peacock feather; no tilak or tall crown."
         ]
       },
       "alt": "Krishna gently challenges the claim that Indra causes rain and points to the forest trees.",
@@ -156,21 +159,21 @@
         "intake/D062/003.jpg",
         "artifacts/d062/references/shared/style-d001-s004.png",
         "artifacts/d062/references/shared/style-d001-s008.png",
-        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+        "artifacts/d062/s003/landscape/candidate-v001.png"
       ],
-      "reference_guidance": "Use intake/D062/003.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "reference_guidance": "Use intake/D062/003.jpg for mapped story/cast context only. D001 images are rendering references; The established krishna-vrindavan-youth contract governs Krishna identity: plain forehead, one low gold band, one upright peacock feather. The mapped photo guides story context only. Recompose the scene in full landscape. The previous D062 candidate may guide only Krishna’s face and ordinary youthful body proportions; explicitly discard its forehead mark and headwear. Follow the krishna-vrindavan-youth contract for plain forehead, one low band and one upright feather. Do not copy pose or framing.",
       "orientations": {
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d062/s003/landscape/candidate-v001.png",
-          "candidate_sha256": "d78ec797e4a2166df15437e6955b00968306b07d67eb010e939d31286901815e",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d062/s003/landscape/candidate-v002.png",
+          "candidate_sha256": "d696b7e055798cd4ba04d896ab53c229610b5c08e0ba91b632d0c9a6cd6aaff5",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved",
           "native_dimensions": "1672x941",
-          "prompt_path": "artifacts/d062/s003/landscape/prompt-v001.txt",
-          "provenance_path": "artifacts/d062/s003/landscape/provenance-v001.json"
+          "prompt_path": "artifacts/d062/s003/landscape/prompt-v002.txt",
+          "provenance_path": "artifacts/d062/s003/landscape/provenance-v002.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -183,7 +186,7 @@
       "n": 4,
       "concept_id": "d062-s004",
       "characters": [
-        "krishna-cowherd-youth",
+        "krishna-vrindavan-youth",
         "nandagopan",
         "gopas",
         "brahmins"
@@ -199,7 +202,8 @@
         "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
         "avoid": [
           "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
-          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+          "No extra limbs, fused people, duplicated figures, or props detached from hands.",
+          "Krishna must have a plain unmarked forehead and only one simple low gold band with one upright peacock feather; no tilak or tall crown."
         ]
       },
       "alt": "Krishna proposes offerings to Govardhana and reverence for learned Brahmins.",
@@ -207,21 +211,21 @@
         "intake/D062/004.jpg",
         "artifacts/d062/references/shared/style-d001-s004.png",
         "artifacts/d062/references/shared/style-d001-s008.png",
-        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+        "artifacts/d062/s004/landscape/candidate-v001.png"
       ],
-      "reference_guidance": "Use intake/D062/004.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "reference_guidance": "Use intake/D062/004.jpg for mapped story/cast context only. D001 images are rendering references; The established krishna-vrindavan-youth contract governs Krishna identity: plain forehead, one low gold band, one upright peacock feather. The mapped photo guides story context only. Recompose the scene in full landscape. The previous D062 candidate may guide only Krishna’s face and ordinary youthful body proportions; explicitly discard its forehead mark and headwear. Follow the krishna-vrindavan-youth contract for plain forehead, one low band and one upright feather. Do not copy pose or framing.",
       "orientations": {
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d062/s004/landscape/candidate-v001.png",
-          "candidate_sha256": "1f59d0dbd422c1f878f10cbe7e83327ff72984bb973d2b0edf66a3c883cb4bdf",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d062/s004/landscape/candidate-v002.png",
+          "candidate_sha256": "1c7dd84388a42de1a9cb2c42f3c5a40661d6abff71ad65a49fd532c598157bce",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved",
           "native_dimensions": "1672x941",
-          "prompt_path": "artifacts/d062/s004/landscape/prompt-v001.txt",
-          "provenance_path": "artifacts/d062/s004/landscape/provenance-v001.json"
+          "prompt_path": "artifacts/d062/s004/landscape/prompt-v002.txt",
+          "provenance_path": "artifacts/d062/s004/landscape/provenance-v002.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -234,7 +238,7 @@
       "n": 5,
       "concept_id": "d062-s005",
       "characters": [
-        "krishna-cowherd-youth",
+        "krishna-vrindavan-youth",
         "nandagopan",
         "gopas",
         "brahmins"
@@ -243,14 +247,16 @@
         "mode": "traditional matte temple-mural narrative",
         "must_show": [
           "Cowherds honor Brahmins, circle Govardhana and offer food; Krishna is identified with the mountain.",
-          "A single two-armed Krishna remains among the people; show the hill as recipient with food offerings and a circumambulation path. Suggest presence in the hill through a subtle natural contour, never a second Krishna body.",
+          "A single two-armed Krishna remains among a compact group of distinct cowherds; exactly two visually distinct Brahmin elders receive reverence near the offerings; Govardhana has a visible circumambulation path and may carry a symbolic face integrated into its slope to signify Krishna as the mountain, with no separate second Krishna body.",
           "Mapped source image guides scene/cast context only, not rendering or framing."
         ],
-        "composition": "A single two-armed Krishna remains among the people; show the hill as recipient with food offerings and a circumambulation path. Suggest presence in the hill through a subtle natural contour, never a second Krishna body.",
+        "composition": "A single two-armed Krishna remains among a compact group of distinct cowherds; exactly two visually distinct Brahmin elders receive reverence near the offerings; Govardhana has a visible circumambulation path and may carry a symbolic face integrated into its slope to signify Krishna as the mountain, with no separate second Krishna body.",
         "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
         "avoid": [
           "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
-          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+          "No extra limbs, fused people, duplicated figures, or props detached from hands.",
+          "Krishna must have a plain unmarked forehead and only one simple low gold band with one upright peacock feather; no tilak or tall crown.",
+          "For stanza 5, show only two Brahmin elders and a compact group of distinct cowherds; no repeated or cloned people. Any symbolic mountain face is integrated into the hill, not a separate bodily Krishna."
         ]
       },
       "alt": "Cowherds honor Brahmins, circle Govardhana and offer food; Krishna is identified with the mountain.",
@@ -258,21 +264,21 @@
         "intake/D062/005.jpg",
         "artifacts/d062/references/shared/style-d001-s004.png",
         "artifacts/d062/references/shared/style-d001-s008.png",
-        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+        "artifacts/d062/s005/landscape/candidate-v001.png"
       ],
-      "reference_guidance": "Use intake/D062/005.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "reference_guidance": "Use intake/D062/005.jpg for mapped story/cast context only. D001 images are rendering references; The established krishna-vrindavan-youth contract governs Krishna identity: plain forehead, one low gold band, one upright peacock feather. The mapped photo guides story context only. Recompose the scene in full landscape. The previous D062 candidate may guide only Krishna’s face and ordinary youthful body proportions; explicitly discard its forehead mark and headwear. Follow the krishna-vrindavan-youth contract for plain forehead, one low band and one upright feather. Do not copy pose or framing. A symbolic face integrated into Govardhana’s slope may signify Krishna’s identification with the mountain, but it must not become a separate bodily figure.",
       "orientations": {
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d062/s005/landscape/candidate-v001.png",
-          "candidate_sha256": "954bc4f674e0e5be45b552074237b98b3a27d09ff5f873c65eb4baec7c7e4c75",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d062/s005/landscape/candidate-v002.png",
+          "candidate_sha256": "df32e27b7e25a799b1ad6e79b37e90d3562e1cad66234b4a9684231678be6db0",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved",
           "native_dimensions": "1672x941",
-          "prompt_path": "artifacts/d062/s005/landscape/prompt-v001.txt",
-          "provenance_path": "artifacts/d062/s005/landscape/provenance-v001.json"
+          "prompt_path": "artifacts/d062/s005/landscape/prompt-v002.txt",
+          "provenance_path": "artifacts/d062/s005/landscape/provenance-v002.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -285,7 +291,7 @@
       "n": 6,
       "concept_id": "d062-s006",
       "characters": [
-        "krishna-cowherd-youth",
+        "krishna-vrindavan-youth",
         "nandagopan",
         "gopas"
       ],
@@ -300,7 +306,8 @@
         "tone": "Warm, restrained devotional narrative; distinct faces and clear connected anatomy.",
         "avoid": [
           "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
-          "No extra limbs, fused people, duplicated figures, or props detached from hands."
+          "No extra limbs, fused people, duplicated figures, or props detached from hands.",
+          "Krishna must have a plain unmarked forehead and only one simple low gold band with one upright peacock feather; no tilak or tall crown."
         ]
       },
       "alt": "Krishna says Govardhana accepted the offerings and can protect them; cowherds rejoice.",
@@ -308,21 +315,21 @@
         "intake/D062/006.jpg",
         "artifacts/d062/references/shared/style-d001-s004.png",
         "artifacts/d062/references/shared/style-d001-s008.png",
-        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+        "artifacts/d062/s006/landscape/candidate-v001.png"
       ],
-      "reference_guidance": "Use intake/D062/006.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "reference_guidance": "Use intake/D062/006.jpg for mapped story/cast context only. D001 images are rendering references; The established krishna-vrindavan-youth contract governs Krishna identity: plain forehead, one low gold band, one upright peacock feather. The mapped photo guides story context only. Recompose the scene in full landscape. The previous D062 candidate may guide only Krishna’s face and ordinary youthful body proportions; explicitly discard its forehead mark and headwear. Follow the krishna-vrindavan-youth contract for plain forehead, one low band and one upright feather. Do not copy pose or framing.",
       "orientations": {
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d062/s006/landscape/candidate-v001.png",
-          "candidate_sha256": "62a7d34dd1db98ef201c2b049ce295108d95f152b44cbb22daa9c65c681f0dbf",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d062/s006/landscape/candidate-v003.png",
+          "candidate_sha256": "8c6d2895ec335fbc2f0de064a3cf76874dc0c257764c9e7648b84795e065301e",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved. Krishna’s forehead still bears a pale orange U-shaped mark.",
           "native_dimensions": "1672x941",
-          "prompt_path": "artifacts/d062/s006/landscape/prompt-v001.txt",
-          "provenance_path": "artifacts/d062/s006/landscape/provenance-v001.json"
+          "prompt_path": "artifacts/d062/s006/landscape/prompt-v003.txt",
+          "provenance_path": "artifacts/d062/s006/landscape/provenance-v003.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -367,7 +374,7 @@
           "candidate_version": "v002",
           "candidate_path": "artifacts/d062/s007/landscape/candidate-v002.png",
           "candidate_sha256": "b8f25268caf1990ea5eeb5868d6ddbc19044199fb2c04d4f60d9054a296d9274",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved",
           "native_dimensions": "1672x941",
           "prompt_path": "artifacts/d062/s007/landscape/prompt-v002.txt",
           "provenance_path": "artifacts/d062/s007/landscape/provenance-v002.json"
@@ -414,7 +421,7 @@
           "candidate_version": "v002",
           "candidate_path": "artifacts/d062/s008/landscape/candidate-v002.png",
           "candidate_sha256": "582231abe605d370251413854ce5a8e7063119ea9a37a718c1d836dfc30146b2",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved",
           "native_dimensions": "1672x941",
           "prompt_path": "artifacts/d062/s008/landscape/prompt-v002.txt",
           "provenance_path": "artifacts/d062/s008/landscape/provenance-v002.json"
@@ -461,7 +468,7 @@
           "candidate_version": "v002",
           "candidate_path": "artifacts/d062/s009/landscape/candidate-v002.png",
           "candidate_sha256": "0ec46ac3ffccc90472ec49128c62bc72e9fa4e61c9d08a073c0827d1d23eca76",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved",
           "native_dimensions": "1672x941",
           "prompt_path": "artifacts/d062/s009/landscape/prompt-v002.txt",
           "provenance_path": "artifacts/d062/s009/landscape/provenance-v002.json"
@@ -477,7 +484,7 @@
       "n": 10,
       "concept_id": "d062-s010",
       "characters": [
-        "krishna-cowherd-youth",
+        "krishna-vrindavan-youth",
         "nandagopan",
         "gopas",
         "brahmins"
@@ -494,7 +501,8 @@
         "avoid": [
           "No readable text, signature, logo, watermark, outer border, gloss, reflective metallic gold, or cinematic light.",
           "No extra limbs, fused people, duplicated figures, or props detached from hands.",
-          "For stanza 10, include only two Brahmin elders with visibly distinct faces and clothing; avoid repeated or cloned priests."
+          "For stanza 10, include only two Brahmin elders with visibly distinct faces and clothing; avoid repeated or cloned priests.",
+          "Krishna must have a plain unmarked forehead and only one simple low gold band with one upright peacock feather; no tilak or tall crown."
         ]
       },
       "alt": "Krishna reassures frightened cowherds that Brahmin compassion and Govardhana will protect them, then waits for Indra.",
@@ -502,21 +510,21 @@
         "intake/D062/010.jpg",
         "artifacts/d062/references/shared/style-d001-s004.png",
         "artifacts/d062/references/shared/style-d001-s008.png",
-        "artifacts/d062/references/shared/vishnu-approved-guruvayurappan.png"
+        "artifacts/d062/s010/landscape/candidate-v002.png"
       ],
-      "reference_guidance": "Use intake/D062/010.jpg for mapped story/cast context only. D001 images are rendering references; Guruvayurappan image anchors Krishna identity only. Recompose the scene in full landscape.",
+      "reference_guidance": "Use intake/D062/010.jpg for mapped story/cast context only. D001 images are rendering references; The established krishna-vrindavan-youth contract governs Krishna identity: plain forehead, one low gold band, one upright peacock feather. The mapped photo guides story context only. Recompose the scene in full landscape. The previous D062 candidate may guide only Krishna’s face and ordinary youthful body proportions; explicitly discard its forehead mark and headwear. Follow the krishna-vrindavan-youth contract for plain forehead, one low band and one upright feather. Do not copy pose or framing.",
       "orientations": {
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full 16:9 landscape with clear focal action and safe margins for faces, hands, feet and key props; never crop a portrait.",
-          "candidate_version": "v002",
-          "candidate_path": "artifacts/d062/s010/landscape/candidate-v002.png",
-          "candidate_sha256": "0f474186fdabbf86004aefcf1ce01d7ef4301021f578768d14d9d070505788d5",
-          "candidate_status": "proposed lead; pending independent managed review; no approval implied",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d062/s010/landscape/candidate-v003.png",
+          "candidate_sha256": "aefc327d0cfcb7072639ca1fc86dd8de8b4f02a768080487dc2e0a7ea9fc01f6",
+          "candidate_status": "independent exact-checksum review is recorded; artwork remains unapproved",
           "native_dimensions": "1672x941",
-          "prompt_path": "artifacts/d062/s010/landscape/prompt-v002.txt",
-          "provenance_path": "artifacts/d062/s010/landscape/provenance-v002.json"
+          "prompt_path": "artifacts/d062/s010/landscape/prompt-v003.txt",
+          "provenance_path": "artifacts/d062/s010/landscape/provenance-v003.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",

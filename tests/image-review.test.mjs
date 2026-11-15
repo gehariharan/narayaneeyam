@@ -549,7 +549,7 @@ test('D067 comparison binds ten source photos, captions, native landscape select
   }
 });
 
-test('release union with main retains expected review dataset counts with D041 and other production chapters', async () => {
+test('release union with main retains expected review dataset counts with D041, D062 and other production chapters', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
   const rowCount = batches.reduce((count, batch) => count + batch.rows.length, 0);
@@ -559,11 +559,11 @@ test('release union with main retains expected review dataset counts with D041 a
   assert.equal(d027?.rows.length, 11);
   assert.equal(d029?.rows.length, 10);
   assert.equal(batches.find(batch => batch.daskam_id === 37)?.rows.length, 10);
-  assert.equal(batches.length, 33);
-  assert.equal(rowCount, 341);
-  assert.equal(mediaInputCount, 704);
-  assert.equal(selectedImages(batches).length, 347);
-  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 66, 67, 96]));
+  assert.equal(batches.length, 34);
+  assert.equal(rowCount, 351);
+  assert.equal(mediaInputCount, 724);
+  assert.equal(selectedImages(batches).length, 357);
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 62, 66, 67, 96]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
