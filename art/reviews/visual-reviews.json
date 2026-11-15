@@ -34984,6 +34984,740 @@
       },
       "findings": [],
       "notes": "Independent exact-checksum findings: art/reviews/d037-independent-review-l-v001.md. Separate producer inspection remains producer-only evidence: art/reviews/d037-s010-v006-producer-review-v004.md (SHA-256 74fecff8be81d90ad04ae05bdc702f445fc4205d344b8438d7c0b2da983f9357). No art approval."
+    },
+    {
+      "chapter": 41,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d041/s001/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "a0fe8160015c87d1141fbc3d3af7e76ca09d91052a29f6d917f94ae411b80f6b",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout q, final plan v007, stanzas 1–5)",
+      "inspected_at": "2026-11-15T20:08:14Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Nanda, his companion and the infant are ordinary people with connected human anatomy; Putana’s very large fallen form is the scene-specific planned giant body, not an extra-limbed ordinary person.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-q-v007.md",
+          "sha256": "7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Putana remains a single fallen giant figure with joined limbs; her hands and both feet are present, while the infant is safely beside her with small attached hands and feet."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Nanda and his companion keep ordinary connected human forms. Putana’s much larger scale reads as her planned giant form, with limbs attached at the shoulders and hips."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Nanda’s moustached face, his companion, the closed-eyed Putana, and infant Krishna are separately readable without a conspicuous facial distortion."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The scene contains one Nanda, one companion, one fallen Putana and one infant; their silhouettes remain separate."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No writing, caption, signature-like mark, logo or watermark appears in the corners, ground or foliage."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The broken tree and fallen Putana establish the aftermath as Nanda returns. The covered body and safe infant follow the stanza plan in a matte, full-bleed mural treatment."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Putana’s giant-form skin reads olive/khaki; four skin-only sample patches have green 14–16 RGB channels below red, as disclosed in the plan."
+      ],
+      "notes": "Final independent exact-checksum review by scout q: art/reviews/d041-independent-review-q-v007.md (SHA-256 7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de), bound to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0. Outcome pass. No art approval. Producer evidence remains separate and is not independent: art/reviews/d041-s001-landscape-v004-producer-review-final-v006.md (SHA-256 5b93395f4b3a70027e985cbe31bc7b4cc0a85ec7c33a785658f9b999ad480f28)."
+    },
+    {
+      "chapter": 41,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d041/s002/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "6665aa49f7bf4a16b0c4e247f17c02117974903c0dfb16077ebe7b09c1a188e8",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout q, final plan v007, stanzas 1–5)",
+      "inspected_at": "2026-11-15T20:08:14Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The bearers and gopikas are ordinary people with connected arms and legs; the covered bier conceals Putana’s body.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-q-v007.md",
+          "sha256": "7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Four bearers hold the bier; their visible hands meet the pole and their walking feet remain attached. The nearby women’s gestures also connect to their arms."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The bearer shoulders and limbs read as separate bodies despite overlap with the covered bier; no arm appears to start from another figure."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The four bearers have distinguishable profiles, including an older white-bearded face; the two women at left also have separate faces and hairstyles."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No repeated face, fused bearer or duplicate mourner was identified in the selected version."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The ground and corners show no readable marks, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The fully covered bier moves toward a small distant pyre beyond the grove, while gopikas recount the event. The image omits chopping and gore and keeps the plan’s subdued mural treatment."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Final independent exact-checksum review by scout q: art/reviews/d041-independent-review-q-v007.md (SHA-256 7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de), bound to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0. Outcome pass. No art approval. Producer evidence remains separate and is not independent: art/reviews/d041-s002-landscape-v002-producer-review-final-v006.md (SHA-256 bd86bcf103d2b0e165faaff788301e39eb300890413268a19a45bdd8e0c78029)."
+    },
+    {
+      "chapter": 41,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d041/s003/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "630af3d436153e25f722fb22170b9b13310bc77539a74ba65b849058666abe37",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout q, final plan v007, stanzas 1–5)",
+      "inspected_at": "2026-11-15T20:08:14Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The small distant villagers are ordinary figures; their scale limits close digit inspection, while the covered pyre has no exposed body.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-q-v007.md",
+          "sha256": "7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The four observers are small and distant, so individual digits cannot be resolved; no conspicuously malformed limb is visible at the inspected native size."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The distant villagers remain separate silhouettes around the covered pyre; no fused body or visible detached limb stands out."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The villagers are too far away for detailed facial assessment; no obvious malformed face is noticeable at native resolution."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Four small observers are distinguishable around the funeral ground; no accidental repeated or fused figure is apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The sky, smoke, ground, vegetation and corners contain no visible lettering or signature-like mark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "A calm tall smoke plume rises from a small covered pyre, with restrained floral motifs and distant villagers. Krishna is absent, and the warm full-bleed matte mural matches the plan."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Final independent exact-checksum review by scout q: art/reviews/d041-independent-review-q-v007.md (SHA-256 7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de), bound to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0. Outcome pass. No art approval. Producer evidence remains separate and is not independent: art/reviews/d041-s003-landscape-v003-producer-review-final-v006.md (SHA-256 2e4b81575d464aa1fd0fed653c807c2dd1993a074da1e589b9b5c8ec8770340b)."
+    },
+    {
+      "chapter": 41,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d041/s004/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "1b592e61ab5c0a75cb1b5b8bc52f1a6cc2851996c3362af3b8d8488f1aa9ca6e",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout q, final plan v007, stanzas 1–5)",
+      "inspected_at": "2026-11-15T20:08:14Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is a two-armed infant; Putana is shown in the planned covered giant form, with two connected outstretched arms and connected legs.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/putana/character.json",
+          "sha256": "cf57d8fb8c2fadda10d54c5f4ff4ca21968d966381a37ae0536047655b54b535"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-q-v007.md",
+          "sha256": "7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Putana’s two outstretched arms end in visible hands and both feet remain in frame; Krishna’s hands rest on the covered form. The seated women’s offered and prayer hands stay attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Putana’s arms join at both shoulders and her legs at the hips; Krishna and the six women remain distinct, connected figures."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Putana and Krishna’s faces are coherent, and the six visible gopikas have individual faces and hair arrangements."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The group contains a single infant and distinct women; no merged body or duplicate figure is evident."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible in the scene, corners, ground or foliage."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Krishna touches Putana’s covered fallen form and a restrained fragrance curl rises, conveying the plan’s tender symbolic boon without graphic content or speech text."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Putana’s skin reads olive/khaki; five sampled patches have green 20–25 RGB channels below red, as disclosed in the plan."
+      ],
+      "notes": "Final independent exact-checksum review by scout q: art/reviews/d041-independent-review-q-v007.md (SHA-256 7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de), bound to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0. Outcome pass. No art approval. Producer evidence remains separate and is not independent: art/reviews/d041-s004-landscape-v004-producer-review-final-v006.md (SHA-256 d4d37ea4a42b150572f769609b87f6f0326df0998c4f168a4af23dece248a96e)."
+    },
+    {
+      "chapter": 41,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d041/s005/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "fff5eeef7ef6b0521a39200a9bdcbea17e824bb403cdab9fc8c17e7173943b5e",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout q, final plan v007, stanzas 1–5)",
+      "inspected_at": "2026-11-15T20:08:14Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is a two-armed infant supported by Yashoda; surrounding villagers are ordinary people with distinct connected limbs.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-q-v007.md",
+          "sha256": "7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s two arms and hands are visible and connected; his legs are partly hidden by the yellow wrap and Yashoda’s lap. Her supporting hands and the crowd’s foreground hands remain attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The close figures have distinct bodies; Krishna is supported across Yashoda’s lap. Peripheral raised hands at the top belong to background figures rather than detached limbs."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna, Yashoda, the foreground moustached man and surrounding villagers have readable, distinct faces; no repeated face is conspicuous."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The infant and household group remain separate despite close gathering; no duplicate or fused person is apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No lettering, caption, signature-like mark, logo or watermark is visible on the floor, vessels or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The villagers gather around the safe child with relief and praise; the courtyard, cow and calf remain secondary. Krishna reads indigo-blue overall; the independent cheek patch is RGB (73, 75, 112), blue-over-red +39, one channel below the +40 sample target disclosed in the plan."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Krishna’s independent cheek sample is RGB (73, 75, 112), blue-over-red +39, one below the +40 sample margin; the full figure reads indigo-blue, and the plan already discloses a +34 cheek sample."
+      ],
+      "notes": "Final independent exact-checksum review by scout q: art/reviews/d041-independent-review-q-v007.md (SHA-256 7e0606d629b1e889e7dd518999c2b4f3004b62789381f8e8347ddaaf2099f1de), bound to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0. Outcome pass. No art approval. Producer evidence remains separate and is not independent: art/reviews/d041-s005-landscape-v003-producer-review-final-v006.md (SHA-256 048ae255993efb48c0553fef69808144c4103d46d144ead7e41afa26a511cc2e). The independent cheek sample is +39; the plan’s producer sample is +34 and the full figure reads indigo-blue."
+    },
+    {
+      "chapter": 41,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d041/s006/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "062ce63686945dee82021d88afe63e738edccd347878934b5bbb15702918b6d7",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout s, single-image S006 tiebreak, final plan v007)",
+      "inspected_at": "2026-11-15T20:20:20Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is an infant with two arms and two legs; the villagers and cattle are separate ordinary figures with connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-s-v007.md",
+          "sha256": "ca361424bac10e9212ac6cc32b625f1ab8a671ef011843ea719ee0f77c3e152a"
+        },
+        {
+          "path": "art/reviews/d041-independent-review-r-v007.md",
+          "sha256": "71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna and the villagers have connected arms and legs; detail crops show the infant’s hands and feet and several adults’ hands attached to their poses. The cattle show no obvious malformed legs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The central family group, surrounding villagers and animals keep separate bodies despite close spacing; no limb visibly joins the wrong figure."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The infant’s rounded face and surrounding adult faces remain distinct and readable at the inspected scale."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The broad village gathering contains separate villagers and cattle; no accidental duplicate or fused person was identified."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark appears on the ground, house surfaces, pottery or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Houses, healthy cows, grain and flower baskets, working villagers and Krishna among the household convey Gokula’s abundance. The figure reads blue with a cooler violet tint; the tie-break judged this blue rather than a color defect. Nanda’s full beard and Yashoda’s maroon sari were noted as continuity/palette differences below the needs-fix threshold."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Scout s noted Nanda’s full dark beard although the contract calls for a moustache, without an express prohibition; Yashoda’s maroon sari differs from the contract’s cream/saffron/muted-rose clothing family. The tiebreak judged both below the needs-fix threshold."
+      ],
+      "notes": "Final binding review is scout s, art/reviews/d041-independent-review-s-v007.md (SHA-256 ca361424bac10e9212ac6cc32b625f1ab8a671ef011843ea719ee0f77c3e152a), tied to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0; outcome pass. The exact-checksum needs-fix dissent from scout r, art/reviews/d041-independent-review-r-v007.md (SHA-256 71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a), which judged a violet cast, is retained as additional evidence only. Scout s examined the whole image and skin samples and judged the tint blue rather than purple; no color needs-fix remains. No art approval. Scout s also records Nanda’s full beard and Yashoda’s maroon sari as continuity/palette observations below the needs-fix threshold. Producer evidence remains separate and is not independent: art/reviews/d041-s006-landscape-v001-producer-review-final-v006.md (SHA-256 782f53c8a4e1560832322e9d2a1bffcc962def11015f8f342191959b41320ed4)."
+    },
+    {
+      "chapter": 41,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d041/s007/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "87588a46a60c955221a8d59f34221480c947342bbe4e85961d0b414ad52afed7",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout r, final plan v007, stanzas 7–10)",
+      "inspected_at": "2026-11-15T20:07Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is an infant with two arms and two legs; the gopis are ordinary people with connected limbs.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-r-v007.md",
+          "sha256": "71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s two arms and two legs remain connected in Yashoda’s lap, and the visible women’s hands and feet are attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The women at household tasks and around the child remain separate figures with connected limbs; no fused body was found."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The gopis have distinguishable faces and poses; the single infant’s face remains intact."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No duplicated woman, fused figure or second infant was identified."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature-like mark, logo or watermark is visible on the house, ground or image corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Household activity and conversation gestures lead toward Nanda’s home and the infant. A woman’s torso meets the left frame border, but no hand or foot is cut off; the reviewer treats this as the plan-disclosed framing condition."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "A foreground woman’s torso meets the left frame edge; her visible hand and foot are not cut off, as noted in the independent report."
+      ],
+      "notes": "Final independent exact-checksum review by scout r: art/reviews/d041-independent-review-r-v007.md (SHA-256 71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a), bound to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0. Outcome pass. No art approval. The left-edge torso condition is reported as present and not a cut hand or foot. Producer evidence remains separate and is not independent: art/reviews/d041-s007-landscape-v002-producer-review-final-v007.md (SHA-256 11e3d9a2fcb94278871d54f904c452ae21c76feff12cebabbed47287e0f95c84)."
+    },
+    {
+      "chapter": 41,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d041/s008/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "2d614f3d1ddc4f24eceff0c4b318cde6e24ba3c1e937a2aa3b18a686f27c3f29",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout r, final plan v007, stanzas 7–10)",
+      "inspected_at": "2026-11-15T20:07Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is an infant with two arms and two legs; the women are ordinary people whose reaching arms remain attached.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-r-v007.md",
+          "sha256": "71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The infant sits on Yashoda’s lap with two visible hands and feet; the gopis’ reaching arms end in open, separate hands."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Yashoda supports the child rather than suspending him; her arms and the women’s reaching arms remain connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The smiling child and the women have intact, individually distinguishable faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The group contains one infant and separate gopis; no fused or duplicated person is apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The ground, motifs and corners contain no visible writing or signature-like artifact."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Several gopis reach toward the smiling child seated securely on Yashoda’s lap, matching the stanza action in the full-bleed mural setting."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Final independent exact-checksum review by scout r: art/reviews/d041-independent-review-r-v007.md (SHA-256 71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a), bound to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0. Outcome pass. No art approval. Producer evidence remains separate and is not independent: art/reviews/d041-s008-landscape-v002-producer-review-final-v006.md (SHA-256 4997b5aad1fcde013523dc6a6e2678b58602a7fde30d66c537d16712ced4b647)."
+    },
+    {
+      "chapter": 41,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d041/s009/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "5f89531711ef1c18bfff74a25644cc8bf4594e7ca1b131178d512a513d2b7df3",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout r, final plan v007, stanzas 7–10)",
+      "inspected_at": "2026-11-15T20:07Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is an infant with two arms and two legs; the overlapping adult arms belong to distinct gopis supporting and passing him.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-r-v007.md",
+          "sha256": "71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The child’s two arms and legs stay connected; adult hands support him across the group without a floating pose or detached grasp."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Overlapping hands meet the child or garment and remain attached to their owners; the gopis stay separately positioned along the horizontal group."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The visible gopi faces and Krishna’s infant face are intact and distinguishable."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One infant is present in the passing scene; no cloned gopi, fused person or malformed face was identified."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No lettering, caption, signature, logo or watermark is visible in the foliage, ground, lotus motifs or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The hand-to-hand group is accompanied by a red-lotus motif and one small dark bee that does not overpower the scene. Krishna’s repaired indigo skin meets the sampled color target."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Final independent exact-checksum review by scout r: art/reviews/d041-independent-review-r-v007.md (SHA-256 71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a), bound to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0. Outcome pass. No art approval. Producer evidence remains separate and is not independent: art/reviews/d041-s009-landscape-v002-producer-review-final-v007.md (SHA-256 a65e9aa023cba88234bfae10c36f81c5d90585c4c578268baaa68ffb3e1a1181)."
+    },
+    {
+      "chapter": 41,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d041/s010/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "143a2b0460e8403b663986964561e9de1d21880fca7ba85c429abf31498fafc5",
+      "reviewer": "Firstmate-dispatched independent visual reviewer (scout r, final plan v007, stanzas 7–10)",
+      "inspected_at": "2026-11-15T20:07Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is an infant with two arms and two legs; Yashoda is an ordinary adult with connected supporting arms.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d041.json",
+          "sha256": "2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d041-independent-review-r-v007.md",
+          "sha256": "71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s two arms, legs and feet are visible and connected; Yashoda’s supporting hands meet the child and her maternal pose."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The covered infant and Yashoda remain separate connected figures in an intimate, supported hold."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Mother and child have intact faces and look toward one another."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Only Yashoda and the single infant are present; no duplicate or fused figure appears."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The floor, pot, wall and corners show no readable text or signature-like mark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Yashoda smiles while nursing the fully covered child in the home interior. The modest, maternal pose and deep indigo infant match the scene and character contracts."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Final independent exact-checksum review by scout r: art/reviews/d041-independent-review-r-v007.md (SHA-256 71c2466e7f90e372432c7f3e38ea7913baae1f824ed9af9026e7c8d42e8b6c4a), bound to plan 2aacceae22f313d3731399c2ff02ad02f4540f853730e8d5d55b00c953fe56e0. Outcome pass. No art approval. Producer evidence remains separate and is not independent: art/reviews/d041-s010-landscape-v003-producer-review-final-v006.md (SHA-256 f61d9c42835141d5410f9d53c19cb6178369420137741a2adbb68e85b9bc9a70)."
     }
   ]
 }
