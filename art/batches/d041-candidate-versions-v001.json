@@ -2,7 +2,7 @@
   "schema_version": 1,
   "daskam_id": 41,
   "status": "generated-unapproved",
-  "review_note": "All native attempts are retained. Producer inspection is provisional; independent exact-checksum review of the frozen selections is pending. Unselected needs-fix attempts stay archived and are not exposed as visible alternates. No artwork approval is implied.",
+  "review_note": "All native attempts are retained. Producer inspection is provisional; independent exact-checksum review of all ten v007 selections is pending. Unselected needs-fix attempts stay archived and are not exposed as visible alternates. No artwork approval is implied.",
   "versions": [
     {
       "stanza": 1,
@@ -165,7 +165,8 @@
       "dimensions_px": "1672x941",
       "prompt_path": "artifacts/d041/s007/landscape/prompt-v001.txt",
       "provenance_path": "artifacts/d041/s007/landscape/provenance-v001.json",
-      "selection_status": "selected"
+      "selection_status": "unselected-needs-fix",
+      "producer_issue": "Tiebreak review confirmed infant Krishna’s v001 skin appeared lavender/slate; four skin-only 15×15 px medians had blue-over-red margins +33, +34, +34 and +31. Superseded by final targeted native v002 with all four measured patches at +88 to +91."
     },
     {
       "stanza": 8,
@@ -190,7 +191,8 @@
       "dimensions_px": "1672x941",
       "prompt_path": "artifacts/d041/s009/landscape/prompt-v001.txt",
       "provenance_path": "artifacts/d041/s009/landscape/provenance-v001.json",
-      "selection_status": "selected"
+      "selection_status": "unselected-needs-fix",
+      "producer_issue": "Tiebreak review confirmed infant Krishna’s v001 skin read muted lavender/blue-grey; four skin-only 15×15 px medians had blue-over-red margins +43, +44, +38 and +43. Superseded by final targeted native v002 with all four measured patches at +51 to +59."
     },
     {
       "stanza": 10,
@@ -307,6 +309,32 @@
       "provenance_path": "artifacts/d041/s010/landscape/provenance-v003.json",
       "selection_status": "selected",
       "producer_issue": "Five 15×15 px skin patches have blue-over-red margins of 54–78, meeting the infant indigo requirement; selected over blue-grey v002."
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d041-s007",
+      "orientation": "landscape",
+      "version": "v002",
+      "path": "artifacts/d041/s007/landscape/candidate-v002.png",
+      "sha256": "87588a46a60c955221a8d59f34221480c947342bbe4e85961d0b414ad52afed7",
+      "dimensions_px": "1672x941",
+      "prompt_path": "artifacts/d041/s007/landscape/prompt-v002.txt",
+      "provenance_path": "artifacts/d041/s007/landscape/provenance-v002.json",
+      "selection_status": "selected",
+      "producer_issue": "Producer-inspected native v002. Skin-only 15×15 px median RGB samples, v001 → v002: cheek (111, 104, 144) → (50, 65, 141), torso (112, 106, 146) → (57, 71, 145), leg (107, 102, 141) → (51, 66, 139), foot (116, 109, 147) → (53, 68, 144). Blue-over-red margins now +88 to +91 at all four sampled sites. The composition and frame-edge figures are held to v001; independent exact-checksum review is recorded; unapproved."
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d041-s009",
+      "orientation": "landscape",
+      "version": "v002",
+      "path": "artifacts/d041/s009/landscape/candidate-v002.png",
+      "sha256": "5f89531711ef1c18bfff74a25644cc8bf4594e7ca1b131178d512a513d2b7df3",
+      "dimensions_px": "1671x941",
+      "prompt_path": "artifacts/d041/s009/landscape/prompt-v002.txt",
+      "provenance_path": "artifacts/d041/s009/landscape/provenance-v002.json",
+      "selection_status": "selected",
+      "producer_issue": "Producer-inspected native v002. Skin-only 15×15 px median RGB samples, v001 → v002: cheek (97, 103, 140) → (55, 60, 114), torso (91, 98, 135) → (59, 64, 116), leg (80, 87, 118) → (49, 54, 100), foot (100, 106, 143) → (64, 70, 122). Blue-over-red margins are +51 to +59 at all four sampled sites. The hand-to-hand scene is otherwise held to v001; independent exact-checksum review is recorded; unapproved."
     }
   ]
 }
