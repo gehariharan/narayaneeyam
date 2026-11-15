@@ -441,7 +441,7 @@ test('D028 selection binds the ten mapped scenes, all five stanza 2 references, 
 
 test('D048 selection binds ten mapped source and native landscape versions', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
-  const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd048-comparison-v004.json');
+  const batch = (await loadSelections(root)).find(item => item.selectionFile === 'd048-comparison-v005.json');
   const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d048.json'), 'utf8'));
   const plan = JSON.parse(await fs.readFile(path.join(root, 'art/plans/d048.json'), 'utf8'));
   assert.ok(batch);
@@ -464,6 +464,7 @@ test('D048 selection binds ten mapped source and native landscape versions', asy
     assert.deepEqual(selected.alternates, []);
     assert.equal(stanza.review_status, 'needs-review');
   }
+  assert.match(plan.stanzas.find(item => item.n === 8).orientations.landscape.candidate_status, /disclosed deviation present:.*four separate toe tips, one short of five/);
 });
 
 test('D014 selection binds ten source/candidate pairs and renders as a landscape review chapter', async () => {

@@ -390,9 +390,9 @@ before the serialized Worker deployment.
 
 ## Dasakam 48
 
-D048 contains ten source-mapped landscape candidates in `art/batches/d048-comparison-v004.json`. Photos 001–010 map to stanzas 1–10; 011–012 are preserved Tamil text extras. The selected versions are S001 v002, S002–S003 v001, S004 v002, S005 v001, S006 v003, S007 v002, S008 v003, S009 v001 and S010 v002. Fresh independent exact-checksum reviews are recorded for all ten. Scouts g and h pass S001–S007, S009 and S010. Scout h's S008 tree-count objection is retained as dissent evidence; scout i's tiebreak confirms two distinct fallen trunks but records a needs-fix finding for three visible toe tips on Krishna's farther foot. S008 v003 remains unchanged and unapproved, with that finding disclosed; there is no art approval. The review remains unapproved, and portrait work is paused. The complete asset-bearing review build and exact-byte bundle validation are performed at publication.
+D048 contains ten source-mapped landscape candidates in `art/batches/d048-comparison-v005.json`. Photos 001–010 map to stanzas 1–10; 011–012 are preserved Tamil text extras. The selected versions are S001 v002, S002–S003 v001, S004 v002, S005 v001, S006 v003, S007 v002, S008 v004, S009 v001 and S010 v002. After one native S008 repair, its far foot remains in frame and visibly resolves as four separate toe tips, one short of five; this disclosed deviation is pinned in the final plan. Fresh independent exact-checksum review is requested for all ten selections against the refrozen plan and character contracts. The review remains unapproved, and portrait work is paused. The complete asset-bearing review build and exact-byte bundle validation are performed at publication.
 
-With D048 added, the selection union contains 33 chapters, 341 stanza rows, 704 review media inputs and 347 generated selections (69 historical and 278 individually inspected). Recalculate these totals if main advances.
+With D048 added to current main, the selection union contains 35 chapters, 361 stanza rows, 744 review media inputs and 367 generated selections (69 historical and 298 individually inspected). Recalculate these totals if main advances.
 
 ## Dasakam 44
 
