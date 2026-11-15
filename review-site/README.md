@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D027, D028, D029, D031 through D035, D040, D042, D043, D044, D066 and D067 media from the release using the existing
+D005 through D014, D027, D028, D029, D031 through D036, D040, D042, D043, D044, D066 and D067 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -376,6 +376,12 @@ not cleared, 126 individually inspected).
 The managed D014 review passed all ten leads, including the S005 v003, S008 v008
 and S010 v003 repairs; earlier failed versions remain recorded as history. These
 totals must be recalculated if the base advances.
+
+## Dasakam 36
+
+D036 adds eleven native landscape candidates in `art/batches/d036-comparison-v001.json`. Each stanza may show more than one mapped source photograph; the selection pins all twenty accepted source photos across the eleven rows. Candidate versions and checksums are bound in the batch and scene plan. Producer inspections and final independent exact-checksum records are preserved under `art/reviews/`; all eleven selected candidates pass independent review and remain unapproved. S009 v002’s earlier needs-fix was superseded by a tiebreak pass; both reports remain evidence. S010 v002 has a disclosed repeated-face deviation in the background ancestor row, pending captain art approval. The supplied captions are shown as commentary; an English verse translation was not sourced. Portrait production remains paused. Upload only D036's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=36` before any serialized Worker deployment. With D036 added, the union holds 31 chapters, 321 stanza rows, 664 review media inputs and 327 selected generated images.
+
+The comparison builder supports one or more mapped source images per stanza. Every source image is included in bundle hash validation and rendered before the selected candidate. Feedback snapshots include generated candidates only.
 
 ## Dasakam 43
 
