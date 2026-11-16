@@ -392,7 +392,7 @@ before the serialized Worker deployment.
 
 D048 contains ten source-mapped landscape candidates in `art/batches/d048-comparison-v005.json`. Photos 001–010 map to stanzas 1–10; 011–012 are preserved Tamil text extras. The selected versions are S001 v002, S002–S003 v001, S004 v002, S005 v001, S006 v003, S007 v002, S008 v004, S009 v001 and S010 v002. After one native S008 repair, its far foot remains in frame and visibly resolves as four separate toe tips, one short of five; this disclosed deviation is pinned in the final plan. Fresh independent exact-checksum reviews by reports J, K and L pass all ten selected images against the frozen plan and character contracts. Report K’s S008 one-trunk finding remains as dissent evidence; report L’s final tiebreak confirms two distinct fallen trees, and its passing verdict is bound to the S008 record. The far-foot four-toe deviation remains disclosed. The comparison is unapproved, portrait work is paused, and the complete asset-bearing review build and exact-byte bundle validation are performed at publication.
 
-With D048 added to current main, the selection union contains 35 chapters, 361 stanza rows, 744 review media inputs and 367 generated selections (69 historical and 298 individually inspected). Recalculate these totals if main advances.
+With D048 added to current main, the selection union contains 36 chapters, 371 stanza rows, 764 review media inputs and 377 generated selections (69 historical and 308 individually inspected). Recalculate these totals if main advances.
 
 ## Dasakam 44
 
