@@ -1,0 +1,608 @@
+{
+  "schema_version": 1,
+  "daskam_id": 72,
+  "slug": "d072",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "d072-akrura",
+    "recurring_characters": [
+      "d072-akrura",
+      "krishna-vrindavan-youth",
+      "d072-balarama-vraja-youth",
+      "nandagopan",
+      "gopas",
+      "gopikas"
+    ],
+    "locations": [
+      "Kamsa’s restrained court",
+      "Vraja road and chariot",
+      "Vrindavana grove and village",
+      "Gokula cowherd courtyard",
+      "Gokula home at night"
+    ],
+    "narrative_arc": "Kamsa dispatches his devotee Akrura to fetch Krishna; Akrura travels in joyful inward prayer, recognizes Vrindavana’s sanctity, reaches the evening milking courtyard, meets the youthful brothers, is welcomed by Nanda and Krishna, and the stanza closes with the gopikas’ uncertainty and Bhattathiri’s prayer.",
+    "krishna_identity": "Use the shared krishna-vrindavan-youth contract: deep matte indigo-blue skin; serene youthful cowherd face; dark wavy hair; yellow dhoti; muted red-orange shawl; single low gold band and one upright peacock feather; plain smooth forehead with no mark; ordinary two-arm/two-leg anatomy. Identity refs guide face only, not pose or scene.",
+    "akrura_contract": "Akrura is Krishna’s devotee, not a villain. Use the chapter-scoped mature devotee contract: warm-brown skin, simple travel clothes, natural anatomy, humble and joyful demeanor.",
+    "balarama_contract": "Use the chapter-scoped Vrindavan-youth contract, distinct from the shared toddler-stage Balarama entry: youthfully proportioned elder brother, natural warm light-brown skin, restrained blue garment, ordinary two-arm/two-leg anatomy.",
+    "supporting_cast_contract": "Use shared Nandagopan, gopas and gopikas contracts. Nanda is a mature moustached householder in cream/olive; gopikas are distinct, fully clothed women; gopas are a small distinct group. Stanza 12 uses shared clean-shaven older Bhattathiri and approved Guruvayurappan identity cues only.",
+    "rendering_references": [
+      "artifacts/d001/s004/landscape/master.png",
+      "artifacts/d001/s008/landscape/master.png"
+    ],
+    "palette_arc": "Traditional matte South Indian temple mural; firm dark contours, flat mineral fields, ochre, cream, deep maroon, muted olive and deep indigo-blue. Warm-brown human skin stays clearly brown (red-minus-blue under about 120); Krishna’s skin stays deep indigo (blue-minus-red at least 40). No gloss, metallic gold, border, beams or readable text.",
+    "review_status_note": "Every generated version requires its own native-resolution checksum-bound visual review. Candidates remain unapproved. Portraits are paused."
+  },
+  "source": {
+    "sanskrit": "https://stotranidhi.com/hi/narayaneeyam-dasakam-72-in-sanskrit",
+    "romanization": "https://stotranidhi.com/en/narayaneeyam-dasakam-72-in-english/",
+    "caption_file": "intake/D072/photo-captions.txt"
+  },
+  "reference_map": "content/sources/d072/reference-map.json",
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d072-s001",
+      "characters": [
+        "d072-akrura",
+        "kamsa"
+      ],
+      "scene_brief": {
+        "mode": "kamsa summons his devotee",
+        "must_show": [
+          "Akrura is visibly a mature adult man and long-standing devotee; Kamsa calls him into a restrained royal chamber and sends him to fetch Krishna for the bow festival.",
+          "Akrura stands before Kamsa in a quiet court; Kamsa gestures toward a simple bow-festival token while Akrura listens with composed reverence.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "A clearly adult male Akrura stands respectfully before Kamsa in a quiet court; Kamsa gestures toward a simple bow-festival token while Akrura listens with composed reverence.",
+        "tone": "Stern summons and hidden devotion",
+        "avoid": [
+          "Do not depict Krishna, Narada, a fight, threat, or villain caricature.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet.",
+          "Do not render Akrura as a woman, feminine-presenting, or with a high bun."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Akrura stands before Kamsa in a quiet court; Kamsa gestures toward a simple bow-festival token while Akrura listens with composed reverence.",
+      "reference_paths": [
+        "intake/D072/001.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. The two D001 images anchor the matte mural finish. Recompose as a native landscape. The fourth reference is a shared Nandagopan photo and supplies only a warm-brown adult male skin-tone and anatomy cue; do not copy that person, age, pose, clothing, or glossy rendering.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v004 SHA-256 4e61f72a2d46ff93abd7800e22731df588829fb74bba2edc74717555dc8d2373. Producer pass. Skin-only cheek patch R-B: Kamsa 111, Akrura 113. Kamsa’s open hand shows thumb plus four fingers; Akrura’s joined prayer hands are attached, but overlapping fingertips are not individually countable. Feet are covered by the court pose. Two guards remain distinct; no readable text or watermark. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d072-s002",
+      "characters": [
+        "d072-akrura"
+      ],
+      "scene_brief": {
+        "mode": "joyful departure",
+        "must_show": [
+          "Akrura sets out in a modest horse-drawn chariot after Kamsa commands the journey; his joy at the prospect of seeing Krishna overcomes his former fear.",
+          "Akrura rides a simple two-wheeled chariot through a Vraja road, looking forward with restrained joy; keep horses anatomically coherent and the road open.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "Akrura rides a simple two-wheeled chariot through a Vraja road, looking forward with restrained joy; keep horses anatomically coherent and the road open.",
+        "tone": "Quiet gladness in motion",
+        "avoid": [
+          "No ornate parade, duplicated horses, unreadable script, or royal display.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Akrura rides a simple two-wheeled chariot through a Vraja road, looking forward with restrained joy; keep horses anatomically coherent and the road open.",
+      "reference_paths": [
+        "intake/D072/002.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. The two D001 images anchor the matte mural finish. Recompose as a native landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v003 SHA-256 045bff7a78696da11a4a9710fb12cca45d01c84b516255770a2786b3370453f3. Producer pass. Akrura cheek skin-only R-B 106; youthful Krishna vision blue-patch B-R 66. Akrura has two attached hands (prayer and reins); prayer fingertips overlap and the reins grip does not expose all digits separately. Lower-body crop shows two chariot horses with distinguishable legs and separate hooves; Akrura feet are obscured by the chariot. Krishna has a bare forehead, low band and feather. No duplicate physical Akrura. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d072-s003",
+      "characters": [
+        "d072-akrura"
+      ],
+      "scene_brief": {
+        "mode": "prayerful journey",
+        "must_show": [
+          "Akrura rides toward Vraja, absorbed in thoughts of Krishna and praying for a safe meeting, barely noticing the passing landscape.",
+          "Akrura sits in his moving chariot with folded hands or lowered gaze; a simple road and distant trees frame his inward focus.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "Akrura sits in his moving chariot with folded hands or lowered gaze; a simple road and distant trees frame his inward focus.",
+        "tone": "Absorption and hope",
+        "avoid": [
+          "Do not show a second Akrura, multiple Krishna visions, rays, beams, or an unsafe chariot pose.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Akrura sits in his moving chariot with folded hands or lowered gaze; a simple road and distant trees frame his inward focus.",
+      "reference_paths": [
+        "intake/D072/003.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. The two D001 images anchor the matte mural finish. Recompose as a native landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v005 SHA-256 08a69f61e5886e782f8c98c7e627187fcb4aabe625e893d2540b603ee16ba257. Producer pass. Akrura face skin-only R-B 118, palm R-B 119; Krishna vision blue-patch B-R 83. Akrura’s joined prayer hands attach at both wrists; finger outlines overlap and cannot all be counted separately in the image. Two harnessed horses show separate legs and hooves in the enlarged crop; Akrura feet are hidden by the chariot. One Krishna vision, no rays or text. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d072-s004",
+      "characters": [
+        "d072-akrura"
+      ],
+      "scene_brief": {
+        "mode": "imagined meeting",
+        "must_show": [
+          "Akrura wonders how he will see, touch, embrace and speak with Krishna; every thought fills his journey. Keep the meeting imagined, without depicting multiple Krishna forms.",
+          "Akrura pauses in thought within the chariot, one hand resting near his heart, gazing toward the Vraja horizon; a single unoccupied horizon symbolizes anticipation.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "Akrura pauses in thought within the chariot, one hand resting near his heart, gazing toward the Vraja horizon; a single unoccupied horizon symbolizes anticipation.",
+        "tone": "Tender anticipation",
+        "avoid": [
+          "No multiple or duplicated Krishna, text, speech bubbles, beams, or literal vision montage.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Akrura pauses in thought within the chariot, one hand resting near his heart, gazing toward the Vraja horizon; a single unoccupied horizon symbolizes anticipation.",
+      "reference_paths": [
+        "intake/D072/004.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. The two D001 images anchor the matte mural finish. Recompose as a native landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v003 SHA-256 9b55b5a18e5dbe88f51b1b24f2eeec37415b0ef10f5fddfd79bd2774177fa188. Producer pass. Akrura face, forehead and chest skin-only samples R-B 93–99. One hand rests at his chest and the other holds the reins; both arms attach normally, but individual digits are not separable at the reviewed scale. Feet are concealed by the ox cart. Two oxen remain separate under one harness; no second Krishna image, light beams or readable text. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d072-s005",
+      "characters": [
+        "d072-akrura"
+      ],
+      "scene_brief": {
+        "mode": "arrival in Vrindavana",
+        "must_show": [
+          "Akrura enters sacred Vrindavana, revered by Shiva, Brahma and the devas, and is overcome by bliss. Show holiness through the landscape and Krishna’s footprints rather than adding unsupported gods as figures.",
+          "Akrura arrives at the edge of a peaceful grove and village, hands joined before a few small footprints in the earth; warm mineral colors and quiet trees suggest sanctity.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "Akrura arrives at the edge of a peaceful grove and village, hands joined before a few small footprints in the earth; warm mineral colors and quiet trees suggest sanctity.",
+        "tone": "Wonder and reverence",
+        "avoid": [
+          "No added anthropomorphic gods, glowing shafts, halo effects, or glossy spectacle.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Akrura arrives at the edge of a peaceful grove and village, hands joined before a few small footprints in the earth; warm mineral colors and quiet trees suggest sanctity.",
+      "reference_paths": [
+        "intake/D072/005.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. The two D001 images anchor the matte mural finish. Recompose as a native landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v006 SHA-256 25d773be005a892756ab9d8c35f946d4f946f30d9a4d67ee43b05ba606427231. Producer pass. Akrura cheek skin-only R-B 119. Krishna face/torso/hands/foot blue-patch B-R 95/91/78/73/95. Both visible open Krishna hands show thumb plus four fingers; his focused feet crop shows five toes on each foot. Akrura’s lower feet are covered by his wrapped dhoti and are not visible for toe counting. His joined hands attach, with fingers overlapping. Krishna is youthful with a plain forehead, low band and feather. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d072-s006",
+      "characters": [
+        "d072-akrura"
+      ],
+      "scene_brief": {
+        "mode": "worship at the play places",
+        "must_show": [
+          "Akrura alone rolls reverently in the sand beside Krishna’s small footprints at a place of play; show only this single action and one Akrura body. Krishna is absent.",
+          "Show one continuous Akrura figure, supported naturally on the ground, with hands and feet connected; footprints remain distinct marks in the sand, not text.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "One Akrura lies reverently on the grove path beside distinct small Krishna footprints in dust; no second pose, duplicate figure or split-scene.",
+        "tone": "Humility and devotional intimacy",
+        "avoid": [
+          "No Krishna figure, extra limbs, cropped hands, or footprints that look like text.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Akrura rolls reverently in dust beside Krishna’s footprints at a quiet grove path.",
+      "reference_paths": [
+        "intake/D072/006.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. The two D001 images anchor the matte mural finish. Recompose as a native landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v007 SHA-256 0df36f0bfb08e44b6617ce4e5cb48311ab228c1be7b56cf1aafecd6704ca32d4. Producer uncertain. DISCLOSED DEVIATION: Akrura shoulder skin-only patch R-B 122 is 2 above the approximate 120 warm-brown threshold; cheek is 115.5 and arm/palm 118.5, with the shoulder still reading brown rather than orange. His extended open hand shows thumb plus four fingers; both feet are covered by the dhoti. One Akrura lies beside the footprints; no Krishna body, duplicate or text. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d072-s007",
+      "characters": [
+        "d072-akrura",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "song from the cowherd homes",
+        "must_show": [
+          "At dusk, Akrura passes the gopikas’ homes where women sing of Krishna’s deeds; the song brings him joy.",
+          "Akrura pauses outside a simple village home while three distinct, fully clothed gopikas sing together inside the doorway; his face shows quiet delight.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "Akrura pauses outside a simple village home while three distinct, fully clothed gopikas sing together inside the doorway; his face shows quiet delight.",
+        "tone": "Shared devotion and sweetness",
+        "avoid": [
+          "No lyrics or readable text, duplicated women, palace finery, or copied glossy source staging.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Akrura pauses outside a simple village home while three distinct, fully clothed gopikas sing together inside the doorway; his face shows quiet delight.",
+      "reference_paths": [
+        "intake/D072/007.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. The two D001 images anchor the matte mural finish. Recompose as a native landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v007 SHA-256 14d8c58f38c42a7f38f6311c5a41c2de696c1a5c14db0ef88158bdf139657e26. Producer uncertain. DISCLOSED DEVIATION: Akrura cheek skin-only median RGB (192,107,68), R-B 124, is 4 above the approximate 120 warm-brown target; torso is R-B 120, gopika patches are 116/118/95, and Krishna vision is B-R 88. Akrura chest hand shows thumb plus four fingers and both feet show five toes; one Krishna flute-hand thumb is partly occluded and cannot be confirmed. No duplicated people or text. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d072-s008",
+      "characters": [
+        "d072-akrura",
+        "krishna-vrindavan-youth",
+        "d072-balarama-vraja-youth"
+      ],
+      "scene_brief": {
+        "mode": "evening milking and welcome",
+        "must_show": [
+          "At dusk Akrura reaches Krishna’s house and sees Krishna and Balarama overseeing cow milking; Krishna seems to await the devotee.",
+          "One youthful Krishna and one youthful Balarama stand near a cow and a simple milking vessel as Akrura arrives at the courtyard; Krishna’s attention turns toward him.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "One youthful Krishna and one youthful Balarama stand near a cow and a simple milking vessel as Akrura arrives at the courtyard; Krishna’s attention turns toward him.",
+        "tone": "Recognition and warmth",
+        "avoid": [
+          "No duplicate Krishna, infant proportions, extra limbs, crowding, or decorative text.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "One youthful Krishna and one youthful Balarama stand near a cow and a simple milking vessel as Akrura arrives at the courtyard; Krishna’s attention turns toward him.",
+      "reference_paths": [
+        "intake/D072/008.jpg",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s004-candidate-v001-face-only.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s008-candidate-v001-face-only.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. Pass all four shared Krishna identity references as ordered inputs; use them for face/identity only and obey the shared contract’s plain forehead. The fifth input is the mapped photo. Apply the series matte style contract in text.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v003 SHA-256 262b96c4e9bc24c0dd82cade26dd620b11209863507d5c547676efa493e8a0dc. Producer uncertain. DISCLOSED DEVIATION: Balarama’s two connected milking hands are partly occluded by udder/teats, so individual finger counts cannot be confirmed. Measured skin-only patches: Akrura R-B 101, Balarama R-B 96–106, Krishna blue-patch B-R 79. Krishna’s two visible hands each show thumb plus four fingers; Akrura’s joined hands attach. Visible Akrura and Balarama feet show five toes each. One Akrura, one youthful Krishna and one youthful Balarama; no text or duplicate people. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d072-s009",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "d072-balarama-vraja-youth",
+        "d072-akrura"
+      ],
+      "scene_brief": {
+        "mode": "the brothers after bathing",
+        "must_show": [
+          "Akrura sees Krishna and Balarama freshly bathed, simply adorned, wearing complementary yellow and blue garments and gentle smiles.",
+          "Show the two youthful brothers together in a quiet courtyard, dry and tidy after bathing, with restrained ornaments, Krishna in yellow and Balarama in blue.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "Show the two youthful brothers together in a quiet courtyard, dry and tidy after bathing, with restrained ornaments, Krishna in yellow and Balarama in blue.",
+        "tone": "Serene beauty",
+        "avoid": [
+          "No wet skin, excessive jewelry, mirrored faces, infant or adult-king styling, or forehead mark on Krishna.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Show the two youthful brothers together in a quiet courtyard, dry and tidy after bathing, with restrained ornaments, Krishna in yellow and Balarama in blue.",
+      "reference_paths": [
+        "intake/D072/009.jpg",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s004-candidate-v001-face-only.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s008-candidate-v001-face-only.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. Pass all four shared Krishna identity references as ordered inputs; use them for face/identity only and obey the shared contract’s plain forehead. The fifth input is the mapped photo. Apply the series matte style contract in text.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v002 SHA-256 c8f43bd481cf67ab16d85c07d4cf70bc844c3b8f48a2745ad235da915e7008a2. Producer pass. Skin-only cheek patches: Akrura R-B 103, Balarama R-B 102, Krishna blue-patch B-R 84. Akrura’s joined hands, Krishna’s resting hands and Balarama’s resting hands are attached; overlapping relaxed fingers are not individually countable. Enlarged feet show five toes on each visible foot. Brothers have distinct faces and clothing; Krishna has a bare forehead. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d072-s010",
+      "characters": [
+        "d072-akrura",
+        "krishna-vrindavan-youth",
+        "d072-balarama-vraja-youth"
+      ],
+      "scene_brief": {
+        "mode": "Akrura’s welcome",
+        "must_show": [
+          "Akrura gets down and bows to Krishna and Balarama; Krishna joyfully lifts and embraces him, then takes his hand toward the house.",
+          "In one readable greeting, Akrura bows low, Krishna bends to raise and embrace him, and Balarama stands close beside them; keep all hands, feet and connections visible.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "In one readable greeting, Akrura bows low, Krishna bends to raise and embrace him, and Balarama stands close beside them; keep all hands, feet and connections visible.",
+        "tone": "Joyful reunion",
+        "avoid": [
+          "No duplicated figures, extra hands, fused arms, cropped feet, or unrelated festival.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "In one readable greeting, Akrura bows low, Krishna bends to raise and embrace him, and Balarama stands close beside them; keep all hands, feet and connections visible.",
+      "reference_paths": [
+        "intake/D072/010.jpg",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s004-candidate-v001-face-only.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s008-candidate-v001-face-only.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. Pass all four shared Krishna identity references as ordered inputs; use them for face/identity only and obey the shared contract’s plain forehead. The fifth input is the mapped photo. Apply the series matte style contract in text.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v002 SHA-256 7b52b71229276ed2a7d0de90d31c73a830cf7427c840add9ff9920c2013338cb. Producer pass. Akrura/Balarama warm-brown skin-only patches R-B 113–116; Krishna blue-patch B-R 68. Balarama’s open hand shows thumb plus four fingers; embrace hands attach across the figures, though overlapping grip digits are not individually countable. Exposed feet were checked; toes are separated in the focused view, but not all toe tips are sufficiently distinct for an exact count. Krishna remains youthful with bare forehead; Balarama is light-brown, not Krishna-blue. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 11,
+      "concept_id": "d072-s011",
+      "characters": [
+        "d072-akrura",
+        "krishna-vrindavan-youth",
+        "nandagopan",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "honors and night conversation",
+        "must_show": [
+          "Nanda and Krishna honor Akrura; Akrura conveys Kamsa’s message, Krishna informs the cowherds, and the night ends in conversation.",
+          "Inside a simple Gokula home, Nanda offers hospitality as Akrura speaks; Krishna listens, with a few distinct cowherds nearby.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "Inside a simple Gokula home, Nanda offers hospitality as Akrura speaks; Krishna listens, with a few distinct cowherds nearby.",
+        "tone": "Grave trust and hospitality",
+        "avoid": [
+          "No villain framing of Akrura, duplicated Krishna or Nanda, courtly throne, or unreadable message scroll.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Inside a simple Gokula home, Nanda offers hospitality as Akrura speaks; Krishna listens, with a few distinct cowherds nearby.",
+      "reference_paths": [
+        "intake/D072/011.jpg",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s004-candidate-v001-face-only.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s008-candidate-v001-face-only.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. Pass all four shared Krishna identity references as ordered inputs; use them for face/identity only and obey the shared contract’s plain forehead. The fifth input is the mapped photo. Apply the series matte style contract in text.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v004 SHA-256 8c1f868d4b1dc339472f7fc61a48898423aee9e092ffc59f517b858f82cf7fa8. Producer pass. Skin-only patches: Akrura R-B 115, Nanda R-B 111, rear gopa R-B 93, Krishna blue-patch B-R 81. Akrura’s speaking hand shows thumb plus four fingers; Nanda’s two hands support the tray; Krishna’s two hands rest in his lap. Tray and lap hands are attached, with overlapping fingertips not all countable. Seated feet are covered. Five distinct people, no fused bodies or readable text. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 12,
+      "concept_id": "d072-s012",
+      "characters": [
+        "gopikas",
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "gopikas’ uncertainty and prayer",
+        "must_show": [
+          "At night gopikas wonder where Krishna has gone, while Bhattathiri closes with a prayer to the beloved Lord for protection. Keep the two moments separate within one quiet composition: the women’s wondering foreground and a small devotional prayer vignette.",
+          "Four distinct, fully clothed gopikas gather at a night doorway, looking thoughtfully toward Krishna’s home; in a small separate shrine vignette, older clean-shaven Bhattathiri prays before a restrained Guruvayurappan presence.",
+          "Use the mapped source only as story/cast context; the canonical stanza and supplied caption define the moment.",
+          "Keep human skin warm brown and clearly brown, never saturated orange. If Krishna appears, show the shared youthful Vrindavan form with deep indigo-blue skin, a plain forehead, low simple band and one upright feather."
+        ],
+        "composition": "Four distinct, fully clothed gopikas gather at a night doorway, looking thoughtfully toward Krishna’s home; in a small separate shrine vignette, older clean-shaven Bhattathiri prays before a restrained Guruvayurappan presence.",
+        "tone": "Concern resolving into prayer",
+        "avoid": [
+          "No romanticized rumor scenes, multiple Krishna figures, duplicated women, text, rays, beams, or exaggerated radiance.",
+          "No readable text, captions, logo, watermark, signature, outer border, glossy skin, metallic gold, or cinematic light.",
+          "No extra or missing fingers, limbs, malformed faces, fused bodies, duplicated people, detached hands or feet."
+        ],
+        "candidate_notes": "Scene remains unapproved; native ImageGen selection pending exact-checksum visual review."
+      },
+      "alt": "Four distinct, fully clothed gopikas gather at a night doorway, looking thoughtfully toward Krishna’s home; in a small separate shrine vignette, older clean-shaven Bhattathiri prays before a restrained Guruvayurappan presence.",
+      "reference_paths": [
+        "intake/D072/012.jpg",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use the mapped intake photo for story/cast context only; do not copy its staging or rendering. Use Bhattathiri identity and approved Guruvayurappan sheet only for identity; D001 images anchor matte mural rendering. Recompose naturally.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 landscape with faces, hands, feet and key props safely inside frame; do not crop another orientation.",
+          "candidate_status": "Selected v003 SHA-256 ea81a98dbf1fb702f96f1826c563b9c1fe3ca93f0119ae38514c9fae8b5d1878. Producer pass. Gopika and Bhattathiri skin-only patches R-B 112; Guruvayurappan murti blue-patch B-R 59. The murti’s blessing hand shows thumb plus four fingers and both feet show five toes each in focused crops. Bhattathiri’s joined hands attach but overlap; the four seated gopikas’ lap/face-touching hands are partly overlapped by sleeves and poses and cannot all be separately counted. Four gopikas, one Bhattathiri and one two-armed murti remain distinct; no text or watermark. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    }
+  ],
+  "character_bible_refs": [
+    "art/bible/characters/d072-akrura/character.json",
+    "art/bible/characters/d072-balarama-vraja-youth/character.json",
+    "art/bible/characters/krishna-vrindavan-youth/character.json",
+    "art/bible/characters/nandagopan/character.json",
+    "art/bible/characters/gopas/character.json",
+    "art/bible/characters/gopikas/character.json",
+    "art/bible/characters/kamsa/character.json",
+    "art/bible/characters/bhattathiri/character.json",
+    "art/bible/characters/guruvayurappan/character.json"
+  ],
+  "chapter_label": "Dasakam 72"
+}
