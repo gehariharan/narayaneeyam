@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "daskam_id": 65,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-06",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-65-in-sanskrit/",
+      "retrieval_note": "Nine numbered Devanagari stanzas 65-1 through 65-9 and the chapter completion marker transcribed stanza-by-stanza; publisher spelling and line breaks retained."
+    },
+    {
+      "role": "romanization",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-65-in-english/",
+      "retrieval_note": "Nine numbered IAST stanzas 65-1 through 65-9 transcribed from the publisher page; publisher spelling and line-break hyphenation retained."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired; translation_en left empty; none invented or substituted."
+    },
+    {
+      "role": "commentary",
+      "path": "intake/D065/photo-captions.txt",
+      "sha256": "bed357102e09f7e97ed589352237ed24ca33790bfe91c9fa6d9478e0c32f8d76",
+      "status": "user-supplied photo captions copied verbatim into commentary fields; not treated as translation."
+    }
+  ],
+  "intake_manifest": "content/sources/d065/reference-map.json",
+  "raw_post_metadata": "intake/D065/post.json",
+  "note": "Caption numbers, not filenames alone, establish the nine mappings. Images 010–011 are uncaptioned extras and remain unmapped. Editorial review of Sanskrit, IAST, commentary and scene interpretation is still required.",
+  "visual_references": [
+    {
+      "role": "provisional-krishna-youth-identity-only",
+      "path": "artifacts/d065/references/shared/krishna-youth-d062-s001-candidate-v001.png",
+      "sha256": "f42479232c77faa0aeedda65bbc38ad5a55f8c178dad51f285526ab24ddad234",
+      "source_chapter": "D062 S001 landscape candidate-v001",
+      "status": "provisional identity cue, not approved master"
+    },
+    {
+      "role": "rendering-style",
+      "path": "artifacts/d065/references/shared/style-d001-s004.png",
+      "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+    },
+    {
+      "role": "rendering-style",
+      "path": "artifacts/d065/references/shared/style-d001-s008.png",
+      "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+    },
+    {
+      "role": "bhattathiri-older-identity-only",
+      "path": "artifacts/d065/references/shared/bhattathiri-older-candidate.png",
+      "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+      "status": "identity cue only, not approved master"
+    }
+  ]
+}

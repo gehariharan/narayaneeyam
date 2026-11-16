@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "daskam_id": 65,
+  "slug": "d065",
+  "continuity": {
+    "anchor_character": "krishna-vrindavan-youth",
+    "recurring_characters": [
+      "Krishna",
+      "Gopikas of Vraja"
+    ],
+    "locations": [
+      "Yamuna forest edge beneath the full moon",
+      "Vraja household interiors",
+      "forest clearing"
+    ],
+    "narrative_arc": "Krishna's flute call draws the gopikas from home; hurried adornment and inward devotion lead to their arrival before him and Bhattathiri's closing prayer.",
+    "krishna_form_contract": "Where Krishna appears as the youthful Vrindavan cowherd, follow the shared krishna-vrindavan-youth contract: a serene youthful figure with deep matte blue skin, long dark naturally curly hair, yellow dhoti, muted red-orange shawl, a plain smooth forehead with no mark, and one simple low gold band with a single upright peacock feather. Show one face, two attached arms and hands, and two legs and feet with ordinary youthful human proportions. Do not use these markers for infant, child, adult divine, or Dwaraka king forms, and do not insert Krishna into scenes where he is absent.",
+    "supporting_cast_contract": "Gopikas are distinct ordinary adult women with different faces and hair, natural proportions and modest opaque village saris. Within repeated group scenes, maintain three unnamed recurring visual cues: a long-braided woman in muted maroon, a low-bun woman in earth ochre, and a side-braided woman in muted olive. These do not assign names or change the shared gopikas contract. Show household and maternal contexts with dignity. Every figure remains fully clothed; haste is conveyed through unfinished ornaments or paused tasks, never exposed skin. In S009 only, Bhattathiri is the older clean-shaven devotee from the provided identity cue, with a simple cream dhoti and modest cream upper cloth.",
+    "rendering_references": [
+      "artifacts/d065/references/shared/style-d001-s004.png",
+      "artifacts/d065/references/shared/style-d001-s008.png"
+    ],
+    "palette_arc": "Flat opaque matte mineral fields in cream, earth ochre, maroon, muted olive and established deep blue. Move from cool moonlit forest to warm household and devotional stillness without gloss, metallic reflections, cinematic light or outer borders.",
+    "reference_mapping": "Nine caption numbers map to canonical stanzas 1–9 per accepted-readiness.json; filenames are retained as supplied. Images 010–011 are preserved text extras and remain unmapped.",
+    "batch_selection": "Nine native landscape candidates are selected for an unapproved reference-versus-candidate comparison chapter; independent exact-checksum review is recorded in art/reviews/visual-reviews.json. No artwork approval is implied.",
+    "recurring_gopika_visual_cues": [
+      "Within repeated group scenes, keep three unnamed gopikas visually identifiable: a long-braided woman in muted maroon, a low-bun woman in earth ochre, and a side-braided woman in muted olive. These are continuity cues only, not named or approved identities.",
+      "Keep their faces, hair and natural proportions consistent whenever the same woman reappears; any additional gopikas have distinct faces and hairstyles, never duplicate clones."
+    ]
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d065-s001",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "A youthful blue, two-armed Krishna plays his flute at the wooded Yamuna edge beneath a full moon.",
+          "Show one Krishna in a quiet forest clearing, the flute held naturally with connected hands; moonlight is expressed as flat cream shapes and the nearby river as a restrained band.",
+          "Maintain modest, fully covered clothing and clear, connected natural anatomy for all figures.",
+          "Follow the shared krishna-vrindavan-youth character contract for Krishna’s appearance and anatomy."
+        ],
+        "composition": "Show one Krishna in a quiet forest clearing, the flute held naturally with connected hands; moonlight is expressed as flat cream shapes and the nearby river as a restrained band.",
+        "tone": "Restrained devotional narrative with distinct faces and quiet emotional clarity.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, decorative outer border, glossy finish, reflective metallic gold, silk sheen, or cinematic light.",
+          "No extra fingers or limbs, fused bodies, detached hands or feet, elongated limbs, malformed faces, or duplicated people within the scene.",
+          "Every person is fully and modestly clothed; no exposed body, open blouse, loose or forgotten drape, sexualized framing, or sensual pose.",
+          "The gopikas have distinct faces, hairstyles, and natural body proportions; recurring figures stay visually consistent across scenes.",
+          "Use the source photograph only for story/cast context; follow the canonical stanza and this scene brief where the photo differs.",
+          "Krishna is the same youthful deep-blue, two-armed cowherd with yellow dhoti, muted red-orange upper cloth, dark wavy hair, and one upright peacock feather, one low gold band, and a plain unmarked forehead; do not use an infant face or add divine arms.",
+          "Do not include Bhattathiri unless the scene calls for him; stanza 9 is the closing prayer scene.",
+          "Do not contradict the shared krishna-vrindavan-youth character contract."
+        ]
+      },
+      "alt": "Krishna plays his flute beneath the full moon by the Yamuna.",
+      "reference_paths": [
+        "intake/D065/001.jpg",
+        "artifacts/d065/references/shared/style-d001-s004.png",
+        "artifacts/d065/references/shared/style-d001-s008.png",
+        "artifacts/d065/references/shared/krishna-youth-d062-s001-candidate-v001.png"
+      ],
+      "reference_guidance": "Use intake/D065/001.jpg only as source-story/cast context; mapped caption and canonical stanza control the scene. The two D001 images are rendering-style anchors. The D062 S001 candidate is a provisional Krishna identity cue only, not an approved master; do not copy its pose or setting. Do not include Bhattathiri in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent full-bleed 16:9 landscape with safe space around faces, hands, feet and key props; never crop another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d065/s001/landscape/candidate-v002.png",
+          "candidate_sha256": "b8c929b36874141366fafd1e2ddf2c0eec3ffe548175ce6caae8b4cb63468824",
+          "candidate_status": "Face patch B-R 47; plain forehead, one low band and one feather. The far flute-hand finger count remains uncertain in the enlarged crop. Independent exact-checksum review is recorded in art/reviews/visual-reviews.json; this chapter remains unapproved.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d065/s001/landscape/prompt-submitted-v002.txt"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d065-s002",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna's flute call reaches the gopikas and arrests their attention.",
+          "Keep a single Krishna playing in the near distance and a few distinct gopikas turning toward the sound; suggest the musical rise and fall through simple curved natural forms, never readable notation or letters.",
+          "Maintain modest, fully covered clothing and clear, connected natural anatomy for all figures.",
+          "Follow the shared krishna-vrindavan-youth character contract for Krishna’s appearance and anatomy."
+        ],
+        "composition": "Keep a single Krishna playing in the near distance and a few distinct gopikas turning toward the sound; suggest the musical rise and fall through simple curved natural forms, never readable notation or letters.",
+        "tone": "Restrained devotional narrative with distinct faces and quiet emotional clarity.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, decorative outer border, glossy finish, reflective metallic gold, silk sheen, or cinematic light.",
+          "No extra fingers or limbs, fused bodies, detached hands or feet, elongated limbs, malformed faces, or duplicated people within the scene.",
+          "Every person is fully and modestly clothed; no exposed body, open blouse, loose or forgotten drape, sexualized framing, or sensual pose.",
+          "The gopikas have distinct faces, hairstyles, and natural body proportions; recurring figures stay visually consistent across scenes.",
+          "Use the source photograph only for story/cast context; follow the canonical stanza and this scene brief where the photo differs.",
+          "Krishna is the same youthful deep-blue, two-armed cowherd with yellow dhoti, muted red-orange upper cloth, dark wavy hair, and one upright peacock feather, one low gold band, and a plain unmarked forehead; do not use an infant face or add divine arms.",
+          "Do not include Bhattathiri unless the scene calls for him; stanza 9 is the closing prayer scene.",
+          "Do not contradict the shared krishna-vrindavan-youth character contract."
+        ]
+      },
+      "alt": "The gopikas hear Krishna's flute and turn toward its enchanting call.",
+      "reference_paths": [
+        "intake/D065/002.jpg",
+        "artifacts/d065/references/shared/style-d001-s004.png",
+        "artifacts/d065/references/shared/style-d001-s008.png",
+        "artifacts/d065/references/shared/krishna-youth-d062-s001-candidate-v001.png"
+      ],
+      "reference_guidance": "Use intake/D065/002.jpg only as source-story/cast context; mapped caption and canonical stanza control the scene. The two D001 images are rendering-style anchors. The D062 S001 candidate is a provisional Krishna identity cue only, not an approved master; do not copy its pose or setting. Do not include Bhattathiri in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent full-bleed 16:9 landscape with safe space around faces, hands, feet and key props; never crop another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d065/s002/landscape/candidate-v002.png",
+          "candidate_sha256": "71b3d4e52a6c069553cc93c77ab7ffc5391a884594e2a91aad79966045a3df12",
+          "candidate_status": "Krishna face/torso patches B-R 22 and 18; gopika face patches R-B 106, 50 and 65. Krishna is too small for confident forehead and low-band confirmation. Independent exact-checksum review is recorded in art/reviews/visual-reviews.json; this chapter remains unapproved.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d065/s002/landscape/prompt-submitted-v002.txt"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d065-s003",
+      "characters": [
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show distinct adult gopikas setting aside household tasks and moving toward the forest after hearing the flute.",
+          "Include one safely settled infant with a fully clothed caregiver, a serving vessel left beside a covered meal, and another domestic task paused; the women move toward the forest in separate clear paths.",
+          "Maintain modest, fully covered clothing and clear, connected natural anatomy for all figures."
+        ],
+        "composition": "Include one safely settled infant with a fully clothed caregiver, a serving vessel left beside a covered meal, and another domestic task paused; the women move toward the forest in separate clear paths.",
+        "tone": "Restrained devotional narrative with distinct faces and quiet emotional clarity.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, decorative outer border, glossy finish, reflective metallic gold, silk sheen, or cinematic light.",
+          "No extra fingers or limbs, fused bodies, detached hands or feet, elongated limbs, malformed faces, or duplicated people within the scene.",
+          "Every person is fully and modestly clothed; no exposed body, open blouse, loose or forgotten drape, sexualized framing, or sensual pose.",
+          "The gopikas have distinct faces, hairstyles, and natural body proportions; recurring figures stay visually consistent across scenes.",
+          "Use the source photograph only for story/cast context; follow the canonical stanza and this scene brief where the photo differs.",
+          "Krishna is the same youthful deep-blue, two-armed cowherd with yellow dhoti, muted red-orange upper cloth, dark wavy hair, and restrained peacock feather; do not use an infant face or add divine arms.",
+          "Do not include Bhattathiri unless the scene calls for him; stanza 9 is the closing prayer scene."
+        ]
+      },
+      "alt": "Gopikas leave household tasks and hurry toward Krishna's flute.",
+      "reference_paths": [
+        "intake/D065/003.jpg",
+        "artifacts/d065/references/shared/style-d001-s004.png",
+        "artifacts/d065/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use intake/D065/003.jpg only as source-story/cast context; mapped caption and canonical stanza control the scene. The two D001 images are rendering-style anchors. Do not include Bhattathiri in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent full-bleed 16:9 landscape with safe space around faces, hands, feet and key props; never crop another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d065/s003/landscape/candidate-v001.png",
+          "candidate_sha256": "194cfaac3792db1afc59ea368fc072d413e44a397a0ce8c78efa037b04afa9c6",
+          "candidate_status": "No youthful Krishna appears. Gopika 3 and the infant face patches R-B 192 and 183; gopikas 1 and 2 measure 69 and 101. Independent exact-checksum review is recorded in art/reviews/visual-reviews.json; this chapter remains unapproved.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d065/s003/landscape/prompt-submitted-v001.txt"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d065-s004",
+      "characters": [
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show several distinct, fully clothed gopikas in a forest approach: one with simple complete adornment and others with a few ornaments still in their hands.",
+          "Use unfinished jewelry and a clasp or hair ornament being completed to communicate haste; modest village saris cover each figure completely, with no sensual posing.",
+          "Maintain modest, fully covered clothing and clear, connected natural anatomy for all figures."
+        ],
+        "composition": "Use unfinished jewelry and a clasp or hair ornament being completed to communicate haste; modest village saris cover each figure completely, with no sensual posing.",
+        "tone": "Restrained devotional narrative with distinct faces and quiet emotional clarity.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, decorative outer border, glossy finish, reflective metallic gold, silk sheen, or cinematic light.",
+          "No extra fingers or limbs, fused bodies, detached hands or feet, elongated limbs, malformed faces, or duplicated people within the scene.",
+          "Every person is fully and modestly clothed; no exposed body, open blouse, loose or forgotten drape, sexualized framing, or sensual pose.",
+          "The gopikas have distinct faces, hairstyles, and natural body proportions; recurring figures stay visually consistent across scenes.",
+          "Use the source photograph only for story/cast context; follow the canonical stanza and this scene brief where the photo differs.",
+          "Krishna is the same youthful deep-blue, two-armed cowherd with yellow dhoti, muted red-orange upper cloth, dark wavy hair, and restrained peacock feather; do not use an infant face or add divine arms.",
+          "Do not include Bhattathiri unless the scene calls for him; stanza 9 is the closing prayer scene."
+        ]
+      },
+      "alt": "Fully clothed gopikas hurry with unfinished ornaments to meet Krishna.",
+      "reference_paths": [
+        "intake/D065/004.jpg",
+        "artifacts/d065/references/shared/style-d001-s004.png",
+        "artifacts/d065/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use intake/D065/004.jpg only as source-story/cast context; mapped caption and canonical stanza control the scene. The two D001 images are rendering-style anchors. Do not include Bhattathiri in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent full-bleed 16:9 landscape with safe space around faces, hands, feet and key props; never crop another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d065/s004/landscape/candidate-v002.png",
+          "candidate_sha256": "a7b87a5be5b9de79343adbe7737dbc7ce56d6be4c7da79484a109ec136570f1f",
+          "candidate_status": "No youthful Krishna appears. Three fully clothed gopikas have face-patch medians R-B 99, 100 and 100; incomplete hair and jewelry details remain visible. Independent exact-checksum review is recorded in art/reviews/visual-reviews.json; this chapter remains unapproved.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d065/s004/landscape/prompt-submitted-v002.txt"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d065-s005",
+      "characters": [
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show one modestly dressed gopika with the necklace and waist ornament visibly exchanged as she hurries toward Krishna.",
+          "Make the comic devotional mix-up legible through the jewelry placement over an opaque blouse and fully wrapped sari; keep a dignified expression and ordinary natural proportions.",
+          "Maintain modest, fully covered clothing and clear, connected natural anatomy for all figures."
+        ],
+        "composition": "Make the comic devotional mix-up legible through the jewelry placement over an opaque blouse and fully wrapped sari; keep a dignified expression and ordinary natural proportions.",
+        "tone": "Restrained devotional narrative with distinct faces and quiet emotional clarity.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, decorative outer border, glossy finish, reflective metallic gold, silk sheen, or cinematic light.",
+          "No extra fingers or limbs, fused bodies, detached hands or feet, elongated limbs, malformed faces, or duplicated people within the scene.",
+          "Every person is fully and modestly clothed; no exposed body, open blouse, loose or forgotten drape, sexualized framing, or sensual pose.",
+          "The gopikas have distinct faces, hairstyles, and natural body proportions; recurring figures stay visually consistent across scenes.",
+          "Use the source photograph only for story/cast context; follow the canonical stanza and this scene brief where the photo differs.",
+          "Krishna is the same youthful deep-blue, two-armed cowherd with yellow dhoti, muted red-orange upper cloth, dark wavy hair, and one upright peacock feather, one low gold band, and a plain unmarked forehead; do not use an infant face or add divine arms.",
+          "Do not include Bhattathiri unless the scene calls for him; stanza 9 is the closing prayer scene."
+        ]
+      },
+      "alt": "A gopika hurries with her necklace and waist ornament exchanged.",
+      "reference_paths": [
+        "intake/D065/005.jpg",
+        "artifacts/d065/references/shared/style-d001-s004.png",
+        "artifacts/d065/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use intake/D065/005.jpg only as source-story/cast context; mapped caption and canonical stanza control the scene. The two D001 images are rendering-style anchors. Do not include Bhattathiri in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent full-bleed 16:9 landscape with safe space around faces, hands, feet and key props; never crop another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d065/s005/landscape/candidate-v002.png",
+          "candidate_sha256": "c1b8f691c7c60ad2784a02d38b59200739cf8564b21001c0864dda8e1e371850",
+          "candidate_status": "No youthful Krishna appears. V002 remains selected after the one authorized additional repair attempt. In unselected v003, the broad U-shaped ornament remains at the neck/chest (about x760–930,y150–280) and the pearl strand remains at the hip/waist (about x640–875,y410–525), so the exchange still reads as an ordinary necklace plus waist strand and is not legible. V002 shows the same placement; no further S005 repair is authorized. Face-patch median R-B 104. Independent exact-checksum review is recorded in art/reviews/visual-reviews.json; this chapter remains unapproved.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d065/s005/landscape/prompt-submitted-v002.txt"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d065-s006",
+      "characters": [
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show one fully covered gopika approaching Krishna with a small ritual pot nearby, her attention fixed on him.",
+          "Render the canonical image without exposing skin: use an opaque, fully fastened blouse and neatly wrapped sari; convey haste only with an unfinished ornament or carried item, never with an open garment or undraped body.",
+          "Maintain modest, fully covered clothing and clear, connected natural anatomy for all figures."
+        ],
+        "composition": "Render the canonical image without exposing skin: use an opaque, fully fastened blouse and neatly wrapped sari; convey haste only with an unfinished ornament or carried item, never with an open garment or undraped body.",
+        "tone": "Restrained devotional narrative with distinct faces and quiet emotional clarity.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, decorative outer border, glossy finish, reflective metallic gold, silk sheen, or cinematic light.",
+          "No extra fingers or limbs, fused bodies, detached hands or feet, elongated limbs, malformed faces, or duplicated people within the scene.",
+          "Every person is fully and modestly clothed; no exposed body, open blouse, loose or forgotten drape, sexualized framing, or sensual pose.",
+          "The gopikas have distinct faces, hairstyles, and natural body proportions; recurring figures stay visually consistent across scenes.",
+          "Use the source photograph only for story/cast context; follow the canonical stanza and this scene brief where the photo differs.",
+          "Krishna is the same youthful deep-blue, two-armed cowherd with yellow dhoti, muted red-orange upper cloth, dark wavy hair, and one upright peacock feather, one low gold band, and a plain unmarked forehead; do not use an infant face or add divine arms.",
+          "Do not include Bhattathiri unless the scene calls for him; stanza 9 is the closing prayer scene."
+        ]
+      },
+      "alt": "A fully covered gopika hastens toward Krishna with a ritual pot.",
+      "reference_paths": [
+        "intake/D065/006.jpg",
+        "artifacts/d065/references/shared/style-d001-s004.png",
+        "artifacts/d065/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use intake/D065/006.jpg only as source-story/cast context; mapped caption and canonical stanza control the scene. The two D001 images are rendering-style anchors. Do not include Bhattathiri in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent full-bleed 16:9 landscape with safe space around faces, hands, feet and key props; never crop another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d065/s006/landscape/candidate-v001.png",
+          "candidate_sha256": "28818ff58b3d6f3db8295c3575c33e1d91d0d9c378f9554cd2a70873450bb649",
+          "candidate_status": "No youthful Krishna appears. Fully clothed gopika approaches with a ritual pot; face-patch median R-B 50; connected hands and feet are visible. Independent exact-checksum review is recorded in art/reviews/visual-reviews.json; this chapter remains unapproved.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d065/s006/landscape/prompt-submitted-v001.txt"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d065-s007",
+      "characters": [
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show one or two fully clothed gopikas remaining inside a village home in quiet meditation on Krishna.",
+          "Use a quiet, flat blue reflection from the open doorway or window to suggest inward contemplation; keep bodies present and dignified, with no death, disrobing, bodily merger, glow, rays, or light shafts.",
+          "Maintain modest, fully covered clothing and clear, connected natural anatomy for all figures."
+        ],
+        "composition": "Use a quiet, flat blue reflection from the open doorway or window to suggest inward contemplation; keep bodies present and dignified, with no death, disrobing, bodily merger, glow, rays, or light shafts.",
+        "tone": "Restrained devotional narrative with distinct faces and quiet emotional clarity.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, decorative outer border, glossy finish, reflective metallic gold, silk sheen, or cinematic light.",
+          "No extra fingers or limbs, fused bodies, detached hands or feet, elongated limbs, malformed faces, or duplicated people within the scene.",
+          "Every person is fully and modestly clothed; no exposed body, open blouse, loose or forgotten drape, sexualized framing, or sensual pose.",
+          "The gopikas have distinct faces, hairstyles, and natural body proportions; recurring figures stay visually consistent across scenes.",
+          "Use the source photograph only for story/cast context; follow the canonical stanza and this scene brief where the photo differs.",
+          "Krishna is the same youthful deep-blue, two-armed cowherd with yellow dhoti, muted red-orange upper cloth, dark wavy hair, and one upright peacock feather, one low gold band, and a plain unmarked forehead; do not use an infant face or add divine arms.",
+          "Do not include Bhattathiri unless the scene calls for him; stanza 9 is the closing prayer scene."
+        ]
+      },
+      "alt": "A gopika unable to leave home meditates on Krishna.",
+      "reference_paths": [
+        "intake/D065/007.jpg",
+        "artifacts/d065/references/shared/style-d001-s004.png",
+        "artifacts/d065/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use intake/D065/007.jpg only as source-story/cast context; mapped caption and canonical stanza control the scene. The two D001 images are rendering-style anchors. Do not include Bhattathiri in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent full-bleed 16:9 landscape with safe space around faces, hands, feet and key props; never crop another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d065/s007/landscape/candidate-v002.png",
+          "candidate_sha256": "150983ccf26acb3e26770ee276840fdc0db65d406cd234c8b43e957dbb7c71f4",
+          "candidate_status": "No youthful Krishna appears. Two distinct seated women have face-patch medians R-B 124 and 131. Independent exact-checksum review is recorded in art/reviews/visual-reviews.json; this chapter remains unapproved.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d065/s007/landscape/prompt-submitted-v002.txt"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d065-s008",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show distinct fully clothed gopikas arriving at Krishna's forest clearing and settling into a quiet, absorbed devotional gaze.",
+          "Present devotion as contemplative stillness and gentle attention; do not stage romantic contact, sensuality, bodily merging, or a second Krishna.",
+          "Maintain modest, fully covered clothing and clear, connected natural anatomy for all figures.",
+          "Follow the shared krishna-vrindavan-youth character contract for Krishna’s appearance and anatomy."
+        ],
+        "composition": "Present devotion as contemplative stillness and gentle attention; do not stage romantic contact, sensuality, bodily merging, or a second Krishna.",
+        "tone": "Restrained devotional narrative with distinct faces and quiet emotional clarity.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, decorative outer border, glossy finish, reflective metallic gold, silk sheen, or cinematic light.",
+          "No extra fingers or limbs, fused bodies, detached hands or feet, elongated limbs, malformed faces, or duplicated people within the scene.",
+          "Every person is fully and modestly clothed; no exposed body, open blouse, loose or forgotten drape, sexualized framing, or sensual pose.",
+          "The gopikas have distinct faces, hairstyles, and natural body proportions; recurring figures stay visually consistent across scenes.",
+          "Use the source photograph only for story/cast context; follow the canonical stanza and this scene brief where the photo differs.",
+          "Krishna is the same youthful deep-blue, two-armed cowherd with yellow dhoti, muted red-orange upper cloth, dark wavy hair, and one upright peacock feather, one low gold band, and a plain unmarked forehead; do not use an infant face or add divine arms.",
+          "Do not include Bhattathiri unless the scene calls for him; stanza 9 is the closing prayer scene.",
+          "Do not contradict the shared krishna-vrindavan-youth character contract."
+        ]
+      },
+      "alt": "The gopikas arrive before Krishna in absorbed devotional stillness.",
+      "reference_paths": [
+        "intake/D065/008.jpg",
+        "artifacts/d065/references/shared/style-d001-s004.png",
+        "artifacts/d065/references/shared/style-d001-s008.png",
+        "artifacts/d065/references/shared/krishna-youth-d062-s001-candidate-v001.png"
+      ],
+      "reference_guidance": "Use intake/D065/008.jpg only as source-story/cast context; mapped caption and canonical stanza control the scene. The two D001 images are rendering-style anchors. The D062 S001 candidate is a provisional Krishna identity cue only, not an approved master; do not copy its pose or setting. Do not include Bhattathiri in this scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent full-bleed 16:9 landscape with safe space around faces, hands, feet and key props; never crop another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d065/s008/landscape/candidate-v002.png",
+          "candidate_sha256": "56d024e37003e3d72f22aa073a7e6f98a1125f9accd57e935333e1510d711458",
+          "candidate_status": "Krishna forehead appears plain and one feather is visible, but raised jeweled circlet with central crest replaces the single low band. Krishna face patch B-R 23; one gopika face patch R-B 130. Independent exact-checksum review is recorded in art/reviews/visual-reviews.json; this chapter remains unapproved.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d065/s008/landscape/prompt-submitted-v002.txt"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d065-s009",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas",
+        "bhattathiri"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show one youthful two-armed Krishna with a gentle compassionate smile, surrounded by distinct fully clothed gopikas; include older clean-shaven Bhattathiri praying in the foreground.",
+          "Keep Krishna as one youthful two-armed focal deity with connected anatomy and simple cowherd clothing; show Bhattathiri in a simple cream dhoti and modest cream upper cloth, with prayer beads, sacred thread and the established older clean-shaven identity.",
+          "Maintain modest, fully covered clothing and clear, connected natural anatomy for all figures.",
+          "Follow the shared krishna-vrindavan-youth character contract for Krishna’s appearance and anatomy."
+        ],
+        "composition": "Keep Krishna as one youthful two-armed focal deity with connected anatomy and simple cowherd clothing; show Bhattathiri in a simple cream dhoti and modest cream upper cloth, with prayer beads, sacred thread and the established older clean-shaven identity.",
+        "tone": "Restrained devotional narrative with distinct faces and quiet emotional clarity.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, decorative outer border, glossy finish, reflective metallic gold, silk sheen, or cinematic light.",
+          "No extra fingers or limbs, fused bodies, detached hands or feet, elongated limbs, malformed faces, or duplicated people within the scene.",
+          "Every person is fully and modestly clothed; no exposed body, open blouse, loose or forgotten drape, sexualized framing, or sensual pose.",
+          "The gopikas have distinct faces, hairstyles, and natural body proportions; recurring figures stay visually consistent across scenes.",
+          "Use the source photograph only for story/cast context; follow the canonical stanza and this scene brief where the photo differs.",
+          "Krishna is the same youthful deep-blue, two-armed cowherd with yellow dhoti, muted red-orange upper cloth, dark wavy hair, and one upright peacock feather, one low gold band, and a plain unmarked forehead; do not use an infant face or add divine arms.",
+          "Bhattathiri must match the provided older clean-shaven identity cue; never use a young or bearded face.",
+          "Do not contradict the shared krishna-vrindavan-youth character contract."
+        ]
+      },
+      "alt": "The gopikas behold Krishna's compassionate smile as Bhattathiri prays.",
+      "reference_paths": [
+        "intake/D065/009.jpg",
+        "artifacts/d065/references/shared/style-d001-s004.png",
+        "artifacts/d065/references/shared/style-d001-s008.png",
+        "artifacts/d065/references/shared/krishna-youth-d062-s001-candidate-v001.png",
+        "artifacts/d065/references/shared/bhattathiri-older-candidate.png"
+      ],
+      "reference_guidance": "Use intake/D065/009.jpg only as source-story/cast context; mapped caption and canonical stanza control the scene. The two D001 images are rendering-style anchors. The D062 S001 candidate is a provisional Krishna identity cue only, not an approved master; do not copy its pose or setting. The older Bhattathiri candidate anchors identity only and is not an approved master.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent full-bleed 16:9 landscape with safe space around faces, hands, feet and key props; never crop another orientation.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d065/s009/landscape/candidate-v003.png",
+          "candidate_sha256": "06613726be694885316e64f00b5ede9a67bd617b0233129cf6d75e3483f0dc9d",
+          "candidate_status": "V003 has a plain forehead, one low gold band and one upright feather; Krishna face patch B-R 47. Two gopika patches (R-B 149 and 160) and Bhattathiri (R-B 149) exceed the warm-brown target. Independent exact-checksum review is recorded in art/reviews/visual-reviews.json; this chapter remains unapproved.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d065/s009/landscape/prompt-submitted-v003.txt"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    }
+  ],
+  "character_bible_refs": [
+    "art/bible/characters/krishna-vrindavan-youth/character.json",
+    "art/bible/characters/gopikas/character.json",
+    "art/bible/characters/bhattathiri/character.json"
+  ],
+  "chapter_label": "Dasakam 65"
+}

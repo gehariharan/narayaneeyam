@@ -38640,6 +38640,690 @@
       "findings": [],
       "disclosed_deviations": [],
       "notes": "Independent exact-checksum evidence: art/reviews/d063-independent-review-r.md (SHA-256 ea7b1f377a558ca76ed22ffa37c00ba2fc83e21e9fbc12e2767e0394b2c520f0), bound to final plan SHA-256 f3a9a476d14a658193f064ebd5c78903b023e3e74161645e80f5074fae28f95c. Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 65,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d065/s001/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "b8c929b36874141366fafd1e2ddf2c0eec3ffe548175ce6caae8b4cb63468824",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout d065-review-c, stanzas 1–5)",
+      "inspected_at": "2026-11-16T03:50:19Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, when depicted, has one youthful head and two attached arms under the shared Vrindavan youth contract; the women, infant and Bhattathiri are assessed as separate figures with naturally connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d065.json",
+          "sha256": "9a66d787a112eec042b41d5b86f7f682500ca9623a7e3dc629e8a47fb7c56860"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d065-independent-review-c-v001.md",
+          "sha256": "5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775"
+        },
+        {
+          "path": "art/reviews/d065-s001-landscape-v002-producer-v003.md",
+          "sha256": "a55ebb0da5c32f6049e52c5141b113b3c5cf2c380503e65af642f8ee3750dafc"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The enlarged flute-hand view resolves the separated finger contours and the seated figure’s visible foot has five toes; both stay attached to Krishna’s arms and legs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "One seated Krishna’s arms meet the shoulders and the bent legs remain one coherent pose beside the river."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The single youthful Krishna’s face is intact and the forehead is plain beneath one low band and upright feather."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The clearing contains one Krishna and no second or fused person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The sky, river edge, ground and corners show no writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The full moon, wooded Yamuna edge and flute-playing Krishna follow the stanza scene; the curved river band stays restrained."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Final exact-checksum review binds this selection to art/reviews/d065-independent-review-c-v001.md (SHA-256 5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775) and the listed frozen contracts. No art approval. Producer inspection is separate: art/reviews/d065-s001-landscape-v002-producer-v003.md (SHA-256 a55ebb0da5c32f6049e52c5141b113b3c5cf2c380503e65af642f8ee3750dafc). Krishna has one youthful face, two arms and the plain forehead, low band and upright feather; no extra or malformed figure is reported."
+    },
+    {
+      "chapter": 65,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d065/s002/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "71b3d4e52a6c069553cc93c77ab7ffc5391a884594e2a91aad79966045a3df12",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout d065-review-e, S002 single-image tiebreak)",
+      "inspected_at": "2026-11-16T04:00:45Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, when depicted, has one youthful head and two attached arms under the shared Vrindavan youth contract; the women, infant and Bhattathiri are assessed as separate figures with naturally connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d065.json",
+          "sha256": "9a66d787a112eec042b41d5b86f7f682500ca9623a7e3dc629e8a47fb7c56860"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d065-independent-review-e-v001.md",
+          "sha256": "6f32eb896052c3b5443048989af05fccd505be8e6287082fca4e322a62f6e774"
+        },
+        {
+          "path": "art/reviews/d065-s002-landscape-v002-producer-v003.md",
+          "sha256": "76100396d52c32e5dea730fd960006582438166642e58aed65914d3ee457ea1a"
+        },
+        {
+          "path": "art/reviews/d065-independent-review-c-v001.md",
+          "sha256": "5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The three seated foreground gopikas show attached prayer, lap and open hands; Krishna’s small flute grip and feet show no clear malformed digit."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Three women remain separate in the foreground and the distant Krishna’s two arms join naturally through the flute pose."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Each of the three women has a distinct readable face; Krishna’s small youthful face is coherent but too small for tiny forehead-mark confirmation."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The three listeners and one distant flute player remain distinct without a repeated or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The cream curves above the river read as sound forms; no letters, notation, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The distant Krishna and three women turned toward the sound match the scene; tiebreak e passes while retaining the plan-disclosed small-figure observability limit and scout c’s uncertainty."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "The small Krishna does not allow confident confirmation of a plain forehead or low-band detail; the plan discloses this observability limit."
+      ],
+      "notes": "Final exact-checksum review binds this selection to art/reviews/d065-independent-review-e-v001.md (SHA-256 6f32eb896052c3b5443048989af05fccd505be8e6287082fca4e322a62f6e774) and the listed frozen contracts. No art approval. Producer inspection is separate: art/reviews/d065-s002-landscape-v002-producer-v003.md (SHA-256 76100396d52c32e5dea730fd960006582438166642e58aed65914d3ee457ea1a). The tiebreak observed an apparently plain forehead, low band and one feather without a visible contradiction, but could not certify tiny details. Scout d065-review-c recorded an uncertain verdict on those same head details; the tiebreak pass resolves the final outcome while preserving that dissent. Dissent report retained beside the final tiebreak: art/reviews/d065-independent-review-c-v001.md (SHA-256 5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775)."
+    },
+    {
+      "chapter": 65,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d065/s003/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "194cfaac3792db1afc59ea368fc072d413e44a397a0ce8c78efa037b04afa9c6",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout d065-review-c, stanzas 1–5)",
+      "inspected_at": "2026-11-16T03:50:19Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, when depicted, has one youthful head and two attached arms under the shared Vrindavan youth contract; the women, infant and Bhattathiri are assessed as separate figures with naturally connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d065.json",
+          "sha256": "9a66d787a112eec042b41d5b86f7f682500ca9623a7e3dc629e8a47fb7c56860"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d065-independent-review-c-v001.md",
+          "sha256": "5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775"
+        },
+        {
+          "path": "art/reviews/d065-s003-landscape-v001-producer-v003.md",
+          "sha256": "af2f42169643ff150d117fc3c7220fbd69c5e0b80d302d59d1abe02dc2f87485"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The caregiver’s hand rests on the wrapped infant while the other women’s hands stay with the paused meal and grinding tasks; visible feet remain inside frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Three adults and the infant on the low cot read as separate, connected bodies; the infant is safely supported."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The adult gopikas have distinct faces and the wrapped infant’s face remains coherent in the inspected crops."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One caregiver, two other women and one infant are visible; no doubled person appears."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The curved pale motif is ornamental rather than writing; no text, signature, logo or watermark appears in the corners or scene."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "A covered meal, paused grinding and safely settled infant anchor the home scene as the women turn toward the forest."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Final exact-checksum review binds this selection to art/reviews/d065-independent-review-c-v001.md (SHA-256 5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775) and the listed frozen contracts. No art approval. Producer inspection is separate: art/reviews/d065-s003-landscape-v001-producer-v003.md (SHA-256 af2f42169643ff150d117fc3c7220fbd69c5e0b80d302d59d1abe02dc2f87485). The adult faces and infant remain distinct; the wrapped infant is supported on the cot and no malformed or duplicated person is reported."
+    },
+    {
+      "chapter": 65,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d065/s004/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "a7b87a5be5b9de79343adbe7737dbc7ce56d6be4c7da79484a109ec136570f1f",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout d065-review-c, stanzas 1–5)",
+      "inspected_at": "2026-11-16T03:50:19Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, when depicted, has one youthful head and two attached arms under the shared Vrindavan youth contract; the women, infant and Bhattathiri are assessed as separate figures with naturally connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d065.json",
+          "sha256": "9a66d787a112eec042b41d5b86f7f682500ca9623a7e3dc629e8a47fb7c56860"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d065-independent-review-c-v001.md",
+          "sha256": "5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775"
+        },
+        {
+          "path": "art/reviews/d065-s004-landscape-v002-producer-v003.md",
+          "sha256": "7861eba9bb4f3722dbfbbc59e44946a705cc6e233c36923328ee3c7957040096"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The women’s hands carry ornaments or adjust hair, and their visible walking feet remain within frame with natural outlines."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The three approaching women have separate silhouettes and connected arms; no limb is elongated or fused."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "All three gopikas have distinct, proportionate faces; the scene contains no Krishna."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One simply adorned woman, one adjusting her hair and one carrying ornaments are separate figures, not duplicates."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The forest, path and corners contain no readable mark, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The forest approach and unfinished hair/jewelry details match the plan; the reference photo’s Krishna is intentionally omitted."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Final exact-checksum review binds this selection to art/reviews/d065-independent-review-c-v001.md (SHA-256 5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775) and the listed frozen contracts. No art approval. Producer inspection is separate: art/reviews/d065-s004-landscape-v002-producer-v003.md (SHA-256 7861eba9bb4f3722dbfbbc59e44946a705cc6e233c36923328ee3c7957040096). The women’s limbs and visible feet remain connected and within frame. The photo’s Krishna is omitted as the plan requires."
+    },
+    {
+      "chapter": 65,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d065/s005/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "c1b8f691c7c60ad2784a02d38b59200739cf8564b21001c0864dda8e1e371850",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout d065-review-c, stanzas 1–5)",
+      "inspected_at": "2026-11-16T03:50:19Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, when depicted, has one youthful head and two attached arms under the shared Vrindavan youth contract; the women, infant and Bhattathiri are assessed as separate figures with naturally connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d065.json",
+          "sha256": "9a66d787a112eec042b41d5b86f7f682500ca9623a7e3dc629e8a47fb7c56860"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d065-independent-review-c-v001.md",
+          "sha256": "5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775"
+        },
+        {
+          "path": "art/reviews/d065-s005-landscape-v002-producer-v003.md",
+          "sha256": "6a3cbf0e07a3adeab949d6d62474ba5f8809aba4435eecbfa47d5081acb5ebf5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The lone gopika’s joined hands and wrists remain connected, and both fully framed feet show five toe contours."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The single running figure’s arms, torso and legs form one coherent body with no malformed proportion."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The gopika’s profile face is coherent; the forehead dot belongs to her and is not a Krishna continuity mark."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Only the planned single gopika is present; there is no duplicate or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No writing-like mark, signature, logo or watermark appears in the river, path, foliage or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The forest run is present, while the neck ornament remains at the chest and the pearl strand at the waist; the disclosed exchange is absent."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "The necklace/waistband exchange is not depicted: the chest ornament remains at the neck and the pearl strand at the hip/waist, as disclosed in the frozen plan."
+      ],
+      "notes": "Final exact-checksum review binds this selection to art/reviews/d065-independent-review-c-v001.md (SHA-256 5699c4c9c1c8defe83ddea4cc7c04f439cc0a77829e19fcf8698b6acbe809775) and the listed frozen contracts. No art approval. Producer inspection is separate: art/reviews/d065-s005-landscape-v002-producer-v003.md (SHA-256 6a3cbf0e07a3adeab949d6d62474ba5f8809aba4435eecbfa47d5081acb5ebf5). The selected v002 retains the disclosed jewelry-placement limitation after the authorized repair attempt; no further repair is authorized."
+    },
+    {
+      "chapter": 65,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d065/s006/landscape/candidate-v001.png",
+      "version": "v001",
+      "sha256": "28818ff58b3d6f3db8295c3575c33e1d91d0d9c378f9554cd2a70873450bb649",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout d065-review-f, S006 single-image tiebreak)",
+      "inspected_at": "2026-11-16T03:59:40Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, when depicted, has one youthful head and two attached arms under the shared Vrindavan youth contract; the women, infant and Bhattathiri are assessed as separate figures with naturally connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d065.json",
+          "sha256": "9a66d787a112eec042b41d5b86f7f682500ca9623a7e3dc629e8a47fb7c56860"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d065-independent-review-f-v001.md",
+          "sha256": "33baa2891cae660d1e8d481f2d6b910b1c828edb8c4897563ada414b475b0be9"
+        },
+        {
+          "path": "art/reviews/d065-s006-landscape-v001-producer-v003.md",
+          "sha256": "b08398573f2d095439e642007df5be758a19a76f5b0b32667c7dc0e5150cd254"
+        },
+        {
+          "path": "art/reviews/d065-independent-review-d-v001.md",
+          "sha256": "356762aa2ed080dd7d40534e2f4a7f7968076cf80b43d57d0f209beae9c62c44"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Joined prayer hands and both legs remain attached; tiebreak f sees the forward foot’s simplified toe line but no clear malformed structure or wrong count. Scout d disagreed, reading two toe lobes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The single fully framed gopika’s head, torso, joined arms and legs remain connected; the small pot sits separately on the rock."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The right-facing profile has coherent eye, nose, mouth, ear and jaw in the enlarged crop."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One gopika appears on the path, with no second person or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The upper and lower corners, foliage, ground and water show no text, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The ritual pot and forest approach are present; Krishna’s absence is explicitly disclosed. The tiebreak passes despite scout d’s forward-foot needs-fix reading."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Krishna is absent, as explicitly disclosed in the plan candidate status."
+      ],
+      "notes": "Final exact-checksum review binds this selection to art/reviews/d065-independent-review-f-v001.md (SHA-256 33baa2891cae660d1e8d481f2d6b910b1c828edb8c4897563ada414b475b0be9) and the listed frozen contracts. No art approval. Producer inspection is separate: art/reviews/d065-s006-landscape-v001-producer-v003.md (SHA-256 b08398573f2d095439e642007df5be758a19a76f5b0b32667c7dc0e5150cd254). Final tiebreak scout d065-review-f passes the disclosed Krishna omission. Scout d065-review-d’s needs-fix reading of the forward foot is retained as dissent evidence; this record follows the commissioned tiebreak. Dissent report retained beside the final tiebreak: art/reviews/d065-independent-review-d-v001.md (SHA-256 356762aa2ed080dd7d40534e2f4a7f7968076cf80b43d57d0f209beae9c62c44)."
+    },
+    {
+      "chapter": 65,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d065/s007/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "150983ccf26acb3e26770ee276840fdc0db65d406cd234c8b43e957dbb7c71f4",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout d065-review-d, stanzas 6–9)",
+      "inspected_at": "2026-11-16T03:49:00Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, when depicted, has one youthful head and two attached arms under the shared Vrindavan youth contract; the women, infant and Bhattathiri are assessed as separate figures with naturally connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d065.json",
+          "sha256": "9a66d787a112eec042b41d5b86f7f682500ca9623a7e3dc629e8a47fb7c56860"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d065-independent-review-d-v001.md",
+          "sha256": "356762aa2ed080dd7d40534e2f4a7f7968076cf80b43d57d0f209beae9c62c44"
+        },
+        {
+          "path": "art/reviews/d065-s007-landscape-v002-producer-v003.md",
+          "sha256": "cb0b98d46277165cfe6621e081df3b94c97a849244e0b3b171300469a4cedb8d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both seated women’s prayer or resting hands and covered lower bodies remain attached in their poses."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The two seated figures have distinct bodies and limbs; no fused or disconnected shape was reported."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The two women have separate, coherent faces in the home meditation scene."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The interior contains two separate women and no accidental repeated person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The open doorway’s blue field is flat paint; the scene and corners have no text, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The home setting and open doorway support inward devotion; the exterior remains a quiet blue field without rays or a light shaft."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Final exact-checksum review binds this selection to art/reviews/d065-independent-review-d-v001.md (SHA-256 356762aa2ed080dd7d40534e2f4a7f7968076cf80b43d57d0f209beae9c62c44) and the listed frozen contracts. No art approval. Producer inspection is separate: art/reviews/d065-s007-landscape-v002-producer-v003.md (SHA-256 cb0b98d46277165cfe6621e081df3b94c97a849244e0b3b171300469a4cedb8d). The open doorway and flat blue exterior remain a quiet field without light rays. Krishna is absent, consistent with the plan."
+    },
+    {
+      "chapter": 65,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d065/s008/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "56d024e37003e3d72f22aa073a7e6f98a1125f9accd57e935333e1510d711458",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout d065-review-d, stanzas 6–9)",
+      "inspected_at": "2026-11-16T03:49:00Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, when depicted, has one youthful head and two attached arms under the shared Vrindavan youth contract; the women, infant and Bhattathiri are assessed as separate figures with naturally connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d065.json",
+          "sha256": "9a66d787a112eec042b41d5b86f7f682500ca9623a7e3dc629e8a47fb7c56860"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d065-independent-review-d-v001.md",
+          "sha256": "356762aa2ed080dd7d40534e2f4a7f7968076cf80b43d57d0f209beae9c62c44"
+        },
+        {
+          "path": "art/reviews/d065-s008-landscape-v002-producer-v003.md",
+          "sha256": "2a2711f2620fb96109ed6ccc740dd4f7753d12bfb210ef7b60542e6cdbda7bc0"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The gopikas’ visible hands and limbs remain connected around their still poses; Krishna’s two arms stay attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The women and single Krishna keep separate body outlines without merging in the clearing."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and the foreground women have distinct faces; his forehead is plain and one upright feather is visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Krishna faces separate gopikas; no second deity or fused pair is present."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The sky, grass, foliage and corners contain no readable text, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The contemplative clearing matches the scene; the raised jeweled circlet and central crest replace the low band as disclosed."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Krishna wears a raised jeweled circlet with a central crest instead of the contract’s low gold band; one upright feather and a plain forehead remain visible, as disclosed in the plan."
+      ],
+      "notes": "Final exact-checksum review binds this selection to art/reviews/d065-independent-review-d-v001.md (SHA-256 356762aa2ed080dd7d40534e2f4a7f7968076cf80b43d57d0f209beae9c62c44) and the listed frozen contracts. No art approval. Producer inspection is separate: art/reviews/d065-s008-landscape-v002-producer-v003.md (SHA-256 2a2711f2620fb96109ed6ccc740dd4f7753d12bfb210ef7b60542e6cdbda7bc0). The ornament difference is disclosed. Krishna’s blue face patch has B−R 23; the reviewer also measured gopika cheek patches R−B 118, 126 and 128."
+    },
+    {
+      "chapter": 65,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d065/s009/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "06613726be694885316e64f00b5ede9a67bd617b0233129cf6d75e3483f0dc9d",
+      "reviewer": "Firstmate-dispatched independent Codex reviewer (scout d065-review-d, stanzas 6–9)",
+      "inspected_at": "2026-11-16T03:49:00Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, when depicted, has one youthful head and two attached arms under the shared Vrindavan youth contract; the women, infant and Bhattathiri are assessed as separate figures with naturally connected anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d065.json",
+          "sha256": "9a66d787a112eec042b41d5b86f7f682500ca9623a7e3dc629e8a47fb7c56860"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d065-independent-review-d-v001.md",
+          "sha256": "356762aa2ed080dd7d40534e2f4a7f7968076cf80b43d57d0f209beae9c62c44"
+        },
+        {
+          "path": "art/reviews/d065-s009-landscape-v003-producer-v003.md",
+          "sha256": "e6a56df60ee77f51434f8d260daefbd44167b11e6613181b6e260bb37f9d18fd"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s open and chest-level hands and Bhattathiri’s joined prayer hands remain connected; visible feet stay in frame without clear malformed digits."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna, three gopikas and kneeling Bhattathiri form separate connected bodies; the prayer pose remains coherent."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna smiles gently, the gopikas have distinct faces, and Bhattathiri is older and clean-shaven with his established tuft and forehead marks."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Krishna, three women and one Bhattathiri are visible without a duplicated or fused body."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The river, lotus area, ground and corners contain no writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The compassionate Krishna and foreground prayer follow the closing scene; plan-disclosed warm-color patch measurements remain visible without a separate structural defect."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Two gopika face patches (R−B 149 and 160) and a Bhattathiri patch (R−B 149) exceed the warm-brown target; the plan discloses these color measurements."
+      ],
+      "notes": "Final exact-checksum review binds this selection to art/reviews/d065-independent-review-d-v001.md (SHA-256 356762aa2ed080dd7d40534e2f4a7f7968076cf80b43d57d0f209beae9c62c44) and the listed frozen contracts. No art approval. Producer inspection is separate: art/reviews/d065-s009-landscape-v003-producer-v003.md (SHA-256 e6a56df60ee77f51434f8d260daefbd44167b11e6613181b6e260bb37f9d18fd). Krishna retains a plain forehead, low gold band and upright feather. His face patch has B−R 47. The disclosed skin-color measurements were independently checked against additional warm-brown/ochre patches; no separate structural defect was reported."
     }
   ]
 }
