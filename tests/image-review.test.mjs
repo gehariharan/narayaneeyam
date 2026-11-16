@@ -587,6 +587,8 @@ test('D063 comparison binds ten numbered captions, frozen native landscapes, and
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
   const batch = batches.find(item => item.daskam_id === 63);
+  assert.equal(batch?.selectionFile, 'd063-comparison-v008.json');
+  assert.ok(batch.review_notice.toLowerCase().includes('unapproved'));
   assert.equal(batch?.rows.length, 10);
   const content = JSON.parse(await fs.readFile(path.join(root, 'content/daskams/d063.json'), 'utf8'));
   assert.deepEqual(content.stanzas.map(stanza => stanza.commentary_source), Array.from({ length: 10 }, (_, index) => `intake/D063/photo-captions.txt#${index + 1}`));
