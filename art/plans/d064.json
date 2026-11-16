@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "daskam_id": 64,
+  "slug": "d064",
+  "continuity": {
+    "anchor_character": "krishna-vrindavan-youth",
+    "recurring_characters": [
+      "Krishna",
+      "Nandagopan",
+      "Gokula cowherds",
+      "Indra"
+    ],
+    "locations": [
+      "Vraja gathering",
+      "Gokula",
+      "Yamuna river",
+      "Varuna's underwater court",
+      "Vaikuntha"
+    ],
+    "narrative_arc": "The cowherds ask about Krishna's birth and hear Garga's prophecy; humbled Indra and Surabhi honor Krishna as Govinda; Gokula prospers; Krishna retrieves Nanda from Varuna and reveals Vaikuntha to the cowherds before the closing praise.",
+    "krishna_form_contract": "Use the established krishna-vrindavan-youth contract wherever youthful cowherd Krishna appears: deep matte blue skin, long dark curly hair, yellow dhoti, muted red-orange shawl, a plain smooth forehead, and one simple low gold band with one upright peacock feather. He has one face, two attached arms and hands, and two legs and feet. Never use an infant face, tall crown, forehead mark, or duplicate Krishna. In stanza 8 Vaikuntha is a revealed realm around him, not a second Krishna body; any separate Vishnu icon has its own one head and four arms.",
+    "supporting_people_contract": "Nandagopan is a mature, moustached cowherd in simple cream and muted olive/green clothing. Gopas are a small group of individually distinct, naturally proportioned people. All ordinary people have two arms and two legs with connected hands and feet. Keep faces, limbs and clothing distinct; no clones, fused bodies or detached parts.",
+    "deity_contracts": {
+      "indra": "Indra is an adult male deity with one head and two arms, a modest painted-ochre crown, simple muted celestial garments and no peacock feather. Bowing and ritual actions must have connected natural hands. No thunderbolt unless explicitly required by a stanza; it is not required here.",
+      "surabhi": "Surabhi is one coherent sacred cow with natural bovine anatomy and four legs; she is distinct from Airavata.",
+      "airavata": "Airavata is one coherent pale elephant with natural elephant anatomy, four legs and a connected trunk; no extra heads or limbs. The source caption and approved Airavata character contract require exactly four distinct tusks rooted in the mouth region in two pairs.",
+      "varuna": "Varuna is a calm adult water deity with one head and two arms, a simple painted crown and muted water-toned garments; do not add unsupported weapons or additional arms. His attendants are not needed."
+    },
+    "rendering_references": [
+      {
+        "path": "artifacts/d064/references/shared/style-d001-s004.png",
+        "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+        "role": "series rendering and palette anchor"
+      },
+      {
+        "path": "artifacts/d064/references/shared/style-d001-s008.png",
+        "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+        "role": "series rendering and palette anchor"
+      }
+    ],
+    "palette_contract": "Flat, opaque matte South Indian temple-mural painting with broad mineral fields and firm dark drawn contours; warm cream, earth ochre, deep maroon, muted olive and deep blue Krishna. Painted ochre ornament only. No glossy skin, reflective metallic gold, silk sheen, cinematic beams, outer border, text or texture overlay. Ordinary human skin must read as warm brown: skin-only 15x15-pixel patch medians should have red-minus-blue under 120. Youthful Krishna must remain deep indigo-blue with blue-minus-red at least 40.",
+    "reference_roles": "Each numbered D064 photo is a mapped scene/cast reference only, not a rendering reference. The two D001 images anchor rendering only. The relevant character-bible text controls identity, headwear, clothing and deity anatomy; do not transfer forehead marks or other identity details from reference paintings.",
+    "production_scope": "Prepare ten native landscape 16:9 concepts. Portrait compositions remain paused. No art approval or master assignment is made by this plan."
+  },
+  "character_bible_refs": [
+    "art/bible/characters/krishna-vrindavan-youth/character.json",
+    "art/bible/characters/nandagopan/character.json",
+    "art/bible/characters/gopas/character.json",
+    "art/bible/characters/indra/character.json",
+    "art/bible/characters/surabhi/character.json",
+    "art/bible/characters/airavata/character.json",
+    "art/bible/characters/d064-varuna/character.json",
+    "art/bible/characters/d027-vishnu/character.json"
+  ],
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d064-s001",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "nandagopan",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna holds Govardhana aloft while a small group of cowherds shelters beneath it; their wonder recalls the deeds that led them to ask Nandagopan about Krishna's birth and horoscope.",
+          "Show one youthful Krishna supporting the underside of Govardhana with his raised palm, the hill visibly resting on his hand from below. Place Nandagopan and two or three distinct gopas safely beneath the hill, with one gopa turned toward Nanda in a questioning gesture; use no readable chart or writing."
+        ],
+        "composition": "Compose one clear wide Govardhana shelter scene: the hill spans the upper frame, Krishna's raised palm visibly contacts its underside, and Nandagopan with two or three distinct gopas stands in open shelter below. Keep the contact point and every hand visible; do not duplicate Krishna to show the question as a separate moment.",
+        "tone": "Curious, intimate and reverent; the villagers' question turns toward recognition of Krishna's greatness.",
+        "avoid": [
+          "No second Krishna, infant Krishna, readable horoscope or text. Do not make the hill float above a hand that touches only its side; show the palm supporting it from below.",
+          "No extra or detached limbs, fused people, cloned faces, wrong costume, glossy finish, metallic gold, cinematic light or border."
+        ]
+      },
+      "alt": "The cowherds ask Nandagopan about Krishna's birth and horoscope.",
+      "reference_paths": [
+        "intake/D064/001.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/001 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape narrative mural",
+          "composition_override": "Compose a full native 16:9 scene with safe space around every face, hand and foot; do not crop another orientation.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d064/s001/landscape/candidate-v003.png",
+          "candidate_sha256": "b80c9e1e7b0168006b2cd4d39b57ce26ea72b87e7ecaf294aa7782fefa957899",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Producer findings: Nandagopan skin sample at (665,420) median RGB(181,91,26), red-minus-blue 155, above the under-120 brown-skin target; original v002 prompt and reference-argument bytes were overwritten by an earlier session. Recorded original prompt SHA-256 8643fafa63f464993febb41901401e5905b3721583538d23a1590b71862645b8; the v002 native return image and generation record survive, while the current v004 prompt and argument files are not the originals. Krishna’s lower feet are partly cropped by the bottom frame edge. DISCLOSED DEVIATION: Krishna's raised hand pressed against the hill underside (native x=1020–1140, y=225–275) reads as a flat two-pronged silhouette; fingers are not separately delineated. Independent reports f and g identify this same reading. Independent exact-checksum report c additionally measured Nandagopan face patches RGB(179,90,25) and RGB(184,92,27), red-minus-blue 154 and 157, and gopa patches RGB(233,163,84) and RGB(188,98,30), red-minus-blue 149 and 158; these warm-orange readings exceed the under-120 target. Report c also observed fine mottling/patterned mural-field texture, which departs from the series flat-field/no-texture-overlay preference. Independent final report f measured Nandagopan patches RGB(181,91,26) and RGB(179,90,26), R−B 155/153, and gopa patches RGB(190,97,31) and RGB(193,99,31), R−B 159/162. The orange readings are disclosed alongside prior samples.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d064/s001/prompts/landscape-v006.md",
+          "provenance_path": "artifacts/d064/s001/landscape/generation-record-v003.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d064-s002",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "nandagopan",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Nandagopan shares with the cowherds what Garga had foretold about Krishna's greatness, and their affection and respect deepen.",
+          "Show Nanda speaking to a small distinct group while youthful Krishna is present nearby as himself; suggest Garga's remembered prophecy through attentive listening, not a ghostly Garga or a second infant Krishna."
+        ],
+        "composition": "A warm village gathering around seated or standing Nanda, with two or three varied listeners and Krishna clearly identifiable but not duplicated; no written prophecy.",
+        "tone": "Warm trust and growing reverence, kept personal and restrained.",
+        "avoid": [
+          "No infant Krishna, visible horoscope, readable prophecy, duplicate Krishna, or extra sage in the scene.",
+          "No clones, fused anatomy, extra fingers, detached hands, gloss, metallic gold, cinematic lighting or border."
+        ]
+      },
+      "alt": "Nandagopan recounts Garga's prophecy about Krishna to the cowherds.",
+      "reference_paths": [
+        "intake/D064/002.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/002 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape narrative mural",
+          "composition_override": "Compose a new full 16:9 landscape scene; keep all faces and hands inside the frame.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d064/s002/landscape/candidate-v003.png",
+          "candidate_sha256": "59b01c0ff2057165552f0ae820adab9aac3e75987560a1f8fe7377b4ff04ff26",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Producer findings: Nandagopan and one gopa sampled at (1220,280) and (720,270) have median RGB(198,108,35) and RGB(192,105,35), red-minus-blue 163 and 157, above the under-120 brown-skin target; original v002 prompt and reference-argument bytes were overwritten by an earlier session. Recorded original prompt SHA-256 ff9523a51f5053364f1163f06d8b13c640fa33084d9b9f446512408fe9ac16e7; the v002 native return image and generation record survive, while current v004 prompt and argument files are not the originals. Independent exact-checksum report c additionally measured Nandagopan RGB(199,108,34) and RGB(181,104,36), red-minus-blue 165 and 145, and gopa RGB(197,107,36) and RGB(238,179,105), red-minus-blue 161 and 133; all exceed the under-120 target. Report c also observed fine mottling/patterned mural-field texture, which departs from the series flat-field/no-texture-overlay preference. Independent final report f measured Nandagopan patches RGB(198,108,35) and RGB(197,105,33), R−B 163/164, and gopa patches RGB(192,105,35) and RGB(194,106,37), R−B 157/157; these orange readings are disclosed. The fine mottled field texture remains visible.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d064/s002/prompts/landscape-v006.md",
+          "provenance_path": "artifacts/d064/s002/landscape/generation-record-v003.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d064-s003",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "indra",
+        "surabhi"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Humbled Indra arrives with the divine cow Surabhi, bows so his crown touches Krishna's feet, and praises him.",
+          "Show one youthful Krishna standing quietly, one distinct two-armed Indra bowing, and one coherent sacred cow beside him; keep the bow, crown, feet and hands anatomically connected."
+        ],
+        "composition": "Set the respectful bow at the foreground with Surabhi clearly visible nearby; keep Krishna's full two-armed cowherd form and the single-headed Indra legible.",
+        "tone": "Humble apology and quiet divine dignity, without spectacle.",
+        "avoid": [
+          "No extra arms on Krishna or Indra, no duplicate Krishna, no peacock feather on Indra, no extra cow heads or limbs, and no thunderbolt.",
+          "No malformed bow, fused bodies, extra fingers, glossy skin, reflective gold, cinematic light or text."
+        ]
+      },
+      "alt": "Humbled Indra bows before Krishna with the divine cow Surabhi.",
+      "reference_paths": [
+        "intake/D064/003.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/003 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape narrative mural",
+          "composition_override": "Compose the full action in a new 16:9 landscape with clear space around the bowed figure and cow.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d064/s003/landscape/candidate-v004.png",
+          "candidate_sha256": "8fef60deb7b7f3c908606ba16ae0f5c741b2619e3f3e84a907bd0473eab28cba",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Producer findings: The bowed human face/skin remains visibly copper-orange; producer crop sample at (967,677) median RGB(204,100,5), red-minus-blue 199, above the under-120 brown-skin target. Independent exact-checksum report c additionally measured Indra's face RGB(161,69,6), red-minus-blue 155, and a darker exposed arm RGB(59,37,20), red-minus-blue 39; the face exceeds the under-120 target. Report c also observed fine mottling/patterned mural-field texture, which departs from the series flat-field/no-texture-overlay preference. Independent final report f noted Indra's lower body continues off the left frame edge while his face, crown and joined hands remain fully inside. It measured Indra face patches RGB(204,100,5) and RGB(231,124,5), R−B 199/226, and exposed arm RGB(194,115,26), R−B 168; orange face readings exceed target. Fine mural-field mottling remains visible.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d064/s003/prompts/landscape-v006.md",
+          "provenance_path": "artifacts/d064/s003/landscape/generation-record-v004.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d064-s004",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "indra",
+        "surabhi",
+        "airavata"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Surabhi lovingly performs an abhisheka over Krishna with a stream of milk flowing clearly from her udder, naming him Govinda; Airavata brings Ganga water and Indra joyfully joins the consecration.",
+          "Show one Krishna with exactly two arms, one coherent four-legged cow with visible udder as the milk source, one distinct elephant and one two-armed Indra; keep the milk and Ganga streams visibly connected to their sources and recipient."
+        ],
+        "composition": "Center Krishna beneath a simple abhisheka vessel or clear stream of milk from Surabhi; place Airavata to one side with Ganga water and Indra performing a separate respectful offering. Avoid crowding the animals together.",
+        "tone": "Joyful and sacred, with calm ritual clarity.",
+        "avoid": [
+          "Milk must come from Surabhi’s udder, never from her mouth, nose or horns. No duplicate or fused animals, unattached streams, extra limbs, or malformed hands.",
+          "No metallic gold, gloss, cinematic beams, text, border or distorted anatomy."
+        ]
+      },
+      "alt": "Surabhi and Indra perform Krishna's Govinda abhisheka with milk and Ganga water.",
+      "reference_paths": [
+        "intake/D064/004.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/004 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape ritual mural",
+          "composition_override": "Recompose the entire abhisheka for 16:9; preserve clear separations between Krishna, cow and elephant.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d064/s004/landscape/candidate-v004.png",
+          "candidate_sha256": "d51975bd4e0c7929d13607a56568457663a8a7a22fa81197e8e7bf51df4fb086",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Producer findings: Indra skin sample at (1180,405) median RGB(193,108,43), red-minus-blue 150, above the under-120 brown-skin target. Independent review counted four distinct Airavata tusks in two pairs; the earlier producer note that only two were visible was mistaken and is corrected here. Airavata’s peripheral body reaches the right frame edge, while its face, trunk and tusks remain intact. The udder milk stream falls to the ground and does not clearly join Krishna’s abhisheka. Independent exact-checksum report c additionally measured Indra's exposed arm RGB(125,93,27), red-minus-blue 98 (face sample remains disclosed above the target). Report c confirmed four distinct Airavata tusks in two pairs and noted fine mottling/patterned mural-field texture, which departs from the series flat-field/no-texture-overlay preference. Independent final report f measured Indra face patches RGB(193,108,43) and RGB(212,115,8), R−B 150/204; Airavata's four tusks are distinct in two pairs, and Surabhi's milk falls to ground at approximately x=150–300,y=540–820 rather than joining Krishna's abhisheka. Fine mural-field texture remains visible.",
+          "native_dimensions": "1671x941",
+          "prompt_path": "artifacts/d064/s004/prompts/landscape-v006.md",
+          "provenance_path": "artifacts/d064/s004/landscape/generation-record-v004.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d064-s005",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "nandagopan",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "After Krishna's consecration, Gokula flourishes with a prosperity compared to Vaikuntha, beyond even heavenly wealth.",
+          "Show peaceful Gokula life: healthy cattle, a fertile pasture, well-kept homes and a small group of grateful cowherds with Krishna among them; keep prosperity grounded in the village rather than literal piles of gold."
+        ],
+        "composition": "Use a broad, balanced village landscape with Krishna and a few distinct cowherds as a modest focal group, surrounded by healthy cattle and cultivated greenery.",
+        "tone": "Abundant, peaceful and devotional.",
+        "avoid": [
+          "No palace replacing Gokula, no heaps of treasure, no second Krishna, no cloned cattle or repeated villagers.",
+          "No extra limbs, fused people, glossy finish, metallic gold, cinematic light, text or outer border."
+        ]
+      },
+      "alt": "Gokula prospers through Krishna's grace after the Govinda abhisheka.",
+      "reference_paths": [
+        "intake/D064/005.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/005 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape village mural",
+          "composition_override": "Build a spacious new 16:9 village composition with all people and cattle fully connected and inside the frame.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d064/s005/landscape/candidate-v003.png",
+          "candidate_sha256": "99ce80ac763736678343ecfff8b838c8e6308e89b650a8feac90843780ac9445",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Producer findings: Nandagopan skin sample at (880,300) median RGB(200,110,35), red-minus-blue 165, above the under-120 brown-skin target; a gopa sample at (1180,270) is RGB(93,56,31), red-minus-blue 62. Independent review also measured Nandagopan at (880,300) and (870,305): RGB(192,106,33) and RGB(205,115,38), red-minus-blue 159 and 167; two gopa skin patches at (1150,300) and (1155,310) are RGB(198,112,35) and RGB(202,113,37), red-minus-blue 163 and 165. These orange readings are present alongside the earlier producer sample at (1180,270). Independent exact-checksum report c additionally measured Nandagopan patches RGB(192,106,33) and RGB(200,110,33), red-minus-blue 159 and 167; gopa patches RGB(198,112,35), RGB(149,85,24), RGB(241,168,69) and RGB(133,68,28), red-minus-blue 163, 125, 172 and 105. The warm-orange readings above target are present alongside the prior disclosed measurements. Report c also observed fine mottling/patterned mural-field texture, which departs from the series flat-field/no-texture-overlay preference. Independent final report f measured Nandagopan patches RGB(200,110,35) and RGB(204,113,37), R−B 165/167, and gopa patches RGB(200,111,36) and RGB(93,56,31), R−B 164/62; orange readings and field texture are disclosed.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d064/s005/prompts/landscape-v006.md",
+          "provenance_path": "artifacts/d064/s005/landscape/generation-record-v003.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d064-s006",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "nandagopan"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "At dawn, a servant of Varuna takes Nandagopan from the Yamuna; Krishna goes in human cowherd form to Varuna's underwater city to retrieve his father.",
+          "Show the rescue journey at the threshold of a stylized underwater court: youthful Krishna arrives and finds Nanda safely escorted, without showing violence or turning Krishna into a multi-armed deity."
+        ],
+        "composition": "Frame Krishna and Nanda clearly in a shallow, symbolic underwater palace with a few aquatic motifs; if the servant is included, show one distinct two-armed attendant at a respectful distance.",
+        "tone": "Protective and otherworldly, but calm rather than threatening.",
+        "avoid": [
+          "No kidnapping violence, drowning, monster anatomy, duplicated Krishna or Nanda, extra limbs, or detached hands.",
+          "No infant face, glossy water reflections, cinematic beams, metallic gold, text or border."
+        ]
+      },
+      "alt": "Krishna enters Varuna's underwater realm to bring Nandagopan home.",
+      "reference_paths": [
+        "intake/D064/006.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/006 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape narrative mural",
+          "composition_override": "Compose a full new 16:9 underwater-realm scene; keep silhouettes, faces and hands separated from the background.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d064/s006/landscape/candidate-v003.png",
+          "candidate_sha256": "4c6eaea136846f0d2f806360732a42289b9741024293ac1e267b889a7ce3ab24",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Independent review leaves Nandagopan’s skin color uncertain: exposed-arm 15×15 medians at (850,350) and (870,390) are RGB(199,114,47) and RGB(199,108,39), red-minus-blue 152 and 160; the skin reads warm orange rather than confidently warm medium brown. Krishna meets the deep-blue target: patches at (420,340) and (450,350) are RGB(36,49,98) and RGB(38,49,85), blue-minus-red 62 and 47. The earlier producer sample at (950,210) landed in beard/shadow and was not a reliable skin-only measurement. Other inspected hands and limbs are connected. DISCLOSED DEVIATION: Krishna's two open gesturing hands read as a thumb plus three distinct fingertips/segments (native crops about x=685–790,y=245–325 and x=565–695,y=410–490); reports f/g find the same reading, while reviewer d found no hand defect. The candidate remains unchanged after its repair rounds. Tiebreak report e measured Nandagopan five skin-only patches: face cheek RGB(203,114,45), R−B 158; face forehead RGB(187,102,42), R−B 145; arms RGB(199,114,47), RGB(199,108,39), RGB(203,113,44), R−B 152, 160, 159. All exceed the under-120 warm-brown target and read orange. Krishna's deep-blue samples remain RGB(36,49,98) and RGB(38,49,85), B−R 62 and 47. Independent final report g confirmed the two open hands' thumb-plus-three-fingertip reading at the cited crops and found no worse defect; reviewer f found no hand defect, so the readings vary between reviewers. Report g measured Nandagopan RGB(203,114,45) at (965,205), R−B 158, and RGB(199,114,47) at (850,350), R−B 152; orange skin remains disclosed. Painted necklaces and armlets are conspicuous ordinary mural ornament; fine patterned surface variation is visible against the flat-field/no-texture-overlay preference.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d064/s006/prompts/landscape-v006.md",
+          "provenance_path": "artifacts/d064/s006/landscape/generation-record-v003.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d064-s007",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "nandagopan",
+        "d064-varuna",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Varuna receives Krishna respectfully, apologizes for his servant's mistake, and Krishna returns home with Nanda; Nanda then tells the cowherds what happened.",
+          "Focus on Varuna honoring Krishna with Nanda beside him, while the visual path or doorway implies their return to Gokula; do not create a second Nanda or Krishna to show the later narration."
+        ],
+        "composition": "Arrange one two-armed Varuna in respectful welcome, Krishna and Nanda together in the foreground, with a simple water-court threshold and a small distant suggestion of Gokula; no extra attendants are needed.",
+        "tone": "Apology, relief and reunion.",
+        "avoid": [
+          "No duplicate figures used as sequential panels, no four-armed Varuna, no extra limbs, fused people, detached hands, or crowd of clones.",
+          "No infant Krishna, glossy skin, reflective gold, cinematic light, text or border."
+        ]
+      },
+      "alt": "Varuna apologizes as Krishna returns with Nandagopan from the water realm.",
+      "reference_paths": [
+        "intake/D064/007.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/007 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape narrative mural",
+          "composition_override": "Compose a new 16:9 scene with the apology and safe return readable without duplicated sequential figures.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d064/s007/landscape/candidate-v003.png",
+          "candidate_sha256": "8c82889d5052bff2353682e42db7b1ac8a275696fe3088fafd5d5688e3cc83a4",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Producer findings: Nandagopan sample at (1180,220) median RGB(197,102,40), red-minus-blue 157, and Varuna at (445,420) RGB(180,102,43), red-minus-blue 137; both exceed the under-120 brown-skin target. Independent exact-checksum report d also measured Krishna patches RGB(34,52,111) and RGB(41,53,106), blue-minus-red 77 and 65, meeting target; the previously disclosed Nandagopan and Varuna skin patches exceed the under-120 target. Independent final report g additionally measured Nandagopan patches RGB(197,102,40)/(195,102,43), R−B 157/152, and Varuna RGB(180,102,43)/(152,86,8), R−B 137/144; orange skin remains disclosed. Varuna's visibly ornamented gold crown (about x=380–525,y=215–345) is ordinary iconography; fine patterned surface variation is visible.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d064/s007/prompts/landscape-v006.md",
+          "provenance_path": "artifacts/d064/s007/landscape/generation-record-v003.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d064-s008",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas",
+        "d027-vishnu"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural devotional vision",
+        "must_show": [
+          "The cowherds, convinced Krishna is Hari, long to see his supreme abode; Krishna reveals Vaikuntha to them.",
+          "Show one youthful two-armed Krishna in cowherd dress opening a clear vision of Vaikuntha around a small distinct group of gopas; if a Vishnu form appears within the vision, depict it as a separate, clearly framed four-armed deity with one head and the traditional conch, discus, mace and lotus, never as extra arms attached to Krishna."
+        ],
+        "composition": "Place Krishna and the gopas in a grounded Vraja foreground with a luminous but matte, shallow-space Vaikuntha vision opening behind or above them; preserve separation between the cowherd Krishna and any distinct Vishnu icon.",
+        "tone": "Wonder, intimacy and serene revelation.",
+        "avoid": [
+          "No extra limbs on Krishna, no fused Krishna-Vishnu body, no second cowherd Krishna, no cloned gopas, and no uncontrolled beams or glossy glow.",
+          "No text, metallic gold, cinematic lighting, outer border or malformed deity attributes."
+        ]
+      },
+      "alt": "Krishna reveals the supreme abode of Vaikuntha to the longing cowherds.",
+      "reference_paths": [
+        "intake/D064/008.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/008 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape revelation mural",
+          "composition_override": "Compose a fresh wide 16:9 revelation; keep the earthly group, Krishna and any distinct Vaikuntha icon visually separate.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d064/s008/landscape/candidate-v004.png",
+          "candidate_sha256": "9f53fe5496687f69bdd479d3159d1eb49b9f60569088a1cc5b2ae142b03591c7",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Producer findings: The separate four-armed Vishnu is visibly distinct from two-armed cowherd Krishna and carries four attributes. Two human skin patches sampled at (260,400) and (130,450) have median RGB(252,190,86) and RGB(211,117,37), red-minus-blue 166 and 174, above the under-120 brown-skin target. Original v002 prompt and reference-argument bytes were overwritten by an earlier session. Recorded original prompt SHA-256 c70e891bb4871e8c3433fd8b295b37f8b2f48de1125be7fb06ff1736af4a6f2c; the v002 native return image and generation record survive, while current v005 prompt and argument files are not the originals. Independent exact-checksum report d additionally measured gopa skin patches RGB(252,190,86), RGB(253,191,85), RGB(211,117,37), RGB(211,124,45), red-minus-blue 166, 168, 174 and 166; these exceed the under-120 target. Krishna and Vishnu blue-minus-red samples remain above 40. Independent final report g measured gopa patches RGB(252,190,86), RGB(211,117,37), RGB(252,188,81), RGB(253,190,77), R−B 166/174/171/176, all above target. Fine patterned surface variation is visible against the flat-field/no-texture-overlay preference; Vishnu's crown and layered ornaments are elaborate iconographic ornament. DISCLOSED DEVIATION: Krishna's viewer-right raised open hand at native x=655–750,y=275–325 reads as a thumb plus three distinct fingertips; the fourth finger is absent. Independent final report g confirms this reading.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d064/s008/prompts/landscape-v007.md",
+          "provenance_path": "artifacts/d064/s008/landscape/generation-record-v004.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d064-s009",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural symbolic vision",
+        "must_show": [
+          "The cowherds remain immersed for a long time in an immense ocean of bliss and liberation, and Krishna himself brings them back.",
+          "Represent the ocean as a calm, symbolic field of flowing matte cream and deep-blue water or lotus forms; show one small group of gopas safely immersed and one connected Krishna gently guiding them back to the shore of awareness."
+        ],
+        "composition": "Use a broad, shallow symbolic ocean with the gopas grouped distinctly and Krishna at the transition between blissful vision and the familiar world; avoid underwater realism.",
+        "tone": "Deep bliss resolving gently into awareness and companionship.",
+        "avoid": [
+          "No drowning, distress, faceless submerged figures, cloned gopas, duplicate Krishna, fused bodies, or floating detached limbs.",
+          "No glossy reflections, cinematic light, metallic gold, text, border or photoreal water."
+        ]
+      },
+      "alt": "Krishna brings the cowherds back from the blissful ocean of liberation.",
+      "reference_paths": [
+        "intake/D064/009.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/009 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape symbolic mural",
+          "composition_override": "Recompose the symbolic ocean scene for a new 16:9 frame with clear boundaries and visible connected figures.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d064/s009/landscape/candidate-v003.png",
+          "candidate_sha256": "ffa5e99f6d60be12ecbab0a987c4e16604ff3123a77ca78c71a0e5bab420f2c0",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Producer findings: One immersed gopa skin sample at (150,480) is RGB(188,100,34), red-minus-blue 154, above the under-120 brown-skin target; other sampled gopa patches at (400,480) and (760,520) are RGB(172,114,91) and RGB(99,50,23), red-minus-blue 81 and 76. Independent exact-checksum report d additionally measured gopa patches RGB(188,100,34), RGB(200,107,38), RGB(172,114,91), RGB(99,50,23), red-minus-blue 154, 162, 81 and 76; the first two exceed the under-120 target and the latter two do not. Krishna patches meet the deep-blue target. Independent final report g measured gopa patches RGB(188,100,34), RGB(172,114,91), RGB(99,50,23), RGB(195,103,35), R−B 154/81/76/160; the first and fourth exceed the under-120 target. Fine patterning is visible against the flat-field/no-texture-overlay preference.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d064/s009/prompts/landscape-v006.md",
+          "provenance_path": "artifacts/d064/s009/landscape/generation-record-v003.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d064-s010",
+      "characters": [
+        "krishna-vrindavan-youth"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural devotional portrait",
+        "must_show": [
+          "The closing verse praises the rare gift of seeing the otherwise inaccessible Vaikuntha through Krishna's cowherd incarnation and prays for protection from afflictions.",
+          "Show Krishna as a serene youthful cowherd, deep blue and two-armed, with a restrained Vaikuntha motif close by to suggest the revealed abode; keep the focus on this chapter's closing praise rather than inventing a new narrative event."
+        ],
+        "composition": "Give Krishna a calm central presence in a quiet Vraja setting, with a subtle symbolic Vaikuntha opening and ample clean negative space; no other person is needed.",
+        "tone": "Quiet gratitude, awe and devotional trust.",
+        "avoid": [
+          "Do not depict Bhattathiri; he is not needed to communicate this verse. No infant face, duplicate Krishna, unsupported narrative action, extra limbs, or fused forms.",
+          "No text, signature, logo, watermark, glossy skin, reflective gold, cinematic beams or outer border."
+        ]
+      },
+      "alt": "The closing praise honors Krishna's cowherd form and the revealed Vaikuntha.",
+      "reference_paths": [
+        "intake/D064/010.jpg",
+        "artifacts/d064/references/shared/style-d001-s004.png",
+        "artifacts/d064/references/shared/style-d001-s008.png"
+      ],
+      "reference_guidance": "Use D064/010 only for its mapped scene action and cast. Use D001 S004 and S008 only for matte rendering. Follow the named character bibles exactly; do not copy reference faces, forehead marks, costume details, pose, finish or framing. Recompose the scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape closing devotional mural",
+          "composition_override": "Compose a new, calm 16:9 closing image with Krishna's full figure and symbols inside the frame.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d064/s010/landscape/candidate-v003.png",
+          "candidate_sha256": "236eab79f888585aa0101954d8867eba1952dd2c6cd6ab97bdedffcd4fed2c66",
+          "candidate_status": "selected for an unapproved reference-versus-candidate comparison; independent exact-checksum review is recorded; captain art approval remains pending. Producer findings: No ordinary human figures are present for a skin sample; the youthful Krishna forehead is plain and his single low band and upright feather are visible. Both feet remain inside with a narrow visible margin at the lower edge. Fine patterned surface variation is visible against the flat-field/no-texture-overlay preference. DISCLOSED DEVIATION: Krishna's raised viewer-right open hand at native x=860–1005,y=280–370 reads as a thumb plus three distinct fingertips; the fourth finger is absent. Independent final report g confirms this reading.",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d064/s010/prompts/landscape-v006.md",
+          "provenance_path": "artifacts/d064/s010/landscape/generation-record-v003.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    }
+  ]
+}

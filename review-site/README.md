@@ -40,7 +40,7 @@ Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
 then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D027, D028, D029, D031 through D037, D039, D040, D041, D042, D043, D044, D048, D062, D063, D065, D066 and D067 media from the release using the existing
+D005 through D014, D027, D028, D029, D031 through D037, D039, D040, D041, D042, D043, D044, D048, D062, D063, D064, D065, D066 and D067 media from the release using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -511,6 +511,10 @@ D062 contains ten stanza-specific landscape comparisons mapped to the accepted c
 ## Dasakam 63
 
 D063 contains ten native landscape comparison candidates in `art/batches/d063-comparison-v008.json`, matched to the ten numbered source photos and captions and pinned by SHA-256 to the final plan `art/plans/d063.json`. The selected versions are S001–S003 v005, S004–S005 v006, S006–S007 v004, S008–S009 v005 and S010 v004. Final independent exact-checksum reviews are in `art/reviews/d063-independent-review-*.md`, with one record per image in `art/reviews/visual-reviews.json`; producer observations are indexed in `art/reviews/d063-producer-review-index-v008.md`. Known deviations are disclosed in the plan and the batch `review_notice`. Canonical Sanskrit and IAST are sourced from Stotra Nidhi; no English verse translation was supplied. Candidates remain unapproved and portraits are paused. Upload only D063's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=63` before a serialized Worker deployment. With D063 added, the selection union contains 37 chapters, 381 stanza rows, 784 review media inputs and 387 generated selections (69 historical and 318 individually inspected). Recalculate these totals if main advances.
+
+## Dasakam 64
+
+D064 contains ten native landscape comparison candidates in `art/batches/d064-comparison-v001.json`, matched by SHA-256 to numbered source photos and captions 1–10 and pinned to the plan `art/plans/d064.json`. Numbered files 011–013 are uncaptioned reference extras and are not assigned to stanzas. The selected versions are S001–S002 v003, S003–S004 v004, S005–S007 v003, S008 v004 and S009–S010 v003; candidate history is listed in `art/batches/d064-candidate-versions-v001.json`. Final independent exact-checksum reviews k/l (`art/reviews/d064-independent-review-k.md` and `-l.md`) pass all ten selections, with one record per image in `art/reviews/visual-reviews.json`; producer reports are kept separately as `art/reviews/d064-s*-producer-review-v001.md`. Known deviations are disclosed in the plan and the batch `review_notice`. Canonical Sanskrit and IAST are sourced from Stotra Nidhi; no English verse translation was supplied. Candidates remain unapproved and portraits are paused. Upload only D064's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=64` before a serialized Worker deployment.
 
 ## Dasakam 65
 

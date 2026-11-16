@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "daskam_id": 64,
+  "caption_source": "intake/D064/photo-captions.txt",
+  "canonical_count": 10,
+  "mapping_method": "The accepted readiness record verifies each numbered caption against the supplied post metadata and prior inventory hashes. Caption labels, not unverified filename assumptions, identify the stanza; the numbered filename and caption label agree for these ten mappings.",
+  "stanzas": [
+    { "n": 1, "caption_label": 1, "filename": "001.jpg", "sha256": "09ae9b3ee716cb948e56d3f0b82cefb416a643354614023b4cc686c5716d9d66", "commentary_source": "intake/D064/photo-captions.txt#1" },
+    { "n": 2, "caption_label": 2, "filename": "002.jpg", "sha256": "49f5e317b9d0a363f6b7c78796bef52edb289eb3230b9857b3fc3bb4cd35d3be", "commentary_source": "intake/D064/photo-captions.txt#2" },
+    { "n": 3, "caption_label": 3, "filename": "003.jpg", "sha256": "630747ed90a89f174f9e0e8ed37091948b120bd298412342312b6cb8558c7b24", "commentary_source": "intake/D064/photo-captions.txt#3" },
+    { "n": 4, "caption_label": 4, "filename": "004.jpg", "sha256": "ec171d8e18950c3084b4d54fe7835494bf80ce230b6e5bf7384f41d254b92a47", "commentary_source": "intake/D064/photo-captions.txt#4" },
+    { "n": 5, "caption_label": 5, "filename": "005.jpg", "sha256": "8f08fe3f980808441b83e2d98770af8044f146e6a72e5392cfdda4dc8a6a7d1b", "commentary_source": "intake/D064/photo-captions.txt#5" },
+    { "n": 6, "caption_label": 6, "filename": "006.jpg", "sha256": "a76c2ceb2449afd06ccc92c3751c6b949c43b5763ab2ce4213dc8e75bf70043a", "commentary_source": "intake/D064/photo-captions.txt#6" },
+    { "n": 7, "caption_label": 7, "filename": "007.jpg", "sha256": "1a709e00a274eb787c238cdfde18d2a2292f5173a43029ac79c9e5fdb72a90e3", "commentary_source": "intake/D064/photo-captions.txt#7" },
+    { "n": 8, "caption_label": 8, "filename": "008.jpg", "sha256": "4570a03c122eeb9da7eb7bbab550ad379ddd932dc104253f55ce3b3e91884def", "commentary_source": "intake/D064/photo-captions.txt#8" },
+    { "n": 9, "caption_label": 9, "filename": "009.jpg", "sha256": "24292b6fc2f7386cfb4fe70e2cd0ee1e6bc676ece7d3e6e95f6e3e774998f8ec", "commentary_source": "intake/D064/photo-captions.txt#9" },
+    { "n": 10, "caption_label": 10, "filename": "010.jpg", "sha256": "a974ae2049721ee6ad10590fa6d01b72e98b0297c04f3215ae77acec0d1f430b", "commentary_source": "intake/D064/photo-captions.txt#10" }
+  ],
+  "unmapped_extras": [
+    { "filename": "011.jpg", "sha256": "ed26a86a717c33cccc1aa9e1a9f6e7b5e62e24623ac8f9b18a8bf3ff67a6af23", "reason": "No photo caption or verified stanza label; preserve as uncaptioned reference, do not assign to a stanza." },
+    { "filename": "012.jpg", "sha256": "7335728010ec82357bd607198accac86534e0efa2cfec917c99a1619002e46f5", "reason": "Caption is an unrelated Krishna aṣṭottaraśatanāmāvalī screenshot, not a mapped D064 verse reference." },
+    { "filename": "013.jpg", "sha256": "64820e92d9fddc2d5bc5866a72cfcb6d589677b6444c90ae8bc3ed6feb1b9acd", "reason": "Uncaptioned D064 temple/post artwork; preserve as context only and do not map to a stanza." }
+  ]
+}
