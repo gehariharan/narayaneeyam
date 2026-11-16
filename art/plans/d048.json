@@ -1,0 +1,591 @@
+{
+  "schema_version": 1,
+  "daskam_id": 48,
+  "slug": "d048",
+  "review_status": "needs-review",
+  "production_scope": "Ten native landscape candidates only; portraits paused. All supplied references retained and mapped.",
+  "continuity": {
+    "anchor_character": "infant-krishna",
+    "recurring_characters": [
+      "infant Krishna",
+      "Nalakuvara",
+      "Manigriva",
+      "Narada",
+      "Yashoda",
+      "Nandagopan",
+      "Gopas"
+    ],
+    "locations": [
+      "Gokula home courtyard",
+      "Ganga riverbank",
+      "edge-of-Vraja grove",
+      "path home"
+    ],
+    "narrative_arc": "A tied toddler sees the twin trees; Kubera’s sons encounter Narada, become the paired Arjuna trees, are released by Krishna and receive devotion; Nanda frees Krishna and the village carries him home unharmed.",
+    "krishna_form_contract": "All D048 scenes depict one age-grounded toddler Krishna in ordinary two-arm/two-leg human child form. The stanzas do not call for a four-armed revelation. Keep one identity and child proportions throughout.",
+    "shared_identity": "Nalakuvara and Manigriva remain the same two named brothers through the human, paired-tree, and Yaksha scenes. The canonical source does not specify their distinct facial, hair, complexion, or body markers. The S002 candidate and mapped illustrations provide provisional scene cues only, not canonical character masters. Preserve exactly two separate figures and use the stanza plan for each actual form.",
+    "supporting_character_status": "Yashoda, Nandagopan, gopas and Narada follow existing character bibles. The named brothers use one source-grounded paired depiction contract; it is not an approved character master. River women remain scene-specific supporting cast, with clothing and count controlled by the mapped source and plan.",
+    "rendering_references": [
+      "artifacts/d043/references/shared/style-d001-s004.png",
+      "artifacts/d043/references/shared/style-d001-s008.png"
+    ],
+    "identity_references": {
+      "infant_krishna": {
+        "path": "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+        "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+        "scope": "provisional child identity only; not scene approval"
+      },
+      "adult_cues": {
+        "path": "artifacts/d043/references/shared/nandagopan-yashoda-adult-cues-from-d043-s009.jpg",
+        "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+        "scope": "adult identity cues only; not approved character masters"
+      }
+    },
+    "palette_arc": "Warm Gokula cream and ochre opens into river blues and grove greens, then resolves into soft ochre light and a calm homeward return; preserve the matte D001 mineral mural surface.",
+    "notes": "All ten numbered scene references were mapped and opened at full frame. References are not copied literally. Stanzas 3–4 depict adult bathing participants modestly clothed. Stanzas 9–10 bind Nandagopan, Yashoda and gopas. The S010 illustration follows the mapped safe-return scene; closing prayer remains in text and no separate Bhattathiri tableau is added.",
+    "named_pair_contract": "art/bible/characters/kubera-brothers/character.json"
+  },
+  "source": {
+    "canonical_source": "content/sources/d048/source.json",
+    "reference_map": "content/sources/d048/reference-map.json"
+  },
+  "character_contracts": [
+    {
+      "path": "art/bible/series.json",
+      "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+    },
+    {
+      "path": "art/bible/characters/infant-krishna/character.json",
+      "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+    },
+    {
+      "path": "art/bible/characters/yashoda/character.json",
+      "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+    },
+    {
+      "path": "art/bible/characters/nandagopan/character.json",
+      "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+    },
+    {
+      "path": "art/bible/characters/narada/character.json",
+      "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+    },
+    {
+      "path": "art/bible/characters/gopas/character.json",
+      "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+    },
+    {
+      "path": "art/bible/characters/gopikas/character.json",
+      "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+    },
+    {
+      "path": "art/bible/characters/kubera-brothers/character.json",
+      "sha256": "7bdb85258ac305ea0b3ea46a701dc30392fca12f538519e34724ef43cf5253e7"
+    }
+  ],
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d048-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D048/001.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png",
+        "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png"
+      ],
+      "scene_brief": {
+        "mode": "domestic devotional moment",
+        "must_show": [
+          "One toddler Krishna is tied to the wooden mortar with the waist rope visible.",
+          "Krishna looks toward two Arjuna trees by the Gokula home."
+        ],
+        "composition": "Native 16:9 landscape for Damodara watches the twin trees; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No distress or injury, adult Krishna, duplicate child, extra limbs, or text."
+        ]
+      },
+      "alt": "Damodara watches the twin trees",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Fresh wide composition; no crop from another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d048/s001/landscape/v002/candidate.png",
+          "candidate_sha256": "5e69c7629bee64756286b38e6dd5089c66ae2213779448af94cbdab0af18c91c",
+          "prompt_path": "artifacts/d048/s001/landscape/v002/prompt.txt",
+          "self_review_path": "art/reviews/d048-s001-v002-producer-review-v004.md",
+          "candidate_status": "selected; two skin-only sample medians (51,59,114) and (58,65,119) each meet blue-minus-red >= 40; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": []
+    },
+    {
+      "n": 2,
+      "concept_id": "d048-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "kubera-brothers"
+      ],
+      "reference_paths": [
+        "intake/D048/002.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "character introduction",
+        "must_show": [
+          "Exactly two distinct adult brothers, sons of Kubera.",
+          "A Shiva shrine and wealth cues establish their former devotion and riches; proud posture suggests their turning away."
+        ],
+        "composition": "Native 16:9 landscape for Kubera’s two sons; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No third brother, cloned faces, intoxication, or text."
+        ]
+      },
+      "alt": "Kubera’s two sons",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Fresh wide composition; no crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d048/s002/landscape/v001/candidate.png",
+          "candidate_sha256": "14a9a6b5b7a0563ef11e7536f4b4b601824908a36244d9ed886e291734b15670",
+          "prompt_path": "artifacts/d048/s002/landscape/v001/prompt.txt",
+          "self_review_path": "art/reviews/d048-s002-v001-producer-review-v004.md",
+          "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": []
+    },
+    {
+      "n": 3,
+      "concept_id": "d048-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "narada",
+        "kubera-brothers",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D048/003.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png",
+        "artifacts/d048/s002/landscape/v001/candidate.png"
+      ],
+      "scene_brief": {
+        "mode": "river encounter",
+        "must_show": [
+          "Nārada sees the same two brothers sporting in the river with women.",
+          "Women wear modest bathing saris; men wear waist-wrapped bathing dhotis.",
+          "Nārada is one calm two-armed ascetic in cream/ochre with an unobtrusive veena."
+        ],
+        "composition": "Native 16:9 landscape for Nārada encounters the brothers at the Ganga; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No nudity or voyeuristic staging; no extra people beyond two brothers, three women and Nārada."
+        ]
+      },
+      "alt": "Nārada encounters the brothers at the Ganga",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Fresh wide composition; no crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d048/s003/landscape/v001/candidate.png",
+          "candidate_sha256": "0f0c448dac5e69503ebb0b188cf8afbecd8028a2421978c662948e07471c9b12",
+          "prompt_path": "artifacts/d048/s003/landscape/v001/prompt.txt",
+          "self_review_path": "art/reviews/d048-s003-v001-producer-review-v004.md",
+          "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": [
+        "gopikas"
+      ]
+    },
+    {
+      "n": 4,
+      "concept_id": "d048-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "narada",
+        "kubera-brothers",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "intake/D048/004.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png",
+        "artifacts/d048/s002/landscape/v001/candidate.png"
+      ],
+      "scene_brief": {
+        "mode": "moral encounter",
+        "must_show": [
+          "The gopikas cover themselves securely after seeing Nārada.",
+          "Nārada makes a measured teaching gesture while the two brothers listen, chastened."
+        ],
+        "composition": "Native 16:9 landscape for Nārada teaches peace and devotion; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No nudity, aggression, humiliation, duplicate bodies, text, beams, rays, shafts, volumetric lighting, spotlights, or cinematic light effects."
+        ]
+      },
+      "alt": "Nārada teaches peace and devotion",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Full-frame native landscape edit of v001; remove diagonal light shafts only.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d048/s004/landscape/v002/candidate.png",
+          "candidate_sha256": "3facb83cac3376bd3e6679cf67f581830837abbee336bc7e3fe02a2856fbff11",
+          "prompt_path": "artifacts/d048/s004/landscape/v002/prompt.txt",
+          "self_review_path": "art/reviews/d048-s004-v002-producer-review-v004.md",
+          "candidate_status": "selected; enlarged upper-left crop shows flat painted canopy and sky without diagonal beams, rays, shafts or volumetric lighting; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": [
+        "gopikas"
+      ]
+    },
+    {
+      "n": 5,
+      "concept_id": "d048-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "kubera-brothers"
+      ],
+      "reference_paths": [
+        "intake/D048/005.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "mythic transformation aftermath",
+        "must_show": [
+          "Exactly two prominent Arjuna trees stand at the edge of Vraja.",
+          "The paired tree forms suggest a long patient wait to behold Krishna; Gokula is subtly visible beyond."
+        ],
+        "composition": "Native 16:9 landscape for The brothers become two Arjuna trees; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No human apparitions, faces or limbs in bark; no extra transformed brother forms."
+        ]
+      },
+      "alt": "The brothers become two Arjuna trees",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Fresh wide composition; no crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d048/s005/landscape/v001/candidate.png",
+          "candidate_sha256": "ec5ed94335d3fd1f7a3ee1d08f66e1ec147ea98f14007b442b1a9d525e4e5aee",
+          "prompt_path": "artifacts/d048/s005/landscape/v001/prompt.txt",
+          "self_review_path": "art/reviews/d048-s005-v001-producer-review-v004.md",
+          "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": []
+    },
+    {
+      "n": 6,
+      "concept_id": "d048-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna"
+      ],
+      "reference_paths": [
+        "intake/D048/006.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png",
+        "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png"
+      ],
+      "scene_brief": {
+        "mode": "childhood action",
+        "must_show": [
+          "One toddler Krishna crawls and pulls the rope-tied wooden mortar slowly.",
+          "The mortar lies on its side with its long axis horizontal, wedged crosswise between exactly two upright Arjuna trees.",
+          "Both trees remain standing and intact."
+        ],
+        "composition": "Native 16:9 landscape; retain the complete frame and scene, with the mortar on its side horizontally between the two standing trees and its continuous rope pulled taut toward crawling Krishna.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No falling trees yet, rope through the child, injury, extra limbs, or duplicate child."
+        ]
+      },
+      "alt": "Krishna drags the mortar between the trees",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Full-frame native landscape edit preserving v002 scene; horizontal mortar and taut connecting rope.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d048/s006/landscape/v003/candidate.png",
+          "candidate_sha256": "d709c266352ea4fdaa94ece9274359eba5636d8c8f8012aeabfa79b193ab767b",
+          "prompt_path": "artifacts/d048/s006/landscape/v003/prompt.txt",
+          "self_review_path": "art/reviews/d048-s006-v003-producer-review-v004.md",
+          "candidate_status": "selected; the enlarged crop shows the mortar horizontally on its side, crosswise between exactly two upright trunks, and a continuous taut cord to crawling Krishna; two visually confirmed cheek-only sample medians are (56,64,130) and (78,77,132), with blue-minus-red 74 and 54; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1671x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": []
+    },
+    {
+      "n": 7,
+      "concept_id": "d048-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "kubera-brothers"
+      ],
+      "reference_paths": [
+        "intake/D048/007.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png",
+        "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+        "artifacts/d048/s002/landscape/v001/candidate.png",
+        "artifacts/d048/s007/landscape/v001/candidate.png"
+      ],
+      "scene_brief": {
+        "mode": "mythic revelation",
+        "must_show": [
+          "Both Arjuna trees have fallen outward, leaving the child safe.",
+          "Exactly two distinct adult Yaksha brothers emerge from separate roots and praise Krishna.",
+          "Krishna is one two-armed toddler tied to the mortar."
+        ],
+        "composition": "Native 16:9 landscape for The trees fall and the two Yakshas emerge; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No third Yaksha, duplicate Krishna, striking debris, extra limbs, or fused bodies."
+        ]
+      },
+      "alt": "The trees fall and the two Yakshas emerge",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Fresh wide composition; no crop from another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d048/s007/landscape/v002/candidate.png",
+          "candidate_sha256": "cfb1eaa1c26c212dbd51dbf0ec773971a44478cc529f42fc53193c0f804fb688",
+          "prompt_path": "artifacts/d048/s007/landscape/v002/prompt.txt",
+          "self_review_path": "art/reviews/d048-s007-v002-producer-review-v004.md",
+          "candidate_status": "selected; two skin-only sample medians (40,55,130) and (39,53,129) each meet blue-minus-red >= 40; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": []
+    },
+    {
+      "n": 8,
+      "concept_id": "d048-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "kubera-brothers"
+      ],
+      "reference_paths": [
+        "intake/D048/008.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png",
+        "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+        "artifacts/d048/s002/landscape/v001/candidate.png",
+        "artifacts/d048/s007/landscape/v001/candidate.png"
+      ],
+      "scene_brief": {
+        "mode": "blessing",
+        "must_show": [
+          "The same two brothers kneel at Krishna’s feet with folded hands.",
+          "Krishna offers a gentle blessing; fallen twin trunks sit behind."
+        ],
+        "composition": "Native 16:9 landscape for The Yakshas pray for devotion; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No other people, duplicate characters, extra limbs, or text."
+        ]
+      },
+      "alt": "The Yakshas pray for devotion",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Fresh wide composition; no crop from another orientation.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d048/s008/landscape/v004/candidate.png",
+          "candidate_sha256": "5b4cefb681d581ee4967400b9826c8bf8a2d272131baeecc5850336d390beb46",
+          "prompt_path": "artifacts/d048/s008/landscape/v004/prompt.txt",
+          "self_review_path": "art/reviews/d048-s008-v004-producer-review-v001.md",
+          "candidate_status": "selected; independent exact-checksum review is recorded; disclosed deviation present: Krishna's far foot stays fully inside frame and visibly shows four separate toe tips, one short of five; unapproved",
+          "native_dimensions": "1670x942"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": []
+    },
+    {
+      "n": 9,
+      "concept_id": "d048-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "nandagopan",
+        "yashoda",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D048/009.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png",
+        "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+        "artifacts/d043/references/shared/nandagopan-yashoda-adult-cues-from-d043-s009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "family and village response",
+        "must_show": [
+          "A small group of gopas arrives after the tree fall.",
+          "Nandagopan carefully loosens the waist rope and frees Krishna.",
+          "Yashoda receives his meaningful glance with a modest embarrassed expression."
+        ],
+        "composition": "Native 16:9 landscape for Nandagopan frees Krishna; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No duplicate child/adults, body fusion, injury, or extra limbs."
+        ]
+      },
+      "alt": "Nandagopan frees Krishna",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Fresh wide composition; no crop from another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d048/s009/landscape/v001/candidate.png",
+          "candidate_sha256": "f80fb3b0c05633ad4045112555973ae07251f2a3b00f51a43078f2d7e90df7a9",
+          "prompt_path": "artifacts/d048/s009/landscape/v001/prompt.txt",
+          "self_review_path": "art/reviews/d048-s009-v001-producer-review-v004.md",
+          "candidate_status": "selected; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": [
+        "nandagopan",
+        "yashoda",
+        "gopas"
+      ]
+    },
+    {
+      "n": 10,
+      "concept_id": "d048-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "nandagopan",
+        "yashoda",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D048/010.jpg",
+        "artifacts/d043/references/shared/style-d001-s004.png",
+        "artifacts/d043/references/shared/style-d001-s008.png",
+        "artifacts/d043/references/shared/infant-krishna-working-anchor-v004.png",
+        "artifacts/d043/references/shared/nandagopan-yashoda-adult-cues-from-d043-s009.jpg"
+      ],
+      "scene_brief": {
+        "mode": "safe return and closing prayer",
+        "must_show": [
+          "Nandagopan carries the unharmed child home with Yashoda and a small, distinct group of gopas.",
+          "Exactly two fallen Arjuna trees remain visible in the left/rear background, each with its own distinct trunk and root mass, confirming the child survived between them.",
+          "The closing prayer remains in the sourced text; the image centers on safe return."
+        ],
+        "composition": "Native 16:9 landscape for The unharmed child returns home; preserve mapped action, cast and visual hierarchy in a fresh composition.",
+        "tone": "Devotional narrative clarity in matte mineral mural style.",
+        "avoid": [
+          "No duplicate child, injury, deity apparition, unsupported Bhattathiri figure, or text."
+        ]
+      },
+      "alt": "The unharmed child returns home",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison candidate",
+          "composition_override": "Full-frame native landscape edit of v001; add a second distinct fallen trunk and root mass in the left/rear background.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d048/s010/landscape/v002/candidate.png",
+          "candidate_sha256": "456dc641c92e2689aa55e4b13c5fb70969790a2784c768e8a64a13a524c2f8fb",
+          "prompt_path": "artifacts/d048/s010/landscape/v002/prompt.txt",
+          "self_review_path": "art/reviews/d048-s010-v002-producer-review-v004.md",
+          "candidate_status": "selected; enlarged left/rear crop shows exactly two separate fallen trunks with distinct root masses, both visible; independent exact-checksum review is recorded; unapproved",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      },
+      "supporting_cast": [
+        "nandagopan",
+        "yashoda",
+        "gopas"
+      ]
+    }
+  ]
+}
