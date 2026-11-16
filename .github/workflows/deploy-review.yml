@@ -137,6 +137,9 @@ jobs:
       - name: Upload D062 review candidates to R2
         run: node review-site/scripts/upload.mjs --daskam=62
 
+      - name: Upload D063 review candidates to R2
+        run: node review-site/scripts/upload.mjs --daskam=63
+
       - name: Upload D039 review candidates to R2
         run: node review-site/scripts/upload.mjs --daskam=39
 
