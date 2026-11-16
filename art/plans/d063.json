@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "daskam_id": 63,
+  "slug": "d063",
+  "review_status": "needs-review",
+  "production_scope": "Native landscape candidates only; portraits paused. All ten canonical stanza captions map to source images; 011–012 remain unmapped extras.",
+  "continuity": {
+    "anchor_character": "krishna-vrindavan-youth",
+    "recurring_characters": [
+      "Krishna",
+      "Nandagopan",
+      "Gokula cowherds",
+      "Indra",
+      "cattle"
+    ],
+    "locations": [
+      "Vraja under storm clouds",
+      "Govardhana hillside and shelter",
+      "clearing sky over Vraja"
+    ],
+    "narrative_arc": "Roaring clouds terrify Vraja; Krishna reassures the cowherds, uproots and raises Govardhana, keeps the people and cattle sheltered through Indra's seven-day storm, then lowers the hill as the weather clears and the devas praise him.",
+    "krishna_form_contract": "Use art/bible/characters/krishna-vrindavan-youth/character.json for every Vrindavan-period youthful Krishna in this dasakam: serene youth (not infant-like), deep matte blue skin, long dark curly hair, yellow dhoti, muted red-orange shawl, plain smooth unmarked forehead, one simple low gold band with one upright peacock feather, ordinary human proportions with one face, two attached arms and hands, two legs and feet. Do not apply this contract to other Krishna life stages or to scenes without Krishna.",
+    "indra_form_contract": "Use art/bible/characters/d063-indra/character.json: one distinct adult Indra with one head and two attached arms, simple crown and restrained cream/ochre/maroon celestial clothing; no peacock feather. Storm actions and fleeing belong only to the stanzas that call for them.",
+    "supporting_cast_contract": "Ordinary Vraja people and devas have distinct faces, natural human proportions, two arms and two legs. Nanda is one mature moustached cowherd in simple cream and muted olive/green. Cattle are individually coherent and remain distinct from people. Keep groups small enough to avoid cloned faces and fused bodies.",
+    "rendering_references": [
+      "artifacts/d063/references/shared/style-d001-s004.png",
+      "artifacts/d063/references/shared/style-d001-s008.png"
+    ],
+    "palette_arc": "Flat opaque matte South Indian temple-mural fields: warm cream, earth ochre, deep maroon, muted olive and deep blue Krishna. Storm indigo may enter the sky, but not dominate the mineral palette. No glossy skin, reflective metallic gold, cinematic light, or outer border.",
+    "reference_policy": "Numbered intake photographs and their caption mappings guide story and cast context only; do not copy their composition or finish. D001 references guide rendering only. The copied D062 S001 candidate is provisional Krishna face/clothing continuity context, not an approved master or a source for scene composition.",
+    "unmapped_extras": "intake/D063/011.jpg has no photo caption; intake/D063/012.jpg contains devotional song text. Preserve both in intake, but do not assign either to a stanza or use song text as a caption."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d063-s001",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D063/001.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png",
+        "artifacts/d063/references/shared/d062-s001-landscape-candidate-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "storm-over-Vraja narrative",
+        "must_show": [
+          "Roaring dense rain clouds gather above Vraja, their deep blue color recalling Krishna's complexion.",
+          "A small distinct group of Vraja people below look up with concern as the storm spreads; keep the scene before the hill is lifted."
+        ],
+        "composition": "Use a broad landscape: storm clouds occupy the upper field, with a modest Vraja settlement and a few clearly distinct people below. Krishna may be present among them as the youthful blue cowherd, but no hill-lifting action occurs yet.",
+        "tone": "Foreboding weather, restrained human concern.",
+        "avoid": [
+          "no hill shelter",
+          "no Indra figure",
+          "no lightning striking people",
+          "no crowded cloned villagers",
+          "no temple as dominant subject"
+        ]
+      },
+      "alt": "Roaring storm clouds spread over Vraja and alarm its people.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full landscape cloudscape over Vraja; keep clouds, faces and figures inside the frame.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d063/s001/landscape/candidate-v005.png",
+          "candidate_sha256": "1d6077138dbfe08480b02c14d82e08a09c3078da7492cb7d6bbbf6f2156622c5",
+          "prompt_path": "artifacts/d063/s001/prompts/landscape-v005-submitted.txt",
+          "candidate_status": "selected native landscape v005 after one authorized repair; storm clouds are clearly deep indigo-blue with no grey or purple cast; independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 001.jpg only for the storm-over-Vraja story cue; use D001 only for matte rendering and the D062 candidate only for provisional Krishna identity.",
+      "review_status": "needs-review"
+    },
+    {
+      "n": 2,
+      "concept_id": "d063-s002",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D063/002.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png",
+        "artifacts/d063/references/shared/d062-s001-landscape-candidate-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "storm shelter begins",
+        "must_show": [
+          "Driving rain and hail buffet the cowherds and cattle in Vraja.",
+          "The frightened group cries for protection while youthful Krishna calmly reassures them not to fear."
+        ],
+        "composition": "Show Krishna among a small distinct group of cowherds and cattle in heavy rain, speaking with a calm protective gesture. This is the appeal and reassurance before the hill is raised.",
+        "tone": "Urgency softened by Krishna's calm assurance.",
+        "avoid": [
+          "no lifted hill yet",
+          "no extra limbs",
+          "no fused or cloned people",
+          "no detached props",
+          "no injury"
+        ]
+      },
+      "alt": "Cowherds and cattle plead for protection from hail and heavy rain as Krishna reassures them.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full landscape with rain moving diagonally across a small group and visible cattle; retain clear faces and hands.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d063/s002/landscape/candidate-v005.png",
+          "candidate_sha256": "788d68712e9b9f769692d45a5f4b7dd3d11308c69bc52d19226fb53b63ddc4b6",
+          "prompt_path": "artifacts/d063/s002/prompts/landscape-v005-submitted.txt",
+          "candidate_status": "selected native landscape v005 after the final authorized repair; skin-only medians are cheek (54,80,121), torso (52,80,123), and forearm (53,77,108), with blue at least 55 above red in each; Krishna’s forehead is bare; independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1671x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 002.jpg for the storm and pleading scene only; the D001 images set rendering, and the D062 candidate is provisional Krishna identity context.",
+      "review_status": "needs-review"
+    },
+    {
+      "n": 3,
+      "concept_id": "d063-s003",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D063/003.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png",
+        "artifacts/d063/references/shared/d062-s001-landscape-candidate-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "Govardhana uprooting",
+        "must_show": [
+          "Smiling youthful Krishna quickly uproots Govardhana from its base with his two strong youthful arms.",
+          "A few cowherds witness the first lift; show a clear connected contact between Krishna and the hill."
+        ],
+        "composition": "Make the initial uprooting the focal action: Krishna's hands remain visibly attached and connected to the lifted hill at its base. Keep the hill and Krishna in natural proportion; do not imply a detached floating mountain.",
+        "tone": "Assured, miraculous action without spectacle.",
+        "avoid": [
+          "no infant face",
+          "no four-armed Krishna",
+          "no detached or duplicated hands",
+          "no unrelated deity",
+          "no storm shelter scene yet"
+        ]
+      },
+      "alt": "Smiling Krishna uproots Govardhana to protect Vraja from Indra's anger.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose the hill lift with a clear visible hand-to-hill contact and safe margins around the mountain.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d063/s003/landscape/candidate-v005.png",
+          "candidate_sha256": "0911c42506adf52b0488ed9d9c354ba7c7261aea925ddfba7d2391ca7662b3d0",
+          "prompt_path": "artifacts/d063/s003/prompts/landscape-v005-submitted.txt",
+          "candidate_status": "selected native landscape v005 after one authorized repair; reviewer o found Krishna’s skin reads desaturated slate blue-gray rather than deep matte blue; 21×21 skin-only torso medians are (92, 111, 123) at (785, 530) and (83, 101, 115) at (810, 550); forehead remains plain and both hands retain connected hill contact; independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 003.jpg for the initial uprooting story only; D001 references govern finish and D062 S001 anchors provisional youthful Krishna identity.",
+      "review_status": "needs-review"
+    },
+    {
+      "n": 4,
+      "concept_id": "d063-s004",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D063/004.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png",
+        "artifacts/d063/references/shared/d062-s001-landscape-candidate-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "Govardhana shelter established",
+        "must_show": [
+          "Krishna holds the lifted hill like an umbrella with the lotus of one hand, with unmistakable contact at the underside.",
+          "Cowherds, women, cattle and calves shelter beneath on dry soft sand while rain falls outside."
+        ],
+        "composition": "Use the hill as a broad shelter roof over a compact, distinct community and cattle. Krishna stands on the dry sandy ground; the raised hill remains connected to his single supporting palm.",
+        "tone": "Safe refuge amid surrounding rain.",
+        "avoid": [
+          "no detached floating hill",
+          "no extra Krishna arms",
+          "no flooded dry shelter interior",
+          "no cloned people or animals",
+          "no cinematic rays"
+        ]
+      },
+      "alt": "Krishna holds Govardhana overhead as Vraja's people and cattle shelter on dry sand beneath it.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose the raised hill across a wide frame; keep the supporting palm visibly connected and sheltering figures distinct.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d063/s004/landscape/candidate-v006.png",
+          "candidate_sha256": "95335925ca6504d31f4cc00f1281cf6d794a97c89dff4d545c88813324b4812a",
+          "prompt_path": "artifacts/d063/s004/prompts/landscape-v006-submitted.txt",
+          "candidate_status": "selected native v006 after the one authorized repair; five separated fingertips meet the hill underside from below, with the hand outside the rock face; reviewer o found Krishna’s skin reads muted slate blue-gray rather than deep matte blue; 21×21 skin-only torso medians are (67, 92, 110) at (760, 420) and (68, 93, 111) at (785, 420); independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 004.jpg to guide the shelter event only; do not repeat its dramatic lighting, glossy finish or exact staging.",
+      "review_status": "needs-review"
+    },
+    {
+      "n": 5,
+      "concept_id": "d063-s005",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D063/005.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png",
+        "artifacts/d063/references/shared/d062-s001-landscape-candidate-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "playful shelter intimacy",
+        "must_show": [
+          "Krishna continues holding Govardhana with one raised left palm, its underside visibly supported.",
+          "He speaks playfully with nearby cowherd companions while using his free right hand to gently scratch a nearby cow; the sheltered group is content."
+        ],
+        "composition": "Frame a quiet human moment beneath the hill: Krishna's raised left hand contacts the mountain, while the connected right arm gently reaches to one nearby cow. Keep bodies and limbs unambiguous.",
+        "tone": "Easy companionship and contentment beneath the storm shelter.",
+        "avoid": [
+          "no two hands supporting the hill",
+          "no hand detached from Krishna",
+          "no overlapping arms",
+          "no cloned cowherds",
+          "no danger inside the shelter"
+        ]
+      },
+      "alt": "Krishna chats with the cowherds and gently scratches a cow while keeping Govardhana raised.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Keep the left hand-to-hill and right hand-to-cow actions separately legible in a wide shelter scene.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d063/s005/landscape/candidate-v006.png",
+          "candidate_sha256": "89ef5c63912e6972356947eb64e830c662be33cba1a094d9dd9f6823d31ec054",
+          "prompt_path": "artifacts/d063/s005/prompts/landscape-v006-submitted.txt",
+          "candidate_status": "selected native landscape v006 after one authorized repair; the raised left hand shows five fingertips with continuous palm-to-hill contact; reviewer o found Krishna’s exposed skin reads desaturated slate blue-gray rather than deep matte blue; 21×21 skin-only torso medians are (93, 114, 132) at (675, 380) and (91, 113, 133) at (665, 400); independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 005.jpg for the playful conversation and cow interaction only; maintain the D063 hand and hill anatomy contract.",
+      "review_status": "needs-review"
+    },
+    {
+      "n": 6,
+      "concept_id": "d063-s006",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D063/006.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png",
+        "artifacts/d063/references/shared/d062-s001-landscape-candidate-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "cowherds marvel beneath the hill",
+        "must_show": [
+          "A few cowherds watch and discuss how youthful Krishna can hold the immense hill for so long on his tender left palm.",
+          "Krishna remains steady, with a clear continuous left-hand contact to Govardhana."
+        ],
+        "composition": "Show Krishna and the stable hill support at one side, with two or three visibly distinct cowherds looking on and conversing below.",
+        "tone": "Amazement and wonder held within calm shelter.",
+        "avoid": [
+          "no wobbling hill",
+          "no detached hand",
+          "no duplicated Krishna",
+          "no cloned cowherds",
+          "no storm panic"
+        ]
+      },
+      "alt": "Cowherds marvel that Krishna steadily supports the great hill on his left palm.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Give the stable hill and left palm enough space, with distinct cowherd faces in the foreground.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d063/s006/landscape/candidate-v004.png",
+          "candidate_sha256": "9beef9afe1d37ee4d442f75a3f797a0fe42d67962b4d959d9f9dff63bf132a5b",
+          "prompt_path": "artifacts/d063/s006/prompts/landscape-v004-submitted.txt",
+          "candidate_status": "selected native landscape candidate; the supporting palm is pressed flat against the rock with individual fingers not separately delineated; reviewer p also found a narrow pale vertical forehead mark at approximately x=370–381, y=119–136, contrary to the plain-forehead contract; independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 006.jpg for the cowherds' wonder at the sustained lift; D001 references govern rendering only.",
+      "review_status": "needs-review"
+    },
+    {
+      "n": 7,
+      "concept_id": "d063-s007",
+      "characters": [
+        "d063-indra"
+      ],
+      "reference_paths": [
+        "intake/D063/007.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "Indra's contemptuous storm",
+        "must_show": [
+          "One adult Indra, distinct from Krishna, watches the raised Govardhana and doubts that the young cowherd can sustain it.",
+          "Indra sends a severe rainstorm toward Vraja, representing seven days of assault; the hill continues to shelter the people."
+        ],
+        "composition": "Place a single Indra in the clouded sky directing the storm toward a small, clearly sheltered Vraja below. Krishna remains a small blue figure under the hill if visible; Indra is the foreground subject.",
+        "tone": "Pride and threat, kept within flat mural restraint.",
+        "avoid": [
+          "no duplicate Indra",
+          "no peacock feather on Indra",
+          "no extra arms",
+          "no lightning striking people",
+          "no broken hill"
+        ]
+      },
+      "alt": "Indra dismisses the young Krishna's strength and sends a seven-day storm over Vraja.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a single Indra and storm clouds above a clearly intact shelter in a broad horizontal frame.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d063/s007/landscape/candidate-v004.png",
+          "candidate_sha256": "279cfa4a7865edf5ba0a4fb713b4d23935985d6dea837b989f7fbc62bd8a7930",
+          "prompt_path": "artifacts/d063/s007/prompts/landscape-v004-submitted.txt",
+          "candidate_status": "selected native landscape v004 after one authorized palette repair; six cloud and sky patch medians show B-R 74–97 and B-G 45–53 with no purple cast; reviewer p found Indra’s crown at approximately x=1125–1285, y=0–160 is tall, oversized and visibly multi-tiered rather than simple; the extended pointing arm, hand and feet are inside the frame, correcting the earlier inaccurate left-edge hand note; independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1671x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 007.jpg as a scene-event reference only; its many people and cows are not a cue for Indra's appearance. D001 references set only the matte rendering.",
+      "review_status": "needs-review"
+    },
+    {
+      "n": 8,
+      "concept_id": "d063-s008",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "d063-indra"
+      ],
+      "reference_paths": [
+        "intake/D063/008.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png",
+        "artifacts/d063/references/shared/d062-s001-landscape-candidate-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "storm exhausted and Indra retreats",
+        "must_show": [
+          "Krishna remains perfectly steady under the raised hill as the rain clouds run out of water.",
+          "Wind sweeps the spent clouds away while a single frightened Indra flees in the distance."
+        ],
+        "composition": "Show the storm clearing from one side of the frame, with Krishna and Govardhana still steady; Indra retreats far away as a small but distinct figure. Keep the left palm connected to the hill.",
+        "tone": "Release after a long storm, with Indra's fear secondary.",
+        "avoid": [
+          "no movement by Krishna",
+          "no detached hill",
+          "no duplicate Indra",
+          "no extra arms",
+          "no lightning or continuing downpour"
+        ]
+      },
+      "alt": "Krishna stands unmoved beneath Govardhana as wind clears the spent clouds and Indra flees.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose the shift from storm to clear sky across the wide frame; maintain clear hill-hand contact.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d063/s008/landscape/candidate-v005.png",
+          "candidate_sha256": "b44b191d9c21a159b29d576063fad6028c3253865e55cb28c9f3781aaeb59ea6",
+          "prompt_path": "artifacts/d063/s008/prompts/landscape-v005-submitted.txt",
+          "candidate_status": "selected native v005 after one authorized repair; reviewer p found Krishna’s supporting palm lies over the brown rock face at approximately x=555–690, y=185–230, with the hill’s lower edge below it, rather than meeting the underside from below; a pale vertical forehead mark remains and the supporting hand shows a thumb plus three separately delineated fingers (four digits); the cowherd previously noted as cropped at the left edge is fully inside with margin, including face, folded hands, clothing and visible foot, as reviewer p confirmed; independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 008.jpg for the clearing-storm moment, not its ornate figures or exact arrangement.",
+      "review_status": "needs-review"
+    },
+    {
+      "n": 9,
+      "concept_id": "d063-s009",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D063/009.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png",
+        "artifacts/d063/references/shared/d062-s001-landscape-candidate-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "hill lowered and joyful reunion",
+        "must_show": [
+          "The rain has stopped and the cowherds and cattle emerge from beneath the hill.",
+          "Krishna lowers Govardhana back to the earth, then receives joyful embraces from a few distinct cowherds."
+        ],
+        "composition": "Show the hill just settled back onto the ground with Krishna's hand no longer bearing its weight; in the same calm tableau, one or two cowherds embrace him and cattle emerge safely.",
+        "tone": "Relief, joy and reunion after shelter.",
+        "avoid": [
+          "no hill still floating unsupported",
+          "no contact confusion between Krishna and hill",
+          "no cloned crowd",
+          "no ongoing downpour",
+          "no extra arms"
+        ]
+      },
+      "alt": "After the rain stops, Krishna returns Govardhana to its place and the joyful cowherds embrace him.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose the settled hill, emerging cattle and reunion as a clear wide sequence without overlapping limbs.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d063/s009/landscape/candidate-v005.png",
+          "candidate_sha256": "95f9086adb06f4e386bcb722ebee450579d6c98d23b1fe90e35f6938e98ceee0",
+          "prompt_path": "artifacts/d063/s009/prompts/landscape-v005-submitted.txt",
+          "candidate_status": "selected native v005 after one authorized repair; the small reunion group and animals remain inside the frame; independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 009.jpg only for the rain-stopped, hill-lowered reunion event; do not copy its glossy rendering, extra arms or exact grouping.",
+      "review_status": "needs-review"
+    },
+    {
+      "n": 10,
+      "concept_id": "d063-s010",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "d063-deva-witnesses",
+        "varaha"
+      ],
+      "reference_paths": [
+        "intake/D063/010.jpg",
+        "artifacts/d063/references/shared/style-d001-s004.png",
+        "artifacts/d063/references/shared/style-d001-s008.png",
+        "artifacts/d063/references/shared/d062-s001-landscape-candidate-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "deva praise and devotional close",
+        "must_show": [
+          "A small group of distinct devas praises youthful Krishna after the Govardhana feat.",
+          "A restrained symbolic reference to Varaha carrying the earth recalls the verse's comparison, while the main Krishna remains a single two-armed youthful cowherd."
+        ],
+        "composition": "Place Krishna as the calm focal figure with a few distinct devas in respectful praise; include only a small painted symbolic vignette of the divine boar Varaha bearing the earth on one tusk, clearly secondary to the present scene. Preserve Varaha's unmistakable boar head and coherent boar body, and do not infer a second Krishna or copy D012's pose. Do not depict Bhattathiri, who is not in the Sanskrit stanza.",
+        "tone": "Serene praise and devotional closure.",
+        "avoid": [
+          "no Bhattathiri",
+          "no duplicate Krishna",
+          "no extra arms on Krishna or devas",
+          "no human arms or weapons on the Varaha cameo",
+          "no lavish metallic gold",
+          "no written text or frame"
+        ]
+      },
+      "alt": "The devas praise Krishna, recalling his earlier bearing of the earth as Varaha.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose Krishna and the devas as the main broad tableau; keep the Varaha-earth reference small and secondary.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d063/s010/landscape/candidate-v004.png",
+          "candidate_sha256": "e6259fa45e8f83668446ffb49fbc95bc4dca5cc1a03ed0a73d83fd4cb68841cb",
+          "prompt_path": "artifacts/d063/s010/prompts/landscape-v004-submitted.txt",
+          "candidate_status": "selected native landscape candidate; independent exact-checksum review is recorded; no approval implied",
+          "native_dimensions": "1672x941"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused."
+        }
+      },
+      "reference_guidance": "Use 010.jpg for the praise scene only; the caption's Bhattathiri sentence is commentary, not a visual subject from the Sanskrit stanza. Do not copy the reference's border, glossy finish or extra-arm deity.",
+      "review_status": "needs-review"
+    }
+  ],
+  "character_bible_refs": [
+    "art/bible/characters/krishna-vrindavan-youth/character.json",
+    "art/bible/characters/gopas/character.json",
+    "art/bible/characters/d063-indra/character.json",
+    "art/bible/characters/d063-deva-witnesses/character.json",
+    "art/bible/characters/varaha/character.json"
+  ]
+}
