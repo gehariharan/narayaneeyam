@@ -612,7 +612,7 @@ test('D063 comparison binds ten numbered captions, frozen native landscapes, and
   }
 });
 
-test('release union with main retains expected review dataset counts with D039, D041, D048, D062, D063, Dasakam 65 and other production chapters', async () => {
+test('release union with main retains expected review dataset counts with D039, D041, D048, D062, D063, D064, Dasakam 65 and other production chapters', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
   const rowCount = batches.reduce((count, batch) => count + batch.rows.length, 0);
@@ -624,12 +624,13 @@ test('release union with main retains expected review dataset counts with D039, 
   assert.equal(batches.find(batch => batch.daskam_id === 37)?.rows.length, 10);
   assert.equal(batches.find(batch => batch.daskam_id === 39)?.rows.length, 10);
   assert.equal(batches.find(batch => batch.daskam_id === 63)?.rows.length, 10);
+  assert.equal(batches.find(batch => batch.daskam_id === 64)?.rows.length, 10);
   assert.equal(batches.find(batch => batch.daskam_id === 65)?.rows.length, 9);
-  assert.equal(batches.length, 38);
-  assert.equal(rowCount, 390);
-  assert.equal(mediaInputCount, 802);
-  assert.equal(selectedImages(batches).length, 396);
-  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 48, 62, 63, 65, 66, 67, 96]));
+  assert.equal(batches.length, 39);
+  assert.equal(rowCount, 400);
+  assert.equal(mediaInputCount, 822);
+  assert.equal(selectedImages(batches).length, 406);
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 48, 62, 63, 64, 65, 66, 67, 96]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
