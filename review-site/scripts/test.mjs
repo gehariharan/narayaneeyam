@@ -75,10 +75,20 @@ const d48=data.chapters.find(c=>c.id===48);assert.ok(d48);assert.deepEqual(d48.r
 const content48=JSON.parse(await fs.readFile(new URL('../../content/daskams/d048.json',import.meta.url)));
 const captions48=await fs.readFile(new URL('../../intake/D048/photo-captions.txt',import.meta.url),'utf8');
 const selected48=JSON.parse(await fs.readFile(new URL('../../art/batches/d048-comparison-v005.json',import.meta.url)));
-assert.equal(selected48.rows.length,10);assert.equal(selected48.review_status,'needs-review');assert.ok(d48.reviewNotice.includes('unapproved'));
-for(const row of d48.rows){const selected=selected48.rows.find(r=>r.n===row.n);assert.ok(selected);assert.equal(row.commentarySource,`intake/D048/photo-captions.txt#${row.n}`);assert.ok(captions48.includes(`\n#${row.n}\n`));assert.equal(row.commentary,content48.stanzas.find(s=>s.n===row.n).commentary_en);assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);for(const role of ['reference','matte'])assert.equal(data.assets[row.images.find(i=>i.role===role).key].sourceHash,selected[role].sha256);assert.equal(row.images.find(i=>i.role==='matte').version,selected.matte.version);assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');}
+const provenance48=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
+assert.equal(selected48.rows.length,10);assert.equal(selected48.review_status,'needs-review');assert.ok(d48.reviewNotice.toLowerCase().includes('unapproved'));
+for(const row of d48.rows){
+ assert.equal(row.commentarySource,`intake/D048/photo-captions.txt#${row.n}`);
+ assert.ok(captions48.includes(`\n#${row.n}\n`));
+ assert.equal(row.commentary,content48.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected48.rows.find(r=>r.n===row.n);assert.ok(selected);
+ for(const role of ['reference','matte'])assert.equal(provenance48.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.equal(row.images.find(i=>i.role==='matte').version,selected.matte.version);
+ assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+}
 assert.equal((await feedback(req({...good,daskam:48,sloka:10}),env)).status,201);assert.equal((await feedback(req({...good,daskam:48,sloka:11}),env)).status,400);
-console.log('Passed: D048 has ten mapped, version-pinned, unapproved and individually inspected landscape candidates with stanza-bounded feedback.');
+console.log('Passed: D048 has ten caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
 const d42=data.chapters.find(c=>c.id===42);
 assert.deepEqual(d42.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 assert.ok(d42.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
