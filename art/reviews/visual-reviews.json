@@ -27703,6 +27703,937 @@
       ]
     },
     {
+      "chapter": 64,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d064/s001/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "b80c9e1e7b0168006b2cd4d39b57ce26ea72b87e7ecaf294aa7782fefa957899",
+      "reviewer": "Firstmate-dispatched independent reviewer k (stanzas 1–5)",
+      "inspected_at": "2026-11-16T05:19:59Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is a youthful two-armed deity; Nanda and the cowherds are ordinary two-armed people. The hill-support gesture is assessed from below as required by the scene contract.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-k.md",
+          "sha256": "ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s arm remains connected through the hill-support pose; the visible lower feet meet the lower frame edge."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The three cowherds remain separate from Krishna and Nanda, with the raised arm continuous to its shoulder."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and Nanda have intact, distinct faces; the small group’s faces remain individually readable."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The shelter contains one Krishna, Nanda, and three distinct cowherds, with no fused or repeated person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The inspected hill, foliage, ground, and corners contain no legible marks or signature-like forms."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The underside of Govardhana meets Krishna’s upturned hand while Nanda and the cowherds shelter below."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Krishna’s raised hand reads as a flat two-pronged shape at x=1020–1140,y=225–275; lower feet are partly cropped.",
+        "Nanda and gopa skin samples exceed the under-120 R−B target; fine field patterning is visible.",
+        "The earlier v002 prompt/reference-argument bytes were overwritten; the report records the surviving native return and original prompt hash."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-k.md (SHA-256 ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s001-landscape-v003-producer-review-v001.md (SHA-256 590b36edca42fca09af2f16f62e8a29d2f35f1d615717d77a937eae61a21e67c). Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 64,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d064/s002/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "59b01c0ff2057165552f0ae820adab9aac3e75987560a1f8fe7377b4ff04ff26",
+      "reviewer": "Firstmate-dispatched independent reviewer k (stanzas 1–5)",
+      "inspected_at": "2026-11-16T05:19:59Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, Nanda, and the seated cowherds are ordinary two-armed figures; Krishna remains the youthful Vrindavan form.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-k.md",
+          "sha256": "ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s resting hands and the listeners’ prayer and gesture hands remain attached; seated legs and foreground feet are inside frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna, Nanda, and the three listeners keep separate seated or kneeling silhouettes and connected joints."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The youthful Krishna, moustached Nanda, and listening cowherds have separate, coherent faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The gathering contains a single Krishna and individually distinct listeners without fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The checked sky, house, grass, ground, and corners show no writing, logo, signature, or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Nanda addresses the attentive cowherds with Krishna nearby, following the mapped narration without readable prophecy."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Nanda and gopa skin samples exceed the under-120 R−B target; fine field patterning is visible.",
+        "The earlier v002 prompt/reference-argument bytes were overwritten; the report records the original prompt hash and surviving generation return."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-k.md (SHA-256 ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s002-landscape-v003-producer-review-v001.md (SHA-256 c8800f4fe0873505e8688c4b18ead888d0c574b5ae99e917cd6f151897f26a94). Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 64,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d064/s003/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "8fef60deb7b7f3c908606ba16ae0f5c741b2619e3f3e84a907bd0473eab28cba",
+      "reviewer": "Firstmate-dispatched independent reviewer k (stanzas 1–5)",
+      "inspected_at": "2026-11-16T05:19:59Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna and Indra each have one head and two arms; Surabhi is one cow with natural bovine anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-k.md",
+          "sha256": "ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s limbs and Surabhi’s four legs remain connected; Indra’s lower body continues beyond the left image edge."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The prayer pose and bow stay attached to Indra’s hands, and Surabhi remains a separate coherent cow."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna, Indra, and Surabhi each retain one recognizable, uncut face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The scene has one instance of each figure and no merged deity or animal forms."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The inspected sky, vegetation, ground, and corners contain no readable writing or signature marks."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Indra bows to Krishna with Surabhi beside them; the bowing deity’s lower body reaches the left edge as disclosed."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Indra’s lower body continues beyond the left edge.",
+        "Indra’s sampled skin exceeds the under-120 R−B target, and the painted field has visible fine patterning."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-k.md (SHA-256 ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s003-landscape-v004-producer-review-v001.md (SHA-256 89c49d8fa7bdef5b8a04f94adc548da94bcab3cce2339b63b4fe540dce52ef36). Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 64,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d064/s004/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "d51975bd4e0c7929d13607a56568457663a8a7a22fa81197e8e7bf51df4fb086",
+      "reviewer": "Firstmate-dispatched independent reviewer k (stanzas 1–5)",
+      "inspected_at": "2026-11-16T05:19:59Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna and Indra each have one head and two arms; Surabhi is a cow and Airavata an elephant, each with separate natural animal anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-k.md",
+          "sha256": "ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Airavata’s trunk and four legs connect to one elephant body; Surabhi’s head, udder, and legs remain separate."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Indra’s hands hold the vessel and the milk stream visibly starts at Surabhi’s udder before reaching the ground."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The four principal figures each have one coherent face or animal head, with Krishna’s youthful face intact."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Surabhi and Airavata remain distinct animals, and the human figures do not merge with them."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text or signature-like mark is visible in the inspected water, ground, vegetation, or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Indra presents the offering while Airavata brings water; Surabhi’s milk stream ends on the ground rather than at Krishna."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Surabhi’s udder milk stream reaches the ground rather than Krishna; Airavata’s peripheral body reaches the right edge.",
+        "Indra’s sampled skin exceeds the under-120 R−B target, and fine field patterning is visible."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-k.md (SHA-256 ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s004-landscape-v004-producer-review-v001.md (SHA-256 b6ef5f8c0c98684b1608ea69bd615fa6e67171356b0c72bb4ce6c39932ee75c8). Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 64,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d064/s005/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "99ce80ac763736678343ecfff8b838c8e6308e89b650a8feac90843780ac9445",
+      "reviewer": "Firstmate-dispatched independent reviewer k (stanzas 1–5)",
+      "inspected_at": "2026-11-16T05:19:59Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna, Nanda, and cowherds are ordinary two-armed figures; cattle retain natural bovine anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-k.md",
+          "sha256": "ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The visible people and cattle have connected limbs; foreground feet remain in-frame with separated toe contours."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s hands meet the cow and gesture naturally, and Nanda’s joined hands remain connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna, Nanda, and the cowherds have distinct faces without obvious distortion."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The foreground and distant cattle remain a varied herd rather than repeated cloned bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The checked village buildings, grass, foliage, and corners show no writing or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The healthy herd, cultivated greenery, homes, and grateful cowherds communicate Gokula’s prosperity."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Nanda and gopa skin samples exceed the under-120 R−B target, with fine field patterning.",
+        "One Krishna blue patch has B−R 36, below 40, while the other is 56 and the figure reads deep blue at full size."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-k.md (SHA-256 ee85049706ac9288aa0949512b963375921465da2ecc4430664e7bfcb19c1a3d), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s005-landscape-v003-producer-review-v001.md (SHA-256 b93e36d837b4b0813c59675a77f6ae1b29f1714c8f4ec046e36f72039364d47f). Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 64,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d064/s006/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "4c6eaea136846f0d2f806360732a42289b9741024293ac1e267b889a7ce3ab24",
+      "reviewer": "Firstmate-dispatched independent reviewer l (stanzas 6–10)",
+      "inspected_at": "2026-11-16T05:35:51Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna and Nanda are ordinary two-armed human figures; Varuna’s underwater setting adds no extra limbs or heads.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-l.md",
+          "sha256": "ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both raised Krishna hands stay attached; the close views show each open hand with a thumb and three distinct fingertips."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s arms meet his shoulders and Nanda’s greeting and visible limbs form a continuous pose."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The youthful Krishna and mature, moustached Nanda have intact faces; the attendant is separate."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The scene contains one Krishna, Nanda, and one distinct attendant, with no repeated or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The upper-right detail, water, and ground contain no readable text, signature, logo, or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The underwater court surrounds Krishna’s calm arrival and Nanda’s safe escort, without cinematic beams."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Each of Krishna’s two open hands reads as a thumb plus three fingertips.",
+        "Nanda’s skin samples exceed the ordinary-skin R−B threshold; fine field patterning remains visible."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-l.md (SHA-256 ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s006-landscape-v003-producer-review-v001.md (SHA-256 23b39cd2880286097a6c5bd8c3cb14e4794fdb05ed004bf26650ca80c1e833c5). Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 64,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d064/s007/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "8c82889d5052bff2353682e42db7b1ac8a275696fe3088fafd5d5688e3cc83a4",
+      "reviewer": "Firstmate-dispatched independent reviewer l (stanzas 6–10)",
+      "inspected_at": "2026-11-16T05:35:51Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Varuna and Krishna each have one head and two arms; Nanda remains an ordinary two-armed person.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-l.md",
+          "sha256": "ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Varuna, Krishna, and Nanda each retain two connected arms and legs; their joined and contact hands remain attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The respectful greeting and Nanda’s hand on Krishna’s arm form continuous connected poses."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The three principal faces remain legible and proportionate, with no face at the frame edge."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Varuna, Krishna, and Nanda remain three distinct people without clones or fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The inspected corners, threshold, ground, and water show no readable characters or signature marks."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Varuna’s apology and Krishna beside Nanda are staged at a threshold with Gokula beyond."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Nanda and Varuna have sampled warm-orange skin readings above the ordinary-skin target.",
+        "Varuna’s crown is prominently painted with ornament; the field also has fine patterning."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-l.md (SHA-256 ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s007-landscape-v003-producer-review-v001.md (SHA-256 0f2ac0b046a8c21f01b1890e9b9907e663e1e9c96a76858e251a0286cfed525d). Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 64,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d064/s008/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "9f53fe5496687f69bdd479d3159d1eb49b9f60569088a1cc5b2ae142b03591c7",
+      "reviewer": "Firstmate-dispatched independent reviewer l (stanzas 6–10)",
+      "inspected_at": "2026-11-16T05:35:51Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna has one head and two arms; the separate Vishnu icon has one head and four arms, while Shesha’s hoods are a canopy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-l.md",
+          "sha256": "ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s raised palm has a thumb and three fingertips; Vishnu’s four arms remain separately attached, while seated legs continue beyond the lower edge."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Vishnu’s attributes stay in four distinct hands, and the gopa hand near the ground remains connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna, Vishnu, and the discernible gopas have intact faces; the snake hoods remain separate from Vishnu’s single head."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Krishna and Vishnu are separate figures, and the gopas do not fuse or repeat."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The inspected top-right, lower corners, ground, and palace field show no lettering or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The cowherds face Krishna as Vaikuntha appears around a separate four-armed Vishnu on Shesha."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Krishna’s viewer-right raised hand reads as a thumb plus three fingertips; gopa skin samples exceed the ordinary-skin target.",
+        "The seated group’s lower legs continue beyond the bottom edge; Vishnu has elaborate painted crown ornament and the scene has fine patterning.",
+        "The earlier v002 prompt/reference-argument bytes were overwritten; the plan records the original prompt hash and surviving native return."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-l.md (SHA-256 ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s008-landscape-v004-producer-review-v001.md (SHA-256 0ef01273449511a13f965300312cdcf20e64503fbdf33b784aad4ce551279557). Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 64,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d064/s009/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "ffa5e99f6d60be12ecbab0a987c4e16604ff3123a77ca78c71a0e5bab420f2c0",
+      "reviewer": "Firstmate-dispatched independent reviewer l (stanzas 6–10)",
+      "inspected_at": "2026-11-16T05:35:51Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna and the gopas are ordinary two-armed people; water may obscure lower bodies without creating detached limbs.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-l.md",
+          "sha256": "ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s reaching arms connect to the rescued cowherd, whose raised hand shows five separated digits; submerged legs are obscured by water."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The rescue contact between Krishna’s hands and the gopa remains connected in the focused view."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and the visible gopas have individually readable faces above the waterline."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The group contains separate cowherds, with no duplicated or fused body in the immersed scene."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The checked water, ground, sky, and corners contain no readable text or signature."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Krishna guides one immersed gopa toward shore while the others remain in the calm symbolic ocean."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Two of the sampled gopa skin patches have R−B values above 120; fine field patterning is visible."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-l.md (SHA-256 ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s009-landscape-v003-producer-review-v001.md (SHA-256 4d047191eef67df3d390f87b1db411765e1827752607e04a18b772abb0b54e85). Visual review only; art approval remains pending."
+    },
+    {
+      "chapter": 64,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d064/s010/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "236eab79f888585aa0101954d8867eba1952dd2c6cd6ab97bdedffcd4fed2c66",
+      "reviewer": "Firstmate-dispatched independent reviewer l (stanzas 6–10)",
+      "inspected_at": "2026-11-16T05:35:51Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna is one youthful two-armed figure; the cow and calf retain natural bovine anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d064.json",
+          "sha256": "ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/surabhi/character.json",
+          "sha256": "86d088f5be5c2a19a13df3138b66ea8ba3a24606ce1883645ab0f94c2ec6b0e2"
+        },
+        {
+          "path": "art/bible/characters/airavata/character.json",
+          "sha256": "4fccbe1a5b971e4b6ed09b817eacfc32a1d6385a359b9e6d21340fedbe2cd524"
+        },
+        {
+          "path": "art/bible/characters/d064-varuna/character.json",
+          "sha256": "86d8c71fa5d46c86863d527f756c53fa998512ce1ec15ef82ee73b5e720f7e3e"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d064-independent-review-l.md",
+          "sha256": "ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s raised palm has a thumb and three fingertips; the flute hand is attached and the near-edge blue foot remains within the frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The seated arms and legs form one pose, with the flute held between Krishna’s fingers."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The single youthful Krishna face is intact and smooth across the forehead."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "There is one Krishna and distinct cattle, without a duplicate or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "The checked grass, riverbank, palace motif, and corners show no readable lettering or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The seated cowherd with cattle and flute is paired with a restrained Vaikuntha motif for the closing praise."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Krishna’s raised viewer-right hand reads as a thumb plus three fingertips; one blue foot has only a narrow margin above the lower edge.",
+        "Fine patterned surface variation is visible."
+      ],
+      "notes": "Independent exact-checksum evidence: art/reviews/d064-independent-review-l.md (SHA-256 ff14e708a1093ec295105714134a2ea2536b26a8d142f3a1c657ced3452ded43), bound to final plan SHA-256 ac7db323c849473d87882404504ee6e65cd1087aca3b85e1cb4952a284fad2d9. Producer review remains separate: art/reviews/d064-s010-landscape-v003-producer-review-v001.md (SHA-256 c958de1cd4364cad52066a9e3207617353a80d3c3dc35b1834b1c0b5795f962c). Visual review only; art approval remains pending."
+    },
+    {
       "chapter": 66,
       "sloka": 1,
       "role": "matte",
