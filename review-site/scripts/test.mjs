@@ -515,6 +515,24 @@ assert.equal((await feedback(req({...good,daskam:65,sloka:9}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:65,sloka:10}),env)).status,400);
 console.log('Passed: Dasakam 65 has nine unpadded caption-mapped, exact-hash comparisons, producer disclosures, unapproved status, and stanza-bounded feedback.');
 
+const full72=data.chapters.find(c=>c.id===72);assert.ok(full72);assert.deepEqual(full72.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11,12]);
+const content72=JSON.parse(await fs.readFile(new URL('../../content/daskams/d072.json',import.meta.url)));
+const selected72=JSON.parse(await fs.readFile(new URL('../../art/batches/d072-comparison-v001.json',import.meta.url)));
+assert.equal(selected72.rows.length,12);assert.equal(selected72.review_status,'needs-review');assert.ok(full72.reviewNotice.toLowerCase().includes('unapproved'));
+for(const row of full72.rows){
+ assert.equal(row.commentarySource,`intake/D072/photo-captions.txt#${row.n}`);
+ assert.equal(row.commentary,content72.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected72.rows.find(r=>r.n===row.n);assert.ok(selected);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.equal(row.images.find(i=>i.role==='matte').version,selected.matte.version);
+ assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+ assert.ok(row.images.find(i=>i.role==='matte').inspectionLabel.includes('not art approval'));
+}
+assert.equal((await feedback(req({...good,daskam:72,sloka:12}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:72,sloka:13}),env)).status,400);
+console.log('Passed: D072 has twelve unpadded caption-mapped, exact-hash reference/candidate comparisons, inspected but unapproved landscapes, and stanza-bounded feedback.');
+
 const full35=data.chapters.find(c=>c.id===35);assert.ok(full35);assert.deepEqual(full35.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content35=JSON.parse(await fs.readFile(new URL('../../content/daskams/d035.json',import.meta.url)));
 const selected35=JSON.parse(await fs.readFile(new URL('../../art/batches/d035-comparison-v001.json',import.meta.url)));
