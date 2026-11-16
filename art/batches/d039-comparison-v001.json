@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "daskam_id": 39,
+  "review_status": "needs-review",
+  "visual_review_status": "Producer exact-version inspection reports are recorded for all ten selected native landscape candidates. The five authorized one-round repairs are selected at S003 v002, S004 v002, S008 v004, S009 v003, and S010 v004. S007, S008, S009, and S010 retain measured color deviations documented in the producer reports and plan candidate_status; no further repair was made. All ten selected versions await fresh independent exact-checksum review; portraits remain paused and no artwork is approved.",
+  "description": "Ten D039 landscape review rows matched by the verified canonical stanza-to-caption map. Source 009 is retained as a same-stanza source alternate for S008 and is not presented as an artwork alternate.",
+  "review_notice": "Producer exact-version inspection reports are recorded for all ten selected native landscape candidates. The five authorized one-round repairs are selected at S003 v002, S004 v002, S008 v004, S009 v003, and S010 v004. S007, S008, S009, and S010 retain measured color deviations documented in the producer reports and plan candidate_status; no further repair was made. All ten selected versions await fresh independent exact-checksum review; portraits remain paused and no artwork is approved.",
+  "reference_map_sha256": "b532a902bef32d6f480c3be2d2848c408ba918db4778c8cc4f23a2320ce27578",
+  "rows": [
+    {
+      "n": 1,
+      "concept_id": "d039-s001",
+      "scene": "Vasudeva crosses the swollen Yamuna with infant Krishna beneath Adishesha’s shelter.",
+      "reference": {
+        "file": "intake/D039/001.jpg",
+        "sha256": "a9784002f5011b3796a9a032636215784d3f626d47971d0a2c40060d26bc07b0",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s001/landscape/v001/candidate.png",
+        "sha256": "e4f6a25fb8e6499dc8c965ee2edb8a930969dae7aeed5a54b0e814e65d4ec47c",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": [],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s001-landscape-v001-producer-review-v005.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d039/s001/landscape/v001/candidate.png",
+          "sha256": "e4f6a25fb8e6499dc8c965ee2edb8a930969dae7aeed5a54b0e814e65d4ec47c",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "concept_id": "d039-s002",
+      "scene": "Vasudeva quietly exchanges the newborns in the sleeping cowherd home.",
+      "reference": {
+        "file": "intake/D039/002.jpg",
+        "sha256": "d797c00923b52ee7d106d4e5712b3b449402083d6af3883f9fe4f4699bbfd286",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s002/landscape/v001/candidate.png",
+        "sha256": "6d165b32438842295b30f4773f6b2fe25a88b5537ca272e8a57d053ae1a1a8ad",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": [],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s002-landscape-v001-producer-review-v005.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d039/s002/landscape/v001/candidate.png",
+          "sha256": "6d165b32438842295b30f4773f6b2fe25a88b5537ca272e8a57d053ae1a1a8ad",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "concept_id": "d039-s003",
+      "scene": "Kamsa arrives at Devaki’s prison cell and sees the newborn girl.",
+      "reference": {
+        "file": "intake/D039/003.jpg",
+        "sha256": "feed63e583805ede4e80ed1a3c3e17d1ea708087f948e73f371284183ded814d",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s003/landscape/v002/candidate.png",
+        "sha256": "ddc14ef455190e8419cf34ff013df4339c17a2acb27802cbf405e9197a447d6b",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
+      },
+      "alternates": [],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s003-landscape-v002-producer-review-v001.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d039/s003/landscape/v001/candidate.png",
+          "sha256": "21230ec8df9635fa2fec1022ffd0b42bc7f718fe284f9ec1fd9659f0ff47b724",
+          "selected": false,
+          "history_status": "generated-needs-review"
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d039/s003/landscape/v002/candidate.png",
+          "sha256": "ddc14ef455190e8419cf34ff013df4339c17a2acb27802cbf405e9197a447d6b",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "concept_id": "d039-s004",
+      "scene": "Kamsa raises the girl before a stone slab, stopped before impact.",
+      "reference": {
+        "file": "intake/D039/004.jpg",
+        "sha256": "1fd5a4d110fa1adf9e5348639b9c7ba8e6c94944c6ca52d2703112fca89ae48c",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s004/landscape/v002/candidate.png",
+        "sha256": "62542e74887599573a52094c48c517bf95acf72e40389adb9da54341f63cfc09",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002"
+      },
+      "alternates": [],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s004-landscape-v002-producer-review-v001.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d039/s004/landscape/v001/candidate.png",
+          "sha256": "6714474270e3d873c48591ac20a1f109900fcd165d615ce8d11f4e7776f55f91",
+          "selected": false,
+          "history_status": "generated-needs-review"
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d039/s004/landscape/v002/candidate.png",
+          "sha256": "62542e74887599573a52094c48c517bf95acf72e40389adb9da54341f63cfc09",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "concept_id": "d039-s005",
+      "scene": "Yogamaya rises in her eight-armed divine manifestation.",
+      "reference": {
+        "file": "intake/D039/005.jpg",
+        "sha256": "0624e345205957db31849deea19323f70fb5a7106088e9fc1939bc289bdf15e2",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s005/landscape/v003/candidate.png",
+        "sha256": "20936356597600a30f913f42494ed0f0dbc41f94f16b031cb40f3011cc9ce24a",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003"
+      },
+      "alternates": [],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s005-landscape-v003-producer-review-v005.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v002",
+          "file": "artifacts/d039/s005/landscape/v002/candidate.png",
+          "sha256": "72bfe54edf0325d739a6679603588d8c9f806e62862180033c3ba4d8ec85d12b",
+          "selected": false,
+          "history_status": "generated-needs-review"
+        },
+        {
+          "version": "v003",
+          "file": "artifacts/d039/s005/landscape/v003/candidate.png",
+          "sha256": "20936356597600a30f913f42494ed0f0dbc41f94f16b031cb40f3011cc9ce24a",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "concept_id": "d039-s006",
+      "scene": "Yogamaya delivers her warning to Kamsa as devas honor her departure.",
+      "reference": {
+        "file": "intake/D039/006.jpg",
+        "sha256": "6baf63d8261ef73697d0df4c7a75a4958f7348ca58b5717e1e120247f17cd847",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s006/landscape/v001/candidate.png",
+        "sha256": "3900ffd5c8380be8d0928b4f4c7ab32e61cb1b4f9136292841210689ed46c4fc",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001"
+      },
+      "alternates": [],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s006-landscape-v001-producer-review-v005.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d039/s006/landscape/v001/candidate.png",
+          "sha256": "3900ffd5c8380be8d0928b4f4c7ab32e61cb1b4f9136292841210689ed46c4fc",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "concept_id": "d039-s007",
+      "scene": "Kamsa summons the asura leaders and sends them away.",
+      "reference": {
+        "file": "intake/D039/007.jpg",
+        "sha256": "d1dbb91f51de9dd3c6af3a91d344d0fde281b7dc2c29afc617a61e0f7a61a418",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s007/landscape/v004/candidate.png",
+        "sha256": "7973a878bb537e9fa97c81943001e64b21f2ec2f4828618d04f8dc82f1f4c864",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
+      },
+      "alternates": [],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s007-landscape-v004-producer-review-v005.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d039/s007/landscape/v001/candidate.png",
+          "sha256": "1a6fa36abf26282268e477aedc6cc49c17f807ad786faa32e56c49146359bf88",
+          "selected": false,
+          "history_status": "needs-fix-duplication"
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d039/s007/landscape/v002/candidate.png",
+          "sha256": "b9dfbf5f9e2cb135b5732b2544665b8dfe782834ef9e02bb395936e16322841f",
+          "selected": false,
+          "history_status": "generated-needs-review"
+        },
+        {
+          "version": "v003",
+          "file": "artifacts/d039/s007/landscape/v003/candidate.png",
+          "sha256": "7efd170f6b3a50d2f3033bda06266857c97ed53a186be3283196e117dd445478",
+          "selected": false,
+          "history_status": "generated-needs-review"
+        },
+        {
+          "version": "v004",
+          "file": "artifacts/d039/s007/landscape/v004/candidate.png",
+          "sha256": "7973a878bb537e9fa97c81943001e64b21f2ec2f4828618d04f8dc82f1f4c864",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "concept_id": "d039-s008",
+      "scene": "Gokula gathers in joy around newborn Krishna.",
+      "reference": {
+        "file": "intake/D039/008.jpg",
+        "sha256": "94ad621746602deab459f23627c60d5367828d6c4dbecdd0d8d160451c346bd0",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s008/landscape/v004/candidate.png",
+        "sha256": "b8eaa75de43d6289e5776b541215a10e8fbf129b2e0edc39909d81f425737d23",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
+      },
+      "alternates": [],
+      "source_alternates": [
+        {
+          "file": "intake/D039/009.jpg",
+          "sha256": "00a712e8aa2dd271abc52bc76e375a0971f01c3074f63499ce4da7d68c46420f",
+          "caption_number": 8,
+          "role": "same-stanza source alternate only; not an artwork alternate"
+        }
+      ],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s008-landscape-v004-producer-review-v001.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d039/helper-s008-s010-native-v001/s008/v001/candidate.png",
+          "sha256": "e2f08806c0e3f5988d000028346a8092f4c59c2ed28b8557a34fb1c18f2ea7c6",
+          "selected": false,
+          "history_status": "superseded-helper-self-check-needs-fix",
+          "source_handoff_sha256": "dd303bfad7eca931db8d6a62f1ec33e9cef5e913ffe60cd3623406c9745f616d"
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d039/s008/landscape/v002/candidate.png",
+          "sha256": "028a9b54107a37d81368c571fd5a74fc7d25285a3c60252612c9021f478aac97",
+          "selected": false,
+          "history_status": "generated-needs-independent-review",
+          "source_handoff_sha256": "dd303bfad7eca931db8d6a62f1ec33e9cef5e913ffe60cd3623406c9745f616d"
+        },
+        {
+          "version": "v003",
+          "file": "artifacts/d039/s008/landscape/v003/candidate.png",
+          "sha256": "44b48d73dc6a2cb3526b833b5abd9fd5a86cf869bc3487f33d3bf517ec62210e",
+          "selected": false,
+          "history_status": "generated-needs-review",
+          "source_handoff_sha256": "e9a69e5ddec281f3fc091cffe4be404f95d92cb9143b2e64e9cdcbe74d51410c"
+        },
+        {
+          "version": "v004",
+          "file": "artifacts/d039/s008/landscape/v004/candidate.png",
+          "sha256": "b8eaa75de43d6289e5776b541215a10e8fbf129b2e0edc39909d81f425737d23",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "concept_id": "d039-s009",
+      "scene": "Yashoda tenderly feeds and gazes at the newborn Krishna.",
+      "reference": {
+        "file": "intake/D039/010.jpg",
+        "sha256": "0f368b4393b91cf7fb831875b79a5c72508ff4006c17dde09527d8ce32557bfb",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s009/landscape/v003/candidate.png",
+        "sha256": "6f9fcab65a7119fa0e1c043ae2ef6d316e400db2349f6bfbc77155f650b30c88",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003"
+      },
+      "alternates": [],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s009-landscape-v003-producer-review-v001.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d039/helper-s008-s010-native-v001/s009/v001/candidate.png",
+          "sha256": "c86f1dc7f095d1c972578a9a81379a32b9ec3a9a8fe140706ebe51a7aa18d31a",
+          "selected": false,
+          "history_status": "superseded-helper-self-check-needs-fix",
+          "source_handoff_sha256": "dd303bfad7eca931db8d6a62f1ec33e9cef5e913ffe60cd3623406c9745f616d"
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d039/s009/landscape/v002/candidate.png",
+          "sha256": "8ecc2aae7ad7c8ca13293ab4c3ad13532ea20747333678e68ed202d9b67c1449",
+          "selected": false,
+          "history_status": "generated-needs-independent-review",
+          "source_handoff_sha256": "dd303bfad7eca931db8d6a62f1ec33e9cef5e913ffe60cd3623406c9745f616d"
+        },
+        {
+          "version": "v003",
+          "file": "artifacts/d039/s009/landscape/v003/candidate.png",
+          "sha256": "6f9fcab65a7119fa0e1c043ae2ef6d316e400db2349f6bfbc77155f650b30c88",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "concept_id": "d039-s010",
+      "scene": "Nanda gives gifts to Brahmins and offers prayers for Krishna’s welfare.",
+      "reference": {
+        "file": "intake/D039/011.jpg",
+        "sha256": "4cc3a19f061f26bd3abc57cb17790bf8d1a07d2e8e071eb9f1189a7b01efb809",
+        "version": "source",
+        "label": "D039 numbered scene source",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d039/s010/landscape/v004/candidate.png",
+        "sha256": "ec1b737a67e2733c6e7fd2c9cb3ccfb6a6136caeb9e208273bff2b7d1be0131a",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004"
+      },
+      "alternates": [],
+      "notes": "Producer exact-version inspection: art/reviews/d039-s010-landscape-v004-producer-review-v001.md. Independent exact-checksum review is pending.",
+      "candidate_history": [
+        {
+          "version": "v001",
+          "file": "artifacts/d039/helper-s008-s010-native-v001/s010/v001/candidate.png",
+          "sha256": "c28ad369c2d061075b1215b250004c0d61bed581e6d019544fcacf702bd4b8c7",
+          "selected": false,
+          "history_status": "superseded-helper-self-check-needs-fix",
+          "source_handoff_sha256": "dd303bfad7eca931db8d6a62f1ec33e9cef5e913ffe60cd3623406c9745f616d"
+        },
+        {
+          "version": "v002",
+          "file": "artifacts/d039/helper-s008-s010-native-v001/s010/v002/candidate.png",
+          "sha256": "7abc25595f135c7aedd7ee0a16f057e39c5f6af7c9b2863bdf05027baedaae01",
+          "selected": false,
+          "history_status": "superseded-helper-self-check-needs-fix",
+          "source_handoff_sha256": "dd303bfad7eca931db8d6a62f1ec33e9cef5e913ffe60cd3623406c9745f616d"
+        },
+        {
+          "version": "v003",
+          "file": "artifacts/d039/s010/landscape/v003/candidate.png",
+          "sha256": "85e900e959972757c118729d5066aad853be7b1ce28ddff2e46e6c4ad8aad9c3",
+          "selected": false,
+          "history_status": "generated-needs-independent-review",
+          "source_handoff_sha256": "dd303bfad7eca931db8d6a62f1ec33e9cef5e913ffe60cd3623406c9745f616d"
+        },
+        {
+          "version": "v004",
+          "file": "artifacts/d039/s010/landscape/v004/candidate.png",
+          "sha256": "ec1b737a67e2733c6e7fd2c9cb3ccfb6a6136caeb9e208273bff2b7d1be0131a",
+          "selected": true,
+          "history_status": "generated-needs-review"
+        }
+      ]
+    }
+  ]
+}

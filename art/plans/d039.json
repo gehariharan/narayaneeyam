@@ -1,0 +1,1194 @@
+{
+  "schema_version": 1,
+  "daskam_id": 39,
+  "slug": "d039",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "infant-krishna",
+    "recurring_cast": [
+      "vasudeva",
+      "devaki",
+      "kamsa",
+      "yogamaya",
+      "yashoda",
+      "nandagopan",
+      "gopikas",
+      "brahmins"
+    ],
+    "narrative_arc": "Storm crossing and infant exchange; Kamsa learns of the girl and threatens her; Yogamaya manifests and warns him; Kamsa convenes the asuras; Gokula celebrates Krishna’s birth; Yashoda mothers the infant; Nanda offers gifts and prayer.",
+    "palette_arc": "Start in midnight indigo, storm blue, dark river and painted ochre; transition through muted prison stone and Yogamaya’s restrained violet-gold divine light; close in warm cream, mineral ochre, deep maroon and muted village greens.",
+    "series_style": "Traditional matte South Indian temple-mural: firm dark contours, broad mineral pigment fields, full-bleed no outer frame, shallow decorative space, natural warm-brown human skin, deep indigo infant Krishna; painted ochre ornament, no metallic gloss.",
+    "identity_rules": "Infant Krishna remains a natural newborn with exactly two arms in D039. Vasudeva, Devaki, Yashoda, Nandagopan, Kamsa, gopikas and Brahmins are ordinary two-armed humans. Yogamaya alone has the specifically required eight-arm divine form in S005-S006; each arm connects clearly to her body.",
+    "source_policy": "D039 reference images guide scene composition only. Do not imitate their photorealistic/glossy styles or reproduce watermarks/UI. D039/008 is the lead S008 source; D039/009 is preserved as a secondary S008 source because its numbered caption is also 8.",
+    "portrait_policy": "All portrait compositions are recorded as future independent recompositions; portrait generation is paused for this assignment.",
+    "bhattathiri_policy": "S010 keeps the poet’s closing prayer in the devotional light/gaze of the scene; Bhattathiri is not inserted as a participant in the historical Gokula ritual. If later requested, use the existing older clean-shaven identity contract exactly.",
+    "provisional_cast": [
+      {
+        "id": "kamsa",
+        "scope": "D039 only",
+        "notes": "Mature Mathuran king, distinct from Vasudeva; controlled angular face, dark hair and moustache, muted royal red/ochre garments and modest crown; no monster transformation or gore."
+      },
+      {
+        "id": "asura-council",
+        "scope": "D039 S007 only",
+        "notes": "Three distinct adult supernatural council members, varied silhouettes, non-graphic, no infant harm depicted."
+      },
+      {
+        "id": "devas",
+        "scope": "D039 S005-S006",
+        "notes": "Small secondary group of distinct celestial witnesses, ordinary two-arm silhouettes."
+      },
+      {
+        "id": "cowherds",
+        "scope": "D039 S010",
+        "notes": "Small group of distinct ordinary Vraja adults, naturally two-armed."
+      }
+    ],
+    "character_contract_sha256": {
+      "infant-krishna": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb",
+      "vasudeva": "b48f743c0d11b884adecf7f61e0d33d26f5f58a5b58dbb21197c1469c54d0ec8",
+      "devaki": "bec219a76ee6e61b859a8232e6951090c35ac83ecca1471d00b40e607c064dd6",
+      "yogamaya": "759bed23397912cc03a765560ac613ef4e7d5dca8c5b2e7c937b06034bd02122",
+      "yashoda": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d",
+      "nandagopan": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36",
+      "gopikas": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665",
+      "brahmins": "ee6f618e0dd1b82fae4f7ab0a37abdee5cf6edb7a0544410a55e5fbc996f7b07"
+    },
+    "series_sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d039-s001",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "vasudeva",
+        "adishesha"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/001.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/001.jpg",
+          "sha256": "a9784002f5011b3796a9a032636215784d3f626d47971d0a2c40060d26bc07b0",
+          "caption_number": 1,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "Vasudeva carries the infant through the swollen Yamuna under Adishesha; the flood and crossing are unmistakable.",
+        "must_show": [
+          "Vasudeva wading through the high Yamuna with the newborn held safely above the water",
+          "The flood lowering around his legs to ankle height",
+          "One continuous Adishesha body forming an odd-numbered connected hood canopy over father and child",
+          "An expansive storm sky and river crossing that remain legible in a wide frame"
+        ],
+        "composition": "Wide diagonal river crossing: Vasudeva and child at center-left beneath the curved serpent canopy; high water opens to ankle depth around him; storm and far bank span the frame.",
+        "tone": "sacred awe and courage",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition"
+        ],
+        "character_contracts": [
+          {
+            "id": "infant-krishna",
+            "path": "art/bible/characters/infant-krishna/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "vasudeva",
+            "path": "art/bible/characters/vasudeva/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "adishesha",
+            "path": "art/bible/characters/adishesha/character.json",
+            "status": "existing-contract"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/001.jpg",
+            "relative_path": "D039/001.jpg",
+            "sha256": "a9784002f5011b3796a9a032636215784d3f626d47971d0a2c40060d26bc07b0",
+            "bytes": 24087,
+            "dimensions_px": [
+              480,
+              360
+            ],
+            "caption_number": 1,
+            "caption_text_exact": "When Vasudeva set out carrying Baby Krishna, he saw the waters of the Yamuna river flooded to the skies.  As he crossed, the waters were reduced to the ankles of his feet as if it was an illusory flood caused by magic.",
+            "local_path": "D039/001.jpg"
+          },
+          {
+            "path": "/home/gehariharan/firstmate-images/data/core-worktrees/d042-production/artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+            "role": "provisional infant identity cue only",
+            "project_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "local_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png"
+          }
+        ]
+      },
+      "alt": "Vasudeva crosses the swollen Yamuna with infant Krishna beneath Adishesha’s shelter.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide diagonal river crossing: Vasudeva and child at center-left beneath the curved serpent canopy; high water opens to ankle depth around him; storm and far bank span the frame.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; disclosed warm orange-brown skin: Vasudeva 12x12 medians RGB (187,101,20) at x610–623,y345–354 and (189,101,18) at x575–588,y385–394, outside the warm-brown contract; Vasudeva also wears a yellow dhoti, red-orange shoulder cloth, thick bead ornament, and prominent armlet/wrist ornaments rather than the plain-ivory dhoti, weathered-cream shawl, and minimal beads in his contract; captain art approval remains pending",
+          "selected_candidate_version": "v001",
+          "selected_candidate_sha256": "e4f6a25fb8e6499dc8c965ee2edb8a930969dae7aeed5a54b0e814e65d4ec47c"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, independently recompose the father, infant, connected hood canopy, and river depth for a tall 4:5 frame."
+        }
+      },
+      "portrait_status": "paused"
+    },
+    {
+      "n": 2,
+      "concept_id": "d039-s002",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "vasudeva",
+        "yashoda",
+        "nandagopan",
+        "yogamaya"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/002.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/002.jpg",
+          "sha256": "d797c00923b52ee7d106d4e5712b3b449402083d6af3883f9fe4f4699bbfd286",
+          "caption_number": 2,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "Vasudeva is at the sleeping Yashoda/Nanda household with two infants, visually indicating the baby exchange.",
+        "must_show": [
+          "A quiet nighttime cowherd home with Yashoda and Nanda asleep",
+          "Vasudeva placing blue-skinned newborn Krishna beside Yashoda and carrying the newborn girl away",
+          "Exactly two distinct newborns, both with natural two-arm anatomy",
+          "A gently open doorway and sleeping household, without adding a third infant"
+        ],
+        "composition": "Wide sleeping-room scene: the bed and doorway form a broad horizontal space; Vasudeva moves between Yashoda’s sleeping side and the second infant; both babies remain distinct.",
+        "tone": "hushed tenderness",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition"
+        ],
+        "character_contracts": [
+          {
+            "id": "infant-krishna",
+            "path": "art/bible/characters/infant-krishna/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "vasudeva",
+            "path": "art/bible/characters/vasudeva/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "yashoda",
+            "path": "art/bible/characters/yashoda/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "nandagopan",
+            "path": "art/bible/characters/nandagopan/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "yogamaya",
+            "path": "art/bible/characters/yogamaya/character.json",
+            "status": "existing-contract"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/002.jpg",
+            "relative_path": "D039/002.jpg",
+            "sha256": "d797c00923b52ee7d106d4e5712b3b449402083d6af3883f9fe4f4699bbfd286",
+            "bytes": 55703,
+            "dimensions_px": [
+              564,
+              773
+            ],
+            "caption_number": 2,
+            "caption_text_exact": "At Gokulam, everyone were fast asleep. Doors of Nandagopan's house opened and the Yogamaya gave a shrill cry as if to announce the location of the house. Vasudeva left  baby Krishna near sleeping Yashoda and carried the girl child to reach Mathura faster.",
+            "local_path": "D039/002.jpg"
+          },
+          {
+            "path": "/home/gehariharan/firstmate-images/data/core-worktrees/d042-production/artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+            "role": "provisional infant identity cue only",
+            "project_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "local_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png"
+          },
+          {
+            "path": "/home/gehariharan/firstmate-images/data/core-worktrees/d042-production/artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+            "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+            "role": "provisional Yashoda/Nandagopan identity cues only; not scene or style",
+            "project_path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+            "local_path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
+          }
+        ]
+      },
+      "alt": "Vasudeva quietly exchanges the newborns in the sleeping cowherd home.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide sleeping-room scene: the bed and doorway form a broad horizontal space; Vasudeva moves between Yashoda’s sleeping side and the second infant; both babies remain distinct.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; disclosed warm orange-brown skin: Yashoda 12x12 medians RGB (209,116,22), (223,128,26), and (225,132,27); Nandagopan neck (189,103,22); Vasudeva chest (216,116,14), outside the warm-brown contracts; captain art approval remains pending",
+          "selected_candidate_version": "v001",
+          "selected_candidate_sha256": "6d165b32438842295b30f4773f6b2fe25a88b5537ca272e8a57d053ae1a1a8ad"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, independently stack the sleeping family, two distinct newborns, and open doorway for a tall 4:5 frame."
+        }
+      },
+      "portrait_status": "paused"
+    },
+    {
+      "n": 3,
+      "concept_id": "d039-s003",
+      "review_status": "needs-review",
+      "characters": [
+        "devaki",
+        "yogamaya",
+        "kamsa"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/003.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/003.jpg",
+          "sha256": "feed63e583805ede4e80ed1a3c3e17d1ea708087f948e73f371284183ded814d",
+          "caption_number": 3,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "A royal figure (Kamsa) enters the prison scene where Devaki holds the infant; matches the arrival after the cry.",
+        "must_show": [
+          "A stone prison cell where Kamsa enters after hearing the girl’s cry",
+          "Devaki seated with the newborn girl held safely in her arms",
+          "Kamsa’s anger and confusion visible in posture and face",
+          "Restrained guards in the background, without crowding the three main figures"
+        ],
+        "composition": "Wide prison interior: Kamsa enters from one side, Devaki and the held girl anchor the other; guards recede into the stone architecture.",
+        "tone": "tense arrival without threat escalation",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition"
+        ],
+        "character_contracts": [
+          {
+            "id": "devaki",
+            "path": "art/bible/characters/devaki/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "yogamaya",
+            "path": "art/bible/characters/yogamaya/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "kamsa",
+            "status": "provisional-chapter-contract",
+            "notes": "Mature Mathuran king, distinct from Vasudeva; controlled angular face, dark hair and moustache, muted royal red/ochre garments with modest crown. No monster transformation or gore.",
+            "path": "art/bible/characters/kamsa/character.json"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/003.jpg",
+            "relative_path": "D039/003.jpg",
+            "sha256": "feed63e583805ede4e80ed1a3c3e17d1ea708087f948e73f371284183ded814d",
+            "bytes": 51050,
+            "dimensions_px": [
+              473,
+              660
+            ],
+            "caption_number": 3,
+            "caption_text_exact": "After reaching the prison,  the child’s (Yogamaya) crying sound made the guards rush to inform Kamsa that the 8th baby is born. Kamsa came running in anger and agitation to the prison cell, but was confused to see a baby girl in his sister Devaki's hands.",
+            "local_path": "D039/003.jpg"
+          }
+        ]
+      },
+      "alt": "Kamsa arrives at Devaki’s prison cell and sees the newborn girl.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide prison interior: Kamsa enters from one side, Devaki and the held girl anchor the other; guards recede into the stone architecture.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; disclosed warm orange-brown skin: Devaki 12x12 medians RGB (235,143,44) and (240,172,85), and Kamsa hand/arm (224,132,39), outside the warm-brown contracts; Devaki wears the repaired deep muted maroon sari and ochre blouse, but the blouse sleeve retains visible repeated floral motifs and decorated cuff despite the plain-ochre blouse contract; captain art approval remains pending",
+          "selected_candidate_version": "v002",
+          "selected_candidate_sha256": "ddc14ef455190e8419cf34ff013df4339c17a2acb27802cbf405e9197a447d6b"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, independently recompose Kamsa’s entrance and Devaki with the held infant girl in the prison cell."
+        }
+      },
+      "portrait_status": "paused"
+    },
+    {
+      "n": 4,
+      "concept_id": "d039-s004",
+      "review_status": "needs-review",
+      "characters": [
+        "devaki",
+        "yogamaya",
+        "kamsa"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/004.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/004.jpg",
+          "sha256": "1fd5a4d110fa1adf9e5348639b9c7ba8e6c94944c6ca52d2703112fca89ae48c",
+          "caption_number": 4,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "Kamsa raises the infant girl to strike her against stone; matches the attempted killing.",
+        "must_show": [
+          "Kamsa holding the newborn girl above a low stone slab, before any impact",
+          "Devaki reaching toward her daughter, distressed but unharmed",
+          "A clear visible gap between the baby and the stone; the baby remains supported and uninjured",
+          "Non-graphic suspense, no strike or contact"
+        ],
+        "composition": "Wide tense tableau: Devaki and Kamsa occupy opposite sides, the safely held infant centered above the low slab with clear distance from it.",
+        "tone": "suspense before harm, restrained and non-graphic",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition",
+          "no contact with the stone; no injury, impact, blood, or graphic violence"
+        ],
+        "character_contracts": [
+          {
+            "id": "devaki",
+            "path": "art/bible/characters/devaki/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "yogamaya",
+            "path": "art/bible/characters/yogamaya/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "kamsa",
+            "status": "provisional-chapter-contract",
+            "notes": "Mature Mathuran king, distinct from Vasudeva; controlled angular face, dark hair and moustache, muted royal red/ochre garments with modest crown. No monster transformation or gore.",
+            "path": "art/bible/characters/kamsa/character.json"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/004.jpg",
+            "relative_path": "D039/004.jpg",
+            "sha256": "1fd5a4d110fa1adf9e5348639b9c7ba8e6c94944c6ca52d2703112fca89ae48c",
+            "bytes": 39548,
+            "dimensions_px": [
+              672,
+              527
+            ],
+            "caption_number": 4,
+            "caption_text_exact": "Kamsa thought to himself that this must be some maaya of Lord Vishnu. He snatched the baby from Devaki's hands like an elephant snatching and plucking the lotus from the pond and lifted his hand to hit it hard on the stone slab.",
+            "local_path": "D039/004.jpg"
+          }
+        ]
+      },
+      "alt": "Kamsa raises the girl before a stone slab, stopped before impact.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide tense tableau: Devaki and Kamsa occupy opposite sides, the safely held infant centered above the low slab with clear distance from it.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; disclosed warm orange-brown skin: Kamsa 12x12 medians RGB (245,147,44), (224,122,27), and (244,142,36), outside the warm-brown contract; Devaki also has visibly orange exposed skin (no numerical patch median reported); Devaki wears the repaired deep maroon sari and ochre blouse; captain art approval remains pending",
+          "selected_candidate_version": "v002",
+          "selected_candidate_sha256": "62542e74887599573a52094c48c517bf95acf72e40389adb9da54341f63cfc09"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, keep the baby safely supported and clearly separated from the stone in a vertical suspense composition."
+        }
+      },
+      "portrait_status": "paused"
+    },
+    {
+      "n": 5,
+      "concept_id": "d039-s005",
+      "review_status": "needs-review",
+      "characters": [
+        "yogamaya",
+        "kamsa",
+        "devas"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/005.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/005.jpg",
+          "sha256": "0624e345205957db31849deea19323f70fb5a7106088e9fc1939bc289bdf15e2",
+          "caption_number": 5,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "Yogamaya appears aloft as a many-armed goddess with weapons; matches the eight-armed manifestation.",
+        "must_show": [
+          "Yogamaya rising above Kamsa as a radiant goddess",
+          "Exactly eight graceful, anatomically connected arms arranged from her shoulders",
+          "Traditional divine weapons in her hands, with no specific invented weapon list dominating the image",
+          "Kamsa looking upward, with the prison courtyard grounded below"
+        ],
+        "composition": "Wide vertical ascent across a horizontal courtyard: Yogamaya centered aloft with full figure and all eight arms visible; Kamsa grounded below.",
+        "tone": "radiant divine revelation",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition",
+          "Yogamaya must have exactly eight attached arms; never give ordinary humans extra arms"
+        ],
+        "character_contracts": [
+          {
+            "id": "yogamaya",
+            "path": "art/bible/characters/yogamaya/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "kamsa",
+            "status": "provisional-chapter-contract",
+            "notes": "Mature Mathuran king, distinct from Vasudeva; controlled angular face, dark hair and moustache, muted royal red/ochre garments with modest crown. No monster transformation or gore.",
+            "path": "art/bible/characters/kamsa/character.json"
+          },
+          {
+            "id": "devas",
+            "status": "provisional-group-contract",
+            "notes": "Small distinct celestial witnesses in simple mural forms; naturally two-armed, secondary to Yogamaya.",
+            "path": "art/bible/characters/d039-devas/character.json"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/005.jpg",
+            "relative_path": "D039/005.jpg",
+            "sha256": "0624e345205957db31849deea19323f70fb5a7106088e9fc1939bc289bdf15e2",
+            "bytes": 75589,
+            "dimensions_px": [
+              700,
+              1039
+            ],
+            "caption_number": 5,
+            "caption_text_exact": "The baby child, Yoga Maayaa freed herself from the clutches of Kamsa immediately. Not hitting the earth, she rose above the earth in the sky and took a divine form with powerful weapons in her eight arms.",
+            "local_path": "D039/005.jpg"
+          }
+        ]
+      },
+      "alt": "Yogamaya rises in her eight-armed divine manifestation.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide vertical ascent across a horizontal courtyard: Yogamaya centered aloft with full figure and all eight arms visible; Kamsa grounded below.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; disclosed warm orange-brown skin: Kamsa 12x12 medians RGB (245,157,70) and (162,95,42), outside the warm-brown contract; Yogamaya’s exposed arm sample (238,155,55) is divine golden shading and is not a human-skin deviation; captain art approval remains pending",
+          "selected_candidate_version": "v003",
+          "selected_candidate_sha256": "20936356597600a30f913f42494ed0f0dbc41f94f16b031cb40f3011cc9ce24a"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, keep all eight attached arms and the full ascending figure visible in a vertical frame."
+        }
+      },
+      "portrait_status": "paused"
+    },
+    {
+      "n": 6,
+      "concept_id": "d039-s006",
+      "review_status": "needs-review",
+      "characters": [
+        "yogamaya",
+        "kamsa",
+        "devas"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/006.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/006.jpg",
+          "sha256": "6baf63d8261ef73697d0df4c7a75a4958f7348ca58b5717e1e120247f17cd847",
+          "caption_number": 6,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "The goddess is shown suspended above Kamsa with devas around her; supports her warning and departure.",
+        "must_show": [
+          "The same eight-armed Yogamaya addressing Kamsa from above",
+          "Kamsa listening below as her warning becomes the focal action",
+          "Devas honoring her departure with a restrained flower shower",
+          "A sense of the goddess departing toward the world’s shrines, without a multi-panel collage"
+        ],
+        "composition": "Wide courtyard composition: the goddess’s warning bridges her elevated position and Kamsa below; devas remain small, distinct, and secondary.",
+        "tone": "clear warning and departure",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition",
+          "Yogamaya must have exactly eight attached arms; never give ordinary humans extra arms"
+        ],
+        "character_contracts": [
+          {
+            "id": "yogamaya",
+            "path": "art/bible/characters/yogamaya/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "kamsa",
+            "status": "provisional-chapter-contract",
+            "notes": "Mature Mathuran king, distinct from Vasudeva; controlled angular face, dark hair and moustache, muted royal red/ochre garments with modest crown. No monster transformation or gore.",
+            "path": "art/bible/characters/kamsa/character.json"
+          },
+          {
+            "id": "devas",
+            "status": "provisional-group-contract",
+            "notes": "Small distinct celestial witnesses in simple mural forms; naturally two-armed, secondary to Yogamaya.",
+            "path": "art/bible/characters/d039-devas/character.json"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/006.jpg",
+            "relative_path": "D039/006.jpg",
+            "sha256": "6baf63d8261ef73697d0df4c7a75a4958f7348ca58b5717e1e120247f17cd847",
+            "bytes": 37218,
+            "dimensions_px": [
+              400,
+              558
+            ],
+            "caption_number": 6,
+            "caption_text_exact": "Yogamaya called out to the cruel king Kamsa and said that there is no use in killing her, the person who is going to kill him is born elsewhere.  Yogamaaya then vanished in to the different temples in the earth while devas sprinkled flowers on her.",
+            "local_path": "D039/006.jpg"
+          }
+        ]
+      },
+      "alt": "Yogamaya delivers her warning to Kamsa as devas honor her departure.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide courtyard composition: the goddess’s warning bridges her elevated position and Kamsa below; devas remain small, distinct, and secondary.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; captain art approval remains pending",
+          "selected_candidate_version": "v001",
+          "selected_candidate_sha256": "3900ffd5c8380be8d0928b4f4c7ab32e61cb1b4f9136292841210689ed46c4fc"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, arrange the elevated goddess and Kamsa below with the warning as the clear focal relationship."
+        }
+      },
+      "portrait_status": "paused"
+    },
+    {
+      "n": 7,
+      "concept_id": "d039-s007",
+      "review_status": "needs-review",
+      "characters": [
+        "kamsa",
+        "asura-council"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/007.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/007.jpg",
+          "sha256": "d1dbb91f51de9dd3c6af3a91d344d0fde281b7dc2c29afc617a61e0f7a61a418",
+          "caption_number": 7,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "A collage of demonic figures including a crowned king and monstrous/demonic forms supports Kamsa dispatching the asuras; image carries a visible stock watermark, but its numbered/caption context is clear.",
+        "must_show": [
+          "Kamsa addressing a small council of Pralamba, Baka, and Putana",
+          "Distinct adult asura figures listening and preparing to leave",
+          "A clear non-graphic departure from the council chamber",
+          "No infants present, no attack, injury, or death depicted"
+        ],
+        "composition": "Wide council chamber with Kamsa and three separate asura figures; doorway frames the group’s non-violent departure.",
+        "tone": "somber council, non-graphic",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition"
+        ],
+        "character_contracts": [
+          {
+            "id": "kamsa",
+            "status": "provisional-chapter-contract",
+            "notes": "Mature Mathuran king, distinct from Vasudeva; controlled angular face, dark hair and moustache, muted royal red/ochre garments with modest crown. No monster transformation or gore.",
+            "path": "art/bible/characters/kamsa/character.json"
+          },
+          {
+            "id": "asura-council",
+            "status": "provisional-chapter-contract",
+            "notes": "Three distinct adult supernatural council members; varied silhouettes and modest period costume; non-graphic, no infants shown, no duplicated/fused bodies.",
+            "path": "art/bible/characters/asura-council/character.json"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/007.jpg",
+            "relative_path": "D039/007.jpg",
+            "sha256": "d1dbb91f51de9dd3c6af3a91d344d0fde281b7dc2c29afc617a61e0f7a61a418",
+            "bytes": 155531,
+            "dimensions_px": [
+              1600,
+              900
+            ],
+            "caption_number": 7,
+            "caption_text_exact": "Kamsa informed his demons Pralamba, Baka, and Poothana about Yogamaya's words. The asuras went around  killing all the male infants all around the world.\nMerciless people are capable of doing merciless deeds.",
+            "local_path": "D039/007.jpg"
+          }
+        ]
+      },
+      "alt": "Kamsa summons the asura leaders and sends them away.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide council chamber with Kamsa and three separate asura figures; doorway frames the group’s non-violent departure.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; captain art approval remains pending. One-round skin repair shifts Kamsa from slate-gray to warm orange-brown; two 12x12 shoulder patches measure RGB (195,92,18) and (197,96,22), with a residual orange cast against the warm-brown contract; no further repair is planned.",
+          "selected_candidate_version": "v004",
+          "selected_candidate_sha256": "7973a878bb537e9fa97c81943001e64b21f2ec2f4828618d04f8dc82f1f4c864"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, keep Kamsa, all three council members, and the departure doorway distinct in a vertical room."
+        }
+      },
+      "portrait_status": "paused"
+    },
+    {
+      "n": 8,
+      "concept_id": "d039-s008",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "yashoda",
+        "nandagopan",
+        "gopikas"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/008.jpg",
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/009.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/008.jpg",
+          "sha256": "94ad621746602deab459f23627c60d5367828d6c4dbecdd0d8d160451c346bd0",
+          "caption_number": 8,
+          "role": "composition cue only"
+        },
+        {
+          "path": "D039/009.jpg",
+          "sha256": "00a712e8aa2dd271abc52bc76e375a0971f01c3074f63499ce4da7d68c46420f",
+          "caption_number": 8,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "Both refs show newborn Krishna in Gokula amid celebrating women: 008 is a moonlit cradle gathering; 009 is a decorated cradle with festal offerings. 009 is also captioned #8, so it is a duplicate-numbered alternate for stanza 8, not an unsupported stanza.",
+        "must_show": [
+          "Newborn Krishna in a simple village cradle at Gokula",
+          "Yashoda and Nanda sharing the news with a small distinct group of gopikas",
+          "A clear celebratory response through gestures, flowers, and simple offerings",
+          "Use D039/008 as the lead scene cue; preserve D039/009 as a documented alternate reference"
+        ],
+        "composition": "Wide village celebration around a simple cradle, with small, distinct groups and open space; the moonlit village remains secondary.",
+        "tone": "communal joy",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition"
+        ],
+        "character_contracts": [
+          {
+            "id": "infant-krishna",
+            "path": "art/bible/characters/infant-krishna/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "yashoda",
+            "path": "art/bible/characters/yashoda/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "nandagopan",
+            "path": "art/bible/characters/nandagopan/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "gopikas",
+            "path": "art/bible/characters/gopikas/character.json",
+            "status": "existing-contract"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/008.jpg",
+            "relative_path": "D039/008.jpg",
+            "sha256": "94ad621746602deab459f23627c60d5367828d6c4dbecdd0d8d160451c346bd0",
+            "bytes": 154813,
+            "dimensions_px": [
+              1200,
+              1200
+            ],
+            "caption_number": 8,
+            "caption_text_exact": "Bhagwan baby Krishna now gave a cry announcing his birth in Gokulam, waking up Yashoda. She immediately informed Nandagopan and all gopikas, the happy news of arrival of male child. The whole Gokula rejoiced the arrival of the child.",
+            "local_path": "D039/008.jpg"
+          },
+          {
+            "path": "/home/gehariharan/firstmate-images/data/core-worktrees/d042-production/artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+            "role": "provisional infant identity cue only",
+            "project_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "local_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png"
+          },
+          {
+            "path": "/home/gehariharan/firstmate-images/data/core-worktrees/d042-production/artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+            "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+            "role": "provisional Yashoda/Nandagopan identity cues only; not scene or style",
+            "project_path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+            "local_path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
+          }
+        ]
+      },
+      "alt": "Gokula gathers in joy around newborn Krishna.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide village celebration around a simple cradle, with small, distinct groups and open space; the moonlit village remains secondary.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; producer notes: The repaired village figures remain warm orange-brown in sampled skin: Yashoda face/arm/hand medians (187,107,55), (187,108,55), (183,106,54); Nanda face/hand (182,105,52), (183,104,52). Red-minus-blue remains above the approximate target in these samples. captain art approval remains pending",
+          "selected_candidate_version": "v004",
+          "selected_candidate_sha256": "b8eaa75de43d6289e5776b541215a10e8fbf129b2e0edc39909d81f425737d23"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, recompose cradle and family celebration vertically without cropping the group."
+        }
+      },
+      "portrait_status": "paused"
+    },
+    {
+      "n": 9,
+      "concept_id": "d039-s009",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "yashoda"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/010.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/010.jpg",
+          "sha256": "0f368b4393b91cf7fb831875b79a5c72508ff4006c17dde09527d8ce32557bfb",
+          "caption_number": 9,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "Yashoda holds and gazes closely at the infant; it conveys the described maternal feeding/caressing moment, though nursing is not literally visible.",
+        "must_show": [
+          "Yashoda holding and feeding the infant Krishna in a quiet maternal moment",
+          "A close, tender exchange of gaze between mother and newborn",
+          "Natural adult and infant proportions with fully attached arms and hands",
+          "Keep the feeding gesture modest, devotional, and non-sensational"
+        ],
+        "composition": "Wide intimate room composition with Yashoda and infant as a close two-figure center, preserving calm negative space around their faces and hands.",
+        "tone": "quiet maternal tenderness",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition"
+        ],
+        "character_contracts": [
+          {
+            "id": "infant-krishna",
+            "path": "art/bible/characters/infant-krishna/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "yashoda",
+            "path": "art/bible/characters/yashoda/character.json",
+            "status": "existing-contract"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/010.jpg",
+            "relative_path": "D039/010.jpg",
+            "sha256": "0f368b4393b91cf7fb831875b79a5c72508ff4006c17dde09527d8ce32557bfb",
+            "bytes": 58047,
+            "dimensions_px": [
+              720,
+              882
+            ],
+            "caption_number": 9,
+            "caption_text_exact": "Yasodha looked at baby Krishna who was as fresh as the kaayambu flower, fed him with milk, touched and caressed him and felt extremely happy.",
+            "local_path": "D039/010.jpg"
+          },
+          {
+            "path": "/home/gehariharan/firstmate-images/data/core-worktrees/d042-production/artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+            "role": "provisional infant identity cue only",
+            "project_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "local_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png"
+          },
+          {
+            "path": "/home/gehariharan/firstmate-images/data/core-worktrees/d042-production/artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+            "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+            "role": "provisional Yashoda/Nandagopan identity cues only; not scene or style",
+            "project_path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+            "local_path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
+          }
+        ]
+      },
+      "alt": "Yashoda tenderly feeds and gazes at the newborn Krishna.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide intimate room composition with Yashoda and infant as a close two-figure center, preserving calm negative space around their faces and hands.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; producer notes: The repaired Yashoda remains outside the approximate skin target: face median (163,84,31), forearm (233,120,2), hand (189,104,48); these sampled red-minus-blue differences remain above 120. captain art approval remains pending",
+          "selected_candidate_version": "v003",
+          "selected_candidate_sha256": "6f9fcab65a7119fa0e1c043ae2ef6d316e400db2349f6bfbc77155f650b30c88"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, preserve the mother/infant gaze and hand visibility in an independently composed close portrait."
+        }
+      },
+      "portrait_status": "paused"
+    },
+    {
+      "n": 10,
+      "concept_id": "d039-s010",
+      "review_status": "needs-review",
+      "characters": [
+        "infant-krishna",
+        "nandagopan",
+        "brahmins",
+        "gopas"
+      ],
+      "reference_paths": [
+        "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/011.jpg"
+      ],
+      "source_references": [
+        {
+          "path": "D039/011.jpg",
+          "sha256": "4cc3a19f061f26bd3abc57cb17790bf8d1a07d2e8e071eb9f1189a7b01efb809",
+          "caption_number": 10,
+          "role": "composition cue only"
+        }
+      ],
+      "scene_brief": {
+        "mode": "source-grounded-narrative",
+        "canonical_scene": "Nanda, infant, and assembled Brahmins/ritual offerings form a clear blessing and gift-giving scene; supports the captioned closing request.",
+        "must_show": [
+          "Nanda giving simple gifts to a small group of distinct Brahmin elders beside the newborn",
+          "A modest Gokula blessing ritual and joyful household atmosphere",
+          "The infant and Nanda remain clear focal figures; every human has natural two-arm anatomy",
+          "Let the closing prayer read through the devotional gaze/light; do not insert Bhattathiri as a historical participant"
+        ],
+        "composition": "Wide ritual scene with Nanda, infant, and a small semicircle of Brahmin elders; offerings and village greenery form a simple balanced foreground.",
+        "tone": "auspicious blessing and prayer",
+        "avoid": [
+          "no readable text",
+          "no watermark, logo, signature, or copied interface marks",
+          "no glossy skin or lips",
+          "no reflective metallic gold, silk sheen, photorealistic facial modelling, or cinematic volumetric beams",
+          "no extra, detached, fused, or duplicated limbs",
+          "all ordinary humans have exactly two naturally attached arms",
+          "no accidental duplicate people or fused faces",
+          "no outer border; full-bleed mural composition"
+        ],
+        "character_contracts": [
+          {
+            "id": "infant-krishna",
+            "path": "art/bible/characters/infant-krishna/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "nandagopan",
+            "path": "art/bible/characters/nandagopan/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "brahmins",
+            "path": "art/bible/characters/brahmins/character.json",
+            "status": "existing-contract"
+          },
+          {
+            "id": "gopas",
+            "path": "art/bible/characters/gopas/character.json",
+            "status": "existing-contract"
+          }
+        ],
+        "references": [
+          {
+            "path": "artifacts/d001/s004/landscape/master.png",
+            "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s004/landscape/master.png"
+          },
+          {
+            "path": "artifacts/d001/s008/landscape/master.png",
+            "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+            "role": "matte rendering/style anchor only",
+            "local_path": "artifacts/d001/s008/landscape/master.png"
+          },
+          {
+            "path": "/home/gehariharan/OneDrive/Pictures/Narayaneeyam Studio/intake/D039/011.jpg",
+            "relative_path": "D039/011.jpg",
+            "sha256": "4cc3a19f061f26bd3abc57cb17790bf8d1a07d2e8e071eb9f1189a7b01efb809",
+            "bytes": 42635,
+            "dimensions_px": [
+              550,
+              440
+            ],
+            "caption_number": 10,
+            "caption_text_exact": "Nandagopa, overwhelmed with joy distributed gifts to all holy Brahmins and performed all rituals for baby's welfare.\n\nBhattathiri requested Bhagwan who blesses auspiciousness to all in the three worlds to ward off his diseases and protect him.",
+            "local_path": "D039/011.jpg"
+          },
+          {
+            "path": "/home/gehariharan/firstmate-images/data/core-worktrees/d042-production/artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d",
+            "role": "provisional infant identity cue only",
+            "project_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png",
+            "local_path": "artifacts/d042/character-sheets/infant-krishna/anchor-v004.png"
+          },
+          {
+            "path": "/home/gehariharan/firstmate-images/data/core-worktrees/d042-production/artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+            "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f",
+            "role": "provisional Yashoda/Nandagopan identity cues only; not scene or style",
+            "project_path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg",
+            "local_path": "artifacts/d042/references/shared/nandagopan-yashoda-identity-source-d043-s009.jpg"
+          }
+        ]
+      },
+      "alt": "Nanda gives gifts to Brahmins and offers prayers for Krishna’s welfare.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "D039 review landscape candidate",
+          "composition_override": "Wide ritual scene with Nanda, infant, and a small semicircle of Brahmin elders; offerings and village greenery form a simple balanced foreground.",
+          "candidate_status": "selected for unapproved comparison; independent exact-checksum review is recorded; producer notes: The repaired village people remain orange-brown in sampled skin: Nanda face/gift-hand medians (178,99,38), (199,117,53); both red-minus-blue differences exceed 120. No further repair was made. captain art approval remains pending",
+          "selected_candidate_version": "v004",
+          "selected_candidate_sha256": "ec1b737a67e2733c6e7fd2c9cb3ccfb6a6136caeb9e208273bff2b7d1be0131a"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "future independent portrait companion, paused",
+          "composition_override": "Portrait companion deferred. If produced later, maintain distinct faces and natural hands across Nanda, infant, Brahmins, and ritual offerings."
+        }
+      },
+      "portrait_status": "paused"
+    }
+  ]
+}
