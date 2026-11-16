@@ -32,7 +32,7 @@ const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import
 const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
 const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.reduce((n,r)=>n+(r.references||(r.reference?[r.reference]:[])).length,0),0);
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,31,32,33,34,35,36,37,38,40,41,42,43,44,62,66,67,96]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,31,32,33,34,35,36,37,38,39,40,41,42,43,44,62,66,67,96]);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
 assert.equal(Object.keys(data.assets).length,expectedMedia);
@@ -473,7 +473,7 @@ console.log('Passed: D035 has ten mapped rows, checksum-pinned candidates, unapp
 const full39=data.chapters.find(c=>c.id===39);assert.ok(full39);assert.deepEqual(full39.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content39=JSON.parse(await fs.readFile(new URL('../../content/daskams/d039.json',import.meta.url)));
 const selected39=JSON.parse(await fs.readFile(new URL('../../art/batches/d039-comparison-v001.json',import.meta.url)));
-assert.equal(selected39.rows.length,10);assert.equal(selected39.review_status,'needs-review');assert.ok(full39.reviewNotice.includes('unapproved'));
+assert.equal(selected39.rows.length,10);assert.equal(selected39.review_status,'needs-review');assert.match(full39.reviewNotice,/unapproved|no artwork is approved/);
 for(const row of full39.rows){
  const stanza=content39.stanzas.find(s=>s.n===row.n);
  assert.equal(row.commentarySource,stanza.commentary_source);assert.equal(row.commentary,stanza.commentary_en);
@@ -481,6 +481,14 @@ for(const row of full39.rows){
  const selected=selected39.rows.find(r=>r.n===row.n);assert.ok(selected);
  for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
  assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+}
+const map39=JSON.parse(await fs.readFile(new URL('../../content/sources/d039/reference-map.json',import.meta.url)));
+for(const entry of map39.stanza_to_reference_map){
+ const row=full39.rows.find(r=>r.n===entry.canonical_stanza);assert.ok(row);
+ const [lead,...extra]=entry.references;
+ const shown=provenance.find(p=>p.key===row.images.find(i=>i.role==='reference').key);
+ assert.equal(shown.source,`intake/${lead.path}`);assert.equal(shown.sourceHash,lead.sha256);
+ assert.deepEqual((selected39.rows.find(r=>r.n===entry.canonical_stanza).source_alternates||[]).map(a=>[a.file,a.sha256]),extra.map(r=>[`intake/${r.path}`,r.sha256]));
 }
 assert.equal(selected39.rows.find(r=>r.n===8).reference.file,'intake/D039/008.jpg');
 assert.deepEqual(selected39.rows.find(r=>r.n===8).source_alternates,[{file:'intake/D039/009.jpg',sha256:'00a712e8aa2dd271abc52bc76e375a0971f01c3074f63499ce4da7d68c46420f',caption_number:8,role:'same-stanza source alternate only; not an artwork alternate'}]);
