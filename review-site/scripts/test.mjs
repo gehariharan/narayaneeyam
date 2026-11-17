@@ -467,6 +467,22 @@ assert.equal((await feedback(req({...good,daskam:62,sloka:10}),env)).status,201)
 assert.equal((await feedback(req({...good,daskam:62,sloka:11}),env)).status,400);
 console.log('Passed: D062 has ten caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
 
+const full100=data.chapters.find(c=>c.id===100);assert.ok(full100);assert.deepEqual(full100.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
+const content100=JSON.parse(await fs.readFile(new URL('../../content/daskams/d100.json',import.meta.url)));
+const selected100=JSON.parse(await fs.readFile(new URL('../../art/batches/d100-comparison-v001.json',import.meta.url)));
+assert.equal(selected100.rows.length,11);assert.equal(selected100.review_status,'needs-review');assert.ok(full100.reviewNotice.toLowerCase().includes('unapproved'));
+for(const row of full100.rows){
+ assert.equal(row.commentarySource,`intake/D100/photo-captions.txt#${row.n}`);
+ assert.equal(row.commentary,content100.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected100.rows.find(r=>r.n===row.n);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+}
+assert.equal((await feedback(req({...good,daskam:100,sloka:11}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:100,sloka:12}),env)).status,400);
+console.log('Passed: D100 has eleven caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
+
 const full95=data.chapters.find(c=>c.id===95);assert.ok(full95);assert.deepEqual(full95.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content95=JSON.parse(await fs.readFile(new URL('../../content/daskams/d095.json',import.meta.url)));
 const selected95=JSON.parse(await fs.readFile(new URL('../../art/batches/d095-comparison-v006.json',import.meta.url)));

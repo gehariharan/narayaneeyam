@@ -1,0 +1,1133 @@
+{
+  "schema_version": 1,
+  "daskam_id": 100,
+  "selection_status": "Eleven landscape candidates selected for unapproved reference comparison; all generated versions are inventoried; producer exact-version reports bind selected candidates; independent exact-checksum review is pending; no artwork approval.",
+  "candidate_versions": [
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v001",
+      "file": "artifacts/d100/s001/landscape/candidate-v001.png",
+      "sha256": "55719f2c103a9a12ac8e7d402245521da3c4dfdcd3985db1912c2d9f63b51ad4",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v001.txt",
+      "prompt_sha256": "d213a2fa4b46fd657fa64848b58e97a89852b09f16bbb7ac92f043da03c79124",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v001.json",
+      "call_arguments_sha256": "f1143126528a7346a733fb534ed78842814c58aa9620a156d0d3ccf5fc5b1371",
+      "references": [],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v002",
+      "file": "artifacts/d100/s001/landscape/candidate-v002.png",
+      "sha256": "4c886ed20ed44e7b5023744450bbfe35a69fa8097e0c8628572089925bc6cf76",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "67c2c9b0d99cf91ed758efc3f4ce657c5f6700f5fd49667ded9a64ff2d351658",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "5b5cbff0a5c44c09e5c5bfe1b5b6ad05c619a0e5e14e6f0a5f953ee43cc287fe",
+      "references": [],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v003",
+      "file": "artifacts/d100/s001/landscape/candidate-v003.png",
+      "sha256": "48c9f8bb08c038b4b6d2f0de2d9ebbe7d2811a603e29e3a49cdcd05a2e8d5f3e",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v003.txt",
+      "prompt_sha256": "5b52d65319a253b23c0b12e0ab6155f55c1ddcbb7cf78c657dad27aa7a5d60b6",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v003.json",
+      "call_arguments_sha256": "756ab62eb38d8e6f21c1834f2733fddd723cad11940f432f2931dfdf5f753e71",
+      "references": [],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v004",
+      "file": "artifacts/d100/s001/landscape/candidate-v004.png",
+      "sha256": "a38ad643c778d1cc3ec1d00dd2c8043fac13a4c3541a451ae63499407e85ecaf",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v004.txt",
+      "prompt_sha256": "a60c3117751971bd0d9d738acd9cc7bf82b26152cb7100b0e9882d2e7f600be1",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v004.json",
+      "call_arguments_sha256": "cb162a7c6c6b40f39c906ca9464262be3fa5999e2cb6a6645e9fbc0baf2d19ba",
+      "references": [],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v005",
+      "file": "artifacts/d100/s001/landscape/candidate-v005.png",
+      "sha256": "6b665ca7f9ae9a5578a3acb7cd33b14eb150fa54f1b6b89fa4c072bfae85d89c",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v005.txt",
+      "prompt_sha256": "47e8e18b33eb698a2c206d23a820f4484ac03846e65c519c24922f61262b9afb",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v005.json",
+      "call_arguments_sha256": "338d8d726522d4f9291e3f087e9daddc0c7c2aee38ea22d4ed361b7114a57c4e",
+      "references": [
+        {
+          "path": "artifacts/d100/s001/landscape/candidate-v004.png",
+          "sha256": "a38ad643c778d1cc3ec1d00dd2c8043fac13a4c3541a451ae63499407e85ecaf"
+        },
+        {
+          "path": "intake/D100/001.jpg",
+          "sha256": "217d0a8c6d0ed8b6744acf7de49626b8eaeca9fb895e13ef1b6620c2c8561d38"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v007",
+      "file": "artifacts/d100/s001/landscape/candidate-v007.png",
+      "sha256": "173d4314b2cc92a79abf064674a83d91028a133529cd19a2e52ee267ac80cb2d",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v007.txt",
+      "prompt_sha256": "c55a37847cf397f75a642b156b37fe3c471678db1ccc8a300c1254071d320b3b",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v007.json",
+      "call_arguments_sha256": "23bc9921eee9f88567ae3a85fdaad7c50a18bc145cb512edc9167ee31ed3cf5c",
+      "references": [
+        {
+          "path": "intake/D100/001.jpg",
+          "sha256": "217d0a8c6d0ed8b6744acf7de49626b8eaeca9fb895e13ef1b6620c2c8561d38"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v008",
+      "file": "artifacts/d100/s001/landscape/candidate-v008.png",
+      "sha256": "f8486e2149ceff40142476a8c6644619e4b3f7d25bf0cd781d380a5dbd83c22e",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v008.txt",
+      "prompt_sha256": "0b5685eb87b8f23ec6476cfd416958532e606f733a64f1d190c794435900b19e",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v008.json",
+      "call_arguments_sha256": "c871220bcefd06ad44cc89a9eb1f9523f8bc9c4bca06a6341872e03106be60d2",
+      "references": [
+        {
+          "path": "artifacts/d100/s001/landscape/candidate-v007.png",
+          "sha256": "173d4314b2cc92a79abf064674a83d91028a133529cd19a2e52ee267ac80cb2d"
+        },
+        {
+          "path": "intake/D100/001.jpg",
+          "sha256": "217d0a8c6d0ed8b6744acf7de49626b8eaeca9fb895e13ef1b6620c2c8561d38"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v009",
+      "file": "artifacts/d100/s001/landscape/candidate-v009.png",
+      "sha256": "2440b6dad63ddf752397be2da051a86b7696e924208409dcab712afe8d5af1ea",
+      "native_dimensions": "1670x941",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v009.txt",
+      "prompt_sha256": "480391dc0166b3a4ff8d02c7df7189e9d378baf4c39a7891815b43a96e5e7864",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v009.json",
+      "call_arguments_sha256": "843abf23f63d810737698f7e463156e702c2f064aa9df45febbbb18c265875ec",
+      "references": [
+        {
+          "path": "artifacts/d100/s001/landscape/candidate-v008.png",
+          "sha256": "f8486e2149ceff40142476a8c6644619e4b3f7d25bf0cd781d380a5dbd83c22e"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v010",
+      "file": "artifacts/d100/s001/landscape/candidate-v010.png",
+      "sha256": "1f6b90dd8698f3a486ab490aa2f068c6fbfe6667faa8aa2287db2912ec7bee60",
+      "native_dimensions": "1670x942",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v010.txt",
+      "prompt_sha256": "af58ab0c39928b424c4bd195f2614fee7046d96d12aeb559bd2521c30045d6fc",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v010.json",
+      "call_arguments_sha256": "831080242b22a3aa9454b47d7d3e90110a9dc2615a42467be43448109565b3f6",
+      "references": [
+        {
+          "path": "artifacts/d100/s001/landscape/candidate-v009.png",
+          "sha256": "2440b6dad63ddf752397be2da051a86b7696e924208409dcab712afe8d5af1ea"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v011",
+      "file": "artifacts/d100/s001/landscape/candidate-v011.png",
+      "sha256": "1aa2fa63568cf3299a849453771c98565bea4c044c7dd1cc3ff6327845f44aec",
+      "native_dimensions": "1670x942",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v011.txt",
+      "prompt_sha256": "d8acb9160fcd36c25be028770163d068c28f3fbf53a6aeacd4697f6af6fa6c0f",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v011.json",
+      "call_arguments_sha256": "5a86e4963efe661c77d28616479623f7746a91f49de0f3a5cfdcb0c5f09370fc",
+      "references": [
+        {
+          "path": "artifacts/d100/s001/landscape/candidate-v010.png",
+          "sha256": "1f6b90dd8698f3a486ab490aa2f068c6fbfe6667faa8aa2287db2912ec7bee60"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d100-s001",
+      "version": "v012",
+      "file": "artifacts/d100/s001/landscape/candidate-v012.png",
+      "sha256": "fde9800a3a194c92a8ff41d27b4c1e3459483707ad677cec7236a0f4d1741b07",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s001/landscape/prompt-submitted-v012.txt",
+      "prompt_sha256": "23255037efacb37116a66a2d9b057854160337e1c936caf30eb66f8fa3768122",
+      "call_arguments": "artifacts/d100/s001/landscape/reference-arguments-v012.json",
+      "call_arguments_sha256": "a5daa0319682604968a103ab3733a37cfe9c5e25a11a946f1b0a3f36e83b0f36",
+      "references": [
+        {
+          "path": "artifacts/d100/s001/landscape/candidate-v011.png",
+          "sha256": "1aa2fa63568cf3299a849453771c98565bea4c044c7dd1cc3ff6327845f44aec"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "intake/D100/001.jpg",
+          "sha256": "217d0a8c6d0ed8b6744acf7de49626b8eaeca9fb895e13ef1b6620c2c8561d38"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d100-s002",
+      "version": "v002",
+      "file": "artifacts/d100/s002/landscape/candidate-v002.png",
+      "sha256": "300cb00b3ba156502fa7ba5dc7e1effee07658627f2642c07fa030c8a337efb1",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s002/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "1115e3040dcd96131e02687f9b8d636d03b78c586663cf872f423fe57056ade9",
+      "call_arguments": "artifacts/d100/s002/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "bfe080681efe167091d4fec60823a98b27060b3f74462b7ad77d5757ff96989a",
+      "references": [
+        {
+          "path": "intake/D100/002.jpg",
+          "sha256": "500e2cef991ac9664b7e48d03a97600fe70e9e7a3b9ba66391657460358d360e"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+          "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d100-s002",
+      "version": "v003",
+      "file": "artifacts/d100/s002/landscape/candidate-v003.png",
+      "sha256": "e2a58f53fbfd0acb63d2cce5d9b4a0f9288d8be7d8c02a864add1bb1d5b1db3d",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s002/landscape/prompt-submitted-v003.txt",
+      "prompt_sha256": "f4d7ecaf93994e18b82b19805e67c8fcfc4f974ea736702070baa6241812f863",
+      "call_arguments": "artifacts/d100/s002/landscape/reference-arguments-v003.json",
+      "call_arguments_sha256": "07ce93303b5e9c3e4992d5d97ca6ad29141eb3c14f68f0577d70ab2b3197e57c",
+      "references": [
+        {
+          "path": "artifacts/d100/s002/landscape/candidate-v002.png",
+          "sha256": "300cb00b3ba156502fa7ba5dc7e1effee07658627f2642c07fa030c8a337efb1"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed"
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d100-s003",
+      "version": "v002",
+      "file": "artifacts/d100/s003/landscape/candidate-v002.png",
+      "sha256": "af02cf81ba642c9c234ede7149ebd0283e679099bab8484e2263fcdf670cf250",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s003/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "b7830d528bd3ed2b0df72870319cf0a38c4b26bd6a3e685c52e52ee9e46e1e94",
+      "call_arguments": "artifacts/d100/s003/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "6dfa0031955d0346761b788465ff88b376de8058372867e8477b82bcd50c53de",
+      "references": [
+        {
+          "path": "intake/D100/003.jpg",
+          "sha256": "232fee0308d75f323663397470a669fb169d8a1b7751c9f0774f4f1f821d4934"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+          "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed"
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d100-s004",
+      "version": "v002",
+      "file": "artifacts/d100/s004/landscape/candidate-v002.png",
+      "sha256": "7a7bb59ac3700ccec4e1acf2df5ec6e59d8ce0de5f374b453e6843a80c8af6a0",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s004/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "0b031574d019ad8d506df0be4db82bed1134957c3b35a784114a86e8e054867b",
+      "call_arguments": "artifacts/d100/s004/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "3eb286a45ad95c829cbf57c8d2c9042712e85a3a58cbfed6d17bc1677ae0d3fe",
+      "references": [
+        {
+          "path": "intake/D100/004.jpg",
+          "sha256": "52bb9c03967bd44dad3a74d2f510c22c8e46c7565a1932683abf6a0c732261ed"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+          "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d100-s005",
+      "version": "v002",
+      "file": "artifacts/d100/s005/landscape/candidate-v002.png",
+      "sha256": "16ed09890039a0454e42d3d857c33571c49507f6f0149d1125d8d53a75fa0edf",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s005/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "57d9baf64cf2c87d9193d7ea2eb176a141ac7d5b259595056f54945b87e06cb1",
+      "call_arguments": "artifacts/d100/s005/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "6aed8996e3204549f75cca915dfc560b2cdbad6a3e95e3e507e083181109c2e1",
+      "references": [
+        {
+          "path": "intake/D100/005.jpg",
+          "sha256": "a406b99d7e8f77f89456a11fae3bb6114399f794bdcf8ee214ddb8c4fd7df564"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+          "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d100-s005",
+      "version": "v003",
+      "file": "artifacts/d100/s005/landscape/candidate-v003.png",
+      "sha256": "7fc8524e6a7095bf01c3d37fe19be615283c044c5b28daf1b3cc844afefc096e",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d100/s005/landscape/prompt-submitted-v003.txt",
+      "prompt_sha256": "6e6a52b57cd0bedc9c2f94afebd38caeffbfbfc37959f2f811cff827db0e1f6e",
+      "call_arguments": "artifacts/d100/s005/landscape/reference-arguments-v003.json",
+      "call_arguments_sha256": "ef891fd9b04017d9b73776ae6bfd4a7f4bf127c1f9c3886375f70842f0a89f25",
+      "references": [
+        {
+          "path": "artifacts/d100/s005/landscape/candidate-v002.png",
+          "sha256": "16ed09890039a0454e42d3d857c33571c49507f6f0149d1125d8d53a75fa0edf"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d100-s005",
+      "version": "v004",
+      "file": "artifacts/d100/s005/landscape/candidate-v004.png",
+      "sha256": "180af6412ef124ed1605620b237505d6e4bcb9322bcc30e6c291e97ab03d872a",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d100/s005/landscape/prompt-submitted-v004.txt",
+      "prompt_sha256": "639a4c69f76b521acff8f324272f3e9cd5b7e793fd65b4bb33bb1ae55064d041",
+      "call_arguments": "artifacts/d100/s005/landscape/reference-arguments-v004.json",
+      "call_arguments_sha256": "443f06734944533384b22ed2e73d5b2d6b7e5bf4af0fdf0b445ac3d2b45cb30b",
+      "references": [
+        {
+          "path": "artifacts/d100/s005/landscape/candidate-v003.png",
+          "sha256": "7fc8524e6a7095bf01c3d37fe19be615283c044c5b28daf1b3cc844afefc096e"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d100-s005",
+      "version": "v005",
+      "file": "artifacts/d100/s005/landscape/candidate-v005.png",
+      "sha256": "0431af8d15fea35dc525ddf91af28f2f152e9589bf617ac44b0152195df01d80",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d100/s005/landscape/prompt-submitted-v005.txt",
+      "prompt_sha256": "080d7d158b42e346a32d05c9e72ed62018ccf58c05e40dc1068a912d77110875",
+      "call_arguments": "artifacts/d100/s005/landscape/reference-arguments-v005.json",
+      "call_arguments_sha256": "99c77ec95a7e532ffb7e80d43bf12a31a2f0b6374c3e8488163d63160491e843",
+      "references": [
+        {
+          "path": "artifacts/d100/s005/landscape/candidate-v004.png",
+          "sha256": "180af6412ef124ed1605620b237505d6e4bcb9322bcc30e6c291e97ab03d872a"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d100-s005",
+      "version": "v006",
+      "file": "artifacts/d100/s005/landscape/candidate-v006.png",
+      "sha256": "42f56a431a9276d7dad740ad513ce370cb58f639e01164526f7e785634cf654f",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d100/s005/landscape/prompt-submitted-v006.txt",
+      "prompt_sha256": "bfde2b83f4a5b668cd73aca799f257d797aaf54722fdaa07a9b3a37331c0e445",
+      "call_arguments": "artifacts/d100/s005/landscape/reference-arguments-v006.json",
+      "call_arguments_sha256": "a7a97b120fbbc6ce4c7a11c83f6450f4b18eb61eefbb556a16f5f01658c938e9",
+      "references": [
+        {
+          "path": "artifacts/d100/s005/landscape/candidate-v005.png",
+          "sha256": "0431af8d15fea35dc525ddf91af28f2f152e9589bf617ac44b0152195df01d80"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d100-s005",
+      "version": "v007",
+      "file": "artifacts/d100/s005/landscape/candidate-v007.png",
+      "sha256": "4b097265c1cec8e74cfaf0809ddc8cd7f67190fba4ae16f34cfe5898b9a8e182",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s005/landscape/prompt-submitted-v007.txt",
+      "prompt_sha256": "c06493f0fee7998999d99936427baf582332cabcba40b7b83b5ba114e538e7ef",
+      "call_arguments": "artifacts/d100/s005/landscape/reference-arguments-v007.json",
+      "call_arguments_sha256": "4ced40791c8f029ac8499415ce34cb3b267667afbcec8e13c6e59bc9db123470",
+      "references": [
+        {
+          "path": "artifacts/d100/s005/landscape/candidate-v006.png",
+          "sha256": "42f56a431a9276d7dad740ad513ce370cb58f639e01164526f7e785634cf654f"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed",
+      "producer_finding": "Selected landscape v007; Krishna cheek B-R 98; Bhattathiri face median (152,87,50), R-B 102, under the 120 brown-skin ceiling; flute-holding hand crops show thumb plus four fingers on each hand. Krishna remains deep indigo."
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d100-s006",
+      "version": "v002",
+      "file": "artifacts/d100/s006/landscape/candidate-v002.png",
+      "sha256": "c3099e06adb9ac76f412904af3c97ce65fed9e41327820f45c58ba6b2b8ef3de",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s006/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "f05a1a345011845774f4d9f99f7b2d14879a298d17fa4e320292ee698583aff9",
+      "call_arguments": "artifacts/d100/s006/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "b3d62219c177af1039318f65ed871600e39251436ff6639827909eaf01b72e7f",
+      "references": [
+        {
+          "path": "intake/D100/006.jpg",
+          "sha256": "693034ffea6675186492aa8d40b3c332de9afe23a368e59d494924fd05101334"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+          "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed"
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d100-s007",
+      "version": "v002",
+      "file": "artifacts/d100/s007/landscape/candidate-v002.png",
+      "sha256": "f367b0f43373d02bb54c6762667017f44427a588ba8c157b64eacc9a4747a0c0",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s007/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "39fe23126f94aab42acf9da9bea04ecf8fb017edef45cda2f60000453a2cda46",
+      "call_arguments": "artifacts/d100/s007/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "2ebf3df7eaf1a24e79559d00b840b639a76d03a6df847e0fb515ea04d1678c90",
+      "references": [
+        {
+          "path": "intake/D100/007.jpg",
+          "sha256": "d2fe7ffec31bdc68242e1d372668599091249a7ab3eebe39f3ceb6af69da61bf"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+          "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed"
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d100-s008",
+      "version": "v002",
+      "file": "artifacts/d100/s008/landscape/candidate-v002.png",
+      "sha256": "2ff5adb2eadd7e54248da4095413da864fe70a31ed0289a2d90eb1e0c1fdbc14",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s008/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "dd5b0470284835c7ec37d01a06c9263b59648cd5d29e796034c1d9c52d03abe1",
+      "call_arguments": "artifacts/d100/s008/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "64d0749bf09cda11f10b08d031ea25c24430788bcef6764ff0eedfa26902cadb",
+      "references": [
+        {
+          "path": "intake/D100/008.jpg",
+          "sha256": "59e6fec1f77e3190a270a184cea4c3018a45143eb512c00d17fa2d6ef94674a9"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+          "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d100-s008",
+      "version": "v003",
+      "file": "artifacts/d100/s008/landscape/candidate-v003.png",
+      "sha256": "23193fab518c2ebed9e70e119343c77b715628e2bf8b8b5749c3288ac89c5674",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d100/s008/landscape/prompt-submitted-v003.txt",
+      "prompt_sha256": "5aff6b60d43b9cac3fe75d97f0766823c7cb44b9805554453b1b11e69a83a753",
+      "call_arguments": "artifacts/d100/s008/landscape/reference-arguments-v003.json",
+      "call_arguments_sha256": "e02b8d4d8a2d71d17ce06c354f469bc1cf790303166136075347a27369e3509d",
+      "references": [
+        {
+          "path": "artifacts/d100/s008/landscape/candidate-v002.png",
+          "sha256": "2ff5adb2eadd7e54248da4095413da864fe70a31ed0289a2d90eb1e0c1fdbc14"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed"
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d100-s009",
+      "version": "v002",
+      "file": "artifacts/d100/s009/landscape/candidate-v002.png",
+      "sha256": "377002066c7eafd7befb75e7f10742f519652a3986b2dd95d615a2bfe936f9be",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s009/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "4bd0e3566da41b6daf91f01812478db59b97bbfa04dc47fdb72319e8e95d7571",
+      "call_arguments": "artifacts/d100/s009/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "663ea2fb177cdb56fd6620485205e329a016a54ba7d5eb5c83b2cf064cc55a1a",
+      "references": [
+        {
+          "path": "intake/D100/009.jpg",
+          "sha256": "db8502f130d28483d0e863be205b15dd84473f9ed82f355cbf1a02a0c5ae1af9"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+          "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d100-s009",
+      "version": "v003",
+      "file": "artifacts/d100/s009/landscape/candidate-v003.png",
+      "sha256": "d4ca422afc6a9eeed52656b1c8b2ead71b6016f9f8bf4677a74a9877bbe3734a",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s009/landscape/prompt-submitted-v003.txt",
+      "prompt_sha256": "38a323dda595ea307ba04f56182cf31aba09c59a2f2f3813af498200f6d1475e",
+      "call_arguments": "artifacts/d100/s009/landscape/reference-arguments-v003.json",
+      "call_arguments_sha256": "5ea52a97dcbd025220d41ecce7b10b7d422e4d365f3f8693c65c7f28f80b35a1",
+      "references": [
+        {
+          "path": "artifacts/d100/s009/landscape/candidate-v002.png",
+          "sha256": "377002066c7eafd7befb75e7f10742f519652a3986b2dd95d615a2bfe936f9be"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d100-s009",
+      "version": "v004",
+      "file": "artifacts/d100/s009/landscape/candidate-v004.png",
+      "sha256": "19dcd0ba55c810855209adf8b131f7781ec5f74255f30060c2abb17718c8606d",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s009/landscape/prompt-submitted-v004.txt",
+      "prompt_sha256": "5ce77de201c79ccaaeec1d480df505a93e00800dd4a4afbdb48c4d45e494adef",
+      "call_arguments": "artifacts/d100/s009/landscape/reference-arguments-v004.json",
+      "call_arguments_sha256": "1a89ecef45b6cd6c7bff94f156e009b97b763337fe90a24e07938bd55dcaf437",
+      "references": [
+        {
+          "path": "artifacts/d100/s009/landscape/candidate-v003.png",
+          "sha256": "d4ca422afc6a9eeed52656b1c8b2ead71b6016f9f8bf4677a74a9877bbe3734a"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed"
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d100-s010",
+      "version": "v002",
+      "file": "artifacts/d100/s010/landscape/candidate-v002.png",
+      "sha256": "a9416ee7efa7dc2789c1a5e5670348f5291b35a07f91bf009e18619740704e4c",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s010/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "e86e63aeb0a7676c5e06cc956f3ee557f3683ac08acd408e9b408fda085ba5af",
+      "call_arguments": "artifacts/d100/s010/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "5c61d4dbf4187734412707b2be662b57b9b3196b64326ca4d88f003ec67aabc1",
+      "references": [
+        {
+          "path": "intake/D100/010.jpg",
+          "sha256": "e224d48fc6c7009b92cbefd008183a47dec2cc7448014e63a936366ce9573359"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+          "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d100-s010",
+      "version": "v003",
+      "file": "artifacts/d100/s010/landscape/candidate-v003.png",
+      "sha256": "56c61316f2ba95eee5621eba3d6f314c31e02feec4e68477b1e041b3b1e8ae2c",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d100/s010/landscape/prompt-submitted-v003.txt",
+      "prompt_sha256": "9dfb81497297b10acfa82e9ca709e259e239fc144209611689082cba0f1d1e50",
+      "call_arguments": "artifacts/d100/s010/landscape/reference-arguments-v003.json",
+      "call_arguments_sha256": "10bd17b08f08c1e76e0d4e728ee67fb13d96f83de4491c776741cd363c6d2e8d",
+      "references": [
+        {
+          "path": "artifacts/d100/s010/landscape/candidate-v002.png",
+          "sha256": "a9416ee7efa7dc2789c1a5e5670348f5291b35a07f91bf009e18619740704e4c"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d100-s010",
+      "version": "v004",
+      "file": "artifacts/d100/s010/landscape/candidate-v004.png",
+      "sha256": "e793c86d50a2394796215f923218e25e29d6c5e51eb585f3cd2b219a1259962c",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d100/s010/landscape/prompt-submitted-v004.txt",
+      "prompt_sha256": "49942a5cc5b3e0d3f1a457bb492573c15f3cd57902d0b0ee5ecb626a5e21e0cd",
+      "call_arguments": "artifacts/d100/s010/landscape/reference-arguments-v004.json",
+      "call_arguments_sha256": "6326d808bef37b55139cf4c9a5227065e2792e2dcc1a2036bc9e5f552c30bcc4",
+      "references": [
+        {
+          "path": "artifacts/d100/s010/landscape/candidate-v003.png",
+          "sha256": "56c61316f2ba95eee5621eba3d6f314c31e02feec4e68477b1e041b3b1e8ae2c"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed",
+      "producer_finding": "Selected landscape v004; Krishna sole skin patches B-R 88 and 83; no face appears in frame; both soles and connected limbs are visible, with small distinct yogis and no rays."
+    },
+    {
+      "stanza": 11,
+      "concept_id": "d100-s011",
+      "version": "v002",
+      "file": "artifacts/d100/s011/landscape/candidate-v002.png",
+      "sha256": "5baf4e37b63e95fbb4d2b4bfd2628f15bd70cde0538ba527b16a8471418235d1",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s011/landscape/prompt-submitted-v002.txt",
+      "prompt_sha256": "7898c65e746c7756da8ff3b53ae179d474e670983c2ded0946d375fe1b886b61",
+      "call_arguments": "artifacts/d100/s011/landscape/reference-arguments-v002.json",
+      "call_arguments_sha256": "8e84b9fbc4d1dd9c88c8bcae23bf39287a2296e62b8f861e9a213aa3913be5db",
+      "references": [
+        {
+          "path": "intake/D100/011.jpg",
+          "sha256": "80ac523cc20f3469ebd50463497967b01a89dac96a0265f311bd76f5fac243d7"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 11,
+      "concept_id": "d100-s011",
+      "version": "v003",
+      "file": "artifacts/d100/s011/landscape/candidate-v003.png",
+      "sha256": "0cf172eff6f02667ede509db91b143b9a0a9892428570639e5ee2aaa9753958d",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s011/landscape/prompt-submitted-v003.txt",
+      "prompt_sha256": "b454e02c05b0abc01a3df03edb3197af825f046ba637d877e1680eb7f7153553",
+      "call_arguments": "artifacts/d100/s011/landscape/reference-arguments-v003.json",
+      "call_arguments_sha256": "09955693e8fb10681cee8592f0c4ffc7269cf38411f112372bc7a1231bc93b5a",
+      "references": [
+        {
+          "path": "artifacts/d100/s011/landscape/candidate-v002.png",
+          "sha256": "5baf4e37b63e95fbb4d2b4bfd2628f15bd70cde0538ba527b16a8471418235d1"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 11,
+      "concept_id": "d100-s011",
+      "version": "v004",
+      "file": "artifacts/d100/s011/landscape/candidate-v004.png",
+      "sha256": "803b3fe03c3e80b5b628f14d551abd4ce94227f8258ecc594be1e153d19b2782",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s011/landscape/prompt-submitted-v004.txt",
+      "prompt_sha256": "f7223cd6eb2173fffcd2a0e5c14550e6d64c4717eee7ae5bd792a024f8ec14ef",
+      "call_arguments": "artifacts/d100/s011/landscape/reference-arguments-v004.json",
+      "call_arguments_sha256": "d083bc18af0248996166b3204fcd05f935372f7d938fbc31f802342579b6b817",
+      "references": [
+        {
+          "path": "artifacts/d100/s011/landscape/candidate-v003.png",
+          "sha256": "0cf172eff6f02667ede509db91b143b9a0a9892428570639e5ee2aaa9753958d"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 11,
+      "concept_id": "d100-s011",
+      "version": "v005",
+      "file": "artifacts/d100/s011/landscape/candidate-v005.png",
+      "sha256": "c20274178dc2f4186f30b8d485fd2ad5179d3dcbf969a3c1e7053bdd9aef9644",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s011/landscape/prompt-submitted-v005.txt",
+      "prompt_sha256": "ac11d557ab28eafc1a5111c469179beb22287d5039afd221d72e9ba72db003d7",
+      "call_arguments": "artifacts/d100/s011/landscape/reference-arguments-v005.json",
+      "call_arguments_sha256": "a1146c31804da5f89238f1d040a291d07fbe27dc67a7e1bef7bd4e3b3a880293",
+      "references": [
+        {
+          "path": "artifacts/d100/s011/landscape/candidate-v004.png",
+          "sha256": "803b3fe03c3e80b5b628f14d551abd4ce94227f8258ecc594be1e153d19b2782"
+        },
+        {
+          "path": "artifacts/d100/s001/landscape/candidate-v011.png",
+          "sha256": "1aa2fa63568cf3299a849453771c98565bea4c044c7dd1cc3ff6327845f44aec"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 11,
+      "concept_id": "d100-s011",
+      "version": "v006",
+      "file": "artifacts/d100/s011/landscape/candidate-v006.png",
+      "sha256": "bc40c5ce607a41b64d95889d23fbfff5e11196da413946b07332ad16a23c02ee",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d100/s011/landscape/prompt-submitted-v006.txt",
+      "prompt_sha256": "c0561c507a9578db65c5b324575bbd2b5efaf0e1eadbb3e67f3febab95b900b4",
+      "call_arguments": "artifacts/d100/s011/landscape/reference-arguments-v006.json",
+      "call_arguments_sha256": "a3468970cb53a8a4fabd3b5eecc382a106931c40fadc27af6bfeb4e214b5a23b",
+      "references": [
+        {
+          "path": "artifacts/d100/s011/landscape/candidate-v005.png",
+          "sha256": "c20274178dc2f4186f30b8d485fd2ad5179d3dcbf969a3c1e7053bdd9aef9644"
+        },
+        {
+          "path": "artifacts/d100/s001/landscape/candidate-v011.png",
+          "sha256": "1aa2fa63568cf3299a849453771c98565bea4c044c7dd1cc3ff6327845f44aec"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "superseded-unselected",
+      "producer_review_status": "not selected for comparison; no review claim"
+    },
+    {
+      "stanza": 11,
+      "concept_id": "d100-s011",
+      "version": "v007",
+      "file": "artifacts/d100/s011/landscape/candidate-v007.png",
+      "sha256": "ff1dcc4859615fb7b3853b91ba1c95db57578f8ff75a0d217ce17c777f9b9ea4",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d100/s011/landscape/prompt-submitted-v007.txt",
+      "prompt_sha256": "e04625b9789b35c1942652172a8087a1db3bf7ac3a3815442ae0554a906906d6",
+      "call_arguments": "artifacts/d100/s011/landscape/reference-arguments-v007.json",
+      "call_arguments_sha256": "6b776846e9d02a090d93e45288c15fcf833e053c82faa7816af90163557ba0de",
+      "references": [
+        {
+          "path": "artifacts/d100/s011/landscape/candidate-v006.png",
+          "sha256": "bc40c5ce607a41b64d95889d23fbfff5e11196da413946b07332ad16a23c02ee"
+        },
+        {
+          "path": "artifacts/d100/s001/landscape/candidate-v011.png",
+          "sha256": "1aa2fa63568cf3299a849453771c98565bea4c044c7dd1cc3ff6327845f44aec"
+        },
+        {
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "selected",
+      "producer_review_status": "selected-version-reviewed"
+    }
+  ],
+  "series_bible_sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+  "contracts": [
+    {
+      "path": "art/bible/series.json",
+      "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+    },
+    {
+      "path": "art/plans/d100.json",
+      "sha256": "cb7c92cd55ad0abe06ec6d57f0b8398b1206aaf5573c638bd33688e22a239942"
+    },
+    {
+      "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+      "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+    },
+    {
+      "path": "art/bible/characters/bhattathiri/character.json",
+      "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+    },
+    {
+      "path": "art/bible/characters/narada/character.json",
+      "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+    },
+    {
+      "path": "art/bible/characters/sages/character.json",
+      "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+    },
+    {
+      "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+      "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+    },
+    {
+      "path": "art/bible/characters/guruvayurappan/character.json",
+      "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+    }
+  ],
+  "skin_samples": "artifacts/d100/skin-samples-v001.json"
+}
