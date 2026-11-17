@@ -1,0 +1,9 @@
+# D098 stanza 7 v007 final-plan producer reinspection
+
+Reviewed at 2026-11-17T10:13:19Z against final plan SHA-256 `6a40c63c9d30d709c7c0995c189c1d850b24fb9bb5d263525937d8e95bc0cc07`, series bible SHA-256 `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`, shared Bhattathiri contract SHA-256 `85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535`, and exact candidate `artifacts/d098/s007/landscape/candidate-v007.png` SHA-256 `08cce73921fc0aeddcbe1e7419c75de0e5ddd206a0cc23ccb1fda937add41e47`. Viewed the native 1672×941 image and enlarged face/upper-body, both hands and both feet against mapped photo `intake/D098/007.jpg` and numbered caption #7.
+
+Bhattathiri is visibly pushing himself upright from the woven resting mat; the plain rope is coiled beside him. The gold ornament and gold piece remain paired on the left, and the clay pot and clay lump remain paired on the right. The prior separate arch-and-pilaster frame is absent and the scene reaches the image edges. His face is alert. Both visible hands show one thumb and four fingers; both feet show five toes and remain inside the frame. No duplicate person, extra limb, fused body or malformed face is visible. His sacred-ash markings, hair tuft, thread, beads and cream dhoti remain consistent with the shared contract.
+
+Warm-brown skin remains a measured color deviation. At 11×11 skin-only median patches, face at (925,205) is RGB (130,60,18), R−B=112; left/right upper arms at (790,360)/(1040,360) are (180,92,30)/(182,92,30), R−B=150/152; left/right forearms at (760,550)/(1080,550) are (165,82,26)/(187,99,37), R−B=139/150. The arms remain too orange relative to the requested approximately 120 maximum; this is disclosed in the plan.
+
+**Producer verdict: pass for scene, framing and anatomy with the disclosed skin-color deviation.** Producer review only; not independent review or art approval.

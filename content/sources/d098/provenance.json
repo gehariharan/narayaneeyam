@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "daskam_id": 98,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-16",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-98-in-sanskrit/",
+      "raw": "artifacts/d098/source-captures/stotranidhi-sanskrit.html",
+      "sha256": "5ff4dd0ebb011d24749dd20d5ae9684a530ec63ca3b4f6ace782797323138108",
+      "retrieval_note": "Eleven numbered Devanagari stanzas and completion marker transcribed stanza by stanza; publisher spelling and line-break hyphenation retained."
+    },
+    {
+      "role": "romanization",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-98-in-english/",
+      "raw": "artifacts/d098/source-captures/stotranidhi-romanization.html",
+      "sha256": "97971b05a227a71a4a101fecbf3bee4c38ee84a295f928f738cf08aa9ae6dfa8",
+      "retrieval_note": "Eleven numbered IAST stanzas transcribed from the parallel publisher page."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired; translation_en left empty; no substitute invented."
+    },
+    {
+      "role": "commentary",
+      "path": "intake/D098/photo-captions.txt",
+      "sha256": "a36c9d8a1967efc68ebd245eb50c361aeb0a0d23b3f472f1776098d66c612b6e",
+      "status": "supplied captions preserved verbatim as commentary, not treated as translation."
+    }
+  ],
+  "intake_manifest": "content/sources/d098/reference-map.json",
+  "raw_post_metadata": "intake/D098/post.json",
+  "note": "The eleven photo mappings follow the accepted readiness record. Images 012–017 are preserved extras and unmapped. Editorial review remains pending."
+}

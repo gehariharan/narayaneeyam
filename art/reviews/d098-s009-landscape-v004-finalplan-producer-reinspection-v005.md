@@ -1,0 +1,7 @@
+# D098 stanza 9 v004 final-plan producer reinspection
+
+Reviewed at 2026-11-17T10:19:45Z against final plan SHA-256 `6a40c63c9d30d709c7c0995c189c1d850b24fb9bb5d263525937d8e95bc0cc07`, series bible SHA-256 `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`, shared Bhattathiri contract SHA-256 `85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535`, Guruvayurappan contract SHA-256 `84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456`, and exact candidate `artifacts/d098/s009/landscape/candidate-v004.png` SHA-256 `469bb5fe80ed4a42a41ff4cad8ec421b9bab6e98dbf3cf962787642a812a8b7f`. Viewed the native 1672×941 image and enlarged Krishna foot/lotus and screen-left open-hand details against mapped photo `intake/D098/009.jpg` and numbered caption #9.
+
+Krishna has one intact head, two attached arms, two separate feet, and one thumb plus four fingers on each visible open hand. The narrow pink shape between the ankles continues into the pink lotus bed behind the feet; at the enlarged view it reads as a lotus petal/stem detail, not another limb. This agrees with independent review v003, which explicitly passed the checksum and identified the shape as a lotus petal. Bhattathiri is a separate kneeling figure with joined hands. No duplicated person, fused body, extra limb or malformed face is visible. Krishna's clothing and ornaments match the shared contract. No readable text, signature or watermark is visible.
+
+**Producer verdict: pass.** This is a producer reinspection, not independent review or art approval.
