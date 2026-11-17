@@ -39,8 +39,8 @@ blog repository is a separate
 Worker and is not part of this deployment path.
 
 For a GitHub Actions deployment, validate and ship the source through no-mistakes,
-then build and package the exact commit. The current workflow uploads D001 through D003,
-D005 through D014, D027, D028, D029, D031 through D037, D039, D040, D041, D042, D043, D044, D048, D062, D063, D064, D065, D066, D067, D072, D094 and D095 media from the release using the existing
+then build and package the exact commit. The workflow's per-chapter `Upload DNNN review ... to R2`
+steps define which chapters' media are uploaded from the release, using the existing
 `CLOUDFLARE_API_TOKEN` environment secret. Other selected chapter derivatives
 need their chapter-scoped R2 upload before deployment. Each selected chapter's
 R2 upload runs before the Worker version upload/deploy and writes only that
@@ -531,3 +531,7 @@ D094 contains ten native landscape comparison candidates in `art/batches/d094-co
 ## Dasakam 95
 
 D095 contains ten native landscape comparison candidates in `art/batches/d095-comparison-v006.json`, matched by SHA-256 to numbered source photos and captions 1–10 and pinned to the plan `art/plans/d095.json`. Photos 011–014 are unmapped extras. The selected versions are S001 v007, S002 v002, S003 v006, S004 v003, S005 v007, S006 v004, S007 v003, S008 v005, S009 v003 and S010 v007; candidate history is listed in `art/batches/d095-candidate-versions-v006.json`. Independent exact-checksum reviews are in `art/reviews/d095-s*-independent-review-v001.md`, with one record per image in `art/reviews/visual-reviews.json`; producer reports are kept separately as `art/reviews/d095-s*-producer-review-*.md`. Known deviations are disclosed in the batch `candidate_status`. Canonical Sanskrit and IAST are sourced from Stotra Nidhi; no English verse translation was supplied. Candidates remain unapproved and portraits are paused. Upload only D095's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=95` before a serialized Worker deployment. With D095 added, the selection union contains 41 chapters, 422 stanza rows, 866 review media inputs and 428 generated selections (69 historical and 359 individually inspected). Recalculate these totals if main advances.
+
+## Dasakam 99
+
+D099 contains ten native landscape comparison candidates in `art/batches/d099-comparison-v001.json`, matched by SHA-256 to numbered source photos and captions 1–10 and pinned to the plan `art/plans/d099.json`. Selected versions and candidate history are listed in the batch and `art/batches/d099-candidate-versions-v001.json`. Independent exact-checksum reviews are in `art/reviews/d099-independent-review-*.md`, with one record per image in `art/reviews/visual-reviews.json`; producer reports are kept beside them as `art/reviews/d099-s*-producer-review-*.md`. The review status and known deviations are stated in the batch `review_notice`. Candidates remain unapproved; publishing is not art approval. Upload only D099's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=99` before a serialized Worker deployment.
