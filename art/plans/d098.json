@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "daskam_id": 98,
+  "slug": "d098",
+  "title": "Dasakam 98 – Niṣkalabrahmopāsanam",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "guruvayurappan",
+    "recurring_characters": [
+      "bhattathiri",
+      "guruvayurappan"
+    ],
+    "locations": [
+      "contemplative devotional space",
+      "symbolic cosmos",
+      "quiet forest of samsara"
+    ],
+    "narrative_arc": "The captions guide the visual arc from Bhattathiri’s praise of the cosmic ground, through negation, creation, illusion and analogies, to the ordered universe, inner realization and refuge from time.",
+    "deity_contract": "Use one serene deep-blue Guruvayurappan/Vishnu identity in murti or restrained devotional mode where the stanza requires a divine figure. Do not invent a Vrindavan youth or chapter-specific character duplicate.",
+    "bhattathiri_contract": "Use the shared older clean-shaven scholar contract: lined face, horizontal sacred-ash marks and central mark, small dark hair tuft, warm medium-brown mineral skin, cream Kerala dhoti, sacred thread and modest beads.",
+    "rendering_references": [
+      "artifacts/d001/s004/landscape/master.png",
+      "artifacts/d001/s008/landscape/master.png"
+    ],
+    "palette_arc": "Traditional matte South Indian temple mural; firm dark contours, flat mineral fields in burnt sienna, earth ochre, deep maroon, warm cream, muted olive and established indigo-blue deity skin. No gloss, metallic shine, readable text, signature, watermark, light beams or cinematic effects.",
+    "reference_policy": "Each mapped intake image provides contextual subject cues only. Follow canonical Sanskrit and verbatim caption meaning; do not reproduce glossy style, source staging, text or collage composition."
+  },
+  "source": {
+    "sanskrit": "https://stotranidhi.com/hi/narayaneeyam-dasakam-98-in-sanskrit/",
+    "romanization": "https://stotranidhi.com/en/narayaneeyam-dasakam-98-in-english/",
+    "caption_file": "intake/D098/photo-captions.txt",
+    "reference_map": "content/sources/d098/reference-map.json"
+  },
+  "character_bible_refs": [
+    "art/bible/characters/bhattathiri/character.json",
+    "art/bible/characters/guruvayurappan/character.json",
+    "art/bible/characters/brahma/character.json",
+    "art/bible/characters/devas/character.json",
+    "art/bible/characters/sages/character.json"
+  ],
+  "chapter_label": "Dasakam 98",
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d098-s001",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "devotional praise and cosmic source",
+        "must_show": [
+          "Bhattathiri kneels in prayer before a serene, deep-blue Guruvayurappan murti.",
+          "A restrained ring of earth, stars and living forms suggests that the universe is grounded in the deity.",
+          "Keep the scholar modest and dignified; maintain the exact shared identities and matte mural rendering."
+        ],
+        "composition": "Bhattathiri offers salutations to Guruvayurappan as the source and ground of the cosmos; show the scholar before a serene blue deity with a quiet symbolic universe surrounding them.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No text, labels, copied child-Krishna scene, extra deity figures or photorealistic effects."
+        ]
+      },
+      "alt": "Bhattathiri offers salutations to Guruvayurappan as the source and ground of the cosmos; show the scholar before a serene blue deity with a quiet symbolic universe surrounding them.",
+      "reference_paths": [
+        "intake/D098/001.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v010; producer pass. Krishna face/chest/palms B-R 114/108 and 99/113; Bhattathiri face/shoulder/arm R-B 96/99/102. Both open hands show five separated digits and both feet five toes; no enclosing oval. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v010",
+          "candidate_path": "artifacts/d098/s001/landscape/candidate-v010.png",
+          "candidate_sha256": "d4b2ae83896ffc273b5a868fc0395439045c913a4df61d1138b50046b3099c59",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s001/landscape/prompt-submitted-v010.txt",
+          "provenance_path": "artifacts/d098/s001/landscape/generation-record-v010.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d098-s002",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "one source appearing through maya",
+        "must_show": [
+          "Show one deep-blue Vishnu/Guruvayurappan as the central source, with subtle orderly reflections of land, water and sky around him.",
+          "Show Bhattathiri in reverent prostration at a respectful distance.",
+          "Use visual variation without duplicate deity bodies or text."
+        ],
+        "composition": "Bhattathiri salutes the formless Brahman who assumes many forms through maya while remaining complete; render one central Vishnu form reflected in a quiet field of differentiated worlds.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No literal labels, multiple cloned Vishnus, flashy beams or glossy cosmic effects."
+        ]
+      },
+      "alt": "Bhattathiri salutes the formless Brahman who assumes many forms through maya while remaining complete; render one central Vishnu form reflected in a quiet field of differentiated worlds.",
+      "reference_paths": [
+        "intake/D098/002.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v007; producer pass. Krishna face/torso/palms B-R 97/86 and 88/84; Bhattathiri face/back/arm R-B 89/88/92. Both open deity hands show five separated digits; feet show five toes. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v007",
+          "candidate_path": "artifacts/d098/s002/landscape/candidate-v007.png",
+          "candidate_sha256": "635640807fe768f66b894c8256540bc46281a9bde42d2ad088130bceff801cb7",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s002/landscape/prompt-submitted-v007.txt",
+          "provenance_path": "artifacts/d098/s002/landscape/generation-record-v007.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d098-s003",
+      "characters": [],
+      "scene_brief": {
+        "mode": "negation and the ineffable",
+        "must_show": [
+          "Suggest categories of beings and elements as small, quiet silhouettes or natural forms at the frame edges, all receding toward a serene, unoccupied center.",
+          "Keep the central presence abstract and non-anthropomorphic; let matte color and negative space carry the idea."
+        ],
+        "composition": "A non-figurative contemplation of Brahman beyond every named category, centered on a calm unoccupied field of warm cream and deep indigo with earthly forms receding at its edges.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No text, visible deity body, rays, beams, or pictograms that resemble an infographic."
+        ]
+      },
+      "alt": "A non-figurative contemplation of Brahman beyond every named category, centered on a calm unoccupied field of warm cream and deep indigo with earthly forms receding at its edges.",
+      "reference_paths": [
+        "intake/D098/003.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v006; producer pass. No deity. Four skin-only figure patches R-B 90, 95, 98, 91. Three celestial figures, two people and three asuras remain distinct; no digit counts applicable at this scale. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d098/s003/landscape/candidate-v006.png",
+          "candidate_sha256": "e8e7c8b81ef7ecf0f50dd56d3989b3c784edc621126bb00f6f8ffae0f3419553",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s003/landscape/prompt-submitted-v006.txt",
+          "provenance_path": "artifacts/d098/s003/landscape/generation-record-v006.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d098-s004",
+      "characters": [
+        "guruvayurappan",
+        "brahma"
+      ],
+      "scene_brief": {
+        "mode": "creation and cosmic withdrawal",
+        "must_show": [
+          "Show one calm Vishnu figure as the unaffected center while distinct earth, water and living forms fold inward in a simple circular composition.",
+          "A small four-faced Brahma may be shown as the creator at the edge, following his exact head and limb contract.",
+          "The turtle simile may be suggested by a restrained tortoise silhouette withdrawing its legs, not as a second deity."
+        ],
+        "composition": "Brahman appears through maya as creator and withdraws creation like a tortoise drawing in its limbs; portray the world gathered inward around a calm Vishnu form as darkness settles.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No purple storm palette, frightening void, extra Brahma heads or limbs, beams, or text."
+        ]
+      },
+      "alt": "Brahman appears through maya as creator and withdraws creation like a tortoise drawing in its limbs; portray the world gathered inward around a calm Vishnu form as darkness settles.",
+      "reference_paths": [
+        "intake/D098/004.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+        "artifacts/characters/brahma/character-sheet-candidate-v003.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v006; producer pass. Guruvayurappan face/torso B-R 47/46; Bhattathiri R-B 114/109; Brahma torso R-B 119. Brahma has four contracted heads and four attached arms; no extra figures or limbs observed. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d098/s004/landscape/candidate-v006.png",
+          "candidate_sha256": "fefabdabced96dda2946d2d9da80af97b2057b244a973b09e77ce31cb42939b9",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s004/landscape/prompt-submitted-v006.txt",
+          "provenance_path": "artifacts/d098/s004/landscape/generation-record-v006.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d098-s005",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "one ground of many descriptions",
+        "must_show": [
+          "Show one serene Krishna/Guruvayurappan with Bhattathiri saluting him.",
+          "Place a small conch-like sound spiral, a seed-sized earth, and a simple sun-and-moon cycle as quiet symbols around the single deity.",
+          "Let the scene remain uncluttered and reverent."
+        ],
+        "composition": "Bhattathiri praises Krishna as sound, action, atom and time, the one cause of the universe; show him in a serene compact cosmic tableau with subtle symbols of sound, matter and time.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No written syllables, modern scientific diagrams, repeated deity forms, or light beams."
+        ]
+      },
+      "alt": "Bhattathiri praises Krishna as sound, action, atom and time, the one cause of the universe; show him in a serene compact cosmic tableau with subtle symbols of sound, matter and time.",
+      "reference_paths": [
+        "intake/D098/005.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v005; producer pass. Krishna face/arm/palms B-R 74/74 and 78/51; Bhattathiri face/shoulder/arm R-B 117/115/116. Both open deity hands show five separated digits and feet show five toes. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d098/s005/landscape/candidate-v005.png",
+          "candidate_sha256": "e379c2f8af83f1f860e042633b72205e875dcb7c7d1b129f5e0db710c5a74977",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s005/landscape/prompt-submitted-v005.txt",
+          "provenance_path": "artifacts/d098/s005/landscape/generation-record-v005.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d098-s006",
+      "characters": [
+        "bhattathiri"
+      ],
+      "scene_brief": {
+        "mode": "ignorance resolving into knowledge",
+        "must_show": [
+          "Show an older scholar beside a worn rope on the forest floor; the misleading serpent impression has visibly resolved into the rope.",
+          "Use subdued indigo shade and a warm cream opening in the grove without shafts or rays.",
+          "Keep the image contemplative rather than frightening."
+        ],
+        "composition": "The rope mistaken for a snake conveys avidya; show Bhattathiri in a dim forest noticing a worn rope clearly as knowledge dawns, with a symbolic grove suggesting samsara.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No actual attacking snake, text, dramatic spotlight, or invented deity."
+        ]
+      },
+      "alt": "The rope mistaken for a snake conveys avidya; show Bhattathiri in a dim forest noticing a worn rope clearly as knowledge dawns, with a symbolic grove suggesting samsara.",
+      "reference_paths": [
+        "intake/D098/006.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v005; producer pass. No deity. Bhattathiri face/shoulder/forearm R-B 80/80/78; folded hands partly tucked and feet covered. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d098/s006/landscape/candidate-v005.png",
+          "candidate_sha256": "66ac93d808d3e0f7318564defac199d7a7c7b12fe7cdc4548c3bc871f6fc9071",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s006/landscape/prompt-submitted-v005.txt",
+          "provenance_path": "artifacts/d098/s006/landscape/generation-record-v005.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d098-s007",
+      "characters": [
+        "bhattathiri"
+      ],
+      "scene_brief": {
+        "mode": "examples of one underlying reality",
+        "must_show": [
+          "Arrange three clear object groupings: a simple gold ornament beside a gold piece, a clay pot beside a clay lump, and Bhattathiri waking beside a rope seen plainly.",
+          "Keep all objects matte and plainly distinguishable, with no lettering or infographic panels.",
+          "The scholar remains the single human figure and retains his shared contract."
+        ],
+        "composition": "Gold ornaments and clay pots share their underlying substance, while waking reveals the dream and clear seeing resolves the rope; compose these three analogies as one balanced mural around Bhattathiri.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No dream text, labels, duplicate person, snakes or staged collage."
+        ]
+      },
+      "alt": "Gold ornaments and clay pots share their underlying substance, while waking reveals the dream and clear seeing resolves the rope; compose these three analogies as one balanced mural around Bhattathiri.",
+      "reference_paths": [
+        "intake/D098/007.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v004; producer pass. No deity. Bhattathiri cheek/chest/upper-arm R-B 99/112/117; folded hands are visible and feet fully covered. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d098/s007/landscape/candidate-v004.png",
+          "candidate_sha256": "0fa560b0c33aaba475da6fff11c0b9375ba1ebca0a6f92a9452f35a718da3b7f",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s007/landscape/prompt-submitted-v004.txt",
+          "provenance_path": "artifacts/d098/s007/landscape/generation-record-v004.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d098-s008",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan",
+        "brahma",
+        "devas"
+      ],
+      "scene_brief": {
+        "mode": "cosmic governance",
+        "must_show": [
+          "Place one calm Krishna at the compositional center; show a restrained sun disc, a small fire altar flame and moving leaves as visual signs of natural forces.",
+          "Show Brahma with exactly four heads and four attached arms, small but distinct, with a few separate two-armed devas as witnesses.",
+          "Make every person individually separated and naturally attached.",
+          "Bhattathiri bows in respectful prostration at a distance from Krishna, as stated in the numbered caption."
+        ],
+        "composition": "Bhattathiri prostrates to Krishna, who governs the sun, fire, wind, Brahma and devas; show the scholar in respectful devotion and distinct celestial witnesses performing their roles under one calm central deity.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No light rays, duplicate bodies, malformed deity anatomy, text, or excessive crowding."
+        ]
+      },
+      "alt": "Bhattathiri prostrates to Krishna, who governs the sun, fire, wind, Brahma and devas; show the scholar in respectful devotion and distinct celestial witnesses performing their roles under one calm central deity.",
+      "reference_paths": [
+        "intake/D098/008.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+        "artifacts/characters/brahma/character-sheet-candidate-v003.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; one D001 master anchors rendering; shared character references anchor identity only. The devas follow their declared character contract. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v010; producer pass. Krishna face/chest/palms B-R 90/89 and 79/83; Bhattathiri face/arm R-B 96/104, two devas 105/103, Brahma 102. Both open deity hands show five digits; feet show five toes; Brahma has four heads and four arms. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v010",
+          "candidate_path": "artifacts/d098/s008/landscape/candidate-v010.png",
+          "candidate_sha256": "2cf990b3f99b4bbb9bb9fafddd75ac88d51da6e6899a0ac86edd0d8a03616ab4",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s008/landscape/prompt-submitted-v010.txt",
+          "provenance_path": "artifacts/d098/s008/landscape/generation-record-v010.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d098-s009",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "the many threes held in one",
+        "must_show": [
+          "Show a single central Krishna framed by three balanced arcs of earth, sky and sea; echo the triad through three restrained color fields and three stages of a small landscape cycle.",
+          "Keep all symbols simple and nonverbal, with no additional named deity bodies needed.",
+          "Use a unified devotional composition rather than a chart.",
+          "Bhattathiri prays reverently to Krishna, as stated in the numbered caption, remaining a small separate human figure."
+        ],
+        "composition": "Bhattathiri prays to one central Krishna, whose unity holds the many threes together; use three balanced arcs and restrained nonverbal triadic cues around the single deity and scholar.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No text, Om glyph, explanatory diagram, repeated Krishna, rays or beams."
+        ]
+      },
+      "alt": "Bhattathiri prays to one central Krishna, whose unity holds the many threes together; use three balanced arcs and restrained nonverbal triadic cues around the single deity and scholar.",
+      "reference_paths": [
+        "intake/D098/009.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and symbols; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v004; producer pass after exact-image reinspection. Guruvayurappan face/forearm B-R 73/89; Bhattathiri face/arm R-B 86/107. Both deity hands show five digits; both feet five toes. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d098/s009/landscape/candidate-v004.png",
+          "candidate_sha256": "469bb5fe80ed4a42a41ff4cad8ec421b9bab6e98dbf3cf962787642a812a8b7f",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s009/landscape/prompt-submitted-v004.txt",
+          "provenance_path": "artifacts/d098/s009/landscape/generation-record-v004.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d098-s010",
+      "characters": [
+        "guruvayurappan",
+        "sages"
+      ],
+      "scene_brief": {
+        "mode": "inner stillness and bliss",
+        "must_show": [
+          "Show a serene, deep-blue Vishnu/Krishna presence seated or standing in a simple temple-like alcove.",
+          "A small number of distinct adult sages sit in quiet contemplation, naturally proportioned, each with one head and two arms.",
+          "Suggest inward light only through warm cream and matte ochre color fields, without drawn rays."
+        ],
+        "composition": "The eternal, pure and changeless form shines within the hearts of unattached sages; show one serene Krishna presence reflected in the inward contemplation of a small group of distinct sages.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No duplicate deity, fused people, text, glossy lighting or beams."
+        ]
+      },
+      "alt": "The eternal, pure and changeless form shines within the hearts of unattached sages; show one serene Krishna presence reflected in the inward contemplation of a small group of distinct sages.",
+      "reference_paths": [
+        "intake/D098/010.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v003; producer pass. Guruvayurappan face/forearm B-R 54/68. All three sages' sampled face/arm patches R-B 54/76, 59/68 and 69/67; hands rest on thighs, feet covered. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d098/s010/landscape/candidate-v003.png",
+          "candidate_sha256": "fc0bd12a887b6d7cf158f140a0cab9f1c4ac18d2059cfe65fb4f4e1df2fa2ac1",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s010/landscape/prompt-submitted-v003.txt",
+          "provenance_path": "artifacts/d098/s010/landscape/generation-record-v003.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 11,
+      "concept_id": "d098-s011",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "refuge from time",
+        "must_show": [
+          "Show one large but orderly wheel with twelve clear spokes and small repeated tooth-like marks around its rim, symbolizing the 360 divisions without numerals.",
+          "Bhattathiri bows at the lotus feet of one calm Guruvayurappan; keep his face, hands and posture legible.",
+          "Use restrained deep indigo, warm cream, ochre and maroon; keep the wheel from obscuring the figures."
+        ],
+        "composition": "Bhattathiri seeks refuge at Vishnu’s feet from the irresistible wheel of time; show a great twelve-spoked wheel held at a respectful distance while the scholar bows at the deity’s lotus feet.",
+        "tone": "quiet philosophical devotion",
+        "avoid": [
+          "No text or numbers, extra deity bodies, violent destruction, rays, beams or crowded collage."
+        ]
+      },
+      "alt": "Bhattathiri seeks refuge at Vishnu’s feet from the irresistible wheel of time; show a great twelve-spoked wheel held at a respectful distance while the scholar bows at the deity’s lotus feet.",
+      "reference_paths": [
+        "intake/D098/011.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "reference_guidance": "Use the mapped source photo for subject/context only; the two D001 masters anchor rendering; shared character references anchor identity only. Compose a complete native 16:9 landscape with safe margins for visible faces, hands, feet and props; recompose, do not crop any reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review candidate",
+          "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
+          "candidate_status": "Selected v006; producer pass. Krishna face/forearm/palms B-R 98/42 and 104/102; Bhattathiri face/shoulder/forearm R-B 98/110/97. Both open hands show five digits, both feet five toes, and time wheel has twelve spokes. Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d098/s011/landscape/candidate-v006.png",
+          "candidate_sha256": "091eadc4904325e576d3a7a5dd22b789f1c7b09ce0d655c5e8a0e31ada8c148f",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d098/s011/landscape/prompt-submitted-v006.txt",
+          "provenance_path": "artifacts/d098/s011/landscape/generation-record-v006.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    }
+  ],
+  "selection_status": "Eleven native landscape candidates selected for unapproved reference comparison. All eleven have producer-pass reviews; independent exact-checksum review is pending. No artwork approval; portraits remain paused."
+}
