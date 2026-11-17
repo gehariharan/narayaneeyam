@@ -1,0 +1,1222 @@
+{
+  "schema_version": 1,
+  "daskam_id": 95,
+  "chapter_label": "Dasakam 95",
+  "selection_status": "Ten final landscape leads pinned; producer results and remaining deviations recorded; independent exact-checksum review pending.",
+  "artwork_approval": "pending explicit approval; art/approved/ unchanged",
+  "approval_manifest_updated": false,
+  "portrait_status": "paused",
+  "series_bible_sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+  "plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8",
+  "contracts": [
+    {
+      "path": "art/bible/characters/brahma/character.json",
+      "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+    },
+    {
+      "path": "art/bible/characters/guruvayurappan/character.json",
+      "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+    },
+    {
+      "path": "art/bible/characters/bhattathiri/character.json",
+      "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+    },
+    {
+      "path": "art/bible/characters/hamsa-form-bhagavan/character.json",
+      "sha256": "20878cf40aeb1791f5a64dda7e27337fe71b92ade904879f58b1f5c6cebd4477"
+    },
+    {
+      "path": "art/bible/characters/uddhava/character.json",
+      "sha256": "97924a85d0def63e4b0de7d0ee8e6573269324a3796e6faed859b3fd25560ab9"
+    }
+  ],
+  "candidate_versions": [
+    {
+      "stanza": 1,
+      "concept_id": "d095-s001",
+      "version": "v002",
+      "file": "artifacts/d095/s001/landscape/candidate-v002.png",
+      "sha256": "5234c07522c3192dc9f1218c2d108d298b734a97661879c78856b0ff5df3dfd6",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s001/landscape/prompt-v002.md",
+      "prompt_sha256": "ea23966e34dbaf09c71a2fcc0d44dbcc31348b31936a48dc980d9a5338c4515c",
+      "call_arguments": "artifacts/d095/s001/landscape/arguments-v002.json",
+      "call_arguments_sha256": "c8dd1a359e60222b31ec42358043b6254c0fcea370f835c4b9a8753711d7b03f",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-a7f9b2f9-e128-4ce8-9271-9cbc8951ddd2.png",
+      "generation_record": "artifacts/d095/s001/landscape/generation-v002.json",
+      "generation_record_sha256": "e91d6ec18a144b6fd7640e995ed820bc7008dfcb70a9b68cffb3e4ecff68bfa3",
+      "references": [
+        {
+          "path": "intake/D095/001.jpg",
+          "sha256": "1d2e775bc6daef935717631b566702dab25e2bd2266800ec0dd2a75d0548945f"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/brahma/character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_review": "art/reviews/d095-s001-landscape-v002-producer-review-v001.md",
+      "producer_review_sha256": "0b9efc0bb8dd2b45e9efc1af97f437273663126832d0b4917953771dd350c3b0",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:18:38Z",
+      "independent_exact_checksum_review": "pending"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d095-s001",
+      "version": "v003",
+      "file": "artifacts/d095/s001/landscape/candidate-v003.png",
+      "sha256": "53aff2eabf8c0674818565b6fedc6daff91f877c98c32430b47794b86b88478f",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s001/landscape/prompt-v003.md",
+      "prompt_sha256": "965ef7176daf7770d5aa2beafdc45f1cf6b4e0c8dc61eb75b08ad28f895f9866",
+      "call_arguments": "artifacts/d095/s001/landscape/arguments-v003.json",
+      "call_arguments_sha256": "40ba647d6fe0fec209f0b86cef0f41a29e7a66c89453ab6f9f7b85cbf1123cc6",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-c127353d-de84-4357-aad6-25d07aeeb817.png",
+      "generation_record": "artifacts/d095/s001/landscape/generation-v003.json",
+      "generation_record_sha256": "e3085fcb7e62ea962f30ddfa36cba885b66830d915678f98935898a5240577f4",
+      "references": [
+        {
+          "path": "intake/D095/001.jpg",
+          "sha256": "1d2e775bc6daef935717631b566702dab25e2bd2266800ec0dd2a75d0548945f"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/brahma/character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e"
+        }
+      ],
+      "disposition": "superseded-after-producer-review",
+      "producer_review": "art/reviews/d095-s001-landscape-v003-producer-review-v003.md",
+      "producer_review_sha256": "5dfb7a2d473945cb0933717ffbee3fee77864f9ffbe3b2e850118f2d2dcdc877",
+      "producer_verdict": "uncertain",
+      "reviewed_at_utc": "2026-11-16T07:15:37Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d095-s001",
+      "version": "v004",
+      "file": "artifacts/d095/s001/landscape/candidate-v004.png",
+      "sha256": "87ae9047e278b41af7bc6abcdfa87a0ae18735bc39ba38a438b3e6b9116bbba7",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s001/landscape/prompt-v004.md",
+      "prompt_sha256": "15973198241f485017bc67c53ac24ba63c30dc2f83174c18384fafc6be4b4a09",
+      "call_arguments": "artifacts/d095/s001/landscape/arguments-v004-submitted-v001.json",
+      "call_arguments_sha256": "68e04180c03fe0217e11dd57fe334e9b3822f2c013153d89689669d60da40050",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-5b923480-85d5-46d7-aad2-0a88c4552851.png",
+      "generation_record": "artifacts/d095/s001/landscape/generation-v004.json",
+      "generation_record_sha256": "b4982ccecf0edbad4bfa56b656dcce7aae55779145b5bb960607ccfce58a4244",
+      "references": [
+        {
+          "path": "intake/D095/001.jpg",
+          "sha256": "1d2e775bc6daef935717631b566702dab25e2bd2266800ec0dd2a75d0548945f"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/brahma/character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e"
+        }
+      ],
+      "disposition": "selected-producer-pass",
+      "producer_verdict": "pass",
+      "producer_review": "art/reviews/d095-s001-landscape-v004-producer-review-v001.md",
+      "producer_review_sha256": "b50e027ec4a0d51328db0520474dc5100c37d12f1d68b4d016b9ca804ccfe1ac",
+      "reviewed_at_utc": "2026-11-16T08:47:55.642Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "3d1a75d97b0dfd6519739ce86732006dcc572c36111fdc7c1d658dbbf7370c6e"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d095-s002",
+      "version": "v001",
+      "file": "artifacts/d095/s002/landscape/candidate-v001.png",
+      "sha256": "b15f6f0f820cff0bc3c1235bc98409843bdc5016a1a475db6c05215f0b4505e4",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s002/landscape/prompt-v001.md",
+      "prompt_sha256": "b5b71dccff10f4becada42d2140e06d7bb43312c4f8f0414c29a2d53ee46a109",
+      "call_arguments": "artifacts/d095/s002/landscape/arguments-v001.json",
+      "call_arguments_sha256": "002d105b856d69282099cc59f6dbc52379ce25706e46d4dde44d887699190e4f",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-2e445f90-0243-474a-a9b0-a261d6a1446a.png",
+      "generation_record": "artifacts/d095/s002/landscape/generation-v001.json",
+      "generation_record_sha256": "771eed59abd22108eb93bae6782b804c1b7365e3aaa6399eaae237f542a38118",
+      "references": [
+        {
+          "path": "intake/D095/002.jpg",
+          "sha256": "57faaf78d63a27a5cee3793ca4118953c770e924fcec8ea49819a63be650631a"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_review": "art/reviews/d095-s002-landscape-v001-producer-review-v001.md",
+      "producer_review_sha256": "98084853c63a455667f2c63fe43b9974321e1dd14e8620e2ab9ac5b4f0d71542",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:19:00Z",
+      "independent_exact_checksum_review": "pending"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d095-s002",
+      "version": "v002",
+      "file": "artifacts/d095/s002/landscape/candidate-v002.png",
+      "sha256": "6654bd3c9dca283ba58f73e91f7c960ded67fabf4d54c10c0f4d02159962f4d1",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s002/landscape/prompt-v002.md",
+      "prompt_sha256": "e5022d02e1488d4249b9f9c3545d1b24494cdfd861135375718eff42b7762411",
+      "call_arguments": "artifacts/d095/s002/landscape/arguments-v002.json",
+      "call_arguments_sha256": "49809216c0bda33e96f24a9742a2c4b7cdfad85e4f8a2f97f1591efcf6844e64",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-25ce07ee-c225-4d8f-acbe-93c8642270a3.png",
+      "generation_record": "artifacts/d095/s002/landscape/generation-v002.json",
+      "generation_record_sha256": "1827e0ac7962c19301d79f8326939553cad2a094f76524f522bd43fcfbbaa963",
+      "references": [
+        {
+          "path": "intake/D095/002.jpg",
+          "sha256": "57faaf78d63a27a5cee3793ca4118953c770e924fcec8ea49819a63be650631a"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        }
+      ],
+      "disposition": "selected-producer-pass",
+      "producer_review": "art/reviews/d095-s002-landscape-v002-producer-review-v003.md",
+      "producer_review_sha256": "386cce23c8288c63bb0b3b18351487e01ccbc11df309977e6040bd789f0990ca",
+      "producer_verdict": "pass",
+      "reviewed_at_utc": "2026-11-16T07:15:57Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d095-s003",
+      "version": "v001",
+      "file": "artifacts/d095/s003/landscape/candidate-v001.png",
+      "sha256": "62a8ea5722404d8276fb9b09bdfdb780abbcf3e7512ea653f9514449d5602704",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s003/landscape/prompt-v001.md",
+      "prompt_sha256": "c67ab6db42069994d06e9d50fc52a66447c7c429d74a304c8f6e9bfb4d97ba60",
+      "call_arguments": "artifacts/d095/s003/landscape/arguments-v001.json",
+      "call_arguments_sha256": "fca1a3a996b759da439644c2e58d56780a84f2d60c2f7cf84eac7b260a8466c0",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-b2bc7ba3-dc7e-4991-ad8f-66a4fdbb8bd1.png",
+      "generation_record": "artifacts/d095/s003/landscape/generation-v001.json",
+      "generation_record_sha256": "9e789fcee957d776f3525870fce9f1f7f86573c69b08bbb55eb20d55542fd467",
+      "references": [
+        {
+          "path": "intake/D095/003.jpg",
+          "sha256": "2a6da7b4ee403a2b0d77eaed864f539abd3b061fdfeacb630b205bbd4ca47159"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_review": "art/reviews/d095-s003-landscape-v001-producer-review-v001.md",
+      "producer_review_sha256": "d6c85bbd6e43d930c9206e9e02f3c24f2118c5745f4fe3dc584dc36eeabac3c5",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:19:30Z",
+      "independent_exact_checksum_review": "pending"
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d095-s003",
+      "version": "v002",
+      "file": "artifacts/d095/s003/landscape/candidate-v002.png",
+      "sha256": "ced667f80ea9ebf589cbf8cc1620b10a774a20f362eb584ed0d0aba7c6339eca",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s003/landscape/prompt-v002.md",
+      "prompt_sha256": "e3981f68697a70b2e40770aafa1c2193dfa7f26f2ddefed570e972448307350e",
+      "call_arguments": "artifacts/d095/s003/landscape/arguments-v002.json",
+      "call_arguments_sha256": "be7201df16a9a562e8ca792f73be961e2a48403f52f5f3924c5291d8aa2e449e",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-100f5d2f-3807-49ae-aa43-9a460c1fd9c4.png",
+      "generation_record": "artifacts/d095/s003/landscape/generation-v002.json",
+      "generation_record_sha256": "398cd9f28a4936b95ef29538c5edbd33c8271cbc1a23b00ca894f8b0676e7210",
+      "references": [
+        {
+          "path": "intake/D095/003.jpg",
+          "sha256": "2a6da7b4ee403a2b0d77eaed864f539abd3b061fdfeacb630b205bbd4ca47159"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-after-producer-review",
+      "producer_review": "art/reviews/d095-s003-landscape-v002-producer-review-v003.md",
+      "producer_review_sha256": "3c1480e778c6a818afaa6b982e748287639b527dfa6d5ef42f25de5d6f32b6dd",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:16:13Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d095-s003",
+      "version": "v003",
+      "file": "artifacts/d095/s003/landscape/candidate-v003.png",
+      "sha256": "8c56e14bfad6556c5fd085cd84ab18f8a9094738d4759ebeefb0c6bc8c6cc19f",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s003/landscape/prompt-v003.md",
+      "prompt_sha256": "4ffae912371af792cd87f92cc4be37d095abbd78cd0c80145ac5f5bc089bf524",
+      "call_arguments": "artifacts/d095/s003/landscape/arguments-v003-submitted-v001.json",
+      "call_arguments_sha256": "4d9e2d1539ddcd4ba147559937348ddcc7a0c5a4dad9c503c391c500bda1c80f",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-2cb9b59d-830d-4653-ab7a-515882214592.png",
+      "generation_record": "artifacts/d095/s003/landscape/generation-v003.json",
+      "generation_record_sha256": "0df92b063171e77c9aa38f6d526865fe2401df35f697be361839f7a4d35ff856",
+      "references": [
+        {
+          "path": "intake/D095/003.jpg",
+          "sha256": "2a6da7b4ee403a2b0d77eaed864f539abd3b061fdfeacb630b205bbd4ca47159"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_verdict": "needs-fix",
+      "producer_preflight_observation": "Full-frame output inspected. Uddhava skin remained orange; body pose and foot detail were less clear than selected v004."
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d095-s003",
+      "version": "v004",
+      "file": "artifacts/d095/s003/landscape/candidate-v004.png",
+      "sha256": "3367fad88a5537d7841d3e6094fcf0c676cd8c6e9ecb34ac494e5a43a6b2b8c7",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s003/landscape/prompt-v004.md",
+      "prompt_sha256": "ace214eb3b602e2c1ae741d3ff62bf943211786cb5fbc05d056e5436e4cf635e",
+      "call_arguments": "artifacts/d095/s003/landscape/arguments-v004-submitted-v001.json",
+      "call_arguments_sha256": "93290ec9049b9808337059d22d2bad6228779cb797d29de95b3faad07d7542e7",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-f6ee995f-8862-43c7-bb0e-3b8a8943c617.png",
+      "generation_record": "artifacts/d095/s003/landscape/generation-v004.json",
+      "generation_record_sha256": "c301ef0c6fa254fded5dc3f65d7acb0e660e393b6fe12a3ea02cf3d3d4949f9e",
+      "references": [
+        {
+          "path": "intake/D095/003.jpg",
+          "sha256": "2a6da7b4ee403a2b0d77eaed864f539abd3b061fdfeacb630b205bbd4ca47159"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        },
+        {
+          "path": "artifacts/d095/s004/landscape/candidate-v003.png",
+          "sha256": "cadaabba07183645f745896ffd63bdb735e83e8626ca50e3c100f270e3277f5c"
+        }
+      ],
+      "disposition": "selected-producer-needs-fix",
+      "producer_verdict": "needs-fix",
+      "producer_review": "art/reviews/d095-s003-landscape-v004-producer-review-v001.md",
+      "producer_review_sha256": "e95e9439f8b0b067a17bc71f8e22ad4949d4fe58fadebdd1e933bda48192c58f",
+      "reviewed_at_utc": "2026-11-16T08:47:57.876Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "3d1a75d97b0dfd6519739ce86732006dcc572c36111fdc7c1d658dbbf7370c6e"
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d095-s004",
+      "version": "v001",
+      "file": "artifacts/d095/s004/landscape/candidate-v001.png",
+      "sha256": "c67a748c747f2fb47e7cdb60638a2f459c6a7536dcb86f47112c443cd584073d",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s004/landscape/prompt-v001.md",
+      "prompt_sha256": "414ea9f190f426abc28dbabfaa05ef3a76fec1fbef207d3d00dd8a07af9ebdbb",
+      "call_arguments": "artifacts/d095/s004/landscape/arguments-v001.json",
+      "call_arguments_sha256": "810b11975ecdb6de3fcbbe161d40980088259672a7069c063341fde371c6bf0e",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-2cba17b3-77db-44af-97ff-c8bf5c686a81.png",
+      "generation_record": "artifacts/d095/s004/landscape/generation-v001.json",
+      "generation_record_sha256": "6ec3d67bfea065267666217da434c8cc89d7f23e223d5f18fa1d374c6d75047d",
+      "references": [
+        {
+          "path": "intake/D095/004.jpg",
+          "sha256": "27456db9acadc425dad8ffd053a381549b522db6d28e331e76460c1e2d68061e"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        }
+      ],
+      "disposition": "superseded-after-producer-review",
+      "producer_review": "art/reviews/d095-s004-landscape-v001-producer-review-v003.md",
+      "producer_review_sha256": "226ae54af89602c20728ca051fd46f95eb771cce3a15bfb8a72ba4543882fe0f",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:16:26Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d095-s004",
+      "version": "v002",
+      "file": "artifacts/d095/s004/landscape/candidate-v002.png",
+      "sha256": "999c7e03420db1399ec061891739f6b970163f8208f48b18ef1b1ff515f7eb9b",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s004/landscape/prompt-v002.md",
+      "prompt_sha256": "f01013f37b9cc4a2d9c1fc0afca85839b646166e0129a3ae53057841c502f859",
+      "call_arguments": "artifacts/d095/s004/landscape/arguments-v002-submitted-v001.json",
+      "call_arguments_sha256": "d4849c88dc061ba91ca95228454a4f53a84208206618936a1dcc9a5cc5601411",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-b5b04650-3444-431a-928a-7e6901971d21.png",
+      "generation_record": "artifacts/d095/s004/landscape/generation-v002.json",
+      "generation_record_sha256": "bb9afb92b7ff4cdf2d35204dbec71dcb7bd5cce262f23ffafa7684dfd975146e",
+      "references": [
+        {
+          "path": "intake/D095/004.jpg",
+          "sha256": "27456db9acadc425dad8ffd053a381549b522db6d28e331e76460c1e2d68061e"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_verdict": "needs-fix",
+      "producer_preflight_observation": "Full-frame and hand/foot crops inspected; color R-B 152, curled fingers and perspective-occluded toes were weaker than v003."
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d095-s004",
+      "version": "v003",
+      "file": "artifacts/d095/s004/landscape/candidate-v003.png",
+      "sha256": "cadaabba07183645f745896ffd63bdb735e83e8626ca50e3c100f270e3277f5c",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s004/landscape/prompt-v003.md",
+      "prompt_sha256": "54b05827311898b662f4e598b4541428140804bbb42fac624e3cc35d9e323ff4",
+      "call_arguments": "artifacts/d095/s004/landscape/arguments-v003-submitted-v001.json",
+      "call_arguments_sha256": "fa66072c6d7af732065a83d4f878a76a92589c01a05bd9fcf289e1d0557db766",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-0f5ebc8e-3585-4fe2-8cc4-a40f9761ead6.png",
+      "generation_record": "artifacts/d095/s004/landscape/generation-v003.json",
+      "generation_record_sha256": "a0479a9d8ec2ab0aab08b5e18a8511309224a998cd75cebddb362f26ddf35edc",
+      "references": [
+        {
+          "path": "intake/D095/004.jpg",
+          "sha256": "27456db9acadc425dad8ffd053a381549b522db6d28e331e76460c1e2d68061e"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        }
+      ],
+      "disposition": "selected-producer-pass",
+      "producer_verdict": "pass",
+      "producer_review": "art/reviews/d095-s004-landscape-v003-producer-review-v001.md",
+      "producer_review_sha256": "d8b188671c3f87f5aaee8d6da457209974fbad1198ff7241858ed84d5c0abd40",
+      "reviewed_at_utc": "2026-11-16T08:47:58.986Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "3d1a75d97b0dfd6519739ce86732006dcc572c36111fdc7c1d658dbbf7370c6e"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d095-s005",
+      "version": "v001",
+      "file": "artifacts/d095/s005/landscape/candidate-v001.png",
+      "sha256": "2b624dc5f3f8d21d5341da224da72546322c54f0bc2686eb6e757cf58751130f",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s005/landscape/prompt-v001.md",
+      "prompt_sha256": "d1640a8df351fa9822bc067d235afee2c244c3953a40a934e4289d7ed066d4b5",
+      "call_arguments": "artifacts/d095/s005/landscape/arguments-v001.json",
+      "call_arguments_sha256": "cf5347fcef36e71c0676887eeef5ea5e9c3370b927e7c3ebed5a4535874226ad",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-cb0c45ec-aba7-4b89-87b9-f46759966ea9.png",
+      "generation_record": "artifacts/d095/s005/landscape/generation-v001.json",
+      "generation_record_sha256": "a51b5d154f9418a1fe784a46fecc8e07a1f2507cc4447af7e48631d1375c8f17",
+      "references": [
+        {
+          "path": "intake/D095/005.jpg",
+          "sha256": "24a456fba5b95b9b6e4861cd662c0334d2b5379145ec773474253d5dab7aa295"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_review": "art/reviews/d095-s005-landscape-v001-producer-review-v001.md",
+      "producer_review_sha256": "3ac518359078a3b6d8505b972565d6fa6a8a2ae3b6d593497b254a41e4589910",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:19:57Z",
+      "independent_exact_checksum_review": "pending"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d095-s005",
+      "version": "v002",
+      "file": "artifacts/d095/s005/landscape/candidate-v002.png",
+      "sha256": "6ed98c9071a8280b20527da85e4911e4a209f206c31360d3ae71070db4d1b8d8",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s005/landscape/prompt-v002.md",
+      "prompt_sha256": "a0b384678ff2931dc822a579aa6e4c55fff2896703e0f7297ae9a6001fe294dd",
+      "call_arguments": "artifacts/d095/s005/landscape/arguments-v002.json",
+      "call_arguments_sha256": "f081f54b776ffe15d2752ba920e45dbbfe9b9ea4786e540204501e060b530898",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-68e44686-6aa7-40a4-997e-f7488c115afb.png",
+      "generation_record": "artifacts/d095/s005/landscape/generation-v002.json",
+      "generation_record_sha256": "3477bf4232960df27bbebb8edc897581d0b8a5ea3d37941bcb29a70dc48371ff",
+      "references": [
+        {
+          "path": "intake/D095/005.jpg",
+          "sha256": "24a456fba5b95b9b6e4861cd662c0334d2b5379145ec773474253d5dab7aa295"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        }
+      ],
+      "disposition": "selected-producer-needs-fix",
+      "producer_review": "art/reviews/d095-s005-landscape-v002-producer-review-v003.md",
+      "producer_review_sha256": "62521ce0c781294c5709f027d84864bddba15946b5c3f6a7f95127bb1c8d9906",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:16:39Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d095-s006",
+      "version": "v001",
+      "file": "artifacts/d095/s006/landscape/candidate-v001.png",
+      "sha256": "f5673b3151c577a5fdcff6ee953bd8f3cecaffd18f760f6dd03466ba938c9a79",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s006/landscape/prompt-v001.md",
+      "prompt_sha256": "ca5d0cb0227df7575af0c8912ec0069134d6225db3fe62caa74c3e838009dfef",
+      "call_arguments": "artifacts/d095/s006/landscape/arguments-v001.json",
+      "call_arguments_sha256": "6885fe172549f948199fa99024a8d9e43a0283915cf4138f5fd3d96e75fbd35a",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-f4d2ce88-9448-4d23-97ae-51972835e9c0.png",
+      "generation_record": "artifacts/d095/s006/landscape/generation-v001.json",
+      "generation_record_sha256": "4b2e98b833ade2b46945befba884788428d2d53f54445b7f415f2ff1f6d8693f",
+      "references": [
+        {
+          "path": "intake/D095/006.jpg",
+          "sha256": "d678e0b5a6ede3c0819056fe2be12b6c5cea3e3d5a71a0bc7061121d883f47a8"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_review": "art/reviews/d095-s006-landscape-v001-producer-review-v001.md",
+      "producer_review_sha256": "8c0921cc32370f9b40b9d9622b578a7c8a9d1494a881f69eb449aee43a33a9eb",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:20:17Z",
+      "independent_exact_checksum_review": "pending"
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d095-s006",
+      "version": "v002",
+      "file": "artifacts/d095/s006/landscape/candidate-v002.png",
+      "sha256": "3d838fe82178146262a66e3ae6e4cfc3b11c2ee68280f72a323e88bf556abbe2",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s006/landscape/prompt-v002.md",
+      "prompt_sha256": "ac737d4c5245f8993e0028b930fc257544076db10d52db0e1585e70cadd253ed",
+      "call_arguments": "artifacts/d095/s006/landscape/arguments-v002.json",
+      "call_arguments_sha256": "59aa60e791095c622675ef702614593503e7b63399a0941c4f8794244daaa527",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-536e1e50-7cf3-45d3-b22a-81ca3c899fb5.png",
+      "generation_record": "artifacts/d095/s006/landscape/generation-v002.json",
+      "generation_record_sha256": "e7e5a46b9ac307758a8385a7a243afca92f7d5a6e5167518aba2d96c54799b61",
+      "references": [
+        {
+          "path": "intake/D095/006.jpg",
+          "sha256": "d678e0b5a6ede3c0819056fe2be12b6c5cea3e3d5a71a0bc7061121d883f47a8"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-after-producer-review",
+      "producer_review": "art/reviews/d095-s006-landscape-v002-producer-review-v003.md",
+      "producer_review_sha256": "dd5296ed9da6d7270c44c40759881e2bfa716f071d54f88cf925534be91a6c40",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:16:51Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d095-s006",
+      "version": "v003",
+      "file": "artifacts/d095/s006/landscape/candidate-v003.png",
+      "sha256": "6aaed89c127404bacddc6d389e76b6bb24a549b641c02adc1b020f60f2c02885",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s006/landscape/prompt-v003.md",
+      "prompt_sha256": "de552648e0c1edcf169431a302cde437fbbc6812ff4db073771aed736ffe254f",
+      "call_arguments": "artifacts/d095/s006/landscape/arguments-v003-submitted-v001.json",
+      "call_arguments_sha256": "e31359686ca32b0fe624daa257d9ba5bfbf468c649e07fcde3dd1ae94d856dc0",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-3fea6275-038e-4ad9-adb4-6d8aca136d2b.png",
+      "generation_record": "artifacts/d095/s006/landscape/generation-v003.json",
+      "generation_record_sha256": "ca53e4b48f06e34390ea4049ad986632d8b03a5afeb27a5c1754e51793ab5a87",
+      "references": [
+        {
+          "path": "intake/D095/006.jpg",
+          "sha256": "d678e0b5a6ede3c0819056fe2be12b6c5cea3e3d5a71a0bc7061121d883f47a8"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/d095/s004/landscape/candidate-v003.png",
+          "sha256": "cadaabba07183645f745896ffd63bdb735e83e8626ca50e3c100f270e3277f5c"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "selected-producer-needs-fix",
+      "producer_verdict": "needs-fix",
+      "producer_review": "art/reviews/d095-s006-landscape-v003-producer-review-v001.md",
+      "producer_review_sha256": "621b7cb5b26b6ab081490170d4268722d0c8fa0d937c165684ceb008fb06486b",
+      "reviewed_at_utc": "2026-11-16T08:48:01.202Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "3d1a75d97b0dfd6519739ce86732006dcc572c36111fdc7c1d658dbbf7370c6e"
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d095-s007",
+      "version": "v001",
+      "file": "artifacts/d095/s007/landscape/candidate-v001.png",
+      "sha256": "d382aa1dae8fc04492ab8712d0bb650346a04f9a9775b697dc00e365d3bef275",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s007/landscape/prompt-v001.md",
+      "prompt_sha256": "9933a13f3e23007de50a74ce1e8e66faa8ba58f74da636ec484faa3895716a19",
+      "call_arguments": "artifacts/d095/s007/landscape/arguments-v001.json",
+      "call_arguments_sha256": "9439bf228ab54267c650ff077ad0a87f9b50684e5af399bc3d46d7d7bffb0749",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-06d13e93-f260-4421-bf03-f6cecc2670e5.png",
+      "generation_record": "artifacts/d095/s007/landscape/generation-v001.json",
+      "generation_record_sha256": "4bcc8001a1776ea7e346a9b4690d7496ce941ec0114d9ad8ea469a7b4a5a55e5",
+      "references": [
+        {
+          "path": "intake/D095/007.jpg",
+          "sha256": "f1f813f21a94a6063659de9e2f1ab8e50def9b7f618279bd3097b87e88e37443"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_review": "art/reviews/d095-s007-landscape-v001-producer-review-v001.md",
+      "producer_review_sha256": "020b787f6f684a504a4d2c23e2483694baa565265fb81aa93e87cfc1de228325",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:20:41Z",
+      "independent_exact_checksum_review": "pending"
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d095-s007",
+      "version": "v002",
+      "file": "artifacts/d095/s007/landscape/candidate-v002.png",
+      "sha256": "9e847877ce434a82d4d44533bb6f7c84f44de93723fbaff9a863e1d66519a8ec",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s007/landscape/prompt-v002.md",
+      "prompt_sha256": "b83bff071554d005bc5c6f216dc4985a487ea4d3c4fe9544f09614063ba3c7b6",
+      "call_arguments": "artifacts/d095/s007/landscape/arguments-v002.json",
+      "call_arguments_sha256": "287b26d53dea3e14b66fb4e5636650cac2da350fe7169ac0274af9b698030d2c",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-3ed5af3f-28fd-4aaf-81b8-b179fdb2b925.png",
+      "generation_record": "artifacts/d095/s007/landscape/generation-v002.json",
+      "generation_record_sha256": "85d712a08c4a7607a5d840b6421d8e15ccc2c9da7c87c68ca878b6cbe52e1bdb",
+      "references": [
+        {
+          "path": "intake/D095/007.jpg",
+          "sha256": "f1f813f21a94a6063659de9e2f1ab8e50def9b7f618279bd3097b87e88e37443"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-after-producer-review",
+      "producer_review": "art/reviews/d095-s007-landscape-v002-producer-review-v003.md",
+      "producer_review_sha256": "27d1ee708b59c80cd04e78000411ec897ebe4e5ee8f19d23da574cfcd4462077",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:17:03Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d095-s007",
+      "version": "v003",
+      "file": "artifacts/d095/s007/landscape/candidate-v003.png",
+      "sha256": "7a516aaaeaa41d6cc0a1ab4559dc5e0d3854bc69cf73e5d97973169e2030c567",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s007/landscape/prompt-v003.md",
+      "prompt_sha256": "07d6578099d788d68611ebc6450fcf139fd4aee333be364df8dc09f5ea0e9e1a",
+      "call_arguments": "artifacts/d095/s007/landscape/arguments-v003-submitted-v001.json",
+      "call_arguments_sha256": "7a81f3018a608e80cad3324a84e38bfe375e85fc2479df7fd3e169d92cfe4298",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-66f27534-bec3-4d76-8e14-c5a3112df7c0.png",
+      "generation_record": "artifacts/d095/s007/landscape/generation-v003.json",
+      "generation_record_sha256": "873307d880d53ff41bd5509c5fa592a0223281e071d67848ca8b0f8bf78b6563",
+      "references": [
+        {
+          "path": "intake/D095/007.jpg",
+          "sha256": "f1f813f21a94a6063659de9e2f1ab8e50def9b7f618279bd3097b87e88e37443"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/d095/s004/landscape/candidate-v003.png",
+          "sha256": "cadaabba07183645f745896ffd63bdb735e83e8626ca50e3c100f270e3277f5c"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "selected-producer-pass",
+      "producer_verdict": "pass",
+      "producer_review": "art/reviews/d095-s007-landscape-v003-producer-review-v001.md",
+      "producer_review_sha256": "70458a5f2035171f5ad5b95a0b68bc0e25c0edc27cdf089b4121905d272f284a",
+      "reviewed_at_utc": "2026-11-16T08:48:02.310Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "3d1a75d97b0dfd6519739ce86732006dcc572c36111fdc7c1d658dbbf7370c6e"
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d095-s008",
+      "version": "v001",
+      "file": "artifacts/d095/s008/landscape/candidate-v001.png",
+      "sha256": "d01009b9c7104e846e2eab2f3ef0879721f9d8198ec8b71078022a6964912bbe",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s008/landscape/prompt-v001.md",
+      "prompt_sha256": "a91d1f2c37d70cd0d6840c397dc493bbbdb947bc75ee705f852b6508514e10be",
+      "call_arguments": "artifacts/d095/s008/landscape/arguments-v001.json",
+      "call_arguments_sha256": "1fbb6ce96bfd3d76aa0cfe319a5637903e24c773005f8fcf6fa5f418214374b3",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-4192c709-dbea-4575-9482-223edd53d7bc.png",
+      "generation_record": "artifacts/d095/s008/landscape/generation-v001.json",
+      "generation_record_sha256": "2121fd3787a8977499933ff3184084f38f191f84f4a9ff6409e79862b6649465",
+      "references": [
+        {
+          "path": "intake/D095/008.jpg",
+          "sha256": "5dbd6f29740f0ea6dceabcb06fd927130a7ecefbc07c81a58881e1d24702540a"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_review": "art/reviews/d095-s008-landscape-v001-producer-review-v001.md",
+      "producer_review_sha256": "37a7ec1cc0b72ab61c9aab042c0c5bb5aa667b9c6d61a285fc26941e2a75d8c6",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:21:08Z",
+      "independent_exact_checksum_review": "pending"
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d095-s008",
+      "version": "v002",
+      "file": "artifacts/d095/s008/landscape/candidate-v002.png",
+      "sha256": "0fa6b372063b5fa7d7b1e9caab191b76664d1a0deedd7828451757b2ce312141",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s008/landscape/prompt-v002.md",
+      "prompt_sha256": "032bc120831784a26ebf334945a0e874be8236337fa73d58029f358d7ea0f909",
+      "call_arguments": "artifacts/d095/s008/landscape/arguments-v002.json",
+      "call_arguments_sha256": "82011343ed923c7adee31dee868c8a71c8b0e564b0187c67ba291522646f6edf",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-bd7d44d2-172f-408d-8cd4-dbe20fd1d0bd.png",
+      "generation_record": "artifacts/d095/s008/landscape/generation-v002.json",
+      "generation_record_sha256": "cae2113b85dc7bd4b1f831f4df9dd9cd35b103dc37b8adba1e12080673eade3a",
+      "references": [
+        {
+          "path": "intake/D095/008.jpg",
+          "sha256": "5dbd6f29740f0ea6dceabcb06fd927130a7ecefbc07c81a58881e1d24702540a"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-after-producer-review",
+      "producer_review": "art/reviews/d095-s008-landscape-v002-producer-review-v003.md",
+      "producer_review_sha256": "a12ab318a8c0ae81bbecae2c09e727b19a71fa5eef954d518ab20615f621384d",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:17:18Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d095-s008",
+      "version": "v003",
+      "file": "artifacts/d095/s008/landscape/candidate-v003.png",
+      "sha256": "f3c9ca161c5102b165fe4a622ddf4c2dee1230a9fdb6551a63c87d52d4cc6f8c",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s008/landscape/prompt-v003.md",
+      "prompt_sha256": "d7c52b6860195c91a403d2e6a6ff4bfaf2455be76e9aaf8125869f94f22ae949",
+      "call_arguments": "artifacts/d095/s008/landscape/arguments-v003-submitted-v001.json",
+      "call_arguments_sha256": "d1675b2ce7a1b95066f544f3815bc4a7f81d14e1d3b24d6128073918ad4189a7",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-0c3f975c-f708-497c-97af-8769636d2def.png",
+      "generation_record": "artifacts/d095/s008/landscape/generation-v003.json",
+      "generation_record_sha256": "3af5dc345ff441e545c3cb9db6fc6babf4394523d7c07db293914efa14025cc9",
+      "references": [
+        {
+          "path": "intake/D095/008.jpg",
+          "sha256": "5dbd6f29740f0ea6dceabcb06fd927130a7ecefbc07c81a58881e1d24702540a"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_verdict": "needs-fix",
+      "producer_preflight_observation": "Full-frame output inspected; chest mark was small but ambiguous and an enclosing decorative arch remained."
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d095-s008",
+      "version": "v004",
+      "file": "artifacts/d095/s008/landscape/candidate-v004.png",
+      "sha256": "0780450de934b7d7731543e8d9b80e10829a1c5b38d73af34a5097aad0fd9d81",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s008/landscape/prompt-v004.md",
+      "prompt_sha256": "a5e2c30ba1f51d3a9d4c854ddb29d8de3231c635ddb36b9daa4fd77b60d46b9d",
+      "call_arguments": "artifacts/d095/s008/landscape/arguments-v004-submitted-v001.json",
+      "call_arguments_sha256": "3804f490386d6e984f41f7c2c09a7161e094a400b328a0b23c5abf86a9ec5dc5",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-1c71dea6-96a7-4222-82a7-64963a3821ec.png",
+      "generation_record": "artifacts/d095/s008/landscape/generation-v004.json",
+      "generation_record_sha256": "4ccab2f67e84b982cecb3467a49d0e7e316bf41268473ab4ff8045b16f1d72be",
+      "references": [
+        {
+          "path": "intake/D095/008.jpg",
+          "sha256": "5dbd6f29740f0ea6dceabcb06fd927130a7ecefbc07c81a58881e1d24702540a"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "selected-producer-pass",
+      "producer_verdict": "pass",
+      "producer_review": "art/reviews/d095-s008-landscape-v004-producer-review-v001.md",
+      "producer_review_sha256": "ba154742019bc20cf149269e11b76b29730b0fab229f1830703f26a5b03f15b7",
+      "reviewed_at_utc": "2026-11-16T08:48:03.418Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "3d1a75d97b0dfd6519739ce86732006dcc572c36111fdc7c1d658dbbf7370c6e"
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d095-s009",
+      "version": "v001",
+      "file": "artifacts/d095/s009/landscape/candidate-v001.png",
+      "sha256": "7c0c154ac106ea98c2788350216859b1b8ee79e369be8d6344efabb1ed604f9f",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s009/landscape/prompt-v001.md",
+      "prompt_sha256": "2ce8f9e556a06b5898e9145f9cd5fa1b25c7854bc22fbb8f398d9dac4ce12e2b",
+      "call_arguments": "artifacts/d095/s009/landscape/arguments-v001.json",
+      "call_arguments_sha256": "89f0c0f18153c1d551fefd059690e211277e6ab12e0756873b0316332173ba7d",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-dc503d5f-9fbd-4e2e-912c-1bf4c0cbac25.png",
+      "generation_record": "artifacts/d095/s009/landscape/generation-v001.json",
+      "generation_record_sha256": "438e70f7c7c35281c499473fa2fe9bed78311bf7d0795a1a16b075630e5e3919",
+      "references": [
+        {
+          "path": "intake/D095/009.jpg",
+          "sha256": "1cc08c7e1f51e5726bf4a2f26e2af821431b7b3f1e97e150875f1a95970080cd"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-after-producer-review",
+      "producer_review": "art/reviews/d095-s009-landscape-v001-producer-review-v003.md",
+      "producer_review_sha256": "57ea22b6d1fc37d0812e0e971ddb644ad70f5c0cd3b17857f86b6728e45cf861",
+      "producer_verdict": "uncertain",
+      "reviewed_at_utc": "2026-11-16T07:17:34Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d095-s009",
+      "version": "v002",
+      "file": "artifacts/d095/s009/landscape/candidate-v002.png",
+      "sha256": "de92e7e0338fb49892ac82bc92e3e530020169d13663bf4df341a8d28d2ae8b7",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s009/landscape/prompt-v002.md",
+      "prompt_sha256": "ac4ff074a14f4820f6720db8291090cebb94c081e2cd21caaaa09ee51c873dd3",
+      "call_arguments": "artifacts/d095/s009/landscape/arguments-v002-submitted-v001.json",
+      "call_arguments_sha256": "7a2703027368c464408f44d558ebc086e9ee1439bd0fbbc561a819469929b9aa",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-40fd0e14-1dc1-4d2e-b342-bc4fe5770513.png",
+      "generation_record": "artifacts/d095/s009/landscape/generation-v002.json",
+      "generation_record_sha256": "d9202c61c7f97c39a33527c3696bca220c0cd08630375ae12f7b7870d6cc3ac2",
+      "references": [
+        {
+          "path": "intake/D095/009.jpg",
+          "sha256": "1cc08c7e1f51e5726bf4a2f26e2af821431b7b3f1e97e150875f1a95970080cd"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "selected-producer-pass",
+      "producer_verdict": "pass",
+      "producer_review": "art/reviews/d095-s009-landscape-v002-producer-review-v001.md",
+      "producer_review_sha256": "842ef3bfa02a50a85a8217770dd64e95a004784f9e53688b4b432660fc792d45",
+      "reviewed_at_utc": "2026-11-16T08:48:04.528Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "3d1a75d97b0dfd6519739ce86732006dcc572c36111fdc7c1d658dbbf7370c6e"
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d095-s010",
+      "version": "v001",
+      "file": "artifacts/d095/s010/landscape/candidate-v001.png",
+      "sha256": "d39c497ad890a185fbf58e1d2c1f5516c352b6d1e8071f9948b53a7aaf25dcbd",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s010/landscape/prompt-v001.md",
+      "prompt_sha256": "47eda02e67c8a6a4870437b09cdf0228ef2444c80d75a154942e35bdda238491",
+      "call_arguments": "artifacts/d095/s010/landscape/arguments-v001.json",
+      "call_arguments_sha256": "c62c8c56c84b5317f4189204fab8b4cd823bcfebe4534cf9acdd96ed88e7700b",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-7a0319f7-a956-44ae-8489-4b1cdd3b87c3.png",
+      "generation_record": "artifacts/d095/s010/landscape/generation-v001.json",
+      "generation_record_sha256": "4d8e4a06bfa6ff79353f410abc8e05ac07878be28e4669ee0531d9398fe10432",
+      "references": [
+        {
+          "path": "intake/D095/010.jpg",
+          "sha256": "86ea8cd22e7d39544e75376e3cf2eef0ea333687b8d0f73e6a7a8ed0dcc19562"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-needs-fix",
+      "producer_review": "art/reviews/d095-s010-landscape-v001-producer-review-v001.md",
+      "producer_review_sha256": "c2151b29bf3dea222f7e22a2f20eea4795e2ec113d24c14423d63a6d7cfb79f4",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:21:25Z",
+      "independent_exact_checksum_review": "pending"
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d095-s010",
+      "version": "v002",
+      "file": "artifacts/d095/s010/landscape/candidate-v002.png",
+      "sha256": "65f6a9730afd6f02d27e0b09c50bede1ceed43ad94420ace24bfb44fa21a804d",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s010/landscape/prompt-v002.md",
+      "prompt_sha256": "600631d1834195faf94da5b1d768eb2dbc2caf7b54f70f119d4e69fde34f4758",
+      "call_arguments": "artifacts/d095/s010/landscape/arguments-v002.json",
+      "call_arguments_sha256": "2e6ed0ea5afc167181baa544398dbe0f50cbc90ec42fb6cab5ebb02aa5cf6d07",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-406ccfc5-7cd3-406f-b279-23f3cdd38efa.png",
+      "generation_record": "artifacts/d095/s010/landscape/generation-v002.json",
+      "generation_record_sha256": "61d398209f5fa9f11d6f27ff8fcb8b0af9f66bda606dc04769a264f26c43cc0f",
+      "references": [
+        {
+          "path": "intake/D095/010.jpg",
+          "sha256": "86ea8cd22e7d39544e75376e3cf2eef0ea333687b8d0f73e6a7a8ed0dcc19562"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        }
+      ],
+      "disposition": "superseded-after-producer-review",
+      "producer_review": "art/reviews/d095-s010-landscape-v002-producer-review-v003.md",
+      "producer_review_sha256": "e64c1fd928f93fc4719c521a5db89e26a2eedfd209c0c4cb836a4089a2bbd110",
+      "producer_verdict": "needs-fix",
+      "reviewed_at_utc": "2026-11-16T07:17:51Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "f14ffae940ad4e297bf598c215acfc92a3c576d2b9ca32751b716cc64e35ccf8"
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d095-s010",
+      "version": "v003",
+      "file": "artifacts/d095/s010/landscape/candidate-v003.png",
+      "sha256": "325766c213228201edb50a564f7e22f5ff7209853b5fab7555243529af0aa0e8",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d095/s010/landscape/prompt-v003.md",
+      "prompt_sha256": "fe3ce19d88f58a8ec6c0e9cd42ea4d3d2c1c0b73077f41c3b042c4649f3102db",
+      "call_arguments": "artifacts/d095/s010/landscape/arguments-v003-submitted-v001.json",
+      "call_arguments_sha256": "7cffb885d25acae2553f8dc96b02fa4c679f891bf53d5024b641e481747f0e07",
+      "native_return_path": "/home/gehariharan/.codex/generated_images/01a1e2fb-6afe-71e1-adfc-d50bae95e883/exec-5300f25a-0a72-478a-8342-97ec3b1613a0.png",
+      "generation_record": "artifacts/d095/s010/landscape/generation-v003.json",
+      "generation_record_sha256": "46cfdc07d35d5a9cdcc204c43bd2ff649645288a81a2c18d847d32e32976ba59",
+      "references": [
+        {
+          "path": "intake/D095/010.jpg",
+          "sha256": "86ea8cd22e7d39544e75376e3cf2eef0ea333687b8d0f73e6a7a8ed0dcc19562"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d095/references/shared/style-d001-s008.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        },
+        {
+          "path": "artifacts/d095/s004/landscape/candidate-v003.png",
+          "sha256": "cadaabba07183645f745896ffd63bdb735e83e8626ca50e3c100f270e3277f5c"
+        }
+      ],
+      "disposition": "selected-producer-needs-fix",
+      "producer_verdict": "needs-fix",
+      "producer_review": "art/reviews/d095-s010-landscape-v003-producer-review-v001.md",
+      "producer_review_sha256": "6ebf4aee129f077384857901910ef22d1216d76d887e9d5c79c0266240650d4d",
+      "reviewed_at_utc": "2026-11-16T08:48:05.636Z",
+      "independent_exact_checksum_review": "pending",
+      "final_plan_sha256": "3d1a75d97b0dfd6519739ce86732006dcc572c36111fdc7c1d658dbbf7370c6e"
+    }
+  ],
+  "candidate_status": {
+    "1": "Brahma face patch median (212,104,37), R-B 175, matches rose-ochre Brahma contract; 3 front-facing heads and 4 arms visible, fourth head not visible from front as specified. Producer review uncertain on small hand/toe digits; independent exact-checksum review pending.",
+    "2": "Single swan, no human or animal extras; producer preflight pass. Independent exact-checksum review pending.",
+    "3": "Krishna face patch median (77,105,113), B-R 36; Uddhava patch (211,120,22), R-B 189. Krishna is slightly below deep-blue target and Uddhava is orange rather than warm medium brown. Independent review pending.",
+    "4": "Bhattathiri face patch median (211,116,24), R-B 187; strongly orange rather than warm medium brown. Independent review pending.",
+    "5": "Bhattathiri face patch median (247,193,124), R-B 123; slightly above the ~120 orange-red limit. Independent review pending.",
+    "6": "Bhattathiri face patch median (244,160,66), R-B 178; orange rather than warm medium brown. Small murti hands/feet inspected in enlarged crop. Independent review pending.",
+    "7": "Bhattathiri face patch median (242,142,56), R-B 186; orange rather than warm medium brown. Both open hands show thumb plus four fingers in enlarged crop. Independent review pending.",
+    "8": "Krishna face patch median (101,117,135), B-R 34, below deep-blue target; a clearly Om-like gold chest glyph remains after the one retry. Independent review pending.",
+    "9": "One deity with two open hands and both feet. Skin-only cheek patch median (118,104,102), B-R -16, below the deep-blue target; this selected candidate needs revision for color continuity. No other visible defect in producer review.",
+    "10": "Bhattathiri face patch median (215,114,29), R-B 186; Krishna (75,87,93), B-R 18, gray-blue rather than deep indigo. Independent review pending."
+  },
+  "skin_samples": "artifacts/d095/skin-samples-v001.json",
+  "skin_samples_sha256": "d195735b8205f9ad0faba86aff7e90df47968468598b39b9db08b641177777bf",
+  "final_plan_sha256": "3d1a75d97b0dfd6519739ce86732006dcc572c36111fdc7c1d658dbbf7370c6e"
+}
