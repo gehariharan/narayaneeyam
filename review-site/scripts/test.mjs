@@ -503,7 +503,7 @@ assert.equal((await feedback(req({...good,daskam:94,sloka:11}),env)).status,400)
 console.log('Passed: D094 has ten caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
 const full98=data.chapters.find(c=>c.id===98);assert.ok(full98);assert.deepEqual(full98.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 const content98=JSON.parse(await fs.readFile(new URL('../../content/daskams/d098.json',import.meta.url)));
-const selected98=JSON.parse(await fs.readFile(new URL('../../art/batches/d098-comparison-v001.json',import.meta.url)));
+const selected98=JSON.parse(await fs.readFile(new URL('../../art/batches/d098-comparison-v002.json',import.meta.url)));
 const provenance98=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
 assert.equal(selected98.rows.length,11);assert.equal(selected98.review_status,'needs-review');assert.ok(full98.reviewNotice.toLowerCase().includes('unapproved'));
 for(const row of full98.rows){

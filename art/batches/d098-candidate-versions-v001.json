@@ -2,7 +2,7 @@
   "schema_version": 1,
   "daskam_id": 98,
   "status": "generated-unapproved",
-  "review_note": "Independent review v004 passed S001–S003, S005–S007, and S009–S011; it directed one repair attempt each for S004 and S008. S004 v007 now has a circular inward flow around Vishnu; S008 v011 brings all of Bhattathiri inside with both feet visible. New producer reports bind to final plan SHA-256 7a44e5a0624bfa2e70ad5331f8e40fb9dc69c2f278f3fc3f96f6ece700819e6d; a complete independent exact-checksum review of all eleven current selections is pending. Disclosed skin readings remain in candidate_status. No candidate is approved.",
+  "review_note": "Independent review v005 passed S001–S003, S005–S008, S010 and S011, with disclosed skin readings on S007, S008 and S010; it directed one new attempt for S004 frame containment and one for S009 scene elements. S004 v008 repairs Brahma’s right-edge bead-hand crop with a safe margin and retains the circular inward gathering. S009 v008 shows three arcs around one Krishna and a suggested dawn/day/dusk cycle; producer review records uncertainty about the central stage and discloses Bhattathiri color and concealed-foot details. A complete independent exact-checksum review of all eleven current selections is pending. No candidate is approved. New producer entries bind to final plan SHA-256 21553c214cae537018306d412b6cc33278d0dabcfa2cc692f8d95f76ef5d6d00.",
   "versions": [
     {
       "stanza": 1,
@@ -3336,7 +3336,7 @@
           "role": "shared character identity"
         }
       ],
-      "selection_status": "selected-producer-pass-independent-review-pending",
+      "selection_status": "unselected-superseded-by-v008",
       "producer_report_path": "art/reviews/d098-s009-landscape-v004-finalplan-producer-reinspection-v005.md",
       "producer_report_sha256": "824773df02ec82ecfc668b7c437cd6aabe6146d0fde8a47fa3f4bdfd63367f5b",
       "producer_status": "pass",
@@ -4331,7 +4331,7 @@
           "role": "generation reference"
         }
       ],
-      "selection_status": "selected-producer-pass-independent-review-pending",
+      "selection_status": "unselected-superseded-by-v008",
       "producer_report_path": "art/reviews/d098-s004-landscape-v007-finalplan-producer-reinspection-v001.md",
       "producer_report_sha256": "95f1287f00793519d8bb3d50abca77516399d136730bd22f1f77e0b371694a45",
       "producer_status": "pass-with-disclosed-deviation",
@@ -4405,6 +4405,126 @@
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
       },
       "disclosed_deviation": "Measured skin-color readings are stated in the final plan candidate_status."
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d098-s004",
+      "orientation": "landscape",
+      "version": "v008",
+      "path": "artifacts/d098/s004/landscape/candidate-v008.png",
+      "sha256": "529dacdd927e854d819e7ba6d99b914268b21b480c532f8af760b2cbec87c2d8",
+      "dimensions_px": "1672x941",
+      "prompt_path": "artifacts/d098/s004/landscape/prompt-submitted-v008.txt",
+      "prompt_sha256": "858daf559e205c332a0a923e6b62066fdf58ecb32a492551fbec8675b158ab80",
+      "arguments_path": "artifacts/d098/s004/landscape/reference-arguments-v008.json",
+      "arguments_sha256": "6871b4754df3cdfa72e740a835b4722b259a80a37e038655b70aa6b0132a6355",
+      "provenance_path": "artifacts/d098/s004/landscape/generation-record-v008.json",
+      "provenance_sha256": "faff7bf447eab0e5b1a31135fedcb7b8b150f106020c0d4dee1f5a27d1de3e53",
+      "references": [
+        {
+          "order": 1,
+          "path": "artifacts/d098/s004/landscape/candidate-v007.png",
+          "sha256": "4930827dba143c3e3ed87e18a212f514a6da251bfbd2f00068793513cc4dcde2",
+          "role": "selected candidate for framing edit"
+        },
+        {
+          "order": 2,
+          "path": "intake/D098/004.jpg",
+          "sha256": "f5c076a67d0457f07bb8b875dd18ff8c3abab0a9b81c9fdb08d5f3ea1aac4f43",
+          "role": "mapped source context"
+        },
+        {
+          "order": 3,
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "series rendering anchor"
+        },
+        {
+          "order": 4,
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "shared character identity"
+        },
+        {
+          "order": 5,
+          "path": "artifacts/characters/brahma/character-sheet-candidate-v003.png",
+          "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+          "role": "shared character identity"
+        }
+      ],
+      "selection_status": "selected-producer-pass-independent-review-pending",
+      "producer_report_path": "art/reviews/d098-s004-landscape-v008-finalplan-producer-reinspection-v001.md",
+      "producer_report_sha256": "890c198959c20f2763dbaeb748bb28c92b6ff1c108455ecc17f3bbb335689d49",
+      "producer_status": "pass-with-disclosed-deviation",
+      "native_return_path": "artifacts/d098/s004/landscape/native-return-v008.png",
+      "native_return_sha256": "529dacdd927e854d819e7ba6d99b914268b21b480c532f8af760b2cbec87c2d8",
+      "contract_hashes": {
+        "art/plans/d098.json": "7a44e5a0624bfa2e70ad5331f8e40fb9dc69c2f278f3fc3f96f6ece700819e6d",
+        "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+        "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
+        "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+      },
+      "disclosed_deviation": "Bhattathiri and Brahma warm-skin patches exceed approximate R−B 120; Bhattathiri’s partially visible toes are not countable."
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d098-s009",
+      "orientation": "landscape",
+      "version": "v008",
+      "path": "artifacts/d098/s009/landscape/candidate-v008.png",
+      "sha256": "ae479cf92057a7ee6016701e4602e51a0db4beb12bf4c5e72170056e96049966",
+      "dimensions_px": "1672x941",
+      "prompt_path": "artifacts/d098/s009/landscape/prompt-submitted-v008.txt",
+      "prompt_sha256": "c4581887858000c23dfb19cbc26395c3fbd55f33aa31f730a2713bc0a36a6da2",
+      "arguments_path": "artifacts/d098/s009/landscape/reference-arguments-v008.json",
+      "arguments_sha256": "24c8b4afdc73bf5de0d2f3dd61f1c7207470683cd899a958bf49c22938d224c9",
+      "provenance_path": "artifacts/d098/s009/landscape/generation-record-v008.json",
+      "provenance_sha256": "231e8c7fe46d4feb6e3cca405b8f33984193055f0d6835c1ab6c2a70ebb73baa",
+      "references": [
+        {
+          "order": 1,
+          "path": "intake/D098/009.jpg",
+          "sha256": "e7557c53ba996a28e137c42dc5dd60b62c54781d4f1553c14c05be701f5dfdc6",
+          "role": "mapped source context"
+        },
+        {
+          "order": 2,
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "series rendering anchor"
+        },
+        {
+          "order": 3,
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "series rendering anchor"
+        },
+        {
+          "order": 4,
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+          "role": "shared character identity"
+        },
+        {
+          "order": 5,
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "shared character identity"
+        }
+      ],
+      "selection_status": "selected-producer-uncertain-independent-review-pending",
+      "producer_report_path": "art/reviews/d098-s009-landscape-v008-finalplan-producer-reinspection-v001.md",
+      "producer_report_sha256": "5da04bb4e50e1e92e7a369e84f97f4e082b5e5063a4274cff7016f7cd52269c7",
+      "producer_status": "uncertain",
+      "native_return_path": "artifacts/d098/s009/landscape/native-return-v008.png",
+      "native_return_sha256": "ae479cf92057a7ee6016701e4602e51a0db4beb12bf4c5e72170056e96049966",
+      "contract_hashes": {
+        "art/plans/d098.json": "7a44e5a0624bfa2e70ad5331f8e40fb9dc69c2f278f3fc3f96f6ece700819e6d",
+        "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+        "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
+        "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+      },
+      "disclosed_deviation": "Producer is uncertain whether the central daylight landscape stage reads clearly; Bhattathiri face R−B=132 exceeds approximate 120, and one foot is hidden by the kneeling pose."
     }
   ]
 }
