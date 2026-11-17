@@ -2,7 +2,7 @@
   "schema_version": 1,
   "daskam_id": 98,
   "status": "generated-unapproved",
-  "review_note": "All native attempts and their prompts, argument files, checksums and reports are preserved. The eleven selected versions have producer reinspection against the final plan; independent exact-checksum review is pending. No candidate is approved.",
+  "review_note": "All eleven selected landscape images are frozen for independent exact-checksum review. Producer reports and generation provenance bind to the final plan SHA-256 69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551. S009 v004 remains selected by instruction but has an unresolved producer needs-fix observation: pale fragment between Krishna’s ankles, with an earlier independent pass recorded. S007 and S010 retain measured disclosed skin-color deviations. No candidate is approved.",
   "versions": [
     {
       "stanza": 1,
@@ -488,7 +488,7 @@
       "arguments_path": "artifacts/d098/s001/landscape/reference-arguments-v010.json",
       "arguments_sha256": "69ed946c84d87c1f5b5e09ea52d8a6eca6d70f20e5840caa896594a7861e5045",
       "provenance_path": "artifacts/d098/s001/landscape/generation-record-v010.json",
-      "provenance_sha256": "1b70b2a662e2c62648e46b795bbd0dc7f433bf2d1fadbba0a39d0729f7be2fa6",
+      "provenance_sha256": "1e91b0c2bb68e21ee60a165dfbf319cc7e746fd789861559e87db3f76f34cfa8",
       "references": [
         {
           "order": 1,
@@ -516,20 +516,22 @@
         }
       ],
       "selection_status": "selected-producer-pass-independent-review-pending",
-      "producer_report_path": "art/reviews/d098-s001-landscape-v010-finalplan-producer-reinspection-v002.md",
-      "producer_report_sha256": "084c495ca1f1d859658ecff38724fcbe9d4c8ca0ef01adc7df733e5006b2ba21",
+      "producer_report_path": "art/reviews/d098-s001-landscape-v010-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "ef18775f223f5f9a9024d293b37886360fa39ea5467aec6a2eee66139702c6c9",
       "producer_status": "pass",
       "native_return_path": "artifacts/d098/s001/landscape/native-return-v010.png",
       "native_return_sha256": "d4b2ae83896ffc273b5a868fc0395439045c913a4df61d1138b50046b3099c59",
       "contract_hashes": {
         "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
-        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
         "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
         "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
         "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-      }
+      },
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:08Z"
     },
     {
       "stanza": 2,
@@ -805,7 +807,7 @@
       "arguments_path": "artifacts/d098/s002/landscape/reference-arguments-v007.json",
       "arguments_sha256": "01f1a72cde5885e974e45f499af0e8025a02e6d97cc6a0bca0f5149932cce8d3",
       "provenance_path": "artifacts/d098/s002/landscape/generation-record-v007.json",
-      "provenance_sha256": "8759e3cd3197c9c688f9c4bc85e3d5989d2e42c805a75315d2cbc2f24272e242",
+      "provenance_sha256": "42b0dfd2b2cf56829bd5956a48785cb898efca0295e59404254ffa49be78d0eb",
       "references": [
         {
           "order": 1,
@@ -821,20 +823,22 @@
         }
       ],
       "selection_status": "selected-producer-pass-independent-review-pending",
-      "producer_report_path": "art/reviews/d098-s002-landscape-v007-finalplan-producer-reinspection-v002.md",
-      "producer_report_sha256": "26116399dbd7d354ae49f3e07def4579fba45840c1d5da0aa292f02a1a9d94a8",
+      "producer_report_path": "art/reviews/d098-s002-landscape-v007-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "7e3cac3efea14a9ae63ae2fee76db487c2bd363f9dff5cefd70321ad69753b0f",
       "producer_status": "pass",
       "native_return_path": "artifacts/d098/s002/landscape/native-return-v007.png",
       "native_return_sha256": "635640807fe768f66b894c8256540bc46281a9bde42d2ad088130bceff801cb7",
       "contract_hashes": {
         "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
-        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
         "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
         "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
         "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-      }
+      },
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:09Z"
     },
     {
       "stanza": 3,
@@ -1135,6 +1139,58 @@
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
       }
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d098-s003",
+      "orientation": "landscape",
+      "version": "v007",
+      "path": "artifacts/d098/s003/landscape/candidate-v007.png",
+      "sha256": "383f4be6080a478ebf3db6bec8cd43d597df8d4e0a8329c7e1acf90a14306547",
+      "dimensions_px": "1672x941",
+      "prompt_path": "artifacts/d098/s003/landscape/prompt-submitted-v007.txt",
+      "prompt_sha256": "26fa42ced6e151d891a8a38f1752c2419f037a728158c345084297e4cd7913dd",
+      "arguments_path": "artifacts/d098/s003/landscape/reference-arguments-v007.json",
+      "arguments_sha256": "964f78bc7905aac674aa26e8f3d9dbf0a5d742f47444f3205c3a5527c601fef7",
+      "provenance_path": "artifacts/d098/s003/landscape/generation-record-v007.json",
+      "provenance_sha256": "ae06f9815311909f0532523725139de91c70647cc59bb535d48df348088a8678",
+      "references": [
+        {
+          "order": 1,
+          "path": "intake/D098/003.jpg",
+          "sha256": "84a1aba34524f46eee2918ba3e909efab8eb7322b8ff16122ca4687cd184bfd4",
+          "role": "mapped source context"
+        },
+        {
+          "order": 2,
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "series rendering anchor"
+        },
+        {
+          "order": 3,
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "series rendering anchor"
+        }
+      ],
+      "selection_status": "selected-producer-pass-independent-review-pending",
+      "producer_report_path": "art/reviews/d098-s003-landscape-v007-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "31ac8b726dc0a53c2e725fb454463fa9008edbd5a9a9d3c68ff257c1c54e11b8",
+      "producer_status": "pass",
+      "native_return_path": "artifacts/d098/s003/landscape/native-return-v007.png",
+      "native_return_sha256": "383f4be6080a478ebf3db6bec8cd43d597df8d4e0a8329c7e1acf90a14306547",
+      "contract_hashes": {
+        "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+        "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
+        "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
+        "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
+        "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
+        "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551"
+      },
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:11Z"
     },
     {
       "stanza": 4,
@@ -1459,7 +1515,7 @@
       "arguments_path": "artifacts/d098/s004/landscape/reference-arguments-v006.json",
       "arguments_sha256": "15f6173ca8adffa59aaec270e862f96772ebe83c17a4d7df3f0fc65f7a2ef61b",
       "provenance_path": "artifacts/d098/s004/landscape/generation-record-v006.json",
-      "provenance_sha256": "5b4c69291ea8eab70690c6d27cb8c2f8e6d726343b68cd5347cd72d6281bd708",
+      "provenance_sha256": "5ea70d56ae4be263bb7e0a58521dcf6ae64cbbbb6b35963f57f2b94e3ece6bfc",
       "references": [
         {
           "order": 1,
@@ -1493,20 +1549,22 @@
         }
       ],
       "selection_status": "selected-producer-pass-independent-review-pending",
-      "producer_report_path": "art/reviews/d098-s004-landscape-v006-finalplan-producer-reinspection-v002.md",
-      "producer_report_sha256": "bbd496df72ad0e8df0784fd96e452b3517df4b269f3d90a9ff0a49201b5c2714",
+      "producer_report_path": "art/reviews/d098-s004-landscape-v006-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "9e82a2f8a88d6265326b35402d419fe2b18165ed7f5cdb39012213316160a848",
       "producer_status": "pass",
       "native_return_path": "artifacts/d098/s004/landscape/native-return-v006.png",
       "native_return_sha256": "fefabdabced96dda2946d2d9da80af97b2057b244a973b09e77ce31cb42939b9",
       "contract_hashes": {
         "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
-        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
         "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
         "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
         "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-      }
+      },
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:12Z"
     },
     {
       "stanza": 5,
@@ -1768,7 +1826,7 @@
       "arguments_path": "artifacts/d098/s005/landscape/reference-arguments-v005.json",
       "arguments_sha256": "b7d49a23344ad1535618d54bcfd1f2908497de1caab64202c8110e49dc0a3c73",
       "provenance_path": "artifacts/d098/s005/landscape/generation-record-v005.json",
-      "provenance_sha256": "c9800f3c51383cf8bd9bc689c2d974afeae8e154f1cbdbac121c7920e82bb1b3",
+      "provenance_sha256": "4c7a39cd56fe055a7898a232db9a6ab7fb8ac680ea37f57daeb704bba7e40d03",
       "references": [
         {
           "order": 1,
@@ -1802,20 +1860,22 @@
         }
       ],
       "selection_status": "selected-producer-pass-independent-review-pending",
-      "producer_report_path": "art/reviews/d098-s005-landscape-v005-finalplan-producer-reinspection-v002.md",
-      "producer_report_sha256": "a84da607f66e23df329cb6c9a02d1db86c8a07148f1194333505b8c070357c70",
+      "producer_report_path": "art/reviews/d098-s005-landscape-v005-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "7ab58b8a6c81f65485f9fb79653043841d01faba2346194f5258d50ed7e8acdf",
       "producer_status": "pass",
       "native_return_path": "artifacts/d098/s005/landscape/native-return-v005.png",
       "native_return_sha256": "e379c2f8af83f1f860e042633b72205e875dcb7c7d1b129f5e0db710c5a74977",
       "contract_hashes": {
         "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
-        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
         "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
         "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
         "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-      }
+      },
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:13Z"
     },
     {
       "stanza": 6,
@@ -2054,7 +2114,7 @@
       "arguments_path": "artifacts/d098/s006/landscape/reference-arguments-v005.json",
       "arguments_sha256": "dcb0d1cd85071a569bba1b3c2e4e6d0331641db1243f09181817baaa6840bf58",
       "provenance_path": "artifacts/d098/s006/landscape/generation-record-v005.json",
-      "provenance_sha256": "0ea27d8e9a277d6120419b1868709a65f7f173bc5a938c317ddc92f7c6356bae",
+      "provenance_sha256": "e0d8f45a6a4ba5a243294b92f118dcc145e1c37f64d7912bfaf65156fad5e3d6",
       "references": [
         {
           "order": 1,
@@ -2082,20 +2142,22 @@
         }
       ],
       "selection_status": "selected-producer-pass-independent-review-pending",
-      "producer_report_path": "art/reviews/d098-s006-landscape-v005-finalplan-producer-reinspection-v002.md",
-      "producer_report_sha256": "89c481d51403c8add5e93fa90cc0ee775cec7c290a814684f20c0b91475a538c",
+      "producer_report_path": "art/reviews/d098-s006-landscape-v005-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "7396588138c202835fd4b958009ce79565a7061dba6f37798224bdc0e49afcc4",
       "producer_status": "pass",
       "native_return_path": "artifacts/d098/s006/landscape/native-return-v005.png",
       "native_return_sha256": "66ac93d808d3e0f7318564defac199d7a7c7b12fe7cdc4548c3bc871f6fc9071",
       "contract_hashes": {
         "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
-        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
         "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
         "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
         "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-      }
+      },
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:15Z"
     },
     {
       "stanza": 7,
@@ -2320,6 +2382,109 @@
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
       }
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d098-s007",
+      "orientation": "landscape",
+      "version": "v005",
+      "path": "artifacts/d098/s007/landscape/candidate-v005.png",
+      "sha256": "8a22e8380704aba6f138a90e0c183ca984ce0f1ee276c70f836bfd27e89bbf5f",
+      "dimensions_px": "1672x941",
+      "prompt_path": "artifacts/d098/s007/landscape/prompt-submitted-v005.txt",
+      "prompt_sha256": "eb8f7f8cb7acddc1a8cae6b09374a4e40aa1849afc522cc48b4c4a65ef594281",
+      "arguments_path": "artifacts/d098/s007/landscape/reference-arguments-v005.json",
+      "arguments_sha256": "2e117ac17dcd0b9ab6f686ecec723c137b22226f66c76276158147a7af4236ee",
+      "provenance_path": "artifacts/d098/s007/landscape/generation-record-v005.json",
+      "provenance_sha256": "4a6bf9733e003b38a7f0351ff58f5a2095cdfc1a544cd460c0a3baaeda45a74b",
+      "references": [
+        {
+          "order": 1,
+          "path": "intake/D098/007.jpg",
+          "sha256": "f3311621dd09db4397018bae6c5cfd468b66e368cb7f98968e6574629d27cdea",
+          "role": "mapped source context"
+        },
+        {
+          "order": 2,
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "series rendering anchor"
+        },
+        {
+          "order": 3,
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "series rendering anchor"
+        },
+        {
+          "order": 4,
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+          "role": "shared character identity"
+        }
+      ],
+      "selection_status": "unselected-needs-fix",
+      "producer_report_path": "art/reviews/d098-s007-landscape-v005-producer-review.md",
+      "producer_report_sha256": "095754c0a4a9240d54ff6c3a3103fe58437aff39ba252c2305830408d8de7c2b",
+      "producer_status": "needs-fix",
+      "native_return_path": "artifacts/d098/s007/landscape/native-return-v005.png",
+      "native_return_sha256": "8a22e8380704aba6f138a90e0c183ca984ce0f1ee276c70f836bfd27e89bbf5f",
+      "contract_hashes": {
+        "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+        "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
+        "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
+        "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
+        "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
+        "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c",
+        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034"
+      }
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d098-s007",
+      "orientation": "landscape",
+      "version": "v006",
+      "path": "artifacts/d098/s007/landscape/candidate-v006.png",
+      "sha256": "6f5f31865cae0f15a47226af00ba756748c736dc0147f1d22a00cd9d93e9aa8a",
+      "dimensions_px": "1672x941",
+      "prompt_path": "artifacts/d098/s007/landscape/prompt-submitted-v006.txt",
+      "prompt_sha256": "402da3b780f48d8b43558447bb9c3a5e9acddf1e1dd10946d9d6f3d3c24d0dae",
+      "arguments_path": "artifacts/d098/s007/landscape/reference-arguments-v006.json",
+      "arguments_sha256": "2d96971c8259e2b8f7fff9e8604779b591a387ce08abe81bcd277c233daa1dd8",
+      "provenance_path": "artifacts/d098/s007/landscape/generation-record-v006.json",
+      "provenance_sha256": "573d6010785eff9cef277d0264f98f31aec916ab43b32286b1ed7dcccdd100f7",
+      "references": [
+        {
+          "order": 1,
+          "path": "artifacts/d098/s007/landscape/candidate-v005.png",
+          "sha256": "8a22e8380704aba6f138a90e0c183ca984ce0f1ee276c70f836bfd27e89bbf5f",
+          "role": "previous candidate edit target"
+        },
+        {
+          "order": 2,
+          "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+          "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+          "role": "shared character identity"
+        }
+      ],
+      "selection_status": "selected-producer-pass-independent-review-pending",
+      "producer_report_path": "art/reviews/d098-s007-landscape-v006-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "63642a76ba95bf1de369a29264ac956cead3de95eb353cadcfcbb24dcd9adbfa",
+      "producer_status": "pass",
+      "native_return_path": "artifacts/d098/s007/landscape/native-return-v006.png",
+      "native_return_sha256": "6f5f31865cae0f15a47226af00ba756748c736dc0147f1d22a00cd9d93e9aa8a",
+      "contract_hashes": {
+        "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+        "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
+        "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
+        "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
+        "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
+        "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551"
+      },
+      "disclosed_deviation": "Skin-color measurements miss the requested approximate threshold and are stated verbatim in plan candidate_status.",
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:16Z"
     },
     {
       "stanza": 8,
@@ -2888,7 +3053,7 @@
       "arguments_path": "artifacts/d098/s008/landscape/reference-arguments-v010.json",
       "arguments_sha256": "099d0356bd68f49033c176ccbdb02cee4107387e68d4ab3c5ca3232d4929a0fe",
       "provenance_path": "artifacts/d098/s008/landscape/generation-record-v010.json",
-      "provenance_sha256": "f3cdedd4aba45dec46387b2bd34b95b1b7d109e79652abf7742ae8e19cccb5e4",
+      "provenance_sha256": "823a6c19508a7b208b011d6868194ef909cdd2a0dbc6fe596a5d322e919e318d",
       "references": [
         {
           "order": 1,
@@ -2922,20 +3087,22 @@
         }
       ],
       "selection_status": "selected-producer-pass-independent-review-pending",
-      "producer_report_path": "art/reviews/d098-s008-landscape-v010-finalplan-producer-reinspection-v002.md",
-      "producer_report_sha256": "0c10cceecd85e873611e8b89506737596f52e25c27a1aa356314e8cb1e54daba",
+      "producer_report_path": "art/reviews/d098-s008-landscape-v010-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "cddad57f0299c80d7df5a3f9ee86df35b9f181325571c9706e97fbcffdafef72",
       "producer_status": "pass",
       "native_return_path": "artifacts/d098/s008/landscape/native-return-v010.png",
       "native_return_sha256": "2cf990b3f99b4bbb9bb9fafddd75ac88d51da6e6899a0ac86edd0d8a03616ab4",
       "contract_hashes": {
         "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
-        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
         "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
         "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
         "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-      }
+      },
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:18Z"
     },
     {
       "stanza": 9,
@@ -3136,7 +3303,7 @@
       "arguments_path": "artifacts/d098/s009/landscape/reference-arguments-v004.json",
       "arguments_sha256": "7db36f7ce357508600b7adb3458e996ecd8a2e3b3f7800cb29a0f2473579829c",
       "provenance_path": "artifacts/d098/s009/landscape/generation-record-v004.json",
-      "provenance_sha256": "d691b1991975f451b35e603d5a4c4d18d243da154c09e33aca7bd2ebc547ecd7",
+      "provenance_sha256": "1affac525e3f35ef15fcb8008f7360f37339b48e2bef00c5e69e39f61d191bc3",
       "references": [
         {
           "order": 1,
@@ -3169,21 +3336,23 @@
           "role": "shared character identity"
         }
       ],
-      "selection_status": "selected-producer-pass-independent-review-pending",
-      "producer_report_path": "art/reviews/d098-s009-landscape-v004-finalplan-producer-reinspection-v002.md",
-      "producer_report_sha256": "77502a767546824123dd665e8ea8f9e54b963a46fe4f6f5a807607d7527d1e35",
-      "producer_status": "pass",
+      "selection_status": "selected-producer-needs-fix-independent-review-pending",
+      "producer_report_path": "art/reviews/d098-s009-landscape-v004-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "1b8c2080e126e99806f3d68109d083e52b9a3a6fba9a506e3dbfffd36893776f",
+      "producer_status": "needs-fix",
       "native_return_path": "artifacts/d098/s009/landscape/native-return-v004.png",
       "native_return_sha256": "469bb5fe80ed4a42a41ff4cad8ec421b9bab6e98dbf3cf962787642a812a8b7f",
       "contract_hashes": {
         "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
-        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
         "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
         "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
         "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-      }
+      },
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:19Z"
     },
     {
       "stanza": 9,
@@ -3540,6 +3709,109 @@
       }
     },
     {
+      "stanza": 10,
+      "concept_id": "d098-s010",
+      "orientation": "landscape",
+      "version": "v004",
+      "path": "artifacts/d098/s010/landscape/candidate-v004.png",
+      "sha256": "dbd363d121eb36e277c00bdadeafa7f3b28d17def6779416d6512280ab300314",
+      "dimensions_px": "1672x941",
+      "prompt_path": "artifacts/d098/s010/landscape/prompt-submitted-v004.txt",
+      "prompt_sha256": "8c8556ef95b9d99d2bb271e0b87bc91babc2350c9005fadf224a579e0e7041d9",
+      "arguments_path": "artifacts/d098/s010/landscape/reference-arguments-v004.json",
+      "arguments_sha256": "445bc8f02303af7d47fffea5158b2f268695ba5a35c5dd55e214cd4bab85c99d",
+      "provenance_path": "artifacts/d098/s010/landscape/generation-record-v004.json",
+      "provenance_sha256": "8aefcadc937c14441bc1d41ad985d78f51310f940fa81b3d411af58e069d1c85",
+      "references": [
+        {
+          "order": 1,
+          "path": "intake/D098/010.jpg",
+          "sha256": "7641146883285deb0fcd4912590e34b1123404314e0574dc327f07c499825ae5",
+          "role": "mapped source context"
+        },
+        {
+          "order": 2,
+          "path": "artifacts/d001/s004/landscape/master.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d",
+          "role": "series rendering anchor"
+        },
+        {
+          "order": 3,
+          "path": "artifacts/d001/s008/landscape/master.png",
+          "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995",
+          "role": "series rendering anchor"
+        },
+        {
+          "order": 4,
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "shared character identity"
+        }
+      ],
+      "selection_status": "unselected-needs-fix",
+      "producer_report_path": "art/reviews/d098-s010-landscape-v004-producer-review.md",
+      "producer_report_sha256": "d02e5f1965a81c56b32b71afa3352d708acd95bec711507291aa4e30a0155179",
+      "producer_status": "needs-fix",
+      "native_return_path": "artifacts/d098/s010/landscape/native-return-v004.png",
+      "native_return_sha256": "dbd363d121eb36e277c00bdadeafa7f3b28d17def6779416d6512280ab300314",
+      "contract_hashes": {
+        "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+        "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
+        "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
+        "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
+        "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
+        "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c",
+        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034"
+      }
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d098-s010",
+      "orientation": "landscape",
+      "version": "v005",
+      "path": "artifacts/d098/s010/landscape/candidate-v005.png",
+      "sha256": "b6d9cb99875ce8e9a6f543985b482847cfafa33d3954bc20b0a6b2e8588e06e9",
+      "dimensions_px": "1672x941",
+      "prompt_path": "artifacts/d098/s010/landscape/prompt-submitted-v005.txt",
+      "prompt_sha256": "eedd49369b05f00e2bcd0fc28e0ae5ad96654c5d8cbf92119c350c9ccc69234b",
+      "arguments_path": "artifacts/d098/s010/landscape/reference-arguments-v005.json",
+      "arguments_sha256": "25a429f5270a09045de25dba346ccd443b453e7fa5e7ff5c8079896785db817c",
+      "provenance_path": "artifacts/d098/s010/landscape/generation-record-v005.json",
+      "provenance_sha256": "eb882f39746b2876913be9e76e238c794cba7f8e9e94ccd91eefae391b155837",
+      "references": [
+        {
+          "order": 1,
+          "path": "artifacts/d098/s010/landscape/candidate-v004.png",
+          "sha256": "dbd363d121eb36e277c00bdadeafa7f3b28d17def6779416d6512280ab300314",
+          "role": "previous candidate edit target"
+        },
+        {
+          "order": 2,
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+          "role": "shared character identity"
+        }
+      ],
+      "selection_status": "selected-producer-pass-independent-review-pending",
+      "producer_report_path": "art/reviews/d098-s010-landscape-v005-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "ff14ea82e6441d5a60e7256a849b6618bd097e1a34ec8fbe4c2bc04ebf70fd73",
+      "producer_status": "pass",
+      "native_return_path": "artifacts/d098/s010/landscape/native-return-v005.png",
+      "native_return_sha256": "b6d9cb99875ce8e9a6f543985b482847cfafa33d3954bc20b0a6b2e8588e06e9",
+      "contract_hashes": {
+        "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
+        "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
+        "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
+        "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
+        "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
+        "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551"
+      },
+      "disclosed_deviation": "Skin-color measurements miss the requested approximate threshold and are stated verbatim in plan candidate_status.",
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:20Z"
+    },
+    {
       "stanza": 11,
       "concept_id": "d098-s011",
       "orientation": "landscape",
@@ -3862,7 +4134,7 @@
       "arguments_path": "artifacts/d098/s011/landscape/reference-arguments-v006.json",
       "arguments_sha256": "33c9e1123e6a3330c573d4700f83ec9df16da12cc4502a96b5c3c3f86e6627de",
       "provenance_path": "artifacts/d098/s011/landscape/generation-record-v006.json",
-      "provenance_sha256": "b4632197b5a6bd819fd88cc599331efa567a6ebf2f0ae36a2aa0fc04ed33692a",
+      "provenance_sha256": "fd6fda5e8156d2b1ad5366cd806e7c5fcea407b7f02156b6299d4dfe135a3483",
       "references": [
         {
           "order": 1,
@@ -3896,20 +4168,22 @@
         }
       ],
       "selection_status": "selected-producer-pass-independent-review-pending",
-      "producer_report_path": "art/reviews/d098-s011-landscape-v006-finalplan-producer-reinspection-v002.md",
-      "producer_report_sha256": "c25c7cdb024e0edd3eda2fe3856136d0789c11f75aa8f48f4a8825afbc01b186",
+      "producer_report_path": "art/reviews/d098-s011-landscape-v006-finalplan-producer-reinspection-v004.md",
+      "producer_report_sha256": "438cb2a19e29be7b50732a704c8a917fdee9fe727e762b2945fe2d1c667a375d",
       "producer_status": "pass",
       "native_return_path": "artifacts/d098/s011/landscape/native-return-v006.png",
       "native_return_sha256": "091eadc4904325e576d3a7a5dd22b789f1c7b09ce0d655c5e8a0e31ada8c148f",
       "contract_hashes": {
         "art/bible/series.json": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa",
-        "art/plans/d098.json": "2e5e2891d88daf3dd4ac9754904d8d38494eb52febd8afb0392f60331a81a034",
+        "art/plans/d098.json": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
         "art/bible/characters/bhattathiri/character.json": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535",
         "art/bible/characters/guruvayurappan/character.json": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456",
         "art/bible/characters/brahma/character.json": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389",
         "art/bible/characters/devas/character.json": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138",
         "art/bible/characters/sages/character.json": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-      }
+      },
+      "reviewed_plan_sha256": "69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551",
+      "reviewed_at_utc": "2026-11-17T09:21:22Z"
     }
   ]
 }

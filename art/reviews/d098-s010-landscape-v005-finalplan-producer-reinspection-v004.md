@@ -1,0 +1,9 @@
+# D098 stanza 10 v005 final-plan producer reinspection
+
+Reviewed at 2026-11-17T09:21:20Z against final plan SHA-256 `69544568b775090ff4bfff289fb1bf177bc21b43fe3e05e8487092d7c499b551`, series bible SHA-256 `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`, Guruvayurappan contract SHA-256 `84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456`, sages contract SHA-256 `4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c`, and exact candidate `artifacts/d098/s010/landscape/candidate-v005.png` SHA-256 `b6d9cb99875ce8e9a6f543985b482847cfafa33d3954bc20b0a6b2e8588e06e9`. Viewed the native full image and enlarged Krishna, sage, lap-hand and dhoti-foot details against mapped photo `intake/D098/010.jpg` and caption #10.
+
+One serene Krishna has one intact head and two attached arms; three distinct sages each have one head and two connected arms. No duplicate/fused body or malformed face is visible. Krishna's lap hands remain connected and proportionate. The yellow dhoti now covers the exposed toes naturally; no uncertain toe anatomy remains visible. Clothing, ornaments and face identities remain consistent with the shared contracts. Foliage and floor meet the image edges without a separate perimeter border. No readable text, signature or watermark is visible.
+
+Measured color deviations remain. Krishna's 30×30 face patch at (975,215) is median RGB (65,72,104), B-R=39, and torso patch at (975,390) is (67,69,98), B-R=31, compared with the deep-blue target of at least 40. Sage face patches at (150,350), (420,430) and (1470,430) are (160,89,24), (104,51,17) and (198,96,16), R-B=136, 87 and 182; these readings are recorded as the disclosed skin-color deviation in the final plan.
+
+**Producer verdict: pass with the disclosed skin-color deviations.** This is an exact-checksum producer reinspection, not an independent review or art approval.
