@@ -503,7 +503,7 @@ assert.equal((await feedback(req({...good,daskam:94,sloka:11}),env)).status,400)
 console.log('Passed: D094 has ten caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
 const full98=data.chapters.find(c=>c.id===98);assert.ok(full98);assert.deepEqual(full98.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 const content98=JSON.parse(await fs.readFile(new URL('../../content/daskams/d098.json',import.meta.url)));
-const selected98=JSON.parse(await fs.readFile(new URL('../../art/batches/d098-comparison-v002.json',import.meta.url)));
+const selected98=JSON.parse(await fs.readFile(new URL('../../art/batches/d098-comparison-v004.json',import.meta.url)));
 const provenance98=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
 assert.equal(selected98.rows.length,11);assert.equal(selected98.review_status,'needs-review');assert.ok(full98.reviewNotice.toLowerCase().includes('unapproved'));
 for(const row of full98.rows){
@@ -516,7 +516,7 @@ for(const row of full98.rows){
  assert.ok(row.images.find(i=>i.role==='matte').inspectionLabel.includes('not art approval'));
 }
 assert.equal((await feedback(req({...good,daskam:98,sloka:11}),env)).status,201);assert.equal((await feedback(req({...good,daskam:98,sloka:12}),env)).status,400);
-console.log('Passed: D098 has eleven caption-mapped, exact-hash reference/candidate pairs with producer inspections, unapproved selections and stanza-bounded feedback.');
+console.log('Passed: D098 has eleven caption-mapped, exact-hash reference/candidate pairs with independent inspections, unapproved selections and stanza-bounded feedback.');
 
 const full63=data.chapters.find(c=>c.id===63);assert.ok(full63);assert.deepEqual(full63.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content63=JSON.parse(await fs.readFile(new URL('../../content/daskams/d063.json',import.meta.url)));
