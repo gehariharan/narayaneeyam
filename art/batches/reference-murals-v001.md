@@ -42,6 +42,6 @@ Existing D001 approved landscapes remain in place. The D002 S001 pilot remains a
 | D095 | 14 | 10 | 4 | Needed |
 | D096 | 10 | 10 | 0 | Needed |
 | D097 | 14 | 0 | 14 | Needed |
-| D098 | 17 | 11 | 6 | Needed |
+| D098 | 17 | 11 | 6 | Present |
 | D099 | 14 | 10 | 4 | Needed |
 | D100 | 15 | 11 | 4 | Needed |
