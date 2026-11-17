@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "daskam_id": 94,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-16",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-94-in-sanskrit/",
+      "retrieval_note": "Ten numbered Devanagari stanzas 94-1 through 94-10 and the chapter completion marker transcribed stanza-by-stanza from publisher page; publisher spelling and stanza line breaks retained."
+    },
+    {
+      "role": "romanization",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-94-in-english/",
+      "retrieval_note": "Ten numbered IAST stanzas 94-1 through 94-10 transcribed from publisher page; publisher spelling and line-break hyphenation retained."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired; translation_en left empty; none invented or substituted."
+    },
+    {
+      "role": "commentary",
+      "path": "intake/D094/photo-captions.txt",
+      "sha256": "8b040f7e5f008a9d3b3d826c93b05c5810f25cadf043ea0930de8a4cc970aacb",
+      "status": "user-supplied photo captions copied verbatim into commentary fields; not treated as translation."
+    }
+  ],
+  "intake_manifest": "content/sources/d094/reference-map.json",
+  "raw_post_metadata": "intake/D094/post.json",
+  "note": "The readiness record maps caption labels 1–10 to canonical stanzas 1–10. Images 011–014 are uncaptioned extras, retained as raw intake and unmapped. Editorial review of Sanskrit, IAST, commentary and scene interpretation is still required.",
+  "visual_references": [
+    {
+      "role": "rendering-style",
+      "path": "artifacts/d001/s004/landscape/master.png",
+      "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+    },
+    {
+      "role": "rendering-style",
+      "path": "artifacts/d001/s008/landscape/master.png",
+      "sha256": "9ec5a6aee85086fbb4ea45c555b1a8c33fbb1624306cc6e77a2b48969043e995"
+    },
+    {
+      "role": "krishna-youth-identity-only",
+      "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+      "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068",
+      "status": "primary identity cue only; not an approved art master"
+    },
+    {
+      "role": "krishna-youth-identity-only",
+      "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png",
+      "sha256": "e39a40b594b26291fdff2638ebb70c4cb08a330573c0a20c9e775f48cd66c96f",
+      "status": "primary identity cue only; not an approved art master"
+    },
+    {
+      "role": "bhattathiri-identity-only",
+      "path": "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+      "sha256": "ebe4aedd0283cffa987dffb1494ec95da551ffa5ccd951e7f3730504f15ee7c3",
+      "status": "shared older identity cue, not an approved art master"
+    },
+    {
+      "role": "brahma-identity-only",
+      "path": "artifacts/characters/brahma/character-sheet-candidate-v003.png",
+      "sha256": "8c320e04717f0552b6f223413b9c277a72c6543c63ff0525e0eef63815d93b3e",
+      "status": "approved character identity reference, not a D094 artwork approval"
+    },
+    {
+      "role": "guruvayurappan-identity-only",
+      "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+      "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b",
+      "status": "approved character identity reference; D094 pose and arm count remain stanza-specific"
+    }
+  ]
+}
