@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "daskam_id": 95,
+  "slug": "d095",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "guruvayurappan",
+    "recurring_characters": [
+      "guruvayurappan",
+      "bhattathiri"
+    ],
+    "locations": [
+      "cosmic lotus field",
+      "quiet grove",
+      "devotional landscape and stream",
+      "meditation setting"
+    ],
+    "narrative_arc": "The chapter moves from the cosmic source and the guṇas through bhakti, contentment and devotional purification into Bhattathiri’s meditation on Bhagavan’s form, single-pointed focus and final prayer.",
+    "deity_contract": "Where Bhagavan appears, use one deep-blue, two-armed figure from the shared Guruvayurappan contract unless a stanza explicitly specifies the distinct Hamsa swan avatar. Maintain clear attached arms, hands, legs and feet; no duplicate deity.",
+    "bhattathiri_contract": "When shown, use the shared older clean-shaven Bhattathiri contract exactly: lined face, sacred-ash marks, small dark hair tuft, warm medium-brown skin, cream Kerala dhoti, sacred thread and modest prayer beads.",
+    "brahma_contract": "D095 S001 alone uses the shared Brahma character sheet, exactly four heads and four arms, as the lotus-seated Hiranyagarbha form; all additional arms and heads are intentional and must match that contract.",
+    "rendering_references": [
+      "artifacts/d095/references/shared/style-d001-s004.png",
+      "artifacts/d095/references/shared/style-d001-s008.png"
+    ],
+    "palette_arc": "Flat matte mineral fields of warm cream, ochre, deep maroon, muted olive and deep indigo-blue. No gloss, metallic reflections, separate outer border, cinematic beams or text.",
+    "notes": "The ten captioned source photos map one-to-one to canonical stanzas. The four uncaptioned photos remain unmapped. Supplied caption text remains verbatim commentary, not an English translation; editorial review is pending."
+  },
+  "source": {
+    "sanskrit": "https://stotranidhi.com/hi/narayaneeyam-dasakam-95-in-sanskrit/",
+    "romanization": "https://stotranidhi.com/en/narayaneeyam-dasakam-95-in-english/",
+    "caption_file": "intake/D095/photo-captions.txt"
+  },
+  "reference_map": "content/sources/d095/reference-map.json",
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d095-s001",
+      "characters": [
+        "brahma"
+      ],
+      "reference_paths": [
+        "intake/D095/001.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png",
+        "artifacts/characters/brahma/character-sheet-candidate-v003.png"
+      ],
+      "scene_brief": {
+        "mode": "Hiranyagarbha and the cosmic field",
+        "must_show": [
+          "A lotus-seated, four-faced Brahma as Hiranyagarbha within a wide cosmic field; use the shared Brahma character contract exactly: four heads, four arms, no more or fewer.",
+          "Convey undivided life becoming manifold with small distinct living forms nested in a broad warm-cream and ochre cosmic field, without depicting repeated Brahmas.",
+          "Show the three guṇas as quiet mineral color zones dissolving toward devotional sattva; no words or letter-like marks."
+        ],
+        "composition": "A single centered lotus-seated creator in shallow mural space, surrounded by wide concentric cosmic forms; keep all four arms and lotus inside safe margins.",
+        "tone": "Cosmic wonder and emergence",
+        "avoid": [
+          "No extra faces or arms, no readable text, no glossy gold, no photorealistic rays or beams.",
+          "No additional human figures, sages or devotional onlookers; Brahma is the only person in the scene.",
+          "No writing, glyphs or decorative symbols on the closed palm-leaf bundle; only plain natural page-edge bands may show."
+        ]
+      },
+      "alt": "A single centered lotus-seated creator in shallow mural space, surrounded by wide concentric cosmic forms; keep all four arms and lotus inside safe margins.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v007, 1672x941. Closed plain palm-leaf bundle with natural page-edge bands; no writing-like marks. Three visible faces (rear-facing fourth head hidden) and four attached arms. Book grip shows thumb plus four fingers, thumb partly overlaps bundle; lotus, pot and mala grips obscure digits, so not all hand counts are certain. One foot shows 5 toes; the other is dhoti-covered. DISCLOSED DEVIATION: cheek patch at (800,220) RGB (212,119,57), R-B 155; torso at (800,400) RGB (207,115,57), R-B 150, reading orange against rose-ochre Brahma contract. No additional people, text or rays. Producer verdict uncertain; fresh Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v007",
+          "candidate_path": "artifacts/d095/s001/landscape/candidate-v007.png",
+          "candidate_sha256": "d09800fe683edb9b72c932cc34d1d16c8af45b73de904e2c9883f87c137f8afc",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s001/landscape/prompt-v007-submitted-v001.md",
+          "prompt_sha256": "1b69505644d69ccb7fbb2fa6dac303db386ef6019ebb865b3891d55d4b55a19d",
+          "arguments_path": "artifacts/d095/s001/landscape/arguments-v007-submitted-v001.json",
+          "arguments_sha256": "7b34c942e3db736860eb8dcbe6221d37cd80cc0b0f9b7579e8fe8f37c045d0ae"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d095-s002",
+      "characters": [
+        "hamsa-form-bhagavan"
+      ],
+      "reference_paths": [
+        "intake/D095/002.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png"
+      ],
+      "scene_brief": {
+        "mode": "Hamsa teaching on the guṇas",
+        "must_show": [
+          "One natural white divine swan, Bhagavan in Hamsa form, quietly teaching through presence.",
+          "A few small worldly objects recede into subdued dark-maroon and olive fields, opening toward a calm devotional space in warm cream.",
+          "The swan remains a real swan with one head, one beak, two wings, two legs and webbed feet; no human figure or face."
+        ],
+        "composition": "Set one white swan above a broad, quiet landscape; connect the darker tangle at one side to a spacious clear path without a split-panel border.",
+        "tone": "Clarity after inner struggle",
+        "avoid": [
+          "No readable labels, duplicate swans, anthropomorphic body, extra wings or limbs, beams, gloss or photorealism.",
+          "No human figures, devotees, sages or other animals; the single Hamsa swan is the only living subject."
+        ]
+      },
+      "alt": "Set one white swan above a broad, quiet landscape; connect the darker tangle at one side to a spacious clear path without a split-panel border.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v002, 1672x941. Single natural swan with one head, paired wings and connected legs; no extra person or animal. Independent exact-checksum review passed on this exact unchanged candidate; full review request v006 pending. Art remains unapproved. Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d095/s002/landscape/candidate-v002.png",
+          "candidate_sha256": "6654bd3c9dca283ba58f73e91f7c960ded67fabf4d54c10c0f4d02159962f4d1",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s002/landscape/prompt-v002.md",
+          "prompt_sha256": "e5022d02e1488d4249b9f9c3545d1b24494cdfd861135375718eff42b7762411",
+          "arguments_path": "artifacts/d095/s002/landscape/arguments-v002.json",
+          "arguments_sha256": "49809216c0bda33e96f24a9742a2c4b7cdfad85e4f8a2f97f1591efcf6844e64"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d095-s003",
+      "characters": [
+        "guruvayurappan",
+        "uddhava"
+      ],
+      "reference_paths": [
+        "intake/D095/003.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "Krishna teaches Uddhava the way of bhakti",
+        "must_show": [
+          "One serene blue Bhagavan speaks with his adult friend Uddhava in a quiet grove.",
+          "Uddhava listens attentively with joined hands; both are distinct, naturally proportioned figures.",
+          "Small worldly pursuits remain distant and restrained; the shared devotional focus is visually central, with no writing."
+        ],
+        "composition": "A calm two-figure landscape: Bhagavan seated at left, Uddhava listening at right, open space and muted foliage around them.",
+        "tone": "Warm friendship and instruction",
+        "avoid": [
+          "No extra arms, cloned people, speech bubbles, readable text, copied glossy staging or photorealism.",
+          "No background people, villagers, cattle herders, sages, buildings, crowds or extra figures; only Krishna and Uddhava are present."
+        ]
+      },
+      "alt": "A calm two-figure landscape: Bhagavan seated at left, Uddhava listening at right, open space and muted foliage around them.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v006, 1672x941. Krishna’s feather crown is fully inside frame with space above. Both open hands show one thumb plus four fingers and are deep blue: left palm RGB (82,101,126), B-R 44; right palm (81,101,123), B-R 42; cheek (83,102,126), B-R 43. Uddhava joined hands show four fingertips per side; overlapping thumbs cannot be separated. One five-toe foot is visible on each figure; other feet are pose-hidden. Basket, balance scale and folded closed unmarked ledger remain distant. DISCLOSED DEVIATION: Enlarged 16x16 skin-only crop at (1190,350) reads saturated orange against the warm medium-brown contract. Producer-measured crop mean RGB (220.137,124.531,42.152), R-B 177.985; independent reviewers measured RGB (220,125,42), R-B 178 at the same coordinate. The readings agree; the color continuity concern is disclosed for the final review, with no further generation. Krishna forehead remains bare; no extra people, text or rays. Producer verdict uncertain; prior independent review marked the orange tone needs-fix; Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d095/s003/landscape/candidate-v006.png",
+          "candidate_sha256": "8f93ec0a444922c924eeaa984dff6aa7b62b61c71eac4b16697564e77e04b88d",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s003/landscape/prompt-v006-submitted-v001.md",
+          "prompt_sha256": "ddf1d31384cf718d4b3b1dece8a722dec5e6a816d8eeb230503bb3a05f6c36af",
+          "arguments_path": "artifacts/d095/s003/landscape/arguments-v006-submitted-v001.json",
+          "arguments_sha256": "a0622343f149f7f349d9c8bd1a4eb59f1fea43bc8b40781c869037de12fde424"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d095-s004",
+      "characters": [
+        "bhattathiri"
+      ],
+      "reference_paths": [
+        "intake/D095/004.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png"
+      ],
+      "scene_brief": {
+        "mode": "contentment in bhakti",
+        "must_show": [
+          "Bhattathiri, the older clean-shaven devotee-poet, moves peacefully through an open landscape with a satisfied expression.",
+          "A small aquatic creature moves naturally through clear water as the caption’s image of finding water everywhere; keep it secondary.",
+          "Keep the scene humble and complete; do not show heavenly palaces, powers, or supernatural rewards as desired goals."
+        ],
+        "composition": "A full figure of Bhattathiri walking beside a quiet stream, his hands and feet naturally attached and visible, with the water-creature small near the bank.",
+        "tone": "Quiet ease and contentment",
+        "avoid": [
+          "No beard or moustache on Bhattathiri, no duplicated figure, no text, glossy skin or dramatic beams."
+        ]
+      },
+      "alt": "A full figure of Bhattathiri walking beside a quiet stream, his hands and feet naturally attached and visible, with the water-creature small near the bank.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v003, 1672x941. Bhattathiri cheek patch RGB (169,101,56), R-B 113, warm brown. Both open hands show thumb plus 4 fingers; both feet show 5 toes in enlarged crops. All extremities are in frame; one fish, no extra people or text. Independent exact-checksum review passed on this exact unchanged candidate; full review request v006 pending. Art remains unapproved. Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d095/s004/landscape/candidate-v003.png",
+          "candidate_sha256": "cadaabba07183645f745896ffd63bdb735e83e8626ca50e3c100f270e3277f5c",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s004/landscape/prompt-v003.md",
+          "prompt_sha256": "54b05827311898b662f4e598b4541428140804bbb42fac624e3cc35d9e323ff4",
+          "arguments_path": "artifacts/d095/s004/landscape/arguments-v003-submitted-v001.json",
+          "arguments_sha256": "fa66072c6d7af732065a83d4f878a76a92589c01a05bd9fcf289e1d0557db766"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d095-s005",
+      "characters": [
+        "bhattathiri"
+      ],
+      "reference_paths": [
+        "intake/D095/005.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png"
+      ],
+      "scene_brief": {
+        "mode": "devotion quiets the senses",
+        "must_show": [
+          "Bhattathiri sits in composed devotion as a few sensory temptations recede into stillness.",
+          "A small ritual fire burns safely in a contained clay vessel beside a few separate logs, echoing the verse’s fire simile.",
+          "Bhattathiri remains whole and unharmed; his clothes are exactly the cream Kerala dhoti, sacred thread and modest prayer beads from his contract."
+        ],
+        "composition": "Bhattathiri is the clear focal point; the contained fire sits low in the frame and a few quiet objects remain separate in the background.",
+        "tone": "Steadfast devotion",
+        "avoid": [
+          "No burning person, flames engulfing the frame, snakes, detached body parts, duplicated people, readable text, gloss or beams.",
+          "Bhattathiri is the only person; no Krishna figure, woman, attendant, devotee or other human subject."
+        ]
+      },
+      "alt": "Bhattathiri is the clear focal point; the contained fire sits low in the frame and a few quiet objects remain separate in the background.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v007, 1672x941. One clean-shaven Bhattathiri with ash marks, tuft, cream dhoti, sacred thread and one dark mala; fruit/sweet at left and folded cloth/mirror at right remain separate. A contained clay-vessel flame now has 3 separate logs at lower right. Joined meditation hands are attached, but two overlapping thumbs and four visible fingertip/nail shapes do not permit a reliable count of each finger. Both feet show 5 toes. DISCLOSED DEVIATION: Face and torso read strongly orange against the warm medium-brown contract. Producer-measured 16x16 skin-only crop means: face at (800,220) RGB (235.785,134.672,43.418), R-B 192.367; torso at (800,500) RGB (248.410,145.418,45.191), R-B 203.219. Independent reviewers measured face RGB (236,135,43) and torso RGB (248,145,45) at the same coordinates. The readings agree; the color continuity concern is disclosed for the final review, with no further generation. No other people, text, rays or unsafe fire. Producer verdict uncertain; prior independent review marked the orange tone needs-fix; Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v007",
+          "candidate_path": "artifacts/d095/s005/landscape/candidate-v007.png",
+          "candidate_sha256": "0709636df3e532bb78afa7d7b843c8837eedf45017bb232f677e16496df27781",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s005/landscape/prompt-v007-submitted-v001.md",
+          "prompt_sha256": "eb593789bf2733be42704abbb4681b13c8733f7f4526e3e342324923c7bfb422",
+          "arguments_path": "artifacts/d095/s005/landscape/arguments-v007-submitted-v001.json",
+          "arguments_sha256": "2ee6d5d6c65fb339815e9b2572085feb2c7e1980eb349ffdaa6cfe83a80d3b89"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d095-s006",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D095/006.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "devotional listening purifies the heart",
+        "must_show": [
+          "Bhattathiri listens to devotional stories of Bhagavan with visible emotion: a few distinct tears and gentle goosebumps.",
+          "The older devotee is clean-shaven, dignified and dressed in the exact shared character contract.",
+          "One small, quiet devotional image of Bhagavan may appear as his focus; no cosmic eye or photorealistic close-up."
+        ],
+        "composition": "Medium-wide devotional setting with Bhattathiri’s face, hands and posture visible; one small divine presence is set apart in the background.",
+        "tone": "Tender devotional joy",
+        "avoid": [
+          "No duplicate Bhattathiri or Bhagavan, no visible text, no photorealism, glossy skin or beams.",
+          "No additional devotees or human spectators; show only Bhattathiri and the single small devotional image of Bhagavan."
+        ]
+      },
+      "alt": "Medium-wide devotional setting with Bhattathiri’s face, hands and posture visible; one small divine presence is set apart in the background.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v004, 1672x941. One older clean-shaven Bhattathiri looks toward a small Krishna murti in a shrine niche; tears and raised skin texture are visible. Bhattathiri cheek RGB (149,86,44), R-B 105; torso RGB (182,107,57), R-B 125. DISCLOSED DEVIATION: torso remains 5 above approximate R-B 120 warm-brown boundary; cheek is 15 below. Joined hands show four fingertips per side; thumbs overlap. One visible foot shows 5 toes; other concealed by seated pose. Small two-armed murti has attached limbs, digits too small to count. Independent review passed with disclosed deviation on exact unchanged candidate; full review request v006 pending. Art remains unapproved. Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d095/s006/landscape/candidate-v004.png",
+          "candidate_sha256": "0d50ca4af3efcc0ec632958c2a11f7be816bc6f3d59365f10f196008f913fd62",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s006/landscape/prompt-v004-submitted-v001.md",
+          "prompt_sha256": "d17a1725f69d36ad3e799c8321b2de56fdde5aa2a2188518de56c9e6a5bd3bae",
+          "arguments_path": "artifacts/d095/s006/landscape/arguments-v004-submitted-v001.json",
+          "arguments_sha256": "3d72dd68aeaf37fef4f7f2a27590a8b23c1cfeb147f576936ce6ed9c56481565"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d095-s007",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D095/007.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "Bhattathiri’s meditation practice",
+        "must_show": [
+          "Bhattathiri sits upright in a comfortable cross-legged pose with gaze lowered toward the nose tip.",
+          "Both hands rest on his knees with open palms and exactly five visible fingers on each hand; both folded legs and feet remain coherent and attached.",
+          "A heart-lotus, small sun, moon and contained flame appear as restrained symbols; one delicate blue Bhagavan is envisioned above the lotus, not physically inside Bhattathiri’s body."
+        ],
+        "composition": "Centered, full seated figure in a broad landscape; keep crown, face, both hands, both feet and the symbolic elements inside safe margins.",
+        "tone": "Disciplined inward stillness",
+        "avoid": [
+          "No extra limbs, cropped hands or feet, duplicate Krishna, beams, text, anatomy overlays or glossy lighting.",
+          "No flute or other musical instrument; the verse specifies the meditative blue form, heart-lotus, sun, moon and contained flame."
+        ]
+      },
+      "alt": "Centered, full seated figure in a broad landscape; keep crown, face, both hands, both feet and the symbolic elements inside safe margins.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v003, 1672x941. Bhattathiri cheek RGB (154,108,67), R-B 87, warm brown. Both open hands show thumb plus 4 fingers; both visible feet show 5 toes. Small Krishna meditation figure has attached 2 arms and 2 legs; tiny digits are not countable. No frame-cropped extremities. Independent exact-checksum review passed on this exact unchanged candidate; full review request v006 pending. Art remains unapproved. Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d095/s007/landscape/candidate-v003.png",
+          "candidate_sha256": "7a516aaaeaa41d6cc0a1ab4559dc5e0d3854bc69cf73e5d97973169e2030c567",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s007/landscape/prompt-v003.md",
+          "prompt_sha256": "07d6578099d788d68611ebc6450fcf139fd4aee333be364df8dc09f5ea0e9e1a",
+          "arguments_path": "artifacts/d095/s007/landscape/arguments-v003-submitted-v001.json",
+          "arguments_sha256": "7a81f3018a608e80cad3324a84e38bfe375e85fc2479df7fd3e169d92cfe4298"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d095-s008",
+      "characters": [
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D095/008.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "meditated form of Bhagavan",
+        "must_show": [
+          "One serene youthful Bhagavan with deep indigo-blue skin, dark smooth wavy hair, fish-shaped earrings, gentle smile, Kaustubha jewel, vanamala, broad necklace, Shreevatsa mark, soft abdomen and lotus-like feet.",
+          "Use exactly two arms and two legs; keep hands and feet fully visible and anatomically clear.",
+          "Follow Guruvayurappan continuity: yellow dhoti, muted red-orange shawl, restrained peacock-feather crown, deep blue skin and compassionate youthful face."
+        ],
+        "composition": "A complete, dignified full figure in shallow devotional space, with ornaments, face and both feet inside the frame; do not copy the reference photo’s flute pose.",
+        "tone": "Reverent intimate contemplation",
+        "avoid": [
+          "No flute unless required by this stanza, no extra limbs, no cropped crown or feet, no text, gloss, metallic reflections or beams.",
+          "No text, Om glyph, letterform, inscription, or script-like decoration anywhere, including Bhagavan’s chest; use only the small Shreevatsa mark specified in the shared iconography."
+        ]
+      },
+      "alt": "A complete, dignified full figure in shallow devotional space, with ornaments, face and both feet inside the frame; do not copy the reference photo’s flute pose.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v005, 1672x941. Complete youthful Bhagavan with two attached arms and two legs, no duplicate. Both open hands show one thumb plus 4 fingers; both feet show 5 toes. DISCLOSED MEASUREMENTS: cheek RGB (96,114,152), B-R 56; palms B-R 58 and 59; toe pads B-R 67 and 61. All sampled exposed skin regions are consistent deep blue. Full figure, crown and feet remain in frame; small plain diamond Shreevatsa, no text/glyphs. Producer pass; Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d095/s008/landscape/candidate-v005.png",
+          "candidate_sha256": "c07889119870dc2241bc62664d4c1214a87d8cc8f30e871368d5cd9446f05fdf",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s008/landscape/prompt-v005-submitted-v001.md",
+          "prompt_sha256": "4c33aeb088f3aaeb2995b138f0f2ac267c1e79690f166125be91953b0897ef1f",
+          "arguments_path": "artifacts/d095/s008/landscape/arguments-v005-submitted-v001.json",
+          "arguments_sha256": "23815e9b6063baa949e0ae66d6e2721884e5804fcf89eaf77ef6d5ba90222f43"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d095-s009",
+      "characters": [
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D095/009.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "single-pointed focus on Bhagavan’s smiling face",
+        "must_show": [
+          "Show one complete blue Bhagavan figure, with a simple lotus motif guiding attention toward his gentle smiling face without duplicating the deity.",
+          "Preserve the same two-armed form, yellow dhoti, muted red-orange shawl, restrained peacock-feather crown and deep blue skin as D095 S008.",
+          "Keep the full body present and in one continuous composition; the face is the focal point through placement and expression, not a second portrait."
+        ],
+        "composition": "One full figure anchors the composition; a lotus at the lower foreground leads the eye to the single gentle face.",
+        "tone": "Absorbed and still",
+        "avoid": [
+          "No second face or body, no duplicate deity, no cut-off limbs, no text, glossy skin, metallic gold or beams."
+        ]
+      },
+      "alt": "One full figure anchors the composition; a lotus at the lower foreground leads the eye to the single gentle face.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v003, 1672x941. One complete standing Bhagavan, no duplicate face/body; both open hands show thumb plus 4 fingers, both feet show 5 toes. DISCLOSED MEASUREMENTS: cheek RGB (75,96,130), B-R 55; palms B-R 68 and 63; toe pads B-R 59 and 52. Sampled exposed skin remains deep blue. Foreground lotus leads to the single gentle face; no text, symbols or cropped extremities. Producer pass; Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d095/s009/landscape/candidate-v003.png",
+          "candidate_sha256": "3fcf9fe0e4655a2ae1bfb3792298648736fefe958781c0c2b03e6981a1b7c7de",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s009/landscape/prompt-v003-submitted-v001.md",
+          "prompt_sha256": "493e78e972f1e6e77cf1cc6f0d2e609812ff6f344a64b813adbe75a26a697de3",
+          "arguments_path": "artifacts/d095/s009/landscape/arguments-v003-submitted-v001.json",
+          "arguments_sha256": "58187f39b271e6ff296a00051c1e6e6c97a71f01311f612e79865b04d3ae43d6"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d095-s010",
+      "characters": [
+        "bhattathiri",
+        "guruvayurappan"
+      ],
+      "reference_paths": [
+        "intake/D095/010.jpg",
+        "artifacts/d095/references/shared/style-d001-s004.png",
+        "artifacts/d095/references/shared/style-d001-s008.png",
+        "artifacts/characters/bhattathiri/character-sheet-candidate-v002.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "scene_brief": {
+        "mode": "prayer for refuge over siddhis",
+        "must_show": [
+          "Bhattathiri prays with joined hands to one serene, deep-blue Bhagavan.",
+          "A few small symbolic powers remain distant and unattended; express that they do not distract him, without labels or supernatural effects.",
+          "Bhattathiri remains older, clean-shaven and in cream Kerala dhoti with sacred thread and modest beads; Bhagavan is two-armed in yellow dhoti and muted red-orange shawl."
+        ],
+        "composition": "Quiet closing prayer with Bhattathiri seated or kneeling in the foreground and one complete divine figure facing him; leave open space around both.",
+        "tone": "Humble refuge and trust",
+        "avoid": [
+          "No extra arms, no duplicate people or deity, no text, beams, glossy skin, metallic reflection or cropped feet.",
+          "No human silhouettes or extra figures among the symbolic powers; use abstract inanimate signs only."
+        ]
+      },
+      "alt": "Quiet closing prayer with Bhattathiri seated or kneeling in the foreground and one complete divine figure facing him; leave open space around both.",
+      "reference_guidance": "Use the single mapped D095 photo for scene/cast context only; do not copy its composition, gloss, labels, text, distortions, extra arms or framing. The two D001 references anchor matte painting material and palette only; character sheets anchor their named figure only. Compose a new, complete 16:9 landscape.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as an independent 16:9 mural with clear focal action and safe margins; do not crop another orientation.",
+          "candidate_status": "v007, 1672x941. Exactly two people: clean-shaven kneeling Bhattathiri and one complete youthful Bhagavan. Krishna’s blessing/hanging hands each show thumb plus 4 fingers, both feet 5 toes; Bhattathiri joined hands show 4 fingertips per side with overlapping thumbs, one visible foot 5 toes and other naturally concealed. Krishna palm/toe patches measure B-R 48/48 and 47/52; cheek B-R 52. Three distant inanimate powers remain separate. DISCLOSED DEVIATION: Bhattathiri cheek RGB (197,119,61), R-B 136; upper arm (176,107,58), R-B 118. Producer verdict uncertain; fresh independent review pending; unapproved. Final independent full review request v007 pending; art remains unapproved.",
+          "candidate_version": "v007",
+          "candidate_path": "artifacts/d095/s010/landscape/candidate-v007.png",
+          "candidate_sha256": "2435f9c7e6f26fba20e91d12ccb1f2a569323bc676a504786b6dac13433ec00d",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d095/s010/landscape/prompt-v007-submitted-v001.md",
+          "prompt_sha256": "944a0422f4f0972bc06dd007e10e27302dd3cfa34187549e9e21e24a8038ce5f",
+          "arguments_path": "artifacts/d095/s010/landscape/arguments-v007-submitted-v001.json",
+          "arguments_sha256": "6b58fa4fb65115e986f3dab331e7a135d7b36869c8269aa142a3bd082e5d8708"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "status": "paused",
+          "composition_role": "portrait companion deferred"
+        }
+      }
+    }
+  ],
+  "character_bible_refs": [
+    "art/bible/characters/brahma/character.json",
+    "art/bible/characters/guruvayurappan/character.json",
+    "art/bible/characters/bhattathiri/character.json",
+    "art/bible/characters/hamsa-form-bhagavan/character.json",
+    "art/bible/characters/uddhava/character.json"
+  ]
+}
