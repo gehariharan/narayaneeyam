@@ -358,13 +358,13 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape review candidate",
           "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
-          "candidate_status": "Selected v006; producer pass with disclosed deviation. Bhattathiri hands are separated; each shows a thumb and four fingers, feet covered. DISCLOSED DEVIATION: face patch median RGB (159,82,28), R-B=131; left upper-arm patch (189,103,39), R-B=150; right forearm patch (195,95,3), R-B=192. Independent exact-checksum review pending; artwork unapproved.",
-          "candidate_version": "v006",
-          "candidate_path": "artifacts/d098/s007/landscape/candidate-v006.png",
-          "candidate_sha256": "6f5f31865cae0f15a47226af00ba756748c736dc0147f1d22a00cd9d93e9aa8a",
+          "candidate_status": "Selected v007; producer pass for the repaired waking scene, full-bleed frame and anatomy, with disclosed skin-color deviation. Bhattathiri is visibly roused from a resting pose on the mat beside the plainly coiled rope; the gold ornament/gold piece and clay pot/clay lump pairs remain distinct. The separate arch-and-pilaster frame is absent. Both open hands show one thumb plus four fingers; both feet show five toes and remain inside frame. DISCLOSED DEVIATION: 11×11 skin-only medians: face RGB (130,60,18), R-B=112; left/right upper arms (180,92,30)/(182,92,30), R-B=150/152; left/right forearms (165,82,26)/(187,99,37), R-B=139/150. Final independent review pending; artwork unapproved.",
+          "candidate_version": "v007",
+          "candidate_path": "artifacts/d098/s007/landscape/candidate-v007.png",
+          "candidate_sha256": "08cce73921fc0aeddcbe1e7419c75de0e5ddd206a0cc23ccb1fda937add41e47",
           "native_dimensions": "1672x941",
-          "prompt_path": "artifacts/d098/s007/landscape/prompt-submitted-v006.txt",
-          "provenance_path": "artifacts/d098/s007/landscape/generation-record-v006.json"
+          "prompt_path": "artifacts/d098/s007/landscape/prompt-submitted-v007.txt",
+          "provenance_path": "artifacts/d098/s007/landscape/generation-record-v007.json"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -460,7 +460,7 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape review candidate",
           "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
-          "candidate_status": "Selected v004 for requested independent exact-checksum review; producer needs-fix remains unresolved: a pale fragment between Krishna’s ankles is visually ambiguous as body part versus lotus petal. An earlier independent review passed this same checksum; no second tiebreak has been requested. Candidate remains unapproved pending the final review and any directed repair.",
+          "candidate_status": "Selected v004; independent review v003 passed and identified the pale fragment between Krishna’s ankles as a lotus petal, resolving the earlier producer concern. No second tiebreak was requested. Final independent exact-checksum review pending; artwork unapproved.",
           "candidate_version": "v004",
           "candidate_path": "artifacts/d098/s009/landscape/candidate-v004.png",
           "candidate_sha256": "469bb5fe80ed4a42a41ff4cad8ec421b9bab6e98dbf3cf962787642a812a8b7f",
@@ -508,7 +508,7 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape review candidate",
           "composition_override": "Compose as a complete 16:9 landscape; preserve unclipped heads, hands, feet and key symbols.",
-          "candidate_status": "Selected v005; producer pass with disclosed deviation. Krishna has one head and two attached arms; three sages remain distinct and two-armed. The exposed toes are now naturally covered by the dhoti. DISCLOSED DEVIATION: Krishna face/torso B-R=39/31 (target at least 40); sage face R-B=136, 87 and 182 (approximate target at most 120). Independent exact-checksum review pending; artwork unapproved.",
+          "candidate_status": "Selected v005 as better than the one permitted native edit attempt v006; producer pass with disclosed color deviation. Prior independent review v003 marked the sage color needs-fix. DISCLOSED DEVIATION: 11×11 skin-only medians on v005: Krishna face B-R=40 and torso B-R=31; sage face R-B producer patches 136,87,182 and independent-review patches 114,215,217 (full measured range 87–217; target about 120 or lower). The v006 attempt measured Krishna face/torso B-R=38/33 and sage R-B=105,227,223, so v005 is retained as the better version; no retry. Final independent review pending; artwork unapproved.",
           "candidate_version": "v005",
           "candidate_path": "artifacts/d098/s010/landscape/candidate-v005.png",
           "candidate_sha256": "b6d9cb99875ce8e9a6f543985b482847cfafa33d3954bc20b0a6b2e8588e06e9",
@@ -573,5 +573,5 @@
       }
     }
   ],
-  "selection_status": "Eleven landscape versions are pinned for unapproved reference comparison and independent exact-checksum review. S007 and S010 retain measured disclosed skin-color deviations. S009 v004 remains selected for the requested independent check despite the producer needs-fix observation of a pale fragment between Krishna’s ankles; an earlier independent review passed it. No artwork approval; portraits remain paused."
+  "selection_status": "Final independent review v003 passed S001–S006, S008, S009 and S011. S007 v007 is the single repair for the waking cue and separate frame; its measured skin-color deviation remains disclosed. S010 v006 is the single native-edit attempt; S010 v005 is retained as the better version with full producer and independent sage measurements disclosed. The complete final independent review is pending; no artwork approval; portraits remain paused."
 }
