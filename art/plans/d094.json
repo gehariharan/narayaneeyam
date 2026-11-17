@@ -81,39 +81,43 @@
       "scene_brief": {
         "mode": "traditional matte temple-mural symbolic narrative",
         "must_show": [
-          "Show two crossed wooden aranis: a lower steady teacher’s wood and an upper student’s wood, as the source caption describes; the wood itself forms the teaching metaphor, so no teacher or disciple person is needed.",
-          "A controlled central flame consumes a small, sparse forest of tangled dry branches and dissolves into a clear, calm space beyond it.",
-          "Depict a bright but ordinary fire, never supernatural beams or rays, and no written teaching."
+          "Keep exactly two crossed wooden aranis clearly visible: the lower stick represents the guru’s teaching and the upper stick represents the seeking disciple.",
+          "Add exactly two generic people, not named or recurring characters: an adult guru seated and visibly instructing, and a young adult disciple seated attentively facing the guru in modest traditional dress. Their teaching relationship must read through posture, eye-line and a calm teaching gesture.",
+          "Retain a small ordinary knowledge fire at the arani contact, a sparse tangle of dry branches burning separately, and a quiet clearing beyond as the fire subsides.",
+          "Keep human skin natural muted warm-brown, clearly distinct from the garments and not saturated orange; skin-only cheek and torso patch medians should remain below red-minus-blue 120."
         ],
-        "composition": "A readable metaphor of instruction, knowledge, purification and final stillness.",
-        "tone": "A clear, shallow-space teaching image with warm fire against muted earth colors.",
+        "composition": "A clear guru-disciple teaching relationship sits in the middle ground while the two crossed aranis remain prominent in the foreground, beside a small controlled fire, a sparse burning branch tangle and open stillness.",
+        "tone": "A warm, shallow-space teaching image with calm human figures and a restrained fire against muted earth colors.",
         "avoid": [
           "No readable text, Sanskrit, captions, signatures, logos, watermarks, decorative outer frame, glossy finish, metallic gold, silk sheen, photographic skin, cinematic light beams, rays or shafts.",
           "Use mapped source photo only for story/context; do not copy its text, watermark, pose, framing, glow or glossy finish. Canonical stanza and supplied caption govern the scene.",
           "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes. Keep all visible hands and feet anatomically clear.",
-          "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette."
+          "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette.",
+          "No more than two generic people; no shared recurring-character identity. Keep warm-brown skin below about red-minus-blue 120, never orange."
         ]
       },
       "alt": "The teaching fire clears a tangled forest and settles into quiet knowledge.",
-      "reference_paths": 3,
+      "reference_paths": 5,
       "reference_guidance": [
         [
+          "artifacts/d094/s002/landscape/candidate-v003.png",
           "intake/D094/002.jpg",
+          "artifacts/d094/s005/landscape/candidate-v007.png",
           "artifacts/d001/s004/landscape/master.png",
           "artifacts/d001/s008/landscape/master.png"
         ],
-        "Use intake/D094/002.jpg only for story/context, never copy its text, watermark, unsupported pose, framing or finish. The mapped photo supplies the fire-and-teaching context; this concept intentionally uses objects only and no teacher or disciple figures. The remaining listed references are approved identity/style anchors used in this call; preserve their roles. Recompose as the native 16:9 scene in this plan."
+        "Use the prior D094 S002 candidate only to preserve the fire and landscape composition; use the mapped source photo only for story context; use D094 S005 v007 only as a warm-brown skin-color reference, not for scene or identity; use D001 S004/S008 only as matte rendering anchors. The figures are generic people, not shared characters. Keep the aranis clearly visible and recompose as this native 16:9 scene."
       ],
       "orientations": {
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Keep faces, hands, feet and important symbols fully inside the frame; do not crop another orientation.",
-          "candidate_version": "v001",
-          "candidate_path": "artifacts/d094/s002/landscape/candidate-v001.png",
-          "prompt_path": "artifacts/d094/s002/landscape/prompt-submitted-v001.txt",
-          "reference_arguments_path": "artifacts/d094/s002/landscape/native-call-args-v001.json",
-          "candidate_status": "Two crossed logs meet beneath one controlled flame, separate from the burning branch tangle and calm clearing. No people or readable text appear. Independent exact-checksum review pending; no artwork approval."
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d094/s002/landscape/candidate-v004.png",
+          "prompt_path": "artifacts/d094/s002/landscape/prompt-submitted-v004.txt",
+          "reference_arguments_path": "artifacts/d094/s002/landscape/native-call-args-v004.json",
+          "candidate_status": "Exactly two generic seated figures: the older guru faces and instructs the attentive disciple beside the two crossed aranis; both logs remain distinct beneath a small fire and separate branch tangle. At native and enlarged views each figure has one head, two arms, two hands, two legs and two feet; visible hands show five digits and each of four bare feet shows five toes. Skin-only 11x11 medians: guru cheek (545,217) RGB (150,76,38) R-B 112; torso (410,320) (153,77,39) R-B 114; disciple cheek (1280,215) (152,80,43) R-B 109; torso (1295,315) (152,78,40) R-B 112. No readable text. Producer reviewed; fresh independent exact-checksum review pending; no artwork approval."
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -168,7 +172,7 @@
           "candidate_path": "artifacts/d094/s003/landscape/candidate-v009.png",
           "prompt_path": "artifacts/d094/s003/landscape/prompt-submitted-v009.txt",
           "reference_arguments_path": "artifacts/d094/s003/landscape/native-call-args-v009.json",
-          "candidate_status": "Bhattathiri turns toward Bhagwan with folded hands; the image shows him kneeling with folded lower legs rather than seated as specified. One exposed foot shows five toes; the other is tucked; Bhagwan’s visible open blessing hand shows five digits and both visible feet show five toes. DISCLOSED DEVIATION: warm-brown skin target is R-B below 120. Independent reviewer’s skin-only 11x11 patches, using crop-origin coordinates, measured cheek origin (350,310) RGB (184,104,58) R-B 126 and torso origin (280,480) RGB (187,111,66) R-B 121. My exact-check remeasurement at the same origins matched. Additional skin-only origins: cheek (360,320) RGB (180,101,54) R-B 126; upper arm/torso (250,490) RGB (155,80,42) R-B 113. These two reviewer patches exceed target; no regeneration because repair rounds are exhausted. Producer reinspection pass with disclosed deviations; independent exact-checksum re-review pending; no artwork approval."
+          "candidate_status": "DISCLOSED DEVIATION: Bhattathiri is kneeling with folded lower legs rather than seated as specified. One exposed foot shows five toes; the other is tucked; Bhagwan’s visible open blessing hand shows five digits and both visible feet show five toes. DISCLOSED DEVIATION: warm-brown skin target is R-B below 120. Independent reviewer’s skin-only 11x11 patches, using crop-origin coordinates, measured cheek origin (350,310) RGB (184,104,58) R-B 126 and torso origin (280,480) RGB (187,111,66) R-B 121. My exact-check remeasurement at the same origins matched. Additional skin-only origins: cheek (360,320) RGB (180,101,54) R-B 126; upper arm/torso (250,490) RGB (155,80,42) R-B 113. These two reviewer patches exceed target; no regeneration because repair rounds are exhausted. Producer reinspection pass with disclosed deviations; independent exact-checksum re-review pending; no artwork approval."
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -226,7 +230,7 @@
           "candidate_path": "artifacts/d094/s004/landscape/candidate-v017.png",
           "prompt_path": "artifacts/d094/s004/landscape/prompt-submitted-v018.txt",
           "reference_arguments_path": "artifacts/d094/s004/landscape/native-call-args-v017.json",
-          "candidate_status": "Bhattathiri’s head, eyes and folded prayer hands face Bhagwan at right; both legs and feet are naturally tucked beneath the dhoti and not visible. Brahma has four distinct heads and four attached arms; Bhagwan’s visible open hands each show thumb plus four fingers. DISCLOSED DEVIATION: sampled 11x11 cheek patch RGB medians (194,111,71), (186,107,72), (180,97,60) have R-B 123/114/120; torso patch RGB medians (210,124,82), (201,124,91), (200,115,75) have R-B 128/110/125. The brown-skin target is under about 120; sampled face/torso patch medians are 120/125. Independent exact-checksum review pending; no artwork approval."
+          "candidate_status": "Bhattathiri’s head, eyes and folded prayer hands face Bhagwan at right; both legs and feet are naturally tucked beneath the dhoti and not visible. Brahma has four distinct heads and four attached arms; Bhagwan’s visible open hands each show thumb plus four fingers. DISCLOSED DEVIATION: Bhattathiri’s warm-brown skin remains above the R-B below-about-120 target. Existing 11x11 face/torso patch RGB medians (194,111,71), (186,107,72), (180,97,60) have R-B 123/114/120; torso RGB medians (210,124,82), (201,124,91), (200,115,75) have R-B 128/110/125, with face/torso group medians 120/125. Independent reviewer upper-arm/torso origin (690,660) measured RGB (205,115,71), R-B 134; adjacent origins (670,645) and (680,650) measured R-B 127 and 128. My same-origin remeasurements matched; my additional skin-only cheek origin (645,455) measured RGB (198,114,77), R-B 121. Across recorded skin-only face/torso/upper-arm samples, R-B ranges from 110 to 134; 134 is the highest measurement and exceeds the prior disclosed peak of 128. No regeneration; the full range is disclosed. Producer reinspection pass; fresh independent exact-checksum review pending; no artwork approval."
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -244,7 +248,8 @@
         "must_show": [
           "Make one central tree-body with two branches of the same trunk: a shadowed dream branch with a small resting figure and fruit, and a clear waking branch with open empty space and a quiet lotus-like stillness.",
           "Keep both branches visibly joined to one trunk so the image suggests one underlying reality; no chains, labels or textual dream symbols.",
-          "Avoid depicting liberation as a separate place or a second independent reality."
+          "Avoid depicting liberation as a separate place or a second independent reality.",
+          "Keep the resting figure’s visible human skin warm brown and clearly distinct from the saffron garment; skin-only cheek and torso patches should remain below red-minus-blue 120."
         ],
         "composition": "Philosophical and balanced, expressing nonduality without a literal diagram.",
         "tone": "A single connected tree organizes the scene in broad, simple shapes.",
@@ -252,29 +257,31 @@
           "No readable text, Sanskrit, captions, signatures, logos, watermarks, decorative outer frame, glossy finish, metallic gold, silk sheen, photographic skin, cinematic light beams, rays or shafts.",
           "Use mapped source photo only for story/context; do not copy its text, watermark, pose, framing, glow or glossy finish. Canonical stanza and supplied caption govern the scene.",
           "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes. Keep all visible hands and feet anatomically clear.",
-          "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette."
+          "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette.",
+          "No orange/yellow-orange skin; keep the resting human figure’s skin-only cheek and torso medians below red-minus-blue 120."
         ]
       },
       "alt": "One tree holds both dream and waking; attachment tastes fruit while freedom rests.",
-      "reference_paths": 3,
+      "reference_paths": 4,
       "reference_guidance": [
         [
+          "artifacts/d094/s005/landscape/candidate-v007.png",
           "intake/D094/005.jpg",
-          "artifacts/d094/s005/landscape/candidate-v004.png",
+          "artifacts/d094/s005/landscape/candidate-v005.png",
           "artifacts/d001/s004/landscape/master.png"
         ],
-        "Use intake/D094/005.jpg only for story/context, never copy its text, watermark, unsupported pose, framing or finish. Use the mapped photo only for the stanza’s tree/body metaphor; the resting figure is a generic typological figure, not a named cast member. The remaining listed references are approved identity/style anchors used in this call; preserve their roles. Recompose as the native 16:9 scene in this plan."
+        "Use S005 v007 as the corrected two-arm composition reference; use the mapped photo only for the tree/body stanza metaphor; use S005 v005 only as a warm-brown skin-color reference, never for composition; use D001 S004 only as the matte style anchor. The reclining figure is generic, not a named character. Recompose the same connected dream/waking tree as a native 16:9 scene."
       ],
       "orientations": {
         "landscape": {
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Keep faces, hands, feet and important symbols fully inside the frame; do not crop another orientation.",
-          "candidate_version": "v005",
-          "candidate_path": "artifacts/d094/s005/landscape/candidate-v005.png",
-          "prompt_path": "artifacts/d094/s005/landscape/prompt-submitted-v006.txt",
-          "reference_arguments_path": "artifacts/d094/s005/landscape/native-call-args-v005.json",
-          "candidate_status": "Sleeper face skin-only patch median R-B 108; both visible hands show thumb plus four fingers and both feet show five toes. The sleeper lies beneath one branching tree; no duplicated person or text appears. Independent exact-checksum review pending; no artwork approval."
+          "candidate_version": "v008",
+          "candidate_path": "artifacts/d094/s005/landscape/candidate-v008.png",
+          "prompt_path": "artifacts/d094/s005/landscape/prompt-submitted-v009.txt",
+          "reference_arguments_path": "artifacts/d094/s005/landscape/native-call-args-v008.json",
+          "candidate_status": "One generic reclining sleeper rests on the shadowed branch of the same connected tree; the open waking branch and lotus remain. Native view and enlarged torso/arm crops show exactly two attached arms: one bends to the temple and one rests along the lower torso/tree branch. The image contains no Bhattathiri or deity. One head, two legs, two feet, five toes on each visible foot; the branch-side hand shows a thumb and four separate fingers, while the temple-side thumb is partly occluded against the head. Skin-only 11x11 medians: cheek origin (235,370) RGB (162,92,50), R-B 112; torso/arm origin (320,445) RGB (164,91,50), R-B 114, within the approximate under-120 target. No text or duplicated figure. Producer review pass; independent exact-checksum review pending; no artwork approval."
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -373,11 +380,11 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Keep faces, hands, feet and important symbols fully inside the frame; do not crop another orientation.",
-          "candidate_version": "v002",
-          "candidate_path": "artifacts/d094/s007/landscape/candidate-v002.png",
-          "prompt_path": "artifacts/d094/s007/landscape/prompt-submitted-v002.txt",
-          "reference_arguments_path": "artifacts/d094/s007/landscape/native-call-args-v002.json",
-          "candidate_status": "Open, completely blank palm-leaf manuscript shows a clear two-leaf spread beside a healthy cow; the enlarged lower-body view shows four attached legs ending in four hooves. The empty bowl and silent flower remain. No letters, symbols, people or deity. Independent exact-checksum review pending; no artwork approval."
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d094/s007/landscape/candidate-v004.png",
+          "prompt_path": "artifacts/d094/s007/landscape/prompt-submitted-v004-call-v001.txt",
+          "reference_arguments_path": "artifacts/d094/s007/landscape/native-call-args-v004.json",
+          "candidate_status": "The open two-leaf palm manuscript has smooth, flat, uniformly pale-tan faces with no repeated pattern, writing, glyphs, ruled lines or marks. The enlarged lower-body view shows four attached cow legs and four distinct hooves; the empty bowl and flower remain. Producer-reviewed pass; fresh independent exact-checksum review pending; no artwork approval."
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -433,7 +440,7 @@
           "prompt_path": "artifacts/d094/s008/landscape/prompt-submitted-v008.txt",
           "reference_arguments_path": "artifacts/d094/s008/landscape/reference-arguments-v007.json",
           "candidate_sha256": "6aecde1b08d3c73413ae89e1de93e1e933dd5aa76456cd1994ea5992f2a56135",
-          "candidate_status": "DISCLOSED DEVIATION: Bhattathiri’s warm-brown skin target is R-B below about 120. Independent reviewer’s skin-only 11x11 patch medians: face (380,345) RGB (197,115,63), R-B 134; torso (300,500) RGB (166,90,45), R-B 121; arm (475,540) RGB (201,118,67), R-B 134. My exact remeasurement at the same crop origins matched; the prior producer arm value was R-B 132 at a different sample. Both open hands show thumb plus four fingers; one visible bare foot has five toes and the other is tucked; Bhagwan’s visible hands and feet show the expected digits/toes. Full-bleed scene has one Bhattathiri and one Bhagwan with the required footprints and no frame. Producer reinspection pass with disclosed skin deviation; independent exact-checksum re-review pending; no artwork approval."
+          "candidate_status": "DISCLOSED DEVIATION: Bhattathiri’s warm-brown skin target is R-B below about 120. Independent reviewer’s skin-only 11x11 patch medians: face origin (380,345) RGB (197,115,63), R-B 134; torso (300,500) RGB (166,90,45), R-B 121; arm (475,540) RGB (201,118,67), R-B 134. My same-origin remeasurements matched. My additional skin-only cheek origin (385,350) measured RGB (196,113,61), R-B 135, one above the previous disclosed maximum; overall recorded skin-only range is R-B 121–135. The earlier producer arm value of 132 came from a different origin and is retained as a separate sample. Both open hands show thumb plus four fingers; one visible bare foot has five toes and the other is tucked; Bhagwan’s visible hands and feet show the expected digits/toes. Full-bleed scene has one Bhattathiri and one Bhagwan with the required footprints and no frame. Producer reinspection pass with the full skin range disclosed; fresh independent exact-checksum review pending; no artwork approval."
         },
         "portrait": {
           "aspect_ratio": "4:5",

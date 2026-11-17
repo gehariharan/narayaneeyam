@@ -485,8 +485,8 @@ assert.equal((await feedback(req({...good,daskam:95,sloka:11}),env)).status,400)
 console.log('Passed: D095 has ten caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
 const full94=data.chapters.find(c=>c.id===94);assert.ok(full94);assert.deepEqual(full94.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content94=JSON.parse(await fs.readFile(new URL('../../content/daskams/d094.json',import.meta.url)));
-const selected94=JSON.parse(await fs.readFile(new URL('../../art/batches/d094-comparison-v001.json',import.meta.url)));
-assert.equal(selected94.rows.length,10);assert.equal(selected94.review_status,'needs-review');assert.ok(full94.reviewNotice.toLowerCase().includes('unapproved'));
+const selected94=JSON.parse(await fs.readFile(new URL('../../art/batches/d094-comparison-v005.json',import.meta.url)));
+assert.equal(selected94.rows.length,10);assert.equal(selected94.review_status,'needs-review');assert.ok(full94.reviewNotice.toLowerCase().includes('unapproved'));assert.equal(selected94.rows.find(r=>r.n===7).matte.version,'v004');assert.match(selected94.rows.find(r=>r.n===4).candidate_status,/R-B ranges from 110 to 134/);assert.match(selected94.rows.find(r=>r.n===8).candidate_status,/range is R-B 121–135/);
 for(const row of full94.rows){
  assert.equal(row.commentarySource,`intake/D094/photo-captions.txt#${row.n}`);
  assert.equal(row.commentary,content94.stanzas.find(s=>s.n===row.n).commentary_en);
