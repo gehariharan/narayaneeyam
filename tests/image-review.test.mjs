@@ -630,12 +630,12 @@ test('release union with main retains expected review dataset counts with D039, 
   assert.equal(batches.find(batch => batch.daskam_id === 94)?.rows.length, 10);
   assert.equal(batches.find(batch => batch.daskam_id === 95)?.rows.length, 10);
   assert.equal(batches.find(batch => batch.daskam_id === 99)?.rows.length, 10);
-  assert.equal(batches.length, 44);
+  assert.equal(batches.length, 45);
   assert.equal(batches.find(batch => batch.daskam_id === 98)?.rows.length, 11);
-  assert.equal(rowCount, 453);
-  assert.equal(mediaInputCount, 928);
-  assert.equal(selectedImages(batches).length, 459);
-  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 48, 62, 63, 64, 65, 66, 67, 72, 94, 95, 96, 98, 99]));
+  assert.equal(rowCount, 464);
+  assert.equal(mediaInputCount, 950);
+  assert.equal(selectedImages(batches).length, 470);
+  assert.deepEqual(new Set(batches.map(batch => batch.daskam_id)), new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 48, 62, 63, 64, 65, 66, 67, 72, 94, 95, 96, 98, 99, 100]));
 });
 
 test('art approval accepts a passing exact review recorded for a visible alternate, and any failing exact review blocks', async t => {
