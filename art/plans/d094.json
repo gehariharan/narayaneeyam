@@ -137,9 +137,11 @@
         "mode": "traditional matte temple-mural symbolic narrative",
         "must_show": [
           "Show only two human figures: one older clean-shaven Bhattathiri and one serene blue Bhagwan, seated facing each other in a simple temple grove.",
-          "Bhattathiri turns in surrender toward Bhagwan with folded hands. His skin is clearly warm medium-brown, not orange; the measured face and torso skin patches should remain under red-minus-blue 120.",
+          "Bhattathiri turns in surrender toward Bhagwan with folded hands. His skin is clearly warm medium-brown, not orange; target skin-only cheek, torso, and arm patches at red-minus-blue around 100–110, with no sampled patch above about 115.",
+          "Keep Bhattathiri's largely shaved scalp and shorten the nape hair to the small traditional tuft specified by his shared character contract; do not add a long trailing curl.",
           "Keep the other paths symbolic and object-only: one plain medicine bowl, one small ritual vessel, and one discarded crown at the far edge. Do not depict doctors, kings, sages, groups, or narrative vignettes.",
-          "Bhagwan remains the calm focal point; show relief through posture and open space, not a beam or miraculous light effect."
+          "Bhagwan remains the calm focal point; show relief through posture and open space, not a beam or miraculous light effect.",
+          "Bhagwan's arms, hands and palms remain deep blue continuously from the wrists; keep a restrained low matte-ochre temple crown with one peacock feather, one modest necklace, one flower garland, small plain earrings and slim bands. Keep the discarded crown simple."
         ],
         "composition": "One older devotee and one blue deity face each other in the main scene, with folded hands and three small object-only signs of temporary paths at one edge; no inset scenes or additional people.",
         "tone": "Devotional narrative with simple symbolic objects and a clear single focal relationship.",
@@ -148,7 +150,8 @@
           "Use mapped source photo only for story/context; do not copy its text, watermark, pose, framing, glow or glossy finish. Canonical stanza and supplied caption govern the scene.",
           "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes. Keep all visible hands and feet anatomically clear.",
           "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette.",
-          "No collage, timeline, inset medallions, arrows, or vignette scenes. No people other than the one Bhattathiri and the one Bhagwan. Keep warm-brown human skin clearly brown, with red-minus-blue below 120; do not saturate it orange."
+          "No orange, copper, peach, or yellow-orange skin on Bhattathiri; keep his exposed skin a natural deeper brown with sampled R-B about 100–110. Do not lengthen the small nape tuft into a trailing curl.",
+          "No pink/salmon deity palms, oversized or jeweled crown, layered necklaces, large pendants, multiple garlands, or ornate armlets."
         ]
       },
       "alt": "Bhattathiri turns from temporary remedies toward Bhagwan’s refuge.",
@@ -168,11 +171,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Keep faces, hands, feet and important symbols fully inside the frame; do not crop another orientation.",
-          "candidate_version": "v009",
-          "candidate_path": "artifacts/d094/s003/landscape/candidate-v009.png",
-          "prompt_path": "artifacts/d094/s003/landscape/prompt-submitted-v009.txt",
-          "reference_arguments_path": "artifacts/d094/s003/landscape/native-call-args-v009.json",
-          "candidate_status": "DISCLOSED DEVIATION: Bhattathiri is kneeling with folded lower legs rather than seated as specified. One exposed foot shows five toes; the other is tucked; Bhagwan’s visible open blessing hand shows five digits and both visible feet show five toes. DISCLOSED DEVIATION: warm-brown skin target is R-B below 120. Independent reviewer’s skin-only 11x11 patches, using crop-origin coordinates, measured cheek origin (350,310) RGB (184,104,58) R-B 126 and torso origin (280,480) RGB (187,111,66) R-B 121. My exact-check remeasurement at the same origins matched. Additional skin-only origins: cheek (360,320) RGB (180,101,54) R-B 126; upper arm/torso (250,490) RGB (155,80,42) R-B 113. These two reviewer patches exceed target; no regeneration because repair rounds are exhausted. Producer reinspection pass with disclosed deviations; independent exact-checksum re-review pending; no artwork approval."
+          "candidate_version": "v016",
+          "candidate_path": "artifacts/d094/s003/landscape/candidate-v016.png",
+          "prompt_path": "artifacts/d094/s003/landscape/prompt-submitted-v016.txt",
+          "reference_arguments_path": "artifacts/d094/s003/landscape/reference-arguments-v016.json",
+          "candidate_sha256": "6e6f9e036bec349a5ecdf13fd8f5e474e3ddc71d1066645ac4b3a6c71bc24c8b",
+          "candidate_status": "Firstmate selected this version after reviewing the full image and details; it remains unapproved. Native 1672x941. Exactly two figures: older kneeling Bhattathiri and one calm blue Bhagwan. Bhagwan has two attached arms; his raised palm is blue and shows thumb plus four fingers, with the lap hand's thumb naturally partly occluded. His crown is a low plain matte-ochre temple crown with one peacock feather; he wears one modest necklace, one flower garland, small plain earrings and slim bands. The discarded crown remains a simple object at the far edge. Bhattathiri's limbs remain connected; his joined prayer hands show five visible fingertip ends with overlapping thumbs, and his exposed foot shows five toes while the other leg/foot is tucked. Skin-only 11x11 median samples at upper-left origins: cheek (350,310) RGB (159,85,43), R-B 116; cheek (360,320) (156,82,40), R-B 116; torso (280,480) (168,90,48), R-B 120; upper arm (250,490) (139,71,36), R-B 103; neck (315,410) (146,76,38), R-B 108; torso (300,450) (162,86,43), R-B 119; arm (320,500) (155,83,44), R-B 111. The maximum measured R-B is 120, a disclosed deviation from the approximately 100–110 target and no-sample-above-115 guide. Skin reads warm-brown, not saturated orange. No additional figures or readable text. Producer pass with disclosed numeric deviation; fresh independent exact-checksum review pending for all ten; art remains unapproved."
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -196,7 +200,8 @@
           "Place Brahma at the edge of a high celestial realm, visibly uneasy but dignified; below him, Bhattathiri prays toward one calm blue Bhagwan presence in an open, sheltered sanctuary.",
           "Use spatial contrast between exposed cosmic heights and a calm refuge; do not show hell or invent punishments.",
           "Bhattathiri’s face and visible body skin must remain clearly warm-brown, never saturated orange; sample skin-only face and torso patches and keep red-minus-blue below 120. The shared identity image anchors face and clothing only; override its orange skin cast.",
-          "Use deep indigo or maroon only in the cosmic background, never purple; Bhattathiri’s human skin is clearly warm-brown, with red-minus-blue under 120 in both face and torso patches."
+          "Use deep indigo or maroon only in the cosmic background, never purple; Bhattathiri’s human skin is clearly warm-brown, with red-minus-blue under 120 in both face and torso patches.",
+          "Brahma wears four low, plain matte-ochre crowns with no jeweled bands or gemstones; reduce chest, arm, and wrist decoration to a thin restrained minimum, keeping the sacred thread and all four attributes."
         ],
         "composition": "Dignified, quiet contrast between fear in the highest world and refuge in Bhagwan.",
         "tone": "Layered cosmic scene with three distinct planes and modest figure scale.",
@@ -206,7 +211,8 @@
           "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes. Keep all visible hands and feet anatomically clear.",
           "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette.",
           "Do not make Bhattathiri skin orange/yellow-orange. Use warm-brown mineral pigment with red-minus-blue under 120.",
-          "No purple cosmic sky. No orange/yellow-orange skin on Bhattathiri."
+          "No purple cosmic sky. No orange/yellow-orange skin on Bhattathiri.",
+          "No oversized tiered or jeweled crowns, gemstones, large pendants, layered necklaces, or ornate armlets and bracelets on Brahma."
         ]
       },
       "alt": "Even the highest celestial realm is unsettled; the poet seeks refuge and release.",
@@ -226,11 +232,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Keep faces, hands, feet and important symbols fully inside the frame; do not crop another orientation.",
-          "candidate_version": "v017",
-          "candidate_path": "artifacts/d094/s004/landscape/candidate-v017.png",
-          "prompt_path": "artifacts/d094/s004/landscape/prompt-submitted-v018.txt",
-          "reference_arguments_path": "artifacts/d094/s004/landscape/native-call-args-v017.json",
-          "candidate_status": "Bhattathiri’s head, eyes and folded prayer hands face Bhagwan at right; both legs and feet are naturally tucked beneath the dhoti and not visible. Brahma has four distinct heads and four attached arms; Bhagwan’s visible open hands each show thumb plus four fingers. DISCLOSED DEVIATION: Bhattathiri’s warm-brown skin remains above the R-B below-about-120 target. Existing 11x11 face/torso patch RGB medians (194,111,71), (186,107,72), (180,97,60) have R-B 123/114/120; torso RGB medians (210,124,82), (201,124,91), (200,115,75) have R-B 128/110/125, with face/torso group medians 120/125. Independent reviewer upper-arm/torso origin (690,660) measured RGB (205,115,71), R-B 134; adjacent origins (670,645) and (680,650) measured R-B 127 and 128. My same-origin remeasurements matched; my additional skin-only cheek origin (645,455) measured RGB (198,114,77), R-B 121. Across recorded skin-only face/torso/upper-arm samples, R-B ranges from 110 to 134; 134 is the highest measurement and exceeds the prior disclosed peak of 128. No regeneration; the full range is disclosed. Producer reinspection pass; fresh independent exact-checksum review pending; no artwork approval."
+          "candidate_version": "v034",
+          "candidate_path": "artifacts/d094/s004/landscape/candidate-v034.png",
+          "prompt_path": "artifacts/d094/s004/landscape/prompt-submitted-v034.txt",
+          "reference_arguments_path": "artifacts/d094/s004/landscape/reference-arguments-v034.json",
+          "candidate_status": "Selected by Firstmate after direct review; remains unapproved. Native 1670x942. Brahma has exactly four heads and four attached arms with lotus, rosary, water pot and blank scripture; Bhattathiri has two arms and a small nape tuft; Bhagwan has two attached arms. Enlarged crops show both blue deity hands with a thumb and four fingers each (palm-side 11x11 B-R 180 and 186); both deity feet show five toes. Bhattathiri skin-only 11x11 R-B samples range 102–122, remaining warm-brown. DISCLOSED MINOR GENERATION DRIFT outside the hand edits: stars, cosmic-wave contours and planetary details differ from v029. Firstmate judged this minor and selected v034; no S004 regeneration. No extra figures or readable text; fresh independent exact-checksum review pending; no art approval.",
+          "candidate_sha256": "52b31e684bb753649e16055a690d8ff852ffa6e6fee80cbbad308e5459c9c548"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -249,7 +256,8 @@
           "Make one central tree-body with two branches of the same trunk: a shadowed dream branch with a small resting figure and fruit, and a clear waking branch with open empty space and a quiet lotus-like stillness.",
           "Keep both branches visibly joined to one trunk so the image suggests one underlying reality; no chains, labels or textual dream symbols.",
           "Avoid depicting liberation as a separate place or a second independent reality.",
-          "Keep the resting figure’s visible human skin warm brown and clearly distinct from the saffron garment; skin-only cheek and torso patches should remain below red-minus-blue 120."
+          "Keep the resting figure’s visible human skin warm brown and clearly distinct from the saffron garment; skin-only cheek and torso patches should remain below red-minus-blue 120.",
+          "Dress the reclining figure in a plain modest warm-cream uttariya or shoulder wrap that fully covers the chest and lies clearly separate from both arms; add no devotional ornaments."
         ],
         "composition": "Philosophical and balanced, expressing nonduality without a literal diagram.",
         "tone": "A single connected tree organizes the scene in broad, simple shapes.",
@@ -258,7 +266,8 @@
           "Use mapped source photo only for story/context; do not copy its text, watermark, pose, framing, glow or glossy finish. Canonical stanza and supplied caption govern the scene.",
           "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes. Keep all visible hands and feet anatomically clear.",
           "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette.",
-          "No orange/yellow-orange skin; keep the resting human figure’s skin-only cheek and torso medians below red-minus-blue 120."
+          "No orange/yellow-orange skin; keep the resting human figure’s skin-only cheek and torso medians below red-minus-blue 120.",
+          "No exposed bare chest, transparent cloth, ornate garment decoration, devotional jewelry, or forehead mark on the reclining figure."
         ]
       },
       "alt": "One tree holds both dream and waking; attachment tastes fruit while freedom rests.",
@@ -277,11 +286,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Keep faces, hands, feet and important symbols fully inside the frame; do not crop another orientation.",
-          "candidate_version": "v008",
-          "candidate_path": "artifacts/d094/s005/landscape/candidate-v008.png",
-          "prompt_path": "artifacts/d094/s005/landscape/prompt-submitted-v009.txt",
-          "reference_arguments_path": "artifacts/d094/s005/landscape/native-call-args-v008.json",
-          "candidate_status": "One generic reclining sleeper rests on the shadowed branch of the same connected tree; the open waking branch and lotus remain. Native view and enlarged torso/arm crops show exactly two attached arms: one bends to the temple and one rests along the lower torso/tree branch. The image contains no Bhattathiri or deity. One head, two legs, two feet, five toes on each visible foot; the branch-side hand shows a thumb and four separate fingers, while the temple-side thumb is partly occluded against the head. Skin-only 11x11 medians: cheek origin (235,370) RGB (162,92,50), R-B 112; torso/arm origin (320,445) RGB (164,91,50), R-B 114, within the approximate under-120 target. No text or duplicated figure. Producer review pass; independent exact-checksum review pending; no artwork approval."
+          "candidate_version": "v017",
+          "candidate_path": "artifacts/d094/s005/landscape/candidate-v017.png",
+          "prompt_path": "artifacts/d094/s005/landscape/prompt-submitted-v017.txt",
+          "reference_arguments_path": "artifacts/d094/s005/landscape/native-call-args-v017.json",
+          "candidate_status": "One generic reclining figure rests on the connected dream/waking tree with its mango cluster and waking-side lotus. The forehead is plain and bare; no devotional ornaments are visible. A plain opaque warm-cream uttariya fully covers the chest and remains distinct from both arms. The figure has one head, two attached arms from distinct shoulder paths, two legs and two feet; the thigh-resting hand is visible and shows a thumb plus four fingers. The head-supporting hand shows four clear fingers; its thumb is partly occluded at the head contact, disclosed and accepted by Firstmate as previously accepted. Each visible foot shows five toes. Skin-only 11x11 median samples at upper-left crop origins: cheek (215,385) RGB (173,88,37), R-B 136; cheek (225,395) (176,92,40), R-B 136; cheek (235,410) (132,61,22), R-B 110; upper arm (480,430) (152,70,27), R-B 125; arm (520,435) (172,85,34), R-B 138. The recorded range is 110–138; values above the R-B 120 guide are disclosed. Firstmate directly reviewed and selected this version, noting that the exposed skin reads clearly warm brown. Fresh producer review is recorded; independent exact-checksum review pending; art remains unapproved.",
+          "candidate_sha256": "889cedf92b0bb17a54b66abf8178dc69e120486559e2e5b95e3c2b2e783dc268"
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -303,7 +313,8 @@
           "Show Bhattathiri with folded hands before one serene blue Bhagwan, his posture humble and dignified; preserve the shared older clean-shaven identity.",
           "Suggest the guru’s word as a simple palm-leaf teaching resting between Bhattathiri and the deity, with no writing or readable marks.",
           "Use clean water and an uncluttered vessel as a restrained sign of a purified mind; avoid literal glowing energy.",
-          "Bhattathiri’s face and visible body skin must remain clearly warm-brown, never saturated orange; sample skin-only face and torso patches and keep red-minus-blue below 120. The shared identity image anchors face and clothing only; override its orange skin cast."
+          "Bhattathiri’s face and visible body skin must remain clearly warm-brown, never saturated orange; sample skin-only face and torso patches and keep red-minus-blue below 120. The shared identity image anchors face and clothing only; override its orange skin cast.",
+          "Every visible Bhagwan hand is deep blue continuously through the palm, thumb and fingers, matching the attached wrist and arm; a subtly lighter blue palm is acceptable, never pink or skin-toned."
         ],
         "composition": "Intimate, calm devotion, with the poet’s request and the role of teaching both legible.",
         "tone": "Close but spacious temple-mural composition with hands and faces fully visible.",
@@ -312,7 +323,8 @@
           "Use mapped source photo only for story/context; do not copy its text, watermark, pose, framing, glow or glossy finish. Canonical stanza and supplied caption govern the scene.",
           "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes. Keep all visible hands and feet anatomically clear.",
           "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette.",
-          "Do not make Bhattathiri skin orange/yellow-orange. Use warm-brown mineral pigment with red-minus-blue under 120."
+          "Do not make Bhattathiri skin orange/yellow-orange. Use warm-brown mineral pigment with red-minus-blue under 120.",
+          "No pink, coral, salmon or human skin-toned Bhagwan palms or fingers."
         ]
       },
       "alt": "Bhattathiri offers his mind in devotion and receives the guru’s word.",
@@ -332,11 +344,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Keep faces, hands, feet and important symbols fully inside the frame; do not crop another orientation.",
-          "candidate_version": "v012",
-          "candidate_path": "artifacts/d094/s006/landscape/candidate-v012.png",
-          "prompt_path": "artifacts/d094/s006/landscape/prompt-submitted-v012.txt",
-          "reference_arguments_path": "artifacts/d094/s006/landscape/reference-arguments-v012.json",
-          "candidate_status": "Bhattathiri's required off-white sacred thread remains visible from left shoulder to right waist. The viewer-left deity foot now shows five clearly separated toes; the other visible deity foot shows five. Bhattathiri's exposed foot shows five; the other is tucked. His namaste has five visible fingertip ends with thumbs overlapped. Guruvayurappan's two open hands each show thumb plus four fingers. Bhattathiri 11x11 skin-only medians: cheek origin (390,300) RGB (161,84,47) R-B 114; torso (360,420) (195,107,65) R-B 130; arm (390,470) (141,75,40) R-B 101. Additional skin windows at (385,350) R-B 124, (320,460) 129, (420,480) 129, (435,500) 121, (460,500) 132, and (390,520) 130. DISCLOSED DEVIATION: several warm-brown skin patches exceed the plan's R-B target of about 120; these are recorded, not concealed. Guruvayurappan face/torso B-R samples are 41/59. One of each figure; no readable text or rays/beams. Producer review pass with disclosed skin deviation; fresh independent exact-checksum review pending; no artwork approval."
+          "candidate_version": "v014",
+          "candidate_path": "artifacts/d094/s006/landscape/candidate-v014.png",
+          "prompt_path": "artifacts/d094/s006/landscape/prompt-submitted-v014.txt",
+          "reference_arguments_path": "artifacts/d094/s006/landscape/reference-arguments-v014.json",
+          "candidate_sha256": "448cb1440eed6f1814c0a38818f94a25498c1b541248eb74667b3980f87750f4",
+          "candidate_status": "Firstmate selected this version; it remains unapproved. Native 1672x941. The scene has one Bhattathiri and one two-armed blue Bhagwan. Bhagwan's raised hand is now blue continuously from wrist through palm, thumb and four fingers; 11x11 skin medians show blue-minus-red of 47–72 across three palm patches. His lowered hand is also blue. The two attached arms remain distinct; no added or duplicate figure is visible. Bhattathiri's prayer hands and exposed foot remain intact; his foot shows five toes. Both of Bhagwan's feet show five toes. His face remains calm and the blank manuscript and clear vessel remain. No readable text or signature. Producer pass; fresh independent exact-checksum review pending for all ten; art remains unapproved."
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -406,7 +419,8 @@
           "Show Bhattathiri in humble worship before one serene blue Bhagwan; keep the older clean-shaven character and simple cream Kerala clothing.",
           "At the lower edge, arrange a small cluster of distinct devotee footprints leading toward the shrine to represent the beloved community without adding unidentified character faces.",
           "Include simple offerings and a song gesture through a small hand cymbal or veena at rest, without readable sound marks or decorative notation; keep hands visible.",
-          "Bhattathiri’s face and visible body skin must remain clearly warm-brown, never saturated orange; sample skin-only face and torso patches and keep red-minus-blue below 120. The shared identity image anchors face and clothing only; override its orange skin cast."
+          "Bhattathiri’s face and visible body skin must remain clearly warm-brown, never saturated orange; sample skin-only face and torso patches and keep red-minus-blue below 120. The shared identity image anchors face and clothing only; override its orange skin cast.",
+          "Every visible Bhagwan hand is deep blue continuously through the palm, thumb and fingers, matching the attached wrist and arm; a subtly lighter blue palm is acceptable, never pink or skin-toned."
         ],
         "composition": "Humble, single-minded worship that includes reverence for the beloved devotees.",
         "tone": "Devotional temple setting with Bhattathiri, the deity and footprints clearly separated.",
@@ -415,7 +429,8 @@
           "Use mapped source photo only for story/context; do not copy its text, watermark, pose, framing, glow or glossy finish. Canonical stanza and supplied caption govern the scene.",
           "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes. Keep all visible hands and feet anatomically clear.",
           "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette.",
-          "Do not make Bhattathiri skin orange/yellow-orange. Use warm-brown mineral pigment with red-minus-blue under 120."
+          "Do not make Bhattathiri skin orange/yellow-orange. Use warm-brown mineral pigment with red-minus-blue under 120.",
+          "No pink, coral, salmon or human skin-toned Bhagwan palms or fingers."
         ]
       },
       "alt": "Bhattathiri worships Bhagwan and follows the footprints of the beloved devotees.",
@@ -435,12 +450,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Keep faces, hands, feet and important symbols fully inside the frame; do not crop another orientation.",
-          "candidate_version": "v007",
-          "candidate_path": "artifacts/d094/s008/landscape/candidate-v007.png",
-          "prompt_path": "artifacts/d094/s008/landscape/prompt-submitted-v008.txt",
-          "reference_arguments_path": "artifacts/d094/s008/landscape/reference-arguments-v007.json",
-          "candidate_sha256": "6aecde1b08d3c73413ae89e1de93e1e933dd5aa76456cd1994ea5992f2a56135",
-          "candidate_status": "DISCLOSED DEVIATION: Bhattathiri’s warm-brown skin target is R-B below about 120. Independent reviewer’s skin-only 11x11 patch medians: face origin (380,345) RGB (197,115,63), R-B 134; torso (300,500) RGB (166,90,45), R-B 121; arm (475,540) RGB (201,118,67), R-B 134. My same-origin remeasurements matched. My additional skin-only cheek origin (385,350) measured RGB (196,113,61), R-B 135, one above the previous disclosed maximum; overall recorded skin-only range is R-B 121–135. The earlier producer arm value of 132 came from a different origin and is retained as a separate sample. Both open hands show thumb plus four fingers; one visible bare foot has five toes and the other is tucked; Bhagwan’s visible hands and feet show the expected digits/toes. Full-bleed scene has one Bhattathiri and one Bhagwan with the required footprints and no frame. Producer reinspection pass with the full skin range disclosed; fresh independent exact-checksum review pending; no artwork approval."
+          "candidate_version": "v010",
+          "candidate_path": "artifacts/d094/s008/landscape/candidate-v010.png",
+          "prompt_path": "artifacts/d094/s008/landscape/prompt-submitted-v010.txt",
+          "reference_arguments_path": "artifacts/d094/s008/landscape/reference-arguments-v010.json",
+          "candidate_sha256": "721c9ae7a70c7d600f385991a314cccf59410420317f12e24b7c653ab8ccd2ac",
+          "candidate_status": "Firstmate selected this version; it remains unapproved. Native 1672x941. One Bhattathiri and one two-armed blue Bhagwan remain in the garden scene with the veena, offerings and three separate footprint pairs. Both deity hands are now deep blue continuous with their wrists and arms; raised- and lowered-palm 11x11 medians have blue-minus-red values of 82–89. Each open deity hand shows thumb plus four fingers. Bhattathiri's two open hands each show thumb plus four fingers; his two visible feet and the deity's two feet each show five toes. Faces and limbs are distinct; no duplicate figure or readable text is visible. Producer pass; fresh independent exact-checksum review pending for all ten; art remains unapproved."
         },
         "portrait": {
           "aspect_ratio": "4:5",
@@ -462,7 +477,10 @@
           "Show Bhattathiri reverently sweeping a simple temple threshold; he is the older clean-shaven devotee in cream Kerala dhoti, sacred thread and modest beads.",
           "Within a small shrine medallion, show exactly one serene blue Bhagwan in the scripture-specific four-armed form, with four clearly attached arms and hands; do not duplicate the deity in sun, flame or other symbols.",
           "Set a modest offering aside and use small sun and oil-lamp motifs as signs of Bhagwan’s presence in all; no light rays, text or second divine figure.",
-          "Bhattathiri’s face and visible body skin must remain clearly warm-brown, never saturated orange; sample skin-only face and torso patches and keep red-minus-blue below 120. The shared identity image anchors face and clothing only; override its orange skin cast."
+          "Bhattathiri’s face and visible body skin must remain clearly warm-brown, never saturated orange; sample skin-only face and torso patches and keep red-minus-blue below 120. The shared identity image anchors face and clothing only; override its orange skin cast.",
+          "Keep the shrine as a small, modest medallion at the right; show one serene blue four-armed Bhagwan with four attached blue hands and one each of the chakra, conch, lotus and mace.",
+          "Use a plain low matte-ochre crown, one modest necklace and one flower garland only; keep the deity's hands blue continuously through palms, thumbs and fingers.",
+          "Preserve Bhattathiri's sweeping pose, face, five-toed feet, cream dhoti, warm-brown skin, broom, and flower scatter."
         ],
         "composition": "Selfless service with theological focus; clear exact four-arm iconography and a gentle devotional mood.",
         "tone": "Temple threshold scene with the sweeping action in foreground and the deity safely framed behind.",
@@ -471,7 +489,9 @@
           "Use mapped source photo only for story/context; do not copy its text, watermark, pose, framing, glow or glossy finish. Canonical stanza and supplied caption govern the scene.",
           "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes. Keep all visible hands and feet anatomically clear.",
           "Use firm dark contours, opaque matte mineral colors, shallow decorative space and the series earthy ochre, maroon, warm cream and muted foliage palette.",
-          "Do not make Bhattathiri skin orange/yellow-orange. Use warm-brown mineral pigment with red-minus-blue under 120."
+          "Do not make Bhattathiri skin orange/yellow-orange. Use warm-brown mineral pigment with red-minus-blue under 120.",
+          "No ornate or jeweled crown, layered necklaces, large pendant, multiple garlands, ornate armlets, glossy metallic gold, or pink/skin-toned deity palms.",
+          "Do not alter Bhattathiri's sweeping pose, face, dhoti, broom, flowers, or warm-brown skin."
         ]
       },
       "alt": "Bhattathiri serves at the temple while worshipping the four-armed Bhagwan.",
@@ -490,11 +510,12 @@
           "aspect_ratio": "16:9",
           "composition_role": "native landscape comparison mural",
           "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Keep faces, hands, feet and important symbols fully inside the frame; do not crop another orientation.",
-          "candidate_version": "v005",
-          "candidate_path": "artifacts/d094/s009/landscape/candidate-v005.png",
-          "prompt_path": "artifacts/d094/s009/landscape/prompt-submitted-v006.txt",
-          "reference_arguments_path": "artifacts/d094/s009/landscape/native-call-args-v005.json",
-          "candidate_status": "DISCLOSED DEVIATION: warm-brown skin target is R-B below 120. ImageMagick 11x11 median patches are reported by upper-left crop origin. Independent reviewer values, reproduced exactly: cheek origin (420,170) RGB (172,88,49), R-B 123; chest (390,260) RGB (178,90,52), R-B 126; forearm (470,360) RGB (180,94,56), R-B 124. My additional skin-only patches: cheek (430,180) RGB (177,94,55), R-B 122; chest (400,270) RGB (182,98,59), R-B 123; forearm (460,350) RGB (151,77,45), R-B 106. Earlier producer samples recorded centers (420,185), (345,300), (470,360); converting those centers to crop origins (415,180), (340,295), (465,355) gives RGB (171,88,50), R-B 121; (182,95,56), R-B 126; (154,82,49), R-B 105. The reviewer’s (470,360) origin patch differs from the prior center-based patch by five pixels in each axis and measures R-B 124; both measurements are retained, not treated as the same patch. Multiple cheek/chest/forearm windows exceed target. No regeneration because repair rounds are exhausted. Producer reinspection pass with disclosed deviation; independent exact-checksum re-review pending; no artwork approval."
+          "candidate_version": "v010",
+          "candidate_path": "artifacts/d094/s009/landscape/candidate-v010.png",
+          "prompt_path": "artifacts/d094/s009/landscape/prompt-submitted-v010.txt",
+          "reference_arguments_path": "artifacts/d094/s009/landscape/reference-arguments-v010.json",
+          "candidate_status": "Selected as the best S009 shrine-scale repair for fresh independent review; remains unapproved. Native 1670x942. The right medallion is approximately 268x391 px (about 16% of canvas width and 42% of height), within the requested 18% maximum width and 40–45% height. Bhagwan has one head and four attached blue arms, with one chakra, conch, lotus and mace each; all four hands read blue continuously with the arms. Attribute grips partly occlude finger separations; no extra or malformed digit is visible, with exact digit counts to be checked independently. Bhattathiri retains the sweeping pose, face, warm-brown skin, cream dhoti, broom and flower scatter; he has two arms, a hanging hand showing thumb plus four fingers, a closed broom grip, and both feet show five toes. Same-window skin-only 11x11 medians range R-B 110–129; the maximum 129 is disclosed above the below-120 guide and skin reads warm-brown. In focused crops, the deity feet are visible and no missing-toe defect is seen, but I cannot confidently count all five toe tips on each reduced foot; producer verdict is uncertain on this detail. Fresh independent exact-checksum review pending; art remains unapproved.",
+          "candidate_sha256": "f7ce21157b66f0e1a5c2095687cd93e878096a9ea5d2d4886e9d2587da8a4451"
         },
         "portrait": {
           "aspect_ratio": "4:5",
