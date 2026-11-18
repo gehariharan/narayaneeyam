@@ -1,0 +1,16 @@
+# D047 S006 v018 producer visual review
+
+- Outcome: **pass** (producer review only; fresh independent exact-checksum review requested; not art approval).
+- Inspected: 2026-11-18T04:18:48Z at native 1670x941 resolution with hold, face, feet and skin details, compared with mapped photo 006.
+- Candidate: `artifacts/d047/s006/landscape/candidate-v018.png` SHA-256 `2e29203169ecc0a24104fd0254af63d32d5d5162d3f7a9f7127f5d5134c7ae85`.
+- Prompt: `artifacts/d047/s006/landscape/prompt-submitted-v018.txt` SHA-256 `b401752f8c142849ba8a8a3a0dc22b14dada2db102050ac0d984c09df6db6a08`.
+- Actual native arguments: `artifacts/d047/s006/landscape/call-arguments-actual-v018.json` SHA-256 `f73dbc03718d8d607ceed6655b7ac3b5fcad7a2c0022bb71e1d9bcb1bb2f7594`.
+- Mapped source: `intake/D047/006.jpg` SHA-256 `892743168a1c7b71f0798ca9c28e147f10048415a9284d588e0cb72ba9aed797`.
+- Final context hashes: plan `art/plans/d047.json` `a369da723f9cc09166855574af00e0059123151ef1cfd820e6703ec53444dedf`; series `art/bible/series.json` `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa`; Krishna youth `art/bible/characters/krishna-vrindavan-youth/character.json` `bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d`; Yashoda `art/bible/characters/yashoda/character.json` `4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d`; gopikas `art/bible/characters/gopikas/character.json` `a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665`.
+- Focus evidence: holding scene `artifacts/d047/s006/landscape/review-crop-hold-v018.png` SHA-256 `4ba08761bf6490202e05aba04d69f50f90146bb4605b6ea3c51235da62d15308`; feet `.../review-crop-feet-v018.png` `b8ba96ef8deb561e62c9ad36b6d4781dacecefff29c067962bb40ad274e74955`; Krishna cheek `.../review-patch-Krishna-cheek-v018.png` `1514fa0422e715f0b8acb46573e9c3e752aaf1e5381f1a975978f11caad7bfc0`; torso `.../review-patch-Krishna-torso-v018.png` `bff98058932032c68c50ff049d9252a880b8c93a1a2906639798352a02f85f69`; Yashoda cheek `.../review-patch-Yashoda-cheek-v018.png` `bfee1fd71c1d33a72930febfdd7576d8fd9b52e45055126aab474feb28a1256e`; forearm `.../review-patch-Yashoda-forearm-v018.png` `658cf882f28934dcef89d80c3001fa1cce39efbe62e535f7eb0468a65c39e416`; gopika 1 arm `.../review-patch-Gopika1-arm-v018.png` `04455c85d802d185128383f9c97239b9f564e22b3fbde7a733f8ace4dd30b2d9`; gopika 2 arm `.../review-patch-Gopika2-arm-v018.png` `39d47349dd59617e5474e9223e2ce194e3050fa6dee687f9050b43cb9b241d14`.
+
+## Observations
+
+Yashoda holds Krishna against her torso, guides the rope around his waist, and the rope visibly continues to the mortar. Two separate gopikas watch. Krishna's forehead is bare with one low band, dark curls and one upright feather. Both visible child feet have five distinct toes. The holding hand and rope hand are attached and natural; no extra person, fused body, malformed limb, text, or beam observed. Blue-only Krishna medians are cheek B-R 118 and torso B-R 114. Human skin-only 31x31 medians: Yashoda cheek R-B 101 and forearm 102; gopika 1 upper arm R-B 102; gopika 2 arm R-B 101. Warm-brown human skin and deep indigo-blue Krishna are clear in the focused patches.
+
+This is a producer inspection of the exact candidate bytes. The image remains unapproved.

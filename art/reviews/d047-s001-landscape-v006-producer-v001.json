@@ -1,0 +1,76 @@
+{
+  "chapter": 47,
+  "sloka": 1,
+  "role": "matte",
+  "file": "artifacts/d047/s001/landscape/candidate-v006.png",
+  "version": "v006",
+  "sha256": "57373ec3f3deb10812ea340ed5292422a8e2a770ad98c9ab33db343a7e5729fe",
+  "reviewer": "Codex (D047 producer preflight; independent review pending)",
+  "inspected_at": "2026-11-17T13:42:07Z",
+  "method": "individual-native-resolution",
+  "outcome": "pass",
+  "anatomy_basis": "Yashoda is one ordinary adult with two attached arms; child Krishna follows the shared Vrindavan-period contract with one face, two arms and two legs. The open visible Krishna hand has five digits; visible child feet have five toes.",
+  "contracts": [
+    {
+      "path": "art/bible/series.json",
+      "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+    },
+    {
+      "path": "art/plans/d047.json",
+      "sha256": "3b6ab5c840c2e3cd32ab4f40007b0e483adefa94352ba8a7ffe0e5ffd487652b"
+    },
+    {
+      "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+      "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+    },
+    {
+      "path": "art/bible/characters/yashoda/character.json",
+      "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+    },
+    {
+      "path": "art/bible/characters/gopikas/character.json",
+      "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+    },
+    {
+      "path": "art/bible/characters/monkeys/character.json",
+      "sha256": "902a357279ad316974426d4de863014fd037a750135b9385f654fdf771ea4481"
+    },
+    {
+      "path": "art/bible/characters/devas/character.json",
+      "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "art/reviews/d047-s001-landscape-v006-producer-v001.md",
+      "sha256": "38fc741742d73e103ba190a6f67fcb841ee46a67e2dee522e99043f0e43e74f4"
+    }
+  ],
+  "checks": {
+    "limbs_hands_feet": {
+      "status": "pass",
+      "observations": "Yashoda holds the churning rod with both hands; rod grip crops show four fingers and a partly occluded thumb per hand. Krishna’s visible open hand has a thumb and four fingers. Both visible Krishna feet show five toes."
+    },
+    "attachment_proportions": {
+      "status": "pass",
+      "observations": "The rod connects into the pot; both of Yashoda’s arms connect at the shoulders. Krishna’s visible arm reaches from shoulder to the hand resting on Yashoda’s upper arm, and his seated legs connect to both feet."
+    },
+    "faces": {
+      "status": "pass",
+      "observations": "One calm adult Yashoda face and one child Krishna face are visible. Krishna has a plain forehead, one low gold band and one upright feather; Yashoda’s face reads as muted brown."
+    },
+    "duplication_fusion": {
+      "status": "pass",
+      "observations": "One mother and one child occupy the scene; no duplicate or fused body is visible."
+    },
+    "text_artifacts": {
+      "status": "pass",
+      "observations": "The pot decorations are geometric and floral; no readable lettering, caption, signature, logo or watermark appears."
+    },
+    "scene_style_continuity": {
+      "status": "pass",
+      "observations": "The image shows Yashoda churning as Krishna climbs onto her lap, using the matte mural palette. Krishna face B-R 53 and torso B-R 105; Yashoda face R-B 116, upper hand 114, upper arm 119, lower hand 121."
+    }
+  },
+  "findings": []
+}

@@ -1,0 +1,89 @@
+{
+  "chapter": 47,
+  "sloka": 8,
+  "role": "matte",
+  "file": "artifacts/d047/s008/landscape/candidate-v002.png",
+  "version": "v002",
+  "sha256": "3616034695850f7ffbb1f5c9e78fe6c0980430d428f2c310420764c798a14cfc",
+  "reviewer": "Firstmate-dispatched independent reviewer (report g)",
+  "inspected_at": "2026-11-18T05:12:21Z",
+  "method": "individual-native-resolution",
+  "outcome": "needs-fix",
+  "anatomy_basis": "Yashoda’s lowered hands and Krishna’s hands at his sides show no visible deformity; both child feet show five toes and remain in frame.",
+  "contracts": [
+    {
+      "path": "art/bible/series.json",
+      "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+    },
+    {
+      "path": "art/plans/d047.json",
+      "sha256": "9d04f8ccd7faf663e19700762ef6cd6ebaa5f2fc50e5d978e28feecabe79016d"
+    },
+    {
+      "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+      "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+    },
+    {
+      "path": "art/bible/characters/yashoda/character.json",
+      "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+    },
+    {
+      "path": "art/bible/characters/gopikas/character.json",
+      "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+    },
+    {
+      "path": "art/bible/characters/monkeys/character.json",
+      "sha256": "902a357279ad316974426d4de863014fd037a750135b9385f654fdf771ea4481"
+    },
+    {
+      "path": "art/bible/characters/devas/character.json",
+      "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "art/reviews/d047-independent-review-g-v001.md",
+      "sha256": "5571b3c440175bf5504b3863bd6fc959075908ac135203dd47931f3c59808aff"
+    },
+    {
+      "path": "art/reviews/d047-s008-landscape-v002-producer-v002.md",
+      "sha256": "04d4e431234a4b1a4698d50f45a0a7e654f88191ca2fd3949601ac98a5581065"
+    }
+  ],
+  "checks": {
+    "limbs_hands_feet": {
+      "status": "pass",
+      "observations": "Yashoda’s lowered hands and Krishna’s hands at his sides show no visible deformity; both child feet show five toes and remain in frame."
+    },
+    "attachment_proportions": {
+      "status": "pass",
+      "observations": "Yashoda is tired and bent forward; Krishna is bound beside the mortar with proportionate attached limbs."
+    },
+    "faces": {
+      "status": "pass",
+      "observations": "Yashoda, Krishna and the single visible witness have coherent faces; Krishna forehead is plain with band and feather."
+    },
+    "duplication_fusion": {
+      "status": "pass",
+      "observations": "Only one gopika witness is visible, according to report G; the image therefore omits the plan-required plurality of gopikas."
+    },
+    "text_artifacts": {
+      "status": "pass",
+      "observations": "No readable text, signature, logo or watermark including ground and corners."
+    },
+    "scene_style_continuity": {
+      "status": "needs-fix",
+      "observations": "The binding action is present, but report G finds only one visible gopika at image region x≈45–335, y≈45–690, fewer than the planned gopika witnesses. Skin samples R-B 113 Yashoda and 111 the visible witness; Krishna is deep matte blue."
+    }
+  },
+  "findings": [
+    "Verdict: needs-fix. Add at least one additional distinct gopika witness in a new candidate; do not overwrite this image."
+  ],
+  "disclosed_deviations": [],
+  "producer_review": {
+    "path": "art/reviews/d047-s008-landscape-v002-producer-v002.md",
+    "sha256": "04d4e431234a4b1a4698d50f45a0a7e654f88191ca2fd3949601ac98a5581065",
+    "reviewer": "Codex producer review; retained separately"
+  },
+  "notes": "Independent exact-checksum report art/reviews/d047-independent-review-g-v001.md SHA-256 5571b3c440175bf5504b3863bd6fc959075908ac135203dd47931f3c59808aff, bound to final plan SHA-256 9d04f8ccd7faf663e19700762ef6cd6ebaa5f2fc50e5d978e28feecabe79016d. Producer review remains separately documented at art/reviews/d047-s008-landscape-v002-producer-v002.md (SHA-256 04d4e431234a4b1a4698d50f45a0a7e654f88191ca2fd3949601ac98a5581065). Visual review only; art approval remains pending."
+}
