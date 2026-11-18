@@ -1,0 +1,75 @@
+# D094 independent exact-checksum visual review
+
+**Review scope:** Landscape candidates for dasakam 94, stanzas 6, 8, and 10. I inspected each supplied candidate at native resolution and enlarged crops of faces, hands, feet, bodies, key scene objects, and corners. I compared the images with the mapped intake photos, the final frozen plan, the cited caption entries, and the relevant character contracts. The report records my independent review; it does not approve any artwork. Every verdict is bound to the candidate checksum listed below.
+
+## Integrity and source binding
+
+I generated `/home/gehariharan/.treehouse-narayaneeyam-mate/.treehouse/narayaneeyam-9a4f64/4/narayaneeyam/.review-scratch/d094-checksums.sha256` from the supplied path/hash list, then ran `sha256sum -c` against it. All 15 entries returned `OK`; no mismatch occurred. Contract values below are actual SHA-256 values and match the supplied expected values.
+
+| Read-only file | SHA-256 |
+|---|---|
+| Frozen final plan `art/plans/d094.json` | `ff7dba81c5e6ac9ced7b6a086deed562ab274cdf08f4e3313b48978c4f48b1b5` |
+| Frozen series bible `art/bible/series.json` | `cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa` |
+| Bhattathiri character contract | `85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535` |
+| Brahma character contract | `839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389` |
+| Guruvayurappan character contract | `84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456` |
+| Krishna Vrindavan youth character contract | `bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d` |
+| Gopikas character contract | `a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665` |
+| `content/sources/d094/reference-map.json` | `8642034f80398172e7e1a25c1c4d91606f7fe540d998c3f6665d6fcd7ffbefdb` |
+| `intake/D094/photo-captions.txt` | `8b040f7e5f008a9d3b3d826c93b05c5810f25cadf043ea0930de8a4cc970aacb` |
+
+The source map binds caption label N to canonical stanza N (reference-map lines 5 and 57–98). Thus stanza 6 uses `intake/D094/006.jpg` (SHA-256 `5364ee0c217509f0d0d8abd0c504cba22b86dfde92e64c3642f4df42e2ed0770`), stanza 8 uses `008.jpg` (`640d12c6e29e3b9d273c725216576a36db3a84b86a55e43622e3145ecbe3dd30`), and stanza 10 uses `010.jpg` (`536b8d31cb933bfada7d62ca9478f0e24937953cc016a0e1b94d57a1cb16435f`). I viewed all three source photos. I used them only for their mapped story context, as the plan and map direct.
+
+**Commands and inspection evidence:** `sha256sum -c .review-scratch/d094-checksums.sha256` (all supplied candidates, three reference photos, frozen contracts, map, and captions: `OK`); `identify -format '%f %wx%h %m\n'` (each landscape candidate is 1672×941 PNG except stanza 10 at 1671×941; reference photos are 896×1280, 720×899, and 735×856 JPEG); `magick ... -crop ...` wrote enlarged crops only under this worktree's `.review-scratch/`; and a Python/ImageMagick 11×11-patch sampler computed the medians below. I viewed the native images and those crops directly. No input was edited, and no approval manifest was touched.
+
+## Stanza 6 — `candidate-v013.png` (v013)
+
+- **Candidate:** `artifacts/d094/s006/landscape/candidate-v013.png`
+- **Verified SHA-256:** `2963a6822bb223a8fc00b99a1745817a8fde02a817ac6636b451bd41d04c1de1`
+- **Review time:** 2026-11-18 06:06 UTC
+- **Plan/character evidence:** frozen plan stanza 6, lines 294–350, especially scene brief lines 302–322 and candidate status lines 348–349; Bhattathiri contract `character.json:18–23`; Guruvayurappan contract `character.json:20–37`; series rendering contract `series.json` style and global-avoid sections.
+- **Anatomy:** One older devotee and one blue deity, no duplicate or fused people. Bhattathiri has two connected shoulder-to-hand paths and joined hands; the visible fingertip ends remain distinct despite the overlap. One foot is exposed with five toes; the other leg/foot is tucked. Bhagwan has two attached arms, two hands, two legs and two visible feet.
+- **Faces:** Both faces are intact and inside the frame. Bhattathiri reads as the older clean-shaven devotee with a shaved scalp and short dark tuft. His three horizontal ash stripes are visible; I do not see a separate central forehead mark specified in the character contract. At native size this is a minor continuity detail, not the verdict-driving defect. Bhagwan's face and peacock-feather crown are fully inside the frame.
+- **Hands/feet:** Enlarged crops show Bhagwan's raised hand with thumb plus four fingers, his lowered hand with thumb plus four fingers, and five toes on each foot. Bhattathiri's joined hands and exposed foot show no extra, fused, or malformed digits. **The raised Bhagwan hand at approximately x=1008–1067, y=218–323 is coral/salmon pink across the palm and fingers.** This is not just a lighter palm: the entire raised hand is pink against the blue wrist, arm, and body. It is conspicuous in the full image. The other lowered hand remains blue.
+- **Clothing and cast:** Bhattathiri's bare upper torso with sacred thread, beads, and cream dhoti is ordinary traditional dress and is not a defect. Bhagwan's yellow dhoti and red-orange shawl are present. The ornate gold crown and layered ornaments are visually elaborate, but remain within the Guruvayurappan contract's regal sacred ornaments and instruction for somewhat intricate jewelry. The overall smooth shading and bright highlights read glossier than the series matte reference; this is an observation, not the needs-fix basis.
+- **Text/signature artifacts:** No readable text, signature, logo, or watermark is visible. Enlarged palm-leaf stack at the lower center has a few tiny short marks, but they do not resolve into readable writing or lettering. I checked the lower corners/ground as well.
+- **Scene/caption fidelity:** The mapped photo is a woman praying before a Krishna shrine. The candidate follows the stanza's Bhattathiri devotion and the plan's plain palm-leaf teaching, clean-water vessel, and temple-grove setting; it uses the photo for prayer context without copying its foreground woman, glossy night staging, or unsupported composition. The vessel, shrine, and manuscript are all inside the frame.
+- **Character/deity contract and skin:** Bhattathiri's skin reads warm brown, not orange. My 11×11 skin-only median RGB samples (patch-origin coordinates) were cheek `(390,300) (146,81,44), R−B 102`; torso `(360,420) (168,95,57), 111`; arm `(390,470) (126,68,37), 89`; second cheek `(385,350) (150,79,41), 109`; torso/arm `(320,460) (161,89,51), 110`; upper arm `(420,480) (164,91,51), 113`. No sample exceeds the plan's R−B 120 guide, matching the plan's disclosed values (plan lines 348–349); no warm-skin deviation is present. The pink hand is a visible deviation from the blue-deity skin contract.
+- **Verdict: needs-fix.** The pink raised hand is a full-image-visible color defect at approximately x=1008–1067, y=218–323; its uniformly salmon fingers as well as palm make it read as a differently colored hand rather than an ordinary lighter palm on blue skin.
+
+## Stanza 8 — `candidate-v009.png` (v009)
+
+- **Candidate:** `artifacts/d094/s008/landscape/candidate-v009.png`
+- **Verified SHA-256:** `4c3b23a1add1254999584e0ad8b00f9c23aee9473af3e07052e24859e51514de`
+- **Review time:** 2026-11-18 06:06 UTC
+- **Plan/character evidence:** frozen plan stanza 8, lines 398–454, especially scene brief lines 406–426 and candidate status lines 452–453; Bhattathiri contract `character.json:18–23`; Guruvayurappan contract `character.json:20–37`.
+- **Anatomy:** One Bhattathiri and one blue Bhagwan; no duplicated or fused figures. Bhattathiri has two distinct attached arms and two open hands, with five digits on each. His exposed foot shows five toes; the other leg/foot is tucked. Bhagwan has two attached arms and two feet. The three footprint pairs at the lower edge are separate, cleanly drawn symbols, not extra people.
+- **Faces:** Both faces are intact and within frame. Bhattathiri appears older and clean-shaven with a small dark tuft. Three horizontal ash stripes are visible; I do not see a separate central forehead mark specified in the Bhattathiri contract. This is a minor continuity observation at native size, not the verdict-driving defect. Bhagwan's face, feather, and crown are fully inside the frame.
+- **Hands/feet:** Bhagwan's raised hand at approximately x=906–956, y=218–306 and lowered hand at x=1170–1212, y=400–469 are both coral pink across palm and fingers. Each has a thumb and four fingers, but each hand's pink color is a clear contrast to the adjacent blue wrists, arms, and body. Both feet are fully shown with five toes each. Bhattathiri's two visible hands have five digits apiece; the exposed foot has five toes.
+- **Colour of Bhagwan's palms:** Both palms and fingers are pink/coral, plainly visible at native resolution. I judge this a defect, not an ordinary lighter palm: the color covers the whole hand and is strongly separated from the surrounding blue skin. The hands are small but still salient because they are raised and set against the plain maroon ground.
+- **Clothing and cast:** Bhattathiri's bare upper torso with sacred thread, prayer beads, and cream dhoti is ordinary traditional dress, not an exposure or sexualization issue. Bhagwan has the expected yellow dhoti and red-orange shawl. The gold crown/jewelry are elaborate but consistent with the Guruvayurappan contract's regal sacred ornaments and request for slightly more intricate jewelry. Glossy gradients and bright highlights depart from the matte series look as an observation only.
+- **Text/signature artifacts:** No readable text, signature, logo, or watermark in the image or checked corners. The small veena, offerings, and three distinct pairs of footprints are not text or notation.
+- **Scene/caption fidelity:** The mapped source is a blue Krishna above a devotional gathering with branding/text marks. The candidate follows the mapped devotional context and plan through a single deity, worshipping Bhattathiri, offerings, a resting veena, and devotee footprints; it does not copy the source watermark or crowded staging.
+- **Character/deity contract and skin:** Bhattathiri reads warm brown, not orange. My 11×11 skin-only medians were cheek `(380,345) (158,83,48), R−B 110`; torso `(300,500) (136,71,39), 97`; second cheek `(385,350) (158,83,48), 110`; arm `(475,540) (163,88,53), 110`; cheek/torso edge `(400,360) (156,83,49), 107`. All are below the plan's R−B 120 guide and reproduce the plan's disclosed sample set (lines 452–453); no warm-skin deviation is present. Pink hands are inconsistent with the blue deity contract.
+- **Verdict: needs-fix.** Both pink hands are plainly visible against the blue figure in the full image; cite the raised hand at x=906–956, y=218–306 and lowered hand at x=1170–1212, y=400–469. The whole-hand color shift is noticeable and not limited to a naturally lighter palm.
+
+## Stanza 10 — `candidate-v006.png` (v006)
+
+- **Candidate:** `artifacts/d094/s010/landscape/candidate-v006.png`
+- **Verified SHA-256:** `6d82f5fed8b3b8b6b5cbedfbd32dcd15d8df79a2caff495ab990a7eeb1aa9bda`
+- **Review time:** 2026-11-18 06:06 UTC
+- **Plan/character evidence:** frozen plan stanza 10, lines 510–559, especially scene brief lines 518–537 and candidate status lines 557–558; Krishna Vrindavan youth contract `character.json:11–18`, `48–55`; Gopikas contract `character.json:14–34`.
+- **Anatomy:** One youthful Krishna and four distinct adult gopikas, each with a separate face. Krishna has one head, two attached arms/hands and two legs; ten visible hands across the five figures each show a thumb and four fingers. Each of the four gopikas has two visible feet with five toes per foot; Krishna's visible foot has five toes and the other leg/foot is tucked under his dhoti. Limbs connect naturally to shoulders and bodies; no fused, duplicated, missing, or malformed person or limb was visible. Important faces and extremities remain inside the frame.
+- **Faces:** Enlarged face crop shows Krishna's forehead plain and bare in the full image. The pale stroke is a fine hairline/highlight at the edge of the dark hair beneath the low gold band; it is not a tilak or mark on the blue forehead. His one low band and single upright peacock feather match the contract. The four gopika faces are individually distinguishable and intact.
+- **Hands/feet:** Enlarged crops show the ten hands as separate, connected hands with five digits each. All eight visible gopika feet show five toes each, as does Krishna's one visible foot. No cropped key extremity or accidental overlap obscures a required digit.
+- **Clothing and cast:** Each gopika wears a fully covering village sari with modest jewelry; no exposed torso or sexualized framing. Krishna's yellow dhoti and muted red-orange shawl are present. His bare upper torso is ordinary traditional dress, not a defect. The circle around the lotus reads devotional and restrained.
+- **Text/signature artifacts:** No readable text, signature, logo, or watermark on the image, grass, water, or corners.
+- **Scene/caption fidelity:** The mapped source is a woman's face and inverted reflection over moonlit water, used only for love/union context. The candidate instead follows the stanza and plan's devotional circle of gopikas around Krishna, with lotus symbolism and no copied mirror staging. The outdoor river/garden setting supports the scene.
+- **Character/deity contract and skin:** Krishna has deep matte blue skin, youthful features, dark wavy hair, a plain forehead, yellow dhoti, muted red-orange shawl, low gold band, and single upright feather. The gopikas read warm brown rather than orange. My 11×11 cheek-patch medians were upper-left `(390,240) RGB (175,99,52), R−B 123`; upper-right `(1300,240) (150,85,46), 104`; lower-left `(205,465) (169,94,51), 118`; lower-right `(1475,465) (174,98,55), 119`. The plan's reported gopika values (lines 557–558) and my samples show natural warm-brown faces; the plan does not set the Bhattathiri-specific R−B<120 threshold for these figures. One of my patches is R−B 123, but it still reads brown and not orange. Krishna's forehead has no visible mark.
+- **Verdict: pass.** The suspected pale stroke is at the hairline under the band, not on the forehead; a full-image viewer sees a bare forehead. No other viewer-noticeable defect was found. This is an independent exact-checksum pass only, not artwork approval.
+
+## Recommendation and completion inventory
+
+Make new, versioned candidates for stanzas 6 and 8 with Bhagwan's hands rendered blue consistently with his skin; retain the same scene and anatomy. Stanza 10 does not need a forehead correction based on this review. Do not treat any reviewed artwork as approved: all remain unapproved pending the separate human approval state.
+
+I found no unresolved question that requires a captain decision from this review. The pending captain art approval is the standing state, not a decision raised here. My captain-call inventory for this review is empty.

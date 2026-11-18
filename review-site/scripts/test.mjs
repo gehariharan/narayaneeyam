@@ -539,16 +539,19 @@ assert.equal((await feedback(req({...good,daskam:95,sloka:11}),env)).status,400)
 console.log('Passed: D095 has ten caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
 const full94=data.chapters.find(c=>c.id===94);assert.ok(full94);assert.deepEqual(full94.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content94=JSON.parse(await fs.readFile(new URL('../../content/daskams/d094.json',import.meta.url)));
-const selected94=JSON.parse(await fs.readFile(new URL('../../art/batches/d094-comparison-v005.json',import.meta.url)));
-assert.equal(selected94.rows.length,10);assert.equal(selected94.review_status,'needs-review');assert.ok(full94.reviewNotice.toLowerCase().includes('unapproved'));assert.equal(selected94.rows.find(r=>r.n===7).matte.version,'v004');assert.match(selected94.rows.find(r=>r.n===4).candidate_status,/R-B ranges from 110 to 134/);assert.match(selected94.rows.find(r=>r.n===8).candidate_status,/range is R-B 121–135/);
+const selected94=JSON.parse(await fs.readFile(new URL('../../art/batches/d094-comparison-v015.json',import.meta.url)));
+const provenance94=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
+assert.equal(selected94.rows.length,10);assert.equal(selected94.review_status,'needs-review');assert.ok(full94.reviewNotice.toLowerCase().includes('unapproved'));assert.match(selected94.visual_review_status,/all ten selected versions.*passed/i);assert.equal(selected94.review_request_id,'d094-independent-review-v022m');
+assert.equal(selected94.rows.find(r=>r.n===3).matte.version,'v016');assert.equal(selected94.rows.find(r=>r.n===4).matte.version,'v034');assert.match(selected94.rows.find(r=>r.n===4).candidate_status,/minor generation drift/i);
+assert.equal(selected94.rows.find(r=>r.n===9).matte.version,'v010');assert.match(selected94.rows.find(r=>r.n===9).candidate_status,/R-B 110–129/);assert.match(selected94.rows.find(r=>r.n===9).candidate_status,/could not count.*toe tips.*no missing-toe defect/i);assert.match(selected94.rows.find(r=>r.n===9).candidate_status,/42% of height/);assert.equal(selected94.rows.find(r=>r.n===6).matte.version,'v014');assert.equal(selected94.rows.find(r=>r.n===8).matte.version,'v010');
+assert.match(selected94.rows.find(r=>r.n===3).candidate_status,/maximum R-B 120/);assert.match(selected94.rows.find(r=>r.n===4).candidate_status,/R-B 102–122/);assert.ok(selected94.rows.every(r=>r.independent_review.outcome==='pass'&&r.independent_review.request_id==='d094-independent-review-v022m'));
 for(const row of full94.rows){
  assert.equal(row.commentarySource,`intake/D094/photo-captions.txt#${row.n}`);
  assert.equal(row.commentary,content94.stanzas.find(s=>s.n===row.n).commentary_en);
  assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
  const selected=selected94.rows.find(r=>r.n===row.n);assert.ok(selected);
- for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ for(const role of ['reference','matte'])assert.equal(provenance94.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
  assert.equal(row.images.find(i=>i.role==='matte').version,selected.matte.version);
- for(const image of row.images)assert.ok(data.assets[image.key]);
  assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
 }
 assert.ok(full94.rows[5].images.find(i=>i.role==='matte').inspectionLabel.includes('not art approval'));

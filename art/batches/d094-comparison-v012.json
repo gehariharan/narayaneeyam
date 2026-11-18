@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "daskam_id": 94,
+  "description": "D094 unapproved landscape comparison batch v012. S003 v016, S004 v029, S006 v014 and S008 v010 are selected repairs. All ten selected images are pinned to the final plan and await fresh independent exact-checksum review; no art approval.",
+  "review_notice": "Unapproved candidates for comparison only. Fresh independent exact-checksum review is requested for all ten selected candidates against the frozen final plan. S003 v016 has skin-only 11x11 medians with maximum R-B 120 (one torso patch), a disclosed deviation from the 115 guide; it reads warm-brown. S004 v029 has skin-only samples R-B 103–123, with the maximum at a joined hand and slight residual orange undertone; this disclosed deviation was accepted by Firstmate after three repair attempts. S006 v014 palms are continuous blue (sampled B-R 47–72); S008 v010 palms are continuous blue (sampled B-R 82–89). Prior accepted disclosures for S001, S002, S005, S007, S009 and S010 remain. All ten rows map to numbered source photos 001–010; photos 011–014 remain preserved unmapped extras. Art remains unapproved and portraits paused.",
+  "review_status": "needs-review",
+  "visual_review_status": "Final-plan producer reports are recorded for S003 v016, S004 v029, S006 v014 and S008 v010. S003 maximum sampled skin R-B 120 and S004 maximum 123 are disclosed; Firstmate accepted those measured deviations. Fresh independent exact-checksum review of all ten selections is pending in request d094-independent-review-v020m. Earlier reports remain historical evidence; art remains unapproved.",
+  "source_mapping_sha256": "8642034f80398172e7e1a25c1c4d91606f7fe540d998c3f6665d6fcd7ffbefdb",
+  "rows": [
+    {
+      "n": 1,
+      "concept_id": "d094-s001",
+      "scene": "A single all-pervading presence and varied flames evoke the chapter’s first teaching.",
+      "reference": {
+        "file": "intake/D094/001.jpg",
+        "sha256": "10f05f5150d6abcc4766091f1cd1be881a78fd2f5cdeda2c8317b5f4d25fd190",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s001/landscape/candidate-v001.png",
+        "sha256": "30295f3021ad8ab1a0ae0824eddae8fa013b2c6e99863ce9e3144a4fda2b0260",
+        "version": "v001",
+        "label": "Landscape candidate v001",
+        "displayLabel": "Landscape candidate v001",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "Three groups of distinct logs carry small, medium and large flames against the cosmic spiral; no people or text appear. Independent exact-checksum review pending; no artwork approval.",
+      "producer_review": {
+        "file": "art/reviews/d094-s001-landscape-v001-producer-v001.md",
+        "sha256": "5335584df649e76442e80743f19dc04f0f76b295f44ebf33c90c66a69ddba9fb",
+        "outcome": "pass",
+        "reviewer_role": "producer; not independent"
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d094-s002",
+      "scene": "The guru instructs an attentive seated disciple beside the two crossed aranis.",
+      "reference": {
+        "file": "intake/D094/002.jpg",
+        "sha256": "e5fd4c71ad556c15d4f8e5d4a8f6418c1298d2452e7da35467e2d0805018b39c",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s002/landscape/candidate-v004.png",
+        "sha256": "bcae22a4383d09b83fd628d773225a09bff35a9a6c39a640f0a5e62f34f44498",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "Exactly two generic seated figures: the older guru faces and instructs the attentive disciple beside the two crossed aranis; both logs remain distinct beneath a small fire and separate branch tangle. At native and enlarged views each figure has one head, two arms, two hands, two legs and two feet; visible hands show five digits and each of four bare feet shows five toes. Skin-only 11x11 medians: guru cheek (545,217) RGB (150,76,38) R-B 112; torso (410,320) (153,77,39) R-B 114; disciple cheek (1280,215) (152,80,43) R-B 109; torso (1295,315) (152,78,40) R-B 112. No readable text. Producer reviewed; fresh independent exact-checksum review pending; no artwork approval.",
+      "producer_review": {
+        "file": "art/reviews/d094-s002-landscape-v004-producer-v002.md",
+        "sha256": "3b5b327752ca3d311b4cbfca45bdc24fc1cd4436e0327c09fd727f75b7630318",
+        "outcome": "pass",
+        "reviewer_role": "producer; not independent"
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d094-s003",
+      "scene": "Bhattathiri turns from temporary remedies toward Bhagwan’s refuge.",
+      "reference": {
+        "file": "intake/D094/003.jpg",
+        "sha256": "6d76512ff40040a64751dbff73ddffa37853e7f81b429e4e6babf8883bfa0ea4",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s003/landscape/candidate-v016.png",
+        "sha256": "6e6f9e036bec349a5ecdf13fd8f5e474e3ddc71d1066645ac4b3a6c71bc24c8b",
+        "version": "v016",
+        "label": "Landscape candidate v016",
+        "displayLabel": "Landscape candidate v016",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "One older Bhattathiri kneels before one calm blue Bhagwan. The crown is low matte ochre with one feather; ornaments are modest and the raised hand is blue. Skin-only 11x11 medians at the same sample windows as prior versions have maximum R-B 120 (torso); the other listed samples are 103–119. The max is disclosed against the 115 guide; skin reads warm-brown. At enlarged view Bhattathiri has two connected arms and joined hands; Bhagwan has two attached arms and two open hands, with the raised hand showing thumb plus four fingers and the lap thumb naturally partly occluded. Visible feet show five toes each. No extra figure or text. Producer reviewed; independent review pending; no art approval.",
+      "producer_review": {
+        "file": "art/reviews/d094-s003-landscape-v016-producer-v001.md",
+        "sha256": "10d263babea4796317a7e434289b028d2fd7d53ff99b923fcd5405c8133cce7a",
+        "outcome": "pass with disclosed Bhattathiri skin measurement deviation",
+        "reviewer_role": "producer; not independent"
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d094-s004",
+      "scene": "Even the highest celestial realm is unsettled; the poet seeks refuge and release.",
+      "reference": {
+        "file": "intake/D094/004.jpg",
+        "sha256": "1cd9c48899e45b86751a317a51d42b89bd1e3c670596479624dc6b9ca3c18dd3",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s004/landscape/candidate-v029.png",
+        "sha256": "b28c1e70793bc53689d07b0544ac5b6c79232d2ea63d2b3511c46e4809a7ff27",
+        "version": "v029",
+        "label": "Landscape candidate v029",
+        "displayLabel": "Landscape candidate v029",
+        "dimensions_px": "1670x942"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "The three-figure celestial scene remains: Brahma has four distinct heads and four attached arms with lotus, rosary, water pot and blank scripture; Bhattathiri is one devotee; Bhagwan is blue and two-armed. Skin-only 11x11 medians range R-B 103–123, with the maximum at a joined hand; the slight residual orange undertone and deviation above 120 are disclosed and accepted by Firstmate. Crown and ornament restraint remain. Enlarged inspection found no added figure or merged limb; one deity foot overlaps the other, and the fifth toe on the overlapped foot remains uncertain. Fresh independent review pending; no art approval.",
+      "producer_review": {
+        "file": "art/reviews/d094-s004-landscape-v029-producer-v001.md",
+        "sha256": "1e41ee52a7a0fcb9c3fffc76f3b8b47c98909baf25a25948017a6ab2105f04f1",
+        "outcome": "pass with disclosed skin measurement deviation, selected by Firstmate",
+        "reviewer_role": "producer; not independent"
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d094-s005",
+      "scene": "One connected tree holds both dream and waking; the reclining figure now has two clearly separated arms, with the second hand visible on the thigh.",
+      "reference": {
+        "file": "intake/D094/005.jpg",
+        "sha256": "32720af189874958820a308efaa8a34677825830742422e5192d1845240e8864",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s005/landscape/candidate-v017.png",
+        "sha256": "889cedf92b0bb17a54b66abf8178dc69e120486559e2e5b95e3c2b2e783dc268",
+        "version": "v017",
+        "label": "Landscape candidate v017",
+        "displayLabel": "Landscape candidate v017",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "One generic reclining figure rests on the connected dream/waking tree with its mango cluster and waking-side lotus. The forehead is plain and bare; no devotional ornaments are visible. A plain opaque warm-cream uttariya fully covers the chest and remains distinct from both arms. The figure has one head, two attached arms from distinct shoulder paths, two legs and two feet; the thigh-resting hand is visible and shows a thumb plus four fingers. The head-supporting hand shows four clear fingers; its thumb is partly occluded at the head contact, disclosed and accepted by Firstmate as previously accepted. Each visible foot shows five toes. Skin-only 11x11 median samples at upper-left crop origins: cheek (215,385) RGB (173,88,37), R-B 136; cheek (225,395) (176,92,40), R-B 136; cheek (235,410) (132,61,22), R-B 110; upper arm (480,430) (152,70,27), R-B 125; arm (520,435) (172,85,34), R-B 138. The recorded range is 110–138; values above the R-B 120 guide are disclosed. Firstmate directly reviewed and selected this version, noting that the exposed skin reads clearly warm brown. Fresh producer review is recorded; independent exact-checksum review pending; art remains unapproved.",
+      "producer_review": {
+        "file": "art/reviews/d094-s005-landscape-v017-producer-v002.md",
+        "sha256": "2c7e5f85c24d271974692262b3dbb8239822d89540de0267759983e203aef8c7",
+        "outcome": "pass with accepted thumb occlusion and skin guide deviation disclosed",
+        "reviewer_role": "producer; not independent"
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d094-s006",
+      "scene": "Bhattathiri offers his mind in devotion and receives the guru’s word.",
+      "reference": {
+        "file": "intake/D094/006.jpg",
+        "sha256": "5364ee0c217509f0d0d8abd0c504cba22b86dfde92e64c3642f4df42e2ed0770",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s006/landscape/candidate-v014.png",
+        "sha256": "448cb1440eed6f1814c0a38818f94a25498c1b541248eb74667b3980f87750f4",
+        "version": "v014",
+        "label": "Landscape candidate v014",
+        "displayLabel": "Landscape candidate v014",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "The garden scene retains one older devotee and one serene two-armed deity. Both deity hands are continuous blue from arms through palms and digits (sampled palm B-R 47–72). Each open hand shows a thumb plus four fingers; no extra arm or digit is visible. Bhattathiri's joined hands and five-toed exposed foot remain; both deity feet show five toes. No readable writing or added figure. Producer pass; independent review pending; no art approval.",
+      "producer_review": {
+        "file": "art/reviews/d094-s006-landscape-v014-producer-v001.md",
+        "sha256": "545827d25f85a1aaecdac27dd8a6c4cdba22740c92a42d478fe84d422c599e09",
+        "outcome": "pass",
+        "reviewer_role": "producer; not independent"
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d094-s007",
+      "scene": "An unmarked scripture and a healthy unmilked cow recall labor without devotion.",
+      "reference": {
+        "file": "intake/D094/007.jpg",
+        "sha256": "3944b0be1b775dfea9612938fe0e66e5ca6ef4e50aaa419a098ab4f455572c50",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s007/landscape/candidate-v004.png",
+        "sha256": "b8b76fe0985c5a89aa381e61496c42c443b300969dc539ca31d733901a15486e",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "The open two-leaf palm manuscript has smooth, flat, uniformly pale-tan faces with no repeated pattern, writing, glyphs, ruled lines or marks. The enlarged lower-body view shows four attached cow legs and four distinct hooves; the empty bowl and flower remain. Producer-reviewed pass; fresh independent exact-checksum review pending; no artwork approval.",
+      "producer_review": {
+        "file": "art/reviews/d094-s007-landscape-v004-producer-v001.md",
+        "sha256": "d991e10214ed7453cdbed174ad576d456573bb4eeaf7879254772bd85e7564b8",
+        "outcome": "pass",
+        "reviewer_role": "producer; not independent"
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d094-s008",
+      "scene": "Bhattathiri worships Bhagwan and follows the footprints of the beloved devotees.",
+      "reference": {
+        "file": "intake/D094/008.jpg",
+        "sha256": "640d12c6e29e3b9d273c725216576a36db3a84b86a55e43622e3145ecbe3dd30",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s008/landscape/candidate-v010.png",
+        "sha256": "721c9ae7a70c7d600f385991a314cccf59410420317f12e24b7c653ab8ccd2ac",
+        "version": "v010",
+        "label": "Landscape candidate v010",
+        "displayLabel": "Landscape candidate v010",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "The scene retains one Bhattathiri and one Bhagwan with the veena, offerings and three separate footprint pairs. Both deity palms are continuous blue (sampled B-R 82–89); each deity hand and both Bhattathiri hands show a thumb plus four fingers. Bhattathiri's exposed foot and both deity feet show five toes. Faces and limb attachments remain clear; no added person or readable text. Producer pass; independent review pending; no art approval.",
+      "producer_review": {
+        "file": "art/reviews/d094-s008-landscape-v010-producer-v001.md",
+        "sha256": "b63ab297fd9b15ae7ea4a82856891c0d50f91de1dfd2b17c1123abef72d26c75",
+        "outcome": "pass",
+        "reviewer_role": "producer; not independent"
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d094-s009",
+      "scene": "Bhattathiri serves at the temple while worshipping the four-armed Bhagwan.",
+      "reference": {
+        "file": "intake/D094/009.jpg",
+        "sha256": "d7acddd47035fdecc39904ce757cb0d1d920dbc879d19ddaab6110eb2af41401",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s009/landscape/candidate-v005.png",
+        "sha256": "0819104ff28151e82c7af260792a2e655c4608ce2b9ac05c4cba8f0089b76a43",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "DISCLOSED DEVIATION: warm-brown skin target is R-B below 120. ImageMagick 11x11 median patches are reported by upper-left crop origin. Independent reviewer values, reproduced exactly: cheek origin (420,170) RGB (172,88,49), R-B 123; chest (390,260) RGB (178,90,52), R-B 126; forearm (470,360) RGB (180,94,56), R-B 124. My additional skin-only patches: cheek (430,180) RGB (177,94,55), R-B 122; chest (400,270) RGB (182,98,59), R-B 123; forearm (460,350) RGB (151,77,45), R-B 106. Earlier producer samples recorded centers (420,185), (345,300), (470,360); converting those centers to crop origins (415,180), (340,295), (465,355) gives RGB (171,88,50), R-B 121; (182,95,56), R-B 126; (154,82,49), R-B 105. The reviewer’s (470,360) origin patch differs from the prior center-based patch by five pixels in each axis and measures R-B 124; both measurements are retained, not treated as the same patch. Multiple cheek/chest/forearm windows exceed target. No regeneration because repair rounds are exhausted. Producer reinspection needs-fix; independent exact-checksum re-review pending; no artwork approval.",
+      "producer_review": {
+        "file": "art/reviews/d094-s009-landscape-v005-producer-v003.md",
+        "sha256": "7c25699dfafd95f8c9ca841aa9e83f77aa965b03557897285e6b674ba17f2da1",
+        "outcome": "needs-fix",
+        "reviewer_role": "producer; not independent"
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d094-s010",
+      "scene": "The gopikas’ loving circle around Krishna expresses the devotion he honors.",
+      "reference": {
+        "file": "intake/D094/010.jpg",
+        "sha256": "536b8d31cb933bfada7d62ca9478f0e24937953cc016a0e1b94d57a1cb16435f",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d094/s010/landscape/candidate-v006.png",
+        "sha256": "6d82f5fed8b3b8b6b5cbedfbd32dcd15d8df79a2caff495ab990a7eeb1aa9bda",
+        "version": "v006",
+        "label": "Landscape candidate v006",
+        "displayLabel": "Landscape candidate v006",
+        "dimensions_px": "1671x941"
+      },
+      "alternates": [],
+      "chapter_label": "Dasakam 94",
+      "candidate_status": "Gopika face skin-only patch medians R-B 97, 99, 116 and 118; Krishna face/torso B-R 88/87. Krishna forehead is bare apart from one low band and feather; all ten visible hands show thumb plus four fingers, and each of eight visible gopika feet plus Krishna’s visible foot show five toes. Independent exact-checksum review pending; no artwork approval.",
+      "producer_review": {
+        "file": "art/reviews/d094-s010-landscape-v006-producer-v001.md",
+        "sha256": "ec56d719c1b70557c038efe58ae1e3016908239de55770154c01c9a98c0b92ea",
+        "outcome": "pass",
+        "reviewer_role": "producer; not independent"
+      }
+    }
+  ],
+  "artwork_approval": "not-approved",
+  "approval_manifest_updated": false,
+  "portrait_status": "paused",
+  "plan_sha256": "c1045808956b74cb7329b282d1cb10a6ecfccf4e199359ccf888d7048cbc44bb",
+  "review_scope": {
+    "changed_images": [
+      {
+        "stanza": 1,
+        "version": "v001",
+        "candidate_file": "artifacts/d094/s001/landscape/candidate-v001.png",
+        "candidate_sha256": "30295f3021ad8ab1a0ae0824eddae8fa013b2c6e99863ce9e3144a4fda2b0260"
+      },
+      {
+        "stanza": 2,
+        "version": "v004",
+        "candidate_file": "artifacts/d094/s002/landscape/candidate-v004.png",
+        "candidate_sha256": "bcae22a4383d09b83fd628d773225a09bff35a9a6c39a640f0a5e62f34f44498"
+      },
+      {
+        "stanza": 3,
+        "version": "v016",
+        "candidate_file": "artifacts/d094/s003/landscape/candidate-v016.png",
+        "candidate_sha256": "6e6f9e036bec349a5ecdf13fd8f5e474e3ddc71d1066645ac4b3a6c71bc24c8b"
+      },
+      {
+        "stanza": 4,
+        "version": "v029",
+        "candidate_file": "artifacts/d094/s004/landscape/candidate-v029.png",
+        "candidate_sha256": "b28c1e70793bc53689d07b0544ac5b6c79232d2ea63d2b3511c46e4809a7ff27"
+      },
+      {
+        "stanza": 5,
+        "version": "v017",
+        "candidate_file": "artifacts/d094/s005/landscape/candidate-v017.png",
+        "candidate_sha256": "889cedf92b0bb17a54b66abf8178dc69e120486559e2e5b95e3c2b2e783dc268"
+      },
+      {
+        "stanza": 6,
+        "version": "v014",
+        "candidate_file": "artifacts/d094/s006/landscape/candidate-v014.png",
+        "candidate_sha256": "448cb1440eed6f1814c0a38818f94a25498c1b541248eb74667b3980f87750f4"
+      },
+      {
+        "stanza": 7,
+        "version": "v004",
+        "candidate_file": "artifacts/d094/s007/landscape/candidate-v004.png",
+        "candidate_sha256": "b8b76fe0985c5a89aa381e61496c42c443b300969dc539ca31d733901a15486e"
+      },
+      {
+        "stanza": 8,
+        "version": "v010",
+        "candidate_file": "artifacts/d094/s008/landscape/candidate-v010.png",
+        "candidate_sha256": "721c9ae7a70c7d600f385991a314cccf59410420317f12e24b7c653ab8ccd2ac"
+      },
+      {
+        "stanza": 9,
+        "version": "v005",
+        "candidate_file": "artifacts/d094/s009/landscape/candidate-v005.png",
+        "candidate_sha256": "0819104ff28151e82c7af260792a2e655c4608ce2b9ac05c4cba8f0089b76a43"
+      },
+      {
+        "stanza": 10,
+        "version": "v006",
+        "candidate_file": "artifacts/d094/s010/landscape/candidate-v006.png",
+        "candidate_sha256": "6d82f5fed8b3b8b6b5cbedfbd32dcd15d8df79a2caff495ab990a7eeb1aa9bda"
+      }
+    ],
+    "prior_request_id": "d094-independent-review-v018m",
+    "prior_request_sha256": "b205b04df3863d961548461d0972fa1d3226a90e11b18086636bc91fb78c36d4",
+    "review_scope": "Fresh independent exact-checksum review of all ten selected candidates against the final plan; the seven-image and three-image prior reports remain historical context.",
+    "only_changed_images_require_new_review": false,
+    "other_selected_images": "All ten current selections require fresh independent exact-checksum review because the final plan hash changed; prior review results remain historical only."
+  }
+}
