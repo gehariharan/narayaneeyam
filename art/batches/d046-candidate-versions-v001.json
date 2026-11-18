@@ -1,0 +1,1375 @@
+{
+  "schema_version": 1,
+  "daskam_id": 46,
+  "selection_status": "All ten frozen landscape selections have independent exact-checksum passes against plan SHA-256 244df97b3236a612a65014eb911103271c12f8910c9d2cbe11a913eb24ef6a98. S001 v009 reviewer d needs-fix is preserved verbatim; independent tiebreak reviewer e passes the same candidate and treats top hair contact as an observation. S007 miniature skin readings remain disclosed. No artwork is approved.",
+  "candidate_status": {
+    "1": "Producer pass. Independent reviewer d recorded the following exact needs-fix finding: The top of Yashoda's head/hair is cut by the frame at the upper edge, approximately x=600–850, y=0 (candidate-native pixels). The enlarged top crop confirms the hair silhouette exits the frame, and the full image visibly truncates her head. This is a viewer-noticeable framing defect under the brief's cut-off rule. Tiebreak reviewer e passed the same v009 bytes, judging the top hair contact an ordinary full-bleed observation because face and limbs are inside. Earlier needs-fix review remains preserved; art is unapproved.",
+    "2": "Producer pass. Independent reviewer d passed exact candidate v011 at native 1671x941; producer report v001 dimension label is corrected by art/reviews/d046-s002-landscape-v011-producer-metadata-correction-v001.md.",
+    "3": "Producer pass. Independent reviewer d passed; Yashoda cheek at (680,220) RGB (200,119,71), R-B 129, reads as natural warm brown rather than orange.",
+    "4": "Producer pass. Independent reviewer d pass on exact v008: Yashoda points while smiling Krishna faces her; five toes on visible feet; no text or malformed limb.",
+    "5": "Producer pass. Independent reviewer d pass on exact v006: human-sized mouth, no cosmic tableau or mud; open hand and visible toes verified.",
+    "6": "Producer pass. Independent reviewer d pass on exact v007: earth, sky, mountains and waters remain inside the mouth; no detached panel or light beam.",
+    "7": "Producer uncertain for miniature digits. Independent reviewer c passed exact v008; independent 4x4 patches: deva face R-B 101, deva upper arm/torso 119, asura arm 136. Tiny figures read warm brown/tan-brown rather than orange at full/moderate enlargement; plan-disclosed deviation retained.",
+    "8": "Producer uncertain for miniature digits. Independent reviewer c passed exact v008; Hari face B-R 153, exposed arm 152, shaded arm 97; contained form reads deep blue and retains four iconographic arms and seven connected hoods.",
+    "9": "Producer uncertain for recursive miniature digits. Independent reviewer d passed exact v004; nested mother-child scenes are intentional and no extra/malformed extremity is visible.",
+    "10": "Producer pass. Independent reviewer d passed exact v004; embrace limbs attach, visible toes are countable and the nearby feeding bowl remains covered."
+  },
+  "candidate_versions": [
+    {
+      "stanza": 1,
+      "concept_id": "d046-s001",
+      "version": "v001",
+      "file": "artifacts/d046/s001/landscape/candidate-v001.png",
+      "sha256": "01bb60eb2d95e9c5db31863f13fcc355bc4b5c9e19538d3e0474489b0174457d",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s001/prompts/landscape-v001.md",
+      "prompt_sha256": "d25432f7068c286557076ae4759c8032c8a899881319e21f1d8c522d9ff1e418"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d046-s001",
+      "version": "v002",
+      "file": "artifacts/d046/s001/landscape/candidate-v002.png",
+      "sha256": "ea5982a3abc712c4329f939b9440f136cd8716d27256b0322af2adcd8c554f56",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d046-s001",
+      "version": "v003",
+      "file": "artifacts/d046/s001/landscape/candidate-v003.png",
+      "sha256": "cf6bfce3103e3171e977514ad01907ff5c5c2e2ad8f0840b5449258b5ae4ad9d",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d046-s001",
+      "version": "v004",
+      "file": "artifacts/d046/s001/landscape/candidate-v004.png",
+      "sha256": "2569afc114fde007c6c966d0ec40c2f49e4e0ad1094a165449559617b17b1eb0",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d046-s001",
+      "version": "v005",
+      "file": "artifacts/d046/s001/landscape/candidate-v005.png",
+      "sha256": "66e1fff8d2f040320ba83750458c38c8429f3251b8678f44ea0cbbc969b9c5d2",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s001/prompts/landscape-v005.md",
+      "prompt_sha256": "1831c97b67744b6bc8279854c28438e318bfc20bc52f4e37f16540e9261e3ddb",
+      "call_arguments": "artifacts/d046/s001/prompts/landscape-v005-reference-arguments.json",
+      "call_arguments_sha256": "5bfd3961888c7587fe30f04ff05c84ddaa3ef8d58e6ecd85046a82135c3cc763"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d046-s001",
+      "version": "v006",
+      "file": "artifacts/d046/s001/landscape/candidate-v006.png",
+      "sha256": "f154938abbc0294fe00ec14e367ea2eff34e2983f4b0cabe091df85e4180c5b4",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s001/prompts/landscape-v006.md",
+      "prompt_sha256": "25294b93156edea903da7a1b5f63226ad33dd254722512551bf98d0b63ae7451",
+      "call_arguments": "artifacts/d046/s001/prompts/landscape-v006-reference-arguments.json",
+      "call_arguments_sha256": "0afbee9c5b90bf0ad3f9851c95023019d4d3582adf0654ef774383adb7ce85ca"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d046-s001",
+      "version": "v007",
+      "file": "artifacts/d046/s001/landscape/candidate-v007.png",
+      "sha256": "6a74c1ce56285428f408a11309aff8f3f49476eb492471837ddbd76855bfb9b0",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s001/prompts/landscape-v007.md",
+      "prompt_sha256": "d664a9d58b0351f323034b4eec17b2ff8aa3bd2b7e93b3f7c32b3bd2b7467d80",
+      "call_arguments": "artifacts/d046/s001/prompts/landscape-v007-reference-arguments.json",
+      "call_arguments_sha256": "8a1fe271fc924c94ae04872b29c280889e8b75cd5d3c34ad891ef4077b5dcdf0"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d046-s001",
+      "version": "v008",
+      "file": "artifacts/d046/s001/landscape/candidate-v008.png",
+      "sha256": "2d7ed9a62ebc3b883f1104ac758e53b52826e2c384fa62fc34664fa5a03b3958",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s001/prompts/landscape-v008.md",
+      "prompt_sha256": "ec63465bc3f321ae9a4604e3e863e9133d00dcfb0bf4b4e1f74af9fbd2ac0bc9",
+      "call_arguments": "artifacts/d046/s001/prompts/landscape-v008-reference-arguments.json",
+      "call_arguments_sha256": "7d78c2b9cba5d44171f1dc92cc46352e728d1387f0a994d35f4022c324c39378"
+    },
+    {
+      "stanza": 1,
+      "concept_id": "d046-s001",
+      "version": "v009",
+      "file": "artifacts/d046/s001/landscape/candidate-v009.png",
+      "sha256": "2b6715244f7f54b2d93fbd1b6abe5278e874d7921d6bbf8b33bffae1a3daa1fe",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s001/prompts/landscape-v009.md",
+      "prompt_sha256": "2b7b12518ece945ee9f65119f8dfc57462dc667acd0cf273af29665d3a856a2b",
+      "call_arguments": "artifacts/d046/s001/prompts/landscape-v009-reference-arguments.json",
+      "call_arguments_sha256": "1e2036c01f336addfb1045089ded635de0ccf6c1b9cb2820c0f64f2ba4756833",
+      "references": [
+        {
+          "path": "intake/D046/001.jpg",
+          "sha256": "81989f2692789bdddb1c51d64729028495e709325c1e2726ccf52a1b7768fa9b"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d046/references/infant-krishna-anchor-v004.png",
+          "sha256": "02dc00fb91d08b0ace6141e184834a52c0143058001cc778f1d5dd79d38cd13d"
+        },
+        {
+          "path": "artifacts/d046/s001/landscape/candidate-v007.png",
+          "sha256": "6a74c1ce56285428f408a11309aff8f3f49476eb492471837ddbd76855bfb9b0"
+        },
+        {
+          "path": "artifacts/d046/review-crops/s001-v008-feet.png",
+          "sha256": "5a7e5af9cd847fbe3805aa4f3f6297bf71629a6da9ff914a74e4aeaeba7d6e3d"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Yashoda face patch R-B 116; infant Krishna B-R 117. The supporting hand across the infant has four visible fingertips; the thumb is naturally occluded by the infant, not presented as an open gesture. Infant feet show five toe tips each. One simple necklace is visible on the otherwise infant-form figure. Producer outcome: pass; independent exact-checksum review pending.",
+      "producer_outcome": "pass",
+      "producer_report": "art/reviews/d046-s001-landscape-v009-producer-review-v001.md",
+      "producer_report_sha256": "877a51d8dd0c8499ed87ec910f510df5e5e51f74ceeaadada36f9687cf247574",
+      "candidate_status": "Producer pass. Independent reviewer d recorded the following exact needs-fix finding: The top of Yashoda's head/hair is cut by the frame at the upper edge, approximately x=600–850, y=0 (candidate-native pixels). The enlarged top crop confirms the hair silhouette exits the frame, and the full image visibly truncates her head. This is a viewer-noticeable framing defect under the brief's cut-off rule. Tiebreak reviewer e passed the same v009 bytes, judging the top hair contact an ordinary full-bleed observation because face and limbs are inside. Earlier needs-fix review remains preserved; art is unapproved.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v001",
+      "file": "artifacts/d046/s002/landscape/candidate-v001.png",
+      "sha256": "6f5c2c6ae292ecb11e6b16bd4dda633502d40deb6c58dcc16b80a358555a7ef1",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s002/prompts/landscape-v001.md",
+      "prompt_sha256": "5854b2a5881d62db1168d067aef62e4caaf40194a1c34baee160b04256c8f963"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v002",
+      "file": "artifacts/d046/s002/landscape/candidate-v002.png",
+      "sha256": "3eb23d47a2021932afa896dc00166b3c834df356b79817b8922fd1f73cd7d0fd",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v003",
+      "file": "artifacts/d046/s002/landscape/candidate-v003.png",
+      "sha256": "bea3bb04b493f915c19fe73b67d34f2913b62b67a20dc6c576f9a5214ce7408d",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v004",
+      "file": "artifacts/d046/s002/landscape/candidate-v004.png",
+      "sha256": "0833f3a622e9c47597f8f3a4e06f8156c057240550ba6eee11ed38a1978f1981",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v005",
+      "file": "artifacts/d046/s002/landscape/candidate-v005.png",
+      "sha256": "3834d6cad35919dec0aa2f45e1f8fbd62d719ebf547590a77361cc6839da7221",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s002/prompts/landscape-v005.md",
+      "prompt_sha256": "13bc61c503aaa25d3269f8dc057c9cbde05baceb9814745d85d2f6260d975449",
+      "call_arguments": "artifacts/d046/s002/prompts/landscape-v005-reference-arguments.json",
+      "call_arguments_sha256": "8e4cb5c74b047b8ec119a7527e9765a81438c94934d4ee4f3894875ba6d02eea"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v006",
+      "file": "artifacts/d046/s002/landscape/candidate-v006.png",
+      "sha256": "ca9c7d8f097785bbeb184ca10182a2c75078b019f9f25949c08d4945eb0a5fa8",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s002/prompts/landscape-v006.md",
+      "prompt_sha256": "7c791251446b3e2c1b5b5c1d8538412a2ab638ae9cbc82c550ce9cc960ea6c1c",
+      "call_arguments": "artifacts/d046/s002/prompts/landscape-v006-reference-arguments.json",
+      "call_arguments_sha256": "83139a22d18d48c9d7eeb01ddbeddd7765a47e9103805f91d10cf951941159c7"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v007",
+      "file": "artifacts/d046/s002/landscape/candidate-v007.png",
+      "sha256": "1c19f16669ac9a3516421e7099d807a7bd0d795fb6cc33a1e0b9ee4b5a14494e",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s002/prompts/landscape-v007.md",
+      "prompt_sha256": "64243b21b77a9d75f2fa3763c1765b022b613dd9fe5696a421684400cfb35eb4",
+      "call_arguments": "artifacts/d046/s002/prompts/landscape-v007-reference-arguments.json",
+      "call_arguments_sha256": "a2c12f2c4c74cde5138cab70f1daeb9204b1d83b050958039929217f872b1716"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v008",
+      "file": "artifacts/d046/s002/landscape/candidate-v008.png",
+      "sha256": "c63b957509a1bfa50471fb4ccb47697b8a2a55b433962f2f14188f0fa81c17e2",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s002/prompts/landscape-v008.md",
+      "prompt_sha256": "15017d4fe3152de056f9f338ff15b414307331fc5ef22feaaa9b038f261b51d1",
+      "call_arguments": "artifacts/d046/s002/prompts/landscape-v008-reference-arguments.json",
+      "call_arguments_sha256": "19cbd47fc1f4113c99e3f2127f8bc35786d1d8984f47bb651623daaba7b89d5c"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v009",
+      "file": "artifacts/d046/s002/landscape/candidate-v009.png",
+      "sha256": "7c11f0d50a4110dec785e0c9c412fd83654cf17fc8e7f80c123e3c7c06cbda64",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s002/prompts/landscape-v009.md",
+      "prompt_sha256": "23f7cc201ea1ed6be7e790aa3d136e59666a6cfe52723c8baa45b8676bdac1c2",
+      "call_arguments": "artifacts/d046/s002/prompts/landscape-v009-reference-arguments.json",
+      "call_arguments_sha256": "e4bf7ddb5b435a8b8a61fb94ab6a67d6e43ec95ae3ec9bb441fc184c7dfa238e"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v010",
+      "file": "artifacts/d046/s002/landscape/candidate-v010.png",
+      "sha256": "32ddad98df6be57f3c08a6f7b0fd16ead32560a79d7df395fa5418adf5453126",
+      "native_dimensions": "1671x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s002/prompts/landscape-v010.md",
+      "prompt_sha256": "1c937430fe183604394068e22932b007102033b83b4dbc0ea9da4d62e13f10de",
+      "call_arguments": "artifacts/d046/s002/prompts/landscape-v010-reference-arguments.json",
+      "call_arguments_sha256": "faf2c8a2ffa851098e0983dcb3866af7a9e9a32d800b2083ca5fb3678c800f2a"
+    },
+    {
+      "stanza": 2,
+      "concept_id": "d046-s002",
+      "version": "v011",
+      "file": "artifacts/d046/s002/landscape/candidate-v011.png",
+      "sha256": "8c623cc9d134e6f0924435c5f196f43f319749a1c2ce842398e2ad00c8863f8c",
+      "native_dimensions": "1671x941",
+      "prompt": "artifacts/d046/s002/prompts/landscape-v011.md",
+      "prompt_sha256": "9482d9e57a4e449431cecbe66dd04af1421a1b0ac0033e2bbd00f3d87de47d5c",
+      "call_arguments": "artifacts/d046/s002/prompts/landscape-v011-reference-arguments.json",
+      "call_arguments_sha256": "2d108e301b298054923f7994e270e7a59c25e937d65f60a3afbb05498e30e409",
+      "references": [
+        {
+          "path": "artifacts/d046/s002/landscape/candidate-v010.png",
+          "sha256": "32ddad98df6be57f3c08a6f7b0fd16ead32560a79d7df395fa5418adf5453126"
+        },
+        {
+          "path": "intake/D046/002.jpg",
+          "sha256": "7503d01e2003083ee7f3fb57b90e9b8efb69248ceee021ca5883b27e1b96eb71"
+        },
+        {
+          "path": "artifacts/d046/s002/landscape/candidate-v007.png",
+          "sha256": "1c19f16669ac9a3516421e7099d807a7bd0d795fb6cc33a1e0b9ee4b5a14494e"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Yashoda face patch R-B 108; complaining boy R-B 95; fruit boy R-B 111; Krishna B-R 191. Yashoda’s open hand and the complainant’s pointing hand show thumb plus four fingers; object-holding digits are naturally occluded. All visible feet show five toe tips. Producer outcome: pass; independent exact-checksum review pending.",
+      "producer_outcome": "pass",
+      "producer_report": "art/reviews/d046-s002-landscape-v011-producer-review-v001.md",
+      "producer_report_sha256": "a644c3af3820067582959e7cfe0b550a0434b0c3a63e02df34fb4072725453f4",
+      "candidate_status": "Producer pass. Independent reviewer d passed exact candidate v011 at native 1671x941; producer report v001 dimension label is corrected by art/reviews/d046-s002-landscape-v011-producer-metadata-correction-v001.md.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d046-cowherd-boys/character.json",
+          "sha256": "72f2876be4d885c91eddbcd26abdd4b2012e6ae63cbec81b55e13c9bdc968496"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d046-s003",
+      "version": "v001",
+      "file": "artifacts/d046/s003/landscape/candidate-v001.png",
+      "sha256": "1542d05453a47151bf251eb05e6b293e3bbb98ef34991e356a5e9bc38b5cb5fa",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s003/prompts/landscape-v001.md",
+      "prompt_sha256": "2ef2ef5c45e0d5901919fad2a3b2426088b5ea2aa464db8aa0ab150939e941a4"
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d046-s003",
+      "version": "v002",
+      "file": "artifacts/d046/s003/landscape/candidate-v002.png",
+      "sha256": "61a4d5b8dcfa17f69e5add41291c1d12327d67533f3676319bdc8e87cabe3044",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d046-s003",
+      "version": "v003",
+      "file": "artifacts/d046/s003/landscape/candidate-v003.png",
+      "sha256": "eff1c345da10bdfe8190c0b28d9c0fcfbce50fa5e8fac4295a4b7c90aecafb0e",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d046-s003",
+      "version": "v004",
+      "file": "artifacts/d046/s003/landscape/candidate-v004.png",
+      "sha256": "82a1e8855eadf521fe558316ac8a7953407c1b3e8fca4e13dfe46da0854486ca",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d046-s003",
+      "version": "v005",
+      "file": "artifacts/d046/s003/landscape/candidate-v005.png",
+      "sha256": "b805e9acc9d503ed70edfb8bbba0204dd108497927cb91cdc2717f3c422072fd",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s003/prompts/landscape-v005.md",
+      "prompt_sha256": "a165762a06978da73e8f4aa9d55336a2fd268e2b4019c3e03e7978d5b6d273b2",
+      "call_arguments": "artifacts/d046/s003/prompts/landscape-v005-reference-arguments.json",
+      "call_arguments_sha256": "e5450ea217499f79fbde90b88ce4c603fe5fcdf9667c9ec6456c3ebb0a4b66e8"
+    },
+    {
+      "stanza": 3,
+      "concept_id": "d046-s003",
+      "version": "v006",
+      "file": "artifacts/d046/s003/landscape/candidate-v006.png",
+      "sha256": "44f8a4fdb6e2b5dc32db260e817ea4dcfbfbb290c18adfd63b87b3c394f56e35",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s003/prompts/landscape-v006.md",
+      "prompt_sha256": "8231a6e087c4400c73aeeb00fd8e1a319cada87f75829bd6a7ac8836a5d5fe95",
+      "call_arguments": "artifacts/d046/s003/prompts/landscape-v006-reference-arguments.json",
+      "call_arguments_sha256": "81ee9bac4d9bf495bdd58ed6a1d54671f459c03c682f32701b4504727c018dd3",
+      "references": [
+        {
+          "path": "intake/D046/003.jpg",
+          "sha256": "57a524380896451d71bdc44006cb9988889767293f668735aff0d6d29aef3372"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f"
+        },
+        {
+          "path": "artifacts/d046/s002/landscape/candidate-v007.png",
+          "sha256": "1c19f16669ac9a3516421e7099d807a7bd0d795fb6cc33a1e0b9ee4b5a14494e"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Yashoda face patch R-B 112; Krishna B-R 130. Mother’s open hand shows five digits, Krishna points toward the mouth, and visible feet show five toe tips each. Producer outcome: pass; independent exact-checksum review pending.",
+      "producer_outcome": "pass",
+      "producer_report": "art/reviews/d046-s003-landscape-v006-producer-review-v001.md",
+      "producer_report_sha256": "1e61f5f99f15385a70943b029eb088f8cd24ff77b5897832b9ff0432adf6f602",
+      "candidate_status": "Producer pass. Independent reviewer d passed; Yashoda cheek at (680,220) RGB (200,119,71), R-B 129, reads as natural warm brown rather than orange.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d046-s004",
+      "version": "v001",
+      "file": "artifacts/d046/s004/landscape/candidate-v001.png",
+      "sha256": "4834c2be2860ece90733bbceda70703eb07fff120bc86932f4e318d904d59927",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s004/prompts/landscape-v001.md",
+      "prompt_sha256": "9c62a7da17a75c9feba0daa95be6510abdd4721c04b04330acbdf3e8fc001166"
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d046-s004",
+      "version": "v002",
+      "file": "artifacts/d046/s004/landscape/candidate-v002.png",
+      "sha256": "2c5a1de46b3c8d04c4befb6c99f2e0970c5f8450a2e8423acf629d5d7060baa5",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d046-s004",
+      "version": "v003",
+      "file": "artifacts/d046/s004/landscape/candidate-v003.png",
+      "sha256": "56d0904e0a0db75171000aa0fb9cdab65c09f9e8aff3d0c50a34ab54fcb80f2c",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d046-s004",
+      "version": "v004",
+      "file": "artifacts/d046/s004/landscape/candidate-v004.png",
+      "sha256": "fdc812ee566e237180dbb5fc9cc4c425c3b0151ab79aac1db302f7f8b5482b11",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d046-s004",
+      "version": "v005",
+      "file": "artifacts/d046/s004/landscape/candidate-v005.png",
+      "sha256": "9faae3518cc39cae366c33e8235499585bab0e4a238834e59f94ad9df93ec182",
+      "native_dimensions": "1671x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d046-s004",
+      "version": "v006",
+      "file": "artifacts/d046/s004/landscape/candidate-v006.png",
+      "sha256": "ff8ee250ad629ba7a4331c7a3103f3f9e04bf8adbcb8f740d3280d3418d5370a",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s004/prompts/landscape-v006.md",
+      "prompt_sha256": "34d577612d35f178d209a5c36462ff3a5b182835886036f45e53946ee0639950",
+      "call_arguments": "artifacts/d046/s004/prompts/landscape-v006-reference-arguments.json",
+      "call_arguments_sha256": "646066bb2031586b7811913cc517fad71ad74995f4a725244ae3b6d3a6dfeafc"
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d046-s004",
+      "version": "v007",
+      "file": "artifacts/d046/s004/landscape/candidate-v007.png",
+      "sha256": "9efb8a1b55a158e0f518948bfb0a77e3c99ca8c02ed42f37756d77c45bba2bcd",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s004/prompts/landscape-v007.md",
+      "prompt_sha256": "fc5f51d57206fedfcc758ff3cba5f26a909dc208fc9dd839075bcee37e8e01b9",
+      "call_arguments": "artifacts/d046/s004/prompts/landscape-v007-reference-arguments.json",
+      "call_arguments_sha256": "f26841a9289473ecd5f0ebe0c52df5defe7fdc0c0aa2a82f3d01096da7a96bc2"
+    },
+    {
+      "stanza": 4,
+      "concept_id": "d046-s004",
+      "version": "v008",
+      "file": "artifacts/d046/s004/landscape/candidate-v008.png",
+      "sha256": "e1d89b5584fef9336cf4703094e91a232813d536f8f78a215e1f852c9296bc31",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s004/prompts/landscape-v008.md",
+      "prompt_sha256": "942a0bf247dda232b617f85b7786a88f1be6bf8fa015e9870b0d04322130e846",
+      "call_arguments": "artifacts/d046/s004/prompts/landscape-v008-reference-arguments.json",
+      "call_arguments_sha256": "902761b77b746d55391364d57adf33e083f573f63d6fab3162d44aa23e546edf",
+      "references": [
+        {
+          "path": "artifacts/d046/s004/landscape/candidate-v007.png",
+          "sha256": "9efb8a1b55a158e0f518948bfb0a77e3c99ca8c02ed42f37756d77c45bba2bcd"
+        },
+        {
+          "path": "intake/D046/004.jpg",
+          "sha256": "0e8d9b238f8cb8de43ecc7c9bfa36e976bfba33ea6de4cf0663467e938fe37a6"
+        },
+        {
+          "path": "artifacts/d046/s003/landscape/candidate-v006.png",
+          "sha256": "44f8a4fdb6e2b5dc32db260e817ea4dcfbfbb290c18adfd63b87b3c394f56e35"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Yashoda face patch R-B 90; Krishna B-R 144. Yashoda points while Krishna denies; five toe tips show on visible feet. Plain forehead, one low band and one feather. Producer outcome: pass; independent exact-checksum review pending.",
+      "producer_outcome": "pass",
+      "producer_report": "art/reviews/d046-s004-landscape-v008-producer-review-v001.md",
+      "producer_report_sha256": "46a6d934a36fcfa7dfdd01b89a1890fe21e9060c09b98842e428e0c5222c92b2",
+      "candidate_status": "Producer pass. Independent reviewer d pass on exact v008: Yashoda points while smiling Krishna faces her; five toes on visible feet; no text or malformed limb.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d046-s005",
+      "version": "v001",
+      "file": "artifacts/d046/s005/landscape/candidate-v001.png",
+      "sha256": "ff3f4713d3f7b25e070b4aadc75bb24231ecaabe9828b8efce48fc2ab20ea050",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s005/prompts/landscape-v001.md",
+      "prompt_sha256": "a21179ae499a6910cfc870e4402685a58e005de1458cdef86da749d309deeba2"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d046-s005",
+      "version": "v002",
+      "file": "artifacts/d046/s005/landscape/candidate-v002.png",
+      "sha256": "4dd268b5fc9394343a9dcd75c2d8068f4efa40fdec27001df3ba67cc36cfb752",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d046-s005",
+      "version": "v003",
+      "file": "artifacts/d046/s005/landscape/candidate-v003.png",
+      "sha256": "9c2f0ca7a3408dadc9d84ec2431b47511918f06a37e5e3eeaafbffc83b40382e",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d046-s005",
+      "version": "v005",
+      "file": "artifacts/d046/s005/landscape/candidate-v005.png",
+      "sha256": "3c1c3146e2d3238e738c26ac11fe298313cd0628a2472748eebebc3bcaba18b1",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s005/prompts/landscape-v005.md",
+      "prompt_sha256": "f83cd8fdfa7f48070cdf88b567fe2de4999fd185302511bb38e5325a665dee56",
+      "call_arguments": "artifacts/d046/s005/prompts/landscape-v005-reference-arguments.json",
+      "call_arguments_sha256": "581a2b6bd13b12b700e74eaf22c50f463e313c6f5c1ab599976aded9c98a0cf0"
+    },
+    {
+      "stanza": 5,
+      "concept_id": "d046-s005",
+      "version": "v006",
+      "file": "artifacts/d046/s005/landscape/candidate-v006.png",
+      "sha256": "f3d92721c7c5031dc73b950e03502e6c172b9c805dce9066a3bbda4c47b87fd8",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s005/prompts/landscape-v006.md",
+      "prompt_sha256": "e6d5228c545693b0f504c5c12bab71ce786fd3e95315bb8c28fe9a9fed70c2f5",
+      "call_arguments": "artifacts/d046/s005/prompts/landscape-v006-reference-arguments.json",
+      "call_arguments_sha256": "29d1d0784384eb0faa6b46e8af983bd8da80aa6264bcd293c016fff51f606fd8",
+      "references": [
+        {
+          "path": "artifacts/d046/s005/landscape/candidate-v005.png",
+          "sha256": "3c1c3146e2d3238e738c26ac11fe298313cd0628a2472748eebebc3bcaba18b1"
+        },
+        {
+          "path": "intake/D046/005.jpg",
+          "sha256": "0f6a4201ed1c652cb7af84ecd7b564b234d96b9963435bd0a77edaae8ecafad9"
+        },
+        {
+          "path": "artifacts/d046/s003/landscape/candidate-v006.png",
+          "sha256": "44f8a4fdb6e2b5dc32db260e817ea4dcfbfbb290c18adfd63b87b3c394f56e35"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Yashoda face patch R-B 88; Krishna B-R 143. Her open gesture shows five digits; visible feet show five toes each. Mouth opening remains human-sized with no cosmic tableau. Producer outcome: pass; independent exact-checksum review pending.",
+      "producer_outcome": "pass",
+      "producer_report": "art/reviews/d046-s005-landscape-v006-producer-review-v001.md",
+      "producer_report_sha256": "0db836ce74a8121eeeb0695e2c399b04a36828b5e21f2e0e2caa2da452550bf1",
+      "candidate_status": "Producer pass. Independent reviewer d pass on exact v006: human-sized mouth, no cosmic tableau or mud; open hand and visible toes verified.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d046-s006",
+      "version": "v001",
+      "file": "artifacts/d046/s006/landscape/candidate-v001.png",
+      "sha256": "ab6a52fd790a2347de8cb80c5ecf694277fd3d1ad59ce6a5c754b821c3e9ed09",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d046-s006",
+      "version": "v002",
+      "file": "artifacts/d046/s006/landscape/candidate-v002.png",
+      "sha256": "1b701da7f617d0fce4740780b387d8ea144d08add2a5ac0e399cbc37c5b78245",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s006/prompts/landscape-v002.md",
+      "prompt_sha256": "d24303085c85afcd528c04f29d997726cbf74b8775dd9f9a1d92650796d82519"
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d046-s006",
+      "version": "v003",
+      "file": "artifacts/d046/s006/landscape/candidate-v003.png",
+      "sha256": "349aedb59b76dfd2d659a9c52c5783f183957def2b9deb0e8f3ea7b8c93e0240",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d046-s006",
+      "version": "v004",
+      "file": "artifacts/d046/s006/landscape/candidate-v004.png",
+      "sha256": "0950ee8cde3f4151181f057ba8b426192f5582df249917a2e6ac91fb59def5b8",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d046-s006",
+      "version": "v006",
+      "file": "artifacts/d046/s006/landscape/candidate-v006.png",
+      "sha256": "f702b110a2520b259225708cabd823a455309806f3c553d516c7620d9638cd6a",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s006/prompts/landscape-v006.md",
+      "prompt_sha256": "2f0203799a0ef7bdeef4a901cb95a00ffb6adce8de7c94e71bc01b4464bedd7b",
+      "call_arguments": "artifacts/d046/s006/prompts/landscape-v006-reference-arguments.json",
+      "call_arguments_sha256": "85c5fce13a7e2d774b20627972167e25602c3ef590dd53ebaa6078f5467769dc"
+    },
+    {
+      "stanza": 6,
+      "concept_id": "d046-s006",
+      "version": "v007",
+      "file": "artifacts/d046/s006/landscape/candidate-v007.png",
+      "sha256": "778374e58b889a27bfbd346646519186dcd787cca8eb89ea8ddffdfb2ba02f12",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s006/prompts/landscape-v007.md",
+      "prompt_sha256": "63e69735f15fb9dda2807c28355ed2f78a4b92fe483ac742f788314dd18e2920",
+      "call_arguments": "artifacts/d046/s006/prompts/landscape-v007-reference-arguments.json",
+      "call_arguments_sha256": "1791d5984b43660ea7ea13a9d890ee4993ab5b3e042d639473d5a7f13c8782d3",
+      "references": [
+        {
+          "path": "artifacts/d046/s006/landscape/candidate-v006.png",
+          "sha256": "f702b110a2520b259225708cabd823a455309806f3c553d516c7620d9638cd6a"
+        },
+        {
+          "path": "intake/D046/006.jpg",
+          "sha256": "400e4efe688842063c1bf8f10416a9740eea66ae98ce8122f4503c4881b48272"
+        },
+        {
+          "path": "artifacts/d046/s004/landscape/candidate-v008.png",
+          "sha256": "e1d89b5584fef9336cf4703094e91a232813d536f8f78a215e1f852c9296bc31"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Yashoda face patch R-B 97; Krishna B-R 96. Open-hand and pointing gestures attach to their arms; visible feet show five toes each. Earth/world scene stays inside the mouth. Producer outcome: pass; independent exact-checksum review pending.",
+      "producer_outcome": "pass",
+      "producer_report": "art/reviews/d046-s006-landscape-v007-producer-review-v001.md",
+      "producer_report_sha256": "15ba80cfc5f9f714bcdaa09c125f32461508b547510abb36078c3732bd8353ef",
+      "candidate_status": "Producer pass. Independent reviewer d pass on exact v007: earth, sky, mountains and waters remain inside the mouth; no detached panel or light beam.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d046-s007",
+      "version": "v001",
+      "file": "artifacts/d046/s007/landscape/candidate-v001.png",
+      "sha256": "a6156e7c1c417a08a6dd3009cb37db9a9c8ae3e153ef63300a0be9cccb47541e",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d046-s007",
+      "version": "v002",
+      "file": "artifacts/d046/s007/landscape/candidate-v002.png",
+      "sha256": "7470d938c2182678d3f7016023a269b1f4473c7a7808830c0982f999e04ab077",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s007/prompts/landscape-v002.md",
+      "prompt_sha256": "944bccbb75eb76bbb5fdf3342432bb440d6ee66cbd428d5b5cafeb30b6df99a9"
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d046-s007",
+      "version": "v003",
+      "file": "artifacts/d046/s007/landscape/candidate-v003.png",
+      "sha256": "788f082fbd0badcfd534594cb7d4cb772d343ae6d0d56143bed3d08c2312a17f",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d046-s007",
+      "version": "v005",
+      "file": "artifacts/d046/s007/landscape/candidate-v005.png",
+      "sha256": "5fbb57505b1af040f232449d6c3e88b6083be4cbf5500be8680f92693d4f225a",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s007/prompts/landscape-v005.md",
+      "prompt_sha256": "05dd212a475efbc6cba914873370ee0da4c2a54a51d857800200e3ca03c852df",
+      "call_arguments": "artifacts/d046/s007/prompts/landscape-v005-reference-arguments.json",
+      "call_arguments_sha256": "ca87a1384d313817209832b50c15efc40e583145c6d9b407388f02646274babd",
+      "references": [
+        {
+          "path": "intake/D046/007.jpg",
+          "sha256": "dc7704114a867516ad7846ece8d18d27387fb211eb14cc50ae65fcb1a192ed9a"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f"
+        },
+        {
+          "path": "artifacts/d046/s006/landscape/candidate-v007.png",
+          "sha256": "778374e58b889a27bfbd346646519186dcd787cca8eb89ea8ddffdfb2ba02f12"
+        }
+      ],
+      "disposition": "superseded-history-only",
+      "producer_finding": "Prior selection retained as history; independent review of this exact version identified orange miniature witness skin. Superseded by selected v008 after three color-repair attempts; no change to the prior producer report.",
+      "producer_outcome": "uncertain",
+      "producer_report": "art/reviews/d046-s007-landscape-v005-producer-review-v001.md",
+      "producer_report_sha256": "5585bc2a15240304b044c7016ea4c16270c14636fb12d556078cbe6a473c862c",
+      "candidate_status": "Yashoda face patch R-B 114; Krishna B-R 164. Outer open-hand and feet counts are five digits/toes; tiny inner inhabitants are too small to verify individual digits confidently. No malformed mini-body is distinctly visible. Producer outcome: uncertain for miniature anatomy; independent exact-checksum review pending.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/asuras/character.json",
+          "sha256": "00c00f503c33706c54306461c404e467e54ffcc40266f89190e0376a7d4afded"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d046-s007",
+      "version": "v006",
+      "file": "artifacts/d046/s007/landscape/candidate-v006.png",
+      "sha256": "a04f2fba3dd1411abc2ef02fcbc03c5bde8068d8b6f6cfbc9429a46c9a4727b9",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s007/prompts/landscape-v006.md",
+      "prompt_sha256": "e4cf41758bf8c72ec21c1e3a7b7418500fa1122edd86a030b44781d979d04be5",
+      "call_arguments": "artifacts/d046/s007/prompts/landscape-v006-reference-arguments.json",
+      "call_arguments_sha256": "434f82a09e30ce3a195188c8ee69be8cd753154ed3fabdfca08288758a28c314",
+      "references": [
+        {
+          "path": "artifacts/d046/s007/landscape/candidate-v005.png",
+          "sha256": "5fbb57505b1af040f232449d6c3e88b6083be4cbf5500be8680f92693d4f225a"
+        },
+        {
+          "path": "intake/D046/007.jpg",
+          "sha256": "dc7704114a867516ad7846ece8d18d27387fb211eb14cc50ae65fcb1a192ed9a"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d046/s002/landscape/candidate-v011.png",
+          "sha256": "8c623cc9d134e6f0924435c5f196f43f319749a1c2ce842398e2ad00c8863f8c"
+        }
+      ],
+      "disposition": "superseded-history-only",
+      "producer_finding": "Repair attempt 1 of 3. At 4x4 skin-only patch centers, deva face R-B 132, deva arm R-B 130 and asura arm R-B 135; targeted witness skin remained too orange. Not selected; only patch-color checks recorded, no full visual clearance."
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d046-s007",
+      "version": "v007",
+      "file": "artifacts/d046/s007/landscape/candidate-v007.png",
+      "sha256": "9957fb63531e936e17ff7b2d79935997d8f119e309cc432d7bff9db6020a6e13",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s007/prompts/landscape-v007.md",
+      "prompt_sha256": "367dc8813a8d6d02a89acd24c1ebe5c5cdcd9ca4652379cc6aedd1c1a2845adf",
+      "call_arguments": "artifacts/d046/s007/prompts/landscape-v007-reference-arguments.json",
+      "call_arguments_sha256": "af05ca9c5fe65d849a022d4ee4e2fccd1f25d0359c90da887cb2a71da638102b",
+      "references": [
+        {
+          "path": "artifacts/d046/s007/landscape/candidate-v006.png",
+          "sha256": "a04f2fba3dd1411abc2ef02fcbc03c5bde8068d8b6f6cfbc9429a46c9a4727b9"
+        },
+        {
+          "path": "artifacts/d046/s007/landscape/candidate-v005.png",
+          "sha256": "5fbb57505b1af040f232449d6c3e88b6083be4cbf5500be8680f92693d4f225a"
+        },
+        {
+          "path": "intake/D046/007.jpg",
+          "sha256": "dc7704114a867516ad7846ece8d18d27387fb211eb14cc50ae65fcb1a192ed9a"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d046/s002/landscape/candidate-v011.png",
+          "sha256": "8c623cc9d134e6f0924435c5f196f43f319749a1c2ce842398e2ad00c8863f8c"
+        }
+      ],
+      "disposition": "superseded-history-only",
+      "producer_finding": "Repair attempt 2 of 3. At 4x4 skin-only patch centers, deva face R-B 115, deva arm R-B 106 and asura arm R-B 130; the asura patch remained orange. Not selected; only patch-color checks recorded, no full visual clearance."
+    },
+    {
+      "stanza": 7,
+      "concept_id": "d046-s007",
+      "version": "v008",
+      "file": "artifacts/d046/s007/landscape/candidate-v008.png",
+      "sha256": "9b69d43c1dc60d9fe246357de230f8591cb384cd96fd54672a681b53f8e21dad",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s007/prompts/landscape-v008.md",
+      "prompt_sha256": "dc46e58fbaf6ae1647e732fa034389f24ffc104bc3347503faf08a7970ce4c16",
+      "call_arguments": "artifacts/d046/s007/prompts/landscape-v008-reference-arguments.json",
+      "call_arguments_sha256": "e74b8334abd67e8cd8ad9363d42a2ddce269d4578ac3ba4e648b525aebb5963b",
+      "references": [
+        {
+          "path": "artifacts/d046/s007/landscape/candidate-v007.png",
+          "sha256": "9957fb63531e936e17ff7b2d79935997d8f119e309cc432d7bff9db6020a6e13"
+        },
+        {
+          "path": "artifacts/d046/s007/landscape/candidate-v005.png",
+          "sha256": "5fbb57505b1af040f232449d6c3e88b6083be4cbf5500be8680f92693d4f225a"
+        },
+        {
+          "path": "intake/D046/007.jpg",
+          "sha256": "dc7704114a867516ad7846ece8d18d27387fb211eb14cc50ae65fcb1a192ed9a"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d046/s002/landscape/candidate-v011.png",
+          "sha256": "8c623cc9d134e6f0924435c5f196f43f319749a1c2ce842398e2ad00c8863f8c"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Producer uncertain for individually counting tiny witness digits; full-frame and focused native review recorded. Disclosed warm-tan miniature skin deviation accepted by Firstmate; independent exact-checksum review pending.",
+      "producer_outcome": "uncertain",
+      "producer_report": "art/reviews/d046-s007-landscape-v008-producer-review-v001.md",
+      "producer_report_sha256": "aebcbf17fa5d7cca3c93f91dad00546134be95f6190919648fa94a6eda6ba416",
+      "candidate_status": "Producer uncertain for miniature digits. Independent reviewer c passed exact v008; independent 4x4 patches: deva face R-B 101, deva upper arm/torso 119, asura arm 136. Tiny figures read warm brown/tan-brown rather than orange at full/moderate enlargement; plan-disclosed deviation retained.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "244df97b3236a612a65014eb911103271c12f8910c9d2cbe11a913eb24ef6a98"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/asuras/character.json",
+          "sha256": "00c00f503c33706c54306461c404e467e54ffcc40266f89190e0376a7d4afded"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d046-s008",
+      "version": "v001",
+      "file": "artifacts/d046/s008/landscape/candidate-v001.png",
+      "sha256": "cf51bb756ae9387c383320e2fc86930e71930428992b50e0afa2ef238ce45fbc",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d046-s008",
+      "version": "v002",
+      "file": "artifacts/d046/s008/landscape/candidate-v002.png",
+      "sha256": "503a82faa2e351f04f066b62dc3ac4f7d5d512e70d963e1adff715ac0d126879",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d046-s008",
+      "version": "v003",
+      "file": "artifacts/d046/s008/landscape/candidate-v003.png",
+      "sha256": "dcadb7ea126b5c1c6eeef23d5856769d6e4681a3db388136665f4c99c6f2ff02",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s008/prompts/landscape-v003.md",
+      "prompt_sha256": "f99b89180feae023d55dd9d49fefb1712d847f782a24646d7aa06e1ce81b6a85"
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d046-s008",
+      "version": "v005",
+      "file": "artifacts/d046/s008/landscape/candidate-v005.png",
+      "sha256": "ea21aa083778e13230290d942db850bdcf601b4ec32839eca07046e3fb5cf4ea",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance.",
+      "prompt": "artifacts/d046/s008/prompts/landscape-v005.md",
+      "prompt_sha256": "d1f87436cd5d07f98e7a4ca605bd2947bdec8b74d88802598c9fe56002e1d613",
+      "call_arguments": "artifacts/d046/s008/prompts/landscape-v005-reference-arguments.json",
+      "call_arguments_sha256": "f9d1e9d099a47f2d29918f8b19cc2d4b83cce9c8154586489c0542f0e8c0cede"
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d046-s008",
+      "version": "v007",
+      "file": "artifacts/d046/s008/landscape/candidate-v007.png",
+      "sha256": "4b22b383a71a4a537ab3cc2bed98d01866489dd4bb283c7908fdca99e0057f62",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s008/prompts/landscape-v007.md",
+      "prompt_sha256": "ed83dbb42a9359ba1b333f05d34101847f8c28eedc2807bf125784985523b960",
+      "call_arguments": "artifacts/d046/s008/prompts/landscape-v007-reference-arguments.json",
+      "call_arguments_sha256": "a1d223537fdd294f0886e4fff1b94ab963e63c0dc723b9179fcc02fbe079e7df",
+      "references": [
+        {
+          "path": "artifacts/d046/s008/landscape/candidate-v005.png",
+          "sha256": "ea21aa083778e13230290d942db850bdcf601b4ec32839eca07046e3fb5cf4ea"
+        },
+        {
+          "path": "intake/D046/008.jpg",
+          "sha256": "8f209ce9aa392bbae8e18645b02ad8fa8e408caf4d72fe814cac947f22892e49"
+        },
+        {
+          "path": "artifacts/d046/s004/landscape/candidate-v008.png",
+          "sha256": "e1d89b5584fef9336cf4703094e91a232813d536f8f78a215e1f852c9296bc31"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "superseded-history-only",
+      "producer_finding": "Prior selection retained as history. Independent review identified miniature Hari skin RGB (76,124,148), B-R 72, reading cyan/teal; replaced by v008 local deep-blue skin repair. Prior producer report remains historical.",
+      "producer_outcome": "uncertain",
+      "producer_report": "art/reviews/d046-s008-landscape-v007-producer-review-v001.md",
+      "producer_report_sha256": "a48621155ddbdbf16be88c1c0a52c72581f451b8934b462df1e5c9ce4e318db6",
+      "candidate_status": "Yashoda face patch R-B 89; Krishna B-R 162; miniature Narayana B-R 102. Seven separate serpent hoods and four iconographic Narayana arms are visible; miniature hand digits cannot be certified individually at native size. Outer hand/feet counts are five digits/toes. Producer outcome: uncertain for miniature anatomy; independent exact-checksum review pending.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 8,
+      "concept_id": "d046-s008",
+      "version": "v008",
+      "file": "artifacts/d046/s008/landscape/candidate-v008.png",
+      "sha256": "65dab0078c54ab0119dea8f15c76c292655f65baed33aea8dbbb3e54612f1592",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s008/prompts/landscape-v008.md",
+      "prompt_sha256": "e0eca627e8e88b551d457ab1f92c82567ab795d684f2b13ccedad270cf6089f1",
+      "call_arguments": "artifacts/d046/s008/prompts/landscape-v008-reference-arguments.json",
+      "call_arguments_sha256": "78a2f3ce50f20cec17cb2f00ec988153e8fbbace484f09c8efe7d616c3129b5a",
+      "references": [
+        {
+          "path": "artifacts/d046/s008/landscape/candidate-v007.png",
+          "sha256": "4b22b383a71a4a537ab3cc2bed98d01866489dd4bb283c7908fdca99e0057f62"
+        },
+        {
+          "path": "intake/D046/008.jpg",
+          "sha256": "8f209ce9aa392bbae8e18645b02ad8fa8e408caf4d72fe814cac947f22892e49"
+        },
+        {
+          "path": "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png",
+          "sha256": "d93b3d0e53e52bd05bcc1a51b33073816592a3c83e19c14c65b50ec7cf232b4b"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Producer uncertain for individually counting tiny Hari hand digits; full-frame and focused native review recorded. The contained Hari skin color repair measures deep blue and replaces the prior cyan/teal patch; independent exact-checksum review pending.",
+      "producer_outcome": "uncertain",
+      "producer_report": "art/reviews/d046-s008-landscape-v008-producer-review-v001.md",
+      "producer_report_sha256": "716b51804cb3034e2adb5a2b307676369624e61ba9ebc4c9072c225a3fe09f7d",
+      "candidate_status": "Producer uncertain for miniature digits. Independent reviewer c passed exact v008; Hari face B-R 153, exposed arm 152, shaded arm 97; contained form reads deep blue and retains four iconographic arms and seven connected hoods.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "244df97b3236a612a65014eb911103271c12f8910c9d2cbe11a913eb24ef6a98"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/adishesha/character.json",
+          "sha256": "d5c14279a218432cf99035e86436523e156167af06563c7890a3ae5954f5790c"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d046-s009",
+      "version": "v001",
+      "file": "artifacts/d046/s009/landscape/candidate-v001.png",
+      "sha256": "2bd7d58226f61cfb0bc5870db8799ea7e3ee51e30286f9ce1db56c211c00f64a",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 9,
+      "concept_id": "d046-s009",
+      "version": "v004",
+      "file": "artifacts/d046/s009/landscape/candidate-v004.png",
+      "sha256": "fd45d0f764b12d15d276e5c705456e852db6b496181f791be8f64f6e649a1331",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s009/prompts/landscape-v004.md",
+      "prompt_sha256": "f3d528cde5c0d173aaca727c455a21b08f895a182e48d7a6e5f9083b762f065e",
+      "call_arguments": "artifacts/d046/s009/prompts/landscape-v004-reference-arguments.json",
+      "call_arguments_sha256": "589ee9d9311c0e474be6eec92cae0dcad1840553befe8873b7c986388b19eb16",
+      "references": [
+        {
+          "path": "intake/D046/009.jpg",
+          "sha256": "98e01a18bc0e872d0a92128f854ab5e539d9286b218f58b42c4ee336ea951f45"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f"
+        },
+        {
+          "path": "artifacts/d046/s006/landscape/candidate-v007.png",
+          "sha256": "778374e58b889a27bfbd346646519186dcd787cca8eb89ea8ddffdfb2ba02f12"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Yashoda face patch R-B 108; Krishna B-R 138. Outer hand/feet counts are five digits/toes; nested hands and feet are too small to verify individually, with no clearly malformed anatomy visible. Producer outcome: uncertain for recursive miniature anatomy; independent exact-checksum review pending.",
+      "producer_outcome": "uncertain",
+      "producer_report": "art/reviews/d046-s009-landscape-v004-producer-review-v001.md",
+      "producer_report_sha256": "23d94ebd0f9d8f9d1c9a1787a6d6aa6a7ac6d68a275dfa6fc64145a049baf943",
+      "candidate_status": "Producer uncertain for recursive miniature digits. Independent reviewer d passed exact v004; nested mother-child scenes are intentional and no extra/malformed extremity is visible.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d046-s010",
+      "version": "v001",
+      "file": "artifacts/d046/s010/landscape/candidate-v001.png",
+      "sha256": "ec14726f7d02a9098503d9487a01c61f19962b3783e4fad1153c987b693fbc90",
+      "native_dimensions": "1672x941",
+      "disposition": "superseded-history-only",
+      "producer_finding": "Retained candidate history; not selected for this comparison. No claim of current visual clearance."
+    },
+    {
+      "stanza": 10,
+      "concept_id": "d046-s010",
+      "version": "v004",
+      "file": "artifacts/d046/s010/landscape/candidate-v004.png",
+      "sha256": "3c9c26b68ff1522e41874da6d075bfa8aa29cbe2b25612fa70c378c037ff1ac8",
+      "native_dimensions": "1672x941",
+      "prompt": "artifacts/d046/s010/prompts/landscape-v004.md",
+      "prompt_sha256": "906161315e848435fee0a0a752c79bbdd91f074081270e617b57c18382f899ce",
+      "call_arguments": "artifacts/d046/s010/prompts/landscape-v004-reference-arguments.json",
+      "call_arguments_sha256": "457e1f4a5723e626fe88e7a0caf1b9532b014cdc395e38baf5a35bb2f7741514",
+      "references": [
+        {
+          "path": "intake/D046/010.jpg",
+          "sha256": "8cffdd58d6121450aacc8b9d50944551a534297700922a951b8d1e1b3f803236"
+        },
+        {
+          "path": "artifacts/d046/references/series-style-anchor-D001-S004.png",
+          "sha256": "9fe353cac5bb27947bc469e904d9f1e1303abde3275869a78f8a8bb553aad46d"
+        },
+        {
+          "path": "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+          "sha256": "295c2fd87aabb9dfd655b69cdb2811d5b26da2483ea914cebeff11bc2a837068"
+        },
+        {
+          "path": "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg",
+          "sha256": "1e912a34dff878f7b60adcb2c81f13a508b989eddc0448910a7e084f4cfe795f"
+        },
+        {
+          "path": "artifacts/d046/s006/landscape/candidate-v007.png",
+          "sha256": "778374e58b889a27bfbd346646519186dcd787cca8eb89ea8ddffdfb2ba02f12"
+        }
+      ],
+      "disposition": "selected",
+      "producer_finding": "Yashoda face patch R-B 115; Krishna B-R 137. Two attached arms per figure; visible feet show five toe tips each; some hand digits are occluded naturally by contact. No nursing shown. Producer outcome: pass; independent exact-checksum review pending.",
+      "producer_outcome": "pass",
+      "producer_report": "art/reviews/d046-s010-landscape-v004-producer-review-v001.md",
+      "producer_report_sha256": "fe03c67be3b996f31ec7bc373ee4a50196f9061d1057a5d4aa88e83a1b7a60c5",
+      "candidate_status": "Producer pass. Independent reviewer d passed exact v004; embrace limbs attach, visible toes are countable and the nearby feeding bowl remains covered.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d046.json",
+          "sha256": "5c426317edbf8e9c5f7f349d832c25aa93e6500fa8ff4b2240960c223c166be1"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "chapter_label": "Dasakam 46"
+    }
+  ]
+}

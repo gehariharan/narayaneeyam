@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "daskam_id": 46,
+  "description": "Ten mapped D046 landscape candidates pinned to native versions and checksums for unapproved reference comparison.",
+  "review_notice": "All ten selected landscape candidates have independent exact-checksum passes against the frozen D046 plan. S001 v009 reviewer d initially marked the hair crop needs-fix; that exact finding is preserved, and fresh tiebreak reviewer e passed the same bytes, judging the hair crown touching the top edge to be ordinary full-bleed cropping because face and limbs are fully inside. S007 v008 retains the disclosed tiny-witness skin deviation; independent reviewer c measured deva face R-B 101, deva arm/torso 119 and asura arm 136, which reads warm tan-brown at full and moderate enlargement. S008 v008’s contained Hari reads deep blue. All artwork remains unapproved, no approval manifest was changed, and portraits remain paused. Photos 011–012 remain unmapped extras.",
+  "review_status": "needs-review",
+  "visual_review_status": "All ten selected landscape candidates have independent exact-checksum passes against plan SHA-256 244df97b3236a612a65014eb911103271c12f8910c9d2cbe11a913eb24ef6a98. S001 v009 reviewer d needs-fix remains preserved verbatim; independent tiebreak reviewer e passed the same exact bytes, judging hair-edge contact an observation, not a defect. S007 miniature skin deviation remains disclosed with reviewer c measurements. All art remains unapproved; approval manifest unchanged.",
+  "source_mapping_sha256": "94ffdf8e256a2b884f844ec11f1bf302d68a0bb7f39e4c52c67773c536979ede",
+  "rows": [
+    {
+      "n": 1,
+      "concept_id": "d046-s001",
+      "scene": "Yashoda holds the infant Krishna as a universe appears in his yawn.",
+      "reference": {
+        "file": "intake/D046/001.jpg",
+        "sha256": "81989f2692789bdddb1c51d64729028495e709325c1e2726ccf52a1b7768fa9b",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s001/landscape/candidate-v009.png",
+        "sha256": "2b6715244f7f54b2d93fbd1b6abe5278e874d7921d6bbf8b33bffae1a3daa1fe",
+        "version": "v009",
+        "label": "Landscape candidate v009",
+        "displayLabel": "Landscape candidate v009",
+        "dimensions_px": "1672x941",
+        "producer_report": "art/reviews/d046-s001-landscape-v009-producer-review-v001.md",
+        "producer_report_sha256": "877a51d8dd0c8499ed87ec910f510df5e5e51f74ceeaadada36f9687cf247574",
+        "producer_outcome": "pass",
+        "candidate_status": "Producer pass. Independent reviewer d recorded the following exact needs-fix finding: The top of Yashoda's head/hair is cut by the frame at the upper edge, approximately x=600–850, y=0 (candidate-native pixels). The enlarged top crop confirms the hair silhouette exits the frame, and the full image visibly truncates her head. This is a viewer-noticeable framing defect under the brief's cut-off rule. Tiebreak reviewer e passed the same v009 bytes, judging the top hair contact an ordinary full-bleed observation because face and limbs are inside. Earlier needs-fix review remains preserved; art is unapproved."
+      },
+      "alternates": []
+    },
+    {
+      "n": 2,
+      "concept_id": "d046-s002",
+      "scene": "Two cowherd boys tell Yashoda that Krishna ate the fruit he had promised to share.",
+      "reference": {
+        "file": "intake/D046/002.jpg",
+        "sha256": "7503d01e2003083ee7f3fb57b90e9b8efb69248ceee021ca5883b27e1b96eb71",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s002/landscape/candidate-v011.png",
+        "sha256": "8c623cc9d134e6f0924435c5f196f43f319749a1c2ce842398e2ad00c8863f8c",
+        "version": "v011",
+        "label": "Landscape candidate v011",
+        "displayLabel": "Landscape candidate v011",
+        "dimensions_px": "1671x941",
+        "producer_report": "art/reviews/d046-s002-landscape-v011-producer-review-v001.md",
+        "producer_report_sha256": "a644c3af3820067582959e7cfe0b550a0434b0c3a63e02df34fb4072725453f4",
+        "producer_outcome": "pass",
+        "candidate_status": "Producer pass. Independent reviewer d passed exact candidate v011 at native 1671x941; producer report v001 dimension label is corrected by art/reviews/d046-s002-landscape-v011-producer-metadata-correction-v001.md."
+      },
+      "alternates": []
+    },
+    {
+      "n": 3,
+      "concept_id": "d046-s003",
+      "scene": "Yashoda worries that Krishna has eaten earth, unaware of his cosmic nature.",
+      "reference": {
+        "file": "intake/D046/003.jpg",
+        "sha256": "57a524380896451d71bdc44006cb9988889767293f668735aff0d6d29aef3372",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s003/landscape/candidate-v006.png",
+        "sha256": "44f8a4fdb6e2b5dc32db260e817ea4dcfbfbb290c18adfd63b87b3c394f56e35",
+        "version": "v006",
+        "label": "Landscape candidate v006",
+        "displayLabel": "Landscape candidate v006",
+        "dimensions_px": "1672x941",
+        "producer_report": "art/reviews/d046-s003-landscape-v006-producer-review-v001.md",
+        "producer_report_sha256": "1e61f5f99f15385a70943b029eb088f8cd24ff77b5897832b9ff0432adf6f602",
+        "producer_outcome": "pass",
+        "candidate_status": "Producer pass. Independent reviewer d passed; Yashoda cheek at (680,220) RGB (200,119,71), R-B 129, reads as natural warm brown rather than orange."
+      },
+      "alternates": []
+    },
+    {
+      "n": 4,
+      "concept_id": "d046-s004",
+      "scene": "Yashoda questions Krishna, who smiles and denies eating mud.",
+      "reference": {
+        "file": "intake/D046/004.jpg",
+        "sha256": "0e8d9b238f8cb8de43ecc7c9bfa36e976bfba33ea6de4cf0663467e938fe37a6",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s004/landscape/candidate-v008.png",
+        "sha256": "e1d89b5584fef9336cf4703094e91a232813d536f8f78a215e1f852c9296bc31",
+        "version": "v008",
+        "label": "Landscape candidate v008",
+        "displayLabel": "Landscape candidate v008",
+        "dimensions_px": "1672x941",
+        "producer_report": "art/reviews/d046-s004-landscape-v008-producer-review-v001.md",
+        "producer_report_sha256": "46a6d934a36fcfa7dfdd01b89a1890fe21e9060c09b98842e428e0c5222c92b2",
+        "producer_outcome": "pass",
+        "candidate_status": "Producer pass. Independent reviewer d pass on exact v008: Yashoda points while smiling Krishna faces her; five toes on visible feet; no text or malformed limb."
+      },
+      "alternates": []
+    },
+    {
+      "n": 5,
+      "concept_id": "d046-s005",
+      "scene": "Krishna begins to open his mouth at Yashoda’s request.",
+      "reference": {
+        "file": "intake/D046/005.jpg",
+        "sha256": "0f6a4201ed1c652cb7af84ecd7b564b234d96b9963435bd0a77edaae8ecafad9",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s005/landscape/candidate-v006.png",
+        "sha256": "f3d92721c7c5031dc73b950e03502e6c172b9c805dce9066a3bbda4c47b87fd8",
+        "version": "v006",
+        "label": "Landscape candidate v006",
+        "displayLabel": "Landscape candidate v006",
+        "dimensions_px": "1672x941",
+        "producer_report": "art/reviews/d046-s005-landscape-v006-producer-review-v001.md",
+        "producer_report_sha256": "0db836ce74a8121eeeb0695e2c399b04a36828b5e21f2e0e2caa2da452550bf1",
+        "producer_outcome": "pass",
+        "candidate_status": "Producer pass. Independent reviewer d pass on exact v006: human-sized mouth, no cosmic tableau or mud; open hand and visible toes verified."
+      },
+      "alternates": []
+    },
+    {
+      "n": 6,
+      "concept_id": "d046-s006",
+      "scene": "Yashoda sees the whole universe inside Krishna’s open mouth.",
+      "reference": {
+        "file": "intake/D046/006.jpg",
+        "sha256": "400e4efe688842063c1bf8f10416a9740eea66ae98ce8122f4503c4881b48272",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s006/landscape/candidate-v007.png",
+        "sha256": "778374e58b889a27bfbd346646519186dcd787cca8eb89ea8ddffdfb2ba02f12",
+        "version": "v007",
+        "label": "Landscape candidate v007",
+        "displayLabel": "Landscape candidate v007",
+        "dimensions_px": "1672x941",
+        "producer_report": "art/reviews/d046-s006-landscape-v007-producer-review-v001.md",
+        "producer_report_sha256": "15ba80cfc5f9f714bcdaa09c125f32461508b547510abb36078c3732bd8353ef",
+        "producer_outcome": "pass",
+        "candidate_status": "Producer pass. Independent reviewer d pass on exact v007: earth, sky, mountains and waters remain inside the mouth; no detached panel or light beam."
+      },
+      "alternates": []
+    },
+    {
+      "n": 7,
+      "concept_id": "d046-s007",
+      "scene": "Yashoda sees forests, oceans, skies, Rasatala, humans, asuras and devas within Krishna’s mouth.",
+      "reference": {
+        "file": "intake/D046/007.jpg",
+        "sha256": "dc7704114a867516ad7846ece8d18d27387fb211eb14cc50ae65fcb1a192ed9a",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s007/landscape/candidate-v008.png",
+        "sha256": "9b69d43c1dc60d9fe246357de230f8591cb384cd96fd54672a681b53f8e21dad",
+        "version": "v008",
+        "label": "Landscape candidate v008",
+        "displayLabel": "Landscape candidate v008",
+        "dimensions_px": "1672x941",
+        "producer_report": "art/reviews/d046-s007-landscape-v008-producer-review-v001.md",
+        "producer_report_sha256": "aebcbf17fa5d7cca3c93f91dad00546134be95f6190919648fa94a6eda6ba416",
+        "producer_outcome": "uncertain",
+        "candidate_status": "Producer uncertain for miniature digits. Independent reviewer c passed exact v008; independent 4x4 patches: deva face R-B 101, deva upper arm/torso 119, asura arm 136. Tiny figures read warm brown/tan-brown rather than orange at full/moderate enlargement; plan-disclosed deviation retained."
+      },
+      "alternates": []
+    },
+    {
+      "n": 8,
+      "concept_id": "d046-s008",
+      "scene": "Within Krishna’s mouth, Yashoda sees Hari reclining on Adishesha over the milk ocean.",
+      "reference": {
+        "file": "intake/D046/008.jpg",
+        "sha256": "8f209ce9aa392bbae8e18645b02ad8fa8e408caf4d72fe814cac947f22892e49",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s008/landscape/candidate-v008.png",
+        "sha256": "65dab0078c54ab0119dea8f15c76c292655f65baed33aea8dbbb3e54612f1592",
+        "version": "v008",
+        "label": "Landscape candidate v008",
+        "displayLabel": "Landscape candidate v008",
+        "dimensions_px": "1672x941",
+        "producer_report": "art/reviews/d046-s008-landscape-v008-producer-review-v001.md",
+        "producer_report_sha256": "716b51804cb3034e2adb5a2b307676369624e61ba9ebc4c9072c225a3fe09f7d",
+        "producer_outcome": "uncertain",
+        "candidate_status": "Producer uncertain for miniature digits. Independent reviewer c passed exact v008; Hari face B-R 153, exposed arm 152, shaded arm 97; contained form reads deep blue and retains four iconographic arms and seven connected hoods."
+      },
+      "alternates": []
+    },
+    {
+      "n": 9,
+      "concept_id": "d046-s009",
+      "scene": "Yashoda sees the worlds repeating within Krishna’s mouth, receding toward infinity.",
+      "reference": {
+        "file": "intake/D046/009.jpg",
+        "sha256": "98e01a18bc0e872d0a92128f854ab5e539d9286b218f58b42c4ee336ea951f45",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s009/landscape/candidate-v004.png",
+        "sha256": "fd45d0f764b12d15d276e5c705456e852db6b496181f791be8f64f6e649a1331",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1672x941",
+        "producer_report": "art/reviews/d046-s009-landscape-v004-producer-review-v001.md",
+        "producer_report_sha256": "23d94ebd0f9d8f9d1c9a1787a6d6aa6a7ac6d68a275dfa6fc64145a049baf943",
+        "producer_outcome": "uncertain",
+        "candidate_status": "Producer uncertain for recursive miniature digits. Independent reviewer d passed exact v004; nested mother-child scenes are intentional and no extra/malformed extremity is visible."
+      },
+      "alternates": []
+    },
+    {
+      "n": 10,
+      "concept_id": "d046-s010",
+      "scene": "Krishna returns to Yashoda’s lap as her affectionate child.",
+      "reference": {
+        "file": "intake/D046/010.jpg",
+        "sha256": "8cffdd58d6121450aacc8b9d50944551a534297700922a951b8d1e1b3f803236",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d046/s010/landscape/candidate-v004.png",
+        "sha256": "3c9c26b68ff1522e41874da6d075bfa8aa29cbe2b25612fa70c378c037ff1ac8",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1672x941",
+        "producer_report": "art/reviews/d046-s010-landscape-v004-producer-review-v001.md",
+        "producer_report_sha256": "fe03c67be3b996f31ec7bc373ee4a50196f9061d1057a5d4aa88e83a1b7a60c5",
+        "producer_outcome": "pass",
+        "candidate_status": "Producer pass. Independent reviewer d passed exact v004; embrace limbs attach, visible toes are countable and the nearby feeding bowl remains covered."
+      },
+      "alternates": []
+    }
+  ]
+}
