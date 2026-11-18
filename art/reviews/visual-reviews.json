@@ -46935,6 +46935,2215 @@
       "findings": [],
       "disclosed_deviations": [],
       "notes": "Producer inspection only. Candidate remains unapproved; art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d100/s001/landscape/candidate-v012.png",
+      "version": "v012",
+      "sha256": "fde9800a3a194c92a8ff41d27b4c1e3459483707ad677cec7236a0f4d1741b07",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:49:47Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s001-landscape-v012-producer-review-v002.md",
+          "sha256": "4d26ba12dc8c9171173da8c48281c69d1c0016803df7aecd47773cc88663152e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s raised palm shows one thumb and four fingers; Bhattathiri’s prayer hands remain attached. The other visible figures’ limbs connect normally."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s raised palm shows one thumb and four fingers; Bhattathiri’s prayer hands remain attached. The other visible figures’ limbs connect normally."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna, Bhattathiri, Narada, two sages and three women attendants have distinct faces. Bhattathiri is clean-shaven with shaved scalp and small tuft."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Krishna, Bhattathiri, Narada, two sages and three women attendants have distinct faces. Bhattathiri is clean-shaven with shaved scalp and small tuft."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Blue-lily darshan, raised palm and surrounding cast remain distinct. Krishna cheek (55,110,172), B-R 117; palm (97,131,200), B-R 103. Human-skin deviations: Bhattathiri R-B 159, Narada 116, sages 123 and 185, attendants 152, 161 and 159. No rays or lettering."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Bhattathiri face R-B 159; sage face patches R-B 123 and 185; three attendant face patches R-B 152, 161 and 159. Narada face patch R-B 116. Warm-skin differences remain visible and disclosed; Krishna face and raised palm are indigo."
+      ],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d100/s002/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "e2a58f53fbfd0acb63d2cce5d9b4a0f9288d8be7d8c02a864add1bb1d5b1db3d",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:50:50Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s002-landscape-v003-producer-review-v002.md",
+          "sha256": "6bab41adfbffd237ec3bbde30bfd11d92695c27366c250c011d35f6f68d37a3c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Close head-and-shoulders composition; no hands or feet are visible and no malformed limb appears."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Close head-and-shoulders composition; no hands or feet are visible and no malformed limb appears."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One complete youthful face with aligned eyes, brows, nose and mouth; broad forehead remains bare beneath the hairline."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One complete youthful face with aligned eyes, brows, nose and mouth; broad forehead remains bare beneath the hairline."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Curls, one upright peacock feather and mandaram flowers match the stanza. Krishna cheek B-R 54; no rays or lettering."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d100/s003/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "af02cf81ba642c9c234ede7149ebd0283e679099bab8484e2263fcdf670cf250",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:51:55Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s003-landscape-v002-producer-review-v002.md",
+          "sha256": "0336283cfd82f2a8f9c34cfc6a62232f8d489bc585ae1f0cd7a53a0136295022"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Close face study contains no visible hands or feet and no malformed limb."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Close face study contains no visible hands or feet and no malformed limb."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One complete face; both lotus-shaped eyes, brows and nose are intact and aligned."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One complete face; both lotus-shaped eyes, brows and nose are intact and aligned."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Paired eyes and gentle expression match the stanza; Krishna cheek B-R 62. No rays or lettering."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d100/s004/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "7a7bb59ac3700ccec4e1acf2df5ec6e59d8ce0de5f374b453e6843a80c8af6a0",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:53:03Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s004-landscape-v002-producer-review-v002.md",
+          "sha256": "4de1844b25bee8d423b9435710664a6f10290794fe5cb928e527dc8098f7cee2"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Face study has no visible hands or feet; no malformed limb is present."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Face study has no visible hands or feet; no malformed limb is present."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One complete youthful face; paired makara earrings and green cheek accents remain distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One complete youthful face; paired makara earrings and green cheek accents remain distinct."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Face and ornaments match the stanza; Krishna cheek B-R 47. No rays or lettering."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d100/s005/landscape/candidate-v007.png",
+      "version": "v007",
+      "sha256": "4b097265c1cec8e74cfaf0809ddc8cd7f67190fba4ae16f34cfe5898b9a8e182",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:54:03Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s005-landscape-v007-producer-review-v002.md",
+          "sha256": "cff0ea5ee8dee02b05c7bf680f38ea678378bc10605cf25efc27915bb16b579c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both flute hands attach to Krishna’s arms; enlarged crops show thumb plus four fingers on each. Bhattathiri’s folded hands and seated limbs remain attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both flute hands attach to Krishna’s arms; enlarged crops show thumb plus four fingers on each. Bhattathiri’s folded hands and seated limbs remain attached."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One youthful Krishna face and one older clean-shaven Bhattathiri face; no duplicate or malformed face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One youthful Krishna face and one older clean-shaven Bhattathiri face; no duplicate or malformed face."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Flute scene follows the stanza. Krishna cheek B-R 98; Bhattathiri cheek median (152,87,50), R-B 102, under the 120 brown-skin ceiling. No rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d100/s006/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "c3099e06adb9ac76f412904af3c97ce65fed9e41327820f45c58ba6b2b8ef3de",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:55:25Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s006-landscape-v002-producer-review-v002.md",
+          "sha256": "68d21c79f401800e867a31f27a2be39dde22259a48e1ffb76527355682a775a9"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Two arms connect to the shoulders; hands and feet are outside this chest-focused frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Two arms connect to the shoulders; hands and feet are outside this chest-focused frame."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One youthful face with coherent eyes, nose and mouth; no duplicate or fused figure."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One youthful face with coherent eyes, nose and mouth; no duplicate or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Kaustubha, Srivatsa, necklaces, flower garland and bees remain distinct. Krishna cheek B-R 48; no rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d100/s007/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "f367b0f43373d02bb54c6762667017f44427a588ba8c157b64eacc9a4747a0c0",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:56:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s007-landscape-v002-producer-review-v002.md",
+          "sha256": "4c9e998c3c2a8e909b0566242538e6df47d710eee9d971c2b8bc79141306dffa"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both arms connect to separate hands resting on the knees; each hand has five visible digits. Lower legs and feet are not in frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both arms connect to separate hands resting on the knees; each hand has five visible digits. Lower legs and feet are not in frame."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One complete youthful face; no duplicate person."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One complete youthful face; no duplicate person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Slender waist and bell girdle are prominent; Krishna cheek B-R 65. No rays or text."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d100/s008/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "23193fab518c2ebed9e70e119343c77b715628e2bf8b8b5749c3288ac89c5674",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:57:36Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s008-landscape-v003-producer-review-v002.md",
+          "sha256": "083114b0aff5d734b5ef79ec48217ff652ba4939d985785096433d3fa8830288"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both arms connect to hands on knees; both legs connect through knees and ankles to feet. Enlarged crops show five toe tips on each foot."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both arms connect to hands on knees; both legs connect through knees and ankles to feet. Enlarged crops show five toe tips on each foot."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One complete youthful face; no duplicate person."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One complete youthful face; no duplicate person."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Covered thighs, paired knees and ankles match the stanza; Krishna cheek B-R 69. No rays or text."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d100/s009/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "19dcd0ba55c810855209adf8b131f7781ec5f74255f30060c2abb17718c8606d",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:58:30Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s009-landscape-v004-producer-review-v002.md",
+          "sha256": "23a888ae748cbc4a4c83f7dee5d638428842459bbe37ac8f58cd2f898d92a6d5"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Open palm shows thumb plus four fingers; both feet show five toe tips. Visible limbs connect normally."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Open palm shows thumb plus four fingers; both feet show five toe tips. Visible limbs connect normally."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and the separate worshippers have distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Krishna and the separate worshippers have distinct faces."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Kurma supports Mandara; Krishna cheek B-R 83. No beams, rays or lettering."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d100/s010/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "e793c86d50a2394796215f923218e25e29d6c5e51eb585f3cd2b219a1259962c",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T09:59:37Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s010-landscape-v004-producer-review-v002.md",
+          "sha256": "a13f6b31e6bcfbdd3c403bf38130fd7d5677aa4e79e77cf562451effdc05d735"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both soles connect to legs and each shows five toe tips. Small worshippers’ visible arms and hands remain attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both soles connect to legs and each shows five toe tips. Small worshippers’ visible arms and hands remain attached."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "No Krishna face appears; small worshippers’ faces remain distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "No Krishna face appears; small worshippers’ faces remain distinct."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Feet and four worshippers match the refuge theme. Sole skin patches (40,69,128) and (48,74,131), B-R 88 and 83. No rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 11,
+      "role": "matte",
+      "file": "artifacts/d100/s011/landscape/candidate-v008.png",
+      "version": "v008",
+      "sha256": "6ac329f79fde8941e6851946d667f75abba78899aeef4179bad7b6c36212d5b3",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T10:01:43Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "8b21e4f6e866512e5c7df75b34526b8285724200b4df3aedc851f8f7e486d49b"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s011-landscape-v008-producer-review-v001.md",
+          "sha256": "5884a6bc0db45f14f36d8e0d8b691727488d7e899aa06fe7274aa3c3abb4f23d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Guruvayurappan has two connected arms and two legs; open hand shows thumb plus four fingers and resting hand five digits. Bhattathiri has two connected arms; his folded prayer hands overlap with five aligned fingertip ends, so every thumb edge cannot be separated per hand. Krishna’s two feet and Bhattathiri’s visible foot show five toe tips."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Guruvayurappan has two connected arms and two legs; open hand shows thumb plus four fingers and resting hand five digits. Bhattathiri has two connected arms; his folded prayer hands overlap with five aligned fingertip ends, so every thumb edge cannot be separated per hand. Krishna’s two feet and Bhattathiri’s visible foot show five toe tips."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One youthful Guruvayurappan face and one older clean-shaven Bhattathiri face; ash stripes, central mark and tuft are visible. No duplicate or fused figure."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One youthful Guruvayurappan face and one older clean-shaven Bhattathiri face; ash stripes, central mark and tuft are visible. No duplicate or fused figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Side columns and enclosing arch are removed. The horizontal wall band and Krishna’s seat remain as scene architecture inside the edge-to-edge image. Cheek medians: Guruvayurappan (39,67,114), B-R 75; Bhattathiri (153,81,42), R-B 111. Closed bundle has no writing; no rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Fresh producer inspection against the final D100 plan. This is producer evidence only; the candidate remains unapproved and art/approved/ is unchanged."
+    },
+    {
+      "chapter": 100,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d100/s001/landscape/candidate-v012.png",
+      "version": "v012",
+      "sha256": "fde9800a3a194c92a8ff41d27b4c1e3459483707ad677cec7236a0f4d1741b07",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:22:04Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "uncertain",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s001-landscape-v012-producer-review-v003.md",
+          "sha256": "1752e6517160d32b78662ced090ea7a809d238cf3db1037b743912379c88fbcd"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "uncertain",
+          "observations": "Krishna’s raised palm has a separated thumb and four fingers; Bhattathiri’s prayer hands and the visible surrounding arms remain attached."
+        },
+        "attachment_proportions": {
+          "status": "uncertain",
+          "observations": "Krishna’s raised palm has a separated thumb and four fingers; Bhattathiri’s prayer hands and the visible surrounding arms remain attached."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One clean-shaven, shaved-scalp Bhattathiri with a small tuft; Krishna, Narada, two sages and three attendants have separate faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One clean-shaven, shaved-scalp Bhattathiri with a small tuft; Krishna, Narada, two sages and three attendants have separate faces."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "Krishna cheek (55,110,172), B-R 117. Human face R-B medians: Bhattathiri 159, Narada 116, sages 123 and 185, attendants 152, 161 and 159. Two broad curved gold bands extend outward beside the halo; I cannot confidently distinguish them from the no-rays restriction."
+        }
+      },
+      "findings": [
+        "Uncertain: the two broad curved gold bands flanking the cream halo could read as radial rays under the no-rays clause. Preserve exact selected candidate and request one independent single-image tiebreak. Orange human-skin deviations remain disclosed."
+      ],
+      "disclosed_deviations": [
+        "Bhattathiri face R-B 159; Narada 116; sages 123 and 185; attendants 152, 161 and 159. These measured human-skin patches remain orange relative to the brown-pigment rule."
+      ],
+      "notes": "Producer exact-byte review only. The image remains selected and unapproved; independent exact-checksum review must resolve the halo reading."
+    },
+    {
+      "chapter": 100,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d100/s002/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "e2a58f53fbfd0acb63d2cce5d9b4a0f9288d8be7d8c02a864add1bb1d5b1db3d",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:23:20Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s002-landscape-v003-producer-review-v003.md",
+          "sha256": "7ab2742f6445b266f4801f040eb0100e4a3a3f4b345ef49a30fc5c43486051bc"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The selected portrait-like bust ends at the shoulders; no hands or feet are depicted to count."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The selected portrait-like bust ends at the shoulders; no hands or feet are depicted to count."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The centered face has two distinct eyes, brows, ears, nostrils and a closed smile; the blue forehead is smooth and bare."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The centered face has two distinct eyes, brows, ears, nostrils and a closed smile; the blue forehead is smooth and bare."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The peacock feather, tied hair, necklace and floral garland are separate; Krishna cheek B-R 54. No writing or rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer exact-byte review only. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d100/s003/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "af02cf81ba642c9c234ede7149ebd0283e679099bab8484e2263fcdf670cf250",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:24:02Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s003-landscape-v002-producer-review-v003.md",
+          "sha256": "48b8afa0b34be28b7734d4aa79637c07ddbb249f7fb3d7d05e30f004a15abcd7"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The selected chest-up composition shows no hands or feet; neck and shoulder contours connect cleanly."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The selected chest-up composition shows no hands or feet; neck and shoulder contours connect cleanly."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Both eyes, lids, brows, nose and mouth are distinct in the focused crop, with no malformed facial edges."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Both eyes, lids, brows, nose and mouth are distinct in the focused crop, with no malformed facial edges."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Feather and jeweled band remain separate from the hair; cheek is deep blue, B-R 62. No lettering or visible rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer exact-byte review only. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d100/s004/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "7a7bb59ac3700ccec4e1acf2df5ec6e59d8ce0de5f374b453e6843a80c8af6a0",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:24:43Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s004-landscape-v002-producer-review-v003.md",
+          "sha256": "76c28e63a6dfc230091b7c4a2f2a6c89ed2fdd3bb36978b57cb52789c37a26c3"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The image is a face-and-shoulders composition; no hands or feet are visible."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The image is a face-and-shoulders composition; no hands or feet are visible."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The focused crop shows one smiling face with separate eyes and teeth; both makara earrings are distinct and balanced."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The focused crop shows one smiling face with separate eyes and teeth; both makara earrings are distinct and balanced."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Green cheek accents appear on both cheeks; Krishna cheek B-R 47. The peacock feather and hairline remain distinct; no text or rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer exact-byte review only. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d100/s005/landscape/candidate-v008.png",
+      "version": "v008",
+      "sha256": "16221badb8333e3ab0fd586777dcded294c1741808a4850cf4f3f1d888f1a251",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:13:37Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s005-landscape-v008-producer-review-v001.md",
+          "sha256": "f14bcff7743bbb93900c05433da85359c9ca9c3fd8088d356395ca2ff5b62960"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Enlarged crop shows four separate fingers over the flute and a distinct thumb beneath it on each hand; both wrists connect to the arms."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Enlarged crop shows four separate fingers over the flute and a distinct thumb beneath it on each hand; both wrists connect to the arms."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One youthful Krishna and one older clean-shaven Bhattathiri; neither face is malformed or duplicated."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One youthful Krishna and one older clean-shaven Bhattathiri; neither face is malformed or duplicated."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Flute touches Krishna’s lips; Krishna cheek (16,63,116), B-R 100; Bhattathiri cheek (160,95,54), R-B 106. No rays or text."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer exact-byte review of repair v008. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d100/s006/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "c3099e06adb9ac76f412904af3c97ce65fed9e41327820f45c58ba6b2b8ef3de",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:41:57Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s006-landscape-v002-producer-review-v003.md",
+          "sha256": "d08d30808b447626f1a5ebec1d0d199ffb0977775ee668d1f4e4623f65fc8f97"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The chest-up figure has two shoulders and attached upper arms; the two bees have separate wings and bodies."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The chest-up figure has two shoulders and attached upper arms; the two bees have separate wings and bodies."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One centered face with both eyes, nose, mouth and paired earrings cleanly separated."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One centered face with both eyes, nose, mouth and paired earrings cleanly separated."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Distinct bees perch among the chest flowers and necklaces; Krishna cheek B-R 48. No extra people, text or rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer exact-byte review only. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d100/s007/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "f367b0f43373d02bb54c6762667017f44427a588ba8c157b64eacc9a4747a0c0",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:34:34Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s007-landscape-v002-producer-review-v003.md",
+          "sha256": "12bd80f86fe29f9892ca1e038e200c84d95bd69fda3a82b3febbefe420fa1154"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The two resting hands attach at the wrists; each crop shows one thumb plus four fingers. Both feet remain attached and the crossed legs are continuous."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The two resting hands attach at the wrists; each crop shows one thumb plus four fingers. Both feet remain attached and the crossed legs are continuous."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One calm face with eyes closed and intact brows, nose and mouth."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One calm face with eyes closed and intact brows, nose and mouth."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The waist medallion sits at the center of the sash; cheek B-R 65. No extra limb, lettering or rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer exact-byte review only. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d100/s008/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "23193fab518c2ebed9e70e119343c77b715628e2bf8b8b5749c3288ac89c5674",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:42:59Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s008-landscape-v003-producer-review-v003.md",
+          "sha256": "852e0ac0593ff4af222c45782699b840c98550dfe94528a1bf6e4bb4061982fb"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both resting hands show attached fingers in the native scene; the enlarged toe crop shows five distinct toes on the visible foot. Crossed ankles connect naturally."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both resting hands show attached fingers in the native scene; the enlarged toe crop shows five distinct toes on the visible foot. Crossed ankles connect naturally."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The face is composed with closed eyes and separate brows, nose and lips."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The face is composed with closed eyes and separate brows, nose and lips."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The temple and riverbank remain in the background, while the seated figure is fully framed; cheek B-R 69. No text or rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer exact-byte review only. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d100/s009/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "d4f98d515d2535a25e0e4bbe234ed12670ad5ec429ebcefd56c2e8da4aca5663",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:16:44Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s009-landscape-v005-producer-review-v001.md",
+          "sha256": "d942abd7d2dd060821d9eb46c36fb7ee7516e12f71281eae18519b5f8a3013fb"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both feet show five separated toes with red nail tips in the enlarged view; Krishna’s open hand shows one thumb and four fingers; the three worshippers’ arms are attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both feet show five separated toes with red nail tips in the enlarged view; Krishna’s open hand shows one thumb and four fingers; the three worshippers’ arms are attached."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna’s forehead is plain blue with no tilak. Three worshippers have separate faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Krishna’s forehead is plain blue with no tilak. Three worshippers have separate faces."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Kurma supports Mandara. Krishna (31,76,126), B-R 95; worshippers (150,86,47), (151,89,51), (128,80,49), R-B 103,100,79. No lettering or rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer exact-byte review of forehead repair v005. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d100/s010/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "e793c86d50a2394796215f923218e25e29d6c5e51eb585f3cd2b219a1259962c",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:19:10Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s010-landscape-v004-producer-review-v003.md",
+          "sha256": "97164a2a4abf4365e3aec4266dea597c0e705fbde67be55bfa420fd56fc91dae"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both enlarged soles show five toes each and connect to the visible legs; four kneeling worshippers remain separate, with attached arms."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Both enlarged soles show five toes each and connect to the visible legs; four kneeling worshippers remain separate, with attached arms."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Only small worshipper faces appear; each has distinct head and facial profile. Krishna’s face is out of frame as planned."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Only small worshipper faces appear; each has distinct head and facial profile. Krishna’s face is out of frame as planned."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Krishna’s sole skin patches are (40,69,128), B-R 88 and (48,74,131), B-R 83. The mountain and snow peaks remain visible; no text or rays."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer exact-byte review only. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 11,
+      "role": "matte",
+      "file": "artifacts/d100/s011/landscape/candidate-v008.png",
+      "version": "v008",
+      "sha256": "6ac329f79fde8941e6851946d667f75abba78899aeef4179bad7b6c36212d5b3",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T12:21:02Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows the two-armed, two-legged character contract; all other visible figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "3bfe921e9f7ec26977420e3a7104a06b838d8c4efed7ab546b4189ec65779923"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s011-landscape-v008-producer-review-v002.md",
+          "sha256": "ab8a9e812b113461011cf56657442e17bc5747f42bc29579a3406fd4ea8c3a67"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s open hand has a separated thumb and four fingers; the resting hand shows five digits. Krishna’s two feet and Bhattathiri’s visible foot each show five toe tips. Bhattathiri’s folded hands overlap, so individual thumb edges cannot be separated."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s open hand has a separated thumb and four fingers; the resting hand shows five digits. Krishna’s two feet and Bhattathiri’s visible foot each show five toe tips. Bhattathiri’s folded hands overlap, so individual thumb edges cannot be separated."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Guruvayurappan has one face with the prescribed forehead mark; Bhattathiri is clean-shaven with shaved scalp and small tuft."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Guruvayurappan has one face with the prescribed forehead mark; Bhattathiri is clean-shaven with shaved scalp and small tuft."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Side columns and enclosing arch are absent; the wall band and seat remain inside the edge-to-edge composition. Cheek medians: Guruvayurappan (39,67,114), B-R 75; Bhattathiri (153,81,42), R-B 111. No rays or writing."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Bhattathiri folded prayer hands overlap; thumb edges cannot be independently counted per hand."
+      ],
+      "notes": "Producer exact-byte review only. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d100/s001/landscape/candidate-v012.png",
+      "version": "v012",
+      "sha256": "fde9800a3a194c92a8ff41d27b4c1e3459483707ad677cec7236a0f4d1741b07",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-17T13:25:56Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "The scene shows the youthful deity with the shared two-armed, two-legged form; all other visible human figures follow their named contracts.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "316c9738f5616793696d3b42d74231a02b4271d6ed622c8bd3bcbda1d9e59cd2"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s001-landscape-v012-producer-review-v004.md",
+          "sha256": "7b6879c2a714c7214c90e3f9e23bce3cff38220f71dfeaf095bcd7968b33db6b"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s raised palm shows one thumb and four fingers in the enlarged crop; Bhattathiri’s prayer hands are attached. No feet are in frame."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna has two arms attached to the shoulders and a seated lotus pose; the surrounding figures remain separate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna, clean-shaven foreground Bhattathiri with shaved scalp and tuft, veena-bearing Narada, two sages and three women attendants have distinct faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Krishna and one of each surrounding figure; no fused or duplicated people are apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The mapped scene is a darshan among blue lilies. Krishna cheek B-R 108 in the remeasured patch; human R-B ranges are Bhattathiri 122–173, Narada 116–127, sage A 123–162, sage B 182–185, women A 138–161, B 149–161, C 126–169. The warm-orange skin deviation remains explicit. The cream disc is plain; the orange arcs are branches, with no rays or shafts."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [
+        "Warm-orange human skin remains: Bhattathiri R-B 122–173; Narada 116–127; sage A 123–162; sage B 182–185; woman A 138–161; woman B 149–161; woman C 126–169. Reviewer woman points land on clothing, and are noted separately from newly sampled skin patches."
+      ],
+      "notes": "Producer inspection only. Candidate remains unapproved; art/approved/ is unchanged."
+    },
+    {
+      "reviewer": "Codex producer self-review",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "anatomy_basis": "The youthful deity follows the shared one-face, two-arm, two-leg character contract; all other visible figures are distinct and naturally proportioned.",
+      "chapter": 100,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d100/s005/landscape/candidate-v010.png",
+      "version": "v010",
+      "sha256": "f3c50d9c46e2996699b0c079fdd5e573d0f1e953fb76056a8c99832882190d0c",
+      "inspected_at": "2026-11-17T23:26:20Z",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "b1c2ac8ccbd5e7971f6ce55cc2edbdf7f50ad4272819d7a883d4c7e3a91e3f3c"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s005-landscape-v010-producer-review-v001.md",
+          "sha256": "cc2bb67d6237d72906588380099ec91a7e525cb57e1dfdd8f490c87ff01596de"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both flute hands are attached; enlarged view shows four fingers and a distinct thumb on each. Bhattathiri’s foot is concealed beneath cloth at the frame edge."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "One youthful Krishna and one Bhattathiri; hands and wrists connect to their arms, and the dhoti remains in a natural seated fold."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and the clean-shaven Bhattathiri have distinct, undistorted faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Only one Krishna and one Bhattathiri are present; no fused figures or limbs are visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo, or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "The paired flat orange and cream arcs flanking the halo may be musical curves, but can also read as rays; independent tiebreak requested. Skin-only patch readings: Krishna B-R 118; Bhattathiri R-B 110, 96, 108."
+        }
+      },
+      "outcome": "uncertain",
+      "findings": [
+        "The symmetrical orange and cream halo-side arcs could read as rays despite their flat painted treatment and planned musical-curve role."
+      ],
+      "disclosed_deviations": [
+        "Bhattathiri skin patch medians are R-B 110, 96 and 108; Krishna B-R 118."
+      ],
+      "notes": "Producer exact-byte review only. Independent single-image tiebreak requested; candidate remains unapproved."
+    },
+    {
+      "reviewer": "Codex producer self-review",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "anatomy_basis": "The youthful deity follows the shared one-face, two-arm, two-leg character contract; all other visible figures are distinct and naturally proportioned.",
+      "chapter": 100,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d100/s010/landscape/candidate-v006.png",
+      "version": "v006",
+      "sha256": "9728b4b7c51573d8cd7a7c359d039872cfd89e237d26bfdff459fd14eaaa46ee",
+      "inspected_at": "2026-11-17T23:26:34Z",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "b1c2ac8ccbd5e7971f6ce55cc2edbdf7f50ad4272819d7a883d4c7e3a91e3f3c"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s010-landscape-v006-producer-review-v001.md",
+          "sha256": "71b8d8da78b363dcf6e159e9c4a2b07622916a057635761ed7cead21f5089d1c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both soles show five distinct toes. The resting hand shows one thumb plus four separate fingers; the curled hand is attached. Worshippers’ folded hands and arms remain attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s two arms and both legs connect naturally to the torso; all four worshippers remain separate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna has one face with bare forehead; each of four worshippers has a distinct face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Krishna and four distinct worshippers; no fused or duplicated people are apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, signature, logo, or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The low gold band and single peacock feather follow the shared youthful identity. Krishna cheek B-R 90. Worshipper patch R-B readings are 120, 111, 114, and 112; the first is at the approximate warm-brown threshold."
+        }
+      },
+      "outcome": "pass",
+      "findings": [],
+      "disclosed_deviations": [
+        "One worshipper’s 11x11 skin-only R-B median is 120, at the approximate warm-brown boundary; the other three readings are 111, 114 and 112."
+      ],
+      "notes": "Producer exact-byte review only. Candidate remains unapproved."
+    },
+    {
+      "chapter": 100,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d100/s007/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "cbe0e9fdf8588b814c2799fb2316e8fec895d959e6ba22a4f9dbd0f4e5af1e24",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-18T01:07:30Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible youthful Krishna follows the shared two-armed, two-legged identity contract.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "4799f02c6f74f3686dbfbeb3a570d6fc622c6710961333f93c3362284a7e5483"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s007-landscape-v004-producer-review-v001.md",
+          "sha256": "381da92e65341505142644f0a01d1c0e4491ce9428cfcc7ea54b4773f39565ca"
+        },
+        {
+          "path": "art/reviews/d100-independent-review-v006.md",
+          "sha256": "e2ea7c9c7db04572117316d56f7106e7e472e2c8292c4c5c16cb6b35afe1022c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both hands show a thumb and four fingers; both attached crossed feet show five separate toe tips in enlarged crops."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The seated body, arms, legs and crossed feet remain continuous and attached."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One complete youthful face, plain forehead, low gold band and single upright feather."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Only one figure; no duplicated or fused bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Narrow jeweled belt with five small bells and tiny center jewel; opaque yellow cloth covers hips and thighs; cheek B-R 68; no rays or shafts."
+        }
+      },
+      "findings": [
+        "The 16:9 landscape preserves the mapped caption scene: one seated youthful Krishna with a narrow waist, opaque yellow dhoti, red-orange shawl and small belt. The previously oversized girdle is now a narrow band with five small bells and a tiny central landscape jewel.",
+        "At enlarged waist/hands view the center jewel is small and the bell forms remain separated; neither dominates the waist. Both visible resting hands show a distinct thumb and four fingers.",
+        "The two crossed feet remain attached; enlarged crop shows five separate toe tips on each foot. One complete face, bare forehead, low band and upright peacock feather; no extra people, limbs, readable text, rays or shafts.",
+        "Krishna cheek patch RGB (74,108,142), B-R 68, within the deep indigo target."
+      ]
+    },
+    {
+      "chapter": 100,
+      "sloka": 11,
+      "role": "matte",
+      "file": "artifacts/d100/s011/landscape/candidate-v014.png",
+      "version": "v014",
+      "sha256": "3ef4de4c95f382a76239a34864705b252c2483fd4245188be4fa120813de1260",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-18T01:07:51Z",
+      "method": "individual-native-resolution-plus-focused-detail",
+      "outcome": "pass",
+      "anatomy_basis": "The visible deity follows its shared named character contract; the other figure follows the shared Bhattathiri contract.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d100.json",
+          "sha256": "4799f02c6f74f3686dbfbeb3a570d6fc622c6710961333f93c3362284a7e5483"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/bhattathiri/character.json",
+          "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+        },
+        {
+          "path": "art/bible/characters/narada/character.json",
+          "sha256": "841aa373baad9230944390a5019523cea424d23fd3f96ef81b149e7aa4f98806"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d100-upanishad-sundaris/character.json",
+          "sha256": "b55c74bcb1725276b30eac416cfba9f45858459647a286ce5a2ca66481aac724"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d100-s011-landscape-v014-producer-review-v001.md",
+          "sha256": "0f52336425671e02981691567b17db1e43950ddb4b1c65208666d2cc86ed5247"
+        },
+        {
+          "path": "art/reviews/d100-independent-review-v006.md",
+          "sha256": "e2ea7c9c7db04572117316d56f7106e7e472e2c8292c4c5c16cb6b35afe1022c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The blessing hand shows a thumb plus four fingers; the resting hand has five digits. Both Krishna feet and Bhattathiri’s visible foot show five toe tips in enlarged crops. Bhattathiri’s joined prayer hands remain attached with aligned fingertips."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Two arms and two legs per figure, joined at natural shoulders and hips; no detached or fused limbs."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One serene youthful deity face and one older clean-shaven devotee face with the prescribed tuft and ash markings."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Exactly two distinct figures, without duplication or fusion."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Closed palm-leaf bundle has no writing; no other readable text, signature, logo or watermark."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Low tasteful feathered crown and edge-to-edge ochre mural follow the plan. Bhattathiri remains warm brown; measured skin patches R-B 113–131 with four face/neck/torso/arm samples 4–11 above the approximate guide, disclosed. Guruvayurappan remains blue; no rays or shafts."
+        }
+      },
+      "findings": [
+        "The selected candidate keeps a full-bleed ochre mural and the quiet prayer exchange. The crown is now a low feathered head ornament proportionate to the head; the tall tower tiers from v008 are absent.",
+        "There is one two-armed Guruvayurappan and one older, clean-shaven Bhattathiri with the small scalp tuft, ash stripes, sacred thread, prayer beads and closed leaf bundle. No separate framing columns or arch.",
+        "Enlarged crops show Guruvayurappan’s open blessing hand with a thumb and four fingers, the resting hand with five digits, two attached feet with five toe tips each, Bhattathiri’s joined prayer hands, and five distinct toe tips on his visible foot.",
+        "Skin samples: Guruvayurappan cheek (31,73,151), B-R 120. Bhattathiri cheek/neck/torso/arm samples have R-B 124–131; folded hand R-B 120 and visible foot R-B 113. The face/neck/torso/arm values are 4–11 above the approximate 120 guide, but visually read as warm medium-brown rather than saturated orange. This small measured overage is disclosed for independent review.",
+        "No readable leaf text, extra people, malformed faces, detached limbs, rays or shafts. Candidate remains unapproved."
+      ]
     }
   ]
 }
