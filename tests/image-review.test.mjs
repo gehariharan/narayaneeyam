@@ -57,6 +57,27 @@ async function fixture(t) {
   return { root, directory, write, image, row, batch, review, save, data, provenance, bundle, key };
 }
 
+// The intake photos are git-ignored; their digests are committed in the reference mural batch.
+async function committedReferenceSha(root, file) {
+  const batch = JSON.parse(await fs.readFile(path.join(root, 'art/batches/reference-murals-v001.json'), 'utf8'));
+  const found = new Set();
+  (function walk(node) {
+    if (!node || typeof node !== 'object') return;
+    if (node.path === file && node.sha256) found.add(node.sha256);
+    Object.values(node).forEach(walk);
+  })(batch);
+  assert.equal(found.size, 1, `one committed digest for ${file}`);
+  return [...found][0];
+}
+
+// Candidate renders are git-ignored; the exact-version review records commit their digests.
+async function committedMatteSha(root, matte) {
+  const { reviews } = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/visual-reviews.json'), 'utf8'));
+  const found = new Set(reviews.filter(item => item.file === matte.file && item.version === matte.version).map(item => item.sha256));
+  assert.equal(found.size, 1, `one committed review digest for ${matte.file}`);
+  return [...found][0];
+}
+
 test('valid evidence permits the selected version with documented deity anatomy', async t => {
   const f = await fixture(t);
   assert.equal((await validateBundle(f.root, f.directory)).images.length, 1);
@@ -369,11 +390,11 @@ test('D029 selection pins ten source and native candidates with exact passing re
     assert.ok(stanza && scene);
     assert.equal(selected.concept_id, scene.concept_id);
     assert.ok(scene.reference_paths.includes(selected.reference.file));
-    assert.equal(selected.reference.sha256, sha256(await fs.readFile(path.join(root, selected.reference.file))));
+    assert.equal(selected.reference.sha256, await committedReferenceSha(root, selected.reference.file));
     const version = { 1: 'v003', 2: 'v002', 3: 'v004', 4: 'v003', 5: 'v003', 6: 'v002', 7: 'v004', 8: 'v002', 9: 'v003', 10: 'v003' }[selected.n];
     assert.equal(selected.matte.file, `artifacts/d029/s${String(selected.n).padStart(3, '0')}/landscape/candidate-${version}.png`);
     assert.equal(selected.matte.version, version);
-    assert.equal(selected.matte.sha256, sha256(await fs.readFile(path.join(root, selected.matte.file))));
+    assert.equal(selected.matte.sha256, await committedMatteSha(root, selected.matte));
     assert.deepEqual(selected.alternates, []);
   }
   const validation = await validateSelections(root, [batch]);
@@ -456,11 +477,11 @@ test('D048 selection binds ten mapped source and native landscape versions', asy
     assert.equal(selected.concept_id, scene.concept_id);
     assert.equal(selected.scene, scene.alt);
     assert.equal(selected.reference.file, `intake/D048/${String(selected.n).padStart(3, '0')}.jpg`);
-    assert.equal(selected.reference.sha256, sha256(await fs.readFile(path.join(root, selected.reference.file))));
+    assert.equal(selected.reference.sha256, await committedReferenceSha(root, selected.reference.file));
     assert.equal(selected.matte.file, scene.orientations.landscape.candidate_path);
     assert.equal(selected.matte.version, scene.orientations.landscape.candidate_version);
     assert.equal(selected.matte.sha256, scene.orientations.landscape.candidate_sha256);
-    assert.equal(selected.matte.sha256, sha256(await fs.readFile(path.join(root, selected.matte.file))));
+    assert.equal(selected.matte.sha256, await committedMatteSha(root, selected.matte));
     assert.deepEqual(selected.alternates, []);
     assert.equal(stanza.review_status, 'needs-review');
   }
@@ -479,8 +500,8 @@ test('D014 selection binds ten source/candidate pairs and renders as a landscape
   for (const selected of batch.rows) {
     const stanza = content.stanzas.find(item => item.n === selected.n);
     assert.ok(stanza);
-    assert.equal(selected.reference.sha256, sha256(await fs.readFile(path.join(root, selected.reference.file))));
-    assert.equal(selected.matte.sha256, sha256(await fs.readFile(path.join(root, selected.matte.file))));
+    assert.equal(selected.reference.sha256, await committedReferenceSha(root, selected.reference.file));
+    assert.equal(selected.matte.sha256, await committedMatteSha(root, selected.matte));
     assert.deepEqual(selected.alternates, []);
     const review = reviewFor(validation, { ...selected.matte, chapter: 14, sloka: selected.n, role: 'matte' });
     assert.equal(review.status, 'inspected');
@@ -527,11 +548,11 @@ test('D033 selection binds its ten source and native candidate versions to the s
     assert.equal(selected.scene, scene.alt);
     assert.equal(selected.reference.file, mapped.reference);
     assert.equal(selected.reference.sha256, mapped.sha256);
-    assert.equal(selected.reference.sha256, sha256(await fs.readFile(path.join(root, selected.reference.file))));
+    assert.equal(selected.reference.sha256, await committedReferenceSha(root, selected.reference.file));
     assert.equal(selected.matte.file, scene.orientations.landscape.candidate_path);
     assert.equal(selected.matte.version, scene.orientations.landscape.candidate_version);
     assert.equal(selected.matte.sha256, scene.orientations.landscape.candidate_sha256);
-    assert.equal(selected.matte.sha256, sha256(await fs.readFile(path.join(root, selected.matte.file))));
+    assert.equal(selected.matte.sha256, await committedMatteSha(root, selected.matte));
     assert.equal(selected.matte.dimensions_px, scene.orientations.landscape.native_dimensions);
     assert.deepEqual(selected.alternates, []);
     assert.equal(stanza.review_status, 'needs-review');
@@ -573,10 +594,10 @@ test('D067 comparison binds ten source photos, captions, native landscape select
     assert.equal(selected.scene, scene.alt);
     assert.equal(selected.reference.file, mapped.path);
     assert.equal(selected.reference.sha256, mapped.sha256);
-    assert.equal(selected.reference.sha256, sha256(await fs.readFile(path.join(root, selected.reference.file))));
+    assert.equal(selected.reference.sha256, await committedReferenceSha(root, selected.reference.file));
     assert.equal(selected.matte.version, orientation.selected_candidate_version);
     assert.equal(selected.matte.sha256, orientation.selected_candidate_sha256);
-    assert.equal(selected.matte.sha256, sha256(await fs.readFile(path.join(root, selected.matte.file))));
+    assert.equal(selected.matte.sha256, await committedMatteSha(root, selected.matte));
     assert.equal(orientation.aspect_ratio, '16:9');
     assert.equal(scene.orientations.portrait.status, 'paused');
     assert.deepEqual(selected.alternates, []);
