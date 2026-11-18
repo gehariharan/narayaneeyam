@@ -549,6 +549,7 @@ for(const row of full94.rows){
  assert.equal(row.commentarySource,`intake/D094/photo-captions.txt#${row.n}`);
  assert.equal(row.commentary,content94.stanzas.find(s=>s.n===row.n).commentary_en);
  assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ for(const image of row.images)assert.ok(data.assets[image.key]);
  const selected=selected94.rows.find(r=>r.n===row.n);assert.ok(selected);
  for(const role of ['reference','matte'])assert.equal(provenance94.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
  assert.equal(row.images.find(i=>i.role==='matte').version,selected.matte.version);
