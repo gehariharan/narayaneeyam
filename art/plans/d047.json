@@ -1,0 +1,546 @@
+{
+  "schema_version": 1,
+  "daskam_id": 47,
+  "slug": "d047",
+  "chapter_label": "Dasakam 47",
+  "continuity": {
+    "anchor_character": "krishna-vrindavan-youth",
+    "recurring_characters": [
+      "Krishna as child",
+      "Yashoda"
+    ],
+    "locations": [
+      "Vraja household churning area",
+      "dairy room",
+      "mortar corner",
+      "celestial register"
+    ],
+    "narrative_arc": "A hungry child interrupts churning and breaks a pot; Yashoda searches, catches and binds him, then leaves him by the mortar; Krishna eats hidden butter while devas praise the Lord bound by compassion.",
+    "krishna_form_contract": "Reuse art/bible/characters/krishna-vrindavan-youth/character.json for the Vrindavan child Krishna as directed for this task: deep matte indigo-blue skin, plain bare forehead, ordinary child anatomy, no extra limbs or duplicate Krishna. Do not create a chapter-specific replacement.",
+    "yashoda_contract": "Use art/bible/characters/yashoda/character.json: adult mother with warm medium-brown skin, gentle oval face, veiled dark hair and cream/saffron/muted-rose sari.",
+    "devas_contract": "Use art/bible/characters/devas/character.json for a small distinct group of warm-brown adult celestial witnesses with modest crowns, cream/ochre/maroon garments and ordinary two-arm anatomy.",
+    "rendering_references": [
+      "artifacts/d047/references/style-d001-s004.png",
+      "artifacts/d047/references/style-d001-s008.png"
+    ],
+    "palette_arc": "Warm household cream, ochre, muted rose and olive, with Krishna in deep indigo-blue; matte mineral fills, dark drawn contours, no orange skin, gloss or beams.",
+    "reference_mapping": "Photos 001–008 map in order to stanzas 1–8. In stanza 5, use monkeys shown and canonical monkey meaning despite the caption word cat. Photo 009 conflicts with the text; depict Krishna eating butter after Yashoda leaves. Photo 010 is a title poster, not a stanza-specific scene; depict devas praising Krishna. Photos 011–012 are Tamil text pages and excluded from scene mapping.",
+    "batch_selection": "Ten landscape-only candidates are intended for an unapproved comparison batch; artwork remains not approved. Portraits paused."
+  },
+  "character_bible_refs": [
+    "art/bible/characters/krishna-vrindavan-youth/character.json",
+    "art/bible/characters/yashoda/character.json",
+    "art/bible/characters/gopikas/character.json",
+    "art/bible/characters/monkeys/character.json",
+    "art/bible/characters/devas/character.json"
+  ],
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d047-s001",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show Yashoda churning curd in the household interior as the hungry child Krishna climbs onto her lap to drink; one coherent churning rod and pot, intimate maternal gesture.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show Yashoda churning curd in the household interior as the hungry child Krishna climbs onto her lap to drink; one coherent churning rod and pot, intimate maternal gesture. Compose for full-bleed 16:9 landscape, with space around faces, hands, feet and key props; use a single readable moment.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "Krishna climbs into Yashoda’s lap while she churns curd.",
+      "reference_paths": [
+        "intake/D047/001.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png",
+        "artifacts/d047/references/krishna-d066-s002-v004.png",
+        "artifacts/d047/references/krishna-d066-s010-v004.png"
+      ],
+      "reference_guidance": "One-to-one caption/photo mapping; scene depicts Yashoda churning curd as Krishna climbs into her lap to drink milk.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d047/s001/landscape/candidate-v006.png",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d047/s001/landscape/prompt-submitted-v006.txt",
+          "provenance_path": "artifacts/d047/s001/landscape/provenance-v006.json",
+          "candidate_status": "Producer inspection: Krishna forehead plain with one low gold band and upright feather; Krishna face B-R 53 and torso 105. Yashoda 31x31 skin-patch medians: face R-B 116 (approx x730,y260), upper hand 114, upper arm 119, lower hand 121; the lower hand remains marginally above the approximate 120 target. Krishna visible open hand shows thumb plus four fingers; both visible feet show five toes. No duplicate figure, detached limb, or readable text. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d047-s002",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show Krishna feeding at Yashoda’s lap, then the immediate interruption as she turns and hurries toward milk overflowing on the cooking fire; keep one clear narrative moment, no duplicated mother or child.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show Krishna feeding at Yashoda’s lap, then the immediate interruption as she turns and hurries toward milk overflowing on the cooking fire; keep one clear narrative moment, no duplicated mother or child. Compose for full-bleed 16:9 landscape, with space around faces, hands, feet and key props; use a single readable moment.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "Yashoda leaves the feeding Krishna to tend milk overflowing on the fire.",
+      "reference_paths": [
+        "intake/D047/002.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png",
+        "artifacts/d047/references/krishna-d066-s002-v004.png",
+        "artifacts/d047/references/krishna-d066-s010-v004.png"
+      ],
+      "reference_guidance": "One-to-one caption/photo mapping; use the first action from the canonical stanza and the caption, and retain the mother leaving to tend the overflowing milk.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v014",
+          "candidate_path": "artifacts/d047/s002/landscape/candidate-v014.png",
+          "native_dimensions": "1671x941",
+          "prompt_path": "artifacts/d047/s002/landscape/prompt-submitted-v014.txt",
+          "provenance_path": "artifacts/d047/s002/landscape/provenance-v014.json",
+          "candidate_status": "Producer inspection of selected v014: one clear lap-feeding moment with Yashoda turning and reaching to the overflowing milk above the lit hearth. Yashoda reaching hand, supporting hand and Krishna open hand each show thumb plus four distinct fingers; Krishna visible foot and Yashoda visible toes show five toes. Krishna forehead remains bare with one low band, curls and feather; face/arm blue-only medians B-R 99/98. Yashoda skin-only 31x31 medians: cheek (925,220) RGB 189,103,58 R-B 131; forearm (1080,420) RGB 189,104,59 R-B 130. These are about 10–11 above the approximate 120 guide; full-size skin reads warm medium-brown rather than saturated orange, and this measured deviation is disclosed for independent visual judgment. Independent exact-checksum review pending; artwork remains unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d047-s003",
+      "characters": [
+        "krishna-vrindavan-youth"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show the immediate aftermath of Krishna breaking the churning pot: the angry child sits beside distinct pot shards and spilled curd, with the rod lying on the floor beside the shards.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show the immediate aftermath of Krishna breaking the churning pot: angry Krishna seated beside broken shards and spilled curd, the rod clearly lying adjacent on the floor. Compose as one readable wide landscape with clear separation of child, shards and rod.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "Krishna breaks the curd pot with the churning rod.",
+      "reference_paths": [
+        "intake/D047/003.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png",
+        "artifacts/d047/references/krishna-d066-s002-v004.png",
+        "artifacts/d047/references/krishna-d066-s010-v004.png"
+      ],
+      "reference_guidance": "Photo 003 presents the aftermath rather than the break itself. Canonical stanza 3 identifies Krishna as the pot-breaker; selected image shows the shards and rod lying adjacent.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v009",
+          "candidate_path": "artifacts/d047/s003/landscape/candidate-v009.png",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d047/s003/landscape/prompt-submitted-v009.txt",
+          "provenance_path": "artifacts/d047/s003/landscape/provenance-v009.json",
+          "candidate_status": "Selected aftermath composition: angry child Krishna seated beside broken pot shards and spilled curd; churning rod lies adjacent on the floor, not in his hands. Krishna face B-R 43, torso B-R 45; visible foot shows five toes, other foot is folded beneath the dhoti and not countable. Hands appear connected and five digits are visible in enlarged views; no duplicate people, malformed limbs, or text. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d047-s004",
+      "characters": [
+        "yashoda"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show Yashoda arriving from the kitchen after hearing the crash, finding broken pot shards and curd spread across the floor; Krishna is not the focal figure.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show Yashoda arriving from the kitchen after hearing the crash, finding broken pot shards and curd spread across the floor; Krishna is not the focal figure. Compose for full-bleed 16:9 landscape, with space around faces, hands, feet and key props; use a single readable moment.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "Yashoda returns to the broken pot and curd spread across the floor.",
+      "reference_paths": [
+        "intake/D047/004.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png",
+        "artifacts/d047/references/krishna-d066-s002-v004.png",
+        "artifacts/d047/references/krishna-d066-s010-v004.png"
+      ],
+      "reference_guidance": "Photo 004 includes Krishna, but the stanza and selected image focus on Yashoda returning to find the broken pot and spilled curd.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v007",
+          "candidate_path": "artifacts/d047/s004/landscape/candidate-v007.png",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d047/s004/landscape/prompt-submitted-v007.txt",
+          "provenance_path": "artifacts/d047/s004/landscape/provenance-v007.json",
+          "candidate_status": "Producer inspection of selected v007: Yashoda returns alone to the broken pot and spilled curd; the pale vertical forehead mark is absent. Both visible open hands show a thumb plus four distinct fingers. Feet are covered by the sari and cannot be counted. Skin-only 31x31 medians: cheek R-B 118; forearm R-B 120; raised palm R-B 119; reaching palm R-B 116. Skin reads brown; forearm lies at the approximate target. Independent exact-checksum review pending; artwork remains unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d047-s005",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "monkeys"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show the canonical monkey episode: Krishna at the mortar shares butter with a small troop of distinct monkeys. The supplied English caption says “cat,” but the canonical stanza and photo depict monkeys; use monkeys, not a cat.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show the canonical monkey episode: Krishna at the mortar shares butter with a small troop of distinct monkeys. The supplied English caption says “cat,” but the canonical stanza and photo depict monkeys; use monkeys, not a cat. Compose for full-bleed 16:9 landscape, with space around faces, hands, feet and key props; use a single readable moment.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "Krishna shares butter with monkeys beside the mortar.",
+      "reference_paths": [
+        "intake/D047/005.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png",
+        "artifacts/d047/references/krishna-d066-s002-v004.png",
+        "artifacts/d047/references/krishna-d066-s010-v004.png"
+      ],
+      "reference_guidance": "Photo 005 depicts monkeys receiving butter while the English caption says cat. Canonical Sanskrit stanza 5 identifies the monkey episode; follow the stanza and show Krishna giving butter to monkeys.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d047/s005/landscape/candidate-v004.png",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d047/s005/landscape/prompt-submitted-v004.txt",
+          "provenance_path": "artifacts/d047/s005/landscape/provenance-v004.json",
+          "candidate_status": "Krishna shares butter with three distinct monkeys, following the canonical monkey episode although caption 005 says cat. Krishna face/torso B-R 73/72. Visible hands show thumb plus four fingers; feet are concealed by dhoti and mortar. Monkeys have distinct connected limbs and no duplicate bodies. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d047-s006",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show Yashoda holding the mischievous Krishna and preparing a simple rope to tie him safely to the mortar, with her friends watching at a respectful distance.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show Yashoda holding the mischievous Krishna and preparing a simple rope to tie him safely to the mortar, with her friends watching at a respectful distance. Compose for full-bleed 16:9 landscape, with space around faces, hands, feet and key props; use a single readable moment.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "Yashoda catches Krishna and prepares rope to bind him to the mortar.",
+      "reference_paths": [
+        "intake/D047/006.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png",
+        "artifacts/d047/references/krishna-d066-s002-v004.png",
+        "artifacts/d047/references/krishna-d066-s010-v004.png"
+      ],
+      "reference_guidance": "Photo 006 shows the caught-and-rope episode; selected image keeps two feet unobstructed and five toes visible on each, with a disclosed measured warm-brown skin deviation. Independent reviewer should judge visible skin color against the image, not only the patch guide. Selected candidate v017 was produced after independent reviewer findings; prior selected bytes are retained in candidate history, not overwritten.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v018",
+          "candidate_path": "artifacts/d047/s006/landscape/candidate-v018.png",
+          "native_dimensions": "1670x941",
+          "prompt_path": "artifacts/d047/s006/landscape/prompt-submitted-v018.txt",
+          "provenance_path": "artifacts/d047/s006/landscape/provenance-v018.json",
+          "candidate_status": "Producer inspection of selected v018: Yashoda holds Krishna against her torso and draws the rope around his waist, visibly continuing to the mortar; two distinct gopikas watch. Both visible child feet show five toes; hands remain connected and natural. Krishna forehead is plain with one low band and feather. Krishna blue-only medians: cheek B-R 118 and torso B-R 114. Skin-only 31x31 medians: Yashoda cheek R-B 101 and forearm 102; gopika 1 upper arm R-B 102; gopika 2 arm R-B 101. Skin reads warm brown. Independent exact-checksum review pending; artwork remains unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d047-s007",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show Yashoda extending a rope by joining additional lengths around the child and mortar; the cord remains visibly just short by two finger widths. Do not show knots cutting into the child.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show Yashoda extending a rope by joining additional lengths around the child and mortar; the cord remains visibly just short by two finger widths. Do not show knots cutting into the child. Compose for full-bleed 16:9 landscape, with space around faces, hands, feet and key props; use a single readable moment.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "Yashoda adds rope lengths, but the cord remains two fingers short.",
+      "reference_paths": [
+        "intake/D047/007.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png",
+        "artifacts/d047/references/krishna-d066-s002-v004.png",
+        "artifacts/d047/references/krishna-d066-s010-v004.png"
+      ],
+      "reference_guidance": "One-to-one caption/photo mapping; Yashoda adds rope lengths, yet the cord remains two fingers short.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d047/s007/landscape/candidate-v004.png",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d047/s007/landscape/prompt-submitted-v004.txt",
+          "provenance_path": "artifacts/d047/s007/landscape/provenance-v004.json",
+          "candidate_status": "Krishna forehead bare, one low band and one feather; Krishna face/torso B-R 98/99. Yashoda face/forearm/hand R-B 113/113/113; gopika face medians R-B 109 and 94. The rope ends remain visibly separated by a two-finger gap. Both child feet show five toes; no extra people, detached limbs, or text. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d047-s008",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show the tired Yashoda looking on as the binding succeeds through Krishna’s compassion; distinct gopikas witness the moment, the cord is secure but gentle.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show the tired Yashoda looking on as the binding succeeds through Krishna’s compassion; distinct gopikas witness the moment, the cord is secure but gentle. Compose for full-bleed 16:9 landscape, with space around faces, hands, feet and key props; use a single readable moment.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "Yashoda, exhausted, binds Krishna as the gopikas look on.",
+      "reference_paths": [
+        "intake/D047/008.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png",
+        "artifacts/d047/references/krishna-d066-s002-v004.png",
+        "artifacts/d047/references/krishna-d066-s010-v004.png"
+      ],
+      "reference_guidance": "One-to-one caption/photo mapping; exhausted Yashoda sees Krishna permit the binding while gopikas watch.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d047/s008/landscape/candidate-v002.png",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d047/s008/landscape/prompt-submitted-v002.txt",
+          "provenance_path": "artifacts/d047/s008/landscape/provenance-v002.json",
+          "candidate_status": "Krishna face/torso B-R 101/102; Yashoda face R-B 106 and hand 115/117; gopika cheek patches R-B 115, 114, 117. Krishna forehead is plain with one low band and feather; both feet show five toes. Three distinct gopikas witness the binding; no beams, duplicate bodies, extra limbs, or text. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d047-s009",
+      "characters": [
+        "krishna-vrindavan-youth"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show child Krishna alone beside the mortar after Yashoda has left, reaching into the mortar hole for butter and eating it. The reference photo contradicts this absence; follow the canonical stanza and caption.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show child Krishna alone beside the mortar after Yashoda has left, reaching into the mortar hole for butter and eating it. The reference photo contradicts this absence; follow the canonical stanza and caption. Compose for full-bleed 16:9 landscape, with space around faces, hands, feet and key props; use a single readable moment.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "After Yashoda leaves, Krishna eats butter hidden in the mortar hole.",
+      "reference_paths": [
+        "intake/D047/009.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png",
+        "artifacts/d047/references/krishna-d066-s002-v004.png",
+        "artifacts/d047/references/krishna-d066-s010-v004.png"
+      ],
+      "reference_guidance": "Photo 009 mismatch: it shows Yashoda with Krishna. Canonical stanza and caption describe Yashoda having left; Krishna alone eats butter hidden in the mortar cavity. Do not copy Yashoda from the photo. Selected candidate v003 was produced after independent reviewer findings; prior selected bytes are retained in candidate history, not overwritten.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d047/s009/landscape/candidate-v003.png",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d047/s009/landscape/prompt-submitted-v003.txt",
+          "provenance_path": "artifacts/d047/s009/landscape/provenance-v003.json",
+          "candidate_status": "Canonical scene: Yashoda has left, and Krishna alone eats the butter hidden in the mortar cavity; photo 009 instead shows Yashoda present. In selected v003, both fully visible feet show five distinct toes; the face/torso B-R medians are 133/90, with plain forehead, low band and one feather. The butter hand and mortar-bracing hand are attached and show no visible deformity. Earlier v001 had four clear toes on the viewer-right foot; v002 remained unclear/fewer than five on its side-on foot. No second physical Krishna, malformed limb, text, or poster lettering observed. Artwork remains unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d047-s010",
+      "characters": [
+        "devas",
+        "krishna-vrindavan-youth"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show a small distinct group of devas in the sky or celestial register praising the bound child Krishna below or centrally, without copying the poster. Keep the focus on praise and the paradox of the bound Lord.",
+          "Map intake photo and numbered caption as story context only; canonical Sanskrit controls any disagreement."
+        ],
+        "composition": "Show a small distinct group of devas in the sky or celestial register praising the bound child Krishna below or centrally, without copying the poster. Keep the focus on praise and the paradox of the bound Lord. Compose for full-bleed 16:9 landscape, with space around faces, hands, feet and key props; use a single readable moment.",
+        "tone": "Warm intimate devotional storytelling, clear silhouettes, quiet humor and compassion; broad matte mineral fields with dark drawn contours.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, gloss, metallic gold, silk sheen, cinematic beams or shafts.",
+          "Natural connected human anatomy and distinct faces; no extra or missing digits, duplicate/fused people, detached limbs, malformed hands or feet.",
+          "Use deep indigo-blue for Krishna (blue-minus-red at least 40), warm brown human skin (red-minus-blue below 120); no saturated orange skin.",
+          "Krishna has ordinary child proportions, deep blue skin, plain bare forehead, dark curls and muted yellow cloth; do not use a tall crown, forehead mark, extra limbs, or a duplicate physical Krishna.",
+          "Keep all people and creatures in natural scale and safely connected to props."
+        ]
+      },
+      "alt": "The devas praise Krishna, who is bound by Yashoda despite being beyond bonds.",
+      "reference_paths": [
+        "intake/D047/010.jpg",
+        "artifacts/d047/references/style-d001-s004.png",
+        "artifacts/d047/references/style-d001-s008.png"
+      ],
+      "reference_guidance": "Photo 010 is a Damodara Lila title/cover poster, not a stanza-specific scene. Do not copy poster layout or title. Depict devas praising Krishna as the canonical stanza says. Selected candidate v005 was produced after independent reviewer findings; prior selected bytes are retained in candidate history, not overwritten.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independent full landscape composition. Do not crop or extend another orientation.",
+          "candidate_version": "v007",
+          "candidate_path": "artifacts/d047/s010/landscape/candidate-v007.png",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d047/s010/landscape/prompt-submitted-v007.txt",
+          "provenance_path": "artifacts/d047/s010/landscape/provenance-v007.json",
+          "candidate_status": "Producer inspection of selected v007: three separate adult witnesses wear visible modest ochre crown bands and joined prayer hands on a cloud-backed celestial balcony; the D047 title poster is not copied. Deva skin-only 31x31 medians R-B are 95–97; Krishna face/torso blue-only medians B-R are 129–131. Both visible child feet show five toes. Krishna retains bare forehead, low band and feather; no duplicate body, malformed face, detached limb, readable text, beam or shaft. His relaxed hands stay at his sides with the cord across the wrists; individual curled finger separations are partly obscured, with no visible deformity. Fresh independent exact-checksum review pending; artwork remains unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    }
+  ]
+}

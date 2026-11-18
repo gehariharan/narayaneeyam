@@ -500,6 +500,27 @@ assert.equal((await feedback(req({...good,daskam:46,sloka:10}),env)).status,201)
 assert.equal((await feedback(req({...good,daskam:46,sloka:11}),env)).status,400);
 console.log('Passed: D046 has ten caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
 
+const full47=data.chapters.find(c=>c.id===47);assert.ok(full47);assert.deepEqual(full47.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content47=JSON.parse(await fs.readFile(new URL('../../content/daskams/d047.json',import.meta.url)));
+const selected47=JSON.parse(await fs.readFile(new URL('../../art/batches/d047-comparison-v001.json',import.meta.url)));
+const provenance47=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
+assert.equal(selected47.rows.length,10);assert.equal(selected47.review_status,'needs-review');assert.ok(full47.reviewNotice.toLowerCase().includes('unapproved'));
+assert.equal(selected47.artwork_approval,'not-approved');assert.equal(selected47.approval_manifest_updated,false);assert.equal(selected47.portrait_status,'paused');
+for(const row of full47.rows){
+ assert.equal(row.commentarySource,`intake/D047/photo-captions.txt#${row.n}`);
+ assert.equal(row.commentary,content47.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected47.rows.find(r=>r.n===row.n);
+ for(const role of ['reference','matte'])assert.equal(provenance47.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.equal(row.images.find(i=>i.role==='matte').version,selected.matte.version);
+ assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+}
+assert.ok(full47.rows[5].images.find(i=>i.role==='matte').inspectionLabel.toLowerCase().includes('not art approval'));
+assert.equal((await feedback(req({...good,daskam:47,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
+assert.equal((await feedback(req({...good,daskam:47,sloka:11}),env)).status,400);
+console.log('Passed: D047 has ten caption-mapped, exact-hash reference/candidate pairs with independently reviewed, unapproved selections and stanza-bounded feedback.');
+
+
 const full95=data.chapters.find(c=>c.id===95);assert.ok(full95);assert.deepEqual(full95.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content95=JSON.parse(await fs.readFile(new URL('../../content/daskams/d095.json',import.meta.url)));
 const selected95=JSON.parse(await fs.readFile(new URL('../../art/batches/d095-comparison-v006.json',import.meta.url)));
