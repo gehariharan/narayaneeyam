@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "daskam_id": 46,
+  "slug": "d046",
+  "continuity": {
+    "anchor_character": "yashoda-and-krishna",
+    "recurring_characters": [
+      "yashoda",
+      "infant-krishna",
+      "krishna-vrindavan-youth"
+    ],
+    "locations": [
+      "Vraja home",
+      "fruit grove",
+      "the cosmos seen within Krishna’s mouth",
+      "Vaikuntha over the milk ocean"
+    ],
+    "narrative_arc": "Yashoda’s ordinary maternal care meets Krishna’s cosmic form: the child yawns, plays, is accused of eating earth, denies it, reveals worlds within his mouth, and returns to her lap.",
+    "character_bible_refs": [
+      "art/bible/characters/yashoda/character.json",
+      "art/bible/characters/infant-krishna/character.json",
+      "art/bible/characters/krishna-vrindavan-youth/character.json",
+      "art/bible/characters/gopas/character.json",
+      "art/bible/characters/guruvayurappan/character.json",
+      "art/bible/characters/adishesha/character.json",
+      "art/bible/characters/devas/character.json",
+      "art/bible/characters/asuras/character.json"
+    ],
+    "reference_mapping": "Captain-supplied readiness record maps 001.jpg–010.jpg sequentially to canonical stanzas 1–10. Tamil text pages 011.jpg and 012.jpg remain excluded.",
+    "source_text": "Canonical Sanskrit and IAST follow Stotra Nidhi Dasakam 46. Caption commentary is retained verbatim and is not canonical translation.",
+    "rendering_references": [
+      "artifacts/d046/references/series-style-anchor-D001-S004.png",
+      "artifacts/d046/references/series-style-anchor-D001-S008.png"
+    ],
+    "palette_arc": "Matte mineral ochre, maroon, warm cream and muted foliage; Krishna uses deep indigo-blue skin. Cosmic scenes remain painterly and restrained, not glossy or photorealistic.",
+    "batch_selection": "Ten landscape-only candidates are intended for an unapproved reference-versus-candidate review chapter. This plan does not approve artwork. Portraits remain paused."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d046-s001",
+      "characters": [
+        "yashoda",
+        "infant-krishna"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/yashoda/character.json",
+        "art/bible/characters/infant-krishna/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Yashoda cradles the nursing-age infant Krishna safely across her lap after feeding.",
+          "The infant yawns; a tiny but legible universe appears within the open mouth, with no separate panel.",
+          "Keep Krishna an infant with exactly two ordinary external arms and legs in this human scene; no exposed nursing."
+        ],
+        "composition": "Intimate horizontal lap scene, faces and the small mouth cosmos in clear view.",
+        "tone": "Tender domestic wonder."
+      },
+      "alt": "Yashoda holds the infant Krishna as a universe appears in his yawn.",
+      "reference_paths": [
+        "intake/D046/001.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d046/references/infant-krishna-anchor-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 001 sets only the lap and yawn moment; infant anchor sets Krishna identity; the D043 source sets Yashoda identity; D001 images set style. Recompose for 16:9.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v009",
+          "candidate_path": "artifacts/d046/s001/landscape/candidate-v009.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s001/prompts/landscape-v009.md"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d046-s002",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "d046-cowherd-boys",
+        "yashoda"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "art/bible/characters/d046-cowherd-boys/character.json",
+        "art/bible/characters/yashoda/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna sits with two distinct young cowherd boys in a fruit grove after eating the fruit he promised to share.",
+          "One boy brings the complaint to Yashoda and gestures back toward Krishna; the other stands with the fruit pile, visibly upset.",
+          "All three children have complete modest village clothing, distinct faces, and naturally attached two-arm and two-leg anatomy; Krishna follows his shared youthful Vraja contract."
+        ],
+        "composition": "A single grove scene: Krishna beside shared fruit at right, Yashoda seated at left, and two boys between them, one complaining to her.",
+        "tone": "Playful mischief followed by a child’s complaint."
+      },
+      "alt": "Two cowherd boys tell Yashoda that Krishna ate the fruit he had promised to share.",
+      "reference_paths": [
+        "intake/D046/002.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 002 guides the fruit grove and cowherd boys. Use the Krishna reference for identity only, the D043 source for Yashoda identity only, and D001 for rendering. Recompose for 16:9.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v011",
+          "candidate_path": "artifacts/d046/s002/landscape/candidate-v011.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s002/prompts/landscape-v011.md"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d046-s003",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "art/bible/characters/guruvayurappan/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Yashoda is alarmed that the child may become ill after eating earth, while Krishna calmly sits before her.",
+          "Suggest the cosmic truth that Krishna consumes earth and waters at pralaya through a restrained reflection within the mouth or a small cosmic motif integrated into the scene.",
+          "Show Yashoda’s loving concern without making her aware of Krishna’s divinity; two external arms per human figure."
+        ],
+        "composition": "Close domestic exchange with child, mother, and a quiet cosmic-earth detail integrated into one frame.",
+        "tone": "Maternal concern with hidden cosmic scale."
+      },
+      "alt": "Yashoda worries that Krishna has eaten earth, unaware of his cosmic nature.",
+      "reference_paths": [
+        "intake/D046/003.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 003 guides the mother-child exchange; use the two identity anchors only for identity and D001 for the matte style. Recompose for 16:9.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d046/s003/landscape/candidate-v006.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s003/prompts/landscape-v006.md"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d046-s004",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "art/bible/characters/yashoda/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Yashoda repeatedly asks Krishna whether he ate mud, leaning toward him with a questioning gesture.",
+          "Krishna smiles and firmly denies it, with clean lips and face and no earth visible in the scene.",
+          "Keep both figures naturally attached and two-armed; Krishna’s forehead is plain and unmarked."
+        ],
+        "composition": "A close, balanced two-person exchange with clear gestures and expressive faces.",
+        "tone": "Gentle, playful interrogation."
+      },
+      "alt": "Yashoda questions Krishna, who smiles and denies eating mud.",
+      "reference_paths": [
+        "intake/D046/004.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 004 provides the exact gesture and moment. D001 are style references; the two identity cues guide faces only. Recompose for 16:9.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v008",
+          "candidate_path": "artifacts/d046/s004/landscape/candidate-v008.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s004/prompts/landscape-v008.md"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d046-s005",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "art/bible/characters/yashoda/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Yashoda tells Krishna that others have confirmed the accusation and asks him to open his mouth.",
+          "Krishna begins opening his mouth slowly, like a lotus unfolding; keep the mouth human-sized and do not yet show a cosmic tableau.",
+          "Both figures remain fully clothed with ordinary attached limbs; Krishna’s forehead is bare."
+        ],
+        "composition": "Mother’s prompting gesture and the child beginning to open his mouth are the clear focal point.",
+        "tone": "Quiet anticipation."
+      },
+      "alt": "Krishna begins to open his mouth at Yashoda’s request.",
+      "reference_paths": [
+        "intake/D046/005.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 005 controls the slow opening-mouth moment. Identity anchors guide faces only; D001 images guide style. Recompose for 16:9.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d046/s005/landscape/candidate-v006.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s005/prompts/landscape-v006.md"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d046-s006",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "art/bible/characters/guruvayurappan/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Yashoda looks into Krishna’s small open mouth and sees the entire earth and universe, not mud alone.",
+          "Include an integrated small worldscape with earth, sky and waters inside the mouth, clearly contained within the child’s face.",
+          "Krishna’s external form remains youthful and two-armed, with bare forehead; use no light beams or detached cosmic panel."
+        ],
+        "composition": "Keep both faces and the mouth-contained universe clearly readable in a single horizontal scene.",
+        "tone": "Amazed revelation, calm and intimate."
+      },
+      "alt": "Yashoda sees the whole universe inside Krishna’s open mouth.",
+      "reference_paths": [
+        "intake/D046/006.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 006 guides the complete cosmos-in-mouth vision. Keep the universe inside the mouth, not a detached panel. Identity and style references are not pose references.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v007",
+          "candidate_path": "artifacts/d046/s006/landscape/candidate-v007.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s006/prompts/landscape-v007.md"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d046-s007",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda",
+        "devas",
+        "asuras"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "art/bible/characters/devas/character.json",
+        "art/bible/characters/asuras/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Inside Krishna’s mouth, show forest, ocean, clouds, sky and Rasatala as distinct regions of one contained cosmos.",
+          "Show tiny humans, asuras and devas in their respective regions; they are inhabitants within the vision, not extra external people.",
+          "Keep Krishna’s face and Yashoda’s astonished gaze clear; external Krishna has two arms and bare forehead."
+        ],
+        "composition": "One close mother-child scene, with a single contained mouth cosmos organized into readable horizontal world bands.",
+        "tone": "Vastness rendered with composure."
+      },
+      "alt": "Yashoda sees forests, oceans, skies, Rasatala, humans, asuras and devas within Krishna’s mouth.",
+      "reference_paths": [
+        "intake/D046/007.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 007 is the exact contents reference for the mouth-world. The two D001 images set rendering; identity images guide faces only. Recompose for 16:9.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v008",
+          "candidate_path": "artifacts/d046/s007/landscape/candidate-v008.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s007/prompts/landscape-v008.md",
+          "candidate_status": "Selected landscape v008, SHA-256 9b69d43c1dc60d9fe246357de230f8591cb384cd96fd54672a681b53f8e21dad. Producer inspected the native frame and enlarged Yashoda face, open hand, visible feet and mouth-world details; the mother and child remain distinct with attached limbs, and the forest, ocean, cloud, sky and Rasatala bands remain separate with tiny witnesses inside the mouth. Yashoda’s open hand shows a thumb plus four fingers; her visible foot and both visible Krishna feet each show five toes. Yashoda cheek patch (650,250) RGB (197,117,79), R-B 118; outer Krishna cheek (1150,175) RGB (19,78,226), B-R 207. Tiny inner witness digits cannot be certified individually. DISCLOSED DEVIATION: after three color-repair attempts (v006, v007, v008), 4x4 skin-only patch R-B medians are deva face 127, deva arm 100, asura arm 129 (v008); the asura readings for v006/v007/v008 are 135/130/129, so the last remains above the approximately 120 warm-brown target. Firstmate accepted this measured range as still reading warm tan-brown for the tiny figures. Independent exact-checksum review pending; art remains unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d046-s008",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda",
+        "guruvayurappan",
+        "adishesha"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "art/bible/characters/yashoda/character.json",
+        "art/bible/characters/guruvayurappan/character.json",
+        "art/bible/characters/adishesha/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Yashoda sees Hari reclining upon Adishesha over the milk ocean within the child’s open mouth.",
+          "Show the reclining divine form and serpent couch only as a miniature contained vision inside Krishna’s mouth; the outer child remains two-armed.",
+          "Yashoda sees both the cosmic form and the child before her; keep those nested levels distinct and legible."
+        ],
+        "composition": "A balanced outer mother-child scene with a small but clear reclining Vishnu in the mouth-contained vision.",
+        "tone": "Sacred, layered wonder."
+      },
+      "alt": "Within Krishna’s mouth, Yashoda sees Hari reclining on Adishesha over the milk ocean.",
+      "reference_paths": [
+        "intake/D046/008.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 008 depicts the reclining Vaikuntha vision; it is scene context only. Follow Vishnu and Adishesha contracts for divine attributes, while the outer child stays under the Krishna contract.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v008",
+          "candidate_path": "artifacts/d046/s008/landscape/candidate-v008.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s008/prompts/landscape-v008.md",
+          "candidate_status": "Selected landscape v008, SHA-256 65dab0078c54ab0119dea8f15c76c292655f65baed33aea8dbbb3e54612f1592. Producer inspected the native frame and enlarged Yashoda hand/feet, outer Krishna face, and contained Hari views. Yashoda cheek patch (650,250) RGB (134,87,64), R-B 70; outer Krishna cheek (1150,175) RGB (33,80,208), B-R 175. Hari’s 4x4 skin-only medians are face (1080,370) RGB (40,74,196), B-R 156; exposed arm (1117,390) RGB (46,79,190), B-R 144; second exposed arm (1150,395) RGB (15,58,125), B-R 110. At the first face coordinate, v007 was RGB (103,120,118), B-R 15, while v008 is deep blue. Seven connected Adishesha hoods and four iconographic Hari arms remain visible; miniature hand digits are too small to certify individually. Yashoda’s open hand shows a thumb plus four fingers; visible feet each show five toes. No additional outer limbs, duplicates, text, border or watermark observed. Independent exact-checksum review pending; art remains unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d046-s009",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "art/bible/characters/yashoda/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "A world appears within Krishna’s mouth; inside that world Yashoda sees Krishna opening his mouth again, with another smaller world repeating toward infinity.",
+          "Make the nesting explicitly intentional with two or three progressively smaller mother-child layers; one outer pair remains full-sized.",
+          "Preserve Krishna’s plain forehead and ordinary two-arm outer anatomy; nested figures are tiny world images."
+        ],
+        "composition": "Single coherent recursive cosmos centered inside Krishna’s mouth, no separate panel.",
+        "tone": "Contemplative, vertiginous wonder."
+      },
+      "alt": "Yashoda sees the worlds repeating within Krishna’s mouth, receding toward infinity.",
+      "reference_paths": [
+        "intake/D046/009.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 009 guides the recursively nested world. Keep all repetition inside the mouth as deliberate miniatures; identity and style references guide only their stated roles.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d046/s009/landscape/candidate-v004.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s009/prompts/landscape-v004.md"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d046-s010",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "yashoda"
+      ],
+      "character_bible_refs": [
+        "art/bible/characters/krishna-vrindavan-youth/character.json",
+        "art/bible/characters/yashoda/character.json"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "After a brief recognition of Krishna’s divinity, Yashoda holds him tenderly on her lap as her child again.",
+          "Krishna reaches affectionately toward her, asking to be fed; communicate this through the embrace and a nearby covered feeding bowl without depicting nursing.",
+          "Keep Yashoda’s clothing opaque and complete, Krishna’s forehead bare and his external anatomy naturally two-armed."
+        ],
+        "composition": "Warm horizontal lap scene with a return from cosmic awe to maternal affection.",
+        "tone": "Tender, reassuring closure."
+      },
+      "alt": "Krishna returns to Yashoda’s lap as her affectionate child.",
+      "reference_paths": [
+        "intake/D046/010.jpg",
+        "artifacts/d046/references/series-style-anchor-D001-S004.png",
+        "artifacts/d046/references/series-style-anchor-D001-S008.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d046/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "Photo 010 guides the mother-child embrace. The scene does not show nursing; clothing remains complete. Identity anchors guide identity only and D001 anchors guide style.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d046/s010/landscape/candidate-v004.png",
+          "composition_role": "native landscape comparison mural",
+          "prompt_path": "artifacts/d046/s010/prompts/landscape-v004.md"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait deferred",
+          "composition_override": "Portrait production is paused."
+        }
+      }
+    }
+  ]
+}
