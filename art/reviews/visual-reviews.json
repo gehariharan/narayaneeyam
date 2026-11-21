@@ -47876,7 +47876,79 @@
       "disclosed_deviations": [
         "Bhattathiri skin patch medians are R-B 110, 96 and 108; Krishna B-R 118."
       ],
-      "notes": "Independent review of exact bytes; candidate remains unapproved; art/approved/ is unchanged. Report also records native-resolution plus focused-crop inspection."
+      "notes": "Independent review of exact bytes; candidate remains unapproved; art/approved/ is unchanged. Report also records native-resolution plus focused-crop inspection.",
+      "producer_reviews": [
+        {
+          "reviewer": "Codex producer self-review",
+          "method": "individual-native-resolution-plus-focused-detail",
+          "anatomy_basis": "The youthful deity follows the shared one-face, two-arm, two-leg character contract; all other visible figures are distinct and naturally proportioned.",
+          "chapter": 100,
+          "sloka": 5,
+          "role": "matte",
+          "file": "artifacts/d100/s005/landscape/candidate-v010.png",
+          "version": "v010",
+          "sha256": "f3c50d9c46e2996699b0c079fdd5e573d0f1e953fb76056a8c99832882190d0c",
+          "inspected_at": "2026-11-17T23:26:20Z",
+          "contracts": [
+            {
+              "path": "art/bible/series.json",
+              "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+            },
+            {
+              "path": "art/plans/d100.json",
+              "sha256": "b1c2ac8ccbd5e7971f6ce55cc2edbdf7f50ad4272819d7a883d4c7e3a91e3f3c"
+            },
+            {
+              "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+              "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+            },
+            {
+              "path": "art/bible/characters/bhattathiri/character.json",
+              "sha256": "85250f4fee4e6928bb7ba41d5c54aaccdb226879e7880d2cf79951e01897b535"
+            }
+          ],
+          "evidence": [
+            {
+              "path": "art/reviews/d100-s005-landscape-v010-producer-review-v001.md",
+              "sha256": "cc2bb67d6237d72906588380099ec91a7e525cb57e1dfdd8f490c87ff01596de"
+            }
+          ],
+          "checks": {
+            "limbs_hands_feet": {
+              "status": "pass",
+              "observations": "Both flute hands are attached; enlarged view shows four fingers and a distinct thumb on each. Bhattathiri’s foot is concealed beneath cloth at the frame edge."
+            },
+            "attachment_proportions": {
+              "status": "pass",
+              "observations": "One youthful Krishna and one Bhattathiri; hands and wrists connect to their arms, and the dhoti remains in a natural seated fold."
+            },
+            "faces": {
+              "status": "pass",
+              "observations": "Krishna and the clean-shaven Bhattathiri have distinct, undistorted faces."
+            },
+            "duplication_fusion": {
+              "status": "pass",
+              "observations": "Only one Krishna and one Bhattathiri are present; no fused figures or limbs are visible."
+            },
+            "text_artifacts": {
+              "status": "pass",
+              "observations": "No readable text, signature, logo, or watermark is visible."
+            },
+            "scene_style_continuity": {
+              "status": "uncertain",
+              "observations": "The paired flat orange and cream arcs flanking the halo may be musical curves, but can also read as rays; independent tiebreak requested. Skin-only patch readings: Krishna B-R 118; Bhattathiri R-B 110, 96, 108."
+            }
+          },
+          "outcome": "uncertain",
+          "findings": [
+            "The symmetrical orange and cream halo-side arcs could read as rays despite their flat painted treatment and planned musical-curve role."
+          ],
+          "disclosed_deviations": [
+            "Bhattathiri skin patch medians are R-B 110, 96 and 108; Krishna B-R 118."
+          ],
+          "notes": "Producer exact-byte review only. Independent single-image tiebreak requested; candidate remains unapproved."
+        }
+      ]
     },
     {
       "reviewer": "Firstmate-dispatched independent reviewer",
@@ -47960,7 +48032,73 @@
       "disclosed_deviations": [
         "One worshipper’s 11x11 skin-only R-B median is 120, at the approximate warm-brown boundary; the other three readings are 111, 114 and 112."
       ],
-      "notes": "Independent review of exact bytes; candidate remains unapproved; art/approved/ is unchanged. Report also records native-resolution plus focused-crop inspection."
+      "notes": "Independent review of exact bytes; candidate remains unapproved; art/approved/ is unchanged. Report also records native-resolution plus focused-crop inspection.",
+      "producer_reviews": [
+        {
+          "reviewer": "Codex producer self-review",
+          "method": "individual-native-resolution-plus-focused-detail",
+          "anatomy_basis": "The youthful deity follows the shared one-face, two-arm, two-leg character contract; all other visible figures are distinct and naturally proportioned.",
+          "chapter": 100,
+          "sloka": 10,
+          "role": "matte",
+          "file": "artifacts/d100/s010/landscape/candidate-v006.png",
+          "version": "v006",
+          "sha256": "9728b4b7c51573d8cd7a7c359d039872cfd89e237d26bfdff459fd14eaaa46ee",
+          "inspected_at": "2026-11-17T23:26:34Z",
+          "contracts": [
+            {
+              "path": "art/bible/series.json",
+              "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+            },
+            {
+              "path": "art/plans/d100.json",
+              "sha256": "b1c2ac8ccbd5e7971f6ce55cc2edbdf7f50ad4272819d7a883d4c7e3a91e3f3c"
+            },
+            {
+              "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+              "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+            }
+          ],
+          "evidence": [
+            {
+              "path": "art/reviews/d100-s010-landscape-v006-producer-review-v001.md",
+              "sha256": "71b8d8da78b363dcf6e159e9c4a2b07622916a057635761ed7cead21f5089d1c"
+            }
+          ],
+          "checks": {
+            "limbs_hands_feet": {
+              "status": "pass",
+              "observations": "Both soles show five distinct toes. The resting hand shows one thumb plus four separate fingers; the curled hand is attached. Worshippers’ folded hands and arms remain attached."
+            },
+            "attachment_proportions": {
+              "status": "pass",
+              "observations": "Krishna’s two arms and both legs connect naturally to the torso; all four worshippers remain separate."
+            },
+            "faces": {
+              "status": "pass",
+              "observations": "Krishna has one face with bare forehead; each of four worshippers has a distinct face."
+            },
+            "duplication_fusion": {
+              "status": "pass",
+              "observations": "One Krishna and four distinct worshippers; no fused or duplicated people are apparent."
+            },
+            "text_artifacts": {
+              "status": "pass",
+              "observations": "No readable writing, signature, logo, or watermark is visible."
+            },
+            "scene_style_continuity": {
+              "status": "pass",
+              "observations": "The low gold band and single peacock feather follow the shared youthful identity. Krishna cheek B-R 90. Worshipper patch R-B readings are 120, 111, 114, and 112; the first is at the approximate warm-brown threshold."
+            }
+          },
+          "outcome": "pass",
+          "findings": [],
+          "disclosed_deviations": [
+            "One worshipper’s 11x11 skin-only R-B median is 120, at the approximate warm-brown boundary; the other three readings are 111, 114 and 112."
+          ],
+          "notes": "Producer exact-byte review only. Candidate remains unapproved."
+        }
+      ]
     },
     {
       "chapter": 100,
