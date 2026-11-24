@@ -341,6 +341,10 @@ deployment. With D029 added alongside D031 and D034, the union holds 23
 chapters, 239 stanza rows, 485 review media inputs and 245 selected generated
 images (69 historical, 176 individually inspected).
 
+## Dasakam 30
+
+D030 contains ten checksum-pinned landscape candidates paired with their mapped reference photos in `art/batches/d030-comparison-v001.json`. Photos 005 and 006 both map to stanza 5; photo 009 is recorded as a mismatch for stanza 8 and canonical Sanskrit controls. Stanza 10 has no supplied photo or caption, so its comparison reference is an explicit absence card and its scene derives from canonical text alone. Producer review records remain separate; fresh independent exact-checksum review is pending, measured deviations remain disclosed per row, and no candidate is approved. Portraits are paused. Upload only D030 WebP review derivatives with `node review-site/scripts/upload.mjs --daskam=30` before any serialized Worker deployment.
+
 ## Dasakam 33
 
 D033 contains ten source-mapped landscape comparison candidates in
