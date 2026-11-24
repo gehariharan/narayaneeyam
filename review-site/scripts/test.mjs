@@ -489,7 +489,7 @@ console.log('Passed: D097 has ten stanza-bound comparison rows, exact-hash mappe
 
 const full30=data.chapters.find(c=>c.id===30);assert.ok(full30);assert.deepEqual(full30.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content30=JSON.parse(await fs.readFile(new URL('../../content/daskams/d030.json',import.meta.url)));
-const selected30=JSON.parse(await fs.readFile(new URL('../../art/batches/d030-comparison-v001.json',import.meta.url)));
+const selected30=JSON.parse(await fs.readFile(new URL('../../art/batches/d030-comparison-v002.json',import.meta.url)));
 assert.equal(selected30.rows.length,10);assert.equal(selected30.review_status,'needs-review');assert.ok(full30.reviewNotice.toLowerCase().includes('unapproved'));
 const referenceFiles30={1:'intake/D030/001.jpg',2:'intake/D030/002.jpg',3:'intake/D030/003.jpg',4:'intake/D030/004.jpg',5:'intake/D030/006.jpg',6:'intake/D030/007.jpg',7:'intake/D030/008.jpg',8:'intake/D030/009.jpg',9:'intake/D030/010.jpg',10:'artifacts/d030/no-reference-s010.svg'};
 for(const row of full30.rows){

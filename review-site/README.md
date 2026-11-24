@@ -343,7 +343,7 @@ images (69 historical, 176 individually inspected).
 
 ## Dasakam 30
 
-D030 contains ten checksum-pinned landscape candidates paired with their mapped reference photos in `art/batches/d030-comparison-v001.json`. Photos 005 and 006 both map to stanza 5; photo 009 is recorded as a mismatch for stanza 8 and canonical Sanskrit controls. Stanza 10 has no supplied photo or caption, so its comparison reference is an explicit absence card and its scene derives from canonical text alone. Producer review records remain separate; fresh independent exact-checksum review is pending, measured deviations remain disclosed per row, and no candidate is approved. Portraits are paused. Upload only D030 WebP review derivatives with `node review-site/scripts/upload.mjs --daskam=30` before any serialized Worker deployment.
+D030 contains ten checksum-pinned landscape candidates paired with their mapped reference photos in `art/batches/d030-comparison-v002.json`. Photos 005 and 006 both map to stanza 5; photo 009 is recorded as a mismatch for stanza 8 and canonical Sanskrit controls. Stanza 10 has no supplied photo or caption, so its comparison reference is an explicit absence card and its scene derives from canonical text alone. Five repairs address Aditi skin hue, Deva casting hands, Brahma's four-arm and modest-crown contract, distinct sages, and Bali receiving the foot-water; producer review records remain separate and fresh independent exact-checksum review is pending for all ten because the plan changed. Measured deviations remain disclosed per row, and no candidate is approved. Portraits are paused. Upload only D030 WebP review derivatives with `node review-site/scripts/upload.mjs --daskam=30` before any serialized Worker deployment.
 
 ## Dasakam 33
 
