@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "daskam_id": 45,
+  "chapter_label": "Dasakam 45",
+  "status": "readiness-reviewed-source-mapping-needs-editorial-and-visual-review",
+  "canonical_source": "https://stotranidhi.com/hi/narayaneeyam-dasakam-45-in-sanskrit/",
+  "romanization_source": "https://stotranidhi.com/en/narayaneeyam-dasakam-45-in-english/",
+  "caption_source": "intake/D045/photo-captions.txt",
+  "mapping_basis": "Every source photo SHA-256 was verified against readiness.json before use. Stanza-led scenes follow canonical Sanskrit and verbatim numbered captions. Photo 003 visually shows the mud-cleaning episode associated with stanza 4 while caption 3 describes the running/look-back episode; this conflict is preserved without remapping. Photos 004 and 005 are near-duplicate nursing references for stanza 5, not separate coverage. Photos 006–008 and 012 are broad mood context only. Watermarks, interface icons, numbering and overlays are excluded from all generated artwork.",
+  "source_photo_role": "Captain-supplied scene context only; not style or identity references, not approval.",
+  "references": [
+    {
+      "stanza": 1,
+      "caption_entry": 1,
+      "path": "intake/D045/001.jpg",
+      "sha256": "30cc7565b41b7a3c72da23cc429b069b95252bacf4ca9073c941bae86189e8d3",
+      "bytes": 238682,
+      "caption": "Balarama and Krishna started to crawl on their hands and knees. They were interested in hearing to the rhythmic sound made by their anklets put in their beautiful lotus flower like legs and hence crawled with great briskness.",
+      "observed_reference": "Full-frame: two richly dressed baby boys on grass, one Krishna-coded with peacock crown; crawling posture is plausible, but the image is decorative and does not clearly show brisk hands-and-knees crawling or anklet focus.",
+      "mapping_note": "45-1; caption/number and broad crawling-child scene agree; usable as a broad visual reference, not a literal detail guide."
+    },
+    {
+      "stanza": 2,
+      "caption_entry": 2,
+      "path": "intake/D045/002.jpg",
+      "sha256": "e12136b5d122f207fd228be86f29be278b6753f842ede2bb26b70eb078026c9e",
+      "bytes": 101480,
+      "caption": "Both of them smiled exposing their beautiful new teeth, hair locks falling on their faces and the lotus like feet, armlets slipping down to the wrists, becoming like bracelets were very attractive and captivated the minds of all the people.",
+      "observed_reference": "Full-frame: two toddlers laughing under a tree; feet are visible and expressions fit the new-teeth/smiling mood, though fine bracelet and hair details are not all explicit.",
+      "mapping_note": "45-2; numbered caption and twin-child smiling scene agree."
+    },
+    {
+      "stanza": 3,
+      "caption_entry": 3,
+      "path": "intake/D045/003.jpg",
+      "sha256": "482b73dd13cb996133067b486fd73d71df088d93dc1d8aff625114eeb4c6013b",
+      "bytes": 186585,
+      "caption": "The people who watched both of them  crawl, followed them everywhere. Both ran away after giving an enchanting smile. When people stopped following both, the duo turned their lotus faces back, casting a look, giving incredible joy to the people.",
+      "observed_reference": "Full-frame: Yashoda-like mother wipes/cleans a mud-stained baby Krishna; it depicts the mud episode, not two children running from followers and looking back.",
+      "mapping_note": "Visual content fits 45-4; file number/caption context says 45-3. Treat as unresolved conflict; do not silently remap or count it as clear coverage of 45-3."
+    },
+    {
+      "stanza": 4,
+      "caption_entry": 4,
+      "path": "intake/D045/004.jpg",
+      "sha256": "13c2ed2582157267c77a032ad53e556f86f4c0d1136e21ddf07d06b47055734f",
+      "bytes": 159893,
+      "caption": "  While moving fast, Krishna would fall down and get smeared and tainted by mud, Sages in the heaven witnessed these pranks of Bhagwan and worshipped them. Rohini and Yashoda came quickly and lifted them up carefully and embraced them, kissed them again and again with great joy.",
+      "observed_reference": "Full-frame: Yashoda nursing baby Krishna in a palace setting; no mud is visible.",
+      "mapping_note": "Visual content fits 45-5; file number/caption context says 45-4. This contributes to the numbering conflict around 3-5 and is not clear 45-4 coverage."
+    },
+    {
+      "stanza": 5,
+      "caption_entry": 5,
+      "path": "intake/D045/005.jpg",
+      "sha256": "37643b9661f8eafded8b7dc3e26581703e4c6bb6c65f3794fe224c7a60dcc5bc",
+      "bytes": 213867,
+      "caption": "The soft hearted Yashoda took the baby Krishna on her lap and fed him. While taking the feed, Krishna would stop in between and smile at Yashoda charmingly,  adding immense joy to her.",
+      "observed_reference": "Full-frame: another Yashoda nursing scene, composition near-identical to image 4; perceptual hash distance to image 4 is 0.00226412.",
+      "mapping_note": "45-5; same episode as image 4, likely re-encoded/re-rendered near-duplicate, not distinct stanza coverage. The numbered caption supports nursing."
+    },
+    {
+      "stanza": 6,
+      "caption_entry": 6,
+      "path": "intake/D045/006.jpg",
+      "sha256": "44034fbb7e35a37653a4e1727cba2477c91cd70e8abac091c45cd269687ae98c",
+      "bytes": 245673,
+      "caption": "Soon Krishna started to walk and started to run and play with the Gopa boys in the neighbourhood. Krishna ran behind pets, cows and calves in the houses and Gopa boys with great difficulty restrained Krishna from doing these pranks.",
+      "observed_reference": "Full-frame: Krishna seated on a cow among cows, with peacock and a gopika at right; visible 'No.4' and a BhagavanBhakti watermark. It does not show running/chasing or Gopa boys.",
+      "mapping_note": "45-6; broad pastoral/Krishna mood is contextually aligned to numbered caption, but it is weak as a direct scene model for the described chase/play."
+    },
+    {
+      "stanza": 7,
+      "caption_entry": 7,
+      "path": "intake/D045/007.jpg",
+      "sha256": "b21db4e8d63a6cb57495e68f4d430b5c57f4a0098acbb484dc1c726fd5216a99",
+      "bytes": 100325,
+      "caption": "Krishna and Balarama went everywhere together. Gopikas were watching and  following them, leaving their household chores, children, family behind. This became the routine for the gopikas.",
+      "observed_reference": "Full-frame: Krishna playing flute with women dancing; visible VISHVRAI CREATION watermarking. Balarama is not apparent.",
+      "mapping_note": "45-7 only as a broad gopi/Krishna reference based on clear numbering/context; it does not establish the defining paired travel with Balarama. Visual subject matter more directly resembles a later devotional dance scene, so do not use as a literal 45-7 composition."
+    },
+    {
+      "stanza": 8,
+      "caption_entry": 8,
+      "path": "intake/D045/008.jpg",
+      "sha256": "a195b84465d555856a04e5a04014fc0ad9b382c3e313e92bfc4a2b8a0389952d",
+      "bytes": 324642,
+      "caption": "Krishna loved the freshly made butter given by gopikas. Sometimes Krishna sang sweetly or danced graciously, captivating the Gopikas. With lot of affection, Gopikas served him with freshly boiled milk which he drank with delight.",
+      "observed_reference": "Full-frame: Krishna reaches toward butter by a vessel while gopikas watch; butter-giving/theft context, with no clear singing or dance.",
+      "mapping_note": "45-8 as a numbered broad reference to Krishna/gopika/butter episode; visually overlaps 45-9/10 and does not illustrate the singing/dancing detail. Keep exact scene mapping weak."
+    },
+    {
+      "stanza": 9,
+      "caption_entry": 9,
+      "path": "intake/D045/009.jpg",
+      "sha256": "fb1515c1fa4b03087851fc6304babcf492b14fcf0675ce9ec919881714c52ba0",
+      "bytes": 192354,
+      "caption": "Bhagwan having begged Mahabali for food in his Vamana avatharam, now in this Krishna avatharam decided to not beg gopikas for butter but decided to silently steal from their pots.",
+      "observed_reference": "Full-frame: vertical butter-pot theft scene; Krishna is elevated toward a hanging pot among people. Interface overlay icons appear at the bottom.",
+      "mapping_note": "45-9; pot theft strongly matches the numbered caption, though the social screenshot overlay makes it unsuitable as a clean visual asset."
+    },
+    {
+      "stanza": 10,
+      "caption_entry": 10,
+      "path": "intake/D045/010.jpg",
+      "sha256": "79396736529313a5c695a4587f7c35822507f65f59c433f7d13b755e0299abac",
+      "bytes": 115153,
+      "caption": "Baby Krishna’s clever tricks delighted the gopikas more than making them angry. Krishna along with stealing butter and ghee from gopikas, stole their hearts as well and immersed them in the ocean of Bliss.",
+      "observed_reference": "Full-frame: Yashoda and Krishna beside a butter pot, with gopikas observing; glossy palace scene.",
+      "mapping_note": "45-10; butter theft plus gopika response fits the numbered caption's episode and mood."
+    },
+    {
+      "stanza": 11,
+      "caption_entry": 11,
+      "path": "intake/D045/011.jpg",
+      "sha256": "74d15451dd5860a6022dc950e265f7d7ff3813663463c0c87b2e52501783125f",
+      "bytes": 313113,
+      "caption": "On the front end of the branch of a tree, watching the moon, Bhagwan asked the  mother and father again and again for it, saying that it was a fruit. At that time, then, Bhagwan’s arms flung  and amazingly, the  moon came into Bhagwan’s hands! Bhagwan’s whole body was covered by luminous light in cosmic form!",
+      "observed_reference": "Full-frame: baby Krishna reaches toward/holds the moon amid a luminous cosmic field; parents and tree branch are not visible.",
+      "mapping_note": "45-11; moon-as-fruit and cosmic radiance are strong symbolic matches to the numbered caption, but not an exact narrative staging."
+    },
+    {
+      "stanza": 12,
+      "caption_entry": 12,
+      "path": "intake/D045/012.jpg",
+      "sha256": "ffc5f0ffb06cba90afa15a270db5c82c87ba483ba665bbe628b47bfea887b207",
+      "bytes": 262968,
+      "caption": "Bhagwan immersed the father in the cosmic ocean for a moment, then again came up as the enchanting form of a son. \nBhattathri prays, That, Bliss incarnate,Supreme Consciousness, Cosmic form, O Krishna! save me from disease!",
+      "observed_reference": "Full-frame: isolated chibi Krishna portrait in starry halo; no father, ocean immersion, or return from cosmic to child form. Visible @devprernafb watermark.",
+      "mapping_note": "45-12 only as a generic cosmic-Krishna mood reference using the numbered context. It does not depict the described father/cosmic-ocean/return event."
+    }
+  ],
+  "unmapped_extras": []
+}
