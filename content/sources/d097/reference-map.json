@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "daskam_id": 97,
+  "status": "source-mapped-needs-editorial-and-visual-review",
+  "mapping_basis": "The readiness record supplied no stanza labels and all captions are empty. Every photo was inspected full frame and compared to the canonical Sanskrit; only specific visual correspondences were mapped. The complete observation record is kept in task data under reference-mapping-v001.json.",
+  "source_photo_role": "User-supplied images are read-only story/context references, never generated art, style anchors or approvals.",
+  "canonical_source": "https://stotranidhi.com/hi/narayaneeyam-dasakam-97-in-sanskrit/",
+  "romanization_source": "https://stotranidhi.com/en/narayaneeyam-dasakam-97-in-english/",
+  "caption_source": "intake/D097/photo-captions.txt",
+  "references": [
+    {
+      "stanza": 1,
+      "path": "intake/D097/001.jpg",
+      "sha256": "22345b959e04cfc1346da5f624bfc441d8b27f87f6085d21a02364168e0e30e8",
+      "bytes": 44659,
+      "observed_reference": "Diagram explicitly contrasts sattva, rajas and tamas, labelled with Brahma, Vishnu and Shiva.",
+      "mapping_note": "Direct visual match for the qualities named in stanza 1."
+    },
+    {
+      "stanza": 2,
+      "path": "intake/D097/002.jpg",
+      "sha256": "e1b1fef4281ff202860c79a670dc6ad15ed87aaa08b6ae03d3aee01f245b9b88",
+      "bytes": 307184,
+      "observed_reference": "Rural worker, animals and birds share repeated divine visages, an image of the Lord present among different beings.",
+      "mapping_note": "Fits the stanza's equal-minded worship of the Lord in all beings."
+    },
+    {
+      "stanza": 6,
+      "path": "intake/D097/006.jpg",
+      "sha256": "6d8865a98136b828ebd0f7a8f32768e8eb12d13ea04062abda8b1f7a77a66de5",
+      "bytes": 53286,
+      "observed_reference": "A blue divine ascetic and a companion stand before a seated praying sage.",
+      "mapping_note": "Likely Nārāyaṇa and Nara visiting Mārkaṇḍeya; the source art does not name the figures, so confidence is medium."
+    },
+    {
+      "stanza": 7,
+      "path": "intake/D097/007.jpg",
+      "sha256": "e91f990aa90b888994cf5079c3858599acae74cf45ee0b4f359709344bbe989b",
+      "bytes": 88940,
+      "observed_reference": "A blue infant on a banyan leaf floats in floodwater while a sage reaches toward him.",
+      "mapping_note": "Specific match for the deluge and banyan-leaf infant in stanza 7."
+    },
+    {
+      "stanza": 8,
+      "path": "intake/D097/008.jpg",
+      "sha256": "f7e5dfe0a118799bfaf9761c2950799798b2515c23bcc2dd8af0ee8f227430c3",
+      "bytes": 18126,
+      "observed_reference": "An ascetic gestures toward a small planetary cosmology.",
+      "mapping_note": "Symbolic match for the worlds seen inside the infant's breath in stanza 8; confidence is medium."
+    },
+    {
+      "stanza": 9,
+      "path": "intake/D097/009.jpg",
+      "sha256": "2c3586b16aea12650d6b7f49b9b537ad5a1e935935e6d92a1a8a1cb8a7613df0",
+      "bytes": 177223,
+      "observed_reference": "Shiva and Parvati appear together in a mountainous landscape.",
+      "mapping_note": "Specific pair named in stanza 9; the source image also contains a separate devotional Shiva panel."
+    },
+    {
+      "stanza": 10,
+      "path": "intake/D097/010.jpg",
+      "sha256": "7233d0825008d21a91392d312cebae4b6bc881034885ee06b889f8205c214e16",
+      "bytes": 72331,
+      "observed_reference": "A diagram shows worlds above and below a central earthly mountain.",
+      "mapping_note": "Schematic match for the hierarchy of worlds and Vaikuṇṭha beyond them; confidence is medium."
+    }
+  ],
+  "unmapped_extras": [
+    {
+      "filename": "003.jpg",
+      "path": "intake/D097/003.jpg",
+      "sha256": "8fb85432ceb6c71966893d893b1b47fd6f07e52e399fe73ad065af1ea5993f95",
+      "bytes": 340028,
+      "caption_label": null,
+      "caption_excerpt": "",
+      "reason": "Adult Viṣṇu reclining on Ananta is not a specific scene in these ten stanzas and is distinct from the infant-on-banyan-leaf vision."
+    },
+    {
+      "filename": "004.jpg",
+      "path": "intake/D097/004.jpg",
+      "sha256": "77df576dea6cafbfc44850914d389db302c92a6bbb440ab620009d0c4e8a56d5",
+      "bytes": 45822,
+      "caption_label": null,
+      "caption_excerpt": "",
+      "reason": "A devotee worships a Śiva lingam; the image does not identify Mārkaṇḍeya or depict the meeting with Śiva and Gaurī."
+    },
+    {
+      "filename": "005.jpg",
+      "path": "intake/D097/005.jpg",
+      "sha256": "82dcfa2aba2474061ba7852d59e039efc31fd833c0e648eb6fdb8602d3b6cf2e",
+      "bytes": 43315,
+      "caption_label": null,
+      "caption_excerpt": "",
+      "reason": "The Krishna-and-gopis dance is not a grounded depiction of the apsaras' attempt to distract Mārkaṇḍeya."
+    },
+    {
+      "filename": "011.jpg",
+      "path": "intake/D097/011.jpg",
+      "sha256": "db6371a5df2d8eeaa781bc44c6f7fcf7e94c430a78dc5c5ac3363eeac8f77f1b",
+      "bytes": 145051,
+      "caption_label": null,
+      "caption_excerpt": "",
+      "reason": "Tamil source-text page with stanzas 1–3; not a scene reference."
+    },
+    {
+      "filename": "012.jpg",
+      "path": "intake/D097/012.jpg",
+      "sha256": "26e935f2251bf71df934bc6269355e63a6c56b7fc01b59a6caabd32cef8b2775",
+      "bytes": 143411,
+      "caption_label": null,
+      "caption_excerpt": "",
+      "reason": "Tamil source-text page with stanzas 4–6; not a scene reference."
+    },
+    {
+      "filename": "013.jpg",
+      "path": "intake/D097/013.jpg",
+      "sha256": "af84c633551f5e515657d451192300671a33e7cfb4742dcf44ad9ed0e55530f4",
+      "bytes": 148956,
+      "caption_label": null,
+      "caption_excerpt": "",
+      "reason": "Tamil source-text page with stanzas 7–9; not a scene reference."
+    },
+    {
+      "filename": "014.jpg",
+      "path": "intake/D097/014.jpg",
+      "sha256": "2d395e10cb7de53e8bc6d9075f9a9be37cbed49c11a9f48349ba44b33f934cb0",
+      "bytes": 81445,
+      "caption_label": null,
+      "caption_excerpt": "",
+      "reason": "Tamil source-text page with stanza 10 and the completion marker; not a scene reference."
+    }
+  ],
+  "no_reference_stanzas": [
+    3,
+    4,
+    5
+  ]
+}
