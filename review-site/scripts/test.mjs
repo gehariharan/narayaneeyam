@@ -5,7 +5,6 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import fs from 'node:fs/promises';
 import { renderChapter, renderIndex, chapterSlug } from '../views.mjs';
-import crypto from 'node:crypto';
 import { createServer } from 'node:http';
 import { verifyLivePages } from './verify-live-pages.mjs';
 // Test source import with the generated data replaced so Node requires no JSON import attribute.
@@ -474,7 +473,7 @@ const content97=JSON.parse(await fs.readFile(new URL('../../content/daskams/d097
 const selected97=JSON.parse(await fs.readFile(new URL('../../art/batches/d097-comparison-v013.json',import.meta.url)));
 const provenance97=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
 const visualReviews97=JSON.parse(await fs.readFile(new URL('../../art/reviews/visual-reviews.json',import.meta.url)));
-const imageHash97=bytes=>crypto.createHash('sha256').update(bytes).digest('hex');
+const imageHash97=bytes=>createHash('sha256').update(bytes).digest('hex');
 assert.equal(selected97.rows.length,10);assert.equal(selected97.review_status,'needs-review');assert.equal(selected97.artwork_approval,'not-approved');assert.equal(selected97.plan_sha256,'d034006eb1e0cc41d6988e60886b96abc70327ad3e7e015abd56f36fd79b34b2');assert.equal(selected97.review_request_id,'d097-independent-review-v010');assert.match(selected97.visual_review_status,/all ten selected versions passed independent exact-checksum review/i);assert.ok(full97.reviewNotice.toLowerCase().includes('unapproved'));assert.ok(full97.reviewNotice.toLowerCase().includes('captions are empty'));assert.ok(selected97.review_notice.toLowerCase().includes('none is art-approved'));
 for(const row of full97.rows){
  const stanza=content97.stanzas.find(s=>s.n===row.n);assert.equal(row.commentarySource,`content/sources/d097/COMMENTRY.txt#${row.n}`);assert.equal(row.commentary,stanza.commentary_en);
