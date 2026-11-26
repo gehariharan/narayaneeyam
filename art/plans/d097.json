@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "daskam_id": 97,
+  "slug": "d097",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "guruvayurappan",
+    "recurring_characters": [
+      "markandeya",
+      "guruvayurappan",
+      "infant-krishna",
+      "nara",
+      "indra",
+      "apsaras",
+      "shiva",
+      "uma-d029"
+    ],
+    "locations": [
+      "abstract devotional path",
+      "Pushpabhadra riverbank",
+      "Mārkaṇḍeya's hermitage",
+      "cosmic deluge",
+      "Vaikuṇṭha and the three realms"
+    ],
+    "narrative_arc": "The first three stanzas ask for steady devotion and a gradual path to all-pervading awareness. Stanzas 4–6 establish Mārkaṇḍeya's devotion, austerity and request to see the Lord's māyā. Stanzas 7–9 recount the deluge vision, the worlds within the infant and Shiva and Gaurī's visit. The final stanza places Vaikuṇṭha beyond the three realms and closes with a prayer for protection.",
+    "scene_scope": "Canonical Sanskrit alone governs scenes for stanzas 3–5, which have no mapped photo. Mapped photographs are read-only context references and do not supply translation, style or approval.",
+    "rendering_references": [
+      "artifacts/d001/s004/landscape/master.png",
+      "artifacts/d001/s008/landscape/master.png"
+    ],
+    "reference_policy": "Use each mapped source photo only for story context. D001 masters anchor matte rendering. Shared character sheets anchor identity only. Recompose every frame; portrait production remains paused.",
+    "palette_arc": "Flat opaque matte mineral fields in warm cream, ochre, deep maroon and muted olive, with deep indigo-blue reserved for Krishna and the divine form. No glossy or metallic finish, outer border, cinematic rays or text."
+  },
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d097-s001",
+      "characters": [],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Contrast the three qualities using three quiet mineral-color zones: a clear lotus rising above still water, a balanced field of motion and a dark heavy earth band. A single small lotus at the transition suggests devotion beyond the qualities. No people or deity portraits.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "Three qualities settle into one path of devotion.",
+      "reference_paths": [
+        "intake/D097/001.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use intake/D097/001.jpg as mapped context for the three qualities only; do not reproduce its readable labels or deity portraits. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v001",
+          "candidate_path": "artifacts/d097/s001/landscape/candidate-v001.png",
+          "prompt_path": "artifacts/d097/s001/landscape/prompt-submitted-v001.txt",
+          "reference_arguments_path": "artifacts/d097/s001/landscape/native-call-args-v001.json",
+          "candidate_status": "Selected v001; producer pass. Photo 001 is the mapped labeled triguna diagram; this candidate interprets the three qualities as three distinct landscape zones and a transition lotus, without reproducing labels or portraits. No people, text or rays. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d097-s002",
+      "characters": [
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show one quiet path through a sacred grove with a low shrine at its center and equal small offerings placed beside a Brahmin's water pot, a traveler's staff and animal tracks. Keep the cues simple and nonjudgmental: no person is singled out as inferior, and the same soft mural motif recurs in each area to convey the Lord in every being.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "A shared grove and equal offerings express worship of the Lord in all beings.",
+      "reference_paths": [
+        "intake/D097/002.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use intake/D097/002.jpg only as story/context reference; do not copy its style, pose, framing, wording or unsupported details. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v015",
+          "candidate_path": "artifacts/d097/s002/landscape/candidate-v015.png",
+          "prompt_path": "artifacts/d097/s002/landscape/prompt-submitted-v015.txt",
+          "reference_arguments_path": "artifacts/d097/s002/landscape/native-call-args-v015.json",
+          "candidate_status": "Selected v015 after one bounded additional repair round (new v014/v015). Full 16:9 frame and focused crops inspected. Skin-only 11×11 medians at left cheek (300,490), left shoulder (255,555), right cheek (1365,480) and right shoulder (1380,560) are RGB (146,84,42), (144,85,45), (141,80,39) and (140,81,41), giving R−B 104, 99, 102 and 99. These exposed skin patches read muted warm brown and remain below the plan’s <120 guide; v015 is darker and closer to the target than v014. A previous independent review of selected v013 reported an orange skin region at its sampled right-side points; v014/v015 are being sent for a fresh exact-checksum review of all ten. Producer pass; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d097-s003",
+      "characters": [],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "A single wide devotional path crosses a layered landscape from distinct forms toward one continuous inner presence. Use a small unlit shrine, a quiet river and a clear horizon as symbolic stages of practice; avoid depicting a specific doctrinal diagram or invented ritual. The scene should feel like a sincere request for the beautiful path of devotion.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "A quiet path of worship opens toward all-pervading awareness.",
+      "reference_paths": [
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "No supplied photo is mapped to this stanza; derive the scene from the canonical Sanskrit only. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d097/s003/landscape/candidate-v002.png",
+          "prompt_path": "artifacts/d097/s003/landscape/prompt-submitted-v002.txt",
+          "reference_arguments_path": "artifacts/d097/s003/landscape/native-call-args-v002-recovered.json",
+          "candidate_status": "Selected v002; producer pass. No supplied photo maps to this stanza. The empty shrine, river and winding path form a quiet nonfigurative landscape; no people, text, or rays appear. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d097-s004",
+      "characters": [
+        "markandeya",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "In a simple early-life devotional scene, a small boy Mārkaṇḍeya places a modest offering before a calm blue form of the Lord's feet. A dark shadow at the edge turns away as a few small guardian presences arrive, suggesting death driven back by the Lord's attendants without depicting violence or a named death figure. Make the child's age and devotion clear.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "The boy Mārkaṇḍeya's year of devotion brings the Lord's protection.",
+      "reference_paths": [
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "reference_guidance": "No supplied photo is mapped to this stanza; derive the scene from the canonical Sanskrit only. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v020",
+          "candidate_path": "artifacts/d097/s004/landscape/candidate-v020.png",
+          "prompt_path": "artifacts/d097/s004/landscape/prompt-submitted-v020.txt",
+          "reference_arguments_path": "artifacts/d097/s004/landscape/native-call-args-v020.json",
+          "candidate_status": "Selected v020 after the round-f color correction. Full frame and enlarged attendant/child and Lord hand/foot crops inspected. Skin-only 11×11 medians at the four attendant face patches have R−B 110, 64, 110 and 109; the child shoulder patch is 105. These exposed areas now read as muted warm brown against a toned-down orange background and are below the <120 guide. The Lord’s two open hands show five digits each and both visible feet show five toes. The child, four distinct modestly dressed attendants and fleeing shadow remain separate; previous attendant ornament concern is resolved. Producer pass for the requested color correction; independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d097-s005",
+      "characters": [
+        "markandeya",
+        "indra",
+        "apsaras"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Place the mature Mārkaṇḍeya in deep, peaceful meditation on the Pushpabhadrā riverbank after long austerity. Across the clearing, Indra's small celestial party with two distinct modestly dressed apsaras and a gentle wind motif fails to disturb the sage; keep them distant, nonsexualized and secondary. Suggest the sage's inner yogic steadiness with a warm quiet field around him, never a beam or halo ray.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "Mārkaṇḍeya remains undisturbed as celestial dancers fail to distract him.",
+      "reference_paths": [
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "No supplied photo is mapped to this stanza; derive the scene from the canonical Sanskrit only. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v008",
+          "candidate_path": "artifacts/d097/s005/landscape/candidate-v008.png",
+          "prompt_path": "artifacts/d097/s005/landscape/prompt-submitted-v008.txt",
+          "reference_arguments_path": "artifacts/d097/s005/landscape/native-call-args-v008.json",
+          "candidate_status": "Selected v008 after the round-l foot repair. The sage’s lap hands remain hidden beneath opaque cloth, preserving v007’s separated arms and warm-brown skin. Both sage feet are completely concealed by the extended cream dhoti, with no foot outline or toes exposed; the six celestial feet are also hidden under their garment hems. Skin-only 11×11 cheek medians: Mārkaṇḍeya RGB (167,94,50), R−B 117; left apsara (161,92,51), R−B 110; Indra (171,95,52), R−B 119; right apsara (168,96,52), R−B 116. All four read warm brown and remain below 120. Producer pass; independent review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d097-s006",
+      "characters": [
+        "markandeya",
+        "nara",
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "At the riverside hermitage, the mature Mārkaṇḍeya greets two distinct ascetics who have just arrived: Nara, a human ascetic in cream and ochre, and blue-skinned Nārāyaṇa, serene and simply adorned. The sage is reverent but declines offered boons with a composed gesture; his gaze asks to witness the Lord's māyā. Three figures only, clearly separated.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "Mārkaṇḍeya welcomes Nara and Nārāyaṇa and asks to see the Lord's māyā.",
+      "reference_paths": [
+        "intake/D097/006.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "reference_guidance": "Use intake/D097/006.jpg only as story/context reference; do not copy its style, pose, framing, wording or unsupported details. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v003",
+          "candidate_path": "artifacts/d097/s006/landscape/candidate-v003.png",
+          "prompt_path": "artifacts/d097/s006/landscape/prompt-submitted-v003.txt",
+          "reference_arguments_path": "artifacts/d097/s006/landscape/native-call-args-v003.json",
+          "candidate_status": "Selected v003; producer pass. Compared with mapped photo 006, two distinct ascetics meet the blue Nārāyaṇa. Skin-only 11×11 medians: Nara R−B 105, Mārkaṇḍeya 107; Lord face B−R 58. Both open Lord palms show one thumb plus four fingers; Mārkaṇḍeya’s visible toes are separated in crop. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d097-s007",
+      "characters": [
+        "markandeya",
+        "infant-krishna"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Depict the vast deluge as deep indigo water and clouded sky, with a small banyan leaf carrying one serene blue infant Krishna. The mature Mārkaṇḍeya appears at a respectful distance, humbled by the vision. Give the infant believable two-armed proportions, deep indigo-blue skin, a calm face and a plain bare forehead; one foot rests near the lotus mouth as the Sanskrit describes. No adult Vishnu or second Krishna.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "Mārkaṇḍeya sees the blue infant resting on a banyan leaf in the cosmic flood.",
+      "reference_paths": [
+        "intake/D097/007.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d038/character-sheets/c002.png"
+      ],
+      "reference_guidance": "Use intake/D097/007.jpg only as story/context reference; do not copy its style, pose, framing, wording or unsupported details. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v009",
+          "candidate_path": "artifacts/d097/s007/landscape/candidate-v009.png",
+          "prompt_path": "artifacts/d097/s007/landscape/prompt-submitted-v009.txt",
+          "reference_arguments_path": "artifacts/d097/s007/landscape/native-call-args-v009.json",
+          "candidate_status": "Selected v009 after the round-l indigo correction. The infant’s exposed skin now reads deep muted indigo rather than pale slate-blue: skin-only 11×11 medians are face RGB (62,78,117), B−R 55, and shoulder RGB (60,75,116), B−R 56. The sage cheek remains warm brown, RGB (177,98,59), R−B 118. The Vatapatrashayi raised-foot-near-lips pose remains present; both hands hold the raised foot close to the lips. The overlapping contact-toe cluster prevents a confident count, with no malformed digit visible; the other extended foot shows five toe tips. Sage open hands each show five fingers. Producer uncertain only for the partly occluded contact toe count; fresh independent review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d097-s008",
+      "characters": [
+        "markandeya",
+        "infant-krishna"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show one continuous but clearly nested composition: Mārkaṇḍeya gently approaches the infant on the banyan leaf, then a small curved breath-shaped opening reveals a miniature sequence of worlds inside, and the sage emerges into the quiet ashram with the infant's compassionate gaze. Keep one infant Krishna only, shown once; use the nested world motif rather than duplicated bodies or multiple versions of the same person.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "The sage sees the worlds within the infant and returns to the hermitage.",
+      "reference_paths": [
+        "intake/D097/008.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d038/character-sheets/c002.png"
+      ],
+      "reference_guidance": "Use intake/D097/008.jpg only as story/context reference; do not copy its style, pose, framing, wording or unsupported details. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v011",
+          "candidate_path": "artifacts/d097/s008/landscape/candidate-v011.png",
+          "prompt_path": "artifacts/d097/s008/landscape/prompt-submitted-v011.txt",
+          "reference_arguments_path": "artifacts/d097/s008/landscape/native-call-args-v011.json",
+          "candidate_status": "Selected v011. Independent reviewer d097-review-ib inspected the exact SHA-256 3561b8936bf503b4bbd0e7a51854f54234c08ab6e989904cbea0255d2cc88fb9 at 2026-11-25T23:33:57Z and passed it. The partially exposed sage foot has four clear toe separations and a fifth hidden under the robe/crossed-leg overlap, with no malformed toe visible; the reviewer did not consider this uncertain. The earlier producer uncertainty is preserved in the review history; the active exact-version record is the independent pass. Fresh all-ten independent review requested against this plan revision. Unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d097-s009",
+      "characters": [
+        "markandeya",
+        "shiva",
+        "uma-d029"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "At Mārkaṇḍeya's quiet hermitage, Shiva arrives beside Gaurī to see the devoted sage. Show Shiva with one head and two attached arms, ash marks, matted hair and a modest ascetic cloth; show Gaurī as one dignified two-armed woman in a deep maroon sari. Mārkaṇḍeya receives them respectfully. A small calm offering may suggest that service to Vishnu is what delights Shiva; do not add a second Vishnu figure.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "Shiva and Gaurī visit the steadfast sage and grant him freedom from fear of death.",
+      "reference_paths": [
+        "intake/D097/009.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use intake/D097/009.jpg only as story/context reference; do not copy its style, pose, framing, wording or unsupported details. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v014",
+          "candidate_path": "artifacts/d097/s009/landscape/candidate-v014.png",
+          "prompt_path": "artifacts/d097/s009/landscape/prompt-submitted-v014.txt",
+          "reference_arguments_path": "artifacts/d097/s009/landscape/native-call-args-v014.json",
+          "candidate_status": "Selected v014 after the round-f color correction. Full frame and enlarged Gaurī, Markandeya, forehead and extremity crops inspected. Gaurī cheek and Markandeya cheek/arm 11×11 medians have R−B 108, 86 and 76; their skin now reads muted warm brown below the <120 guide. Gaurī remains crown-free. Shiva’s pale ash stripes and the small traditional forehead details accepted in independent review remain. The three figures are separate with attached limbs; no duplicated person or text. Producer pass; independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d097-s010",
+      "characters": [
+        "guruvayurappan"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Build a clear shallow-space cosmological hierarchy: three ascending realms with restrained shrine silhouettes, and Vaikuṇṭha above them, beyond the patterned worldly layer. In the upper realm place one calm two-armed blue Lord, serene and simple, with a small pastoral cue beneath to echo the cowherd clan. Keep the scheme legible without labels, writing, rays, or a dramatic explosion of light.",
+          "Use firm dark contours, opaque matte mineral colors and shallow decorative space in the series palette: earth ochre, deep maroon, warm cream, muted olive and reserved deep indigo-blue for divine skin."
+        ],
+        "composition": "Native 16:9 landscape with a clear focal point and all important faces, hands, feet and symbols fully inside the frame.",
+        "tone": "Restrained devotional scene with clear silhouettes and calm emotional focus.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks or decorative outer border.",
+          "No glossy finish, metallic gold, silk sheen, photorealistic skin, light beams, rays or shafts.",
+          "No malformed or duplicated figures, fused bodies, detached or extra limbs, distorted faces, or extra fingers or toes; keep visible hands and feet anatomically clear.",
+          "Human skin must remain natural warm brown and not orange; keep skin-only red-minus-blue below 120. Infant Krishna must remain deep indigo-blue, not pale or neon, with blue-minus-red at least 40 and a bare forehead.",
+          "Mapped source art is context only. Do not reproduce readable text, watermark, collage, unsupported pose, anatomy or glossy finish."
+        ]
+      },
+      "alt": "Vaikuṇṭha stands beyond the three realms, with the Lord beyond māyā.",
+      "reference_paths": [
+        "intake/D097/010.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/characters/guruvayurappan/character-sheet-approved-v001.png"
+      ],
+      "reference_guidance": "Use intake/D097/010.jpg only as story/context reference; do not copy its style, pose, framing, wording or unsupported details. Use the two D001 masters only for flat matte mural rendering. Use any character sheet only for the stated character identity, never its pose or framing. Follow the written character contracts and scene brief. Recompose as a native full-bleed 16:9 composition.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review comparison",
+          "composition_override": "Compose a full-bleed native 16:9 landscape for this scene. Do not crop or extend another orientation.",
+          "candidate_version": "v002",
+          "candidate_path": "artifacts/d097/s010/landscape/candidate-v002.png",
+          "prompt_path": "artifacts/d097/s010/landscape/prompt-submitted-v002.txt",
+          "reference_arguments_path": "artifacts/d097/s010/landscape/native-call-args-v002.json",
+          "candidate_status": "Selected v002; producer pass. Compared with mapped photo 010, one blue two-armed Lord is seated above three differentiated realm bands. Lord face patch B−R 45; folded hands and limbs are connected, with no duplicate figure, text, or rays. Independent exact-checksum review pending; unapproved."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "paused",
+          "composition_override": "Portrait production is paused; do not generate this orientation."
+        }
+      }
+    }
+  ],
+  "character_bible_refs": [
+    "art/bible/characters/markandeya/character.json",
+    "art/bible/characters/nara/character.json",
+    "art/bible/characters/infant-krishna/character.json",
+    "art/bible/characters/guruvayurappan/character.json",
+    "art/bible/characters/indra/character.json",
+    "art/bible/characters/apsaras/character.json",
+    "art/bible/characters/shiva/character.json",
+    "art/bible/characters/uma-d029/character.json"
+  ]
+}
