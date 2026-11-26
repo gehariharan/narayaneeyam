@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "daskam_id": 49,
+  "slug": "d049",
+  "review_status": "needs-review",
+  "character_bible_refs": [
+    "art/bible/characters/krishna-vrindavan-youth/character.json",
+    "art/bible/characters/d072-balarama-vraja-youth/character.json",
+    "art/bible/characters/nandagopan/character.json",
+    "art/bible/characters/d049-upananda/character.json",
+    "art/bible/characters/gopas/character.json",
+    "art/bible/characters/gopikas/character.json",
+    "art/bible/characters/yashoda/character.json"
+  ],
+  "continuity": {
+    "anchor_character": "krishna-vrindavan-youth",
+    "recurring_characters": [
+      "krishna-vrindavan-youth",
+      "d072-balarama-vraja-youth",
+      "nandagopan",
+      "d049-upananda",
+      "gopas",
+      "gopikas",
+      "yashoda"
+    ],
+    "locations": [
+      "Gokula cowherd settlement",
+      "westward road to Vrindavan",
+      "new Vrindavan settlement",
+      "Vrindavan grove and pasture",
+      "Yamuna river",
+      "Govardhana Hill"
+    ],
+    "narrative_arc": "The cowherds decide to leave after unexplained calamities; Upananda recommends Vrindavan; Nanda leads the wagon migration; the community settles; Krishna discovers the flowering forest, Yamuna and Govardhana; he later ranges among the boys and tends calves with Balarama.",
+    "krishna_identity": "Use shared krishna-vrindavan-youth contract and its four identity refs: youthful face, deep matte indigo-blue skin, long dark curly hair, yellow dhoti, muted red-orange shawl, plain unmarked forehead, one simple low gold band and one upright peacock feather; ordinary two-arm/two-leg anatomy. Identity refs guide appearance only, never pose or setting.",
+    "balarama_identity": "Use art/bible/characters/d072-balarama-vraja-youth/character.json for youthful elder-brother proportions, natural warm-brown skin, restrained blue garment and ordinary human anatomy. Do not use the shared toddler-stage Balarama contract.",
+    "supporting_cast": "Use shared Nandagopan, gopas, gopikas and Yashoda contracts. Upananda uses the new D049 contract because no shared Upananda contract exists. People have clearly brown warm skin, distinct faces and ordinary connected anatomy.",
+    "rendering_references": [
+      "artifacts/d001/s004/landscape/master.png",
+      "artifacts/d001/s008/landscape/master.png"
+    ],
+    "palette_arc": "Traditional matte South Indian temple mural: firm dark contour, broad opaque mineral fields, ochre, deep maroon, warm cream, muted olive, and deep indigo reserved for Krishna. Warm human skin stays clearly brown (red-minus-blue under about 120); Krishna's blue skin stays deep indigo (blue-minus-red at least 40). Full bleed, no outer border, no gloss, no metallic gold, no rays, beams or shafts.",
+    "review_status_note": "Independent round-h and round-i review found S001 pass, S003 v013 needs-fix for a visible forehead fleck, and S009 v008 needs-fix for orange/copper foreground faces; S010 v018 has not yet received a verdict because the reviewer received v017 by mistake. S003 v017 and S009 v009 are selected after the authorized attempts, with measured skin deviations and broad rerender changes disclosed in candidate_status. S002 v005 and S010 v018 remain selected. A single fresh independent exact-checksum review of all ten selected versions is pending against this final plan. Every candidate remains unapproved; portraits remain paused."
+  },
+  "reference_map": "content/sources/d049/reference-map.json",
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d049-s001",
+      "characters": [
+        "nandagopan",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "cowherd community deliberation",
+        "must_show": [
+          "Cowherd elders consider leaving Gokula after unexplained calamities, including fallen trees.",
+          "Nandagopan and a few distinct gopas confer beside the settlement; fallen trunks are visible as separate, grounded trees.",
+          "Photo 001 conflicts with this stanza and is deliberately not used."
+        ],
+        "composition": "A quiet gathering of worried cowherd elders in the foreground, with two separate fallen trunks and the village behind; no Krishna depicted.",
+        "tone": "Concern turning toward a practical decision",
+        "avoid": [
+          "No supernatural disaster spectacle, harmed people or implied cause not in the stanza.",
+          "No duplicate people, fused bodies, malformed faces, extra fingers or limbs.",
+          "No text, border, gloss, metallic gold, beams, rays or watermarks."
+        ]
+      },
+      "alt": "Nandagopan and the cowherd elders confer beside two fallen trees after unexplained calamities at Gokula.",
+      "reference_paths": [
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d044/references/nandagopan-yashoda-shared-source-D043-S009.jpg"
+      ],
+      "reference_guidance": "The D001 images guide matte mural rendering; the D043 source photo guides Nandagopan's adult identity only. Reference 001 is a mismatch and is excluded.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed native 16:9 landscape with faces, hands and tree trunks inside frame.",
+          "candidate_status": "Independent round-j review marked v006 needs-fix: five clear toe forms plus a separate 5–6 px nub near native (1143,873). One authorized follow-up attempt, v010, still shows the nub in the enlarged foot crop and is not selected. Against v006, v010 changes 1,572,711 pixel coordinates, 1,537,300 outside the target 220x180 foot box, so the edit is not a pixel-local correction; the broad scene arrangement appears similar. Retain v006 as the most faithful candidate, unapproved, with the sixth-toe-like nub explicitly unresolved. Skin-only 13x13 R-B medians on v006: Nandagopan 121/117 and two gopa patches 124/117. Photo 001 remains excluded as a stanza mismatch.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d049/s001/landscape/candidate-v006.png",
+          "candidate_sha256": "d46cc87eae46a936ed70ad37be8f09473a9d7e44aa77ff97e64460e7375a0abf",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d049/s001/landscape/prompt-submitted-v006.txt",
+          "provenance_path": "artifacts/d049/s001/landscape/metadata-v006.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d049-s002",
+      "characters": [
+        "d049-upananda",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "community council",
+        "must_show": [
+          "Upananda, a respected cowherd elder, recommends the pleasant forest to the west called Vrindavan.",
+          "A small distinct group listens as Upananda gestures west toward a wooded stream valley.",
+          "Reference 002 is only a broad landscape/context cue; it contains no Upananda or council."
+        ],
+        "composition": "Upananda addresses a seated group of cowherds in a shaded clearing; an opening in the trees reveals a stream and forest to the west.",
+        "tone": "Calm, hopeful direction",
+        "avoid": [
+          "No Krishna apparition; the stanza says he prompted the advice but does not stage a visible appearance.",
+          "No royal assembly or palace objects.",
+          "No unreadable pseudo-text, border, gloss, metallic gold, rays, beams or anatomy defects."
+        ]
+      },
+      "alt": "Upananda recommends Vrindavan to the cowherds, indicating the wooded stream valley to the west.",
+      "reference_paths": [
+        "intake/D049/002.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Use photo 002 for woodland and stream atmosphere only, not cast, pose or literal composition; use D001 images for rendering. Stanza 2 has broad-only photo support.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Recompose as a native full-bleed 16:9 council scene; do not reproduce the square source crop.",
+          "candidate_status": "Producer review of selected v005 after one authorized repair attempt. Skin-only 13x13 medians: Upananda cheek RGB (146,88,42), R-B 104; bare chest (157,94,47), R-B 110; pointing palm (155,95,51), R-B 104; three listeners’ cheek patches RGB (147,88,44), R-B 103; (154,93,50), R-B 104; (150,91,47), R-B 103. All four men read muted warm brown at full size, clearly less red-orange than the earth path and tree trunks. This corrects the independent round-e and targeted re-review finding on v004; the stream, council, clothing and gestures remain. Photo 002 remains broad landscape context only. Candidate is unapproved; a new all-ten independent exact-checksum review is pending.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d049/s002/landscape/candidate-v005.png",
+          "candidate_sha256": "0bdb29b9df3e43452eabf4ebc966421fbc0ba4e7def6fe3e014306cb12c709f8",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d049/s002/landscape/prompt-submitted-v005.txt",
+          "provenance_path": "artifacts/d049/s002/landscape/metadata-v005.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d049-s003",
+      "characters": [
+        "nandagopan",
+        "yashoda",
+        "krishna-vrindavan-youth",
+        "gopas",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "wagon migration",
+        "must_show": [
+          "Nanda organizes the move; the cowherd community travels in large wagons with the mothers and Krishna aboard.",
+          "Show a distinct caravan leaving Gokula, with cattle and household goods; Krishna is with Yashoda on the principal wagon.",
+          "Photo 003 shows pastoral figures but not the wagon migration, so it is deliberately excluded."
+        ],
+        "composition": "A diagonal line of sturdy covered wagons moves along the road, led by Nandagopan; Yashoda and youthful Krishna are clearly seated together on the central wagon.",
+        "tone": "Purposeful, communal journey",
+        "avoid": [
+          "No modern wagon design, wheels without axles or tangled harnesses.",
+          "Krishna has a plain forehead, low band and one feather; no tilak or extra limbs.",
+          "No crowded duplicate faces, malformed hands, text, gloss, border or cinematic light."
+        ]
+      },
+      "alt": "Nandagopan leads the cowherd wagons west as Yashoda and Krishna ride together on a covered cart.",
+      "reference_paths": [
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png"
+      ],
+      "reference_guidance": "Use D001 images for style and the two D066 candidates for Krishna identity only. Photo 003 is an unresolved mismatch and is excluded.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose the caravan independently in full 16:9; keep people, wheels and cattle fully inside the frame.",
+          "candidate_status": "Two authorized fresh ImageGen attempts followed the round-j skin finding. v020 is selected over v021 for the same covered-wagon migration, the principal family together on the central cart, Nandagopan leading, and the established cream veil with maroon edging. Skin-only 13x13 medians in v020: Yashoda RGB (170,94,43), R-B 127; Nandagopan (166,91,43), R-B 123; Krishna cheek (48,79,141), B-R 93. This improves the two adult lead samples from v017 (R-B 138 and 129), but they remain slightly above the approximate R-B <120 guide. v021 measures Yashoda R-B 136 and Nandagopan R-B 136; Krishna cheek B-R 60, so v020 is the better fresh candidate. Focused hand crops show four fingertips on Yashoda’s contact hand with the thumb obscured, and Krishna’s relaxed lap hands do not reveal all five digits confidently; record the hand reading as uncertain. Both visible feet show five toes and Krishna’s forehead is bare. Photo 003 remains excluded as a stanza mismatch. Candidate remains unapproved; no further attempt authorized.",
+          "candidate_version": "v020",
+          "candidate_path": "artifacts/d049/s003/landscape/candidate-v020.png",
+          "candidate_sha256": "714b5bbafd89fd5f21ebb877507322656d3a19ac7e74eac477d3a0de1bf95cd5",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d049/s003/landscape/prompt-submitted-v020.txt",
+          "provenance_path": "artifacts/d049/s003/landscape/metadata-v020.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d049-s004",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopikas",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "journey heard through joyful conversation",
+        "must_show": [
+          "During travel, women listen to Krishna's playful spoken syllables amid pleasant cow sounds and hoofbeats.",
+          "Place Krishna with the traveling party; show a few distinct women listening and cattle moving beside the cart.",
+          "Photo 004 is a waterside scene and does not establish this episode, so it is excluded."
+        ],
+        "composition": "Krishna speaks playfully from a moving wagon to women traveling nearby; cattle and cart wheels establish a steady journey without visual sound effects or text.",
+        "tone": "Light, intimate delight that makes the road seem short",
+        "avoid": [
+          "Do not depict Krishna playing a flute; the stanza describes playful spoken words.",
+          "No written music, letters, speech bubbles, rays or sound glyphs.",
+          "No extra fingers, fused people, border, gloss, metallic gold or watermarks."
+        ]
+      },
+      "alt": "Traveling women smile as Krishna's playful words mingle with the cattle and cart sounds.",
+      "reference_paths": [
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png"
+      ],
+      "reference_guidance": "Use the D066 pair for Krishna identity and D001 pair for style. Photo 004 is an unresolved mismatch and is excluded.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Recompose the travel group in native 16:9 with legible faces and connected figures.",
+          "candidate_status": "Producer reinspection of v006 found the targeted extended hand connected to the wrist with a thumb plus four separately outlined fingers and no sixth digit in the enlarged crop. Full native frame retains Krishna speaking from the covered cart, three distinct women, cattle, props, grove, river and framing of v005. Krishna’s open-hand 13x13 sample is RGB (75,104,153), B-R 78 (deep indigo blue). Photo 004 remains excluded as a stanza mismatch. v006 replaces v005’s hand defect, remains unapproved pending independent exact-checksum review, and does not confer art approval.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d049/s004/landscape/candidate-v006.png",
+          "candidate_sha256": "7437a4ba7d8ec1d79fe2245804275d7559e1983ce29f3c3ddec9bc5d71ac1848",
+          "native_dimensions": "1670x942",
+          "prompt_path": "artifacts/d049/s004/landscape/prompt-submitted-v006.txt",
+          "provenance_path": "artifacts/d049/s004/landscape/metadata-v006.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d049-s005",
+      "characters": [
+        "krishna-vrindavan-youth"
+      ],
+      "scene_brief": {
+        "mode": "landscape discovery",
+        "must_show": [
+          "Krishna delights in Vrindavan's flowering trees, including kunda, and dense bright green grass described as emerald-like.",
+          "Keep the grove and green ground as the focus, with Krishna visibly beholding the landscape.",
+          "Photo 005 offers only broad pastoral meadow context, not flowering kunda detail."
+        ],
+        "composition": "A youthful Krishna stands at the edge of a lush green meadow framed by flowering kunda trees; the flowers and grass are clear, with no literal jewels on the ground.",
+        "tone": "Fresh, quiet wonder",
+        "avoid": [
+          "No gem floor, literal emeralds, unnatural light emission or glowing rays.",
+          "No forehead mark or tall crown on Krishna.",
+          "No glossy skin, border, text, extra limbs or anatomy defects."
+        ]
+      },
+      "alt": "Krishna beholds flowering kunda trees and dense emerald-green grass in Vrindavan.",
+      "reference_paths": [
+        "intake/D049/005.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png"
+      ],
+      "reference_guidance": "Use photo 005 for broad meadow/pastoral context only; recompose and add the canonical flowering trees. D001 images guide rendering and D066 candidates guide Krishna identity. Broad-only mapping.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose the grove natively in full 16:9; do not crop the near-square reference.",
+          "candidate_status": "Round-k independent exact-checksum review marked v006 needs-fix: the exposed lowered hand had only three separated fingertips plus the thumb. Three fresh attempts were inspected. v007 and v008 show five digits on both visible hands but retain a thin red-brown stroke running from the hairline over Krishna forehead; both remain unselected. v009 has smooth unmarked forehead skin and enlarged crops show thumb plus four fingers on both hands, and five toe forms on both visible feet. Skin-only 13x13 medians: Krishna cheek RGB (47,70,115), B-R 68; chest (35,58,96), B-R 61. v009 is selected. Photo 005 remains broad meadow/cow-calf context only. Candidate remains unapproved; no further attempt authorized.",
+          "candidate_version": "v009",
+          "candidate_path": "artifacts/d049/s005/landscape/candidate-v009.png",
+          "candidate_sha256": "22aa4c74071e87f531cc5714b756b21fd1e4dd4dd1bd6fcceec973e8e1498266",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d049/s005/landscape/prompt-submitted-v009.txt",
+          "provenance_path": "artifacts/d049/s005/landscape/metadata-v009.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d049-s006",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "settled community and forest survey",
+        "must_show": [
+          "The cowherds are settled in newly built homes and sit peacefully; Krishna mingles with a group of cowherd boys to survey the forest.",
+          "Show a modest arc of newly established homes behind a resting community; Krishna and boys look across the forest together.",
+          "Photo 006 is a composite-looking flute/gopi scene with carts and does not clearly match; exclude it."
+        ],
+        "composition": "A peaceful semicircle of simple homes and resting elders frames Krishna walking with a few distinct boys toward the forest edge.",
+        "tone": "Restful arrival opening into shared exploration",
+        "avoid": [
+          "No migration caravan still underway and no gopi/flute foreground.",
+          "No duplicated boys, fused bodies, malformed faces or extra limbs.",
+          "No text, border, gloss, metallic gold or cinematic beams."
+        ]
+      },
+      "alt": "After the cowherds settle, Krishna and the boys explore the forest beside their new homes.",
+      "reference_paths": [
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png"
+      ],
+      "reference_guidance": "Use D066 candidates for Krishna identity and D001 images for style. Photo 006 is an unresolved mismatch and is excluded.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose a full-bleed 16:9 settlement and forest edge; keep each figure distinct and fully in frame.",
+          "candidate_status": "Producer pass: native and enlarged face/ear, open-hand, and foot views show no earrings, forehead mark, or neck ornament; Krishna’s raised hand shows one thumb plus four fingers. Three 13x13 skin-only gopa cheek medians are RGB (181,111,63), R-B 118; (175,110,63), R-B 112; and (186,114,65), R-B 121. They read as warm brown; the third is one unit above the approximate <120 guide. Photo 006 is the documented composite-looking mismatch and is excluded. Candidate remains unapproved; fresh independent exact-checksum review is pending.",
+          "candidate_version": "v012",
+          "candidate_path": "artifacts/d049/s006/landscape/candidate-v012.png",
+          "candidate_sha256": "cb0f0411c113a95c29fc7250a880dbad2b461c8afab0831c17f5ea6a0868ab1b",
+          "native_dimensions": "1670x942",
+          "prompt_path": "artifacts/d049/s006/landscape/prompt-submitted-v012.txt",
+          "provenance_path": "artifacts/d049/s006/landscape/metadata-v012.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d049-s007",
+      "characters": [
+        "krishna-vrindavan-youth"
+      ],
+      "scene_brief": {
+        "mode": "Yamuna landscape",
+        "must_show": [
+          "Krishna sees the clear, winding Yamuna; swans call across it and lotus blossoms resemble a smiling face.",
+          "Represent the lotus-face comparison through open lotus blossoms along the winding river, not a literal human face in the water.",
+          "Photo 007 is a clear thematic match for Yamuna, swans and lotuses; recompose it as landscape."
+        ],
+        "composition": "Krishna sits quietly on the riverbank overlooking the clean, meandering Yamuna; one visible foot rests forward, with scattered swans and open lotus blossoms across the water.",
+        "tone": "Serene, gently personified nature",
+        "avoid": [
+          "No anthropomorphic river face or disembodied features.",
+          "No forehead mark, tall crown, rays, border, gloss, text or anatomical defects."
+        ]
+      },
+      "alt": "Krishna looks across the winding Yamuna, where swans move among open lotus blossoms.",
+      "reference_paths": [
+        "intake/D049/007.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png"
+      ],
+      "reference_guidance": "Photo 007 is a clear scene match; use only as story/river content guidance and independently recompose 16:9. D001 pair guides style and D066 pair guides Krishna identity.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Recompose the river as an independent full-bleed 16:9 landscape, not an extended or cropped portrait.",
+          "candidate_status": "Producer pass: native and enlarged face/ear, open-palm, resting-hand, and foot views show a plain forehead and bare ears, the contracted low band and one feather, and an open palm with thumb plus four separately visible fingers; the forward foot shows five toes. Krishna cheek sample RGB (82,122,177), B-R 95. Photo 007 is a clear Yamuna, swan, and lotus match; the mural is independently composed. Candidate remains unapproved; fresh independent exact-checksum review is pending.",
+          "candidate_version": "v016",
+          "candidate_path": "artifacts/d049/s007/landscape/candidate-v016.png",
+          "candidate_sha256": "76933748a79958bba5ef74cc3ac5712fcb7768c9966361dfe10e23f953d4daae",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d049/s007/landscape/prompt-submitted-v016.txt",
+          "provenance_path": "artifacts/d049/s007/landscape/metadata-v016.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d049-s008",
+      "characters": [
+        "krishna-vrindavan-youth"
+      ],
+      "scene_brief": {
+        "mode": "Govardhana landscape",
+        "must_show": [
+          "Krishna sees Govardhana's high peaks and mineral colors, with peacock calls making the mountain attractive.",
+          "Show a dignified high mountain and peacocks; suggest mineral colors as flat painted facets rather than emitted light.",
+          "Photo 008 is a clear mountain/peacock thematic match; recompose it as landscape."
+        ],
+        "composition": "Krishna observes Govardhana with high ridges, a small cluster of peacocks and subtle ochre, cream and muted blue-green stone bands.",
+        "tone": "Awe at the grandeur of the natural landscape",
+        "avoid": [
+          "This is not the later Govardhana-lifting episode: no raised hill, storm or sheltering crowd.",
+          "No rays, light beams, glowing gems, purple storm sky, border, gloss or text.",
+          "No forehead mark or malformed anatomy."
+        ]
+      },
+      "alt": "Krishna beholds Govardhana's high mineral-colored ridges as peacocks call nearby.",
+      "reference_paths": [
+        "intake/D049/008.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png"
+      ],
+      "reference_guidance": "Photo 008 is a clear thematic match for mountain and peacock. Use it as story reference only, recompose in landscape. D001 and D066 references guide style and Krishna identity respectively.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose Govardhana as native full-bleed 16:9; no mechanical crop or extension of the portrait source.",
+          "candidate_status": "Round-k independent exact-checksum review marked v007 needs-fix because the rock-resting hand showed only three clear fingers plus the thumb. Two fresh attempts were inspected. v009 removes rock contact but places the lap hands together; enlarged views do not establish five separate digits on each hand, so it remains unselected. v010 seats Krishna on the grass beside the boulder and places one open hand on each knee with a visible gap; enlarged crops show one thumb plus four separate fingers on each hand and five toe forms on both visible feet. Skin-only 13x13 medians: cheek RGB (60,79,112), B-R 52; chest (59,79,109), B-R 50. Krishna has a bare forehead, one feather, and the correct deep indigo skin. Three peacocks, river and high mountain ridges remain; this is not the hill-lifting scene. v010 is selected. Photo 008 remains a clear thematic match. Candidate remains unapproved; no further attempt authorized.",
+          "candidate_version": "v010",
+          "candidate_path": "artifacts/d049/s008/landscape/candidate-v010.png",
+          "candidate_sha256": "65b48267213e6adf18a7487b981aef631921cca9af21d68aa872ab7abc33e773",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d049/s008/landscape/prompt-submitted-v010.txt",
+          "provenance_path": "artifacts/d049/s008/landscape/metadata-v010.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d049-s009",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "forest-edge river encounter",
+        "must_show": [
+          "Krishna walks with the cowherd boys along the forest edge and sees the winding Yamuna appear to follow him in solitude.",
+          "Use the curved river as personification and emotional focus; do not invent a named woman or additional character.",
+          "Photo 009 is a clear thematic match for Krishna, water and a woman, but that woman is not identified as a canonical person."
+        ],
+        "composition": "Krishna and a few distinct cowherd boys move along a forest-edge path above the curved Yamuna, which loops back into view around the grove.",
+        "tone": "Companionship with a quiet sense of intimate wonder",
+        "avoid": [
+          "No named river goddess or extra woman unless a canonical identity is established.",
+          "No duplicate Krishna, fused boys, malformed hands, text, border or light shafts."
+        ]
+      },
+      "alt": "Krishna wanders with the cowherd boys as the curved Yamuna appears to follow the forest edge.",
+      "reference_paths": [
+        "intake/D049/009.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png"
+      ],
+      "reference_guidance": "Photo 009 supports Krishna/water thematically; do not reuse or identify its woman as a named figure. Independently recompose the landscape. D001 images guide style; D066 pair guides Krishna identity.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose an independent native 16:9 forest-edge scene with full bodies and clear river path.",
+          "candidate_status": "Independent review flagged three foreground gopa faces in v008 as orange/copper. Two authorized native edit attempts followed from v008. v009 is selected as the better skin-color result: skin-only 13x13 cheek medians at the three reported face regions are RGB (146,86,40), R-B 106; (157,94,51), R-B 106; and (160,95,49), R-B 111. The warm-brown target is met at all three samples. The second attempt v010 measured R-B 117, 127 and 134, so it is unselected. Both edit outputs visibly retain the same Yamuna forest-edge composition, people and poses, but were broad re-renders: v009 changed 1,572,427 pixel coordinates compared with v008 (16,192 within the three face boxes and 1,556,235 outside); v010 changed 1,569,973 (16,182 within and 1,553,791 outside). These pixel changes outside the intended faces are disclosed as a deviation from the localized-edit instruction. Krishna remains deep indigo with his existing plain-forehead highlight, low band and single feather; open hand and both feet show five digits/toes. Candidate is unapproved pending fresh independent exact-checksum review.",
+          "candidate_version": "v009",
+          "candidate_path": "artifacts/d049/s009/landscape/candidate-v009.png",
+          "candidate_sha256": "0085b476c49f53a1285b58c3ac2aa40cc5f592a32e94c75c3b9d13d403fe1474",
+          "native_dimensions": "1670x942",
+          "prompt_path": "artifacts/d049/s009/landscape/prompt-submitted-v009.txt",
+          "provenance_path": "artifacts/d049/s009/landscape/metadata-v009.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d049-s010",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "d072-balarama-vraja-youth",
+        "gopas"
+      ],
+      "scene_brief": {
+        "mode": "calf-grazing",
+        "must_show": [
+          "Krishna, Balarama and cowherd boys eagerly graze the calf group in the Vrindavan forest.",
+          "Show Krishna as deep blue and youthful, Balarama as a distinct warm-brown youth in restrained blue clothing, with several clearly distinct calves.",
+          "Photo 010 is a clear thematic match but individual calves are not distinct in it."
+        ],
+        "composition": "Krishna and Balarama walk together with a small group of boys among several distinct calves in a wooded pasture; show relaxed herding rather than milking or adult cattle management.",
+        "tone": "Eager, companionable pastoral joy",
+        "avoid": [
+          "No duplicate Krishna or Balarama; do not color Balarama blue or make him toddler-sized.",
+          "No malformed or fused calves, duplicated boys, extra fingers, text, gloss or metallic gold.",
+          "No forehead mark on Krishna; no beams, rays or shafts."
+        ]
+      },
+      "alt": "Krishna and Balarama tend distinct calves with the cowherd boys in a Vrindavan grove.",
+      "reference_paths": [
+        "intake/D049/010.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s002-candidate-v004.png",
+        "artifacts/d067/references/krishna-vrindavan-youth/d066-s010-candidate-v004.png"
+      ],
+      "reference_guidance": "Photo 010 is a clear thematic scene reference; recompose as landscape and make the calves distinct. D001 images guide style; D066 pair guides Krishna identity. Use the D072 Balarama youth contract for his visual identity.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Compose as a native full-bleed 16:9 pasture; do not crop the reference image.",
+          "candidate_status": "Round-h review found S010 v017’s prominent raised rear foot had only two visible toe forms. Targeted v018 now shows five distinct toe forms in the enlarged 6x crop. The full native frame retains the planned Krishna/Balarama calf-tending scene and the figures/calf arrangement. Compared with v017, v018 changed 1,570,839 of 1,573,352 pixel coordinates total (1,533,532 outside the 220x170 target-foot box and 37,307 inside), so the edit is a new full render rather than a pixel-local patch; visually the overall composition remains the same. Skin-only 13x13 medians: Krishna cheek B-R 72 and chest B-R 80 (deep indigo); Balarama torso R-B 128; three gopa cheek samples R-B 122, 128 and 125. The human skin reads warm brown, with the sampled human medians 2–8 above the approximate <120 guide disclosed. Candidate remains unapproved pending a fresh exact-checksum independent review.",
+          "candidate_version": "v018",
+          "candidate_path": "artifacts/d049/s010/landscape/candidate-v018.png",
+          "candidate_sha256": "38cdf575aa6ac167b71e244eedbe4514d743fda2959625a5ca253f513e101d76",
+          "native_dimensions": "1672x941",
+          "prompt_path": "artifacts/d049/s010/landscape/prompt-submitted-v018.txt",
+          "provenance_path": "artifacts/d049/s010/landscape/metadata-v018.json"
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    }
+  ]
+}

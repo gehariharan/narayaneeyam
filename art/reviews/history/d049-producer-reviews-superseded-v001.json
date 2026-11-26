@@ -1,0 +1,905 @@
+{
+  "schema_version": 1,
+  "description": "Exact D049 producer review rows before the S003 v009 selection and final-plan reinspection; active review rows were replaced, while all individual report files remain preserved.",
+  "records": [
+    {
+      "chapter": 49,
+      "sloka": 1,
+      "role": "producer",
+      "file": "artifacts/d049/s001/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "ed08501fe9061e65e2f369a24a9322f85b1c28af2793d80ceff714cd51ed31cc",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:02:05Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s001-landscape-v003-producer-review-v001.md",
+          "sha256": "7cdc0b5e350056bdb5bdd7cd09dffdcf3274cee520d264de654cc26803f72ec6"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The central elder’s enlarged open-hand crop shows a thumb and four fingers; visible seated feet remain attached to their legs."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The five seated gopas have connected shoulders, arms and folded legs; their gestures remain separate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Five distinct adult faces are visible, including the mustached central speaker and the gray-haired elder at right."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The five elders are separate; the two fallen tree trunks behind them do not merge into another figure."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable marks appear on huts, cloth, ground or frame edges."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The worried council beside two grounded trunks follows the planned stanza; photo 001’s flute scene is excluded."
+        }
+      },
+      "findings": [],
+      "disclosed_deviations": [],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    },
+    {
+      "chapter": 49,
+      "sloka": 2,
+      "role": "producer",
+      "file": "artifacts/d049/s002/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "ec6175f50ae7686d8ce666258334006a76db13244013f16824bbb854f471435d",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:02:13Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s002-landscape-v004-producer-review-v001.md",
+          "sha256": "7333863cba851a7626ffae00432f5efcd15e2baa3eb41db06aea34beeba36706"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Upananda’s enlarged pointing hand shows a thumb and four fingers; his other arm rests against the seated pose."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Upananda’s raised arm joins at the shoulder and listeners’ folded arms and legs remain attached."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The single older gray-haired, bearded Upananda differs from the three moustached listeners."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One speaker and three listeners are distinct around the stream bank."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, logo, signature or watermark is visible."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "The council and stream setting matches the stanza; sampled Upananda skin R-B 129 is nine above the approximate guide."
+        }
+      },
+      "findings": [
+        "Skin hue is slightly more orange than the approximate warm-brown guide; retained on Firstmate direction."
+      ],
+      "disclosed_deviations": [
+        "Upananda cheek patch RGB 181,108,52 has R-B 129, nine above the approximate <120 guide."
+      ],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    },
+    {
+      "chapter": 49,
+      "sloka": 3,
+      "role": "producer",
+      "file": "artifacts/d049/s003/landscape/candidate-v007.png",
+      "version": "v007",
+      "sha256": "87c656462cdc304f99a73e762aa7605d948b1b909a6c31eadb092dc8461631a1",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:02:20Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s003-landscape-v007-producer-review-v001.md",
+          "sha256": "be01cdd90221f23a259f40cfde3e56f1a39893e1e4bcfcf1db7b559cbe0d54dc"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The Krishna detail crop shows five toes on each dangling foot; his seated arms and hands remain attached."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Yashoda and Krishna sit separately on one central wagon; cart supports and cattle harnesses remain distinct."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Yashoda and youthful Krishna have separate readable faces; no second Krishna is visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The caravan people and cattle remain individually separated despite the crowded wagons."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, logo, signature or watermark appears on the wagons or frame."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "The migration is clear and photo 003 is excluded; Krishna’s yellow earring and wrist bands exceed the shared simple identity styling."
+        }
+      },
+      "findings": [
+        "Extra earring and wrist bands remain beyond the shared Krishna contract; cleanup awaits Firstmate steer after the usage reset."
+      ],
+      "disclosed_deviations": [
+        "Krishna retains a small flat yellow earring and wrist bands beyond the shared costume contract."
+      ],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    },
+    {
+      "chapter": 49,
+      "sloka": 4,
+      "role": "producer",
+      "file": "artifacts/d049/s004/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "974f84ebe2cca8733d90ca406c12ed9cb0e6ee36e40b2c8e3e0927d33b5e7415",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:02:26Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s004-landscape-v005-producer-review-v001.md",
+          "sha256": "6997e0feea189d4afd59d5373967cb0ed9b1b95a7e4dd06d19186ef53dfb29c4"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Krishna’s enlarged open hand shows a thumb and four fingers; his other hand rests on the cart edge."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s two visible arms join at the shoulders and three travelers stand as separate bodies."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and the three gopikas have separate legible faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The traveling women, Krishna and cattle do not overlap into duplicated figures."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, watermark, logo or signature is visible."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "The cart-side travel scene fits the stanza and excludes photo 004; two gopika patches measure R-B 125 and 122."
+        }
+      },
+      "findings": [
+        "Two sampled gopika skin patches slightly exceed the approximate warm-brown guide."
+      ],
+      "disclosed_deviations": [
+        "Gopika cheek patches measure R-B 125 and 122, slightly above the approximate <120 guide."
+      ],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    },
+    {
+      "chapter": 49,
+      "sloka": 5,
+      "role": "producer",
+      "file": "artifacts/d049/s005/landscape/candidate-v002.png",
+      "version": "v002",
+      "sha256": "dbecf14be54a6f1e4c89a007326b22f5846bce3351e9d645aee14d29acc70905",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:02:34Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s005-landscape-v002-producer-review-v001.md",
+          "sha256": "c54f14c57a9ceff5ce2266f078e367f9064941e38b83c1a932528245a75ac77c"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The enlarged raised hand shows a thumb and four fingers; both visible feet show five toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s arms and legs connect naturally around the standing gesture."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One youthful Krishna face is visible beneath the feather band."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The single Krishna remains separate from the distant cow, calf and birds."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, signature, logo or watermark appears in the meadow."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "The flowering grove and deep-blue Krishna follow the plan; cheek B-R is 78. A small flat earring and collar line are disclosed."
+        }
+      },
+      "findings": [
+        "A small flat yellow earring and collar line remain beyond the shared Krishna costume anchor."
+      ],
+      "disclosed_deviations": [
+        "Krishna cheek B-R is 78. A small flat yellow earring and collar line remain beyond the shared costume anchor; neither has metallic shine."
+      ],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    },
+    {
+      "chapter": 49,
+      "sloka": 6,
+      "role": "producer",
+      "file": "artifacts/d049/s006/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "260459aebb88a9c581d735d2569fb895b5855e7ed848c48b61f04dc024b62dcd",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:02:40Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s006-landscape-v005-producer-review-v001.md",
+          "sha256": "605f8316e7a54bf4e6d68b2318dc3636d394551ff6f572565728b82236220990"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The raised-hand crop shows a thumb and four fingers; the visible foot crop shows five toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna and the three walking boys have attached limbs in their forward-stride poses."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The front-facing Krishna and adjacent boy have distinct faces; the other boys are not duplicated."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Four walkers remain individually outlined against the village and forest."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing or watermark appears on hut walls or the frame."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "The settlement edge is clear; Krishna B-R is 68 and sampled gopa R-B values are 118 and 116. His earring and wrist band remain."
+        }
+      },
+      "findings": [
+        "Extra earring and wrist band remain beyond the shared Krishna contract."
+      ],
+      "disclosed_deviations": [
+        "Krishna retains a small flat yellow earring and wrist band beyond the shared costume contract."
+      ],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    },
+    {
+      "chapter": 49,
+      "sloka": 7,
+      "role": "producer",
+      "file": "artifacts/d049/s007/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "d60eb6e6d24813b8bdf1fdf6e0249d91e69b13d63befa270ed3d5862dccad6bc",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:02:50Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s007-landscape-v003-producer-review-v001.md",
+          "sha256": "cf07865000adff32923ee7def3c3db11ca1118f10047b7871884e4600207a66a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The enlarged feet show five toes on each foot; both arms remain attached in the relaxed standing pose."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s weight-bearing stance and the two visible arms remain connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One youthful Krishna face is legible beneath the feather band."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Two swans remain separate from one another and from Krishna; no second Krishna appears."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No lettering or watermark is visible on the river or frame."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The Yamuna, swans and lotuses match photo 007; the pale forehead mark about 4×15 pixels violates the shared plain-forehead contract."
+        }
+      },
+      "findings": [
+        "Visible pale vertical forehead mark conflicts with the shared Krishna contract."
+      ],
+      "disclosed_deviations": [
+        "Pale vertical forehead crescent near native x≈380,y≈130, about 4×15 pixels."
+      ],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    },
+    {
+      "chapter": 49,
+      "sloka": 8,
+      "role": "producer",
+      "file": "artifacts/d049/s008/landscape/candidate-v004.png",
+      "version": "v004",
+      "sha256": "a5f923c62e72fc9d96a0c17cc97c96621a1dbb62253e7bbca51bb29c170b1225",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:02:58Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s008-landscape-v004-producer-review-v001.md",
+          "sha256": "2f556a8b92fda788fed1330492fcde98d00f3eeb08929875dc7fc7baf10f4b11"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "uncertain",
+          "observations": "The rock-hand crop shows five digits; the foreground foot has five toes, but foliage and overlap prevent a full rear-foot count."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s hand rests on the boulder from an attached arm; the second arm hangs naturally."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One youthful Krishna face is legible in profile beneath the feather band."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Krishna and three separate peacocks occupy the mountain foreground."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo or watermark is apparent."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "Govardhana and peacocks match photo 008; the yellow wrist cuff remains and the scene does not depict hill-lifting."
+        }
+      },
+      "findings": [
+        "The yellow wrist cuff remains, and the overlapped rear foot prevents complete toe-count verification."
+      ],
+      "disclosed_deviations": [
+        "Yellow wrist cuff remains beyond the simple costume.",
+        "Rear foot partly overlaps and is not fully countable."
+      ],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    },
+    {
+      "chapter": 49,
+      "sloka": 9,
+      "role": "producer",
+      "file": "artifacts/d049/s009/landscape/candidate-v007.png",
+      "version": "v007",
+      "sha256": "6954dcc28f394a50749ff0f0bc0b69e52641adf6485c4366839b2c0933aaddda",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:03:06Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s009-landscape-v007-producer-review-v001.md",
+          "sha256": "fe8208e3cc58e65d16e3406699c8833597690fea7f02e442876dc690de277415"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The open hand shows thumb plus four fingers, and both enlarged feet show five toes."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s walking pose and the boys’ walking limbs remain connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and three gopa faces are distinct at native scale."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The three boys remain separate from Krishna and from each other along the river path."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text or watermark is visible in sky, river or path."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "The Yamuna is clear; photo 009’s unidentified woman is excluded. Krishna’s earring and wrist cuff remain beyond the shared costume anchor."
+        }
+      },
+      "findings": [
+        "Extra earring and wrist cuff remain beyond the shared Krishna contract."
+      ],
+      "disclosed_deviations": [
+        "Krishna retains a small yellow earring and wrist cuff beyond the shared costume contract."
+      ],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    },
+    {
+      "chapter": 49,
+      "sloka": 10,
+      "role": "producer",
+      "file": "artifacts/d049/s010/landscape/candidate-v011.png",
+      "version": "v011",
+      "sha256": "73cd612219b8fb4d8db486aa474eb388149df811aac53326195d9a4a15485351",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-24T23:03:14Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Krishna and all human figures use ordinary two-arm, two-leg anatomy; animals are distinct natural quadrupeds. No deity anatomy override applies in this stanza.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s010-landscape-v011-producer-review-v001.md",
+          "sha256": "71b1eed0e3a2996608fa60cf7a90d23aa5e90da36cdf3d6f0415e23d88ce2503"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The calf-contact hand is enlarged, but individual fingers are too small to count confidently; no disconnected limb is visible."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna, Balarama and the standing and kneeling boys have connected bodies; their staffs and calf contacts remain separate."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and Balarama are visually distinct youths; the three boys have separate faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Several calves are individually separated; one Krishna and one Balarama appear."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable marks or watermark appear on clothing, pasture or frame."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The forehead mark, human skin R-B 164–172 and prominent Balarama bead necklace remain deviations from the contracts."
+        }
+      },
+      "findings": [
+        "Forehead mark conflicts with Krishna contract; warm human skin patches exceed the approximate guide by 44–52; Balarama necklace is more prominent than the sparse-ornament contract."
+      ],
+      "disclosed_deviations": [
+        "Krishna pale forehead mark approximately 4×16 px.",
+        "Human skin patches are strongly orange, R-B 164–172.",
+        "Balarama has a prominent brown bead necklace beyond sparse ornament."
+      ],
+      "notes": "Producer inspection only. Bound to final D049 plan SHA-256 535dd050a3724177dd725d27d2d49548d8b235e01b19adeea81fefc43897da60. Not independent clearance or art approval; art/approved/ remains unchanged."
+    }
+  ]
+}

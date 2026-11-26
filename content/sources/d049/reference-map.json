@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "daskam": 49,
+  "basis": "Readiness record d049-reference-mapping-20261106 and its report; filenames and numeric order are context only and do not override visual content.",
+  "captions": "No per-photo captions. intake/D049/photo-captions.txt contains numbered source commentary and is preserved verbatim but not used as photo captions.",
+  "images": [
+    {"file":"001.jpg","sha256":"adef927ec9032b6bb93083cf9d66666475204e13344bcd271674e93dfe840e7f","candidate_stanzas":[1,4],"status":"unresolved_conflict","observation":"Flute-playing Krishna among seated women and men; no fearful elders or relocation discussion. Not used as a stanza 1 scene reference.","use":"excluded from generated references"},
+    {"file":"002.jpg","sha256":"2cafe0b1cabbebfaf2f7f73341f3e09afb11cd5065ec006979dfd4682bcf9fde","candidate_stanzas":[2],"status":"broad_context_match","observation":"Woodland stream and forest support the destination setting but show neither Upananda nor a council.","use":"stanza 2 environment context only; recompose a cowherd meeting"},
+    {"file":"003.jpg","sha256":"1b78947fcbeb4a6cf2a4000c0e0b19590011d45afd83dbe74c8d80cd35f17d98","candidate_stanzas":[3],"status":"unresolved_conflict","observation":"Krishna, companion, cowherds and cattle; no wagon migration with Nanda and mothers.","use":"excluded from generated references"},
+    {"file":"004.jpg","sha256":"3db5e98aa4bc40a44fc73da823d3262c501f843684a0c8dc9bf96c61bb36138e","candidate_stanzas":[4,7],"status":"unresolved_conflict","observation":"People at or in water do not clearly show travel, Krishna's playful speech, cattle sounds, swans or lotus imagery.","use":"excluded from generated references"},
+    {"file":"005.jpg","sha256":"ca64c273f43fce45c8e3d019e3c1a1021405530811cf44242f5064092dbf0583","candidate_stanzas":[5],"status":"broad_context_match","observation":"Lush meadow, cow and calf support the pastoral woodland setting but do not depict flowering kunda trees specifically.","use":"stanza 5 landscape context only; recompose flowering grove"},
+    {"file":"006.jpg","sha256":"b8c3fdd37966db4c76ab6127f2ffe1a00cc859175ef7f6397aa88359f196626f","candidate_stanzas":[6],"status":"unresolved_conflict","observation":"Composite flute/gopi foreground with carts behind; does not clearly show newly settled cowherds and Krishna surveying the forest with boys.","use":"excluded from generated references"},
+    {"file":"007.jpg","sha256":"552b0aef63e47b82e587e9fd5393460c3f4d6db27fe207c9b6890b89b90c97d7","candidate_stanzas":[7],"status":"clear_scene_match","observation":"Yamuna-like water, lotus flowers and swans directly support the stanza's river imagery.","use":"stanza 7 scene reference; recompose as native landscape"},
+    {"file":"008.jpg","sha256":"45f6f811e64dca53c897c8e85c276423c6bcc19f95d832bec8a1f7f8bd173f63","candidate_stanzas":[8],"status":"clear_scene_match","observation":"Mountain landscape and peacock imagery support Govardhana and peacock calls.","use":"stanza 8 scene reference; recompose as native landscape"},
+    {"file":"009.jpg","sha256":"f7ee0cfa9facd959abfd7c10f6c8962bd02217a193d443cd6dccd9e83a5d816d","candidate_stanzas":[9],"status":"clear_thematic_match","observation":"Krishna, calves, water and a woman support the forest-edge/Yamuna encounter thematically; the woman is not identified as a named canonical character.","use":"stanza 9 thematic scene reference; do not assert a named woman"},
+    {"file":"010.jpg","sha256":"f7d1720645a05cd1a4e879908ad322d196bbe3c6f7a9f35e720d5da3400ecc53","candidate_stanzas":[10],"status":"clear_scene_match","observation":"Krishna, a Balarama-like companion, cowherd boys, cattle and wooded setting support the stanza; individual calves are not distinct.","use":"stanza 10 scene reference; preserve distinct youthful Balarama and cowherd boys"}
+  ],
+  "gaps": [1,3,4,6],
+  "broad_only": [2,5],
+  "limitations": ["Captionless numeric filenames do not prove stanza assignment.","Photo 3 visibly contains Krishna.com and Bhaktivedanta Book Trust attribution; it remains reference-only and is excluded from generation.","No inference is made about creator or original-generation provenance."]
+}

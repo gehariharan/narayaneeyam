@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "chapter": 49,
+  "superseded_reviews": [
+    {
+      "chapter": 49,
+      "sloka": 7,
+      "role": "producer",
+      "file": "artifacts/d049/s007/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "d60eb6e6d24813b8bdf1fdf6e0249d91e69b13d63befa270ed3d5862dccad6bc",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-25T19:48:49Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Krishna and human figures use ordinary two-arm, two-leg anatomy; visible cattle and calves are separate quadrupeds. The stanza has no multi-limbed deity depiction.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "93c32a2786bdc60a1439b6e3f8f7116f6181adb8153e24e46deda1316d08329e"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s007-landscape-v003-producer-review-v001.md",
+          "sha256": "cf07865000adff32923ee7def3c3db11ca1118f10047b7871884e4600207a66a"
+        },
+        {
+          "path": "art/reviews/d049-s007-landscape-v003-producer-review-v002.md",
+          "sha256": "aa04ffcb50f93bde9c1c734dec1c3cdf2ddcfe588b8eb57c0f8951e2e73be076"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "The enlarged feet show five toes on each foot; both arms remain attached in the relaxed standing pose."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s weight-bearing stance and the two visible arms remain connected."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "One youthful Krishna face is legible beneath the feather band."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Two swans remain separate from one another and from Krishna; no second Krishna appears."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No lettering or watermark is visible on the river or frame."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The Yamuna, swans and lotuses match photo 007; the pale forehead mark about 4×15 pixels violates the shared plain-forehead contract."
+        }
+      },
+      "findings": [
+        "Pale forehead crescent about 4×15 native pixels."
+      ],
+      "disclosed_deviations": [
+        "Pale forehead crescent about 4×15 native pixels."
+      ],
+      "notes": "Producer reinspection only, bound to final D049 plan SHA-256 2d540942f646c626f2f8d555c439bd388eae6e9e52266956d2d0604ef4a6d078. Not independent clearance or art approval; art/approved/ remains unchanged. Plan-pin supplement art/reviews/d049-plan-pin-recheck-v001.md binds unchanged stanza scene requirements to final plan SHA-256 93c32a2786bdc60a1439b6e3f8f7116f6181adb8153e24e46deda1316d08329e; original visual inspection time is retained."
+    }
+  ]
+}

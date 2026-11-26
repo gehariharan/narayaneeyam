@@ -508,6 +508,24 @@ assert.equal((await feedback(req({...good,daskam:30,sloka:10}),env)).status,201)
 assert.equal((await feedback(req({...good,daskam:30,sloka:11}),env)).status,400);
 console.log('Passed: D030 has ten caption-mapped rows, an explicit no-photo stanza 10 reference, version-pinned unapproved landscapes, provenance-backed references, and stanza-bounded feedback.');
 
+const full49=data.chapters.find(c=>c.id===49);assert.ok(full49);assert.deepEqual(full49.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content49=JSON.parse(await fs.readFile(new URL('../../content/daskams/d049.json',import.meta.url)));
+const selected49=JSON.parse(await fs.readFile(new URL('../../art/batches/d049-comparison-v013.json',import.meta.url)));
+assert.equal(selected49.rows.length,10);assert.equal(selected49.review_status,'needs-review');assert.ok(full49.reviewNotice.toLowerCase().includes('unapproved'));
+for(const row of full49.rows){
+ assert.equal(row.commentarySource,`intake/D049/photo-captions.txt#${row.n}`);
+ assert.equal(row.commentary,content49.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected49.rows.find(r=>r.n===row.n);assert.ok(selected);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.match(selected.matte.file,/^artifacts\/d049\/s\d{3}\/landscape\/candidate-v\d{3}\.png$/);
+ assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+}
+assert.ok(full49.rows[0].images.find(i=>i.role==='matte').inspectionLabel.includes('not art approval'));
+assert.equal((await feedback(req({...good,daskam:49,sloka:10}),env)).status,201);
+assert.equal((await feedback(req({...good,daskam:49,sloka:11}),env)).status,400);
+console.log('Passed: D049 has ten source-mapped reference rows, exact-checksum unapproved landscape candidates, separately attributed commentary, and stanza-bounded feedback.');
+
 const full100=data.chapters.find(c=>c.id===100);assert.ok(full100);assert.deepEqual(full100.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 const content100=JSON.parse(await fs.readFile(new URL('../../content/daskams/d100.json',import.meta.url)));
 const selected100=JSON.parse(await fs.readFile(new URL('../../art/batches/d100-comparison-v001.json',import.meta.url)));
