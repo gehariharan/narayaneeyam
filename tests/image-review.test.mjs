@@ -406,6 +406,30 @@ test('D029 selection pins ten source and native candidates with exact passing re
   assert.ok(states.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
 });
 
+test('D030 S009 revision pins the middle-ground gesture to its updated plan without changing other selections', async () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batches = await loadSelections(root);
+  const prior = batches.find(item => item.selectionFile === 'd030-comparison-v013.json');
+  const current = batches.find(item => item.selectionFile === 'd030-comparison-v014.json');
+  const planBytes = await fs.readFile(path.join(root, 'art/plans/d030.json'));
+  const plan = JSON.parse(planBytes);
+  assert.ok(prior && current);
+  assert.equal(current.daskam_id, 30);
+  assert.equal(current.review_status, 'needs-review');
+  assert.equal(current.rows.length, 10);
+  assert.equal(current.plan_sha256, sha256(planBytes));
+  assert.equal(current.rows[8].n, 9);
+  assert.equal(current.rows[8].scene, plan.stanzas[8].alt);
+  assert.equal(current.rows[8].matte.file, 'artifacts/d030/s009/landscape/candidate-v014.png');
+  assert.equal(current.rows[8].matte.version, 'v014');
+  assert.match(current.rows[8].candidate_status, /vessel-hand patch.*R−B 119/);
+  assert.match(plan.stanzas[8].scene_brief.must_show[0], /falls DOWN from its mouth onto Vamana’s feet and into the basin/);
+  assert.match(plan.stanzas[8].scene_brief.must_show[0], /no stream rises from the basin/);
+  for (const row of current.rows.filter(item => item.n !== 9)) {
+    assert.deepEqual(row, prior.rows.find(item => item.n === row.n));
+  }
+});
+
 test('D043 selection binds its ten source and native candidate versions', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
