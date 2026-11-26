@@ -493,7 +493,7 @@ const selected30=JSON.parse(await fs.readFile(new URL('../../art/batches/d030-co
 assert.equal(selected30.rows.length,10);assert.equal(selected30.review_status,'needs-review');assert.ok(full30.reviewNotice.toLowerCase().includes('unapproved'));assert.equal(selected30.rows[3].matte.version,'v010');assert.equal(selected30.rows[3].producer_review.outcome,'uncertain');assert.equal(selected30.rows[4].matte.version,'v019');assert.equal(selected30.rows[4].producer_review.outcome,'pass');assert.equal(selected30.rows[5].matte.version,'v015');assert.equal(selected30.rows[5].producer_review.outcome,'pass');assert.equal(selected30.rows[7].matte.version,'v007');assert.equal(selected30.rows[7].producer_review.outcome,'pass');assert.equal(selected30.rows[8].matte.version,'v010');assert.equal(selected30.rows[8].producer_review.outcome,'pass');assert.equal(selected30.rows[9].matte.version,'v008');assert.equal(selected30.rows[9].producer_review.outcome,'pass');
 const referenceFiles30={1:'intake/D030/001.jpg',2:'intake/D030/002.jpg',3:'intake/D030/003.jpg',4:'intake/D030/004.jpg',5:'intake/D030/006.jpg',6:'intake/D030/007.jpg',7:'intake/D030/008.jpg',8:'intake/D030/009.jpg',9:'intake/D030/010.jpg',10:'artifacts/d030/no-reference-s010.svg'};
 for(const row of full30.rows){
- const stanza=content30.stanzas.find(s=>s.n===row.n);if(row.n<10)assert.equal(row.commentarySource,`intake/D030/photo-captions.txt#${row.n}`);assert.equal(row.commentary,stanza.commentary_en);
+ const stanza=content30.stanzas.find(s=>s.n===row.n);assert.equal(row.commentarySource,`intake/D030/photo-captions.txt#${row.n}`);assert.equal(row.commentary,stanza.commentary_en);
  assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
  const selected=selected30.rows.find(r=>r.n===row.n);assert.ok(selected);
  assert.equal(selected.reference.file,referenceFiles30[row.n]);
@@ -503,10 +503,10 @@ for(const row of full30.rows){
 }
 assert.equal(selected30.rows[9].reference.file,'artifacts/d030/no-reference-s010.svg');
 assert.equal(selected30.rows[9].reference.displayLabel,'No photo reference');
-assert.ok(selected30.rows[9].candidate_status.includes('no photo/caption is mapped'));
+assert.ok(selected30.rows[9].candidate_status.includes('no photo is mapped'));
 assert.equal((await feedback(req({...good,daskam:30,sloka:10}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:30,sloka:11}),env)).status,400);
-console.log('Passed: D030 has ten caption-mapped or explicitly no-reference rows, version-pinned unapproved landscapes, provenance-backed references, and stanza-bounded feedback.');
+console.log('Passed: D030 has ten caption-mapped rows, an explicit no-photo stanza 10 reference, version-pinned unapproved landscapes, provenance-backed references, and stanza-bounded feedback.');
 
 const full100=data.chapters.find(c=>c.id===100);assert.ok(full100);assert.deepEqual(full100.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 const content100=JSON.parse(await fs.readFile(new URL('../../content/daskams/d100.json',import.meta.url)));
