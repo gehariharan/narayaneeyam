@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "daskam_id": 49,
+  "description": "Ten stanza-mapped, checksum-pinned native landscape candidates for unapproved D049 reference comparison.",
+  "review_notice": "Unapproved landscape candidates for comparison only. Producer self-reviews are recorded separately in art/reviews/; independent exact-checksum visual review is pending for all ten selected versions. S001 v003 excludes conflicting photo 001. Photos 002 and 005 provide broad context only; photos 003, 004 and 006 are documented mismatches and excluded. Photos 007 and 008 are direct river/mountain thematic matches; photo 009 is river context and its unidentified woman is not carried into the candidate; photo 010 supports calf tending but does not show distinct calves. Known producer observations: S002 v004 is selected over v002 (cheek RGB (165,93,51), R-B 114, but forbidden tilak, prayer beads and topknot) and v003 (cheek RGB (206,114,32), R-B 174); selected v004 cheek RGB (181,108,52), R-B 129, remains 9 above the approximate guide; S003 v010 supersedes v009: Krishna’s visible ear, wrists and forehead are bare; both exposed hands show five digits and both feet show five toes. Skin-only medians are Krishna cheek RGB (83,93,127), B-R 44, upper arm RGB (77,88,125), B-R 48, Yashoda cheek RGB (166,89,37), R-B 129, and Nandagopan cheek RGB (166,92,41), R-B 125; the adult readings are 9 and 5 above the approximate <120 guide. The failed v008 usage-limit attempt and v009 findings remain in history; S004 v005 removed Krishna’s previously visible earring and wrist bands; gopika patches measure R-B 125 and 122; S005 retains a small flat yellow earring and collar line; S006 retains small yellow earring and wrist band; S007 v007 has an unmarked forehead and cheek B-R 74; its seated pose is reflected in the final plan, one visible foot shows five toes, and hand-thumb counts remain uncertain because the supporting hand meets the ground and the other rests against the knee; S008 v004 retains a yellow wrist cuff and its rear foot is partly overlapped; S009 v007 shows five toes on both feet but retains an earring and wrist cuff; S010 v011 retains a pale Krishna forehead mark about 4x16 pixels, orange human skin patches (R-B 164–172) and a prominent brown bead necklace on Balarama. These observations are producer findings only. Canonical Sanskrit and IAST remain in content/daskams/d049.json; no vetted English verse translation is supplied. Numbered source commentary is preserved as attributed commentary, not as photo captions. Publishing does not approve artwork; portraits remain paused.",
+  "review_status": "needs-review",
+  "visual_review_status": "needs-review",
+  "source_mapping_sha256": "3bc189e23290e0875121b105973c3259f194bbd3953f6ce62f441d186c1239e4",
+  "rows": [
+    {
+      "n": 1,
+      "concept_id": "d049-s001",
+      "scene": "Nandagopan and the cowherd elders confer beside two fallen trees after unexplained calamities at Gokula.",
+      "reference": {
+        "file": "intake/D049/001.jpg",
+        "sha256": "adef927ec9032b6bb93083cf9d66666475204e13344bcd271674e93dfe840e7f",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s001/landscape/candidate-v003.png",
+        "sha256": "ed08501fe9061e65e2f369a24a9322f85b1c28af2793d80ceff714cd51ed31cc",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": []
+    },
+    {
+      "n": 2,
+      "concept_id": "d049-s002",
+      "scene": "Upananda recommends Vrindavan to the cowherds, indicating the wooded stream valley to the west.",
+      "reference": {
+        "file": "intake/D049/002.jpg",
+        "sha256": "2cafe0b1cabbebfaf2f7f73341f3e09afb11cd5065ec006979dfd4682bcf9fde",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s002/landscape/candidate-v004.png",
+        "sha256": "ec6175f50ae7686d8ce666258334006a76db13244013f16824bbb854f471435d",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": []
+    },
+    {
+      "n": 3,
+      "concept_id": "d049-s003",
+      "scene": "Nandagopan leads the cowherd wagons west as Yashoda and Krishna ride together on a covered cart.",
+      "reference": {
+        "file": "intake/D049/003.jpg",
+        "sha256": "1b78947fcbeb4a6cf2a4000c0e0b19590011d45afd83dbe74c8d80cd35f17d98",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s003/landscape/candidate-v010.png",
+        "sha256": "4af3d01eb285c3f6d501adb35cc9e97d09c1f6ab76b4f22e9ae240b7a04cad96",
+        "version": "v010",
+        "label": "Landscape candidate v010",
+        "displayLabel": "Landscape candidate v010",
+        "dimensions_px": "1669x942"
+      },
+      "alternates": []
+    },
+    {
+      "n": 4,
+      "concept_id": "d049-s004",
+      "scene": "Traveling women smile as Krishna's playful words mingle with the cattle and cart sounds.",
+      "reference": {
+        "file": "intake/D049/004.jpg",
+        "sha256": "3db5e98aa4bc40a44fc73da823d3262c501f843684a0c8dc9bf96c61bb36138e",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s004/landscape/candidate-v005.png",
+        "sha256": "974f84ebe2cca8733d90ca406c12ed9cb0e6ee36e40b2c8e3e0927d33b5e7415",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
+        "dimensions_px": "1670x942"
+      },
+      "alternates": []
+    },
+    {
+      "n": 5,
+      "concept_id": "d049-s005",
+      "scene": "Krishna beholds flowering kunda trees and dense emerald-green grass in Vrindavan.",
+      "reference": {
+        "file": "intake/D049/005.jpg",
+        "sha256": "ca64c273f43fce45c8e3d019e3c1a1021405530811cf44242f5064092dbf0583",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s005/landscape/candidate-v002.png",
+        "sha256": "dbecf14be54a6f1e4c89a007326b22f5846bce3351e9d645aee14d29acc70905",
+        "version": "v002",
+        "label": "Landscape candidate v002",
+        "displayLabel": "Landscape candidate v002",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": []
+    },
+    {
+      "n": 6,
+      "concept_id": "d049-s006",
+      "scene": "After the cowherds settle, Krishna and the boys explore the forest beside their new homes.",
+      "reference": {
+        "file": "intake/D049/006.jpg",
+        "sha256": "b8c3fdd37966db4c76ab6127f2ffe1a00cc859175ef7f6397aa88359f196626f",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s006/landscape/candidate-v005.png",
+        "sha256": "260459aebb88a9c581d735d2569fb895b5855e7ed848c48b61f04dc024b62dcd",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
+        "dimensions_px": "1670x942"
+      },
+      "alternates": []
+    },
+    {
+      "n": 7,
+      "concept_id": "d049-s007",
+      "scene": "Krishna looks across the winding Yamuna, where swans move among open lotus blossoms.",
+      "reference": {
+        "file": "intake/D049/007.jpg",
+        "sha256": "552b0aef63e47b82e587e9fd5393460c3f4d6db27fe207c9b6890b89b90c97d7",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s007/landscape/candidate-v007.png",
+        "sha256": "6231b3e0e63299ac18657dce336b58c62c4837326e5090b5081e90edfef49160",
+        "version": "v007",
+        "label": "Landscape candidate v007",
+        "displayLabel": "Landscape candidate v007",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": []
+    },
+    {
+      "n": 8,
+      "concept_id": "d049-s008",
+      "scene": "Krishna beholds Govardhana's high mineral-colored ridges as peacocks call nearby.",
+      "reference": {
+        "file": "intake/D049/008.jpg",
+        "sha256": "45f6f811e64dca53c897c8e85c276423c6bcc19f95d832bec8a1f7f8bd173f63",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s008/landscape/candidate-v004.png",
+        "sha256": "a5f923c62e72fc9d96a0c17cc97c96621a1dbb62253e7bbca51bb29c170b1225",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": []
+    },
+    {
+      "n": 9,
+      "concept_id": "d049-s009",
+      "scene": "Krishna wanders with the cowherd boys as the curved Yamuna appears to follow the forest edge.",
+      "reference": {
+        "file": "intake/D049/009.jpg",
+        "sha256": "f7ee0cfa9facd959abfd7c10f6c8962bd02217a193d443cd6dccd9e83a5d816d",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s009/landscape/candidate-v007.png",
+        "sha256": "6954dcc28f394a50749ff0f0bc0b69e52641adf6485c4366839b2c0933aaddda",
+        "version": "v007",
+        "label": "Landscape candidate v007",
+        "displayLabel": "Landscape candidate v007",
+        "dimensions_px": "1670x942"
+      },
+      "alternates": []
+    },
+    {
+      "n": 10,
+      "concept_id": "d049-s010",
+      "scene": "Krishna and Balarama tend distinct calves with the cowherd boys in a Vrindavan grove.",
+      "reference": {
+        "file": "intake/D049/010.jpg",
+        "sha256": "f7d1720645a05cd1a4e879908ad322d196bbe3c6f7a9f35e720d5da3400ecc53",
+        "version": "source",
+        "label": "Original scene reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d049/s010/landscape/candidate-v011.png",
+        "sha256": "73cd612219b8fb4d8db486aa474eb388149df811aac53326195d9a4a15485351",
+        "version": "v011",
+        "label": "Landscape candidate v011",
+        "displayLabel": "Landscape candidate v011",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": []
+    }
+  ]
+}

@@ -33,7 +33,7 @@ const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import
 const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
 const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.reduce((n,r)=>n+(r.references||(r.reference?[r.reference]:[])).length,0),0);
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,62,63,64,65,66,67,72,94,95,96,97,98,99,100]);
+assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,62,63,64,65,66,67,72,94,95,96,97,98,99,100]);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
 assert.equal(Object.keys(data.assets).length,expectedMedia);
@@ -96,7 +96,7 @@ const selected42=JSON.parse(await fs.readFile(new URL('../../art/batches/d042-co
 const provenance42=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
 for(const row of d42.rows){const selected=selected42.rows.find(r=>r.n===row.n);assert.equal(row.commentarySource,`intake/D042/photo-captions.txt#${String(row.n).padStart(3,'0')}`);for(const role of ['reference','matte'])assert.equal(provenance42.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);}
 assert.equal((await feedback(req({...good,daskam:42,sloka:11}),env)).status,201);
-console.log(`Passed: ${data.chapters.length} chapters, ${expectedRows} rows, ${expectedMedia} media, ${expectedGenerated} generated selections (69 historical, ${expectedGenerated-69} inspected), including Dasakam 46, 47, 65, 94, 100, D041, D042, D048, D062, D064, D072 and all ten D011, D012, D013, D014, D029, D031, D034, D040, D043, D044 and D067 leads.`);
+console.log(`Passed: ${data.chapters.length} chapters, ${expectedRows} rows, ${expectedMedia} media, ${expectedGenerated} generated selections (69 historical, ${expectedGenerated-69} inspected), including Dasakam 30, 45, 46, 47, 49, 65, 94, 97, 100, D041, D042, D048, D062, D064, D072 and all ten D011, D012, D013, D014, D029, D031, D034, D040, D043, D044 and D067 leads.`);
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of data.chapters){
  const response=await worker.fetch(new Request('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
@@ -507,6 +507,29 @@ assert.ok(selected30.rows[9].candidate_status.includes('no photo is mapped'));
 assert.equal((await feedback(req({...good,daskam:30,sloka:10}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:30,sloka:11}),env)).status,400);
 console.log('Passed: D030 has ten caption-mapped rows, an explicit no-photo stanza 10 reference, version-pinned unapproved landscapes, provenance-backed references, and stanza-bounded feedback.');
+
+const full49=data.chapters.find(c=>c.id===49);assert.ok(full49);assert.deepEqual(full49.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content49=JSON.parse(await fs.readFile(new URL('../../content/daskams/d049.json',import.meta.url)));
+const selected49=JSON.parse(await fs.readFile(new URL('../../art/batches/d049-comparison-v014.json',import.meta.url)));
+assert.equal(selected49.rows.length,10);assert.equal(selected49.review_status,'needs-review');assert.ok(full49.reviewNotice.toLowerCase().includes('unapproved'));
+for(const row of full49.rows){
+ assert.equal(row.commentarySource,`intake/D049/photo-captions.txt#${row.n}`);
+ assert.equal(row.commentary,content49.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected49.rows.find(r=>r.n===row.n);assert.ok(selected);
+ for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.match(selected.matte.file,/^artifacts\/d049\/s\d{3}\/landscape\/candidate-v\d{3}\.png$/);
+ assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+ const refLabel=row.images.find(i=>i.role==='reference').displayLabel;
+ assert.equal(refLabel,[1,3,4,6].includes(row.n)?'Mismatched context photo (excluded from scene derivation)':[2,5].includes(row.n)?'Broad context reference (environment only)':'Thematic reference');
+}
+const previous49=JSON.parse(await fs.readFile(new URL('../../art/batches/d049-comparison-v013.json',import.meta.url)));
+for(const row of selected49.rows)assert.equal(row.matte.sha256,previous49.rows.find(r=>r.n===row.n).matte.sha256);
+assert.ok(full49.reviewNotice.includes('excluded from scene derivation'));
+assert.ok(full49.rows[0].images.find(i=>i.role==='matte').inspectionLabel.includes('not art approval'));
+assert.equal((await feedback(req({...good,daskam:49,sloka:10}),env)).status,201);
+assert.equal((await feedback(req({...good,daskam:49,sloka:11}),env)).status,400);
+console.log('Passed: D049 has ten source-mapped reference rows, exact-checksum unapproved landscape candidates, separately attributed commentary, and stanza-bounded feedback.');
 
 const full100=data.chapters.find(c=>c.id===100);assert.ok(full100);assert.deepEqual(full100.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10,11]);
 const content100=JSON.parse(await fs.readFile(new URL('../../content/daskams/d100.json',import.meta.url)));

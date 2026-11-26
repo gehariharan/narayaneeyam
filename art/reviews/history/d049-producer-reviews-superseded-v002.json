@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "chapter": 49,
+  "superseded_reviews": [
+    {
+      "chapter": 49,
+      "sloka": 3,
+      "role": "producer",
+      "file": "artifacts/d049/s003/landscape/candidate-v009.png",
+      "version": "v009",
+      "sha256": "130b024634ef80845774c17d26621c246a8e8407229ba566a2137a103fdfce41",
+      "reviewer": "Codex producer self-review",
+      "inspected_at": "2026-11-25T19:47:58Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "Krishna and human figures use ordinary two-arm, two-leg anatomy; visible cattle and calves are separate quadrupeds. The stanza has no multi-limbed deity depiction.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d049.json",
+          "sha256": "2d540942f646c626f2f8d555c439bd388eae6e9e52266956d2d0604ef4a6d078"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d072-balarama-vraja-youth/character.json",
+          "sha256": "d2fa330bf7a21fe9430fe1e5a05400fed866366200c4574fac06cda652cdabdc"
+        },
+        {
+          "path": "art/bible/characters/nandagopan/character.json",
+          "sha256": "56c05bed530c956487d19773766dee57e2e1365511e99f084143491cb1241c36"
+        },
+        {
+          "path": "art/bible/characters/d049-upananda/character.json",
+          "sha256": "4e6b1062a46c055ffab967c291a73a46e044034a1314ac2a6a468c8d4730b944"
+        },
+        {
+          "path": "art/bible/characters/gopas/character.json",
+          "sha256": "06ba363afb4ceff408375ee6460f0ba83fc05d7c55dad42beb4d775d07d6bdb0"
+        },
+        {
+          "path": "art/bible/characters/gopikas/character.json",
+          "sha256": "a467a2342ad1504311a8ca82cc388c25940823adb8b5705be1bcf641f8b17665"
+        },
+        {
+          "path": "art/bible/characters/yashoda/character.json",
+          "sha256": "4184ee9aaad05fe1ecb5e2cf392ed82c88cba7ae20bb51b6527ddb6ea8601d1d"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d049-s003-landscape-v009-producer-review-v001.md",
+          "sha256": "6a2129058af9e8b9764779e6986ac645fa79e781f0bf3fb3bf67d4a8e7109b0f"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "uncertain",
+          "observations": "The enlarged right-hand view shows a thumb and four fingers. Yashoda’s hand overlaps the other Krishna wrist and obscures its thumb; both dangling feet show five toes each."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna’s two arms join at the shoulders and both dangling legs attach at the cart edge; Yashoda’s hand lies over one wrist without a detached arm."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna and Yashoda have separate readable faces; the plain forehead and bare visible ear match the shared Krishna contract."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Krishna sits with Yashoda on the central wagon; the caravan people and cattle remain separate despite overlap in depth."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable writing, caption, watermark or signature appears on the wagon, cloth or frame."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "The caravan scene remains coherent and Krishna’s earring and wrist bands are removed. Krishna cheek B-R 36 and upper-arm B-R 44; Yashoda R-B 128 and Nandagopan R-B 124; one Krishna thumb is obscured."
+        }
+      },
+      "findings": [
+        "Krishna cheek B-R 36; upper arm B-R 44.",
+        "Yashoda cheek R-B 128 and Nandagopan cheek R-B 124.",
+        "Yashoda’s hand partly obscures the thumb of one Krishna hand."
+      ],
+      "disclosed_deviations": [
+        "Krishna cheek B-R 36; upper arm B-R 44.",
+        "Yashoda cheek R-B 128 and Nandagopan cheek R-B 124.",
+        "Yashoda’s hand partly obscures the thumb of one Krishna hand."
+      ],
+      "notes": "Producer reinspection only, bound to final D049 plan SHA-256 2d540942f646c626f2f8d555c439bd388eae6e9e52266956d2d0604ef4a6d078. Not independent clearance or art approval; art/approved/ remains unchanged."
+    }
+  ]
+}
