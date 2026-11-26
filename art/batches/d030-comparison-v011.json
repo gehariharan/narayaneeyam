@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "daskam_id": 30,
+  "description": "Ten D030 landscape candidates pinned to exact native versions and checksums for unapproved reference comparison; v011 binds the selected versions to final plan SHA-256 f97a4929922abdade7f674281f7f84a91575edfdaf40b19fbed449afcf2f0a0f.",
+  "review_notice": "Unapproved landscape candidates for comparison only. Candidate images are not art approval and do not update art/approved/. Final plan SHA-256: f97a4929922abdade7f674281f7f84a91575edfdaf40b19fbed449afcf2f0a0f. Independent review j passed S001–S008 at their exact checksums. The two authorized skin-only edit attempts did not bring selected Bali skin below the new S009 <100 red-minus-blue target or S010's existing <100 target. S009 v007 is the best measured choice among v007/v008/v009, with chest/shoulder and arm patches R−B 135 and 134; S010 v005 is the best among v005/v006/v007, with face and arm patches R−B 127 and 78. Both remain producer needs-fix and those deviations are disclosed. One fresh independent exact-checksum review of all ten against this final plan is pending. Photos 005 and 006 both map to stanza 5; photo 005 depicts the birth rather than stanza 5. Photo 007 depicts Bali's later foot-washing scene rather than stanza 6; photo 009 mismatches stanza 8. Stanza 10 has no supplied photo or caption; its scene derives from canonical text alone. Portrait production is paused. No candidate is approved.",
+  "review_status": "needs-review",
+  "visual_review_status": "Independent review j passed S001–S008 and found S009/S010 needs-fix for Bali's orange skin. The producer preserved all two skin-only edit attempts in both stanzas and selected the lowest measured deviations: S009 v007 (R−B 135/134; needs-fix) and S010 v005 (R−B 127 face, 78 arm; needs-fix). The remaining threshold deviations are disclosed with exact patch medians. Fresh independent exact-checksum review of all ten against final plan f97a4929922abdade7f674281f7f84a91575edfdaf40b19fbed449afcf2f0a0f is pending. No art approval.",
+  "source_mapping_sha256": "22c4e7d2ae46cf32216e583957d6980ab342b15d66285c75f186190e150ff719",
+  "rows": [
+    {
+      "n": 1,
+      "concept_id": "d030-s001",
+      "scene": "Bali is restored by Shukra’s rite and rules with power; distant Devas withdraw in fear. Keep the prior battle implied, not graphic.",
+      "reference": {
+        "file": "intake/D030/001.jpg",
+        "sha256": "87b94e530a43a9d90d18cf80c44c70c640f22cbd627bcb4956d61954136d8738",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s001/landscape/candidate-v005.png",
+        "sha256": "4dc3bc9e449533c229ca22e21b120126e857888fe2e59f91258f5d5a07cfaec6",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer uncertain: the native and enlarged views show Bali’s two feet with five distinct toes each. Representative 15×15 skin-only patch medians are Bali R−B 118, Shukra R−B 107, and three Deva upper-arm patches R−B 118, 119 and 121; the last is narrowly above the plan’s below-120 guide. A withdrawing Deva’s foreshortened raised hand does not expose a countable thumb. No malformed or extra digit is visible, but the hand and marginal skin result remain uncertain.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "uncertain",
+        "inspected_at": "2026-11-26T01:42:36Z",
+        "report": "art/reviews/d030-s001-landscape-v005-producer-v001.md",
+        "report_sha256": "029fe2efcf79f5303f6fe409893cb5fd561984e038d243471fa3caa7a920f35b"
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d030-s002",
+      "scene": "Aditi grieves for her sons and seeks Kashyapa’s help; he instructs the twelve-day milk vow and worship.",
+      "reference": {
+        "file": "intake/D030/002.jpg",
+        "sha256": "6404009da410ef2166fb1a47c4c0de25d83b6c3a765149f80166b164ac394f60",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s002/landscape/candidate-v003.png",
+        "sha256": "4b79cc356df930cd6db7c80e5d3867dbef91a9da2fbf6234a7a3b1c3c2b331f4",
+        "version": "v003",
+        "label": "Landscape candidate v003",
+        "displayLabel": "Landscape candidate v003",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer pass: Aditi and Kashyapa are distinct and naturally posed at the riverside hermitage. Enlarged views show coherent prayer hands and Kashyapa’s one-index teaching gesture; no malformed or extra digit is visible. Representative 15×15 face-patch medians are Aditi R−B 115 and Kashyapa R−B 82; both read as brown.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-26T01:43:24Z",
+        "report": "art/reviews/d030-s002-landscape-v003-producer-v001.md",
+        "report_sha256": "e7b46741f6c3cb53a394f683be5c5d99ca58e2d4a4806832630b2ab429aa4d9e"
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d030-s003",
+      "scene": "After the vow, the dark blue four-armed Lord appears before Aditi and tells her he will be born as her son. Exactly four attached arms.",
+      "reference": {
+        "file": "intake/D030/003.jpg",
+        "sha256": "82122c773e0c94ca6e33f1070675538037e8eca6464bdabe0ccadbf18fc1bf73",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s003/landscape/candidate-v010.png",
+        "sha256": "3fb731ba17749f6343fc67e861d2b0303a7984a33effca590ed172ce98307e8d",
+        "version": "v010",
+        "label": "Landscape candidate v010",
+        "displayLabel": "Landscape candidate v010",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer pass: Vishnu has exactly four attached arms, three distinct attributes and a clear blessing palm with thumb plus four fingers; both feet show five toes. Vishnu skin-only samples measure B−R 61; Aditi cheek/forearm patches measure R−B 86/95 and read muted brown. Final-plan independent review is pending.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-26T00:47:08Z",
+        "report": "art/reviews/d030-s003-landscape-v010-producer-v001.md",
+        "report_sha256": "4f495be856dff0a19d28e86d4c60e8cd7a084cef6d179abbfe9dbdc7819ffd91"
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d030-s004",
+      "scene": "Show the auspicious birth to Aditi on Dvadashi and Shravana; the child is the manifest divine form. Keep the moment intimate.",
+      "reference": {
+        "file": "intake/D030/004.jpg",
+        "sha256": "e1704317f7a90685f9a6127f6ef8a67d2cb28e9e0b1a31d664d2b6dc2accf33c",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s004/landscape/candidate-v010.png",
+        "sha256": "89f23fba2f960961586ebd2f3d5140fe061bee5dbb5f480edf0c5388c895d1f4",
+        "version": "v010",
+        "label": "Landscape candidate v010",
+        "displayLabel": "Landscape candidate v010",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer uncertain: the infant has one face, four attached arms with four attributes, and two five-toed feet; its one simple short neck strand remains. Sampled Aditi cheek/forearm R−B 100/108, Kashyapa cheek/forearm 108/118, and infant face/torso B−R 94/98 meet final-plan limits. Aditi's supporting hand is partly overlapped by the infant's legs, so the producer cannot count every digit confidently; no malformed or fused digit is evident. Independent exact-checksum review pending.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "uncertain",
+        "inspected_at": "2026-11-26T03:52:19Z",
+        "report": "art/reviews/d030-s004-landscape-v010-producer-v001.md",
+        "report_sha256": "10a84f910cbe7fa8e5d3d15e0bb6953b0c356d5adb22ae4091739abdfadd107f"
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d030-s005",
+      "scene": "Exactly two individually distinct Devas in modest plain matte crowns shower flowers while Aditi and Kashyapa praise with joined hands; one young two-armed Vamana stands with parasol and staff.",
+      "reference": {
+        "file": "intake/D030/006.jpg",
+        "sha256": "967e36e6b52931328b4d031369ec53c713dd20a54bebb621987b3f5b63013b1c",
+        "version": "source",
+        "label": "Original reference: photo 006 (both 005 and 006 map to #5)",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s005/landscape/candidate-v019.png",
+        "sha256": "17d49d60dc9e0b25db203ac49afe20b9ad50760cf406675d218bc58ae0f9d2f1",
+        "version": "v019",
+        "label": "Landscape candidate v019",
+        "displayLabel": "Landscape candidate v019",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer pass: S005 v019 corrects the two Devas' excessive regalia. The younger clean-shaven Deva has a low rounded plain matte ochre crown; the older gray-bearded Deva has a simple taller plain matte ochre crown. Layered neck/chest ornaments are removed; their faces, dress, poses and identities remain distinct. The scene retains Aditi and Kashyapa praying, exactly two flower-showering Devas, one two-armed Vamana with parasol/staff, the empty cradle, folded indigo cloth and four separate tokens; enlarged views show five toes on each visible foot and coherent visible hands. Measured 15×15 skin patches: Aditi R−B 110; Kashyapa 114; younger Deva 112; older Deva 55; these are below final plan limit 120 and read brown. Vamana face/torso B−R 49/48 meets plan minimum 45 and reads deep indigo. These measurements do not meet the earlier v018 prompt's more ambitious parent/Deva/Vamana palette goals (75/100/60); no palette edit was authorized in this ornament-only round, and this deviation is disclosed.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-26T02:45:22Z",
+        "report": "art/reviews/d030-s005-landscape-v019-producer-v001.md",
+        "report_sha256": "dc1cba2052dba6d575bd5d04ab230ef51fb83e328968253380934960072404d8"
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d030-s006",
+      "scene": "Prajapatis perform Vamana’s initiation and offer sacred thread, staff, deer skin and prayer beads; after the fire rite he departs toward Bali’s Ashvamedha.",
+      "reference": {
+        "file": "intake/D030/007.jpg",
+        "sha256": "8dd284dad7b70fe36b04e69d20890e86c2debbc3c25b9a47747f0290eb27e820",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s006/landscape/candidate-v015.png",
+        "sha256": "9f3e440d7869d3f001a0b1e3305890f7c245b76177e5adc5e2733b2d2bf83038",
+        "version": "v015",
+        "label": "Landscape candidate v015",
+        "displayLabel": "Landscape candidate v015",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer pass: Brahma has four heads total, three front-visible faces, and four attached arms/hands with attributes. Three visible crowns are matching low matte ochre forms without tiers, gems or medallions; one fine bead strand accompanies the sacred thread. The front headband has one small flat central ochre dot. Human elder skin-only patches R−B 88 and 97 meet the below-100 plan target; Vamana face/torso B−R 131/129 are deep indigo. Independent exact-checksum review pending.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-26T03:53:11Z",
+        "report": "art/reviews/d030-s006-landscape-v015-producer-v001.md",
+        "report_sha256": "da21e5de634e832c9f1eba72234c31006bc533158293c62dbf87fad26b960c70"
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d030-s007",
+      "scene": "The short brahmachari walks with umbrella and staff; the earth subtly trembles under his emerging divine gravity. Two arms, no Krishna feather or crown.",
+      "reference": {
+        "file": "intake/D030/008.jpg",
+        "sha256": "6b95ac01603df6944ba4e6c9be1021e7fa6730bda7bba0b7f123ba837fa115f3",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s007/landscape/candidate-v012.png",
+        "sha256": "dc2d9d59656d53aae9df191d8c38885410d8578ba812342e9943a9eb995c99e2",
+        "version": "v012",
+        "label": "Landscape candidate v012",
+        "displayLabel": "Landscape candidate v012",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer pass: one youthful Vamana walks alone with umbrella and staff over lightly cracked ground; no extra people, Krishna-only forehead mark, feather or crown. Both feet are fully in frame with five distinct toes each. Face/torso skin-only patch medians measure B−R 51/47 and read deep muted indigo, meeting the plan minimum 45.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-26T01:44:33Z",
+        "report": "art/reviews/d030-s007-landscape-v012-producer-v001.md",
+        "report_sha256": "218812a91cd5a19f9aa38ac53c836807137acd9b2f926f115960e05e50f3a4eb"
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d030-s008",
+      "scene": "Vamana arrives at the Hayamedha hall on the north bank of the Narmada. His presence dazzles Shukra and sages, who wonder whether he is Sun, Fire, Sanatkumara or a yogi.",
+      "reference": {
+        "file": "intake/D030/009.jpg",
+        "sha256": "85252dc63312ddeaeecb113739aeee817c7e3a1767f613de79593b142a50e7e3",
+        "version": "source",
+        "label": "Original reference (caption/photo mismatch; canonical scene controls)",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s008/landscape/candidate-v006.png",
+        "sha256": "5b0b48122742d48da1dc4cd4e1fbbf32c7e188188666942ce4bd434e5badaa26",
+        "version": "v006",
+        "label": "Landscape candidate v006",
+        "displayLabel": "Landscape candidate v006",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer pass: Shukra and three sages are visibly distinct; no repeated sage. Human skin patches range R-B 90–108; Vamana cheek B-R 99. Both Vamana feet show five toes. Prior independent review passed this exact checksum against the earlier plan. Final-plan independent review is pending.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-24T22:33:21Z",
+        "report": "art/reviews/d030-s008-landscape-v006-producer-v001.md",
+        "report_sha256": "77303e6a79a30b184f6ee7e0b45cdef42228f9380a9b40c34259f0795b9469c2"
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d030-s009",
+      "scene": "Bhrigus bring radiant Vamana to Bali’s hall. Bali welcomes him, washes both feet and receives that water reverently on his head.",
+      "reference": {
+        "file": "intake/D030/010.jpg",
+        "sha256": "dee6e84340e99953e1ed1a76f10b579d1cf358a742dfa2f85a0db3306d8dce93",
+        "version": "source",
+        "label": "Original reference",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s009/landscape/candidate-v007.png",
+        "sha256": "51e78680b48a0ada7473c54b32868a80f9467ca18e35ee7bb14ac3ef2aa1a258",
+        "version": "v007",
+        "label": "Landscape candidate v007",
+        "displayLabel": "Landscape candidate v007",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer needs-fix: v007 is the lowest-deviation choice after two authorized skin-only edit attempts (v008/v009). Skin-only 32×32 chest/shoulder patch at x=990,y=505 has median RGB (178,103,43), R−B 135; 24×24 bent-arm patch at x=890,y=545 is RGB (162,90,28), R−B 134. Both exceed the final-plan <100 target and still read orange/copper by the measured criterion. Water visibly reaches Bali's cupped hand and bowed crown; the hand shows five digits and Vamana's feet show five toes. Independent fresh exact-checksum review pending.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "needs-fix",
+        "inspected_at": "2026-11-26T04:29:25Z",
+        "report": "art/reviews/d030-s009-landscape-v007-producer-v002.md",
+        "report_sha256": "9a0fdcf812692b93b8ae88783ab46080285a0d254c5b2a7841e1f57aaeb3c325"
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d030-s010",
+      "scene": "Canonical-only stanza 10: two-armed Vamana raises his foot; the continuous sacred water touches Bali’s bowed head and flows onward to Shiva’s matted hair. No photo or caption is mapped.",
+      "reference": {
+        "file": "artifacts/d030/no-reference-s010.svg",
+        "sha256": "464aff6d8333cb6e91758f2e3106de666027749a6cdc60711b3715a57c9a5674",
+        "version": "none",
+        "label": "No reference photo supplied",
+        "displayLabel": "No photo reference"
+      },
+      "matte": {
+        "file": "artifacts/d030/s010/landscape/candidate-v005.png",
+        "sha256": "5fc80d0d87544d899f1d4def8b4deecaf84d9b1f82721ba2702540736e7606b3",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer needs-fix: v005 is the lowest-deviation choice after two authorized skin-only edit attempts (v006/v007). Skin-only face patch at x=678,y=457, 12×12, median RGB (174,109,47), R−B 127, exceeds the final-plan <100 target; upper-arm patch at x=825,y=565, 24×24, RGB (146,99,68), R−B 78, meets it. The face remains orange/copper by the measured criterion. Vamana retains two attached arms and five toes on both visible feet; the water reaches Bali's bowed head and continues to Shiva. Independent fresh exact-checksum review pending.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "needs-fix",
+        "inspected_at": "2026-11-26T04:29:54Z",
+        "report": "art/reviews/d030-s010-landscape-v005-producer-v002.md",
+        "report_sha256": "6d5b1df3eedae42da2dbc45d2ceaf1f83ebe1f47ae9fc98177614f731c71d0b3"
+      }
+    }
+  ],
+  "plan_sha256": "3f6d96634c79c04901ce1dd586e0a0dc10e353521931b1983c99ea4d467eb25b"
+}
