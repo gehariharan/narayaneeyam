@@ -2986,6 +2986,94 @@
         }
       },
       "findings": []
+    },
+    {
+      "chapter": 97,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d097/s008/landscape/candidate-v011.png",
+      "version": "v011",
+      "sha256": "3561b8936bf503b4bbd0e7a51854f54234c08ab6e989904cbea0255d2cc88fb9",
+      "reviewer": "Independent reviewer d097-review-ib",
+      "inspected_at": "2026-11-25T23:33:57Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "One mature sage and one two-armed infant in a single nested vision; a fifth toe on the partly exposed sage foot is hidden by robe/crossed-leg overlap, with no malformed toe visible, as recorded by independent reviewer d097-review-ib.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d097.json",
+          "sha256": "305374da5647aa3e3ed8b59d289fb6cf27396f6d50013857e0ef0c240dda3dbf"
+        },
+        {
+          "path": "art/bible/characters/markandeya/character.json",
+          "sha256": "35ad1eeceb9a913642865171d8b0b8c82f8cbf0a774e8182761fcae0ee857e15"
+        },
+        {
+          "path": "art/bible/characters/nara/character.json",
+          "sha256": "d471169d678bac66c0dbbc738db053428631dd89457f8f21d2596965419be628"
+        },
+        {
+          "path": "art/bible/characters/infant-krishna/character.json",
+          "sha256": "227f15a9bd70e4e79dbe74b216356b87f8714e2a0e53c545887313a97bd938cb"
+        },
+        {
+          "path": "art/bible/characters/guruvayurappan/character.json",
+          "sha256": "84376d4a9007d9ce191f243989719e121bdc026c9453ae1d8fd347d0387f4456"
+        },
+        {
+          "path": "art/bible/characters/indra/character.json",
+          "sha256": "1830d705fd78f05ded85faab1fb11787e426ffcc0f7c3f4326005c3ccee20195"
+        },
+        {
+          "path": "art/bible/characters/apsaras/character.json",
+          "sha256": "7cb70047c6f0788f396556702e428409ca82ff6bd51eb289d423fc9eabf1a6cc"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/uma-d029/character.json",
+          "sha256": "10a67fe2054d31325697e899df1f9905700e4145fed6acf4a9c8bb7ed10e8d03"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d097-independent-review-v006-ib.md",
+          "sha256": "b1ea4e777bdb083dd09b2054f0fde68952094687d27aa8b2b922c3e3848d649d"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both sage open hands show five digits. The partly exposed sage foot has four visible toe separations; the fifth is hidden by robe/crossed-leg overlap and no malformed toe is visible. The infant’s resting foot shows five toe tips; the raised foot and hands overlap near the mouth without a visible digit defect."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "The seated sage and one infant have connected limbs and remain distinct; no malformed or extra limb is visible."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "The sage face is coherent and directed toward the vision. The infant has clear rounded features, dark curls and a feather cue, with a bare forehead."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One sage and one infant appear. The nested city, mountain and world motifs are landscape elements, not additional people or a duplicate infant."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo, watermark or outer border appears; the small palace motifs contain no legible writing."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The nested banyan-leaf infant and flood within the hermitage vision follow the stanza plan and mapped symbolic reference. Infant face blue patch RGB (34,80,138), B−R 104; sage cheek RGB (153,108,80), R−B 73. No uncontracted ornament or glossy finish is visible."
+        }
+      },
+      "findings": []
     }
   ]
 }
