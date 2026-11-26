@@ -10895,6 +10895,1107 @@
       "supersedes_version": "v002"
     },
     {
+      "chapter": 30,
+      "sloka": 1,
+      "role": "matte",
+      "file": "artifacts/d030/s001/landscape/candidate-v005.png",
+      "version": "v005",
+      "sha256": "4dc3bc9e449533c229ca22e21b120126e857888fe2e59f91258f5d5a07cfaec6",
+      "reviewer": "Independent reviewers d030-review-ka and d030-review-la",
+      "inspected_at": "2026-11-26T06:18:57Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-ka-v001.md",
+          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
+        },
+        {
+          "path": "art/reviews/d030-independent-review-la-v001.md",
+          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Bali and Shukra each have one face, two arms, and connected adult proportions. Three distinct withdrawing Devas are present. No duplicated or fused body, extra/missing limb, or malformed creature is visible. Bali's two resting hands each show five digits. Both required bare feet are unobstructed; I count five toes on each. Shukra's raised prayer hand shows five fingers; his ritual hand holds the implement naturally. The Devas' retreating limbs and feet look connected and proportionate at the displayed scale. Round L (2026-11-26T06:18:57Z): Pass. Bali, Shukra, and the three withdrawing Devas are distinct, connected figures with no visible extra, missing, or fused limbs. At native size and in the Bali/Shukra/Deva detail crops, faces and body proportions read cleanly. Bali's two visible hands each show five digits; both unobstructed bare feet show five distinct toes (detail crop spans native image x=0–650, y=240–980). Shukra's ritual hand and joined hand show coherent digits, with the pointing hand's thumb and four fingers discernible. The small Devas' visible hands are consistent with ordinary five-digit gestures; their most distant details are too small for finer toe/finger resolution and show no visible error."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Bali and Shukra each have one face, two arms, and connected adult proportions. Three distinct withdrawing Devas are present. No duplicated or fused body, extra/missing limb, or malformed creature is visible. Bali's courtly crown and royal garments fit his contract; his exposed torso is ordinary traditional male dress. Shukra's restrained ascetic robes and beads fit his contract. The Devas are distinct and modestly dressed. No sexualized framing or exposed skin beyond ordinary dress. Round L (2026-11-26T06:18:57Z): Pass. Bali, Shukra, and the three withdrawing Devas are distinct, connected figures with no visible extra, missing, or fused limbs. At native size and in the Bali/Shukra/Deva detail crops, faces and body proportions read cleanly. Bali's courtly crown, bare upper torso, and royal garments are ordinary traditional depiction and consistent with the Bali contract. Shukra wears restrained ascetic drapery and beads. The three distinct retreating Devas fit the scene plan. Bare male torso is ordinary traditional dress."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Bali's face is clear and distinct; Shukra is visibly an elderly ascetic with white hair/beard; the three Deva faces remain separate. No malformed face. Round L (2026-11-26T06:18:57Z): Pass. Bali's single face and crown are coherent; Shukra's aged face, white hair, and beard are distinct from Bali; the three Deva faces are individually separated. No malformed or duplicated person is visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Bali and Shukra each have one face, two arms, and connected adult proportions. Three distinct withdrawing Devas are present. No duplicated or fused body, extra/missing limb, or malformed creature is visible. Round L (2026-11-26T06:18:57Z): Pass. Bali, Shukra, and the three withdrawing Devas are distinct, connected figures with no visible extra, missing, or fused limbs. At native size and in the Bali/Shukra/Deva detail crops, faces and body proportions read cleanly."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. No readable text, caption, signature, logo, watermark, or suspicious mark in the ground, foliage, or corners. Round L (2026-11-26T06:18:57Z): Pass. No readable text, signature, logo, watermark, or stray mark is visible in the sky, ground, grass, or corners. No separate border or glossy/metallic treatment is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. The broad court, Bali, Shukra's ritual fire, continuous land horizon, and three withdrawing Devas follow the plan. The reference's split portraits are context only; the candidate does not copy their collage layout. Bali and Shukra retain their specified single-face, ordinary anatomy and identity cues; generic Devas have two arms. Skin sample R−B median is `116`, visibly brown. Matte mineral palette and dark contours are consistent with the series. Round L (2026-11-26T06:18:57Z): Pass. The broad court, continuous horizon, Bali and Shukra at one side, and three Devas withdrawing at the other are present. The plan/map disclose that photo 001 is a Bali/Shukra split collage and omits Indra and hidden Devas; that mismatch is present in the reference. The candidate follows the canonical planned scene rather than reproducing the collage. Bali, Shukra, and Deva depictions match their ordinary one-face/two-arm contracts; no deity-form mismatch occurs. Skin-only 20×20 patches: Bali at (360,390) RGB median (174,103,57), R−B **117**; Shukra at (990,545) (178,104,59), **119**; Deva at (1400,400) (177,104,59), **118**. Each reads as natural warm brown to the viewer, not orange."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 30,
+      "sloka": 2,
+      "role": "matte",
+      "file": "artifacts/d030/s002/landscape/candidate-v003.png",
+      "version": "v003",
+      "sha256": "4b79cc356df930cd6db7c80e5d3867dbef91a9da2fbf6234a7a3b1c3c2b331f4",
+      "reviewer": "Independent reviewers d030-review-ka and d030-review-la",
+      "inspected_at": "2026-11-26T06:18:57Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-ka-v001.md",
+          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
+        },
+        {
+          "path": "art/reviews/d030-independent-review-la-v001.md",
+          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi and Kashyapa each have one face and two connected arms. Their seated poses are coherent; no fused or duplicated person or extra limb is visible. Aditi's joined hands show five fingers on each hand, with natural contact. Her visible bare foot shows five toes; her other foot is covered by her seated sari. Kashyapa's teaching hand has five digits (index raised, remaining fingers curled); his resting hand has five. His crossed feet are covered by his seated garments. The milk bowl is separate and connected to the altar arrangement. Round L (2026-11-26T06:18:57Z): Pass. Aditi and Kashyapa have connected, proportionate adult bodies and clearly separated limbs. Their seated poses, hands, and milk bowl are coherent; no malformed or duplicated person is visible. Aditi's joined hands are coherent; her one exposed foot shows five toes. Kashyapa's teaching gesture has one raised index, three curled fingers, and a thumb; the resting hand has four visible fingers with the thumb obscured naturally by pose. His feet are covered by his seated drapery. No visible digit error."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi and Kashyapa each have one face and two connected arms. Their seated poses are coherent; no fused or duplicated person or extra limb is visible. Aditi's sari and veil are modest with restrained jewelry. Kashyapa's simple cream/ochre ascetic garments, grey hair, and beads fit his contract. Only the two intended people appear. Round L (2026-11-26T06:18:57Z): Pass. Aditi and Kashyapa have connected, proportionate adult bodies and clearly separated limbs. Their seated poses, hands, and milk bowl are coherent; no malformed or duplicated person is visible. Aditi's sari and veil are modest and consistent with her contract. Kashyapa's simple ascetic garment, topknot, and beads fit his contract. The bowl of milk and modest altar are present."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi's serious, intent expression reads as a request for help; Kashyapa's face is calm and benevolent. Neither face is malformed. Round L (2026-11-26T06:18:57Z): Pass. Aditi's single face is readable and concerned; Kashyapa's single bearded face is calm and distinct. No malformed features."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi and Kashyapa each have one face and two connected arms. Their seated poses are coherent; no fused or duplicated person or extra limb is visible. Round L (2026-11-26T06:18:57Z): Pass. Aditi and Kashyapa have connected, proportionate adult bodies and clearly separated limbs. Their seated poses, hands, and milk bowl are coherent; no malformed or duplicated person is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. No text, signature, logo, watermark, or ground/corner mark is visible. Round L (2026-11-26T06:18:57Z): Pass. No text, logo, watermark, signature, or stray mark appears in the full frame or corners. The matte mural treatment is consistent with the series."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Quiet hermitage, Aditi's appeal, Kashyapa's instruction, milk bowl, and altar are all present. The photo's approach composition is followed only as scene context; the canonical twelve-day payovrata remains the subject. Both human figures retain warm muted brown skin: sampled R−B median `110`, read as brown rather than orange. Clothing, age cues, and matte mural rendering fit the Aditi/Kashyapa and series contracts. Round L (2026-11-26T06:18:57Z): Pass. Aditi and Kashyapa sit in a quiet riverside hermitage, with the milk offering and altar. Reference 002 aligns with their interaction; the image correctly adds the planned payovrata context rather than copying the photo literally. Both characters have one face and ordinary two-arm anatomy. Skin patches: Aditi at (350,570) median RGB (174.5,108,57), R−B **117.5**; Kashyapa at (985,470) (237,182,115), **122**. Both read as natural warm brown, not orange. Kashyapa's sampled patch is two points above the plan's approximate below-120 guide, but the full image does not visibly read orange; this is not a viewer-noticeable defect under the stated verdict rule."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 30,
+      "sloka": 3,
+      "role": "matte",
+      "file": "artifacts/d030/s003/landscape/candidate-v010.png",
+      "version": "v010",
+      "sha256": "3fb731ba17749f6343fc67e861d2b0303a7984a33effca590ed172ce98307e8d",
+      "reviewer": "Independent reviewers d030-review-ka and d030-review-la",
+      "inspected_at": "2026-11-26T06:18:57Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-ka-v001.md",
+          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
+        },
+        {
+          "path": "art/reviews/d030-independent-review-la-v001.md",
+          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Vishnu has one face and exactly four attached arms; the two upper arms and two lower arms are individually traceable to the torso. Aditi has one face, two arms, and a coherent kneeling pose. No duplicates, fusions, or malformed bodies are visible. Vishnu's lower blessing palm has a thumb and four fingers (five digits total), clearly visible; his other three hands hold the discus, conch, and mace. His two blue feet are visible and naturally formed; toe detail is small but no wrong digit is visible at native scale. Aditi's joined prayer hands show five fingers per hand; her feet are covered by her sari. Round L (2026-11-26T06:18:57Z): Pass. Vishnu has exactly four attached arms and one face. The upper hands hold the discus and conch, a lower hand holds the mace, and the other lower hand gives the blessing. Aditi is a single, proportionate figure. No extra or fused limbs are visible. Vishnu's open blessing palm clearly shows a thumb and four fingers in the focused crop (native region x=700–1350, y=250–620). His other hands connect cleanly to their attributes. Both visible feet have five coherent toes each. Aditi's joined hands are formed cleanly; no visible digit defect."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Vishnu has one face and exactly four attached arms; the two upper arms and two lower arms are individually traceable to the torso. Aditi has one face, two arms, and a coherent kneeling pose. No duplicates, fusions, or malformed bodies are visible. Aditi wears a modest sari and veil with restrained ornaments. Vishnu wears cream/maroon/ochre cloth, a simple headband/diadem, one modest neck ornament, and simple wrist bands; no peacock feather or Krishna-only adornment. Only the planned two figures appear. Round L (2026-11-26T06:18:57Z): Pass. Vishnu has exactly four attached arms and one face. The upper hands hold the discus and conch, a lower hand holds the mace, and the other lower hand gives the blessing. Aditi is a single, proportionate figure. No extra or fused limbs are visible. Aditi wears a modest sari and veil. Vishnu has one restrained neck ornament, simple diadem, earrings, cream/maroon drapery, and no peacock feather or Krishna-only mark. The ornament is restrained, with no heavy layered neck, arm, or waist jewelry."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Vishnu's face is serene and proportionate; Aditi's attentive face is distinct. No malformed facial features. Round L (2026-11-26T06:18:57Z): Pass. Vishnu's serene face is coherent; Aditi's face is distinct and attentive. No malformed or duplicate figures."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Vishnu has one face and exactly four attached arms; the two upper arms and two lower arms are individually traceable to the torso. Aditi has one face, two arms, and a coherent kneeling pose. No duplicates, fusions, or malformed bodies are visible. Round L (2026-11-26T06:18:57Z): Pass. Vishnu has exactly four attached arms and one face. The upper hands hold the discus and conch, a lower hand holds the mace, and the other lower hand gives the blessing. Aditi is a single, proportionate figure. No extra or fused limbs are visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. No lettering, caption, signature, watermark, or mark is visible in the blank wall, plants, floor, or corners. Round L (2026-11-26T06:18:57Z): Pass. No writing, watermark, signature, or logo appears in the hermitage, floor, or corners. No added radiance or cinematic beams are present."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. The image shows Vishnu appearing before Aditi in a simple hermitage, with the blessing gesture and all three attributes legible. The reference's ornate stage and radiant effects are absent, as required. Vishnu's matte deep indigo-blue skin has a measured blue-minus-red median of `61`, clearly blue; his arm count and attributes match the scene-specific contract. Aditi's sampled R−B median is `99`, and her skin reads as warm brown, not orange. Ornament remains restrained. Round L (2026-11-26T06:18:57Z): Pass. Aditi kneels before Vishnu in a simple hermitage; the mapped reference's ornate stage and radiant effects are not copied, as the plan directs. Vishnu's indigo-blue mineral skin and four-arm form match the scene contract; his 20×20 torso patch at (600,350) has median RGB (35,61,96), blue-minus-red **61**. Aditi's skin patch at (1180,620) is (163,101,68), R−B **95**; she reads as natural muted brown, not orange."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 30,
+      "sloka": 4,
+      "role": "matte",
+      "file": "artifacts/d030/s004/landscape/candidate-v010.png",
+      "version": "v010",
+      "sha256": "89f23fba2f960961586ebd2f3d5140fe061bee5dbb5f480edf0c5388c895d1f4",
+      "reviewer": "Independent reviewers d030-review-ka and d030-review-la",
+      "inspected_at": "2026-11-26T06:18:57Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-ka-v001.md",
+          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
+        },
+        {
+          "path": "art/reviews/d030-independent-review-la-v001.md",
+          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi, Kashyapa, and the newborn each have one face. The infant has exactly four attached arms, one coherent torso, and two legs/feet. Aditi cradles the child with connected arms; Kashyapa is a separate kneeling figure. No duplication or fusion is visible. Aditi's supporting hands have natural five-digit shapes where visible; Kashyapa's joined prayer hands show five fingers on each hand. The infant's four hands hold the attributes without a visible extra or missing digit. The infant's toes are too small to resolve reliably at native size; this is a scale observation, not a defect, and no malformed foot is visible. Aditi's feet are covered. Round L (2026-11-26T06:18:57Z): Pass. Aditi cradles one infant with one coherent face, exactly four attached arms, and two visible feet. Each arm connects to a hand holding one attribute: discus, conch, mace, or lotus. Kashyapa sits nearby with joined hands and connected anatomy. No duplicated baby or malformed body part is visible. The infant's two feet are visible and each shows five distinct toes. Aditi's supporting hand shows coherent separated fingers where not covered by the infant; her other arm supports the child naturally. Kashyapa's joined hands are connected and anatomically plausible. No visible digit error."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi, Kashyapa, and the newborn each have one face. The infant has exactly four attached arms, one coherent torso, and two legs/feet. Aditi cradles the child with connected arms; Kashyapa is a separate kneeling figure. No duplication or fusion is visible. Aditi's modest sari, veil, and restrained ornaments fit her contract; Kashyapa's cream/ochre ascetic clothing and hair/beard fit his. The infant has one simple short neck strand; no second or overlapping necklace is present. No sexualized framing. Round L (2026-11-26T06:18:57Z): Pass. Aditi cradles one infant with one coherent face, exactly four attached arms, and two visible feet. Each arm connects to a hand holding one attribute: discus, conch, mace, or lotus. Kashyapa sits nearby with joined hands and connected anatomy. No duplicated baby or malformed body part is visible. Aditi's sari is modest. The infant wears one short neck strand, with no second or layered necklace; its other small ornaments do not obscure the neck. Kashyapa's simple ascetic dress and beads are consistent with his character contract."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi's face is calm and maternal; Kashyapa's face is distinct and prayerful; the infant's face is coherent at its small scale. No malformed face. Round L (2026-11-26T06:18:57Z): Pass. Aditi, Kashyapa, and the infant each have one coherent face. Their expressions and facial features remain legible in the native image and birth detail crop."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi, Kashyapa, and the newborn each have one face. The infant has exactly four attached arms, one coherent torso, and two legs/feet. Aditi cradles the child with connected arms; Kashyapa is a separate kneeling figure. No duplication or fusion is visible. Round L (2026-11-26T06:18:57Z): Pass. Aditi cradles one infant with one coherent face, exactly four attached arms, and two visible feet. Each arm connects to a hand holding one attribute: discus, conch, mace, or lotus. Kashyapa sits nearby with joined hands and connected anatomy. No duplicated baby or malformed body part is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. No text, signature, logo, watermark, or suspicious mark appears in the room, floor, window, or corners. Round L (2026-11-26T06:18:57Z): Pass. No text, signature, logo, watermark, or stray mark is visible in the room, floor, or corners. The frame has no cosmic effects or outer border."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Intimate hermitage birth with Aditi holding the newborn and Kashyapa nearby. The reference's cosmic staging and radiant effects are removed. The four attributes remain legible and do not obscure the scene. Infant blue sample has median blue-minus-red `93`, visibly deep muted indigo-blue; Aditi's warm skin R−B median is `110`, visibly brown and not orange. The infant's single face, four arms, two feet, and single neck strand match the plan and D027 Vishnu contract for this manifestation. Round L (2026-11-26T06:18:57Z): Pass. The intimate hermitage birth is present, with Kashyapa nearby. Reference 004's cosmic devotional display is omitted in accordance with the plan's explicit recompose instruction. The infant's exposed skin is deep muted indigo-blue; face patch at (570,395) median RGB (17,49,109), B−R **92**, and torso patch at (580,520) (17,51,113), **96**, both above the required 45. Aditi patch at (430,200) is (168,98,62), R−B **106**; Kashyapa patch at (1380,480) is (166,96,58), **108**. Both human figures read as warm brown, not orange. The infant has the contracted single face and four arms."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 30,
+      "sloka": 5,
+      "role": "matte",
+      "file": "artifacts/d030/s005/landscape/candidate-v019.png",
+      "version": "v019",
+      "sha256": "17d49d60dc9e0b25db203ac49afe20b9ad50760cf406675d218bc58ae0f9d2f1",
+      "reviewer": "Independent reviewers d030-review-ka and d030-review-la",
+      "inspected_at": "2026-11-26T06:18:57Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-ka-v001.md",
+          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
+        },
+        {
+          "path": "art/reviews/d030-independent-review-la-v001.md",
+          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi and Kashyapa each have one face and two connected arms; exactly one two-armed Vamana stands between them and the two distinct Devas. All figures have coherent adult/youthful proportions. No duplicated Lord, fused people, or malformed body is visible. The young Deva's open flower-scattering hand has one thumb plus four fingers. Aditi's and Kashyapa's joined hands show five fingers on each hand. Vamana's two hands remain attached while holding parasol and staff. Both Vamana feet are visible with five toes each; the visible Aditi and Kashyapa feet and the Devas' feet are connected, with five toes on each foot where the toe contours resolve at native scale. No digit error is visible. Round L (2026-11-26T06:18:57Z): Pass. The scene contains one two-armed young Vamana and exactly two separate Devas. Aditi and Kashyapa are distinct, proportionate figures. Their poses and the Devas' flower baskets and gestures are connected; no malformed or duplicated figure is visible. Vamana's two visible hands hold the staff and parasol; both feet visibly have five toes. The younger Deva's open flower-scattering hand shows a thumb and four fingers in the enlarged hand crop. Basket-holding hands remain connected and plausible; the joined hands of Aditi and Kashyapa are clear. No digit error is visible."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi and Kashyapa each have one face and two connected arms; exactly one two-armed Vamana stands between them and the two distinct Devas. All figures have coherent adult/youthful proportions. No duplicated Lord, fused people, or malformed body is visible. Aditi's sari and Kashyapa's simple ascetic clothing are modest. The young Deva has a plain low rounded crown; the older Deva has a plain taller ochre crown and olive garment. Neither has layered neck/chest regalia. Vamana's saffron/cream brahmachari clothing and sacred thread, with parasol and staff, fit his contract. The empty cradle, folded indigo cloth, and separate discus, conch, mace, and lotus tokens are present. Round L (2026-11-26T06:18:57Z): Pass. The scene contains one two-armed young Vamana and exactly two separate Devas. Aditi and Kashyapa are distinct, proportionate figures. Their poses and the Devas' flower baskets and gestures are connected; no malformed or duplicated figure is visible. Aditi and Kashyapa wear modest traditional garments and restrained ornaments. The younger Deva has a low rounded matte-ochre crown and the elder a simple taller matte-ochre crown with an olive garment; neither has tiers, gems, medallions, or layered neck/chest jewelry. Vamana's brahmachari garment and sacred thread are present. The empty cradle, folded indigo infant cloth, and four separate attribute tokens (discus, conch, mace, lotus) are clearly visible. No baby or second Vamana is present."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi, Kashyapa, young clean-shaven Deva, older grey-bearded Deva, and Vamana are individually legible. The two Deva faces, hair, crowns, clothing, and poses are distinct. No malformed or duplicated face. Round L (2026-11-26T06:18:57Z): Pass. Vamana has one clear face. The younger Deva is clean-shaven with a rounded low crown; the elder is visibly older, gray-bearded, and wears a taller plain crown. Their facial features and silhouettes are distinguishable. Aditi and Kashyapa have coherent faces."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. Aditi and Kashyapa each have one face and two connected arms; exactly one two-armed Vamana stands between them and the two distinct Devas. All figures have coherent adult/youthful proportions. No duplicated Lord, fused people, or malformed body is visible. Round L (2026-11-26T06:18:57Z): Pass. The scene contains one two-armed young Vamana and exactly two separate Devas. Aditi and Kashyapa are distinct, proportionate figures. Their poses and the Devas' flower baskets and gestures are connected; no malformed or duplicated figure is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. No text, signature, logo, watermark, or suspicious marks are visible in the ground, vegetation, or corners. Round L (2026-11-26T06:18:57Z): Pass. The full image and close views of ground, grass, and corners show no readable text, logo, watermark, signature, or generation mark. The source photos' embedded lettering is not carried into the candidate."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:52:55Z): Pass. The continuous hermitage scene includes Aditi and Kashyapa praising with joined hands, exactly two Devas showering flowers, one young Vamana, the empty cradle, folded indigo cloth, and all four attribute tokens. The photo mismatch is disclosed above; the image correctly depicts the planned stanza-5 transition. The two Devas are distinct adult witnesses with two arms and modest attire. Vamana has one face, two arms, youthful proportions, and deep blue skin; measured blue-minus-red median is `51`, visibly indigo-blue. Human skin R−B median is `103`, read as warm brown rather than orange. The scene uses the matte mural treatment and simple Vamana dress. Round L (2026-11-26T06:18:57Z): Pass. The image follows the planned continuous hermitage celebration. Both supplied photos are mismatched/context-only in the disclosed ways: 005 shows Aditi with the newborn and 006 shows youthful Vamana among celestial figures. The candidate depicts the stanza 5 celebration and transition using the planned empty cradle, cloth, and tokens rather than copying photo 005's birth scene or photo 006's digital/cosmic staging. Vamana has the contracted two arms, parasol, staff, and indigo-blue skin; face patch at (740,190) median RGB (49,65,100), B−R **51**, and torso patch at (740,315) (49,65,99), **50**, both above the required 45. Warm-brown patches: Kashyapa (150,320) RGB (177,105,64), R−B **113**; Aditi (385,230) (176,104,63), **113**; younger Deva (1020,230) (179,106,64), **115**; elder Deva (1345,370) (177,104,63), **114**. All read as natural warm brown, not orange."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 30,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d030/s006/landscape/candidate-v015.png",
+      "version": "v015",
+      "sha256": "9f3e440d7869d3f001a0b1e3305890f7c245b76177e5adc5e2733b2d2bf83038",
+      "reviewer": "Independent reviewers d030-review-kb and d030-review-lb",
+      "inspected_at": "2026-11-26T06:19:21Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-kb-v001.md",
+          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
+        },
+        {
+          "path": "art/reviews/d030-independent-review-lb-v001.md",
+          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana has one face, two attached arms and two connected legs. Brahma has four total heads with three front-visible faces and four attached arms/hands. The two other ascetics are distinct, connected figures; no extra or fused limb is visible. Vamana’s two bare feet are unobstructed; I count five toes on each. Brahma’s four hands separately hold the book, lotus, water pot, and initiation thread/cord; no malformed hand is visible. The other elders’ feet/hands are either posed or partly covered; no visible digit defect. Round L (2026-11-26T06:19:21Z): Pass. Kashyapa, Vamana, Brahma, and the two accompanying elders have connected, coherent bodies and no visible duplicate or fused person. Brahma’s four arms/hands are distinct and attached; the three visible faces/crowns follow the contract’s front view, with its fourth head specified to face away behind the central head. The background Ashvamedha horse has a coherent head, body, and four legs at the scale shown. Vamana’s prop-holding hands have coherent grips. Both fully visible Vamana feet show five distinct toes each. No malformed or visibly missing digit is apparent on the other clearly depicted hands; small details on the seated elders are too small to resolve at native scale and show no visible error."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana has one face, two attached arms and two connected legs. Brahma has four total heads with three front-visible faces and four attached arms/hands. The two other ascetics are distinct, connected figures; no extra or fused limb is visible. The sacred thread, simple garments, deer skin, and ritual items are consistent with the initiation scene. Bare male torsos are ordinary traditional dress. Brahma’s visible head ornaments are plain, and the single bead strand is restrained. Round L (2026-11-26T06:19:21Z): Pass. Kashyapa, Vamana, Brahma, and the two accompanying elders have connected, coherent bodies and no visible duplicate or fused person. Brahma’s four arms/hands are distinct and attached; the three visible faces/crowns follow the contract’s front view, with its fourth head specified to face away behind the central head. The background Ashvamedha horse has a coherent head, body, and four legs at the scale shown. The scene includes the initiation, sacred thread, staff, prayer beads, deer skin, sacred fire, Kashyapa, Brahma, elders, and the distant Ashvamedha setting. Traditional bare male torsos are ordinary dress. Brahma’s low ochre crowns and single understated bead strand fit the scene plan; the other clothing is modest."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Faces are legible and not malformed or duplicated. Brahma’s three visible faces are distinct. Round L (2026-11-26T06:19:21Z): Pass. Main faces are legible and distinct; Brahma’s three front-visible faces are not merged. No malformed face is visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana has one face, two attached arms and two connected legs. Brahma has four total heads with three front-visible faces and four attached arms/hands. The two other ascetics are distinct, connected figures; no extra or fused limb is visible. Round L (2026-11-26T06:19:21Z): Pass. Kashyapa, Vamana, Brahma, and the two accompanying elders have connected, coherent bodies and no visible duplicate or fused person. Brahma’s four arms/hands are distinct and attached; the three visible faces/crowns follow the contract’s front view, with its fourth head specified to face away behind the central head. The background Ashvamedha horse has a coherent head, body, and four legs at the scale shown."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. No readable text, signature, logo, or watermark is visible, including in the examined corners, ground, and fire area. Round L (2026-11-26T06:19:21Z): Pass. No readable text, signature, logo, watermark, or suspicious mark is visible in the corners, ground, or other inspected areas."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. The scene shows initiation at a fire and Vamana departing with the implements. The mismatch disclosed for photo 007 is present in the reference; the candidate follows the plan rather than copying the later foot-washing image. Brahma’s head/arm count and Vamana’s two-arm brahmachari form match their contracts. Two skin-only 10×10 patches on the human figures at candidate coordinates (130,480) and (1460,465) have median R−B values of **97** and **68** respectively. They read as natural warm brown. Vamana’s skin reads as deep blue. Round L (2026-11-26T06:19:21Z): Pass. The candidate follows the planned upanayana and departure scene. The disclosed mismatch is present in photo 007, which shows a later foot-washing scene; the candidate does not reproduce that action. Vamana is a single-faced, two-armed indigo-blue brahmachari with thread and staff. Ordinary human skin samples: left elder upper arm at (145,502), median RGB (180,117,83), R−B **97**; right elder upper arm at (1480,480), median RGB (179,116,83), R−B **96**. Both read as natural warm brown, not orange. Brahma’s rose-ochre skin and four-arm/three-front-face depiction are consistent with his contract."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 30,
+      "sloka": 7,
+      "role": "matte",
+      "file": "artifacts/d030/s007/landscape/candidate-v012.png",
+      "version": "v012",
+      "sha256": "dc2d9d59656d53aae9df191d8c38885410d8578ba812342e9943a9eb995c99e2",
+      "reviewer": "Independent reviewers d030-review-kb and d030-review-lb",
+      "inspected_at": "2026-11-26T06:19:21Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-kb-v001.md",
+          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
+        },
+        {
+          "path": "art/reviews/d030-independent-review-lb-v001.md",
+          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana is a single, naturally proportioned two-armed figure with connected limbs. No duplicate person or generation artifact is visible. The hands grip the staff and umbrella support without a visible defect. Both feet are fully visible; I count five separate toes on the planted foot and five on the lifted foot at native resolution. Round L (2026-11-26T06:19:21Z): Pass. Vamana has one face, two attached arms, and two connected legs in a natural walking pose. No accidental duplicate, extra limb, or malformed feature is visible. Both hands grip their respective props with coherent fingers. The planted and lifted feet are fully shown; each has five distinct toe contours at native scale."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana is a single, naturally proportioned two-armed figure with connected limbs. No duplicate person or generation artifact is visible. The simple wrap and sacred thread are modest. No crown or Krishna-only feather is present. The scene contains only Vamana. Round L (2026-11-26T06:19:21Z): Pass. Vamana has one face, two attached arms, and two connected legs in a natural walking pose. No accidental duplicate, extra limb, or malformed feature is visible. Simple cream/ochre brahmachari cloth and sacred thread; no crown or peacock feather. No other person or creature is present."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. One clear, proportionate face; no malformed or duplicated features. Round L (2026-11-26T06:19:21Z): Pass. Vamana’s face is coherent at detail scale, with no distortion."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana is a single, naturally proportioned two-armed figure with connected limbs. No duplicate person or generation artifact is visible. Round L (2026-11-26T06:19:21Z): Pass. Vamana has one face, two attached arms, and two connected legs in a natural walking pose. No accidental duplicate, extra limb, or malformed feature is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. No text, signature, logo, or watermark is visible; the ground and corners show only the mural texture. Round L (2026-11-26T06:19:21Z): Pass. No text, signature, logo, watermark, or corner/ground artifact is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana walks with umbrella and staff on a full-bleed path; small ground cracks suggest trembling. This is consistent with photo 008’s story/prop context and the plan. No unsupported rays or beams are present. The two-arm Vamana contract is met. The skin is deep indigo-blue and reads as deity blue, not a different palette. Round L (2026-11-26T06:19:21Z): Pass. The full-bleed path, umbrella, staff, and subtly cracked/trembling ground match the stanza plan. Photo 008 is the mapped walking Vamana/props reference and the candidate re-composes that context as a mural scene. Vamana’s two-arm anatomy, youthful form, modest dress, and deep muted indigo-blue skin are consistent with the character contract and scene plan."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 30,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d030/s008/landscape/candidate-v006.png",
+      "version": "v006",
+      "sha256": "5b0b48122742d48da1dc4cd4e1fbbf32c7e188188666942ce4bd434e5badaa26",
+      "reviewer": "d030-review-kb (independent reviewer)",
+      "inspected_at": "2026-11-26T05:55:58Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-kb-v001.md",
+          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Vamana has two attached arms and two legs. Shukra and the other sages are separate figures with connected bodies; no duplicated or fused person is visible. The main figures’ limbs are attached. Shukra’s brow-shielding hand shows four grouped fingers and a tucked thumb; the grouped fingers remain discernible in the enlarged crop. Other sages shield/narrow their eyes without a visible extra or missing digit. Vamana’s visible hands grip his props; his feet are partly outside the side crop but not malformed at the visible edge."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Vamana has two attached arms and two legs. Shukra and the other sages are separate figures with connected bodies; no duplicated or fused person is visible. Ascetic wraps, beads, topknots, and the horse/ritual setting fit the scene. Sages have visibly varied hair, garments, and poses rather than duplicated bodies. No exposed-skin or sexualized framing issue."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Shukra’s elderly white hair and beard distinguish him from the sages. The faces are individually readable; I see no malformed face."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Vamana has two attached arms and two legs. Shukra and the other sages are separate figures with connected bodies; no duplicated or fused person is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, signature, logo, or watermark is visible, including over the river, ground, and corners."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "Needs-fix. The disclosed mismatch is present: photo 009 is the later cosmic Trivikrama stride. This candidate instead shows Vamana arriving by the river at a sacrificial hall, with sages shielding their eyes and a sacrificial horse/altar visible, as the plan requires. Vamana is a two-armed, blue-skinned brahmachari, not the four-armed giant in the reference. However, the plan requires ordinary human figures, including the elders, to have natural muted warm-brown skin with skin-only patch R−B below 100. A skin-only 10×10 patch on Shukra’s exposed upper forearm at candidate coordinates (610,200) has median RGB (190, 98.5, 15.5), R−B **174.5**. In the full frame and enlarged crop this exposed skin reads copper/orange rather than natural warm brown. The large exposed arm makes the color deviation visible to a viewer; this is the needs-fix reason. Shukra patch at (610,200) measured R−B 174.5 and was judged visibly orange/copper."
+        }
+      },
+      "findings": [
+        {
+          "id": "d030-s008-shukra-skin-v006",
+          "severity": "high",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Shukra skin-only 10×10 patch at (610,200) has median RGB (190,98.5,15.5), R−B 174.5; reviewer judged it visibly orange/copper against the plan limit below 100.",
+          "repair": "Generate a new version with muted brown Shukra skin, then inspect its exact bytes and skin samples."
+        }
+      ]
+    },
+    {
+      "chapter": 30,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d030/s008/landscape/candidate-v007.png",
+      "version": "v007",
+      "sha256": "d8c79aa11ed100257227aa23553d5bce360adc67e51efd6918932cbf74bbd32b",
+      "reviewer": "d030-review-lb (independent reviewer)",
+      "inspected_at": "2026-11-26T06:19:21Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-lb-v001.md",
+          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Pass. Vamana has one face, two attached arms, and two legs. Shukra and the three seated elders have coherent human proportions and visibly distinct bodies; no fused or duplicated sage is apparent. Vamana’s feet each show five distinct toes. Shukra’s brow-shading hand and lower open gesture each show five digits at the enlarged view. The other sages’ hands and feet are small in the full image; at native scale their digits are not fully resolvable, and no visible limb or digit is malformed."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Pass. Vamana has one face, two attached arms, and two legs. Shukra and the three seated elders have coherent human proportions and visibly distinct bodies; no fused or duplicated sage is apparent. Vamana wears simple brahmachari cloth and carries umbrella/staff. Shukra and the seated sages have modest ascetic cloth. No sexualized framing or exposed skin beyond ordinary traditional dress is present."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Pass. Vamana, Shukra, and the sages have distinct coherent faces. The age, hair, and beard differences distinguish the elders. No malformed face is visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Pass. Vamana has one face, two attached arms, and two legs. Shukra and the three seated elders have coherent human proportions and visibly distinct bodies; no fused or duplicated sage is apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Pass. No readable text, signature, logo, watermark, or suspicious mark is visible, including around the river and lower ground."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Pass. Narmada, the sacrificial hall/altar, arriving Vamana, and elders shielding or narrowing their eyes are depicted. The disclosed deviation is present in photo 009, which shows a later cosmic Trivikrama stride; the candidate correctly avoids its giant four-armed form and instead shows the planned approach scene. All exposed human skin reads as natural muted umber/chestnut brown rather than orange or copper. Skin-only median R−B samples (face/arm) are: Shukra (773,235)/(680,191): **79/80**; elder 1 (1007,370)/(1005,478): **49/82**; elder 2 (1292,398)/(1220,520): **83/75**; elder 3 (1510,403)/(1510,620): **80/83**. All are below 100. Vamana reads as deep indigo-blue with two arms; sage styling is not duplicated."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 30,
+      "sloka": 9,
+      "role": "matte",
+      "file": "artifacts/d030/s009/landscape/candidate-v010.png",
+      "version": "v010",
+      "sha256": "3c608b19587ab3518231541ee0c1e8857f7fa7d65276d9e6a7bbaffdb419a6f1",
+      "reviewer": "Independent reviewers d030-review-kb and d030-review-lb",
+      "inspected_at": "2026-11-26T06:19:21Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-kb-v001.md",
+          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
+        },
+        {
+          "path": "art/reviews/d030-independent-review-lb-v001.md",
+          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Bali has one face and two attached arms; Vamana has one face, two arms, and two legs. No duplicate/fused people or malformed body is visible. Both Vamana feet are visible in the basin; I count five toes on each. Bali’s raised cupped hand at his crown shows a thumb and four fingers; the stream overlays the palm but does not erase the visible digit outlines. The other hand controls the vessel. No visible malformed hand or foot. Round L (2026-11-26T06:19:21Z): Pass. Bali and Vamana each have one face and ordinary connected limbs; the sages remain distinct. No duplicated person or malformed body is visible. The cupped hand at Bali’s crown shows one thumb and four separate fingers. The other hand supports the pouring vessel with a coherent grip. Vamana’s joined hands are not visibly malformed. His two visible feet each show five toes. Small sage extremities do not resolve fully at native scale and show no visible error."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Bali has one face and two attached arms; Vamana has one face, two arms, and two legs. No duplicate/fused people or malformed body is visible. Bali wears royal clothing and a courtly crown; the ornament reads as royal attire allowed by his character contract, not a clear unsupported costume. The sages wear modest ascetic garments. No sexualized framing. Round L (2026-11-26T06:19:21Z): Pass. Bali and Vamana each have one face and ordinary connected limbs; the sages remain distinct. No duplicated person or malformed body is visible. Bali’s crown and royal clothes are appropriate to the contracted Asura king; Vamana’s dress is modest brahmachari cloth. The sages are modestly clothed. No inappropriate exposure is present."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Bali’s bowed face, Vamana’s serene face, and the distinct sages’ faces are legible and not malformed. Round L (2026-11-26T06:19:21Z): Pass. Bali’s bowed face and Vamana’s calm face are coherent; the sages’ faces remain individually distinct."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Bali has one face and two attached arms; Vamana has one face, two arms, and two legs. No duplicate/fused people or malformed body is visible. Round L (2026-11-26T06:19:21Z): Pass. Bali and Vamana each have one face and ordinary connected limbs; the sages remain distinct. No duplicated person or malformed body is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. No readable text, signature, logo, or watermark is visible, including on the water, ground, and corners. Round L (2026-11-26T06:19:21Z): Pass. No text, signature, logo, watermark, or ground/corner artifact is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. The candidate shows Vamana’s feet being washed in a basin and water carried to Bali’s bowed crown. The reference photo 010 is only a welcome scene and does not clearly show this action; the candidate supplies the canonical foot-washing and receiving gesture required by the plan. The water path is visible from the feet to Bali’s cupped hand and over his head. Bali’s human skin reads as dark warm brown, not orange/copper; Vamana is deep blue. Skin-only 10×10 patches at (1000,475) on Bali’s exposed upper arm/shoulder and (1080,300) on his raised arm have median R−B values **41** and **130**. The raised-arm patch is above the stanza’s <100 numeric target, but visually reads as dark warm brown in the full image rather than orange. The review gate’s visible-orange defect criterion is not met. Round L (2026-11-26T06:19:21Z): Pass. Bali washes Vamana’s feet at a basin; a visible stream arcs from the feet to Bali’s cupped hand at his crown and continues over his head. Photo 010’s canopy welcome is used as context; the candidate supplies the planned washing gesture that is not clear in the reference. Bali’s exposed skin reads as natural muted chestnut brown, not orange. Skin-only median R−B samples are face (1057,424): **60**, and visible arm (1110,300): **74**. Bali is a single-faced two-armed adult; Vamana is two-armed and indigo-blue."
+        }
+      },
+      "findings": []
+    },
+    {
+      "chapter": 30,
+      "sloka": 10,
+      "role": "matte",
+      "file": "artifacts/d030/s010/landscape/candidate-v008.png",
+      "version": "v008",
+      "sha256": "39e9fd008121a117fe481170850bb7956df2ceb51a5282d82b7959a4d7ca3314",
+      "reviewer": "Independent reviewers d030-review-kb and d030-review-lb",
+      "inspected_at": "2026-11-26T06:19:21Z",
+      "method": "individual-native-resolution",
+      "outcome": "pass",
+      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-kb-v001.md",
+          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
+        },
+        {
+          "path": "art/reviews/d030-independent-review-lb-v001.md",
+          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana has one face, exactly two attached arms, and two connected legs in a coherent raised-foot pose. Bali and Shiva have natural connected limbs; no malformed or duplicated body is visible. Vamana’s open hand beside the waist shows a thumb and four fingers; his other hand grips the parasol staff. His raised and planted feet each show five toes. Bali’s hands are joined in prayer and Shiva’s hands rest together in his lap; neither shows a visible digit defect. Bali’s feet are covered by his kneeling clothing. Round L (2026-11-26T06:19:21Z): Pass. Vamana’s parasol arm and relaxed arm are both visible and attached from the shoulder through the wrist; the second arm is not hidden by the raised leg or cloth. Bali and Shiva have coherent connected bodies; Shiva is a distinct single-headed seated figure. No duplicate or fused figure is visible. Vamana’s relaxed open hand shows one thumb and four fingers. Both visible Vamana feet have five toes, including the raised foot. Bali’s joined hands and Shiva’s resting lap hands show no visible malformed digits; no other main-figure foot is exposed for a count."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana has one face, exactly two attached arms, and two connected legs in a coherent raised-foot pose. Bali and Shiva have natural connected limbs; no malformed or duplicated body is visible. Vamana wears modest brahmachari clothing. Bali is modestly dressed in royal garments. Shiva has restrained ascetic cloth and bead ornaments, with matted hair, crescent, and Ganga; no unsupported extra heads or arms. Round L (2026-11-26T06:19:21Z): Pass. Vamana’s parasol arm and relaxed arm are both visible and attached from the shoulder through the wrist; the second arm is not hidden by the raised leg or cloth. Bali and Shiva have coherent connected bodies; Shiva is a distinct single-headed seated figure. No duplicate or fused figure is visible. Vamana wears simple cream/ochre brahmachari cloth; Bali’s crown and clothing are courtly and modest; Shiva wears restrained ascetic cloth and ornaments. No sexualized framing or excessive exposure is visible."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. The three faces are distinct and proportionate. Shiva’s face is calm; no malformed features. Round L (2026-11-26T06:19:21Z): Pass. Vamana, Bali, and Shiva have coherent, distinguishable faces. Shiva’s marks and crescent are clearly placed in his hair; no malformed features are visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. Vamana has one face, exactly two attached arms, and two connected legs in a coherent raised-foot pose. Bali and Shiva have natural connected limbs; no malformed or duplicated body is visible. Round L (2026-11-26T06:19:21Z): Pass. Vamana’s parasol arm and relaxed arm are both visible and attached from the shoulder through the wrist; the second arm is not hidden by the raised leg or cloth. Bali and Shiva have coherent connected bodies; Shiva is a distinct single-headed seated figure. No duplicate or fused figure is visible."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. No readable text, signature, logo, or watermark is visible on the water, ground, or corners. Round L (2026-11-26T06:19:21Z): Pass. No text, signature, logo, watermark, or suspicious mark appears in the sky, river, ground, or corners."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "Round K (2026-11-26T05:55:58Z): Pass. No reference photo or caption is mapped; this is accurately treated as a canonical-only scene. The stream visibly contacts Bali’s bowed head before continuing to Shiva’s hair. Shiva is prominent on the right and larger than the plan’s phrase “small distinct Shiva form” suggests, but remains a distinct secondary figure in the continuous composition. I record this scale difference as an observation; it does not meet the review gate’s listed needs-fix conditions. Vamana is two-armed and blue; Shiva has one head, two attached arms, and muted blue-grey skin. Bali’s exposed torso patch at (820,550), 10×10 pixels, has median R−B **70.5** and reads as natural warm brown, not orange. Round L (2026-11-26T06:19:21Z): Pass. The continuous water path visibly touches Vamana’s raised foot, Bali’s bowed head, and continues to Shiva’s matted hair. This is the disclosed canonical-only scene: no photo or caption is mapped for stanza 10. Bali’s skin reads as natural muted brown, not orange; face (710,551) and arm (760,637) median R−B samples are **74** and **71**. Vamana is deep indigo-blue and two-armed; Shiva is a distinct blue-grey, two-armed meditating form with Ganga in his hair."
+        }
+      },
+      "findings": []
+    },
+    {
       "chapter": 42,
       "sloka": 1,
       "role": "matte",
@@ -55206,1359 +56307,6 @@
         "scene_style_continuity": {
           "status": "pass",
           "observations": "The banyan-leaf infant and floodwater with a reaching sage follow the mapped scene; infant skin reads deep muted indigo, and the foot-near-lips pose is present."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 1,
-      "role": "matte",
-      "file": "artifacts/d030/s001/landscape/candidate-v005.png",
-      "version": "v005",
-      "sha256": "4dc3bc9e449533c229ca22e21b120126e857888fe2e59f91258f5d5a07cfaec6",
-      "reviewer": "d030-review-ka (independent reviewer)",
-      "inspected_at": "2026-11-26T05:52:55Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-mahabali/character.json",
-          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
-        },
-        {
-          "path": "art/bible/characters/d031-shukracharya/character.json",
-          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
-        },
-        {
-          "path": "art/bible/characters/devas/character.json",
-          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-ka-v001.md",
-          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Bali and Shukra each have one face, two arms, and connected adult proportions. Three distinct withdrawing Devas are present. No duplicated or fused body, extra/missing limb, or malformed creature is visible. Bali's two resting hands each show five digits. Both required bare feet are unobstructed; I count five toes on each. Shukra's raised prayer hand shows five fingers; his ritual hand holds the implement naturally. The Devas' retreating limbs and feet look connected and proportionate at the displayed scale."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Bali and Shukra each have one face, two arms, and connected adult proportions. Three distinct withdrawing Devas are present. No duplicated or fused body, extra/missing limb, or malformed creature is visible. Bali's courtly crown and royal garments fit his contract; his exposed torso is ordinary traditional male dress. Shukra's restrained ascetic robes and beads fit his contract. The Devas are distinct and modestly dressed. No sexualized framing or exposed skin beyond ordinary dress."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Bali's face is clear and distinct; Shukra is visibly an elderly ascetic with white hair/beard; the three Deva faces remain separate. No malformed face."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Bali and Shukra each have one face, two arms, and connected adult proportions. Three distinct withdrawing Devas are present. No duplicated or fused body, extra/missing limb, or malformed creature is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No readable text, caption, signature, logo, watermark, or suspicious mark in the ground, foliage, or corners."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The broad court, Bali, Shukra's ritual fire, continuous land horizon, and three withdrawing Devas follow the plan. The reference's split portraits are context only; the candidate does not copy their collage layout. Bali and Shukra retain their specified single-face, ordinary anatomy and identity cues; generic Devas have two arms. Skin sample R−B median is `116`, visibly brown. Matte mineral palette and dark contours are consistent with the series."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 2,
-      "role": "matte",
-      "file": "artifacts/d030/s002/landscape/candidate-v003.png",
-      "version": "v003",
-      "sha256": "4b79cc356df930cd6db7c80e5d3867dbef91a9da2fbf6234a7a3b1c3c2b331f4",
-      "reviewer": "d030-review-ka (independent reviewer)",
-      "inspected_at": "2026-11-26T05:52:55Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d030-aditi/character.json",
-          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
-        },
-        {
-          "path": "art/bible/characters/d030-kashyapa/character.json",
-          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-ka-v001.md",
-          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa each have one face and two connected arms. Their seated poses are coherent; no fused or duplicated person or extra limb is visible. Aditi's joined hands show five fingers on each hand, with natural contact. Her visible bare foot shows five toes; her other foot is covered by her seated sari. Kashyapa's teaching hand has five digits (index raised, remaining fingers curled); his resting hand has five. His crossed feet are covered by his seated garments. The milk bowl is separate and connected to the altar arrangement."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa each have one face and two connected arms. Their seated poses are coherent; no fused or duplicated person or extra limb is visible. Aditi's sari and veil are modest with restrained jewelry. Kashyapa's simple cream/ochre ascetic garments, grey hair, and beads fit his contract. Only the two intended people appear."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Aditi's serious, intent expression reads as a request for help; Kashyapa's face is calm and benevolent. Neither face is malformed."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa each have one face and two connected arms. Their seated poses are coherent; no fused or duplicated person or extra limb is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No text, signature, logo, watermark, or ground/corner mark is visible."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. Quiet hermitage, Aditi's appeal, Kashyapa's instruction, milk bowl, and altar are all present. The photo's approach composition is followed only as scene context; the canonical twelve-day payovrata remains the subject. Both human figures retain warm muted brown skin: sampled R−B median `110`, read as brown rather than orange. Clothing, age cues, and matte mural rendering fit the Aditi/Kashyapa and series contracts."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 3,
-      "role": "matte",
-      "file": "artifacts/d030/s003/landscape/candidate-v010.png",
-      "version": "v010",
-      "sha256": "3fb731ba17749f6343fc67e861d2b0303a7984a33effca590ed172ce98307e8d",
-      "reviewer": "d030-review-ka (independent reviewer)",
-      "inspected_at": "2026-11-26T05:52:55Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d027-vishnu/character.json",
-          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
-        },
-        {
-          "path": "art/bible/characters/d030-aditi/character.json",
-          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-ka-v001.md",
-          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Vishnu has one face and exactly four attached arms; the two upper arms and two lower arms are individually traceable to the torso. Aditi has one face, two arms, and a coherent kneeling pose. No duplicates, fusions, or malformed bodies are visible. Vishnu's lower blessing palm has a thumb and four fingers (five digits total), clearly visible; his other three hands hold the discus, conch, and mace. His two blue feet are visible and naturally formed; toe detail is small but no wrong digit is visible at native scale. Aditi's joined prayer hands show five fingers per hand; her feet are covered by her sari."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Vishnu has one face and exactly four attached arms; the two upper arms and two lower arms are individually traceable to the torso. Aditi has one face, two arms, and a coherent kneeling pose. No duplicates, fusions, or malformed bodies are visible. Aditi wears a modest sari and veil with restrained ornaments. Vishnu wears cream/maroon/ochre cloth, a simple headband/diadem, one modest neck ornament, and simple wrist bands; no peacock feather or Krishna-only adornment. Only the planned two figures appear."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Vishnu's face is serene and proportionate; Aditi's attentive face is distinct. No malformed facial features."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Vishnu has one face and exactly four attached arms; the two upper arms and two lower arms are individually traceable to the torso. Aditi has one face, two arms, and a coherent kneeling pose. No duplicates, fusions, or malformed bodies are visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No lettering, caption, signature, watermark, or mark is visible in the blank wall, plants, floor, or corners."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The image shows Vishnu appearing before Aditi in a simple hermitage, with the blessing gesture and all three attributes legible. The reference's ornate stage and radiant effects are absent, as required. Vishnu's matte deep indigo-blue skin has a measured blue-minus-red median of `61`, clearly blue; his arm count and attributes match the scene-specific contract. Aditi's sampled R−B median is `99`, and her skin reads as warm brown, not orange. Ornament remains restrained."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 4,
-      "role": "matte",
-      "file": "artifacts/d030/s004/landscape/candidate-v010.png",
-      "version": "v010",
-      "sha256": "89f23fba2f960961586ebd2f3d5140fe061bee5dbb5f480edf0c5388c895d1f4",
-      "reviewer": "d030-review-ka (independent reviewer)",
-      "inspected_at": "2026-11-26T05:52:55Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d027-vishnu/character.json",
-          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
-        },
-        {
-          "path": "art/bible/characters/d030-aditi/character.json",
-          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
-        },
-        {
-          "path": "art/bible/characters/d030-kashyapa/character.json",
-          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-ka-v001.md",
-          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Aditi, Kashyapa, and the newborn each have one face. The infant has exactly four attached arms, one coherent torso, and two legs/feet. Aditi cradles the child with connected arms; Kashyapa is a separate kneeling figure. No duplication or fusion is visible. Aditi's supporting hands have natural five-digit shapes where visible; Kashyapa's joined prayer hands show five fingers on each hand. The infant's four hands hold the attributes without a visible extra or missing digit. The infant's toes are too small to resolve reliably at native size; this is a scale observation, not a defect, and no malformed foot is visible. Aditi's feet are covered."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Aditi, Kashyapa, and the newborn each have one face. The infant has exactly four attached arms, one coherent torso, and two legs/feet. Aditi cradles the child with connected arms; Kashyapa is a separate kneeling figure. No duplication or fusion is visible. Aditi's modest sari, veil, and restrained ornaments fit her contract; Kashyapa's cream/ochre ascetic clothing and hair/beard fit his. The infant has one simple short neck strand; no second or overlapping necklace is present. No sexualized framing."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Aditi's face is calm and maternal; Kashyapa's face is distinct and prayerful; the infant's face is coherent at its small scale. No malformed face."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Aditi, Kashyapa, and the newborn each have one face. The infant has exactly four attached arms, one coherent torso, and two legs/feet. Aditi cradles the child with connected arms; Kashyapa is a separate kneeling figure. No duplication or fusion is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No text, signature, logo, watermark, or suspicious mark appears in the room, floor, window, or corners."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. Intimate hermitage birth with Aditi holding the newborn and Kashyapa nearby. The reference's cosmic staging and radiant effects are removed. The four attributes remain legible and do not obscure the scene. Infant blue sample has median blue-minus-red `93`, visibly deep muted indigo-blue; Aditi's warm skin R−B median is `110`, visibly brown and not orange. The infant's single face, four arms, two feet, and single neck strand match the plan and D027 Vishnu contract for this manifestation."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 5,
-      "role": "matte",
-      "file": "artifacts/d030/s005/landscape/candidate-v019.png",
-      "version": "v019",
-      "sha256": "17d49d60dc9e0b25db203ac49afe20b9ad50760cf406675d218bc58ae0f9d2f1",
-      "reviewer": "d030-review-ka (independent reviewer)",
-      "inspected_at": "2026-11-26T05:52:55Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d030-aditi/character.json",
-          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
-        },
-        {
-          "path": "art/bible/characters/d030-kashyapa/character.json",
-          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
-        },
-        {
-          "path": "art/bible/characters/devas/character.json",
-          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-ka-v001.md",
-          "sha256": "33a67dda730130a8c2568426e7293dc69fdd0ba3c94da8a5a50568e7c21b10db"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa each have one face and two connected arms; exactly one two-armed Vamana stands between them and the two distinct Devas. All figures have coherent adult/youthful proportions. No duplicated Lord, fused people, or malformed body is visible. The young Deva's open flower-scattering hand has one thumb plus four fingers. Aditi's and Kashyapa's joined hands show five fingers on each hand. Vamana's two hands remain attached while holding parasol and staff. Both Vamana feet are visible with five toes each; the visible Aditi and Kashyapa feet and the Devas' feet are connected, with five toes on each foot where the toe contours resolve at native scale. No digit error is visible."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa each have one face and two connected arms; exactly one two-armed Vamana stands between them and the two distinct Devas. All figures have coherent adult/youthful proportions. No duplicated Lord, fused people, or malformed body is visible. Aditi's sari and Kashyapa's simple ascetic clothing are modest. The young Deva has a plain low rounded crown; the older Deva has a plain taller ochre crown and olive garment. Neither has layered neck/chest regalia. Vamana's saffron/cream brahmachari clothing and sacred thread, with parasol and staff, fit his contract. The empty cradle, folded indigo cloth, and separate discus, conch, mace, and lotus tokens are present."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Aditi, Kashyapa, young clean-shaven Deva, older grey-bearded Deva, and Vamana are individually legible. The two Deva faces, hair, crowns, clothing, and poses are distinct. No malformed or duplicated face."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa each have one face and two connected arms; exactly one two-armed Vamana stands between them and the two distinct Devas. All figures have coherent adult/youthful proportions. No duplicated Lord, fused people, or malformed body is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No text, signature, logo, watermark, or suspicious marks are visible in the ground, vegetation, or corners."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The continuous hermitage scene includes Aditi and Kashyapa praising with joined hands, exactly two Devas showering flowers, one young Vamana, the empty cradle, folded indigo cloth, and all four attribute tokens. The photo mismatch is disclosed above; the image correctly depicts the planned stanza-5 transition. The two Devas are distinct adult witnesses with two arms and modest attire. Vamana has one face, two arms, youthful proportions, and deep blue skin; measured blue-minus-red median is `51`, visibly indigo-blue. Human skin R−B median is `103`, read as warm brown rather than orange. The scene uses the matte mural treatment and simple Vamana dress."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 6,
-      "role": "matte",
-      "file": "artifacts/d030/s006/landscape/candidate-v015.png",
-      "version": "v015",
-      "sha256": "9f3e440d7869d3f001a0b1e3305890f7c245b76177e5adc5e2733b2d2bf83038",
-      "reviewer": "d030-review-kb (independent reviewer)",
-      "inspected_at": "2026-11-26T05:55:58Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d030-kashyapa/character.json",
-          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        },
-        {
-          "path": "art/bible/characters/brahma/character.json",
-          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
-        },
-        {
-          "path": "art/bible/characters/sages/character.json",
-          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-kb-v001.md",
-          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, two attached arms and two connected legs. Brahma has four total heads with three front-visible faces and four attached arms/hands. The two other ascetics are distinct, connected figures; no extra or fused limb is visible. Vamana’s two bare feet are unobstructed; I count five toes on each. Brahma’s four hands separately hold the book, lotus, water pot, and initiation thread/cord; no malformed hand is visible. The other elders’ feet/hands are either posed or partly covered; no visible digit defect."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, two attached arms and two connected legs. Brahma has four total heads with three front-visible faces and four attached arms/hands. The two other ascetics are distinct, connected figures; no extra or fused limb is visible. The sacred thread, simple garments, deer skin, and ritual items are consistent with the initiation scene. Bare male torsos are ordinary traditional dress. Brahma’s visible head ornaments are plain, and the single bead strand is restrained."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Faces are legible and not malformed or duplicated. Brahma’s three visible faces are distinct."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, two attached arms and two connected legs. Brahma has four total heads with three front-visible faces and four attached arms/hands. The two other ascetics are distinct, connected figures; no extra or fused limb is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No readable text, signature, logo, or watermark is visible, including in the examined corners, ground, and fire area."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The scene shows initiation at a fire and Vamana departing with the implements. The mismatch disclosed for photo 007 is present in the reference; the candidate follows the plan rather than copying the later foot-washing image. Brahma’s head/arm count and Vamana’s two-arm brahmachari form match their contracts. Two skin-only 10×10 patches on the human figures at candidate coordinates (130,480) and (1460,465) have median R−B values of **97** and **68** respectively. They read as natural warm brown. Vamana’s skin reads as deep blue."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 7,
-      "role": "matte",
-      "file": "artifacts/d030/s007/landscape/candidate-v012.png",
-      "version": "v012",
-      "sha256": "dc2d9d59656d53aae9df191d8c38885410d8578ba812342e9943a9eb995c99e2",
-      "reviewer": "d030-review-kb (independent reviewer)",
-      "inspected_at": "2026-11-26T05:55:58Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-kb-v001.md",
-          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Vamana is a single, naturally proportioned two-armed figure with connected limbs. No duplicate person or generation artifact is visible. The hands grip the staff and umbrella support without a visible defect. Both feet are fully visible; I count five separate toes on the planted foot and five on the lifted foot at native resolution."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Vamana is a single, naturally proportioned two-armed figure with connected limbs. No duplicate person or generation artifact is visible. The simple wrap and sacred thread are modest. No crown or Krishna-only feather is present. The scene contains only Vamana."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. One clear, proportionate face; no malformed or duplicated features."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Vamana is a single, naturally proportioned two-armed figure with connected limbs. No duplicate person or generation artifact is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No text, signature, logo, or watermark is visible; the ground and corners show only the mural texture."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. Vamana walks with umbrella and staff on a full-bleed path; small ground cracks suggest trembling. This is consistent with photo 008’s story/prop context and the plan. No unsupported rays or beams are present. The two-arm Vamana contract is met. The skin is deep indigo-blue and reads as deity blue, not a different palette."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 8,
-      "role": "matte",
-      "file": "artifacts/d030/s008/landscape/candidate-v006.png",
-      "version": "v006",
-      "sha256": "5b0b48122742d48da1dc4cd4e1fbbf32c7e188188666942ce4bd434e5badaa26",
-      "reviewer": "d030-review-kb (independent reviewer)",
-      "inspected_at": "2026-11-26T05:55:58Z",
-      "method": "individual-native-resolution",
-      "outcome": "needs-fix",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        },
-        {
-          "path": "art/bible/characters/d031-shukracharya/character.json",
-          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
-        },
-        {
-          "path": "art/bible/characters/sages/character.json",
-          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-kb-v001.md",
-          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Vamana has two attached arms and two legs. Shukra and the other sages are separate figures with connected bodies; no duplicated or fused person is visible. The main figures’ limbs are attached. Shukra’s brow-shielding hand shows four grouped fingers and a tucked thumb; the grouped fingers remain discernible in the enlarged crop. Other sages shield/narrow their eyes without a visible extra or missing digit. Vamana’s visible hands grip his props; his feet are partly outside the side crop but not malformed at the visible edge."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Vamana has two attached arms and two legs. Shukra and the other sages are separate figures with connected bodies; no duplicated or fused person is visible. Ascetic wraps, beads, topknots, and the horse/ritual setting fit the scene. Sages have visibly varied hair, garments, and poses rather than duplicated bodies. No exposed-skin or sexualized framing issue."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Shukra’s elderly white hair and beard distinguish him from the sages. The faces are individually readable; I see no malformed face."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Vamana has two attached arms and two legs. Shukra and the other sages are separate figures with connected bodies; no duplicated or fused person is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No readable text, signature, logo, or watermark is visible, including over the river, ground, and corners."
-        },
-        "scene_style_continuity": {
-          "status": "needs-fix",
-          "observations": "Needs-fix. The disclosed mismatch is present: photo 009 is the later cosmic Trivikrama stride. This candidate instead shows Vamana arriving by the river at a sacrificial hall, with sages shielding their eyes and a sacrificial horse/altar visible, as the plan requires. Vamana is a two-armed, blue-skinned brahmachari, not the four-armed giant in the reference. However, the plan requires ordinary human figures, including the elders, to have natural muted warm-brown skin with skin-only patch R−B below 100. A skin-only 10×10 patch on Shukra’s exposed upper forearm at candidate coordinates (610,200) has median RGB (190, 98.5, 15.5), R−B **174.5**. In the full frame and enlarged crop this exposed skin reads copper/orange rather than natural warm brown. The large exposed arm makes the color deviation visible to a viewer; this is the needs-fix reason. Shukra patch at (610,200) measured R−B 174.5 and was judged visibly orange/copper."
-        }
-      },
-      "findings": [
-        {
-          "id": "d030-s008-shukra-skin-v006",
-          "severity": "high",
-          "confidence": "high",
-          "status": "needs-fix",
-          "observed": "Shukra skin-only 10×10 patch at (610,200) has median RGB (190,98.5,15.5), R−B 174.5; reviewer judged it visibly orange/copper against the plan limit below 100.",
-          "repair": "Generate a new version with muted brown Shukra skin, then inspect its exact bytes and skin samples."
-        }
-      ]
-    },
-    {
-      "chapter": 30,
-      "sloka": 9,
-      "role": "matte",
-      "file": "artifacts/d030/s009/landscape/candidate-v010.png",
-      "version": "v010",
-      "sha256": "3c608b19587ab3518231541ee0c1e8857f7fa7d65276d9e6a7bbaffdb419a6f1",
-      "reviewer": "d030-review-kb (independent reviewer)",
-      "inspected_at": "2026-11-26T05:55:58Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-mahabali/character.json",
-          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        },
-        {
-          "path": "art/bible/characters/sages/character.json",
-          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-kb-v001.md",
-          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Bali has one face and two attached arms; Vamana has one face, two arms, and two legs. No duplicate/fused people or malformed body is visible. Both Vamana feet are visible in the basin; I count five toes on each. Bali’s raised cupped hand at his crown shows a thumb and four fingers; the stream overlays the palm but does not erase the visible digit outlines. The other hand controls the vessel. No visible malformed hand or foot."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Bali has one face and two attached arms; Vamana has one face, two arms, and two legs. No duplicate/fused people or malformed body is visible. Bali wears royal clothing and a courtly crown; the ornament reads as royal attire allowed by his character contract, not a clear unsupported costume. The sages wear modest ascetic garments. No sexualized framing."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Bali’s bowed face, Vamana’s serene face, and the distinct sages’ faces are legible and not malformed."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Bali has one face and two attached arms; Vamana has one face, two arms, and two legs. No duplicate/fused people or malformed body is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No readable text, signature, logo, or watermark is visible, including on the water, ground, and corners."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The candidate shows Vamana’s feet being washed in a basin and water carried to Bali’s bowed crown. The reference photo 010 is only a welcome scene and does not clearly show this action; the candidate supplies the canonical foot-washing and receiving gesture required by the plan. The water path is visible from the feet to Bali’s cupped hand and over his head. Bali’s human skin reads as dark warm brown, not orange/copper; Vamana is deep blue. Skin-only 10×10 patches at (1000,475) on Bali’s exposed upper arm/shoulder and (1080,300) on his raised arm have median R−B values **41** and **130**. The raised-arm patch is above the stanza’s <100 numeric target, but visually reads as dark warm brown in the full image rather than orange. The review gate’s visible-orange defect criterion is not met."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 10,
-      "role": "matte",
-      "file": "artifacts/d030/s010/landscape/candidate-v008.png",
-      "version": "v008",
-      "sha256": "39e9fd008121a117fe481170850bb7956df2ceb51a5282d82b7959a4d7ca3314",
-      "reviewer": "d030-review-kb (independent reviewer)",
-      "inspected_at": "2026-11-26T05:55:58Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-mahabali/character.json",
-          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        },
-        {
-          "path": "art/bible/characters/shiva/character.json",
-          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-kb-v001.md",
-          "sha256": "c709bcfa7feb6aa4398b83cec19b4abc0433703cf365721fb1aef7c011439592"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, exactly two attached arms, and two connected legs in a coherent raised-foot pose. Bali and Shiva have natural connected limbs; no malformed or duplicated body is visible. Vamana’s open hand beside the waist shows a thumb and four fingers; his other hand grips the parasol staff. His raised and planted feet each show five toes. Bali’s hands are joined in prayer and Shiva’s hands rest together in his lap; neither shows a visible digit defect. Bali’s feet are covered by his kneeling clothing."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, exactly two attached arms, and two connected legs in a coherent raised-foot pose. Bali and Shiva have natural connected limbs; no malformed or duplicated body is visible. Vamana wears modest brahmachari clothing. Bali is modestly dressed in royal garments. Shiva has restrained ascetic cloth and bead ornaments, with matted hair, crescent, and Ganga; no unsupported extra heads or arms."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. The three faces are distinct and proportionate. Shiva’s face is calm; no malformed features."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, exactly two attached arms, and two connected legs in a coherent raised-foot pose. Bali and Shiva have natural connected limbs; no malformed or duplicated body is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No readable text, signature, logo, or watermark is visible on the water, ground, or corners."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. No reference photo or caption is mapped; this is accurately treated as a canonical-only scene. The stream visibly contacts Bali’s bowed head before continuing to Shiva’s hair. Shiva is prominent on the right and larger than the plan’s phrase “small distinct Shiva form” suggests, but remains a distinct secondary figure in the continuous composition. I record this scale difference as an observation; it does not meet the review gate’s listed needs-fix conditions. Vamana is two-armed and blue; Shiva has one head, two attached arms, and muted blue-grey skin. Bali’s exposed torso patch at (820,550), 10×10 pixels, has median R−B **70.5** and reads as natural warm brown, not orange."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 1,
-      "role": "matte",
-      "file": "artifacts/d030/s001/landscape/candidate-v005.png",
-      "version": "v005",
-      "sha256": "4dc3bc9e449533c229ca22e21b120126e857888fe2e59f91258f5d5a07cfaec6",
-      "reviewer": "d030-review-la (independent reviewer)",
-      "inspected_at": "2026-11-26T06:18:57Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-mahabali/character.json",
-          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
-        },
-        {
-          "path": "art/bible/characters/d031-shukracharya/character.json",
-          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
-        },
-        {
-          "path": "art/bible/characters/devas/character.json",
-          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-la-v001.md",
-          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Bali, Shukra, and the three withdrawing Devas are distinct, connected figures with no visible extra, missing, or fused limbs. At native size and in the Bali/Shukra/Deva detail crops, faces and body proportions read cleanly. Bali's two visible hands each show five digits; both unobstructed bare feet show five distinct toes (detail crop spans native image x=0–650, y=240–980). Shukra's ritual hand and joined hand show coherent digits, with the pointing hand's thumb and four fingers discernible. The small Devas' visible hands are consistent with ordinary five-digit gestures; their most distant details are too small for finer toe/finger resolution and show no visible error."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Bali, Shukra, and the three withdrawing Devas are distinct, connected figures with no visible extra, missing, or fused limbs. At native size and in the Bali/Shukra/Deva detail crops, faces and body proportions read cleanly. Bali's courtly crown, bare upper torso, and royal garments are ordinary traditional depiction and consistent with the Bali contract. Shukra wears restrained ascetic drapery and beads. The three distinct retreating Devas fit the scene plan. Bare male torso is ordinary traditional dress."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Bali's single face and crown are coherent; Shukra's aged face, white hair, and beard are distinct from Bali; the three Deva faces are individually separated. No malformed or duplicated person is visible."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Bali, Shukra, and the three withdrawing Devas are distinct, connected figures with no visible extra, missing, or fused limbs. At native size and in the Bali/Shukra/Deva detail crops, faces and body proportions read cleanly."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No readable text, signature, logo, watermark, or stray mark is visible in the sky, ground, grass, or corners. No separate border or glossy/metallic treatment is visible."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The broad court, continuous horizon, Bali and Shukra at one side, and three Devas withdrawing at the other are present. The plan/map disclose that photo 001 is a Bali/Shukra split collage and omits Indra and hidden Devas; that mismatch is present in the reference. The candidate follows the canonical planned scene rather than reproducing the collage. Bali, Shukra, and Deva depictions match their ordinary one-face/two-arm contracts; no deity-form mismatch occurs. Skin-only 20×20 patches: Bali at (360,390) RGB median (174,103,57), R−B **117**; Shukra at (990,545) (178,104,59), **119**; Deva at (1400,400) (177,104,59), **118**. Each reads as natural warm brown to the viewer, not orange."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 2,
-      "role": "matte",
-      "file": "artifacts/d030/s002/landscape/candidate-v003.png",
-      "version": "v003",
-      "sha256": "4b79cc356df930cd6db7c80e5d3867dbef91a9da2fbf6234a7a3b1c3c2b331f4",
-      "reviewer": "d030-review-la (independent reviewer)",
-      "inspected_at": "2026-11-26T06:18:57Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d030-aditi/character.json",
-          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
-        },
-        {
-          "path": "art/bible/characters/d030-kashyapa/character.json",
-          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-la-v001.md",
-          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa have connected, proportionate adult bodies and clearly separated limbs. Their seated poses, hands, and milk bowl are coherent; no malformed or duplicated person is visible. Aditi's joined hands are coherent; her one exposed foot shows five toes. Kashyapa's teaching gesture has one raised index, three curled fingers, and a thumb; the resting hand has four visible fingers with the thumb obscured naturally by pose. His feet are covered by his seated drapery. No visible digit error."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa have connected, proportionate adult bodies and clearly separated limbs. Their seated poses, hands, and milk bowl are coherent; no malformed or duplicated person is visible. Aditi's sari and veil are modest and consistent with her contract. Kashyapa's simple ascetic garment, topknot, and beads fit his contract. The bowl of milk and modest altar are present."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Aditi's single face is readable and concerned; Kashyapa's single bearded face is calm and distinct. No malformed features."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa have connected, proportionate adult bodies and clearly separated limbs. Their seated poses, hands, and milk bowl are coherent; no malformed or duplicated person is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No text, logo, watermark, signature, or stray mark appears in the full frame or corners. The matte mural treatment is consistent with the series."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. Aditi and Kashyapa sit in a quiet riverside hermitage, with the milk offering and altar. Reference 002 aligns with their interaction; the image correctly adds the planned payovrata context rather than copying the photo literally. Both characters have one face and ordinary two-arm anatomy. Skin patches: Aditi at (350,570) median RGB (174.5,108,57), R−B **117.5**; Kashyapa at (985,470) (237,182,115), **122**. Both read as natural warm brown, not orange. Kashyapa's sampled patch is two points above the plan's approximate below-120 guide, but the full image does not visibly read orange; this is not a viewer-noticeable defect under the stated verdict rule."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 3,
-      "role": "matte",
-      "file": "artifacts/d030/s003/landscape/candidate-v010.png",
-      "version": "v010",
-      "sha256": "3fb731ba17749f6343fc67e861d2b0303a7984a33effca590ed172ce98307e8d",
-      "reviewer": "d030-review-la (independent reviewer)",
-      "inspected_at": "2026-11-26T06:18:57Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d027-vishnu/character.json",
-          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
-        },
-        {
-          "path": "art/bible/characters/d030-aditi/character.json",
-          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-la-v001.md",
-          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Vishnu has exactly four attached arms and one face. The upper hands hold the discus and conch, a lower hand holds the mace, and the other lower hand gives the blessing. Aditi is a single, proportionate figure. No extra or fused limbs are visible. Vishnu's open blessing palm clearly shows a thumb and four fingers in the focused crop (native region x=700–1350, y=250–620). His other hands connect cleanly to their attributes. Both visible feet have five coherent toes each. Aditi's joined hands are formed cleanly; no visible digit defect."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Vishnu has exactly four attached arms and one face. The upper hands hold the discus and conch, a lower hand holds the mace, and the other lower hand gives the blessing. Aditi is a single, proportionate figure. No extra or fused limbs are visible. Aditi wears a modest sari and veil. Vishnu has one restrained neck ornament, simple diadem, earrings, cream/maroon drapery, and no peacock feather or Krishna-only mark. The ornament is restrained, with no heavy layered neck, arm, or waist jewelry."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Vishnu's serene face is coherent; Aditi's face is distinct and attentive. No malformed or duplicate figures."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Vishnu has exactly four attached arms and one face. The upper hands hold the discus and conch, a lower hand holds the mace, and the other lower hand gives the blessing. Aditi is a single, proportionate figure. No extra or fused limbs are visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No writing, watermark, signature, or logo appears in the hermitage, floor, or corners. No added radiance or cinematic beams are present."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. Aditi kneels before Vishnu in a simple hermitage; the mapped reference's ornate stage and radiant effects are not copied, as the plan directs. Vishnu's indigo-blue mineral skin and four-arm form match the scene contract; his 20×20 torso patch at (600,350) has median RGB (35,61,96), blue-minus-red **61**. Aditi's skin patch at (1180,620) is (163,101,68), R−B **95**; she reads as natural muted brown, not orange."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 4,
-      "role": "matte",
-      "file": "artifacts/d030/s004/landscape/candidate-v010.png",
-      "version": "v010",
-      "sha256": "89f23fba2f960961586ebd2f3d5140fe061bee5dbb5f480edf0c5388c895d1f4",
-      "reviewer": "d030-review-la (independent reviewer)",
-      "inspected_at": "2026-11-26T06:18:57Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d027-vishnu/character.json",
-          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
-        },
-        {
-          "path": "art/bible/characters/d030-aditi/character.json",
-          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
-        },
-        {
-          "path": "art/bible/characters/d030-kashyapa/character.json",
-          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-la-v001.md",
-          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Aditi cradles one infant with one coherent face, exactly four attached arms, and two visible feet. Each arm connects to a hand holding one attribute: discus, conch, mace, or lotus. Kashyapa sits nearby with joined hands and connected anatomy. No duplicated baby or malformed body part is visible. The infant's two feet are visible and each shows five distinct toes. Aditi's supporting hand shows coherent separated fingers where not covered by the infant; her other arm supports the child naturally. Kashyapa's joined hands are connected and anatomically plausible. No visible digit error."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Aditi cradles one infant with one coherent face, exactly four attached arms, and two visible feet. Each arm connects to a hand holding one attribute: discus, conch, mace, or lotus. Kashyapa sits nearby with joined hands and connected anatomy. No duplicated baby or malformed body part is visible. Aditi's sari is modest. The infant wears one short neck strand, with no second or layered necklace; its other small ornaments do not obscure the neck. Kashyapa's simple ascetic dress and beads are consistent with his character contract."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Aditi, Kashyapa, and the infant each have one coherent face. Their expressions and facial features remain legible in the native image and birth detail crop."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Aditi cradles one infant with one coherent face, exactly four attached arms, and two visible feet. Each arm connects to a hand holding one attribute: discus, conch, mace, or lotus. Kashyapa sits nearby with joined hands and connected anatomy. No duplicated baby or malformed body part is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No text, signature, logo, watermark, or stray mark is visible in the room, floor, or corners. The frame has no cosmic effects or outer border."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The intimate hermitage birth is present, with Kashyapa nearby. Reference 004's cosmic devotional display is omitted in accordance with the plan's explicit recompose instruction. The infant's exposed skin is deep muted indigo-blue; face patch at (570,395) median RGB (17,49,109), B−R **92**, and torso patch at (580,520) (17,51,113), **96**, both above the required 45. Aditi patch at (430,200) is (168,98,62), R−B **106**; Kashyapa patch at (1380,480) is (166,96,58), **108**. Both human figures read as warm brown, not orange. The infant has the contracted single face and four arms."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 5,
-      "role": "matte",
-      "file": "artifacts/d030/s005/landscape/candidate-v019.png",
-      "version": "v019",
-      "sha256": "17d49d60dc9e0b25db203ac49afe20b9ad50760cf406675d218bc58ae0f9d2f1",
-      "reviewer": "d030-review-la (independent reviewer)",
-      "inspected_at": "2026-11-26T06:18:57Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d030-aditi/character.json",
-          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
-        },
-        {
-          "path": "art/bible/characters/d030-kashyapa/character.json",
-          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
-        },
-        {
-          "path": "art/bible/characters/devas/character.json",
-          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-la-v001.md",
-          "sha256": "66617c20dfd864e8884b835f6223817879eedce50480650eff1869d7a82caf4e"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. The scene contains one two-armed young Vamana and exactly two separate Devas. Aditi and Kashyapa are distinct, proportionate figures. Their poses and the Devas' flower baskets and gestures are connected; no malformed or duplicated figure is visible. Vamana's two visible hands hold the staff and parasol; both feet visibly have five toes. The younger Deva's open flower-scattering hand shows a thumb and four fingers in the enlarged hand crop. Basket-holding hands remain connected and plausible; the joined hands of Aditi and Kashyapa are clear. No digit error is visible."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. The scene contains one two-armed young Vamana and exactly two separate Devas. Aditi and Kashyapa are distinct, proportionate figures. Their poses and the Devas' flower baskets and gestures are connected; no malformed or duplicated figure is visible. Aditi and Kashyapa wear modest traditional garments and restrained ornaments. The younger Deva has a low rounded matte-ochre crown and the elder a simple taller matte-ochre crown with an olive garment; neither has tiers, gems, medallions, or layered neck/chest jewelry. Vamana's brahmachari garment and sacred thread are present. The empty cradle, folded indigo infant cloth, and four separate attribute tokens (discus, conch, mace, lotus) are clearly visible. No baby or second Vamana is present."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one clear face. The younger Deva is clean-shaven with a rounded low crown; the elder is visibly older, gray-bearded, and wears a taller plain crown. Their facial features and silhouettes are distinguishable. Aditi and Kashyapa have coherent faces."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. The scene contains one two-armed young Vamana and exactly two separate Devas. Aditi and Kashyapa are distinct, proportionate figures. Their poses and the Devas' flower baskets and gestures are connected; no malformed or duplicated figure is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. The full image and close views of ground, grass, and corners show no readable text, logo, watermark, signature, or generation mark. The source photos' embedded lettering is not carried into the candidate."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The image follows the planned continuous hermitage celebration. Both supplied photos are mismatched/context-only in the disclosed ways: 005 shows Aditi with the newborn and 006 shows youthful Vamana among celestial figures. The candidate depicts the stanza 5 celebration and transition using the planned empty cradle, cloth, and tokens rather than copying photo 005's birth scene or photo 006's digital/cosmic staging. Vamana has the contracted two arms, parasol, staff, and indigo-blue skin; face patch at (740,190) median RGB (49,65,100), B−R **51**, and torso patch at (740,315) (49,65,99), **50**, both above the required 45. Warm-brown patches: Kashyapa (150,320) RGB (177,105,64), R−B **113**; Aditi (385,230) (176,104,63), **113**; younger Deva (1020,230) (179,106,64), **115**; elder Deva (1345,370) (177,104,63), **114**. All read as natural warm brown, not orange."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 6,
-      "role": "matte",
-      "file": "artifacts/d030/s006/landscape/candidate-v015.png",
-      "version": "v015",
-      "sha256": "9f3e440d7869d3f001a0b1e3305890f7c245b76177e5adc5e2733b2d2bf83038",
-      "reviewer": "d030-review-lb (independent reviewer)",
-      "inspected_at": "2026-11-26T06:19:21Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d030-kashyapa/character.json",
-          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        },
-        {
-          "path": "art/bible/characters/brahma/character.json",
-          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
-        },
-        {
-          "path": "art/bible/characters/sages/character.json",
-          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-lb-v001.md",
-          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Kashyapa, Vamana, Brahma, and the two accompanying elders have connected, coherent bodies and no visible duplicate or fused person. Brahma’s four arms/hands are distinct and attached; the three visible faces/crowns follow the contract’s front view, with its fourth head specified to face away behind the central head. The background Ashvamedha horse has a coherent head, body, and four legs at the scale shown. Vamana’s prop-holding hands have coherent grips. Both fully visible Vamana feet show five distinct toes each. No malformed or visibly missing digit is apparent on the other clearly depicted hands; small details on the seated elders are too small to resolve at native scale and show no visible error."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Kashyapa, Vamana, Brahma, and the two accompanying elders have connected, coherent bodies and no visible duplicate or fused person. Brahma’s four arms/hands are distinct and attached; the three visible faces/crowns follow the contract’s front view, with its fourth head specified to face away behind the central head. The background Ashvamedha horse has a coherent head, body, and four legs at the scale shown. The scene includes the initiation, sacred thread, staff, prayer beads, deer skin, sacred fire, Kashyapa, Brahma, elders, and the distant Ashvamedha setting. Traditional bare male torsos are ordinary dress. Brahma’s low ochre crowns and single understated bead strand fit the scene plan; the other clothing is modest."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Main faces are legible and distinct; Brahma’s three front-visible faces are not merged. No malformed face is visible."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Kashyapa, Vamana, Brahma, and the two accompanying elders have connected, coherent bodies and no visible duplicate or fused person. Brahma’s four arms/hands are distinct and attached; the three visible faces/crowns follow the contract’s front view, with its fourth head specified to face away behind the central head. The background Ashvamedha horse has a coherent head, body, and four legs at the scale shown."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No readable text, signature, logo, watermark, or suspicious mark is visible in the corners, ground, or other inspected areas."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The candidate follows the planned upanayana and departure scene. The disclosed mismatch is present in photo 007, which shows a later foot-washing scene; the candidate does not reproduce that action. Vamana is a single-faced, two-armed indigo-blue brahmachari with thread and staff. Ordinary human skin samples: left elder upper arm at (145,502), median RGB (180,117,83), R−B **97**; right elder upper arm at (1480,480), median RGB (179,116,83), R−B **96**. Both read as natural warm brown, not orange. Brahma’s rose-ochre skin and four-arm/three-front-face depiction are consistent with his contract."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 7,
-      "role": "matte",
-      "file": "artifacts/d030/s007/landscape/candidate-v012.png",
-      "version": "v012",
-      "sha256": "dc2d9d59656d53aae9df191d8c38885410d8578ba812342e9943a9eb995c99e2",
-      "reviewer": "d030-review-lb (independent reviewer)",
-      "inspected_at": "2026-11-26T06:19:21Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-lb-v001.md",
-          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, two attached arms, and two connected legs in a natural walking pose. No accidental duplicate, extra limb, or malformed feature is visible. Both hands grip their respective props with coherent fingers. The planted and lifted feet are fully shown; each has five distinct toe contours at native scale."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, two attached arms, and two connected legs in a natural walking pose. No accidental duplicate, extra limb, or malformed feature is visible. Simple cream/ochre brahmachari cloth and sacred thread; no crown or peacock feather. No other person or creature is present."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Vamana’s face is coherent at detail scale, with no distortion."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, two attached arms, and two connected legs in a natural walking pose. No accidental duplicate, extra limb, or malformed feature is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No text, signature, logo, watermark, or corner/ground artifact is visible."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The full-bleed path, umbrella, staff, and subtly cracked/trembling ground match the stanza plan. Photo 008 is the mapped walking Vamana/props reference and the candidate re-composes that context as a mural scene. Vamana’s two-arm anatomy, youthful form, modest dress, and deep muted indigo-blue skin are consistent with the character contract and scene plan."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 8,
-      "role": "matte",
-      "file": "artifacts/d030/s008/landscape/candidate-v007.png",
-      "version": "v007",
-      "sha256": "d8c79aa11ed100257227aa23553d5bce360adc67e51efd6918932cbf74bbd32b",
-      "reviewer": "d030-review-lb (independent reviewer)",
-      "inspected_at": "2026-11-26T06:19:21Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        },
-        {
-          "path": "art/bible/characters/d031-shukracharya/character.json",
-          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
-        },
-        {
-          "path": "art/bible/characters/sages/character.json",
-          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-lb-v001.md",
-          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, two attached arms, and two legs. Shukra and the three seated elders have coherent human proportions and visibly distinct bodies; no fused or duplicated sage is apparent. Vamana’s feet each show five distinct toes. Shukra’s brow-shading hand and lower open gesture each show five digits at the enlarged view. The other sages’ hands and feet are small in the full image; at native scale their digits are not fully resolvable, and no visible limb or digit is malformed."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, two attached arms, and two legs. Shukra and the three seated elders have coherent human proportions and visibly distinct bodies; no fused or duplicated sage is apparent. Vamana wears simple brahmachari cloth and carries umbrella/staff. Shukra and the seated sages have modest ascetic cloth. No sexualized framing or exposed skin beyond ordinary traditional dress is present."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Vamana, Shukra, and the sages have distinct coherent faces. The age, hair, and beard differences distinguish the elders. No malformed face is visible."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Vamana has one face, two attached arms, and two legs. Shukra and the three seated elders have coherent human proportions and visibly distinct bodies; no fused or duplicated sage is apparent."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No readable text, signature, logo, watermark, or suspicious mark is visible, including around the river and lower ground."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. Narmada, the sacrificial hall/altar, arriving Vamana, and elders shielding or narrowing their eyes are depicted. The disclosed deviation is present in photo 009, which shows a later cosmic Trivikrama stride; the candidate correctly avoids its giant four-armed form and instead shows the planned approach scene. All exposed human skin reads as natural muted umber/chestnut brown rather than orange or copper. Skin-only median R−B samples (face/arm) are: Shukra (773,235)/(680,191): **79/80**; elder 1 (1007,370)/(1005,478): **49/82**; elder 2 (1292,398)/(1220,520): **83/75**; elder 3 (1510,403)/(1510,620): **80/83**. All are below 100. Vamana reads as deep indigo-blue with two arms; sage styling is not duplicated."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 9,
-      "role": "matte",
-      "file": "artifacts/d030/s009/landscape/candidate-v010.png",
-      "version": "v010",
-      "sha256": "3c608b19587ab3518231541ee0c1e8857f7fa7d65276d9e6a7bbaffdb419a6f1",
-      "reviewer": "d030-review-lb (independent reviewer)",
-      "inspected_at": "2026-11-26T06:19:21Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-mahabali/character.json",
-          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        },
-        {
-          "path": "art/bible/characters/sages/character.json",
-          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-lb-v001.md",
-          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Bali and Vamana each have one face and ordinary connected limbs; the sages remain distinct. No duplicated person or malformed body is visible. The cupped hand at Bali’s crown shows one thumb and four separate fingers. The other hand supports the pouring vessel with a coherent grip. Vamana’s joined hands are not visibly malformed. His two visible feet each show five toes. Small sage extremities do not resolve fully at native scale and show no visible error."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Bali and Vamana each have one face and ordinary connected limbs; the sages remain distinct. No duplicated person or malformed body is visible. Bali’s crown and royal clothes are appropriate to the contracted Asura king; Vamana’s dress is modest brahmachari cloth. The sages are modestly clothed. No inappropriate exposure is present."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Bali’s bowed face and Vamana’s calm face are coherent; the sages’ faces remain individually distinct."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Bali and Vamana each have one face and ordinary connected limbs; the sages remain distinct. No duplicated person or malformed body is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No text, signature, logo, watermark, or ground/corner artifact is visible."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. Bali washes Vamana’s feet at a basin; a visible stream arcs from the feet to Bali’s cupped hand at his crown and continues over his head. Photo 010’s canopy welcome is used as context; the candidate supplies the planned washing gesture that is not clear in the reference. Bali’s exposed skin reads as natural muted chestnut brown, not orange. Skin-only median R−B samples are face (1057,424): **60**, and visible arm (1110,300): **74**. Bali is a single-faced two-armed adult; Vamana is two-armed and indigo-blue."
-        }
-      },
-      "findings": []
-    },
-    {
-      "chapter": 30,
-      "sloka": 10,
-      "role": "matte",
-      "file": "artifacts/d030/s010/landscape/candidate-v008.png",
-      "version": "v008",
-      "sha256": "39e9fd008121a117fe481170850bb7956df2ceb51a5282d82b7959a4d7ca3314",
-      "reviewer": "d030-review-lb (independent reviewer)",
-      "inspected_at": "2026-11-26T06:19:21Z",
-      "method": "individual-native-resolution",
-      "outcome": "pass",
-      "anatomy_basis": "D030 character contracts govern scene anatomy: Vamana is two-armed except the four-armed Vishnu infant in stanza 4; Brahma has four arms and four heads in stanza 6; Shiva is the contracted two-armed ascetic in stanza 10; ordinary humans retain ordinary anatomy.",
-      "contracts": [
-        {
-          "path": "art/bible/series.json",
-          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
-        },
-        {
-          "path": "art/plans/d030.json",
-          "sha256": "e1ac0ddacae7cf89fc615c0aa01e8aaa31043f1dd316ef1dfe4fa2ef04c08fa3"
-        },
-        {
-          "path": "art/bible/characters/d031-mahabali/character.json",
-          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
-        },
-        {
-          "path": "art/bible/characters/d031-vamana/character.json",
-          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
-        },
-        {
-          "path": "art/bible/characters/shiva/character.json",
-          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
-        }
-      ],
-      "evidence": [
-        {
-          "path": "art/reviews/d030-independent-review-lb-v001.md",
-          "sha256": "163c92f70e878e9abbe9fdc3803fdd2a1d4b99538667bcb65be3615368b423ed"
-        }
-      ],
-      "checks": {
-        "limbs_hands_feet": {
-          "status": "pass",
-          "observations": "Pass. Vamana’s parasol arm and relaxed arm are both visible and attached from the shoulder through the wrist; the second arm is not hidden by the raised leg or cloth. Bali and Shiva have coherent connected bodies; Shiva is a distinct single-headed seated figure. No duplicate or fused figure is visible. Vamana’s relaxed open hand shows one thumb and four fingers. Both visible Vamana feet have five toes, including the raised foot. Bali’s joined hands and Shiva’s resting lap hands show no visible malformed digits; no other main-figure foot is exposed for a count."
-        },
-        "attachment_proportions": {
-          "status": "pass",
-          "observations": "Pass. Vamana’s parasol arm and relaxed arm are both visible and attached from the shoulder through the wrist; the second arm is not hidden by the raised leg or cloth. Bali and Shiva have coherent connected bodies; Shiva is a distinct single-headed seated figure. No duplicate or fused figure is visible. Vamana wears simple cream/ochre brahmachari cloth; Bali’s crown and clothing are courtly and modest; Shiva wears restrained ascetic cloth and ornaments. No sexualized framing or excessive exposure is visible."
-        },
-        "faces": {
-          "status": "pass",
-          "observations": "Pass. Vamana, Bali, and Shiva have coherent, distinguishable faces. Shiva’s marks and crescent are clearly placed in his hair; no malformed features are visible."
-        },
-        "duplication_fusion": {
-          "status": "pass",
-          "observations": "Pass. Vamana’s parasol arm and relaxed arm are both visible and attached from the shoulder through the wrist; the second arm is not hidden by the raised leg or cloth. Bali and Shiva have coherent connected bodies; Shiva is a distinct single-headed seated figure. No duplicate or fused figure is visible."
-        },
-        "text_artifacts": {
-          "status": "pass",
-          "observations": "Pass. No text, signature, logo, watermark, or suspicious mark appears in the sky, river, ground, or corners."
-        },
-        "scene_style_continuity": {
-          "status": "pass",
-          "observations": "Pass. The continuous water path visibly touches Vamana’s raised foot, Bali’s bowed head, and continues to Shiva’s matted hair. This is the disclosed canonical-only scene: no photo or caption is mapped for stanza 10. Bali’s skin reads as natural muted brown, not orange; face (710,551) and arm (760,637) median R−B samples are **74** and **71**. Vamana is deep indigo-blue and two-armed; Shiva is a distinct blue-grey, two-armed meditating form with Ganga in his hair."
         }
       },
       "findings": []
