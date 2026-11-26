@@ -510,7 +510,7 @@ console.log('Passed: D030 has ten caption-mapped rows, an explicit no-photo stan
 
 const full49=data.chapters.find(c=>c.id===49);assert.ok(full49);assert.deepEqual(full49.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content49=JSON.parse(await fs.readFile(new URL('../../content/daskams/d049.json',import.meta.url)));
-const selected49=JSON.parse(await fs.readFile(new URL('../../art/batches/d049-comparison-v013.json',import.meta.url)));
+const selected49=JSON.parse(await fs.readFile(new URL('../../art/batches/d049-comparison-v014.json',import.meta.url)));
 assert.equal(selected49.rows.length,10);assert.equal(selected49.review_status,'needs-review');assert.ok(full49.reviewNotice.toLowerCase().includes('unapproved'));
 for(const row of full49.rows){
  assert.equal(row.commentarySource,`intake/D049/photo-captions.txt#${row.n}`);
@@ -520,7 +520,12 @@ for(const row of full49.rows){
  for(const role of ['reference','matte'])assert.equal(provenance.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
  assert.match(selected.matte.file,/^artifacts\/d049\/s\d{3}\/landscape\/candidate-v\d{3}\.png$/);
  assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+ const refLabel=row.images.find(i=>i.role==='reference').displayLabel;
+ assert.equal(refLabel,[1,3,4,6].includes(row.n)?'Mismatched context photo (excluded from scene derivation)':[2,5].includes(row.n)?'Broad context reference (environment only)':'Thematic reference');
 }
+const previous49=JSON.parse(await fs.readFile(new URL('../../art/batches/d049-comparison-v013.json',import.meta.url)));
+for(const row of selected49.rows)assert.equal(row.matte.sha256,previous49.rows.find(r=>r.n===row.n).matte.sha256);
+assert.ok(full49.reviewNotice.includes('excluded from scene derivation'));
 assert.ok(full49.rows[0].images.find(i=>i.role==='matte').inspectionLabel.includes('not art approval'));
 assert.equal((await feedback(req({...good,daskam:49,sloka:10}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:49,sloka:11}),env)).status,400);
