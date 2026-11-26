@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "daskam_id": 30,
+  "slug": "d030",
+  "chapter_label": "Dasakam 30",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "d031-vamana",
+    "recurring_characters": [
+      "Vamana",
+      "Bali",
+      "Aditi",
+      "Kashyapa"
+    ],
+    "locations": [
+      "Bali’s realm",
+      "Aditi and Kashyapa’s hermitage",
+      "Narmada north bank",
+      "Bali’s Ashvamedha hall"
+    ],
+    "narrative_arc": "Bali’s conquest and Devas’ fear lead Aditi to the payovrata; Vamana is born, takes brahmachari form, receives initiation and travels to Bali, whose reverence culminates in receiving sacred foot water.",
+    "rendering_references": [
+      "artifacts/d030/references/style-d001-s004.png",
+      "artifacts/d030/references/style-d001-s008.png"
+    ],
+    "palette_arc": "Warm cream, earth ochre, deep maroon, muted olive and dark contour brown with matte indigo-blue divinity. Human skin remains warm brown, not orange. No gloss, metallic gold, outer border or rays.",
+    "reference_mapping": "Captions #1–#9 map to canonical stanzas #1–#9, with both photos 005 and 006 mapped to #5. Photo/caption mismatches #5, #6 and #8 are recorded in the map; prompts follow canonical Sanskrit. Stanza #10 has no mapped photo or caption and derives from canonical text alone."
+  },
+  "character_bible_refs": [
+    "art/bible/characters/d031-vamana/character.json",
+    "art/bible/characters/d031-mahabali/character.json",
+    "art/bible/characters/d031-shukracharya/character.json",
+    "art/bible/characters/d027-vishnu/character.json",
+    "art/bible/characters/devas/character.json",
+    "art/bible/characters/sages/character.json",
+    "art/bible/characters/brahma/character.json",
+    "art/bible/characters/shiva/character.json",
+    "art/bible/characters/d030-aditi/character.json",
+    "art/bible/characters/d030-kashyapa/character.json"
+  ],
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d030-s001",
+      "characters": [
+        "d031-mahabali",
+        "d031-shukracharya",
+        "devas"
+      ],
+      "reference_paths": [
+        "intake/D030/001.jpg"
+      ],
+      "reference_guidance": "The source is a split portrait collage of Bali and Shukra; it lacks Indra and hidden Devas. Compose the canonical stanza, not the collage.",
+      "caption_anchor": "photo-captions.txt#1",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Bali is restored by Shukra’s rite and rules with power; distant Devas withdraw in fear. Keep the prior battle implied, not graphic. Both of Bali’s visible bare feet must be unobstructed with five distinct toes each. Human skin is natural muted warm-brown, with skin-only patch median red-minus-blue below 120.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering."
+        ],
+        "composition": "A broad uncluttered court: Bali and Shukra at one side, three distinct Devas withdrawing at the other, joined by a continuous land horizon.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "Bali’s rise after defeat",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d030-s002",
+      "characters": [
+        "d030-aditi",
+        "d030-kashyapa"
+      ],
+      "reference_paths": [
+        "intake/D030/002.jpg"
+      ],
+      "reference_guidance": "The photo aligns with Aditi approaching Kashyapa; canonical stanza specifies her twelve-day payovrata.",
+      "caption_anchor": "photo-captions.txt#2",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Aditi grieves for her sons and seeks Kashyapa’s help; he instructs the twelve-day milk vow and worship. Aditi and Kashyapa have natural muted warm-brown skin, with skin-only patch medians red-minus-blue below 120.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering."
+        ],
+        "composition": "Aditi and Kashyapa sit in a quiet hermitage with a simple bowl of milk and modest altar, hands and vessels clearly connected.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "Aditi undertakes the payovrata",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d030-s003",
+      "characters": [
+        "d030-aditi",
+        "d027-vishnu"
+      ],
+      "reference_paths": [
+        "intake/D030/003.jpg"
+      ],
+      "reference_guidance": "The photo supports the divine appearance; its ornate stage and radiant effects are not rendering guidance.",
+      "caption_anchor": "photo-captions.txt#3",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "After the vow, the dark blue four-armed Lord appears before Aditi and tells her he will be born as her son. Exactly four attached arms: upper hands hold the discus and conch, one lower hand holds the mace, and the other lower hand is a clear open blessing palm toward Aditi with thumb plus four fingers. No peacock feather or Krishna-only head adornment. Follow the D027 Vishnu contract's restrained sacred ornament: a simple restrained crown or diadem, at most one modest neck ornament, and no heavy layered neck, shoulder, arm, wrist, or waist jewellery. Render Aditi's exposed skin in muted chestnut or umber brown, targeting skin-only patch medians near RGB (145,100,78) and red-minus-blue below 100; keep light neutral and matte with no amber wash.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering."
+        ],
+        "composition": "Aditi kneels before a distinct four-armed Vishnu in a simple hermitage. The lower open palm is a clear blessing gesture with thumb plus four fingers; the other three hands hold discus, conch and mace. No written symbols.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "Vishnu promises to be Aditi’s son",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d030-s004",
+      "characters": [
+        "d030-aditi",
+        "d030-kashyapa",
+        "d027-vishnu"
+      ],
+      "reference_paths": [
+        "intake/D030/004.jpg"
+      ],
+      "reference_guidance": "The photo shows a woman, infant and four-armed deity in a cosmic devotional composition; recompose the birth without the added cosmic staging.",
+      "caption_anchor": "photo-captions.txt#4",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show the auspicious birth to Aditi on Dvadashi and Shravana; the child is the manifest divine form with exactly four attached arms, one coherent face and two feet. Render the infant's exposed skin consistently in deep muted indigo-blue mineral pigment, with face and torso skin-only patch medians at blue-minus-red at least 45. Keep the moment intimate. The infant wears exactly one simple short neck strand; no second necklace or layered neck ornaments.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering."
+        ],
+        "composition": "Aditi cradles the newborn in a calm hermitage interior with Kashyapa nearby; divine iconography is restrained and anatomically clear. Keep the infant's neck clearly visible with exactly one modest short strand and no overlapping neck ornaments.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "Vamana is born to Aditi",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d030-s005",
+      "characters": [
+        "d030-aditi",
+        "d030-kashyapa",
+        "d031-vamana",
+        "devas"
+      ],
+      "reference_paths": [
+        "intake/D030/005.jpg",
+        "intake/D030/006.jpg"
+      ],
+      "reference_guidance": "Photo 005 depicts Aditi holding the newborn, not the stanza 5 celebration. Photo 006 better suggests youthful Vamana among celestial figures. Follow canonical Sanskrit.",
+      "caption_anchor": "photo-captions.txt#5",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Aditi praises with joined hands; her skin is natural muted brown, targeting RGB near (145,100,78) with skin-only patch median red-minus-blue below 120.",
+          "Kashyapa praises with joined hands; his skin is natural muted brown, targeting RGB near (145,100,78) with skin-only patch median red-minus-blue below 120.",
+          "Exactly two individually distinct Devas shower flowers; one is youthful and clean-shaven with short wavy hair and a rounded crown, and the other is older with a gray beard, a taller crown and an olive garment. Their faces, hair, crowns, clothing silhouettes and poses are visibly different. Their crowns are modest, plain matte ochre forms: a low rounded shape for the younger figure and a simple taller silhouette for the elder, without tiers, gemstones or medallions. Remove layered neck and chest ornaments; retain their simple, distinct garments.",
+          "Exactly one young two-armed Vamana stands with parasol and staff, deep muted indigo-blue skin, face and torso skin-only patch medians blue-minus-red at least 45; do not show a second Vamana or baby.",
+          "An empty cradle is visible in the hermitage.",
+          "A folded indigo infant cloth is visible beside the empty cradle.",
+          "Four separate small attribute tokens are visible together: discus, conch, mace and lotus.",
+          "Every visible open Deva hand has a thumb and four coherent fingers; hide any hand cleanly if it cannot be rendered clearly.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering."
+        ],
+        "composition": "One continuous hermitage celebration: Aditi and Kashyapa praise with joined hands, exactly two distinct Devas shower flowers, and one two-armed young Vamana stands with parasol and staff. Show the transition from infant form only through the empty cradle, folded indigo cloth and four small attribute tokens; do not duplicate the Lord. Keep exactly two Devas distinct: one youthful and clean-shaven with short wavy hair and a rounded crown, the other older with a gray beard, a simple taller matte ochre crown and an olive garment. Keep both crowns plain and modest without tiers, gemstones or medallions, and omit layered neck/chest ornaments.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "The Lord takes the brahmachari form",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d030-s006",
+      "characters": [
+        "d030-kashyapa",
+        "d031-vamana",
+        "brahma",
+        "sages"
+      ],
+      "reference_paths": [
+        "intake/D030/007.jpg"
+      ],
+      "reference_guidance": "Photo 007 shows Bali’s later foot-washing welcome, not upanayana or departure. Do not reproduce the mismatch.",
+      "caption_anchor": "photo-captions.txt#6",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Prajapatis perform Vamana's initiation and offer sacred thread, staff, deer skin and prayer beads; after the fire rite he departs toward Bali's Ashvamedha. Brahma has exactly four visibly attached arms and hands, with four heads total and three front-visible faces. Ordinary human figures, including the elders, have natural muted brown skin with skin-only patch median red-minus-blue below 100 under neutral light.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering."
+        ],
+        "composition": "Show Kashyapa and one or two distinct elders completing initiation at a small sacred fire; Vamana turns toward the road with each listed implement clearly connected. All three visible crowns on Brahma's heads are the same modest low matte ochre form, plain and without tiers, gems or medallions. Brahma wears only one fine understated bead strand beside his sacred thread; no layered necklaces, medallion, armlets or stacked wrist ornaments.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "Upanayana and departure for Bali’s sacrifice",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d030-s007",
+      "characters": [
+        "d031-vamana"
+      ],
+      "reference_paths": [
+        "intake/D030/008.jpg"
+      ],
+      "reference_guidance": "Photo 008 aligns with the walking Vamana and props; recompose in the established matte palette.",
+      "caption_anchor": "photo-captions.txt#7",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "The short brahmachari walks with umbrella and staff; the earth subtly trembles under his emerging divine gravity. Two arms, no Krishna feather or crown. All exposed Vamana skin is deep muted indigo-blue, with face and torso skin-only patch medians blue-minus-red at least 45. Show both feet clearly with five distinct, coherent toes on each foot.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering."
+        ],
+        "composition": "Full-bleed horizontal path scene, Vamana walking with umbrella and staff, both feet fully visible and unobscured. Angle each foot three-quarter toward the viewer so five separate toe contours are countable at the full-image scale; keep the planted foot in the foreground and the slightly lifted foot clear of the staff and each other. Show slight ground movement only; no beams or rays.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "Vamana’s journey shakes the earth",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d030-s008",
+      "characters": [
+        "d031-vamana",
+        "d031-shukracharya",
+        "sages"
+      ],
+      "reference_paths": [
+        "intake/D030/009.jpg"
+      ],
+      "reference_guidance": "Photo 009 depicts the later cosmic stride; do not copy its four-armed giant form or celestial scale.",
+      "caption_anchor": "photo-captions.txt#8",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Vamana arrives at the Hayamedha hall on the north bank of the Narmada. His presence dazzles Shukra and sages, who wonder whether he is Sun, Fire, Sanatkumara or a yogi.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering.",
+          "Shukra and every seated elder have deep muted umber/chestnut-brown exposed human skin, never orange or copper; skin-only face and arm patch medians must have red-minus-blue below 100 under neutral light. Vamana remains deep indigo-blue."
+        ],
+        "composition": "Vamana enters from riverbank toward a simple sacrificial hall; Shukra and distinct sages shield or narrow their eyes, with river and altar legible. The sages are visibly distinct individuals, not duplicated in face, beard, hair, pose or clothing.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "Vamana reaches the Narmada sacrifice",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d030-s009",
+      "characters": [
+        "d031-mahabali",
+        "d031-vamana",
+        "sages"
+      ],
+      "reference_paths": [
+        "intake/D030/010.jpg"
+      ],
+      "reference_guidance": "Photo 010 shows the welcome under a canopy but not clear foot-washing; supply the canonical gesture.",
+      "caption_anchor": "photo-captions.txt#9",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Bhrigus bring radiant Vamana to Bali’s hall. Bali kneels to wash both feet, then receives the foot water reverently on his bowed head. Show a single continuous visible water path from Vamana’s washed feet to Bali’s clearly visible cupped hand at his crown, with one thumb and four distinct fingers, with the water running over his head. Bali's exposed human skin is matte muted chestnut/umber brown, never orange or copper; skin-only patch medians at his face and visible arms have red-minus-blue below 100 under neutral light.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering."
+        ],
+        "composition": "Bali kneels at a ritual basin while washing Vamana’s feet; one unbroken stream visibly runs from the feet to Bali’s clearly visible cupped hand, with one thumb and four distinct fingers, at his bowed crown and spills over his head, with a few distinct sages behind.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "Bali welcomes Vamana and receives the foot water",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d030-s010",
+      "characters": [
+        "d031-mahabali",
+        "d031-vamana",
+        "shiva"
+      ],
+      "reference_paths": [],
+      "reference_guidance": "No stanza 10 photo or caption is supplied or mapped. Scene derives from canonical Sanskrit only.",
+      "caption_anchor": null,
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Canonical-only stanza: Bali's Prahlada lineage and sacrifices explain his fortune in receiving the sacred water from the Lord's foot, water cherished on Shiva's head. Show the water visibly contacting Bali's bowed head or cupped hands before continuing to Shiva, with Ganga as a restrained devotional echo. Bali's exposed human skin is natural muted chestnut or umber brown with face and arm skin-only patch medians red-minus-blue below 100 under neutral light.",
+          "Vamana has exactly two visibly attached arms and hands: one hand grips the parasol staff, while the second arm is clearly visible, naturally connected from shoulder through elbow and wrist, and rests beside the waist with a relaxed open hand showing one thumb and four fingers. Do not hide this arm behind the torso, cloth, Bali, raised leg, staff or water.",
+          "Mapped photos are story/context references only; canonical Sanskrit controls scene content. Use the series matte mural treatment, not photo rendering."
+        ],
+        "composition": "A single flowing landscape composition shows Vamana with exactly two clearly attached arms: one hand grips the parasol staff and the second visible arm rests naturally beside his waist with an open five-digit hand. The composition shows a continuous water path from Vamana’s raised foot to direct contact on Bali’s bowed head or cupped hands, then onward to a small distinct Shiva form bearing Ganga in his matted hair. This derives from canonical stanza 10 only; no photo or caption is mapped.",
+        "tone": "Devotional, composed and legible, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, metallic shine, silk sheen, cinematic beams, rays or shafts.",
+          "No extra/missing limbs or digits, malformed hands or feet, duplicate/fused people, detached props or unreadable anatomy.",
+          "Warm human skin remains brown (skin-only patch median red-minus-blue below 120); divine blue remains deep indigo-blue."
+        ]
+      },
+      "alt": "The foot water cherished on Shiva’s head",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently compose a full-bleed 16:9 scene with complete connected anatomy and safe margins; do not crop or extend another image."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    }
+  ]
+}
