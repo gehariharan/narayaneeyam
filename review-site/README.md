@@ -416,6 +416,23 @@ The managed D014 review passed all ten leads, including the S005 v003, S008 v008
 and S010 v003 repairs; earlier failed versions remain recorded as history. These
 totals must be recalculated if the base advances.
 
+## Dasakam 45
+
+D045 contains twelve landscape comparison rows in
+`art/batches/d045-comparison-v010.json`, one for each canonical stanza and
+numbered reference. The selected candidates are S001 v007, S002 v004, S003
+v012, S004 v018, S005 v009, S006 v004, S007 v004, S008 v008, S009 v005, S010
+v006, S011 v014 and S012 v005. Producer and independent inspections are bound
+to final plan SHA-256 `5888750d4fe733ce7815ba5a896629a4f6dec232089ffa895013b7398692ebb5`.
+All twelve exact candidate hashes passed independent review. S008's initial
+reviewer concern about a separate singing cue was resolved by a targeted
+independent pass: the planned dance posture while drinking satisfies the
+coherent-gathering wording. Both reports remain recorded.
+The photo 003 stanza-3/stanza-4 visual conflict, near-duplicate nursing
+references and broad mood-only references remain disclosed. S004 v018's mud
+repair and measured skin/occlusion notes remain with the chapter. It is
+unapproved, and portraits remain paused.
+
 ## Dasakam 36
 
 D036 adds eleven native landscape candidates in `art/batches/d036-comparison-v001.json`. Each stanza may show more than one mapped source photograph; the selection pins all twenty accepted source photos across the eleven rows. Candidate versions and checksums are bound in the batch and scene plan. Producer inspections and final independent exact-checksum records are preserved under `art/reviews/`; all eleven selected candidates pass independent review and remain unapproved. S009 v002’s earlier needs-fix was superseded by a tiebreak pass; both reports remain evidence. S010 v002 has a disclosed repeated-face deviation in the background ancestor row, pending captain art approval. The supplied captions are shown as commentary; an English verse translation was not sourced. Portrait production remains paused. Upload only D036's WebP derivatives with `node review-site/scripts/upload.mjs --daskam=36` before any serialized Worker deployment. With D036 added, the union holds 31 chapters, 321 stanza rows, 664 review media inputs and 327 selected generated images.
