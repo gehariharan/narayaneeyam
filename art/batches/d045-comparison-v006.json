@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "daskam_id": 45,
+  "description": "Twelve D045 landscape candidates paired with numbered source photographs for unapproved artwork comparison.",
+  "review_notice": "This Dasakam 45 chapter is an unapproved reference-versus-candidate artwork comparison for review only. Producer reviews are recorded for all twelve selected landscape candidates; independent exact-checksum review is pending. Photo 003 remains mapped by number/caption to stanza 3 although its picture depicts the stanza-4 mud-cleaning episode; canonical stanza text governs and the mismatch is disclosed. Photos 004–005 are near-duplicate nursing references for stanza 5, not independent coverage. Photos 006–008 and 012 are broad mood references. Captions are verbatim reference commentary, not translations. Portrait production remains paused. Publishing this chapter is not art approval.",
+  "review_status": "needs-review",
+  "visual_review_status": "All twelve selected landscape candidates have individual producer reviews bound to final plan SHA-256 6f82ad7e864d6e58b444ce98877b00168293165e2bb6fea25aa01fd337fe89ee; independent exact-checksum review remains pending. Candidate-specific measured deviations and occlusions are disclosed in their status fields. No artwork is approved.",
+  "source_mapping_sha256": "03a2e454f3ac51d1d68a06bf61273088a8ec41fefca2021449c1b27ee43b67ac",
+  "rows": [
+    {
+      "n": 1,
+      "concept_id": "d045-s001",
+      "scene": "Two very young brothers crawl briskly on hands and knees through a household courtyard, their moving feet and anklets making the scene’s central rhythm.",
+      "reference": {
+        "file": "intake/D045/001.jpg",
+        "sha256": "30cc7565b41b7a3c72da23cc429b069b95252bacf4ca9073c941bae86189e8d3",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s001/landscape/candidate-v007.png",
+        "sha256": "8ab7fb4a0457e8f40d0d2978cd313ae5ec2473108bbcc1d78467d8117aa32db2",
+        "version": "v007",
+        "label": "Landscape candidate v007",
+        "displayLabel": "Landscape candidate v007",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v007; exact SHA-256 8ab7fb4a0457e8f40d0d2978cd313ae5ec2473108bbcc1d78467d8117aa32db2. Balarama R−B medians 98–103; Krishna B−R 58–66; all four visible hands show five digits and all four feet five toes. Independent exact-checksum review pending; not art approval.",
+      "comparison_path": "intake/D045/comparisons/s001-landscape-v007-comparison-v001.png",
+      "comparison_sha256": "537056afc667e7360ac262a93953cf9454e224ddfb2084d85436db7ee6a33519",
+      "comparison_dimensions": "2240x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s001-landscape-v007-finalplan-producer-v003.md",
+        "sha256": "a0350b024ce40546b1fefcdfd31f822206bfe4d8fcf1f1ef4017618a2d915ec1"
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d045-s002",
+      "scene": "Both boys smile with small new teeth visible; loose curls fall across their faces, lotus feet show beneath their garments, and armlets have slipped toward their wrists.",
+      "reference": {
+        "file": "intake/D045/002.jpg",
+        "sha256": "e12136b5d122f207fd228be86f29be278b6753f842ede2bb26b70eb078026c9e",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s002/landscape/candidate-v004.png",
+        "sha256": "cb611b459b16a7d4795095b50fdf699729ef148a1636442a01014e865dae4fee",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v004; exact SHA-256 cb611b459b16a7d4795095b50fdf699729ef148a1636442a01014e865dae4fee. Balarama R−B 110–112; Krishna B−R 64–67; all four visible hands show five digits and all four feet five toes. Independent exact-checksum review pending; not art approval.",
+      "comparison_path": "intake/D045/comparisons/s002-landscape-v004-comparison-v001.png",
+      "comparison_sha256": "84ccddafaea4d15fefbfc799202fde4d58b5afdd93657f90fd5c54f169b3e5ac",
+      "comparison_dimensions": "2240x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s002-landscape-v004-finalplan-producer-v003.md",
+        "sha256": "43688a2ea443cd66684a27281e675c1f6883ad07dc8c6b9a2bce9ea4fbe4dd38"
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d045-s003",
+      "scene": "A small following crowd watches as the twins run away after an enchanting smile, then both turn their lotus faces back over their shoulders toward the people.",
+      "reference": {
+        "file": "intake/D045/003.jpg",
+        "sha256": "482b73dd13cb996133067b486fd73d71df088d93dc1d8aff625114eeb4c6013b",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s003/landscape/candidate-v012.png",
+        "sha256": "d3aa1c1ff9166ec9293b14a36f44a548ca85e0e13100b837d66fdf047bbbad5f",
+        "version": "v012",
+        "label": "Landscape candidate v012",
+        "displayLabel": "Landscape candidate v012",
+        "dimensions_px": "1671x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass with disclosed color deviation v012; exact SHA-256 d3aa1c1ff9166ec9293b14a36f44a548ca85e0e13100b837d66fdf047bbbad5f. Both main boys are fully visible head-to-toe with ground below their feet; enlarged crops show five digits on each of their four open hands and five toes on each of the four visible feet. Skin-only 17x17 medians: Balarama cheek R−B 128 at (720,260), forearm R−B 132 at (470,420), both above the approximate 120 guide but visually warm brown; Krishna cheek B−R 73 at (1245,275) and arm B−R 77 at (980,510). Three distant followers remain distinct; their face patches are too small for reliable sampling. Independent exact-checksum review pending; this is not art approval.",
+      "comparison_path": "intake/D045/comparisons/s003-landscape-v012-comparison-v001.png",
+      "comparison_sha256": "c459589a3c88cd31ee52f5d2a0e5554306f0328d727c150c20012e9925bab982",
+      "comparison_dimensions": "2239x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s003-landscape-v012-finalplan-producer-v003.md",
+        "sha256": "1a68d701fcc28a8c3b71a5fef67843741d1cf56d67d3cd302fb26c3594c21cca"
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d045-s004",
+      "scene": "After quick movement both children have fallen and risen with mud on their clothes and limbs; two mothers, Rohini and Yashoda, arrive, lift them tenderly, embrace them and kiss them repeatedly. Small heavenly sages smile and worship from above.",
+      "reference": {
+        "file": "intake/D045/004.jpg",
+        "sha256": "13c2ed2582157267c77a032ad53e556f86f4c0d1136e21ddf07d06b47055734f",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s004/landscape/candidate-v012.png",
+        "sha256": "e1c28ea73dff0db1277c74cbb5797f1aa5b8fc697a7e0bf7fbb885e4135391fd",
+        "version": "v012",
+        "label": "Landscape candidate v012",
+        "displayLabel": "Landscape candidate v012",
+        "dimensions_px": "1671x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass with disclosed residual deviations v012; exact SHA-256 e1c28ea73dff0db1277c74cbb5797f1aa5b8fc697a7e0bf7fbb885e4135391fd. Repeated flower motifs are absent from Krishna’s tunic and upper arm; irregular mud marks remain, including radial, flower-like mud smears on the exposed knees in enlarged view. Yashoda and Rohini have distinct faces and dress. Skin-only 17x17 cheek medians: Yashoda R−B 137 at (360,320), Rohini R−B 124 at (1335,310), Balarama R−B 117 at (1030,350); Krishna cheek B−R 125 at (570,360). The first two warm-brown readings are respectively 17 and 4 above the approximate 120 guide but read brown in the native view. Independent exact-checksum review pending; this is not art approval.",
+      "comparison_path": "intake/D045/comparisons/s004-landscape-v012-comparison-v001.png",
+      "comparison_sha256": "698fa9b0f004d1122dee5c4279beb7cfccbef2a9bd40ed2dffc40f2e9fd25862",
+      "comparison_dimensions": "2239x720",
+      "source_alternates": [
+        {
+          "file": "intake/D045/003.jpg",
+          "sha256": "482b73dd13cb996133067b486fd73d71df088d93dc1d8aff625114eeb4c6013b",
+          "caption_number": 3,
+          "role": "cross-numbered visual conflict: photo depicts mud-cleaning described by caption 4, but remains caption/item 3; not remapped"
+        }
+      ],
+      "producer_review": {
+        "file": "art/reviews/d045-s004-landscape-v012-finalplan-producer-v003.md",
+        "sha256": "ef6bc7c6560e6be5dffa0fc68d4a7114f89dc2cc3fced1951b8a6e526a5b7544"
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d045-s005",
+      "scene": "Yashoda holds infant Krishna securely on her lap and feeds him; he pauses and gives her a soft charming smile with tiny budding teeth.",
+      "reference": {
+        "file": "intake/D045/005.jpg",
+        "sha256": "37643b9661f8eafded8b7dc3e26581703e4c6bb6c65f3794fe224c7a60dcc5bc",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s005/landscape/candidate-v009.png",
+        "sha256": "5f4c72b555b8974501fa4651630add684c70a2bdef549741a63077c5d6766935",
+        "version": "v009",
+        "label": "Landscape candidate v009",
+        "displayLabel": "Landscape candidate v009",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v009; exact SHA-256 5f4c72b555b8974501fa4651630add684c70a2bdef549741a63077c5d6766935. Yashoda skin-only 17x17 median R−B 116; Krishna B−R 122. The child is nestled at the fully covered nursing place in a brief pause, looking up with two tiny budding teeth; mouth is smiling and slightly separated from cloth as the planned pause between feeds. No breast is exposed. Krishna’s visible open hand has thumb plus four fingers; both feet are fully concealed under swaddling. Independent exact-checksum review pending; not art approval.",
+      "comparison_path": "intake/D045/comparisons/s005-landscape-v009-comparison-v002.png",
+      "comparison_sha256": "971b6f44632369181ad81cb7ce804b7c11e87925003d74f79600eba076d38042",
+      "comparison_dimensions": "2240x720",
+      "source_alternates": [
+        {
+          "file": "intake/D045/004.jpg",
+          "sha256": "13c2ed2582157267c77a032ad53e556f86f4c0d1136e21ddf07d06b47055734f",
+          "caption_number": 4,
+          "role": "near-duplicate stanza-5 nursing source alternate only; not an artwork alternate"
+        }
+      ],
+      "producer_review": {
+        "file": "art/reviews/d045-s005-landscape-v009-finalplan-producer-v003.md",
+        "sha256": "562dda49538425e1568f8f10b5441cd68ac3611c80b85b058b968c1b75548d82"
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d045-s006",
+      "scene": "Newly walking Krishna plays among village homes with young gopa boys, chases a parrot, a cat and calves, and is gently stopped by laughing boys.",
+      "reference": {
+        "file": "intake/D045/006.jpg",
+        "sha256": "44034fbb7e35a37653a4e1727cba2477c91cd70e8abac091c45cd269687ae98c",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s006/landscape/candidate-v004.png",
+        "sha256": "46a7cb9d9355cd860cfb270e65c01ef13a3e3226e203ba6fa5cfad858b9e029e",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1671x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v004; exact SHA-256 46a7cb9d9355cd860cfb270e65c01ef13a3e3226e203ba6fa5cfad858b9e029e. Krishna B−R 81 and 80; boys R−B 100, 108 and 101; visible feet show five toes; Krishna’s extended hand shows thumb plus four fingers. An independent reviewer reported a third arm; Firstmate inspected the enlarged arm-grip crop and counted two arms: the gopa boy grips Krishna’s left arm, whose hand hangs below the grip, and Krishna’s other arm stretches toward the calves. S006 v004 remains selected unchanged. Independent exact-checksum review pending; this is not art approval.",
+      "comparison_path": "intake/D045/comparisons/s006-landscape-v004-comparison-v001.png",
+      "comparison_sha256": "db312ae7c00b98aaf0ba33c7cb11010dd51c69a9c33c7c3a8379c4a61d3a584f",
+      "comparison_dimensions": "2240x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s006-landscape-v004-finalplan-producer-v003.md",
+        "sha256": "09462706e008baba4767315fdd62447949afe74f80694e7c573801977735bc54"
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d045-s007",
+      "scene": "Krishna and Balarama travel together along a Vraja lane. Gopikas at separate doorways pause chores and turn to watch, momentarily forgetting household and childcare duties.",
+      "reference": {
+        "file": "intake/D045/007.jpg",
+        "sha256": "b21db4e8d63a6cb57495e68f4d430b5c57f4a0098acbb484dc1c726fd5216a99",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s007/landscape/candidate-v004.png",
+        "sha256": "00a989cc7aa73d46c72dfa9d02f43430dc27b944eba7616fb3adf6decb708ec3",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v004; exact SHA-256 00a989cc7aa73d46c72dfa9d02f43430dc27b944eba7616fb3adf6decb708ec3. Gopika cheek patches R−B 112, 110 and 108; Balarama R−B 106; Krishna visibly deep indigo; both child feet show five toes. Independent exact-checksum review pending; not art approval.",
+      "comparison_path": "intake/D045/comparisons/s007-landscape-v004-comparison-v001.png",
+      "comparison_sha256": "9f043e1b5424502c4ec065c22a012cd6223012112f59e1658de126a33ba71126",
+      "comparison_dimensions": "2240x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s007-landscape-v004-finalplan-producer-v003.md",
+        "sha256": "600945409ca96f312df3fe133236576e87c6bd2d36657ac1c61f24f4bea04169"
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d045-s008",
+      "scene": "Gopikas offer freshly made butter; Krishna sings sweetly and dances gently, then accepts ghee and drinks freshly boiled milk.",
+      "reference": {
+        "file": "intake/D045/008.jpg",
+        "sha256": "a195b84465d555856a04e5a04014fc0ad9b382c3e313e92bfc4a2b8a0389952d",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s008/landscape/candidate-v008.png",
+        "sha256": "704984a7051aa8e5d8ce279ac026c7810711ed1cf8127c1fb2792720a4bc408a",
+        "version": "v008",
+        "label": "Landscape candidate v008",
+        "displayLabel": "Landscape candidate v008",
+        "dimensions_px": "1670x942"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v008; exact SHA-256 704984a7051aa8e5d8ce279ac026c7810711ed1cf8127c1fb2792720a4bc408a. Krishna cheek B−R 70; three gopika cheeks R−B 114, 112 and 111; both visible feet show five toes; partial hand occlusion by milk vessel/ghee has no visible digit defect. Independent exact-checksum review pending; not art approval.",
+      "comparison_path": "intake/D045/comparisons/s008-landscape-v008-comparison-v001.png",
+      "comparison_sha256": "dd1fe7569fc1d828923fb0818f0ea79a5a701c943046afe17319d7976b31012e",
+      "comparison_dimensions": "2240x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s008-landscape-v008-finalplan-producer-v003.md",
+        "sha256": "15c76595ab0fd25a55eec82201ef633401b1c4cd0dc297de067a246533ebb143"
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d045-s009",
+      "scene": "Krishna quietly steals curd and ghee from a village woman’s household pot with a clever graceful childlike movement, having decided not to ask the gopikas for it.",
+      "reference": {
+        "file": "intake/D045/009.jpg",
+        "sha256": "fb1515c1fa4b03087851fc6304babcf492b14fcf0675ce9ec919881714c52ba0",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s009/landscape/candidate-v005.png",
+        "sha256": "1f87de081ac241a0ec56f4fa7fd47c6afe264299c5009a1685e791e3c27aa449",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v005; exact SHA-256 1f87de081ac241a0ec56f4fa7fd47c6afe264299c5009a1685e791e3c27aa449. Krishna cheek B−R 130 and gopika cheek R−B 109; left foot shows five toes; foreshortened right foot has three visible toe tips; pot-reaching hand is partly occluded, with no visible malformed digit. Independent exact-checksum review pending; not art approval.",
+      "comparison_path": "intake/D045/comparisons/s009-landscape-v005-comparison-v001.png",
+      "comparison_sha256": "a67b8d7d08020f3e0cc37b4c56565e1fed65c1b9a502b81073fd74f498ba5ffa",
+      "comparison_dimensions": "2240x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s009-landscape-v005-finalplan-producer-v003.md",
+        "sha256": "46e82dda18043885a12bcc3f1417faef4072d3f528c46561d8c42f17e83f721d"
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d045-s010",
+      "scene": "The gopikas’ faces show delight rather than anger as Krishna takes curd and ghee; his affection leaves them joyful, as though their hearts are carried into a sea of bliss.",
+      "reference": {
+        "file": "intake/D045/010.jpg",
+        "sha256": "79396736529313a5c695a4587f7c35822507f65f59c433f7d13b755e0299abac",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s010/landscape/candidate-v006.png",
+        "sha256": "264c643f9f1a092ce259a52fa1187b6ebe44fdc0321950a59d3bc2420e6898db",
+        "version": "v006",
+        "label": "Landscape candidate v006",
+        "displayLabel": "Landscape candidate v006",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v006; exact SHA-256 264c643f9f1a092ce259a52fa1187b6ebe44fdc0321950a59d3bc2420e6898db. Skin-only 17x17 face medians: left gopika R−B 108 at (320,325), upper-center gopika R−B 118 at (630,175), right gopika R−B 113 at (1200,190); Krishna cheek B−R 136 at (850,340). The right-face orange cast is corrected. Krishna’s visible open hands show five digits each; the visible foot shows five toes, with the other foot obscured by the seated pose and pot. Independent exact-checksum review pending; this is not art approval.",
+      "comparison_path": "intake/D045/comparisons/s010-landscape-v006-comparison-v001.png",
+      "comparison_sha256": "ee4b36dbfaad207a142664bec913bc546b8e00bb138cfa32fd28a0018cc01422",
+      "comparison_dimensions": "2239x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s010-landscape-v006-finalplan-producer-v003.md",
+        "sha256": "2c0c94395d6847cbbf1cb18015fcb7631d7414a9f47bce5b62176a22572c5989"
+      }
+    },
+    {
+      "n": 11,
+      "concept_id": "d045-s011",
+      "scene": "Beside a tree branch, the child points toward the moon and repeatedly asks his mother and father for it as a fruit. As he reaches with both arms, the moon comes into his hands and the scene opens into restrained cosmic radiance around his single child body.",
+      "reference": {
+        "file": "intake/D045/011.jpg",
+        "sha256": "74d15451dd5860a6022dc950e265f7d7ff3813663463c0c87b2e52501783125f",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s011/landscape/candidate-v014.png",
+        "sha256": "efffc90b40fa25e759b4868a6f37b7512af37f61f01e7b7c9b53dc10666a07f4",
+        "version": "v014",
+        "label": "Landscape candidate v014",
+        "displayLabel": "Landscape candidate v014",
+        "dimensions_px": "1672x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v014; exact SHA-256 efffc90b40fa25e759b4868a6f37b7512af37f61f01e7b7c9b53dc10666a07f4. Skin-only 17x17 median samples: Yashoda (178,103,64), R−B 114; Nandagopan (172,98,60), R−B 112; toddler Krishna (65,90,187), B−R 122. Veil covers Yashoda’s gathered hair; cream headcloth and moustache are present on Nandagopan. Moon disk visibly rests on both palms; enlarged crops show thumb plus four fingers on each hand. Child has one body, two attached arms, five toes on each visible foot and bare forehead. No extra people, text or watermark. Source photo 011 is a broad moon/cosmic reference with a floating child, no parents or branch; the canonical scene follows the stanza and includes both parents and the branch. Independent exact-checksum review pending; not art approval.",
+      "comparison_path": "intake/D045/comparisons/s011-landscape-v014-comparison-v002.png",
+      "comparison_sha256": "94461fca3d1de8b209c07150611311322a3bc05f1c9c142ad5f942f89f8591f1",
+      "comparison_dimensions": "2240x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s011-landscape-v014-finalplan-producer-v003.md",
+        "sha256": "753389ea48eed04ae66341a3210c0fe3d0706be3b975bfd8794e23acdfcabc29"
+      }
+    },
+    {
+      "n": 12,
+      "concept_id": "d045-s012",
+      "scene": "Nanda is briefly immersed in a serene Brahman-ocean vision in which the universal, blissful Krishna fills the cosmos; the vision resolves to the familiar child form that renews the father’s tender son-delusion.",
+      "reference": {
+        "file": "intake/D045/012.jpg",
+        "sha256": "ffc5f0ffb06cba90afa15a270db5c82c87ba483ba665bbe628b47bfea887b207",
+        "version": "source",
+        "label": "D045 numbered source photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d045/s012/landscape/candidate-v005.png",
+        "sha256": "1ef90c9aa1a7ea8f83a1ed7dc8ad308d83a298dab89ade2da7cbdd7cc6a475fd",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
+        "dimensions_px": "1671x941"
+      },
+      "alternates": [],
+      "candidate_status": "Producer review pass v005; exact SHA-256 1ef90c9aa1a7ea8f83a1ed7dc8ad308d83a298dab89ade2da7cbdd7cc6a475fd. Nandagopan face patches R−B 104–106 and forearm R−B 101; Krishna cheek B−R 127; visible child hand shows five fingers and visible foot five toes. Nanda support-hand thumb and far-side child foot are occluded. Independent exact-checksum review pending; not art approval.",
+      "comparison_path": "intake/D045/comparisons/s012-landscape-v005-comparison-v001.png",
+      "comparison_sha256": "96dbdfab45ecf6725b5e4cdd804d33bd93c682d6af1393b33aa0c9dcbe3ee00d",
+      "comparison_dimensions": "2240x720",
+      "producer_review": {
+        "file": "art/reviews/d045-s012-landscape-v005-finalplan-producer-v003.md",
+        "sha256": "79175c04c0dd200137819435c705defc306290697469ed98ac2350de02f7e684"
+      }
+    }
+  ],
+  "candidate_status": "Unapproved; producer visual passes recorded for all twelve exact candidate versions; independent exact-checksum review pending.",
+  "plan_sha256": "989e6f5259e75c52c884a895ac6b739448a61578a971a1b27add3a21058bea60",
+  "batch_version": "v006"
+}

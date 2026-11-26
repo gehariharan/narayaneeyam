@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "daskam_id": 45,
+  "slug": "d045",
+  "continuity": {
+    "anchor_character": "krishna-vraja-toddler",
+    "recurring_characters": [
+      "Krishna",
+      "Balarama",
+      "Yashoda",
+      "Nandagopan",
+      "Rohini",
+      "Vraja gopikas",
+      "Vraja cowherd boys"
+    ],
+    "locations": [
+      "Vraja household courtyard",
+      "village lanes and homes",
+      "cosmic-ocean vision"
+    ],
+    "narrative_arc": "Early twin-child play moves from crawling and laughter through maternal care into toddler mischief and the gopikas’ affection, then closes with the moon-fruit wonder and the father’s momentary universal vision.",
+    "krishna_form_contract": "Use art/bible/characters/krishna-vraja-toddler/character.json: one age-appropriate deep-indigo two-armed infant/toddler Krishna, bare forehead, short curls, simple muted yellow cloth, ordinary connected anatomy. Stanzas 11–12 use cosmic surroundings around the same physical child, never extra limbs or a duplicate Krishna.",
+    "supporting_character_contract": "Use the declared character files for Balarama, Yashoda, Nandagopan, gopikas and sages; use D045 Rohini and vraja-boys files only for those distinct characters. Every cast ID maps to a character sheet.",
+    "rendering_references": [
+      "artifacts/d001/s004/landscape/master.png",
+      "artifacts/d001/s008/landscape/master.png"
+    ],
+    "palette_arc": "Traditional matte South Indian mural: dark brown contours, burnt sienna, earth ochre, deep maroon, warm cream and muted olive; reserve deep indigo for Krishna. Painted ochre ornament only.",
+    "reference_mapping": "Numbered photo-caption mapping remains faithful. Item 003 has a visual/caption conflict: its picture resembles stanza 4 mud-cleaning, while its number and caption 3 concern the twins running and looking back. Photos 004–005 are near-duplicate nursing scenes for stanza 5, not independent coverage. Photos 006–008 and 012 are broad mood only. Captions remain verbatim commentary; canonical Sanskrit controls each scene. Never copy watermarks, interface icons, text, numbering or overlays.",
+    "portrait_status": "paused"
+  },
+  "character_bible_refs": [
+    "art/bible/characters/balarama/character.json",
+    "art/bible/characters/gopikas/character.json",
+    "art/bible/characters/krishna-vraja-toddler/character.json",
+    "art/bible/characters/nandagopan/character.json",
+    "art/bible/characters/rohini/character.json",
+    "art/bible/characters/sages/character.json",
+    "art/bible/characters/vraja-boys/character.json",
+    "art/bible/characters/yashoda/character.json"
+  ],
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d045-s001",
+      "characters": [
+        "krishna-vraja-toddler",
+        "balarama"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Two very young brothers crawl briskly on hands and knees through a household courtyard, their moving feet and anklets making the scene’s central rhythm.",
+          "Keep both children distinct and infant/toddler scale, with ordinary two-arm anatomy and simple anklets."
+        ],
+        "composition": "Two very young brothers crawl briskly on hands and knees through a household courtyard, their moving feet and anklets making the scene’s central rhythm. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "Two very young brothers crawl briskly on hands and knees through a household courtyard, their moving feet and anklets making the scene’s central rhythm.",
+      "reference_paths": [
+        "intake/D045/001.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 001 broadly matches the crawling twins; its source style is not an art-style reference.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v007",
+          "candidate_path": "artifacts/d045/s001/landscape/candidate-v007.png",
+          "prompt_path": "artifacts/d045/s001/landscape/prompt-submitted-v007.txt",
+          "provenance_path": "artifacts/d045/s001/landscape/provenance-v007.json",
+          "native_dimensions": "1672x941",
+          "candidate_status": "Producer review pass v007; exact SHA-256 8ab7fb4a0457e8f40d0d2978cd313ae5ec2473108bbcc1d78467d8117aa32db2. Balarama R−B medians 98–103; Krishna B−R 58–66; all four visible hands show five digits and all four feet five toes. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d045-s002",
+      "characters": [
+        "krishna-vraja-toddler",
+        "balarama"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Both boys smile with small new teeth visible; loose curls fall across their faces, lotus feet show beneath their garments, and armlets have slipped toward their wrists.",
+          "Arrange the twins side-by-side with clear natural hands, feet and jewelry; avoid exaggerated teeth or duplicated faces."
+        ],
+        "composition": "Both boys smile with small new teeth visible; loose curls fall across their faces, lotus feet show beneath their garments, and armlets have slipped toward their wrists. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "Both boys smile with small new teeth visible; loose curls fall across their faces, lotus feet show beneath their garments, and armlets have slipped toward their wrists.",
+      "reference_paths": [
+        "intake/D045/002.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 002 is a strong episode match and guides the twin-child action only.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d045/s002/landscape/candidate-v004.png",
+          "prompt_path": "artifacts/d045/s002/landscape/prompt-submitted-v004.txt",
+          "provenance_path": "artifacts/d045/s002/landscape/provenance-v004.json",
+          "native_dimensions": "1672x941",
+          "candidate_status": "Producer review pass v004; exact SHA-256 cb611b459b16a7d4795095b50fdf699729ef148a1636442a01014e865dae4fee. Balarama R−B 110–112; Krishna B−R 64–67; all four visible hands show five digits and all four feet five toes. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d045-s003",
+      "characters": [
+        "krishna-vraja-toddler",
+        "balarama",
+        "vraja-boys"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "A small following crowd watches as the twins run away after an enchanting smile, then both turn their lotus faces back over their shoulders toward the people.",
+          "Make the run and backward glances legible in one wide moment; no falling, mud-cleaning or mothers lifting the boys."
+        ],
+        "composition": "A small following crowd watches as the twins run away after an enchanting smile, then both turn their lotus faces back over their shoulders toward the people. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "A small following crowd watches as the twins run away after an enchanting smile, then both turn their lotus faces back over their shoulders toward the people.",
+      "reference_paths": [
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "The source comparison still maps photo 003 to stanza 3 by number/caption, but the image itself depicts mud-cleaning from stanza 4. Because this visual conflicts with caption 3, it is excluded from ImageGen inputs. Generate only from canonical stanza 3 and its verbatim caption; do not depict mud. The review page will show photo 003 with the mismatch notice.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v012",
+          "candidate_path": "artifacts/d045/s003/landscape/candidate-v012.png",
+          "prompt_path": "artifacts/d045/s003/landscape/prompt-submitted-v012.txt",
+          "provenance_path": "artifacts/d045/s003/landscape/provenance-v012.json",
+          "native_dimensions": "1671x941",
+          "candidate_status": "Producer review pass with disclosed color deviation v012; exact SHA-256 d3aa1c1ff9166ec9293b14a36f44a548ca85e0e13100b837d66fdf047bbbad5f. Both main boys are fully visible head-to-toe with ground below their feet; enlarged crops show five digits on each of their four open hands and five toes on each of the four visible feet. Skin-only 17x17 medians: Balarama cheek R−B 128 at (720,260), forearm R−B 132 at (470,420), both above the approximate 120 guide but visually warm brown; Krishna cheek B−R 73 at (1245,275) and arm B−R 77 at (980,510). Three distant followers remain distinct; their face patches are too small for reliable sampling. Independent exact-checksum review pending; this is not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d045-s004",
+      "characters": [
+        "krishna-vraja-toddler",
+        "balarama",
+        "yashoda",
+        "rohini",
+        "sages"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "After quick movement both children have fallen and risen with mud on their clothes and limbs; two mothers, Rohini and Yashoda, arrive, lift them tenderly, embrace them and kiss them repeatedly. Small heavenly sages smile and worship from above.",
+          "Keep the muddy twins and both distinct mothers central; sages remain a small calm upper register. No injury or fear."
+        ],
+        "composition": "After quick movement both children have fallen and risen with mud on their clothes and limbs; two mothers, Rohini and Yashoda, arrive, lift them tenderly, embrace them and kiss them repeatedly. Small heavenly sages smile and worship from above. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "After quick movement both children have fallen and risen with mud on their clothes and limbs; two mothers, Rohini and Yashoda, arrive, lift them tenderly, embrace them and kiss them repeatedly. Small heavenly sages smile and worship from above.",
+      "reference_paths": [
+        "intake/D045/003.jpg",
+        "intake/D045/004.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 003 visually depicts mud-cleaning but remains numbered/captioned as item 3; it is an explicitly noted visual conflict, not a silent remap. Photo 004 is a nursing image and does not independently cover stanza 4.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v018",
+          "candidate_path": "artifacts/d045/s004/landscape/candidate-v018.png",
+          "prompt_path": "artifacts/d045/s004/landscape/prompt-submitted-v018.txt",
+          "provenance_path": "artifacts/d045/s004/landscape/provenance-v018.json",
+          "native_dimensions": "1671x941",
+          "candidate_status": "Selected S004 v018 after the two authorized repairs; exact SHA-256 67ae49667d9e66e9be39832bfff1d5408012de145b49f85ded74f1bb61474959. Newly generated plain irregular mud smears are visible on the exposed arms and legs of both children, with existing clothing mud retained; no decorative rosettes or face mud. Skin-only 17x17 median samples: Yashoda (188,116,73), R−B 115 at (360,380); Rohini (190,118,75), R−B 115 at (1330,365); Balarama (186,115,73), R−B 113 at (1010,380) and (188,116,72), R−B 116 at (1080,390); Krishna (80,104,217), B−R 137 at (630,350). Mothers and children remain visually distinct; Rohini’s eyes are level; Yashoda’s closed eyelids are level; Krishna’s forehead is bare. Five toe tips are clear on Krishna’s visible foot and Balarama’s foreground foot; Balarama’s farther foot is partly covered by clothing, with three toe tips separable. Some hand digits are occluded where children touch the mothers or hair; exposed contours show no malformed or extra digits. Photo 004 remains a nursing mismatch; photo 003’s stanza-number/caption conflict stays disclosed. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d045-s005",
+      "characters": [
+        "krishna-vraja-toddler",
+        "yashoda"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Yashoda holds infant Krishna securely on her lap and feeds him; he pauses and gives her a soft charming smile with tiny budding teeth.",
+          "One intimate maternal moment with secure support and natural hand placement; no second Krishna."
+        ],
+        "composition": "Yashoda holds infant Krishna securely on her lap and feeds him; he pauses and gives her a soft charming smile with tiny budding teeth. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "Yashoda holds infant Krishna securely on her lap and feeds him; he pauses and gives her a soft charming smile with tiny budding teeth.",
+      "reference_paths": [
+        "intake/D045/005.jpg",
+        "intake/D045/004.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photos 004 and 005 are near-duplicate nursing references, not independent scene coverage. Photo 005 is the numbered stanza-5 anchor; do not count photo 004 as separate coverage.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v009",
+          "candidate_path": "artifacts/d045/s005/landscape/candidate-v009.png",
+          "prompt_path": "artifacts/d045/s005/landscape/prompt-submitted-v009.txt",
+          "provenance_path": "artifacts/d045/s005/landscape/provenance-v009.json",
+          "native_dimensions": "1672x941",
+          "candidate_status": "Producer review pass v009; exact SHA-256 5f4c72b555b8974501fa4651630add684c70a2bdef549741a63077c5d6766935. Yashoda skin-only 17x17 median R−B 116; Krishna B−R 122. The child is nestled at the fully covered nursing place in a brief pause, looking up with two tiny budding teeth; mouth is smiling and slightly separated from cloth as the planned pause between feeds. No breast is exposed. Krishna’s visible open hand has thumb plus four fingers; both feet are fully concealed under swaddling. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d045-s006",
+      "characters": [
+        "krishna-vraja-toddler",
+        "vraja-boys"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Newly walking Krishna plays among village homes with young gopa boys, chases a parrot, a cat and calves, and is gently stopped by laughing boys.",
+          "Use a clear foreground chase and a gentle redirection; retain the stanza’s animals without crowding or fused bodies."
+        ],
+        "composition": "Newly walking Krishna plays among village homes with young gopa boys, chases a parrot, a cat and calves, and is gently stopped by laughing boys. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "Newly walking Krishna plays among village homes with young gopa boys, chases a parrot, a cat and calves, and is gently stopped by laughing boys.",
+      "reference_paths": [
+        "intake/D045/006.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 006 is broad pastoral/Krishna mood only; it does not show the chase, household parrot/cat, calves or boys restraining him.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d045/s006/landscape/candidate-v004.png",
+          "prompt_path": "artifacts/d045/s006/landscape/prompt-submitted-v004.txt",
+          "provenance_path": "artifacts/d045/s006/landscape/provenance-v004.json",
+          "native_dimensions": "1671x941",
+          "candidate_status": "Producer review pass v004; exact SHA-256 46a7cb9d9355cd860cfb270e65c01ef13a3e3226e203ba6fa5cfad858b9e029e. Krishna B−R 81 and 80; boys R−B 100, 108 and 101; visible feet show five toes; Krishna’s extended hand shows thumb plus four fingers. An independent reviewer reported a third arm; Firstmate inspected the enlarged arm-grip crop and counted two arms: the gopa boy grips Krishna’s left arm, whose hand hangs below the grip, and Krishna’s other arm stretches toward the calves. S006 v004 remains selected unchanged. Independent exact-checksum review pending; this is not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d045-s007",
+      "characters": [
+        "krishna-vraja-toddler",
+        "balarama",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna and Balarama travel together along a Vraja lane. Gopikas at separate doorways pause chores and turn to watch, momentarily forgetting household and childcare duties.",
+          "Show both brothers together and distinct women leaving simple tasks; no dance circle or duplicate Krishna."
+        ],
+        "composition": "Krishna and Balarama travel together along a Vraja lane. Gopikas at separate doorways pause chores and turn to watch, momentarily forgetting household and childcare duties. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "Krishna and Balarama travel together along a Vraja lane. Gopikas at separate doorways pause chores and turn to watch, momentarily forgetting household and childcare duties.",
+      "reference_paths": [
+        "intake/D045/007.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 007 shows Krishna with dancing women and lacks Balarama; broad gopi/Krishna mood only, not a literal scene model.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v004",
+          "candidate_path": "artifacts/d045/s007/landscape/candidate-v004.png",
+          "prompt_path": "artifacts/d045/s007/landscape/prompt-submitted-v004.txt",
+          "provenance_path": "artifacts/d045/s007/landscape/provenance-v004.json",
+          "native_dimensions": "1672x941",
+          "candidate_status": "Producer review pass v004; exact SHA-256 00a989cc7aa73d46c72dfa9d02f43430dc27b944eba7616fb3adf6decb708ec3. Gopika cheek patches R−B 112, 110 and 108; Balarama R−B 106; Krishna visibly deep indigo; both child feet show five toes. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d045-s008",
+      "characters": [
+        "krishna-vraja-toddler",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Gopikas offer freshly made butter; Krishna sings sweetly and dances gently, then accepts ghee and drinks freshly boiled milk.",
+          "Suggest the sequence through one coherent gathering with butter and a warm milk vessel, gentle singing/dance posture and no theatrical performance."
+        ],
+        "composition": "Gopikas offer freshly made butter; Krishna sings sweetly and dances gently, then accepts ghee and drinks freshly boiled milk. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "Gopikas offer freshly made butter; Krishna sings sweetly and dances gently, then accepts ghee and drinks freshly boiled milk.",
+      "reference_paths": [
+        "intake/D045/008.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 008 is broad butter/gopika context only and does not show singing, dancing or fresh milk; canonical text governs.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v008",
+          "candidate_path": "artifacts/d045/s008/landscape/candidate-v008.png",
+          "prompt_path": "artifacts/d045/s008/landscape/prompt-submitted-v008.txt",
+          "provenance_path": "artifacts/d045/s008/landscape/provenance-v008.json",
+          "native_dimensions": "1670x942",
+          "candidate_status": "Producer review pass v008; exact SHA-256 704984a7051aa8e5d8ce279ac026c7810711ed1cf8127c1fb2792720a4bc408a. Krishna cheek B−R 70; three gopika cheeks R−B 114, 112 and 111; both visible feet show five toes; partial hand occlusion by milk vessel/ghee has no visible digit defect. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d045-s009",
+      "characters": [
+        "krishna-vraja-toddler",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Krishna quietly steals curd and ghee from a village woman’s household pot with a clever graceful childlike movement, having decided not to ask the gopikas for it.",
+          "Show stealth through posture and an elevated pot; no text or literal Vamana flashback, no extra Krishna."
+        ],
+        "composition": "Krishna quietly steals curd and ghee from a village woman’s household pot with a clever graceful childlike movement, having decided not to ask the gopikas for it. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "Krishna quietly steals curd and ghee from a village woman’s household pot with a clever graceful childlike movement, having decided not to ask the gopikas for it.",
+      "reference_paths": [
+        "intake/D045/009.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 009 strongly matches butter-pot theft but contains interface icons; exclude icons and every overlay. The canonical contrast with Vamana is not rendered as a second scene.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d045/s009/landscape/candidate-v005.png",
+          "prompt_path": "artifacts/d045/s009/landscape/prompt-submitted-v005.txt",
+          "provenance_path": "artifacts/d045/s009/landscape/provenance-v005.json",
+          "native_dimensions": "1672x941",
+          "candidate_status": "Producer review pass v005; exact SHA-256 1f87de081ac241a0ec56f4fa7fd47c6afe264299c5009a1685e791e3c27aa449. Krishna cheek B−R 130 and gopika cheek R−B 109; left foot shows five toes; foreshortened right foot has three visible toe tips; pot-reaching hand is partly occluded, with no visible malformed digit. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d045-s010",
+      "characters": [
+        "krishna-vraja-toddler",
+        "gopikas"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "The gopikas’ faces show delight rather than anger as Krishna takes curd and ghee; his affection leaves them joyful, as though their hearts are carried into a sea of bliss.",
+          "One child Krishna among distinct women; express bliss with calm shared faces and a soft village-water motif, never literal floating hearts."
+        ],
+        "composition": "The gopikas’ faces show delight rather than anger as Krishna takes curd and ghee; his affection leaves them joyful, as though their hearts are carried into a sea of bliss. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "The gopikas’ faces show delight rather than anger as Krishna takes curd and ghee; his affection leaves them joyful, as though their hearts are carried into a sea of bliss.",
+      "reference_paths": [
+        "intake/D045/010.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 010 broadly matches butter theft and gopika response; ignore its glossy reference rendering and use the series mural style.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v006",
+          "candidate_path": "artifacts/d045/s010/landscape/candidate-v006.png",
+          "prompt_path": "artifacts/d045/s010/landscape/prompt-submitted-v006.txt",
+          "provenance_path": "artifacts/d045/s010/landscape/provenance-v006.json",
+          "native_dimensions": "1672x941",
+          "candidate_status": "Producer review pass v006; exact SHA-256 264c643f9f1a092ce259a52fa1187b6ebe44fdc0321950a59d3bc2420e6898db. Skin-only 17x17 face medians: left gopika R−B 108 at (320,325), upper-center gopika R−B 118 at (630,175), right gopika R−B 113 at (1200,190); Krishna cheek B−R 136 at (850,340). The right-face orange cast is corrected. Krishna’s visible open hands show five digits each; the visible foot shows five toes, with the other foot obscured by the seated pose and pot. Independent exact-checksum review pending; this is not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 11,
+      "concept_id": "d045-s011",
+      "characters": [
+        "krishna-vraja-toddler",
+        "yashoda",
+        "nandagopan"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Beside a tree branch, the child points toward the moon and repeatedly asks his mother and father for it as a fruit. As he reaches with both arms, the moon comes into his hands and the scene opens into restrained cosmic radiance around his single child body.",
+          "Include branch, parents and moon reaching the child; show cosmic transformation through the same body, not another Krishna or extra limbs."
+        ],
+        "composition": "Beside a tree branch, the child points toward the moon and repeatedly asks his mother and father for it as a fruit. As he reaches with both arms, the moon comes into his hands and the scene opens into restrained cosmic radiance around his single child body. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "Beside a tree branch, the child points toward the moon and repeatedly asks his mother and father for it as a fruit. As he reaches with both arms, the moon comes into his hands and the scene opens into restrained cosmic radiance around his single child body.",
+      "reference_paths": [
+        "intake/D045/011.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 011 is a strong moon/cosmic symbol but omits parents and the branch. Its watermark is excluded.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v014",
+          "candidate_path": "artifacts/d045/s011/landscape/candidate-v014.png",
+          "prompt_path": "artifacts/d045/s011/landscape/prompt-submitted-v014.txt",
+          "provenance_path": "artifacts/d045/s011/landscape/provenance-v014.json",
+          "native_dimensions": "1672x941",
+          "candidate_status": "Producer review pass v014; exact SHA-256 efffc90b40fa25e759b4868a6f37b7512af37f61f01e7b7c9b53dc10666a07f4. Skin-only 17x17 median samples: Yashoda (178,103,64), R−B 114; Nandagopan (172,98,60), R−B 112; toddler Krishna (65,90,187), B−R 122. Veil covers Yashoda’s gathered hair; cream headcloth and moustache are present on Nandagopan. Moon disk visibly rests on both palms; enlarged crops show thumb plus four fingers on each hand. Child has one body, two attached arms, five toes on each visible foot and bare forehead. No extra people, text or watermark. Source photo 011 is a broad moon/cosmic reference with a floating child, no parents or branch; the canonical scene follows the stanza and includes both parents and the branch. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    },
+    {
+      "n": 12,
+      "concept_id": "d045-s012",
+      "characters": [
+        "krishna-vraja-toddler",
+        "nandagopan"
+      ],
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Nanda is briefly immersed in a serene Brahman-ocean vision in which the universal, blissful Krishna fills the cosmos; the vision resolves to the familiar child form that renews the father’s tender son-delusion.",
+          "Keep one physical child; portray ocean and universal vision as cosmic surroundings that settle back into the child, with Nanda present and safe."
+        ],
+        "composition": "Nanda is briefly immersed in a serene Brahman-ocean vision in which the universal, blissful Krishna fills the cosmos; the vision resolves to the familiar child form that renews the father’s tender son-delusion. Compose as a readable full-bleed 16:9 mural.",
+        "tone": "Tender devotional childhood narrative, clear silhouettes, quiet humor and compassion; flat matte mineral fields with firm dark contours.",
+        "avoid": [
+          "No readable text, captions, signatures, logos, watermarks, numbering, interface icons or overlays.",
+          "No outer border, gloss, metallic gold, silk sheen, cinematic beams, rays or shafts.",
+          "Natural connected human anatomy; no extra/missing digits, duplicate/fused people, detached limbs or malformed faces.",
+          "Krishna is deep indigo-blue (blue-minus-red at least 40), with plain bare forehead, short curls and infant/toddler proportions.",
+          "Warm-brown human skin remains clearly brown, not saturated orange; skin-only red-minus-blue under about 120.",
+          "Keep clothing and age consistent with declared character contracts."
+        ]
+      },
+      "alt": "Nanda is briefly immersed in a serene Brahman-ocean vision in which the universal, blissful Krishna fills the cosmos; the vision resolves to the familiar child form that renews the father’s tender son-delusion.",
+      "reference_paths": [
+        "intake/D045/012.jpg",
+        "artifacts/d001/s004/landscape/master.png",
+        "artifacts/d001/s008/landscape/master.png"
+      ],
+      "reference_guidance": "Photo 012 is only generic cosmic-Krishna mood; it omits father, ocean immersion and return to child form and bears a watermark. Do not reproduce either.",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape comparison mural",
+          "composition_override": "Independently composed wide landscape illustration; no portrait crop or mechanical extension.",
+          "candidate_version": "v005",
+          "candidate_path": "artifacts/d045/s012/landscape/candidate-v005.png",
+          "prompt_path": "artifacts/d045/s012/landscape/prompt-submitted-v005.txt",
+          "provenance_path": "artifacts/d045/s012/landscape/provenance-v005.json",
+          "native_dimensions": "1671x941",
+          "candidate_status": "Producer review pass v005; exact SHA-256 1ef90c9aa1a7ea8f83a1ed7dc8ad308d83a298dab89ade2da7cbdd7cc6a475fd. Nandagopan face patches R−B 104–106 and forearm R−B 101; Krishna cheek B−R 127; visible child hand shows five fingers and visible foot five toes. Nanda support-hand thumb and far-side child foot are occluded. Independent exact-checksum review pending; not art approval."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait paused",
+          "composition_override": "Portrait production is paused; do not generate."
+        }
+      }
+    }
+  ]
+}
