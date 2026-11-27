@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "daskam": 22,
+  "caption_path": "intake/D022/photo-captions.txt",
+  "caption_sha256": "013e20671d4750fb989aacdb15df1556c31d68b7004fc7896902983d1a483109",
+  "caption_origin": "intake/D022/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D022/facebook-source.json",
+  "facebook_source_sha256": "3ecbbfb3ebfd054ee315962f564428a94b293a8e223ce84f91c3a0c8e7f96ca4",
+  "post_caption": "intake/D022/facebook-post-caption.txt",
+  "post_caption_sha256": "eeb74c745a6643a5992c98719c018c1b21a8a035a6aec88d08149efbbf98533b",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-22-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d022/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "f5bef60f1c73048863a5d81af403b3a2d6697ec191dab44073ea6d88c1d9f203",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-22-in-english/",
+    "romanization_raw": "artifacts/d022/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "f0dd7c65493ad6f814df9e0fe8e9ec23996be786d1ce6a3e179004a21a91786f",
+    "sanskrit_heading": "नारायणीयं द्वाविंशतिदशकम् (२२) – अजामिलोपाख्यानम्",
+    "romanization_heading": "nārāyaṇīyaṃ dvāviṃśatidaśakam (22) – ajāmilopākhyānam",
+    "completion_marker": "iti dvāviṃśadaśakaṃ samāptam ||",
+    "evidence": "11 numbered stanzas 22-1 through 22-11 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {
+    "6": [
+      "facebook-truncated"
+    ]
+  },
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "nostanza-01.jpg",
+    "6": "nostanza-01.jpg",
+    "8": "008.jpg",
+    "10": "nostanza-02.jpg",
+    "11": "011.jpg"
+  },
+  "stanza_gaps": {
+    "6": {
+      "commentary": "truncated",
+      "reason": "Facebook caption truncated at \"See more\""
+    },
+    "7": {
+      "reference_picture": "missing",
+      "commentary": "missing",
+      "reason": "not present in the Facebook intake"
+    },
+    "9": {
+      "reference_picture": "missing",
+      "commentary": "missing",
+      "reason": "not present in the Facebook intake"
+    }
+  }
+}

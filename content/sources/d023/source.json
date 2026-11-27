@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "daskam": 23,
+  "caption_path": "intake/D023/photo-captions.txt",
+  "caption_sha256": "66a0b0251001fbf969dcb916b277bab3163f6b518a3c8b5ea24985412a2ba356",
+  "caption_origin": "intake/D023/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D023/facebook-source.json",
+  "facebook_source_sha256": "4b3dd8226b2219c45c315ca9545e1346de8de7ae7d0886276deff430dee21a29",
+  "post_caption": "intake/D023/facebook-post-caption.txt",
+  "post_caption_sha256": "6847cd7492b25fe0d61d5ff1893da51ada5ad8436c921225a39e4f0aeb1b83e6",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-23-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d023/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "87589b4aec8ac60da0747f1cab64a95f64187bfe55148cf2f473072fcc1c6972",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-23-in-english/",
+    "romanization_raw": "artifacts/d023/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "8e1c10bedc6d276873363768015d4697dd9417132fde6d6e1fd9758a576bf1b2",
+    "sanskrit_heading": "नारायणीयं त्रयोविंशतिदशकम् (२३) – दक्षचरितं तथा चित्रकेतूपाख्यानम्",
+    "romanization_heading": "nārāyaṇīyaṃ trayoviṃśatidaśakam (23) – dakṣacaritaṃ tathā citraketūpākhyānam",
+    "completion_marker": "iti trayoviṃśadaśakaṃ samāptam ||",
+    "evidence": "11 numbered stanzas 23-1 through 23-11 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "daskam": 21,
+  "caption_path": "intake/D021/photo-captions.txt",
+  "caption_sha256": "e01078b0944311062f6ba2d1cd918248a9ca096b3e049eb118f5d126f208077a",
+  "caption_origin": "intake/D021/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D021/facebook-source.json",
+  "facebook_source_sha256": "2629ba82de0c0e3b08aae4c0fe7cdbe97775b84f769f1206bce1977e8004817e",
+  "post_caption": "intake/D021/facebook-post-caption.txt",
+  "post_caption_sha256": "871b37628e6e1160c6d7053ee42ea196623a5fa1cc66f24fa8faab3eb2513069",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-21-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d021/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "501989dae4db880d869647a2554629c2fa84cfc4a760b5c266934d63717adfde",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-21-in-english/",
+    "romanization_raw": "artifacts/d021/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "81e52bd88f5c136dd6f496a827192f139666d9c9324755ed547a0edc792995f6",
+    "sanskrit_heading": "नारायणीयं एकविंशदशकम् (२१) – नव वर्षाः तथा सप्तद्वीपाः । जम्बूद्वीपादिषु उपासनापद्धतिः ।",
+    "romanization_heading": "nārāyaṇīyaṃ ekaviṃśadaśakam (21) – nava varṣāḥ tathā saptadvīpāḥ | jambūdvīpādiṣu upāsanāpaddhatiḥ |",
+    "completion_marker": "iti ekaviṃśadaśakaṃ samāptam ||",
+    "evidence": "12 numbered stanzas 21-1 through 21-12 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg",
+    "12": "012.jpg"
+  }
+}

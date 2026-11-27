@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "daskam_id": 15,
+  "status": "source-mapped-needs-review",
+  "mapping_basis": "Pictures follow the intake naming convention: NNN.jpg is the first picture whose own Facebook caption states stanza #N; NNN-2.jpg and later are further pictures for that stanza; nostanza-NN.jpg have no stated stanza and stay unmapped. A picture whose caption labels several stanzas (for example \"#5 & #6\") is mapped to each of them. Source photos are contextual references only; canonical Sanskrit governs scene interpretation.",
+  "canonical_source": "https://stotranidhi.com/hi/narayaneeyam-dasakam-15-in-sanskrit/",
+  "romanization_source": "https://stotranidhi.com/en/narayaneeyam-dasakam-15-in-english/",
+  "caption_source": "intake/D015/photo-captions.txt",
+  "facebook_caption_source": "intake/D015/facebook-photo-captions.txt",
+  "images": [
+    {
+      "stanza": 1,
+      "role": "primary",
+      "path": "intake/D015/001.jpg",
+      "sha256": "fd58dc1a47c46f827e893df97007fb1b43115ce5b53715f1d0f1939adfecc06e",
+      "bytes": 64527,
+      "width": 612,
+      "height": 614,
+      "facebook_file": "D015/D015-2024-04-02-1.jpg",
+      "posted": "2024-04-02"
+    },
+    {
+      "stanza": 2,
+      "role": "primary",
+      "path": "intake/D015/002.jpg",
+      "sha256": "44fb92c1fc7058f8af0b055b6d01cc492f421cb328e0209437e4e035b9a2935b",
+      "bytes": 16763,
+      "width": 608,
+      "height": 340,
+      "facebook_file": "D015/D015-2024-04-02-3.jpg",
+      "posted": "2024-04-02"
+    },
+    {
+      "stanza": 3,
+      "role": "primary",
+      "path": "intake/D015/003.jpg",
+      "sha256": "33351b954f631cfdcd910d66f20100b7eaf59aac5afbedd77d3b4c732421060f",
+      "bytes": 11122,
+      "width": 298,
+      "height": 169,
+      "facebook_file": "D015/D015-2024-04-02-5.jpg",
+      "posted": "2024-04-02"
+    },
+    {
+      "stanza": 4,
+      "role": "primary",
+      "path": "intake/D015/004.jpg",
+      "sha256": "5234bedc4e8f16ac87d29ee87b538f1a01d594552be0b7e66510c1e16109ca1a",
+      "bytes": 178054,
+      "width": 1200,
+      "height": 630,
+      "facebook_file": "D015/D015-2024-04-02-6.jpg",
+      "posted": "2024-04-02"
+    },
+    {
+      "stanza": 5,
+      "role": "primary",
+      "path": "intake/D015/005.jpg",
+      "sha256": "d1e8a4f997e17fdada7a5e8659f0f0f4d3de72ae9832def7cbd68744e907b216",
+      "bytes": 35955,
+      "width": 641,
+      "height": 689,
+      "facebook_file": "D015/D015-2024-04-02-8.jpg",
+      "posted": "2024-04-02"
+    },
+    {
+      "stanza": 6,
+      "stanzas": [
+        6,
+        7,
+        8
+      ],
+      "role": "primary",
+      "path": "intake/D015/006.jpg",
+      "sha256": "d1b34ceaef066734a3096d47e1e3de1a534bde4722152a42492fcbca4676474b",
+      "bytes": 131351,
+      "width": 960,
+      "height": 720,
+      "facebook_file": "D015/D015-2024-04-02-9.jpg",
+      "posted": "2024-04-02"
+    },
+    {
+      "stanza": 7,
+      "stanzas": [
+        6,
+        7,
+        8
+      ],
+      "role": "multi-stanza",
+      "path": "intake/D015/006.jpg",
+      "sha256": "d1b34ceaef066734a3096d47e1e3de1a534bde4722152a42492fcbca4676474b",
+      "bytes": 131351,
+      "width": 960,
+      "height": 720,
+      "facebook_file": "D015/D015-2024-04-02-9.jpg",
+      "posted": "2024-04-02"
+    },
+    {
+      "stanza": 8,
+      "stanzas": [
+        6,
+        7,
+        8
+      ],
+      "role": "multi-stanza",
+      "path": "intake/D015/006.jpg",
+      "sha256": "d1b34ceaef066734a3096d47e1e3de1a534bde4722152a42492fcbca4676474b",
+      "bytes": 131351,
+      "width": 960,
+      "height": 720,
+      "facebook_file": "D015/D015-2024-04-02-9.jpg",
+      "posted": "2024-04-02"
+    },
+    {
+      "stanza": 9,
+      "role": "primary",
+      "path": "intake/D015/009.jpg",
+      "sha256": "5bb6cdfa95b45b1e036baf92fe6cecae4af714a7182c3aa87ce7ee611166cd21",
+      "bytes": 103473,
+      "width": 600,
+      "height": 937,
+      "facebook_file": "D015/D015-2024-04-02-10.jpg",
+      "posted": "2024-04-02"
+    },
+    {
+      "stanza": 10,
+      "role": "primary",
+      "path": "intake/D015/010.jpg",
+      "sha256": "972bfc188e7ce47e3bb5d553e26ed7af5c73666e53fee5eb9127b05d1b0313c4",
+      "bytes": 18262,
+      "width": 254,
+      "height": 300,
+      "facebook_file": "D015/D015-2024-04-02-11.jpg",
+      "posted": "2024-04-02"
+    }
+  ],
+  "unmapped": [
+    {
+      "path": "intake/D015/nostanza-01.jpg",
+      "sha256": "48684ea0144079916f7bc1070c03946438cdc9377235f46dd951458949ac34a8",
+      "bytes": 34113,
+      "width": 422,
+      "height": 336,
+      "facebook_file": "D015/D015-2024-04-02-2.jpg",
+      "posted": "2024-04-02",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D015/nostanza-02.jpg",
+      "sha256": "bee64c818c1aba5ccbc3afb1437134f9882d61b42bcc32ed2cdc6a3258443ae9",
+      "bytes": 50808,
+      "width": 800,
+      "height": 401,
+      "facebook_file": "D015/D015-2024-04-02-4.jpg",
+      "posted": "2024-04-02",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D015/nostanza-03.jpg",
+      "sha256": "25ebb454e7044c37359bee8ab10ea943806089e43bf2b6ea4b426822f012d6be",
+      "bytes": 124870,
+      "width": 1280,
+      "height": 720,
+      "facebook_file": "D015/D015-2024-04-02-7.jpg",
+      "posted": "2024-04-02",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D015/nostanza-04.jpg",
+      "sha256": "e85a65b90170267c243a0145eebc0ae6ca38ef9b439262728033d2e55e815597",
+      "bytes": 154179,
+      "width": 1280,
+      "height": 1212,
+      "facebook_file": "D015/D015-2024-04-02-12.jpg",
+      "posted": "2024-04-02",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D015/nostanza-05.jpg",
+      "sha256": "efa39ecc829509b209bd491911fd5dbce8b07aca36ed697455d932ede8c618e1",
+      "bytes": 153941,
+      "width": 941,
+      "height": 1280,
+      "facebook_file": "D015/D015-2024-04-02-13.jpg",
+      "posted": "2024-04-02",
+      "reason": "no stanza stated in its caption"
+    }
+  ]
+}

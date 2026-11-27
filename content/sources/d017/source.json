@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "daskam": 17,
+  "caption_path": "content/sources/d017/photo-captions.txt",
+  "caption_sha256": "6623651a0700bc1f0f07e8692715a602b612e96da1dd8b5a2f3b1bccf1c888af",
+  "caption_origin": "intake/D017/facebook-photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D017/facebook-source.json",
+  "facebook_source_sha256": "fd36ed38c2f4c0b5f5606b7f0ba3c87fcc558be922eb89902c44d81058e13889",
+  "post_caption": "intake/D017/facebook-post-caption.txt",
+  "post_caption_sha256": "6a48de584da0ee2bfbe03313c6b32515676eff035159444c12d38d4d8228d888",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-17-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d017/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "91b161f0ec5937845b30aa4edaa267ec9961dd14d18a3f2f18e7e89940c68de1",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-17-in-english/",
+    "romanization_raw": "artifacts/d017/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "bedaa9b27a6866231b5444123bf6eef921fe0da5e029238e503ff4a50d54ada6",
+    "sanskrit_heading": "नारायणीयं सप्तदशदशकम् (१७) – ध्रुवचरितम्",
+    "romanization_heading": "nārāyaṇīyaṃ saptadaśadaśakam (17) – dhruvacaritam",
+    "completion_marker": "iti saptadaśadaśakaṃ samāptam ||",
+    "evidence": "11 numbered stanzas 17-1 through 17-11 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg"
+  }
+}

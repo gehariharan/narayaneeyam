@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "daskam": 16,
+  "caption_path": "intake/D016/photo-captions.txt",
+  "caption_sha256": "604cb072ec3323520d2251d1fcb6260a078dd7810a258e2c379d26fcbb893506",
+  "caption_origin": "intake/D016/photo-captions.txt",
+  "source_type": "google-drive-commentary-document",
+  "facebook_source": "intake/D016/facebook-source.json",
+  "facebook_source_sha256": "1468a3f82b815de510a8f1ce7f46032313057fac74f387c389a28bb1732c44a1",
+  "post_caption": "intake/D016/facebook-post-caption.txt",
+  "post_caption_sha256": "3607ef4c5206a3f29586f745dc4b6974552f45601dbf4a57bc4887800a6c2d9d",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-16-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d016/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "9f2f2a1957916bd1a4c19f69225f63e3ea0b9a322dbc42097395c431dec5756c",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-16-in-english/",
+    "romanization_raw": "artifacts/d016/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "082204981db282c4a90983bb5f955aef38b0e4ef05d7e48625f7c1a60d56dfc0",
+    "sanskrit_heading": null,
+    "romanization_heading": "nārāyaṇīyaṃ ṣoḍaśadaśakam (16) – naranārāyaṇāvatāraṃ tathā dakṣayāgaḥ",
+    "completion_marker": "iti ṣoḍaśadaśakaṃ samāptam ||",
+    "evidence": "10 numbered stanzas 16-1 through 16-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "drive-document",
+    "2": "drive-document",
+    "3": "drive-document",
+    "4": "drive-document",
+    "5": "drive-document",
+    "6": "drive-document",
+    "7": "drive-document",
+    "8": "drive-document",
+    "9": "drive-document",
+    "10": "drive-document"
+  }
+}
