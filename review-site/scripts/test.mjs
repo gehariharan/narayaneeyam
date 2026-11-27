@@ -12,24 +12,28 @@ await validateBundle(fileURLToPath(new URL('../..',import.meta.url)), fileURLToP
 const data=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/data.json',import.meta.url)));
 const source=(await fs.readFile(new URL('../worker.mjs',import.meta.url),'utf8')).replace("import data from '../artifacts/review-site/data.json';",`const data=${JSON.stringify(data)};`).replace("from './views.mjs'",`from '${new URL('../views.mjs',import.meta.url).href}'`);
 const {feedback,default:worker,unlockToken}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
-for(const c of data.chapters){const html=renderChapter(c,data.revision);assert.equal((html.match(/class="sloka"/g)||[]).length,c.rows.length);assert.equal((html.match(/<figure>/g)||[]).length,c.rows.reduce((sum,r)=>sum+r.images.length,0));assert.equal((html.match(/data-feedback action/g)||[]).length,c.rows.length);assert.equal((html.match(/class="commentary"/g)||[]).length,c.rows.length);assert.ok(!html.includes('<select'));assert.ok(!html.includes('Editorial review pending'));assert.ok(!html.includes('<footer'));assert.ok(!html.includes('name="name"'));assert.ok(html.includes('Traditional matte mural')||html.includes('Landscape candidate'));assert.ok(!html.includes('Detailed painting'));assert.ok(!html.includes('Glossy mural'));assert.ok(!html.includes('<small>'));for(const r of c.rows)assert.ok(html.includes(r.commentary.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')));for(const r of c.rows)for(const i of r.images)if(i.key)await fs.access(new URL('../../artifacts/review-site/'+i.key,import.meta.url));}
+for(const c of data.chapters){const html=renderChapter(c);assert.equal((html.match(/class="sloka"/g)||[]).length,c.rows.length);assert.equal((html.match(/<figure[ >]/g)||[]).length,c.rows.reduce((sum,r)=>sum+r.images.filter(i=>!i.excluded).length,0));assert.equal((html.match(/<summary>Studio details<\/summary>/g)||[]).length,c.rows.length+(c.reviewNotice?1:0));assert.equal((html.match(/<span class="label">Commentary<\/span>/g)||[]).length,c.rows.length);assert.match(c.revision,/^[a-f0-9]{16}$/);assert.equal((html.match(/data-feedback action/g)||[]).length,c.rows.length);assert.equal((html.match(/class="commentary"/g)||[]).length,c.rows.length);assert.ok(!html.includes('<select'));assert.ok(!html.includes('Editorial review pending'));assert.ok(!html.includes('<footer'));assert.ok(!html.includes('name="name"'));assert.ok(html.includes('Traditional matte mural')||html.includes('Landscape candidate'));assert.ok(!html.includes('Detailed painting'));assert.ok(!html.includes('Glossy mural'));assert.ok(!html.includes('<small>'));for(const r of c.rows)assert.ok(html.includes(r.commentary.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')));for(const r of c.rows)for(const i of r.images)if(i.key)await fs.access(new URL('../../artifacts/review-site/'+i.key,import.meta.url));}
 assert.equal(data.chapters[1].rows.flatMap(r=>r.images).filter(i=>i.key).length,20);
 let written;const env={NARAYANEEYAM_PASSPHRASE:'release-test-passphrase',FEEDBACK_LIMIT:{limit:async()=>({success:true})},DB:{prepare:sql=>({bind:(...args)=>({run:async()=>{written={sql,args}}})})}};
 const unlockCookie=`narayaneeyam_unlock=${await unlockToken(env.NARAYANEEYAM_PASSPHRASE,Math.floor(Date.now()/1000)+3600)}`;
 const unlocked=url=>new Request(url,{headers:{cookie:unlockCookie}});
-const good={daskam:2,sloka:1,message:'Check the hand.',revision:data.revision,website:''};
-const req=(body,origin='https://gehariharan.com')=>new Request('https://gehariharan.com/narayaneeyam/api/feedback',{method:'POST',headers:{'content-type':'application/json',origin},body:JSON.stringify(body)});
+// Each submission carries its own dasakam's revision unless a test sets one explicitly.
+const good={daskam:2,sloka:1,message:'Check the hand.',website:''};
+const req=(body,origin='https://gehariharan.com')=>new Request('https://gehariharan.com/narayaneeyam/api/feedback',{method:'POST',headers:{'content-type':'application/json',origin},body:JSON.stringify('revision' in body?body:{...body,revision:data.chapters.find(c=>c.id===body.daskam)?.revision})});
 assert.equal((await feedback(req(good),env)).status,201);assert.equal(written.args[5],'Check the hand.');assert.ok(written.args[8].includes('matte'));assert.equal(written.args[3],'generated');assert.equal(written.args[4],'other');assert.equal(written.args[6],'');assert.ok(JSON.parse(written.args[8]).every(i=>i.role!=='reference'&&i.key));assert.ok(written.sql.includes('VALUES (?,?,?,?,?,?,?,?,?,?)'));
 assert.equal((await feedback(req(good,'https://evil.example'),env)).status,403);
 assert.equal((await feedback(req({...good,sloka:99}),env)).status,400);
 assert.equal((await feedback(req({...good,revision:'stale'}),env)).status,409);
+assert.equal((await feedback(req({...good,revision:data.revision}),env)).status,409);
+assert.equal((await feedback(req({...good,revision:data.chapters.find(c=>c.id===28).revision}),env)).status,409);
+assert.equal((await feedback(req(good),env)).status,201);assert.equal(written.args[7],data.chapters.find(c=>c.id===2).revision);
 assert.equal((await feedback(req({...good,message:'x'.repeat(9000)}),env)).status,413);
 assert.equal((await feedback(req({...good,website:'spam'}),env)).status,400);
 assert.equal((await feedback(req(good),{...env,FEEDBACK_LIMIT:{limit:async()=>({success:false})}})).status,429);
 assert.equal((await worker.fetch(unlocked('https://gehariharan.com/narayaneeyam/api/feedback'),env)).status,405);
 assert.equal((await worker.fetch(unlocked('https://gehariharan.com/narayaneeyam/media/not-allowed.webp'),env)).status,404);
 for(const path of ['/narayaneeyam/','/narayaneeyam/'+chapterSlug(data.chapters[0].id),'/narayaneeyam/'+Object.keys(data.assets)[0]])assert.equal((await worker.fetch(new Request('https://gehariharan.com'+path),env)).status,401);
-const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';assert.ok(renderChapter(hostile,data.revision).includes('&lt;script&gt;'));
+const hostile=structuredClone(data.chapters[1]);hostile.rows[0].commentary='<script>alert(1)</script>';hostile.rows[0].sanskrit='<img src=x onerror=alert(1)>';assert.ok(renderChapter(hostile).includes('&lt;script&gt;'));assert.ok(!renderChapter(hostile).includes('<img src=x'));
 console.log('Passed: integrated comparison layout, local assets, vetted commentary, generated-only feedback, feedback persistence payload, injection escaping, origin/size/version validation, rate limiting, and closed feedback reads.');
 
 const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import.meta.url)));
@@ -529,6 +533,8 @@ for(const row of full49.rows){
 const previous49=JSON.parse(await fs.readFile(new URL('../../art/batches/d049-comparison-v013.json',import.meta.url)));
 for(const row of selected49.rows)assert.equal(row.matte.sha256,previous49.rows.find(r=>r.n===row.n).matte.sha256);
 assert.ok(full49.reviewNotice.includes('excluded from scene derivation'));
+const page49=renderChapter(full49,full49.revision,'/narayaneeyam/',true,data.chapters);
+for(const row of full49.rows){const ref=row.images.find(i=>i.role==='reference');assert.equal(!!ref.excluded,[1,3,4,6].includes(row.n));assert.equal(page49.includes(`src="/narayaneeyam/${ref.key}"`),!ref.excluded);}
 assert.ok(full49.rows[0].images.find(i=>i.role==='matte').inspectionLabel.includes('not art approval'));
 assert.equal((await feedback(req({...good,daskam:49,sloka:10}),env)).status,201);
 assert.equal((await feedback(req({...good,daskam:49,sloka:11}),env)).status,400);
@@ -813,7 +819,7 @@ async function withLiveFixture(callback, { staleResponses = {}, override, openFe
 let writesBefore=written;
 await withLiveFixture(async base=>verifyLivePages(data,{base,retryDelayMs:0}));
 assert.equal(written,writesBefore,'lock verification must not persist feedback');
-const openPage6=renderChapter(data.chapters.find(c=>c.id===6),data.revision,'/narayaneeyam/',true,data.chapters);
+const openPage6=renderChapter(data.chapters.find(c=>c.id===6),undefined,'/narayaneeyam/',true,data.chapters);
 await withLiveFixture(async base=>verifyLivePages(data,{base,retryDelayMs:0}),{staleResponses:{'/narayaneeyam/':[renderIndex(data),renderIndex(data)],'/narayaneeyam/d006':[openPage6,openPage6,openPage6]}});
 await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for GET \/d006: HTTP 200 \(\/d006 is not locked\)/),{staleResponses:{'/narayaneeyam/d006':Array(6).fill(openPage6)}});
 await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/\/d008 leaks chapter content/),{override:req=>req.url==='/narayaneeyam/d008'?new Response('This site is locked. content="noindex,nofollow" <section class="sloka">',{status:401,headers:{'cache-control':'no-store','x-robots-tag':'noindex, nofollow'}}):undefined});

@@ -81,10 +81,16 @@ selections must have passing inspection evidence. Run `npm test`,
 Detailed/glossy
 candidates are retained only as historical files and are not published. Commentary
 is copied verbatim from content JSON only when its source is an allowlisted Facebook
-photo-caption file or a user-supplied Google Drive commentary file. The pages label
-the columns Reference and Traditional matte mural, with no filenames or editorial
-metadata shown. A small Leave feedback link opens a text box and Submit button below
-each image row.
+photo-caption file or a user-supplied Google Drive commentary file. Each stanza is
+one card, top to bottom: the selected painting (tap to open full size), any
+alternates, the smaller reference photo, then the text: Commentary, an extra
+Translation line where one exists, and the stanza (Sanskrit, then transliteration)
+from `content/daskams/dNNN.json`, with a small note where either is missing. A
+reference photo the batch marks as excluded from scene derivation stays in the
+bundle but is not shown. The review notice, image versions, inspection labels,
+media keys and commentary sources sit in collapsed "Studio details" sections per
+chapter and per card. A small Leave feedback link opens a text box and Submit
+button on each card.
 
 Only the `/narayaneeyam` route family is attached. The existing blog Worker and
 its media bucket and database are not modified. R2 remains private; the review
@@ -129,7 +135,11 @@ The rate limiter is regional, not a global hard quota. There is no public
 feedback listing or browser administration panel. Feedback, like every other
 route, requires the passphrase unlock described above.
 
-Each new record stores the Dasakam, sloka, message, dataset revision and exact
+Each Dasakam has its own revision, a hash of that chapter's bundled data. A
+submission is checked against its own Dasakam's revision, so republishing one
+chapter does not reject feedback forms already open on another.
+
+Each new record stores the Dasakam, sloka, message, Dasakam revision and exact
 generated-image version/key snapshot automatically. Target is `generated`, category
 is `other`, and reviewer name is empty; reference images are excluded. Existing
 feedback records remain unchanged. Retrieve open feedback with:

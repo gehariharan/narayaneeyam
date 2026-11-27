@@ -8,6 +8,7 @@ const fixture = {
   assets: { 'media/d001/s001-matte-v001.webp': { type: 'image/webp', sha256: '0'.repeat(64) } },
   chapters: [{
     id: 1,
+    revision: 'lock-fixture-r1',
     title: 'Dasakam 1',
     description: 'Fixture chapter',
     representative: 'media/d001/s001-matte-v001.webp',
