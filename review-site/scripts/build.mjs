@@ -6,6 +6,7 @@ import { loadSelections } from '../selections.mjs';
 import { validateSelections, reviewFor, validateBundle } from '../image-review.mjs';
 import { renderIndex, renderChapter, chapterSlug, isExcludedReference } from '../views.mjs';
 import { readLog, rowFix } from '../feedback-log.mjs';
+import { vettedCommentary, chapterRevision, contentDasakams, awaitingIds, awaitingChapter, validateAwaiting } from '../awaiting.mjs';
 
 const root = path.resolve(import.meta.dirname, '../..');
 const dest = path.join(root, 'artifacts/review-site');
@@ -23,15 +24,6 @@ async function asset(source, label) {
   provenance.push({ source, sourceHash, key });
   return key;
 }
-function vettedCommentary(stanza, daskam) {
-  const source = stanza.commentary_source || '';
-  const chapter = String(daskam).padStart(3, '0');
-  const allowed = new RegExp(`^(?:intake/D${chapter}/photo-captions\\.txt|content/sources/d${chapter}/(?:photo-captions\\.txt|COMMENTRY\\.txt))#\\d+$`).test(source);
-  if (!allowed) throw new Error(`Unvetted commentary source for D${String(daskam).padStart(3, '0')} S${String(stanza.n).padStart(3, '0')}: ${source || '(missing)'}`);
-  if (!stanza.commentary_en) throw new Error(`Missing vetted commentary text for D${chapter} S${String(stanza.n).padStart(3, '0')}`);
-  return stanza.commentary_en;
-}
-const chapterRevision = chapter => crypto.createHash('sha256').update(JSON.stringify(chapter)).digest('hex').slice(0, 16);
 const chapters = [];
 const batches = await loadSelections(root);
 const validation = await validateSelections(root, batches);
@@ -82,10 +74,15 @@ for (const importedSelection of batches) {
   chapters.push(chapter);
 }
 chapters.sort((a, b) => a.id - b.id);
-const dataset = { revision: crypto.createHash('sha256').update(JSON.stringify(chapters)).digest('hex').slice(0, 16), chapters, assets };
+// Dasakams with content but no selected batch yet: awaiting-painting cards (see awaiting.mjs).
+const awaiting = [];
+for (const id of awaitingIds(await contentDasakams(root), batches)) awaiting.push(await awaitingChapter(root, id, { asset }));
+const dataset = { revision: crypto.createHash('sha256').update(JSON.stringify([chapters, awaiting])).digest('hex').slice(0, 16), chapters, awaiting, assets };
 await fs.writeFile(path.join(dest, 'data.json'), JSON.stringify(dataset));
 await fs.writeFile(path.join(dest, 'asset-provenance.json'), JSON.stringify(provenance, null, 2));
 await fs.writeFile(path.join(dest, 'index.html'), renderIndex(dataset, './', false));
-for (const chapter of chapters) await fs.writeFile(path.join(dest, `${chapterSlug(chapter.id)}.html`), renderChapter(chapter, chapter.revision, './', false, chapters));
+const pages = [...chapters, ...awaiting].sort((a, b) => a.id - b.id);
+for (const chapter of pages) await fs.writeFile(path.join(dest, `${chapterSlug(chapter.id)}.html`), renderChapter(chapter, chapter.revision, './', false, pages));
 await validateBundle(root, dest);
-console.log(`Built ${chapters.length} chapters, ${chapters.reduce((n,c)=>n+c.rows.length,0)} rows and ${Object.keys(assets).length} distinct review images.`);
+await validateAwaiting(root, dest, { batches });
+console.log(`Built ${chapters.length} chapters, ${chapters.reduce((n,c)=>n+c.rows.length,0)} rows, ${awaiting.length} awaiting painting (${awaiting.reduce((n,c)=>n+c.rows.length,0)} rows) and ${Object.keys(assets).length} distinct review images.`);

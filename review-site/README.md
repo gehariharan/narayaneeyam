@@ -177,7 +177,8 @@ requests.
 The front page `/narayaneeyam/` is a progress board of all 100 Dasakams, one
 numbered tile each, rendered by the Worker behind the passphrase lock from two D1
 queries (decisions and sign-offs). A tile links to its chapter when the chapter is on the site. Its colour and
-label show: Art not made yet (no chapter), Ready for review (no decisions), In review
+label show: Art not made yet (no chapter), Awaiting painting (content but no selected
+batch; see "Awaiting painting" below), Ready for review (no decisions), In review
 (decided/total stanzas), Fixed, re-check (a fix answering a note awaits the reviewer),
 Waiting for fixes (any Redraw, Small edit or Text issue still open), Reviewed - awaiting
 sign-off (every stanza approved), Signed off - awaiting captain confirmation, or Captain
@@ -185,7 +186,8 @@ confirmed. Like
 `/api/decisions`, each stanza counts only its latest decision on the painting shown
 now; decisions on an earlier version, legacy notes, and a Redraw, Small edit or
 Text issue closed on the current painting leave it undecided. A legend
-and a line such as "51 of 100 dasakams have paintings · 120 of 526 stanzas reviewed"
+and a line such as "51 of 100 dasakams have paintings · 49 awaiting painting · 120 of 526 stanzas
+reviewed" (the awaiting count appears only when there are any)
 sit above the tiles. If the database cannot be read, the tiles still link every
 chapter and the page says progress is unavailable. The static preview `index.html`
 shows painted chapters without progress. Reviewed, Signed off and Captain confirmed on
@@ -289,6 +291,77 @@ wrangler d1 export narayaneeyam-feedback --remote --config review-site/wrangler.
 
 To withdraw the review site, remove only its two Worker routes or deploy a
 maintenance response. Do not delete the R2 bucket or feedback database.
+
+## Awaiting painting
+
+A dasakam with content (`content/daskams/dNNN.json`) but no selected batch in
+`review-site/selections.mjs` is built as an awaiting-painting chapter
+(`review-site/awaiting.mjs`), listed under `awaiting` in `data.json`. Its page has one
+card per stanza in the usual order: a plain "Awaiting painting" slot where the painting
+goes, the reference photos mapped to that stanza, then Commentary and the stanza. On
+desktop the card uses the same side-by-side layout, with the placeholder in the
+painting's place on the left (16:9, sized to the window) and the rest on the right. Only
+Text issue is offered; the Worker refuses Approve, Redraw and Small edit for it, and
+sign-off stays closed. On the front page its tile is "Awaiting painting", distinct
+from "Art not made yet", which stays for dasakams with no content.
+
+Reference photos come from `content/sources/dNNN/reference-map.json`, a `references`
+(or `images`) list of `{ stanza, path, sha256 }` pointing at that dasakam's own
+`intake/DNNN/` photos; entries without a stanza are unmapped extras and are not shown.
+Each mapped photo is checksum-checked and goes through the same review-derivative path
+as painted chapters (a WebP derivative recorded in `asset-provenance.json`); raw intake
+never reaches the site. Gaps in the content are shown plainly instead of failing the
+build, so a dasakam with only its sloka text (no reference map, no commentary) still gets
+cards: a stanza without commentary shows "Commentary not yet available"; one without a
+mapped reference photo shows "No reference photo yet"; commentary flagged in
+`content/sources/dNNN/source.json` as `commentary_cleanup["N"]` containing
+`"facebook-truncated"` is followed by "Commentary cut off - full text pending"; and
+commentary with no source, or a source outside the allowlist, is followed by
+"Commentary source not yet checked". The allowlist stays strict for painted chapters:
+the build refuses a selected dasakam whose commentary is not vetted. Reference photos
+still must match their checksum and come from `intake/DNNN/`. `validateAwaiting` checks
+the exact bundle: the awaiting list is exactly the content dasakams without a selected
+batch, every stanza is shown, and every image is a mapped reference photo's current
+derivative. The build, `review-site/scripts/test.mjs`, `package-release.mjs`,
+`upload.mjs` and `npm run art:review:validate -- --bundle` all run it next to
+`validateBundle`. The deploy workflow uploads these derivatives with
+`node review-site/scripts/upload.mjs --awaiting`.
+
+When the dasakam's batch is selected, the next build shows it as a normal painted
+chapter; nothing else changes. A Text issue saved on an awaiting card stays in the
+feedback database and is pulled by `npm run review:pull` as usual.
+
+## Add a newly painted dasakam
+
+Once a dasakam's batch is in `art/batches/` with passing review evidence, run in an
+asset-bearing checkout (intake and artifacts present):
+
+```sh
+npm run review:add-dasakam -- --daskam=15
+npm run review:add-dasakam -- --daskam=15 --batch=d015-comparison-v002.json   # a specific batch
+```
+
+It does the local part in one step:
+
+1. selects the batch in `review-site/selections.mjs` (by default the highest
+   `art/batches/dNNN-comparison-vNNN.json`; a newer batch replaces the selected one);
+2. adds the dasakam's `Upload DNNN review candidates to R2` step to
+   `.github/workflows/deploy-review.yml`;
+3. runs `node review-site/scripts/build.mjs`, `node review-site/scripts/test.mjs` and
+   `node scripts/validate-image-reviews.mjs --bundle`. The build checks every selected
+   image's visual review evidence and checksums, as for any selection. If any step
+   fails, both edits are undone.
+
+Then, as for any review change:
+
+4. commit the two edited files (with the batch and its review evidence) and ship them
+   through no-mistakes;
+5. on the landed commit, in an asset-bearing checkout:
+   `node review-site/scripts/build.mjs`, `node review-site/scripts/test.mjs`,
+   `node review-site/scripts/package-release.mjs`;
+6. release the bundle and dispatch the deploy workflow (`gh release create
+   "review-bundle-$sha" …` and `gh workflow run deploy-review.yml --ref
+   "review-bundle-$sha"`, as in "Build and publish" above).
 
 ## Dasakam 1
 

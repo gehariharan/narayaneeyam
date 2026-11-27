@@ -30,6 +30,7 @@
     "art:review:validate": "node scripts/validate-image-reviews.mjs",
     "review:pull": "node scripts/review-feedback.mjs pull",
     "review:mark": "node scripts/review-feedback.mjs mark",
+    "review:add-dasakam": "node review-site/scripts/add-dasakam.mjs",
     "test": "node --test tests/*.test.mjs && node scripts/validate-image-reviews.mjs"
   },
   "dependencies": {
