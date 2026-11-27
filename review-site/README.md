@@ -84,12 +84,12 @@ is copied verbatim from content JSON only when its source is an allowlisted Face
 photo-caption file or a user-supplied Google Drive commentary file. Each stanza is
 one card, top to bottom: the selected painting (tap to open full size), any
 alternates, the smaller reference photo, then the text: Commentary, then the
-stanza (Sanskrit, then transliteration) from `content/daskams/dNNN.json`, with a small note where either is missing. A
-reference photo the batch marks as excluded from scene derivation stays in the
-bundle but is not shown. The review notice, image versions, inspection labels,
-media keys and commentary sources sit in collapsed "Studio details" sections per
-chapter and per card. A small Leave feedback link opens a text box and Submit
-button on each card.
+stanza (Sanskrit, then transliteration) from `content/daskams/dNNN.json`, with
+a small note where either is missing. A reference photo the batch marks as
+excluded from scene derivation stays in the bundle but is not shown. The review
+notice, image versions, inspection labels, media keys and commentary sources sit
+in collapsed "Studio details" sections per chapter and per card. A small Leave
+feedback link opens a text box and Submit button on each card.
 
 Only the `/narayaneeyam` route family is attached. The existing blog Worker and
 its media bucket and database are not modified. R2 remains private; the review
