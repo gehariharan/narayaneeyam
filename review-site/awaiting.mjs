@@ -1,6 +1,8 @@
 // Dasakams awaiting painting: content (content/daskams/dNNN.json) but no selected batch yet.
 // They show as stanza cards with the reference photos, Commentary and stanza text, and a plain
 // "Awaiting painting" slot where the painting will go, so text review can start before the art.
+// Gaps in that content (no commentary, no reference photo, unchecked or cut-off commentary) are
+// shown plainly on the card; the vetted-commentary check applies once the dasakam is painted.
 // Adding the dasakam's batch to selections.mjs switches it to the normal painted chapter.
 //
 // Their reference photos go through the same review-derivative path as painted chapters (a
@@ -58,19 +60,21 @@ export async function referenceMap(root, id) {
 
 // Commentary is shown only from an allowlisted source: a Facebook photo-caption file or the
 // user-supplied commentary file. Painted chapters require it on every stanza.
+const vettedSource = (source, daskam) => new RegExp(`^(?:intake/D${pad(daskam)}/photo-captions\\.txt|content/sources/d${pad(daskam)}/(?:photo-captions\\.txt|COMMENTRY\\.txt))#\\d+$`).test(source || '');
 export function vettedCommentary(stanza, daskam) {
-  const source = stanza.commentary_source || '';
   const chapter = pad(daskam);
-  const allowed = new RegExp(`^(?:intake/D${chapter}/photo-captions\\.txt|content/sources/d${chapter}/(?:photo-captions\\.txt|COMMENTRY\\.txt))#\\d+$`).test(source);
-  if (!allowed) throw new Error(`Unvetted commentary source for D${chapter} S${pad(stanza.n)}: ${source || '(missing)'}`);
+  if (!vettedSource(stanza.commentary_source, daskam)) throw new Error(`Unvetted commentary source for D${chapter} S${pad(stanza.n)}: ${stanza.commentary_source || '(missing)'}`);
   if (!stanza.commentary_en) throw new Error(`Missing vetted commentary text for D${chapter} S${pad(stanza.n)}`);
   return stanza.commentary_en;
 }
-// An awaiting card may have no commentary yet (it shows "Commentary missing"); any commentary
-// it does show is held to the same allowlist.
-function awaitingCommentary(stanza, daskam) {
-  if (!stanza.commentary_en && !stanza.commentary_source) return '';
-  return vettedCommentary(stanza, daskam);
+// An awaiting card shows whatever commentary there is yet: none ("Commentary not yet available"),
+// text from a source not yet checked against the allowlist, or text the source flags as cut off
+// (content/sources/dNNN/source.json commentary_cleanup["N"] containing "facebook-truncated").
+function awaitingCommentary(stanza, daskam, cleanup) {
+  const commentary = stanza.commentary_en || '';
+  if (!commentary) return { commentary, commentaryTruncated: false, commentaryUnchecked: false };
+  const flags = cleanup?.[String(stanza.n)];
+  return { commentary, commentaryTruncated: Array.isArray(flags) && flags.includes('facebook-truncated'), commentaryUnchecked: !vettedSource(stanza.commentary_source, daskam) };
 }
 
 export const chapterRevision = chapter => crypto.createHash('sha256').update(JSON.stringify(chapter)).digest('hex').slice(0, 16);
@@ -83,6 +87,7 @@ export async function awaitingChapter(root, id, { asset }) {
   if (!Array.isArray(content.stanzas) || !content.stanzas.length) throw new Error(`content/daskams/${d}.json has no stanzas`);
   const plan = await readJsonIfPresent(path.join(root, `art/plans/${d}.json`));
   const references = await referenceMap(root, id);
+  const cleanup = (await readJsonIfPresent(path.join(root, `content/sources/${d}/source.json`)))?.commentary_cleanup;
   const stanzas = new Set(content.stanzas.map(stanza => stanza.n));
   for (const n of references.keys()) if (!stanzas.has(n)) throw new Error(`content/sources/${d}/reference-map.json maps stanza ${n}, which ${d} does not have`);
   const log = await readLog(root, id);
@@ -99,7 +104,7 @@ export async function awaitingChapter(root, id, { asset }) {
     // Text fixes answer notes on an awaiting card too; there is no painting to redraw yet.
     const answered = rowFix(log, id, n, null);
     const fix = answered && { notes: answered.notes, kind: 'text', version: null };
-    chapter.rows.push({ n, title: plan?.stanzas?.find(x => x.n === n)?.alt || '', commentary: awaitingCommentary(stanza, id), commentarySource: stanza.commentary_source || '', sanskrit: stanza.sanskrit || '', transliteration: stanza.stanza_roman || '', editorialStatus: stanza.review_status || 'needs-review', images, ...(fix ? { fix } : {}) });
+    chapter.rows.push({ n, title: plan?.stanzas?.find(x => x.n === n)?.alt || '', ...awaitingCommentary(stanza, id, cleanup), commentarySource: stanza.commentary_source || '', sanskrit: stanza.sanskrit || '', transliteration: stanza.stanza_roman || '', editorialStatus: stanza.review_status || 'needs-review', images, ...(fix ? { fix } : {}) });
   }
   chapter.revision = chapterRevision(chapter);
   return chapter;

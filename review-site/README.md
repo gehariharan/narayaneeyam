@@ -308,8 +308,16 @@ Reference photos come from `content/sources/dNNN/reference-map.json`, a `referen
 `intake/DNNN/` photos; entries without a stanza are unmapped extras and are not shown.
 Each mapped photo is checksum-checked and goes through the same review-derivative path
 as painted chapters (a WebP derivative recorded in `asset-provenance.json`); raw intake
-never reaches the site. Commentary is shown only from the same allowlisted sources;
-a stanza without commentary yet shows "Commentary missing". `validateAwaiting` checks
+never reaches the site. Gaps in the content are shown plainly instead of failing the
+build, so a dasakam with only its sloka text (no reference map, no commentary) still gets
+cards: a stanza without commentary shows "Commentary not yet available"; one without a
+mapped reference photo shows "No reference photo yet"; commentary flagged in
+`content/sources/dNNN/source.json` as `commentary_cleanup["N"]` containing
+`"facebook-truncated"` is followed by "Commentary cut off - full text pending"; and
+commentary with no source, or a source outside the allowlist, is followed by
+"Commentary source not yet checked". The allowlist stays strict for painted chapters:
+the build refuses a selected dasakam whose commentary is not vetted. Reference photos
+still must match their checksum and come from `intake/DNNN/`. `validateAwaiting` checks
 the exact bundle: the awaiting list is exactly the content dasakams without a selected
 batch, every stanza is shown, and every image is a mapped reference photo's current
 derivative. The build, `review-site/scripts/test.mjs`, `package-release.mjs`,

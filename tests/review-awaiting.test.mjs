@@ -7,7 +7,7 @@ import crypto from 'node:crypto';
 import { DatabaseSync } from 'node:sqlite';
 import { parse as parseYaml } from 'yaml';
 import { renderChapter, renderIndex } from '../review-site/views.mjs';
-import { awaitingIds, awaitingChapter, validateAwaiting, referenceLabel } from '../review-site/awaiting.mjs';
+import { awaitingIds, awaitingChapter, validateAwaiting, referenceLabel, vettedCommentary } from '../review-site/awaiting.mjs';
 import { latestBatch, withSelection, withUploadStep } from '../review-site/scripts/add-dasakam.mjs';
 import { selectionFiles } from '../review-site/selections.mjs';
 
@@ -89,10 +89,20 @@ test('an awaiting card keeps the card order with an "Awaiting painting" slot and
   for (const decision of ['approve', 'redraw', 'small-edit']) assert.ok(!html.includes(`data-decision="${decision}"`), decision);
   assert.ok(html.includes('Approve, Redraw and Small edit open once the painting is added.'));
   assert.equal((html.match(/data-decide data-awaiting/g) || []).length, 2);
-  // A stanza with no commentary yet says so, and one with no mapped photo shows no reference.
+  // A stanza with no commentary yet says so, and one with no mapped photo says it has none yet.
   const second = html.slice(html.indexOf('id="s002"'));
-  assert.ok(second.includes('<p class="text-missing">Commentary missing</p>'));
+  assert.ok(second.includes('<p class="text-missing">Commentary not yet available</p>'));
+  assert.ok(!second.includes('Commentary missing'));
   assert.ok(!second.includes('Reference photo</figcaption>'));
+  assert.ok(second.includes('<p class="text-missing">No reference photo yet</p>'));
+  const first = html.slice(html.indexOf('id="s001"'), html.indexOf('id="s002"'));
+  assert.ok(!first.includes('No reference photo yet') && !first.includes('Commentary cut off') && !first.includes('not yet checked'));
+  // Cut-off and unchecked commentary is shown with a plain note after it.
+  const flagged = structuredClone(waiting);
+  Object.assign(flagged.rows[0], { commentaryTruncated: true, commentaryUnchecked: true });
+  const flaggedCard = renderChapter(flagged, flagged.revision, '/narayaneeyam/', true, [painted, flagged]);
+  const flaggedFirst = flaggedCard.slice(flaggedCard.indexOf('id="s001"'), flaggedCard.indexOf('id="s002"'));
+  assert.ok(flaggedFirst.includes('<p class="commentary">Vena is crowned.</p><p class="text-missing">Commentary cut off - full text pending</p><p class="text-missing">Commentary source not yet checked</p>'));
   // The client shows "Awaiting painting" on the chip until a Text issue is saved.
   assert.ok(html.includes("s==='none'?(awaiting?'Awaiting painting':'Not reviewed')"));
   assert.ok(!markup(html).includes('data-signoff'));
@@ -218,6 +228,22 @@ test('awaiting chapters are built from content with checked reference-photo deri
   await assert.rejects(validateAwaiting(root, dir, { batches: [] }), /do not match/);
 });
 
+test('awaiting chapters carry truncation flags and a sloka-text-only dasakam builds and validates', async () => {
+  const { root } = await fixtureRoot();
+  const dir = path.join(root, 'artifacts/review-site'), made = deriver(root, dir);
+  await fs.writeFile(path.join(root, 'content/sources/d015/source.json'), JSON.stringify({ commentary_cleanup: { 1: ['facebook-truncated'], 2: ['facebook-truncated'] } }));
+  const d15 = await awaitingChapter(root, 15, made);
+  assert.deepEqual(d15.rows.map(r => [r.commentaryTruncated, r.commentaryUnchecked]), [[true, false], [false, false]]);
+  await fs.writeFile(path.join(root, 'content/daskams/d016.json'), JSON.stringify({ stanzas: [{ n: 1, sanskrit: 'श्लोक 1', stanza_roman: 'śloka 1' }, { n: 2, sanskrit: 'श्लोक 2' }] }));
+  const d16 = await awaitingChapter(root, 16, made);
+  assert.deepEqual(d16.rows.map(r => [r.n, r.commentary, r.commentaryTruncated, r.commentaryUnchecked, r.images.length]), [[1, '', false, false, 0], [2, '', false, false, 0]]);
+  await bundle(root, [], [d15, d16], made, dir);
+  assert.deepEqual(await validateAwaiting(root, dir, { batches: [] }), { chapters: 2, images: 1 });
+  const html = renderChapter(d16, d16.revision, '/narayaneeyam/', true, [d15, d16]);
+  assert.equal((html.match(/Commentary not yet available/g) || []).length, 2);
+  assert.equal((html.match(/No reference photo yet/g) || []).length, 2);
+});
+
 test('awaiting validation refuses paintings, stale sources, stale derivatives and unvetted text', async () => {
   const { root } = await fixtureRoot();
   const dir = path.join(root, 'artifacts/review-site'), made = deriver(root, dir);
@@ -236,8 +262,12 @@ test('awaiting validation refuses paintings, stale sources, stale derivatives an
   // The build refuses a changed intake photo and commentary from a source outside the allowlist.
   await fs.writeFile(path.join(root, 'intake/D015/001.jpg'), 'changed');
   await assert.rejects(awaitingChapter(root, 15, made), /Reference checksum mismatch/);
-  await fs.writeFile(path.join(root, 'content/daskams/d016.json'), JSON.stringify({ stanzas: [{ n: 1, commentary_en: 'From somewhere else', commentary_source: 'https://example.com/post' }] }));
-  await assert.rejects(awaitingChapter(root, 16, made), /Unvetted commentary source/);
+  // Commentary from outside the allowlist, or without a source, is shown but flagged unchecked;
+  // painted chapters stay strict.
+  await fs.writeFile(path.join(root, 'content/daskams/d016.json'), JSON.stringify({ stanzas: [{ n: 1, commentary_en: 'From somewhere else', commentary_source: 'https://example.com/post' }, { n: 2, commentary_en: 'No source' }] }));
+  const unchecked = await awaitingChapter(root, 16, made);
+  assert.deepEqual(unchecked.rows.map(r => [r.commentary, r.commentaryUnchecked, r.commentaryTruncated]), [['From somewhere else', true, false], ['No source', true, false]]);
+  assert.throws(() => vettedCommentary({ n: 1, commentary_en: 'From somewhere else', commentary_source: 'https://example.com/post' }, 16), /Unvetted commentary source/);
   // A reference map may only point at the dasakam's own intake photos.
   await fs.writeFile(path.join(root, 'content/sources/d015/reference-map.json'), JSON.stringify({ references: [{ stanza: 1, path: 'artifacts/d015/master.png', sha256: '0'.repeat(64) }] }));
   await assert.rejects(awaitingChapter(root, 15, made), /needs an intake\/D015\/ path/);
