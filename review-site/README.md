@@ -127,7 +127,7 @@ validation, prepared SQL statements, a honeypot and a 10/minute per-IP edge rate
 limit. IP addresses are used transiently for the rate limiter, not saved in D1.
 The rate limiter is regional, not a global hard quota. There is no public
 feedback listing or browser administration panel. Feedback, like every other
-route, requires the passphrase unlock described below.
+route, requires the passphrase unlock described above.
 
 Each new record stores the Dasakam, sloka, message, dataset revision and exact
 generated-image version/key snapshot automatically. Target is `generated`, category

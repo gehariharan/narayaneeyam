@@ -32,7 +32,8 @@ to ship this state, sync OneDrive/GitHub and continue with a remote agent.
 The user explicitly authorised the public review site, a dedicated R2 bucket,
 D1 feedback, Wrangler deployment and GitHub push. This overrides the earlier
 no-remote-store rule for the review site only. Local files remain authoritative.
-They explicitly chose **open access, no passphrase**. Do not reintroduce a login.
+The site is now locked behind one shared passphrase at the user's request; see
+`review-site/README.md` (Passphrase lock). Do not remove the lock without the user.
 
 ## Shipped site
 
