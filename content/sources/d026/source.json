@@ -24,7 +24,11 @@
   },
   "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
   "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
-  "commentary_cleanup": {},
+  "commentary_cleanup": {
+    "9": [
+      "captions-combined:009.jpg+009-2.jpg"
+    ]
+  },
   "commentary_picture": {
     "1": "001-2.jpg",
     "2": "002.jpg",
@@ -34,7 +38,10 @@
     "6": "006.jpg",
     "7": "007.jpg",
     "8": "008.jpg",
-    "9": "009.jpg",
+    "9": [
+      "009.jpg",
+      "009-2.jpg"
+    ],
     "10": "010.jpg"
   }
 }
