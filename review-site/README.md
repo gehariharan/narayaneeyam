@@ -177,7 +177,8 @@ requests.
 The front page `/narayaneeyam/` is a progress board of all 100 Dasakams, one
 numbered tile each, rendered by the Worker behind the passphrase lock from two D1
 queries (decisions and sign-offs). A tile links to its chapter when the chapter is on the site. Its colour and
-label show: Art not made yet (no chapter), Ready for review (no decisions), In review
+label show: Art not made yet (no chapter), Awaiting painting (content but no selected
+batch; see "Awaiting painting" below), Ready for review (no decisions), In review
 (decided/total stanzas), Fixed, re-check (a fix answering a note awaits the reviewer),
 Waiting for fixes (any Redraw, Small edit or Text issue still open), Reviewed - awaiting
 sign-off (every stanza approved), Signed off - awaiting captain confirmation, or Captain
@@ -185,7 +186,8 @@ confirmed. Like
 `/api/decisions`, each stanza counts only its latest decision on the painting shown
 now; decisions on an earlier version, legacy notes, and a Redraw, Small edit or
 Text issue closed on the current painting leave it undecided. A legend
-and a line such as "51 of 100 dasakams have paintings · 120 of 526 stanzas reviewed"
+and a line such as "51 of 100 dasakams have paintings · 49 awaiting painting · 120 of 526 stanzas
+reviewed" (the awaiting count appears only when there are any)
 sit above the tiles. If the database cannot be read, the tiles still link every
 chapter and the page says progress is unavailable. The static preview `index.html`
 shows painted chapters without progress. Reviewed, Signed off and Captain confirmed on
