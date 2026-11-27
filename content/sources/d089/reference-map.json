@@ -2,7 +2,7 @@
   "schema_version": 1,
   "daskam_id": 89,
   "status": "source-mapped-needs-review",
-  "mapping_basis": "Pictures follow the intake naming convention: NNN.jpg is the first picture whose own Facebook caption states stanza #N; NNN-2.jpg and later are further pictures for that stanza; nostanza-NN.jpg have no stated stanza and stay unmapped. A picture whose caption labels several stanzas (for example \"#5 & #6\") is mapped to each of them. Source photos are contextual references only; canonical Sanskrit governs scene interpretation.",
+  "mapping_basis": "Pictures follow the intake naming convention: NNN.jpg is the first picture whose own Facebook caption states stanza #N; NNN-2.jpg and later are further pictures for that stanza; nostanza-NN.jpg have no stated stanza and stay unmapped. A picture whose caption labels several stanzas (for example \"#5 & #6\") is mapped to each of them. Source photos are contextual references only; canonical Sanskrit governs scene interpretation. Exception for this dasakam: the post's pictures 2-10 (nostanza-01.jpg to nostanza-09.jpg) carry no caption and are mapped by post order to stanzas 2-10 (\"mapping_basis\": \"post-order-uncaptioned\"), each checked against its stanza; see order_based_mappings.",
   "canonical_source": "https://stotranidhi.com/hi/narayaneeyam-dasakam-89-in-sanskrit/",
   "romanization_source": "https://stotranidhi.com/en/narayaneeyam-dasakam-89-in-english/",
   "caption_source": "intake/D089/photo-captions.txt",
@@ -18,22 +18,10 @@
       "height": 1280,
       "facebook_file": "D089/D089-2025-11-26-1.jpg",
       "posted": "2025-11-26"
-    }
-  ],
-  "missing_stanzas": [
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10
-  ],
-  "missing_stanzas_reason": "not present in the Facebook intake; the intake also has pictures with no stated stanza (see reference-map unmapped), which may belong here",
-  "unmapped": [
+    },
     {
+      "stanza": 2,
+      "role": "primary",
       "path": "intake/D089/nostanza-01.jpg",
       "sha256": "96e6c30e791b800da3bd7e2e95bc214ecc1f779f51a1b5874e11605919a90f45",
       "bytes": 113951,
@@ -41,9 +29,12 @@
       "height": 1200,
       "facebook_file": "D089/D089-2025-11-26-2.jpg",
       "posted": "2025-11-26",
-      "reason": "no stanza stated in its caption"
+      "mapping_basis": "post-order-uncaptioned",
+      "mapping_note": "picture 2 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 2 -> stanza 2), not by a poster caption"
     },
     {
+      "stanza": 3,
+      "role": "primary",
       "path": "intake/D089/nostanza-02.jpg",
       "sha256": "fd31b3fa4440db4cb810ad8038ebb8d7a984323649c0ec9696a0b6ae6e37d423",
       "bytes": 12724,
@@ -51,9 +42,12 @@
       "height": 259,
       "facebook_file": "D089/D089-2025-11-26-3.jpg",
       "posted": "2025-11-26",
-      "reason": "no stanza stated in its caption"
+      "mapping_basis": "post-order-uncaptioned",
+      "mapping_note": "picture 3 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 3 -> stanza 3), not by a poster caption"
     },
     {
+      "stanza": 4,
+      "role": "primary",
       "path": "intake/D089/nostanza-03.jpg",
       "sha256": "15010ab06f0e727d6c9f8bc955e86d691d715edfda470cedd6146b003a7b43de",
       "bytes": 12520,
@@ -61,9 +55,12 @@
       "height": 251,
       "facebook_file": "D089/D089-2025-11-26-4.jpg",
       "posted": "2025-11-26",
-      "reason": "no stanza stated in its caption"
+      "mapping_basis": "post-order-uncaptioned",
+      "mapping_note": "picture 4 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 4 -> stanza 4), not by a poster caption"
     },
     {
+      "stanza": 5,
+      "role": "primary",
       "path": "intake/D089/nostanza-04.jpg",
       "sha256": "6398f1c340045cac0dcba6c3c3c1685421490394bc619984419cfe486fb53524",
       "bytes": 276997,
@@ -71,9 +68,12 @@
       "height": 1280,
       "facebook_file": "D089/D089-2025-11-26-5.jpg",
       "posted": "2025-11-26",
-      "reason": "no stanza stated in its caption"
+      "mapping_basis": "post-order-uncaptioned",
+      "mapping_note": "picture 5 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 5 -> stanza 5), not by a poster caption"
     },
     {
+      "stanza": 6,
+      "role": "primary",
       "path": "intake/D089/nostanza-05.jpg",
       "sha256": "2c70b455a010acf722c0f528599343ca5dddc5dfa8f284d2fc2164bc9f8bc5e5",
       "bytes": 26591,
@@ -81,9 +81,12 @@
       "height": 281,
       "facebook_file": "D089/D089-2025-11-26-6.jpg",
       "posted": "2025-11-26",
-      "reason": "no stanza stated in its caption"
+      "mapping_basis": "post-order-uncaptioned",
+      "mapping_note": "picture 6 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 6 -> stanza 6), not by a poster caption"
     },
     {
+      "stanza": 7,
+      "role": "primary",
       "path": "intake/D089/nostanza-06.jpg",
       "sha256": "fd16e3dad15b29b85ee01ed1393a53c393cd06f405522d86b2703760d4894a6e",
       "bytes": 135343,
@@ -91,9 +94,12 @@
       "height": 690,
       "facebook_file": "D089/D089-2025-11-26-7.jpg",
       "posted": "2025-11-26",
-      "reason": "no stanza stated in its caption"
+      "mapping_basis": "post-order-uncaptioned",
+      "mapping_note": "picture 7 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 7 -> stanza 7), not by a poster caption"
     },
     {
+      "stanza": 8,
+      "role": "primary",
       "path": "intake/D089/nostanza-07.jpg",
       "sha256": "a2bfd0e7b815449adf3e687f24b46c7b97ebfe93f93c15bb21540c887459ff87",
       "bytes": 16771,
@@ -101,9 +107,12 @@
       "height": 259,
       "facebook_file": "D089/D089-2025-11-26-8.jpg",
       "posted": "2025-11-26",
-      "reason": "no stanza stated in its caption"
+      "mapping_basis": "post-order-uncaptioned",
+      "mapping_note": "picture 8 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 8 -> stanza 8), not by a poster caption"
     },
     {
+      "stanza": 9,
+      "role": "primary",
       "path": "intake/D089/nostanza-08.jpg",
       "sha256": "d40de377194e458844db1fc8b84d9992db8426a4b4e1b8d240680b4a8861a284",
       "bytes": 200399,
@@ -111,9 +120,12 @@
       "height": 1017,
       "facebook_file": "D089/D089-2025-11-26-9.jpg",
       "posted": "2025-11-26",
-      "reason": "no stanza stated in its caption"
+      "mapping_basis": "post-order-uncaptioned",
+      "mapping_note": "picture 9 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 9 -> stanza 9), not by a poster caption"
     },
     {
+      "stanza": 10,
+      "role": "primary",
       "path": "intake/D089/nostanza-09.jpg",
       "sha256": "1f67001ad42ce79efeb1c1d581735573e2ccbb917cc0db8048f98ff52b668515",
       "bytes": 118335,
@@ -121,7 +133,90 @@
       "height": 1280,
       "facebook_file": "D089/D089-2025-11-26-10.jpg",
       "posted": "2025-11-26",
-      "reason": "no stanza stated in its caption"
+      "mapping_basis": "post-order-uncaptioned",
+      "mapping_note": "picture 10 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 10 -> stanza 10), not by a poster caption"
     }
-  ]
+  ],
+  "missing_stanzas": [],
+  "unmapped": [],
+  "order_based_mappings": {
+    "post_url": "https://www.facebook.com/groups/2389815427810388/posts/10068599689931885/",
+    "rule": "Post order: picture N -> stanza N for pictures 2-10. Where a stanza's commentary clearly points to a different picture, map by commentary instead.",
+    "commentary_check": "Stanzas 2-10 have no commentary on disk (the pictures are uncaptioned and no other source is supplied), and stanza 1's caption describes stanza 1 only, so no commentary points to a different picture. Each picture was checked against its stanza's verse instead; none was moved.",
+    "source": "Captain's answer of 2026-11-27 (\"For now use them in order you can match with commentry ..\") on the Facebook group read-back (missing-stanza search), which found no caption for pictures 2-10 of this post",
+    "stanzas": {
+      "2": {
+        "picture": "intake/D089/nostanza-01.jpg",
+        "facebook_file": "D089/D089-2025-11-26-2.jpg",
+        "post_picture": 2,
+        "basis": "post order",
+        "picture_shows": "A fierce horned asura standing in fire with a mace.",
+        "verse_check": "The verse names Vrikasura as the example of worshippers of quickly-pleased gods who come to ruin; the picture introduces Vrikasura."
+      },
+      "3": {
+        "picture": "intake/D089/nostanza-02.jpg",
+        "facebook_file": "D089/D089-2025-11-26-3.jpg",
+        "post_picture": 3,
+        "basis": "post order",
+        "picture_shows": "Shiva holding arrows, a devotee bowing before him with folded hands.",
+        "verse_check": "The verse has Shakuni's son asking Narada which god is quickly pleased and being sent to worship Shiva; the picture shows that worship of Shiva (Narada is not shown)."
+      },
+      "4": {
+        "picture": "intake/D089/nostanza-03.jpg",
+        "facebook_file": "D089/D089-2025-11-26-4.jpg",
+        "post_picture": 4,
+        "basis": "post order",
+        "picture_shows": "Shiva appearing beside a sacrificial fire, reaching toward a seated man who clutches his head.",
+        "verse_check": "The verse has the asura's severe penance, his move to cut off his head on the seventh day, Shiva appearing and the boon of death by a hand on the head; the picture shows that moment."
+      },
+      "5": {
+        "picture": "intake/D089/nostanza-04.jpg",
+        "facebook_file": "D089/D089-2025-11-26-5.jpg",
+        "post_picture": 5,
+        "basis": "post order",
+        "picture_shows": "A man with raised hand chasing a fleeing Shiva (trident, damaru), Parvati behind.",
+        "verse_check": "The verse has the freed asura chasing Shiva, who flees looking back, until Vishnu stands before the asura as a young brahmachari; the picture shows the chase (the brahmachari is not shown)."
+      },
+      "6": {
+        "picture": "intake/D089/nostanza-05.jpg",
+        "facebook_file": "D089/D089-2025-11-26-6.jpg",
+        "post_picture": 6,
+        "basis": "post order",
+        "picture_shows": "Parvati, Shiva with trident, and a blue asura with fiery hair, raised hands, in a dance-like group.",
+        "verse_check": "The verse has the brahmachari's words and the asura putting his hand on his own head and falling; the picture shows the asura with Shiva and Parvati but neither the brahmachari nor the fall. Weakest fit; no other picture shows this scene and no commentary points elsewhere, so post order is kept."
+      },
+      "7": {
+        "picture": "intake/D089/nostanza-06.jpg",
+        "facebook_file": "D089/D089-2025-11-26-7.jpg",
+        "post_picture": 7,
+        "basis": "post order",
+        "picture_shows": "Two panels: a sage with a water pot below Brahma's court in the clouds; Shiva in anger on a mountain with trident, Parvati and Nandi, and a sage with folded hands.",
+        "verse_check": "The verse has the sages on the Sarasvati sending Bhrigu to test the three gods, Brahma's anger and Shiva about to strike, restrained by Parvati; the picture shows both tests."
+      },
+      "8": {
+        "picture": "intake/D089/nostanza-07.jpg",
+        "facebook_file": "D089/D089-2025-11-26-8.jpg",
+        "post_picture": 8,
+        "basis": "post order",
+        "picture_shows": "A sage kicking Vishnu reclining on Adisesha, Lakshmi seated beside.",
+        "verse_check": "The verse has Bhrigu kicking Vishnu asleep on Lakshmi's lap and Vishnu rising gladly to ask his pardon; the picture shows the kick."
+      },
+      "9": {
+        "picture": "intake/D089/nostanza-08.jpg",
+        "facebook_file": "D089/D089-2025-11-26-9.jpg",
+        "post_picture": 9,
+        "basis": "post order",
+        "picture_shows": "A crowned sage with folded hands before a standing four-armed Vishnu, assembled rishis worshipping.",
+        "verse_check": "The verse has the Sarasvati sages, now certain, devoting themselves to Vishnu and attaining liberation; the picture shows the sages' worship of Vishnu."
+      },
+      "10": {
+        "picture": "intake/D089/nostanza-09.jpg",
+        "facebook_file": "D089/D089-2025-11-26-10.jpg",
+        "post_picture": 10,
+        "basis": "post order",
+        "picture_shows": "Krishna playing the flute in a starry sky, standing on water.",
+        "verse_check": "The verse is the closing prayer to the Lord of Guruvayur, the gopis' fortune; the picture shows Krishna."
+      }
+    }
+  }
 }
