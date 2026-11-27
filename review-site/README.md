@@ -261,7 +261,9 @@ studio file. The studio pulls it into `art/feedback/dNNN.json` as a
 `captain-confirmed` entry, and the pull prints, for each stanza, the exact version,
 source file, recorded sha256 and whether the local file still matches it, with the
 `npm run art:approve -- --daskam=N --sloka=S --orientation=landscape --file=<file>`
-step. The studio's existing `art:approve` step consumes that confirmation: run it
+step. If the export holds any reviewer decision for that dasakam made after the
+confirmation, the pull warns that the confirmation may be superseded; re-check the site
+before approving. The studio's existing `art:approve` step consumes that confirmation: run it
 with exactly those files after checking the checksums; it re-validates visual
 clearance for the exact bytes. Only explicit user approval may update
 `art/approved/`: the studio runs `art:approve` only for a pulled captain
