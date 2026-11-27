@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "daskam_id": 84,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-27",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-84-in-sanskrit/",
+      "raw": "artifacts/d084/source-captures/stotranidhi-sanskrit.html",
+      "sha256": "d550d22b76786943c72ec08c6b708c3d5fd75eb6bcbd58ff0737a56dc34dbbfe",
+      "retrieval_note": "10 numbered Devanagari stanzas (84-1 through 84-10) transcribed stanza by stanza from the page paragraphs; publisher spelling and line-break hyphenation retained."
+    },
+    {
+      "role": "romanization",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-84-in-english/",
+      "raw": "artifacts/d084/source-captures/stotranidhi-romanization.html",
+      "sha256": "e671b234204ee4a8fb6aa7652a89b944b3050a0ec974ca538147e269d76e7750",
+      "retrieval_note": "10 numbered IAST stanzas (84-1 through 84-10) transcribed from the parallel publisher page; stanza 11 has no IAST."
+    },
+    {
+      "role": "sanskrit-supplement",
+      "publisher": "Narayaneeyam First Step",
+      "url": "https://narayaneeyam-firststep.org/dashaka84",
+      "raw": "artifacts/d084/source-captures/firststep.html",
+      "sha256": "2aff98d8a6e5920bd3011e2af93ec69e00dba94b7ac222d8bab1053e4604874e",
+      "stanzas": [
+        11
+      ],
+      "retrieval_note": "Stotra Nidhi lists only stanzas 1-10. Stanza 11 transcribed verbatim from this page (publisher marker and colon-for-visarga spelling retained); the same stanza appears on sanskritdocuments.org/doc_vishhnu/nArAyaNIyam.html. No IAST source was reachable, so stanza_roman is empty for it."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired; translation_en left empty; no substitute invented."
+    },
+    {
+      "role": "commentary",
+      "path": "intake/D084/photo-captions.txt",
+      "sha256": "4f5686937ed3caf73f316f344a44ce4541146a70d88045dfdfc66e59493bd1a3",
+      "status": "supplied captions preserved as commentary, not treated as translation; formatting-only cleanup (see source.json caption_policy)."
+    }
+  ],
+  "intake_manifest": "content/sources/d084/reference-map.json",
+  "note": "Prepared for painting production: canonical text, caption commentary and reference mapping only. No art plan, candidate, review or approval exists yet. Editorial review remains pending."
+}

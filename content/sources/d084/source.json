@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "daskam": 84,
+  "caption_path": "intake/D084/photo-captions.txt",
+  "caption_sha256": "4f5686937ed3caf73f316f344a44ce4541146a70d88045dfdfc66e59493bd1a3",
+  "caption_origin": "intake/D084/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D084/facebook-source.json",
+  "facebook_source_sha256": "d4d5bb4f70cf0d685926ea107b89af411ed706ac31baf86b43b534ecf2195f0e",
+  "post_caption": "intake/D084/facebook-post-caption.txt",
+  "post_caption_sha256": "8628699dc43cff6c8b2ded58be360c9801a385b3a6ac24f4425380e2c3719cb8",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-84-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d084/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "d550d22b76786943c72ec08c6b708c3d5fd75eb6bcbd58ff0737a56dc34dbbfe",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-84-in-english/",
+    "romanization_raw": "artifacts/d084/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "e671b234204ee4a8fb6aa7652a89b944b3050a0ec974ca538147e269d76e7750",
+    "sanskrit_heading": "नारायणीयं चतुरशीतितमदशकम् (८४) – समन्तपञ्चकतीर्थयात्रा – बन्धुमित्रादि समागमम्",
+    "romanization_heading": "nārāyaṇīyaṃ caturaśītitamadaśakam (84) – samantapañcakatīrthayātrā – bandhumitrādi samāgamam",
+    "completion_marker": "iti caturaśītitamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 84-1 through 84-10 on both the Devanagari and the parallel IAST page; stanza 11 is transcribed verbatim from the narayaneeyam-firststep.org supplement and has no IAST."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg"
+  },
+  "stanza_gaps": {}
+}

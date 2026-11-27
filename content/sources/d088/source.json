@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "daskam": 88,
+  "caption_path": "intake/D088/photo-captions.txt",
+  "caption_sha256": "aa0b1bc07f724d0c53f36c3f8b75c50e621dd8ac0789e9ca87ba4b902c6d3ab9",
+  "caption_origin": "intake/D088/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D088/facebook-source.json",
+  "facebook_source_sha256": "700820a763bd7e49dc6bcc6a474c5f693a6213136a8ab2717ef84efcaa252b2e",
+  "post_caption": "intake/D088/facebook-post-caption.txt",
+  "post_caption_sha256": "0edeac0ad2281ceab947fb5f6b399a85638c0197e7ac08b34bf9b112f009755e",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-88-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d088/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "d138521cc43b47775b6cf3597c0c15f48eaa8a0021cef925c5782a22d69367f1",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-88-in-english/",
+    "romanization_raw": "artifacts/d088/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "f6772b3c3081651eef9770b7235c0e64bd119ac3e50e187a32714567445144b5",
+    "sanskrit_heading": "नारायणीयं अष्टाशीतितमदशकम् (८८) – सन्तानगोपालम्",
+    "romanization_heading": "nārāyaṇīyaṃ aṣṭāśītitamadaśakam (88) – santānagopālam",
+    "completion_marker": "iti aṣṭāśītitamadaśakaṃ samāptam |",
+    "evidence": "12 numbered stanzas 88-1 through 88-12 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg",
+    "12": "012.jpg"
+  },
+  "stanza_gaps": {}
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "daskam_id": 89,
+  "status": "source-mapped-needs-review",
+  "mapping_basis": "Pictures follow the intake naming convention: NNN.jpg is the first picture whose own Facebook caption states stanza #N; NNN-2.jpg and later are further pictures for that stanza; nostanza-NN.jpg have no stated stanza and stay unmapped. A picture whose caption labels several stanzas (for example \"#5 & #6\") is mapped to each of them. Source photos are contextual references only; canonical Sanskrit governs scene interpretation.",
+  "canonical_source": "https://stotranidhi.com/hi/narayaneeyam-dasakam-89-in-sanskrit/",
+  "romanization_source": "https://stotranidhi.com/en/narayaneeyam-dasakam-89-in-english/",
+  "caption_source": "intake/D089/photo-captions.txt",
+  "facebook_caption_source": "intake/D089/photo-captions.txt",
+  "images": [
+    {
+      "stanza": 1,
+      "role": "primary",
+      "path": "intake/D089/001.jpg",
+      "sha256": "08a8fcfef337897f839311a4384301c429b76b5a05fb7e1ade6690741a98c79c",
+      "bytes": 113656,
+      "width": 720,
+      "height": 1280,
+      "facebook_file": "D089/D089-2025-11-26-1.jpg",
+      "posted": "2025-11-26"
+    }
+  ],
+  "missing_stanzas": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "missing_stanzas_reason": "not present in the Facebook intake; the intake also has pictures with no stated stanza (see reference-map unmapped), which may belong here",
+  "unmapped": [
+    {
+      "path": "intake/D089/nostanza-01.jpg",
+      "sha256": "96e6c30e791b800da3bd7e2e95bc214ecc1f779f51a1b5874e11605919a90f45",
+      "bytes": 113951,
+      "width": 800,
+      "height": 1200,
+      "facebook_file": "D089/D089-2025-11-26-2.jpg",
+      "posted": "2025-11-26",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D089/nostanza-02.jpg",
+      "sha256": "fd31b3fa4440db4cb810ad8038ebb8d7a984323649c0ec9696a0b6ae6e37d423",
+      "bytes": 12724,
+      "width": 260,
+      "height": 259,
+      "facebook_file": "D089/D089-2025-11-26-3.jpg",
+      "posted": "2025-11-26",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D089/nostanza-03.jpg",
+      "sha256": "15010ab06f0e727d6c9f8bc955e86d691d715edfda470cedd6146b003a7b43de",
+      "bytes": 12520,
+      "width": 201,
+      "height": 251,
+      "facebook_file": "D089/D089-2025-11-26-4.jpg",
+      "posted": "2025-11-26",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D089/nostanza-04.jpg",
+      "sha256": "6398f1c340045cac0dcba6c3c3c1685421490394bc619984419cfe486fb53524",
+      "bytes": 276997,
+      "width": 1206,
+      "height": 1280,
+      "facebook_file": "D089/D089-2025-11-26-5.jpg",
+      "posted": "2025-11-26",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D089/nostanza-05.jpg",
+      "sha256": "2c70b455a010acf722c0f528599343ca5dddc5dfa8f284d2fc2164bc9f8bc5e5",
+      "bytes": 26591,
+      "width": 500,
+      "height": 281,
+      "facebook_file": "D089/D089-2025-11-26-6.jpg",
+      "posted": "2025-11-26",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D089/nostanza-06.jpg",
+      "sha256": "fd16e3dad15b29b85ee01ed1393a53c393cd06f405522d86b2703760d4894a6e",
+      "bytes": 135343,
+      "width": 1280,
+      "height": 690,
+      "facebook_file": "D089/D089-2025-11-26-7.jpg",
+      "posted": "2025-11-26",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D089/nostanza-07.jpg",
+      "sha256": "a2bfd0e7b815449adf3e687f24b46c7b97ebfe93f93c15bb21540c887459ff87",
+      "bytes": 16771,
+      "width": 260,
+      "height": 259,
+      "facebook_file": "D089/D089-2025-11-26-8.jpg",
+      "posted": "2025-11-26",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D089/nostanza-08.jpg",
+      "sha256": "d40de377194e458844db1fc8b84d9992db8426a4b4e1b8d240680b4a8861a284",
+      "bytes": 200399,
+      "width": 1200,
+      "height": 1017,
+      "facebook_file": "D089/D089-2025-11-26-9.jpg",
+      "posted": "2025-11-26",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D089/nostanza-09.jpg",
+      "sha256": "1f67001ad42ce79efeb1c1d581735573e2ccbb917cc0db8048f98ff52b668515",
+      "bytes": 118335,
+      "width": 714,
+      "height": 1280,
+      "facebook_file": "D089/D089-2025-11-26-10.jpg",
+      "posted": "2025-11-26",
+      "reason": "no stanza stated in its caption"
+    }
+  ]
+}

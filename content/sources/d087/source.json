@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "daskam": 87,
+  "caption_path": "intake/D087/photo-captions.txt",
+  "caption_sha256": "2afa02da9455f280733c2b2564d3895202260bda9b0d9541100a5eace9579af4",
+  "caption_origin": "intake/D087/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D087/facebook-source.json",
+  "facebook_source_sha256": "813282e3d08d212086790d4dc3b60d07351acf67f66c464883eeec6d2b803295",
+  "post_caption": "intake/D087/facebook-post-caption.txt",
+  "post_caption_sha256": "6d3506deb5a9be27b954960a2ad9c0b3b3163560fe8582c69a590c5a8f84e7fa",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-87-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d087/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "a9d331d2251251ab05cee4681771a9bf9ce73ba41faf9f029e9933ecb8b5a70f",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-87-in-english/",
+    "romanization_raw": "artifacts/d087/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "fe31b7f09aed0d7269ed4546addde0f13f995e930ecb163d52a9ce86145f6340",
+    "sanskrit_heading": "नारायणीयं सप्ताशीतितमदशकम् (८७) – कुचेलोपाख्यानम्",
+    "romanization_heading": "nārāyaṇīyaṃ saptāśītitamadaśakam (87) – kucelopākhyānam",
+    "completion_marker": "iti ṣaḍaśītitamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 87-1 through 87-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {
+    "10": [
+      "facebook-truncated-within-dropped-material",
+      "appended-non-english-dropped:121chars"
+    ]
+  },
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {}
+}
