@@ -199,10 +199,16 @@ test('forged, tampered, expired, overlong and rotated-secret cookies stay locked
   assert.equal((await fetchWorker('/d001', env, withCookie(valid))).status, 200);
 
   const [expires, signature] = valid.split('.');
-  const flipped = signature.slice(0, -1) + (signature.at(-1) === 'A' ? 'B' : 'A');
+  // The first character carries six significant bits, so changing it always changes the signature bytes.
+  const flipped = (signature[0] === 'A' ? 'B' : 'A') + signature.slice(1);
+  // The last character's low two bits are padding: flipping one decodes to the same bytes, so only
+  // a canonical-encoding check keeps this alternate spelling of a valid signature locked.
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_';
+  const nonCanonical = signature.slice(0, -1) + alphabet[alphabet.indexOf(signature.at(-1)) ^ 1];
   const cookies = [
     await unlockToken('a different passphrase', now + 3600),
     `${expires}.${flipped}`,
+    `${expires}.${nonCanonical}`,
     `${Number(expires) + 1}.${signature}`,
     await unlockToken(SECRET, now - 1),
     await unlockToken(SECRET, now + UNLOCK_MAX_AGE * 2),

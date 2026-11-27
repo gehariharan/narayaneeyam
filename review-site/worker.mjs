@@ -14,7 +14,7 @@ const secretOf=env=>typeof env?.NARAYANEEYAM_PASSPHRASE==='string'?env.NARAYANEE
 const hmacKey=secret=>crypto.subtle.importKey('raw',encoder.encode(secret),{name:'HMAC',hash:'SHA-256'},false,['sign','verify']);
 const unlockMessage=expires=>encoder.encode(`narayaneeyam-unlock:v1:${expires}`);
 const toBase64Url=bytes=>btoa(String.fromCharCode(...new Uint8Array(bytes))).replaceAll('+','-').replaceAll('/','_').replace(/=+$/,'');
-const fromBase64Url=text=>{if(!/^[A-Za-z0-9_-]{43}$/.test(text))return null;const raw=atob(text.replaceAll('-','+').replaceAll('_','/')+'=');return Uint8Array.from(raw,c=>c.charCodeAt(0));};
+const fromBase64Url=text=>{if(!/^[A-Za-z0-9_-]{43}$/.test(text))return null;const raw=atob(text.replaceAll('-','+').replaceAll('_','/')+'=');const bytes=Uint8Array.from(raw,c=>c.charCodeAt(0));return toBase64Url(bytes)===text?bytes:null;};
 export async function unlockToken(secret,expires){
  if(!secret)throw new Error('No passphrase secret configured.');
  return `${expires}.${toBase64Url(await crypto.subtle.sign('HMAC',await hmacKey(secret),unlockMessage(expires)))}`;
