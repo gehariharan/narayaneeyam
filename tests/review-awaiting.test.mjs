@@ -9,6 +9,7 @@ import { parse as parseYaml } from 'yaml';
 import { renderChapter, renderIndex } from '../review-site/views.mjs';
 import { awaitingIds, awaitingChapter, validateAwaiting, referenceLabel } from '../review-site/awaiting.mjs';
 import { latestBatch, withSelection, withUploadStep } from '../review-site/scripts/add-dasakam.mjs';
+import { selectionFiles } from '../review-site/selections.mjs';
 
 // A dasakam with content but no selected batch shows as awaiting-painting cards: reference photos,
 // Commentary and stanza text, a plain "Awaiting painting" slot, and only Text issue.
@@ -267,7 +268,6 @@ test('review:add-dasakam selects the batch in dasakam order and adds its upload 
 test('the real selections list, workflow and package script accept the add-dasakam edits', async () => {
   const selections = await fs.readFile(new URL('../review-site/selections.mjs', import.meta.url), 'utf8');
   const workflow = await fs.readFile(new URL('../.github/workflows/deploy-review.yml', import.meta.url), 'utf8');
-  assert.notEqual(withSelection(selections, 'd015-comparison-v001.json'), selections);
   const deploySteps = text => Object.values(parseYaml(text).jobs).flatMap(job => job.steps ?? []);
   const runsBeforeMigrations = (text, run) => {
     const steps = deploySteps(text);
@@ -275,9 +275,16 @@ test('the real selections list, workflow and package script accept the add-dasak
     const migrations = steps.findIndex(step => step.name === 'Apply review D1 migrations');
     return at !== -1 && migrations !== -1 && at < migrations;
   };
+  const upload = id => `node review-site/scripts/upload.mjs --daskam=${id}`;
+  const runs = new Set(deploySteps(workflow).map(step => step.run));
+  const id = Array.from({ length: 100 }, (_, i) => i + 1)
+    .find(n => !runs.has(upload(n)) && !selectionFiles.some(name => name.startsWith(`d${String(n).padStart(3, '0')}-`)));
   assert.ok(runsBeforeMigrations(workflow, 'node review-site/scripts/upload.mjs --awaiting'));
-  assert.ok(!runsBeforeMigrations(workflow, 'node review-site/scripts/upload.mjs --daskam=15'));
-  assert.ok(runsBeforeMigrations(withUploadStep(workflow, 15), 'node review-site/scripts/upload.mjs --daskam=15'));
+  if (id !== undefined) {
+    const batch = `d${String(id).padStart(3, '0')}-comparison-v001.json`;
+    assert.notEqual(withSelection(selections, batch), selections);
+    assert.ok(runsBeforeMigrations(withUploadStep(workflow, id), upload(id)));
+  }
   const pkg = JSON.parse(await fs.readFile(new URL('../package.json', import.meta.url), 'utf8'));
   assert.equal(pkg.scripts['review:add-dasakam'], 'node review-site/scripts/add-dasakam.mjs');
 });
