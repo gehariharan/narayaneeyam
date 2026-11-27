@@ -1,5 +1,5 @@
 import data from '../artifacts/review-site/data.json';
-import {renderIndex, renderChapter, chapterSlug} from './views.mjs';
+import {renderIndex, renderChapter, chapterSlug, stanzaState} from './views.mjs';
 const BASE='/narayaneeyam';
 const headers={'X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin','X-Frame-Options':'DENY','X-Robots-Tag':'noindex, nofollow','Content-Security-Policy':"default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'"};
 const json=(body,status=200)=>Response.json(body,{status,headers:{...headers,'Cache-Control':'no-store'}});
@@ -12,24 +12,27 @@ const UNLOCK_MAX_AGE=90*24*60*60;
 const encoder=new TextEncoder();
 const secretOf=env=>typeof env?.NARAYANEEYAM_PASSPHRASE==='string'?env.NARAYANEEYAM_PASSPHRASE:'';
 const hmacKey=secret=>crypto.subtle.importKey('raw',encoder.encode(secret),{name:'HMAC',hash:'SHA-256'},false,['sign','verify']);
-const unlockMessage=expires=>encoder.encode(`narayaneeyam-unlock:v1:${expires}`);
+const tokenMessage=(label,expires)=>encoder.encode(`${label}:${expires}`);
+const UNLOCK_LABEL='narayaneeyam-unlock:v1';
 const toBase64Url=bytes=>btoa(String.fromCharCode(...new Uint8Array(bytes))).replaceAll('+','-').replaceAll('/','_').replace(/=+$/,'');
 const fromBase64Url=text=>{if(!/^[A-Za-z0-9_-]{43}$/.test(text))return null;const raw=atob(text.replaceAll('-','+').replaceAll('_','/')+'=');const bytes=Uint8Array.from(raw,c=>c.charCodeAt(0));return toBase64Url(bytes)===text?bytes:null;};
-export async function unlockToken(secret,expires){
- if(!secret)throw new Error('No passphrase secret configured.');
- return `${expires}.${toBase64Url(await crypto.subtle.sign('HMAC',await hmacKey(secret),unlockMessage(expires)))}`;
+async function signToken(secret,label,expires){
+ if(!secret)throw new Error('No secret configured.');
+ return `${expires}.${toBase64Url(await crypto.subtle.sign('HMAC',await hmacKey(secret),tokenMessage(label,expires)))}`;
 }
+export const unlockToken=(secret,expires)=>signToken(secret,UNLOCK_LABEL,expires);
 const cookieValue=(request,name)=>{for(const part of (request.headers.get('cookie')||'').split(';')){const at=part.indexOf('=');if(at>0&&part.slice(0,at).trim()===name)return part.slice(at+1).trim();}return null;};
-export async function isUnlocked(request,env,now=Date.now()){
- const secret=secretOf(env),token=cookieValue(request,UNLOCK_COOKIE);
+async function validToken(request,cookie,secret,label,now){
+ const token=cookieValue(request,cookie);
  if(!secret||!token)return false;
  const match=/^(\d{1,12})\.([A-Za-z0-9_-]{43})$/.exec(token);
  if(!match)return false;
  const expires=Number(match[1]),seconds=Math.floor(now/1000);
  if(expires<=seconds||expires>seconds+UNLOCK_MAX_AGE+300)return false;
  const signature=fromBase64Url(match[2]);
- return !!signature&&crypto.subtle.verify('HMAC',await hmacKey(secret),signature,unlockMessage(expires));
+ return !!signature&&crypto.subtle.verify('HMAC',await hmacKey(secret),signature,tokenMessage(label,expires));
 }
+export const isUnlocked=(request,env,now=Date.now())=>validToken(request,UNLOCK_COOKIE,secretOf(env),UNLOCK_LABEL,now);
 const sha256=async text=>new Uint8Array(await crypto.subtle.digest('SHA-256',encoder.encode(text)));
 async function samePassphrase(given,secret){
  const [a,b]=await Promise.all([sha256(given),sha256(secret)]);
@@ -108,37 +111,134 @@ export async function feedback(request,env,dataset=data,now=new Date()){
  await env.DB.prepare('INSERT INTO feedback (id,daskam,sloka,target,category,message,reviewer_name,revision,image_versions,status,decision,created_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)').bind(id,input.daskam,input.sloka,target,'other',message,reviewer,chapter.revision,shownImages(row),status,decision,at).run();
  return json({id,sloka:input.sloka,decision,reviewer,note:message,at,status},201);
 }
+// Sign-off. A dasakam can be signed off only when every stanza's latest decision on the painting
+// shown now is Approve (a fix awaiting re-check is not). The sign-off stores that exact snapshot
+// (stanza, approve decision id, paintings); it stays current only while the snapshot is unchanged,
+// so any later decision or republished painting reopens it. A captain confirmation names the
+// sign-off it confirms and is current only with it. None of this is art approval: the studio
+// pulls a confirmation and runs art:approve on the exact checksums.
+function approvalSnapshot(chapter,latestFor){
+ let approved=0;
+ const snapshot=chapter.rows.map(row=>{const d=latestFor(row);if(!d||stanzaState(row.fix,d)!=='approve')return null;approved++;return{sloka:row.n,decision:d.id,image_versions:d.image_versions};});
+ return{approved,total:chapter.rows.length,snapshot:approved===chapter.rows.length&&approved>0?JSON.stringify(snapshot):null};
+}
+function currentSignoff(snapshot,rows){
+ if(!snapshot)return{signoff:null,confirmation:null};
+ const signoff=rows.filter(r=>r.kind==='signoff'&&r.stanzas===snapshot).at(-1)||null;
+ const confirmation=signoff&&rows.filter(r=>r.kind==='confirm'&&r.signoff_id===signoff.id).at(-1)||null;
+ const view=r=>r&&{id:r.id,reviewer:r.reviewer_name,at:r.created_at};
+ return{signoff:view(signoff),confirmation:view(confirmation)};
+}
+// One dasakam's decisions and sign-offs, oldest first, read for the card, sign-off and confirm.
+async function chapterState(env,chapter){
+ const {results=[]}=await env.DB.prepare('SELECT id,created_at,sloka,decision,message,reviewer_name,status,image_versions FROM feedback WHERE daskam=? ORDER BY created_at DESC, rowid DESC LIMIT 5000').bind(chapter.id).all();
+ const {results:signoffs=[]}=await env.DB.prepare('SELECT id,created_at,kind,reviewer_name,stanzas,signoff_id FROM signoffs WHERE daskam=? ORDER BY created_at, rowid LIMIT 5000').bind(chapter.id).all();
+ const shown=new Map(chapter.rows.map(row=>[row.n,shownImages(row)])),latest=new Map();
+ for(const r of results)if(!latest.has(r.sloka)&&shown.get(r.sloka)===r.image_versions)latest.set(r.sloka,r);
+ const counts=approvalSnapshot(chapter,row=>latest.get(row.n));
+ return{results,latest,...counts,...currentSignoff(counts.snapshot,signoffs)};
+}
 // The latest decision per stanza for the images currently shown; older images' decisions stay stored but are not returned.
+// Stanzas with a fix awaiting re-check also get the notes it answers, and the dasakam its sign-off state.
 export async function decisions(request,env,dataset=data){
  if(!['GET','HEAD'].includes(request.method))return json({error:'Method not allowed.'},405);
  if(request.headers.get('sec-fetch-site')==='cross-site')return json({error:'Please load decisions from this site.'},403);
  const raw=new URL(request.url).searchParams.get('daskam')||'';
  const chapter=/^\d{1,3}$/.test(raw)?dataset.chapters.find(c=>c.id===Number(raw)):undefined;
  if(!chapter)return json({error:'Unknown dasakam.'},404);
- const {results=[]}=await env.DB.prepare('SELECT id,created_at,sloka,decision,message,reviewer_name,status,image_versions FROM feedback WHERE daskam=? ORDER BY created_at DESC, rowid DESC LIMIT 5000').bind(chapter.id).all();
- const shown=new Map(chapter.rows.map(row=>[row.n,shownImages(row)])),latest=new Map();
- for(const r of results)if(!latest.has(r.sloka)&&shown.get(r.sloka)===r.image_versions)latest.set(r.sloka,{id:r.id,sloka:r.sloka,decision:r.decision,reviewer:r.reviewer_name,note:r.message,at:r.created_at,status:r.status,legacy:r.decision==='note'});
- return new Response(request.method==='HEAD'?null:JSON.stringify({daskam:chapter.id,revision:chapter.revision,decisions:[...latest.values()].sort((a,b)=>a.sloka-b.sloka)}),{headers:{...headers,'Content-Type':'application/json','Cache-Control':'no-store'}});
+ const state=await chapterState(env,chapter);
+ const view=r=>({id:r.id,sloka:r.sloka,decision:r.decision,reviewer:r.reviewer_name,note:r.message,at:r.created_at,status:r.status,legacy:r.decision==='note'});
+ const byId=new Map(state.results.map(r=>[r.id,r])),fixes={};
+ for(const row of chapter.rows)if(row.fix)fixes[row.n]=row.fix.notes.map(id=>byId.get(id)).filter(Boolean).reverse().map(r=>{const{status,legacy,...note}=view(r);return note;});
+ const body={daskam:chapter.id,revision:chapter.revision,decisions:[...state.latest.values()].map(view).sort((a,b)=>a.sloka-b.sloka),fixes,approved:state.approved,total:state.total,allApproved:!!state.snapshot,signoff:state.signoff,confirmation:state.confirmation};
+ return new Response(request.method==='HEAD'?null:JSON.stringify(body),{headers:{...headers,'Content-Type':'application/json','Cache-Control':'no-store'}});
+}
+// Reads a small same-origin JSON object, or returns the error response.
+async function jsonBody(request,limit=2048){
+ if(request.headers.get('origin')!==new URL(request.url).origin)return json({error:'Please submit from this site.'},403);
+ if(!request.headers.get('content-type')?.startsWith('application/json'))return json({error:'Expected JSON.'},415);
+ const reader=request.body?.getReader();if(!reader)return json({error:'Missing request.'},400);
+ let total=0;const chunks=[];
+ while(true){const {done,value}=await reader.read();if(done)break;total+=value.byteLength;if(total>limit){await reader.cancel();return json({error:'Request is too long.'},413);}chunks.push(value);}
+ try{const all=new Uint8Array(total);let at=0;for(const c of chunks){all.set(c,at);at+=c.length;}const input=JSON.parse(new TextDecoder().decode(all));if(input&&typeof input==='object'&&!Array.isArray(input))return{input};}catch{}
+ return json({error:'Invalid request.'},400);
+}
+// Common checks for sign-off and confirm: a bundled dasakam on its current revision, a named person, the decision rate limit.
+async function signoffRequest(input,env,dataset){
+ const chapter=dataset.chapters.find(c=>c.id===input.daskam);
+ if(!chapter)return json({error:'Unknown dasakam.'},400);
+ if(typeof chapter.revision!=='string'||!chapter.revision||input.revision!==chapter.revision)return json({error:'This review page has changed. Reload it first.'},409);
+ const reviewer=reviewerName(input.reviewer);
+ if(!reviewer||reviewer.length>60)return json({error:'Enter your name (up to 60 characters) first.'},400);
+ const limit=await env.DECISION_LIMIT.limit({key:input.ip});
+ if(!limit.success)return json({error:'Too many submissions. Please wait a minute and retry.'},429);
+ return{chapter,reviewer};
+}
+export async function signoff(request,env,dataset=data,now=new Date()){
+ const body=await jsonBody(request);if(body instanceof Response)return body;
+ const checked=await signoffRequest({...body.input,ip:request.headers.get('CF-Connecting-IP')||'local'},env,dataset);if(checked instanceof Response)return checked;
+ const {chapter,reviewer}=checked,state=await chapterState(env,chapter);
+ if(!state.snapshot)return json({error:'Every stanza must be approved on its current painting before sign-off.'},409);
+ if(state.signoff)return json({...state.signoff,existing:true});
+ const id=crypto.randomUUID(),at=now.toISOString();
+ await env.DB.prepare('INSERT INTO signoffs (id,created_at,daskam,kind,reviewer_name,revision,stanzas,signoff_id) VALUES (?,?,?,?,?,?,?,?)').bind(id,at,chapter.id,'signoff',reviewer,chapter.revision,state.snapshot,null).run();
+ return json({id,reviewer,at},201);
+}
+// Captain confirmation. The site cannot tell people apart behind the one passphrase, so confirming
+// needs a second, separate secret: CAPTAIN_CONFIRM_KEY. Without it confirmation is closed.
+const CAPTAIN_COOKIE='narayaneeyam_captain';
+const CAPTAIN_LABEL='narayaneeyam-captain:v1';
+const captainKeyOf=env=>typeof env?.CAPTAIN_CONFIRM_KEY==='string'?env.CAPTAIN_CONFIRM_KEY:'';
+export const captainToken=(secret,expires)=>signToken(secret,CAPTAIN_LABEL,expires);
+const closedConfirm=()=>json({error:'Captain confirmation is closed: no captain key is set for this site.',closed:true},503);
+export async function captainKey(request,env,now=Date.now()){
+ const body=await jsonBody(request);if(body instanceof Response)return body;
+ const secret=captainKeyOf(env);if(!secret)return closedConfirm();
+ const limit=await env.FEEDBACK_LIMIT.limit({key:`captain:${request.headers.get('CF-Connecting-IP')||'local'}`});
+ if(!limit.success)return json({error:'Too many attempts. Please wait a minute and retry.'},429);
+ const given=typeof body.input.key==='string'?body.input.key:'';
+ if(!given||given.length>512||!(await samePassphrase(given,secret)))return json({error:'That captain key is not correct.'},403);
+ const expires=Math.floor(now/1000)+UNLOCK_MAX_AGE;
+ return Response.json({saved:true},{headers:{...headers,'Cache-Control':'no-store','Set-Cookie':`${CAPTAIN_COOKIE}=${await captainToken(secret,expires)}; Max-Age=${UNLOCK_MAX_AGE}; Path=${BASE}; HttpOnly; Secure; SameSite=Strict`}});
+}
+export async function confirm(request,env,dataset=data,now=new Date()){
+ const body=await jsonBody(request);if(body instanceof Response)return body;
+ const secret=captainKeyOf(env);if(!secret)return closedConfirm();
+ if(!(await validToken(request,CAPTAIN_COOKIE,secret,CAPTAIN_LABEL,now.getTime())))return json({error:'Enter the captain key once on this device to confirm approval.',needKey:true},401);
+ const checked=await signoffRequest({...body.input,ip:request.headers.get('CF-Connecting-IP')||'local'},env,dataset);if(checked instanceof Response)return checked;
+ const {chapter,reviewer}=checked,state=await chapterState(env,chapter);
+ if(!state.signoff||body.input.signoff!==state.signoff.id)return json({error:'This dasakam has no current sign-off to confirm. Reload the page.'},409);
+ if(state.confirmation)return json({...state.confirmation,existing:true});
+ const id=crypto.randomUUID(),at=now.toISOString();
+ await env.DB.prepare('INSERT INTO signoffs (id,created_at,daskam,kind,reviewer_name,revision,stanzas,signoff_id) VALUES (?,?,?,?,?,?,?,?)').bind(id,at,chapter.id,'confirm',reviewer,chapter.revision,state.snapshot,state.signoff.id).run();
+ return json({id,reviewer,at},201);
 }
 // Review progress per dasakam for the 100-tile index, from one query over every stanza.
 // Like /api/decisions, a stanza counts only its latest record on the paintings shown now;
 // decisions on an earlier version, legacy notes, and a request closed on the current painting leave it undecided.
-const LATEST_PER_VERSION='SELECT daskam,sloka,decision,status,image_versions FROM (SELECT daskam,sloka,decision,status,image_versions,ROW_NUMBER() OVER (PARTITION BY daskam,sloka,image_versions ORDER BY created_at DESC, rowid DESC) AS nth FROM feedback) WHERE nth=1';
+const LATEST_PER_VERSION='SELECT id,daskam,sloka,decision,status,image_versions FROM (SELECT id,daskam,sloka,decision,status,image_versions,ROW_NUMBER() OVER (PARTITION BY daskam,sloka,image_versions ORDER BY created_at DESC, rowid DESC) AS nth FROM feedback) WHERE nth=1';
+// A fix awaiting re-check counts as Fixed, re-check, not decided. A fully approved dasakam is
+// Reviewed until signed off, then Signed off until the captain confirms it.
 export async function reviewProgress(env,dataset=data){
  const {results=[]}=await env.DB.prepare(LATEST_PER_VERSION).all();
+ const {results:signoffs=[]}=await env.DB.prepare('SELECT id,created_at,daskam,kind,reviewer_name,stanzas,signoff_id FROM signoffs ORDER BY created_at, rowid').all();
  const latest=new Map(results.map(r=>[`${r.daskam}:${r.sloka}:${r.image_versions}`,r]));
  const progress={};
  for(const chapter of dataset.chapters){
-  let decided=0,approved=0,waiting=0;
+  let decided=0,approved=0,waiting=0,fixed=0;
+  const latestFor=row=>latest.get(`${chapter.id}:${row.n}:${shownImages(row)}`);
   for(const row of chapter.rows){
-   const d=latest.get(`${chapter.id}:${row.n}:${shownImages(row)}`);
+   const d=latestFor(row);
+   if(stanzaState(row.fix,d)==='fixed'){fixed++;continue;}
    if(!d||!DECISIONS.includes(d.decision)||(d.decision!=='approve'&&d.status==='closed'))continue;
    decided++;
    if(d.decision==='approve')approved++;
    else waiting++;
   }
   const total=chapter.rows.length;
-  progress[chapter.id]={total,decided,approved,waiting,state:waiting?'waiting':total&&approved===total?'reviewed':decided?'in-review':'ready'};
+  const signed=currentSignoff(approvalSnapshot(chapter,latestFor).snapshot,signoffs.filter(r=>r.daskam===chapter.id));
+  const state=fixed?'fixed':waiting?'waiting':total&&approved===total?(signed.confirmation?'confirmed':signed.signoff?'signed-off':'reviewed'):decided?'in-review':'ready';
+  progress[chapter.id]={total,decided,approved,waiting,fixed,state};
  }
  return progress;
 }
@@ -155,6 +255,9 @@ export default {async fetch(request,env){
  }
  if(p===BASE+'/api/feedback')return request.method==='POST'?await feedback(request,env):json({error:'Method not allowed.'},405);
  if(p===BASE+'/api/decisions')return await decisions(request,env);
+ if(p===BASE+'/api/signoff')return request.method==='POST'?await signoff(request,env):json({error:'Method not allowed.'},405);
+ if(p===BASE+'/api/confirm')return request.method==='POST'?await confirm(request,env):json({error:'Method not allowed.'},405);
+ if(p===BASE+'/api/captain-key')return request.method==='POST'?await captainKey(request,env):json({error:'Method not allowed.'},405);
  if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers});
  if(p===BASE)return new Response(null,{status:308,headers:{...headers,Location:BASE+'/'}});
  const key=p.slice(BASE.length+1);

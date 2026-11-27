@@ -5,6 +5,7 @@ import sharp from 'sharp';
 import { loadSelections } from '../selections.mjs';
 import { validateSelections, reviewFor, validateBundle } from '../image-review.mjs';
 import { renderIndex, renderChapter, chapterSlug, isExcludedReference } from '../views.mjs';
+import { readLog, rowFix } from '../feedback-log.mjs';
 
 const root = path.resolve(import.meta.dirname, '../..');
 const dest = path.join(root, 'artifacts/review-site');
@@ -40,6 +41,8 @@ for (const importedSelection of batches) {
   const content=JSON.parse(await fs.readFile(path.join(root, `content/daskams/${d}.json`)));
   const plan=JSON.parse(await fs.readFile(path.join(root, `art/plans/${d}.json`)));
   const chapter={id,title:`Dasakam ${id}`,description:content.description||importedSelection.description||'',reviewNotice:importedSelection.review_notice||'',rows:[]};
+  // The studio's review work list (art/feedback/dNNN.json): notes a new painting or a text fix answers.
+  const log=await readLog(root,id);
   for(const stanza of content.stanzas.filter(s=>importedSelection.rows.some(r=>r.n===s.n))){
     const n=stanza.n,s=String(n).padStart(3,'0');
     const selected=importedSelection.rows.find(r=>r.n===n);
@@ -59,7 +62,19 @@ for (const importedSelection of batches) {
       const review = reviewFor(validation, { ...item, chapter:id, sloka:n, role:'alternate' });
       images.push({inspectionStatus:review.status,inspectionLabel:review.label,role:'alternate',label:item.label||'Alternate candidate',displayLabel:item.displayLabel||item.label,version:item.version,key:await asset(item.file,`${d}-s${s}-alternate-${item.version||'candidate'}`)});
     }
-    chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,sanskrit:stanza.sanskrit||'',transliteration:stanza.stanza_roman||'',editorialStatus:stanza.review_status||'needs-review',images});
+    // A fix shows on the card as "Fixed, re-check"; a redrawn painting also carries the earlier
+    // painting the note was about, so the reviewer can toggle before/after.
+    const answered=rowFix(log,id,n,selected.matte);
+    let fix;
+    if(answered){
+      fix={notes:answered.notes,kind:answered.kind,version:answered.version};
+      if(answered.previous){
+        const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,answered.previous.file))).digest('hex');
+        if(actualHash!==answered.previous.sha256)throw new Error(`Checksum mismatch for the earlier painting of ${d} S${s} ${answered.previous.version}`);
+        fix.previous={key:await asset(answered.previous.file,`${d}-s${s}-previous-${answered.previous.version}`),version:answered.previous.version};
+      }
+    }
+    chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,sanskrit:stanza.sanskrit||'',transliteration:stanza.stanza_roman||'',editorialStatus:stanza.review_status||'needs-review',images,...(fix?{fix}:{})});
   }
   chapter.representative=(id === 2 ? chapter.rows[0] : (chapter.rows[2]||chapter.rows[0])).images.find(image=>image.role==='matte').key;
   // Feedback is checked against this dasakam's own revision, so republishing one chapter leaves open forms on the others valid.

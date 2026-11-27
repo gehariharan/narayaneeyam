@@ -30,6 +30,7 @@ async function migratedDb() {
   legacy.run('legacy-current', '2026-10-01T09:00:00.000Z', 1, 'Krishna needs a flute.', shown(1));
   legacy.run('legacy-old', '2026-10-02T09:00:00.000Z', 2, 'About an earlier painting.', JSON.stringify([{ role: 'matte', key: 'media/d001/s002-v001.webp', version: 'v001' }]));
   db.exec(await migration('0003_feedback_decisions.sql'));
+  db.exec(await migration('0004_signoffs.sql'));
   return db;
 }
 function d1(db, { limited = false } = {}) {

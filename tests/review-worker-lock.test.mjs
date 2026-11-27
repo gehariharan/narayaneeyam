@@ -195,7 +195,7 @@ test('the right passphrase sets a 90-day signed cookie that opens pages, media a
   const decisions = await fetchWorker('/api/decisions?daskam=1', env, withCookie(cookie));
   assert.equal(decisions.status, 200);
   assert.equal(decisions.headers.get('cache-control'), 'no-store');
-  assert.deepEqual(await decisions.json(), { daskam: 1, revision: fixture.revision, decisions: [] });
+  assert.deepEqual(await decisions.json(), { daskam: 1, revision: fixture.revision, decisions: [], fixes: {}, approved: 0, total: fixture.chapters[0].rows.length, allApproved: false, signoff: null, confirmation: null });
 
   // Other cookies alongside the unlock cookie are tolerated.
   const mixed = await fetchWorker('/d001', env, { headers: { cookie: `theme=dark; ${UNLOCK_COOKIE}=${cookie}; other=1` } });

@@ -35,4 +35,20 @@ for bad in (('b1', 'Looks good.', 'Reviewer', 'closed', 'approve'), ('b2', 'ok',
         raise AssertionError(f'Invalid decision accepted: {bad[0]}')
 db.execute("INSERT INTO feedback(id,daskam,sloka,target,category,message,revision,image_versions) VALUES('plain',1,1,'generated','other','Plain note','new','[]')")
 assert db.execute("SELECT decision,reviewer_name FROM feedback WHERE id='plain'").fetchone() == ('note', '')
-print('Passed: feedback migrations preserve rows, accept new chapters and reviewer decisions, mark existing rows as legacy notes, and reject invalid chapters and decisions.')
+columns = 'id,created_at,daskam,sloka,target,category,message,reviewer_name,revision,image_versions,status,decision'
+before = db.execute(f'SELECT {columns} FROM feedback ORDER BY rowid').fetchall()
+db.executescript((root / 'migrations/0004_signoffs.sql').read_text())
+assert db.execute(f'SELECT {columns} FROM feedback ORDER BY rowid').fetchall() == before
+assert [row[1] for row in db.execute('PRAGMA table_info(feedback)')] == columns.split(',')
+signoff = "INSERT INTO signoffs(id,daskam,kind,reviewer_name,revision,stanzas,signoff_id) VALUES(?,?,?,?,'rev','[{}]',?)"
+db.execute(signoff, ('s1', 1, 'signoff', 'Srividhya', None))
+db.execute(signoff, ('c1', 1, 'confirm', 'Captain', 's1'))
+for bad in (('x1', 0, 'signoff', 'Reviewer', None), ('x2', 1, 'approve', 'Reviewer', None), ('x3', 1, 'signoff', ' ', None), ('x4', 1, 'confirm', 'Captain', None), ('x5', 1, 'signoff', 'Reviewer', 's1'), ('x6', 1, 'signoff', 'x' * 61, None)):
+    try:
+        db.execute(signoff, bad)
+    except sqlite3.IntegrityError:
+        pass
+    else:
+        raise AssertionError(f'Invalid sign-off accepted: {bad[0]}')
+assert 'signoffs_latest' in {row[1] for row in db.execute('PRAGMA index_list(signoffs)')}
+print('Passed: feedback migrations preserve rows, accept new chapters and reviewer decisions, mark existing rows as legacy notes, add sign-offs without touching feedback, and reject invalid chapters, decisions and sign-offs.')

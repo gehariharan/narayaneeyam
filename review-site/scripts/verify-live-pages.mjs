@@ -62,8 +62,13 @@ export async function verifyLivePages(data, {
   await fetchVerified(base, '/api/feedback', { method: 'POST', headers: { 'content-type': 'application/json', origin }, body }, (response, text) => verifyLockedEmpty(response, text, 'POST /api/feedback'), retryDelayMs);
   const decisions = `/api/decisions?daskam=${chapters[0].id}`;
   await fetchVerified(base, decisions, {}, (response, text) => verifyLockedEmpty(response, text, `GET ${decisions}`), retryDelayMs);
+  // Sign-off, captain confirmation and the captain key are locked too; these bodies are never valid.
+  for (const route of ['/api/signoff', '/api/confirm', '/api/captain-key']) {
+    const lockBody = JSON.stringify({ daskam: chapters[0].id, revision: 'lock-verification', reviewer: 'lock-verification', signoff: 'lock-verification', key: '' });
+    await fetchVerified(base, route, { method: 'POST', headers: { 'content-type': 'application/json', origin }, body: lockBody }, (response, text) => verifyLockedEmpty(response, text, `POST ${route}`), retryDelayMs);
+  }
 
-  console.log(`Verified live lock: index, ${chapters.length} chapter pages, a media path, feedback and reviewer decisions all return the locked 401 response.`);
+  console.log(`Verified live lock: index, ${chapters.length} chapter pages, a media path, feedback, reviewer decisions, sign-off, captain confirmation and the captain key all return the locked 401 response.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
