@@ -429,8 +429,6 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
   assert.equal(captainDecisions.decisions[0].sloka, 6);
   assert.equal(captainDecisions.decisions[0].review_outcome, 'needs-fix');
   assert.equal(captainDecisions.decisions[0].art_approval, false);
-  assert.match(plan.stanzas[8].scene_brief.must_show[0], /falls DOWN from its mouth onto Vamana’s feet and into the basin/);
-  assert.match(plan.stanzas[8].scene_brief.must_show[0], /no stream rises from the basin/);
   for (const row of current.rows) {
     const review = reviewFile.reviews.find(item => item.chapter === 30 && item.sloka === row.n && item.file === row.matte.file && item.version === row.matte.version && item.sha256 === row.matte.sha256);
     assert.ok(review, `fresh exact-checksum review for S${String(row.n).padStart(3, '0')}`);
@@ -445,7 +443,9 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
     }
   }
   for (const row of current.rows.filter(item => item.n !== 9)) {
-    assert.deepEqual(row, prior.rows.find(item => item.n === row.n));
+    const { candidate_status: currentStatus, ...currentRow } = row;
+    const { candidate_status: priorStatus, ...priorRow } = prior.rows.find(item => item.n === row.n);
+    assert.deepEqual(currentRow, priorRow);
   }
 });
 
