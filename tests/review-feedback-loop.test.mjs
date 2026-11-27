@@ -216,7 +216,9 @@ test('the card shows a before/after toggle for a redrawn painting and the sign-o
   assert.ok(html.includes('<figure class="matte before" data-before hidden><a data-zoom href="/narayaneeyam/media/d001-s001-previous-v001.webp">'));
   assert.ok(html.includes('data-compare aria-pressed="false" data-show-before="Show before (v001)" data-show-after="Show after (v002)">Show before (v001)</button>'));
   assert.equal((html.match(/data-compare aria-pressed/g) || []).length, 1, 'only the redrawn painting has a before/after toggle');
-  assert.ok(html.includes("fixed:'Fixed, re-check'"));
+  const fixes = [...html.matchAll(/data-fix="([^"]*)"/g)].map(m => JSON.parse(m[1].replaceAll('&quot;', '"')));
+  assert.deepEqual(fixes.map(fix => stanzaState(fix, { id: fix.notes[0], decision: 'redraw' })), ['fixed', 'fixed'], 'the card shows Fixed, re-check while the latest decision is the note it answers');
+  assert.equal(stanzaState(fixes[0], { id: 'later', decision: 'approve' }), 'approve');
   const panel = html.match(/<section class="signoff"[\s\S]*?<\/section>/)[0];
   assert.ok(panel.includes('data-signoff-url="/narayaneeyam/api/signoff" data-confirm-url="/narayaneeyam/api/confirm" data-key-url="/narayaneeyam/api/captain-key"'));
   assert.ok(panel.includes('<button type="button" data-signoff-button disabled>Sign off this dasakam</button>'));
@@ -348,5 +350,42 @@ test('a pulled sign-off and captain confirmation record the exact paintings and 
   // The pull never touches art/approved.
   await assert.rejects(fs.access(path.join(root, 'art/approved')));
   assert.deepEqual((await pullFeedback(root, { feedback: [], signoffs }, { now: NOW })).approvals, [], 'an already pulled confirmation is not listed again');
+  await fs.rm(root, { recursive: true });
+});
+
+test('a captain confirmation with later reviewer decisions is still recorded but warns it may be superseded', async () => {
+  const { root } = await studio();
+  const stanzas = JSON.stringify([1, 2, 3].map(n => ({ sloka: n, decision: `a${n}`, image_versions: shown(n, 'v001') })));
+  const signoffs = [
+    { id: 's1', created_at: '2026-11-29T12:00:00.000Z', daskam: 1, kind: 'signoff', reviewer_name: 'Srividhya', revision: 'rev', stanzas, signoff_id: null },
+    { id: 'c1', created_at: '2026-11-29T13:00:00.000Z', daskam: 1, kind: 'confirm', reviewer_name: 'Captain', revision: 'rev', stanzas, signoff_id: 's1' },
+  ];
+  const before = fb('a0', 2, 'approve', 'v001', '2026-11-29T11:00:00.000Z');
+  const quiet = await pullFeedback(root, { feedback: [before], signoffs }, { now: NOW });
+  assert.deepEqual(quiet.warnings, []);
+  await fs.rm(path.join(root, 'art/feedback'), { recursive: true });
+  const report = await pullFeedback(root, { feedback: [before, fb('n9', 2, 'redraw', 'v001', '2026-11-29T14:00:00.000Z')], signoffs }, { now: NOW });
+  assert.equal(report.approvals.length, 3, 'the art:approve steps are still listed');
+  assert.ok((await readLog(root, 1)).entries.some(e => e.kind === 'captain-confirmed' && e.id === 'c1'));
+  assert.equal(report.warnings.length, 1);
+  assert.match(report.warnings[0], /D001 captain confirmation c1 may be superseded: 1 later reviewer decision\(s\) \(S002 redraw\)\. Re-check the site before approving\./);
+  await fs.rm(root, { recursive: true });
+});
+
+test('an alternate listing answers_notes does not mark the note fixed; only the selected matte does', async () => {
+  const { root, batch } = await studio();
+  await pullFeedback(root, { feedback: [fb('n1', 1, 'redraw', 'v001', '2026-11-27T09:00:00.000Z')] }, { now: NOW });
+  const others = [2, 3].map(n => ({ n, matte: { file: `artifacts/d001/s00${n}/landscape/candidate-v001.png`, version: 'v001', sha256: sha(String(n)) } }));
+  const alt = version => ({ file: `artifacts/d001/s001/landscape/candidate-${version}.png`, version, sha256: sha(version.at(-1)), answers_notes: ['n1'] });
+  await batch('d001-comparison-v002.json', [{ n: 1, matte: { file: 'artifacts/d001/s001/landscape/candidate-v001.png', version: 'v001', sha256: sha('1') }, alternates: [alt('v003'), alt('v004')] }, ...others]);
+  await pullFeedback(root, { feedback: [] }, { now: NOW });
+  assert.equal(statusOf(await readLog(root, 1), 'n1'), 'open');
+  // v004 is promoted to the matte: the fix is bound to v004, the painting the card shows.
+  await batch('d001-comparison-v003.json', [{ n: 1, matte: alt('v004'), alternates: [alt('v003')] }, ...others]);
+  await pullFeedback(root, { feedback: [] }, { now: NOW });
+  const log = await readLog(root, 1);
+  assert.deepEqual([log.entries.at(-1).status, log.entries.at(-1).version, log.entries.at(-1).sha256, log.entries.at(-1).batch], ['fixed', 'v004', sha('4'), 'art/batches/d001-comparison-v003.json']);
+  await pullFeedback(root, { feedback: [fb('ok', 1, 'approve', 'v004', '2026-11-29T09:00:00.000Z')] }, { now: NOW });
+  assert.equal(statusOf(await readLog(root, 1), 'n1'), 'confirmed');
   await fs.rm(root, { recursive: true });
 });

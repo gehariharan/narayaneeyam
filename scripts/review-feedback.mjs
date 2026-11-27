@@ -54,11 +54,11 @@ async function batchIndex(root) {
     if (!Array.isArray(batch?.rows)) continue;
     for (const row of batch.rows) {
       if (!Number.isInteger(row?.n)) continue;
-      for (const item of [row.matte, ...(Array.isArray(row.alternates) ? row.alternates : [])]) {
+      for (const [role, item] of [['matte', row.matte], ...(Array.isArray(row.alternates) ? row.alternates : []).map(alt => ['alternate', alt])]) {
         if (!item || typeof item.version !== 'string' || typeof item.file !== 'string' || typeof item.sha256 !== 'string') continue;
         const key = `${daskam}:${row.n}`;
         if (!index.has(key)) index.set(key, []);
-        index.get(key).push({ batch: `art/batches/${name}`, item });
+        index.get(key).push({ batch: `art/batches/${name}`, role, item });
       }
     }
   }
@@ -111,11 +111,12 @@ export async function pullFeedback(root, exportData, { now = new Date(), daskam 
     const rows = feedback.filter(row => row.daskam === id);
     const add = entry => { log.entries.push(entry); if (entry.id) seen.add(entry.id); };
 
-    // A new painting whose batch entry answers a note marks that note fixed in that version.
+    // A new selected painting (a batch row's matte, as the build shows it) whose entry answers a
+    // note marks that note fixed in that version; alternates never answer notes.
     const imageFixes = () => {
       for (const note of notesOf(log)) {
         if (!['open', 'being-fixed'].includes(lastStatus(log, note.id).status)) continue;
-        const hit = (index.get(`${id}:${note.stanza}`) || []).find(h => Array.isArray(h.item.answers_notes) && h.item.answers_notes.includes(note.id));
+        const hit = (index.get(`${id}:${note.stanza}`) || []).findLast(h => h.role === 'matte' && Array.isArray(h.item.answers_notes) && h.item.answers_notes.includes(note.id));
         if (hit) add({ kind: 'status', note: note.id, status: 'fixed', fix: 'image', version: hit.item.version, file: hit.item.file, sha256: hit.item.sha256, batch: hit.batch, at, by: 'studio' });
       }
     };
@@ -153,6 +154,8 @@ export async function pullFeedback(root, exportData, { now = new Date(), daskam 
     for (const row of signoffs.filter(r => r.daskam === id && r.kind === 'confirm' && !seen.has(r.id))) {
       const stanzas = snapshot(row.stanzas);
       add({ kind: 'captain-confirmed', id: row.id, at: row.created_at, by: row.reviewer_name, signoff: row.signoff_id, revision: row.revision, stanzas, pulled_at: at });
+      const later = rows.filter(r => r.created_at > row.created_at);
+      if (later.length) report.warnings.push(`D${pad(id)} captain confirmation ${row.id} may be superseded: ${later.length} later reviewer decision(s) (${later.map(r => `S${pad(r.sloka)} ${r.decision}`).join(', ')}). Re-check the site before approving.`);
       for (const stanza of stanzas) for (const image of stanza.images.filter(i => i.role === 'matte')) {
         report.approvals.push({ daskam: id, sloka: stanza.stanza, version: image.version, file: image.file, sha256: image.sha256, confirmation: row.id });
       }
