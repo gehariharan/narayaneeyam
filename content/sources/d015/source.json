@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "daskam": 15,
+  "caption_path": "intake/D015/photo-captions.txt",
+  "caption_sha256": "925ee4b2284be313714f15860c0fd25cfca7ed395334fdd2487abc355fed086d",
+  "caption_origin": "intake/D015/photo-captions.txt",
+  "source_type": "google-drive-commentary-document",
+  "facebook_source": "intake/D015/facebook-source.json",
+  "facebook_source_sha256": "7fca705874e02aca0ff4c43be46b79c794e6f313b50b77b557e7dc30a6eed252",
+  "post_caption": "intake/D015/facebook-post-caption.txt",
+  "post_caption_sha256": "7a220a84a1b93a61d0e5272a9112703bcee177955c294abf4de44d6baf150628",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-15-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d015/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "b09ef66af331dc6d180c4509f78d478ad6d05ac1155c19f0bb5157b503b75294",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-15-in-english/",
+    "romanization_raw": "artifacts/d015/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "b7cb0fc14e1edcf4e8077a5794bdf024599fdfe787cc2b3367e1d99a0cf4cc30",
+    "sanskrit_heading": "नारायणीयं पञ्चदशदशकम् (१५) – कपिलोपदेशम्",
+    "romanization_heading": "nārāyaṇīyaṃ pañcadaśadaśakam (15) – kapilopadeśam",
+    "completion_marker": "iti pañcadaśadaśakaṃ samāptam ||",
+    "evidence": "10 numbered stanzas 15-1 through 15-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "drive-document",
+    "2": "drive-document",
+    "3": "drive-document",
+    "4": "drive-document",
+    "5": "drive-document",
+    "6": "drive-document",
+    "7": "drive-document",
+    "8": "drive-document",
+    "9": "drive-document",
+    "10": "drive-document"
+  }
+}

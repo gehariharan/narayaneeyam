@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "daskam_id": 22,
+  "status": "source-mapped-needs-review",
+  "mapping_basis": "Pictures follow the intake naming convention: NNN.jpg is the first picture whose own Facebook caption states stanza #N; NNN-2.jpg and later are further pictures for that stanza; nostanza-NN.jpg have no stated stanza and stay unmapped. A picture whose caption labels several stanzas (for example \"#5 & #6\") is mapped to each of them. Source photos are contextual references only; canonical Sanskrit governs scene interpretation.",
+  "canonical_source": "https://stotranidhi.com/hi/narayaneeyam-dasakam-22-in-sanskrit/",
+  "romanization_source": "https://stotranidhi.com/en/narayaneeyam-dasakam-22-in-english/",
+  "caption_source": "intake/D022/photo-captions.txt",
+  "facebook_caption_source": "intake/D022/photo-captions.txt",
+  "images": [
+    {
+      "stanza": 1,
+      "role": "primary",
+      "path": "intake/D022/001.jpg",
+      "sha256": "3a5cfaf5e3461dd143e62f54c23342d87c0267f5dd518b26c20ba82813e57c10",
+      "bytes": 105733,
+      "width": 1299,
+      "height": 943,
+      "facebook_file": "D022/D022-2024-06-12-1.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 2,
+      "role": "primary",
+      "path": "intake/D022/002.jpg",
+      "sha256": "c30dd96930c0892a63129810c9395076bfc675a2dd692be4c25c2fcc7c24b8be",
+      "bytes": 256889,
+      "width": 1600,
+      "height": 1392,
+      "facebook_file": "D022/D022-2024-06-12-2.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 3,
+      "role": "primary",
+      "path": "intake/D022/003.jpg",
+      "sha256": "75aa019fae02b2edb54910038d2142f36d294b722f4125ee45f4e281cff609c4",
+      "bytes": 54625,
+      "width": 413,
+      "height": 608,
+      "facebook_file": "D022/D022-2024-06-12-3.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 4,
+      "role": "primary",
+      "path": "intake/D022/004.jpg",
+      "sha256": "1984c3def6fe6af2bc20c4cbe4b087420d0d7a1a1b9c33581a5524a65063db1d",
+      "bytes": 42828,
+      "width": 540,
+      "height": 506,
+      "facebook_file": "D022/D022-2024-06-12-4.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 5,
+      "stanzas": [
+        5,
+        6
+      ],
+      "role": "multi-stanza",
+      "path": "intake/D022/nostanza-01.jpg",
+      "sha256": "c86887d39250a6fc37ac6a69af4f62ab4e8773c3f0846eb659edff3878eae4a0",
+      "bytes": 222548,
+      "width": 1198,
+      "height": 1600,
+      "facebook_file": "D022/D022-2024-06-12-5.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 6,
+      "stanzas": [
+        5,
+        6
+      ],
+      "role": "multi-stanza",
+      "path": "intake/D022/nostanza-01.jpg",
+      "sha256": "c86887d39250a6fc37ac6a69af4f62ab4e8773c3f0846eb659edff3878eae4a0",
+      "bytes": 222548,
+      "width": 1198,
+      "height": 1600,
+      "facebook_file": "D022/D022-2024-06-12-5.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 8,
+      "role": "primary",
+      "path": "intake/D022/008.jpg",
+      "sha256": "a2e147a7087bf06a81842d132ba93158d98e326bbec70e9a731f0d057852dece",
+      "bytes": 78525,
+      "width": 1600,
+      "height": 819,
+      "facebook_file": "D022/D022-2024-06-12-6.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 10,
+      "stanzas": [
+        10,
+        11
+      ],
+      "role": "multi-stanza",
+      "path": "intake/D022/nostanza-02.jpg",
+      "sha256": "9f6bb4462eed636f27b516efa57ce730baf0adca477cba1f14ffae80e6ddc094",
+      "bytes": 58229,
+      "width": 572,
+      "height": 722,
+      "facebook_file": "D022/D022-2024-06-12-7.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 11,
+      "stanzas": [
+        10,
+        11
+      ],
+      "role": "multi-stanza",
+      "path": "intake/D022/nostanza-02.jpg",
+      "sha256": "9f6bb4462eed636f27b516efa57ce730baf0adca477cba1f14ffae80e6ddc094",
+      "bytes": 58229,
+      "width": 572,
+      "height": 722,
+      "facebook_file": "D022/D022-2024-06-12-7.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 11,
+      "role": "primary",
+      "path": "intake/D022/011.jpg",
+      "sha256": "5e649d355e63a2df0281b973432a579eba4bdc409ae6087648e7c27f19640221",
+      "bytes": 58718,
+      "width": 572,
+      "height": 722,
+      "facebook_file": "D022/D022-2024-06-12-11.jpg",
+      "posted": "2024-06-12"
+    }
+  ],
+  "unmapped": []
+}

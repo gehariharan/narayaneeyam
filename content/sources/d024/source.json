@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "daskam": 24,
+  "caption_path": "intake/D024/photo-captions.txt",
+  "caption_sha256": "3c94126bf54c425ddb2b2892d732d3320fa012dc8a009b4d9678ffc835e6548c",
+  "caption_origin": "intake/D024/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D024/facebook-source.json",
+  "facebook_source_sha256": "46ed3349200c159c1232a508990ede2cedc539563142846d5387c2b7c784f39b",
+  "post_caption": "intake/D024/facebook-post-caption.txt",
+  "post_caption_sha256": "ea77ba64e96112690c23f7f7bdd47ba00f2f0aa14068252c287a77d9afc5d495",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-24-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d024/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "5b38a8a4c20878b500b7f3d37400bc48a8aa48602e06b22a83bb3a87e7773d7d",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-24-in-english/",
+    "romanization_raw": "artifacts/d024/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "e56ec05dd7b910e5cf59b64eb5d27509a03a6d3f82bdcd29c0a9601a642db8bd",
+    "sanskrit_heading": "नारायणीयं चतुर्विंशदशकम् (२४) – प्रह्लादचरितम्",
+    "romanization_heading": "nārāyaṇīyaṃ caturviṃśadaśakam (24) – prahlādacaritam",
+    "completion_marker": "iti caturviṃśadaśakaṃ samāptam ||",
+    "evidence": "10 numbered stanzas 24-1 through 24-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004-2.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  }
+}
