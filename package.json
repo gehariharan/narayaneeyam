@@ -28,6 +28,8 @@
     "studio:auto-sync": "node scripts/sync-onedrive.mjs",
     "postbuild": "npm run studio:auto-sync",
     "art:review:validate": "node scripts/validate-image-reviews.mjs",
+    "review:pull": "node scripts/review-feedback.mjs pull",
+    "review:mark": "node scripts/review-feedback.mjs mark",
     "test": "node --test tests/*.test.mjs && node scripts/validate-image-reviews.mjs"
   },
   "dependencies": {

@@ -19,8 +19,8 @@ already attached; Actions uploads review WebPs to R2, applies pending D1 migrati
 this fails) and deploys a Worker version without changing those routes. For the D001 regeneration,
 the workflow uploads the D001 image selection from the checksum-pinned review-only
 release bundle before deploying the Worker. Actions then verifies anonymously,
-without the passphrase, that the live index, every chapter page, a media path and
-feedback and reviewer decisions all return the locked 401 response (`review-site/scripts/verify-live-pages.mjs`).
+without the passphrase, that the live index, every chapter page, a media path,
+feedback, reviewer decisions, sign-off, captain confirmation and the captain key all return the locked 401 response (`review-site/scripts/verify-live-pages.mjs`).
 Page content is checked before deployment by `review-site/scripts/test.mjs`. Raw intake, masters, candidates, prompts, and
 feedback exports must never be included in that bundle.
 
@@ -106,9 +106,10 @@ It does not expose raw intake folders, provenance files or generated masters.
 ## Passphrase lock
 
 Every request under `/narayaneeyam` (index, chapter pages, `/media/*` images,
-`HEAD` requests, `POST /api/feedback` and `GET /api/decisions`) requires one shared
+`HEAD` requests, `POST /api/feedback`, `GET /api/decisions`, `POST /api/signoff`,
+`POST /api/confirm` and `POST /api/captain-key`) requires one shared
 passphrase. Locked visitors get a small passphrase page (HTTP 401, `Cache-Control: no-store`,
-`noindex`); images, feedback and decisions return an empty 401. The passphrase form posts to
+`noindex`); images, feedback, decisions, sign-off and confirmation return an empty 401. The passphrase form posts to
 `/narayaneeyam/unlock`, which accepts same-origin requests only, rate-limits
 attempts per IP through the `FEEDBACK_LIMIT` binding (key `unlock:<ip>`) and
 compares SHA-256 digests in constant time. A correct passphrase sets an
@@ -171,19 +172,103 @@ version is published. The read is not rate-limited, and it refuses cross-site
 requests.
 
 The front page `/narayaneeyam/` is a progress board of all 100 Dasakams, one
-numbered tile each, rendered by the Worker behind the passphrase lock from one D1
-query. A tile links to its chapter when the chapter is on the site. Its colour and
+numbered tile each, rendered by the Worker behind the passphrase lock from two D1
+queries (decisions and sign-offs). A tile links to its chapter when the chapter is on the site. Its colour and
 label show: Art not made yet (no chapter), Ready for review (no decisions), In review
-(decided/total stanzas), Waiting for fixes (any Redraw, Small edit or Text issue still
-open), or Reviewed - awaiting captain confirmation (every stanza approved). Like
+(decided/total stanzas), Fixed, re-check (a fix answering a note awaits the reviewer),
+Waiting for fixes (any Redraw, Small edit or Text issue still open), Reviewed - awaiting
+sign-off (every stanza approved), Signed off - awaiting captain confirmation, or Captain
+confirmed. Like
 `/api/decisions`, each stanza counts only its latest decision on the painting shown
 now; decisions on an earlier version, legacy notes, and a Redraw, Small edit or
 Text issue closed on the current painting leave it undecided. A legend
 and a line such as "51 of 100 dasakams have paintings · 120 of 526 stanzas reviewed"
 sit above the tiles. If the database cannot be read, the tiles still link every
 chapter and the page says progress is unavailable. The static preview `index.html`
-shows painted chapters without progress. Reviewed on the board is the reviewer's
-decision only; final art approval is confirmed separately.
+shows painted chapters without progress. Reviewed, Signed off and Captain confirmed on
+the board are review records only; final art approval is recorded by the studio, as below.
+
+## Fixes, sign-off and captain confirmation
+
+Reviewer notes come back to the reviewer as tracked fixes, and a dasakam is approved
+only after the reviewer signs it off and the captain confirms it with one click.
+
+**Studio pull.** The studio, never the site, pulls new notes, sign-offs and
+confirmations from D1 into the committed work list `art/feedback/dNNN.json`, one per
+dasakam:
+
+```sh
+npm run review:pull                      # read-only SELECTs through wrangler, as in "Retrieve open feedback" below
+npm run review:pull -- --daskam=49       # one dasakam
+npm run review:pull -- --from=export.json  # a saved export {"feedback":[...],"signoffs":[...]}
+```
+
+It uses the same wrangler login or `CLOUDFLARE_API_TOKEN` as the D1 commands below and
+only runs `SELECT`. The work list is append-only: entries are added after the existing
+ones and never edited or removed (the command refuses to write if an earlier entry
+changed), and running it again adds nothing. Commit the file after each pull. Entries:
+
+- `note`: a Redraw, Small edit, Text issue or legacy note, with its D1 id, stanza,
+  type, note, reviewer, time, page revision and the exact paintings it was made on
+  (role, version, served key, source `file` and `sha256`, from the build's
+  `asset-provenance.json` or the batch that records that version; an unresolvable
+  version is recorded as `unresolved` with a warning, never guessed). It starts
+  `open`. A note made on a fix links back to it with `reopens`.
+- `status`: a later step for one note: `being-fixed`, `fixed` (with `fix: "image"` and
+  the new version, file, checksum and batch, or `fix: "text"`), then `confirmed` (the
+  reviewer's approval of what the fix shows, with its decision id).
+- `signoff` and `captain-confirmed`: the reviewer's sign-off and the captain's
+  confirmation, each with the exact per-stanza paintings and checksums.
+
+The studio records its own steps with `npm run review:mark -- --daskam=49 --note=<id>
+--status=being-fixed`, and a text-only correction with `--status=fixed --fix=text`.
+A new painting answers a note through its batch entry instead, so the fix is bound
+to that exact version: the selected batch row's `matte` may carry the optional field
+`"answers_notes": ["<note id>", ...]` (existing batches stay valid; image-review
+validation is unchanged). The next pull records the note as fixed in that version,
+and a pull after the reviewer approves that version records it confirmed.
+
+**Fixed, re-check.** The build reads `art/feedback/dNNN.json`. When the selected
+painting answers an open note, its card shows "Fixed, re-check" with a "Show before"
+toggle between the earlier painting the note was about (built from the note's exact
+file and checksum, as `media/dNNN-sNNN-previous-vNNN-*.webp`) and the new one. A
+text-only fix shows "Fixed, re-check" without a new painting. The reviewer then
+approves, or asks again with a new note. The data bundle carries only note ids; the
+note text is read behind the lock from D1.
+
+**Sign-off.** When every stanza is approved on its current painting, the panel at
+the end of the dasakam page enables "Sign off this dasakam" (`POST /api/signoff`,
+stored in D1 table `signoffs` with the reviewer's name, time and the exact
+per-stanza snapshot). A sign-off stays current only while that snapshot holds: any
+later decision or republished painting reopens the dasakam.
+
+**Captain confirmation.** After a sign-off, the panel shows "Confirm approval"
+(`POST /api/confirm`, one click). The site cannot tell people apart behind the one
+passphrase, so confirming needs a second, separate secret, the Worker secret
+`CAPTAIN_CONFIRM_KEY`. The captain enters it once per device (`POST /api/captain-key`,
+same-origin, rate-limited per IP with key `captain:<ip>`, constant-time compared);
+it is remembered in an `HttpOnly; Secure; SameSite=Strict` cookie holding an expiry
+and an HMAC keyed by the captain key, for 90 days. Without the secret, confirmation
+is closed and the panel says so. The owner sets or rotates it (rotating signs the
+captain out) with:
+
+```sh
+npx wrangler secret put CAPTAIN_CONFIRM_KEY --name narayaneeyam-review
+```
+
+A confirmation is only a D1 record. The site never writes `art/approved/` or any
+studio file. The studio pulls it into `art/feedback/dNNN.json` as a
+`captain-confirmed` entry, and the pull prints, for each stanza, the exact version,
+source file, recorded sha256 and whether the local file still matches it, with the
+`npm run art:approve -- --daskam=N --sloka=S --orientation=landscape --file=<file>`
+step. The studio's existing `art:approve` step consumes that confirmation: run it
+with exactly those files after checking the checksums; it re-validates visual
+clearance for the exact bytes. Only explicit user approval may update
+`art/approved/`: the studio runs `art:approve` only for a pulled captain
+confirmation (or other explicit user approval), never from a reviewer sign-off alone.
+
+Migration `0004_signoffs.sql` adds the `signoffs` table only; every feedback row is
+kept unchanged. The deploy workflow applies it before uploading the Worker version.
 
 Retrieve open feedback with:
 

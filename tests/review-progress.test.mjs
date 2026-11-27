@@ -30,7 +30,7 @@ function record(db, id, n, decision, { at, version = 'v002', status } = {}) {
 }
 async function fixtureDb() {
   const db = new DatabaseSync(':memory:');
-  for (const name of ['0001_feedback.sql', '0002_feedback_all_dasakams.sql', '0003_feedback_decisions.sql']) db.exec(await migration(name));
+  for (const name of ['0001_feedback.sql', '0002_feedback_all_dasakams.sql', '0003_feedback_decisions.sql', '0004_signoffs.sql']) db.exec(await migration(name));
   // D001: nothing decided. A legacy note on the current painting is not a decision.
   record(db, 1, 1, 'note');
   // D002: two of four stanzas approved.
@@ -64,13 +64,13 @@ const tileOf = (html, id) => { const m = new RegExp(`<li><(a|div) class="tile" d
 test('progress counts only the latest decision on the painting shown now', async () => {
   const progress = await reviewProgress(d1(await fixtureDb()), dataset);
   assert.deepEqual(progress, {
-    1: { total: 4, decided: 0, approved: 0, waiting: 0, state: 'ready' },
-    2: { total: 4, decided: 2, approved: 2, waiting: 0, state: 'in-review' },
-    3: { total: 4, decided: 4, approved: 3, waiting: 1, state: 'waiting' },
-    4: { total: 4, decided: 4, approved: 4, waiting: 0, state: 'reviewed' },
-    5: { total: 4, decided: 0, approved: 0, waiting: 0, state: 'ready' },
-    6: { total: 4, decided: 1, approved: 1, waiting: 0, state: 'in-review' },
-    8: { total: 4, decided: 3, approved: 1, waiting: 2, state: 'waiting' },
+    1: { total: 4, decided: 0, approved: 0, waiting: 0, fixed: 0, state: 'ready' },
+    2: { total: 4, decided: 2, approved: 2, waiting: 0, fixed: 0, state: 'in-review' },
+    3: { total: 4, decided: 4, approved: 3, waiting: 1, fixed: 0, state: 'waiting' },
+    4: { total: 4, decided: 4, approved: 4, waiting: 0, fixed: 0, state: 'reviewed' },
+    5: { total: 4, decided: 0, approved: 0, waiting: 0, fixed: 0, state: 'ready' },
+    6: { total: 4, decided: 1, approved: 1, waiting: 0, fixed: 0, state: 'in-review' },
+    8: { total: 4, decided: 3, approved: 1, waiting: 2, fixed: 0, state: 'waiting' },
   });
 });
 
@@ -86,24 +86,24 @@ test('a later decision on the current painting replaces the earlier one', async 
 test('a request closed on the same painting leaves its stanza undecided, not reviewed', async () => {
   const db = await fixtureDb();
   record(db, 2, 3, 'approve'); record(db, 2, 4, 'text-issue', { status: 'closed' });
-  assert.deepEqual((await reviewProgress(d1(db), dataset))[2], { total: 4, decided: 3, approved: 3, waiting: 0, state: 'in-review' });
+  assert.deepEqual((await reviewProgress(d1(db), dataset))[2], { total: 4, decided: 3, approved: 3, waiting: 0, fixed: 0, state: 'in-review' });
   const html = await (await index(d1(db), { cookie: await cookie() })).text();
   assert.deepEqual(tileOf(html, 2), { tag: 'a', state: 'in-review', short: '3/4', label: 'Dasakam 2: In review, 3 of 4 stanzas decided' });
 });
 
-test('the unlocked index shows 100 numbered tiles with state, counts and a legend, from one query', async () => {
+test('the unlocked index shows 100 numbered tiles with state, counts and a legend, from two queries', async () => {
   const env = d1(await fixtureDb());
   const response = await index(env, { cookie: await cookie() });
   assert.equal(response.status, 200);
   assert.equal(response.headers.get('cache-control'), 'private, no-cache');
-  assert.equal(env.queries.length, 1, 'one database query for the whole page');
+  assert.equal(env.queries.length, 2, 'two database queries (decisions and sign-offs) for the whole page');
   const html = await response.text();
   assert.equal((html.match(/class="tile"/g) || []).length, 100);
   const expected = {
     1: ['ready', 'Ready', 'Dasakam 1: Ready for review'],
     2: ['in-review', '2/4', 'Dasakam 2: In review, 2 of 4 stanzas decided'],
     3: ['waiting', 'Fixes', 'Dasakam 3: Waiting for fixes, 1 of 4 stanzas waiting'],
-    4: ['reviewed', 'Reviewed', 'Dasakam 4: Reviewed - awaiting captain confirmation'],
+    4: ['reviewed', 'Reviewed', 'Dasakam 4: Reviewed - awaiting sign-off'],
     5: ['ready', 'Ready', 'Dasakam 5: Ready for review'],
     6: ['in-review', '1/4', 'Dasakam 6: In review, 1 of 4 stanzas decided'],
     8: ['waiting', 'Fixes', 'Dasakam 8: Waiting for fixes, 2 of 4 stanzas waiting'],
@@ -116,7 +116,7 @@ test('the unlocked index shows 100 numbered tiles with state, counts and a legen
   assert.ok(!html.includes('href="/narayaneeyam/d007"'));
   // 0+2+4+4+0+1+3 stanzas decided on the paintings shown now.
   assert.ok(html.includes('7 of 100 dasakams have paintings · 14 of 28 stanzas reviewed'));
-  for (const legend of ['Art not made yet (93)', 'Ready for review (2)', 'In review (2)', 'Waiting for fixes (2)', 'Reviewed - awaiting captain confirmation (1)']) assert.ok(html.includes(legend), legend);
+  for (const legend of ['Art not made yet (93)', 'Ready for review (2)', 'In review (2)', 'Waiting for fixes (2)', 'Reviewed - awaiting sign-off (1)']) assert.ok(html.includes(legend), legend);
   // The old picture cards and the header's chapter list are gone: each painted chapter is one tile link.
   assert.ok(!html.includes('class="card"') && !html.includes('<nav>'));
   for (const id of [1, 2, 3, 4, 5, 6, 8]) assert.equal(html.split(`href="/narayaneeyam/d00${id}"`).length - 1, 1);
