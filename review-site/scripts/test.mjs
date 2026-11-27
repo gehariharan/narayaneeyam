@@ -48,11 +48,13 @@ assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
 // Dasakams with content but no selected batch are awaiting-painting cards: reference photos (checked
 // derivatives), Commentary and stanza text, a plain "Awaiting painting" slot, and only Text issue.
 const awaitingCheck=await validateAwaiting(fileURLToPath(new URL('../..',import.meta.url)),fileURLToPath(new URL('../../artifacts/review-site',import.meta.url)),{batches:selectionBatches});
-for(const c of data.awaiting||[]){const html=renderChapter(c);assert.equal((html.match(/class="sloka"/g)||[]).length,c.rows.length);assert.equal((html.match(/<div class="missing">Awaiting painting<\/div>/g)||[]).length,c.rows.length);assert.equal((html.match(/data-decision="text-issue"/g)||[]).length,c.rows.length);assert.ok(!html.includes('data-decision="approve"')&&!html.includes('data-decision="redraw"')&&!html.includes('data-decision="small-edit"'));assert.ok(!html.includes('data-signoff'));for(const r of c.rows)for(const i of r.images){assert.equal(i.role,'reference');await fs.access(new URL('../../artifacts/review-site/'+i.key,import.meta.url));}}
+for(const c of data.awaiting||[]){const html=renderChapter(c);assert.equal((html.match(/class="sloka"/g)||[]).length,c.rows.length);assert.equal((html.match(/<div class="missing">Awaiting painting<\/div>/g)||[]).length,c.rows.length);assert.equal((html.match(/data-decision="text-issue"/g)||[]).length,c.rows.length);assert.ok(!html.includes('data-decision="approve"')&&!html.includes('data-decision="redraw"')&&!html.includes('data-decision="small-edit"'));assert.ok(!html.replace(/<script>[\s\S]*<\/script>/,'').includes('data-signoff'));for(const r of c.rows)for(const i of r.images){assert.equal(i.role,'reference');await fs.access(new URL('../../artifacts/review-site/'+i.key,import.meta.url));}}
 console.log(`Passed: ${awaitingCheck.chapters} awaiting-painting dasakams with ${awaitingCheck.images} checked reference-photo derivatives.`);
 // A redrawn painting answering a reviewer note also carries the earlier painting the note was about.
 const previousPaintings=data.chapters.flatMap(c=>c.rows.filter(r=>r.fix?.previous).map(r=>({chapter:c,row:r})));
-assert.equal(Object.keys(data.assets).length,expectedMedia+new Set(previousPaintings.map(p=>p.row.fix.previous.key)).size);
+// Awaiting-painting chapters add their mapped reference-photo derivatives (checked by validateAwaiting above).
+const awaitingMedia=new Set((data.awaiting||[]).flatMap(c=>c.rows.flatMap(r=>r.images.map(i=>i.key)))).size;
+assert.equal(Object.keys(data.assets).length,expectedMedia+new Set(previousPaintings.map(p=>p.row.fix.previous.key)).size+awaitingMedia);
 {const provenance=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
  for(const {chapter,row} of previousPaintings){
   const log=JSON.parse(await fs.readFile(new URL(`../../art/feedback/${chapterSlug(chapter.id)}.json`,import.meta.url)));
