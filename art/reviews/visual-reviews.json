@@ -62089,6 +62089,99 @@
           "repair": "Use a darker, more muted deep indigo-blue while preserving the scene’s matte treatment."
         }
       ]
+    },
+    {
+      "chapter": 30,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d030/s006/landscape/candidate-v019.png",
+      "version": "v019",
+      "sha256": "48e11f8dc0fa68fd4a4d1991a615ae80581e42c0e23c3e38f28d7c771c9ac044",
+      "reviewer": "Codex (Firstmate-managed production session)",
+      "inspected_at": "2026-11-27T20:47:42Z",
+      "method": "individual-native-resolution",
+      "outcome": "uncertain",
+      "anatomy_basis": "D030 S006 plan: Brahma has exactly four attached arms and hands; ordinary humans are distinct and natural; Vamana has two arms and two legs.",
+      "contracts": [
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "a09c8cfeea11a0e75df67ee527b8d5c08fa7da5e9600c57e73708e94a58f6041"
+        },
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-s006-landscape-v019-producer-v001.md",
+          "sha256": "3015eed929395e7f0985aa939d32bc832720793492ac22e42be86b500869239a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Brahma has four distinct attached arms and hands holding the book, kamandalu, lotus and thread. Vamana has two arms; no malformed limb was apparent in the inspected crops."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Brahma and Vamana remain connected figures; the two kneeling elders are visually distinct in the individual crops."
+        },
+        "faces": {
+          "status": "uncertain",
+          "observations": "Faces are individually coherent. A white forehead mark is visible on Brahma’s central face and on Vamana; unchanged from v015 by targeted-edit instruction."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "The two kneeling elders have distinct faces, hair, clothing and pose; no fused or duplicated body is apparent."
+        },
+        "text_artifacts": {
+          "status": "uncertain",
+          "observations": "An irregular band of small letter-like shapes appears along the rug front border, approximately x=350–850, y=703–722. No words are readable to me, but it resembles pseudo-script rather than a clearly regular motif."
+        },
+        "scene_style_continuity": {
+          "status": "uncertain",
+          "observations": "The central crown plaque and inset are absent, with a tiny ochre fleck remaining; the separate forehead tilak remains. Elder torso skin-only 24×24 medians measure R−B 100 and 104, above strict <100. Vamana chest/shin patches measure RGB (51,115,197)/(49,113,194), B−R 146/145, which reads saturated cobalt rather than deep indigo."
+        }
+      },
+      "findings": [
+        {
+          "id": "d030-s006-rug-letter-like-band-v019",
+          "severity": "low",
+          "confidence": "medium",
+          "status": "uncertain",
+          "observed": "Irregular letter-like shapes form a band on the rug front border; no readable words are visible in my inspection.",
+          "repair": "Independent reviewer to determine whether this reads as pseudo-text against the no-text requirement."
+        },
+        {
+          "id": "d030-s006-vamana-blue-bright-v019",
+          "severity": "low",
+          "confidence": "medium",
+          "status": "uncertain",
+          "observed": "Vamana reads saturated cobalt/royal blue; sampled chest and shin B−R are 146 and 145.",
+          "repair": "Independent reviewer to judge conformance with deep indigo-blue plan language."
+        },
+        {
+          "id": "d030-s006-crown-fleck-v019",
+          "severity": "low",
+          "confidence": "medium",
+          "status": "uncertain",
+          "observed": "A tiny ochre fleck remains at the center of the otherwise plain crown band.",
+          "repair": "Independent reviewer to judge whether the central crown reads plain."
+        }
+      ]
     }
   ]
 }
