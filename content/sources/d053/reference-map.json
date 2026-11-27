@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "daskam": 53,
+  "canonical_stanza_count": 10,
+  "reference_policy": "Use each numbered source image for its own #N caption as scene and cast context only. Preserve supplied captions verbatim as commentary; Sanskrit controls when caption interpretation conflicts. Never copy reference rendering or text.",
+  "mappings": [
+    {
+      "stanza": 1,
+      "image": "intake/D053/001.jpg",
+      "sha256": "cb4ebbc07c5110e3dcc998ba7130e23864f0cfd7917b9db0d121c5b7aaa57994",
+      "caption_key": "#1",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "matches canonical stanza scene",
+      "mismatch_or_note": ""
+    },
+    {
+      "stanza": 2,
+      "image": "intake/D053/002.jpg",
+      "sha256": "cf695bc6f821f8505b6cd37aadc54d2cc48b7273d33bf0f7ddacd483c3fb1730",
+      "caption_key": "#2",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "matches canonical stanza scene",
+      "mismatch_or_note": ""
+    },
+    {
+      "stanza": 3,
+      "image": "intake/D053/003.jpg",
+      "sha256": "bd26b38eb53729318b28abb6b01eccd179b5edb7528d4ab83379f7ea3b7dcb1f",
+      "caption_key": "#3",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "matches canonical stanza scene",
+      "mismatch_or_note": ""
+    },
+    {
+      "stanza": 4,
+      "image": "intake/D053/004.jpg",
+      "sha256": "4b3a3930314aec20d18b2a19116e3abbdfb6e36ebe78b07ec4e311fedf99d063",
+      "caption_key": "#4",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "matches canonical stanza scene",
+      "mismatch_or_note": ""
+    },
+    {
+      "stanza": 5,
+      "image": "intake/D053/005.jpg",
+      "sha256": "81aec9de4c5cdaee7034a6a2af872649fbc87a35ac9dbcfff8f3fc5945b8d760",
+      "caption_key": "#5",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "matches canonical stanza scene",
+      "mismatch_or_note": "Caption offers a devotional interpretation (the cow-named Dhenuka is spared and Balarama acts); the canonical stanza says Krishna, occupied with protecting cows, has his elder brother defeat Dhenuka. Retain the caption as commentary; stage Balarama as the actor."
+    },
+    {
+      "stanza": 6,
+      "image": "intake/D053/006.jpg",
+      "sha256": "c39de1058a6eef967e60fccba284d238efe499b98fb153cf040f080528c8e06d",
+      "caption_key": "#6",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "matches canonical stanza scene",
+      "mismatch_or_note": ""
+    },
+    {
+      "stanza": 7,
+      "image": "intake/D053/007.jpg",
+      "sha256": "c5284ca37a3c691dfaaf9fe4c0104751a0de099642b3bc4e597a339a80e56c25",
+      "caption_key": "#7",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "partial scene match; caption interpretation differs on Jambuka name",
+      "mismatch_or_note": "Caption says Varuna’s Jambuka name is not known; the canonical stanza says the Jambuka name became well-known in śruti. Use the canonical stanza: depict Varuna alarmed by the jackal homonym and do not assert that the name is unknown."
+    },
+    {
+      "stanza": 8,
+      "image": "intake/D053/008.jpg",
+      "sha256": "c2350086fa421af1e252e7920525220350216a7f13c3b0e5a21deb7e84cb48f9",
+      "caption_key": "#8",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "matches canonical stanza scene",
+      "mismatch_or_note": ""
+    },
+    {
+      "stanza": 9,
+      "image": "intake/D053/009.jpg",
+      "sha256": "042972a1751bc0fc03334bcabc45ca9d131b8077c94ffa64f8ea6490b29db38c",
+      "caption_key": "#9",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "mismatch: the numbered painting shows Krishna herding cattle, while the #9 caption and canonical stanza describe the boys returning home with fruit",
+      "mismatch_or_note": "The #9 caption and canonical stanza describe Krishna and the boys carrying sweet fruits home, but numbered Facebook image 009.jpg depicts Krishna among cattle. Preserve the caption verbatim and record the image as mismatched scene context; do not derive the stanza-nine composition from the cattle painting. Follow the canonical stanza and caption for the fruit procession."
+    },
+    {
+      "stanza": 10,
+      "image": "intake/D053/010.jpg",
+      "sha256": "fbd077706c7cfb060372743c12f58ff7a5ad774543ff3c14ef44bbb59a41d802",
+      "caption_key": "#10",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "match": "caption matches canonical stanza; numbered painting depicts a different scene",
+      "mismatch_or_note": "The #10 caption and canonical stanza describe the brothers welcomed home and sweet fruits shared. The numbered Facebook painting instead depicts a mother offering butter indoors. Retain the caption verbatim and follow the canonical welcome scene; do not add the mother or butter scene."
+    }
+  ],
+  "second_pictures": [],
+  "extras": [
+    {
+      "image": "intake/D053/nostanza-01.jpg",
+      "sha256": "7e397eebc9029ba89a675be2e11875e04c47553aef39d5cdc70d678a54d6b1a9",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "stanza": null,
+      "decision": "No stanza number in picture caption; image contains Tamil text reproducing canonical stanzas 53-1 through 53-5, not a stanza-specific scene. Not assigned."
+    },
+    {
+      "image": "intake/D053/nostanza-02.jpg",
+      "sha256": "8046bc6c3ccd41e5c0e72a38d39c12d012a7777e08c4f48b7f0cecec03af1fe2",
+      "caption_text_source": "intake/D053/photo-captions.txt",
+      "stanza": null,
+      "decision": "No stanza number; picture caption is an external blog URL and image contains Tamil text reproducing canonical stanzas 53-6 through 53-10, not a stanza-specific scene. Not assigned."
+    }
+  ],
+  "coverage": {
+    "canonical_stanzas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "gaps": [],
+    "numbered_reference_count": 10,
+    "stanzas_with_second_picture": [],
+    "unmapped_reference_count": 2
+  },
+  "references": [
+    {
+      "stanza": 1,
+      "path": "intake/D053/001.jpg",
+      "sha256": "cb4ebbc07c5110e3dcc998ba7130e23864f0cfd7917b9db0d121c5b7aaa57994"
+    },
+    {
+      "stanza": 2,
+      "path": "intake/D053/002.jpg",
+      "sha256": "cf695bc6f821f8505b6cd37aadc54d2cc48b7273d33bf0f7ddacd483c3fb1730"
+    },
+    {
+      "stanza": 3,
+      "path": "intake/D053/003.jpg",
+      "sha256": "bd26b38eb53729318b28abb6b01eccd179b5edb7528d4ab83379f7ea3b7dcb1f"
+    },
+    {
+      "stanza": 4,
+      "path": "intake/D053/004.jpg",
+      "sha256": "4b3a3930314aec20d18b2a19116e3abbdfb6e36ebe78b07ec4e311fedf99d063"
+    },
+    {
+      "stanza": 5,
+      "path": "intake/D053/005.jpg",
+      "sha256": "81aec9de4c5cdaee7034a6a2af872649fbc87a35ac9dbcfff8f3fc5945b8d760"
+    },
+    {
+      "stanza": 6,
+      "path": "intake/D053/006.jpg",
+      "sha256": "c39de1058a6eef967e60fccba284d238efe499b98fb153cf040f080528c8e06d"
+    },
+    {
+      "stanza": 7,
+      "path": "intake/D053/007.jpg",
+      "sha256": "c5284ca37a3c691dfaaf9fe4c0104751a0de099642b3bc4e597a339a80e56c25"
+    },
+    {
+      "stanza": 8,
+      "path": "intake/D053/008.jpg",
+      "sha256": "c2350086fa421af1e252e7920525220350216a7f13c3b0e5a21deb7e84cb48f9"
+    },
+    {
+      "stanza": 9,
+      "path": "intake/D053/009.jpg",
+      "sha256": "042972a1751bc0fc03334bcabc45ca9d131b8077c94ffa64f8ea6490b29db38c"
+    },
+    {
+      "stanza": 10,
+      "path": "intake/D053/010.jpg",
+      "sha256": "fbd077706c7cfb060372743c12f58ff7a5ad774543ff3c14ef44bbb59a41d802"
+    }
+  ],
+  "references_note": "Added for the review build (review-site/awaiting.mjs reads a \"references\" list of { stanza, path, sha256 }); derived one-to-one from this map's own stanza assignments above, with no mapping changed."
+}
