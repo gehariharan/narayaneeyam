@@ -25,8 +25,8 @@
   "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
   "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
   "commentary_cleanup": {
-    "10": [
-      "captions-combined:010.jpg+010-2.jpg"
+    "8": [
+      "facebook-truncated"
     ]
   },
   "commentary_picture": {
@@ -37,17 +37,37 @@
     "5": "005.jpg",
     "6": "006.jpg",
     "7": "007.jpg",
+    "8": "010.jpg",
     "9": "009.jpg",
-    "10": [
-      "010.jpg",
-      "010-2.jpg"
-    ]
+    "10": "010-2.jpg"
   },
   "stanza_gaps": {
     "8": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "not present in the Facebook intake"
+      "commentary": "truncated",
+      "reason": "the read-back quotes this caption only up to an ellipsis; the full text is not on disk"
     }
-  }
+  },
+  "caption_corrections": {
+    "8": {
+      "picture": "intake/D068/010.jpg",
+      "facebook_file": "D068/D068-2025-06-10-8.jpg",
+      "sha256": "913a38bf0497e5afe97a5bf43a8ff0426b24e89ec98b0d940c68e8919719b70b",
+      "facebook_post": "https://www.facebook.com/groups/2389815427810388/posts/8700213793437155/",
+      "facebook_photo_fbid": "3483142125155919",
+      "caption_label": "#8",
+      "text": "Krishna smiled at them enchantingly and asked them not to suspect that HE is hard-hearted and said that HE was afraid of losing their love...",
+      "source": "Facebook group read-back of 2026-11-27 (missing-stanza search); the download index's stanza value for this picture was empty or wrong",
+      "caption_file": "content/sources/d068/photo-captions.txt#8"
+    }
+  },
+  "superseded_captions": [
+    {
+      "picture": "intake/D068/010.jpg",
+      "facebook_file": "D068/D068-2025-06-10-8.jpg",
+      "caption_label": "#10",
+      "caption_source": "intake/D068/photo-captions.txt",
+      "text": "As Krishna approached home, Gopikas rushed to recieve him on hearing the beautiful notes of Krishna's flute, and were happy to see him. Nandagopan and Yashoda were also delighted to see Krishna.\nBhattathiri prays to Guruvayurappa, to cure him of all his diseases.",
+      "reason": "Recorded for this picture by the first download pass; Facebook now captions the picture #8. Removed from stanza 10's commentary_en; stanza 10 keeps only the caption of 010-2.jpg."
+    }
+  ]
 }

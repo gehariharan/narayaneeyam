@@ -56,7 +56,9 @@
       "stanza": 5,
       "stanzas": [
         5,
-        6
+        6,
+        7,
+        9
       ],
       "role": "multi-stanza",
       "path": "intake/D022/nostanza-01.jpg",
@@ -71,7 +73,26 @@
       "stanza": 6,
       "stanzas": [
         5,
-        6
+        6,
+        7,
+        9
+      ],
+      "role": "multi-stanza",
+      "path": "intake/D022/nostanza-01.jpg",
+      "sha256": "c86887d39250a6fc37ac6a69af4f62ab4e8773c3f0846eb659edff3878eae4a0",
+      "bytes": 222548,
+      "width": 1198,
+      "height": 1600,
+      "facebook_file": "D022/D022-2024-06-12-5.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 7,
+      "stanzas": [
+        5,
+        6,
+        7,
+        9
       ],
       "role": "multi-stanza",
       "path": "intake/D022/nostanza-01.jpg",
@@ -91,6 +112,23 @@
       "width": 1600,
       "height": 819,
       "facebook_file": "D022/D022-2024-06-12-6.jpg",
+      "posted": "2024-06-12"
+    },
+    {
+      "stanza": 9,
+      "stanzas": [
+        5,
+        6,
+        7,
+        9
+      ],
+      "role": "multi-stanza",
+      "path": "intake/D022/nostanza-01.jpg",
+      "sha256": "c86887d39250a6fc37ac6a69af4f62ab4e8773c3f0846eb659edff3878eae4a0",
+      "bytes": 222548,
+      "width": 1198,
+      "height": 1600,
+      "facebook_file": "D022/D022-2024-06-12-5.jpg",
       "posted": "2024-06-12"
     },
     {
@@ -136,9 +174,19 @@
     }
   ],
   "unmapped": [],
-  "missing_stanzas": [
-    7,
-    9
-  ],
-  "missing_stanzas_reason": "not present in the Facebook intake"
+  "missing_stanzas": [],
+  "stanza_corrections": [
+    {
+      "sha256": "c86887d39250a6fc37ac6a69af4f62ab4e8773c3f0846eb659edff3878eae4a0",
+      "facebook_file": "D022/D022-2024-06-12-5.jpg",
+      "stanzas": [
+        5,
+        6,
+        7,
+        9
+      ],
+      "evidence": "The picture's own caption (photo fbid 3109666872503448) reads \"Same picture all paragraph\" and explains #5, #6, #7 and #9; the same post also carries this byte-identical picture captioned #7 (photo fbid 3111067459030056).",
+      "source": "Facebook group read-back of 2026-11-27 (missing-stanza search); the download index's stanza value for this picture was empty or wrong"
+    }
+  ]
 }
