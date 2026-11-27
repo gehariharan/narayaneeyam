@@ -11,5 +11,5 @@
   ],
   "r2_buckets": [{ "binding": "ART", "bucket_name": "narayaneeyam" }],
   "d1_databases": [{ "binding": "DB", "database_name": "narayaneeyam-feedback", "database_id": "c3eabf56-d31e-4b44-a6b6-eff98fc9054c", "migrations_dir": "migrations" }],
-  "ratelimits": [{ "name": "FEEDBACK_LIMIT", "namespace_id": "200201", "simple": { "limit": 10, "period": 60 } }]
+  "ratelimits": [{ "name": "FEEDBACK_LIMIT", "namespace_id": "200201", "simple": { "limit": 10, "period": 60 } }, { "name": "DECISION_LIMIT", "namespace_id": "200202", "simple": { "limit": 60, "period": 60 } }]
 }

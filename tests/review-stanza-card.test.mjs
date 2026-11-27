@@ -45,7 +45,7 @@ test('each stanza card runs painting, alternates, reference, commentary, then th
     '<span class="label">Stanza</span>',
     'सान्द्रानन्दावबोधात्मकम्',
     'sāndrānandāvabōdhātmakam',
-    'Leave feedback',
+    'data-decision="approve"',
     '<summary>Studio details</summary>',
   ].map(needle => at(card, needle));
   assert.deepEqual(order, [...order].sort((a, b) => a - b));
@@ -98,10 +98,9 @@ test('studio jargon is folded into collapsed Studio details', () => {
   assert.ok(!renderChapter(d2).includes('class="studio chapter-studio"'));
 });
 
-test('the feedback form is unchanged and carries the dasakam revision', () => {
+test('the decision note form carries the dasakam revision', () => {
   const card = sectionOf(renderChapter(d1, undefined, '/narayaneeyam/', true, [d1, d2]), 1);
-  assert.ok(card.includes('<form data-feedback action="/narayaneeyam/api/feedback"><input type="hidden" name="daskam" value="1"><input type="hidden" name="sloka" value="1"><input type="hidden" name="revision" value="d001-rev-a">'));
-  assert.ok(card.includes('placeholder="Feedback on the generated artwork…"'));
+  assert.ok(card.includes('<form data-feedback action="/narayaneeyam/api/feedback" hidden><input type="hidden" name="daskam" value="1"><input type="hidden" name="sloka" value="1"><input type="hidden" name="revision" value="d001-rev-a"><input type="hidden" name="decision" value="">'));
   assert.ok(!card.includes('name="name"'));
   assert.ok(!sectionOf(renderChapter(d1, undefined, './', false), 1).includes('data-feedback'));
 });
@@ -120,11 +119,11 @@ const source = (await fs.readFile(new URL('../review-site/worker.mjs', import.me
 const { feedback } = await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
 function makeEnv() {
   const writes = [];
-  return { writes, FEEDBACK_LIMIT: { limit: async () => ({ success: true }) }, DB: { prepare: sql => ({ bind: (...args) => ({ run: async () => { writes.push({ sql, args }); } }) }) } };
+  return { writes, DECISION_LIMIT: { limit: async () => ({ success: true }) }, DB: { prepare: sql => ({ bind: (...args) => ({ run: async () => { writes.push({ sql, args }); } }) }) } };
 }
 const submit = (body, env, data = dataset) => feedback(new Request('https://gehariharan.com/narayaneeyam/api/feedback', {
   method: 'POST', headers: { 'content-type': 'application/json', origin: 'https://gehariharan.com' },
-  body: JSON.stringify({ sloka: 1, message: 'Check the hand.', website: '', ...body }),
+  body: JSON.stringify({ sloka: 1, decision: 'redraw', reviewer: 'Fixture reviewer', message: 'Check the hand.', website: '', ...body }),
 }), env, data);
 
 test('feedback is accepted against its own dasakam revision and stores it', async () => {

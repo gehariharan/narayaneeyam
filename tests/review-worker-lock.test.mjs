@@ -37,12 +37,13 @@ const BASE = ORIGIN + '/narayaneeyam';
 const MEDIA = '/media/d001/s001-matte-v001.webp';
 
 function makeEnv(secret = SECRET, { limited = false } = {}) {
-  const writes = [], limits = [];
+  const writes = [], limits = [], decisionLimits = [];
   return {
-    writes, limits,
+    writes, limits, decisionLimits,
     NARAYANEEYAM_PASSPHRASE: secret,
     FEEDBACK_LIMIT: { limit: async ({ key }) => { limits.push(key); return { success: !limited }; } },
-    DB: { prepare: sql => ({ bind: (...args) => ({ run: async () => { writes.push({ sql, args }); } }) }) },
+    DECISION_LIMIT: { limit: async ({ key }) => { decisionLimits.push(key); return { success: true }; } },
+    DB: { prepare: sql => ({ bind: (...args) => ({ run: async () => { writes.push({ sql, args }); }, all: async () => { writes.push({ sql, args }); return { results: [] }; } }) }) },
     ART: { get: async key => key === MEDIA.slice(1) ? { body: 'image-bytes', httpEtag: '"etag-1"' } : null },
   };
 }
@@ -56,7 +57,7 @@ const unlockRequest = (passphrase, next = '/narayaneeyam/d001', origin = ORIGIN)
 const feedbackInit = cookie => withCookie(cookie, {
   method: 'POST',
   headers: { 'content-type': 'application/json', origin: ORIGIN },
-  body: JSON.stringify({ daskam: 1, sloka: 1, message: 'Check the hand.', revision: fixture.revision, website: '' }),
+  body: JSON.stringify({ daskam: 1, sloka: 1, decision: 'redraw', reviewer: 'Fixture reviewer', message: 'Check the hand.', revision: fixture.revision, website: '' }),
 });
 const cookieFrom = response => /^narayaneeyam_unlock=([^;]+)/.exec(response.headers.get('set-cookie') || '')?.[1];
 
@@ -86,6 +87,7 @@ test('without the secret every route stays locked and no passphrase unlocks it',
     assert.equal(media.status, 401);
     assert.equal(await media.text(), '');
     assert.equal((await fetchWorker('/api/feedback', env, feedbackInit('x'))).status, 401);
+    assert.equal((await fetchWorker('/api/decisions?daskam=1', env)).status, 401);
     assert.equal(env.writes.length, 0);
     for (const guess of ['', 'anything', 'undefined']) {
       const response = await fetchWorker('/unlock', env, unlockRequest(guess));
@@ -120,6 +122,12 @@ test('locked pages offer the passphrase form; media, HEAD and feedback get empty
   const feedback = await fetchWorker('/api/feedback', env, feedbackInit(''));
   assert.equal(feedback.status, 401);
   assert.equal(await feedback.text(), '');
+  for (const init of [{}, { method: 'HEAD' }, feedbackInit('')]) {
+    const decisions = await fetchWorker('/api/decisions?daskam=1', env, init);
+    assert.equal(decisions.status, 401);
+    assert.equal(decisions.headers.get('cache-control'), 'no-store');
+    assert.equal(await decisions.text(), '');
+  }
   assert.equal(env.writes.length, 0);
 });
 
@@ -182,6 +190,12 @@ test('the right passphrase sets a 90-day signed cookie that opens pages, media a
   const feedback = await fetchWorker('/api/feedback', env, feedbackInit(cookie));
   assert.equal(feedback.status, 201);
   assert.equal(env.writes.length, 1);
+  assert.deepEqual(env.limits, ['unlock:203.0.113.7'], 'decisions do not spend unlock attempts');
+  assert.deepEqual(env.decisionLimits, ['local']);
+  const decisions = await fetchWorker('/api/decisions?daskam=1', env, withCookie(cookie));
+  assert.equal(decisions.status, 200);
+  assert.equal(decisions.headers.get('cache-control'), 'no-store');
+  assert.deepEqual(await decisions.json(), { daskam: 1, revision: fixture.revision, decisions: [] });
 
   // Other cookies alongside the unlock cookie are tolerated.
   const mixed = await fetchWorker('/d001', env, { headers: { cookie: `theme=dark; ${UNLOCK_COOKIE}=${cookie}; other=1` } });
@@ -222,6 +236,7 @@ test('forged, tampered, expired, overlong and rotated-secret cookies stay locked
     assertLockedPage(await fetchWorker('/d001', env, withCookie(cookie)));
     assert.equal((await fetchWorker(MEDIA, env, withCookie(cookie))).status, 401);
     assert.equal((await fetchWorker('/api/feedback', env, feedbackInit(cookie))).status, 401);
+    assert.equal((await fetchWorker('/api/decisions?daskam=1', env, withCookie(cookie))).status, 401);
   }
   assert.equal(env.writes.length, 0);
 
