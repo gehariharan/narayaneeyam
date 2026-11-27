@@ -793,25 +793,32 @@ assert.deepEqual(selected45.rows.find(r=>r.n===5).source_alternates.map(a=>[a.fi
 assert.equal((await feedback(req({...good,daskam:45,sloka:12}),env)).status,201);assert.equal((await feedback(req({...good,daskam:45,sloka:13}),env)).status,400);
 console.log('Passed: D045 has twelve caption-mapped, exact-hash unapproved landscape pairs and stanza-bounded feedback.');
 
-async function withLiveFixture(fixtureData, callback, { missingRoutes = [], pageOverrides = {}, staleResponses = {} } = {}) {
- const pages=new Map([["/narayaneeyam/",renderIndex(fixtureData)]]);
- for(const chapter of fixtureData.chapters)if(!missingRoutes.includes(chapter.id)){const route=`/narayaneeyam/${chapterSlug(chapter.id)}`;pages.set(route,pageOverrides[chapter.id]??renderChapter(chapter,fixtureData.revision,'/narayaneeyam/',true,fixtureData.chapters));}
+// The live fixture serves the real locked Worker over HTTP; staleResponses simulate the previous open deployment.
+async function withLiveFixture(callback, { staleResponses = {}, override } = {}) {
  const stale=new Map(Object.entries(staleResponses).map(([route,responses])=>[route,[...responses]]));
- const server=createServer((req,res)=>{const html=stale.get(req.url)?.shift()??pages.get(req.url);res.statusCode=html?200:404;res.end(html||'not found');});
+ const server=createServer(async(req,res)=>{
+  const chunks=[];for await(const chunk of req)chunks.push(chunk);
+  const previous=stale.get(req.url)?.shift();
+  if(previous){res.statusCode=200;res.setHeader('content-type','text/html');res.end(previous);return;}
+  let response=await worker.fetch(new Request('https://gehariharan.com'+req.url,{method:req.method,headers:req.headers,body:['GET','HEAD'].includes(req.method)?undefined:Buffer.concat(chunks)}),env);
+  if(override)response=await override(req,response)??response;
+  res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));
+ });
  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
  try { await callback(`http://127.0.0.1:${server.address().port}/narayaneeyam`); }
  finally { await new Promise((resolve,reject)=>server.close(error=>error?reject(error):resolve())); }
 }
-
-await withLiveFixture(data,async base=>verifyLivePages(data,{base,retryDelayMs:0}));
-const stalePage6=renderChapter(data.chapters.find(c=>c.id===6),data.revision,'/narayaneeyam/',true,data.chapters).replace('Landscape candidate v006','Landscape candidate v004');
-await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/missing selected matte version v006/),{pageOverrides:{6:stalePage6}});
-await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for \/d008: HTTP 404/),{missingRoutes:[8]});
-const previousData={...data,chapters:data.chapters.filter(c=>c.id!==8)};
-await withLiveFixture(data,async base=>verifyLivePages(data,{base,retryDelayMs:0}),{staleResponses:{'/narayaneeyam/':[renderIndex(previousData),renderIndex(previousData)],'/narayaneeyam/d006':[stalePage6,stalePage6,stalePage6]}});
-await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for \/: HTTP 200 \(Live index is missing d008\)/),{staleResponses:{'/narayaneeyam/':Array(6).fill(renderIndex(previousData))}});
-const stalePage8=renderChapter(data.chapters.find(c=>c.id===8),data.revision,'/narayaneeyam/',true,data.chapters).replace('Landscape candidate v004','Landscape candidate v002');
-await withLiveFixture(data,async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/missing selected matte version v004/),{pageOverrides:{8:stalePage8}});
+const writesBefore=written;
+await withLiveFixture(async base=>verifyLivePages(data,{base,retryDelayMs:0}));
+assert.equal(written,writesBefore,'lock verification must not persist feedback');
+const openPage6=renderChapter(data.chapters.find(c=>c.id===6),data.revision,'/narayaneeyam/',true,data.chapters);
+await withLiveFixture(async base=>verifyLivePages(data,{base,retryDelayMs:0}),{staleResponses:{'/narayaneeyam/':[renderIndex(data),renderIndex(data)],'/narayaneeyam/d006':[openPage6,openPage6,openPage6]}});
+await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for GET \/d006: HTTP 200 \(\/d006 is not locked\)/),{staleResponses:{'/narayaneeyam/d006':Array(6).fill(openPage6)}});
+await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/\/d008 leaks chapter content/),{override:req=>req.url==='/narayaneeyam/d008'?new Response('This site is locked. content="noindex,nofollow" <section class="sloka">',{status:401,headers:{'cache-control':'no-store','x-robots-tag':'noindex, nofollow'}}):undefined});
+await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/\/ is cacheable while locked/),{override:(req,response)=>req.url==='/narayaneeyam/'?new Response('This site is locked.',{status:401,headers:{'x-robots-tag':'noindex'}}):undefined});
+const mediaPath='/narayaneeyam/'+Object.keys(data.assets)[0];
+await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/returns content while locked/),{override:req=>req.url===mediaPath?new Response('image-bytes',{status:401,headers:{'cache-control':'no-store','x-robots-tag':'noindex'}}):undefined});
+await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/POST \/api\/feedback is not locked/),{override:req=>req.url==='/narayaneeyam/api/feedback'?new Response('',{status:201,headers:{'cache-control':'no-store','x-robots-tag':'noindex'}}):undefined});
 const extended=structuredClone(data);const additional=structuredClone(extended.chapters.find(c=>c.id===8));additional.id=Math.max(...extended.chapters.map(c=>c.id))+1;additional.title=`Dasakam ${additional.id}`;extended.chapters.push(additional);
-await withLiveFixture(extended,async base=>verifyLivePages(extended,{base,retryDelayMs:0}));
-console.log('Passed: live verifier checks current bundled data over HTTP, rejects stale D006 and missing D008 route/selection, and follows additional selected chapters.');
+await withLiveFixture(async base=>verifyLivePages(extended,{base,retryDelayMs:0}));
+console.log('Passed: anonymous live lock verifier accepts the locked Worker for every chapter, media and feedback, waits out a stale open deployment, and rejects open, leaking, cacheable or content-bearing locked responses.');

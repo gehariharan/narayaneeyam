@@ -16,8 +16,10 @@ Production deployment may run through the manual GitHub Actions workflow
 Worker. Its routes are already attached; Actions uploads review WebPs to R2 and
 deploys a Worker version without changing those routes. For the D001 regeneration,
 the workflow uploads the D001 image selection from the checksum-pinned review-only
-release bundle before deploying the Worker. Actions performs read-only live
-verification after deployment. Raw intake, masters, candidates, prompts, and
+release bundle before deploying the Worker. Actions then verifies anonymously,
+without the passphrase, that the live index, every chapter page, a media path and
+feedback all return the locked 401 response (`review-site/scripts/verify-live-pages.mjs`).
+Page content is checked before deployment by `review-site/scripts/test.mjs`. Raw intake, masters, candidates, prompts, and
 feedback exports must never be included in that bundle.
 
 For local deployment:
