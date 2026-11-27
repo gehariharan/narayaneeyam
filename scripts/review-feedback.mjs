@@ -17,6 +17,7 @@ import process from 'node:process';
 import { pathToFileURL } from 'node:url';
 import { promisify } from 'node:util';
 import { NEXT, NOTE_TYPES, appendLog, lastStatus, noteById, notesOf, readLog } from '../review-site/feedback-log.mjs';
+import { selectionFiles } from '../review-site/selections.mjs';
 
 const run = promisify(execFile);
 const pad = n => String(n).padStart(3, '0');
@@ -91,7 +92,7 @@ const versionsOf = imageVersions => {
 
 // Pull an export into the work lists. Returns what changed and the art:approve steps a new
 // captain confirmation asks the studio to run.
-export async function pullFeedback(root, exportData, { now = new Date(), daskam = null } = {}) {
+export async function pullFeedback(root, exportData, { now = new Date(), daskam = null, selections = selectionFiles } = {}) {
   const at = now.toISOString();
   const feedback = Array.isArray(exportData?.feedback) ? exportData.feedback : [];
   const signoffs = Array.isArray(exportData?.signoffs) ? exportData.signoffs : [];
@@ -111,12 +112,15 @@ export async function pullFeedback(root, exportData, { now = new Date(), daskam 
     const rows = feedback.filter(row => row.daskam === id);
     const add = entry => { log.entries.push(entry); if (entry.id) seen.add(entry.id); };
 
-    // A new selected painting (a batch row's matte, as the build shows it) whose entry answers a
-    // note marks that note fixed in that version; alternates never answer notes.
+    // A new selected painting (the matte of the dasakam's selected batch, as the build shows it)
+    // whose entry answers a note marks that note fixed in that version; alternates and unselected
+    // batches never answer notes.
+    const selected = selections.find(name => name.startsWith(`d${pad(id)}-`));
     const imageFixes = () => {
+      if (!selected) return;
       for (const note of notesOf(log)) {
         if (!['open', 'being-fixed'].includes(lastStatus(log, note.id).status)) continue;
-        const hit = (index.get(`${id}:${note.stanza}`) || []).findLast(h => h.role === 'matte' && Array.isArray(h.item.answers_notes) && h.item.answers_notes.includes(note.id));
+        const hit = (index.get(`${id}:${note.stanza}`) || []).find(h => h.batch === `art/batches/${selected}` && h.role === 'matte' && Array.isArray(h.item.answers_notes) && h.item.answers_notes.includes(note.id));
         if (hit) add({ kind: 'status', note: note.id, status: 'fixed', fix: 'image', version: hit.item.version, file: hit.item.file, sha256: hit.item.sha256, batch: hit.batch, at, by: 'studio' });
       }
     };

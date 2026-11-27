@@ -294,7 +294,7 @@ test('a note moves open -> being fixed -> fixed in vNNN -> confirmed, each step 
   await assert.rejects(markNote(root, { daskam: 1, note: 'missing', status: 'being-fixed', now: NOW }), /No note missing/);
   // The new S1 painting v002 records that it answers note n1.
   await batch('d001-comparison-v002.json', [{ n: 1, matte: { file: 'artifacts/d001/s001/landscape/candidate-v002.png', version: 'v002', sha256: sha('a'), answers_notes: ['n1'] } }, ...[2, 3].map(n => ({ n, matte: { file: `artifacts/d001/s00${n}/landscape/candidate-v001.png`, version: 'v001', sha256: sha(String(n)) } }))]);
-  await pullFeedback(root, { feedback: [] }, { now: NOW });
+  await pullFeedback(root, { feedback: [] }, { now: NOW, selections: ['d001-comparison-v002.json'] });
   let log = await readLog(root, 1);
   assert.deepEqual(log.entries.at(-1), { kind: 'status', note: 'n1', status: 'fixed', fix: 'image', version: 'v002', file: 'artifacts/d001/s001/landscape/candidate-v002.png', sha256: sha('a'), batch: 'art/batches/d001-comparison-v002.json', at: NOW.toISOString(), by: 'studio' });
   // The build shows S1 as fixed with v001 as the before painting.
@@ -372,17 +372,22 @@ test('a captain confirmation with later reviewer decisions is still recorded but
   await fs.rm(root, { recursive: true });
 });
 
-test('an alternate listing answers_notes does not mark the note fixed; only the selected matte does', async () => {
+test('an alternate or an unselected batch listing answers_notes does not mark the note fixed; only the selected batch matte does', async () => {
   const { root, batch } = await studio();
   await pullFeedback(root, { feedback: [fb('n1', 1, 'redraw', 'v001', '2026-11-27T09:00:00.000Z')] }, { now: NOW });
   const others = [2, 3].map(n => ({ n, matte: { file: `artifacts/d001/s00${n}/landscape/candidate-v001.png`, version: 'v001', sha256: sha(String(n)) } }));
   const alt = version => ({ file: `artifacts/d001/s001/landscape/candidate-${version}.png`, version, sha256: sha(version.at(-1)), answers_notes: ['n1'] });
   await batch('d001-comparison-v002.json', [{ n: 1, matte: { file: 'artifacts/d001/s001/landscape/candidate-v001.png', version: 'v001', sha256: sha('1') }, alternates: [alt('v003'), alt('v004')] }, ...others]);
-  await pullFeedback(root, { feedback: [] }, { now: NOW });
+  await pullFeedback(root, { feedback: [] }, { now: NOW, selections: ['d001-comparison-v002.json'] });
   assert.equal(statusOf(await readLog(root, 1), 'n1'), 'open');
-  // v004 is promoted to the matte: the fix is bound to v004, the painting the card shows.
+  // v004 is promoted to the matte in a new batch; until that batch is the selected one it answers nothing.
   await batch('d001-comparison-v003.json', [{ n: 1, matte: alt('v004'), alternates: [alt('v003')] }, ...others]);
-  await pullFeedback(root, { feedback: [] }, { now: NOW });
+  await pullFeedback(root, { feedback: [] }, { now: NOW, selections: ['d001-comparison-v002.json'] });
+  assert.equal(statusOf(await readLog(root, 1), 'n1'), 'open', 'an unselected batch does not answer notes');
+  await pullFeedback(root, { feedback: [] }, { now: NOW, selections: [] });
+  assert.equal(statusOf(await readLog(root, 1), 'n1'), 'open', 'a dasakam with no selected batch has no image fixes');
+  // Once v003 is the selected batch, the fix is bound to v004, the painting the card shows.
+  await pullFeedback(root, { feedback: [] }, { now: NOW, selections: ['d001-comparison-v003.json'] });
   const log = await readLog(root, 1);
   assert.deepEqual([log.entries.at(-1).status, log.entries.at(-1).version, log.entries.at(-1).sha256, log.entries.at(-1).batch], ['fixed', 'v004', sha('4'), 'art/batches/d001-comparison-v003.json']);
   await pullFeedback(root, { feedback: [fb('ok', 1, 'approve', 'v004', '2026-11-29T09:00:00.000Z')] }, { now: NOW });
