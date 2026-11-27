@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "daskam_id": 78,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-27",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-78-in-sanskrit/",
+      "raw": "artifacts/d078/source-captures/stotranidhi-sanskrit.html",
+      "sha256": "25ae0e813239f4c874e9aad2db3a2c5c1b215b3addb273a4aca15a4981d8c88a",
+      "retrieval_note": "10 numbered Devanagari stanzas transcribed stanza by stanza from the page paragraphs; publisher spelling and line-break hyphenation retained."
+    },
+    {
+      "role": "romanization",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-78-in-english/",
+      "raw": "artifacts/d078/source-captures/stotranidhi-romanization.html",
+      "sha256": "d9e5f47614a54deee7990254069e12cb2982eda23b75fff75d83991936f1d106",
+      "retrieval_note": "10 numbered IAST stanzas transcribed from the parallel publisher page."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired; translation_en left empty; no substitute invented."
+    },
+    {
+      "role": "commentary",
+      "path": "intake/D078/photo-captions.txt",
+      "sha256": "63604a9bf78e2a29551d6b8b30314ff9346d39d6fefc5d94359cb59e229be71f",
+      "status": "supplied captions preserved as commentary, not treated as translation; formatting-only cleanup (see source.json caption_policy)."
+    }
+  ],
+  "intake_manifest": "content/sources/d078/reference-map.json",
+  "note": "Prepared for painting production: canonical text, caption commentary and reference mapping only. No art plan, candidate, review or approval exists yet. Editorial review remains pending."
+}

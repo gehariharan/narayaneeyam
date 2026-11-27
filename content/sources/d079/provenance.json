@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "daskam_id": 79,
+  "status": "source-transcribed-needs-editorial-review",
+  "retrieved_at": "2026-11-27",
+  "sources": [
+    {
+      "role": "sanskrit",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-79-in-sanskrit/",
+      "raw": "artifacts/d079/source-captures/stotranidhi-sanskrit.html",
+      "sha256": "ff7089e13630032e8cdaf8b1f49ae1d7cfe9a72bee8a7d7366dd7223f3d97742",
+      "retrieval_note": "12 numbered Devanagari stanzas transcribed stanza by stanza from the page paragraphs; publisher spelling and line-break hyphenation retained."
+    },
+    {
+      "role": "romanization",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-79-in-english/",
+      "raw": "artifacts/d079/source-captures/stotranidhi-romanization.html",
+      "sha256": "b170723ca31bdce7719d281667d5fbc11d886919683e101117d98f2b4b64a710",
+      "retrieval_note": "12 numbered IAST stanzas transcribed from the parallel publisher page."
+    },
+    {
+      "role": "translation",
+      "url": "",
+      "status": "not acquired; translation_en left empty; no substitute invented."
+    },
+    {
+      "role": "commentary",
+      "path": "intake/D079/photo-captions.txt",
+      "sha256": "5f62b1bb6ee99dd10fa11b6b10022b14dd6df66a35752852d7575110bbcd772a",
+      "status": "supplied captions preserved as commentary, not treated as translation; formatting-only cleanup (see source.json caption_policy)."
+    }
+  ],
+  "intake_manifest": "content/sources/d079/reference-map.json",
+  "note": "Prepared for painting production: canonical text, caption commentary and reference mapping only. No art plan, candidate, review or approval exists yet. Editorial review remains pending."
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "daskam": 74,
+  "caption_path": "intake/D074/photo-captions.txt",
+  "caption_sha256": "23e4c874bbe091db0d91196fc3a65096f7833256f9368752046947115ef9fbcb",
+  "caption_origin": "intake/D074/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D074/facebook-source.json",
+  "facebook_source_sha256": "0785fc3b7140949e33ae4bea7635638332ba2a433cc14805ceb38cb66ac1f2f0",
+  "post_caption": "intake/D074/facebook-post-caption.txt",
+  "post_caption_sha256": "7586a12592c4c9874ed392e24eb57eceeeb8e7329ee9eab0dee76cca4bbd513e",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-74-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d074/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "89228f4d90a6dac707e7958bf8bbe1a16d388000b058387639947f437b039809",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-74-in-english/",
+    "romanization_raw": "artifacts/d074/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "13e2aa495790cdc07608cff4d86dcdb4b0bc394c525cb41b4b1f3d54d0c4c04c",
+    "sanskrit_heading": "नारायणीयं चतुःसप्ततितमदशकम् (७४) – भगवतः मथुरापुरीप्रवेशम्",
+    "romanization_heading": "nārāyaṇīyaṃ catuḥsaptatitamadaśakam (74) – bhagavataḥ mathurāpurīpraveśam",
+    "completion_marker": "iti catuḥsaptatitamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 74-1 through 74-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {
+    "2": [
+      "facebook-truncated"
+    ]
+  },
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {
+    "2": {
+      "commentary": "truncated",
+      "reason": "Facebook caption truncated at \"See more\""
+    }
+  }
+}
