@@ -413,6 +413,7 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
   const current = batches.find(item => item.selectionFile === 'd030-comparison-v014.json');
   const planBytes = await fs.readFile(path.join(root, 'art/plans/d030.json'));
   const plan = JSON.parse(planBytes);
+  const reviewFile = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/visual-reviews.json'), 'utf8'));
   assert.ok(prior && current);
   assert.equal(current.daskam_id, 30);
   assert.equal(current.review_status, 'needs-review');
@@ -425,6 +426,18 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
   assert.match(current.rows[8].candidate_status, /vessel-hand patch.*R−B 119/);
   assert.match(plan.stanzas[8].scene_brief.must_show[0], /falls DOWN from its mouth onto Vamana’s feet and into the basin/);
   assert.match(plan.stanzas[8].scene_brief.must_show[0], /no stream rises from the basin/);
+  for (const row of current.rows) {
+    const review = reviewFile.reviews.find(item => item.chapter === 30 && item.sloka === row.n && item.file === row.matte.file && item.version === row.matte.version && item.sha256 === row.matte.sha256);
+    assert.ok(review, `fresh exact-checksum review for S${String(row.n).padStart(3, '0')}`);
+    assert.ok(review.contracts.some(item => item.path === 'art/plans/d030.json' && item.sha256 === current.plan_sha256));
+    if (row.n === 6) {
+      assert.equal(review.outcome, 'needs-fix');
+      assert.match(review.findings[0].observed, /central crown band/);
+    } else {
+      assert.equal(review.outcome, 'pass');
+      assert.deepEqual(review.findings, []);
+    }
+  }
   for (const row of current.rows.filter(item => item.n !== 9)) {
     assert.deepEqual(row, prior.rows.find(item => item.n === row.n));
   }
