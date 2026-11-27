@@ -18,7 +18,17 @@ const source = (await fs.readFile(new URL('../review-site/worker.mjs', import.me
   .replace("import data from '../artifacts/review-site/data.json';", `const data=${JSON.stringify(fixture)};`)
   .replace("from './views.mjs'", `from '${new URL('../review-site/views.mjs', import.meta.url).href}'`);
 const worker = await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
-const { UNLOCK_COOKIE, UNLOCK_MAX_AGE, unlockToken, safeNext } = worker;
+const { unlockToken, safeNext } = worker;
+const UNLOCK_COOKIE = 'narayaneeyam_unlock';
+const UNLOCK_MAX_AGE = 90 * 24 * 60 * 60;
+
+test('every named export of the Worker module is a function, as the Workers runtime requires', () => {
+  // workerd rejects a main module whose named exports are not functions or handler objects.
+  for (const [name, value] of Object.entries(worker)) {
+    if (name === 'default') continue;
+    assert.equal(typeof value, 'function', `export ${name} must be a function`);
+  }
+});
 
 const SECRET = 'fixture shared passphrase';
 const ORIGIN = 'https://gehariharan.com';

@@ -6,9 +6,9 @@ const json=(body,status=200)=>Response.json(body,{status,headers:{...headers,'Ca
 // Passphrase lock. The passphrase lives only in the NARAYANEEYAM_PASSPHRASE Worker secret;
 // without it nothing unlocks. The unlock cookie is an HMAC keyed by that secret over its
 // expiry, so it cannot be forged and rotating the secret signs every visitor out.
-export const UNLOCK_PATH=BASE+'/unlock';
-export const UNLOCK_COOKIE='narayaneeyam_unlock';
-export const UNLOCK_MAX_AGE=90*24*60*60;
+const UNLOCK_PATH=BASE+'/unlock';
+const UNLOCK_COOKIE='narayaneeyam_unlock';
+const UNLOCK_MAX_AGE=90*24*60*60;
 const encoder=new TextEncoder();
 const secretOf=env=>typeof env?.NARAYANEEYAM_PASSPHRASE==='string'?env.NARAYANEEYAM_PASSPHRASE:'';
 const hmacKey=secret=>crypto.subtle.importKey('raw',encoder.encode(secret),{name:'HMAC',hash:'SHA-256'},false,['sign','verify']);
