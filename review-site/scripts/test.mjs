@@ -18,9 +18,9 @@ let written;const env={NARAYANEEYAM_PASSPHRASE:'release-test-passphrase',FEEDBAC
 const unlockCookie=`narayaneeyam_unlock=${await unlockToken(env.NARAYANEEYAM_PASSPHRASE,Math.floor(Date.now()/1000)+3600)}`;
 const unlocked=url=>new Request(url,{headers:{cookie:unlockCookie}});
 // Each submission carries its own dasakam's revision unless a test sets one explicitly.
-const good={daskam:2,sloka:1,message:'Check the hand.',website:''};
+const good={daskam:2,sloka:1,decision:'redraw',reviewer:'Release reviewer',message:'Check the hand.',website:''};
 const req=(body,origin='https://gehariharan.com')=>new Request('https://gehariharan.com/narayaneeyam/api/feedback',{method:'POST',headers:{'content-type':'application/json',origin},body:JSON.stringify('revision' in body?body:{...body,revision:data.chapters.find(c=>c.id===body.daskam)?.revision})});
-assert.equal((await feedback(req(good),env)).status,201);assert.equal(written.args[5],'Check the hand.');assert.ok(written.args[8].includes('matte'));assert.equal(written.args[3],'generated');assert.equal(written.args[4],'other');assert.equal(written.args[6],'');assert.ok(JSON.parse(written.args[8]).every(i=>i.role!=='reference'&&i.key));assert.ok(written.sql.includes('VALUES (?,?,?,?,?,?,?,?,?,?)'));
+assert.equal((await feedback(req(good),env)).status,201);assert.equal(written.args[5],'Check the hand.');assert.ok(written.args[8].includes('matte'));assert.equal(written.args[3],'generated');assert.equal(written.args[4],'other');assert.equal(written.args[6],'Release reviewer');assert.equal(written.args[9],'open');assert.equal(written.args[10],'redraw');assert.ok(JSON.parse(written.args[8]).every(i=>i.role!=='reference'&&i.key));assert.ok(written.sql.includes('VALUES (?,?,?,?,?,?,?,?,?,?,?,?)'));assert.equal((await feedback(req({...good,decision:'approve',message:''}),env)).status,201);assert.equal(written.args[5],'');assert.equal(written.args[9],'closed');assert.equal(written.args[10],'approve');assert.equal((await feedback(req({...good,decision:undefined}),env)).status,409);
 assert.equal((await feedback(req(good,'https://evil.example'),env)).status,403);
 assert.equal((await feedback(req({...good,sloka:99}),env)).status,400);
 assert.equal((await feedback(req({...good,revision:'stale'}),env)).status,409);
@@ -826,6 +826,7 @@ await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retr
 await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/\/ is cacheable while locked/),{override:(req,response)=>req.url==='/narayaneeyam/'?new Response('This site is locked.',{status:401,headers:{'x-robots-tag':'noindex'}}):undefined});
 const mediaPath='/narayaneeyam/'+Object.keys(data.assets)[0];
 await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/returns content while locked/),{override:req=>req.url===mediaPath?new Response('image-bytes',{status:401,headers:{'cache-control':'no-store','x-robots-tag':'noindex'}}):undefined});
+await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/GET \/api\/decisions\?daskam=\d+ is not locked/),{override:req=>req.url.startsWith('/narayaneeyam/api/decisions')?new Response('{"decisions":[]}',{status:200,headers:{'cache-control':'no-store','x-robots-tag':'noindex'}}):undefined});
 await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/POST \/api\/feedback is not locked/),{override:req=>req.url==='/narayaneeyam/api/feedback'?new Response('',{status:201,headers:{'cache-control':'no-store','x-robots-tag':'noindex'}}):undefined});
 writesBefore=written;
 await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for POST \/api\/feedback: HTTP 400 \(POST \/api\/feedback is not locked\)/),{openFeedback:true});

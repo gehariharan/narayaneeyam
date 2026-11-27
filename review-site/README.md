@@ -18,7 +18,7 @@ deploys a Worker version without changing those routes. For the D001 regeneratio
 the workflow uploads the D001 image selection from the checksum-pinned review-only
 release bundle before deploying the Worker. Actions then verifies anonymously,
 without the passphrase, that the live index, every chapter page, a media path and
-feedback all return the locked 401 response (`review-site/scripts/verify-live-pages.mjs`).
+feedback and reviewer decisions all return the locked 401 response (`review-site/scripts/verify-live-pages.mjs`).
 Page content is checked before deployment by `review-site/scripts/test.mjs`. Raw intake, masters, candidates, prompts, and
 feedback exports must never be included in that bundle.
 
@@ -28,7 +28,7 @@ node review-site/scripts/build.mjs
 node review-site/scripts/test.mjs
 python review-site/scripts/test-migrations.py
 node review-site/scripts/upload.mjs
-wrangler d1 migrations apply narayaneeyam-feedback --remote --config review-site/wrangler.jsonc
+wrangler d1 migrations apply narayaneeyam-feedback --remote --config review-site/wrangler.jsonc  # before the Worker deploy
 wrangler deploy --dry-run --config review-site/wrangler.jsonc
 wrangler deploy --config review-site/wrangler.jsonc
 ```
@@ -88,8 +88,13 @@ stanza (Sanskrit, then transliteration) from `content/daskams/dNNN.json`, with
 a small note where either is missing. A reference photo the batch marks as
 excluded from scene derivation stays in the bundle but is not shown. The review
 notice, image versions, inspection labels, media keys and commentary sources sit
-in collapsed "Studio details" sections per chapter and per card. A small Leave
-feedback link opens a text box and Submit button on each card.
+in collapsed "Studio details" sections per chapter and per card. Below the text,
+each card shows its status chip (Not reviewed, Approved, Redraw requested, Small edit
+requested, Text issue, or Note (legacy) for feedback from before decisions) and four
+decision buttons: Approve, Redraw, Small edit and Text issue. Approve saves at once;
+the other three open a note box. The page asks for the reviewer's name once per
+device and remembers it in the browser. Approve is the reviewer's decision only, not
+final art approval; the card says so in a tooltip and in Studio details.
 
 Only the `/narayaneeyam` route family is attached. The existing blog Worker and
 its media bucket and database are not modified. R2 remains private; the review
@@ -99,9 +104,9 @@ It does not expose raw intake folders, provenance files or generated masters.
 ## Passphrase lock
 
 Every request under `/narayaneeyam` (index, chapter pages, `/media/*` images,
-`HEAD` requests and `POST /api/feedback`) requires one shared passphrase.
-Locked visitors get a small passphrase page (HTTP 401, `Cache-Control: no-store`,
-`noindex`); images and feedback return an empty 401. The passphrase form posts to
+`HEAD` requests, `POST /api/feedback` and `GET /api/decisions`) requires one shared
+passphrase. Locked visitors get a small passphrase page (HTTP 401, `Cache-Control: no-store`,
+`noindex`); images, feedback and decisions return an empty 401. The passphrase form posts to
 `/narayaneeyam/unlock`, which accepts same-origin requests only, rate-limits
 attempts per IP through the `FEEDBACK_LIMIT` binding (key `unlock:<ip>`) and
 compares SHA-256 digests in constant time. A correct passphrase sets an
@@ -130,18 +135,37 @@ Deployments do not change the secret.
 Feedback accepts same-origin JSON requests with strict size, field and revision
 validation, prepared SQL statements, a honeypot and a 10/minute per-IP edge rate
 limit. IP addresses are used transiently for the rate limiter, not saved in D1.
-The rate limiter is regional, not a global hard quota. There is no public
-feedback listing or browser administration panel. Feedback, like every other
+The rate limiter is regional, not a global hard quota. There is no
+browser administration panel; the only listing is the latest decision per stanza
+described below. Feedback, like every other
 route, requires the passphrase unlock described above.
 
 Each Dasakam has its own revision, a hash of that chapter's bundled data. A
 submission is checked against its own Dasakam's revision, so republishing one
 chapter does not reject feedback forms already open on another.
 
-Each new record stores the Dasakam, sloka, message, Dasakam revision and exact
-generated-image version/key snapshot automatically. Target is `generated`, category
-is `other`, and reviewer name is empty; reference images are excluded. Existing
-feedback records remain unchanged. Retrieve open feedback with:
+Each submission is a reviewer decision: `approve`, `redraw`, `small-edit` or
+`text-issue`, with the reviewer's name (1–60 characters, required). Approve takes no
+note; the other three need a 3–2,000 character note. A page from before decisions
+existed sends no decision and is asked to reload. Each record stores the Dasakam,
+sloka, decision, reviewer name, note, time, Dasakam revision and the exact
+generated-image version/key snapshot shown on the card; reference images are
+excluded. Target is `text` for a text issue and `generated` otherwise; category is
+`other`. Status is `open` for Redraw, Small edit and Text issue (work for the studio)
+and `closed` for Approve. A reviewer's Approve never writes `art/approved/` and is
+not art approval; only explicit user approval changes approvals.
+
+Migration `0003_feedback_decisions.sql` adds the `decision` column and keeps every
+existing row as decision `note`, shown on its card as "Note (legacy)". Apply it
+before deploying a Worker with decisions: the deploy workflow does not apply D1
+migrations, and until it is applied new decisions fail with the temporary-unavailable
+response.
+
+`GET /api/decisions?daskam=N` (unlocked visitors only) returns the latest decision
+per stanza for the paintings currently shown, with reviewer name, note and time.
+Decisions on an earlier painting version stay stored but are not returned once a new
+version is published. The read is not rate-limited, and it refuses cross-site
+requests. Retrieve open feedback with:
 
 ```sh
 wrangler d1 execute narayaneeyam-feedback --remote --config review-site/wrangler.jsonc --command "SELECT * FROM feedback WHERE status='open' ORDER BY created_at" --json

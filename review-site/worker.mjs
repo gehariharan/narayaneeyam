@@ -72,7 +72,13 @@ export async function unlock(request,env,now=Date.now()){
  const expires=Math.floor(now/1000)+UNLOCK_MAX_AGE;
  return new Response(null,{status:303,headers:{...lockHeaders,Location:next,'Set-Cookie':`${UNLOCK_COOKIE}=${await unlockToken(secret,expires)}; Max-Age=${UNLOCK_MAX_AGE}; Path=${BASE}; HttpOnly; Secure; SameSite=Lax`}});
 }
-export async function feedback(request,env,dataset=data){
+// Reviewer decisions on a stanza. Approve saves without a note; the others need one.
+// Approve is the reviewer's decision only: it never writes art/approved or claims art approval.
+const DECISIONS=['approve','redraw','small-edit','text-issue'];
+// The exact generated images shown on a stanza card (never references), stored with each decision.
+const shownImages=row=>JSON.stringify(row.images.filter(i=>i.role!=='reference'&&i.key).map(({role,key,version})=>({role,key,version})));
+const reviewerName=value=>typeof value==='string'&&!/[\u0000-\u001f\u007f]/.test(value)?value.trim():'';
+export async function feedback(request,env,dataset=data,now=new Date()){
  if(request.headers.get('origin')!==new URL(request.url).origin)return json({error:'Please submit feedback from this site.'},403);
  if(!request.headers.get('content-type')?.startsWith('application/json'))return json({error:'Expected JSON.'},415);
  const reader=request.body?.getReader(); let total=0,chunks=[];
@@ -83,16 +89,36 @@ export async function feedback(request,env,dataset=data){
  const chapter=dataset.chapters.find(c=>c.id===input.daskam),row=chapter?.rows.find(r=>r.n===input.sloka);
  if(!row)return json({error:'Unknown sloka.'},400);
  // Each dasakam carries its own revision, so republishing one chapter does not reject open forms on another.
- if(typeof chapter.revision!=='string'||!chapter.revision||input.revision!==chapter.revision)return json({error:'This review page has changed. Reload it before submitting.'},409);
- if(typeof input.message!=='string'||input.message.trim().length<3||input.message.length>2000)return json({error:'Enter feedback between 3 and 2,000 characters.'},400);
+ // A page from before decisions existed sends no decision; it must be reloaded too.
+ if(typeof chapter.revision!=='string'||!chapter.revision||input.revision!==chapter.revision||!('decision' in input))return json({error:'This review page has changed. Reload it before submitting.'},409);
+ const decision=input.decision;
+ if(!DECISIONS.includes(decision))return json({error:'Choose Approve, Redraw, Small edit or Text issue.'},400);
+ const reviewer=reviewerName(input.reviewer);
+ if(!reviewer||reviewer.length>60)return json({error:'Enter your name (up to 60 characters) before deciding.'},400);
+ let message='';
+ if(decision==='approve'){if(input.message!==undefined&&input.message!=='')return json({error:'Approve does not take a note.'},400);}
+ else{if(typeof input.message!=='string'||input.message.trim().length<3||input.message.length>2000)return json({error:'Enter a note between 3 and 2,000 characters.'},400);message=input.message.trim();}
  if(input.website)return json({error:'Unable to accept this submission.'},400);
  const ip=request.headers.get('CF-Connecting-IP')||'local';
  const limit=await env.FEEDBACK_LIMIT.limit({key:ip});
  if(!limit.success)return json({error:'Too many submissions. Please wait a minute and retry.'},429);
- const id=crypto.randomUUID();
- const versions=JSON.stringify(row.images.filter(i=>i.role!=='reference'&&i.key).map(({role,key,version})=>({role,key,version})));
- await env.DB.prepare('INSERT INTO feedback (id,daskam,sloka,target,category,message,reviewer_name,revision,image_versions,status) VALUES (?,?,?,?,?,?,?,?,?,?)').bind(id,input.daskam,input.sloka,'generated','other',input.message.trim(),'',chapter.revision,versions,'open').run();
- return json({id},201);
+ const id=crypto.randomUUID(),at=now.toISOString();
+ // Requests are open work for the studio; an approval needs no work, so it is closed on arrival.
+ const target=decision==='text-issue'?'text':'generated',status=decision==='approve'?'closed':'open';
+ await env.DB.prepare('INSERT INTO feedback (id,daskam,sloka,target,category,message,reviewer_name,revision,image_versions,status,decision,created_at) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)').bind(id,input.daskam,input.sloka,target,'other',message,reviewer,chapter.revision,shownImages(row),status,decision,at).run();
+ return json({id,sloka:input.sloka,decision,reviewer,note:message,at,status},201);
+}
+// The latest decision per stanza for the images currently shown; older images' decisions stay stored but are not returned.
+export async function decisions(request,env,dataset=data){
+ if(!['GET','HEAD'].includes(request.method))return json({error:'Method not allowed.'},405);
+ if(request.headers.get('sec-fetch-site')==='cross-site')return json({error:'Please load decisions from this site.'},403);
+ const raw=new URL(request.url).searchParams.get('daskam')||'';
+ const chapter=/^\d{1,3}$/.test(raw)?dataset.chapters.find(c=>c.id===Number(raw)):undefined;
+ if(!chapter)return json({error:'Unknown dasakam.'},404);
+ const {results=[]}=await env.DB.prepare('SELECT id,created_at,sloka,decision,message,reviewer_name,status,image_versions FROM feedback WHERE daskam=? ORDER BY created_at DESC, rowid DESC LIMIT 5000').bind(chapter.id).all();
+ const shown=new Map(chapter.rows.map(row=>[row.n,shownImages(row)])),latest=new Map();
+ for(const r of results)if(!latest.has(r.sloka)&&shown.get(r.sloka)===r.image_versions)latest.set(r.sloka,{id:r.id,sloka:r.sloka,decision:r.decision,reviewer:r.reviewer_name,note:r.message,at:r.created_at,status:r.status,legacy:r.decision==='note'});
+ return new Response(request.method==='HEAD'?null:JSON.stringify({daskam:chapter.id,revision:chapter.revision,decisions:[...latest.values()].sort((a,b)=>a.sloka-b.sloka)}),{headers:{...headers,'Content-Type':'application/json','Cache-Control':'no-store'}});
 }
 export default {async fetch(request,env){
  try{
@@ -104,6 +130,7 @@ export default {async fetch(request,env){
   return page?lockPage(request,env,{next:safeNext(p+url.search)}):new Response(null,{status:401,headers:lockHeaders});
  }
  if(p===BASE+'/api/feedback')return request.method==='POST'?await feedback(request,env):json({error:'Method not allowed.'},405);
+ if(p===BASE+'/api/decisions')return await decisions(request,env);
  if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers});
  if(p===BASE)return new Response(null,{status:308,headers:{...headers,Location:BASE+'/'}});
  const key=p.slice(BASE.length+1);

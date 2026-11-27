@@ -60,8 +60,10 @@ export async function verifyLivePages(data, {
   const origin = new URL(base).origin;
   const body = JSON.stringify({ message: 'Deployment lock verification.', revision: 'lock-verification', website: 'lock-verification' });
   await fetchVerified(base, '/api/feedback', { method: 'POST', headers: { 'content-type': 'application/json', origin }, body }, (response, text) => verifyLockedEmpty(response, text, 'POST /api/feedback'), retryDelayMs);
+  const decisions = `/api/decisions?daskam=${chapters[0].id}`;
+  await fetchVerified(base, decisions, {}, (response, text) => verifyLockedEmpty(response, text, `GET ${decisions}`), retryDelayMs);
 
-  console.log(`Verified live lock: index, ${chapters.length} chapter pages, a media path and feedback all return the locked 401 response.`);
+  console.log(`Verified live lock: index, ${chapters.length} chapter pages, a media path, feedback and reviewer decisions all return the locked 401 response.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
