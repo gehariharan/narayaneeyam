@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "daskam": 86,
+  "caption_path": "intake/D086/photo-captions.txt",
+  "caption_sha256": "797afbf2b27f22ba6116bf85b3e27ae58be701239fd1d802d42b439d504b32d0",
+  "caption_origin": "intake/D086/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D086/facebook-source.json",
+  "facebook_source_sha256": "8b2318112274c8a4153dad75b8ad01a08cc2009ad9152c2164275d8f4059d5f5",
+  "post_caption": "intake/D086/facebook-post-caption.txt",
+  "post_caption_sha256": "96214086af58e2bb91ff574d34231db3628e96d64381a122f373f08af1dba2fd",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-86-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d086/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "85977074b8d27820e5376d9bbcd131f034a7bf0b1bbec70f22620f49a0fb53ea",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-86-in-english/",
+    "romanization_raw": "artifacts/d086/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "67152536d50e7e3cc322987dd9e961108b8c02f280b08c01905da6deaebc18c6",
+    "sanskrit_heading": "नारायणीयं षडशीतितमदशकम् (८६) – साल्ववध-महाभारतयुद्धम्",
+    "romanization_heading": "nārāyaṇīyaṃ ṣaḍaśītitamadaśakam (86) – sālvavadha-mahābhāratayuddham",
+    "completion_marker": "iti ṣaḍaśītitamadaśakaṃ samāptam |",
+    "evidence": "11 numbered stanzas 86-1 through 86-11 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {
+    "3": [
+      "facebook-truncated"
+    ],
+    "4": [
+      "facebook-truncated"
+    ],
+    "6": [
+      "facebook-truncated"
+    ],
+    "11": [
+      "facebook-truncated"
+    ]
+  },
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg"
+  },
+  "stanza_gaps": {
+    "3": {
+      "commentary": "truncated",
+      "reason": "Facebook caption truncated at \"See more\""
+    },
+    "4": {
+      "commentary": "truncated",
+      "reason": "Facebook caption truncated at \"See more\""
+    },
+    "6": {
+      "commentary": "truncated",
+      "reason": "Facebook caption truncated at \"See more\""
+    },
+    "11": {
+      "commentary": "truncated",
+      "reason": "Facebook caption truncated at \"See more\""
+    }
+  }
+}
