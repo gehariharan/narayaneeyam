@@ -1,5 +1,5 @@
 import data from '../artifacts/review-site/data.json';
-import {renderIndex, renderChapter, chapterSlug, stanzaState} from './views.mjs';
+import {renderIndex, renderChapter, chapterSlug, stanzaState, allChapters} from './views.mjs';
 const BASE='/narayaneeyam';
 const headers={'X-Content-Type-Options':'nosniff','Referrer-Policy':'strict-origin-when-cross-origin','X-Frame-Options':'DENY','X-Robots-Tag':'noindex, nofollow','Content-Security-Policy':"default-src 'none'; img-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'"};
 const json=(body,status=200)=>Response.json(body,{status,headers:{...headers,'Cache-Control':'no-store'}});
@@ -78,6 +78,11 @@ export async function unlock(request,env,now=Date.now()){
 // Reviewer decisions on a stanza. Approve saves without a note; the others need one.
 // Approve is the reviewer's decision only: it never writes art/approved or claims art approval.
 const DECISIONS=['approve','redraw','small-edit','text-issue'];
+// A dasakam awaiting painting (content, no selected batch) takes only Text issue: the other
+// decisions are about a painting. Its cards switch to the full set once a batch is selected.
+const AWAITING_DECISIONS=['text-issue'];
+// A painted chapter, or one awaiting painting.
+const chapterOf=(dataset,id)=>dataset.chapters.find(c=>c.id===id)||(dataset.awaiting||[]).find(c=>c.id===id);
 // The exact generated images shown on a stanza card (never references), stored with each decision.
 const shownImages=row=>JSON.stringify(row.images.filter(i=>i.role!=='reference'&&i.key).map(({role,key,version})=>({role,key,version})));
 const reviewerName=value=>typeof value==='string'&&!/[\u0000-\u001f\u007f]/.test(value)?value.trim():'';
@@ -89,13 +94,14 @@ export async function feedback(request,env,dataset=data,now=new Date()){
  while(true){const {done,value}=await reader.read();if(done)break;total+=value.byteLength;if(total>8192){await reader.cancel();return json({error:'Feedback is too long.'},413);}chunks.push(value);}
  let input;try{const all=new Uint8Array(total);let at=0;for(const c of chunks){all.set(c,at);at+=c.length;}input=JSON.parse(new TextDecoder().decode(all));}catch{return json({error:'Invalid feedback.'},400);}
  if(!input||typeof input!=='object'||Array.isArray(input))return json({error:'Invalid feedback.'},400);
- const chapter=dataset.chapters.find(c=>c.id===input.daskam),row=chapter?.rows.find(r=>r.n===input.sloka);
+ const chapter=chapterOf(dataset,input.daskam),row=chapter?.rows.find(r=>r.n===input.sloka);
  if(!row)return json({error:'Unknown sloka.'},400);
  // Each dasakam carries its own revision, so republishing one chapter does not reject open forms on another.
  // A page from before decisions existed sends no decision; it must be reloaded too.
  if(typeof chapter.revision!=='string'||!chapter.revision||input.revision!==chapter.revision||!('decision' in input))return json({error:'This review page has changed. Reload it before submitting.'},409);
  const decision=input.decision;
  if(!DECISIONS.includes(decision))return json({error:'Choose Approve, Redraw, Small edit or Text issue.'},400);
+ if(chapter.awaiting&&!AWAITING_DECISIONS.includes(decision))return json({error:'This stanza is awaiting its painting. Use Text issue for the commentary or stanza text; Approve, Redraw and Small edit open once the painting is added.'},400);
  const reviewer=reviewerName(input.reviewer);
  if(!reviewer||reviewer.length>60)return json({error:'Enter your name (up to 60 characters) before deciding.'},400);
  let message='';
@@ -144,7 +150,7 @@ export async function decisions(request,env,dataset=data){
  if(!['GET','HEAD'].includes(request.method))return json({error:'Method not allowed.'},405);
  if(request.headers.get('sec-fetch-site')==='cross-site')return json({error:'Please load decisions from this site.'},403);
  const raw=new URL(request.url).searchParams.get('daskam')||'';
- const chapter=/^\d{1,3}$/.test(raw)?dataset.chapters.find(c=>c.id===Number(raw)):undefined;
+ const chapter=/^\d{1,3}$/.test(raw)?chapterOf(dataset,Number(raw)):undefined;
  if(!chapter)return json({error:'Unknown dasakam.'},404);
  const state=await chapterState(env,chapter);
  const view=r=>({id:r.id,sloka:r.sloka,decision:r.decision,reviewer:r.reviewer_name,note:r.message,at:r.created_at,status:r.status,legacy:r.decision==='note'});
@@ -166,6 +172,7 @@ async function jsonBody(request,limit=2048){
 // Common checks for sign-off and confirm: a bundled dasakam on its current revision, a named person, the decision rate limit.
 async function signoffRequest(input,env,dataset){
  const chapter=dataset.chapters.find(c=>c.id===input.daskam);
+ if(!chapter&&(dataset.awaiting||[]).some(c=>c.id===input.daskam))return json({error:'This dasakam is awaiting its paintings. Sign-off opens once they are added and approved.'},409);
  if(!chapter)return json({error:'Unknown dasakam.'},400);
  if(typeof chapter.revision!=='string'||!chapter.revision||input.revision!==chapter.revision)return json({error:'This review page has changed. Reload it first.'},409);
  const reviewer=reviewerName(input.reviewer);
@@ -271,7 +278,7 @@ export default {async fetch(request,env){
  }
  let body;
  if(key==='')body=renderIndex(data,BASE+'/',true,request.method==='HEAD'?null:await indexProgress(env));
- else{const chapter=data.chapters.find(c=>key===chapterSlug(c.id)||key===`${chapterSlug(c.id)}/`);if(chapter)body=renderChapter(chapter,chapter.revision,undefined,true,data.chapters);}
+ else{const pages=allChapters(data),chapter=pages.find(c=>key===chapterSlug(c.id)||key===`${chapterSlug(c.id)}/`);if(chapter)body=renderChapter(chapter,chapter.revision,undefined,true,pages);}
  if(!body)return new Response('Not found',{status:404,headers});
  return new Response(request.method==='HEAD'?null:body,{headers:{...headers,'Content-Type':'text/html; charset=utf-8','Cache-Control':'private, no-cache'}});
  }catch(error){console.error('Review request failed',error?.name);return json({error:'The service is temporarily unavailable. Please retry.'},503);}

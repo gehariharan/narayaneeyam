@@ -3,9 +3,10 @@ import crypto from 'node:crypto';
 const origin='https://gehariharan.com';
 const base=origin+'/narayaneeyam';
 const data=JSON.parse(await fs.readFile('artifacts/review-site/data.json'));
-for(const suffix of ['/',...data.chapters.map(c=>'/d'+String(c.id).padStart(3,'0'))]){
+const pages=[...data.chapters,...(data.awaiting||[])];
+for(const suffix of ['/',...pages.map(c=>'/d'+String(c.id).padStart(3,'0'))]){
  const res=await fetch(base+suffix);if(!res.ok)throw Error(`${suffix}: ${res.status}`);
- const html=await res.text();if(suffix!=='/'){const chapter=data.chapters.find(c=>suffix==='/d'+String(c.id).padStart(3,'0'));if((html.match(/class="sloka"/g)||[]).length!==chapter.rows.length)throw Error('Unexpected row count');}
+ const html=await res.text();if(suffix!=='/'){const chapter=pages.find(c=>suffix==='/d'+String(c.id).padStart(3,'0'));if((html.match(/class="sloka"/g)||[]).length!==chapter.rows.length)throw Error('Unexpected row count');}
  console.log(`${suffix}: ${res.status}`);
 }
 const blog=await fetch(origin);if(!blog.ok)throw Error('Blog not reachable');console.log('Blog home: '+blog.status);

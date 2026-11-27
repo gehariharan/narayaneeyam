@@ -290,6 +290,67 @@ wrangler d1 export narayaneeyam-feedback --remote --config review-site/wrangler.
 To withdraw the review site, remove only its two Worker routes or deploy a
 maintenance response. Do not delete the R2 bucket or feedback database.
 
+## Awaiting painting
+
+A dasakam with content (`content/daskams/dNNN.json`) but no selected batch in
+`review-site/selections.mjs` is built as an awaiting-painting chapter
+(`review-site/awaiting.mjs`), listed under `awaiting` in `data.json`. Its page has one
+card per stanza in the usual order: a plain "Awaiting painting" slot where the painting
+goes, the reference photos mapped to that stanza, then Commentary and the stanza. Only
+Text issue is offered; the Worker refuses Approve, Redraw and Small edit for it, and
+sign-off stays closed. On the front page its tile is "Awaiting painting", distinct
+from "Art not made yet", which stays for dasakams with no content.
+
+Reference photos come from `content/sources/dNNN/reference-map.json`, a `references`
+(or `images`) list of `{ stanza, path, sha256 }` pointing at that dasakam's own
+`intake/DNNN/` photos; entries without a stanza are unmapped extras and are not shown.
+Each mapped photo is checksum-checked and goes through the same review-derivative path
+as painted chapters (a WebP derivative recorded in `asset-provenance.json`); raw intake
+never reaches the site. Commentary is shown only from the same allowlisted sources;
+a stanza without commentary yet shows "Commentary missing". `validateAwaiting` checks
+the exact bundle: the awaiting list is exactly the content dasakams without a selected
+batch, every stanza is shown, and every image is a mapped reference photo's current
+derivative. The build, `review-site/scripts/test.mjs`, `package-release.mjs`,
+`upload.mjs` and `npm run art:review:validate -- --bundle` all run it next to
+`validateBundle`. The deploy workflow uploads these derivatives with
+`node review-site/scripts/upload.mjs --awaiting`.
+
+When the dasakam's batch is selected, the next build shows it as a normal painted
+chapter; nothing else changes. A Text issue saved on an awaiting card stays in the
+feedback database and is pulled by `npm run review:pull` as usual.
+
+## Add a newly painted dasakam
+
+Once a dasakam's batch is in `art/batches/` with passing review evidence, run in an
+asset-bearing checkout (intake and artifacts present):
+
+```sh
+npm run review:add-dasakam -- --daskam=15
+npm run review:add-dasakam -- --daskam=15 --batch=d015-comparison-v002.json   # a specific batch
+```
+
+It does the local part in one step:
+
+1. selects the batch in `review-site/selections.mjs` (by default the highest
+   `art/batches/dNNN-comparison-vNNN.json`; a newer batch replaces the selected one);
+2. adds the dasakam's `Upload DNNN review candidates to R2` step to
+   `.github/workflows/deploy-review.yml`;
+3. runs `node review-site/scripts/build.mjs`, `node review-site/scripts/test.mjs` and
+   `node scripts/validate-image-reviews.mjs --bundle`. The build checks every selected
+   image's visual review evidence and checksums, as for any selection. If any step
+   fails, both edits are undone.
+
+Then, as for any review change:
+
+4. commit the two edited files (with the batch and its review evidence) and ship them
+   through no-mistakes;
+5. on the landed commit, in an asset-bearing checkout:
+   `node review-site/scripts/build.mjs`, `node review-site/scripts/test.mjs`,
+   `node review-site/scripts/package-release.mjs`;
+6. release the bundle and dispatch the deploy workflow (`gh release create
+   "review-bundle-$sha" …` and `gh workflow run deploy-review.yml --ref
+   "review-bundle-$sha"`, as in "Build and publish" above).
+
 ## Dasakam 1
 
 D001 landscape regeneration is staged as a ten-row review set in

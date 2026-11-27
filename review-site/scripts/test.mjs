@@ -1,4 +1,5 @@
 import { validateBundle } from '../image-review.mjs';
+import { validateAwaiting } from '../awaiting.mjs';
 import { loadSelections, selectedImages } from '../selections.mjs';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
@@ -40,9 +41,15 @@ const selectionBatches=await loadSelections(fileURLToPath(new URL('../..',import
 const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
 const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.reduce((n,r)=>n+(r.references||(r.reference?[r.reference]:[])).length,0),0);
-assert.deepEqual(data.chapters.map(c=>c.id),[1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,62,63,64,65,66,67,72,94,95,96,97,98,99,100]);
+// These painted dasakams stay painted; a newly added one needs only its selection (review:add-dasakam).
+for(const id of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,62,63,64,65,66,67,72,94,95,96,97,98,99,100])assert.ok(data.chapters.some(c=>c.id===id),`Dasakam ${id} is no longer painted`);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
+// Dasakams with content but no selected batch are awaiting-painting cards: reference photos (checked
+// derivatives), Commentary and stanza text, a plain "Awaiting painting" slot, and only Text issue.
+const awaitingCheck=await validateAwaiting(fileURLToPath(new URL('../..',import.meta.url)),fileURLToPath(new URL('../../artifacts/review-site',import.meta.url)),{batches:selectionBatches});
+for(const c of data.awaiting||[]){const html=renderChapter(c);assert.equal((html.match(/class="sloka"/g)||[]).length,c.rows.length);assert.equal((html.match(/<div class="missing">Awaiting painting<\/div>/g)||[]).length,c.rows.length);assert.equal((html.match(/data-decision="text-issue"/g)||[]).length,c.rows.length);assert.ok(!html.includes('data-decision="approve"')&&!html.includes('data-decision="redraw"')&&!html.includes('data-decision="small-edit"'));assert.ok(!html.includes('data-signoff'));for(const r of c.rows)for(const i of r.images){assert.equal(i.role,'reference');await fs.access(new URL('../../artifacts/review-site/'+i.key,import.meta.url));}}
+console.log(`Passed: ${awaitingCheck.chapters} awaiting-painting dasakams with ${awaitingCheck.images} checked reference-photo derivatives.`);
 // A redrawn painting answering a reviewer note also carries the earlier painting the note was about.
 const previousPaintings=data.chapters.flatMap(c=>c.rows.filter(r=>r.fix?.previous).map(r=>({chapter:c,row:r})));
 assert.equal(Object.keys(data.assets).length,expectedMedia+new Set(previousPaintings.map(p=>p.row.fix.previous.key)).size);
@@ -114,7 +121,7 @@ for(const row of d42.rows){const selected=selected42.rows.find(r=>r.n===row.n);a
 assert.equal((await feedback(req({...good,daskam:42,sloka:11}),env)).status,201);
 console.log(`Passed: ${data.chapters.length} chapters, ${expectedRows} rows, ${expectedMedia} media, ${expectedGenerated} generated selections (69 historical, ${expectedGenerated-69} inspected), including Dasakam 30, 45, 46, 47, 49, 65, 94, 97, 100, D041, D042, D048, D062, D064, D072 and all ten D011, D012, D013, D014, D029, D031, D034, D040, D043, D044 and D067 leads.`);
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
-for(const c of data.chapters){
+for(const c of [...data.chapters,...(data.awaiting||[])]){
  const response=await worker.fetch(unlocked('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
  assert.equal(response.status,200);const html=await response.text();
  for(const next of data.chapters)assert.ok(html.includes('/narayaneeyam/'+chapterSlug(next.id)));

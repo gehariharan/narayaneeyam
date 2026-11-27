@@ -51,9 +51,10 @@ export async function verifyLivePages(data, {
 } = {}) {
   assert.ok(Array.isArray(data?.chapters) && data.chapters.length > 0, 'Release data has no chapters');
   const chapters = data.chapters;
+  const pages = [...chapters, ...(data.awaiting || [])];
   const mediaKey = Object.keys(data.assets || {})[0];
   assert.ok(mediaKey, 'Release data has no media');
-  for (const path of ['/', ...chapters.map(chapter => `/${chapterSlug(chapter.id)}`)]) {
+  for (const path of ['/', ...pages.map(chapter => `/${chapterSlug(chapter.id)}`)]) {
     await fetchVerified(base, path, {}, (response, html) => verifyLockedPage(response, html, path, data), retryDelayMs);
   }
   await fetchVerified(base, `/${mediaKey}`, {}, (response, body) => verifyLockedEmpty(response, body, `/${mediaKey}`), retryDelayMs);
@@ -68,7 +69,7 @@ export async function verifyLivePages(data, {
     await fetchVerified(base, route, { method: 'POST', headers: { 'content-type': 'application/json', origin }, body: lockBody }, (response, text) => verifyLockedEmpty(response, text, `POST ${route}`), retryDelayMs);
   }
 
-  console.log(`Verified live lock: index, ${chapters.length} chapter pages, a media path, feedback, reviewer decisions, sign-off, captain confirmation and the captain key all return the locked 401 response.`);
+  console.log(`Verified live lock: index, ${pages.length} chapter pages, a media path, feedback, reviewer decisions, sign-off, captain confirmation and the captain key all return the locked 401 response.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

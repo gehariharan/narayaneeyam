@@ -185,6 +185,9 @@ jobs:
       - name: Upload Dasakam 100 review candidates to R2
         run: node review-site/scripts/upload.mjs --daskam=100
 
+      - name: Upload awaiting-painting reference photos to R2
+        run: node review-site/scripts/upload.mjs --awaiting
+
       - name: Apply review D1 migrations
         run: npx wrangler d1 migrations apply narayaneeyam-feedback --remote --config review-site/wrangler.jsonc
 
