@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "daskam": 59,
+  "caption_path": "intake/D059/photo-captions.txt",
+  "caption_sha256": "c6f71d3c8c39b5dd0d573239e8dc237c42195cb046840a6cd5d53a2e3ddfbbf4",
+  "caption_origin": "intake/D059/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D059/facebook-source.json",
+  "facebook_source_sha256": "5076e335dcc45a490d5cfb052db7b889abb0b71cb8726ca43b1680357ff80b01",
+  "post_caption": "intake/D059/facebook-post-caption.txt",
+  "post_caption_sha256": "b47ac2df258adc15cb82f7168cceedb2c794f73811d827215cd8bd1b05db6fee",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-59-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d059/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "23c5cbbd5196a93b72bdb39adaa1452b847fba55d0f8de416da8fc938fba54dc",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-59-in-english/",
+    "romanization_raw": "artifacts/d059/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "01a72886d4187a5a66cd6851f13760ddca3d6716c88edf25cd0b3986ef0aabf0",
+    "sanskrit_heading": "नारायणीयं एकोनषष्टितमदशकम् (५९) – वेणुगानवर्णनम्",
+    "romanization_heading": "nārāyaṇīyaṃ ekonaṣaṣṭitamadaśakam (59) – veṇugānavarṇanam",
+    "completion_marker": "iti ekonaṣaṣṭitamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 59-1 through 59-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {}
+}

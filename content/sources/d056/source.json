@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "daskam": 56,
+  "caption_path": "intake/D056/photo-captions.txt",
+  "caption_sha256": "002f7a485e56688cbb50e94bcc77e48cbcc7c84f96474b5fafad052cb71e3d36",
+  "caption_origin": "intake/D056/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D056/facebook-source.json",
+  "facebook_source_sha256": "c4558f6c120c8baff4398ac035806fa3918b966d39ee0b75368c83b0a15ba8a5",
+  "post_caption": "intake/D056/facebook-post-caption.txt",
+  "post_caption_sha256": "fb35239a9c96d390e34a309fd5c3dd42a4784d58b29964005a14b56d122760c7",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-56-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d056/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "b19cab324e4dd973ec712ece1b1a4bb73ef301a4fe94cea2d622531ea59d1952",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-56-in-english/",
+    "romanization_raw": "artifacts/d056/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "6f8c07a700f64d33c521deeb5a1e52fe332fe1f5270e298952b463115dd185b2",
+    "sanskrit_heading": "नारायणीयं षट्पञ्चाशत्तमदशकम् (५६) – कालियगर्वशमनं तथा भगवदनुग्रहम्",
+    "romanization_heading": "nārāyaṇīyaṃ ṣaṭpañcāśattamadaśakam (56) – kāliyagarvaśamanaṃ tathā bhagavadanugraham",
+    "completion_marker": "iti ṣaṭpañcāśattamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 56-1 through 56-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {
+    "7": [
+      "appended-non-english-dropped:35chars"
+    ]
+  },
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {}
+}

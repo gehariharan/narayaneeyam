@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "daskam": 70,
+  "caption_path": "intake/D070/photo-captions.txt",
+  "caption_sha256": "6abb2e88b22763c20429f7476df5c3ca40f764844b6f6a337747079c7a034f2d",
+  "caption_origin": "intake/D070/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D070/facebook-source.json",
+  "facebook_source_sha256": "1bce30e5da0bdf43fcb7cdc79d54cca1768555f88fe806396a162fe230ff829d",
+  "post_caption": "intake/D070/facebook-post-caption.txt",
+  "post_caption_sha256": "c1b0ae73d99652de9745701bbf4b87d289086e4e22c82f4886391a7c0fd49f3a",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-70-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d070/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "3d8eb18ff41c44854b69f517861ba8739d22a0c3755c10c342295a4447410ce2",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-70-in-english/",
+    "romanization_raw": "artifacts/d070/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "a3e8210b48c5a8c19a70a80e2327d61e7bd625689bf11c6ae0a4f1f5c0a875bc",
+    "sanskrit_heading": "नारायणीयं सप्ततितमदशकम् (७०) – सुदर्शनशापमोक्षं तथा शङ्खचूड-अरिष्टवध",
+    "romanization_heading": "nārāyaṇīyaṃ saptatitamadaśakam (70) – sudarśanaśāpamokṣaṃ tathā śaṅkhacūḍa-ariṣṭavadha",
+    "completion_marker": "iti saptatitamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 70-1 through 70-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {
+    "9": {
+      "reference_picture": "missing",
+      "commentary": "missing",
+      "reason": "not present in the Facebook intake; the intake also has pictures with no stated stanza (see reference-map unmapped), which may belong here"
+    }
+  }
+}

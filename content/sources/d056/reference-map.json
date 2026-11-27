@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "daskam_id": 56,
+  "status": "source-mapped-needs-review",
+  "mapping_basis": "Pictures follow the intake naming convention: NNN.jpg is the first picture whose own Facebook caption states stanza #N; NNN-2.jpg and later are further pictures for that stanza; nostanza-NN.jpg have no stated stanza and stay unmapped. A picture whose caption labels several stanzas (for example \"#5 & #6\") is mapped to each of them. Source photos are contextual references only; canonical Sanskrit governs scene interpretation.",
+  "canonical_source": "https://stotranidhi.com/hi/narayaneeyam-dasakam-56-in-sanskrit/",
+  "romanization_source": "https://stotranidhi.com/en/narayaneeyam-dasakam-56-in-english/",
+  "caption_source": "intake/D056/photo-captions.txt",
+  "facebook_caption_source": "intake/D056/photo-captions.txt",
+  "images": [
+    {
+      "stanza": 1,
+      "role": "primary",
+      "path": "intake/D056/001.jpg",
+      "sha256": "66f30b09d05b55f88caf8adb3444665bcc6b85de1f1499e7443385430fcf0e62",
+      "bytes": 197907,
+      "width": 1080,
+      "height": 1264,
+      "facebook_file": "D056/D056-2026-11-26-1.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 2,
+      "role": "primary",
+      "path": "intake/D056/002.jpg",
+      "sha256": "ebf826d890c3de33e96aa4c2aa846eeb0e84cff3da804cf76407aea7c56c6a6b",
+      "bytes": 134087,
+      "width": 736,
+      "height": 1434,
+      "facebook_file": "D056/D056-2026-11-26-2.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 3,
+      "role": "primary",
+      "path": "intake/D056/003.jpg",
+      "sha256": "795ca395a5dbd2b6b139c1e40e60517f4d99b4fcc4062f9df5d95a94b9e7ab92",
+      "bytes": 103907,
+      "width": 945,
+      "height": 771,
+      "facebook_file": "D056/D056-2026-11-26-3.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 4,
+      "role": "primary",
+      "path": "intake/D056/004.jpg",
+      "sha256": "bdb7fe23e589cc9ebb63f170a7b7485b7b6bd80b328c94097e95bfd6d34e1cce",
+      "bytes": 295810,
+      "width": 998,
+      "height": 1400,
+      "facebook_file": "D056/D056-2026-11-26-4.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 5,
+      "role": "primary",
+      "path": "intake/D056/005.jpg",
+      "sha256": "aecf0ddb28d78bb714c364f1ff091109c160d68a0f5540d6cd989fc22295500b",
+      "bytes": 63253,
+      "width": 492,
+      "height": 720,
+      "facebook_file": "D056/D056-2026-11-26-5.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 6,
+      "role": "primary",
+      "path": "intake/D056/006.jpg",
+      "sha256": "37dcc3df645770976cfb1bbd4bdb6e0dcf3cb8526bdaa2b61ec7676c896b103f",
+      "bytes": 231286,
+      "width": 1600,
+      "height": 900,
+      "facebook_file": "D056/D056-2026-11-26-6.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 7,
+      "role": "primary",
+      "path": "intake/D056/007.jpg",
+      "sha256": "f575a931673bc8018c0b6a2034e4849d16bae6d1768a32ede2aecad610b136d1",
+      "bytes": 118770,
+      "width": 1080,
+      "height": 1398,
+      "facebook_file": "D056/D056-2026-11-26-7.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 8,
+      "role": "primary",
+      "path": "intake/D056/008.jpg",
+      "sha256": "63692407ac26577799e66e4bbc6e91e00c9ecf5271efa6d2e9f811eef7dae98d",
+      "bytes": 13802,
+      "width": 374,
+      "height": 271,
+      "facebook_file": "D056/D056-2026-11-26-8.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 9,
+      "role": "primary",
+      "path": "intake/D056/009.jpg",
+      "sha256": "dd5af22527ea4253a2f50df80def1d3175db10e38057684338dbf6880e71a2fe",
+      "bytes": 145388,
+      "width": 814,
+      "height": 1031,
+      "facebook_file": "D056/D056-2026-11-26-9.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 10,
+      "role": "primary",
+      "path": "intake/D056/010.jpg",
+      "sha256": "275c9dc9dfa2abdd7cc18ba11a7e2a50b3210e1dc046c1ccbe56bc225ee06837",
+      "bytes": 69395,
+      "width": 736,
+      "height": 736,
+      "facebook_file": "D056/D056-2026-11-26-10.jpg",
+      "posted": "2026-11-26"
+    }
+  ],
+  "missing_stanzas": [],
+  "missing_stanzas_reason": "not present in the Facebook intake; the intake also has pictures with no stated stanza (see reference-map unmapped), which may belong here",
+  "unmapped": [
+    {
+      "path": "intake/D056/nostanza-01.jpg",
+      "sha256": "6846fc95c5e08a0791926a0689533c586912611af2fcb6b515dba476042fc3b3",
+      "bytes": 116397,
+      "width": 912,
+      "height": 1280,
+      "facebook_file": "D056/D056-2026-11-26-11.jpg",
+      "posted": "2026-11-26",
+      "reason": "no stanza stated in its caption"
+    },
+    {
+      "path": "intake/D056/nostanza-02.jpg",
+      "sha256": "893584ca14e216b7ed2953eecad813f9fa454e878a9e1030b25c0aad83a36f1d",
+      "bytes": 116363,
+      "width": 937,
+      "height": 1280,
+      "facebook_file": "D056/D056-2026-11-26-12.jpg",
+      "posted": "2026-11-26",
+      "reason": "no stanza stated in its caption"
+    }
+  ]
+}

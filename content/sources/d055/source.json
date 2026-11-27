@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "daskam": 55,
+  "caption_path": "intake/D055/photo-captions.txt",
+  "caption_sha256": "07792ec7f043ee6369ecf7246af3b8b9bd6790baf567ff10f61bc76bc3aef39c",
+  "caption_origin": "intake/D055/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D055/facebook-source.json",
+  "facebook_source_sha256": "94770b60e6888d5324a706dbb981236ff0bdad352c90c383cb90bfc33e2bab37",
+  "post_caption": "intake/D055/facebook-post-caption.txt",
+  "post_caption_sha256": "f079d80d40f9817acc5aa10a678bbff836e9fc8e1b0d68954332eb5796ffd95b",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-55-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d055/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "cf338e6c298b8e2d1afd19cfd79ad83da5549aa479da799af1fc44963e081c12",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-55-in-english/",
+    "romanization_raw": "artifacts/d055/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "645fec5a66d26f97cbc21fad77a84d39c2757a5e7bdc907b5e94068f6ad19fc0",
+    "sanskrit_heading": "नारायणीयं पञ्चपञ्चाशत्तमदशकम् (५५) – कालियनर्तनम्",
+    "romanization_heading": "nārāyaṇīyaṃ pañcapañcāśattamadaśakam (55) – kāliyanartanam",
+    "completion_marker": "iti pañcapañcāśattamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 55-1 through 55-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {
+    "10": [
+      "facebook-truncated-within-dropped-material",
+      "appended-non-english-dropped:79chars"
+    ]
+  },
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {}
+}
