@@ -122,7 +122,7 @@ export async function decisions(request,env,dataset=data){
 }
 // Review progress per dasakam for the 100-tile index, from one query over every stanza.
 // Like /api/decisions, a stanza counts only its latest record on the paintings shown now;
-// decisions on an earlier version and legacy notes leave it undecided.
+// decisions on an earlier version, legacy notes, and a request closed on the current painting leave it undecided.
 const LATEST_PER_VERSION='SELECT daskam,sloka,decision,status,image_versions FROM (SELECT daskam,sloka,decision,status,image_versions,ROW_NUMBER() OVER (PARTITION BY daskam,sloka,image_versions ORDER BY created_at DESC, rowid DESC) AS nth FROM feedback) WHERE nth=1';
 export async function reviewProgress(env,dataset=data){
  const {results=[]}=await env.DB.prepare(LATEST_PER_VERSION).all();
