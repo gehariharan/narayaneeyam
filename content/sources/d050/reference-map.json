@@ -1,0 +1,246 @@
+{
+  "schema_version": 2,
+  "daskam": 50,
+  "basis": "Explicit stanza assignments and source captions in intake/D050/photo-captions.txt, verified against the supplied source images.",
+  "caption_source": "intake/D050/photo-captions.txt; raw capture preserved verbatim.",
+  "post_source": "intake/D050/facebook-post-caption.txt; raw capture preserved verbatim.",
+  "post_url": "https://www.facebook.com/groups/2389815427810388/posts/8011877812270760/",
+  "images": [
+    {
+      "file": "001.jpg",
+      "sha256": "ade0ccaa298071838a32286c205d7008868d43bf22fc413bedebfef1efb6a7da",
+      "candidate_stanzas": [
+        1
+      ],
+      "caption_key": "#1",
+      "status": "mapped",
+      "observation": "Caption and image inspected; explicit source stanza assignment retained.",
+      "use": "stanza 1 scene reference"
+    },
+    {
+      "file": "002.jpg",
+      "sha256": "d0a20b0a13103399cad5f209a22db6e846d24d3f748aec3781046607d91eec63",
+      "candidate_stanzas": [
+        2
+      ],
+      "caption_key": "#2",
+      "status": "mapped",
+      "observation": "Caption and image inspected; explicit source stanza assignment retained.",
+      "use": "stanza 2 scene reference"
+    },
+    {
+      "file": "003.jpg",
+      "sha256": "a5f122869d621261edaacf83e368ed3cc603efe5443425a7223d10d0f2f361cf",
+      "candidate_stanzas": [
+        3
+      ],
+      "caption_key": "#3",
+      "status": "mapped",
+      "observation": "Caption and image inspected; explicit source stanza assignment retained.",
+      "use": "stanza 3 scene reference"
+    },
+    {
+      "file": "004.jpg",
+      "sha256": "8b8bd8f5f4e3d26de0d066a494f7b16a6c3862d97b5325b6992793a91a1cae5f",
+      "candidate_stanzas": [
+        4
+      ],
+      "caption_key": "#4",
+      "status": "mapped",
+      "observation": "Caption and image inspected; explicit source stanza assignment retained.",
+      "use": "stanza 4 scene reference"
+    },
+    {
+      "file": "006.jpg",
+      "sha256": "1d08e533a9f55d3701165bafaa29e7e98b455f5128fd0e276afbe7e22bbdb2c0",
+      "candidate_stanzas": [
+        6
+      ],
+      "caption_key": "#6",
+      "status": "mapped",
+      "observation": "Caption and image inspected; explicit source stanza assignment retained.",
+      "use": "stanza 6 scene reference"
+    },
+    {
+      "file": "007.jpg",
+      "sha256": "504c698b84986b565e76936b14e9fe4eb546cb4c97907d9d4eb9cddbe12587f2",
+      "candidate_stanzas": [
+        7
+      ],
+      "caption_key": "#7",
+      "status": "mapped",
+      "observation": "Caption and image inspected; explicit source stanza assignment retained.",
+      "use": "stanza 7 scene reference"
+    },
+    {
+      "file": "008.jpg",
+      "sha256": "0005a6cc962289c6bfe215e206fbe446ab25508694df35b9c0a4a7ac4d555c0c",
+      "candidate_stanzas": [
+        8
+      ],
+      "caption_key": "#8",
+      "status": "mapped",
+      "observation": "Caption and image inspected; explicit source stanza assignment retained.",
+      "use": "stanza 8 scene reference"
+    },
+    {
+      "file": "008-2.jpg",
+      "sha256": "20f006cc7504821ca2a72e203f969d2b26065361358a20d122fe225b00f67105",
+      "candidate_stanzas": [
+        8
+      ],
+      "caption_key": "#8",
+      "status": "mapped",
+      "observation": "Caption and image inspected; explicit source stanza assignment retained.",
+      "use": "stanza 8 scene reference"
+    },
+    {
+      "file": "009.jpg",
+      "sha256": "ea1e7a02af2fd8f58675787dfeac5307ca4b84befa7882156712c2ffc971db16",
+      "candidate_stanzas": [
+        9
+      ],
+      "caption_key": "#9",
+      "status": "mapped",
+      "observation": "Caption and image inspected; explicit source stanza assignment retained.",
+      "use": "stanza 9 scene reference"
+    },
+    {
+      "file": "nostanza-01.jpg",
+      "sha256": "1c864f5b25a1661a38a40a8ccaabb260b1344c6a7259290e14f8024b0d76110e",
+      "candidate_stanzas": [],
+      "caption_key": null,
+      "status": "unmapped-no-stanza",
+      "observation": "No stated stanza and no scene caption; not used as visual reference.",
+      "use": "excluded from generated references"
+    },
+    {
+      "file": "nostanza-02.jpg",
+      "sha256": "6054d94758154f2263fefa25f17f9daa54847d173d823129b39d3b5f5e49c487",
+      "candidate_stanzas": [],
+      "caption_key": null,
+      "status": "unmapped-no-stanza",
+      "observation": "No stated stanza and no scene caption; not used as visual reference.",
+      "use": "excluded from generated references"
+    },
+    {
+      "file": "nostanza-03.jpg",
+      "sha256": "946b91bde90359462d7488033448368201fecb202c21815046df3775c1344304",
+      "candidate_stanzas": [],
+      "caption_key": null,
+      "status": "unmapped-no-stanza",
+      "observation": "No stated stanza and no scene caption; not used as visual reference.",
+      "use": "excluded from generated references"
+    }
+  ],
+  "stanza_reference_mapping": {
+    "1": [
+      "001.jpg"
+    ],
+    "2": [
+      "002.jpg"
+    ],
+    "3": [
+      "003.jpg"
+    ],
+    "4": [
+      "004.jpg"
+    ],
+    "6": [
+      "006.jpg"
+    ],
+    "7": [
+      "007.jpg"
+    ],
+    "8": [
+      "008.jpg",
+      "008-2.jpg"
+    ],
+    "9": [
+      "009.jpg"
+    ]
+  },
+  "no_reference_stanzas": [
+    5,
+    10
+  ],
+  "unmapped_no_stanza_files": [
+    "nostanza-01.jpg",
+    "nostanza-02.jpg",
+    "nostanza-03.jpg"
+  ],
+  "no_stanza_observations": [
+    {
+      "file": "nostanza-01.jpg",
+      "sha256": "1c864f5b25a1661a38a40a8ccaabb260b1344c6a7259290e14f8024b0d76110e",
+      "observation": "Tamil printed text page spanning stanza text, not an illustrative scene; no stanza assignment or picture caption."
+    },
+    {
+      "file": "nostanza-02.jpg",
+      "sha256": "6054d94758154f2263fefa25f17f9daa54847d173d823129b39d3b5f5e49c487",
+      "observation": "Tamil printed text page for later stanzas, not an illustrative scene; no stanza assignment or picture caption."
+    },
+    {
+      "file": "nostanza-03.jpg",
+      "sha256": "946b91bde90359462d7488033448368201fecb202c21815046df3775c1344304",
+      "observation": "Handwritten calendar page with no illustrated scene or stanza caption; not mapped."
+    }
+  ],
+  "caption_note": "Photo 008.jpg is assigned to stanza 8 but has no picture caption. Photo 008-2.jpg carries the #8 caption; the caption is not duplicated onto 008.jpg.",
+  "gaps": [
+    5,
+    10
+  ],
+  "limitations": [
+    "The three nostanza files do not depict a canonical scene and contain no stanza-specific picture caption.",
+    "Reference photographs are used as composition/story references only; canonical Sanskrit remains the source of stanza text."
+  ],
+  "references": [
+    {
+      "stanza": 1,
+      "path": "intake/D050/001.jpg",
+      "sha256": "ade0ccaa298071838a32286c205d7008868d43bf22fc413bedebfef1efb6a7da"
+    },
+    {
+      "stanza": 2,
+      "path": "intake/D050/002.jpg",
+      "sha256": "d0a20b0a13103399cad5f209a22db6e846d24d3f748aec3781046607d91eec63"
+    },
+    {
+      "stanza": 3,
+      "path": "intake/D050/003.jpg",
+      "sha256": "a5f122869d621261edaacf83e368ed3cc603efe5443425a7223d10d0f2f361cf"
+    },
+    {
+      "stanza": 4,
+      "path": "intake/D050/004.jpg",
+      "sha256": "8b8bd8f5f4e3d26de0d066a494f7b16a6c3862d97b5325b6992793a91a1cae5f"
+    },
+    {
+      "stanza": 6,
+      "path": "intake/D050/006.jpg",
+      "sha256": "1d08e533a9f55d3701165bafaa29e7e98b455f5128fd0e276afbe7e22bbdb2c0"
+    },
+    {
+      "stanza": 7,
+      "path": "intake/D050/007.jpg",
+      "sha256": "504c698b84986b565e76936b14e9fe4eb546cb4c97907d9d4eb9cddbe12587f2"
+    },
+    {
+      "stanza": 8,
+      "path": "intake/D050/008.jpg",
+      "sha256": "0005a6cc962289c6bfe215e206fbe446ab25508694df35b9c0a4a7ac4d555c0c"
+    },
+    {
+      "stanza": 8,
+      "path": "intake/D050/008-2.jpg",
+      "sha256": "20f006cc7504821ca2a72e203f969d2b26065361358a20d122fe225b00f67105"
+    },
+    {
+      "stanza": 9,
+      "path": "intake/D050/009.jpg",
+      "sha256": "ea1e7a02af2fd8f58675787dfeac5307ca4b84befa7882156712c2ffc971db16"
+    }
+  ],
+  "references_note": "Added for the review build (review-site/awaiting.mjs reads a \"references\" list of { stanza, path, sha256 }); derived one-to-one from this map's own stanza assignments above, with no mapping changed."
+}

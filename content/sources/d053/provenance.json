@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "daskam": 53,
+  "sources": [
+    {
+      "type": "canonical-sanskrit",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-53-in-sanskrit/",
+      "captured_file": "content/sources/d053/canonical-sanskrit.txt",
+      "sha256": "19ec4c7d3ba693fab5ad3f1864c4ec93db7a5701a7740e3c0d26d974543824ea",
+      "retrieved_utc": "2026-11-26T17:33Z",
+      "notes": "Stanza markers 53-1 through 53-10 and completion marker establish ten canonical stanzas."
+    },
+    {
+      "type": "canonical-romanization",
+      "publisher": "Stotra Nidhi",
+      "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-53-in-english/",
+      "captured_file": "content/sources/d053/canonical-iast.txt",
+      "sha256": "9b122c818c6a2a1512e54a6f9427e4e9592282764ad55315c17ce6a7d313e2c7",
+      "retrieved_utc": "2026-11-26T17:33Z"
+    },
+    {
+      "type": "captions-and-reference-images",
+      "source": "Narayaneeyam Facebook group post",
+      "post_url": "https://www.facebook.com/groups/2389815427810388/posts/8011611665630708/",
+      "poster": "Visalakshi Selvaraj",
+      "post_date": "2025-02-25",
+      "intake_directory": "intake/D053/",
+      "captions_path": "intake/D053/photo-captions.txt",
+      "caption_sha256": "5f4e10aadfa8c615092fb6ae1a6177724c233d638f1dc325ccf0cfc1499167e0",
+      "source_metadata_path": "intake/D053/facebook-source.json",
+      "source_metadata_sha256": "28ef339a8389ed32c5da7e351f6446607a7439887255c5bf9b6539f13b403e14",
+      "hash_list_path": "content/sources/d053/intake-sha256.txt",
+      "notes": "Copied byte-for-byte from /home/gehariharan/Projects/narayaneeyam/intake/D053/ before use. All 14 files are listed in the SHA-256 file."
+    }
+  ],
+  "canonical_stanza_count": 10,
+  "reference_map_path": "content/sources/d053/reference-map.json",
+  "reference_map_sha256": "40effcd372ff53ac80bf80b5b392e44d40b2193981152aa7f6f29d69e8b9ac88",
+  "reference_map_sha256_note": "Recomputed after the map gained a build-readable references list; earlier production map hash was e11a01e227cf7e0ff9d78b58387fa51482c86f6837d35daab378d6d054833244.",
+  "content_path": "content/daskams/d053.json",
+  "editorial_status": "needs-review; no translation supplied"
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "daskam": 50,
+  "no_photos_available": false,
+  "no_captions_available": false,
+  "source_type": "canonical verse with stanza-mapped Facebook reference photographs and captions",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-50-in-sanskrit/",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-50-in-english/",
+    "sanskrit_capture": "content/sources/d050/canonical-sanskrit.txt",
+    "romanization_capture": "content/sources/d050/canonical-iast.txt",
+    "evidence": "The Sanskrit page numbers stanzas 50-1 through 50-10 and ends with the completion marker iti pañcāśat daśakaṃ samāptam; the English (IAST) page supplies the parallel ten stanzas."
+  },
+  "canonical_stanza_count": 10,
+  "editorial_policy": "No vetted translation is supplied. Commentary is the verbatim English caption of each stanza's own numbered Facebook picture (intake/D050/photo-captions.txt); 008.jpg has no caption, so S8 commentary comes from 008-2.jpg. S5 and S10 have no picture or caption and no commentary. Scene descriptions in the art plan are unvetted readings of the Sanskrit for illustration only.",
+  "reference_source": {
+    "publisher": "Narayaneeyam Facebook group post",
+    "post_url": "https://www.facebook.com/groups/2389815427810388/posts/8011877812270760/",
+    "poster": "Visalakshi Selvaraj",
+    "post_date": "2025-02-25",
+    "raw_images": "intake/D050/",
+    "caption_capture": "intake/D050/photo-captions.txt",
+    "post_caption_capture": "intake/D050/facebook-post-caption.txt",
+    "provenance_capture": "intake/D050/facebook-source.json",
+    "stanza_mapped_photo_count": 9,
+    "stanza_caption_count": 8,
+    "no_reference_stanzas": [
+      5,
+      10
+    ]
+  },
+  "reference_mapping": "content/sources/d050/reference-map.json",
+  "caption_path": "intake/D050/photo-captions.txt",
+  "caption_sha256": "5660eb4e4c87350f5f040e98e8e3beaacce1e1f343556f155e2053d7241cc5d5",
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008-2.jpg",
+    "9": "009.jpg"
+  },
+  "commentary_cleanup": {},
+  "stanza_gaps": {
+    "5": {
+      "reference_picture": "missing",
+      "commentary": "missing",
+      "reason": "not present in the Facebook post (no picture or caption labelled for this stanza)"
+    },
+    "10": {
+      "reference_picture": "missing",
+      "commentary": "missing",
+      "reason": "not present in the Facebook post (no picture or caption labelled for this stanza)"
+    }
+  }
+}
