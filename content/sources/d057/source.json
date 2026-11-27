@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "daskam": 57,
-  "caption_path": null,
-  "caption_sha256": null,
-  "caption_origin": null,
-  "source_type": "none",
-  "facebook_source": null,
-  "facebook_source_sha256": null,
-  "post_caption": null,
-  "post_caption_sha256": null,
+  "caption_path": "content/sources/d057/photo-captions.txt",
+  "caption_sha256": "8e5a105e4c79df6f4b6c7c780a88e23ed70e54ae7ab05563ec394cbcbd0d3737",
+  "caption_origin": "intake/D057/photo-captions-2026-11-27.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D057/facebook-source-2026-11-27.json",
+  "facebook_source_sha256": "1f79b29bab17c4511c1a8663f3e76d9a6d7f98266384750eb9300f29c1f508b9",
+  "post_caption": "intake/D057/facebook-post-caption-2026-11-27.txt",
+  "post_caption_sha256": "4720318f2ad34c1ed015cc593f295755d1840ddd15d071c42a10ed7e3a3684a2",
   "canonical_source": {
     "publisher": "Stotra Nidhi",
     "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-57-in-sanskrit/",
@@ -23,64 +23,24 @@
     "evidence": "11 numbered stanzas 57-1 through 57-11 on both the Devanagari and the parallel IAST page."
   },
   "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
-  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
-  "commentary_cleanup": {},
-  "commentary_picture": {},
-  "stanza_gaps": {
-    "1": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "2": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "3": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "4": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "5": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "6": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "7": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "8": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "9": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "10": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "11": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    }
-  }
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a trailing Facebook \"Comments\" UI label removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {
+    "1": [
+      "appended-non-english-dropped:74chars"
+    ]
+  },
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg"
+  },
+  "stanza_gaps": {}
 }

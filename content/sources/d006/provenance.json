@@ -26,5 +26,27 @@
       "status": "user-supplied; copied verbatim into commentary_en"
     }
   ],
+  "corrections": [
+    {
+      "date": "2026-11-27",
+      "stanza": 2,
+      "field": "commentary_en",
+      "change": "Completed commentary that had been cut off after \"Swarga (heaven) is\"; appended \"Bhagwan’s chest which is the abode of Indra.\" No other words changed.",
+      "evidence": [
+        {
+          "path": "intake/D006/photo-captions.txt",
+          "entry": "#2",
+          "sha256": "92a5275c7377be8290a2a61d548ec1f3f1e1cf0650f3e418f41b3d203f095ac7",
+          "note": "the cited source carries the full sentence across a line break"
+        },
+        {
+          "path": "intake/D006/photo-captions-2026-11-27.txt",
+          "entry": "stanza 2 (not staged duplicate caption)",
+          "sha256": "c3e0e23c3dc1afe3698f4b3caa236a9ace74662a17427f85ff9569b0e8a9e0e3",
+          "note": "Facebook group caption of 2026-05-08 confirms the full sentence"
+        }
+      ]
+    }
+  ],
   "note": "English translation remains blank. Do not publish D006 as a complete text edition until Sanskrit, romanization, translation, and commentary have been reviewed."
 }
