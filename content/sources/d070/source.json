@@ -24,7 +24,11 @@
   },
   "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
   "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
-  "commentary_cleanup": {},
+  "commentary_cleanup": {
+    "9": [
+      "captions-combined:content/sources/d070/photo-captions.txt#9+intake/D070/photo-captions.txt#5(005-2.jpg)"
+    ]
+  },
   "commentary_picture": {
     "1": "001.jpg",
     "2": "002.jpg",
@@ -34,25 +38,27 @@
     "6": "006.jpg",
     "7": "007.jpg",
     "8": "008.jpg",
+    "9": "005-2.jpg",
     "10": "010.jpg"
   },
-  "stanza_gaps": {
+  "stanza_gaps": {},
+  "caption_corrections": {
     "9": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "not present in the Facebook intake; the intake also has pictures with no stated stanza (see reference-map unmapped), which may belong here"
-    }
-  },
-  "unplaced_captions": [
-    {
       "picture": "intake/D070/005-2.jpg",
       "facebook_file": "D070/D070-2025-06-12-9.jpg",
-      "caption_label": "#5",
-      "caption_source": "intake/D070/photo-captions.txt",
-      "text": "The force with which the evil-minded asura fell dead, few trees in the forest fell and destroyed the forest. Devas watching the sight from heaven were so pleased and showered flowers on Krishna.",
-      "status": "needs-editorial-placement",
-      "likely_stanza": 8,
-      "reason": "Labelled #5 by the poster, but it describes the killing of Arishta (stanza 70-8: mardayannamadayaḥ suralokam); stanza 70-5 is about the Gopikas' grief. Not placed in any stanza's commentary_en."
+      "sha256": "114fc046028c6cbf69048426602e998bf34d83251e00d1c3ea1a09ecdaec9a48",
+      "facebook_post": "https://www.facebook.com/groups/2389815427810388/posts/8713140808811120/",
+      "facebook_photo_fbid": "3485910894879042",
+      "caption_label": "#9",
+      "text": "Devas and divine Gods were happy and praised Krishna as the protector of Righteousness or Dharma on the earth by killing Arishtasuran.",
+      "source": "Facebook group read-back of 2026-11-27 (missing-stanza search); the download index's stanza value for this picture was empty or wrong",
+      "earlier_caption": {
+        "caption_label": "#5",
+        "caption_source": "intake/D070/photo-captions.txt",
+        "text": "The force with which the evil-minded asura fell dead, few trees in the forest fell and destroyed the forest. Devas watching the sight from heaven were so pleased and showered flowers on Krishna.",
+        "note": "Caption the first download pass recorded for this picture (formerly unplaced); it describes Arishta's fall and the Devas' flowers, so it is kept with stanza 9 after the current caption."
+      },
+      "caption_file": "content/sources/d070/photo-captions.txt#9"
     }
-  ]
+  }
 }

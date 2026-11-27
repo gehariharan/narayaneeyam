@@ -64,17 +64,6 @@
       "posted": "2025-06-12"
     },
     {
-      "stanza": 5,
-      "role": "extra",
-      "path": "intake/D070/005-2.jpg",
-      "sha256": "114fc046028c6cbf69048426602e998bf34d83251e00d1c3ea1a09ecdaec9a48",
-      "bytes": 27308,
-      "width": 398,
-      "height": 300,
-      "facebook_file": "D070/D070-2025-06-12-9.jpg",
-      "posted": "2025-06-12"
-    },
-    {
       "stanza": 6,
       "role": "primary",
       "path": "intake/D070/006.jpg",
@@ -108,6 +97,18 @@
       "posted": "2025-06-12"
     },
     {
+      "stanza": 9,
+      "role": "primary",
+      "path": "intake/D070/005-2.jpg",
+      "sha256": "114fc046028c6cbf69048426602e998bf34d83251e00d1c3ea1a09ecdaec9a48",
+      "bytes": 27308,
+      "width": 398,
+      "height": 300,
+      "facebook_file": "D070/D070-2025-06-12-9.jpg",
+      "posted": "2025-06-12",
+      "intake_name_note": "intake file name follows the download index's wrong stanza (5); the picture's own caption labels it #9"
+    },
+    {
       "stanza": 10,
       "role": "primary",
       "path": "intake/D070/010.jpg",
@@ -119,10 +120,7 @@
       "posted": "2025-06-12"
     }
   ],
-  "missing_stanzas": [
-    9
-  ],
-  "missing_stanzas_reason": "not present in the Facebook intake; the intake also has pictures with no stated stanza (see reference-map unmapped), which may belong here",
+  "missing_stanzas": [],
   "unmapped": [
     {
       "path": "intake/D070/nostanza-01.jpg",
@@ -143,6 +141,20 @@
       "facebook_file": "D070/D070-2025-06-12-12.jpg",
       "posted": "2025-06-12",
       "reason": "no stanza stated in its caption"
+    }
+  ],
+  "stanza_corrections": [
+    {
+      "sha256": "114fc046028c6cbf69048426602e998bf34d83251e00d1c3ea1a09ecdaec9a48",
+      "facebook_file": "D070/D070-2025-06-12-9.jpg",
+      "stanzas": [
+        9
+      ],
+      "previously_mapped_to": [
+        5
+      ],
+      "evidence": "The picture's caption (photo fbid 3485910894879042) reads \"#9 Devas and divine Gods were happy...\"; the post now reads #1-#10 in order, then a title card and a song sheet.",
+      "source": "Facebook group read-back of 2026-11-27 (missing-stanza search); the download index's stanza value for this picture was empty or wrong"
     }
   ]
 }

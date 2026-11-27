@@ -30,6 +30,12 @@
       "path": "intake/D022/photo-captions.txt",
       "sha256": "013e20671d4750fb989aacdb15df1556c31d68b7004fc7896902983d1a483109",
       "status": "supplied captions preserved as commentary, not treated as translation; formatting-only cleanup (see source.json caption_policy)."
+    },
+    {
+      "role": "commentary",
+      "path": "content/sources/d022/photo-captions.txt",
+      "sha256": "0cf40855d095745068a449c262f6c58dc09fd273fb47b95f2edbc6103812aaf1",
+      "status": "captions read back from the Facebook group on 2026-11-27 for pictures whose download-index stanza was empty or wrong; preserved verbatim as commentary for the stanzas they label (see source.json caption_corrections)."
     }
   ],
   "intake_manifest": "content/sources/d022/reference-map.json",

@@ -27,6 +27,12 @@
   "commentary_cleanup": {
     "6": [
       "facebook-truncated"
+    ],
+    "7": [
+      "facebook-truncated"
+    ],
+    "9": [
+      "facebook-truncated"
     ]
   },
   "commentary_picture": {
@@ -36,7 +42,9 @@
     "4": "004.jpg",
     "5": "nostanza-01.jpg",
     "6": "nostanza-01.jpg",
+    "7": "nostanza-01.jpg",
     "8": "008.jpg",
+    "9": "nostanza-01.jpg",
     "10": "nostanza-02.jpg",
     "11": "011.jpg"
   },
@@ -46,14 +54,36 @@
       "reason": "Facebook caption truncated at \"See more\""
     },
     "7": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "not present in the Facebook intake"
+      "commentary": "truncated",
+      "reason": "the read-back quotes this caption only up to an ellipsis; the full text is not on disk"
     },
     "9": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "not present in the Facebook intake"
+      "commentary": "truncated",
+      "reason": "the read-back quotes this caption only up to an ellipsis; the full text is not on disk"
+    }
+  },
+  "caption_corrections": {
+    "7": {
+      "picture": "intake/D022/nostanza-01.jpg",
+      "facebook_file": "D022/D022-2024-06-12-5.jpg",
+      "sha256": "c86887d39250a6fc37ac6a69af4f62ab4e8773c3f0846eb659edff3878eae4a0",
+      "facebook_post": "https://www.facebook.com/groups/2389815427810388/posts/6517340751724481/",
+      "facebook_photo_fbid": "3111067459030056",
+      "caption_label": "#7",
+      "text": "Vishnu Dhuthas told them that in the Srutis and Smritis...",
+      "source": "Facebook group read-back of 2026-11-27 (missing-stanza search); the download index's stanza value for this picture was empty or wrong",
+      "caption_file": "content/sources/d022/photo-captions.txt#7"
+    },
+    "9": {
+      "picture": "intake/D022/nostanza-01.jpg",
+      "facebook_file": "D022/D022-2024-06-12-5.jpg",
+      "sha256": "c86887d39250a6fc37ac6a69af4f62ab4e8773c3f0846eb659edff3878eae4a0",
+      "facebook_post": "https://www.facebook.com/groups/2389815427810388/posts/6517340751724481/",
+      "facebook_photo_fbid": "3109666872503448",
+      "caption_label": "#9 (within the shared \"Same picture all paragraph\" caption)",
+      "text": "Vishnu Dhuthas told them that even if the chanting of The Name of Bhagwan is done unknowingly, by the human beings, it burns up all their sins...",
+      "source": "Facebook group read-back of 2026-11-27 (missing-stanza search); the download index's stanza value for this picture was empty or wrong",
+      "caption_file": "content/sources/d022/photo-captions.txt#9"
     }
   }
 }
