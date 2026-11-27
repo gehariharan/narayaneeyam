@@ -62182,6 +62182,103 @@
           "repair": "Independent reviewer to judge whether the central crown reads plain."
         }
       ]
+    },
+    {
+      "chapter": 30,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d030/s006/landscape/candidate-v019.png",
+      "version": "v019",
+      "sha256": "48e11f8dc0fa68fd4a4d1991a615ae80581e42c0e23c3e38f28d7c771c9ac044",
+      "reviewer": "Independent reviewer d030-review-p",
+      "inspected_at": "2026-11-27T20:53:46Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "D030 S006 contract requires Brahma exactly four attached arms and hands; the two side elders must be distinct and include identifiable mature Kashyapa; Vamana has two arms and two legs.",
+      "contracts": [
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "a09c8cfeea11a0e75df67ee527b8d5c08fa7da5e9600c57e73708e94a58f6041"
+        },
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-p-v001.md",
+          "sha256": "824b9ad4ec4b0c74946723e6570494c20c5b870715377ce57bf212a9e589956a"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "needs-fix",
+          "observations": "Independent reviewer traced five distinct Brahma hands: book, kamandalu, lotus, extended thread hand, and close thread hand. Vamana has two arms and five toes on each visible foot; other visible hands/feet are coherent."
+        },
+        "attachment_proportions": {
+          "status": "needs-fix",
+          "observations": "Brahma has three right-side arm/hand structures. The left and right kneeling sages are near-mirror copies; the required mature Kashyapa is not identifiable."
+        },
+        "faces": {
+          "status": "needs-fix",
+          "observations": "Faces are individually formed. All three Brahma faces have visible white Vaishnava forehead marks, absent from the plan and character contract; Vamana’s mark is recorded as an observation."
+        },
+        "duplication_fusion": {
+          "status": "needs-fix",
+          "observations": "The side sages share profile, black hair and beard, bead-wrapped topknot, round earring, cream cloth and mirrored kneeling pose; neither reads as the grey-haired mature Kashyapa required by the plan/contracts."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature or watermark. The irregular-looking rug marks read as a decorative dotted band at full size and are not legible; the altar has a regular wave-and-dot motif."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The crown inset/plaque is absent, with a tiny yellow stud visible only at close inspection. Ordinary sage skin-only medians measured R−B 100–106, slightly above the strict below-100 target. Vamana blue is medium saturated cobalt/royal blue, lighter than deep indigo. Vamana faces the viewer rather than turning toward the path."
+        }
+      },
+      "findings": [
+        {
+          "id": "d030-s006-extra-brahma-hand-v019",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Brahma has five separate hands: book and kamandalu on viewer-left, lotus plus two thread-holding hands on viewer-right.",
+          "repair": "Show exactly four attached arms and hands with the four distinct attributes."
+        },
+        {
+          "id": "d030-s006-undisclosed-brahma-marks-v019",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "All three Brahma faces carry white Vaishnava forehead marks, with a red dot on the central face, not described by the frozen plan or character contract.",
+          "repair": "Remove Brahma forehead marks unless the plan is formally amended."
+        },
+        {
+          "id": "d030-s006-mirrored-sages-kashyapa-v019",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "The two side sages are near mirror duplicates with black hair/beards, bead-wrapped topknots, matching clothing and mirrored poses; neither is identifiable as mature grey-haired Kashyapa.",
+          "repair": "Make Kashyapa visibly mature and grey-haired and distinguish the other elder."
+        }
+      ]
     }
   ]
 }
