@@ -167,11 +167,11 @@ Upload assets before deploying a new manifest. Existing keys are content-hashed.
 `--d001-detailed` limits the upload script to D001 alternatives. Don't recreate
 the existing bucket/database or run initial provisioning again.
 
-`node review-site/scripts/verify-live.mjs` verifies page responses and image
-hashes but **also submits one labelled test feedback record**. It writes exact
-verification/cleanup SQL under `artifacts/review-site/`; remove only that test
-after checking persistence. Tests during this handoff passed for all 90 images,
-the chapter pages, index, blog homepage and live feedback acceptance.
+`node review-site/scripts/verify-live.mjs` reads pages anonymously, so on the
+passphrase-locked site it stops at HTTP 401 and is not usable as-is (unlock-cookie
+support is out of scope). Post-deploy checking is now the anonymous lock
+verification in the deploy workflow; see `review-site/README.md`
+(`review-site/scripts/verify-live-pages.mjs`).
 
 ## Feedback and next task
 
