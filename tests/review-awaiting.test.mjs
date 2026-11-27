@@ -77,6 +77,11 @@ test('an awaiting card keeps the card order with an "Awaiting painting" slot and
   assert.ok(at('<span class="label">Commentary</span>') < at('<span class="label">Stanza</span>'));
   assert.ok(at('<span class="label">Stanza</span>') < at('data-decide'));
   assert.ok(card.includes('src="/narayaneeyam/media/d015-s001-reference-0123456789abcdef.webp"'));
+  // Desktop side-by-side: the placeholder holds the painting's place on the left; the reference
+  // photo, text and decision are in the right-hand column.
+  const left = card.slice(card.indexOf('<div class="card-art">'), card.indexOf('<div class="card-side">'));
+  assert.ok(left.includes('Awaiting painting</div>') && !left.includes('Reference photo') && !left.includes('Commentary'));
+  assert.ok(card.slice(card.indexOf('<div class="card-side">')).includes('Reference photo</figcaption>'));
   // Only Text issue; no painting decisions and no sign-off on a dasakam without paintings.
   assert.equal((html.match(/data-decision="text-issue"/g) || []).length, 2);
   for (const decision of ['approve', 'redraw', 'small-edit']) assert.ok(!html.includes(`data-decision="${decision}"`), decision);

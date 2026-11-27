@@ -296,7 +296,9 @@ A dasakam with content (`content/daskams/dNNN.json`) but no selected batch in
 `review-site/selections.mjs` is built as an awaiting-painting chapter
 (`review-site/awaiting.mjs`), listed under `awaiting` in `data.json`. Its page has one
 card per stanza in the usual order: a plain "Awaiting painting" slot where the painting
-goes, the reference photos mapped to that stanza, then Commentary and the stanza. Only
+goes, the reference photos mapped to that stanza, then Commentary and the stanza. On
+desktop the card uses the same side-by-side layout, with the placeholder in the
+painting's place on the left (16:9, sized to the window) and the rest on the right. Only
 Text issue is offered; the Worker refuses Approve, Redraw and Small edit for it, and
 sign-off stays closed. On the front page its tile is "Awaiting painting", distinct
 from "Art not made yet", which stays for dasakams with no content.
