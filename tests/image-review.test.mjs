@@ -409,7 +409,7 @@ test('D029 selection pins ten source and native candidates with exact passing re
 test('D030 S009 revision pins the middle-ground gesture to its updated plan without changing other selections', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
-  const prior = batches.find(item => item.selectionFile === 'd030-comparison-v013.json');
+  const prior = JSON.parse(await fs.readFile(path.join(root, 'art/batches/d030-comparison-v013.json'), 'utf8'));
   const current = batches.find(item => item.selectionFile === 'd030-comparison-v014.json');
   const planBytes = await fs.readFile(path.join(root, 'art/plans/d030.json'));
   const plan = JSON.parse(planBytes);
