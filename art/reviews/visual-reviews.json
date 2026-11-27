@@ -61944,6 +61944,151 @@
       "disclosed_deviations": [
         "Bali skin-only medians measure face R−B 101 (x1020,y440) and arm R−B 100 (x1170,y340), at or above the plan’s strict below-100 limit; producer review measured a vessel-hand patch at (815,535) R−B 119. The skin reads natural muted chestnut brown, not orange; the reviewer passed S009 v014 with these values disclosed."
       ]
+    },
+    {
+      "chapter": 30,
+      "sloka": 6,
+      "role": "matte",
+      "file": "artifacts/d030/s006/landscape/candidate-v017.png",
+      "version": "v017",
+      "sha256": "8d08c99a3b206d772c3c84d08a89cb811b6b69caf6a9bbac2dcce0d8489968dd",
+      "reviewer": "Independent reviewer d030-review-o",
+      "inspected_at": "2026-11-27T20:01:00Z",
+      "method": "individual-native-resolution",
+      "outcome": "needs-fix",
+      "anatomy_basis": "D030 scene-specific anatomy: Brahma has exactly four attached arms and hands; ordinary humans must remain distinct without mirrored duplicates; Vamana has two arms and two legs; connected natural anatomy is required.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d030.json",
+          "sha256": "a09c8cfeea11a0e75df67ee527b8d5c08fa7da5e9600c57e73708e94a58f6041"
+        },
+        {
+          "path": "art/bible/characters/d031-vamana/character.json",
+          "sha256": "31d403fb50b382cb2cd58a19ef71953f2440f6092c80f69a42beac79575ed229"
+        },
+        {
+          "path": "art/bible/characters/d031-mahabali/character.json",
+          "sha256": "e334bbe06ab91249be71bfe5ed494b5b7dff837a32b30fe5391a29796854dfc9"
+        },
+        {
+          "path": "art/bible/characters/d031-shukracharya/character.json",
+          "sha256": "c493d4cfa5d61cb35e6cf5b318819d563f98825038ba456fd5a47fb37658b3c8"
+        },
+        {
+          "path": "art/bible/characters/d027-vishnu/character.json",
+          "sha256": "65205c3f838ba8af093f79cda39978a8b0de3d0cdbc8a0a9aa2510491906bd24"
+        },
+        {
+          "path": "art/bible/characters/devas/character.json",
+          "sha256": "e6b8240053a9bf48c4b2a1843394000aa4f360ec9de318400c21dcdaf4e2f138"
+        },
+        {
+          "path": "art/bible/characters/sages/character.json",
+          "sha256": "4c8c717e6cb38c11f39463c131d2bec5528d65fc20c564ccdd203240eaf1152c"
+        },
+        {
+          "path": "art/bible/characters/brahma/character.json",
+          "sha256": "839148939946eb9fa1931b0bc34e015026a21a423c3234cd03a373d3c7dd2389"
+        },
+        {
+          "path": "art/bible/characters/shiva/character.json",
+          "sha256": "cf55e863899b7c948208f234295ad20ed723393ee879d4b16f8cd9251010228f"
+        },
+        {
+          "path": "art/bible/characters/d030-aditi/character.json",
+          "sha256": "94c8ed8be0a948ad2b58b754f06fe0f48ed06c9b39c8a75908b676cdb2cdc92a"
+        },
+        {
+          "path": "art/bible/characters/d030-kashyapa/character.json",
+          "sha256": "3a4bfe53bece23fc17b2a86fde28ce6e0923c61940b657f240fad89b556d281f"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d030-independent-review-o-v001.md",
+          "sha256": "b9be2263bdc2ef2aa225a942957a0465c34a9e9158f07acc474ed75427f4d429"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "needs-fix",
+          "observations": "Reviewer counted five hands on Brahma: two on viewer-left and three on viewer-right. The lotus arm and outstretched thread arm converge without a distinct shoulder/upper arm; two hands hold the same thread. Vamana has two arms and five toes on each foot. Other visible hands/feet are generally coherent."
+        },
+        "attachment_proportions": {
+          "status": "needs-fix",
+          "observations": "Brahma has an extra right-side hand/arm structure. The two seated elders are mirrored clones rather than distinct people; the plan expects distinct elders and a recognizable mature Kashyapa."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Brahma’s three visible faces and Vamana’s face are well formed. The duplicated-elder issue is recorded under duplication_fusion."
+        },
+        "duplication_fusion": {
+          "status": "needs-fix",
+          "observations": "The left and right kneeling elders share mirrored faces, black wavy hair, bead-wrapped topknots, beards, earrings, cream cloth and kneeling pose. Kashyapa is not identifiable as the mature officiating father."
+        },
+        "text_artifacts": {
+          "status": "needs-fix",
+          "observations": "A band of irregular pseudo-script glyphs appears on the rug front border around x=350–850, y=703–722. The altar wave-and-dot bands are regular ornament, not text."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "The central crown plaque is removed, but Brahma and Vamana have undisclosed forehead marks; the plan is frozen and Firstmate instructed not to change it. Elder skin-only R−B medians are 104–108, above the strict below-100 must_show target. Vamana samples RGB (47,105,181) and (45,104,180) read as bright cobalt/royal blue rather than deep indigo. The initiation scene, fire, implements and Ashvamedha setting are present."
+        }
+      },
+      "findings": [
+        {
+          "id": "d030-s006-extra-brahma-hand-v017",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Brahma has five hands: two on viewer-left and three on viewer-right. The lotus and outstretched thread forearms converge above the lower thread hand without a separate upper arm/shoulder; two right-side hands hold the same thread.",
+          "repair": "Revise the image to show exactly four attached arms and hands, preserving the book, kamandalu, lotus and thread attributes without duplicate thread-holding hands."
+        },
+        {
+          "id": "d030-s006-mirrored-elders-v017",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "The two kneeling elders are near-identical mirrored figures with the same face, hair/topknot, beard, earring, clothing and pose. Neither reads as distinct mature Kashyapa.",
+          "repair": "Make the elders visually distinct and make Kashyapa read as the mature father/officiant, consistent with the character contract."
+        },
+        {
+          "id": "d030-s006-rug-pseudotext-v017",
+          "severity": "low",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Irregular letter-like glyphs form a band on the rug front border at about x=350–850, y=703–722; they are not a regular repeating ornament.",
+          "repair": "Replace the glyph-like band with a plain border or non-letter decorative motif."
+        },
+        {
+          "id": "d030-s006-undisclosed-forehead-marks-v017",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "All three Brahma faces and Vamana show Vaishnava forehead marks not mentioned in the frozen plan or their contracts.",
+          "repair": "Remove the marks because the final plan and all ten reviews must stay unchanged."
+        },
+        {
+          "id": "d030-s006-elder-skin-over-limit-v017",
+          "severity": "low",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Skin-only elder patch median R−B is 104–108, exceeding the stanza plan’s strict below-100 target, though the skin reads natural warm brown and remains below the avoid cap.",
+          "repair": "Keep ordinary-human skin-only patch medians below 100 under neutral light."
+        },
+        {
+          "id": "d030-s006-vamana-blue-too-bright-v017",
+          "severity": "low",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "Vamana patch medians are RGB (47,105,181) on chest and (45,104,180) on shin, a vivid royal/cobalt blue rather than the specified deep indigo-blue.",
+          "repair": "Use a darker, more muted deep indigo-blue while preserving the scene’s matte treatment."
+        }
+      ]
     }
   ]
 }
