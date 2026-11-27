@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "daskam": 75,
+  "caption_path": "intake/D075/photo-captions.txt",
+  "caption_sha256": "0aa887ec015d3937572e11792b970b47f13c01ab735704f06af3fc4db794fda8",
+  "caption_origin": "intake/D075/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D075/facebook-source.json",
+  "facebook_source_sha256": "48f6d2332df5f1f7b04f1ff8a9bf3f991becb4ecc4f8f7a40c82e77188cf7490",
+  "post_caption": "intake/D075/facebook-post-caption.txt",
+  "post_caption_sha256": "0dfb83aa436792b536057392bad950d6f3f841a019ad76ba577634d3d3fbe6e2",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-75-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d075/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "b018abe237bdd98a6ea3e80954b2c190ef4533b3bd70a0415ca7e1992fc65975",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-75-in-english/",
+    "romanization_raw": "artifacts/d075/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "d902747f016d07647f641cff3be26f590a8c25d317e14774acccba80144665eb",
+    "sanskrit_heading": "नारायणीयं पञ्चसप्ततितमदशकम् (७५) – कंसवध",
+    "romanization_heading": "nārāyaṇīyaṃ pañcasaptatitamadaśakam (75) – kaṃsavadha",
+    "completion_marker": "iti pañcasaptatitamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 75-1 through 75-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {}
+}

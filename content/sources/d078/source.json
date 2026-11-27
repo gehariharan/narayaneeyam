@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "daskam": 78,
+  "caption_path": "intake/D078/photo-captions.txt",
+  "caption_sha256": "63604a9bf78e2a29551d6b8b30314ff9346d39d6fefc5d94359cb59e229be71f",
+  "caption_origin": "intake/D078/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D078/facebook-source.json",
+  "facebook_source_sha256": "9587ba4d0f0e4ea71ea362ca1799f0dd8108f1b95bd5f9108cd720a905011ce6",
+  "post_caption": "intake/D078/facebook-post-caption.txt",
+  "post_caption_sha256": "db9b77816298a4706d4ec7c262f0624a8b6ce7596a22465e787b85276bee3b30",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-78-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d078/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "25ae0e813239f4c874e9aad2db3a2c5c1b215b3addb273a4aca15a4981d8c88a",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-78-in-english/",
+    "romanization_raw": "artifacts/d078/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "d9e5f47614a54deee7990254069e12cb2982eda23b75fff75d83991936f1d106",
+    "sanskrit_heading": "नारायणीयं अष्टसप्ततितमदशकम् (७८) – द्वारकावासः तथा रुक्मणीसन्देशप्राप्तिः",
+    "romanization_heading": "nārāyaṇīyaṃ aṣṭasaptatitamadaśakam (78) – dvārakāvāsaḥ tathā rukmaṇīsandeśaprāptiḥ",
+    "completion_marker": "iti aṣṭasaptatitamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 78-1 through 78-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {}
+}

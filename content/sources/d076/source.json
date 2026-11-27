@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "daskam": 76,
+  "caption_path": "intake/D076/photo-captions.txt",
+  "caption_sha256": "aba593ee6d489536eb5261bcd7ce73bac82f9c4ba64a02c1aef2c28786eda7f6",
+  "caption_origin": "intake/D076/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D076/facebook-source.json",
+  "facebook_source_sha256": "a469eb006042d67748bf53c8d2f2e7f4d8359c2b7612446b84715a3fed74dc8a",
+  "post_caption": "intake/D076/facebook-post-caption.txt",
+  "post_caption_sha256": "9a8a5a87f12225ea8c1ce2b881985c693ff5f37b2bc156f8a9f0b185d18e3727",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-76-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d076/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "019b876721920cac2c1149c9ebb7571863582191f17798f3292c2c7e7d386359",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-76-in-english/",
+    "romanization_raw": "artifacts/d076/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "8c9f3ea7182c29cc595ffdec60496fbfa3b2a7324b1315c7bd4e99a2e8e2723a",
+    "sanskrit_heading": "नारायणीयं षट्सप्ततितमदशकम् (७६) – उद्धवदौत्यं",
+    "romanization_heading": "nārāyaṇīyaṃ ṣaṭsaptatitamadaśakam (76) – uddhavadautyaṃ",
+    "completion_marker": "iti ṣaṭsaptatitamadaśakaṃ samāptam |",
+    "evidence": "11 numbered stanzas 76-1 through 76-11 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg"
+  },
+  "stanza_gaps": {}
+}
