@@ -52,17 +52,18 @@ test('each stanza card runs painting, alternates, reference, commentary, then th
   assert.ok(card.includes('<figcaption>Painting</figcaption>'));
   assert.ok(card.includes('<figcaption>Alternate painting</figcaption>'));
   assert.ok(card.includes('<figcaption>Reference photo</figcaption>'));
-  // The painting opens full size; there is no "Meaning" label and no translation line when none exists.
+  // The painting opens full size; there is no "Meaning" label and no translation line.
   assert.ok(card.includes('<a data-zoom href="/narayaneeyam/media/d001-s001-matte-a.webp">'));
   assert.ok(!/meaning<\/span>|>Meaning</i.test(card));
   assert.ok(!card.includes('>Translation<'));
   assert.ok(!card.includes('text-missing'));
 });
 
-test('a translation appears as an extra labelled line after the commentary', () => {
+test('a translation is never shown on the card, even when one exists', () => {
   const card = sectionOf(renderChapter(d1), 2);
-  assert.ok(at(card, '<span class="label">Commentary</span>') < at(card, '<span class="label">Translation</span>'));
-  assert.ok(at(card, 'Fixture translation two') < at(card, '<span class="label">Stanza</span>'));
+  assert.ok(at(card, '<span class="label">Commentary</span>') < at(card, '<span class="label">Stanza</span>'));
+  assert.ok(!card.includes('Fixture translation two'));
+  assert.ok(!/>Translation</i.test(card));
 });
 
 test('missing Sanskrit or transliteration shows a small text-missing note', () => {

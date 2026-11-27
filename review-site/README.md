@@ -83,9 +83,8 @@ candidates are retained only as historical files and are not published. Commenta
 is copied verbatim from content JSON only when its source is an allowlisted Facebook
 photo-caption file or a user-supplied Google Drive commentary file. Each stanza is
 one card, top to bottom: the selected painting (tap to open full size), any
-alternates, the smaller reference photo, then the text: Commentary, an extra
-Translation line where one exists, and the stanza (Sanskrit, then transliteration)
-from `content/daskams/dNNN.json`, with a small note where either is missing. A
+alternates, the smaller reference photo, then the text: Commentary, then the
+stanza (Sanskrit, then transliteration) from `content/daskams/dNNN.json`, with a small note where either is missing. A
 reference photo the batch marks as excluded from scene derivation stays in the
 bundle but is not shown. The review notice, image versions, inspection labels,
 media keys and commentary sources sit in collapsed "Studio details" sections per

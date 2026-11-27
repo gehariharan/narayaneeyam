@@ -59,7 +59,7 @@ for (const importedSelection of batches) {
       const review = reviewFor(validation, { ...item, chapter:id, sloka:n, role:'alternate' });
       images.push({inspectionStatus:review.status,inspectionLabel:review.label,role:'alternate',label:item.label||'Alternate candidate',displayLabel:item.displayLabel||item.label,version:item.version,key:await asset(item.file,`${d}-s${s}-alternate-${item.version||'candidate'}`)});
     }
-    chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,translation:stanza.translation_en||'',sanskrit:stanza.sanskrit||'',transliteration:stanza.stanza_roman||'',editorialStatus:stanza.review_status||'needs-review',images});
+    chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,sanskrit:stanza.sanskrit||'',transliteration:stanza.stanza_roman||'',editorialStatus:stanza.review_status||'needs-review',images});
   }
   chapter.representative=(id === 2 ? chapter.rows[0] : (chapter.rows[2]||chapter.rows[0])).images.find(image=>image.role==='matte').key;
   // Feedback is checked against this dasakam's own revision, so republishing one chapter leaves open forms on the others valid.
