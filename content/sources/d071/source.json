@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "daskam": 71,
+  "caption_path": "intake/D071/photo-captions.txt",
+  "caption_sha256": "3cde047bad68b5fd6ea57d7981f7ec232ad1d98d878e671deba16d906e4f2ab0",
+  "caption_origin": "intake/D071/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D071/facebook-source.json",
+  "facebook_source_sha256": "69fb8ee1ae02896004f183c60f9a056f079f49492f01331f9809c1eda983daf6",
+  "post_caption": "intake/D071/facebook-post-caption.txt",
+  "post_caption_sha256": "6d64f7b386adecc97bb8f4533443315b7c7d9db1b53be4f273a939bb50704096",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-71-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d071/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "f3139efe7fdf88187b61d85fed8acb38a77dff62e77b7daa9f742ae3688ccf5a",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-71-in-english/",
+    "romanization_raw": "artifacts/d071/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "17a8c0d351c817b92d985ca3f932dd2a815d886eeae3496d886bed0ae1704113",
+    "sanskrit_heading": "नारायणीयं एकसप्ततितमदशकम् (७१) – केशी तथा व्योमासुरवध",
+    "romanization_heading": "nārāyaṇīyaṃ ekasaptatitamadaśakam (71) – keśī tathā vyomāsuravadha",
+    "completion_marker": "iti ekasaptatitamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 71-1 through 71-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {}
+}

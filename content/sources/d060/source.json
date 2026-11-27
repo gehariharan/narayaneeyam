@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "daskam": 60,
+  "caption_path": "intake/D060/photo-captions.txt",
+  "caption_sha256": "b9747baed4aa9fe53457bed529a3c25ce288fa120428e75ee8d9b7c8d7bf7474",
+  "caption_origin": "intake/D060/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D060/facebook-source.json",
+  "facebook_source_sha256": "38f685c1119808639de15af82f998f621639bc284b02c66ab6238d9455653988",
+  "post_caption": "intake/D060/facebook-post-caption.txt",
+  "post_caption_sha256": "a151f9f133556aad553ce7568e4d5e67e4482e0fbb64190ee0ae8635d68cf30e",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-60-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d060/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "dfa2f74a9fbe78ed4063f75f5cef707d9fed694fa4badc8e484f0184bc843881",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-60-in-english/",
+    "romanization_raw": "artifacts/d060/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "15636a6d86d69d2565818f86aebc3f602624accbbbfc18127e1bd27335b1d2c9",
+    "sanskrit_heading": "नारायणीयं षष्टितमदशकम् (६०) – गोपीवस्त्रापहरणम्",
+    "romanization_heading": "nārāyaṇīyaṃ ṣaṣṭitamadaśakam (60) – gopīvastrāpaharaṇam",
+    "completion_marker": "iti ṣaṣṭitamadaśakaṃ samāptam |",
+    "evidence": "11 numbered stanzas 60-1 through 60-11 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg"
+  },
+  "stanza_gaps": {}
+}

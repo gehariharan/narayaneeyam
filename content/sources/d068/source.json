@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "daskam": 68,
+  "caption_path": "intake/D068/photo-captions.txt",
+  "caption_sha256": "ab7dbe43342b6a71edd2ac4b4fb4f9e8faa2abd7a69c7063cff7185b1dbb4911",
+  "caption_origin": "intake/D068/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D068/facebook-source.json",
+  "facebook_source_sha256": "e1430d0bb73acb91dc5f787d87dd5347287c0abe364591d70b6aae61b944a25e",
+  "post_caption": "intake/D068/facebook-post-caption.txt",
+  "post_caption_sha256": "e5924e3efbfc9d5c88a08cceb811c36f657916286a227d4b61b0880a35aa2b8d",
+  "canonical_source": {
+    "publisher": "Stotra Nidhi",
+    "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-68-in-sanskrit/",
+    "sanskrit_raw": "artifacts/d068/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "a7e0e7f85ab38469af944c1780b8ed2a1f52278c4f725ba61f3df25f7fe54df9",
+    "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-68-in-english/",
+    "romanization_raw": "artifacts/d068/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "02e0e3aab4a7f46943725e760c22c3c97207585e189a1d63b4c40c475def0304",
+    "sanskrit_heading": "नारायणीयं अष्टषष्टितमदशकम् (६८) – गोपिकानां आह्लादप्रकटनम्",
+    "romanization_heading": "nārāyaṇīyaṃ aṣṭaṣaṣṭitamadaśakam (68) – gopikānāṃ āhlādaprakaṭanam",
+    "completion_marker": "iti aṣṭaṣaṣṭitamadaśakaṃ samāptam |",
+    "evidence": "10 numbered stanzas 68-1 through 68-10 on both the Devanagari and the parallel IAST page."
+  },
+  "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {},
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {
+    "8": {
+      "reference_picture": "missing",
+      "commentary": "missing",
+      "reason": "not present in the Facebook intake"
+    }
+  }
+}
