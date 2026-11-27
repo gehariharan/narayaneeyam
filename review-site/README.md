@@ -13,8 +13,10 @@ Production deployment may run through the manual GitHub Actions workflow
 `review-production` environment secret `CLOUDFLARE_API_TOKEN`, scoped to account
 `d9967c9f63e9aa7685c005a62a00443c` with access to write objects in the
 `narayaneeyam` R2 bucket and Editor access to the existing `narayaneeyam-review`
-Worker. Its routes are already attached; Actions uploads review WebPs to R2 and
-deploys a Worker version without changing those routes. For the D001 regeneration,
+Worker, plus Edit access to the `narayaneeyam-feedback` D1 database. Its routes are
+already attached; Actions uploads review WebPs to R2, applies pending D1 migrations
+(`wrangler d1 migrations apply narayaneeyam-feedback --remote`; the deploy stops if
+this fails) and deploys a Worker version without changing those routes. For the D001 regeneration,
 the workflow uploads the D001 image selection from the checksum-pinned review-only
 release bundle before deploying the Worker. Actions then verifies anonymously,
 without the passphrase, that the live index, every chapter page, a media path and
@@ -133,8 +135,9 @@ Deployments do not change the secret.
 ## Feedback
 
 Feedback accepts same-origin JSON requests with strict size, field and revision
-validation, prepared SQL statements, a honeypot and a 10/minute per-IP edge rate
-limit. IP addresses are used transiently for the rate limiter, not saved in D1.
+validation, prepared SQL statements, a honeypot and a 60/minute per-IP edge rate
+limit through the `DECISION_LIMIT` binding, so one-click Approve works through a
+whole Dasakam. Unlock attempts keep their own 10/minute limit. IP addresses are used transiently for the rate limiter, not saved in D1.
 The rate limiter is regional, not a global hard quota. There is no
 browser administration panel; the only listing is the latest decision per stanza
 described below. Feedback, like every other
@@ -156,10 +159,10 @@ and `closed` for Approve. A reviewer's Approve never writes `art/approved/` and 
 not art approval; only explicit user approval changes approvals.
 
 Migration `0003_feedback_decisions.sql` adds the `decision` column and keeps every
-existing row as decision `note`, shown on its card as "Note (legacy)". Apply it
-before deploying a Worker with decisions: the deploy workflow does not apply D1
-migrations, and until it is applied new decisions fail with the temporary-unavailable
-response.
+existing row as decision `note`, shown on its card as "Note (legacy)". The deploy
+workflow applies pending D1 migrations before uploading the Worker version; for a
+local deployment, apply them first as shown above. Until 0003 is applied, new
+decisions fail with the temporary-unavailable response.
 
 `GET /api/decisions?daskam=N` (unlocked visitors only) returns the latest decision
 per stanza for the paintings currently shown, with reviewer name, note and time.

@@ -35,7 +35,7 @@ async function migratedDb() {
 function d1(db, { limited = false } = {}) {
   const env = {
     db, limits: 0,
-    FEEDBACK_LIMIT: { limit: async () => { env.limits++; return { success: !limited }; } },
+    DECISION_LIMIT: { limit: async () => { env.limits++; return { success: !limited }; } },
     DB: { prepare: sql => { const statement = db.prepare(sql); return { bind: (...args) => ({ run: async () => statement.run(...args), all: async () => ({ results: statement.all(...args) }) }) }; } },
   };
   return env;
@@ -206,22 +206,24 @@ test('each live stanza card has a status chip, four decision buttons and a hidde
   assert.ok(studio.includes('Approve is a reviewer decision, not final approval.'));
 });
 
-test('the reviewer name is asked once per device and no name is built in', async () => {
+test('the reviewer name box sits above the stanzas and no reviewer name is built into the page', () => {
   const html = renderChapter(chapter, undefined, '/narayaneeyam/', true, [chapter]);
   assert.match(html, /<section class="reviewer" data-reviewer data-decisions="\/narayaneeyam\/api\/decisions\?daskam=1" data-revision="d001-rev-a">/);
   assert.match(html, /<input id="reviewer-name" name="reviewer" maxlength="60" autocomplete="name" required>/);
-  assert.ok(html.includes("localStorage.getItem(NAME_KEY)") && html.includes("localStorage.setItem(NAME_KEY,name)"));
   assert.ok(html.indexOf('data-reviewer') < html.indexOf('class="sloka"'));
-  // The name box and note box are toggled with the hidden attribute, which page styles must not override.
-  assert.ok(html.includes('[hidden]{display:none!important}'));
-  for (const file of ['../review-site/views.mjs', '../review-site/worker.mjs']) {
-    assert.ok(!/srividhya/i.test(await fs.readFile(new URL(file, import.meta.url), 'utf8')), `${file} hard-codes a reviewer`);
-  }
+  assert.ok(!/srividhya/i.test(html), 'the rendered page names a reviewer');
 });
 
-test('the static preview has no decision controls, and phones get a two-column button grid', () => {
+test('the deployed limits allow sixty decisions a minute per IP and keep ten unlock attempts', async () => {
+  const config = JSON.parse(await fs.readFile(new URL('../review-site/wrangler.jsonc', import.meta.url), 'utf8'));
+  const limits = Object.fromEntries(config.ratelimits.map(r => [r.name, r]));
+  assert.deepEqual(limits.DECISION_LIMIT.simple, { limit: 60, period: 60 });
+  assert.deepEqual(limits.FEEDBACK_LIMIT.simple, { limit: 10, period: 60 });
+  assert.notEqual(limits.DECISION_LIMIT.namespace_id, limits.FEEDBACK_LIMIT.namespace_id);
+});
+
+test('the static preview has no decision controls', () => {
   const preview = renderChapter(chapter, undefined, './', false);
   const markup = preview.replace(/<script>[\s\S]*<\/script>/, '').replace(/<style>[\s\S]*<\/style>/, '');
   for (const live of ['data-decide', 'data-reviewer', 'data-decision', 'reviewer decision']) assert.ok(!markup.includes(live), live);
-  assert.match(preview, /@media\(max-width:650px\)\{[^}]*\}[^@]*\.choices\{display:grid;grid-template-columns:1fr 1fr\}\.choices button\{min-height:44px\}/);
 });

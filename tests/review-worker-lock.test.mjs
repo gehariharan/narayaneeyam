@@ -37,11 +37,12 @@ const BASE = ORIGIN + '/narayaneeyam';
 const MEDIA = '/media/d001/s001-matte-v001.webp';
 
 function makeEnv(secret = SECRET, { limited = false } = {}) {
-  const writes = [], limits = [];
+  const writes = [], limits = [], decisionLimits = [];
   return {
-    writes, limits,
+    writes, limits, decisionLimits,
     NARAYANEEYAM_PASSPHRASE: secret,
     FEEDBACK_LIMIT: { limit: async ({ key }) => { limits.push(key); return { success: !limited }; } },
+    DECISION_LIMIT: { limit: async ({ key }) => { decisionLimits.push(key); return { success: true }; } },
     DB: { prepare: sql => ({ bind: (...args) => ({ run: async () => { writes.push({ sql, args }); }, all: async () => { writes.push({ sql, args }); return { results: [] }; } }) }) },
     ART: { get: async key => key === MEDIA.slice(1) ? { body: 'image-bytes', httpEtag: '"etag-1"' } : null },
   };
@@ -189,6 +190,8 @@ test('the right passphrase sets a 90-day signed cookie that opens pages, media a
   const feedback = await fetchWorker('/api/feedback', env, feedbackInit(cookie));
   assert.equal(feedback.status, 201);
   assert.equal(env.writes.length, 1);
+  assert.deepEqual(env.limits, ['unlock:203.0.113.7'], 'decisions do not spend unlock attempts');
+  assert.deepEqual(env.decisionLimits, ['local']);
   const decisions = await fetchWorker('/api/decisions?daskam=1', env, withCookie(cookie));
   assert.equal(decisions.status, 200);
   assert.equal(decisions.headers.get('cache-control'), 'no-store');

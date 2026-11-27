@@ -100,7 +100,7 @@ export async function feedback(request,env,dataset=data,now=new Date()){
  else{if(typeof input.message!=='string'||input.message.trim().length<3||input.message.length>2000)return json({error:'Enter a note between 3 and 2,000 characters.'},400);message=input.message.trim();}
  if(input.website)return json({error:'Unable to accept this submission.'},400);
  const ip=request.headers.get('CF-Connecting-IP')||'local';
- const limit=await env.FEEDBACK_LIMIT.limit({key:ip});
+ const limit=await env.DECISION_LIMIT.limit({key:ip});
  if(!limit.success)return json({error:'Too many submissions. Please wait a minute and retry.'},429);
  const id=crypto.randomUUID(),at=now.toISOString();
  // Requests are open work for the studio; an approval needs no work, so it is closed on arrival.

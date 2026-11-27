@@ -119,7 +119,7 @@ const source = (await fs.readFile(new URL('../review-site/worker.mjs', import.me
 const { feedback } = await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
 function makeEnv() {
   const writes = [];
-  return { writes, FEEDBACK_LIMIT: { limit: async () => ({ success: true }) }, DB: { prepare: sql => ({ bind: (...args) => ({ run: async () => { writes.push({ sql, args }); } }) }) } };
+  return { writes, DECISION_LIMIT: { limit: async () => ({ success: true }) }, DB: { prepare: sql => ({ bind: (...args) => ({ run: async () => { writes.push({ sql, args }); } }) }) } };
 }
 const submit = (body, env, data = dataset) => feedback(new Request('https://gehariharan.com/narayaneeyam/api/feedback', {
   method: 'POST', headers: { 'content-type': 'application/json', origin: 'https://gehariharan.com' },

@@ -14,7 +14,7 @@ const source=(await fs.readFile(new URL('../worker.mjs',import.meta.url),'utf8')
 const {feedback,default:worker,unlockToken}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
 for(const c of data.chapters){const html=renderChapter(c);assert.equal((html.match(/class="sloka"/g)||[]).length,c.rows.length);assert.equal((html.match(/<figure[ >]/g)||[]).length,c.rows.reduce((sum,r)=>sum+r.images.filter(i=>!i.excluded).length,0));assert.equal((html.match(/<summary>Studio details<\/summary>/g)||[]).length,c.rows.length+(c.reviewNotice?1:0));assert.equal((html.match(/<span class="label">Commentary<\/span>/g)||[]).length,c.rows.length);assert.match(c.revision,/^[a-f0-9]{16}$/);assert.equal((html.match(/data-feedback action/g)||[]).length,c.rows.length);assert.equal((html.match(/class="commentary"/g)||[]).length,c.rows.length);assert.ok(!html.includes('<select'));assert.ok(!html.includes('Editorial review pending'));assert.ok(!html.includes('<footer'));assert.ok(!html.includes('name="name"'));assert.ok(html.includes('Traditional matte mural')||html.includes('Landscape candidate'));assert.ok(!html.includes('Detailed painting'));assert.ok(!html.includes('Glossy mural'));assert.ok(!html.includes('<small>'));for(const r of c.rows)assert.ok(html.includes(r.commentary.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')));for(const r of c.rows)for(const i of r.images)if(i.key)await fs.access(new URL('../../artifacts/review-site/'+i.key,import.meta.url));}
 assert.equal(data.chapters[1].rows.flatMap(r=>r.images).filter(i=>i.key).length,20);
-let written;const env={NARAYANEEYAM_PASSPHRASE:'release-test-passphrase',FEEDBACK_LIMIT:{limit:async()=>({success:true})},DB:{prepare:sql=>({bind:(...args)=>({run:async()=>{written={sql,args}}})})}};
+let written;const env={NARAYANEEYAM_PASSPHRASE:'release-test-passphrase',DECISION_LIMIT:{limit:async()=>({success:true})},DB:{prepare:sql=>({bind:(...args)=>({run:async()=>{written={sql,args}}})})}};
 const unlockCookie=`narayaneeyam_unlock=${await unlockToken(env.NARAYANEEYAM_PASSPHRASE,Math.floor(Date.now()/1000)+3600)}`;
 const unlocked=url=>new Request(url,{headers:{cookie:unlockCookie}});
 // Each submission carries its own dasakam's revision unless a test sets one explicitly.
@@ -29,7 +29,7 @@ assert.equal((await feedback(req({...good,revision:data.chapters.find(c=>c.id===
 assert.equal((await feedback(req(good),env)).status,201);assert.equal(written.args[7],data.chapters.find(c=>c.id===2).revision);
 assert.equal((await feedback(req({...good,message:'x'.repeat(9000)}),env)).status,413);
 assert.equal((await feedback(req({...good,website:'spam'}),env)).status,400);
-assert.equal((await feedback(req(good),{...env,FEEDBACK_LIMIT:{limit:async()=>({success:false})}})).status,429);
+assert.equal((await feedback(req(good),{...env,DECISION_LIMIT:{limit:async()=>({success:false})}})).status,429);
 assert.equal((await worker.fetch(unlocked('https://gehariharan.com/narayaneeyam/api/feedback'),env)).status,405);
 assert.equal((await worker.fetch(unlocked('https://gehariharan.com/narayaneeyam/media/not-allowed.webp'),env)).status,404);
 for(const path of ['/narayaneeyam/','/narayaneeyam/'+chapterSlug(data.chapters[0].id),'/narayaneeyam/'+Object.keys(data.assets)[0]])assert.equal((await worker.fetch(new Request('https://gehariharan.com'+path),env)).status,401);
