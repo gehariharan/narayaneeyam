@@ -45,7 +45,7 @@ async function fixtureDb() {
   for (const n of [1, 2, 3, 4]) record(db, 5, n, 'approve', { version: 'v001' });
   // D006: a redraw on the old version does not hold the new painting back; one approval on the new one.
   record(db, 6, 1, 'redraw', { version: 'v001' }); record(db, 6, 1, 'approve');
-  // D008: a small edit and a text issue open, plus a closed request (counted as decided, not waiting).
+  // D008: a small edit and a text issue open, plus a closed request on the same painting (undecided until the reviewer looks again).
   record(db, 8, 1, 'small-edit'); record(db, 8, 2, 'text-issue'); record(db, 8, 3, 'redraw', { status: 'closed' }); record(db, 8, 4, 'approve');
   return db;
 }
@@ -70,7 +70,7 @@ test('progress counts only the latest decision on the painting shown now', async
     4: { total: 4, decided: 4, approved: 4, waiting: 0, state: 'reviewed' },
     5: { total: 4, decided: 0, approved: 0, waiting: 0, state: 'ready' },
     6: { total: 4, decided: 1, approved: 1, waiting: 0, state: 'in-review' },
-    8: { total: 4, decided: 4, approved: 1, waiting: 2, state: 'waiting' },
+    8: { total: 4, decided: 3, approved: 1, waiting: 2, state: 'waiting' },
   });
 });
 
@@ -81,6 +81,14 @@ test('a later decision on the current painting replaces the earlier one', async 
   assert.equal(progress[3].state, 'reviewed');
   record(db, 4, 2, 'small-edit');
   assert.equal((await reviewProgress(d1(db), dataset))[4].state, 'waiting');
+});
+
+test('a request closed on the same painting leaves its stanza undecided, not reviewed', async () => {
+  const db = await fixtureDb();
+  record(db, 2, 3, 'approve'); record(db, 2, 4, 'text-issue', { status: 'closed' });
+  assert.deepEqual((await reviewProgress(d1(db), dataset))[2], { total: 4, decided: 3, approved: 3, waiting: 0, state: 'in-review' });
+  const html = await (await index(d1(db), { cookie: await cookie() })).text();
+  assert.deepEqual(tileOf(html, 2), { tag: 'a', state: 'in-review', short: '3/4', label: 'Dasakam 2: In review, 3 of 4 stanzas decided' });
 });
 
 test('the unlocked index shows 100 numbered tiles with state, counts and a legend, from one query', async () => {
@@ -106,8 +114,8 @@ test('the unlocked index shows 100 numbered tiles with state, counts and a legen
   }
   for (const id of [7, 9, 50, 100]) assert.deepEqual(tileOf(html, id), { tag: 'div', state: 'none', short: 'No art', label: `Dasakam ${id}: Art not made yet` });
   assert.ok(!html.includes('href="/narayaneeyam/d007"'));
-  // 0+2+4+4+0+1+4 stanzas decided on the paintings shown now.
-  assert.ok(html.includes('7 of 100 dasakams have paintings · 15 of 28 stanzas reviewed'));
+  // 0+2+4+4+0+1+3 stanzas decided on the paintings shown now.
+  assert.ok(html.includes('7 of 100 dasakams have paintings · 14 of 28 stanzas reviewed'));
   for (const legend of ['Art not made yet (93)', 'Ready for review (2)', 'In review (2)', 'Waiting for fixes (2)', 'Reviewed - awaiting captain confirmation (1)']) assert.ok(html.includes(legend), legend);
   // The old picture cards and the header's chapter list are gone: each painted chapter is one tile link.
   assert.ok(!html.includes('class="card"') && !html.includes('<nav>'));

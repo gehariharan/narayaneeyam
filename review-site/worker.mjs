@@ -132,10 +132,10 @@ export async function reviewProgress(env,dataset=data){
   let decided=0,approved=0,waiting=0;
   for(const row of chapter.rows){
    const d=latest.get(`${chapter.id}:${row.n}:${shownImages(row)}`);
-   if(!d||!DECISIONS.includes(d.decision))continue;
+   if(!d||!DECISIONS.includes(d.decision)||(d.decision!=='approve'&&d.status==='closed'))continue;
    decided++;
    if(d.decision==='approve')approved++;
-   else if(d.status!=='closed')waiting++;
+   else waiting++;
   }
   const total=chapter.rows.length;
   progress[chapter.id]={total,decided,approved,waiting,state:waiting?'waiting':total&&approved===total?'reviewed':decided?'in-review':'ready'};

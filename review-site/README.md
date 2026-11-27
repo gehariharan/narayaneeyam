@@ -177,7 +177,8 @@ label show: Art not made yet (no chapter), Ready for review (no decisions), In r
 (decided/total stanzas), Waiting for fixes (any Redraw, Small edit or Text issue still
 open), or Reviewed - awaiting captain confirmation (every stanza approved). Like
 `/api/decisions`, each stanza counts only its latest decision on the painting shown
-now; decisions on an earlier version and legacy notes leave it undecided. A legend
+now; decisions on an earlier version, legacy notes, and a Redraw, Small edit or
+Text issue closed on the current painting leave it undecided. A legend
 and a line such as "51 of 100 dasakams have paintings · 120 of 526 stanzas reviewed"
 sit above the tiles. If the database cannot be read, the tiles still link every
 chapter and the page says progress is unavailable. The static preview `index.html`
