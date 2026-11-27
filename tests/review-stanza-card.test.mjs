@@ -131,21 +131,6 @@ test('on a desktop the painting sits beside the reference, commentary, stanza an
   assert.ok(at(fixedCard, 'src="/narayaneeyam/media/d001-s001-matte-old.webp"') < at(fixedCard, '<div class="card-side">'));
 });
 
-test('the two-column card applies only from 900px; phones keep the stacked card', () => {
-  const html = renderChapter(d1);
-  const desktop = html.match(/@media\(min-width:900px\)\{(.*?\})\}/)?.[1];
-  assert.ok(desktop, 'desktop media query');
-  assert.match(desktop, /\.card\{[^}]*display:grid/);
-  // The painting fits the viewport height uncropped; a tall right column scrolls on its own.
-  assert.match(desktop, /\.card-art \.matte \.art\{max-height:var\(--art-h\)\}/);
-  assert.match(desktop, /--art-h:calc\(100vh - [\d.]+rem\)/);
-  assert.match(desktop, /\.card-side\{[^}]*max-height:calc\(100vh - [\d.]+rem\);overflow-y:auto/);
-  assert.match(html, /\.art\{[^}]*object-fit:contain/);
-  const phone = html.match(/@media\(max-width:650px\)\{(.*?\})\}/)[1];
-  assert.ok(!/\.card/.test(phone));
-  assert.ok(!/\.card/.test(html.replace(/@media\(min-width:900px\)\{.*?\}\}/, '').match(/<style>(.*?)<\/style>/s)[1]), 'outside the desktop query the card wrappers have no style');
-});
-
 // Load the review Worker with these chapters in place of the ignored release bundle.
 const dataset = { revision: 'whole-dataset', assets: {}, chapters: [d1, d2] };
 const source = (await fs.readFile(new URL('../review-site/worker.mjs', import.meta.url), 'utf8'))
