@@ -5,6 +5,7 @@ import os from 'node:os';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { DatabaseSync } from 'node:sqlite';
+import { parse as parseYaml } from 'yaml';
 import { renderChapter, renderIndex } from '../review-site/views.mjs';
 import { awaitingIds, awaitingChapter, validateAwaiting, referenceLabel } from '../review-site/awaiting.mjs';
 import { latestBatch, withSelection, withUploadStep } from '../review-site/scripts/add-dasakam.mjs';
@@ -267,8 +268,16 @@ test('the real selections list, workflow and package script accept the add-dasak
   const selections = await fs.readFile(new URL('../review-site/selections.mjs', import.meta.url), 'utf8');
   const workflow = await fs.readFile(new URL('../.github/workflows/deploy-review.yml', import.meta.url), 'utf8');
   assert.notEqual(withSelection(selections, 'd015-comparison-v001.json'), selections);
-  assert.ok(withUploadStep(workflow, 15).includes('upload.mjs --daskam=15'));
-  assert.ok(workflow.includes('node review-site/scripts/upload.mjs --awaiting'));
+  const deploySteps = text => Object.values(parseYaml(text).jobs).flatMap(job => job.steps ?? []);
+  const runsBeforeMigrations = (text, run) => {
+    const steps = deploySteps(text);
+    const at = steps.findIndex(step => step.run === run);
+    const migrations = steps.findIndex(step => step.name === 'Apply review D1 migrations');
+    return at !== -1 && migrations !== -1 && at < migrations;
+  };
+  assert.ok(runsBeforeMigrations(workflow, 'node review-site/scripts/upload.mjs --awaiting'));
+  assert.ok(!runsBeforeMigrations(workflow, 'node review-site/scripts/upload.mjs --daskam=15'));
+  assert.ok(runsBeforeMigrations(withUploadStep(workflow, 15), 'node review-site/scripts/upload.mjs --daskam=15'));
   const pkg = JSON.parse(await fs.readFile(new URL('../package.json', import.meta.url), 'utf8'));
   assert.equal(pkg.scripts['review:add-dasakam'], 'node review-site/scripts/add-dasakam.mjs');
 });

@@ -93,7 +93,7 @@ async function main() {
     const result = spawnSync(process.execPath, step, { cwd: root, stdio: 'inherit' });
     if (result.status !== 0) {
       for (const [name, text] of Object.entries(originals)) await fs.writeFile(path.join(root, name), text);
-      throw new Error(`node ${step.join(' ')} failed; ${SELECTIONS} and ${WORKFLOW} are restored. Fix the batch or its review evidence, then run this again.`);
+      throw new Error(`node ${step.join(' ')} failed; ${SELECTIONS} and ${WORKFLOW} are restored, but artifacts/review-site now holds a stale bundle built with ${d} selected; rebuild it (node review-site/scripts/build.mjs) before packaging. Fix the batch or its review evidence, then run this again.`);
     }
   }
   console.log(`\nD${pad(id)} is ready to ship with ${file}. Next (review-site/README.md, "Add a newly painted dasakam"):
