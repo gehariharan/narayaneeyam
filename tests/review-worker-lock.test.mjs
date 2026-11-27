@@ -43,7 +43,7 @@ function makeEnv(secret = SECRET, { limited = false } = {}) {
     NARAYANEEYAM_PASSPHRASE: secret,
     FEEDBACK_LIMIT: { limit: async ({ key }) => { limits.push(key); return { success: !limited }; } },
     DECISION_LIMIT: { limit: async ({ key }) => { decisionLimits.push(key); return { success: true }; } },
-    DB: { prepare: sql => ({ bind: (...args) => ({ run: async () => { writes.push({ sql, args }); }, all: async () => { writes.push({ sql, args }); return { results: [] }; } }) }) },
+    DB: { prepare: sql => ({ all: async () => ({ results: [] }), bind: (...args) => ({ run: async () => { writes.push({ sql, args }); }, all: async () => { writes.push({ sql, args }); return { results: [] }; } }) }) },
     ART: { get: async key => key === MEDIA.slice(1) ? { body: 'image-bytes', httpEtag: '"etag-1"' } : null },
   };
 }
