@@ -82,7 +82,8 @@ export async function feedback(request,env,dataset=data){
  if(!input||typeof input!=='object'||Array.isArray(input))return json({error:'Invalid feedback.'},400);
  const chapter=dataset.chapters.find(c=>c.id===input.daskam),row=chapter?.rows.find(r=>r.n===input.sloka);
  if(!row)return json({error:'Unknown sloka.'},400);
- if(input.revision!==dataset.revision)return json({error:'This review page has changed. Reload it before submitting.'},409);
+ // Each dasakam carries its own revision, so republishing one chapter does not reject open forms on another.
+ if(typeof chapter.revision!=='string'||!chapter.revision||input.revision!==chapter.revision)return json({error:'This review page has changed. Reload it before submitting.'},409);
  if(typeof input.message!=='string'||input.message.trim().length<3||input.message.length>2000)return json({error:'Enter feedback between 3 and 2,000 characters.'},400);
  if(input.website)return json({error:'Unable to accept this submission.'},400);
  const ip=request.headers.get('CF-Connecting-IP')||'local';
@@ -90,7 +91,7 @@ export async function feedback(request,env,dataset=data){
  if(!limit.success)return json({error:'Too many submissions. Please wait a minute and retry.'},429);
  const id=crypto.randomUUID();
  const versions=JSON.stringify(row.images.filter(i=>i.role!=='reference'&&i.key).map(({role,key,version})=>({role,key,version})));
- await env.DB.prepare('INSERT INTO feedback (id,daskam,sloka,target,category,message,reviewer_name,revision,image_versions,status) VALUES (?,?,?,?,?,?,?,?,?,?)').bind(id,input.daskam,input.sloka,'generated','other',input.message.trim(),'',dataset.revision,versions,'open').run();
+ await env.DB.prepare('INSERT INTO feedback (id,daskam,sloka,target,category,message,reviewer_name,revision,image_versions,status) VALUES (?,?,?,?,?,?,?,?,?,?)').bind(id,input.daskam,input.sloka,'generated','other',input.message.trim(),'',chapter.revision,versions,'open').run();
  return json({id},201);
 }
 export default {async fetch(request,env){
@@ -116,7 +117,7 @@ export default {async fetch(request,env){
  }
  let body;
  if(key==='')body=renderIndex(data);
- else{const chapter=data.chapters.find(c=>key===chapterSlug(c.id)||key===`${chapterSlug(c.id)}/`);if(chapter)body=renderChapter(chapter,data.revision,undefined,true,data.chapters);}
+ else{const chapter=data.chapters.find(c=>key===chapterSlug(c.id)||key===`${chapterSlug(c.id)}/`);if(chapter)body=renderChapter(chapter,chapter.revision,undefined,true,data.chapters);}
  if(!body)return new Response('Not found',{status:404,headers});
  return new Response(request.method==='HEAD'?null:body,{headers:{...headers,'Content-Type':'text/html; charset=utf-8','Cache-Control':'private, no-cache'}});
  }catch(error){console.error('Review request failed',error?.name);return json({error:'The service is temporarily unavailable. Please retry.'},503);}

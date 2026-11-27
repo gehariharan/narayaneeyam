@@ -4,7 +4,7 @@ import crypto from 'node:crypto';
 import sharp from 'sharp';
 import { loadSelections } from '../selections.mjs';
 import { validateSelections, reviewFor, validateBundle } from '../image-review.mjs';
-import { renderIndex, renderChapter, chapterSlug } from '../views.mjs';
+import { renderIndex, renderChapter, chapterSlug, isExcludedReference } from '../views.mjs';
 
 const root = path.resolve(import.meta.dirname, '../..');
 const dest = path.join(root, 'artifacts/review-site');
@@ -30,6 +30,7 @@ function vettedCommentary(stanza, daskam) {
   if (!stanza.commentary_en) throw new Error(`Missing vetted commentary text for D${chapter} S${String(stanza.n).padStart(3, '0')}`);
   return stanza.commentary_en;
 }
+const chapterRevision = chapter => crypto.createHash('sha256').update(JSON.stringify(chapter)).digest('hex').slice(0, 16);
 const chapters = [];
 const batches = await loadSelections(root);
 const validation = await validateSelections(root, batches);
@@ -50,7 +51,7 @@ for (const importedSelection of batches) {
       if(actualHash!==item.sha256)throw new Error(`Selection checksum mismatch for ${d} S${s} ${role}`);
       const mediaLabel=id===5?`${d}-s${s}-${role}-${item.version||'selected'}`:role==='reference'&&references.length>1?`${d}-s${s}-${role}-${item.version}`:`${d}-s${s}-${role}`;
       const review = role === 'reference' ? null : reviewFor(validation, { ...item, chapter:id, sloka:n, role });
-      images.push({role,label:role,displayLabel:item.displayLabel,version:item.version,key:await asset(item.file,mediaLabel), ...(review ? {inspectionStatus:review.status,inspectionLabel:review.label} : {})});
+      images.push({role,label:role,displayLabel:item.displayLabel,version:item.version,key:await asset(item.file,mediaLabel), ...(review ? {inspectionStatus:review.status,inspectionLabel:review.label} : {}), ...(role === 'reference' && isExcludedReference(item) ? {excluded:true} : {})});
     }
     for(const item of selected.alternates||[]){
       const actualHash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,item.file))).digest('hex');
@@ -58,9 +59,11 @@ for (const importedSelection of batches) {
       const review = reviewFor(validation, { ...item, chapter:id, sloka:n, role:'alternate' });
       images.push({inspectionStatus:review.status,inspectionLabel:review.label,role:'alternate',label:item.label||'Alternate candidate',displayLabel:item.displayLabel||item.label,version:item.version,key:await asset(item.file,`${d}-s${s}-alternate-${item.version||'candidate'}`)});
     }
-    chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,editorialStatus:stanza.review_status||'needs-review',images});
+    chapter.rows.push({n,title:plan.stanzas.find(x=>x.n===n).alt,commentary:vettedCommentary(stanza,id),commentarySource:stanza.commentary_source,sanskrit:stanza.sanskrit||'',transliteration:stanza.stanza_roman||'',editorialStatus:stanza.review_status||'needs-review',images});
   }
   chapter.representative=(id === 2 ? chapter.rows[0] : (chapter.rows[2]||chapter.rows[0])).images.find(image=>image.role==='matte').key;
+  // Feedback is checked against this dasakam's own revision, so republishing one chapter leaves open forms on the others valid.
+  chapter.revision=chapterRevision(chapter);
   chapters.push(chapter);
 }
 chapters.sort((a, b) => a.id - b.id);
@@ -68,6 +71,6 @@ const dataset = { revision: crypto.createHash('sha256').update(JSON.stringify(ch
 await fs.writeFile(path.join(dest, 'data.json'), JSON.stringify(dataset));
 await fs.writeFile(path.join(dest, 'asset-provenance.json'), JSON.stringify(provenance, null, 2));
 await fs.writeFile(path.join(dest, 'index.html'), renderIndex(dataset, './', false));
-for (const chapter of chapters) await fs.writeFile(path.join(dest, `${chapterSlug(chapter.id)}.html`), renderChapter(chapter, dataset.revision, './', false, chapters));
+for (const chapter of chapters) await fs.writeFile(path.join(dest, `${chapterSlug(chapter.id)}.html`), renderChapter(chapter, chapter.revision, './', false, chapters));
 await validateBundle(root, dest);
 console.log(`Built ${chapters.length} chapters, ${chapters.reduce((n,c)=>n+c.rows.length,0)} rows and ${Object.keys(assets).length} distinct review images.`);

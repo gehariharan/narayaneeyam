@@ -521,7 +521,7 @@ test('D014 selection binds ten source/candidate pairs and renders as a landscape
   }
   const html = renderChapter({ id: 14, title: content.title, reviewNotice: batch.review_notice, rows }, 'fixture');
   assert.equal((html.match(/class="sloka"/g) || []).length, 10);
-  assert.equal((html.match(/<figure>/g) || []).length, 20);
+  assert.equal((html.match(/<figure[ >]/g) || []).length, 20);
   assert.ok(html.includes('Landscape candidate v003'));
   assert.ok(html.includes('not art approval'));
   assert.ok(!html.includes('<select'));

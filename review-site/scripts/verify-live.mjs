@@ -12,7 +12,7 @@ const blog=await fetch(origin);if(!blog.ok)throw Error('Blog not reachable');con
 const queue=Object.entries(data.assets);let count=0;
 await Promise.all(Array.from({length:5},async()=>{while(queue.length){const [key,meta]=queue.shift();const response=await fetch(base+'/'+key);if(!response.ok)throw Error('Missing '+key);const sha=crypto.createHash('sha256').update(Buffer.from(await response.arrayBuffer())).digest('hex');if(sha!==meta.sha256)throw Error('Hash mismatch '+key);count++;}}));
 console.log(`Verified ${count} live image hashes.`);
-const body={daskam:data.chapters.at(-1).id,sloka:data.chapters.at(-1).rows[0].n,message:'Deployment verification — automated feedback persistence test.',revision:data.revision,website:''};
+const body={daskam:data.chapters.at(-1).id,sloka:data.chapters.at(-1).rows[0].n,message:'Deployment verification — automated feedback persistence test.',revision:data.chapters.at(-1).revision,website:''};
 const res=await fetch(base+'/api/feedback',{method:'POST',headers:{'content-type':'application/json',origin},body:JSON.stringify(body)});
 const saved=await res.json();if(res.status!==201)throw Error(JSON.stringify(saved));
 await fs.writeFile('artifacts/review-site/live-verification.json',JSON.stringify({checkedAt:new Date().toISOString(),images:count,feedbackId:saved.id},null,2));
