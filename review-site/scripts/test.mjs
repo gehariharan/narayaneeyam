@@ -794,13 +794,15 @@ assert.equal((await feedback(req({...good,daskam:45,sloka:12}),env)).status,201)
 console.log('Passed: D045 has twelve caption-mapped, exact-hash unapproved landscape pairs and stanza-bounded feedback.');
 
 // The live fixture serves the real locked Worker over HTTP; staleResponses simulate the previous open deployment.
-async function withLiveFixture(callback, { staleResponses = {}, override } = {}) {
+async function withLiveFixture(callback, { staleResponses = {}, override, openFeedback = false } = {}) {
  const stale=new Map(Object.entries(staleResponses).map(([route,responses])=>[route,[...responses]]));
  const server=createServer(async(req,res)=>{
   const chunks=[];for await(const chunk of req)chunks.push(chunk);
   const previous=stale.get(req.url)?.shift();
   if(previous){res.statusCode=200;res.setHeader('content-type','text/html');res.end(previous);return;}
-  let response=await worker.fetch(new Request('https://gehariharan.com'+req.url,{method:req.method,headers:req.headers,body:['GET','HEAD'].includes(req.method)?undefined:Buffer.concat(chunks)}),env);
+  const open=openFeedback&&req.url==='/narayaneeyam/api/feedback';
+  const request=new Request('https://gehariharan.com'+req.url,{method:req.method,headers:open?{...req.headers,origin:'https://gehariharan.com'}:req.headers,body:['GET','HEAD'].includes(req.method)?undefined:Buffer.concat(chunks)});
+  let response=open?await feedback(request,env):await worker.fetch(request,env);
   if(override)response=await override(req,response)??response;
   res.writeHead(response.status,Object.fromEntries(response.headers));res.end(Buffer.from(await response.arrayBuffer()));
  });
@@ -808,7 +810,7 @@ async function withLiveFixture(callback, { staleResponses = {}, override } = {})
  try { await callback(`http://127.0.0.1:${server.address().port}/narayaneeyam`); }
  finally { await new Promise((resolve,reject)=>server.close(error=>error?reject(error):resolve())); }
 }
-const writesBefore=written;
+let writesBefore=written;
 await withLiveFixture(async base=>verifyLivePages(data,{base,retryDelayMs:0}));
 assert.equal(written,writesBefore,'lock verification must not persist feedback');
 const openPage6=renderChapter(data.chapters.find(c=>c.id===6),data.revision,'/narayaneeyam/',true,data.chapters);
@@ -819,6 +821,9 @@ await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retr
 const mediaPath='/narayaneeyam/'+Object.keys(data.assets)[0];
 await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/returns content while locked/),{override:req=>req.url===mediaPath?new Response('image-bytes',{status:401,headers:{'cache-control':'no-store','x-robots-tag':'noindex'}}):undefined});
 await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/POST \/api\/feedback is not locked/),{override:req=>req.url==='/narayaneeyam/api/feedback'?new Response('',{status:201,headers:{'cache-control':'no-store','x-robots-tag':'noindex'}}):undefined});
+writesBefore=written;
+await withLiveFixture(async base=>assert.rejects(verifyLivePages(data,{base,retryDelayMs:0}),/did not converge for POST \/api\/feedback: HTTP 400 \(POST \/api\/feedback is not locked\)/),{openFeedback:true});
+assert.equal(written,writesBefore,'lock verification must not persist feedback against an open worker');
 const extended=structuredClone(data);const additional=structuredClone(extended.chapters.find(c=>c.id===8));additional.id=Math.max(...extended.chapters.map(c=>c.id))+1;additional.title=`Dasakam ${additional.id}`;extended.chapters.push(additional);
 await withLiveFixture(async base=>verifyLivePages(extended,{base,retryDelayMs:0}));
 console.log('Passed: anonymous live lock verifier accepts the locked Worker for every chapter, media and feedback, waits out a stale open deployment, and rejects open, leaking, cacheable or content-bearing locked responses.');

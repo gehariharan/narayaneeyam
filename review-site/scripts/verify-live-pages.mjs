@@ -58,8 +58,7 @@ export async function verifyLivePages(data, {
   }
   await fetchVerified(base, `/${mediaKey}`, {}, (response, body) => verifyLockedEmpty(response, body, `/${mediaKey}`), retryDelayMs);
   const origin = new URL(base).origin;
-  const chapter = chapters.at(-1);
-  const body = JSON.stringify({ daskam: chapter.id, sloka: chapter.rows[0]?.n, message: 'Deployment lock verification.', revision: data.revision, website: '' });
+  const body = JSON.stringify({ message: 'Deployment lock verification.', revision: 'lock-verification', website: 'lock-verification' });
   await fetchVerified(base, '/api/feedback', { method: 'POST', headers: { 'content-type': 'application/json', origin }, body }, (response, text) => verifyLockedEmpty(response, text, 'POST /api/feedback'), retryDelayMs);
 
   console.log(`Verified live lock: index, ${chapters.length} chapter pages, a media path and feedback all return the locked 401 response.`);
