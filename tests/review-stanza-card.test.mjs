@@ -111,6 +111,26 @@ test('the page keeps a phone-width layout', () => {
   assert.match(html, /@media\(max-width:650px\)\{[^}]*\}[^@]*\.references figure\{width:100%\}/);
 });
 
+test('on a desktop the painting sits beside the reference, commentary, stanza and review controls', () => {
+  const card = sectionOf(renderChapter(d1, undefined, '/narayaneeyam/', true, [d1, d2]), 1);
+  const art = card.slice(at(card, '<div class="card-art">'), at(card, '<div class="card-side">'));
+  const side = card.slice(at(card, '<div class="card-side">'));
+  // Left: the painting and its alternates only.
+  assert.ok(art.includes('src="/narayaneeyam/media/d001-s001-matte-a.webp"'));
+  assert.ok(art.includes('src="/narayaneeyam/media/d001-s001-alternate-b.webp"'));
+  for (const elsewhere of ['class="reference"', 'Commentary', 'Stanza', 'data-decide', 'Studio details']) assert.ok(!art.includes(elsewhere), `${elsewhere} stays out of the painting column`);
+  // Right: reference, commentary, stanza, decisions, then studio details, in that order.
+  const order = ['src="/narayaneeyam/media/d001-s001-reference-a.webp"', '<span class="label">Commentary</span>', '<span class="label">Stanza</span>', 'data-decision="approve"', '<form data-feedback', '<summary>Studio details</summary>'].map(needle => at(side, needle));
+  assert.deepEqual(order, [...order].sort((a, b) => a - b));
+  assert.ok(side.includes('<a data-zoom href="/narayaneeyam/media/d001-s001-reference-a.webp">'));
+  // A redrawn painting keeps its before/after toggle with the painting.
+  const fixed = structuredClone(d1);
+  fixed.rows[0].fix = { kind: 'image', version: 'v003', notes: [], previous: { key: 'media/d001-s001-matte-old.webp', version: 'v002' } };
+  const fixedCard = sectionOf(renderChapter(fixed), 1);
+  assert.ok(at(fixedCard, 'data-compare') < at(fixedCard, '<div class="card-side">'));
+  assert.ok(at(fixedCard, 'src="/narayaneeyam/media/d001-s001-matte-old.webp"') < at(fixedCard, '<div class="card-side">'));
+});
+
 // Load the review Worker with these chapters in place of the ignored release bundle.
 const dataset = { revision: 'whole-dataset', assets: {}, chapters: [d1, d2] };
 const source = (await fs.readFile(new URL('../review-site/worker.mjs', import.meta.url), 'utf8'))

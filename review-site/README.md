@@ -87,7 +87,10 @@ photo-caption file or a user-supplied Google Drive commentary file. Each stanza 
 one card, top to bottom: the selected painting (tap to open full size), any
 alternates, the smaller reference photo, then the text: Commentary, then the
 stanza (Sanskrit, then transliteration) from `content/daskams/dNNN.json`, with
-a small note where either is missing. A reference photo the batch marks as
+a small note where either is missing. On screens 900px and wider the card
+splits in two: the painting and its alternates (and any before/after toggle) on
+the left, sized to fit the window, and everything else in that same order in a
+scrolling column on the right; narrower screens keep the single column. A reference photo the batch marks as
 excluded from scene derivation stays in the bundle but is not shown. The review
 notice, image versions, inspection labels, media keys and commentary sources sit
 in collapsed "Studio details" sections per chapter and per card. Below the text,
