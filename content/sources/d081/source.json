@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "daskam": 81,
-  "caption_path": null,
-  "caption_sha256": null,
-  "caption_origin": null,
-  "source_type": "none",
-  "facebook_source": null,
-  "facebook_source_sha256": null,
-  "post_caption": null,
-  "post_caption_sha256": null,
+  "caption_path": "content/sources/d081/photo-captions.txt",
+  "caption_sha256": "e5e2d505fdf6ec332e80db2278e3428c62b358330ba2532ed40b2d35f84c2a7f",
+  "caption_origin": "intake/D081/photo-captions-2026-11-27.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D081/facebook-source-2026-11-27.json",
+  "facebook_source_sha256": "846799ed394dc94c13f7d39b49840c9c8eb21e70be1ed2ed10a77ac070e6f3af",
+  "post_caption": "intake/D081/facebook-post-caption-2026-11-27.txt",
+  "post_caption_sha256": "7b62229d8b7600e384198b00f8235d5efbae27145497ae57fd2fc6cf4a949971",
   "canonical_source": {
     "publisher": "Stotra Nidhi",
     "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-81-in-sanskrit/",
@@ -23,59 +23,54 @@
     "evidence": "10 numbered stanzas 81-1 through 81-10 on both the Devanagari and the parallel IAST page."
   },
   "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
-  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
-  "commentary_cleanup": {},
-  "commentary_picture": {},
-  "stanza_gaps": {
-    "1": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "2": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "3": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "4": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "5": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "6": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "7": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "8": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "9": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "10": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    }
-  }
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a trailing Facebook \"Comments\" UI label removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "commentary_cleanup": {
+    "1": [
+      "facebook-ui-label-dropped:Comments"
+    ],
+    "2": [
+      "facebook-ui-label-dropped:Comments"
+    ],
+    "3": [
+      "facebook-ui-label-dropped:Comments"
+    ],
+    "4": [
+      "facebook-ui-label-dropped:Comments"
+    ],
+    "5": [
+      "facebook-ui-label-dropped:Comments"
+    ],
+    "6": [
+      "facebook-ui-label-dropped:Comments"
+    ],
+    "7": [
+      "facebook-ui-label-dropped:Comments"
+    ],
+    "8": [
+      "facebook-ui-label-dropped:Comments"
+    ],
+    "9": [
+      "facebook-ui-label-dropped:Comments"
+    ],
+    "10": [
+      "facebook-ui-label-dropped:Comments",
+      "captions-combined:010.jpg+010-2.jpg"
+    ]
+  },
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": [
+      "010.jpg",
+      "010-2.jpg"
+    ]
+  },
+  "stanza_gaps": {}
 }

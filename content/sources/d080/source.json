@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "daskam": 80,
-  "caption_path": null,
-  "caption_sha256": null,
-  "caption_origin": null,
-  "source_type": "none",
-  "facebook_source": null,
-  "facebook_source_sha256": null,
-  "post_caption": null,
-  "post_caption_sha256": null,
+  "caption_path": "content/sources/d080/photo-captions.txt",
+  "caption_sha256": "e2a1834f5461bd300e995848776a969391d442056e1b3f0dade99a680be466ec",
+  "caption_origin": "intake/D080/photo-captions-2026-11-27.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D080/facebook-source-2026-11-27.json",
+  "facebook_source_sha256": "06b4b480ccd2f1a1312aa276fd4ab2fad3dab3493799a81e5a5556add74887ff",
+  "post_caption": "intake/D080/facebook-post-caption-2026-11-27.txt",
+  "post_caption_sha256": "08e98e0ad4e2897ca98ac448db836b8b7ed9ecf2a85c5ae6f8c62e4286e42d8f",
   "canonical_source": {
     "publisher": "Stotra Nidhi",
     "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-80-in-sanskrit/",
@@ -23,64 +23,20 @@
     "evidence": "11 numbered stanzas 80-1 through 80-11 on both the Devanagari and the parallel IAST page."
   },
   "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
-  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
+  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a trailing Facebook \"Comments\" UI label removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
   "commentary_cleanup": {},
-  "commentary_picture": {},
-  "stanza_gaps": {
-    "1": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "2": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "3": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "4": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "5": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "6": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "7": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "8": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "9": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "10": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "11": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    }
-  }
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg",
+    "11": "011.jpg"
+  },
+  "stanza_gaps": {}
 }

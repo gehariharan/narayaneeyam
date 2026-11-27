@@ -5,22 +5,136 @@
   "mapping_basis": "Pictures follow the intake naming convention: NNN.jpg is the first picture whose own Facebook caption states stanza #N; NNN-2.jpg and later are further pictures for that stanza; nostanza-NN.jpg have no stated stanza and stay unmapped. A picture whose caption labels several stanzas (for example \"#5 & #6\") is mapped to each of them. Source photos are contextual references only; canonical Sanskrit governs scene interpretation.",
   "canonical_source": "https://stotranidhi.com/hi/narayaneeyam-dasakam-57-in-sanskrit/",
   "romanization_source": "https://stotranidhi.com/en/narayaneeyam-dasakam-57-in-english/",
-  "caption_source": null,
-  "facebook_caption_source": null,
-  "images": [],
-  "missing_stanzas": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11
+  "caption_source": "content/sources/d057/photo-captions.txt",
+  "facebook_caption_source": "intake/D057/photo-captions-2026-11-27.txt",
+  "images": [
+    {
+      "stanza": 1,
+      "role": "primary",
+      "path": "intake/D057/001.jpg",
+      "sha256": "a8de93f090a866c65e89c79cc908de67df390571ec239b4fa5522baf34b1aa88",
+      "bytes": 162193,
+      "width": 1080,
+      "height": 851,
+      "facebook_file": "D057/D057-2026-11-26-1.jpg",
+      "posted": "2026-11-26",
+      "also_seen_in_other_dasakam": [
+        "canonical:D051/001.jpg",
+        "mirror:D051/001.jpg"
+      ]
+    },
+    {
+      "stanza": 2,
+      "role": "primary",
+      "path": "intake/D057/002.jpg",
+      "sha256": "a22f5ce9749dfab11c4e3fd47fddfbcd7b30fe73948683a3663c32a09aef3464",
+      "bytes": 411660,
+      "width": 1200,
+      "height": 1019,
+      "facebook_file": "D057/D057-2026-11-26-2.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 3,
+      "role": "primary",
+      "path": "intake/D057/003.jpg",
+      "sha256": "d9df7403e1940130711a799469cc58a0aba6e251d3e439aaf013eb2fb246423c",
+      "bytes": 91267,
+      "width": 1536,
+      "height": 1102,
+      "facebook_file": "D057/D057-2026-11-26-3.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 4,
+      "role": "primary",
+      "path": "intake/D057/004.jpg",
+      "sha256": "077af34e580e4a0a4c5f6788d9fd4b96030bc61eeb4502f606fa8c985b879a9d",
+      "bytes": 90338,
+      "width": 1600,
+      "height": 842,
+      "facebook_file": "D057/D057-2026-11-26-4.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 5,
+      "role": "primary",
+      "path": "intake/D057/005.jpg",
+      "sha256": "ac398f26ed689c3e8b9c73fb718d774177fd14b1b0bc607ebd32ccd39ed26a73",
+      "bytes": 54848,
+      "width": 500,
+      "height": 375,
+      "facebook_file": "D057/D057-2026-11-26-5.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 6,
+      "role": "primary",
+      "path": "intake/D057/006.jpg",
+      "sha256": "b87c649a9072c687ea0436ea485a4885f607a5ee13de7ccf103aeffe5d1eefc8",
+      "bytes": 49578,
+      "width": 422,
+      "height": 569,
+      "facebook_file": "D057/D057-2026-11-26-6.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 7,
+      "role": "primary",
+      "path": "intake/D057/007.jpg",
+      "sha256": "fe678fe98f851a65d223911a0b27372099fbedb6a75dd73794c9f9558b7ae665",
+      "bytes": 100167,
+      "width": 700,
+      "height": 496,
+      "facebook_file": "D057/D057-2026-11-26-7.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 8,
+      "role": "primary",
+      "path": "intake/D057/008.jpg",
+      "sha256": "d69bed472e4d9fbc71b2ced0c1636bd3d147444713db52f2e4ee6d809f7743d0",
+      "bytes": 50762,
+      "width": 480,
+      "height": 360,
+      "facebook_file": "D057/D057-2026-11-26-8.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 9,
+      "role": "primary",
+      "path": "intake/D057/009.jpg",
+      "sha256": "a7bdf95d27c479226fdb2e7eab6e7bdeb6207b4e0adaf0ac02641433f4f99994",
+      "bytes": 275164,
+      "width": 1130,
+      "height": 1600,
+      "facebook_file": "D057/D057-2026-11-26-9.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 10,
+      "role": "primary",
+      "path": "intake/D057/010.jpg",
+      "sha256": "188b6e0209bc4473d28fa91f2079fd6f5e21ff6ba020778f15c254120f787cce",
+      "bytes": 74306,
+      "width": 600,
+      "height": 750,
+      "facebook_file": "D057/D057-2026-11-26-10.jpg",
+      "posted": "2026-11-26"
+    },
+    {
+      "stanza": 11,
+      "role": "primary",
+      "path": "intake/D057/011.jpg",
+      "sha256": "4d058c0f2ac377888aa69cb7462d638c8821b279c5beaa16aac4c2409614f015",
+      "bytes": 232839,
+      "width": 1200,
+      "height": 1496,
+      "facebook_file": "D057/D057-2026-11-26-11.jpg",
+      "posted": "2026-11-26"
+    }
   ],
-  "missing_stanzas_reason": "no Facebook pictures or captions in the intake for this dasakam",
+  "missing_stanzas": [],
+  "missing_stanzas_reason": "not present in the Facebook intake",
   "unmapped": []
 }
