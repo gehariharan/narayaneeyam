@@ -24,20 +24,13 @@
   },
   "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
   "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
-  "commentary_cleanup": {
-    "5": [
-      "captions-combined:005.jpg+005-2.jpg"
-    ]
-  },
+  "commentary_cleanup": {},
   "commentary_picture": {
     "1": "001.jpg",
     "2": "002.jpg",
     "3": "003.jpg",
     "4": "004.jpg",
-    "5": [
-      "005.jpg",
-      "005-2.jpg"
-    ],
+    "5": "005.jpg",
     "6": "006.jpg",
     "7": "007.jpg",
     "8": "008.jpg",
@@ -49,5 +42,17 @@
       "commentary": "missing",
       "reason": "not present in the Facebook intake; the intake also has pictures with no stated stanza (see reference-map unmapped), which may belong here"
     }
-  }
+  },
+  "unplaced_captions": [
+    {
+      "picture": "intake/D070/005-2.jpg",
+      "facebook_file": "D070/D070-2025-06-12-9.jpg",
+      "caption_label": "#5",
+      "caption_source": "intake/D070/photo-captions.txt",
+      "text": "The force with which the evil-minded asura fell dead, few trees in the forest fell and destroyed the forest. Devas watching the sight from heaven were so pleased and showered flowers on Krishna.",
+      "status": "needs-editorial-placement",
+      "likely_stanza": 8,
+      "reason": "Labelled #5 by the poster, but it describes the killing of Arishta (stanza 70-8: mardayannamadayaḥ suralokam); stanza 70-5 is about the Gopikas' grief. Not placed in any stanza's commentary_en."
+    }
+  ]
 }
