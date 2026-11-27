@@ -414,6 +414,7 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
   const planBytes = await fs.readFile(path.join(root, 'art/plans/d030.json'));
   const plan = JSON.parse(planBytes);
   const reviewFile = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/visual-reviews.json'), 'utf8'));
+  const captainDecisions = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/d030-captain-decisions.json'), 'utf8'));
   assert.ok(prior && current);
   assert.equal(current.daskam_id, 30);
   assert.equal(current.review_status, 'needs-review');
@@ -424,6 +425,10 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
   assert.equal(current.rows[8].matte.file, 'artifacts/d030/s009/landscape/candidate-v014.png');
   assert.equal(current.rows[8].matte.version, 'v014');
   assert.match(current.rows[8].candidate_status, /vessel-hand patch.*R−B 119/);
+  assert.equal(captainDecisions.decisions[0].words, '2 keep current picture');
+  assert.equal(captainDecisions.decisions[0].sloka, 6);
+  assert.equal(captainDecisions.decisions[0].review_outcome, 'needs-fix');
+  assert.equal(captainDecisions.decisions[0].art_approval, false);
   assert.match(plan.stanzas[8].scene_brief.must_show[0], /falls DOWN from its mouth onto Vamana’s feet and into the basin/);
   assert.match(plan.stanzas[8].scene_brief.must_show[0], /no stream rises from the basin/);
   for (const row of current.rows) {
@@ -433,6 +438,7 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
     if (row.n === 6) {
       assert.equal(review.outcome, 'needs-fix');
       assert.match(review.findings[0].observed, /central crown band/);
+      assert.match(review.findings[0].repair, /2 keep current picture/);
     } else {
       assert.equal(review.outcome, 'pass');
       assert.deepEqual(review.findings, []);
