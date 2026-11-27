@@ -120,6 +120,30 @@ export async function decisions(request,env,dataset=data){
  for(const r of results)if(!latest.has(r.sloka)&&shown.get(r.sloka)===r.image_versions)latest.set(r.sloka,{id:r.id,sloka:r.sloka,decision:r.decision,reviewer:r.reviewer_name,note:r.message,at:r.created_at,status:r.status,legacy:r.decision==='note'});
  return new Response(request.method==='HEAD'?null:JSON.stringify({daskam:chapter.id,revision:chapter.revision,decisions:[...latest.values()].sort((a,b)=>a.sloka-b.sloka)}),{headers:{...headers,'Content-Type':'application/json','Cache-Control':'no-store'}});
 }
+// Review progress per dasakam for the 100-tile index, from one query over every stanza.
+// Like /api/decisions, a stanza counts only its latest record on the paintings shown now;
+// decisions on an earlier version, legacy notes, and a request closed on the current painting leave it undecided.
+const LATEST_PER_VERSION='SELECT daskam,sloka,decision,status,image_versions FROM (SELECT daskam,sloka,decision,status,image_versions,ROW_NUMBER() OVER (PARTITION BY daskam,sloka,image_versions ORDER BY created_at DESC, rowid DESC) AS nth FROM feedback) WHERE nth=1';
+export async function reviewProgress(env,dataset=data){
+ const {results=[]}=await env.DB.prepare(LATEST_PER_VERSION).all();
+ const latest=new Map(results.map(r=>[`${r.daskam}:${r.sloka}:${r.image_versions}`,r]));
+ const progress={};
+ for(const chapter of dataset.chapters){
+  let decided=0,approved=0,waiting=0;
+  for(const row of chapter.rows){
+   const d=latest.get(`${chapter.id}:${row.n}:${shownImages(row)}`);
+   if(!d||!DECISIONS.includes(d.decision)||(d.decision!=='approve'&&d.status==='closed'))continue;
+   decided++;
+   if(d.decision==='approve')approved++;
+   else waiting++;
+  }
+  const total=chapter.rows.length;
+  progress[chapter.id]={total,decided,approved,waiting,state:waiting?'waiting':total&&approved===total?'reviewed':decided?'in-review':'ready'};
+ }
+ return progress;
+}
+// The index still lists every chapter when progress cannot be read, so navigation never depends on the database.
+async function indexProgress(env){try{return await reviewProgress(env);}catch(error){console.error('Review progress unavailable',error?.name);return null;}}
 export default {async fetch(request,env){
  try{
  const url=new URL(request.url),p=url.pathname;
@@ -143,7 +167,7 @@ export default {async fetch(request,env){
   return new Response(request.method==='HEAD'?null:object.body,{headers:h});
  }
  let body;
- if(key==='')body=renderIndex(data);
+ if(key==='')body=renderIndex(data,BASE+'/',true,request.method==='HEAD'?null:await indexProgress(env));
  else{const chapter=data.chapters.find(c=>key===chapterSlug(c.id)||key===`${chapterSlug(c.id)}/`);if(chapter)body=renderChapter(chapter,chapter.revision,undefined,true,data.chapters);}
  if(!body)return new Response('Not found',{status:404,headers});
  return new Response(request.method==='HEAD'?null:body,{headers:{...headers,'Content-Type':'text/html; charset=utf-8','Cache-Control':'private, no-cache'}});

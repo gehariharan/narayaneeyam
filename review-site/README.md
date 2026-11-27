@@ -168,7 +168,24 @@ decisions fail with the temporary-unavailable response.
 per stanza for the paintings currently shown, with reviewer name, note and time.
 Decisions on an earlier painting version stay stored but are not returned once a new
 version is published. The read is not rate-limited, and it refuses cross-site
-requests. Retrieve open feedback with:
+requests.
+
+The front page `/narayaneeyam/` is a progress board of all 100 Dasakams, one
+numbered tile each, rendered by the Worker behind the passphrase lock from one D1
+query. A tile links to its chapter when the chapter is on the site. Its colour and
+label show: Art not made yet (no chapter), Ready for review (no decisions), In review
+(decided/total stanzas), Waiting for fixes (any Redraw, Small edit or Text issue still
+open), or Reviewed - awaiting captain confirmation (every stanza approved). Like
+`/api/decisions`, each stanza counts only its latest decision on the painting shown
+now; decisions on an earlier version, legacy notes, and a Redraw, Small edit or
+Text issue closed on the current painting leave it undecided. A legend
+and a line such as "51 of 100 dasakams have paintings · 120 of 526 stanzas reviewed"
+sit above the tiles. If the database cannot be read, the tiles still link every
+chapter and the page says progress is unavailable. The static preview `index.html`
+shows painted chapters without progress. Reviewed on the board is the reviewer's
+decision only; final art approval is confirmed separately.
+
+Retrieve open feedback with:
 
 ```sh
 wrangler d1 execute narayaneeyam-feedback --remote --config review-site/wrangler.jsonc --command "SELECT * FROM feedback WHERE status='open' ORDER BY created_at" --json
