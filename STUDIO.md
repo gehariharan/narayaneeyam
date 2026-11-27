@@ -3,7 +3,8 @@
 User-authorised public review exception (2026-09-13): publish the comparison
 collection at `gehariharan.com/narayaneeyam`, using the dedicated `narayaneeyam`
 R2 bucket for web derivatives and `narayaneeyam-feedback` D1 database for row
-feedback. The user explicitly chose open access with no passphrase. Local files
+feedback. The site is locked behind one shared passphrase until the user decides
+otherwise (see `review-site/README.md`, Passphrase lock). Local files
 and approval manifests remain authoritative. See `review-site/README.md`.
 Always publish a chapter's review batch to this site when preparing it for the
 user's review. Publishing exposes unapproved candidates as review material; it

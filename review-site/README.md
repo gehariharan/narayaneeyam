@@ -16,8 +16,10 @@ Production deployment may run through the manual GitHub Actions workflow
 Worker. Its routes are already attached; Actions uploads review WebPs to R2 and
 deploys a Worker version without changing those routes. For the D001 regeneration,
 the workflow uploads the D001 image selection from the checksum-pinned review-only
-release bundle before deploying the Worker. Actions performs read-only live
-verification after deployment. Raw intake, masters, candidates, prompts, and
+release bundle before deploying the Worker. Actions then verifies anonymously,
+without the passphrase, that the live index, every chapter page, a media path and
+feedback all return the locked 401 response (`review-site/scripts/verify-live-pages.mjs`).
+Page content is checked before deployment by `review-site/scripts/test.mjs`. Raw intake, masters, candidates, prompts, and
 feedback exports must never be included in that bundle.
 
 For local deployment:
@@ -89,13 +91,43 @@ its media bucket and database are not modified. R2 remains private; the review
 Worker serves only image keys explicitly present in its bundled data manifest.
 It does not expose raw intake folders, provenance files or generated masters.
 
+## Passphrase lock
+
+Every request under `/narayaneeyam` (index, chapter pages, `/media/*` images,
+`HEAD` requests and `POST /api/feedback`) requires one shared passphrase.
+Locked visitors get a small passphrase page (HTTP 401, `Cache-Control: no-store`,
+`noindex`); images and feedback return an empty 401. The passphrase form posts to
+`/narayaneeyam/unlock`, which accepts same-origin requests only, rate-limits
+attempts per IP through the `FEEDBACK_LIMIT` binding (key `unlock:<ip>`) and
+compares SHA-256 digests in constant time. A correct passphrase sets an
+`HttpOnly; Secure; SameSite=Lax` cookie scoped to `/narayaneeyam` for 90 days, then
+returns the visitor to the page they asked for (relative `/narayaneeyam` paths only).
+The cookie holds an expiry and an HMAC of it keyed by the passphrase, so it cannot be
+forged and contains no passphrase. Pages and images are served `private` and every
+response carries `X-Robots-Tag: noindex, nofollow`.
+
+The passphrase exists only as the Worker secret `NARAYANEEYAM_PASSPHRASE`. It is
+never stored in this repository, the workflow or chat. Until it is set, or if it is
+empty, the site stays closed and offers no passphrase form. The owner sets or changes
+it once, from this repository's `review-site` directory, on a machine logged in to
+Cloudflare (`npx wrangler login`):
+
+```sh
+npx wrangler secret put NARAYANEEYAM_PASSPHRASE
+```
+
+Wrangler prompts for the value, so it is not saved in shell history. Setting a new
+value signs every visitor out immediately; they must enter the new passphrase.
+Deployments do not change the secret.
+
 ## Feedback
 
 Feedback accepts same-origin JSON requests with strict size, field and revision
 validation, prepared SQL statements, a honeypot and a 10/minute per-IP edge rate
 limit. IP addresses are used transiently for the rate limiter, not saved in D1.
-The rate limiter is regional, not a global hard quota. There is no passphrase,
-public feedback listing or browser administration panel.
+The rate limiter is regional, not a global hard quota. There is no public
+feedback listing or browser administration panel. Feedback, like every other
+route, requires the passphrase unlock described above.
 
 Each new record stores the Dasakam, sloka, message, dataset revision and exact
 generated-image version/key snapshot automatically. Target is `generated`, category

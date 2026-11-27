@@ -1,71 +1,48 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
-import { chapterSlug, escapeHtml } from '../views.mjs';
+import { chapterSlug } from '../views.mjs';
 
+// The review site is locked behind a shared passphrase that CI never holds, so this
+// post-deploy check verifies anonymously that every release route is closed.
 const defaultBase = 'https://gehariharan.com/narayaneeyam';
 const pause = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-async function fetchVerified(base, path, verify, retryDelayMs) {
+async function fetchVerified(base, path, init, verify, retryDelayMs) {
   let last;
   for (let attempt = 1; attempt <= 6; attempt++) {
-    const response = await fetch(`${base}${path}`, { redirect: 'follow', cache: 'no-store' });
-    last = { status: response.status, text: await response.text(), error: undefined };
-    if (last.status === 200) {
-      try {
-        verify(last.text);
-        return;
-      } catch (error) {
-        if (!(error instanceof assert.AssertionError)) throw error;
-        last.error = error;
-      }
+    const response = await fetch(`${base}${path}`, { redirect: 'manual', cache: 'no-store', ...init });
+    last = { status: response.status, error: undefined };
+    try {
+      verify(response, await response.text());
+      return;
+    } catch (error) {
+      if (!(error instanceof assert.AssertionError)) throw error;
+      last.error = error;
     }
     await pause(attempt * retryDelayMs);
   }
-  throw new Error(`Live verification did not converge for ${path}: HTTP ${last?.status}${last?.error ? ` (${last.error.message})` : ''}`);
+  throw new Error(`Live lock verification did not converge for ${init.method || 'GET'} ${path}: HTTP ${last?.status}${last?.error ? ` (${last.error.message})` : ''}`);
 }
 
-function verifyIndex(html, chapters) {
-  for (const chapter of chapters) assert.ok(html.includes(`/narayaneeyam/${chapterSlug(chapter.id)}`), `Live index is missing ${chapterSlug(chapter.id)}`);
+function verifyLockedHeaders(response, label) {
+  assert.ok(response.status === 401, `${label} is not locked`);
+  assert.ok(response.headers.get('set-cookie') === null, `${label} sets a cookie while locked`);
+  assert.match(response.headers.get('cache-control') || '', /no-store/, `${label} is cacheable while locked`);
+  assert.match(response.headers.get('x-robots-tag') || '', /noindex/, `${label} lacks X-Robots-Tag noindex`);
 }
 
-function verifyChapter(html, chapter) {
-  const id = chapterSlug(chapter.id);
-  assert.ok(html.includes(`<h1>${escapeHtml(chapter.title)}</h1>`), `${id} page title does not match the release data`);
-  assert.ok(html.includes('Traditional matte mural') || html.includes('Landscape candidate'), `${id} has no selected mural candidate`);
-  assert.ok(!html.includes('Detailed painting'), `${id} includes a detailed painting label`);
-  assert.ok(!html.includes('Glossy mural'), `${id} includes a glossy mural label`);
+function verifyLockedPage(response, html, label, data) {
+  verifyLockedHeaders(response, label);
+  assert.ok(html.includes('This site is locked.'), `${label} does not show the lock page`);
+  assert.ok(html.includes('content="noindex,nofollow"'), `${label} lock page is indexable`);
+  assert.ok(!html.includes('class="sloka"') && !html.includes('data-feedback'), `${label} leaks chapter content`);
+  assert.ok(!Object.keys(data.assets || {}).some(key => html.includes(key)), `${label} leaks a media path`);
+}
 
-  const sections = [...html.matchAll(/<section class="sloka" id="s(\d{3})">([\s\S]*?)<\/section>/g)];
-  assert.deepEqual(sections.map(match => Number(match[1])), chapter.rows.map(row => row.n), `${id} sloka rows do not match the release data`);
-  assert.equal((html.match(/<figure>/g) || []).length, chapter.rows.reduce((count, row) => count + row.images.length, 0), `${id} image count does not match the release data`);
-  assert.equal((html.match(/<form data-feedback action="\/narayaneeyam\/api\/feedback">/g) || []).length, chapter.rows.length, `${id} feedback forms do not match the release rows`);
-
-  for (const [index, row] of chapter.rows.entries()) {
-    const [, actualNumber, section] = sections[index];
-    const number = String(row.n).padStart(3, '0');
-    assert.equal(actualNumber, number, `${id} row order differs from the release data`);
-    assert.ok(section.includes(`<h2>Sloka ${number}`), `${id} row ${number} is mapped to the wrong sloka heading`);
-    assert.ok(section.includes(`name="daskam" value="${chapter.id}"`) && section.includes(`name="sloka" value="${row.n}"`), `${id} feedback stanza mapping differs for sloka ${number}`);
-
-    const figures = [...section.matchAll(/<figure>([\s\S]*?)<\/figure>/g)].map(match => match[1]);
-    assert.equal(figures.length, row.images.length, `${id} sloka ${number} image count differs from the release data`);
-    for (const image of row.images) {
-      const label = image.displayLabel || ({ reference: 'Reference', matte: 'Traditional matte mural' }[image.role] || image.label);
-      const displayedVersion = label.match(/Landscape candidate (v\d+)/)?.[1];
-      if (displayedVersion) assert.equal(image.version, displayedVersion, `${id} sloka ${number} pinned version disagrees with its displayed label`);
-      const figure = figures.find(candidate => candidate.includes(`<figcaption>${label}`));
-      assert.ok(figure, `${id} sloka ${number} is missing selected ${image.role} version ${image.version}`);
-      if (image.key) assert.ok(figure.includes(`href="/narayaneeyam/${image.key}"`) && figure.includes(`src="/narayaneeyam/${image.key}"`), `${id} sloka ${number} ${image.role} does not use selected asset ${image.key}`);
-    }
-  }
-
-  if (chapter.id === 5) assert.ok(html.includes('transliteration and English translation are not yet available'));
-  if (chapter.id === 6) {
-    assert.ok(html.includes('All artwork is unapproved landscape candidate material'));
-    assert.ok(html.includes('S007 v002 adds the omitted Adharma/back mapping'));
-  }
-  if (chapter.id === 7) assert.ok(html.includes('All artwork is unapproved landscape candidate material'));
+function verifyLockedEmpty(response, body, label) {
+  verifyLockedHeaders(response, label);
+  assert.ok(body === '', `${label} returns content while locked`);
 }
 
 export async function verifyLivePages(data, {
@@ -74,10 +51,17 @@ export async function verifyLivePages(data, {
 } = {}) {
   assert.ok(Array.isArray(data?.chapters) && data.chapters.length > 0, 'Release data has no chapters');
   const chapters = data.chapters;
-  await fetchVerified(base, '/', html => verifyIndex(html, chapters), retryDelayMs);
-  for (const chapter of chapters) await fetchVerified(base, `/${chapterSlug(chapter.id)}`, html => verifyChapter(html, chapter), retryDelayMs);
+  const mediaKey = Object.keys(data.assets || {})[0];
+  assert.ok(mediaKey, 'Release data has no media');
+  for (const path of ['/', ...chapters.map(chapter => `/${chapterSlug(chapter.id)}`)]) {
+    await fetchVerified(base, path, {}, (response, html) => verifyLockedPage(response, html, path, data), retryDelayMs);
+  }
+  await fetchVerified(base, `/${mediaKey}`, {}, (response, body) => verifyLockedEmpty(response, body, `/${mediaKey}`), retryDelayMs);
+  const origin = new URL(base).origin;
+  const body = JSON.stringify({ message: 'Deployment lock verification.', revision: 'lock-verification', website: 'lock-verification' });
+  await fetchVerified(base, '/api/feedback', { method: 'POST', headers: { 'content-type': 'application/json', origin }, body }, (response, text) => verifyLockedEmpty(response, text, 'POST /api/feedback'), retryDelayMs);
 
-  console.log(`Verified live: ${chapters.length} chapters, ${chapters.reduce((n, c) => n + c.rows.length, 0)} release-mapped rows, selected image versions and feedback forms.`);
+  console.log(`Verified live lock: index, ${chapters.length} chapter pages, a media path and feedback all return the locked 401 response.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

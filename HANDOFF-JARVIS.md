@@ -63,8 +63,8 @@ missing, report the exact missing files/tool instead of fabricating replacements
 
 Cloudflare instructions are in review-site/README.md and CONTINUE.md. Wrangler
 was authenticated on the Linux machine; do not assume Jarvis authentication.
-Use dedicated narayaneeyam R2 and narayaneeyam-feedback D1. Site is intentionally
-public, no passphrase. Preserve existing feedback and remove only explicitly
+Use dedicated narayaneeyam R2 and narayaneeyam-feedback D1. Site is locked behind
+a shared passphrase (see review-site/README.md). Preserve existing feedback and remove only explicitly
 labelled deployment test submissions. Keep the blog outside /narayaneeyam intact.
 
 The earlier ImageGen limit cleared on retry; all D096 images finished. Do not
