@@ -1,81 +1,66 @@
 {
   "schema_version": 1,
   "daskam": 82,
-  "caption_path": null,
-  "caption_sha256": null,
-  "caption_origin": null,
-  "source_type": "none",
-  "facebook_source": null,
-  "facebook_source_sha256": null,
-  "post_caption": null,
-  "post_caption_sha256": null,
+  "caption_path": "intake/D082/photo-captions.txt",
+  "caption_sha256": "0d6b00537fa620375fada97a0f60e21cd789d900611548d7f2010f78f5c862ab",
+  "caption_origin": "intake/D082/photo-captions.txt",
+  "source_type": "facebook-photo-captions",
+  "facebook_source": "intake/D082/facebook-source.json",
+  "facebook_source_sha256": "37b7e80956c5bfbd73025c97300ab1e7fc37544ca418e1b8eb5edc2e3edcf998",
+  "post_caption": "intake/D082/facebook-post-caption.txt",
+  "post_caption_sha256": "52c9d60527d3e9fd4939ab7da8322c900ff1f8eb3f9e6bf7bcf0dcd164460dfe",
+  "facebook_post_url": "https://www.facebook.com/groups/2389815427810388/posts/27812437428454838/",
+  "poster": "Visalakshi Selvaraj",
+  "post_date": "2026-11-27",
   "canonical_source": {
     "publisher": "Stotra Nidhi",
     "sanskrit_url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-82-in-sanskrit/",
-    "sanskrit_raw": "artifacts/d082/source-captures/stotranidhi-sanskrit.html",
-    "sanskrit_raw_sha256": "3c66980ac4ee69ab0ff42dbcb4efdb07f0916bad912904136c56acb4134ebee5",
     "romanization_url": "https://stotranidhi.com/en/narayaneeyam-dasakam-82-in-english/",
-    "romanization_raw": "artifacts/d082/source-captures/stotranidhi-romanization.html",
-    "romanization_raw_sha256": "79894650d00d536786ccac8692d5ad534f59a89c2fce2c4b83b1e893dcd7db88",
     "sanskrit_heading": "नारायणीयं द्व्यशीतितमदशकम् (८२) – बाणासुरयुद्धं तथा नृगशापमोक्षम्",
     "romanization_heading": "nārāyaṇīyaṃ dvyaśītitamadaśakam (82) – bāṇāsurayuddhaṃ tathā nṛgaśāpamokṣam",
     "completion_marker": "iti dvyaśītitamadaśakaṃ samāptam |",
-    "evidence": "10 numbered stanzas 82-1 through 82-10 on both the Devanagari and the parallel IAST page."
+    "evidence": "10 numbered Sanskrit stanzas 82-1 through 82-10 and the parallel 10 numbered IAST stanzas checked against the existing transcription; no differences found.",
+    "sanskrit_raw": "artifacts/d082/source-captures/stotranidhi-sanskrit.html",
+    "sanskrit_raw_sha256": "3c66980ac4ee69ab0ff42dbcb4efdb07f0916bad912904136c56acb4134ebee5",
+    "romanization_raw": "artifacts/d082/source-captures/stotranidhi-romanization.html",
+    "romanization_raw_sha256": "79894650d00d536786ccac8692d5ad534f59a89c2fce2c4b83b1e893dcd7db88"
   },
   "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
-  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
-  "commentary_cleanup": {},
-  "commentary_picture": {},
-  "stanza_gaps": {
-    "1": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "2": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "3": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "4": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "5": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "6": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "7": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "8": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "9": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    },
-    "10": {
-      "reference_picture": "missing",
-      "commentary": "missing",
-      "reason": "no Facebook pictures or captions in the intake for this dasakam"
-    }
+  "caption_policy": "Caption prose following each explicit #N label is preserved verbatim as commentary_en for the corresponding stanza. Formatting-only cleanup: whitespace surrounding the prose and a terminal Facebook “See less” UI label are removed from commentary_en; the complete caption remains preserved in intake/D082/photo-captions.txt and intake/D082/facebook-source.json.",
+  "commentary_cleanup": {
+    "9": [
+      "trailing-facebook-ui-label-removed:See less"
+    ],
+    "10": [
+      "trailing-facebook-ui-label-removed:See less"
+    ]
+  },
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "002.jpg",
+    "3": "003.jpg",
+    "4": "004.jpg",
+    "5": "005.jpg",
+    "6": "006.jpg",
+    "7": "007.jpg",
+    "8": "008.jpg",
+    "9": "009.jpg",
+    "10": "010.jpg"
+  },
+  "stanza_gaps": {},
+  "intake_sha256": {
+    "001.jpg": "533c7988b3a082a55264636a05a5591dbaad67c5457238725ab8a38d0a802ab7",
+    "002.jpg": "e28ee4163d79cd7f64f0e46add0df274e41fdd4a5c3fb40fc90a9345982ed5f6",
+    "003.jpg": "0b7fde916054cd9fc95bc16128ff20018a99c315a77df73cd276e2c49834262c",
+    "004.jpg": "ef025af654662106ed0b34e364fbeed1f649e4e5b0116e81b1ff0f6a346c229c",
+    "005.jpg": "7d0f209f90b8a3855ddf03be70d4e185b977c333433b7ace61045c69d07ac4a9",
+    "006.jpg": "2281808fb806478f1f3b27e561b9e50c3aa260887caea9591dc2897900aa570a",
+    "007.jpg": "c2705a2e575eea36f970c9c38bee004f0fb3ce210a102f50c317f4a7241fe25e",
+    "008.jpg": "a4c848474b8ab9db3031695159f01dc6b79a5563792a38bc25eac2c674de4889",
+    "009.jpg": "5e4388cb621886c1adfdceb11409d642bcf09cb6671b13ca8441aa041685e625",
+    "010.jpg": "d7297354dca624d3e18e6051d4145702f04a58136698ff3e6832ef12ca39d6ea",
+    "facebook-post-caption.txt": "52c9d60527d3e9fd4939ab7da8322c900ff1f8eb3f9e6bf7bcf0dcd164460dfe",
+    "facebook-source.json": "37b7e80956c5bfbd73025c97300ab1e7fc37544ca418e1b8eb5edc2e3edcf998",
+    "photo-captions.txt": "0d6b00537fa620375fada97a0f60e21cd789d900611548d7f2010f78f5c862ab"
   }
 }
