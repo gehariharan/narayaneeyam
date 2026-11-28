@@ -655,6 +655,10 @@ D049 contains ten stanza-mapped, checksum-pinned native landscape comparisons in
 
 With D049 added to current main alongside D030, D045, and D097, the selection union contains 51 chapters, 526 stanza rows, 1,071 review media inputs, and 532 generated selections (69 historical and 463 individually inspected).
 
+## Dasakam 54
+
+D054 contains ten native landscape comparison candidates in `art/batches/d054-comparison-v012.json`, one per canonical stanza, each paired with numbered intake photo 001–010 and its caption from `intake/D054/photo-captions.txt` and pinned by SHA-256 to the plan `art/plans/d054.json`. Selected versions are S001 v005, S002 v010, S003 v005, S004 v010, S005 v004, S006 v012, S007 v014, S008 v009, S009 v008 and S010 v009; the full candidate history is in `art/batches/d054-candidate-versions-v014.json`. Producer inspections are in `art/reviews/d054-s*-producer-review-*.md`, and every selection has an independent exact-checksum pass in `art/reviews/d054-targeted-independent-review-*-v001.md` and `art/reviews/visual-reviews.json`; disclosed observations are kept in the batch review notice. Candidates remain unapproved and portraits are paused. Upload only D054 review derivatives with `node review-site/scripts/upload.mjs --daskam=54` before the serialized Worker deployment. With D054 added, the selection union contains 52 chapters, 536 stanza rows, 1,091 review media inputs and 542 generated selections (69 historical and 473 individually inspected).
+
 ## Dasakam 44
 
 D044 contains ten landscape comparison rows matched to its ten numbered source
