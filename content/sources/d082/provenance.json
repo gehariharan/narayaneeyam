@@ -8,17 +8,19 @@
       "role": "sanskrit",
       "publisher": "Stotra Nidhi",
       "url": "https://stotranidhi.com/hi/narayaneeyam-dasakam-82-in-sanskrit/",
+      "status": "existing transcription compared stanza by stanza with publisher page; unchanged.",
       "raw": "artifacts/d082/source-captures/stotranidhi-sanskrit.html",
       "sha256": "3c66980ac4ee69ab0ff42dbcb4efdb07f0916bad912904136c56acb4134ebee5",
-      "retrieval_note": "10 numbered Devanagari stanzas transcribed stanza by stanza from the page paragraphs; publisher spelling and line-break hyphenation retained."
+      "retrieval_note": "10 numbered Devanagari stanzas transcribed stanza by stanza from the page paragraphs; publisher spelling and line-break hyphenation retained. Existing transcription checked against the current publisher page; no differences found."
     },
     {
       "role": "romanization",
       "publisher": "Stotra Nidhi",
       "url": "https://stotranidhi.com/en/narayaneeyam-dasakam-82-in-english/",
+      "status": "existing IAST transcription compared stanza by stanza with publisher page; unchanged.",
       "raw": "artifacts/d082/source-captures/stotranidhi-romanization.html",
       "sha256": "79894650d00d536786ccac8692d5ad534f59a89c2fce2c4b83b1e893dcd7db88",
-      "retrieval_note": "10 numbered IAST stanzas transcribed from the parallel publisher page."
+      "retrieval_note": "10 numbered IAST stanzas transcribed from the parallel publisher page. Existing transcription checked against the current publisher page; no differences found."
     },
     {
       "role": "translation",
@@ -27,10 +29,41 @@
     },
     {
       "role": "commentary",
-      "path": "",
-      "status": "no intake captions exist for this dasakam; commentary_en left empty."
+      "path": "intake/D082/photo-captions.txt",
+      "sha256": "0d6b00537fa620375fada97a0f60e21cd789d900611548d7f2010f78f5c862ab",
+      "status": "captions #1-#10 preserved as commentary, not treated as translation; only terminal Facebook UI labels removed from two commentary fields."
+    },
+    {
+      "role": "reference_photos",
+      "path": "intake/D082/",
+      "manifest": "content/sources/d082/reference-map.json",
+      "status": "10 source photos copied byte-exact from the provided Facebook export; every photo mapped by its own #N caption to stanza N."
     }
   ],
+  "facebook_source": {
+    "path": "intake/D082/facebook-source.json",
+    "sha256": "37b7e80956c5bfbd73025c97300ab1e7fc37544ca418e1b8eb5edc2e3edcf998",
+    "post_caption_path": "intake/D082/facebook-post-caption.txt",
+    "post_caption_sha256": "52c9d60527d3e9fd4939ab7da8322c900ff1f8eb3f9e6bf7bcf0dcd164460dfe",
+    "post_url": "https://www.facebook.com/groups/2389815427810388/posts/27812437428454838/",
+    "poster": "Visalakshi Selvaraj",
+    "post_date": "2026-11-27"
+  },
+  "intake_file_sha256": {
+    "001.jpg": "533c7988b3a082a55264636a05a5591dbaad67c5457238725ab8a38d0a802ab7",
+    "002.jpg": "e28ee4163d79cd7f64f0e46add0df274e41fdd4a5c3fb40fc90a9345982ed5f6",
+    "003.jpg": "0b7fde916054cd9fc95bc16128ff20018a99c315a77df73cd276e2c49834262c",
+    "004.jpg": "ef025af654662106ed0b34e364fbeed1f649e4e5b0116e81b1ff0f6a346c229c",
+    "005.jpg": "7d0f209f90b8a3855ddf03be70d4e185b977c333433b7ace61045c69d07ac4a9",
+    "006.jpg": "2281808fb806478f1f3b27e561b9e50c3aa260887caea9591dc2897900aa570a",
+    "007.jpg": "c2705a2e575eea36f970c9c38bee004f0fb3ce210a102f50c317f4a7241fe25e",
+    "008.jpg": "a4c848474b8ab9db3031695159f01dc6b79a5563792a38bc25eac2c674de4889",
+    "009.jpg": "5e4388cb621886c1adfdceb11409d642bcf09cb6671b13ca8441aa041685e625",
+    "010.jpg": "d7297354dca624d3e18e6051d4145702f04a58136698ff3e6832ef12ca39d6ea",
+    "facebook-post-caption.txt": "52c9d60527d3e9fd4939ab7da8322c900ff1f8eb3f9e6bf7bcf0dcd164460dfe",
+    "facebook-source.json": "37b7e80956c5bfbd73025c97300ab1e7fc37544ca418e1b8eb5edc2e3edcf998",
+    "photo-captions.txt": "0d6b00537fa620375fada97a0f60e21cd789d900611548d7f2010f78f5c862ab"
+  },
   "intake_manifest": "content/sources/d082/reference-map.json",
   "note": "Prepared for painting production: canonical text, caption commentary and reference mapping only. No art plan, candidate, review or approval exists yet. Editorial review remains pending."
 }
