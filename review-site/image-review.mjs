@@ -115,13 +115,27 @@ async function validateImages(root, images, { final = false, publicationExceptio
     const plan = await readJson(root, planPath);
     const scene = plan.stanzas.find(stanza => stanza.n === image.sloka);
     if (!scene) throw new Error(`Missing scene contract: ${where}`);
+    const seriesRef = plan.series_bible_ref;
+    if (seriesRef !== undefined && (typeof seriesRef !== 'string' || !/^art\/bible\/series-amendment-v\d{3}\.json$/.test(seriesRef))) throw new Error(`Invalid versioned series amendment reference: ${where}`);
+    if (seriesRef) {
+      const amendment = await readJson(root, seriesRef);
+      if (amendment.id !== path.basename(seriesRef, '.json')) throw new Error(`Series amendment id does not match ${seriesRef}: ${where}`);
+    }
+    const characterBindings = plan.character_bible_bindings ?? {};
+    if (!characterBindings || typeof characterBindings !== 'object' || Array.isArray(characterBindings)) throw new Error(`Invalid versioned character contract bindings: ${where}`);
+    for (const [id, file] of Object.entries(characterBindings)) {
+      if (!/^art\/bible\/characters\/[a-z0-9-]+\/character-v\d{3}\.json$/.test(file)) throw new Error(`Invalid versioned character contract reference for ${id}: ${where}`);
+      const character = await readJson(root, file);
+      if (character.id !== id) throw new Error(`Character contract ${file} does not identify ${id}: ${where}`);
+    }
     if (!Array.isArray(review.contracts)) throw new Error(`Missing scene/character contracts: ${where}`);
     const plannedCharacterRefs = plan.character_bible_refs;
-    const characterFiles = Array.isArray(plannedCharacterRefs)
+    const characterFiles = (Array.isArray(plannedCharacterRefs)
       ? plannedCharacterRefs
-      : (scene.characters || []).map(id => `art/bible/characters/${id}/character.json`);
+      : (scene.characters || []).map(id => characterBindings[id] ?? `art/bible/characters/${id}/character.json`))
+      .concat((scene.characters || []).map(id => characterBindings[id]).filter(Boolean));
     if (plannedCharacterRefs !== undefined && (!Array.isArray(plannedCharacterRefs) || plannedCharacterRefs.some(file => !nonempty(file) || !file.startsWith('art/bible/characters/')))) throw new Error(`Invalid planned character contract references: ${where}`);
-    const required = ['art/bible/series.json', planPath, ...characterFiles];
+    const required = ['art/bible/series.json', ...(seriesRef ? [seriesRef] : []), planPath, ...new Set(characterFiles)];
     for (const file of required) {
       if (!review.contracts.some(item => item.path === file)) throw new Error(`Missing or stale contract ${file}: ${where}`);
     }
@@ -133,6 +147,7 @@ async function validateImages(root, images, { final = false, publicationExceptio
     // A plan may bind a chapter-scoped contract that covers several scene characters.
     // Require each cast member to be covered by a bound direct sheet or such an aggregate.
     for (const id of scene.characters || []) {
+      if (characterBindings[id] && characterFiles.includes(characterBindings[id])) continue;
       const direct = `art/bible/characters/${id}/character.json`;
       if (characterFiles.includes(direct)) continue;
       let covered = false;

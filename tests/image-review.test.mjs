@@ -85,6 +85,25 @@ test('valid evidence permits the selected version with documented deity anatomy'
   assert.ok(html.includes('Visually inspected candidate'));
   assert.ok(html.includes('not art approval'));
 });
+test('a plan binds versioned series and character amendments to exact review hashes', async t => {
+  const f = await fixture(t);
+  const seriesRef = 'art/bible/series-amendment-v001.json';
+  const characterRef = 'art/bible/characters/brahma/character-v002.json';
+  const plan = JSON.parse(await fs.readFile(path.join(f.root, 'art/plans/d001.json'), 'utf8'));
+  plan.series_bible_ref = seriesRef;
+  plan.character_bible_bindings = { brahma: characterRef };
+  await f.write('art/plans/d001.json', plan);
+  await f.write(seriesRef, { id: 'series-amendment-v001', human_skin_tolerance: { accepted_up_to_approx: 140 } });
+  await f.write(characterRef, { id: 'brahma', heads: 4, arms: 4, visible_faces: 3 });
+  const contracts = f.review.contracts.filter(binding => binding.path !== 'art/plans/d001.json');
+  for (const file of ['art/plans/d001.json', seriesRef, characterRef]) {
+    contracts.push({ path: file, sha256: sha256(await fs.readFile(path.join(f.root, file))) });
+  }
+  await f.save([{ ...f.review, contracts }]);
+  assert.equal((await validateBundle(f.root, f.directory)).images.length, 1);
+  await f.write(seriesRef, { id: 'series-amendment-v001', human_skin_tolerance: { accepted_up_to_approx: 141 } });
+  await assert.rejects(validateBundle(f.root, f.directory), /stale contract/);
+});
 test('missing review, reviewer, report, or rubric observation blocks publication', async t => {
   for (const mutate of [r => [], r => [{ ...r, reviewer: '' }], r => [{ ...r, evidence: [] }], r => [{ ...r, checks: { ...r.checks, faces: { status: 'pass', observations: '' } } }]]) {
     const f = await fixture(t);

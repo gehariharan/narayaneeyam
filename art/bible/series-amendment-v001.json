@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "series-amendment-v001",
+  "decision_date": "2026-11-28",
+  "authority": "Captain decision",
+  "scope": "Human skin palette review for plans that explicitly bind this amendment.",
+  "precedence": "For bound plans, this decision supersedes older numeric red-minus-blue ceilings for human skin in shared character contracts or scene prompts. Preserve all non-skin rules and checks.",
+  "human_skin_tolerance": {
+    "appearance": "Human skin should read as warm brown.",
+    "measurement": "Skin-only patch median red-minus-blue (R-B).",
+    "accepted_up_to_approx": 140,
+    "acceptance_condition": "Values up to about 140 are acceptable when the skin still reads as warm brown.",
+    "above_threshold": "Anything above about 140 needs a redraw."
+  }
+}
