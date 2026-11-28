@@ -64,8 +64,9 @@ assert.equal(Object.keys(data.assets).length,expectedMedia+new Set(previousPaint
  }}
 const generatedSelected=data.chapters.flatMap(c=>c.rows.flatMap(r=>r.images)).filter(i=>i.role!=='reference');
 assert.equal(generatedSelected.length,expectedGenerated);
-assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='historical').length,69);
-assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,expectedGenerated-69);
+// D030 S006 v015 is historical under the captain-directed publication exception.
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='historical').length,70);
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,expectedGenerated-70);
 const d11=data.chapters.find(c=>c.id===11);
 assert.deepEqual(d11.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 assert.ok(d11.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
