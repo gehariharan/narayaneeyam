@@ -49,21 +49,6 @@ for (const fileName of files) {
   }
   if (!(await exists(provenancePath))) warnings.push(`${slug}: source provenance is missing`);
 
-  const hasPlan = await exists(planPath);
-  const hasApproval = await exists(approvalPath);
-  if (!hasPlan && !hasApproval) {
-    for (const stanza of content.stanzas) {
-      const itemLabel = label(content.id, stanza.n);
-      for (const field of ['sanskrit', 'stanza_roman', 'translation_en', 'commentary_en']) {
-        if (!stanza[field]?.trim()) warnings.push(`${itemLabel}: ${field} is empty`);
-        if (stanza[field]?.includes('\uFFFD')) errors.push(`${itemLabel}: ${field} contains replacement characters`);
-      }
-      if (stanza.review_status !== 'approved') incomplete.push(`${itemLabel}: editorial review is ${stanza.review_status ?? 'unset'}`);
-      incomplete.push(`${itemLabel}: artwork planning has not started`);
-    }
-    continue;
-  }
-
   let plan;
   let approval;
   try { plan = await readJson(planPath); } catch { errors.push(`${slug}: missing or invalid art plan`); }
