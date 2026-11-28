@@ -7,7 +7,7 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
-import { validateSelections, validateBundle, reviewFor, reviewChecks, sha256 } from '../review-site/image-review.mjs';
+import { validateSelections, validateApprovalCandidate, validateBundle, reviewFor, reviewChecks, sha256 } from '../review-site/image-review.mjs';
 import { loadSelections, selectedImages, selectionFiles } from '../review-site/selections.mjs';
 import { renderChapter } from '../review-site/views.mjs';
 
@@ -266,7 +266,7 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 463);
+  assert.equal(labels.length - historicalLabels.length, 462);
   const d097 = selectedImages(batches).filter(image => image.chapter === 97).map(image => reviewFor(validation, image));
   assert.equal(d097.length, 10);
   assert.ok(d097.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
@@ -309,6 +309,49 @@ test('repository historical labels match the preserved audits', async () => {
   const d044 = selectedImages(batches).filter(image => image.chapter === 44).map(image => reviewFor(validation, image));
   assert.equal(d044.length, 10);
   assert.ok(d044.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+});
+
+test('D030 publication exception is limited to the exact live S006 selection and never clears approval', async t => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batches = await loadSelections(root);
+  const batch = batches.find(item => item.selectionFile === 'd030-comparison-v017.json');
+  assert.ok(batch);
+  const image = selectedImages([batch]).find(item => item.chapter === 30 && item.sloka === 6 && item.role === 'matte');
+  const state = reviewFor(await validateSelections(root, [batch]), image);
+  assert.equal(image.version, 'v015');
+  assert.equal(image.sha256, '9f3e440d7869d3f001a0b1e3305890f7c245b76177e5adc5e2733b2d2bf83038');
+  assert.equal(state.status, 'historical');
+  assert.match(state.label, /Captain-directed D030 S009-only revision retains the exact live S006 v015 candidate/);
+  assert.match(state.label, /central crown inset and plaque/);
+  assert.match(state.label, /d030-s006-leave-as-is-s009-priority/);
+  // Final approval reads the exact candidate bytes. Originals are git-ignored, so when they are
+  // absent, bind the persisted needs-fix review to disposable bytes in an isolated root.
+  const hasOriginal = await fs.access(path.join(root, image.file)).then(() => true, () => false);
+  let approvalRoot = root, approvalImage = image;
+  if (!hasOriginal) {
+    approvalRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'narayaneeyam-d030-approval-'));
+    t.after(() => fs.rm(approvalRoot, { recursive: true, force: true }));
+    const bytes = Buffer.from('disposable D030 S006 v015 stand-in bytes');
+    approvalImage = { ...image, sha256: sha256(bytes) };
+    const records = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/visual-reviews.json'), 'utf8'));
+    const matching = records.reviews.filter(review => ['chapter', 'sloka', 'file', 'version', 'sha256'].every(key => review[key] === image[key]));
+    assert.ok(matching.length);
+    for (const review of matching) review.sha256 = approvalImage.sha256;
+    await fs.mkdir(path.join(approvalRoot, 'art/reviews'), { recursive: true });
+    await fs.mkdir(path.dirname(path.join(approvalRoot, image.file)), { recursive: true });
+    await fs.writeFile(path.join(approvalRoot, image.file), bytes);
+    await fs.writeFile(path.join(approvalRoot, 'art/reviews/visual-reviews.json'), JSON.stringify(records));
+    for (const file of ['art/reviews/historical-selection.json', 'art/reviews/audit-index.json']) await fs.copyFile(path.join(root, file), path.join(approvalRoot, file));
+  }
+  await assert.rejects(validateApprovalCandidate(approvalRoot, approvalImage), /Unresolved defects or uncertainty: 30\/6\/matte\/v015/);
+
+  const changed = structuredClone(batch);
+  changed.rows.find(row => row.n === 6).matte.sha256 = '0'.repeat(64);
+  await assert.rejects(validateSelections(root, [changed]), /Missing or stale visual inspection: 30\/6\/matte\/v015/);
+
+  const changedRevision = structuredClone(batch);
+  changedRevision.rows.find(row => row.n === 9).matte.sha256 = '0'.repeat(64);
+  await assert.rejects(validateSelections(root, [changedRevision]), /Unresolved defects or uncertainty: 30\/6\/matte\/v015/);
 });
 
 test('D031 selection binds its eleven mapped sources and ten inspected native candidate versions to the plan and cast contracts', async () => {
@@ -404,6 +447,57 @@ test('D029 selection pins ten source and native candidates with exact passing re
   const states = selectedImages([batch]).map(image => reviewFor(validation, image));
   assert.equal(states.length, 10);
   assert.ok(states.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
+});
+
+test('D030 S009 revision pins the middle-ground gesture to its updated plan without changing other selections', async () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batches = await loadSelections(root);
+  const prior = JSON.parse(await fs.readFile(path.join(root, 'art/batches/d030-comparison-v013.json'), 'utf8'));
+  const current = batches.find(item => item.selectionFile === 'd030-comparison-v017.json');
+  const planBytes = await fs.readFile(path.join(root, 'art/plans/d030.json'));
+  const plan = JSON.parse(planBytes);
+  const reviewFile = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/visual-reviews.json'), 'utf8'));
+  const captainDecisions = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/d030-captain-decisions.json'), 'utf8'));
+  assert.ok(prior && current);
+  assert.equal(current.daskam_id, 30);
+  assert.equal(current.review_status, 'needs-review');
+  assert.equal(current.rows.length, 10);
+  assert.equal(current.plan_sha256, sha256(planBytes));
+  assert.equal(current.rows[8].n, 9);
+  assert.equal(current.rows[8].scene, plan.stanzas[8].alt);
+  assert.equal(current.rows[8].matte.file, 'artifacts/d030/s009/landscape/candidate-v014.png');
+  assert.equal(current.rows[8].matte.version, 'v014');
+  assert.match(current.rows[8].candidate_status, /vessel-hand patch.*R−B 119/);
+  assert.equal(current.publication_exceptions.length, 1);
+  for (const row of current.rows.filter(item => item.n !== 9)) {
+    const before = prior.rows.find(item => item.n === row.n);
+    assert.deepEqual({ ...row, candidate_status: undefined }, { ...before, candidate_status: undefined });
+  }
+  assert.equal(captainDecisions.decisions[0].words, '2 keep current picture');
+  assert.equal(captainDecisions.decisions[0].sloka, 6);
+  assert.equal(captainDecisions.decisions[0].review_outcome, 'needs-fix');
+  assert.equal(captainDecisions.decisions[0].art_approval, false);
+  const active = captainDecisions.decisions.filter(item => item.status === 'active');
+  assert.equal(active.length, 1);
+  assert.equal(active[0].words, 's6 ask was should we have brahma or not hte not a fix on the emblem, i suggest we leave s006 as is for now and fix the s009 as priority ..');
+  assert.equal(active[0].sloka, 6);
+  assert.equal(active[0].selected_version, 'v015');
+  assert.equal(active[0].art_approval, false);
+  assert.equal(captainDecisions.decisions[0].status, 'superseded');
+  assert.equal(captainDecisions.decisions[0].superseded_by_decision, active[0].id);
+  for (const row of current.rows) {
+    const review = reviewFile.reviews.find(item => item.chapter === 30 && item.sloka === row.n && item.file === row.matte.file && item.version === row.matte.version && item.sha256 === row.matte.sha256);
+    assert.ok(review, `fresh exact-checksum review for S${String(row.n).padStart(3, '0')}`);
+    assert.ok(review.contracts.some(item => item.path === 'art/plans/d030.json' && item.sha256 === current.plan_sha256));
+    if (row.n === 6) {
+      assert.equal(review.outcome, 'needs-fix');
+      assert.match(review.findings[0].observed, /central crown band/);
+      assert.match(review.findings[0].repair, /2 keep current picture/);
+    } else {
+      assert.equal(review.outcome, 'pass');
+      assert.deepEqual(review.findings, []);
+    }
+  }
 });
 
 test('D043 selection binds its ten source and native candidate versions', async () => {
