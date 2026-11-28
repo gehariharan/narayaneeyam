@@ -42,7 +42,7 @@ const expectedGenerated=selectedImages(selectionBatches).length;
 const expectedRows=selectionBatches.reduce((sum,b)=>sum+b.rows.length,0);
 const expectedMedia=expectedGenerated+selectionBatches.reduce((sum,b)=>sum+b.rows.reduce((n,r)=>n+(r.references||(r.reference?[r.reference]:[])).length,0),0);
 // These painted dasakams stay painted; a newly added one needs only its selection (review:add-dasakam).
-for(const id of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,62,63,64,65,66,67,72,94,95,96,97,98,99,100])assert.ok(data.chapters.some(c=>c.id===id),`Dasakam ${id} is no longer painted`);
+for(const id of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,54,62,63,64,65,66,67,72,94,95,96,97,98,99,100])assert.ok(data.chapters.some(c=>c.id===id),`Dasakam ${id} is no longer painted`);
 assert.deepEqual(data.chapters.map(c=>c.id),selectionBatches.map(b=>b.daskam_id).sort((a,b)=>a-b));
 assert.equal(data.chapters.reduce((sum,c)=>sum+c.rows.length,0),expectedRows);
 // Dasakams with content but no selected batch are awaiting-painting cards: reference photos (checked
@@ -492,6 +492,33 @@ assert.ok(full62.rows[5].images.find(i=>i.role==='matte').inspectionLabel.includ
 assert.equal((await feedback(req({...good,daskam:62,sloka:10}),env)).status,201);assert.equal(JSON.parse(written.args[8]).length,1);
 assert.equal((await feedback(req({...good,daskam:62,sloka:11}),env)).status,400);
 console.log('Passed: D062 has ten caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
+
+const full54=data.chapters.find(c=>c.id===54);assert.ok(full54);assert.deepEqual(full54.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
+const content54=JSON.parse(await fs.readFile(new URL('../../content/daskams/d054.json',import.meta.url)));
+const selected54=JSON.parse(await fs.readFile(new URL('../../art/batches/d054-comparison-v012.json',import.meta.url)));
+const provenance54=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
+const versions54=JSON.parse(await fs.readFile(new URL('../../art/batches/d054-candidate-versions-v014.json',import.meta.url)));
+assert.equal(selected54.rows.length,10);assert.equal(selected54.review_status,'needs-review');assert.ok(full54.reviewNotice.toLowerCase().includes('unapproved'));
+assert.equal(versions54.candidate_versions.filter(candidate=>candidate.selected_for_comparison).length,10);
+for(const row of full54.rows){
+ assert.equal(row.commentarySource,`intake/D054/photo-captions.txt#${row.n}`);
+ assert.equal(row.commentary,content54.stanzas.find(s=>s.n===row.n).commentary_en);
+ assert.deepEqual(row.images.map(i=>i.role),['reference','matte']);
+ const selected=selected54.rows.find(r=>r.n===row.n);
+ assert.ok(selected);
+ for(const role of ['reference','matte'])assert.equal(provenance54.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);
+ assert.equal(row.images.find(i=>i.role==='matte').version,selected.matte.version);
+ assert.equal(row.images.find(i=>i.role==='matte').inspectionStatus,'inspected');
+ assert.equal(selected.independent_review.outcome,'pass');
+ assert.equal(selected.independent_review.candidate_sha256,selected.matte.sha256);
+ assert.match(selected.independent_review.report,/^art\/reviews\/d054-targeted-independent-review-[a-z]+-v001\.md$/);
+}
+assert.ok(full54.rows[5].images.find(i=>i.role==='matte').inspectionLabel.includes('not art approval'));
+assert.equal(selected54.rows[7].matte.version,'v009');
+assert.equal(selected54.rows[7].independent_review.reviewer,'Independent reviewer (D054 review H)');
+assert.equal((await feedback(req({...good,daskam:54,sloka:10}),env)).status,201);
+assert.equal((await feedback(req({...good,daskam:54,sloka:11}),env)).status,400);
+console.log('Passed: D054 has ten caption-mapped, exact-hash reference/candidate pairs with inspected, unapproved selections and stanza-bounded feedback.');
 
 const full97=data.chapters.find(c=>c.id===97);assert.ok(full97);assert.deepEqual(full97.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 const content97=JSON.parse(await fs.readFile(new URL('../../content/daskams/d097.json',import.meta.url)));

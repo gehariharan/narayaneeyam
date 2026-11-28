@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "chapter": 54,
+  "sloka": 8,
+  "candidate_sha256": "08efa9c8621a7772353c47d1fbc0d4b15f2bf921f4dfaabab92f52ad5f7212c4",
+  "note": "Exact prior producer and independent review records preserved before the Firstmate-directed S008 plan revision. Their scene finding about cattle expressions applied to the previous plan.",
+  "records": [
+    {
+      "chapter": 54,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d054/s008/landscape/candidate-v009.png",
+      "version": "v009",
+      "sha256": "08efa9c8621a7772353c47d1fbc0d4b15f2bf921f4dfaabab92f52ad5f7212c4",
+      "reviewer": "Codex producer review (D054 production)",
+      "inspected_at": "2026-11-28T06:50:39Z",
+      "method": "individual-native-resolution-and-focused-crops",
+      "outcome": "uncertain",
+      "anatomy_basis": "Krishna is a two-armed, two-legged youthful human; the four cattle are ordinary four-legged bovines.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d054.json",
+          "sha256": "2ca7d710b06874c0fc8558b6d4dd92f4f027b5d9a4d06ae5746be15906cb79e4"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d054-cattle/character.json",
+          "sha256": "deca33ca2cad0cfe51fd1ed7edd87ac7a960e5a89cf108465875b731fe43acc5"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d054-s008-landscape-v009-producer-review-v001.md",
+          "sha256": "906e30da8e526f87532fc3028a7b69bb552c4944e62fcd2d9b7bfb3d1b2d5d51"
+        },
+        {
+          "path": "artifacts/d054/review-crops/s008-v009/krishna-face.png",
+          "sha256": "a11a136547d266865e7f6f69e5f845fc423324fc82f5166fa54f4713b6068bf5"
+        },
+        {
+          "path": "artifacts/d054/review-crops/s008-v009/krishna-viewer-left-hand-8x.png",
+          "sha256": "c9cb1497bfce1c71c4eeb8acd9fb1baef8418c5ba47f28a4e73786e8273ef64a"
+        },
+        {
+          "path": "artifacts/d054/review-crops/s008-v009/krishna-viewer-right-hand-8x.png",
+          "sha256": "5264c185db43c1d5f2d3da3955aefb448a203296620fa0f55912e659622e1ff4"
+        },
+        {
+          "path": "artifacts/d054/review-crops/s008-v009/krishna-viewer-left-foot-8x.png",
+          "sha256": "ede020cae831971a07f0bd332f938f4d36d25862f58891677168514561692c9c"
+        },
+        {
+          "path": "artifacts/d054/review-crops/s008-v009/krishna-viewer-right-foot-point8x.png",
+          "sha256": "e2c7652d1ae238b88dbf8010e206af099121846d5a5a8aeb8ecc5582fafa5d82"
+        },
+        {
+          "path": "artifacts/d054/review-crops/s008-v009/lower-frame.png",
+          "sha256": "6c71331632ffd5f571ea2856f09f0dec54185a204815ca24c86ac0d0df050361"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "uncertain",
+          "observations": "Both contact hands show a thumb plus four fingers. The viewer-left front foot has five visible toe tips; the angled viewer-right foot has four clear tips and a possible fifth cannot be confirmed in the focused view."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna has two attached arms and two connected legs; the full figure and both feet sit inside the frame. The four cattle heads, bodies and visible legs remain distinct and attached."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna has one clear youthful face, plain smooth forehead, low band and one feather; no malformed face is visible."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Krishna and four distinct cattle are visible; no duplicate or fused person or animal is apparent."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No text, signature, logo, watermark or border is visible."
+        },
+        "scene_style_continuity": {
+          "status": "pass",
+          "observations": "The image follows the planned recovered-herd scene, omits source-photo wildlife, watermark and unsupported halo, and keeps a matte mural treatment. Krishna cheek B−R is 101 and chest B−R is 106."
+        }
+      },
+      "findings": [
+        {
+          "id": "D054-S008-V009-TOES-01",
+          "severity": "medium",
+          "confidence": "medium",
+          "status": "uncertain",
+          "observed": "The angled viewer-right foot shows four clearly separated toe tips; a fifth toe is not identifiable, though overlap may hide it. The other foot shows five distinct tips.",
+          "repair": "Request targeted independent exact-checksum assessment; no further S008 generation is authorized by the current allowance."
+        }
+      ]
+    },
+    {
+      "chapter": 54,
+      "sloka": 8,
+      "role": "matte",
+      "file": "artifacts/d054/s008/landscape/candidate-v009.png",
+      "version": "v009",
+      "sha256": "08efa9c8621a7772353c47d1fbc0d4b15f2bf921f4dfaabab92f52ad5f7212c4",
+      "reviewer": "Independent reviewer (D054 review F)",
+      "inspected_at": "2026-11-28T07:03:04Z",
+      "method": "individual-native-resolution-and-focused-crops",
+      "outcome": "needs-fix",
+      "anatomy_basis": "Krishna is a youthful two-armed, two-legged human; the four cattle are ordinary four-legged bovines.",
+      "contracts": [
+        {
+          "path": "art/bible/series.json",
+          "sha256": "cd883d8f451aa26812932ed2f35332d677e52cb7dd905e1d0972b17c92f07aaa"
+        },
+        {
+          "path": "art/plans/d054.json",
+          "sha256": "2ca7d710b06874c0fc8558b6d4dd92f4f027b5d9a4d06ae5746be15906cb79e4"
+        },
+        {
+          "path": "art/bible/characters/krishna-vrindavan-youth/character.json",
+          "sha256": "bde3b6c529fbf0c2fbf24d7c553cc1df1050a6f9aab3a2417b3624912770db2d"
+        },
+        {
+          "path": "art/bible/characters/d054-cattle/character.json",
+          "sha256": "deca33ca2cad0cfe51fd1ed7edd87ac7a960e5a89cf108465875b731fe43acc5"
+        }
+      ],
+      "evidence": [
+        {
+          "path": "art/reviews/d054-targeted-independent-review-f-v001.md",
+          "sha256": "9bc44558b899ad1b905101a03acc3b82155b183b84174be13a618b9e6c1ebb11"
+        }
+      ],
+      "checks": {
+        "limbs_hands_feet": {
+          "status": "pass",
+          "observations": "Both contact hands have four separated finger ends; thumb/contact edges are partly hidden by the calves with no extra or fused digit. One Krishna foot has five toe tips; the other has four separately outlined tips, with the fifth not resolved at this scale and recorded as a scale limitation, not a confirmed defect. Neither leg nor foot is cropped."
+        },
+        "attachment_proportions": {
+          "status": "pass",
+          "observations": "Krishna has two attached arms and two connected legs. The four cattle heads, bodies, legs and tails read as connected and distinct."
+        },
+        "faces": {
+          "status": "pass",
+          "observations": "Krishna is calm and youthful; the four cattle have distinct, gently smiling faces without malformed or duplicated features."
+        },
+        "duplication_fusion": {
+          "status": "pass",
+          "observations": "One Krishna and four distinct cattle are present, with no fused or duplicated bodies."
+        },
+        "text_artifacts": {
+          "status": "pass",
+          "observations": "No readable text, signature, logo, watermark or border is present."
+        },
+        "scene_style_continuity": {
+          "status": "needs-fix",
+          "observations": "None of the cattle shows the planned moist-eye/tear detail; all four mouths are closed smile lines rather than open lowing mouths. The rest of the scene follows the plan."
+        }
+      },
+      "findings": [
+        {
+          "id": "D054-S008-V009-EXPRESSIONS-01",
+          "severity": "medium",
+          "confidence": "high",
+          "status": "needs-fix",
+          "observed": "At native resolution and enlarged face crops, all four cattle mouths are closed curved smile lines and no moist-eye/tear detail is visible.",
+          "repair": "Add visible moist or tearful eyes and gently open lowing mouths to all four cattle, changing no other scene content."
+        }
+      ]
+    }
+  ]
+}

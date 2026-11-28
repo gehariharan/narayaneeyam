@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "daskam_id": 54,
+  "slug": "d054",
+  "chapter_label": "Dasakam 54",
+  "review_status": "needs-review",
+  "continuity": {
+    "anchor_character": "krishna-vrindavan-youth",
+    "recurring_characters": [
+      "Saubhari",
+      "Garuda",
+      "Kaliya",
+      "Krishna",
+      "Gokula cowherds",
+      "Kalindi cattle"
+    ],
+    "locations": [
+      "Kalindi river",
+      "Yamuna forest and riverbank",
+      "Guruvayur devotional closing"
+    ],
+    "narrative_arc": "Saubhari’s penance and curse lead Kaliya into the Kalindi; the serpent’s poison damages life; Krishna restores the cowherds and cattle, and the closing verse becomes Bhattathiri’s prayer for protection.",
+    "rendering_references": [
+      "artifacts/d001/s004/landscape/master.png",
+      "artifacts/d001/s008/landscape/master.png"
+    ],
+    "palette_arc": "Matte mineral earth ochre, deep maroon, warm cream, muted olive, dark contour brown, and deep indigo-blue Krishna. Human skin stays warm brown (skin-only patch median red-minus-blue below 120); Krishna skin stays deep indigo-blue (blue-minus-red at least 40). No outer border, orange skin, glossy shading, gold reflection, rays, or beams.",
+    "reference_mapping": "Each numbered Facebook caption #1–#10 maps to canonical stanza #1–#10; the visible content of photos #2, #7, #9, and #10 is substantially mismatched or incomplete, while photo #1 is a split context collage. Photos #3–#6 and #8 align thematically. All prompts follow canonical Sanskrit. All three nostanza files are non-scene Tamil text pages; no canonical stanza is uncovered, so none is used.",
+    "reference_inventory": {
+      "map_file": "content/sources/d054/reference-map.json",
+      "caption_number_mapping": [
+        {
+          "stanza": 1,
+          "caption_anchor": "photo-captions.txt#1",
+          "path": "intake/D054/001.jpg",
+          "sha256": "2f81060237df11c5e5853ac1efed8717de07cc0156e90e8616878de5faaf5e90"
+        },
+        {
+          "stanza": 2,
+          "caption_anchor": "photo-captions.txt#2",
+          "path": "intake/D054/002.jpg",
+          "sha256": "b5bd5cd1c798b704418d59addda2215e8328b3d0067673b895591cc4261fa4e7"
+        },
+        {
+          "stanza": 3,
+          "caption_anchor": "photo-captions.txt#3",
+          "path": "intake/D054/003.jpg",
+          "sha256": "7e45e87b6e60a94e48870609bdb0b4853245384c494f4d8f387d524ed6604ba4"
+        },
+        {
+          "stanza": 4,
+          "caption_anchor": "photo-captions.txt#4",
+          "path": "intake/D054/004.jpg",
+          "sha256": "cedf5cc294116beb785426380717878ed6fd5a35363a4c8239acf9e4eef8c777"
+        },
+        {
+          "stanza": 5,
+          "caption_anchor": "photo-captions.txt#5",
+          "path": "intake/D054/005.jpg",
+          "sha256": "5538be428ed2a93ed62cc6affd615cf2fb677d4231f71f22334d161ad5d6ea83"
+        },
+        {
+          "stanza": 6,
+          "caption_anchor": "photo-captions.txt#6",
+          "path": "intake/D054/006.jpg",
+          "sha256": "29814b71efd79e6a0a466083cd39482644c7775fe646a0e8b62e43afefa75802"
+        },
+        {
+          "stanza": 7,
+          "caption_anchor": "photo-captions.txt#7",
+          "path": "intake/D054/007.jpg",
+          "sha256": "42cd7b1737b1aa23b80a9fb0efc5f20b09d5fd8617bd88efb873de891f7026f6"
+        },
+        {
+          "stanza": 8,
+          "caption_anchor": "photo-captions.txt#8",
+          "path": "intake/D054/008.jpg",
+          "sha256": "8e770fae4ede88e10e74653db6daf774e59cc0a431880e8b1aa41006080f8a04"
+        },
+        {
+          "stanza": 9,
+          "caption_anchor": "photo-captions.txt#9",
+          "path": "intake/D054/009.jpg",
+          "sha256": "7b0d7096c4d44344d56e6b7a921cbd295c4b935acce3089d2c066561187206a3"
+        },
+        {
+          "stanza": 10,
+          "caption_anchor": "photo-captions.txt#10",
+          "path": "intake/D054/010.jpg",
+          "sha256": "98de092eba904fe7a09498786a641ae337dcf054b51e2cf54325ff745a039844"
+        }
+      ],
+      "second_photo_mappings": [],
+      "stanza_gaps": [],
+      "mismatches": [
+        {
+          "stanza": 1,
+          "path": "intake/D054/001.jpg",
+          "finding": "Split collage combines Saubhari’s penance with Garuda taking a fish, which is the following stanza’s action; retain the sage/Garuda context but recompose stanza 1 as the first sighting."
+        },
+        {
+          "stanza": 2,
+          "path": "intake/D054/002.jpg",
+          "finding": "Shows Saubhari meditating underwater but omits Garuda taking the fish and the curse; use only as sage context."
+        },
+        {
+          "stanza": 7,
+          "path": "intake/D054/007.jpg",
+          "finding": "Shows Krishna playing the flute among seated boys, not the gopas rising and embracing him; use only as broad pastoral context."
+        },
+        {
+          "stanza": 9,
+          "path": "intake/D054/009.jpg",
+          "finding": "Shows a pastoral cow-and-calf scene without the gopas prostrating and praising Krishna; canonical scene controls."
+        },
+        {
+          "stanza": 10,
+          "path": "intake/D054/010.jpg",
+          "finding": "Shows a broad cattle procession, not the closing healing prayer by Bhattathiri; use only as pastoral context."
+        }
+      ],
+      "unmapped_no_stanza": [
+        {
+          "path": "intake/D054/nostanza-01.jpg",
+          "sha256": "51e3fb1b739b052d9010d48ab42154588678958fecc89bc54a61d0a0f17ecbc2",
+          "reason": "No stanza is named in the photo caption. The three uncaptained images are Tamil notebook/printed text pages, not scene pictures; all ten canonical stanzas have a numbered reference."
+        },
+        {
+          "path": "intake/D054/nostanza-02.jpg",
+          "sha256": "c57f227c3ef1391e302b0d2b1d75712c88f6025fb5ee86f175e7e165dd70b609",
+          "reason": "No stanza is named in the photo caption. The three uncaptained images are Tamil notebook/printed text pages, not scene pictures; all ten canonical stanzas have a numbered reference."
+        },
+        {
+          "path": "intake/D054/nostanza-03.jpg",
+          "sha256": "5be3b155c3c264c3d009e8ccea1bf6914254480d918b04864a6de583db396023",
+          "reason": "No stanza is named in the photo caption. The three uncaptained images are Tamil notebook/printed text pages, not scene pictures; all ten canonical stanzas have a numbered reference."
+        }
+      ],
+      "mismatch_details": "The complete observation and caption text for all numbered and nostanza pictures is in content/sources/d054/reference-map.json. Photo 001 is a split collage combining Saubhari and Garuda context; photos 003-006 and 008 broadly align with the captions. All numbered captions #1-#10 map to the matching canonical stanza."
+    }
+  },
+  "character_bible_refs": [
+    "art/bible/characters/d054-saubhari/character.json",
+    "art/bible/characters/d054-kaliya/character.json",
+    "art/bible/characters/garuda/character.json",
+    "art/bible/characters/krishna-vrindavan-youth/character.json",
+    "art/bible/characters/gopas/character.json",
+    "art/bible/characters/d054-cattle/character.json",
+    "art/bible/characters/bhattathiri/character.json"
+  ],
+  "stanzas": [
+    {
+      "n": 1,
+      "concept_id": "d054-s001",
+      "characters": [
+        "d054-saubhari",
+        "garuda"
+      ],
+      "reference_paths": [
+        "intake/D054/001.jpg"
+      ],
+      "reference_guidance": "The caption and stanza both center Saubhari’s underwater penance and sighting of Garuda; the collage compresses the two contexts. Recompose a coherent underwater view; do not copy its split layout.",
+      "caption_anchor": "photo-captions.txt#1",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show Saubhari’s twelve-year penance and affectionate attention to the fish, then his first sight of Garuda above the water.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "Saubhari sits in meditation beneath the clear surface of the Kalindi, with a small fish shoal nearby; Garuda appears overhead at the riverbank, seen by the sage. Keep the underwater and surface layers legible within one continuous landscape scene. No split collage.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "Saubhari sees Garuda at the Kalindi",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d054-s002",
+      "characters": [
+        "d054-saubhari",
+        "garuda"
+      ],
+      "reference_paths": [
+        "intake/D054/002.jpg"
+      ],
+      "reference_guidance": "Caption #2 is mapped by its own label, but the image omits the stanza’s decisive encounter and curse. Use only as Saubhari identity/context; canonical text controls the scene.",
+      "caption_anchor": "photo-captions.txt#2",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show the hungry Garuda taking a fish and Saubhari’s anger and curse that Garuda will lose his life if he consumes creatures there.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "At the river surface, Garuda takes one fish from the water as Saubhari watches from below or the bank and raises a restrained hand in a spoken curse. A few fish remain in the water; avoid graphic injury.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "Saubhari curses Garuda",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d054-s003",
+      "characters": [
+        "d054-kaliya",
+        "garuda"
+      ],
+      "reference_paths": [
+        "intake/D054/003.jpg"
+      ],
+      "reference_guidance": "The image aligns with the pursuit of Kaliya by Garuda; canonical text supplies the prior theft of Garuda’s offering and Kaliya’s refuge in Kalindi.",
+      "caption_anchor": "photo-captions.txt#3",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Kaliya has eaten the share set aside for Garuda; Garuda chases him, and Kaliya enters the otherwise inaccessible Kalindi because Saubhari’s curse keeps Garuda away.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "Garuda drives the proud hooded Kaliya toward the dark waters of Kalindi. Show one continuous serpent body entering the river, with Garuda’s two wings clearly attached. A small ritual offering remains on the bank as context for the cause.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "Kaliya takes refuge in Kalindi",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d054-s004",
+      "characters": [
+        "krishna-vrindavan-youth"
+      ],
+      "reference_paths": [
+        "intake/D054/004.jpg"
+      ],
+      "reference_guidance": "The dead riverbank supports the poisoned-water setting and harm to life; the cartoon rendering and panel number are not style or scene instructions.",
+      "caption_anchor": "photo-captions.txt#4",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show the grim riverbank, damaged trees, falling birds, and Krishna’s compassionate response. Do not show a later Kaliya dance or unmentioned battle.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "A poisoned stretch of Kalindi damages the riverbank: two clearly separate dried trees, a few birds falling toward the ground, and one youthful Krishna watching with compassion from the bank. Do not show Kaliya or a physical poison cloud, halo, or light rays.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "The poisoned river harms the living bank",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d054-s005",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas",
+        "d054-cattle"
+      ],
+      "reference_paths": [
+        "intake/D054/005.jpg"
+      ],
+      "reference_guidance": "The group’s drinking of poisoned Yamuna water on a hot day aligns with the canonical stanza; exclude unsupported staging and use the established Krishna contract.",
+      "caption_anchor": "photo-captions.txt#5",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "The canonical stanza says Krishna left Balarama and the cowherds and cows drank the poisoned water while parched by severe summer heat.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "On a very hot day, young Krishna has entered the Yamuna forest without Balarama. Thirsty cowherds and a modest herd drink from the poisoned river; Krishna is present but does not drink. Show a calm, non-graphic warning moment before collapse.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "The cowherds and cows drink poisoned water",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d054-s006",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas",
+        "d054-cattle"
+      ],
+      "reference_paths": [
+        "intake/D054/006.jpg"
+      ],
+      "reference_guidance": "The fallen devotees and Krishna’s approach support stanza 6; depict the restorative sidelong glance without halo beams or rays.",
+      "caption_anchor": "photo-captions.txt#6",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show the fallen group and Krishna restoring them through compassionate glances. Keep bodies connected and faces distinct; no graphic death or miracle beams.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "Krishna comes close to the fallen cowherds and cows and compassionately restores them with his sidelong glance. Show several figures beginning to rise and breathe; the nectar-like mercy is conveyed through gesture, water, and expression only, with no rays or beams.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "Krishna revives the cowherds and cows",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d054-s007",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D054/007.jpg"
+      ],
+      "reference_guidance": "Caption #7 and stanza #7 describe the boys rising and embracing Krishna after recognizing his rescue; the photograph instead shows a flute scene. Treat as broad identity/context only.",
+      "caption_anchor": "photo-captions.txt#7",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "The gopas have risen and understand Krishna saved them; they embrace him. No flute-playing scene.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "Three distinct adult cowherds rise in wonder at the bliss throughout their bodies, recognize Krishna’s act, and embrace him with natural, connected limbs. Keep the embrace readable and the hands visible only where they can be clearly drawn.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "The cowherds embrace Krishna",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d054-s008",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "d054-cattle"
+      ],
+      "reference_paths": [
+        "intake/D054/008.jpg"
+      ],
+      "reference_guidance": "The cows surrounding Krishna align broadly with stanza 8. Remove the watermark, unrelated wildlife, glossy rendering, and unsupported halo.",
+      "caption_anchor": "photo-captions.txt#8",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "The recovered cows gather around Krishna; gentle smiling faces and nuzzling posture convey their joy. By Firstmate editorial decision, tears and open lowing mouths are deliberately not drawn at this landscape scale.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "A small distinct herd of newly revived cows gathers around Krishna, gazing at him with gentle smiling faces and a nuzzling posture. By Firstmate editorial decision, tears and open lowing mouths are deliberately not drawn at this landscape scale. Krishna remains the single clear youthful figure; keep each animal’s legs and head distinct.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "The revived cows surround Krishna",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d054-s009",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D054/009.jpg"
+      ],
+      "reference_guidance": "Caption #9 maps to this image by its own #9 label, but the image omits the gopas’ wonder, horripilation, prostration, and praise. Use only pastoral context; follow Sanskrit.",
+      "caption_anchor": "photo-captions.txt#9",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "Show the gopas’ wonder at the poison’s effects, their bodily horripilation and bliss, and their prostration and praise before Krishna.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "A few distinct cowherds show gooseflesh and overwhelming joy, then bow at Krishna’s feet with reverent prayer. Keep Krishna’s smooth forehead bare as contracted, and make every visible open hand anatomically clear with a thumb plus four fingers.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "The cowherds praise Krishna after the rescue",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d054-s010",
+      "characters": [
+        "krishna-vrindavan-youth",
+        "bhattathiri",
+        "gopas"
+      ],
+      "reference_paths": [
+        "intake/D054/010.jpg"
+      ],
+      "reference_guidance": "Caption #10 describes the closing prayer for protection from illness; the image is a broad pastoral procession and does not depict Bhattathiri’s prayer or the stanza’s healing request. Use only contextual reference.",
+      "caption_anchor": "photo-captions.txt#10",
+      "scene_brief": {
+        "mode": "traditional matte temple-mural narrative",
+        "must_show": [
+          "The stanza recalls Krishna’s healing mercy toward the restored devotees and closes with Bhattathiri’s prayer to the Lord of Guruvayur for protection from illness.",
+          "Use the Facebook picture only for attributed scene context; canonical Sanskrit controls the scene. Use the flat matte series treatment and preserve character contracts."
+        ],
+        "composition": "A quiet devotional closing scene: Bhattathiri kneels before youthful Krishna, praying for protection and release from illness; two recovered cowherds stand nearby as beneficiaries of the same mercy. Krishna’s compassion is conveyed by a gentle sidelong gaze and an open blessing hand. No halo beams; fingers clear.",
+        "tone": "Devotional, legible and composed, with distinct faces and connected natural anatomy.",
+        "avoid": [
+          "No readable text, captions, signature, logo, watermark, outer border, glossy shading, reflective gold, silk sheen, cinematic beams, rays, or shafts.",
+          "No extra or missing limbs/digits, malformed hands or feet, duplicated or fused people or animals, or detached props.",
+          "Warm human skin remains brown with skin-only patch median red-minus-blue below 120; Krishna skin is deep indigo-blue with blue-minus-red at least 40."
+        ]
+      },
+      "alt": "Bhattathiri prays for healing grace",
+      "orientations": {
+        "landscape": {
+          "aspect_ratio": "16:9",
+          "composition_role": "native landscape review composition",
+          "composition_override": "Independently compose a full-bleed native 16:9 image. Do not crop, extend, or reuse another orientation."
+        },
+        "portrait": {
+          "aspect_ratio": "4:5",
+          "composition_role": "portrait production paused",
+          "composition_override": "Portrait production is paused; do not generate a companion in this batch."
+        }
+      }
+    }
+  ]
+}

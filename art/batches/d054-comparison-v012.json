@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "daskam_id": 54,
+  "description": "Ten stanza-mapped, checksum-pinned D054 landscape candidates for unapproved reference comparison; all ten passed independent exact-checksum visual review against the final plan.",
+  "review_notice": "Unapproved D054 reference comparison. Every row pins an exact candidate checksum. All ten selected candidates have independent exact-checksum pass reviews, including S008 v009 in review H against the revised final plan. Captain decisions on 2026-11-28 accept human skin that reads warm brown up to about R−B 145 and allow a small traditional U-shaped namam on young Krishna; these do not change this chapter plan or its reviewed scene scope. S007’s producer/independent skin readings and S010’s producer concern about a gopa forehead dot remain recorded with the independent passes; the Krishna-specific forehead allowance does not cover the gopa. No art approval.",
+  "review_status": "needs-review",
+  "visual_review_status": "All ten selected candidates have independent exact-checksum pass reviews against the final plan, including S008 v009 in review H. No art approval.",
+  "source_mapping_sha256": "cc4fb8ce78c9a188736655f66a244a8235b75e54b31b1872fefa218daad86bec",
+  "rows": [
+    {
+      "n": 1,
+      "concept_id": "d054-s001",
+      "scene": "Saubhari sits in meditation beneath the clear surface of the Kalindi, with a small fish shoal nearby; Garuda appears overhead at the riverbank, seen by the sage. Keep the underwater and surface layers legible within one continuous landscape scene. No split collage.",
+      "reference": {
+        "file": "intake/D054/001.jpg",
+        "sha256": "2f81060237df11c5e5853ac1efed8717de07cc0156e90e8616878de5faaf5e90",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s001/landscape/candidate-v005.png",
+        "sha256": "c77af5c098349fa39bb03f747ea410a72236f34660761a86a726aae50fbb8a7f",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Independent exact-checksum review passed this exact v005 candidate. Prior producer review noted a borderline chest patch R−B 119; independent review measured R−B 121 and judged the full-frame tone warm russet-brown. Firstmate directed retaining the independently passed version.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "needs-fix",
+        "inspected_at": "2026-11-26T22:54:54Z",
+        "report": "art/reviews/d054-s001-landscape-v005-producer-review-v001.md",
+        "report_sha256": "ded5cbf059a9ed1c87cc025dc0454abe527274cb57e8ea353b2a686ffaf874f3"
+      },
+      "independent_review": {
+        "type": "independent exact-checksum review",
+        "reviewer": "Independent reviewer (D054 review BA)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-26T23:11:32Z",
+        "report": "art/reviews/d054-targeted-independent-review-ba-v001.md",
+        "report_sha256": "c3c32056340a0a8a476f3773dc40b8c16476848487349fc5c5abe23ae01f85e9",
+        "candidate_sha256": "c77af5c098349fa39bb03f747ea410a72236f34660761a86a726aae50fbb8a7f"
+      }
+    },
+    {
+      "n": 2,
+      "concept_id": "d054-s002",
+      "scene": "At the river surface, Garuda takes one fish from the water as Saubhari watches from below or the bank and raises a restrained hand in a spoken curse. A few fish remain in the water; avoid graphic injury.",
+      "reference": {
+        "file": "intake/D054/002.jpg",
+        "sha256": "b5bd5cd1c798b704418d59addda2215e8328b3d0067673b895591cc4261fa4e7",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s002/landscape/candidate-v010.png",
+        "sha256": "da82c75775c356e83806b92138931e9db4586d471fec2b6659bafeb053b02d2f",
+        "version": "v010",
+        "label": "Landscape candidate v010",
+        "displayLabel": "Landscape candidate v010",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Producer review passed exact v010. Independent review E also passed this checksum; Saubhari skin-only 50×50 patch R−B 114, no malformed anatomy or artifacts. Palette revision (cream/ochre sky, olive foliage, muted blue-green river) is preserved.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-28T06:19:52Z",
+        "report": "art/reviews/d054-s002-landscape-v010-producer-review-v001.md",
+        "report_sha256": "5a7e701b2809212571527c71b4fc43135864ec97c1f50b742c7c269c5ddd1928"
+      },
+      "independent_review": {
+        "type": "independent exact-checksum review",
+        "reviewer": "Independent reviewer (D054 review E)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-28T06:37Z",
+        "report": "art/reviews/d054-targeted-independent-review-e-v001.md",
+        "report_sha256": "d39caa5de0cd6f4fb5176eb4f59f5e56bcdb7ee59ea180cce9dd67e71ca3bdd9",
+        "candidate_sha256": "da82c75775c356e83806b92138931e9db4586d471fec2b6659bafeb053b02d2f"
+      }
+    },
+    {
+      "n": 3,
+      "concept_id": "d054-s003",
+      "scene": "Garuda drives the proud hooded Kaliya toward the dark waters of Kalindi. Show one continuous serpent body entering the river, with Garuda’s two wings clearly attached. A small ritual offering remains on the bank as context for the cause.",
+      "reference": {
+        "file": "intake/D054/003.jpg",
+        "sha256": "7e45e87b6e60a94e48870609bdb0b4853245384c494f4d8f387d524ed6604ba4",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s003/landscape/candidate-v005.png",
+        "sha256": "5640b63dccb05c6b4d7a85d99d24e103bd9272fc455ece675ccf267b3d31f981",
+        "version": "v005",
+        "label": "Landscape candidate v005",
+        "displayLabel": "Landscape candidate v005",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Independent exact-checksum review passed this exact v005 candidate; Garuda’s jewelry is removed and his contracted simple ochre cloth remains.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-26T22:55:03Z",
+        "report": "art/reviews/d054-s003-landscape-v005-producer-review-v001.md",
+        "report_sha256": "26dc0216bdab647af149afb059f02e624b549d80e12256b862ad6ef53c9bb10e"
+      },
+      "independent_review": {
+        "type": "independent exact-checksum review",
+        "reviewer": "Independent reviewer (D054 review BA)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-26T23:11:32Z",
+        "report": "art/reviews/d054-targeted-independent-review-ba-v001.md",
+        "report_sha256": "c3c32056340a0a8a476f3773dc40b8c16476848487349fc5c5abe23ae01f85e9",
+        "candidate_sha256": "5640b63dccb05c6b4d7a85d99d24e103bd9272fc455ece675ccf267b3d31f981"
+      }
+    },
+    {
+      "n": 4,
+      "concept_id": "d054-s004",
+      "scene": "A poisoned stretch of Kalindi damages the riverbank: two clearly separate dried trees, a few birds falling toward the ground, and one youthful Krishna watching with compassion from the bank. Do not show Kaliya or a physical poison cloud, halo, or light rays.",
+      "reference": {
+        "file": "intake/D054/004.jpg",
+        "sha256": "cedf5cc294116beb785426380717878ed6fd5a35363a4c8239acf9e4eef8c777",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s004/landscape/candidate-v010.png",
+        "sha256": "483e4010aaeec768efd1d14848b06e0520eb72c6db479e5ecbb2f90c28daff7c",
+        "version": "v010",
+        "label": "Landscape candidate v010",
+        "displayLabel": "Landscape candidate v010",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Independent exact-checksum review passed this exact v010 candidate. The reviewer counted one clear toe tip and 2–3 implied lesser-toe strokes on the side-view far foot and judged it a normal side view; producer’s separate count concern remains preserved.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "needs-fix",
+        "inspected_at": "2026-11-27T20:01:14Z",
+        "report": "art/reviews/d054-s004-landscape-v010-producer-review-v001.md",
+        "report_sha256": "94e666efb7ecad8deb4c52777f43dded00ed6270eef54f4bb9851afd031fff51"
+      },
+      "independent_review": {
+        "type": "independent exact-checksum review",
+        "reviewer": "Independent reviewer (D054 review C)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-27T20:11:55Z",
+        "report": "art/reviews/d054-targeted-independent-review-c-v001.md",
+        "report_sha256": "5d06bcfd0181ce215d5f5876584015b73c003c8aca772bfadeef5fce6e133a98",
+        "candidate_sha256": "483e4010aaeec768efd1d14848b06e0520eb72c6db479e5ecbb2f90c28daff7c"
+      }
+    },
+    {
+      "n": 5,
+      "concept_id": "d054-s005",
+      "scene": "On a very hot day, young Krishna has entered the Yamuna forest without Balarama. Thirsty cowherds and a modest herd drink from the poisoned river; Krishna is present but does not drink. Show a calm, non-graphic warning moment before collapse.",
+      "reference": {
+        "file": "intake/D054/005.jpg",
+        "sha256": "5538be428ed2a93ed62cc6affd615cf2fb677d4231f71f22334d161ad5d6ea83",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s005/landscape/candidate-v004.png",
+        "sha256": "038065bd316c05749ea4eea2edb8ea2e68f6d6e7cbf43aaeb4dc8a73494fcc8f",
+        "version": "v004",
+        "label": "Landscape candidate v004",
+        "displayLabel": "Landscape candidate v004",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Independent exact-checksum review passed this exact v004 candidate. The reviewer judged the measured gopa shoulder patch R−B 126 warm ochre-brown in the full frame; prior producer concern remains preserved.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "needs-fix",
+        "inspected_at": "2026-11-26T22:55:24Z",
+        "report": "art/reviews/d054-s005-landscape-v004-producer-review-v001.md",
+        "report_sha256": "987b89a6a8e148be80795cd84ca7f9587efbb10bbe1e789a8433253839b4d2a8"
+      },
+      "independent_review": {
+        "type": "independent exact-checksum review",
+        "reviewer": "Independent reviewer (D054 review BA)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-26T23:11:32Z",
+        "report": "art/reviews/d054-targeted-independent-review-ba-v001.md",
+        "report_sha256": "c3c32056340a0a8a476f3773dc40b8c16476848487349fc5c5abe23ae01f85e9",
+        "candidate_sha256": "038065bd316c05749ea4eea2edb8ea2e68f6d6e7cbf43aaeb4dc8a73494fcc8f"
+      }
+    },
+    {
+      "n": 6,
+      "concept_id": "d054-s006",
+      "scene": "Krishna comes close to the fallen cowherds and cows and compassionately restores them with his sidelong glance. Show several figures beginning to rise and breathe; the nectar-like mercy is conveyed through gesture, water, and expression only, with no rays or beams.",
+      "reference": {
+        "file": "intake/D054/006.jpg",
+        "sha256": "29814b71efd79e6a0a466083cd39482644c7775fe646a0e8b62e43afefa75802",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s006/landscape/candidate-v012.png",
+        "sha256": "7136f9aae0c31f68880d323af6736856d86e0f8a1724de116ae7a265abb31617",
+        "version": "v012",
+        "label": "Landscape candidate v012",
+        "displayLabel": "Landscape candidate v012",
+        "dimensions_px": "1671x941"
+      },
+      "candidate_status": "Independent exact-checksum review passed exact v012. Producer found eight skin-only patches R−B 95–114 and Krishna B−R 82; independent reviewer counted the same candidate and passed.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-27T22:24:28Z",
+        "report": "art/reviews/d054-s006-landscape-v012-producer-review-v001.md",
+        "report_sha256": "dc3240d896bc91b982ee5c30dc285e84974585669d991730b99650a859bbfa0c"
+      },
+      "independent_review": {
+        "type": "independent exact-checksum review",
+        "reviewer": "Independent reviewer (D054 review D)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-27T22:55:51Z",
+        "report": "art/reviews/d054-targeted-independent-review-d-v001.md",
+        "report_sha256": "c63946d69be95b30ebfe1cd648ebc936cd4c06715509e1ba67abc25d16e50374",
+        "candidate_sha256": "7136f9aae0c31f68880d323af6736856d86e0f8a1724de116ae7a265abb31617"
+      }
+    },
+    {
+      "n": 7,
+      "concept_id": "d054-s007",
+      "scene": "Three distinct adult cowherds rise in wonder at the bliss throughout their bodies, recognize Krishna’s act, and embrace him with natural, connected limbs. Keep the embrace readable and the hands visible only where they can be clearly drawn.",
+      "reference": {
+        "file": "intake/D054/007.jpg",
+        "sha256": "42cd7b1737b1aa23b80a9fb0efc5f20b09d5fd8617bd88efb873de891f7026f6",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s007/landscape/candidate-v014.png",
+        "sha256": "dd879a23bcf91f35220e10f6d38d1ed2e5aa1039640f800fa8fb03e7130fb314",
+        "version": "v014",
+        "label": "Landscape candidate v014",
+        "displayLabel": "Landscape candidate v014",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Independent review E passed exact v014, counted five toes on both Krishna feet and judged a gopa arm patch R−B 120 warm brown. Producer review recorded three cheek patches R−B 140, 140, 134 as copper-orange; the captain accepts skin up to about R−B 145 when it still reads warm brown, consistent with independent review E’s natural warm-brown judgment. Both review observations remain disclosed; no art approval.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "needs-fix",
+        "inspected_at": "2026-11-28T06:20:19Z",
+        "report": "art/reviews/d054-s007-landscape-v014-producer-review-v001.md",
+        "report_sha256": "e651895dad17bd1a7fe2e2320c545a3400c8a6fba466e4299c6989ff422f173d"
+      },
+      "independent_review": {
+        "type": "independent exact-checksum review",
+        "reviewer": "Independent reviewer (D054 review E)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-28T06:37Z",
+        "report": "art/reviews/d054-targeted-independent-review-e-v001.md",
+        "report_sha256": "d39caa5de0cd6f4fb5176eb4f59f5e56bcdb7ee59ea180cce9dd67e71ca3bdd9",
+        "candidate_sha256": "dd879a23bcf91f35220e10f6d38d1ed2e5aa1039640f800fa8fb03e7130fb314"
+      }
+    },
+    {
+      "n": 8,
+      "concept_id": "d054-s008",
+      "scene": "A small distinct herd of newly revived cows gathers around Krishna, gazing at him with joyful, moist eyes and open gentle mouths. Krishna remains the single clear youthful figure; keep each animal’s legs and head distinct.",
+      "reference": {
+        "file": "intake/D054/008.jpg",
+        "sha256": "8e770fae4ede88e10e74653db6daf774e59cc0a431880e8b1aa41006080f8a04",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s008/landscape/candidate-v009.png",
+        "sha256": "08efa9c8621a7772353c47d1fbc0d4b15f2bf921f4dfaabab92f52ad5f7212c4",
+        "version": "v009",
+        "label": "Landscape candidate v009",
+        "displayLabel": "Landscape candidate v009",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Firstmate editorial decision revised this stanza plan: joyful gentle smiles and calf nuzzling are the planned expression; tears and open lowing mouths are deliberately not drawn at this landscape scale. Exact v009 shows four distinct cattle, smiles and nuzzling. Producer review v002 and independent review H pass the revised scene and exact candidate checksum. Review H verified four fingers plus thumb on each hand and five toes on both feet; the previous producer view had unresolved overlap at the angled fifth toe, now resolved by the independent detail inspection. Krishna cheek/chest B−R medians 101/109. The image is not art-approved.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "pass",
+        "inspected_at": "2026-11-28T07:50:14Z",
+        "report": "art/reviews/d054-s008-landscape-v009-producer-review-v002.md",
+        "report_sha256": "10efd93991cbcc233815503608dbfd594a6107ef7d844e45092a910580d77e53"
+      },
+      "previous_independent_review": {
+        "type": "independent exact-checksum review under prior plan",
+        "reviewer": "Independent reviewer (D054 review F)",
+        "outcome": "needs-fix for cattle expressions required under prior plan; not current-plan outcome",
+        "inspected_at": "2026-11-28T07:03:04Z",
+        "report": "art/reviews/d054-targeted-independent-review-f-v001.md",
+        "report_sha256": "9bc44558b899ad1b905101a03acc3b82155b183b84174be13a618b9e6c1ebb11",
+        "candidate_sha256": "08efa9c8621a7772353c47d1fbc0d4b15f2bf921f4dfaabab92f52ad5f7212c4",
+        "plan_sha256": "2ca7d710b06874c0fc8558b6d4dd92f4f027b5d9a4d06ae5746be15906cb79e4"
+      },
+      "independent_review_status": "Independent exact-checksum review H passed against final plan.",
+      "independent_review_request_id": "d054-s008-plan-v002-independent-review-v001",
+      "independent_review": {
+        "reviewer": "Independent reviewer (D054 review H)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-28T08:35:29Z",
+        "report": "art/reviews/d054-targeted-independent-review-h-v001.md",
+        "report_sha256": "4a6db55f6f59d618bd02ce99adac59712928f6601429e0dda6025c665772d793",
+        "candidate_sha256": "08efa9c8621a7772353c47d1fbc0d4b15f2bf921f4dfaabab92f52ad5f7212c4",
+        "observations": "Independent review H verified this exact candidate and final plan by native-resolution inspection and enlarged detail crops. It found Krishna’s hands show four fingers plus thumb each and both feet show five toes; anatomy, faces, distinct cattle, contracted clothing, and the revised gentle-smile/nuzzling scene pass. No readable text or generation artifacts were reported. Art remains unapproved."
+      }
+    },
+    {
+      "n": 9,
+      "concept_id": "d054-s009",
+      "scene": "A few distinct cowherds show gooseflesh and overwhelming joy, then bow at Krishna’s feet with reverent prayer. Keep Krishna’s smooth forehead bare as contracted, and make every visible open hand anatomically clear with a thumb plus four fingers.",
+      "reference": {
+        "file": "intake/D054/009.jpg",
+        "sha256": "7b0d7096c4d44344d56e6b7a921cbd295c4b935acce3089d2c066561187206a3",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s009/landscape/candidate-v008.png",
+        "sha256": "254e2673209fb2844798b2ee43bdc4a27d3afe88b6ff3a052a946cfffdf09fce",
+        "version": "v008",
+        "label": "Landscape candidate v008",
+        "displayLabel": "Landscape candidate v008",
+        "dimensions_px": "1672x941"
+      },
+      "candidate_status": "Independent exact-checksum review passed exact v008. It recorded gopa skin samples R−B 125–131 and cobalt ground at 19.0% of the frame as deviations, not failures; producer skin uncertainty remains preserved.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "uncertain",
+        "inspected_at": "2026-11-27T22:35:10Z",
+        "report": "art/reviews/d054-s009-landscape-v008-producer-review-v001.md",
+        "report_sha256": "e91e26be4c6a7ed72692045dec7ddcfd4e524ee1394a7614dfec877a35a322e9"
+      },
+      "independent_review": {
+        "type": "independent exact-checksum review",
+        "reviewer": "Independent reviewer (D054 review D)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-27T22:55:54Z",
+        "report": "art/reviews/d054-targeted-independent-review-d-v001.md",
+        "report_sha256": "c63946d69be95b30ebfe1cd648ebc936cd4c06715509e1ba67abc25d16e50374",
+        "candidate_sha256": "254e2673209fb2844798b2ee43bdc4a27d3afe88b6ff3a052a946cfffdf09fce"
+      }
+    },
+    {
+      "n": 10,
+      "concept_id": "d054-s010",
+      "scene": "A quiet devotional closing scene: Bhattathiri kneels before youthful Krishna, praying for protection and release from illness; two recovered cowherds stand nearby as beneficiaries of the same mercy. Krishna’s compassion is conveyed by a gentle sidelong gaze and an open blessing hand. No halo beams; fingers clear.",
+      "reference": {
+        "file": "intake/D054/010.jpg",
+        "sha256": "98de092eba904fe7a09498786a641ae337dcf054b51e2cf54325ff745a039844",
+        "version": "source",
+        "label": "Original reference photo",
+        "displayLabel": "Original reference"
+      },
+      "matte": {
+        "file": "artifacts/d054/s010/landscape/candidate-v009.png",
+        "sha256": "dafe7c1d0f7f7bd57867d56c846cdb722185f92da75085dd5ee2fb6630ba0c7c",
+        "version": "v009",
+        "label": "Landscape candidate v009",
+        "displayLabel": "Landscape candidate v009",
+        "dimensions_px": "1671x941"
+      },
+      "candidate_status": "Independent review E passed exact v009; three human-skin samples R−B 99–133 read natural warm/earth brown. Producer review recorded an uncontracted circular dot on the viewer-left turbaned gopa forehead and separate skin patches R−B 127, 127, 136. Captain’s allowance applies only to a small traditional U-shaped mark on young Krishna, not this gopa dot; the independent pass and producer observation remain disclosed. No art approval.",
+      "alternates": [],
+      "producer_review": {
+        "type": "producer review",
+        "outcome": "needs-fix",
+        "inspected_at": "2026-11-28T06:23:43Z",
+        "report": "art/reviews/d054-s010-landscape-v009-producer-review-v001.md",
+        "report_sha256": "88a5dfca6aeb4df94a7f82ca2a5596a77934aed26551879bb76070785a5dcdf4"
+      },
+      "independent_review": {
+        "type": "independent exact-checksum review",
+        "reviewer": "Independent reviewer (D054 review E)",
+        "outcome": "pass",
+        "inspected_at": "2026-11-28T06:37Z",
+        "report": "art/reviews/d054-targeted-independent-review-e-v001.md",
+        "report_sha256": "d39caa5de0cd6f4fb5176eb4f59f5e56bcdb7ee59ea180cce9dd67e71ca3bdd9",
+        "candidate_sha256": "dafe7c1d0f7f7bd57867d56c846cdb722185f92da75085dd5ee2fb6630ba0c7c"
+      }
+    }
+  ],
+  "batch_version": "v012",
+  "plan_sha256": "49261fbee4c5e4b24a46a0f505e733c79ae576cf30897ac51ffb43aedbb74eac",
+  "review_request_id": "d054-s008-plan-v002-independent-review-v001",
+  "artwork_approval": "not-approved"
+}
