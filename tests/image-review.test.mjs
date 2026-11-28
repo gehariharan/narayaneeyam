@@ -311,6 +311,29 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(d044.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
 });
 
+test('D030 publication exception is limited to the exact live S006 selection and never clears approval', async () => {
+  const root = fileURLToPath(new URL('..', import.meta.url));
+  const batches = await loadSelections(root);
+  const batch = batches.find(item => item.selectionFile === 'd030-comparison-v017.json');
+  assert.ok(batch);
+  const image = selectedImages([batch]).find(item => item.chapter === 30 && item.sloka === 6 && item.role === 'matte');
+  const state = reviewFor(await validateSelections(root, [batch]), image);
+  assert.equal(image.version, 'v015');
+  assert.equal(image.sha256, '9f3e440d7869d3f001a0b1e3305890f7c245b76177e5adc5e2733b2d2bf83038');
+  assert.equal(state.status, 'historical');
+  assert.match(state.label, /Captain-directed D030 S009-only revision retains the exact live S006 v015 candidate/);
+  assert.match(state.label, /central crown inset and plaque/);
+  await assert.rejects(validateApprovalCandidate(root, image), /Unresolved defects or uncertainty: 30\/6\/matte\/v015/);
+
+  const changed = structuredClone(batch);
+  changed.rows.find(row => row.n === 6).matte.sha256 = '0'.repeat(64);
+  await assert.rejects(validateSelections(root, [changed]), /Missing or stale visual inspection: 30\/6\/matte\/v015/);
+
+  const changedRevision = structuredClone(batch);
+  changedRevision.rows.find(row => row.n === 9).matte.sha256 = '0'.repeat(64);
+  await assert.rejects(validateSelections(root, [changedRevision]), /Unresolved defects or uncertainty: 30\/6\/matte\/v015/);
+});
+
 test('D031 selection binds its eleven mapped sources and ten inspected native candidate versions to the plan and cast contracts', async () => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
@@ -410,7 +433,7 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
   const prior = JSON.parse(await fs.readFile(path.join(root, 'art/batches/d030-comparison-v013.json'), 'utf8'));
-  const current = batches.find(item => item.selectionFile === 'd030-comparison-v014.json');
+  const current = batches.find(item => item.selectionFile === 'd030-comparison-v017.json');
   const planBytes = await fs.readFile(path.join(root, 'art/plans/d030.json'));
   const plan = JSON.parse(planBytes);
   const reviewFile = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/visual-reviews.json'), 'utf8'));
@@ -425,6 +448,8 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
   assert.equal(current.rows[8].matte.file, 'artifacts/d030/s009/landscape/candidate-v014.png');
   assert.equal(current.rows[8].matte.version, 'v014');
   assert.match(current.rows[8].candidate_status, /vessel-hand patch.*R−B 119/);
+  assert.equal(current.publication_exceptions.length, 1);
+  assert.deepEqual(current.rows.find(item => item.n === 6), prior.rows.find(item => item.n === 6));
   assert.equal(captainDecisions.decisions[0].words, '2 keep current picture');
   assert.equal(captainDecisions.decisions[0].sloka, 6);
   assert.equal(captainDecisions.decisions[0].review_outcome, 'needs-fix');
@@ -443,9 +468,7 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
     }
   }
   for (const row of current.rows.filter(item => item.n !== 9)) {
-    const { candidate_status: currentStatus, ...currentRow } = row;
-    const { candidate_status: priorStatus, ...priorRow } = prior.rows.find(item => item.n === row.n);
-    assert.deepEqual(currentRow, priorRow);
+    assert.deepEqual(row, prior.rows.find(item => item.n === row.n));
   }
 });
 

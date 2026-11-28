@@ -12,6 +12,24 @@ const slot = image => `${image.chapter}/${image.sloka}/${image.role}/${image.ver
 const historical = 'Historical review material — not cleared for final publication.';
 const unauditedLabel = `${historical} Unreviewed: no commissioned visual audit covers this exact version.`;
 const firstSentence = text => String(text || '').split(/(?<=\.)\s/)[0];
+const livePublicationExceptions = [{
+  selectionFile: 'd030-comparison-v017.json',
+  plan_sha256: 'a09c8cfeea11a0e75df67ee527b8d5c08fa7da5e9600c57e73708e94a58f6041',
+  revisionSelection: {
+    file: 'artifacts/d030/s009/landscape/candidate-v014.png',
+    version: 'v014',
+    sha256: '289184b9cf0783a8deb35e00d5db4136af2e9e3789d2b39b4eaf2dbdac2c8c31'
+  },
+  chapter: 30,
+  sloka: 6,
+  role: 'matte',
+  file: 'artifacts/d030/s006/landscape/candidate-v015.png',
+  version: 'v015',
+  sha256: '9f3e440d7869d3f001a0b1e3305890f7c245b76177e5adc5e2733b2d2bf83038'
+}];
+function publicationExceptionLabel(exception) {
+  return `${historical} Captain-directed D030 S009-only revision retains the exact live S006 ${exception.version} candidate (SHA-256 ${exception.sha256}); its latest independent review finds the central crown inset and plaque, so it remains not art-approved.`;
+}
 function auditLabel(audit, findings) {
   const notes = audit.finding_ids.map(id => {
     const finding = findings.get(id);
@@ -28,9 +46,16 @@ function localPath(root, file) {
 async function readJson(root, file) { return JSON.parse(await fs.readFile(localPath(root, file), 'utf8')); }
 
 // This validates recorded evidence and byte bindings. It cannot determine visual correctness.
-export async function validateSelections(root, batches, options) {
+export async function validateSelections(root, batches, options = {}) {
   batches ??= await loadSelections(root);
-  return validateImages(root, selectedImages(batches), options);
+  const publicationExceptions = batches.flatMap(batch => (batch.publication_exceptions || []).map(exception => ({
+    ...exception,
+    selectionFile: batch.selectionFile,
+    chapter: batch.daskam_id ?? batch.daskam,
+    plan_sha256: batch.plan_sha256,
+    revisionSelection: batch.rows.find(row => row.n === 9)?.matte
+  })));
+  return validateImages(root, selectedImages(batches), { ...options, publicationExceptions });
 }
 
 // Approval clears exact candidate bytes; its lead/alternate display role is irrelevant.
@@ -41,7 +66,7 @@ export async function validateApprovalCandidate(root, candidate) {
   return validateImages(root, (roles.length ? roles : ['matte']).map(role => ({ ...candidate, role })), { final: true });
 }
 
-async function validateImages(root, images, { final = false } = {}) {
+async function validateImages(root, images, { final = false, publicationExceptions = [] } = {}) {
   const frozen = await readJson(root, 'art/reviews/historical-selection.json');
   const records = await readJson(root, 'art/reviews/visual-reviews.json');
   const audits = await readJson(root, 'art/reviews/audit-index.json');
@@ -62,6 +87,17 @@ async function validateImages(root, images, { final = false } = {}) {
     localPath(root, image.file);
     if (seen.has(where)) throw new Error(`Duplicate selected image: ${where}`);
     seen.add(where);
+    const exception = !final && publicationExceptions.find(item => {
+      const allowed = livePublicationExceptions.find(known => known.selectionFile === item.selectionFile);
+      return allowed && item.plan_sha256 === allowed.plan_sha256
+        && ['file', 'version', 'sha256'].every(key => item.revisionSelection?.[key] === allowed.revisionSelection[key])
+        && ['chapter', 'sloka', 'role', 'file', 'version', 'sha256'].every(key => item[key] === allowed[key])
+        && ['chapter', 'sloka', 'role', 'file', 'version', 'sha256'].every(key => image[key] === allowed[key]);
+    });
+    if (exception) {
+      results.set(key, { status: 'historical', label: publicationExceptionLabel(exception) });
+      continue;
+    }
     if (!final && legacy.has(key)) {
       const audit = audited.get(identity({ ...image, file: null }));
       results.set(key, { status: 'historical', label: audit ? auditLabel(audit, auditFindings) : unauditedLabel });
