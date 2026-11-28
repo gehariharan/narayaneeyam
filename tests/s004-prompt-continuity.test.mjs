@@ -36,11 +36,12 @@ test('S004 prompt construction includes Bhattathiri identity and character refer
     const seriesRef = 'art/bible/series-amendment-v001.json';
     const bhattathiriRef = 'art/bible/characters/bhattathiri/character-v002.json';
     const versionedBhattathiri = { ...bhattathiri, visual_bible: { ...bhattathiri.visual_bible, skin: 'versioned fixture skin contract' } };
+    const krishnaRef = 'art/bible/characters/krishna-vrindavan-youth/character-v002.json';
     const s004Plan = {
       ...plan,
-      stanzas: [s004],
+      stanzas: [s004, { n: 5, characters: ['krishna-vrindavan-youth'] }],
       series_bible_ref: seriesRef,
-      character_bible_bindings: { bhattathiri: bhattathiriRef },
+      character_bible_bindings: { bhattathiri: bhattathiriRef, 'krishna-vrindavan-youth': krishnaRef },
     };
     const files = [
       ['art/bible/series.json', series],
@@ -72,6 +73,14 @@ test('S004 prompt construction includes Bhattathiri identity and character refer
     assert.match(prompt, /artifacts\/characters\/bhattathiri\/character-sheet-candidate-v002\.png/);
     assert.match(prompt, /versioned fixture skin contract/);
     assert.match(prompt, /accepted_up_to_approx": 140/);
+    assert.doesNotMatch(prompt, /krishna-vrindavan-youth/);
+
+    const orphanPlan = { ...s004Plan, stanzas: [s004] };
+    await writeFile(path.join(fixture, 'art/plans/d003.json'), JSON.stringify(orphanPlan, null, 2));
+    await assert.rejects(
+      execFileAsync(process.execPath, buildArgs, { cwd: fixture }),
+      /Plan binds a character contract that is not in any d003 stanza/,
+    );
   } finally {
     await rm(fixture, { recursive: true, force: true });
   }

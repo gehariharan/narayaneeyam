@@ -51,8 +51,9 @@ const characterBibles = await Promise.all((visual.characters ?? []).map(async (i
   if (character.id !== id) throw new Error(`Character contract ${binding ?? id} does not identify ${id}`);
   return character;
 }));
-if (Object.keys(characterBindings).some(id => !(visual.characters ?? []).includes(id))) {
-  throw new Error(`Plan binds a character contract that is not in ${daskamSlug}/${stanzaSlug}`);
+const plannedCharacterIds = new Set(plan.stanzas.flatMap((item) => item.characters ?? []));
+if (Object.keys(characterBindings).some((id) => !plannedCharacterIds.has(id))) {
+  throw new Error(`Plan binds a character contract that is not in any ${daskamSlug} stanza`);
 }
 const companion = orientation === 'landscape' ? approval.portrait : approval.landscape;
 const references = new Set(characterBibles.flatMap((character) => character.local_reference_paths ?? []));
