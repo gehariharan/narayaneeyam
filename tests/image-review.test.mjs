@@ -450,7 +450,10 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
   assert.equal(current.rows[8].matte.version, 'v014');
   assert.match(current.rows[8].candidate_status, /vessel-hand patch.*R−B 119/);
   assert.equal(current.publication_exceptions.length, 1);
-  assert.deepEqual(current.rows.find(item => item.n === 6), prior.rows.find(item => item.n === 6));
+  for (const row of current.rows.filter(item => item.n !== 9)) {
+    const before = prior.rows.find(item => item.n === row.n);
+    assert.deepEqual({ ...row, candidate_status: undefined }, { ...before, candidate_status: undefined });
+  }
   assert.equal(captainDecisions.decisions[0].words, '2 keep current picture');
   assert.equal(captainDecisions.decisions[0].sloka, 6);
   assert.equal(captainDecisions.decisions[0].review_outcome, 'needs-fix');
