@@ -83,7 +83,9 @@ selections must have passing inspection evidence. Run `npm test`,
 Detailed/glossy
 candidates are retained only as historical files and are not published. Commentary
 is copied verbatim from content JSON only when its source is an allowlisted Facebook
-photo-caption file or a user-supplied Google Drive commentary file. Each stanza is
+photo-caption file, the numbered `#N` captions of a Facebook post kept in
+`content/sources/dNNN/facebook-commentary.json` (source `...#captions.N`), or a
+user-supplied Google Drive commentary file. Each stanza is
 one card, top to bottom: the selected painting (tap to open full size), any
 alternates, the smaller reference photo, then the text: Commentary, then the
 stanza (Sanskrit, then transliteration) from `content/daskams/dNNN.json`, with
