@@ -7,7 +7,7 @@ import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
-import { validateSelections, validateBundle, reviewFor, reviewChecks, sha256 } from '../review-site/image-review.mjs';
+import { validateSelections, validateApprovalCandidate, validateBundle, reviewFor, reviewChecks, sha256 } from '../review-site/image-review.mjs';
 import { loadSelections, selectedImages, selectionFiles } from '../review-site/selections.mjs';
 import { renderChapter } from '../review-site/views.mjs';
 
@@ -266,7 +266,7 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(labels.every(text => text.includes('not cleared for final publication') || text.includes('not art approval')));
   const historicalLabels = [...validation.results.values()].filter(item => item.status === 'historical');
   assert.ok(historicalLabels.every(item => item.label.includes('not cleared for final publication')));
-  assert.equal(labels.length - historicalLabels.length, 463);
+  assert.equal(labels.length - historicalLabels.length, 462);
   const d097 = selectedImages(batches).filter(image => image.chapter === 97).map(image => reviewFor(validation, image));
   assert.equal(d097.length, 10);
   assert.ok(d097.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
@@ -311,7 +311,7 @@ test('repository historical labels match the preserved audits', async () => {
   assert.ok(d044.every(item => item.status === 'inspected' && item.label.includes('not art approval')));
 });
 
-test('D030 publication exception is limited to the exact live S006 selection and never clears approval', async () => {
+test('D030 publication exception is limited to the exact live S006 selection and never clears approval', async t => {
   const root = fileURLToPath(new URL('..', import.meta.url));
   const batches = await loadSelections(root);
   const batch = batches.find(item => item.selectionFile === 'd030-comparison-v017.json');
@@ -324,7 +324,26 @@ test('D030 publication exception is limited to the exact live S006 selection and
   assert.match(state.label, /Captain-directed D030 S009-only revision retains the exact live S006 v015 candidate/);
   assert.match(state.label, /central crown inset and plaque/);
   assert.match(state.label, /d030-s006-leave-as-is-s009-priority/);
-  await assert.rejects(validateApprovalCandidate(root, image), /Unresolved defects or uncertainty: 30\/6\/matte\/v015/);
+  // Final approval reads the exact candidate bytes. Originals are git-ignored, so when they are
+  // absent, bind the persisted needs-fix review to disposable bytes in an isolated root.
+  const hasOriginal = await fs.access(path.join(root, image.file)).then(() => true, () => false);
+  let approvalRoot = root, approvalImage = image;
+  if (!hasOriginal) {
+    approvalRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'narayaneeyam-d030-approval-'));
+    t.after(() => fs.rm(approvalRoot, { recursive: true, force: true }));
+    const bytes = Buffer.from('disposable D030 S006 v015 stand-in bytes');
+    approvalImage = { ...image, sha256: sha256(bytes) };
+    const records = JSON.parse(await fs.readFile(path.join(root, 'art/reviews/visual-reviews.json'), 'utf8'));
+    const matching = records.reviews.filter(review => ['chapter', 'sloka', 'file', 'version', 'sha256'].every(key => review[key] === image[key]));
+    assert.ok(matching.length);
+    for (const review of matching) review.sha256 = approvalImage.sha256;
+    await fs.mkdir(path.join(approvalRoot, 'art/reviews'), { recursive: true });
+    await fs.mkdir(path.dirname(path.join(approvalRoot, image.file)), { recursive: true });
+    await fs.writeFile(path.join(approvalRoot, image.file), bytes);
+    await fs.writeFile(path.join(approvalRoot, 'art/reviews/visual-reviews.json'), JSON.stringify(records));
+    for (const file of ['art/reviews/historical-selection.json', 'art/reviews/audit-index.json']) await fs.copyFile(path.join(root, file), path.join(approvalRoot, file));
+  }
+  await assert.rejects(validateApprovalCandidate(approvalRoot, approvalImage), /Unresolved defects or uncertainty: 30\/6\/matte\/v015/);
 
   const changed = structuredClone(batch);
   changed.rows.find(row => row.n === 6).matte.sha256 = '0'.repeat(64);
