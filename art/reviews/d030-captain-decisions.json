@@ -21,7 +21,25 @@
         "source": "Captain’s later request relayed by Firstmate in steering message 008.msg, followed by the current targeted-repair instruction.",
         "captain_words": "publish v014 revision please",
         "scope_note": "The quoted captain words request the D030 S009 v014 revision. They are not a new captain quote about S006. For this revision workflow, the earlier S006 v015 keep choice is superseded because v015 has a needs-fix crown review and Firstmate directed a targeted S006 replacement. This is not art approval."
-      }
+      },
+      "superseded_by_decision": "d030-s006-leave-as-is-s009-priority"
+    },
+    {
+      "id": "d030-s006-leave-as-is-s009-priority",
+      "chapter": 30,
+      "sloka": 6,
+      "selected_version": "v015",
+      "recorded_at": "2026-11-28",
+      "source": "Captain direction relayed by Firstmate",
+      "words": "s6 ask was should we have brahma or not hte not a fix on the emblem, i suggest we leave s006 as is for now and fix the s009 as priority ..",
+      "choice": "For the D030 S009 v014 priority revision, the exact live S006 v015 selection (SHA-256 9f3e440d7869d3f001a0b1e3305890f7c245b76177e5adc5e2733b2d2bf83038) remains unchanged; no S006 redraw.",
+      "open_question": "Whether Brahma should appear in S006 at all remains a separate open captain question, to be asked later.",
+      "supersedes": "d030-s006-crown-emblem-v015",
+      "review_outcome": "needs-fix",
+      "review_finding_id": "d030-s006-central-crown-inset-plaque-v015",
+      "art_approval": false,
+      "approval_manifest_modified": false,
+      "status": "active"
     }
   ]
 }

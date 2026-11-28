@@ -323,6 +323,7 @@ test('D030 publication exception is limited to the exact live S006 selection and
   assert.equal(state.status, 'historical');
   assert.match(state.label, /Captain-directed D030 S009-only revision retains the exact live S006 v015 candidate/);
   assert.match(state.label, /central crown inset and plaque/);
+  assert.match(state.label, /d030-s006-leave-as-is-s009-priority/);
   await assert.rejects(validateApprovalCandidate(root, image), /Unresolved defects or uncertainty: 30\/6\/matte\/v015/);
 
   const changed = structuredClone(batch);
@@ -454,6 +455,14 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
   assert.equal(captainDecisions.decisions[0].sloka, 6);
   assert.equal(captainDecisions.decisions[0].review_outcome, 'needs-fix');
   assert.equal(captainDecisions.decisions[0].art_approval, false);
+  const active = captainDecisions.decisions.filter(item => item.status === 'active');
+  assert.equal(active.length, 1);
+  assert.equal(active[0].words, 's6 ask was should we have brahma or not hte not a fix on the emblem, i suggest we leave s006 as is for now and fix the s009 as priority ..');
+  assert.equal(active[0].sloka, 6);
+  assert.equal(active[0].selected_version, 'v015');
+  assert.equal(active[0].art_approval, false);
+  assert.equal(captainDecisions.decisions[0].status, 'superseded');
+  assert.equal(captainDecisions.decisions[0].superseded_by_decision, active[0].id);
   for (const row of current.rows) {
     const review = reviewFile.reviews.find(item => item.chapter === 30 && item.sloka === row.n && item.file === row.matte.file && item.version === row.matte.version && item.sha256 === row.matte.sha256);
     assert.ok(review, `fresh exact-checksum review for S${String(row.n).padStart(3, '0')}`);

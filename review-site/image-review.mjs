@@ -28,7 +28,7 @@ const livePublicationExceptions = [{
   sha256: '9f3e440d7869d3f001a0b1e3305890f7c245b76177e5adc5e2733b2d2bf83038'
 }];
 function publicationExceptionLabel(exception) {
-  return `${historical} Captain-directed D030 S009-only revision retains the exact live S006 ${exception.version} candidate (SHA-256 ${exception.sha256}); its latest independent review finds the central crown inset and plaque, so it remains not art-approved.`;
+  return `${historical} Captain-directed D030 S009-only revision retains the exact live S006 ${exception.version} candidate (SHA-256 ${exception.sha256}) per captain decision d030-s006-leave-as-is-s009-priority to leave S006 as is for now; whether Brahma should appear in S006 remains an open captain question; its latest independent review finds the central crown inset and plaque, so it remains not art-approved.`;
 }
 function auditLabel(audit, findings) {
   const notes = audit.finding_ids.map(id => {
