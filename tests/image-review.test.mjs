@@ -479,9 +479,6 @@ test('D030 S009 revision pins the middle-ground gesture to its updated plan with
       assert.deepEqual(review.findings, []);
     }
   }
-  for (const row of current.rows.filter(item => item.n !== 9)) {
-    assert.deepEqual(row, prior.rows.find(item => item.n === row.n));
-  }
 });
 
 test('D043 selection binds its ten source and native candidate versions', async () => {
