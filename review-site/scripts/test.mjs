@@ -64,8 +64,9 @@ assert.equal(Object.keys(data.assets).length,expectedMedia+new Set(previousPaint
  }}
 const generatedSelected=data.chapters.flatMap(c=>c.rows.flatMap(r=>r.images)).filter(i=>i.role!=='reference');
 assert.equal(generatedSelected.length,expectedGenerated);
-assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='historical').length,69);
-assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,expectedGenerated-69);
+// D030 S006 v015 is historical under the captain-directed publication exception.
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='historical').length,70);
+assert.equal(generatedSelected.filter(i=>i.inspectionStatus==='inspected').length,expectedGenerated-70);
 const d11=data.chapters.find(c=>c.id===11);
 assert.deepEqual(d11.rows.map(r=>r.n),[1,2,3,4,5,6,7,8,9,10]);
 assert.ok(d11.rows.every(r=>r.images.filter(i=>i.role==='reference').length===1&&r.images.filter(i=>i.role==='matte').length===1));
@@ -121,7 +122,7 @@ const selected42=JSON.parse(await fs.readFile(new URL('../../art/batches/d042-co
 const provenance42=JSON.parse(await fs.readFile(new URL('../../artifacts/review-site/asset-provenance.json',import.meta.url)));
 for(const row of d42.rows){const selected=selected42.rows.find(r=>r.n===row.n);assert.equal(row.commentarySource,`intake/D042/photo-captions.txt#${String(row.n).padStart(3,'0')}`);for(const role of ['reference','matte'])assert.equal(provenance42.find(p=>p.key===row.images.find(i=>i.role===role).key).sourceHash,selected[role].sha256);}
 assert.equal((await feedback(req({...good,daskam:42,sloka:11}),env)).status,201);
-console.log(`Passed: ${data.chapters.length} chapters, ${expectedRows} rows, ${expectedMedia} media, ${expectedGenerated} generated selections (69 historical, ${expectedGenerated-69} inspected), including Dasakam 30, 45, 46, 47, 49, 65, 94, 97, 100, D041, D042, D048, D062, D064, D072 and all ten D011, D012, D013, D014, D029, D031, D034, D040, D043, D044 and D067 leads.`);
+console.log(`Passed: ${data.chapters.length} chapters, ${expectedRows} rows, ${expectedMedia} media, ${expectedGenerated} generated selections (70 historical, ${expectedGenerated-70} inspected), including Dasakam 30, 45, 46, 47, 49, 65, 94, 97, 100, D041, D042, D048, D062, D064, D072 and all ten D011, D012, D013, D014, D029, D031, D034, D040, D043, D044 and D067 leads.`);
 const indexHtml=renderIndex(data);assert.ok(indexHtml.includes('/narayaneeyam/d003'));assert.ok(indexHtml.includes('/narayaneeyam/d038'));assert.ok(!indexHtml.includes('/d0038'));
 for(const c of [...data.chapters,...(data.awaiting||[])]){
  const response=await worker.fetch(unlocked('https://gehariharan.com/narayaneeyam/'+chapterSlug(c.id)),env);
