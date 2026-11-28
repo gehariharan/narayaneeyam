@@ -55,6 +55,34 @@ for (const fileName of files) {
   try { approval = await readJson(approvalPath); } catch { errors.push(`${slug}: missing or invalid approval manifest`); }
   if (!plan || !approval) continue;
 
+  if (plan.series_bible_ref !== undefined) {
+    if (typeof plan.series_bible_ref !== 'string' || !/^art\/bible\/series-amendment-v\d{3}\.json$/.test(plan.series_bible_ref)) {
+      errors.push(`${slug}: invalid versioned series amendment reference`);
+    } else {
+      try {
+        const amendment = await readJson(path.join(root, plan.series_bible_ref));
+        if (amendment.id !== path.basename(plan.series_bible_ref, '.json')) errors.push(`${slug}: versioned series amendment id does not match its path`);
+      }
+      catch { errors.push(`${slug}: versioned series amendment is missing or invalid`); }
+    }
+  }
+  const characterBindings = plan.character_bible_bindings ?? {};
+  const plannedCharacterIds = new Set((plan.stanzas ?? []).flatMap(item => item.characters ?? []));
+  if (!characterBindings || typeof characterBindings !== 'object' || Array.isArray(characterBindings)) {
+    errors.push(`${slug}: character_bible_bindings must map ids to versioned contract paths`);
+  } else {
+    for (const [character, file] of Object.entries(characterBindings)) {
+      if (!plannedCharacterIds.has(character) || typeof file !== 'string' || !/^art\/bible\/characters\/[a-z0-9-]+\/character-v\d{3}\.json$/.test(file)) {
+        errors.push(`${slug}: invalid versioned character contract reference for ${character}`);
+        continue;
+      }
+      try {
+        const contract = await readJson(path.join(root, file));
+        if (contract.id !== character) errors.push(`${slug}: versioned character contract does not identify ${character}`);
+      } catch { errors.push(`${slug}: versioned character contract is missing or invalid for ${character}`); }
+    }
+  }
+
   if (await exists(referenceInventoryPath)) {
     try {
       const inventory = await readJson(referenceInventoryPath);
@@ -93,7 +121,7 @@ for (const fileName of files) {
       warnings.push(`${itemLabel}: scene brief is still generic`);
     }
     for (const character of visual.characters ?? []) {
-      const bible = path.join(root, 'art', 'bible', 'characters', character, 'character.json');
+      const bible = path.join(root, characterBindings[character] ?? `art/bible/characters/${character}/character.json`);
       if (!(await exists(bible))) errors.push(`${itemLabel}: character bible is missing for ${character}`);
     }
     for (const reference of visual.reference_paths ?? []) {

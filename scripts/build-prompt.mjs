@@ -24,12 +24,36 @@ const [series, content, plan, approvals] = await Promise.all([
   readJson('art', 'plans', `${daskamSlug}.json`),
   readJson('art', 'approved', `${daskamSlug}.json`),
 ]);
+if (plan.series_bible_ref !== undefined && !/^art\/bible\/series-amendment-v\d{3}\.json$/.test(plan.series_bible_ref)) {
+  throw new Error(`Invalid versioned series amendment reference: ${plan.series_bible_ref}`);
+}
+const seriesAmendment = plan.series_bible_ref ? await readJson(...plan.series_bible_ref.split('/')) : null;
+if (seriesAmendment && seriesAmendment.id !== path.basename(plan.series_bible_ref, '.json')) {
+  throw new Error(`Series amendment id does not match ${plan.series_bible_ref}`);
+}
+const characterBindings = plan.character_bible_bindings ?? {};
+if (!characterBindings || typeof characterBindings !== 'object' || Array.isArray(characterBindings)) {
+  throw new Error('character_bible_bindings must map character ids to versioned character contracts');
+}
 const stanza = content.stanzas.find((item) => item.n === stanzaNumber);
 const visual = plan.stanzas.find((item) => item.n === stanzaNumber);
 const approval = approvals.stanzas.find((item) => item.n === stanzaNumber);
 if (!stanza || !visual || !approval) throw new Error(`No complete studio record for ${daskamSlug}/${stanzaSlug}`);
 
-const characterBibles = await Promise.all((visual.characters ?? []).map((id) => readJson('art', 'bible', 'characters', id, 'character.json')));
+const characterBibles = await Promise.all((visual.characters ?? []).map(async (id) => {
+  const binding = characterBindings[id];
+  if (binding !== undefined && !/^art\/bible\/characters\/[a-z0-9-]+\/character-v\d{3}\.json$/.test(binding)) {
+    throw new Error(`Invalid versioned character contract reference for ${id}: ${binding}`);
+  }
+  const character = binding
+    ? await readJson(...binding.split('/'))
+    : await readJson('art', 'bible', 'characters', id, 'character.json');
+  if (character.id !== id) throw new Error(`Character contract ${binding ?? id} does not identify ${id}`);
+  return character;
+}));
+if (Object.keys(characterBindings).some(id => !(visual.characters ?? []).includes(id))) {
+  throw new Error(`Plan binds a character contract that is not in ${daskamSlug}/${stanzaSlug}`);
+}
 const companion = orientation === 'landscape' ? approval.portrait : approval.landscape;
 const references = new Set(characterBibles.flatMap((character) => character.local_reference_paths ?? []));
 for (const reference of visual.reference_paths ?? []) references.add(reference);
@@ -62,6 +86,7 @@ Create one ${orientation} illustration at a native ${spec.aspect_ratio} aspect r
 ## Series identity
 
 ${series.style.description}
+${seriesAmendment ? `\nBound series amendment (${plan.series_bible_ref}):\n${JSON.stringify(seriesAmendment, null, 2)}\n` : ''}
 
 ## Concept to explain
 

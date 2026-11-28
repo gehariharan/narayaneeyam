@@ -46,6 +46,8 @@ inspection records; the builder, release packager, uploader and deployment tests
 reject missing, stale or unresolved evidence. Automated checks prove completeness
 and hash binding, never visual correctness.
 
+Shared continuity decisions that change contract bytes must use new versioned files; do not edit a contract already named by visual review evidence. A plan may opt into an additive series amendment with `series_bible_ref` (for example, `art/bible/series-amendment-v001.json`) and a versioned character sheet with `character_bible_bindings`, a map from character id to a file such as `art/bible/characters/krishna-vrindavan-youth/character-v002.json`. Prompt building uses only the files explicitly bound by that plan. Review records must include the base series contract, the plan, and the exact hashes of each bound amendment or character contract. Plans without these fields continue to use the existing shared contracts.
+
 The exact frozen historical comparison inventory remains available, each image labelled
 with its exact-version audit outcome and findings, or as unreviewed; it is not a cleared final
 set. `npm run art:review:validate -- --final` rejects unreviewed, stale, needs-fix
