@@ -58,9 +58,10 @@ export async function referenceMap(root, id) {
   return map;
 }
 
-// Commentary is shown only from an allowlisted source: a Facebook photo-caption file or the
+// Commentary is shown only from an allowlisted source: a Facebook photo-caption file, the
+// numbered #N captions of a Facebook post (facebook-commentary.json#captions.N) or the
 // user-supplied commentary file. Painted chapters require it on every stanza.
-const vettedSource = (source, daskam) => new RegExp(`^(?:intake/D${pad(daskam)}/photo-captions\\.txt|content/sources/d${pad(daskam)}/(?:photo-captions\\.txt|COMMENTRY\\.txt))#\\d+$`).test(source || '');
+const vettedSource = (source, daskam) => new RegExp(`^(?:intake/D${pad(daskam)}/photo-captions\\.txt|content/sources/d${pad(daskam)}/(?:photo-captions\\.txt|COMMENTRY\\.txt))#\\d+$|^content/sources/d${pad(daskam)}/facebook-commentary\\.json#captions\\.\\d+$`).test(source || '');
 export function vettedCommentary(stanza, daskam) {
   const chapter = pad(daskam);
   if (!vettedSource(stanza.commentary_source, daskam)) throw new Error(`Unvetted commentary source for D${chapter} S${pad(stanza.n)}: ${stanza.commentary_source || '(missing)'}`);

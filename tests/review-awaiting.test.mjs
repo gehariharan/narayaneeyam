@@ -268,6 +268,12 @@ test('awaiting validation refuses paintings, stale sources, stale derivatives an
   const unchecked = await awaitingChapter(root, 16, made);
   assert.deepEqual(unchecked.rows.map(r => [r.commentary, r.commentaryUnchecked, r.commentaryTruncated]), [['From somewhere else', true, false], ['No source', true, false]]);
   assert.throws(() => vettedCommentary({ n: 1, commentary_en: 'From somewhere else', commentary_source: 'https://example.com/post' }, 16), /Unvetted commentary source/);
+  // Numbered captions of a Facebook post, kept in the dasakam's own facebook-commentary.json, are vetted.
+  await fs.writeFile(path.join(root, 'content/daskams/d016.json'), JSON.stringify({ stanzas: [{ n: 1, commentary_en: 'Caption one', commentary_source: 'content/sources/d016/facebook-commentary.json#captions.1' }, { n: 2, commentary_en: 'Other dasakam', commentary_source: 'content/sources/d015/facebook-commentary.json#captions.2' }] }));
+  const captioned = await awaitingChapter(root, 16, made);
+  assert.deepEqual(captioned.rows.map(r => [r.commentary, r.commentaryUnchecked]), [['Caption one', false], ['Other dasakam', true]]);
+  assert.equal(vettedCommentary({ n: 1, commentary_en: 'Caption one', commentary_source: 'content/sources/d016/facebook-commentary.json#captions.1' }, 16), 'Caption one');
+  assert.throws(() => vettedCommentary({ n: 2, commentary_en: 'Other dasakam', commentary_source: 'content/sources/d015/facebook-commentary.json#captions.2' }, 16), /Unvetted commentary source/);
   // A reference map may only point at the dasakam's own intake photos.
   await fs.writeFile(path.join(root, 'content/sources/d015/reference-map.json'), JSON.stringify({ references: [{ stanza: 1, path: 'artifacts/d015/master.png', sha256: '0'.repeat(64) }] }));
   await assert.rejects(awaitingChapter(root, 15, made), /needs an intake\/D015\/ path/);

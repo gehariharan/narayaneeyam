@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "daskam": 89,
-  "caption_path": "intake/D089/photo-captions.txt",
-  "caption_sha256": "93d00dfff0fbba02debdb953c60560790676952b5fda387f5d2012de1b035957",
-  "caption_origin": "intake/D089/photo-captions.txt",
-  "source_type": "facebook-photo-captions",
+  "caption_path": "content/sources/d089/facebook-commentary.json",
+  "caption_sha256": "f4e68ade71a843f05df8fc77b43b6f1f95edda0f4c07c4c02f1e3bc2a25124ee",
+  "caption_origin": "Facebook post https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/",
+  "source_type": "facebook-captioned-photo-commentary",
   "facebook_source": "intake/D089/facebook-source.json",
   "facebook_source_sha256": "e74c36d2ff8bd79f63ba543f8e914e422fbece57a4ac59d5c4bf138573162b57",
   "post_caption": "intake/D089/facebook-post-caption.txt",
@@ -23,47 +23,55 @@
     "evidence": "10 numbered stanzas 89-1 through 89-10 on both the Devanagari and the parallel IAST page."
   },
   "translation_status": "No vetted English stanza translation supplied; translation_en remains empty. Caption commentary is not presented as translation.",
-  "caption_policy": "Caption prose is preserved verbatim as commentary_en for the stanza whose #N label it carries. Formatting-only cleanup: trailing whitespace removed, a Facebook \"… See more\" truncation marker removed (the stanza is then flagged truncated), and appended non-English material that follows the English commentary (Tamil translation, song lyrics or chants) is left out of commentary_en but kept verbatim in the caption file.",
-  "commentary_cleanup": {},
-  "commentary_picture": {
-    "1": "001.jpg"
+  "caption_policy": "Facebook caption text after #N is copied verbatim into commentary_en for stanza N, with surrounding whitespace removed only. The 2026-11-27 numbered captions supersede the prior missing-caption gap for stanzas 2-10; S1 remains unchanged because its new caption matches exactly. Captions are commentary, not translation.",
+  "commentary_cleanup": {
+    "2": "surrounding whitespace removed only",
+    "3": "surrounding whitespace removed only",
+    "4": "surrounding whitespace removed only",
+    "5": "surrounding whitespace removed only",
+    "6": "surrounding whitespace removed only",
+    "7": "surrounding whitespace removed only",
+    "8": "surrounding whitespace removed only",
+    "9": "surrounding whitespace removed only",
+    "10": "surrounding whitespace removed only"
   },
-  "stanza_gaps": {
-    "2": {
-      "commentary": "missing",
-      "reason": "its reference picture (nostanza-01.jpg, picture 2 of the post, mapped by post order) has no caption; no commentary is on disk"
-    },
-    "3": {
-      "commentary": "missing",
-      "reason": "its reference picture (nostanza-02.jpg, picture 3 of the post, mapped by post order) has no caption; no commentary is on disk"
-    },
-    "4": {
-      "commentary": "missing",
-      "reason": "its reference picture (nostanza-03.jpg, picture 4 of the post, mapped by post order) has no caption; no commentary is on disk"
-    },
-    "5": {
-      "commentary": "missing",
-      "reason": "its reference picture (nostanza-04.jpg, picture 5 of the post, mapped by post order) has no caption; no commentary is on disk"
-    },
-    "6": {
-      "commentary": "missing",
-      "reason": "its reference picture (nostanza-05.jpg, picture 6 of the post, mapped by post order) has no caption; no commentary is on disk"
-    },
-    "7": {
-      "commentary": "missing",
-      "reason": "its reference picture (nostanza-06.jpg, picture 7 of the post, mapped by post order) has no caption; no commentary is on disk"
-    },
-    "8": {
-      "commentary": "missing",
-      "reason": "its reference picture (nostanza-07.jpg, picture 8 of the post, mapped by post order) has no caption; no commentary is on disk"
-    },
-    "9": {
-      "commentary": "missing",
-      "reason": "its reference picture (nostanza-08.jpg, picture 9 of the post, mapped by post order) has no caption; no commentary is on disk"
-    },
-    "10": {
-      "commentary": "missing",
-      "reason": "its reference picture (nostanza-09.jpg, picture 10 of the post, mapped by post order) has no caption; no commentary is on disk"
-    }
+  "commentary_picture": {
+    "1": "001.jpg",
+    "2": "nostanza-01.jpg",
+    "3": "nostanza-02.jpg",
+    "4": "nostanza-03.jpg",
+    "5": "nostanza-04.jpg",
+    "6": "nostanza-05.jpg",
+    "7": "nostanza-06.jpg",
+    "8": "nostanza-07.jpg",
+    "9": "nostanza-08.jpg",
+    "10": "nostanza-09.jpg"
+  },
+  "stanza_gaps": {},
+  "captioned_commentary_source": {
+    "path": "content/sources/d089/facebook-commentary.json",
+    "sha256": "f4e68ade71a843f05df8fc77b43b6f1f95edda0f4c07c4c02f1e3bc2a25124ee",
+    "post_url": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/",
+    "post_date": "2026-11-27",
+    "index": "data/facebook-export/narayaneeyam-fb/index.csv",
+    "poster": "Visalakshi Selvaraj",
+    "stanzas": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "note": "Numbered #2-#10 captions supply commentary and confirm the corresponding picture-to-stanza mappings. New #1 caption matches the existing commentary exactly; existing S1 commentary retained."
+  },
+  "prior_caption_source": {
+    "path": "intake/D089/photo-captions.txt",
+    "sha256": "93d00dfff0fbba02debdb953c60560790676952b5fda387f5d2012de1b035957",
+    "origin": "intake/D089/photo-captions.txt",
+    "note": "Preserved provenance for the 2025-11-26 post; its S1 caption is identical to the newer #1 caption."
   }
 }

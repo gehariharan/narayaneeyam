@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "daskam_id": 89,
-  "status": "source-mapped-needs-review",
-  "mapping_basis": "Pictures follow the intake naming convention: NNN.jpg is the first picture whose own Facebook caption states stanza #N; NNN-2.jpg and later are further pictures for that stanza; nostanza-NN.jpg have no stated stanza and stay unmapped. A picture whose caption labels several stanzas (for example \"#5 & #6\") is mapped to each of them. Source photos are contextual references only; canonical Sanskrit governs scene interpretation. Exception for this dasakam: the post's pictures 2-10 (nostanza-01.jpg to nostanza-09.jpg) carry no caption and are mapped by post order to stanzas 2-10 (\"mapping_basis\": \"post-order-uncaptioned\"), each checked against its stanza; see order_based_mappings.",
+  "status": "caption-confirmed-needs-review",
+  "mapping_basis": "Pictures 1-10 are mapped to stanzas 1-10 by the numbered #1-#10 captions on the 2026-11-27 Facebook post. The earlier 2025-11-26 post-order mapping for pictures 2-10 is retained below as historical provenance; its references remain the canonical local reference files.",
   "canonical_source": "https://stotranidhi.com/hi/narayaneeyam-dasakam-89-in-sanskrit/",
   "romanization_source": "https://stotranidhi.com/en/narayaneeyam-dasakam-89-in-english/",
-  "caption_source": "intake/D089/photo-captions.txt",
-  "facebook_caption_source": "intake/D089/photo-captions.txt",
+  "caption_source": "content/sources/d089/facebook-commentary.json (sha256 f4e68ade71a843f05df8fc77b43b6f1f95edda0f4c07c4c02f1e3bc2a25124ee); https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/",
+  "facebook_caption_source": "content/sources/d089/facebook-commentary.json (sha256 f4e68ade71a843f05df8fc77b43b6f1f95edda0f4c07c4c02f1e3bc2a25124ee); https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/",
   "images": [
     {
       "stanza": 1,
@@ -17,7 +17,13 @@
       "width": 720,
       "height": 1280,
       "facebook_file": "D089/D089-2025-11-26-1.jpg",
-      "posted": "2025-11-26"
+      "posted": "2025-11-26",
+      "mapping_basis": "caption-confirmed",
+      "captioned_facebook_file": "D089/D089-2026-11-27-1.jpg",
+      "captioned_facebook_sha256": "a07cb4e98178e8e0df2b43dc6a5015c08cedaeb8920139b1756dac6c1c7a2f51",
+      "captioned_facebook_bytes": 118552,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #1)",
+      "mapping_note": "The 2026-11-27 #1 caption matches existing S1 commentary; original reference file remains unchanged."
     },
     {
       "stanza": 2,
@@ -29,8 +35,13 @@
       "height": 1200,
       "facebook_file": "D089/D089-2025-11-26-2.jpg",
       "posted": "2025-11-26",
-      "mapping_basis": "post-order-uncaptioned",
-      "mapping_note": "picture 2 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 2 -> stanza 2), not by a poster caption"
+      "mapping_basis": "caption-confirmed",
+      "mapping_note": "Confirmed by caption #2 on the 2026-11-27 post; reference file remains the original 2025-11-26 photo and is not replaced.",
+      "historical_mapping_basis": "post-order-uncaptioned",
+      "captioned_facebook_file": "D089/D089-2026-11-27-2.jpg",
+      "captioned_facebook_sha256": "ef3c96971d56c7fdef91bdbbf26a4e3c1f8965b5d5a7a997a1ea8e4dc792223d",
+      "captioned_facebook_bytes": 119868,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #2)"
     },
     {
       "stanza": 3,
@@ -42,8 +53,13 @@
       "height": 259,
       "facebook_file": "D089/D089-2025-11-26-3.jpg",
       "posted": "2025-11-26",
-      "mapping_basis": "post-order-uncaptioned",
-      "mapping_note": "picture 3 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 3 -> stanza 3), not by a poster caption"
+      "mapping_basis": "caption-confirmed",
+      "mapping_note": "Confirmed by caption #3 on the 2026-11-27 post; reference file remains the original 2025-11-26 photo and is not replaced.",
+      "historical_mapping_basis": "post-order-uncaptioned",
+      "captioned_facebook_file": "D089/D089-2026-11-27-3.jpg",
+      "captioned_facebook_sha256": "9e8211463a768d2b06ee3a0584c7c370e02c49a78e05c2f1c3fbb1d44bf36120",
+      "captioned_facebook_bytes": 13063,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #3)"
     },
     {
       "stanza": 4,
@@ -55,8 +71,13 @@
       "height": 251,
       "facebook_file": "D089/D089-2025-11-26-4.jpg",
       "posted": "2025-11-26",
-      "mapping_basis": "post-order-uncaptioned",
-      "mapping_note": "picture 4 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 4 -> stanza 4), not by a poster caption"
+      "mapping_basis": "caption-confirmed",
+      "mapping_note": "Confirmed by caption #4 on the 2026-11-27 post; reference file remains the original 2025-11-26 photo and is not replaced.",
+      "historical_mapping_basis": "post-order-uncaptioned",
+      "captioned_facebook_file": "D089/D089-2026-11-27-4.jpg",
+      "captioned_facebook_sha256": "e18a6376e65d9d033d65c82b8f912e40d73aa4ffc77ad548b6ad3d1d0201f081",
+      "captioned_facebook_bytes": 12573,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #4)"
     },
     {
       "stanza": 5,
@@ -68,8 +89,13 @@
       "height": 1280,
       "facebook_file": "D089/D089-2025-11-26-5.jpg",
       "posted": "2025-11-26",
-      "mapping_basis": "post-order-uncaptioned",
-      "mapping_note": "picture 5 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 5 -> stanza 5), not by a poster caption"
+      "mapping_basis": "caption-confirmed",
+      "mapping_note": "Confirmed by caption #5 on the 2026-11-27 post; reference file remains the original 2025-11-26 photo and is not replaced.",
+      "historical_mapping_basis": "post-order-uncaptioned",
+      "captioned_facebook_file": "D089/D089-2026-11-27-5.jpg",
+      "captioned_facebook_sha256": "fd96a0ffd2ad00e0c9164f1fbc08d1b334eb96195f913c28081ab2562346a04e",
+      "captioned_facebook_bytes": 283316,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #5)"
     },
     {
       "stanza": 6,
@@ -81,8 +107,13 @@
       "height": 281,
       "facebook_file": "D089/D089-2025-11-26-6.jpg",
       "posted": "2025-11-26",
-      "mapping_basis": "post-order-uncaptioned",
-      "mapping_note": "picture 6 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 6 -> stanza 6), not by a poster caption"
+      "mapping_basis": "caption-confirmed",
+      "mapping_note": "Confirmed by caption #6 on the 2026-11-27 post; reference file remains the original 2025-11-26 photo and is not replaced.",
+      "historical_mapping_basis": "post-order-uncaptioned",
+      "captioned_facebook_file": "D089/D089-2026-11-27-6.jpg",
+      "captioned_facebook_sha256": "b984f21870588f5dca87a429d5cb0837d9f90831f5c18bd7a195c646e227d86b",
+      "captioned_facebook_bytes": 27254,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #6)"
     },
     {
       "stanza": 7,
@@ -94,8 +125,13 @@
       "height": 690,
       "facebook_file": "D089/D089-2025-11-26-7.jpg",
       "posted": "2025-11-26",
-      "mapping_basis": "post-order-uncaptioned",
-      "mapping_note": "picture 7 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 7 -> stanza 7), not by a poster caption"
+      "mapping_basis": "caption-confirmed",
+      "mapping_note": "Confirmed by caption #7 on the 2026-11-27 post; reference file remains the original 2025-11-26 photo and is not replaced.",
+      "historical_mapping_basis": "post-order-uncaptioned",
+      "captioned_facebook_file": "D089/D089-2026-11-27-7.jpg",
+      "captioned_facebook_sha256": "50807edd623bd113b47a0d9ce2e769404642e7d6b9c2b0cd76379c060b32c7ba",
+      "captioned_facebook_bytes": 140210,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #7)"
     },
     {
       "stanza": 8,
@@ -107,8 +143,13 @@
       "height": 259,
       "facebook_file": "D089/D089-2025-11-26-8.jpg",
       "posted": "2025-11-26",
-      "mapping_basis": "post-order-uncaptioned",
-      "mapping_note": "picture 8 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 8 -> stanza 8), not by a poster caption"
+      "mapping_basis": "caption-confirmed",
+      "mapping_note": "Confirmed by caption #8 on the 2026-11-27 post; reference file remains the original 2025-11-26 photo and is not replaced.",
+      "historical_mapping_basis": "post-order-uncaptioned",
+      "captioned_facebook_file": "D089/D089-2026-11-27-8.jpg",
+      "captioned_facebook_sha256": "cad7cbce8b13cfba0b5b65bbddd94b78773455ab0d69cc349be282c90dafbe2c",
+      "captioned_facebook_bytes": 17081,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #8)"
     },
     {
       "stanza": 9,
@@ -120,8 +161,13 @@
       "height": 1017,
       "facebook_file": "D089/D089-2025-11-26-9.jpg",
       "posted": "2025-11-26",
-      "mapping_basis": "post-order-uncaptioned",
-      "mapping_note": "picture 9 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 9 -> stanza 9), not by a poster caption"
+      "mapping_basis": "caption-confirmed",
+      "mapping_note": "Confirmed by caption #9 on the 2026-11-27 post; reference file remains the original 2025-11-26 photo and is not replaced.",
+      "historical_mapping_basis": "post-order-uncaptioned",
+      "captioned_facebook_file": "D089/D089-2026-11-27-9.jpg",
+      "captioned_facebook_sha256": "8458c27bcb7758e129017c851e2fc74263b6f4d1d4d77f6716f8d0f0d6df9ae5",
+      "captioned_facebook_bytes": 206352,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #9)"
     },
     {
       "stanza": 10,
@@ -133,13 +179,18 @@
       "height": 1280,
       "facebook_file": "D089/D089-2025-11-26-10.jpg",
       "posted": "2025-11-26",
-      "mapping_basis": "post-order-uncaptioned",
-      "mapping_note": "picture 10 of 10 in the post; Facebook shows no caption for it, so it is placed by post order (picture 10 -> stanza 10), not by a poster caption"
+      "mapping_basis": "caption-confirmed",
+      "mapping_note": "Confirmed by caption #10 on the 2026-11-27 post; reference file remains the original 2025-11-26 photo and is not replaced.",
+      "historical_mapping_basis": "post-order-uncaptioned",
+      "captioned_facebook_file": "D089/D089-2026-11-27-10.jpg",
+      "captioned_facebook_sha256": "b8a9fede9cc768fdf60368ba15c0fde6d7aa882f7c70256b46d4356cd2bdf3b7",
+      "captioned_facebook_bytes": 121552,
+      "caption_source": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/ (photo #10)"
     }
   ],
   "missing_stanzas": [],
   "unmapped": [],
-  "order_based_mappings": {
+  "historical_order_based_mappings": {
     "post_url": "https://www.facebook.com/groups/2389815427810388/posts/10068599689931885/",
     "rule": "Post order: picture N -> stanza N for pictures 2-10. Where a stanza's commentary clearly points to a different picture, map by commentary instead.",
     "commentary_check": "Stanzas 2-10 have no commentary on disk (the pictures are uncaptioned and no other source is supplied), and stanza 1's caption describes stanza 1 only, so no commentary points to a different picture. Each picture was checked against its stanza's verse instead; none was moved.",
@@ -218,5 +269,76 @@
         "verse_check": "The verse is the closing prayer to the Lord of Guruvayur, the gopis' fortune; the picture shows Krishna."
       }
     }
+  },
+  "caption_confirmed_mappings": {
+    "2": {
+      "caption": "#2",
+      "facebook_file": "D089/D089-2026-11-27-2.jpg",
+      "sha256": "ef3c96971d56c7fdef91bdbbf26a4e3c1f8965b5d5a7a997a1ea8e4dc792223d",
+      "reference_file": "intake/D089/nostanza-01.jpg",
+      "reference_sha256": "96e6c30e791b800da3bd7e2e95bc214ecc1f779f51a1b5874e11605919a90f45"
+    },
+    "3": {
+      "caption": "#3",
+      "facebook_file": "D089/D089-2026-11-27-3.jpg",
+      "sha256": "9e8211463a768d2b06ee3a0584c7c370e02c49a78e05c2f1c3fbb1d44bf36120",
+      "reference_file": "intake/D089/nostanza-02.jpg",
+      "reference_sha256": "fd31b3fa4440db4cb810ad8038ebb8d7a984323649c0ec9696a0b6ae6e37d423"
+    },
+    "4": {
+      "caption": "#4",
+      "facebook_file": "D089/D089-2026-11-27-4.jpg",
+      "sha256": "e18a6376e65d9d033d65c82b8f912e40d73aa4ffc77ad548b6ad3d1d0201f081",
+      "reference_file": "intake/D089/nostanza-03.jpg",
+      "reference_sha256": "15010ab06f0e727d6c9f8bc955e86d691d715edfda470cedd6146b003a7b43de"
+    },
+    "5": {
+      "caption": "#5",
+      "facebook_file": "D089/D089-2026-11-27-5.jpg",
+      "sha256": "fd96a0ffd2ad00e0c9164f1fbc08d1b334eb96195f913c28081ab2562346a04e",
+      "reference_file": "intake/D089/nostanza-04.jpg",
+      "reference_sha256": "6398f1c340045cac0dcba6c3c3c1685421490394bc619984419cfe486fb53524"
+    },
+    "6": {
+      "caption": "#6",
+      "facebook_file": "D089/D089-2026-11-27-6.jpg",
+      "sha256": "b984f21870588f5dca87a429d5cb0837d9f90831f5c18bd7a195c646e227d86b",
+      "reference_file": "intake/D089/nostanza-05.jpg",
+      "reference_sha256": "2c70b455a010acf722c0f528599343ca5dddc5dfa8f284d2fc2164bc9f8bc5e5"
+    },
+    "7": {
+      "caption": "#7",
+      "facebook_file": "D089/D089-2026-11-27-7.jpg",
+      "sha256": "50807edd623bd113b47a0d9ce2e769404642e7d6b9c2b0cd76379c060b32c7ba",
+      "reference_file": "intake/D089/nostanza-06.jpg",
+      "reference_sha256": "fd16e3dad15b29b85ee01ed1393a53c393cd06f405522d86b2703760d4894a6e"
+    },
+    "8": {
+      "caption": "#8",
+      "facebook_file": "D089/D089-2026-11-27-8.jpg",
+      "sha256": "cad7cbce8b13cfba0b5b65bbddd94b78773455ab0d69cc349be282c90dafbe2c",
+      "reference_file": "intake/D089/nostanza-07.jpg",
+      "reference_sha256": "a2bfd0e7b815449adf3e687f24b46c7b97ebfe93f93c15bb21540c887459ff87"
+    },
+    "9": {
+      "caption": "#9",
+      "facebook_file": "D089/D089-2026-11-27-9.jpg",
+      "sha256": "8458c27bcb7758e129017c851e2fc74263b6f4d1d4d77f6716f8d0f0d6df9ae5",
+      "reference_file": "intake/D089/nostanza-08.jpg",
+      "reference_sha256": "d40de377194e458844db1fc8b84d9992db8426a4b4e1b8d240680b4a8861a284"
+    },
+    "10": {
+      "caption": "#10",
+      "facebook_file": "D089/D089-2026-11-27-10.jpg",
+      "sha256": "b8a9fede9cc768fdf60368ba15c0fde6d7aa882f7c70256b46d4356cd2bdf3b7",
+      "reference_file": "intake/D089/nostanza-09.jpg",
+      "reference_sha256": "1f67001ad42ce79efeb1c1d581735573e2ccbb917cc0db8048f98ff52b668515"
+    }
+  },
+  "caption_confirmation": {
+    "post_url": "https://www.facebook.com/groups/2389815427810388/posts/27811362061895708/",
+    "post_date": "2026-11-27",
+    "index": "data/facebook-export/narayaneeyam-fb/index.csv",
+    "note": "The post has captions #1-#10, one per stanza; the associated ten photos are the same reference set noted in the task context. New exports have distinct SHA-256 values, so the existing reference files were kept and both old/new hashes are recorded."
   }
 }
